@@ -1,0 +1,238 @@
+{
+  "name" : "Ho2019 - Mathematical models of transmission dynamics and vaccine strategies in Hong Kong during the 2017-2018 winter influenza season (Simple)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is the simple version of the two mathematical models presented by Ho et al. It is a model comprised of simple ordinary differential equations describing the overall epidemic dynamics of influenza infection in the 2017-2018 winter influenza season in Hong Kong.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31128142",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Mathematical models of transmission dynamics and vaccine strategies in Hong Kong during the 2017-2018 winter influenza season.",
+    "affiliation" : "Faculty of Education, University of Hong Kong, Pokfulam Road, Hong Kong. Electronic address: shingheiho@gmail.com.",
+    "synopsis" : "Two mathematical models described by simple ordinary differential equations are developed to investigate the Hong Kong influenza epidemic during 2017-2018 winter, based on overall epidemic dynamics and different influenza subtypes. The first model, describing the overall epidemic dynamics, provides the starting data for the second model which different influenza subtypes, and whose dynamics is further investigated. Weekly data from December 2017 to May 2018 are obtained from the data base of the Centre of Health Protection in Hong Kong, and used to parametrise the models. With the help of these models, we investigate the impact of different vaccination strategies and determine the corresponding critical vaccination coverage for different vaccine efficacies. The results suggest that at least 72% of Hong Kong population should have been vaccinated during 2017-2018 winter to prevent the seasonal epidemic by herd immunity (while data showed that only a maximum of 11.6% of the population were vaccinated). Our results also show that the critical vaccination coverage decreases with increasing vaccine efficacy, and the increase in one influenza subtype vaccine efficacy may lead to an increase in infections caused by a different subtype.",
+    "year" : 2019,
+    "month" : "9",
+    "volume" : "476",
+    "pages" : "74-94",
+    "link" : "http://identifiers.org/pubmed/31128142",
+    "authors" : [
+      {
+        "name" : "Shing Hei Ho",
+        "institution" : "Faculty of Education, University of Hong Kong, Pokfulam Road, Hong Kong. Electronic address: shingheiho@gmail.com."
+      },
+      {
+        "name" : "Daihai He",
+        "institution" : "Department of Applied Mathematics, Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong.",
+        "orcid" : "0000-0003-3253-654X"
+      },
+      {
+        "name" : "Eftimie R",
+        "institution" : "Division of Mathematics, University of Dundee, Dundee, DD1 4HN, UK. r.a.eftimie@dundee.ac.uk.",
+        "orcid" : "0000-0002-9726-1498"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Ho2019.xml",
+        "description" : "SBML L2V4 Representation of Ho2019 - Mathematical models of transmission dynamics and vaccine strategies in Hong Kong during the 2017–2018 winter influenza season (Simple)",
+        "fileSize" : "34108",
+        "mimeType" : "application/xml",
+        "md5sum" : "5ff63c90bd535497389025cfd5b57843",
+        "sha1sum" : "ea22e24191587f72aba98e23cccca3fcae58151b",
+        "sha256sum" : "79f2644b75a5054cd710983ef0f82f94634e5b25f47e107698e8f432a6c58cbd"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Ho2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "11645",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c159f3f5516c3a59713a3d37b99d90e",
+        "sha1sum" : "d8cb3f776a1c2acb7133994223bae71685ecded3",
+        "sha256sum" : "ff15d2ebad54172073d45e817e95cb2d76e697206fdb0a08d280697545bf666e"
+      },
+      {
+        "name" : "Ho2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "16158",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "708b34f39962a91f8f78df45313c89fd",
+        "sha1sum" : "0f919b02d3c2386e573d66b08febc99e5a8041c5",
+        "sha256sum" : "c7fd49ebd149f9357a3183af9c2112ab9857a77f344ad748ea1ed40c4664c927"
+      },
+      {
+        "name" : "Ho2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6116",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "99c8ba514a1d08dde5080bc8eb876301",
+        "sha1sum" : "49f485be6f2a95ab92e090b2335540d0ef62fab7",
+        "sha256sum" : "8830872ff94a50df399fd2d3be09800ffbf4277d2911d1cb0ffb22e5a9c8ce5e"
+      },
+      {
+        "name" : "Ho2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6116",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a94e16a57d09afcf7d77ffe97c655e5a",
+        "sha1sum" : "ca9fa75d31f583ff2b623348d11358f5af4b24a2",
+        "sha256sum" : "b11f3e4d458cd7ae816a3d59bd0d731e88c09a2aa1600e2bf788515e5f48be97"
+      },
+      {
+        "name" : "Ho2019.cps",
+        "description" : "COPASI file of Ho2019 - Mathematical models of transmission dynamics and vaccine strategies in Hong Kong during the 2017–2018 winter influenza season (Simple)",
+        "fileSize" : "64888",
+        "mimeType" : "application/xml",
+        "md5sum" : "43ed0a6a37cdfb3782500295c19dc741",
+        "sha1sum" : "7bfabd50c88c45d159f4d4b6f94accc91a807aca",
+        "sha256sum" : "bb9db97a5c88a0613c94bd5df4f310ea4c54ce2c2008164e2e057d699f23b4a9"
+      },
+      {
+        "name" : "Ho2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4189",
+        "mimeType" : "text/plain",
+        "md5sum" : "bcdd07531660792359f617b372f8d501",
+        "sha1sum" : "5804d61be80aa61fe6f896524e31811310888d8b",
+        "sha256sum" : "43021c4c3037439842e157d66c14391d5d17cf0d46885adb1a54804a2fea52b6"
+      },
+      {
+        "name" : "Ho2019.sedml",
+        "description" : "SED-ML file of Ho2019 - Mathematical models of transmission dynamics and vaccine strategies in Hong Kong during the 2017–2018 winter influenza season (Simple) (additionally CRBM-validated and adjusted).",
+        "fileSize" : "17274",
+        "mimeType" : "application/xml",
+        "md5sum" : "3d6b13a3f14700bdea9021a6a9eec47e",
+        "sha1sum" : "a060c18e82ac7fcf80f462639f29128714380d79",
+        "sha256sum" : "e79177ebb8d47ea63e63ef7512afcab4004c53d04045ffb0a66a7d1acfe50d19"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12893",
+        "mimeType" : "image/png",
+        "md5sum" : "f93032dc909f7aef9bac141528933dd8",
+        "sha1sum" : "5ebae7ba62f94681c3a81ea119fa7bd0ffa7a300",
+        "sha256sum" : "ee6472327001ea1ba362536ffe72fe83d1895e68d0d69126d6dfbb908e750f2b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "124",
+        "mimeType" : "text/plain",
+        "md5sum" : "ad50981b50497a1181fdade8b508712b",
+        "sha1sum" : "15b9480ee6dbea2d30f185e2720ccc3a281e16c0",
+        "sha256sum" : "1d0bd433179be054b632891397142d941508eaff6b43ae540be1551566bd9845"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1379",
+        "mimeType" : "application/xml",
+        "md5sum" : "06174036d9db3e13a0c306941fc78b23",
+        "sha1sum" : "a68698a4d1c3ee7f8e306d561e8a06421f1963c6",
+        "sha256sum" : "69ccfb77629fe74f7c542b3ff581a50073d9a228fe4f34eb0c2c6fdc544f52f1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1995",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "97cab1ce8b10611835d5c2a8099afb4c",
+        "sha1sum" : "55314981c2a03c8d54a7e865629bb5db994e9157",
+        "sha256sum" : "16468aedbb43534b43783f918c160d195cef449c641f0e43583a5f6614b23130"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1573560922,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000851"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724291246,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285511,
+  "submissionId" : "MODEL1911120003",
+  "publicationId" : "BIOMD0000000851",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31128142",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31128142"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000851",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000851"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911120003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911120003"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C71292",
+      "name" : "Transmission",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C71292"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C53482",
+      "name" : "Influenza",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C53482"
+    }
+  ]
+}

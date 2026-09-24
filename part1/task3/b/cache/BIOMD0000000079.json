@@ -1,0 +1,262 @@
+{
+  "name" : "Goldbeter2006_weightCycling",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is according to the paper of      <i>A model for the dynamics of human weight cycling</i>          by A. Goldbeter 2006.The figure3 (A) and (B) have been reproduced by Copasi 4.0.19(development) and SBMLodeSolver.The writer of the paper did not specify any units for the metabolites, so the creator of the model did not define the units as well.Both Q and R are normalized to vary between 0 and 1.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16595882",
+    "journal" : "Journal of biosciences",
+    "title" : "A model for the dynamics of human weight cycling.",
+    "affiliation" : "Unite de Chronobiologie theorique, Faculte des Sciences, Universite Libre de Bruxelles, Campus Plaine, Brussels, Belgium. agoldbet@ulb.ac.be",
+    "synopsis" : "The resolution to lose weight by cognitive restraint of nutritional intake often leads to repeated bouts of weight loss and regain, a phenomenon known as weight cycling or \"yo-yo dieting\". A simple mathematical model for weight cycling is presented. The model is based on a feedback of psychological nature by which a subject decides to reduce dietary intake once a threshold weight is exceeded. The analysis of the model indicates that sustained oscillations in body weight occur in a parameter range bounded by critical values. Only outside this range can body weight reach a stable steady state. The model provides a theoretical framework that captures key facets of weight cycling and suggests ways to control the phenomenon. The view that weight cycling represents self-sustained oscillations has indeed specific implications. In dynamical terms, to bring weight cycling to an end, parameter values should change in such a way as to induce the transition of body weight from sustained oscillations around an unstable steady state to a stable steady state. Maintaining weight under a critical value should prevent weight cycling and allow body weight to stabilize below the oscillatory range.",
+    "year" : 2006,
+    "month" : "3",
+    "volume" : "31",
+    "issue" : "1",
+    "pages" : "129-136",
+    "link" : "http://identifiers.org/pubmed/16595882",
+    "authors" : [
+      {
+        "name" : "Albert Goldbeter",
+        "institution" : "Unite de Chronobiologie theorique, Faculte des Sciences, Universite Libre de Bruxelles, Campus Plaine, Brussels, Belgium. agoldbet@ulb.ac.be"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000079_url.xml",
+        "description" : "SBML L2V4 representation of Goldbeter2006_weightCycling",
+        "fileSize" : "16886",
+        "mimeType" : "application/xml",
+        "md5sum" : "e91ad99a9d9eabc611f487e2c913f5ef",
+        "sha1sum" : "2c9fbd93ed8f6dd3bdb5f25a8f1a964ea499938b",
+        "sha256sum" : "3d6bc03b2010843357680f0e19737c4b277f4faaf5283d84291d26380e0d4c98"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000079-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "9364",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5089fb54335608c9a41d43bd781b17cb",
+        "sha1sum" : "7347fa7df67e77c830230c9cd887b95eed1562b8",
+        "sha256sum" : "af0c468b1b89328578ba1ba63907afcc62e53f8577ba71ba2bd20cbb0be1e96d"
+      },
+      {
+        "name" : "BIOMD0000000079-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "12398",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9bebd29cd11614fb2b99ccc1f5dba001",
+        "sha1sum" : "dbae4a064be0af2b35156ea5ada95a0418e1fe4c",
+        "sha256sum" : "b77d0b8d3d51b931bcf828873948a532644ea80f0ef52688506a53781254c790"
+      },
+      {
+        "name" : "BIOMD0000000079-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4603",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a1e17197554458d1bd8668745ccd9d5b",
+        "sha1sum" : "f28d867644a4effa38eccd1a4a5127a5be763a2d",
+        "sha256sum" : "930567517f832516f073fe5e04840f7ccee186bd065b80947a3a9e8629b94b12"
+      },
+      {
+        "name" : "BIOMD0000000079-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4603",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3855f3e5d2a89abaa81019c4649ed280",
+        "sha1sum" : "1f932d920890c8d750fef797981a16b4e4a15c69",
+        "sha256sum" : "8dfe33297d1bf2b12d31b6f5918145d7373a4214f8b3dac139bbbd0f5a1c6fd1"
+      },
+      {
+        "name" : "BIOMD0000000079.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4603",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3855f3e5d2a89abaa81019c4649ed280",
+        "sha1sum" : "1f932d920890c8d750fef797981a16b4e4a15c69",
+        "sha256sum" : "8dfe33297d1bf2b12d31b6f5918145d7373a4214f8b3dac139bbbd0f5a1c6fd1"
+      },
+      {
+        "name" : "BIOMD0000000079.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2552",
+        "mimeType" : "text/plain",
+        "md5sum" : "b5e1751bab769c2d2df178009d7e28a8",
+        "sha1sum" : "6fc35782515d32cb9cc7ff23d396604420eab0a0",
+        "sha256sum" : "c65d35caa9dde26143da4c86f556c5c5e1bfc63cca9cf3c18df35bc97175966c"
+      },
+      {
+        "name" : "BIOMD0000000079.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "161372",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c0fcaf3db0d12a9c172c516fd618b208",
+        "sha1sum" : "8993bdc3b4511d68f3a95e5ec9df610b6bd5c06f",
+        "sha256sum" : "e8bd1fbfc5ebaf063749525a3ffb6208f9ff5c003e00d37aecfa164b97784846"
+      },
+      {
+        "name" : "BIOMD0000000079.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "23953",
+        "mimeType" : "image/png",
+        "md5sum" : "a9654dffbd0e9434ba3fd3449adb2aaa",
+        "sha1sum" : "e406a48b0d98cea1e1a6a1eb4b5d4fee543264c1",
+        "sha256sum" : "1eece446aa89e1c3dcaf3473db8bdb4819eb759ca31b66211d1cd0266f75a661"
+      },
+      {
+        "name" : "BIOMD0000000079.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "12182",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e6fb96f8fada1c0f247e9cb050e1ff94",
+        "sha1sum" : "f436b75680b8fe7d28e4b1faaed11abc2f039f4f",
+        "sha256sum" : "203b742926fe61dd6e973dd68cf8e2f305775ba172a27805f8fb7759e5e09914"
+      },
+      {
+        "name" : "BIOMD0000000079_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "7371",
+        "mimeType" : "application/xml",
+        "md5sum" : "3abd3611598e8619783ac2820a20e898",
+        "sha1sum" : "de4200eddfa83ba09f4376483069b9e4cfee8813",
+        "sha256sum" : "1052ca2792ecf101b5c501df5339bece494870339ff6dac8146e247bf4f516db"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19070",
+        "mimeType" : "image/png",
+        "md5sum" : "857716f9c3ff7371971c74c52cae9ca7",
+        "sha1sum" : "c0ef70fcd2a18570a69faa2bad88f6ffa944de4d",
+        "sha256sum" : "d2ee39994c61ff4052660a01b42240f8ec70e5c71d8b3490fca49454c70a426e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "117",
+        "mimeType" : "text/plain",
+        "md5sum" : "8deeb3e1d44b7197c210e8daf5bd0e9c",
+        "sha1sum" : "8ff1b5a622119946724fc56a18240a7b12119036",
+        "sha256sum" : "7a88afc7c843d11f9ccced4b814d4e2023ebb841c8ed65b7ca1c76c1efec4762"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "8e6deb599102ee4cc8a261121842ca4a",
+        "sha1sum" : "6b466bf624e6f7a4a1706376a4e012c593049a89",
+        "sha256sum" : "7c63e7a5856e377031315523b4611d2f2450cb1ad790f0a26b15eedc5a5a303e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3201",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c69795694871325ee14abc846e4c55ff",
+        "sha1sum" : "a3bcb3998c9b7292c19cf5af608ddad45b8e60d1",
+        "sha256sum" : "86efd56a28bb9ed791670440a9f205a50ff2b2b361f04de4e142356a4176b687"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1164646876,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Goldbeter2006_weightCycling"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424863827,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Goldbeter2006_weightCycling"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266815,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284868,
+  "submissionId" : "MODEL4644593552",
+  "publicationId" : "BIOMD0000000079",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4644593552",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4644593552"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000079",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000079"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16595882",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16595882"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0040014",
+      "name" : "regulation of multicellular organism growth",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0040014"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

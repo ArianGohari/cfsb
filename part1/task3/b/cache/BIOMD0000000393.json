@@ -1,0 +1,258 @@
+{
+  "name" : "Arnold2011_Zhu2007_CalvinCycle_Starch_Sucrose_Photorespiration",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> A quantitative comparison of Calvin–Benson cycle models</strong>        <br />Anne Arnold, Zoran Nikoloski      <em>Trends in Plant Science</em>2011 Oct 14.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22001849\">22001849</a>,      <br />        <strong>Abstract:</strong>        <br />The Calvin-Benson cycle (CBC) provides the precursors for biomass synthesis necessary for plant growth. The dynamic behavior and yield of the CBC depend on the environmental conditions and regulation of the cellular state. Accurate quantitative models hold the promise of identifying the key determinants of the tightly regulated CBC function and their effects on the responses in future climates. We provide an integrative analysis of the largest compendium of existing models for photosynthetic processes. Based on the proposed ranking, our framework facilitates the discovery of best-performing models with regard to metabolomics data and of candidates for metabolic engineering.   </p>        <p>          <b>Note:</b> Model of the Calvin cycle and the related end-product pathways to starch and sucrose synthesis and photorespiration by Zhu et al. (2007, <a href=\"http://dx.doi.org/10.1104/pp.107.103713\">DOI:10.1104/pp.107.103713</a>) and the personally provided implementation.</p> The parameter values are partly taken from Pettersson and Ryde-Pettersson (1988, <a href=\"http://dx.doi.org/10.1111/j.1432-1033.1988.tb14242.x\">DOI:10.1111/j.1432-1033.1988.tb14242.x</a>). The initial metabolite values are chosen from the data set of Zhu et al. (2007, <a href=\"http://dx.doi.org/10.1104/pp.107.103713\">DOI:10.1104/pp.107.103713</a>). A detailed description of all modifications is given in the model described by Arnold and Nikoloski (2011, <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22001849\">PMID:22001849</a>.</body>        </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22001849",
+    "journal" : "Trends in plant science",
+    "title" : "A quantitative comparison of Calvin-Benson cycle models.",
+    "affiliation" : "Institute of Biochemistry and Biology, University of Potsdam, 14476 Potsdam, Germany.",
+    "synopsis" : "The Calvin-Benson cycle (CBC) provides the precursors for biomass synthesis necessary for plant growth. The dynamic behavior and yield of the CBC depend on the environmental conditions and regulation of the cellular state. Accurate quantitative models hold the promise of identifying the key determinants of the tightly regulated CBC function and their effects on the responses in future climates. We provide an integrative analysis of the largest compendium of existing models for photosynthetic processes. Based on the proposed ranking, our framework facilitates the discovery of best-performing models with regard to metabolomics data and of candidates for metabolic engineering.",
+    "year" : 2011,
+    "month" : "12",
+    "volume" : "16",
+    "issue" : "12",
+    "pages" : "676-683",
+    "link" : "http://identifiers.org/pubmed/22001849",
+    "authors" : [
+      {
+        "name" : "Anne Arnold",
+        "institution" : "Institute of Biochemistry and Biology, University of Potsdam, 14476 Potsdam, Germany.",
+        "orcid" : "0000-0001-7836-7572"
+      },
+      {
+        "name" : "Zoran Nikoloski",
+        "orcid" : "0000-0003-2671-6763"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000393_url.xml",
+        "description" : "SBML L2V4 representation of Arnold2011_Zhu2007_CalvinCycle_Starch_Sucrose_Photorespiration",
+        "fileSize" : "169544",
+        "mimeType" : "application/xml",
+        "md5sum" : "c6b329ef0a7e8bd6dcb20ac2928b6e0f",
+        "sha1sum" : "988394da89110ce6fd774405f0fde129079ebb0c",
+        "sha256sum" : "347691526a9084d5f4f00a9635122554c489f278f1768861a9dfd547b9a83b37"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000393-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "73113",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "963bb871170eb89ca0ab4648d9a2a114",
+        "sha1sum" : "d7a966ffe70ccd8368e4105e1d6aaf6709594348",
+        "sha256sum" : "a62ea059b69423653834ba72ede139dca258c1fa40f1d4a785497d7f0195a547"
+      },
+      {
+        "name" : "BIOMD0000000393-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "116996",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "815869ebbdd58611a2c9a128fc81a9f4",
+        "sha1sum" : "9e0cb6c67681eb329a2ed83c90ae9ee16bf6eed9",
+        "sha256sum" : "3bb4e367960959874f159d52c81f740d4d989e46aa0f72a360497b95c0c7c0cf"
+      },
+      {
+        "name" : "BIOMD0000000393-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "36774",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5c5eec1461b3bdf549976d66d724d1e5",
+        "sha1sum" : "4df25ee0bc34592f800a07d8f03b731a4bbd1096",
+        "sha256sum" : "8d1214bfdcfff5d6689a4fdd60dc78622377d702d02fbe9d91148795f2078d64"
+      },
+      {
+        "name" : "BIOMD0000000393.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "36774",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7490ab2e013815a4a562d7e63340a5e1",
+        "sha1sum" : "31d22f94d8f6421c8c1830a867a724ce72a8c367",
+        "sha256sum" : "30f632b6ef76d0818db77c914c445953d90ba276aca5b13cc6af13f9aa6de2c0"
+      },
+      {
+        "name" : "BIOMD0000000393.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "29527",
+        "mimeType" : "text/plain",
+        "md5sum" : "7d8c17547da1c4e9873515a7a1537254",
+        "sha1sum" : "5fbb69b055708cefd4bba652ec97869a7252f2d1",
+        "sha256sum" : "2f4442851c7b9721dc896558569fbe04940b715aebc2c832ac3dedfdbbc37cda"
+      },
+      {
+        "name" : "BIOMD0000000393.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "468501",
+        "mimeType" : "application/pdf",
+        "md5sum" : "84f4de0ca0aa3f38d71a57aa3cd498df",
+        "sha1sum" : "9704514d52aa19011612e0d12212843ff65c5823",
+        "sha256sum" : "ed6afdea7134d6eddcb3de6a29ace19fa5e1865b8ae1012ae64c6f89ec31acc1"
+      },
+      {
+        "name" : "BIOMD0000000393.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1538357",
+        "mimeType" : "image/png",
+        "md5sum" : "a3add8f25aabea072ba0619c7488fa6e",
+        "sha1sum" : "20794e73299ba4ee4dadbb6ae900903dbc10e78f",
+        "sha256sum" : "994b7233ba035eeab35ef50f0f9eaab2cf45889dc9d15d2df6cea4724b93cd86"
+      },
+      {
+        "name" : "BIOMD0000000393.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "136568",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "872d9229964a8361dd78a8b54da2c217",
+        "sha1sum" : "0b2a67c438e422358c1db319ab811b55f4038e39",
+        "sha256sum" : "e56a319f233c24a0cefd7ceebe203824876a692c240e5a4f6cfa60b8689ab508"
+      },
+      {
+        "name" : "BIOMD0000000393_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "64451",
+        "mimeType" : "application/xml",
+        "md5sum" : "8d15cd91cb164f116c3f74122403c738",
+        "sha1sum" : "7a7741acf397f479d596aaea32b5eb290733ccbf",
+        "sha256sum" : "e6af4b72620a2ec7d5f99969c4435cac123c9e755afff9ff23e2dcf6e845f7ea"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "112035",
+        "mimeType" : "image/png",
+        "md5sum" : "efdc920b214ca2e01ca2758b94978bee",
+        "sha1sum" : "f715ced881e7bb4b9bfce298e7bc6a4e68ebdec0",
+        "sha256sum" : "a6de5e91891fece8e879db914bc8d3aeb0d2a4ea76aa06d13e1399ad3664d556"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "242",
+        "mimeType" : "text/plain",
+        "md5sum" : "1c6e9351092a7ab8327fcfef4c23d25f",
+        "sha1sum" : "5afb682b7e538bc53edfed73c096878961a3dc86",
+        "sha256sum" : "49fb61b51e5e7296cc1a72b0bd130f152993248b9a9e8314c9cd0d6de7082555"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1671",
+        "mimeType" : "application/xml",
+        "md5sum" : "30759e471a711b671f0e033834c704a1",
+        "sha1sum" : "e05be7e11c0905cb0f7cb172ee69ed721e98c8cc",
+        "sha256sum" : "f2603b9413d7324a8388ed5612d3bd985480efe39178340a0e00bf979ce3c0ec"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3730",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b026872b17244be8d3a3f6ffd925759a",
+        "sha1sum" : "56c2c85dd400ec02e81523765ad456fa4fb15ede",
+        "sha256sum" : "eaafe8b1dbf9a2d5a0590c5c7ce6dc779a913beb95c57c68c8436a2941d829dd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1317126058,
+        "submitter" : "Anne Arnold",
+        "comment" : "Original import of Zhu 2007"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460139271,
+        "submitter" : "Anne Arnold",
+        "comment" : "Current version of Arnold2011_Zhu2007_CalvinCycle_Starch_Sucrose_Photorespiration"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275458,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285117,
+  "submissionId" : "MODEL1109270009",
+  "publicationId" : "BIOMD0000000393",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Anne Arnold",
+        "email" : "arnold@mpimp-golm.mpg.de",
+        "affiliation" : "Max-Planck-Institute of Molecular Plant Physiology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1109270009",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1109270009"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000393",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000393"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22001849",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22001849"
+    },
+    {
+      "qualifier" : "bqbiol:encodes",
+      "accession" : "GO:0019253",
+      "name" : "reductive pentose-phosphate cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019253"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "33090",
+      "name" : "Viridiplantae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/33090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

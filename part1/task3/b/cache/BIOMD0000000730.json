@@ -1,0 +1,243 @@
+{
+  "name" : "Gerard2009 - An Integrated Mammalian Cell Cycle Model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>We propose an integrated computational model for the network of cyclin-dependent kinases (Cdks) that controls the dynamics of the mammalian cell cycle. The model contains four Cdk modules regulated by reversible phosphorylation, Cdk inhibitors, and protein synthesis or degradation. Growth factors (GFs) trigger the transition from a quiescent, stable steady state to self-sustained oscillations in the Cdk network. These oscillations correspond to the repetitive, transient activation of cyclin D/Cdk4-6 in G(1), cyclin E/Cdk2 at the G(1)/S transition, cyclin A/Cdk2 in S and at the S/G(2) transition, and cyclin B/Cdk1 at the G(2)/M transition. The model accounts for the following major properties of the mammalian cell cycle: (i) repetitive cell cycling in the presence of suprathreshold amounts of GF; (ii) control of cell-cycle progression by the balance between antagonistic effects of the tumor suppressor retinoblastoma protein (pRB) and the transcription factor E2F; and (iii) existence of a restriction point in G(1), beyond which completion of the cell cycle becomes independent of GF. The model also accounts for endoreplication. Incorporating the DNA replication checkpoint mediated by kinases ATR and Chk1 slows down the dynamics of the cell cycle without altering its oscillatory nature and leads to better separation of the S and M phases. The model for the mammalian cell cycle shows how the regulatory structure of the Cdk network results in its temporal self-organization, leading to the repetitive, sequential activation of the four Cdk modules that brings about the orderly progression along cell-cycle phases.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20007375",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Temporal self-organization of the cyclin/Cdk network driving the mammalian cell cycle.",
+    "affiliation" : "Unité de Chronobiologie Théorique, Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C.P. 231, B-1050 Brussels, Belgium.",
+    "synopsis" : "We propose an integrated computational model for the network of cyclin-dependent kinases (Cdks) that controls the dynamics of the mammalian cell cycle. The model contains four Cdk modules regulated by reversible phosphorylation, Cdk inhibitors, and protein synthesis or degradation. Growth factors (GFs) trigger the transition from a quiescent, stable steady state to self-sustained oscillations in the Cdk network. These oscillations correspond to the repetitive, transient activation of cyclin D/Cdk4-6 in G(1), cyclin E/Cdk2 at the G(1)/S transition, cyclin A/Cdk2 in S and at the S/G(2) transition, and cyclin B/Cdk1 at the G(2)/M transition. The model accounts for the following major properties of the mammalian cell cycle: (i) repetitive cell cycling in the presence of suprathreshold amounts of GF; (ii) control of cell-cycle progression by the balance between antagonistic effects of the tumor suppressor retinoblastoma protein (pRB) and the transcription factor E2F; and (iii) existence of a restriction point in G(1), beyond which completion of the cell cycle becomes independent of GF. The model also accounts for endoreplication. Incorporating the DNA replication checkpoint mediated by kinases ATR and Chk1 slows down the dynamics of the cell cycle without altering its oscillatory nature and leads to better separation of the S and M phases. The model for the mammalian cell cycle shows how the regulatory structure of the Cdk network results in its temporal self-organization, leading to the repetitive, sequential activation of the four Cdk modules that brings about the orderly progression along cell-cycle phases.",
+    "year" : 2009,
+    "month" : "12",
+    "volume" : "106",
+    "issue" : "51",
+    "pages" : "21643-21648",
+    "link" : "http://identifiers.org/pubmed/20007375",
+    "authors" : [
+      {
+        "name" : "Claude Gérard",
+        "institution" : "Unité de Chronobiologie Théorique, Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C.P. 231, B-1050 Brussels, Belgium."
+      },
+      {
+        "name" : "Albert Goldbeter"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Gerard2009.xml",
+        "description" : "SBML lvl2 file containing the model",
+        "fileSize" : "606927",
+        "mimeType" : "application/xml",
+        "md5sum" : "7d7795e78ed5fb023fd890b78f3519b7",
+        "sha1sum" : "1c4eb17f81e9b5247fac8c104e1ecc1f37602ba6",
+        "sha256sum" : "2f63a1f0974ede05cee45775b5325b71643581dc4ba75cf93170a8115c977edf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Gerard2009-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "126329",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "622e1f17a4684ca2a0dfd4a481da2745",
+        "sha1sum" : "3b9efa2b01d6aa51c25f0ba2845720e40cd18e46",
+        "sha256sum" : "2268e2ee41241b09462b0c61906f208d98b8d63cdaa4cb74a1652b1f32dcac54"
+      },
+      {
+        "name" : "Gerard2009-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "209991",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6d54b0a9b1695bba0cc7445b75790f11",
+        "sha1sum" : "f8e9d244b00d528d32d044ecb9889cb78d7d4f60",
+        "sha256sum" : "344bd4f100a004bc9ac1c9b15f92df21dd3969edaae38ad6daba0eb1a2f66140"
+      },
+      {
+        "name" : "Gerard2009-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "58539",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "df37600f432a7edf209f9e9ffb52d2d0",
+        "sha1sum" : "265a2759b3613c9f9144e6f1ffc05d84ae92a968",
+        "sha256sum" : "3b594bb8262d17e7b18e96147e66c128c7f4e889cc2366b4dc65541c5d653a7d"
+      },
+      {
+        "name" : "Gerard2009.cps",
+        "description" : "Copasi file to generate the plot data",
+        "fileSize" : "678733",
+        "mimeType" : "application/xml",
+        "md5sum" : "46de9aee719632b1af81722cf02f1646",
+        "sha1sum" : "46101ecea9fb20c0e570bc01660bf71613936314",
+        "sha256sum" : "6b5e823f7b70ba2b2f9c5c5eee0d2229cb52ff21a7c6245b12be454e0dc3276f"
+      },
+      {
+        "name" : "Gerard2009.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "50427",
+        "mimeType" : "text/plain",
+        "md5sum" : "d479f77c8e24d104c70e0291be0c39f9",
+        "sha1sum" : "86c68d0ab31099443b94352dd4061ae265180ca5",
+        "sha256sum" : "1b7630032a3fc9f28884633c57c7a43f4c319a47a830b2ef6728965a8be4c656"
+      },
+      {
+        "name" : "Gerard2009.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "192030",
+        "mimeType" : "application/xml",
+        "md5sum" : "6caaa18f22f79003cadeb4abb18a8779",
+        "sha1sum" : "58841ea34d194d2ed23f4e4bea7b979b6acda4d1",
+        "sha256sum" : "5567a212d33edd047b20cc2785cb539e2c7146eb2b5c842284f220163ef22dab"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "180392",
+        "mimeType" : "image/png",
+        "md5sum" : "1862e3d4d08ebcc4798fb384b5d364e5",
+        "sha1sum" : "e3bf8764e01c93172d5cd94282b57862c3195924",
+        "sha256sum" : "8ba996bed66d04a4efb78cadff7383ecaddc3d624eeb5179475c14fcb2434489"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "200",
+        "mimeType" : "text/plain",
+        "md5sum" : "da8a3066f442a6db908cd06f1bd43c80",
+        "sha1sum" : "79a286c77f3cf05683375a544b03b36f8a5aca7a",
+        "sha256sum" : "8fc5e1c3fea99974f18032d4a7a7a6e28bdb57deed2bf0f36872d6742d8dc633"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1297",
+        "mimeType" : "application/xml",
+        "md5sum" : "372dc68ffb02aa051eaf39b4b8e37090",
+        "sha1sum" : "5229a4ab5a85e86a427e4fed8c1c794dfcafe57f",
+        "sha256sum" : "9c2bfb967f60f57083599a814dc1d41d458d7ee5f38574f573a088b9e2047d6f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3823",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f20a10fb01dcb6e162643602de29e0b6",
+        "sha1sum" : "6f90cbeed8c0692e9ab34e12f161a1bb993329ad",
+        "sha256sum" : "70d38527521be65a19454a06e03c76e7117e31ecb87d92e33bd7c6a55ec9854e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 4,
+        "submitted" : 1545388776,
+        "submitter" : "Ashley Xavier",
+        "comment" : "Automatically added model identifier BIOMD0000000730"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1561722468,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "updated xml file after correcting issues with biol calling"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724288055,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285430,
+  "submissionId" : "MODEL1812210001",
+  "publicationId" : "BIOMD0000000730",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ashley Xavier",
+        "email" : "ashleythomasxavier@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0001-5372-3024",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20007375",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20007375"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1073/pnas.0903827106",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1073/pnas.0903827106"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1812210001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1812210001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000730",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000730"
+    }
+  ]
+}

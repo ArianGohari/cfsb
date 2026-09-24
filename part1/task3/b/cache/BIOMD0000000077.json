@@ -1,0 +1,294 @@
+{
+  "name" : "Blum2000_LHsecretion_1",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>          <h1>A mathematical model quantifying GnRH-induced LH secretion from gonadotropes by Blum et al (2000)</h1>        </p>        <p>This paper includes three stages, and the model does not include the third stage. Also an event is included which remove the hormone GnRH at time=5min. Figure 1 and Figure 2 of the paper are reproduced, using SBML odeSolver. We choose to encode the model with the concentration of GnRH equal to 1.0nM.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10662710",
+    "journal" : "American journal of physiology. Endocrinology and metabolism",
+    "title" : "A mathematical model quantifying GnRH-induced LH secretion from gonadotropes.",
+    "affiliation" : "Department of Cell Biology, Duke University Medical Center, Durham 27710, North Carolina, USA. j.blum@cellbio.duke.edu",
+    "synopsis" : "A mathematical model is developed to investigate the rate of release of luteinizing hormone (LH) from pituitary gonadotropes in response to short pulses of gonadotropin-releasing hormone (GnRH). The model includes binding of the hormone to its receptor, dimerization, interaction with a G protein, production of inositol 1,4, 5-trisphosphate, release of Ca(2+) from the endoplasmic reticulum, entrance of Ca(2+) into the cytosol via voltage-gated membrane channels, pumping of Ca(2+) out of the cytosol via membrane and endoplasmic reticulum pumps, and release of LH. Cytosolic Ca(2+) dynamics are simplified (i.e., oscillations are not included in the model), and it is assumed that there is only one pool of releasable LH. Despite these and other simplifications, the model explains the qualitative features of LH release in response to GnRH pulses of various durations and different concentrations in the presence and absence of external Ca(2+).",
+    "year" : 2000,
+    "month" : "2",
+    "volume" : "278",
+    "issue" : "2",
+    "pages" : "E263-72",
+    "link" : "http://identifiers.org/pubmed/10662710",
+    "authors" : [
+      {
+        "name" : "J J Blum",
+        "institution" : "Department of Cell Biology, Duke University Medical Center, Durham 27710, North Carolina, USA. j.blum@cellbio.duke.edu"
+      },
+      {
+        "name" : "M C Reed"
+      },
+      {
+        "name" : "J A Janovick"
+      },
+      {
+        "name" : "P M Conn"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000077_url.xml",
+        "description" : "SBML L2V4 representation of Blum2000_LHsecretion_1",
+        "fileSize" : "21907",
+        "mimeType" : "application/xml",
+        "md5sum" : "b1d7feffd346da5786af42fe584a722a",
+        "sha1sum" : "e0489bc0c032783be6572a03f92490472dd69e6c",
+        "sha256sum" : "e1d096d046e5e0d15f73de2212c2c32b6860d0f71b3429535351b2a11a7f049a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000077-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "15423",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1ff6d9fab0f22d0d6a842ac0455fa434",
+        "sha1sum" : "e2072089911fa2e1fd6ddd3a2797190cadc382f5",
+        "sha256sum" : "389bc0ce531caeeafc893a0c36be5df7a0a57031f9a3829ffef07e179f82d38f"
+      },
+      {
+        "name" : "BIOMD0000000077-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "20295",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9e5674f9ad9eef4c725914607d97173f",
+        "sha1sum" : "24e22362c4c7d6f96c9b2180669514beadb40986",
+        "sha256sum" : "a4177d6b83d7d744ca41cea51c59708e1f05dd256ecc0351b9b2a668870f65b4"
+      },
+      {
+        "name" : "BIOMD0000000077-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5117",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8f04ac7c09c7dad8f9c76be5e8d1c92e",
+        "sha1sum" : "5e1a38ef20084096a9d92786119e9415063157b6",
+        "sha256sum" : "132739553bbf0961ed9501e180cf65159ccba269892ee36794a9963783aa2c17"
+      },
+      {
+        "name" : "BIOMD0000000077-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5117",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a6ea7d0557a0fdb6529a30da0b21b89e",
+        "sha1sum" : "9f946cda171c0385ac1030120b4ce87a3fe2a1f7",
+        "sha256sum" : "850bb552a432a728476f6a9eae4d6a0cb7b4281c2882a3161eeba11767324e7d"
+      },
+      {
+        "name" : "BIOMD0000000077.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5117",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a6ea7d0557a0fdb6529a30da0b21b89e",
+        "sha1sum" : "9f946cda171c0385ac1030120b4ce87a3fe2a1f7",
+        "sha256sum" : "850bb552a432a728476f6a9eae4d6a0cb7b4281c2882a3161eeba11767324e7d"
+      },
+      {
+        "name" : "BIOMD0000000077.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2906",
+        "mimeType" : "text/plain",
+        "md5sum" : "186d0a3694465ab786a8e2c999f1b910",
+        "sha1sum" : "5654e4f196f36536ade0591d9fb0a4f79ecc7ddb",
+        "sha256sum" : "14581217708bbecfd309b74d121c84902474be7fe1e1a0304d7f71f8cdbd460a"
+      },
+      {
+        "name" : "BIOMD0000000077.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "165318",
+        "mimeType" : "application/pdf",
+        "md5sum" : "a8859ec85164de4108f584c9a9546493",
+        "sha1sum" : "a40cdc681f99dd7ad385b17e9dfeb44d5dbd3135",
+        "sha256sum" : "cda8e92113053445a46c9ec52b5ca87bb2c03f943d8c67b58a206928ec67f377"
+      },
+      {
+        "name" : "BIOMD0000000077.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "26540",
+        "mimeType" : "image/png",
+        "md5sum" : "999ae81b4df9d693c961a6a5c1917657",
+        "sha1sum" : "ef5a602076f3a169ce18b89b659f72f669a33f1e",
+        "sha256sum" : "179aec59a4cc5290d18ad0d6a513830d8a1bb81f68425315b432e7743e8646aa"
+      },
+      {
+        "name" : "BIOMD0000000077.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "14530",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "781d34b064b48faec4793f71ec707d92",
+        "sha1sum" : "14797dbff086d038fad1362d7c9d254d6cd7aecc",
+        "sha256sum" : "cbc2fc4b0f66f8c3a112c3f2691b1032e4256a5add9b18f18c78660443df1002"
+      },
+      {
+        "name" : "BIOMD0000000077.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "29599",
+        "mimeType" : "application/xml",
+        "md5sum" : "676b133fa1317575c57dc82629ef1333",
+        "sha1sum" : "2271d4803a6f04d376ec05a30a00b2888115e623",
+        "sha256sum" : "62f666b00d096ff951a32c8a4741cf3b0fc987891fa445e19c31f4c90998571b"
+      },
+      {
+        "name" : "BIOMD0000000077_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "11068",
+        "mimeType" : "application/xml",
+        "md5sum" : "f83fbf60307cdf72bee86cb1cb2cfc91",
+        "sha1sum" : "3599bf9af730795722393ce4ad7edd1848e41869",
+        "sha256sum" : "74079cb22ee3e582052dbba7921f3bb68d06bdfe335ee09e6a33ac292e987b4e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "4659",
+        "mimeType" : "image/png",
+        "md5sum" : "98fdfe8309adf31c0ccc27a5f0d8af51",
+        "sha1sum" : "d6efa180da5a11158851c026d4885d860ec8584a",
+        "sha256sum" : "e58deaea57111881f263c58627b193f013895f794ebc8c89b591e687dcabd88c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "60",
+        "mimeType" : "text/plain",
+        "md5sum" : "614123be95acc51a0d362995f66f72fe",
+        "sha1sum" : "abb21467b994c7f089936dd36f114c0a45a41e4e",
+        "sha256sum" : "31e683744c1bf807edb347f9316ed888f9d5528d565fa1ddef2537219e034eea"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "b4d8383fe95e21e2a125be8f4082a2e6",
+        "sha1sum" : "74b9c6f851847dfadd7c57a1a1eda00362afce07",
+        "sha256sum" : "4a1579f52294cbeaedb6b4bc35d79570185d3b8247c7387e28dd26abb59f0567"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3096",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7f63ba01afcf5a11ae6062490c74481d",
+        "sha1sum" : "aecaf519c3a080cf96b78664a588e6cade8051c1",
+        "sha256sum" : "80a2642b69b701a639de3fa16d4482c7eff036a47bf897ac4401028dd5000ad4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1164105037,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Blum2000_LHsecretion_1"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396824504,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Blum2000_LHsecretion_1"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266761,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284867,
+  "submissionId" : "MODEL3092061764",
+  "publicationId" : "BIOMD0000000077",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL3092061764",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL3092061764"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000077",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000077"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10662710",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10662710"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0032275",
+      "name" : "luteinizing hormone secretion",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0032275"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0007200",
+      "name" : "phospholipase C-activating G-protein coupled receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007200"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0097210",
+      "name" : "response to gonadotropin-releasing hormone",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0097210"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

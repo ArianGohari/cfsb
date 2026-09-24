@@ -1,0 +1,79 @@
+# Run from text_mining/: uv run snakemake --cores 1
+import json
+from pathlib import Path
+import sys
+
+CONFIG = Path(config.get("pipeline_config", "examples/rules/config.json")).resolve()
+OUT = str(Path(config.get("out", "data/runs/rules-demo")).resolve())
+SETTINGS = json.loads(CONFIG.read_text())
+PYTHON = sys.executable
+CODE = sorted(str(p.resolve()) for p in Path("litmine").glob("*.py"))
+INPUTS = [str(CONFIG)] + CODE
+for seed in SETTINGS.get("seeds", []):
+    if seed.get("fulltext_path"):
+        INPUTS.append(str((CONFIG.parent / seed["fulltext_path"]).resolve()))
+for path in SETTINGS.get("annotations", {}).values():
+    INPUTS.append(str((CONFIG.parent / path).resolve()))
+if SETTINGS.get("llm", {}).get("fixture_path"):
+    INPUTS.append(str((CONFIG.parent / SETTINGS["llm"]["fixture_path"]).resolve()))
+GOLD = str((CONFIG.parent / SETTINGS["gold_path"]).resolve()) if SETTINGS.get("gold_path") else None
+
+# Existing runs are immutable. Fail before scheduling, not inside a rule whose
+# failure cleanup could remove a previous result. Changed code needs a new out.
+if (Path(OUT) / "manifest.json").exists():
+    from litmine.llm import digest, sanitize
+    saved = json.loads((Path(OUT) / "manifest.json").read_text())
+    expected = dict(SETTINGS, _base_dir=str(CONFIG.parent))
+    if saved["config"] != sanitize(expected):
+        raise ValueError("Frozen run has a different config; choose a new --config out=...")
+    for name, checksum in saved["code_hashes"].items():
+        if not Path(name).is_file() or digest(Path(name).read_bytes()) != checksum:
+            raise ValueError("Frozen run has different code; choose a new --config out=...")
+    for name, checksum in {**saved["input_hashes"], **saved["output_hashes"]}.items():
+        path = Path(OUT) / name
+        if not path.is_file() or digest(path.read_bytes()) != checksum:
+            raise ValueError("Frozen run input/output mismatch; preserve it and use a new out")
+
+rule all:
+    input:
+        OUT + "/graph.svg",
+        OUT + "/evaluation.json"
+
+rule review:
+    input: INPUTS
+    output:
+        review=protected(OUT + "/review.json"),
+        manifest=protected(OUT + "/manifest.json"),
+        records=protected(OUT + "/records.csv"),
+        screening=protected(OUT + "/screening.csv"),
+        counts=protected(OUT + "/prisma_counts.json"),
+        qc=protected(OUT + "/qc.json"),
+        report=protected(OUT + "/report.md")
+    params: cfg=str(CONFIG), out=OUT, python=PYTHON
+    shell:
+        "{params.python:q} -m litmine review --config {params.cfg:q} --out {params.out:q}"
+
+rule evaluate:
+    input:
+        review=OUT + "/review.json",
+        gold=[GOLD] if GOLD else []
+    output: protected(OUT + "/evaluation.json")
+    params: python=PYTHON
+    run:
+        from litmine.evaluate import evaluate
+        evaluate(Path(input.review), Path(GOLD) if GOLD else None, Path(output[0]))
+
+rule graph:
+    input:
+        review=OUT + "/review.json",
+        manifest=OUT + "/manifest.json",
+        evaluation=OUT + "/evaluation.json"
+    output:
+        protected(expand(OUT + "/{table}.parquet", table=["papers", "documents", "entities", "relations", "evidence"])),
+        protected(OUT + "/graph.lbug"),
+        protected(OUT + "/graph.dot"),
+        protected(OUT + "/graph.svg"),
+        protected(OUT + "/graph_export.json")
+    params: out=OUT, python=PYTHON
+    shell:
+        "{params.python:q} -m litmine export --review {input.review:q} --out {params.out:q}"

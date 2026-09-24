@@ -1,0 +1,281 @@
+{
+  "name" : "Landberg2009 - Alkylresorcinol Dose Response",
+  "description" : "Pharmacokinetic model of alkylresorcinols. Both plasma AR concentrations and urinary metabolites in 24-h samples showed a dose-response relation to increased AR intake, which strongly supports the hypothesis that ARs and their metabolites may be useful as biomarkers of whole-grain wheat and rye intakes.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "19056600",
+    "journal" : "The American journal of clinical nutrition",
+    "title" : "Dose response of whole-grain biomarkers: alkylresorcinols in human plasma and their metabolites in urine in relation to intake.",
+    "affiliation" : "Department of Food Science, Swedish University of Agriculture Science, Uppsala, Sweden. rikard.landberg@lmv.slu.se",
+    "synopsis" : "<h4>Background</h4>Alkylresorcinols (ARs), phenolic lipids almost exclusively present in the outer parts of wheat and rye grains in commonly consumed foods, have been proposed as specific dietary biomarkers of whole-grain wheat and rye intakes.<h4>Objective</h4>The objective was to assess the dose response of plasma ARs and the excretion of 2 recently discovered AR metabolites in 24-h urine samples in relation to AR intake and to establish a pharmacokinetic model for predicting plasma AR concentration.<h4>Design</h4>Sixteen subjects were given rye bran flakes containing 11, 22, or 44 mg total ARs 3 times daily during week-long intervention periods separated by 1-wk washout periods in a nonblinded randomized crossover design. Blood samples were collected at baseline, after the 1-wk run-in period, and after each treatment and washout period. Two 24-h urine samples were collected at baseline and after each treatment period.<h4>Results</h4>Plasma AR concentrations and daily excretion of 2 urinary AR metabolites increased with increasing AR dose (P < 0.001). Recovery of urinary metabolites in 24-h samples decreased with increasing doses from approximately 90% to approximately 45% in the range tested. A one-compartment model with 2 absorption compartments with different lag times and absorption rate constants adequately predicted plasma AR concentrations at the end of each intervention period.<h4>Conclusion</h4>Both plasma AR concentrations and urinary metabolites in 24-h samples showed a dose-response relation to increased AR intake, which strongly supports the hypothesis that ARs and their metabolites may be useful as biomarkers of whole-grain wheat and rye intakes.",
+    "year" : 2009,
+    "month" : "1",
+    "volume" : "89",
+    "issue" : "1",
+    "pages" : "290-296",
+    "link" : "http://identifiers.org/pubmed/19056600",
+    "authors" : [
+      {
+        "name" : "Rikard Landberg",
+        "institution" : "Department of Food Science, Swedish University of Agriculture Science, Uppsala, Sweden. rikard.landberg@lmv.slu.se"
+      },
+      {
+        "name" : "Per Aman"
+      },
+      {
+        "name" : "Lena E Friberg",
+        "orcid" : "0000-0002-2979-679X"
+      },
+      {
+        "name" : "Bengt Vessby"
+      },
+      {
+        "name" : "Herman Adlercreutz"
+      },
+      {
+        "name" : "Afaf Kamal-Eldin",
+        "orcid" : "0000-0002-5187-3317"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Landberg2009.xml",
+        "description" : "SBML L2V4 representation of Landberg2009 - Alkylresorcinol Dose Response",
+        "fileSize" : "29879",
+        "mimeType" : "application/xml",
+        "md5sum" : "cb48134bd8bf988527cc238bef6dc313",
+        "sha1sum" : "e7ec9ffdc18ee44b5354f0767ac9401c3940d86f",
+        "sha256sum" : "a2dd77d2f57c29be2b0089a85406618201d0a539cf69f1b5143741ae4a98ab4d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Landberg2009-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "10642",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2b71ebb05662ef847c8d0d5e737680dc",
+        "sha1sum" : "8029779cc068efffeafe972a08a2eac4f046c538",
+        "sha256sum" : "a22cf65f79598b177eedface13aba63bad2cbc2000ad65dbc7c3b0a419dfc06a"
+      },
+      {
+        "name" : "Landberg2009-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "15492",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e19739cc5df0a2c51a6987111d4134c9",
+        "sha1sum" : "f4d9788c31b9078bfdf48780844f68fe2dc4381f",
+        "sha256sum" : "8c1c352132d754d3bba9547949de138cc1bbf76799492153f9f240b71938f486"
+      },
+      {
+        "name" : "Landberg2009-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4681",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2ddb3f6de7fe74a6503864ec69f271c7",
+        "sha1sum" : "5d93fdf9c7d4c6452c1060ff6639b3d46b6c3e46",
+        "sha256sum" : "ce64be8d1888f9e5b94abfd92f9c393f2b3a6e36cad88a2587df0d29cd5a8c7a"
+      },
+      {
+        "name" : "Landberg2009-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4681",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "358c637aae437a3d8c400860da7ff784",
+        "sha1sum" : "02d6c3ac484617e35081e383123adae8f3ea5c45",
+        "sha256sum" : "4841770a7905b453e839ae22ff12d9e69bcb19741eb79d1d56a5f591215e40ce"
+      },
+      {
+        "name" : "Landberg2009.cps",
+        "description" : "COPASI file",
+        "fileSize" : "50716",
+        "mimeType" : "application/xml",
+        "md5sum" : "9a954b5ac81577d4108c91c664dfece2",
+        "sha1sum" : "2f38bff953b94d80e69ed44c510fa6ee5ee69292",
+        "sha256sum" : "a2b60c875d3a70efc9130993bb22cf0b311b92d6e2bcdfd3a85715ef9f88acd3"
+      },
+      {
+        "name" : "Landberg2009.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3166",
+        "mimeType" : "text/plain",
+        "md5sum" : "ccca25e7db32c91fe7e79b7b990b026a",
+        "sha1sum" : "d121fb0dfa0abf3dc9bbd5dc56c3c9a053f55e8b",
+        "sha256sum" : "3fdcb8362348e86e5b0979e95a09d64982211a16f4ca0ab338dd72b0e3ee437d"
+      },
+      {
+        "name" : "Landberg2009.sedml",
+        "description" : "SEDML file for the model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "13774",
+        "mimeType" : "application/xml",
+        "md5sum" : "ef0f7fde05d60b134f6cf6c455288c09",
+        "sha1sum" : "c9b31f2e770a35165180eab90f48893458c02991",
+        "sha256sum" : "bff912f5cd1fe95deee0ba6d9b4a261c6a7b6aa704f92e029b71651cf37a1edc"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "15311",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "447ebf1aebcbbb6b89df617673b2ecfd",
+        "sha1sum" : "64c77a09169d329279eb7d8392a99368b5da8a8a",
+        "sha256sum" : "7802eb7829d6b2773b1ef25c048111b6cb9f6f46802dc95b7fd94856bfc2f3b4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "108",
+        "mimeType" : "text/plain",
+        "md5sum" : "9457de645d8e98cc45397fc40e34187d",
+        "sha1sum" : "fc46226ec36a798097411e1ed621faee436d0da0",
+        "sha256sum" : "2af58a52605e97541791e6663d54abf1031ed7e3358dc6c2ae5b8f20c793cb1c"
+      },
+      {
+        "name" : "figure2.jpg",
+        "description" : "Attempt at reproducing figure 3.",
+        "fileSize" : "15311",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "447ebf1aebcbbb6b89df617673b2ecfd",
+        "sha1sum" : "64c77a09169d329279eb7d8392a99368b5da8a8a",
+        "sha256sum" : "7802eb7829d6b2773b1ef25c048111b6cb9f6f46802dc95b7fd94856bfc2f3b4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1532",
+        "mimeType" : "application/xml",
+        "md5sum" : "7c72c8826f3697860ebff3ef028da94a",
+        "sha1sum" : "93be47787ff33c82d1638a72bac6bd64bc646751",
+        "sha256sum" : "e9e015ee899c786a6d495f0c777d0dea0a2b1a6b5489ab77a6b00f5c54859d71"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1470",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "064baee661b7175830e0e8aa890748af",
+        "sha1sum" : "b8c1c13b2e2356eb01274a1dedd416ba5b99fdb5",
+        "sha256sum" : "d276820bd017a621659872f63518b868c749a2f7e1566a5d600c43b3a623c627"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1526916694,
+        "submitter" : "Matthew Roberts",
+        "comment" : "Uploaded COPASI and curated figure to facilitate the curation process in the future."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1589261725,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000948"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724293683,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285543,
+  "submissionId" : "MODEL1803050001",
+  "publicationId" : "BIOMD0000000948",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthew Roberts",
+        "email" : "mroberts@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000948",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000948"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1803050001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1803050001"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "19056600",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:19056600"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "C01751",
+      "name" : "Resorcinol",
+      "resource" : "KEGG Compound",
+      "uri" : "http://identifiers.org/kegg.compound/C01751"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "CHEBI:52679",
+      "name" : "5-alkylresorcinol",
+      "resource" : "ChEBI",
+      "uri" : "http://identifiers.org/chebi/CHEBI:52679"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "0001757",
+      "name" : "dose response design",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0001757"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "19056600",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19056600"
+    }
+  ]
+}

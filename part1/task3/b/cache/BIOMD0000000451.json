@@ -1,0 +1,330 @@
+{
+  "name" : "Carbo2013 - Cytokine driven CD4+ T Cell differentiation and phenotype plasticity",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Carbo2013 - Cytokine driven CD4+ T Cell differentiation and phenotype plasticity</div>            <div class=\"dc:description\">      <p>CD4+ T cells can differentiate into different phenotypes depending on the cytokine milieu. Here a computational and mathematical model with sixty ordinary differential equations representing a CD4+ T cell differentiating into either Th1, Th2, Th17 or iTreg cells, has been constructed.  The model includes cytokines, nuclear receptors and transcription factors that define fate and function of CD4+ T cells. Computational simulations illustrate how a proinflammatory Th17 cell can undergo reprogramming into an anti-inflammatory iTreg phenotype following PPARc activation.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23592971\" title=\"Access to this publication\">Systems Modeling of Molecular Mechanisms Controlling Cytokine-driven CD4+ T Cell Differentiation and Phenotype Plasticity.</a>                    </div>                <div class=\"bibo:authorList\">Carbo A, Hontecillas R, Kronsteiner B, Viladomiu M, Pedragosa M, Lu P, Philipson CW, Hoops S, Marathe M, Eubank S, Bisset K, Wendelsdorf K, Jarrah A, Mei Y, Bassaganya-Riera J</div>                <div class=\"bibo:Journal\">PLoS Computational Biology [2013, 9(4):e1003027]</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>Differentiation of CD4+ T cells into effector or regulatory phenotypes is tightly controlled by the cytokine milieu, complex intracellular signaling networks and numerous transcriptional regulators. We combined experimental approaches and computational modeling to investigate the mechanisms controlling differentiation and plasticity of CD4+ T cells in the gut of mice. Our computational model encompasses the major intracellular pathways involved in CD4+ T cell differentiation into T helper 1 (Th1), Th2, Th17 and induced regulatory T cells (iTreg). Our modeling efforts predicted a critical role for peroxisome proliferator-activated receptor gamma (PPARγ) in modulating plasticity between Th17 and iTreg cells. PPARγ regulates differentiation, activation and cytokine production, thereby controlling the induction of effector and regulatory responses, and is a promising therapeutic target for dysregulated immune responses and inflammation. Our modeling efforts predict that following PPARγ activation, Th17 cells undergo phenotype switch and become iTreg cells. This prediction was validated by results of adoptive transfer studies showing an increase of colonic iTreg and a decrease of Th17 cells in the gut mucosa of mice with colitis following pharmacological activation of PPARγ. Deletion of PPARγ in CD4+ T cells impaired mucosal iTreg and enhanced colitogenic Th17 responses in mice with CD4+ T cell-induced colitis. Thus, for the first time we provide novel molecular evidence in vivo demonstrating that PPARγ in addition to regulating CD4+ T cell differentiation also plays a major role controlling Th17 and iTreg plasticity in the gut mucosa.</p>                    </div>                </div>            <div class=\"bm:modification\">      <p>        <b>Author's comment:</b>            CD4+ T cell computational model (Version 1.4)Steady state corrected. There was a problem in the internalization of IL-17 in its mathematical function.        </p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1304230001\">MODEL1304230001</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23592971",
+    "journal" : "PLoS computational biology",
+    "title" : "Systems modeling of molecular mechanisms controlling cytokine-driven CD4+ T cell differentiation and phenotype plasticity.",
+    "affiliation" : "Nutritional Immunology and Molecular Medicine Laboratory, Virginia Bioinformatics Institute, Virginia Tech, Blacksburg, Virginia, USA.",
+    "synopsis" : "Differentiation of CD4+ T cells into effector or regulatory phenotypes is tightly controlled by the cytokine milieu, complex intracellular signaling networks and numerous transcriptional regulators. We combined experimental approaches and computational modeling to investigate the mechanisms controlling differentiation and plasticity of CD4+ T cells in the gut of mice. Our computational model encompasses the major intracellular pathways involved in CD4+ T cell differentiation into T helper 1 (Th1), Th2, Th17 and induced regulatory T cells (iTreg). Our modeling efforts predicted a critical role for peroxisome proliferator-activated receptor gamma (PPARγ) in modulating plasticity between Th17 and iTreg cells. PPARγ regulates differentiation, activation and cytokine production, thereby controlling the induction of effector and regulatory responses, and is a promising therapeutic target for dysregulated immune responses and inflammation. Our modeling efforts predict that following PPARγ activation, Th17 cells undergo phenotype switch and become iTreg cells. This prediction was validated by results of adoptive transfer studies showing an increase of colonic iTreg and a decrease of Th17 cells in the gut mucosa of mice with colitis following pharmacological activation of PPARγ. Deletion of PPARγ in CD4+ T cells impaired mucosal iTreg and enhanced colitogenic Th17 responses in mice with CD4+ T cell-induced colitis. Thus, for the first time we provide novel molecular evidence in vivo demonstrating that PPARγ in addition to regulating CD4+ T cell differentiation also plays a major role controlling Th17 and iTreg plasticity in the gut mucosa.",
+    "year" : 2013,
+    "month" : "4",
+    "volume" : "9",
+    "issue" : "4",
+    "pages" : "e1003027",
+    "link" : "http://identifiers.org/pubmed/23592971",
+    "authors" : [
+      {
+        "name" : "Adria Carbo",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Virginia Bioinformatics Institute, Virginia Tech, Blacksburg, Virginia, USA."
+      },
+      {
+        "name" : "Raquel Hontecillas"
+      },
+      {
+        "name" : "Barbara Kronsteiner",
+        "institution" : "Center for Modeling Immunity to Enteric Pathogens, Virginia Bioinformatics Institute at Virginia Tech, Blacksburg, VA, United States of America; Nutritional Immunology and Molecular Medicine Laboratory, Virginia Bioinformatics Institute at Virginia Tech, Blacksburg, VA, United States of America.",
+        "orcid" : "0000-0003-0867-2867"
+      },
+      {
+        "name" : "Monica Viladomiu"
+      },
+      {
+        "name" : "Mireia Pedragosa"
+      },
+      {
+        "name" : "Pinyi Lu"
+      },
+      {
+        "name" : "Casandra W Philipson"
+      },
+      {
+        "name" : "Stefan Hoops"
+      },
+      {
+        "name" : "Madhav Marathe"
+      },
+      {
+        "name" : "Stephen Eubank",
+        "orcid" : "0000-0002-7177-309X"
+      },
+      {
+        "name" : "Keith Bisset"
+      },
+      {
+        "name" : "Katherine Wendelsdorf"
+      },
+      {
+        "name" : "Jarrah AS",
+        "institution" : "Department of Mathematics and Statistics, American University of Sharjah, Sharjah 26666, UAE.",
+        "orcid" : "0000-0001-6771-2561"
+      },
+      {
+        "name" : "Yongguo Mei"
+      },
+      {
+        "name" : "Josep Bassaganya-Riera"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000451_url.xml",
+        "description" : "SBML L2V4 representation of Carbo2013 - Cytokine driven CD4+ T Cell differentiation and phenotype plasticity",
+        "fileSize" : "334466",
+        "mimeType" : "application/xml",
+        "md5sum" : "bb6d3fc0e338c9cf500453ea90500d1e",
+        "sha1sum" : "fbba7d7fa94ce84ed84e7e9b5bba1e35390ef0be",
+        "sha256sum" : "ba8e4a50a0e477906f96a66cc49494c825eaab0a489083f7bcdec5adf25b79c5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000451-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "104740",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "97d7dd76007a4e844206d7d78eca7871",
+        "sha1sum" : "b41dec9cf26b13d9da5a0b855f5debc09cefe3b9",
+        "sha256sum" : "bd4b7f5cea4bf3a9ffcc2314ecd963f88bfec1f57e9233dfdac79fba7ef3ff67"
+      },
+      {
+        "name" : "BIOMD0000000451-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "160574",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e226e15f23cea13adeeeff89d3060546",
+        "sha1sum" : "afd340af00b7373ef2585370b5f71d61b9869623",
+        "sha256sum" : "5ca885b713a6a3fd6332caf7cd14159e7da10cbbbaf611fb109b4da00c0cf8c0"
+      },
+      {
+        "name" : "BIOMD0000000451-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "41482",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7d309ebf8727696c4422aa080913f047",
+        "sha1sum" : "c8f7b2178f5997044279fa1bf721ebe9d85986dc",
+        "sha256sum" : "9c7af7ace4d998b87eeb8e9e92dea2251b0cb4d348295c11b4215dd827aae230"
+      },
+      {
+        "name" : "BIOMD0000000451-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "41482",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "195e7b0ce620a33b7f6dfeb8bfbae24e",
+        "sha1sum" : "93a89f68aafb1f7c9729cd916adb995e6dad41ef",
+        "sha256sum" : "f6094b6f94c74b92bf62edc3253a26ff2e1f05eb89fa19059d862d7c91bb7e75"
+      },
+      {
+        "name" : "BIOMD0000000451.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "41482",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "195e7b0ce620a33b7f6dfeb8bfbae24e",
+        "sha1sum" : "93a89f68aafb1f7c9729cd916adb995e6dad41ef",
+        "sha256sum" : "f6094b6f94c74b92bf62edc3253a26ff2e1f05eb89fa19059d862d7c91bb7e75"
+      },
+      {
+        "name" : "BIOMD0000000451.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "33368",
+        "mimeType" : "text/plain",
+        "md5sum" : "ff1a0dc9f3026895b1667dff89218856",
+        "sha1sum" : "80491ceeff71e8f8d7b7a1eb497aea487c4b9ab0",
+        "sha256sum" : "60ffe60e1fef79878428e14325d358225c48069da5b7b22f1efc077d6d1cd8cb"
+      },
+      {
+        "name" : "BIOMD0000000451.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "591674",
+        "mimeType" : "application/pdf",
+        "md5sum" : "805b3173fbdb6168545c909c325f2ea0",
+        "sha1sum" : "9690114aeb33a9d1caa781b3d3093e4f1df3ae8d",
+        "sha256sum" : "a3158782250067f1c2bbb83f230ee07a4c57d21d9e5054ac42f5a0752fe1037d"
+      },
+      {
+        "name" : "BIOMD0000000451.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1575975",
+        "mimeType" : "image/png",
+        "md5sum" : "3abcc34709bc1061d5b67c325df071f0",
+        "sha1sum" : "610a2027823cf226b129734b32fd2509649caa7e",
+        "sha256sum" : "65e331f67a696f40dd6e2d3ebc62226bd0ebe897098fabab0885aa7cdf41b1a6"
+      },
+      {
+        "name" : "BIOMD0000000451.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "276305",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f55fdc6d932c164e119cba718a4dcdd3",
+        "sha1sum" : "b333d4dccf0332ab5bb54412b03c79f69343c976",
+        "sha256sum" : "e78fe02ae1105bc17d24792bc73fbd040dc5f57eba652a12664d4f32833770de"
+      },
+      {
+        "name" : "BIOMD0000000451_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "95321",
+        "mimeType" : "application/xml",
+        "md5sum" : "e53ffbea8ca192c3b960ebcb684bc7f5",
+        "sha1sum" : "0e7357233a95adc7ecb86419f47f7ae38fb57139",
+        "sha256sum" : "3e2c7a284273ff38611bbfca8c2c7862f3dac8586810adcf43127a08fda1ba4e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "26751",
+        "mimeType" : "image/png",
+        "md5sum" : "573c15628ff6133fe42265265c47d637",
+        "sha1sum" : "e6f805ae5c8f23ea8d5e2e57e56e780496393cb1",
+        "sha256sum" : "76658d9441363103c96776f61d635eb0de9fa19207129b740ed76f5b17f7cd55"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "137",
+        "mimeType" : "text/plain",
+        "md5sum" : "95b241f44ae13ad16c96eb6688d4508d",
+        "sha1sum" : "8b63bb2529f565f20073b44ecdb41a498fe635ca",
+        "sha256sum" : "35b96896428558217d9a5d26297260c3ab729424aeb7d00853a039bb8fb11900"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "9404598b9c85ef00ea195a2285b5e9a6",
+        "sha1sum" : "9ced7ae525aebbdbd7c5b7fa0ddd640ae7623f26",
+        "sha256sum" : "a36fd6e1d21dc2bf0e94b39ae664115768cdcfdf2dbd010721ed91b3ba4c06f3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6827",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6303416d2908b3ddafb2000e15daa8e4",
+        "sha1sum" : "b233eb24acdbd964f715ea5171227138c46f41d3",
+        "sha256sum" : "bf5cd68b031d85fe1dde5e02c13de4210400e7edb5ca04328c0bb803ca675bd3"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1366748327,
+        "submitter" : "Adria Carbo",
+        "comment" : "Original import of CD4+ T Cell Differentiation model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412943159,
+        "submitter" : "Adria Carbo",
+        "comment" : "Current version of Carbo2013 - Cytokine driven CD4+ T Cell differentiation and phenotype plasticity"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277395,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285190,
+  "submissionId" : "MODEL1304230001",
+  "publicationId" : "BIOMD0000000451",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Adria Carbo",
+        "email" : "acarbo@vbi.vt.edu",
+        "affiliation" : "Center for Modeling Immunity to Enteric Pathogens",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:104",
+      "name" : "bacterial infectious disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:104"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1304230001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1304230001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000451",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000451"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23592971",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23592971"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0045222",
+      "name" : "CD4 biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0045222"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0030217",
+      "name" : "T cell differentiation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030217"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000545",
+      "name" : "gut",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000545"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

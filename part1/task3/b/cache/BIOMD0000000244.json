@@ -1,0 +1,310 @@
+{
+  "name" : "Kotte2010_Ecoli_Metabolic_Adaption",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>\t This is the model described in: <b>Bacterial adaptation through distributed sensing of metabolic fluxes</b>        <br />       \tOliver Kotte, Judith B Zaugg  and  Matthias Heinemann;<em>Mol Sys Biol</em>2010;<b>6</b>:355.   doi:<a href=\"http://dx.doi.org/10.1038/msb.2010.10\">10.1038/msb.2010.10</a>;         <br />        <b>Abstract:</b>        <br />\t The recognition of carbon sources and the regulatory adjustments to recognized changes are of particular importance for bacterial survival in fluctuating environments. Despite a thorough knowledge base of Escherichia coli's central metabolism and its regulation, fundamental aspects of the employed sensing and regulatory adjustment mechanisms remain unclear. In this paper, using a differential equation model that couples enzymatic and transcriptional regulation of E. coli's central metabolism, we show that the interplay of known interactions explains in molecular-level detail the system-wide adjustments of metabolic operation between glycolytic and gluconeogenic carbon sources. We show that these adaptations are enabled by an indirect recognition of carbon sources through a mechanism we termed distributed sensing of intracellular metabolic fluxes. This mechanism uses two general motifs to establish flux-signaling metabolites, whose bindings to transcription factors form flux sensors. As these sensors are embedded in global feedback loop architectures, closed-loop self-regulation can emerge within metabolism itself and therefore, metabolic operation may adapt itself autonomously (not requiring upstream sensing and signaling) to fluctuating carbon sources.\t</p>      <p>In its current form this SBML model is parametrized for the glucose to acetate transition and to simulate the extended diauxic shift as shown in figure 3 and scenario 6 of the attached matlab file. In this scenario the cells first are grown from an OD600 (BM) of 0.03 with a starting glucose concentration of 0.5 g/l for 8.15 h (29340 sec). Then a medium containing 5 g/l acetate is inoculated with these cells to an OD600 of 0.03 and grown for another 19.7 hours (70920 sec). Finally the cells are shifted to a medium containing both glucose and acetate at a concentration of 3 g/l with a starting OD600 of 0.0005.<br />The shifts where implemented using events triggering at the times determined by the parameters <em>shift1</em> and <em>shift2</em> (in hours). To simulate other scenarios the initial conditions need to be changed as described in the supplemental materials (<a href=\"http://www.nature.com/msb/journal/v6/n1/extref/msb201010-s1.pdf\">supplement 1</a>)<br /> The original SBML model and the MATLAB file used for the calculations can be down loaded as supplementary materials of the publication from the MSB website. (<a href=\"http://www.nature.com/msb/journal/v6/n1/extref/msb201010-s2.zip\">supplement 2</a>).</p>    <p>The units of the external metabolites are in [g/l], those of the biomass in optical density,OD<sub>600</sub>, taken as dimensionless, and [micromole/(gramm dry weight)] for all intracellular metabolites. As the latter cannot be implemented in SBML, it was chosen to be micromole only and the units of the parameters are left mostly undefined.   </p>  <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a></p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20212527",
+    "journal" : "Molecular systems biology",
+    "title" : "Bacterial adaptation through distributed sensing of metabolic fluxes.",
+    "affiliation" : "Institute of Molecular Systems Biology, ETH Zurich, Zurich, Switzerland.",
+    "synopsis" : "The recognition of carbon sources and the regulatory adjustments to recognized changes are of particular importance for bacterial survival in fluctuating environments. Despite a thorough knowledge base of Escherichia coli's central metabolism and its regulation, fundamental aspects of the employed sensing and regulatory adjustment mechanisms remain unclear. In this paper, using a differential equation model that couples enzymatic and transcriptional regulation of E. coli's central metabolism, we show that the interplay of known interactions explains in molecular-level detail the system-wide adjustments of metabolic operation between glycolytic and gluconeogenic carbon sources. We show that these adaptations are enabled by an indirect recognition of carbon sources through a mechanism we termed distributed sensing of intracellular metabolic fluxes. This mechanism uses two general motifs to establish flux-signaling metabolites, whose bindings to transcription factors form flux sensors. As these sensors are embedded in global feedback loop architectures, closed-loop self-regulation can emerge within metabolism itself and therefore, metabolic operation may adapt itself autonomously (not requiring upstream sensing and signaling) to fluctuating carbon sources.",
+    "year" : 2010,
+    "month" : "0",
+    "volume" : "6",
+    "pages" : "355",
+    "link" : "http://identifiers.org/pubmed/20212527",
+    "authors" : [
+      {
+        "name" : "Oliver Kotte",
+        "institution" : "Institute of Molecular Systems Biology, ETH Zurich, Zurich, Switzerland."
+      },
+      {
+        "name" : "Judith B Zaugg",
+        "orcid" : "0000-0001-8324-4040"
+      },
+      {
+        "name" : "Matthias Heinemann"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000244_url.xml",
+        "description" : "SBML L2V4 representation of Kotte2010_Ecoli_Metabolic_Adaption",
+        "fileSize" : "230275",
+        "mimeType" : "application/xml",
+        "md5sum" : "7d65688215a520e98d86cba0cc25c650",
+        "sha1sum" : "eee15e16e78ca928df297335401d9c57db950766",
+        "sha256sum" : "0240e5b546074b906a3854cc86db81616f890677f13d58cfa967f8637a693830"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000244-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "114833",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ff29d68a514fe5df29ed9fb8f8a01044",
+        "sha1sum" : "1172126db541f3e012518763308b73c58fd1540c",
+        "sha256sum" : "cbb25edab69033a0bf9ffc5edba8993150099d1ecc71fecd8e6dc0552b3025b8"
+      },
+      {
+        "name" : "BIOMD0000000244-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "176920",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f3ffc0eff24b83b58f171a734d5e6f16",
+        "sha1sum" : "03efb2ae33b004590e1ccffc8fcb00a2dec05e28",
+        "sha256sum" : "a8c1a838e181f3c2fe59e0f10febe982dd317aa97386263f34c0850124c37ed8"
+      },
+      {
+        "name" : "BIOMD0000000244-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "49493",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "004ab73410b21a74c28620065a879a56",
+        "sha1sum" : "3dfdbb297417eed1c72ce82382d024b509fb87ac",
+        "sha256sum" : "51dccf9f5edd841515c4b8b626fae257b9241ef587d0385cf9288c35a833075f"
+      },
+      {
+        "name" : "BIOMD0000000244-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "49493",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8d31e59f5a047460f9a31a635b3230f8",
+        "sha1sum" : "4b82fa47004927af61f1f3d78d54aa64fc6ca3cd",
+        "sha256sum" : "90d6b64de03df82799259b0f51632221492483a801b590e962d6221de192d9c4"
+      },
+      {
+        "name" : "BIOMD0000000244.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "49493",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8d31e59f5a047460f9a31a635b3230f8",
+        "sha1sum" : "4b82fa47004927af61f1f3d78d54aa64fc6ca3cd",
+        "sha256sum" : "90d6b64de03df82799259b0f51632221492483a801b590e962d6221de192d9c4"
+      },
+      {
+        "name" : "BIOMD0000000244.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "39395",
+        "mimeType" : "text/plain",
+        "md5sum" : "21d6a1d91ca2360afb3f3c6f04dc82bc",
+        "sha1sum" : "adfca05da042d98ef7e75ebda00a54b9c3242d8f",
+        "sha256sum" : "f811b6dde0fb6950231ec9e9ba96f7704d36bfd5b70fb7a1df2909ed1fce2714"
+      },
+      {
+        "name" : "BIOMD0000000244.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "657381",
+        "mimeType" : "application/pdf",
+        "md5sum" : "682c6625977c267ad8161daa2642d025",
+        "sha1sum" : "6d1e04386b13dd052595f527de10a68bcae3b010",
+        "sha256sum" : "bf3f1ca08d87f234716f6c7e1cf13c7fed0ac476e539e3c8a661b762211f3871"
+      },
+      {
+        "name" : "BIOMD0000000244.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "3322190",
+        "mimeType" : "image/png",
+        "md5sum" : "0a2641349464e6c46ed35ebb564cbd22",
+        "sha1sum" : "2b861935062c64395eb670b1fd4e565e0c4cd049",
+        "sha256sum" : "3d267afd80fb682e4d1483125ec254f0c348d19050f3f3fff171cd7d6ed3654b"
+      },
+      {
+        "name" : "BIOMD0000000244.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "302205",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "41bc8278d674a20557b317f218f218b5",
+        "sha1sum" : "29316dddf56957cc83b443693e637b3ed7e3f913",
+        "sha256sum" : "dd99a2a1f0763b5a3d2152579016ebe51c3c548a143f0f984c64b40ba88bb6d9"
+      },
+      {
+        "name" : "BIOMD0000000244_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "206900",
+        "mimeType" : "application/xml",
+        "md5sum" : "a79b6229a1986a4631c021d69f39b11a",
+        "sha1sum" : "c301484e3d718fab32c8b419fa1f7ed41b370e9a",
+        "sha256sum" : "818a82c61fd28059fd48f576a2c3f0df1a263769835d50a9c8f9fa148602a418"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13109",
+        "mimeType" : "image/png",
+        "md5sum" : "e355cbd749276b75d07fd08b4460527d",
+        "sha1sum" : "244dde7344bb9a993c49084cbfc3efe4ba8c49e4",
+        "sha256sum" : "6cb9eaddb777d49161fab64e2e8f8a60719647ea46e5e0b1d6efd7ab0c972d6f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "510",
+        "mimeType" : "text/plain",
+        "md5sum" : "72c0656bc1a30e1244f4c19a0755be26",
+        "sha1sum" : "95f8e4465599dd1c95719013c94ef7fe5f0d086e",
+        "sha256sum" : "da4d70aeac07332dd4f6a110b0e504a30441779014a7a6dfdb7bd0c884fe6e88"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "c6ea8a65ebd9136b9a6ebc7ddc08f296",
+        "sha1sum" : "31eb7785405b09ada188c65947bc7ef08cc4c7e9",
+        "sha256sum" : "6e18a46aad317af799675756d0aec886223351f4d485c12cab177d6f4fd6cacc"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5984",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c947e24f29922220f089a632d517739f",
+        "sha1sum" : "252a602e9b9c83c0ff4d3d4a4885e53727f35c7c",
+        "sha256sum" : "70c51c47035bca499b7eba6b4165f34425ef8ca9d028c6a4e711640c852ebe7d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1268181053,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of ecoliOK"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135330,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Kotte2010_Ecoli_Metabolic_Adaption"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271369,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284966,
+  "submissionId" : "MODEL1003100000",
+  "publicationId" : "BIOMD0000000244",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1003100000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1003100000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000244",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000244"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20212527",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20212527"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006094",
+      "name" : "gluconeogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006094"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006083",
+      "name" : "acetate metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006083"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006097",
+      "name" : "glyoxylate cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006097"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0008965",
+      "name" : "phosphoenolpyruvate-protein phosphotransferase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008965"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0010906",
+      "name" : "regulation of glucose metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0010906"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0045734",
+      "name" : "regulation of acetate catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0045734"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

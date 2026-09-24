@@ -1,0 +1,297 @@
+{
+  "name" : "Leloup1999_CircClock",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10366496",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Chaos and birhythmicity in a model for circadian oscillations of the PER and TIM proteins in drosophila ",
+    "affiliation" : "Unite de Chronobiologie Theorique, Faculte des Sciences, Universite Libre de Bruxelles, Campus Plaine, C.P. 231, B-1050 Brussels, Belgium.",
+    "synopsis" : "In Drosophila, circadian oscillations in the levels of two proteins, PER and TIM, result from the negative feedback exerted by a PER-TIM complex on the expression of the per and tim genes which code for these two proteins. On the basis of these experimental observations, we have recently proposed a theoretical model for circadian oscillations of the PER and TIM proteins in Drosophila. Here we show that for constant environmental conditions this model is capable of generating autonomous chaotic oscillations. For other parameter values, the model can also display birhythmicity, i.e. the coexistence between two stable regimes of limit cycle oscillations. We analyse the occurrence of chaos and birhythmicity by means of bifurcation diagrams and locate the different domains of complex oscillatory behavior in parameter space. The relative smallness of these domains raises doubts as to the possible physiological significance of chaos and birhythmicity in regard to circadian rhythm generation. Beyond the particular context of circadian rhythms we discuss the results in the light of other mechanisms underlying chaos and birhythmicity in regulated biological systems. Copyright 1999 Academic Press.",
+    "year" : 1999,
+    "month" : "6",
+    "volume" : "198",
+    "issue" : "3",
+    "pages" : "445-459",
+    "link" : "http://identifiers.org/pubmed/10366496",
+    "authors" : [
+      {
+        "name" : "Jean-Christophe Leloup",
+        "institution" : "Unité de Chronobiologie Théorique, Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C. P. 231, B-1050 Brussels, Belgium.",
+        "orcid" : "0000-0002-5488-9381"
+      },
+      {
+        "name" : "Goldbeter"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000021_url.xml",
+        "description" : "SBML L2V1 representation of Leloup1999_CircClock",
+        "fileSize" : "50938",
+        "mimeType" : "application/xml",
+        "md5sum" : "b35920155188d14940e350af35a7a90e",
+        "sha1sum" : "f1f3590d8639115d5e2e835482569fc4a27eaf82",
+        "sha256sum" : "02376379c0270208b2fd72529a50ccefcdd68c8b23a40585bfdcdd0926a4c8da"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000021-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "30975",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d970f68498158bee32a73e5b95ecb505",
+        "sha1sum" : "2ae4b3f76ebfc1468f96a67fa0882fc62c7db2c3",
+        "sha256sum" : "d10bb09c6eeba38ff44d1dea77c82bd39e56498ca2b53d6469fe11f028784158"
+      },
+      {
+        "name" : "BIOMD0000000021-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "47637",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9ed82e49909c6fa203f79e578416e21b",
+        "sha1sum" : "a900cf37a0dda89601343eee6bc4d4369d269a68",
+        "sha256sum" : "6e597f42ac2035d8c945dfd9edcc54cc891500646fd3e1ec3435d6ffc9fd824a"
+      },
+      {
+        "name" : "BIOMD0000000021-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "13226",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f437ba7dce3ee921bb87b37df4414fa5",
+        "sha1sum" : "887e398a0b9913a502cda9319693fe6988a4ec07",
+        "sha256sum" : "c7a933ad6673c18fedac53bae47907acfb4f4fcb2ba222a0bfca71a1d398c107"
+      },
+      {
+        "name" : "BIOMD0000000021-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "13226",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4be62ec880e0d422127d57c1e0530447",
+        "sha1sum" : "2a3922b6bb825d6822e32153f258835db4882b38",
+        "sha256sum" : "75e8b6680325f4c28ddbcee2b13867e1937ac303b47ffe3a00fec84427d790a7"
+      },
+      {
+        "name" : "BIOMD0000000021.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "13226",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4be62ec880e0d422127d57c1e0530447",
+        "sha1sum" : "2a3922b6bb825d6822e32153f258835db4882b38",
+        "sha256sum" : "75e8b6680325f4c28ddbcee2b13867e1937ac303b47ffe3a00fec84427d790a7"
+      },
+      {
+        "name" : "BIOMD0000000021.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8274",
+        "mimeType" : "text/plain",
+        "md5sum" : "51dfe336f94e898eed62b87aa768c595",
+        "sha1sum" : "f507f82cd45e36bf43e5e21889b9419a66352a1b",
+        "sha256sum" : "262b818537da2da6d7753ae0e84c9d619affaf339ef1522746ea1328b110aea6"
+      },
+      {
+        "name" : "BIOMD0000000021.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "232314",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c7a2f2861318db26c168cc91761b0764",
+        "sha1sum" : "8431c7b3d4c690dc4a490162bdb9237d7e08d1b9",
+        "sha256sum" : "0f93669114e54d44032c36cadd02294a38b4243c52f0d66505e06bdceedcc736"
+      },
+      {
+        "name" : "BIOMD0000000021.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "129807",
+        "mimeType" : "image/png",
+        "md5sum" : "db729fbdedfdc32cd2765a8aa1f6bcdb",
+        "sha1sum" : "7c4f4108abc4db30984c95d8f66316c5a67dcf0c",
+        "sha256sum" : "47535990b180626018ab147fb1d51eb590206a71d0c1daa7599e960550ddcd2b"
+      },
+      {
+        "name" : "BIOMD0000000021.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "8989",
+        "mimeType" : "text/plain",
+        "md5sum" : "4bbe171448f11a2a6d66e277248f03bb",
+        "sha1sum" : "e2597723a2b864f5e8085e0e4f6ea5e062cb80f4",
+        "sha256sum" : "9acefcd0452de25b471c7e1d0cbd610bf9cb70397d69ffee675b363f5f42ce18"
+      },
+      {
+        "name" : "BIOMD0000000021.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "49672",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "be53c9ba5334ef0f17fc0fbb2b71615f",
+        "sha1sum" : "6f928408adb2db6b9fc8099f9cfa6cb7fcf9928d",
+        "sha256sum" : "645bdaf7b8799578c0af7b7cd2d1be2af458eb0aba5f5bdfafe0aa97d650cace"
+      },
+      {
+        "name" : "BIOMD0000000021.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "67270",
+        "mimeType" : "application/xml",
+        "md5sum" : "f62a255bae63a3103ea54af54143fa33",
+        "sha1sum" : "ee334b388f1f6e5c33709061338f98b639e6394f",
+        "sha256sum" : "19a19b9f2b81a51b388cf43bd32e1ec62d88a7ce4a5c0fcdf1baa633654ed557"
+      },
+      {
+        "name" : "BIOMD0000000021_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "24698",
+        "mimeType" : "application/xml",
+        "md5sum" : "417894406b22a307a77c0de8cd122d22",
+        "sha1sum" : "b0707e334cd2bdf82515f327161b9ab7d33ccdf9",
+        "sha256sum" : "b663b316c581391e19b60e63b7b7774782e1c2e4f6598bda0529f242ad6a2c45"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21121",
+        "mimeType" : "image/png",
+        "md5sum" : "cb728fd58de086da4b34c1a81102e497",
+        "sha1sum" : "a0b44fa0026371e26bee241354d92cb507f3261b",
+        "sha256sum" : "4eca70022c93ca434f10caede2156721fd3715bb2c5b8dcd9aca2330094c40d3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "41",
+        "mimeType" : "text/plain",
+        "md5sum" : "db28d632f817fce9c69381677b7c2914",
+        "sha1sum" : "141ce4084354177a6ce56231f55f0ebbf98f4062",
+        "sha256sum" : "bb9b2324d2b072ccbf0b4b8028e72536f55626f64a728e53b6d4f81e1f4e2d58"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "1d16a7d4d657b80235aebfd02f3bbfaf",
+        "sha1sum" : "4e31fa3135e1b5f1bc24e02ab5d23503f78d5f4b",
+        "sha256sum" : "c5526a0cff4133cb5ed9d9632deae1b129458937b6c195c5416e53c6f422f66f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2612",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "72a008b9b376bd82bf2883704bef203d",
+        "sha1sum" : "adf3300a78e6d1f3dcf42d2eff85359228bca03e",
+        "sha256sum" : "8b3b1f4de5388def884d35d1dd8c50d14a4711b3573065a8478a4e64d4cc7d8d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126621455,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Leloup1999_CircClock"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424870203,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Leloup1999_CircClock"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265246,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284846,
+  "submissionId" : "MODEL6617834203",
+  "publicationId" : "BIOMD0000000021",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6617834203",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6617834203"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000021",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000021"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10366496",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10366496"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000171",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000171"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7227",
+      "name" : "Drosophila melanogaster",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7227"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "dme04710",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/dme04710"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

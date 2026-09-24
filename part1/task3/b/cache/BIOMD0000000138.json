@@ -1,0 +1,279 @@
+{
+  "name" : "Tabak2007_dopamine",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model is encoded according to the paper      <i>Low dose of dopamine may stimulate prolactin secretion by increasing fast potassium currents</i>          Figure5 has been reproduced by MathSBML. One need to change the value of ga in order to get the three correct results.      </p>            <p>the xppaut file of the model is avaiable on the following address offered by the author , http://www.math.fsu.edu/%7Ebertram/software/pituitary/JCNS_07.ode</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17058022",
+    "journal" : "Journal of computational neuroscience",
+    "title" : "Low dose of dopamine may stimulate prolactin secretion by increasing fast potassium currents.",
+    "affiliation" : "Department of Biological Science, Florida State University, Tallahassee, FL 32306, USA. joel@neuro.fsu.edu",
+    "synopsis" : "Dopamine (DA) released from the hypothalamus tonically inhibits pituitary lactotrophs. DA (at micromolar concentration) opens potassium channels, hyperpolarizing the lactotrophs and thus preventing the calcium influx that triggers prolactin hormone release. Surprisingly, at concentrations approximately 1000 lower, DA can stimulate prolactin secretion. Here, we investigated whether an increase in a K+ current could mediate this stimulatory effect. We considered the fast K+ currents flowing through large-conductance BK channels and through A-type channels. We developed a minimal lactotroph model to investigate the effects of these two currents. Both IBK and IA could transform the electrical pattern of activity from spiking to bursting, but through distinct mechanisms. IBK always increased the intracellular Ca2+ concentration, while IA could either increase or decrease it. Thus, the stimulatory effects of DA could be mediated by a fast K+ conductance which converts tonically spiking cells to bursters. In addition, the study illustrates that",
+    "year" : 2007,
+    "month" : "4",
+    "volume" : "22",
+    "issue" : "2",
+    "pages" : "211-222",
+    "link" : "http://identifiers.org/pubmed/17058022",
+    "authors" : [
+      {
+        "name" : "Joël Tabak",
+        "institution" : "Dept. of Biological Science, BRF 206, Florida State Univ., Tallahassee, FL 32306, USA. joel@neuro.fsu.edu",
+        "orcid" : "0000-0002-0588-957X"
+      },
+      {
+        "name" : "Natalia Toporikova"
+      },
+      {
+        "name" : "Marc E Freeman"
+      },
+      {
+        "name" : "Richard Bertram",
+        "institution" : "Department of Mathematics and Programs in Neuroscience and Molecular Biophysics, Florida State University, Tallahassee, Florida, USA. bertram@math.fsu.edu",
+        "orcid" : "0000-0001-8577-2592"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000138_url.xml",
+        "description" : "SBML L2V1 representation of Tabak2007_dopamine",
+        "fileSize" : "20180",
+        "mimeType" : "application/xml",
+        "md5sum" : "2bc751dc5bf90fa9558e1a91750740f2",
+        "sha1sum" : "2851d2beb51ca1478fba2d4fd15114c20dbd3acf",
+        "sha256sum" : "e388b137d82e871df5e22834ad5d6541db57d5c8d7bd3b9287da4676d70dcde1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000138-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6384",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "65e521dd840a325a771594f7a14ead3c",
+        "sha1sum" : "4d159ad3d1ebfcde2d220affb6f5de0026167d92",
+        "sha256sum" : "280aa300ad76de1662063fe2b2e40b532cbedf7726d19b5833839c9843610e13"
+      },
+      {
+        "name" : "BIOMD0000000138-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "7059",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ae111b8547654a2e6c1a349df2a9a6f4",
+        "sha1sum" : "fe7306b8f8bdbb15b0d47395df07862e5ee7178f",
+        "sha256sum" : "3ae093bcf006af6684812b27d5578357a4280038b8770070c269d82abfc9437f"
+      },
+      {
+        "name" : "BIOMD0000000138-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6426",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ac9133f620a3703578d78c9396b65a80",
+        "sha1sum" : "b218619715c1ca95fe034eb372e19c865d0832f4",
+        "sha256sum" : "4e0121d7ee5b7f19e7504becc98d0526fcf56749a0c0818cb3c240e3d2426442"
+      },
+      {
+        "name" : "BIOMD0000000138-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6426",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c3ad26205449d3e9c4b411f347ceb717",
+        "sha1sum" : "d506f46de5d7cd83ee29d23a9df90e225364201e",
+        "sha256sum" : "45ce0f62f68a5b47a9cab78020bbd86f28d188af07c2cd6e4d16bb691e442844"
+      },
+      {
+        "name" : "BIOMD0000000138.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6426",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c3ad26205449d3e9c4b411f347ceb717",
+        "sha1sum" : "d506f46de5d7cd83ee29d23a9df90e225364201e",
+        "sha256sum" : "45ce0f62f68a5b47a9cab78020bbd86f28d188af07c2cd6e4d16bb691e442844"
+      },
+      {
+        "name" : "BIOMD0000000138.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4437",
+        "mimeType" : "text/plain",
+        "md5sum" : "6415cc72fe0701d4b8312692dec35248",
+        "sha1sum" : "cbd019f450e93b76d70ad658a8b92cdf6218c62b",
+        "sha256sum" : "8732bd18773070ad32ec102e0ccf2946522423eceb2005c8e1e9e11b04f9f70f"
+      },
+      {
+        "name" : "BIOMD0000000138.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "154749",
+        "mimeType" : "application/pdf",
+        "md5sum" : "92cb92a485c5ddf2ecbee965a9d4063d",
+        "sha1sum" : "9e3327f21ff16a1d24d231df07c30d46419d4a09",
+        "sha256sum" : "48fd83b222d23f4d8bd6f3218fc9eccb8e0c4c19a5d84c894a250253dfcffc65"
+      },
+      {
+        "name" : "BIOMD0000000138.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "6099",
+        "mimeType" : "image/png",
+        "md5sum" : "19eab3f8118949713bf27774f43d2343",
+        "sha1sum" : "7a5bb4db18691c2cc33e73957e01036bba5e387d",
+        "sha256sum" : "97acb5de6fa1fa6028470205b95c4ac8798fcf1405cd2f2ea0ce561eaee7e6a6"
+      },
+      {
+        "name" : "BIOMD0000000138_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "23105",
+        "mimeType" : "application/xml",
+        "md5sum" : "e3c4f64cc60ae72fefce134cb52cd813",
+        "sha1sum" : "de1e68895b0492be7974dcdeb66a1f07ad52b168",
+        "sha256sum" : "fda58adf67ca4e084c63e1b01a8e3d67f5bcaa176173ccdd15e587b9ba87be85"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "5857",
+        "mimeType" : "image/png",
+        "md5sum" : "fd3481eab6d5d9f28a8e9dd5c6a1dce4",
+        "sha1sum" : "38b7c4dc313a121b7c4a2a89e83f8f301aa967ae",
+        "sha256sum" : "d87fbd6a65750e0d9a642ae5ec99a3d9b55c7c75ea38c6a2f21d7c377cbe02b4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "40",
+        "mimeType" : "text/plain",
+        "md5sum" : "e3bcb682c864a39f0506bb2706a6e8f0",
+        "sha1sum" : "1e9f5c81cc8bf7c9f10c2ca4801f676aebe054c5",
+        "sha256sum" : "c8f03b161a8fac6df23b408a96d239a18f540248b08b4feea3b1eedd005d4d45"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1676",
+        "mimeType" : "application/xml",
+        "md5sum" : "e5eb2b9b8a4f483b45fce6dd3caa09c7",
+        "sha1sum" : "64f7a3dd5ffed7d482d6f904d454ee85ae3a88e2",
+        "sha256sum" : "a9d36bc71db1ae3de040fb9c483f4689759ad851fdfc9baa1857e1f389256792"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3411",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ee993d470973659ee55aebb2f7ba1020",
+        "sha1sum" : "8aa591dde1620ebd2c57ff086403a7bc097db7de",
+        "sha256sum" : "022696f1222889c61144c33d72eeb7255d4c66383d3ec876e430d5e293d757ca"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1186562109,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Tabak2007_dopamine"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396378873,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Tabak2007_dopamine"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268373,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284896,
+  "submissionId" : "MODEL6090663405",
+  "publicationId" : "BIOMD0000000138",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7711",
+      "name" : "Chordata",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7711"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6090663405",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6090663405"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000138",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000138"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17058022",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17058022"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0014046",
+      "name" : "dopamine secretion",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0014046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:1902211",
+      "name" : "regulation of prolactin signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1902211"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005267",
+      "name" : "potassium channel activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005267"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

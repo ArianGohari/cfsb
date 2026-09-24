@@ -1,0 +1,283 @@
+{
+  "name" : "Cooling2007_IP3transients_CardiacMyocyte",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Modeling hypertrophic IP3 transients in the cardiac myocyte.</strong>        <br />Cooling M, Hunter P, Crampin EJ.      <em>Biophys J</em>2007 Nov 15;93(10):3421-33       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17693463\">17693463</a>,      <br />        <strong>Abstract:</strong>        <br />Cardiac hypertrophy is a known risk factor for heart disease, and at thecellular level is caused by a complex interaction of signal transductionpathways. The IP3-calcineurin pathway plays an important role in stimulating thetranscription factor NFAT which binds to DNA cooperatively with otherhypertrophic transcription factors. Using available kinetic data, we construct amathematical model of the IP3 signal production system after stimulation by ahypertrophic alpha-adrenergic agonist (endothelin-1) in the mouse atrial cardiacmyocyte. We use a global sensitivity analysis to identify key controllingparameters with respect to the resultant IP3 transient, including thephosphorylation of cell-membrane receptors, the ligand strength and bindingkinetics to precoupled (with G(alpha)GDP) receptor, and the kinetics associatedwith precoupling the receptors. We show that the kinetics associated with thereceptor system contribute to the behavior of the system to a great extent, withprecoupled receptors driving the response to extracellular ligand. Finally, byreparameterizing for a second hypertrophic alpha-adrenergic agonist,angiotensin-II, we show that differences in key receptor kinetic and membranedensity parameters are sufficient to explain different observed IP3 transientsin essentially the same pathway.   </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a> and automatically converted to SBML.      <br />The original model was:      <a href=\"http://www.cellml.org/models/cooling_hunter_crampin_2007_version02\">          <strong>Cooling M, Hunter P, Crampin EJ. (2007) - version02</strong>        </a>        <br />The original CellML model was created by:      <br />        <strong>Cooling, Mike,</strong>        <br />m.cooling@aukland.ac.nz      <br />The University of Auckland      <br />The Bioengineering Institute      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17693463",
+    "journal" : "Biophysical journal",
+    "title" : "Modeling hypertrophic IP3 transients in the cardiac myocyte.",
+    "affiliation" : "Auckland Bioengineering Institute, Department of Engineering Science, University of Auckland, New Zealand. m.cooling@auckland.ac.nz",
+    "synopsis" : "Cardiac hypertrophy is a known risk factor for heart disease, and at the cellular level is caused by a complex interaction of signal transduction pathways. The IP3-calcineurin pathway plays an important role in stimulating the transcription factor NFAT which binds to DNA cooperatively with other hypertrophic transcription factors. Using available kinetic data, we construct a mathematical model of the IP3 signal production system after stimulation by a hypertrophic alpha-adrenergic agonist (endothelin-1) in the mouse atrial cardiac myocyte. We use a global sensitivity analysis to identify key controlling parameters with respect to the resultant IP3 transient, including the phosphorylation of cell-membrane receptors, the ligand strength and binding kinetics to precoupled (with G(alpha)GDP) receptor, and the kinetics associated with precoupling the receptors. We show that the kinetics associated with the receptor system contribute to the behavior of the system to a great extent, with precoupled receptors driving the response to extracellular ligand. Finally, by reparameterizing for a second hypertrophic alpha-adrenergic agonist, angiotensin-II, we show that differences in key receptor kinetic and membrane density parameters are sufficient to explain different observed IP3 transients in essentially the same pathway.",
+    "year" : 2007,
+    "month" : "11",
+    "volume" : "93",
+    "issue" : "10",
+    "pages" : "3421-3433",
+    "link" : "http://identifiers.org/pubmed/17693463",
+    "authors" : [
+      {
+        "name" : "Michael Cooling",
+        "institution" : "Auckland Bioengineering Institute, Department of Engineering Science, University of Auckland, New Zealand. m.cooling@auckland.ac.nz",
+        "orcid" : "0000-0002-3417-0177"
+      },
+      {
+        "name" : "Peter Hunter",
+        "orcid" : "0000-0001-9665-4145"
+      },
+      {
+        "name" : "Edmund J Crampin"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000400_url.xml",
+        "description" : "SBML L2V3 representation of Cooling2007_IP3transients_CardiacMyocyte",
+        "fileSize" : "36072",
+        "mimeType" : "application/xml",
+        "md5sum" : "00b5b3f4e6e187e35ce068f955a00ad8",
+        "sha1sum" : "0e0b9438bea84aff9702dcc294d864410c7deed7",
+        "sha256sum" : "5d44c6637372f5540603f3d257e8d2ad3c0b7ce4434c935eee5d6182ee84fc89"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000400-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "9878",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c22568ac75f98989f275077c559c23ed",
+        "sha1sum" : "34367154489a09e48832b2773795cd09187f6eb0",
+        "sha256sum" : "07733185891a5e4a18b4cb92f0fac212052931788d182647fcf7294bb1eeeb54"
+      },
+      {
+        "name" : "BIOMD0000000400-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "11213",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7320624e229877c1bfea74ac6d75f380",
+        "sha1sum" : "d8af8991652e7ec4200ace1d27470bf4898c80fe",
+        "sha256sum" : "4a2d75d7668ac0c92fb4f7cb1e8aff0a0666348273da33acfb196628895aca29"
+      },
+      {
+        "name" : "BIOMD0000000400-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10436",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f2d4e443d87e75e4b1d454544d7944d0",
+        "sha1sum" : "1ae58b6fbc1831d014f9d3bd764c3e58407e15b1",
+        "sha256sum" : "e91d3da70dd05a454dbf8049ba13be8c02ec46420ca7cc4d32883b3789e4392a"
+      },
+      {
+        "name" : "BIOMD0000000400-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10436",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "634ea3241e664580044e08658bb36df3",
+        "sha1sum" : "765fa57a21ef7c3c1495db6e5bdc81a3c2e54f63",
+        "sha256sum" : "ca54772f493906cd4cc4a5a8ade0592894ac1f360e80a46d3e76575b351a2d68"
+      },
+      {
+        "name" : "BIOMD0000000400.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10436",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "634ea3241e664580044e08658bb36df3",
+        "sha1sum" : "765fa57a21ef7c3c1495db6e5bdc81a3c2e54f63",
+        "sha256sum" : "ca54772f493906cd4cc4a5a8ade0592894ac1f360e80a46d3e76575b351a2d68"
+      },
+      {
+        "name" : "BIOMD0000000400.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "182311",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c413bb8098f249bd1794bb8ce1f443c4",
+        "sha1sum" : "4c34afc4edb28991322a313e0d4792b38e0d5f3b",
+        "sha256sum" : "2c2465fdf4f2602a0a6047db47d57c905751368b510c3ef8943296e49cee9380"
+      },
+      {
+        "name" : "BIOMD0000000400.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000400.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "BIOMD0000000400_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "37714",
+        "mimeType" : "application/xml",
+        "md5sum" : "aec5412a3cd1f35758461fbbad1fbf70",
+        "sha1sum" : "ddd85bca8e36de0d5984dcc34ef63dc42cb05ef0",
+        "sha256sum" : "9e9832aadfbd53e2d5db302d0ce066168639153c7a16deeaf6024e581de6b76d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "14814",
+        "mimeType" : "image/png",
+        "md5sum" : "a86ab0e58ec231357e5646cfa9bbcf70",
+        "sha1sum" : "e0d02c2b40c01ebacedf79f37eb56a0eecace044",
+        "sha256sum" : "31f908badded741256e4e421facdd866560f9832af186776cca5e868e6b86771"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "117",
+        "mimeType" : "text/plain",
+        "md5sum" : "8daec9485be1771928b2672b06a8b1cf",
+        "sha1sum" : "71a72b5423314197ba111245984cab16066c77a0",
+        "sha256sum" : "c3766177702d48543e33dcd76b768c03fd4f1e318c0b59394dbb629ba8e6ec02"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1679",
+        "mimeType" : "application/xml",
+        "md5sum" : "f4e2d3d39dc02fe2199c73abe82e2228",
+        "sha1sum" : "643be202d978a9dc3e8c1a9dc6a3e56c8d645fdf",
+        "sha256sum" : "8b215678e50877f381ff5e3b4fb82b0460bd00cf4c24316381466a947aab9e0b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4970",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "be5af2b0b4c07207af08994993575c9e",
+        "sha1sum" : "6657160948803a0c7aecb41c91b9fb7871eaf8f9",
+        "sha256sum" : "a811c75a685c9dc45d8c5d4a35e06f2b0039ea32c934f0373f6cf8afe4098132"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1240923320,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Cooling2007_IP3transients_CardiacMyocyte"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1497644515,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Cooling2007_IP3transients_CardiacMyocyte"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275665,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285125,
+  "submissionId" : "MODEL0913194523",
+  "publicationId" : "BIOMD0000000400",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0913194523",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0913194523"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000400",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000400"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17693463",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17693463"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "FMA:83108",
+      "name" : "Regular atrial cardiac myocyte",
+      "resource" : "FMA",
+      "uri" : "http://identifiers.org/fma/FMA:83108"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0048016",
+      "name" : "inositol phosphate-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048016"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0003015",
+      "name" : "heart process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0003015"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0003300",
+      "name" : "cardiac muscle hypertrophy",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0003300"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "name" : "Sarkar2020 - SAIR model of COVID-19 transmission with quarantine measures in India",
+  "description" : "In India, 100,340 confirmed cases and 3155 confirmed deaths due to COVID-19 were reported as of May 18, 2020. Due to absence of specific vaccine or therapy, non-pharmacological interventions including so- cial distancing, contact tracing are essential to end the worldwide COVID-19. We propose a mathematical model that predicts the dynamics of COVID-19 in 17 provinces of India and the overall India. A complete scenario is given to demonstrate the estimated pandemic life cycle along with the real data or history to date, which in turn divulges the predicted inflection point and ending phase of SARS-CoV-2. The proposed model monitors the dynamics of six compartments, namely susceptible (S), asymptomatic (A), recovered (R), infected (I), isolated infected ( I q ) and quarantined susceptible ( S q ), collectively expressed SARII q S q . A sensitivity analysis is conducted to determine the robustness of model predictions to parameter values and the sensitive parameters are estimated from the real data on the COVID-19 pandemic in India. Our re- sults reveal that achieving a reduction in the contact rate between uninfected and infected individuals by quarantined the susceptible individuals, can effectively reduce the basic reproduction number. Our model simulations demonstrate that the elimination of ongoing SARS-CoV-2 pandemic is possible by combining the restrictive social distancing and contact tracing. Our predictions are based on real data with reason- able assumptions, whereas the accurate course of epidemic heavily depends on how and when quaran- tine, isolation and precautionary measures are enforced.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "32834603",
+    "journal" : "Chaos, solitons, and fractals",
+    "title" : "Modeling and forecasting the COVID-19 pandemic in India.",
+    "affiliation" : "Department of Mathematics, Malda College, Malda, West Bengal 732101, India.",
+    "synopsis" : "In India, 100,340 confirmed cases and 3155 confirmed deaths due to COVID-19 were reported as of May 18, 2020. Due to absence of specific vaccine or therapy, non-pharmacological interventions including social distancing, contact tracing are essential to end the worldwide COVID-19. We propose a mathematical model that predicts the dynamics of COVID-19 in 17 provinces of India and the overall India. A complete scenario is given to demonstrate the estimated pandemic life cycle along with the real data or history to date, which in turn divulges the predicted inflection point and ending phase of SARS-CoV-2. The proposed model monitors the dynamics of six compartments, namely susceptible (S), asymptomatic (A), recovered (R), infected (I), isolated infected (<i>I<sub>q</sub></i> ) and quarantined susceptible (<i>S<sub>q</sub></i> ), collectively expressed <i>SARII<sub>q</sub>S<sub>q</sub></i> . A sensitivity analysis is conducted to determine the robustness of model predictions to parameter values and the sensitive parameters are estimated from the real data on the COVID-19 pandemic in India. Our results reveal that achieving a reduction in the contact rate between uninfected and infected individuals by quarantined the susceptible individuals, can effectively reduce the basic reproduction number. Our model simulations demonstrate that the elimination of ongoing SARS-CoV-2 pandemic is possible by combining the restrictive social distancing and contact tracing. Our predictions are based on real data with reasonable assumptions, whereas the accurate course of epidemic heavily depends on how and when quarantine, isolation and precautionary measures are enforced.",
+    "year" : 2020,
+    "month" : "10",
+    "volume" : "139",
+    "pages" : "110049",
+    "link" : "http://identifiers.org/pubmed/32834603",
+    "authors" : [
+      {
+        "name" : "Kankan Sarkar",
+        "institution" : "Department of Mathematics, Malda College, Malda, West Bengal 732101, India.",
+        "orcid" : "0000-0002-2777-9611"
+      },
+      {
+        "name" : "Subhas Khajanchi",
+        "institution" : "Department of Mathematics, Presidency University, 86/1 College Street, Kolkata 700073, India.",
+        "orcid" : "0000-0002-6533-1121"
+      },
+      {
+        "name" : "Juan J Nieto",
+        "institution" : "Instituto de Matemáticas, Universidade de Santiago de Compostela, Santiago de Compostela, Spain.",
+        "orcid" : "0000-0001-8202-6578"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Sarkar2020.xml",
+        "description" : "SBML L3V1 representation of SAIR model of COVID-19 transmission with quarantine measures in India",
+        "fileSize" : "66604",
+        "mimeType" : "application/xml",
+        "md5sum" : "37bccb5026c97af246be64ce7db682ce",
+        "sha1sum" : "533fda7d4bbe3d8a24a65bbdae1acd9bf0c3373d",
+        "sha256sum" : "ff6f524963587660e0348f8e7764730aa91c2eaad185b4288f544cbc4923777a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Sarkar2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "22493",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "54c2b3ec551d123be2d97d6bcd0b1901",
+        "sha1sum" : "203a2949449289d762faeb0eb9a391ac7236d29b",
+        "sha256sum" : "6316bfd4677fbc84d8005d91e9b95c7d4b641c1a37d27b94379911c3273ed059"
+      },
+      {
+        "name" : "Sarkar2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "35758",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9cedc4231a3ae17ce6e613d1345ce615",
+        "sha1sum" : "0842b1371600c5272c2c69ea1e811221708c84c6",
+        "sha256sum" : "2bedf500445d589cdb0b5b9faba03d9240ac69d3473a1b0d7939063db22d0a5e"
+      },
+      {
+        "name" : "Sarkar2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8687",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "61f7818c7edadc7f95b905c16ae48d02",
+        "sha1sum" : "3cf1712b1400685dc91bd1a85e9164afb74b4f9f",
+        "sha256sum" : "91f47bc136f13944d31c0c84b5cf9b4ada430d8d2c7fffafecc8adc19eca3486"
+      },
+      {
+        "name" : "Sarkar2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8687",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ea9d18d06cd382d8203d216566329e0d",
+        "sha1sum" : "cde31cc6fe5cfc43540a34b6e983bf789cddeb47",
+        "sha256sum" : "b2ab54ce9c98159d9636d0fea9278093ec17cfe6c8f992c0650e9e842cc7ad75"
+      },
+      {
+        "name" : "Sarkar2020.cps",
+        "description" : "COPASI 4.29 (Build 228) file of SAIR model of COVID-19 transmission with quarantine measures in India",
+        "fileSize" : "103305",
+        "mimeType" : "application/xml",
+        "md5sum" : "b5de4f601a613b62ecd84928b3ef5f6d",
+        "sha1sum" : "bf1d3bb82d40cfc560a95d5e06a6562f873922d7",
+        "sha256sum" : "60922acdf6097c8428e02e39692a73e7da4e3aa6161c55be2256a6b09eab6b79"
+      },
+      {
+        "name" : "Sarkar2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5916",
+        "mimeType" : "text/plain",
+        "md5sum" : "337cbd69080fc5c53086e127c7656339",
+        "sha1sum" : "11fda5670dac48573fe6d8196cef455f4506adc0",
+        "sha256sum" : "701d155f5ca2af38230e076d8dd92e87a7865f2d6e5bd6fa0f483351039609bd"
+      },
+      {
+        "name" : "Sarkar2020.sedml",
+        "description" : "SED-ML file of SAIR model of COVID-19 transmission with quarantine measures in India (additionally CRBM-validated and adjusted).",
+        "fileSize" : "23417",
+        "mimeType" : "application/xml",
+        "md5sum" : "881cf8e87daec5aa40bfc194f889a541",
+        "sha1sum" : "1fdf25118040e41c92df85a2c9bd3ceecb9e67a7",
+        "sha256sum" : "804d65756cca678725abf19fec1be0c1ce40fc6f10fda607827d0d969622c17e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "91534",
+        "mimeType" : "image/png",
+        "md5sum" : "c85e0b876f199ad71dc9ee2ab287c9d0",
+        "sha1sum" : "127a19c8697332637f823b988d5328aac848bceb",
+        "sha256sum" : "a0eacb24a817821520b0f3f83fcd982517bf24be5fbb9f33cdc92e56afd52928"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "221",
+        "mimeType" : "text/plain",
+        "md5sum" : "e98807262d9cde77013d86e1eac9b480",
+        "sha1sum" : "6a7d9b60e60db47686a8767f5a16eb76c4e1e426",
+        "sha256sum" : "c78542bc1422c6af98369a98538ef43e4b3cea69a2f659000a040f5b97edc474"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "04fffab53b24f31ccbea91c4bab14bfc",
+        "sha1sum" : "0bf3f4d85c8496c189e6b4da2115053e2847a143",
+        "sha256sum" : "7fde34abbdb5bf42764653d26197dc8f2dc7b391f87e0cb20b1b006b1d2a0821"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3226",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1843b36f45fd2a5f240f23f8684155bc",
+        "sha1sum" : "54678c4725d2573a7600b9711b64da004ac135d9",
+        "sha256sum" : "b252bb3dbb87c3dd495e4e1eadf177e42be96e0caaea48d4e8c3c4a5912a391b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1606741794,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000977"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724294368,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285551,
+  "submissionId" : "MODEL2011300001",
+  "publicationId" : "BIOMD0000000977",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "32834603",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/32834603"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2011300001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2011300001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000977",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000977"
+    }
+  ]
+}

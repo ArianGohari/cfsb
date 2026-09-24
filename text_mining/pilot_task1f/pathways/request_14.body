@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Show interactions of entities / pathways</title>
+<link rel="stylesheet" type="text/css" href="css/sheet.css">
+<style type="text/css">
+ a:link,a:visited { color:#005500; text-decoration:none; }
+ a:focus,a:hover,a:active { color:#00ad00; text-decoration:none; }
+</style>
+<script type="text/javascript" src="javascript/common.js"></script>
+</head>
+<body style="font-size:12pt; font-family:Arial,sans-serif; background-color:#f8ffff">
+<form name="searchform" action="search" method="post" onsubmit="return Check();">
+<table border="0" style="width:100%"><colgroup><col width="95%"><col width="5%"></colgroup><tr><td><font style="color:#004400; font-family:Arial,sans-serif; font-weight:bold; font-size:18pt; text-decoration:underline;">Show interactions of entities / pathways</font>
+<br>
+<font style="font-size:10pt; color:#004400;">Search for entities &nbsp;&nbsp;</font><font style="font-size:10pt; color:#CCCCCC;">&gt;&nbsp;&nbsp; Select entities of interest &nbsp;&nbsp;&gt;&nbsp;&nbsp; Select interactions of interest &nbsp;&nbsp;&gt;&nbsp;&nbsp; Visualize interaction network </font>
+</td><td valign="top"><img src="images/info.png" title="Help" onclick="openW('tutorial#search.molpwy','Help','resizable=1,scrollbars=2,width=1024,height=800,toolbar=0');"></td></tr></table>
+
+<br>
+<br>
+<br>
+<table border="0">
+<tr>
+<td>
+<table>
+  <tr>
+    <td rowspan="2"><b>Search by</b></td>
+    <td> <input type="radio" name="nameacc" value="name" checked="checked"></td><td> <b>name</b></td>
+  </tr>
+  <tr>
+    <td> <input type="radio" name="nameacc" value="acc"></td><td> <b>accession number</b></td>
+  </tr>
+  <tr>
+	<td></td>
+	<td></td> 
+	<td>(<a href="validAccs" target="_blank">list of valid types</a>)</td>
+  </tr>
+</table>
+</td>
+<td colspan="2">
+<textarea name="keywords" cols="40" rows="5">
+</textarea></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="radio" name="searchspace" checked value="PhysicalEntity"> <b>Physical entity</b> <br>
+<input type="radio" name="searchspace" value="Pathway"> <b>Pathway</b>
+</td>
+<td align="left">
+<input type="submit" value="Search" onclick="subm=0;javascript:fullInput2(keywords,'Please provide search keywords.');" class="cpdbutton">
+</td>
+</tr>
+</table>
+<br>
+<br>
+<b>Examples:</b> <a href="search?nameacc=name&amp;keywords=glycolysis&amp;searchspace=Pathway">Glycolysis</a>, <a href="search?nameacc=name&amp;keywords=puma&amp;searchspace=PhysicalEntity">PUMA</a>
+<br>
+<br>
+<b>Search instructions:</b> <ul>
+<li><b>Physical entities</b> can be searched either by <b>name</b> or by <b>accession number</b> (click on the link 'list' to see which accession 
+<br>number types are valid). <b>Pathways</b> can be searched <b>only by name</b>.</li>
+<li>Words written <b>within a row</b> have an <b>AND</b> relationship, and <b>different rows</b> have an <b>OR</b> relationship between each other.
+<br><i>Example:</i> you would like to search for ATP. You can write 'ATP' on the first row and 'adenosine triphosphate' on the next, which <br> would mean that you are looking for an entity name that contains either 'ATP' or 'adenosine' and 'triphosphate'.</li>
+<li>Searches by name are <b>case-insensitive.</b></li>
+</ul>
+</form>
+</body>
+</html>

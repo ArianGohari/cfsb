@@ -1,0 +1,286 @@
+{
+  "name" : "Mitrophanov2015 - Simulating extended Hockin Blood Coagulation Model under varied pH",
+  "description" : "Mathematical model of the blood coagulation cascade with new kinetic rates to simulate acidosis. Extended Hockin2002 model. Reused Mitrophanov2011 model with new parameters k: 5, 6, 7, 10, 15, 16, 17, 22, 26, 31, 32, 43 and 44.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25839182",
+    "journal" : "Anesthesia and analgesia",
+    "title" : "Mechanistic Modeling of the Effects of Acidosis on Thrombin Generation.",
+    "affiliation" : "From the *DoD Biotechnology High Performance Computing Software Applications Institute (BHSAI); †Telemedicine and Advanced Technology Research Center; U.S. Army Medical Research and Materiel Command, Ft. Detrick, MD; and Departments of ‡Clinical Epidemiology and §Thrombosis and Haemostasis, Leiden University Medical Center, Leiden, The Netherlands.",
+    "synopsis" : "<h4>Background</h4>Acidosis, a frequent complication of trauma and complex surgery, results from tissue hypoperfusion and IV resuscitation with acidic fluids. While acidosis is known to inhibit the function of distinct enzymatic reactions, its cumulative effect on the blood coagulation system is not fully understood. Here, we use computational modeling to test the hypothesis that acidosis delays and reduces the amount of thrombin generation in human blood plasma. Moreover, we investigate the sensitivity of different thrombin generation parameters to acidosis, both at the individual and population level.<h4>Methods</h4>We used a kinetic model to simulate and analyze the generation of thrombin and thrombin-antithrombin complexes (TAT), which were the end points of this study. Large groups of temporal thrombin and TAT trajectories were simulated and used to calculate quantitative parameters, such as clotting time (CT), thrombin peak time, maximum slope of the thrombin curve, thrombin peak height, area under the thrombin trajectory (AUC), and prothrombin time. The resulting samples of parameter values at different pH levels were compared to assess the acidosis-induced effects. To investigate intersubject variability, we parameterized the computational model using the data on clotting factor composition for 472 subjects from the Leiden Thrombophilia Study. To compare acidosis-induced relative parameter changes in individual (\"virtual\") subjects, we estimated the probabilities of relative change patterns by counting the pattern occurrences in our virtual subjects. Distribution overlaps for thrombin generation parameters at distinct pH levels were quantified using the Bhattacharyya coefficient.<h4>Results</h4>Acidosis in the range of pH 6.9 to 7.3 progressively increased CT, thrombin peak time, AUC, and prothrombin time, while decreasing maximum slope of the thrombin curve and thrombin peak height (P < 10). Acidosis delayed the onset and decreased the amount of TAT generation (P < 10). As a measure of intrasubject variability, maximum slope of the thrombin curve and CT displayed the largest and second-largest acidosis-induced relative changes, and AUC displayed the smallest relative changes among all thrombin generation parameters in our virtual subject group (1-sided 95% lower confidence limit on the fraction of subjects displaying the patterns, 0.99). As a measure of intersubject variability, the overlaps between the maximum slope of the thrombin curve distributions at acidotic pH levels with the maximum slope of the thrombin curve distribution at physiological pH level systematically exceeded analogous distribution overlaps for CT, thrombin peak time, and prothrombin time.<h4>Conclusions</h4>Acidosis affected all quantitative parameters of thrombin and TAT generation. While maximum slope of the thrombin curve showed the highest sensitivity to acidosis at the individual-subject level, it may be outperformed by CT, thrombin peak time, and prothrombin time as an indicator of acidosis at the subject-group level.",
+    "year" : 2015,
+    "month" : "8",
+    "volume" : "121",
+    "issue" : "2",
+    "pages" : "278-288",
+    "link" : "http://identifiers.org/pubmed/25839182",
+    "authors" : [
+      {
+        "name" : "Alexander Y Mitrophanov",
+        "institution" : "DoD Biotechnology High-Performance Computing Software Applications Institute, Telemedicine and Advanced Technology Research Center, US Army Medical Research and Materiel Command, ATTN: MCMR-TT, 504 Scott Street, Ft Detrick, MD 21702, USA. alex@bioanalysis.org",
+        "orcid" : "0000-0002-9019-4034"
+      },
+      {
+        "name" : "Frits R Rosendaal"
+      },
+      {
+        "name" : "Jaques Reifman"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Mitrophanov2015.xml",
+        "description" : "SBML L2V4 representation of Mitrophanov2015 - Simulating extended Hockin Blood Coagulation Model under varied pH",
+        "fileSize" : "181907",
+        "mimeType" : "application/xml",
+        "md5sum" : "cf9405ae9bf8999a1c896ca961ed14fa",
+        "sha1sum" : "14e9450bf6d1a64b00ba612c8e7c7563f157beb7",
+        "sha256sum" : "c4c9359f9ef513070d13eaf7bc01a6f0cfc6e835e124802ec49a4cefd0c38251"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Mitrophanov2015-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "61610",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d45b9de5e60636a1897485a556ebfa9d",
+        "sha1sum" : "d243bcb3ace5538cb5dd20b24d2dfe9151938917",
+        "sha256sum" : "473648067d0273232c94bc770de044bf8faa5c09d6759b16109bb89df988b4a3"
+      },
+      {
+        "name" : "Mitrophanov2015-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "106355",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c6d4a1163ebe5eb70cf367aab53d6287",
+        "sha1sum" : "e00094050495dc8825764f238c789bacc10b8e6d",
+        "sha256sum" : "f8c1d639a4e6e26cba3275192161a1620e86cc260f4cf176d4eeaed0dfcfbb2b"
+      },
+      {
+        "name" : "Mitrophanov2015-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "17773",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "919b6910535c8201e90500ce608be8c0",
+        "sha1sum" : "de049148a2d7158bb9c3453d3b528ba225b34b08",
+        "sha256sum" : "3b01bdb25e125435cc2f93e8bb8d1286fc5d2b87399345c60e619a465268a88a"
+      },
+      {
+        "name" : "Mitrophanov2015-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "17773",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c9018736c35e19766aff6643a96bdbf5",
+        "sha1sum" : "a394e952b5a3856b8da169377e731a26b7b9767f",
+        "sha256sum" : "f8f6c55630d4b327e3171879b4c0db67e4c3c3f4123651ff8df0b0b14f83713f"
+      },
+      {
+        "name" : "Mitrophanov2015.cps",
+        "description" : "model COPASI file. Reused Mitrophanov2011. Added new kinetic parameters k: 5, 6, 7, 10, 15, 16, 17, 22, 26, 31, 32, 43, 44. k_new = f(pH)*k_old.",
+        "fileSize" : "217360",
+        "mimeType" : "application/xml",
+        "md5sum" : "b38fabf26f5ad1287eea7214bcbc66e1",
+        "sha1sum" : "564c85696e7604304ad5306810fd8c1a33229a1d",
+        "sha256sum" : "33579f2da847df0800d630cb40fe77ee407ee96883d6f8d664397bef47bf4357"
+      },
+      {
+        "name" : "Mitrophanov2015.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "13779",
+        "mimeType" : "text/plain",
+        "md5sum" : "8ae4618d540e3032925df91f8f0734cd",
+        "sha1sum" : "0e1bef13a320bd921d4ebc9b71bc2d381f772c4a",
+        "sha256sum" : "9cd8329ff27935d5545ee8fb128c57f0a7d4796811163d8b9c5a258434d91abf"
+      },
+      {
+        "name" : "Mitrophanov2015.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "67667",
+        "mimeType" : "application/xml",
+        "md5sum" : "37f69860ef072dbc96ad4a7664b1b173",
+        "sha1sum" : "e9877a608952683405e2abd06faeadca1faa2063",
+        "sha256sum" : "5d85ef06d4aa211f0f9bc801b204c616e05f1b09375123f3d5e091125c722b86"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21238",
+        "mimeType" : "image/png",
+        "md5sum" : "453fa3b68ccf2dde68716a03d4fadefa",
+        "sha1sum" : "90da10dcafb8e52b8507f1c7370215952c890f95",
+        "sha256sum" : "036f24eb8734de0bb6460a7485ac7b13f115c39f176a4512270ccf47282471a7"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "67",
+        "mimeType" : "text/plain",
+        "md5sum" : "f657fdc091da3becdbf2867024f77787",
+        "sha1sum" : "0e3201f1c654cfb5dfa927e18a61be7efadc144a",
+        "sha256sum" : "14df7d4ceae8cf094c57918a827ae045a56e1c491fdffba96116f28ef048ce0b"
+      },
+      {
+        "name" : "fig2c.png",
+        "description" : "simulation figure 2C",
+        "fileSize" : "21238",
+        "mimeType" : "image/png",
+        "md5sum" : "453fa3b68ccf2dde68716a03d4fadefa",
+        "sha1sum" : "90da10dcafb8e52b8507f1c7370215952c890f95",
+        "sha256sum" : "036f24eb8734de0bb6460a7485ac7b13f115c39f176a4512270ccf47282471a7"
+      },
+      {
+        "name" : "fig2d.png",
+        "description" : "simulation figure 2D",
+        "fileSize" : "17650",
+        "mimeType" : "image/png",
+        "md5sum" : "a216984c2db5350330047310addc6db2",
+        "sha1sum" : "95ac72f73d9a6155c4ade8619efa2d16195be4a7",
+        "sha256sum" : "8f9408adca39fcb07d1d19698e0f00bf6000f2b049b008cfa111347408abdcc6"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1651",
+        "mimeType" : "application/xml",
+        "md5sum" : "a07b0aacb54a8c6d82339365eb59d1f1",
+        "sha1sum" : "85c9435fb14cad922a933c19de4cc19c2d47a542",
+        "sha256sum" : "96750d74a9b7c616ff9c992e81aeeeb34558d1ec493d1d776f360689133be31a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2153",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8d43f60c8cd68c1d4eb56a7011bdf3f8",
+        "sha1sum" : "b985b2a7185da4949d9e60e58ae561ed9deaf443",
+        "sha256sum" : "4c7b918ebdea5b2732e0b25ccd7047db096cb937b98c246aa7a20bd20f89dad5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1530096249,
+        "submitter" : "Matthew Roberts",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 3,
+        "submitted" : 1589395489,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000951"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724293756,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285543,
+  "submissionId" : "MODEL1806270001",
+  "publicationId" : "BIOMD0000000951",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthew Roberts",
+        "email" : "mroberts@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000951",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000951"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1806270001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1806270001"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25839182",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:25839182"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "BIOMD0000000362",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000362"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000131",
+      "name" : "blood plasma",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000131"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "25839182",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25839182"
+    }
+  ]
+}

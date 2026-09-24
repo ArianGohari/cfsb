@@ -1,0 +1,334 @@
+{
+  "name" : "Chen2000_CellCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Kinetic analysis of a molecular model of the budding yeast cell cycle.</strong>        <br />          Chen KC, Csikasz-Nagy A, Gyorffy B, Val J, Novak B, Tyson JJ.      <em>Mol Biol Cell</em>          2000 Jan;11(1):369-91      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10637314\">10637314</a>          ,      <br />        <strong>Abstract:</strong>        <br />          The molecular machinery of cell cycle control is known in more detail forbudding yeast, Saccharomyces cerevisiae, than for any other eukaryotic organism.In recent years, many elegant experiments on budding yeast have dissected theroles of cyclin molecules (Cln1-3 and Clb1-6) in coordinating the events of DNAsynthesis, bud emergence, spindle formation, nuclear division, and cellseparation. These experimental clues suggest a mechanism for the principalmolecular interactions controlling cyclin synthesis and degradation. Usingstandard techniques of biochemical kinetics, we convert the mechanism into a setof differential equations, which describe the time courses of three majorclasses of cyclin-dependent kinase activities. Model in hand, we examine themolecular events controlling \"Start\" (the commitment step to a new round ofchromosome replication, bud formation, and mitosis) and \"Finish\" (the transitionfrom metaphase to anaphase, when sister chromatids are pulled apart and the budseparates from the mother cell) in wild-type cells and 50 mutants. The modelaccounts for many details of the physiology, biochemistry, and genetics of cellcycle control in budding yeast.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/8502bac4a83d9faaaa57edd9f682acfa\">          <strong>Chen KC, Csikasz-Nagy A, Gyorffy B, Val J, Novak B, Tyson JJ. (2000) - version=1.0</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10637314",
+    "journal" : "Molecular biology of the cell",
+    "title" : "Kinetic analysis of a molecular model of the budding yeast cell cycle.",
+    "affiliation" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg Virginia 24061, USA.",
+    "synopsis" : "The molecular machinery of cell cycle control is known in more detail for budding yeast, Saccharomyces cerevisiae, than for any other eukaryotic organism. In recent years, many elegant experiments on budding yeast have dissected the roles of cyclin molecules (Cln1-3 and Clb1-6) in coordinating the events of DNA synthesis, bud emergence, spindle formation, nuclear division, and cell separation. These experimental clues suggest a mechanism for the principal molecular interactions controlling cyclin synthesis and degradation. Using standard techniques of biochemical kinetics, we convert the mechanism into a set of differential equations, which describe the time courses of three major classes of cyclin-dependent kinase activities. Model in hand, we examine the molecular events controlling \"Start\" (the commitment step to a new round of chromosome replication, bud formation, and mitosis) and \"Finish\" (the transition from metaphase to anaphase, when sister chromatids are pulled apart and the bud separates from the mother cell) in wild-type cells and 50 mutants. The model accounts for many details of the physiology, biochemistry, and genetics of cell cycle control in budding yeast.",
+    "year" : 2000,
+    "month" : "1",
+    "volume" : "11",
+    "issue" : "1",
+    "pages" : "369-391",
+    "link" : "http://identifiers.org/pubmed/10637314",
+    "authors" : [
+      {
+        "name" : "K C Chen",
+        "institution" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg Virginia 24061, USA."
+      },
+      {
+        "name" : "A Csikasz-Nagy"
+      },
+      {
+        "name" : "B Gyorffy"
+      },
+      {
+        "name" : "J Val"
+      },
+      {
+        "name" : "B Novak"
+      },
+      {
+        "name" : "J J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000675.xml",
+        "description" : "SBML L2V4 representation of Chen2000 - Budding yeast cell cycle",
+        "fileSize" : "190217",
+        "mimeType" : "application/xml",
+        "md5sum" : "9bc68595785db69aac7301878781adca",
+        "sha1sum" : "51a106c16a4177009788a5720136768e100a6c1c",
+        "sha256sum" : "e7f3739ce0b529f9a9d07e2dc3ea71c7cbb173dfe366e8aa8961577634e13a4c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000675-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "11041",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3af9446e5441d41c04e6aa883946935b",
+        "sha1sum" : "8ab845edd7e412cf3de94bcb4fa42658f3c34691",
+        "sha256sum" : "88cf1dd16ef8d7b740fe9d90c92870ba5efa42b7eaa34f9ca646a0a8df8f5d95"
+      },
+      {
+        "name" : "BIOMD0000000675-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "13200",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2fd10a7f1cdef397df4e1fd818bd23f5",
+        "sha1sum" : "1320f9becda9082118a98a35491aae42cbdb62f3",
+        "sha256sum" : "945990bb8aad915f255167ed512877243be9ab369c25306087d1c2da61ab5f50"
+      },
+      {
+        "name" : "BIOMD0000000675-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16443",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "aabff747c31828182b228915da127e1f",
+        "sha1sum" : "4bd23fa3ea5eb7a9d6be8b3213d6427d5d7f8e2c",
+        "sha256sum" : "8728a612d8dfad43cbae40c6c2369d774ef9ba7201630713b883b8d2b6b3fa50"
+      },
+      {
+        "name" : "BIOMD0000000675-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16443",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "09e4268720bcb4c5af528ff85695a132",
+        "sha1sum" : "20d59d7ffdfdcea3e83f30345c29938bd5a69933",
+        "sha256sum" : "495ff8de4de344d959b18d185d326b26ac31f06d8a11b923ccd55e7dfaea9232"
+      },
+      {
+        "name" : "BIOMD0000000675.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16581",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9be37fa2b82b51cc01738cf1ee72f134",
+        "sha1sum" : "a795ee35f545281cfa93e1007905733e56c3fcb2",
+        "sha256sum" : "9206ec52e0b2b39ec23a6016b59f3f5feb836f581d2c6f8f2a66e2e99d36431c"
+      },
+      {
+        "name" : "BIOMD0000000675.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "170707",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7fb52d746b8267c3ebed273c62efdee4",
+        "sha1sum" : "c404ff6adde3efd493c4c1d43dd198ce17f46755",
+        "sha256sum" : "ed1bc263bb3da68b9e52abe705bf9bae60fd1d12a98fb6700f4cfacdc48a79ee"
+      },
+      {
+        "name" : "BIOMD0000000675.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000675.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "MODEL1006230004.cps",
+        "description" : "Curated and annotated COPASI file that reproduces figure 3.",
+        "fileSize" : "160017",
+        "mimeType" : "application/xml",
+        "md5sum" : "3421c3da1ea953bf87db74c10afbe11a",
+        "sha1sum" : "a4dce3d33569a0f022ed14a96f628e5898c33e27",
+        "sha256sum" : "716e4eb64524cd96939c44a31fc0ae76b3d00342286aa0e2758dbda0d37b6888"
+      },
+      {
+        "name" : "MODEL1006230004.sedml",
+        "description" : "SED-ML file for figure 3 of the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "58019",
+        "mimeType" : "application/xml",
+        "md5sum" : "7c981fe81daafb55eb3bcfbf10168f42",
+        "sha1sum" : "ce294038c0886d63030b01222fa89364a6d4676a",
+        "sha256sum" : "5ac1b3a0cc5fe068f4df5a8d6f2498bee2e3f5e855507ca0c9fc167472d953e8"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "37993",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "2dba9e7f53ca94ff8db80c09044fabbd",
+        "sha1sum" : "786e159cd874621458db9f3b20e6a9013242299b",
+        "sha256sum" : "a1cd348a6aaaed8a16e95ebfc87f7c585dd6628aac164c548d6baf1b790c8d84"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "731",
+        "mimeType" : "text/plain",
+        "md5sum" : "d7d529548d5a05c9f0b0e3c6274d3b1a",
+        "sha1sum" : "2e2b17e0aa868342a7ea1e12e600ff170014277b",
+        "sha256sum" : "fe62bf35e3b01b863610387ce8f2d3874758c84fb2b4cd41c71cbcc48e442120"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1794",
+        "mimeType" : "application/xml",
+        "md5sum" : "1f05498a0b65a4a3022bfe63347e67db",
+        "sha1sum" : "650bbbfbf8e0b6c957f0d65cae9b62c4ee17beea",
+        "sha256sum" : "f37f627b9ae6fae71bfe3c1bf74c7afade5e0bc7e23e793b2742480e3c350414"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6481",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a2a2d123ca4b8cc673a820619f70f84c",
+        "sha1sum" : "b1738cabe3c5bc26ad354c14ec1a728393c7e37b",
+        "sha256sum" : "83a79cbe1e8cdedd43376361520dd97142104afb1e93480e168bdd5715dd4f70"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287910,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Chen2000_CellCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277471166,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Chen2000_CellCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1521020253,
+        "submitter" : "administrator",
+        "comment" : "Current curated version of Chen2000_CellCycle"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1566483431,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000675"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724286235,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285405,
+  "submissionId" : "MODEL1006230004",
+  "publicationId" : "BIOMD0000000675",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Ashley Xavier",
+        "email" : "ashleythomasxavier@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0001-5372-3024",
+        "external" : false
+      },
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000675",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000675"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230004"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10637314",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:10637314"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL1006230004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230004"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000075",
+      "name" : "cell cycle checkpoint",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000075"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10637314",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10637314"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10098216",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10098216"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "9552349",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9552349"
+    }
+  ]
+}

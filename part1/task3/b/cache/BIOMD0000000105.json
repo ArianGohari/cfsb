@@ -1,0 +1,312 @@
+{
+  "name" : "Proctor2007 - Age related decline of proteolysis, ubiquitin-proteome system",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Proctor2007 - Age related decline of proteolysis, ubiquitin-proteome system</div>        <div class=\"dc:description\">          <p style=\"font-size: 12px; color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">This  is a stochastic model of the ubiquitin-proteasome system for a  generic pool of native proteins (NatP), which have a half-life of  about 10 hours under normal conditions. It is assumed that these  proteins are only degraded after they have lost their native  structure due to a damage event. This is represented in the model  by the misfolding reaction which depends on the level of reactive  oxygen species (ROS) in the cell. Misfolded proteins (MisP) are  first bound by an E3 ubiquitin ligase. Ubiquitin (Ub) is  activated by E1 (ubiquitin-activating enzyme) and then passed to  E2 (ubiquitin-conjugating enzyme). The E2 enzyme then passes the  ubiquitin molecule to the E3/MisP complex with the net effect  that the misfolded protein is monoubiquitinated and both E2 and  E3 are released. Further ubiquitin molecules are added in a  step-wise manner. When the chain of ubiquitin molecules is of  length 4 or more, the polyubiquitinated misfolded protein may  bind to the proteasome. The model also includes de-ubiquitinating  enzymes (DUB) which cleave ubiquitin molecules from the chain in  a step-wise manner. They work on chains attached to misfolded  proteins both unbound and bound to the proteasomes. Misfolded  proteins bound to the proteasome may be degraded releasing  ubiquitin. Misfolded proteins including ubiquitinated proteins  may also aggregate. Aggregates (AggP) may be sequestered  (Seq_AggP) which takes them out of harm's way or they may bind to  the proteasome (AggP_Proteasome). Proteasomes bound by aggregates  are no longer available for protein degradation.</p>          <p style=\"font-size: 12px; color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">Figure  2 and Figure 3 has been simulated using Gillespie2.</p>        </div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/17408507\" title=\"Access to this publication\">An in silico model of the    ubiquitin-proteasome system that incorporates normal    homeostasis and age-related decline.</a>          </div>          <div class=\"bibo:authorList\">Proctor CJ, Tsirigotis M, Gray  DA.</div>          <div class=\"bibo:Journal\">BMC Syst Biol 2007; 1: 17</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>BACKGROUND: The ubiquitin-proteasome system is responsible    for homeostatic degradation of intact protein substrates as    well as the elimination of damaged or misfolded proteins that    might otherwise aggregate. During ageing there is a decline in    proteasome activity and an increase in aggregated proteins.    Many neurodegenerative diseases are characterised by the    presence of distinctive ubiquitin-positive inclusion bodies in    affected regions of the brain. These inclusions consist of    insoluble, unfolded, ubiquitinated polypeptides that fail to be    targeted and degraded by the proteasome. We are using a systems    biology approach to try and determine the primary event in the    decline in proteolytic capacity with age and whether there is    in fact a vicious cycle of inhibition, with accumulating    aggregates further inhibiting proteolysis, prompting    accumulation of aggregates and so on. A stochastic model of the    ubiquitin-proteasome system has been developed using the    Systems Biology Mark-up Language (SBML). Simulations are    carried out on the BASIS (Biology of Ageing e-Science    Integration and Simulation) system and the model output is    compared to experimental data wherein levels of ubiquitin and    ubiquitinated substrates are monitored in cultured cells under    various conditions. The model can be used to predict the    effects of different experimental procedures such as inhibition    of the proteasome or shutting down the enzyme cascade    responsible for ubiquitin conjugation. RESULTS: The model    output shows good agreement with experimental data under a    number of different conditions. However, our model predicts    that monomeric ubiquitin pools are always depleted under    conditions of proteasome inhibition, whereas experimental data    show that monomeric pools were depleted in IMR-90 cells but not    in ts20 cells, suggesting that cell lines vary in their ability    to replenish ubiquitin pools and there is the need to    incorporate ubiquitin turnover into the model. Sensitivity    analysis of the model revealed which parameters have an    important effect on protein turnover and aggregation kinetics.    CONCLUSION: We have developed a model of the    ubiquitin-proteasome system using an iterative approach of    model building and validation against experimental data. Using    SBML to encode the model ensures that it can be easily modified    and extended as more data become available. Important aspects    to be included in subsequent models are details of ubiquitin    turnover, models of autophagy, the inclusion of a pool of    short-lived proteins and further details of the aggregation    process.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000105\">BIOMD0000000105</a>.</p>          <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p>        </div>        <div class=\"dc:license\">          <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p>        </div>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17408507",
+    "journal" : "BMC systems biology",
+    "title" : "An in silico model of the ubiquitin-proteasome system that incorporates normal homeostasis and age-related decline.",
+    "affiliation" : "School of Clinical and Medical Sciences-Gerontology, Newcastle University, UK. c.j.proctor@ncl.ac.uk",
+    "synopsis" : "<h4>Background</h4>The ubiquitin-proteasome system is responsible for homeostatic degradation of intact protein substrates as well as the elimination of damaged or misfolded proteins that might otherwise aggregate. During ageing there is a decline in proteasome activity and an increase in aggregated proteins. Many neurodegenerative diseases are characterised by the presence of distinctive ubiquitin-positive inclusion bodies in affected regions of the brain. These inclusions consist of insoluble, unfolded, ubiquitinated polypeptides that fail to be targeted and degraded by the proteasome. We are using a systems biology approach to try and determine the primary event in the decline in proteolytic capacity with age and whether there is in fact a vicious cycle of inhibition, with accumulating aggregates further inhibiting proteolysis, prompting accumulation of aggregates and so on. A stochastic model of the ubiquitin-proteasome system has been developed using the Systems Biology Mark-up Language (SBML). Simulations are carried out on the BASIS (Biology of Ageing e-Science Integration and Simulation) system and the model output is compared to experimental data wherein levels of ubiquitin and ubiquitinated substrates are monitored in cultured cells under various conditions. The model can be used to predict the effects of different experimental procedures such as inhibition of the proteasome or shutting down the enzyme cascade responsible for ubiquitin conjugation.<h4>Results</h4>The model output shows good agreement with experimental data under a number of different conditions. However, our model predicts that monomeric ubiquitin pools are always depleted under conditions of proteasome inhibition, whereas experimental data show that monomeric pools were depleted in IMR-90 cells but not in ts20 cells, suggesting that cell lines vary in their ability to replenish ubiquitin pools and there is the need to incorporate ubiquitin turnover into the model. Sensitivity analysis of the model revealed which parameters have an important effect on protein turnover and aggregation kinetics.<h4>Conclusion</h4>We have developed a model of the ubiquitin-proteasome system using an iterative approach of model building and validation against experimental data. Using SBML to encode the model ensures that it can be easily modified and extended as more data become available. Important aspects to be included in subsequent models are details of ubiquitin turnover, models of autophagy, the inclusion of a pool of short-lived proteins and further details of the aggregation process.",
+    "year" : 2007,
+    "month" : "3",
+    "volume" : "1",
+    "pages" : "17",
+    "link" : "http://identifiers.org/pubmed/17408507",
+    "authors" : [
+      {
+        "name" : "Carole J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "Maria Tsirigotis"
+      },
+      {
+        "name" : "Douglas A Gray",
+        "orcid" : "0000-0002-8634-4984"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000105_url.xml",
+        "description" : "SBML L2V4 representation of Proctor2007 - Age related decline of proteolysis, ubiquitin-proteome system",
+        "fileSize" : "137069",
+        "mimeType" : "application/xml",
+        "md5sum" : "8860149780f5ad960f642b8b9a45de14",
+        "sha1sum" : "b742e249ab109e2483a2481a802638d65bb9881f",
+        "sha256sum" : "9473f8cde9be3662ea56903330dabe296ced65a6947644f5ae4c5babc33f33b2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000105-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "174402",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b290754741cf724cac74f5ab3cf237f5",
+        "sha1sum" : "921712b97d967f3db7daec541fcd20300458a093",
+        "sha256sum" : "85dd74a2d3e70763b79e320ad4e5fe983a0e980e879b31e7a17109ca7eed2db7"
+      },
+      {
+        "name" : "BIOMD0000000105-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "312695",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7146e8138b10f7a515323df31805f887",
+        "sha1sum" : "b693238f72a20be06f34abbf6ee76802c48f9956",
+        "sha256sum" : "04a1cc9ab802fc880faeefcc53e8edb02c14df9f48dfd6eed88629a5087153a4"
+      },
+      {
+        "name" : "BIOMD0000000105-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "27496",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f759e65bda4551c6c3450805a594054d",
+        "sha1sum" : "347e1fcfc166090f1b316d2d84982cb438c0a211",
+        "sha256sum" : "ff1b4c1689adbffa8610ee2fdcfdcdfbfb91ed0eeb614e2bcdeb7f1563b7aef7"
+      },
+      {
+        "name" : "BIOMD0000000105-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "27496",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c3f711742682e4ca10982c27b10dece6",
+        "sha1sum" : "d7ffddf25ca23f060494077c6f43557577df68d0",
+        "sha256sum" : "c1bfe24447f4e2fe8de21a15aabc2ed715a12e708a996188ea7fcab562402ccd"
+      },
+      {
+        "name" : "BIOMD0000000105.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "26956",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2a0efe79da2318cfa63d802a204fcf6d",
+        "sha1sum" : "f1311d7d506c1028e708add976d89352567091c9",
+        "sha256sum" : "d3f2a70e7a9bcb3a66c23758eceb0bb4132d0fa7e350abba3a39e8dbf3b89988"
+      },
+      {
+        "name" : "BIOMD0000000105.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "18960",
+        "mimeType" : "text/plain",
+        "md5sum" : "73e25c05f40260f0ca99ad6a066c4990",
+        "sha1sum" : "f4d5c83628cbc25ddcf415a892f10b05cd58e5ce",
+        "sha256sum" : "40a5c90ab215e3cd5927032ef0eec00934b19679b3fd1dadec0600aac5f66f45"
+      },
+      {
+        "name" : "BIOMD0000000105.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "538279",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0715c9a64b2aa0489a370d0e053ca8c0",
+        "sha1sum" : "804ab14f0d0f95e2597cb96a561a092fa6eb4302",
+        "sha256sum" : "6d0732b014f9c4726417c1508fe34fad6e1a9a8ac033d15d8d32119407fb76f1"
+      },
+      {
+        "name" : "BIOMD0000000105.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "3659592",
+        "mimeType" : "image/png",
+        "md5sum" : "975d6bd8d9f0bb910021b066e341252e",
+        "sha1sum" : "955b1a38941ad18c1ebf15cb4fa827b56d3f8a82",
+        "sha256sum" : "aecd2f21b86c70d00ee6a432b31a425fd19a1ee312488f4c7865bf1e91899c22"
+      },
+      {
+        "name" : "BIOMD0000000105.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "17469",
+        "mimeType" : "text/plain",
+        "md5sum" : "6c4b00c5ff3041e1a774021b949f60bc",
+        "sha1sum" : "6465613ec8c5a606019d5e89e76235c0af5f8f2c",
+        "sha256sum" : "1802b7bd0447d714b450c9ca0e6a22f82fd6bcea423947588705b9750fffad97"
+      },
+      {
+        "name" : "BIOMD0000000105.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "253527",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "701eda76928d68c177877bfd14d0b9d0",
+        "sha1sum" : "1b532cb585162e4aa569157d68f0106f60518edb",
+        "sha256sum" : "25fe41b777a4393db4218c641d343924a00e0589fc0162dfc27206d1c6674412"
+      },
+      {
+        "name" : "BIOMD0000000105.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "198668",
+        "mimeType" : "application/xml",
+        "md5sum" : "1e9bbfa1ce86b68e95fa6c06dd050dbd",
+        "sha1sum" : "081edd5280a3750d407e4c171d1134c27f124e02",
+        "sha256sum" : "2c120e1b3a15237dba6083f1fc4fca746521b7388c4bbb280b4b319df2e6d282"
+      },
+      {
+        "name" : "BIOMD0000000105_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "91719",
+        "mimeType" : "application/xml",
+        "md5sum" : "f6b4d9daf511e02bbcefc4f387f808bc",
+        "sha1sum" : "9489f39845529d1e284ef9869bc6f9e55f0b36ac",
+        "sha256sum" : "86ae78b10142f55bd41b3b08c6c4f76b3d44c9963830ecf537cb55508db8460d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "110467",
+        "mimeType" : "image/png",
+        "md5sum" : "14f9fe57ec014a833ddb70938e1cd945",
+        "sha1sum" : "e25b8f2677f1a88ded2c4c22e488d9ff7f4bc041",
+        "sha256sum" : "079e6be9a9936fba91f282e63ac2df73d1a5963d2a42fbaf2dfb72e0646cd202"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "209",
+        "mimeType" : "text/plain",
+        "md5sum" : "3d9ed49363375de1a6bafe2a0f4665e8",
+        "sha1sum" : "71568e5c99ec74e9b4f5ae6fea0401acdf286f48",
+        "sha256sum" : "9e76d29ce754fe2ac67d98579b491471c807de1a45beaebbdc19ce15033f407a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "743cf56f74b1cf2702c7d7298b2fedd9",
+        "sha1sum" : "1750833808986ddaadd636365d52f2f5d9ff2927",
+        "sha256sum" : "4b9cddb1ff736d42dc5444c3597a0bbf8030222294b0f72205f7c1848467c0b2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "8549",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "907c63c1ed22c7021aadeb188d6fdaa9",
+        "sha1sum" : "9937678f1b7c3df995a63d8135853adc28f73c37",
+        "sha256sum" : "d152e067377da3fbd8546fb4585318413dc3c34ddf93154ee78f15d01b87b7e9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1175550308,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of BIOMD0000000105.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1407771493,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Proctor2007 - Age related decline of proteolysis, ubiquitin-proteome system"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1525433525,
+        "submitter" : "administrator",
+        "comment" : "Changed k69 from 0 to 0.001 as requested by the author (Proctor) by email. Had to change the qualifier 'isDerivedFrom' to anything else since this qualifier results in a bug in COPASI's annotations."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724267550,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284880,
+  "submissionId" : "MODEL6540028317",
+  "publicationId" : "BIOMD0000000105",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6540028317",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6540028317"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000105",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000105"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17408507",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17408507"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000091",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000091"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1289",
+      "name" : "neurodegenerative disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1289"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0043161",
+      "name" : "proteasome-mediated ubiquitin-dependent protein catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0043161"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

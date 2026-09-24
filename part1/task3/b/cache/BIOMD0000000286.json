@@ -1,0 +1,305 @@
+{
+  "name" : "Proctor2010 - a link between GSK3 and p53 in Alzheimer's Disease",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the  model described the article:      <br />                <strong>GSK3 and p53 - is there a link in Alzheimer's disease?</strong>                <br />          Carole J Proctor and Douglas A Gray      <em>Molecular Neurodegeneration</em>          2010, 5:7;   doi:      <a href=\"http: //dx.doi.org/10.1186/1750-1326-5-7\">10.1186/1750-1326-5-7</a>                <br />                <strong>Abstract:</strong>                <br />                <strong>Background:</strong>          Recent evidence suggests that glycogen synthase kinase-3beta (GSK3beta) is implicated in both sporadic and familial forms of Alzheimer's disease. The transcription factor, p53 also plays a role and has been linked to an increase in tau hyperphosphorylation although the effect is indirect. There is also evidence that GSK3beta and p53 interact and that the activity of both proteins is increased as a result of this interaction. Under normal cellular conditions, p53 is kept at low levels by Mdm2 but when cells are stressed, p53 is stabilised and may then interact with GSK3beta. We propose that this interaction has an important contribution to cellular outcomes and to test this hypothesis we developed a stochastic simulation model.      <br />                <strong>Results:</strong>          The model predicts that high levels of DNA damage leads to increased activity of p53 and GSK3beta and low levels of aggregation but if DNA damage is repaired, the aggregates are eventually cleared. The model also shows that over long periods of time, aggregates may start to form due to stochastic events leading to increased levels of ROS and damaged DNA. This is followed by increased activity of p53 and GSK3beta and a vicious cycle ensues.      <br />                <strong>Conclusions:</strong>          Since p53 and GSK3beta are both involved in the apoptotic pathway, and GSK3beta overactivity leads to increased levels of plaques and tangles, our model might explain the link between protein aggregation and neuronal loss in neurodegeneration.      </p>            <br />            <p>      <strong>Notes:</strong>          The original model submitted by the author had events in it. Since, this model is intended for Stochastic Simulation run and Copasi cannot handle events in Stochastic run, I have replaced the events with piecewise assignment rule. -Viji      </p>            <p>This model is an extension of Proctor_p53_Mdm2_ATM (      <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000188\">BIOMD0000000188</a>          ).      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2010 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20181016",
+    "journal" : "Molecular neurodegeneration",
+    "title" : "GSK3 and p53 - is there a link in Alzheimer's disease?",
+    "affiliation" : "Centre for Integrated Systems Biology of Ageing and Nutrition, Institute for Ageing and Health, Newcastle University, Newcastle upon Tyne, NE4 5PL, UK. c.j.proctor@ncl.ac.uk.",
+    "synopsis" : "<h4>Background</h4>Recent evidence suggests that glycogen synthase kinase-3beta (GSK3beta) is implicated in both sporadic and familial forms of Alzheimer's disease. The transcription factor, p53 also plays a role and has been linked to an increase in tau hyperphosphorylation although the effect is indirect. There is also evidence that GSK3beta and p53 interact and that the activity of both proteins is increased as a result of this interaction. Under normal cellular conditions, p53 is kept at low levels by Mdm2 but when cells are stressed, p53 is stabilised and may then interact with GSK3beta. We propose that this interaction has an important contribution to cellular outcomes and to test this hypothesis we developed a stochastic simulation model.<h4>Results</h4>The model predicts that high levels of DNA damage leads to increased activity of p53 and GSK3beta and low levels of aggregation but if DNA damage is repaired, the aggregates are eventually cleared. The model also shows that over long periods of time, aggregates may start to form due to stochastic events leading to increased levels of ROS and damaged DNA. This is followed by increased activity of p53 and GSK3beta and a vicious cycle ensues.<h4>Conclusions</h4>Since p53 and GSK3beta are both involved in the apoptotic pathway, and GSK3beta overactivity leads to increased levels of plaques and tangles, our model might explain the link between protein aggregation and neuronal loss in neurodegeneration.",
+    "year" : 2010,
+    "month" : "1",
+    "volume" : "5",
+    "pages" : "7",
+    "link" : "http://identifiers.org/pubmed/20181016",
+    "authors" : [
+      {
+        "name" : "Carole J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "Douglas A Gray",
+        "orcid" : "0000-0002-8634-4984"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000286_url.xml",
+        "description" : "SBML L2V4 representation of Proctor2010 - a link between GSK3 and p53 in Alzheimer\\s Disease",
+        "fileSize" : "175735",
+        "mimeType" : "application/xml",
+        "md5sum" : "9622fd084930fdb0de05cc544c2a3261",
+        "sha1sum" : "f6310d35022fbb4377cc4119d480f1caae7df909",
+        "sha256sum" : "91a724f05b36ade64d442c83d4230e1ad1af5468d6b9b93a28158b96cc4f2e0f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000286-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "183559",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8f4cf7b3eb8cdf2607865a4aa729f7b1",
+        "sha1sum" : "8201a5b8491a45b6353bbddb803cbbdb6f5bb33a",
+        "sha256sum" : "4e6bff4a21505403d36e4015208923fca6ab9333d510a48aa0492c2d6808e20c"
+      },
+      {
+        "name" : "BIOMD0000000286-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "325519",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "db2a7c25ab5d14c4c51984e715bc3cfa",
+        "sha1sum" : "ef6d259de85cba8d0d224ad19c9ebb03e7924d00",
+        "sha256sum" : "fbfc436d2f59bb7b05005bad6803bad7b4da784d74ddba57887f395e976d940e"
+      },
+      {
+        "name" : "BIOMD0000000286-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "35593",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "16a72bd34322696d74e3449e4084fa18",
+        "sha1sum" : "a2dda040d9426dc36ebf8efe8ee931d43afef8be",
+        "sha256sum" : "e9fba5cd31c9934b4bdb8875899f2e867efd3729ac0db6c663e6808a5c2bafa1"
+      },
+      {
+        "name" : "BIOMD0000000286.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "35593",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c5586412d5dd166b534cbccfd0aedebb",
+        "sha1sum" : "4b6d07505854272172e33e11c272d4ef05801211",
+        "sha256sum" : "bda1a805be85df291a773ac0407419b76d80c87970423416adbfbd8bee3a0241"
+      },
+      {
+        "name" : "BIOMD0000000286.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "26150",
+        "mimeType" : "text/plain",
+        "md5sum" : "dc7bdfe8ed0689c642a62e4714d0a6f3",
+        "sha1sum" : "1403fb817b5f3de875eca6cb02f5ed76184380fb",
+        "sha256sum" : "1b57b696fd8c3a8d333f7bba70baeecb03fd656363083df93bb935e76f60ab8d"
+      },
+      {
+        "name" : "BIOMD0000000286.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "590857",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0174c71dc0d2ca8af3c6603f0261664d",
+        "sha1sum" : "3ff7816d9cfdcd1bae5a91d8c937c0dbc3d00e2d",
+        "sha256sum" : "f2de2389e8bcb1efff1a18b2615fee3e39b99ffefb1e702fcc556d09f1f1de7d"
+      },
+      {
+        "name" : "BIOMD0000000286.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2556167",
+        "mimeType" : "image/png",
+        "md5sum" : "6053367fb31f6cee4f75c37080bdaa3d",
+        "sha1sum" : "35f0d0574d1333703c3848b147e8546210a70ff8",
+        "sha256sum" : "4fed7e421dddcb46898af0e301a9657db6d19ce8066ee76111d3e848f211d35f"
+      },
+      {
+        "name" : "BIOMD0000000286.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "280825",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "bc90e08261db88496c8cfd25f198e016",
+        "sha1sum" : "b4c7b33a71bdbeee95c5608d24d523121d0baec9",
+        "sha256sum" : "5de5e8110332b27afd32b88385d722febb23a1fc71a5ce67ebede79b171d83e8"
+      },
+      {
+        "name" : "BIOMD0000000286.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "235314",
+        "mimeType" : "application/xml",
+        "md5sum" : "40199c403d0cc4871d8560dc38825de8",
+        "sha1sum" : "954fb48313b9afa0c6f5fd7f018cf80b4e90c3ef",
+        "sha256sum" : "54cd0bec33cc08e81d837fe20538b2dbce7f88ea6c3b7fc26c9bb39d07915d24"
+      },
+      {
+        "name" : "BIOMD0000000286_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "130439",
+        "mimeType" : "application/xml",
+        "md5sum" : "097a4852c33fae5670d442374a47eaed",
+        "sha1sum" : "44e90c53516ccb57f3e599768901fcbe36715ae1",
+        "sha256sum" : "4db079812d542436c7eda39aaa1406211bbe4cc700ac42838768f16aa1e64152"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "53057",
+        "mimeType" : "image/png",
+        "md5sum" : "cacb2e61dfb4db260de5ea50f559dbcf",
+        "sha1sum" : "6e4c4922cfdad737919040efcd594e31a024d6a4",
+        "sha256sum" : "e256da6e67dba107eeedc1ff78a1b2f269f179120aa203164e7ada3398dda9fb"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "196",
+        "mimeType" : "text/plain",
+        "md5sum" : "183d784cecaaae7c84d25e2dd4c6c68c",
+        "sha1sum" : "c8a8a2c50fba651b61f9b961d1e18cd45983b3a0",
+        "sha256sum" : "928a4f68ed7b067312157095ceb7f77b189505a878727f0f05b2e9a837727636"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "66fc84edabc95547dc57b2907a23dcf1",
+        "sha1sum" : "2bc9f2dc6739384ef91e9767f84084dc461fca70",
+        "sha256sum" : "ccf58b2a48a62acd6b335a0f39bbc9802eb8d65839a9485ecd4e812e3cda2940"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5159",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c970b2ab2b1585f7733378e25ed1538f",
+        "sha1sum" : "0e38f83c7a0c3cedb0a3baff105b959f022fb39a",
+        "sha256sum" : "483712a4a93ad8afde9ffe6399f2bff6466a8e832410ffe56e54d8d32f18cb92"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1257266140,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of BIOMD0000000286.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412943363,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Proctor2010 - a link between GSK3 and p53 in Alzheimer's Disease"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272588,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285002,
+  "submissionId" : "MODEL0910130002",
+  "publicationId" : "BIOMD0000000286",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0910130002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0910130002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000286",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000286"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20181016",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20181016"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000105",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000105"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000188",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000188"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000189",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000189"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko05010",
+      "name" : "Alzheimer's disease",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko05010"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0070841",
+      "name" : "inclusion body assembly",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070841"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0030330",
+      "name" : "DNA damage response, signal transduction by p53 class mediator",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030330"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

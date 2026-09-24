@@ -1,0 +1,348 @@
+{
+  "name" : "Ung2008_EGFR_Endocytosis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <p xmlns=\"http://www.w3.org/1999/xhtml\">Model reproduces the various plots in the publication for \"Control\" concentrations.  Model successfully tested on MathSBML.</p>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18505685",
+    "journal" : "FEBS letters",
+    "title" : "Simulation of the regulation of EGFR endocytosis and EGFR-ERK signaling by endophilin-mediated RhoA-EGFR crosstalk.",
+    "affiliation" : "Bioinformatics and Drug Design Group, Department of Pharmacy, National University of Singapore, 3 Science Drive 2, Singapore 117543, Singapore.",
+    "synopsis" : "Deregulations of EGFR endocytosis in EGFR-ERK signaling are known to cause cancers and developmental disorders. Mutations that impaired c-Cbl-EGFR association delay EGFR endocytosis and produce higher mitogenic signals in lung cancer. ROCK, an effector of small GTPase RhoA was shown to negatively regulate EGFR endocytosis via endophilin A1. A mathematical model was developed to study how RhoA and ROCK regulate EGFR endocytosis. Our study suggested that over-expressing RhoA as well as ROCK prolonged ERK activation partly by reducing EGFR endocytosis. Overall, our study hypothesized an alternative role of RhoA in tumorigenesis in addition to its regulation of cytoskeleton and cell motility.",
+    "year" : 2008,
+    "month" : "6",
+    "volume" : "582",
+    "issue" : "15",
+    "pages" : "2283-2290",
+    "link" : "http://identifiers.org/pubmed/18505685",
+    "authors" : [
+      {
+        "name" : "Choong Yong Ung",
+        "institution" : "Bioinformatics and Drug Design Group, Department of Pharmacy, National University of Singapore, 3 Science Drive 2, Singapore 117543, Singapore."
+      },
+      {
+        "name" : "Hu Li"
+      },
+      {
+        "name" : "Xiao Hua Ma"
+      },
+      {
+        "name" : "Jia Jia"
+      },
+      {
+        "name" : "Bao Wen Li"
+      },
+      {
+        "name" : "Boon Chuan Low",
+        "orcid" : "0000-0003-0756-096X"
+      },
+      {
+        "name" : "Yu Zong Chen",
+        "orcid" : "0000-0002-5473-8022"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000205_url.xml",
+        "description" : "SBML L2V3 representation of Ung2008_EGFR_Endocytosis",
+        "fileSize" : "433047",
+        "mimeType" : "application/xml",
+        "md5sum" : "80fc27f6f849abc720cf54ef0d9e7b00",
+        "sha1sum" : "9d6d33aba379add2dec0b481fb05c5fdb6c2c5ec",
+        "sha256sum" : "b6612b625425c3a1212a54629cd9dcf914c9519526085c11e435b66350dd9b45"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000205-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "379760",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "42da57044d2961d8da68189451070808",
+        "sha1sum" : "8c5045e5c351475bbf62eed1648175c299674d19",
+        "sha256sum" : "3d7bca4a7f7f3c906c0d446a5a5dc27c6cf7f625eccc190bb38293e273b3fd4d"
+      },
+      {
+        "name" : "BIOMD0000000205-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "654462",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2d4316b6ef28bca02d8d95b6503138f8",
+        "sha1sum" : "3b8524da0dc2d97da7bcef055e6f62b05a8e0829",
+        "sha256sum" : "8f8a3e0ba580c5559020fc0a3de549c8101d3c4caa32701dabf3fb5cff3ed1f9"
+      },
+      {
+        "name" : "BIOMD0000000205-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "104573",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6bbb1c2f45feb97371421d54099181db",
+        "sha1sum" : "ae943850b77b3a67ede5a78a9a367acc4c21bb10",
+        "sha256sum" : "c13e79dc096c1d34725e24a66b0fa712118117d5be5039d593aa16427d6ce0c0"
+      },
+      {
+        "name" : "BIOMD0000000205-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "104573",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "99bf683e1ad9782d67eab80b1678e87e",
+        "sha1sum" : "3a862d86f182ff4cf0c9d2b9d5d2e4b4da3587c4",
+        "sha256sum" : "ff54963ab7aa86ad21f95e93bf069ba97f88e78fba9eb1059b6c84522fa4b07d"
+      },
+      {
+        "name" : "BIOMD0000000205.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "104573",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "99bf683e1ad9782d67eab80b1678e87e",
+        "sha1sum" : "3a862d86f182ff4cf0c9d2b9d5d2e4b4da3587c4",
+        "sha256sum" : "ff54963ab7aa86ad21f95e93bf069ba97f88e78fba9eb1059b6c84522fa4b07d"
+      },
+      {
+        "name" : "BIOMD0000000205.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "85117",
+        "mimeType" : "text/plain",
+        "md5sum" : "c9153c87930899948af45cf055a3b299",
+        "sha1sum" : "ee3ad40b963cc836e54a6d1f5b49ab0faedf0933",
+        "sha256sum" : "80bb74d35dea083f058122179325bbe789b93fbe226f4f040efccc069b44ca52"
+      },
+      {
+        "name" : "BIOMD0000000205.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "1263441",
+        "mimeType" : "application/pdf",
+        "md5sum" : "019c7f1e4f5e066ed0860a673ce7d66b",
+        "sha1sum" : "5ffa1f9f1e07c1e8cf03bebef53de2092a2fd6cb",
+        "sha256sum" : "856057efeb3630e155e8a6b616651321bcc51456d4af04f1b7e09a9d8f11f29f"
+      },
+      {
+        "name" : "BIOMD0000000205.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5110482",
+        "mimeType" : "image/png",
+        "md5sum" : "148bdd679e11cb739801b97f9d96439f",
+        "sha1sum" : "7091a80366fb365241132215c32bf8bf49268f9e",
+        "sha256sum" : "88d311bbcef917bae44ece84f2f0a79c56af3f4f36b305ac3e38f37a0b586b3a"
+      },
+      {
+        "name" : "BIOMD0000000205.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "670045",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "969b744b11dae0339202402e4f30620c",
+        "sha1sum" : "b822ae25ccd618047a67d9dc66468b2f78389f94",
+        "sha256sum" : "f409b63e162ec76552022c176a4786ae8c499831de7a5c6ec6a89ac9d881ac85"
+      },
+      {
+        "name" : "BIOMD0000000205.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "546097",
+        "mimeType" : "application/xml",
+        "md5sum" : "81c9a6c66b1f10b5bf543356a9c82a9f",
+        "sha1sum" : "aa32083a84d82c60214704e51033a84254a8794f",
+        "sha256sum" : "052947ce8837205b438225d6b7691e4e9bb98364d0337b0f438546549ec2e206"
+      },
+      {
+        "name" : "BIOMD0000000205_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "255242",
+        "mimeType" : "application/xml",
+        "md5sum" : "23c28ff4c6de2fa6ebc47bdd96ca199d",
+        "sha1sum" : "81b79694a5a599d518cb57a88f791c418bd87167",
+        "sha256sum" : "f3ae42664d41bc52d652e22892c47aa92389a79e438065dc21b0b8e20d21d697"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "22512",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "ef815fd4f7fb34fa7466e031102b5dc9",
+        "sha1sum" : "a99fcc9e860f8cbe049fc5dd80836464c9110f23",
+        "sha256sum" : "d620c6de9b0d231f94d64d3e0a811b2b9d6b948798fc196484cd39029442e6d1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "228",
+        "mimeType" : "text/plain",
+        "md5sum" : "eabc03701e40fb42c5b676b388cf008b",
+        "sha1sum" : "ac17428ed82a67658c279bcbbebfef3490795439",
+        "sha256sum" : "2b45c95f42e8a303349bcfe3eda5af8f41867970d484082f32f3e9ae0cd866df"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "a6a079186be9bf7e3573ad10f85f0093",
+        "sha1sum" : "bea7f3478d489947027e1a657a8e63af56319e99",
+        "sha256sum" : "8886b70a9e0b8521f193ab5a945c9cbb317432a4e37d619e1383567d51c30ce1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3611",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3176e28d5e7efa79f9a8f787167f6988",
+        "sha1sum" : "d795b09d4108060dec9dc503ef0c9295ffb846e9",
+        "sha256sum" : "dfb0024dbe1ebf2c8a195cf0101d3ac392f3de1cd50d25991f8f428a2fdb3762"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1227803226,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Ung2008_EGFR_Endocytosis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460134791,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Ung2008_EGFR_Endocytosis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270261,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284937,
+  "submissionId" : "MODEL7802538336",
+  "publicationId" : "BIOMD0000000205",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7802538336",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7802538336"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000205",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000205"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18505685",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18505685"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000049",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000049"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000019",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000019"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000048",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000048"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11024454",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11024454"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16687399",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16687399"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "14751248",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14751248"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006897",
+      "name" : "endocytosis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006897"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04010",
+      "name" : "MAPK signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04010"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04070",
+      "name" : "Phosphatidylinositol signaling system - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04070"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

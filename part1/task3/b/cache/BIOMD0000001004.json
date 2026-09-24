@@ -1,0 +1,342 @@
+{
+  "name" : "Intosalmi2015 - Th17 core network model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>a dynamic description for the core molecular mechanisms steering Th17 cell differentiation and use mathematical modeling to quantitatively predict the resulting molecular dynamics</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26578352",
+    "journal" : "BMC systems biology",
+    "title" : "Analyzing Th17 cell differentiation dynamics using a novel integrative modeling framework for time-course RNA sequencing data.",
+    "affiliation" : "Department of Computer Science, Aalto University, Aalto, FI-00076, Finland. jukka.intosalmi@aalto.fi.",
+    "synopsis" : "<h4>Background</h4>The differentiation of naive CD 4(+) helper T (Th) cells into effector Th17 cells is steered by extracellular cytokines that activate and control the lineage specific transcriptional program. While the inducing cytokine signals and core transcription factors driving the differentiation towards Th17 lineage are well known, detailed mechanistic interactions between the key components are poorly understood.<h4>Results</h4>We develop an integrative modeling framework which combines RNA sequencing data with mathematical modeling and enables us to construct a mechanistic model for the core Th17 regulatory network in a data-driven manner.<h4>Conclusions</h4>Our results show significant evidence, for instance, for inhibitory mechanisms between the transcription factors and reveal a previously unknown dependency between the dosage of the inducing cytokine TGF β and the expression of the master regulator of competing (induced) regulatory T cell lineage. Further, our experimental validation approves this dependency in Th17 polarizing conditions.",
+    "year" : 2015,
+    "month" : "11",
+    "volume" : "9",
+    "pages" : "81",
+    "link" : "http://identifiers.org/pubmed/26578352",
+    "authors" : [
+      {
+        "name" : "Jukka Intosalmi",
+        "institution" : "Department of Computer Science, Aalto University, Aalto, FI-00076, Finland. jukka.intosalmi@aalto.fi."
+      },
+      {
+        "name" : "Helena Ahlfors",
+        "institution" : "The Francis Crick Institute, Mill Hill Laboratory, Mill HillLondon, UK. helena.ahlfors@gmail.com.Current affiliation: Lymphocyte Signalling and Development, The Babraham Institute, Cambridge, UK. helena.ahlfors@gmail.com.",
+        "orcid" : "0000-0002-8183-0895"
+      },
+      {
+        "name" : "Sini Rautio",
+        "institution" : "Department of Computer Science, Aalto University, Aalto, FI-00076, Finland. sini.rautio@aalto.fi.",
+        "orcid" : "0000-0001-5215-4456"
+      },
+      {
+        "name" : "Henrik Mannerstöm",
+        "institution" : "Department of Computer Science, Aalto University, Aalto, FI-00076, Finland. henrik.mannerstrom@aalto.fi."
+      },
+      {
+        "name" : "Zhi Jane Chen",
+        "institution" : "Turku Centre for Biotechnology, University of Turku and Åbo Akademi, Turku, Finland. zchen@btk.fi.",
+        "orcid" : "0000-0002-4658-7463"
+      },
+      {
+        "name" : "Riitta Lahesmaa",
+        "institution" : "Turku Centre for Biotechnology, University of Turku and Åbo Akademi, Turku, Finland. riitta.lahesmaa@btk.fi."
+      },
+      {
+        "name" : "Brigitta Stockinger",
+        "institution" : "The Francis Crick Institute, Mill Hill Laboratory, Mill HillLondon, UK. brigitta.stockinger@crick.ac.uk.",
+        "orcid" : "0000-0001-8781-336X"
+      },
+      {
+        "name" : "Harri Lähdesmäki",
+        "institution" : "Department of Computer Science, Aalto University, Aalto, FI-00076, Finland. harri.lahdesmaki@aalto.fi.Turku Centre for Biotechnology, University of Turku and Åbo Akademi, Turku, Finland. harri.lahdesmaki@aalto.fi."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Intosalmi2015.xml",
+        "description" : "SBML L2V4 file for the curated model",
+        "fileSize" : "62664",
+        "mimeType" : "application/xml",
+        "md5sum" : "51721444493fd270d4cc532c7c4ee31f",
+        "sha1sum" : "b9a13860e947d92a900eb3c6877be0cd11b6e852",
+        "sha256sum" : "6449edf0025c15c88318b37a9d6a38cea7f0659895fc8ff6d641d14a134af4f3"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "12918_2015_223_MOESM2_ESM-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "22494",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "77384b7cfd3146493e06eb5951b0211e",
+        "sha1sum" : "1a2d9f5ece2c4ad4641b1275d07affdb9fa56196",
+        "sha256sum" : "87ab9a04e1a40da244b6f882b02a5b3dc1dd4564931b9d20ed3205a4543206f9"
+      },
+      {
+        "name" : "12918_2015_223_MOESM2_ESM-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "41671",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f101a6a5416b3de5bf12686cb3b6523e",
+        "sha1sum" : "087dc96fb260b852ab29b62e869b8382b3e68864",
+        "sha256sum" : "17a8333ec7aa49fecd40a49a18d3b1ba4dc6b6a0b0bb4814be2e57e224a5700c"
+      },
+      {
+        "name" : "12918_2015_223_MOESM2_ESM-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9419",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3714692a75e51fe44c86afc1e1f70af1",
+        "sha1sum" : "857861b0004b657b213be5c9f2ef9a493fe9f48b",
+        "sha256sum" : "4fa93985c1b82a44998e7f18b52a5411d754a89c5a8294980833787550c9eeaa"
+      },
+      {
+        "name" : "12918_2015_223_MOESM2_ESM-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9419",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9da40582d07fa633cf23b155a287e63a",
+        "sha1sum" : "f4a0f5b1c10f867b4597288fed7ca844ada756e3",
+        "sha256sum" : "628ba3a48367e6dd8e8f33c881e1d19e80206aaf752f9b72899f6f3ba7f21df5"
+      },
+      {
+        "name" : "12918_2015_223_MOESM2_ESM.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6003",
+        "mimeType" : "text/plain",
+        "md5sum" : "ff355c56414bcf709174e0e2db6582bd",
+        "sha1sum" : "603c1a425a200e929cd1690ec54d36f9cf60501d",
+        "sha256sum" : "d4fd56cfdc89e816449596e30efce940fc582d7caf40d63eb3ef3b0c3412b02a"
+      },
+      {
+        "name" : "12918_2015_223_MOESM2_ESM.xml",
+        "description" : "publication file- SBML L2V4 file of the model 8",
+        "fileSize" : "29656",
+        "mimeType" : "application/xml",
+        "md5sum" : "cb9e9152af270754b47bb2bb3ee15304",
+        "sha1sum" : "88e9610b02f2c48003a09739b679ff866e674c28",
+        "sha256sum" : "8d6a6b69fd9439ead9b31cc34df42bf93d8273d175a45d4c2e820aefb57d6def"
+      },
+      {
+        "name" : "Intosalmi2015-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "29687",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "270e97f6fb82892cfa1b1fd8bf21c8c3",
+        "sha1sum" : "2c7eeed6ce275d72677e374bf456dedb1a70be76",
+        "sha256sum" : "03ca1a1ad86091517d3dc9f9a4d61fdf0f58248d38dedecb2cf0bced052b4e45"
+      },
+      {
+        "name" : "Intosalmi2015-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "48950",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "520217b25c85e3e4f0d8a16afdd77804",
+        "sha1sum" : "05da909e5c37362c88f76d16f7ffcbfc54123a2b",
+        "sha256sum" : "97dee20a9d529a1a42f0cf2a98297cdd01815bb16f890e24847a7b324c9c25af"
+      },
+      {
+        "name" : "Intosalmi2015-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9583",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "97784557ebc01c748f8ddb906f32deaa",
+        "sha1sum" : "a4239d96c198bddc6bf2afcbd8ab5e2334713f5e",
+        "sha256sum" : "66757918aa377b14a2b2f952ad56308323ed5a54b9c4f867f54c6ebd8016232e"
+      },
+      {
+        "name" : "Intosalmi2015-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9583",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3d1c934b6257810eb1ed968ceab87f8b",
+        "sha1sum" : "045b2f622a2dd563abee94352488a85184e40847",
+        "sha256sum" : "55062f15941fd120921fb56da2dece0822a3a5b14bbfb8a01a4555b05a91c54a"
+      },
+      {
+        "name" : "Intosalmi2015.cps",
+        "description" : "COPASI 4.29(build228) file for the curated model",
+        "fileSize" : "92075",
+        "mimeType" : "application/xml",
+        "md5sum" : "3be349108c0d992410fd25e4e1ed7573",
+        "sha1sum" : "1446dad12023c83980e9d3e14a470a08f75069f9",
+        "sha256sum" : "823b83d46ee2e222a821f42bf99c3bd12dcc97572930d2b2ee0e1930c32613a3"
+      },
+      {
+        "name" : "Intosalmi2015.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6167",
+        "mimeType" : "text/plain",
+        "md5sum" : "5a7fa8222d2699eb8c52709abb70dd45",
+        "sha1sum" : "6d982bcb6e2b5b0eecddbb3930901e31b8823002",
+        "sha256sum" : "2ed43b5b129ae2cb30194ea7d2d4adb383f28e5f5a1afe4c80d46099667ac3a2"
+      },
+      {
+        "name" : "Intosalmi2015.sedml",
+        "description" : "SEDML file for the curated model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "22339",
+        "mimeType" : "application/xml",
+        "md5sum" : "6d11cd623c9382518690f1f0c420c01b",
+        "sha1sum" : "6860e87ee30d345716e9cd906dd326ecf4fb3291",
+        "sha256sum" : "ca91b6d97cfbc75983d7f880275eee77ef26a3a729fb4f4d438fdb58617dfc91"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "180949",
+        "mimeType" : "image/png",
+        "md5sum" : "6359408a7c9929c53d594d38178a0ee7",
+        "sha1sum" : "770c2fe772dd67dc8faaf81b7b3bc8204c21d80b",
+        "sha256sum" : "a817b140bce6cd96b50d2aceb28723265b81685b3a208a8b7102b3607da9d899"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "116",
+        "mimeType" : "text/plain",
+        "md5sum" : "920a55e522c3f299e6d9e1e9700d6515",
+        "sha1sum" : "beb4080bc94f70600f7c06db7afe9e545def5c85",
+        "sha256sum" : "fd5f3accea58c1b664c5f147f1e331c618f07fe2c368a5aeb49d2249b40dcb09"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2220",
+        "mimeType" : "application/xml",
+        "md5sum" : "1e944f519986607bcfec2bbbab7ea127",
+        "sha1sum" : "35e04aa946c819528233df90bcd5704af5061402",
+        "sha256sum" : "095d5c0316f7dde6359feb55c66cf07a6012c5159fe967b304286fde2aa6cab3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1993",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8bd3b3027bef408e4a8acf7aa9ed644b",
+        "sha1sum" : "f80fd4b58426baecb81b1c48dd0e3a0cc1b915fe",
+        "sha256sum" : "17e04588615e33124d9932b9ef53224b9b18f97597afa0bcad09390139e18bd6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1614346026,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1614352392,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000001004"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724295079,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285560,
+  "submissionId" : "MODEL2102260001",
+  "publicationId" : "BIOMD0000001004",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002250",
+      "name" : "adaptive immune response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002250"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26578352",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26578352"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001004"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2102260001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2102260001"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0005655",
+      "name" : "Th17 cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0005655"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10095",
+      "name" : "Mus sp.",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10095"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0019221",
+      "name" : "cytokine-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019221"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0072539",
+      "name" : "T-helper 17 cell differentiation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0072539"
+    }
+  ]
+}

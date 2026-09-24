@@ -1,0 +1,283 @@
+{
+  "name" : "SmithAE2002_RanTransport",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces the compartmental model for Ran transport as depicted in Fig 3 of the paper. Model reproduced using MathSBML.</p>        <br />        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>      <br />      <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11799242",
+    "journal" : "Science (New York, N.Y.)",
+    "title" : "Systems analysis of Ran transport.",
+    "affiliation" : "Center for Cell Signaling, Department of Pharmacology, University of Virginia, Charlottesville, VA 22908, USA.",
+    "synopsis" : "The separate components of nucleocytoplasmic transport have been well characterized, including the key regulatory role of Ran, a guanine nucleotide triphosphatase. However, the overall system behavior in intact cells is difficult to analyze because the dynamics of these components are interdependent. We used a combined experimental and computational approach to study Ran transport in vivo. The resulting model provides the first quantitative picture of Ran flux between the nuclear and cytoplasmic compartments in eukaryotic cells. The model predicts that the Ran exchange factor RCC1, and not the flux capacity of the nuclear pore complex (NPC), is the crucial regulator of steady-state flux across the NPC. Moreover, it provides the first estimate of the total in vivo flux (520 molecules per NPC per second and predicts that the transport system is robust.",
+    "year" : 2002,
+    "month" : "1",
+    "volume" : "295",
+    "issue" : "5554",
+    "pages" : "488-491",
+    "link" : "http://identifiers.org/pubmed/11799242",
+    "authors" : [
+      {
+        "name" : "Alicia E Smith",
+        "institution" : "Center for Cell Signaling, Department of Pharmacology, University of Virginia, Charlottesville, VA 22908, USA.",
+        "orcid" : "0009-0008-3161-5100"
+      },
+      {
+        "name" : "Boris M Slepchenko"
+      },
+      {
+        "name" : "James C Schaff"
+      },
+      {
+        "name" : "Leslie M Loew",
+        "orcid" : "0000-0002-1851-4646"
+      },
+      {
+        "name" : "Ian G Macara"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000164_url.xml",
+        "description" : "SBML L2V1 representation of SmithAE2002_RanTransport",
+        "fileSize" : "95882",
+        "mimeType" : "application/xml",
+        "md5sum" : "245e7a047f27f4ef382dfb60fe879059",
+        "sha1sum" : "0a5dc3f20a32f3c941f770539b3331e71c9de044",
+        "sha256sum" : "48ba8226cf9fd6c46e69397e243e7df6a5e1e312e13380ae40b5187234c064b8"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000164-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "54938",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7d0e80891a32fccee99c200f1e7bfea0",
+        "sha1sum" : "88d570dd1f9e3ce959ea5c1d8a883ac63780ff62",
+        "sha256sum" : "348b37ae5fcce35342e498a9dc9faed7352d4c4f410e973fdeb3771a7aa8e9ed"
+      },
+      {
+        "name" : "BIOMD0000000164-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "93462",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8749acb895db26cbe8187dfd6aea1e63",
+        "sha1sum" : "e71b8f4b71b4f05c1f1bd06bdc3352d407387bd1",
+        "sha256sum" : "4c8994480afb6f478229fd7516c0c8e015dd8d4ff2d5edadb94f3641984f73a0"
+      },
+      {
+        "name" : "BIOMD0000000164-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "24448",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a928e8756032bc9abf6ade03cee2971e",
+        "sha1sum" : "101c87a120fad11a46272563dbf338127cdceaff",
+        "sha256sum" : "e64c7963cc48f695e7e44d54ddef5785e3317b9778a769fba18943f8da9b341d"
+      },
+      {
+        "name" : "BIOMD0000000164.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "24448",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c7610c15667883726601192895969abf",
+        "sha1sum" : "59e563e0dad8235e408b13df03e57cb64c21a506",
+        "sha256sum" : "31d418f9839a489e3938ac2f32a14e3a6d3c5a51825699a4e67156dd50d1d940"
+      },
+      {
+        "name" : "BIOMD0000000164.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "17819",
+        "mimeType" : "text/plain",
+        "md5sum" : "4bdddb7109ae5ff8a9e3bf293f218498",
+        "sha1sum" : "8b65e1e3ed7a0223d06b51a3648a5211f51c3114",
+        "sha256sum" : "9790942bea84840a89bb23fcbc79bb44c5f39217dc9a5d98333d9e8f79553256"
+      },
+      {
+        "name" : "BIOMD0000000164.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "346351",
+        "mimeType" : "application/pdf",
+        "md5sum" : "4c863bcd4efc200438c272aa319165b4",
+        "sha1sum" : "2f69193417f1d6aa6ad5c774df57fb5f5677537d",
+        "sha256sum" : "f2b514d44409fc7774dc8bc9f993a257f9eda5dae6f4c246802045e84fa5d660"
+      },
+      {
+        "name" : "BIOMD0000000164.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "362539",
+        "mimeType" : "image/png",
+        "md5sum" : "f9f17b6a5f8276c0533f96756b78c832",
+        "sha1sum" : "1500d260b70222ad76cbb3e9659d7f05181c9de8",
+        "sha256sum" : "0e17c2596b1e457456ccb2e4b688061ccd7c1ae906eccdb48d7b342ae354d2f1"
+      },
+      {
+        "name" : "BIOMD0000000164.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "80737",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e09d2ada19792db5dda4bc6d3b29dfbf",
+        "sha1sum" : "574376228b4dc241c442d0ffead34e3794e793bb",
+        "sha256sum" : "9e3ee120e5ffc8a3eb27747f8c624e50e05f0b88953dcad3570e5894ac5ea8ab"
+      },
+      {
+        "name" : "BIOMD0000000164.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "94061",
+        "mimeType" : "application/xml",
+        "md5sum" : "dfc26ca9be2c0485892017ae5e240626",
+        "sha1sum" : "5145457d3e5b90b05f24a24f77a70879bd30cd49",
+        "sha256sum" : "a009a8d7dec173b262d549f529d3b289ac3b35c02445732cf2ae9980b01b1cd0"
+      },
+      {
+        "name" : "BIOMD0000000164_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "50229",
+        "mimeType" : "application/xml",
+        "md5sum" : "4cba20e094910fcd3c599a0ad1dbddb1",
+        "sha1sum" : "cc11dc264e379942813d9e17712e82ce668d6a5e",
+        "sha256sum" : "e0b03f4528c830cf4c64cf4f22557987655fbd2b9a92032378379c17e572e948"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41833",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "29639e8299f534de9c23945027e8341a",
+        "sha1sum" : "3f6ff110e41c22c95e904186a007ede925b8114b",
+        "sha256sum" : "3d158f1471cbb9eabb47abb7c4fc2794b8a5bfb7d36268bef27b7caa79aeaeff"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "5be3778c51377b67ffda020e439feddb",
+        "sha1sum" : "63134cfc68433e94f287e1fd7243dea76f72ac61",
+        "sha256sum" : "f252522f1ff6615c16499f93798d927c5d99f3da0e93958807c371d27beb24c1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1795",
+        "mimeType" : "application/xml",
+        "md5sum" : "08db08ea4dbee58d99dec94cda19b38c",
+        "sha1sum" : "ffe583ab92cd98fbd19ab8cf2d28130dcfcc8371",
+        "sha256sum" : "85ece9ee59e7f93ef9aecc2c274e5597f6802d46e01a0d4a2851e36a0cc70887"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2789",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "45e5278ff544ebb7949d122ee6fd7f41",
+        "sha1sum" : "4d62bf899f2a2d3684cd7bcd9935d1781dbdc43d",
+        "sha256sum" : "c61b68136bc819138c968222385b3fc6399af70824e37cd9ed125ae2021f459b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1203897995,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of SmithAE2002_RanTransport"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396833150,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of SmithAE2002_RanTransport"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269125,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284910,
+  "submissionId" : "MODEL1886921294",
+  "publicationId" : "BIOMD0000000164",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1886921294",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1886921294"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000164",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000164"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11799242",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11799242"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006913",
+      "name" : "nucleocytoplasmic transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006913"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0031291",
+      "name" : "Ran protein signal transduction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0031291"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

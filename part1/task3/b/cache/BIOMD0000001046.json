@@ -1,0 +1,314 @@
+{
+  "name" : "Raman2005 - Mycolic acid pathway of M. tuberculosis",
+  "description" : "The mycobacterial cell wall is a distinctive thick layer that protects the tubercle bacillus from general antibiotics and the host’s immune system. Mycolic acids, which are long-chain α-alkyl-β-hydroxy fatty acids, are the major constituents of this protective layer, and their synthesis has been shown to be critical for the survival of M. tuberculosis. This model captures the mycolic acid pathway in M. tuberculosis with 197 metabolites participating in 219 reactions catalysed by 28 proteins. The model helps in the rational identification of potential anti-tubercular drug targets.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16261191",
+    "journal" : "PLoS computational biology",
+    "title" : "Flux balance analysis of mycolic acid pathway: targets for anti-tubercular drugs.",
+    "affiliation" : "Bioinformatics Centre, Supercomputer Education and Research Centre, Indian Institute of Science, Bangalore, India.",
+    "synopsis" : "Mycobacterium tuberculosis is the focus of several investigations for design of newer drugs, as tuberculosis remains a major epidemic despite the availability of several drugs and a vaccine. Mycobacteria owe many of their unique qualities to mycolic acids, which are known to be important for their growth, survival, and pathogenicity. Mycolic acid biosynthesis has therefore been the focus of a number of biochemical and genetic studies. It also turns out to be the pathway inhibited by front-line anti-tubercular drugs such as isoniazid and ethionamide. Recent years have seen the emergence of systems-based methodologies that can be used to study microbial metabolism. Here, we seek to apply insights from flux balance analyses of the mycolic acid pathway (MAP) for the identification of anti-tubercular drug targets. We present a comprehensive model of mycolic acid synthesis in the pathogen M. tuberculosis involving 197 metabolites participating in 219 reactions catalysed by 28 proteins. Flux balance analysis (FBA) has been performed on the MAP model, which has provided insights into the metabolic capabilities of the pathway. In silico systematic gene deletions and inhibition of InhA by isoniazid, studied here, provide clues about proteins essential for the pathway and hence lead to a rational identification of possible drug targets. Feasibility studies using sequence analysis of the M. tuberculosis H37Rv and human proteomes indicate that, apart from the known InhA, potential targets for anti-tubercular drug design are AccD3, Fas, FabH, Pks13, DesA1/2, and DesA3. Proteins identified as essential by FBA correlate well with those previously identified experimentally through transposon site hybridisation mutagenesis. This study demonstrates the application of FBA for rational identification of potential anti-tubercular drug targets, which can indeed be a general strategy in drug design. The targets, chosen based on the critical points in the pathway, form a ready shortlist for experimental testing.",
+    "year" : 2005,
+    "month" : "10",
+    "volume" : "1",
+    "issue" : "5",
+    "pages" : "e46",
+    "link" : "http://identifiers.org/pubmed/16261191",
+    "authors" : [
+      {
+        "name" : "Karthik Raman",
+        "institution" : "Bioinformatics Centre, Supercomputer Education and Research Centre, Indian Institute of Science, Bangalore, India.",
+        "orcid" : "0000-0002-9311-7093"
+      },
+      {
+        "name" : "Preethi Rajagopalan"
+      },
+      {
+        "name" : "Nagasuma Chandra"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Raman2005_MAP.xml",
+        "description" : "Mycolic acid pathway of M. tuberculosis - SBML L3V1 file",
+        "fileSize" : "538457",
+        "mimeType" : "application/xml",
+        "md5sum" : "c12a5733ee5f5cf666f35062e223b46d",
+        "sha1sum" : "484e4bfef3360a45f7282117c20ab9f7f31edbea",
+        "sha256sum" : "5635ba16e06024ac96ae85ddab6de85ba08f7ff9424aeb29a0cac7e04e3093f4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MAP_FROG.zip",
+        "description" : "FROG analysis in json and tsv files.",
+        "fileSize" : "3335",
+        "mimeType" : "application/zip",
+        "md5sum" : "6160ceba653470f7879a99edae78313f",
+        "sha1sum" : "9099d1e5263da02c33000f4e67dd06ab240db3bc",
+        "sha256sum" : "9a66c951c258af4464804382abbe0f1509a31cfd875ffd5020b3a417fc3ad259"
+      },
+      {
+        "name" : "MAP_MEMOTE.pdf",
+        "description" : "PDF of MEMOTE report of SBML model.",
+        "fileSize" : "1090111",
+        "mimeType" : "application/pdf",
+        "md5sum" : "976d8d0d3e25df1ddfee18f336778d53",
+        "sha1sum" : "c87e94e73fb380184cb491a0e0e9f94bcea21c29",
+        "sha256sum" : "35860c69f931269786bdaeb22e38f632d72c53771c512d3df1d1e0f0ceb35ca9"
+      },
+      {
+        "name" : "MODEL8568434338-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "401865",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8fb31c1b3752ba4fe8a740ca95772110",
+        "sha1sum" : "fb5375976a416aad29da770cf7d5f622fd1ae617",
+        "sha256sum" : "b1aedf0695cf16423436d40cad6073c757777b0c34d13815557a122af9136a4b"
+      },
+      {
+        "name" : "MODEL8568434338-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "737042",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6687967b2e29212a4c5bc85d2012703a",
+        "sha1sum" : "da74a2893bcc7e02290034ae972934fe1293e402",
+        "sha256sum" : "55991539e2ddcd552a706bfa5b5a4b1fa38d65caf91afb8fe5f98bf9f2a188d5"
+      },
+      {
+        "name" : "MODEL8568434338.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "757",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e0e02d8d9814e0bf7ea6b035a00e24fa",
+        "sha1sum" : "bc7cf1799aa5343e721049a05fdc7899c2e099f7",
+        "sha256sum" : "273ac05f8363de53aa118254ba4c05451611e963bbc0b0f6220a0bb34f433b76"
+      },
+      {
+        "name" : "MODEL8568434338.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "1358787",
+        "mimeType" : "application/pdf",
+        "md5sum" : "88ee44c31d8854e3a6c357c2de806b4f",
+        "sha1sum" : "e3f262fed869d8f9c69ab722c1eef8fcfc4b3724",
+        "sha256sum" : "781a8b1c836bb412e64bd3303661cffd898bc5a04fbe5766b1fed4cd3c2758bc"
+      },
+      {
+        "name" : "MODEL8568434338.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "53",
+        "mimeType" : "text/plain",
+        "md5sum" : "55da37fb70e0c691bc2a01e9035f7595",
+        "sha1sum" : "dfe55693dafa46e34cff03966b688590a9b282bf",
+        "sha256sum" : "8671392f70289e88fc6b5560aaaa34fa7e3d39048761cc2d77d12aa927b49ef0"
+      },
+      {
+        "name" : "MODEL8568434338_url.xml",
+        "description" : "SBML L2V1 representation of Raman2006_MycolicAcid",
+        "fileSize" : "147426",
+        "mimeType" : "application/xml",
+        "md5sum" : "428949f1ed1ac318108ca0ce136dd82c",
+        "sha1sum" : "0fccff3af42a73b4332ad2265b6e1e848e47afee",
+        "sha256sum" : "7727836ed46f47ea89f0aed2d9d4e255057642b9d46294c30b6e6ee6b2003ab0"
+      },
+      {
+        "name" : "Raman2005_MAP-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "438460",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "276a034f017b5845df0b1148b9312323",
+        "sha1sum" : "6481938cd4be7b702cca3aef2ad84d6b7ba5bbd2",
+        "sha256sum" : "a2ce99a4cc89a7aba8704fb026c888da9222ea2c8fb10fe3e09c7b8a9962d707"
+      },
+      {
+        "name" : "Raman2005_MAP-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "841037",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3bbf6e53cf144ad7503946962e734bb6",
+        "sha1sum" : "c7b421bd9688f829e979d834125ea499a227207a",
+        "sha256sum" : "7305485f3af0fe25e1683bed402fb3b5957a3944cad42e990a1152f743be7a50"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1697",
+        "mimeType" : "application/xml",
+        "md5sum" : "c5aa723910efda34ab0c5ba670c8b09e",
+        "sha1sum" : "f854461656ffa14bb872b8ab59e99ef83183e1ca",
+        "sha256sum" : "f4a73597f88dfef709f0329293cab4c2335cb27ab0f3df657769a0f45b7994e0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2087",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7d82d32862fdfeeaba44734a137cf562",
+        "sha1sum" : "c2f480a97cef07329c0b18b3e9a0a3ef25a6b3dc",
+        "sha256sum" : "e41d88c08935078766646bc2f07cbe3159bb96fb92df963e573428e59a146487"
+      },
+      {
+        "name" : "miniFROG_MAP.xlsx",
+        "description" : "miniFROG report of MAP model",
+        "fileSize" : "36555",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "e6ca84c11aca89102ef42e1b12c670ce",
+        "sha1sum" : "9ebc519c8533824ce53a627c2eca7b98ea619493",
+        "sha256sum" : "53880276c6af0d412298a496b1da5a16268fa1c081b58ac755a96598fce16d10"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1159572250,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Raman2006_MycolicAcid"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1159572250,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Raman2006_MycolicAcid"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1648226029,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Updated model title and FROG curation files."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1648228104,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Automatically added model identifier BIOMD0000001046"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1700845405,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Updated FROG and MEMOTE reports as the curation effort. Also, made some minor updates to the model main's SBML file."
+      },
+      {
+        "version" : 7,
+        "submitted" : 1724296816,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285620,
+  "submissionId" : "MODEL8568434338",
+  "publicationId" : "BIOMD0000001046",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      },
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Karthik Raman",
+        "email" : "kraman@iitm.ac.in",
+        "affiliation" : "Bioinformatics Centre, Supercomputer Education and Research Centre, Indian Institute of Science, Bangalore, India.",
+        "orcid" : "0000-0002-9311-7093",
+        "external" : false
+      },
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001046",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8568434338",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8568434338"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16261191",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16261191"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16261191",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed:16261191"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "1773",
+      "name" : "Mycobacterium tuberculosis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/1773"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0071768",
+      "name" : "mycolic acid biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0071768"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MSIO_0000127",
+      "uri" : "http://purl.obolibrary.org/obo/MSIO_0000127"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000009",
+      "name" : "Constraint-based model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000009"
+    }
+  ]
+}

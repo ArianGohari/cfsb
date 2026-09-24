@@ -1,0 +1,74 @@
+digraph CircadianClock {
+  graph [rankdir=LR, bgcolor="white", fontname="Helvetica", fontsize=18, labelloc=t, label="Circadianer Oszillator · Weimann2004\nKreise: Spezies (Startkonzentration in nM) · Rechtecke: Reaktionen\nDurchgezogen: Stofffluss · gestrichelt: Einfluss (+/−)\nStruktur eines kontinuierlichen Petrinetzes; keine Simulation", nodesep=0.35, ranksep=0.8];
+  node [fontname="Helvetica", fontsize=11, style=filled];
+  edge [fontname="Helvetica", fontsize=10, color="#475569", arrowsize=0.7];
+
+  subgraph cluster_cytoplasm {
+    label="Cytoplasma"; color="#93c5fd"; style=rounded;
+    node [shape=circle, fillcolor="#dbeafe"];
+    y1 [label="y1\nPer2/Cry\nmRNA\n0.2 nM"];
+    y2 [label="y2\nPER2/CRY\n0 nM"];
+    y4 [label="y4\nBmal1 mRNA\n0.8 nM"];
+    y5 [label="y5\nBMAL1\n1 nM"];
+    node [shape=box, fillcolor="#f1f5f9"];
+    per2_cry_transcription [label="Per2/Cry\nTranskription"];
+    per2_cry_mRNA_degradation [label="Per2/Cry-mRNA\nAbbau"];
+    per2_cry_complex_formation [label="PER2/CRY\nBildung"];
+    cytoplasmic_per2_cry_complex_degradation [label="PER2/CRY\nAbbau (Cyt.)"];
+    Bmal1_transcription [label="Bmal1\nTranskription"];
+    Bmal1_mRNA_degradation [label="Bmal1-mRNA\nAbbau"];
+    BMAL1_translation [label="BMAL1\nTranslation"];
+    cytoplasmic_BMAL1_degradation [label="BMAL1\nAbbau (Cyt.)"];
+  }
+  subgraph cluster_nucleus {
+    label="Zellkern"; color="#c4b5fd"; style=rounded;
+    node [shape=circle, fillcolor="#ede9fe"];
+    y3 [label="y3\nPER2/CRY\n1.1 nM"];
+    y6 [label="y6\nBMAL1\n1 nM"];
+    y7 [label="y7\nBMAL1 aktiv\n1.05 nM"];
+    node [shape=box, fillcolor="#f1f5f9"];
+    nuclear_per2_cry_complex_degradation [label="PER2/CRY\nAbbau (Kern)"];
+    nuclear_BMAL1_degradation [label="BMAL1\nAbbau (Kern)"];
+    BMAL1_activation [label="BMAL1\nAktivierung"];
+    BMAL1_deactivation [label="BMAL1\nDeaktivierung"];
+    Active_BMAL1_degradation [label="Aktives BMAL1\nAbbau"];
+  }
+  node [shape=box, fillcolor="#f1f5f9"];
+  per2_cry_nuclear_import [label="PER2/CRY\nKernimport"];
+  per2_cry_nuclear_export [label="PER2/CRY\nKernexport"];
+  BMAL1_nuclear_import [label="BMAL1\nKernimport"];
+  BMAL1_nuclear_export [label="BMAL1\nKernexport"];
+
+  // All material-flow arcs have weight 1. Source/sink transitions stay open.
+  per2_cry_transcription -> y1;
+  y1 -> per2_cry_mRNA_degradation;
+  per2_cry_complex_formation -> y2;
+  y2 -> cytoplasmic_per2_cry_complex_degradation;
+  y2 -> per2_cry_nuclear_import;
+  per2_cry_nuclear_import -> y3;
+  y3 -> per2_cry_nuclear_export;
+  per2_cry_nuclear_export -> y2;
+  y3 -> nuclear_per2_cry_complex_degradation;
+  Bmal1_transcription -> y4;
+  y4 -> Bmal1_mRNA_degradation;
+  BMAL1_translation -> y5;
+  y5 -> cytoplasmic_BMAL1_degradation;
+  y5 -> BMAL1_nuclear_import;
+  BMAL1_nuclear_import -> y6;
+  y6 -> BMAL1_nuclear_export;
+  BMAL1_nuclear_export -> y5;
+  y6 -> nuclear_BMAL1_degradation;
+  y6 -> BMAL1_activation;
+  BMAL1_activation -> y7;
+  y7 -> BMAL1_deactivation;
+  BMAL1_deactivation -> y6;
+  y7 -> Active_BMAL1_degradation;
+
+  // Qualitative kinetic influences, not token-consuming Petri-net arcs.
+  edge [style=dashed, color="#15803d", fontcolor="#15803d", constraint=false, label="+"];
+  y1 -> per2_cry_complex_formation;
+  y4 -> BMAL1_translation;
+  y7 -> per2_cry_transcription;
+  y3 -> Bmal1_transcription;
+  y3 -> per2_cry_transcription [color="#b91c1c", fontcolor="#b91c1c", arrowhead=tee, label="−"];
+}

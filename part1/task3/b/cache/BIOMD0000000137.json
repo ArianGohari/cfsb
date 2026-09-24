@@ -1,0 +1,303 @@
+{
+  "name" : "Sedaghat2002_InsulinSignalling_noFeedback",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>Model reproduces the various plots in Figure 6 and 7 of the paper. It was successfully tested on MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12376338",
+    "journal" : "American journal of physiology. Endocrinology and metabolism",
+    "title" : "A mathematical model of metabolic insulin signaling pathways.",
+    "affiliation" : "Cardiology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, Maryland 20892, USA.",
+    "synopsis" : "We develop a mathematical model that explicitly represents many of the known signaling components mediating translocation of the insulin-responsive glucose transporter GLUT4 to gain insight into the complexities of metabolic insulin signaling pathways. A novel mechanistic model of postreceptor events including phosphorylation of insulin receptor substrate-1, activation of phosphatidylinositol 3-kinase, and subsequent activation of downstream kinases Akt and protein kinase C-zeta is coupled with previously validated subsystem models of insulin receptor binding, receptor recycling, and GLUT4 translocation. A system of differential equations is defined by the structure of the model. Rate constants and model parameters are constrained by published experimental data. Model simulations of insulin dose-response experiments agree with published experimental data and also generate expected qualitative behaviors such as sequential signal amplification and increased sensitivity of downstream components. We examined the consequences of incorporating feedback pathways as well as representing pathological conditions, such as increased levels of protein tyrosine phosphatases, to illustrate the utility of our model for exploring molecular mechanisms. We conclude that mathematical modeling of signal transduction pathways is a useful approach for gaining insight into the complexities of metabolic insulin signaling.",
+    "year" : 2002,
+    "month" : "11",
+    "volume" : "283",
+    "issue" : "5",
+    "pages" : "E1084-101",
+    "link" : "http://identifiers.org/pubmed/12376338",
+    "authors" : [
+      {
+        "name" : "Ahmad R Sedaghat",
+        "institution" : "Cardiology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, Maryland 20892, USA."
+      },
+      {
+        "name" : "Arthur Sherman"
+      },
+      {
+        "name" : "Michael J Quon"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000137_url.xml",
+        "description" : "SBML L2V1 representation of Sedaghat2002_InsulinSignalling_noFeedback",
+        "fileSize" : "52830",
+        "mimeType" : "application/xml",
+        "md5sum" : "6dbb5785598225adf95a3b3e94405e09",
+        "sha1sum" : "c35f42ceb0071711423561b616301ce51f9c3746",
+        "sha256sum" : "183b97d44042267028f8b611fcb5617c9ebbde1d0635e1806bb394f6692f5bb7"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000137-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "37206",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "58810bfddd93194ebd5fa116144c2d81",
+        "sha1sum" : "015d0a63674ee7642642d395984931843a61fd39",
+        "sha256sum" : "6976b048ce1103a53b88dbeef24ccf4af33656babb57a14ffb2fa98a71d7dece"
+      },
+      {
+        "name" : "BIOMD0000000137-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "54005",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "507b993e47509e2038106dd1fc9a1f4c",
+        "sha1sum" : "bd2cf4e6b359101b0600b6ac87430a4e19bcf9fd",
+        "sha256sum" : "11953d6104ad307fd4c38af2d4efea154c6c8bb9bc20e1539deda11f6c6fece5"
+      },
+      {
+        "name" : "BIOMD0000000137-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12911",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "93c933e537eea63bd6cbb3e715be86a3",
+        "sha1sum" : "5a7ff7ffba4685e4941e89570d55bf1939791eb5",
+        "sha256sum" : "b4a7c614615b8cd77758be8b8ea49d8d5d90620eb79cbea09d23fb270c06de35"
+      },
+      {
+        "name" : "BIOMD0000000137.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12911",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "99fa286f0fd8e5fc7da588b826c5b753",
+        "sha1sum" : "407564b2155ceb62c459c638f7c11aaad91ffeca",
+        "sha256sum" : "a81227498beb682e47ccd348eeb00d24efeb5fdeb56ea10a7d87366cb8160593"
+      },
+      {
+        "name" : "BIOMD0000000137.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9689",
+        "mimeType" : "text/plain",
+        "md5sum" : "43462bf053c1ebf7e8193178549fd6b2",
+        "sha1sum" : "69c5069d7340df08504dc995e68cce70dddb3693",
+        "sha256sum" : "fc94cbe2471eb91fe80c1c4d4cbd9d674e4704b57ed964329a55082a24240814"
+      },
+      {
+        "name" : "BIOMD0000000137.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "230775",
+        "mimeType" : "application/pdf",
+        "md5sum" : "2de0c7291e3ca2386e722590bf5c49a2",
+        "sha1sum" : "c081794a8712c1063333dd6c046191d929c4124c",
+        "sha256sum" : "399ce712b855991e0145b058bb2a52d26f7318808ddb5e15250702c3104e97e6"
+      },
+      {
+        "name" : "BIOMD0000000137.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "151471",
+        "mimeType" : "image/png",
+        "md5sum" : "638bbbfd32f5d4a9888a76ff18d2b438",
+        "sha1sum" : "46d79f41f572913704e59f49a0f5a9511e5301bd",
+        "sha256sum" : "c81c2af1c4d3fa2613033bf1e801f0ee7db5e577b465c7e39c5d7b4a4a89f68e"
+      },
+      {
+        "name" : "BIOMD0000000137.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "49675",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "0462f3ac0af093d327d6c9b2211a07aa",
+        "sha1sum" : "448bc0a9760eb46d85045895862f36283714efd2",
+        "sha256sum" : "80b830205d8c9f0953d3a4abdef413f2c8593ed9fd080ed1b143fdd07d2638ca"
+      },
+      {
+        "name" : "BIOMD0000000137_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "46493",
+        "mimeType" : "application/xml",
+        "md5sum" : "874e1050a23ec17b19f0df3050e6c951",
+        "sha1sum" : "26e6aa1a3105a50f50b17556d4771570ca713470",
+        "sha256sum" : "7c762761224d1af531893dda9f96d5b05f0fb8a2e9e8e87105d07c5c3fb0a21b"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "53333",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "c2dcb12061d04d4a9c5c55420b7ca60b",
+        "sha1sum" : "1ca12a75b36fde06f7b2f918e4786d02e2ba34b0",
+        "sha256sum" : "a58330ebec519db888374e5cd99175ef40453376fae4006ccb06cf04ea311140"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "141",
+        "mimeType" : "text/plain",
+        "md5sum" : "e4b528e645dbd7724e7ee9b5c0e3ef6d",
+        "sha1sum" : "00d3da73cedd6b98f72ae182ccfbf78b278d5ecb",
+        "sha256sum" : "4b4395b6ebd8c7cd39af0cc3616f36cc62ed2218c39b27ce501092d8a2b5c7b7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1673",
+        "mimeType" : "application/xml",
+        "md5sum" : "5118ec519a9d14114a5049086b69f72b",
+        "sha1sum" : "dd27798609ebbc2c6a160f540145c9993e63d100",
+        "sha256sum" : "136ad659c691f03e44919ffd9085264c20a9d39741f46864be7cfefa9497e406"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4444",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e6b3c0f94b488ec6377db1ee6739e5a6",
+        "sha1sum" : "e2b9a7f5d6b6ed554a1f5dd747d62cb5ecdafd06",
+        "sha256sum" : "ba6567d4c29b6fecec9043b04aae080608256613ce91df05412d465304ec3620"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1186562047,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Sedaghat2002_InsulinSignalling_noFeedback"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412940303,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Sedaghat2002_InsulinSignalling_noFeedback"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268351,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284895,
+  "submissionId" : "MODEL6526728774",
+  "publicationId" : "BIOMD0000000137",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6526728774",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6526728774"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000137",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000137"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12376338",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12376338"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "8304439",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8304439"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "1890848",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/1890848"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1201140006",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1201140006"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1201140005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1201140005"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "1890850",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/1890850"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0008286",
+      "name" : "insulin receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008286"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04910",
+      "name" : "Insulin signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04910"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

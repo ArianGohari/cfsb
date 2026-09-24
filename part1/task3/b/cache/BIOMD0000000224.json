@@ -1,0 +1,279 @@
+{
+  "name" : "Meyer1991_CalciumSpike_ICC",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Calcium spiking. </strong>        <br />Meyer T, Stryer L       <em>Annu Rev Biophys Biophys Chem</em>1991:20:153-74       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/1867714\">1867714</a>,      <br />        <strong>Abstract:</strong>        <br />No Abstract Available<p>The IP3-Ca2+ Crosscoupling Model (ICC) is reviewed by Meyer and Stryer in 1991, originally from Meyer and Stryer, 1988. PMID - <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/2455890\">2455890</a> Parameters refer to figures 5 and 6 of the article which were reproduced by using Copasi 4.5 (Build 30).Species CaI and IP3 are buffered to 1% and 50% percent, respectively.</p>  </p>  <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a></p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "1867714",
+    "journal" : "Annual review of biophysics and biophysical chemistry",
+    "title" : "Calcium spiking.",
+    "affiliation" : "Department of Cell Biology, Sherman Fairchild Center, Stanford University School of Medicine, California 94305.",
+    "year" : 1991,
+    "month" : "0",
+    "volume" : "20",
+    "pages" : "153-174",
+    "link" : "http://identifiers.org/pubmed/1867714",
+    "authors" : [
+      {
+        "name" : "T Meyer",
+        "institution" : "Department of Cell Biology, Sherman Fairchild Center, Stanford University School of Medicine, California 94305.",
+        "orcid" : "0000-0003-4339-3804"
+      },
+      {
+        "name" : "L Stryer"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000224_url.xml",
+        "description" : "SBML L2V4 representation of Meyer1991_CalciumSpike_ICC",
+        "fileSize" : "19427",
+        "mimeType" : "application/xml",
+        "md5sum" : "f7535a0d1a9258205158c3881f5af1f8",
+        "sha1sum" : "4f9afe247a9a61745db2aa52cf79f90f2537f548",
+        "sha256sum" : "a24281a16a87cd5a017c17c182575d4652ca526e20d9a34ab243d617a6dfd3e2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000224-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "12472",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "829186f0641e70bff69b2bcdc2e9159e",
+        "sha1sum" : "2fb1f3fe7ef96ace38d6a4d7d09ee4f8cd0e2f01",
+        "sha256sum" : "00a6b39d4642df9aea22c32a53e87bf8b93be1cd41287af9022a54948492e045"
+      },
+      {
+        "name" : "BIOMD0000000224-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "16340",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e5c5a2d49f739069d7bab59069250e31",
+        "sha1sum" : "58809610a551b728dfce7ee8d7283b21c69a0e38",
+        "sha256sum" : "a4e4bd0c384743f4d4d0a75af4f8fc96e4339a527f3895712bf8eb955768d426"
+      },
+      {
+        "name" : "BIOMD0000000224-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4314",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "84e17b7caf9c5bc1bfd938197889f79b",
+        "sha1sum" : "d22b6ed8a63c1c975eb97cb200f8b9a7a9114a47",
+        "sha256sum" : "39cd78a79723d42890910f5ecb18adcec3ed13a8d05b629ecd92b5512ff892d1"
+      },
+      {
+        "name" : "BIOMD0000000224-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4314",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b16621c30c94f287c6019a9996990495",
+        "sha1sum" : "3660120bb91dba3118b03dea3e7f3974b7992e4c",
+        "sha256sum" : "d029ca642a183975998c750e87b54b35c6c5cf0dd435a94dcbc5e0b90ca5154b"
+      },
+      {
+        "name" : "BIOMD0000000224.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4314",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b16621c30c94f287c6019a9996990495",
+        "sha1sum" : "3660120bb91dba3118b03dea3e7f3974b7992e4c",
+        "sha256sum" : "d029ca642a183975998c750e87b54b35c6c5cf0dd435a94dcbc5e0b90ca5154b"
+      },
+      {
+        "name" : "BIOMD0000000224.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2374",
+        "mimeType" : "text/plain",
+        "md5sum" : "c0e4540de5eab8bf0e5ef9a1de85fd70",
+        "sha1sum" : "941b93b23e8057a70c42973d125fb2eccb1ece58",
+        "sha256sum" : "1c3f68ac13600cc6b6b3937b9271150ce8b3e189111c2430dd3fe32057b5dd6a"
+      },
+      {
+        "name" : "BIOMD0000000224.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "170768",
+        "mimeType" : "application/pdf",
+        "md5sum" : "84ab3b1b198a1c9f5225b5ff73ed5de4",
+        "sha1sum" : "ac4a6256f95e72cad522bf4514cdf8e82e08f876",
+        "sha256sum" : "b16284d3546fabc3d4a6486daa71148635b66a86bd9529b78e534ab442562b5f"
+      },
+      {
+        "name" : "BIOMD0000000224.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "33380",
+        "mimeType" : "image/png",
+        "md5sum" : "ceb623ba5a156007eae8bf2db2d1f8ed",
+        "sha1sum" : "6b39221c761f829bd11ef20a81e88041561ba78a",
+        "sha256sum" : "ad1f3073067957b49a9d8b6af3766d1b68fadcf0d768b77026e38157e21c9c83"
+      },
+      {
+        "name" : "BIOMD0000000224.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "13932",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f22b6aef6fb08d9ac214b8de3a62e394",
+        "sha1sum" : "719269c3f5f80b6c0b1297ae3ec8593a03ad4b8d",
+        "sha256sum" : "783f044e894d9e48aeaa40d76745b43c2f0b2bdf50fe4fcca986dcd81cebeb5e"
+      },
+      {
+        "name" : "BIOMD0000000224.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "26192",
+        "mimeType" : "application/xml",
+        "md5sum" : "cfddb3fca49db53a25e0690febdb9312",
+        "sha1sum" : "d1709dc6ef4b3a33aef156affd562779afd39da0",
+        "sha256sum" : "e03fecba7a0694ff9ec2556f0505f4e56eebf6a6eb0950ef1335c47eae973c80"
+      },
+      {
+        "name" : "BIOMD0000000224_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "13979",
+        "mimeType" : "application/xml",
+        "md5sum" : "fad62c4987a57a2bea361d21131f9516",
+        "sha1sum" : "56c08938baf3757857315806ef165821e66d3e19",
+        "sha256sum" : "8c08436e7c8817ad6e3704061270058c40408e0a038d6cf82ab8b73a888cf3fc"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "66355",
+        "mimeType" : "image/png",
+        "md5sum" : "47ab1f1aef11748c4e7a48f32765f44f",
+        "sha1sum" : "cc7e6e3f3d248b430b09614433bbf208985d8c90",
+        "sha256sum" : "824278e217b262926de9ff439362d5997c8af9203602d2cb7c45e93767ceb3ca"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "121",
+        "mimeType" : "text/plain",
+        "md5sum" : "de2ed1b5dd106c0486e4a2289504b3f7",
+        "sha1sum" : "117e88d42e1fc106b6fa55e0d7f7e66e51872aa9",
+        "sha256sum" : "2044755e26fef7f1c8a8f4f12df2279bdf2b43b4a631cffe67376afe878809c7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "98cebcb5c1db9f75390ab361b92ea2aa",
+        "sha1sum" : "888ff047432d0300d8c9efcf43eed8e46164300c",
+        "sha256sum" : "7dd549a01237aaf1c37b552368fd12c1529d2beac158feda3f1b107b3b2f7bd6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3760",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a9ff1a2a17df3df413e3ff5c2e24e681",
+        "sha1sum" : "a083d98672bbd548ba69956731c11582f326be90",
+        "sha256sum" : "97d354262808afd7fc127517429fa9d4550a1ac0950de4b075624355b6aa35b7"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1249419309,
+        "submitter" : "Philipp Bayer",
+        "comment" : "Original import of meyer1991_ICC_buffered"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401241384,
+        "submitter" : "Philipp Bayer",
+        "comment" : "Current version of Meyer1991_CalciumSpike_ICC"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270783,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284950,
+  "submissionId" : "MODEL9412103933",
+  "publicationId" : "BIOMD0000000224",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Philipp Bayer",
+        "email" : "p.bayer@stud.uni-heidelberg.de",
+        "affiliation" : "Stanford University, University of Heidelberg",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL9412103933",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9412103933"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000224",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000224"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "1867714",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/1867714"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "2455890",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/2455890"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051279",
+      "name" : "regulation of release of sequestered calcium ion into cytosol",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051279"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10117",
+      "name" : "Rattus rattus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10117"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

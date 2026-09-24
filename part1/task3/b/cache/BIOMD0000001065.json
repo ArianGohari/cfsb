@@ -1,0 +1,301 @@
+{
+  "name" : "vonDassow2000 - Segment Polarity Network model on 1x4 grid of cells",
+  "description" : "This is the segment polarity network model described by von Dassow et al. (2000). It represents a toroidal hexagonal array of cells (1x4), where each cell can express various genes (winglessengrailed, hedgehog, cubitus interruptus, and patched) and where their protein products interact within a cell, and across neighboring cells.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1038/35018085",
+    "journal" : "Nature",
+    "title" : "The segment polarity network is a robust developmental module",
+    "affiliation" : "University of Washington, Department of Zoology, Box 351800, Seattle, Washington 98195-1800, USA",
+    "synopsis" : "All insects possess homologous segments, but segment specification differs radically among insect orders. In Drosophila, maternal morphogens control the patterned activation of gap genes, which encode transcriptional regulators that shape the patterned expression of pair-rule genes. This patterning cascade takes place before cellularization. Pair-rule gene products subsequently 'imprint' segment polarity genes with reiterated patterns, thus defining the primordial segments. This mechanism must be greatly modified in insect groups in which many segments emerge only after cellularization. In beetles and parasitic wasps, for instance, pair-rule homologues are expressed in patterns consistent with roles during segmentation, but these patterns emerge within cellular fields. In contrast, although in locusts pair-rule homologues may not control segmentation, some segment polarity genes and their interactions are conserved. Perhaps segmentation is modular, with each module autonomously expressing a characteristic intrinsic behaviour in response to transient stimuli. If so, evolution could rearrange inputs to modules without changing their intrinsic behaviours. Here we suggest, using computer simulations, that the Drosophila segment polarity genes constitute such a module, and that this module is resistant to variations in the kinetic constants that govern its behaviour.",
+    "year" : 2000,
+    "month" : "7",
+    "volume" : "406",
+    "issue" : "6792",
+    "pages" : "188-192",
+    "link" : "http://identifiers.org/doi/10.1038/35018085",
+    "authors" : [
+      {
+        "name" : "G. von Dassow"
+      },
+      {
+        "name" : "E. Meir"
+      },
+      {
+        "name" : "E. M. Munro"
+      },
+      {
+        "name" : "G. M. Odell"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "vonDassow2000_1x4.timecourse1.xml",
+        "description" : "SBML of a 1x4 array of cells encoding the segment polarity network model of von Dassow et al. (2000) with a parameter set that converges to the appropriate segmentation pattern",
+        "fileSize" : "620652",
+        "mimeType" : "application/xml",
+        "md5sum" : "7a5a298cb3a9a108ce91992225cb7c6d",
+        "sha1sum" : "78f7f5142419bd27a033c2738bc5f1c3ed2950c7",
+        "sha256sum" : "bae429b0ecc075bb93ab5152deedfc207360093f349efe648f1556764a75f989"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "1-log-hits-spider.tsv",
+        "description" : "Data file with results corresponding to Fig 2A of von Dassow et al (2000)",
+        "fileSize" : "414853",
+        "mimeType" : "text/plain",
+        "md5sum" : "7c51132de3888a388bb5d78c83357e1b",
+        "sha1sum" : "2bb04e4376b8360219783421ca2276489a41a6c5",
+        "sha256sum" : "1932d990d96f724273616d11d859cc3999f595228dd6b315802be2b16c32d13b"
+      },
+      {
+        "name" : "1-log-hits-stats-spider.tsv",
+        "description" : "Data file with statistics of results corresponding to Fig 2A of von Dassow et al (2000)",
+        "fileSize" : "1436",
+        "mimeType" : "text/plain",
+        "md5sum" : "3776ba10aec04cd1bb9874d5c9982f8b",
+        "sha1sum" : "0117560609f8308fc7c14f681496bfb3a0b523cb",
+        "sha256sum" : "b1a905e9ea55880d0e9ba7b9c084e5415363d8b8a87eded6c90125c8c194f053"
+      },
+      {
+        "name" : "Fig2.png",
+        "description" : "Reproduction of Fig 2A in von Dassow et al (2000)",
+        "fileSize" : "967289",
+        "mimeType" : "image/png",
+        "md5sum" : "a51532ce62e3cf5d5c85e06cdf80cc1d",
+        "sha1sum" : "3f68928dcde01e269dc4de3d59508f8601b5d03d",
+        "sha256sum" : "04ec19189ba3ee55afe30590c3d7cfa6e32f73601d72d5b5d78465f97d5d05e0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2169",
+        "mimeType" : "application/xml",
+        "md5sum" : "6b34fefaa5a31bb0259a9973c4a6a73d",
+        "sha1sum" : "40e272994306fc10876476a4495a84ccc2ea67b7",
+        "sha256sum" : "88d38d9783467019e9dfbddeff67eff0e86e2a0e5d7c154188e48eb19d439977"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1915",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d00f935493b16c3b79b5ce01d81f7949",
+        "sha1sum" : "cca84610eab7dbbd1d1a85c7b190b86f128ea12c",
+        "sha256sum" : "916c32e4650e8ed4b8221f8bff0d2ba5295c757e8bdac2000cb12714a3c5bd34"
+      },
+      {
+        "name" : "param_radial.plt",
+        "description" : "Gnuplot script to generate Fig2 using files 1-log-hits-spide.tsv and 1-log-stats-hits-spider.stv",
+        "fileSize" : "2891",
+        "mimeType" : "text/plain",
+        "md5sum" : "3357b9c77deadbb850eb57eeba0cc5f9",
+        "sha1sum" : "1bcdf58e6f54496821726e78bf30d8afb9497777",
+        "sha256sum" : "2f6b3d4a64d0576243fabee30b4002b873094b2b8c85b56002186020c72f168d"
+      },
+      {
+        "name" : "runTellurium.py",
+        "description" : "python script to have Tellurium run SBML file",
+        "fileSize" : "2710",
+        "mimeType" : "text/x-python",
+        "md5sum" : "8e379fe48d55d2e754c124cec6ad1a36",
+        "sha1sum" : "57e2b919a62d9481385b09ea53a1aaa685b65614",
+        "sha256sum" : "d2eac1675fb837a21dbe7138059326b6ede85ec9c95653f3ecd1468e68254a47"
+      },
+      {
+        "name" : "timecourse1.amici.tsv",
+        "description" : "results of timecourse1 run by AMICI (using OMEX file in biosimulations.org)",
+        "fileSize" : "621076",
+        "mimeType" : "text/plain",
+        "md5sum" : "e82e8f8adf2aff0890f08666bd2e9fed",
+        "sha1sum" : "8ae9c2780cfad9c030c2cc3b0adbc55aacf7fe51",
+        "sha256sum" : "3ee9d816a52248920c6fb0f592f9ce77a3166d18c2c8e3ad03ca3315920e5970"
+      },
+      {
+        "name" : "timecourse1.copasi.tsv",
+        "description" : "results of timecourse1 run by COPASI",
+        "fileSize" : "338619",
+        "mimeType" : "text/plain",
+        "md5sum" : "8bd2731dd7331443f424c70c6b977047",
+        "sha1sum" : "e866a53dc806f6bb88fa4c62207f021b01ffd769",
+        "sha256sum" : "4b0216a8b09eabe67223ae4691182ecf7ed6aa6b142a38f58e9f31e4fa37b95d"
+      },
+      {
+        "name" : "timecourse1.plt",
+        "description" : "gnuplot script to generate Fig3 and Fig4 using timecourse1.*.tsv files",
+        "fileSize" : "7969",
+        "mimeType" : "text/plain",
+        "md5sum" : "cbbebe5b5462c1ce79b3b8ca8ae7e683",
+        "sha1sum" : "3b85e2e784703818b6ebba0b0ba4aeccdfa0ddb6",
+        "sha256sum" : "c6f7ace4206114f9f41792e9b74eb12883345507e7e1892646ad28783a9b9680"
+      },
+      {
+        "name" : "timecourse1.tellurium.tsv",
+        "description" : "results of timecourse1 run by Tellurium (using runTellurium.py)",
+        "fileSize" : "673274",
+        "mimeType" : "text/plain",
+        "md5sum" : "7a33fafeec456fb974b0da1e83a2152b",
+        "sha1sum" : "093990dfa7df56753becf63a01ff0fba3bb43b4e",
+        "sha256sum" : "dca2c38d36ed2a5cc434ad7c39eee2d36e1da53c7c354fc233a97d59e965d3ca"
+      },
+      {
+        "name" : "timecourse1.vcell.tsv",
+        "description" : "results of timecourse1 run by VCell (using vcml file)",
+        "fileSize" : "612003",
+        "mimeType" : "text/plain",
+        "md5sum" : "52baf264e784723a12633c27e7f5f0a3",
+        "sha1sum" : "12d411b9b85bb15fc439c8c8a139a3768979d300",
+        "sha256sum" : "48b29ccc085dda17025e6e28bf542a6ae8dbf3afdbd142a23421c898761a7331"
+      },
+      {
+        "name" : "vonDassow2000_1x4.timecourse1.cps",
+        "description" : "COPASI file of a 1x4 array of cells encoding the semgment polarity network model of von Dassow et al. (2000) with a parameter set that converges to the appropriate segmentation pattern",
+        "fileSize" : "1408461",
+        "mimeType" : "application/xml",
+        "md5sum" : "fa7e494e17290c8070aca38dcba600e0",
+        "sha1sum" : "3ac70f0815f1c7e2e56396e20c1a82fe8a12d075",
+        "sha256sum" : "46fb130b62cd0221ab6bb48ae57fb451683b7a99442ccafd6f50462449befc63"
+      },
+      {
+        "name" : "vonDassow2000_1x4.timecourse1.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "82843",
+        "mimeType" : "application/xml",
+        "md5sum" : "5f928373d0d4c666604e2492ad6639fd",
+        "sha1sum" : "1bca460a6084eb724f3e0cf4599bc65d0d648fcf",
+        "sha256sum" : "bbc15280722c58e18cccfa831ffd29d2ce38662d126daf3bf44f72bd0d2552c5"
+      },
+      {
+        "name" : "vonDassow2000_1x4_alt.cps",
+        "description" : "COPASI file to reproduce Fig 2 and Table 2 of von Dassow et al (2000) model of the segment polarity network.",
+        "fileSize" : "4826044",
+        "mimeType" : "application/xml",
+        "md5sum" : "5ca053c371f506e244e69642db17f467",
+        "sha1sum" : "d459c0dedc4bb01e5d5df7e413ac813f61835565",
+        "sha256sum" : "4f37d238042f24007219399ea7ebb9dc5a49bb8bdff9a3a2c13e09b94a2ace2f"
+      },
+      {
+        "name" : "vonDassow2000_1x4_timecourse1.vcml",
+        "description" : "VCell ML file of a 1x4 array of cells encoding the semgment polarity network model of von Dassow et al. (2000) with a parameter set that converges to the appropriate segmentation pattern",
+        "fileSize" : "1053114",
+        "mimeType" : "application/xml",
+        "md5sum" : "022a8b7f0a596fc2fc2270b173dce6ab",
+        "sha1sum" : "6e7690492aa0aa6a1f5ce9cfa899bb7d0800b1bf",
+        "sha256sum" : "d6e387b9faeb8327282152f05cd6bcbe09714228441f888436fd5dfbc794bcaa"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1680864875,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Automatically added model identifier BIOMD0000001065"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1725317754,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "CRBM-sponsored manual and automated updates. Corrected an invalid SBML element caused by the old curation tool. The correction was suggested by Lucian."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1735840695,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1736321403,
+  "submissionId" : "MODEL2304060001",
+  "publicationId" : "BIOMD0000001065",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Pedro Mendes",
+        "email" : "pmendes@uchc.edu",
+        "affiliation" : "UConn Health",
+        "external" : false
+      },
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2304060001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2304060001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001065",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001065"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1038/35018085",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1038/35018085"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007367",
+      "name" : "segment polarity determination",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007367"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "1830",
+      "name" : "Rhodococcus ruber",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/1830"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1038/35018085",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1038/35018085"
+    }
+  ]
+}

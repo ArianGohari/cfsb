@@ -1,0 +1,288 @@
+{
+  "name" : "Piedrafita2010_MR_System",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>           This is the self maintaining metabolism model described in the article:          <br />        <strong> A Simple Self-Maintaining Metabolic System: Robustness, Autocatalysis, Bistability.          </strong>        <br />       Piedrafita G,  Montero F,  Morán F,  Cárdenas ML,  Cornish-Bowden A, <em>PLoS Computational Biology</em> 2010, 6(8):e1000872. doi:<a href=\"http://dx.doi.org/10.1371/journal.pcbi.1000872\">10.1371/journal.pcbi.1000872</a>        <br />        <strong>Abstract:</strong>        <br />A living organism must not only organize itself from within; it must also maintain its organization in the face of changes in its environment and degradation of its components. We show here that a simple (M,R)-system consisting of three interlocking catalytic cycles, with every catalyst produced by the system itself, can both establish a non-trivial steady state and maintain this despite continuous loss of the catalysts by irreversible degradation. As long as at least one catalyst is present at a sufficient concentration in the initial state, the others can be produced and maintained. The system shows bistability, because if the amount of catalyst in the initial state is insufficient to reach the non-trivial steady state the system collapses to a trivial steady state in which all fluxes are zero. It is also robust, because if one catalyst is catastrophically lost when the system is in steady state it can recreate the same state. There are three elementary flux modes, but none of them is an enzyme-maintaining mode, the entire network being necessary to maintain the two catalysts</p>        <p>As this is a theoretical model and no units are given in the article, the standard units (mol, seconds and litre) are used for the parameters. k8 and k11 are set equal to k4.</p>        <p> Originally created by libAntimony v1.4 (using libSBML 3.4.1) </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20700491",
+    "journal" : "PLoS computational biology",
+    "title" : "A simple self-maintaining metabolic system: robustness, autocatalysis, bistability.",
+    "affiliation" : "Departamento de Bioquímica y Biología Molecular I, Facultad de Ciencias Químicas, Universidad Complutense de Madrid, Madrid, Spain.",
+    "synopsis" : "A living organism must not only organize itself from within; it must also maintain its organization in the face of changes in its environment and degradation of its components. We show here that a simple (M,R)-system consisting of three interlocking catalytic cycles, with every catalyst produced by the system itself, can both establish a non-trivial steady state and maintain this despite continuous loss of the catalysts by irreversible degradation. As long as at least one catalyst is present at a sufficient concentration in the initial state, the others can be produced and maintained. The system shows bistability, because if the amount of catalyst in the initial state is insufficient to reach the non-trivial steady state the system collapses to a trivial steady state in which all fluxes are zero. It is also robust, because if one catalyst is catastrophically lost when the system is in steady state it can recreate the same state. There are three elementary flux modes, but none of them is an enzyme-maintaining mode, the entire network being necessary to maintain the two catalysts.",
+    "year" : 2010,
+    "month" : "8",
+    "volume" : "6",
+    "issue" : "8",
+    "pages" : "e1000872",
+    "link" : "http://identifiers.org/pubmed/20700491",
+    "authors" : [
+      {
+        "name" : "Gabriel Piedrafita",
+        "institution" : "Departamento de Bioquímica y Biología Molecular I, Facultad de Ciencias Químicas, Universidad Complutense de Madrid, Madrid, Spain.",
+        "orcid" : "0000-0001-8701-1084"
+      },
+      {
+        "name" : "Francisco Montero",
+        "institution" : "Departamento de Bioquímica y Biología Molecular I, Facultad de Ciencias Químicas, Universidad Complutense de Madrid, Ciudad Universitaria, Madrid 28045, Spain.",
+        "orcid" : "0000-0003-2366-3635"
+      },
+      {
+        "name" : "Federico Morán",
+        "orcid" : "0000-0003-3992-8829"
+      },
+      {
+        "name" : "María Luz Cárdenas"
+      },
+      {
+        "name" : "Athel Cornish-Bowden",
+        "orcid" : "0000-0001-6670-3006"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000257_url.xml",
+        "description" : "SBML L2V4 representation of Piedrafita2010_MR_System",
+        "fileSize" : "20213",
+        "mimeType" : "application/xml",
+        "md5sum" : "7235d449cf36e7d375f8515a159fa981",
+        "sha1sum" : "960b64dcdcd9b56caa247a5b53aaea61719b5ea3",
+        "sha256sum" : "092f2f63ba2c40e5b1ce461a94d7ff9777d382f231ffbe15388ca19e95eb8164"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000257-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "16279",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "32d58ea164f4065a9f437146c7d53676",
+        "sha1sum" : "f28ab9c8f575b80a426099ca1625a3ef420ce9ff",
+        "sha256sum" : "01ed852bc76900f26e6607096e48832c98d2f56bec7c99247de4e3945c54a630"
+      },
+      {
+        "name" : "BIOMD0000000257-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "27822",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "75a148fdc3cbb42dc3126bba6c7751f9",
+        "sha1sum" : "6d46dad53eff10ec840775159ecc7b7fc72df485",
+        "sha256sum" : "3e78b657202390c9900afc6887e2aa50f6f6711089a91d29bb4da3f071fe1460"
+      },
+      {
+        "name" : "BIOMD0000000257-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6793",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "10b0e264ec9d81f295a335fd3ca9992d",
+        "sha1sum" : "98a0a37269ae0e9bad9bf4f5765a9717c255c88c",
+        "sha256sum" : "dfe78e5631aa6278bd8cfa8e8ae4c5bcbf86ac6ca540d7bb0271c35ba3be9381"
+      },
+      {
+        "name" : "BIOMD0000000257-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6793",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3ba745e5fcf25a68528e5a92811da54e",
+        "sha1sum" : "d3ac662808329cd2644d3ee1c7b4a0a61ba9b5d2",
+        "sha256sum" : "7024ac1a8a151da81108173c72fd87d94eefa0767efe0de28691a54a12ab06fd"
+      },
+      {
+        "name" : "BIOMD0000000257.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6793",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3ba745e5fcf25a68528e5a92811da54e",
+        "sha1sum" : "d3ac662808329cd2644d3ee1c7b4a0a61ba9b5d2",
+        "sha256sum" : "7024ac1a8a151da81108173c72fd87d94eefa0767efe0de28691a54a12ab06fd"
+      },
+      {
+        "name" : "BIOMD0000000257.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4484",
+        "mimeType" : "text/plain",
+        "md5sum" : "5b68d89ee1fefcdccb2ac2c7bdd11bfe",
+        "sha1sum" : "864375e0770a81465e5adb607d3a42161e148016",
+        "sha256sum" : "17925dd21e1452cb68d8332576aac62e3c52d269ffc3c99ad8bd400411a16600"
+      },
+      {
+        "name" : "BIOMD0000000257.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "184834",
+        "mimeType" : "application/pdf",
+        "md5sum" : "545c04a1c5095398e46532ca8c38ce6f",
+        "sha1sum" : "9da5d102e7eb641c1d1399605357d2007ac54c38",
+        "sha256sum" : "9ff746566073bead892b0f4995976dea6c2851c87effda11dbf2438d27623aae"
+      },
+      {
+        "name" : "BIOMD0000000257.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "69778",
+        "mimeType" : "image/png",
+        "md5sum" : "4e1917fa03fb1ac679677d0b0e7411e5",
+        "sha1sum" : "d38be1b9267d657b4d4438af7f227d2ae12f9601",
+        "sha256sum" : "4f2e85ec482cd70252e1e584e97939b62585a8c79297e9116e4b4c99f026095b"
+      },
+      {
+        "name" : "BIOMD0000000257.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "24648",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "7298e903cf07777e6b3b54e36aa1857f",
+        "sha1sum" : "b9f44c7e1ec5ae46fd267f20657068460f86fcaf",
+        "sha256sum" : "54a86cf584deff5a43948d71e2b6fa8f04dcdbfd64e20d3dbdb26949fe9cfcb7"
+      },
+      {
+        "name" : "BIOMD0000000257.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "29216",
+        "mimeType" : "application/xml",
+        "md5sum" : "d28687425f592b28d8e0f9972acc1d37",
+        "sha1sum" : "55129a0cf616710c5e32f854737657a4717d2652",
+        "sha256sum" : "732104d32a8423c4ff4a0d9aa670df9d3ca840619dbe4500a716ff48f6d63193"
+      },
+      {
+        "name" : "BIOMD0000000257_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "24556",
+        "mimeType" : "application/xml",
+        "md5sum" : "802102c96edcd800239cccb9e0365874",
+        "sha1sum" : "b2942dd1d8454803536b297fd43e60ecb7f8f3c4",
+        "sha256sum" : "e1e38cc4991b4762c1ce188de7b92660c81ff839b307e1fbbf5e67200a255ab0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "113902",
+        "mimeType" : "image/png",
+        "md5sum" : "da25628afb3d86837852a92d53efe1c1",
+        "sha1sum" : "276f70433b26ee130590a87626712d48313c021c",
+        "sha256sum" : "fbe719738e992ebea7a411447012c2c1a4902e0416ab5852e5f846b59194f42e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "578",
+        "mimeType" : "text/plain",
+        "md5sum" : "b5f3377a841c4f0fbc32aed20fc95fb1",
+        "sha1sum" : "b068e736b10f77888769608af7e66adc162bd881",
+        "sha256sum" : "5d3a9f6393312bede049145426f77bc05e1e642fed9031cf719ec0982ec4ce4e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "487aeb269623581261bec7fa8357544f",
+        "sha1sum" : "7675ff823d37456c8891b65daf5cf0db69b3006a",
+        "sha256sum" : "dcd8f522ba3de0e83c67452a6316f3e34c9c57d23fe9b865f3ca92f4ec84c7a4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3805",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5cdc5e704077bda9374889ec7fce6217",
+        "sha1sum" : "778a61ac6fcb1ad82f7a09484c1047243866ef2f",
+        "sha256sum" : "b30f2806846d6ce51fc5dcd63f86f24f130ac1fb2bf298c52aa86aed888c922a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1281374084,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Piedrafita2010_MR_System"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396637056,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Piedrafita2010_MR_System"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271741,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284977,
+  "submissionId" : "MODEL1008090000",
+  "publicationId" : "BIOMD0000000257",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1008090000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1008090000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000257",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000257"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20700491",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20700491"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0050790",
+      "name" : "regulation of catalytic activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0050790"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

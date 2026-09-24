@@ -1,0 +1,313 @@
+{
+  "name" : "Nyman2011_M3Hierarachical_InsulinGlucosedynamics",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> A Hierarchical Whole-body Modeling Approach Elucidates the Link between in Vitro Insulin Signaling and in Vivo Glucose Homeostasis.</strong>        <br />Nyman E, Brannmark C, Palmer R, Brugard J, Nystrom FH, Stralfors P, Cedersund G.<em>J Biol Chem.</em>2011 Jul 22;286(29):26028-41.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21572040\">    21572040</a>,      <br />        <strong>Abstract:</strong>        <br />Type 2 diabetes is a metabolic disease that profoundly affects energy homeostasis. The disease involves failure at several levels and subsystems and is characterized by insulin resistance in target cells and tissues (i.e. by impaired intracellular insulin signaling). We have previously used an iterative experimental-theoretical approach to unravel the early insulin signaling events in primary human adipocytes. That study, like most insulin signaling studies, is based on in vitro experimental examination of cells, and the in vivo relevance of such studies for human beings has not been systematically examined. Herein, we develop a hierarchical model of the adipose tissue, which links intracellular insulin control of glucose transport in human primary adipocytes with whole-body glucose homeostasis. An iterative approach between experiments and minimal modeling allowed us to conclude that it is not possible to scale up the experimentally determined glucose uptake by the isolated adipocytes to match the glucose uptake profile of the adipose tissue in vivo. However, a model that additionally includes insulin effects on blood flow in the adipose tissue and GLUT4 translocation due to cell handling can explain all data, but neither of these additions is sufficient independently. We also extend the minimal model to include hierarchical dynamic links to more detailed models (both to our own models and to those by others), which act as submodules that can be turned on or off. The resulting multilevel hierarchical model can merge detailed results on different subsystems into a coherent understanding of whole-body glucose homeostasis. This hierarchical modeling can potentially create bridges between other experimental model systems and the in vivo human situation and offers a framework for systematic evaluation of the physiological relevance of in vitro obtained molecular/cellular experimental data.   </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21572040",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "A hierarchical whole-body modeling approach elucidates the link between in Vitro insulin signaling and in Vivo glucose homeostasis.",
+    "affiliation" : "Department of Clinical and Experimental Medicine, Diabetes and Integrative Systems Biology, Linköping University, SE58185 Linköping, Sweden.",
+    "synopsis" : "Type 2 diabetes is a metabolic disease that profoundly affects energy homeostasis. The disease involves failure at several levels and subsystems and is characterized by insulin resistance in target cells and tissues (i.e. by impaired intracellular insulin signaling). We have previously used an iterative experimental-theoretical approach to unravel the early insulin signaling events in primary human adipocytes. That study, like most insulin signaling studies, is based on in vitro experimental examination of cells, and the in vivo relevance of such studies for human beings has not been systematically examined. Herein, we develop a hierarchical model of the adipose tissue, which links intracellular insulin control of glucose transport in human primary adipocytes with whole-body glucose homeostasis. An iterative approach between experiments and minimal modeling allowed us to conclude that it is not possible to scale up the experimentally determined glucose uptake by the isolated adipocytes to match the glucose uptake profile of the adipose tissue in vivo. However, a model that additionally includes insulin effects on blood flow in the adipose tissue and GLUT4 translocation due to cell handling can explain all data, but neither of these additions is sufficient independently. We also extend the minimal model to include hierarchical dynamic links to more detailed models (both to our own models and to those by others), which act as submodules that can be turned on or off. The resulting multilevel hierarchical model can merge detailed results on different subsystems into a coherent understanding of whole-body glucose homeostasis. This hierarchical modeling can potentially create bridges between other experimental model systems and the in vivo human situation and offers a framework for systematic evaluation of the physiological relevance of in vitro obtained molecular/cellular experimental data.",
+    "year" : 2011,
+    "month" : "7",
+    "volume" : "286",
+    "issue" : "29",
+    "pages" : "26028-26041",
+    "link" : "http://identifiers.org/pubmed/21572040",
+    "authors" : [
+      {
+        "name" : "Elin Nyman",
+        "institution" : "Department of Biomedical Engineering, Linköping University, SE-58185, Linköping, Sweden; CVMD iMED DMPK AstraZeneca R&D, 431 83, Mölndal, Sweden.",
+        "orcid" : "0000-0002-4261-0291"
+      },
+      {
+        "name" : "Cecilia Brännmark"
+      },
+      {
+        "name" : "Robert Palmér"
+      },
+      {
+        "name" : "Jan Brugård"
+      },
+      {
+        "name" : "Fredrik H Nyström",
+        "orcid" : "0000-0002-1680-1000"
+      },
+      {
+        "name" : "Peter Strålfors",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE-58185, Linköping, Sweden.",
+        "orcid" : "0000-0002-1196-1806"
+      },
+      {
+        "name" : "Gunnar Cedersund"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000356_url.xml",
+        "description" : "SBML L2V4 representation of Nyman2011_M3Hierarachical_InsulinGlucosedynamics",
+        "fileSize" : "128288",
+        "mimeType" : "application/xml",
+        "md5sum" : "19b150cb18f7c22e3b3bafdf8031a83c",
+        "sha1sum" : "c3fd379165eb6da633e5aaac97a460393fce24cd",
+        "sha256sum" : "69a0e217f2459c04cbc86cadd4fe1aa81499209a178eb04a4f4f8e3d3ab6c4da"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000356-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "82809",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "579dd1ef80bc971bbe7330bc8bffbddd",
+        "sha1sum" : "61a828d5a87c5b19596cd9788748b1dc0f9cd14f",
+        "sha256sum" : "38e4f3b39f08bf9a93b03c50969a7a627504a99dabd5f2242541faaec9bdf6bb"
+      },
+      {
+        "name" : "BIOMD0000000356-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "135534",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a16435573cb777d8b1d3af21ddac398e",
+        "sha1sum" : "801bba4974267a277b31bb3f370ff91aa02de779",
+        "sha256sum" : "505c7790cc76d8a980148d96cabaf626c8856dddab776c6fb32a4fd20954761d"
+      },
+      {
+        "name" : "BIOMD0000000356-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "26468",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fe4d63697f457d7a863755b72ed5930a",
+        "sha1sum" : "6cb2b48eaa4ca5c2ff1b88e475396f5f4227388f",
+        "sha256sum" : "ff921a24201ccee32082275d70c56fd9df6188bdc3e5d35f3b89708718be793f"
+      },
+      {
+        "name" : "BIOMD0000000356.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "26468",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d35e022f7cd1ccea67f39b72fd09c489",
+        "sha1sum" : "fc5bcde49cd39911e304f024efd4e4465cf754c9",
+        "sha256sum" : "7e51f3e8170a8b27db5a07a67036da40bc500ed53b26277a70070f08d01a1ee4"
+      },
+      {
+        "name" : "BIOMD0000000356.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "20586",
+        "mimeType" : "text/plain",
+        "md5sum" : "3cb14caf4219fce72d8d3368fd7df7a9",
+        "sha1sum" : "65eb2caa6924e7364c4ef4a2348adfe3f7deb80a",
+        "sha256sum" : "45e9448f1737780b74531a53ff04b8881f33a1d2ffb71d1595591b47a956a0c1"
+      },
+      {
+        "name" : "BIOMD0000000356.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "438123",
+        "mimeType" : "application/pdf",
+        "md5sum" : "853c630282be54cebe7c0f3bb544d190",
+        "sha1sum" : "9cbb4652b025d5953311550178d2421b32e6100c",
+        "sha256sum" : "392b203509f8bd4816ce1da7ecb84c47149342569ccc72b04412d90ca2f11ed0"
+      },
+      {
+        "name" : "BIOMD0000000356.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "745760",
+        "mimeType" : "image/png",
+        "md5sum" : "8419278ec433d13615e2e0988a8d1335",
+        "sha1sum" : "31d1ba39cd6d1a002ac99b1990d3b93a41a2bbf1",
+        "sha256sum" : "109f36a5c29ee1b6e1dbb72ae3cf982f4cd03ab113d8d39139f87c3fca513d1a"
+      },
+      {
+        "name" : "BIOMD0000000356.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "137864",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e37c1af06cdc13da67957a047e4e22f8",
+        "sha1sum" : "60ab5fa16ebd537b9ff5e15400dd6ee90ad10106",
+        "sha256sum" : "9e3be59a425438a58d76871f3f4eafa08c64108642c91fdf8d88c43dcb490dac"
+      },
+      {
+        "name" : "BIOMD0000000356_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "111557",
+        "mimeType" : "application/xml",
+        "md5sum" : "c722bcbbcd91040ec53589332144dab0",
+        "sha1sum" : "431dc6871d4049a0de47c2ccfc8e12db0375c44f",
+        "sha256sum" : "93f2daa161e99bed4f522133aa0d1a71a5d9ca141e94fddb3f35ca5797b207db"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "70901",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "9d9ed32a3517181b7157cb157dd7fb74",
+        "sha1sum" : "18ac4fa9762769c023bad414afa80b92ad5e913d",
+        "sha256sum" : "d630901ac09d6159c989c4168d323c23d77bc8e4e4c1b924a87e89bb78aa2f64"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "231",
+        "mimeType" : "text/plain",
+        "md5sum" : "f4dcfa1be53c0524e07a82af4e4cdb0f",
+        "sha1sum" : "a0a005b9c8c92e0916c3c5cf85b3378da36324b3",
+        "sha256sum" : "3173401ebea408fd22a3a8821ec48c7c113f9aedca5d3cabb896bac97711963d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1673",
+        "mimeType" : "application/xml",
+        "md5sum" : "e3a98dcf7488ce70bbecf320d5156435",
+        "sha1sum" : "222eca7e549159d3c81fc8736b6dc54b43280e3c",
+        "sha256sum" : "e3059da7501c9ac4c4c9f4ec389bf114024a1f64e6f5bacb1b2d75d2875d803b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5594",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "014c2fbd1026b40821ea4c1f9f225fc9",
+        "sha1sum" : "845e11ac3c1b748e7c2ced8f9211dd7724d05853",
+        "sha256sum" : "7738e560ad8d40de0fa3c5b8113847b317d7574cea8ad02dcc40269d6549a4a4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1313758003,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Original import of Nyman2011_M3Hierarachical_InsulinGlucosedynamics"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138695,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Current version of Nyman2011_M3Hierarachical_InsulinGlucosedynamics"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274510,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285074,
+  "submissionId" : "MODEL1108190000",
+  "publicationId" : "BIOMD0000000356",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ishan Ajmera",
+        "email" : "ajmera@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000443",
+      "name" : "adipocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000443"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0061178",
+      "name" : "regulation of insulin secretion involved in cellular response to glucose stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0061178"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108190000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108190000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000356",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000356"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21572040",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21572040"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "19225456",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19225456"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000343",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000343"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000379",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000379"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000137",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000137"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

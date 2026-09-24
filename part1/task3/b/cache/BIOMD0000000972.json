@@ -1,0 +1,308 @@
+{
+  "name" : "Tang2020 - Estimation of transmission risk of COVID-19 and impact of public health interventions - update",
+  "description" : "The basic reproduction number of an infectious agent is the average number of infections one case can generate over the course of the infectious period, in a naïve, uninfected population. It is well-known that the estimation of this number may vary due to several methodological issues, including different assumptions and choice of parameters, utilized models, used datasets and estimation period. With the spreading of the novel coronavirus (2019-nCoV) infection, the reproduction number has been found to vary, reflecting the dynamics of transmission of the coronavirus outbreak as well as the case reporting rate. Due to significant variations in the control strategies, which have been changing over time, and thanks to the introduction of detection technologies that have been rapidly improved, enabling to shorten the time from infection/symptoms onset to diagnosis, leading to faster confirmation of the new coronavirus cases, our previous estimations on the transmission risk of the 2019-nCoV need to be revised. By using time-dependent contact and diagnose rates, we refit our previously proposed dynamics transmission model to the data available until January 29th, 2020 and re-estimated the effective daily reproduction ratio that better quantifies the evolution of the interventions. We estimated when the effective daily reproduction ratio has fallen below 1 and when the epidemics will peak. Our updated findings suggest that the best measure is persistent and strict self-isolation. The epidemics will continue to grow, and can peak soon with the peak time depending highly on the public health interventions practically implemented.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "32099934",
+    "journal" : "Infectious Disease Modelling",
+    "title" : "An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov).",
+    "affiliation" : "The Interdisplinary Research Center for Mathematics and Life Sciences, Xi'an Jiaotong University, Xi'an, 710049, People's Republic of China.",
+    "synopsis" : "The basic reproduction number of an infectious agent is the average number of infections one case can generate over the course of the infectious period, in a naïve, uninfected population. It is well-known that the estimation of this number may vary due to several methodological issues, including different assumptions and choice of parameters, utilized models, used datasets and estimation period. With the spreading of the novel coronavirus (2019-nCoV) infection, the reproduction number has been found to vary, reflecting the dynamics of transmission of the coronavirus outbreak as well as the case reporting rate. Due to significant variations in the control strategies, which have been changing over time, and thanks to the introduction of detection technologies that have been rapidly improved, enabling to shorten the time from infection/symptoms onset to diagnosis, leading to faster confirmation of the new coronavirus cases, our previous estimations on the transmission risk of the 2019-nCoV need to be revised. By using time-dependent contact and diagnose rates, we refit our previously proposed dynamics transmission model to the data available until January 29th<sup>,</sup> 2020 and re-estimated the effective daily reproduction ratio that better quantifies the evolution of the interventions. We estimated when the effective daily reproduction ratio has fallen below 1 and when the epidemics will peak. Our updated findings suggest that the best measure is persistent and strict self-isolation. The epidemics will continue to grow, and can peak soon with the peak time depending highly on the public health interventions practically implemented.",
+    "year" : 2020,
+    "month" : "0",
+    "volume" : "5",
+    "pages" : "248-255",
+    "link" : "http://identifiers.org/pubmed/32099934",
+    "authors" : [
+      {
+        "name" : "Biao Tang",
+        "institution" : "The Interdisplinary Research Center for Mathematics and Life Sciences, Xi'an Jiaotong University, Xi'an, 710049, People's Republic of China.Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, Toronto, Ontario, M3J 1P3, Canada."
+      },
+      {
+        "name" : "Nicola Luigi Bragazzi",
+        "institution" : "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, Toronto, Ontario, M3J 1P3, Canada.",
+        "orcid" : "0000-0001-8409-868X"
+      },
+      {
+        "name" : "Qian Li",
+        "institution" : "Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, Toronto, Ontario, M3J 1P3, Canada.School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, 710049, People's Republic of China."
+      },
+      {
+        "name" : "Sanyi Tang",
+        "institution" : "School of Mathematics and Information Science, Shaanxi Normal University, Xi'an, 710119, People's Republic of China."
+      },
+      {
+        "name" : "Yanni Xiao",
+        "institution" : "The Interdisplinary Research Center for Mathematics and Life Sciences, Xi'an Jiaotong University, Xi'an, 710049, People's Republic of China.School of Mathematics and Statistics, Xi'an Jiaotong University, Xi'an, 710049, People's Republic of China."
+      },
+      {
+        "name" : "Jianhong Wu",
+        "institution" : "The Interdisciplinary Research Center for Mathematics and Life Sciences, Xi'an Jiaotong University, Xi'an 710049, China.Laboratory for Industrial and Applied Mathematics, Department of Mathematics and Statistics, York University, Toronto, Ontario M3J 1P3, Canada.Fields-CQAM Laboratory of Mathematics for Public Health, York University, Toronto, Ontario M3J 1P3, Canada.",
+        "orcid" : "0000-0002-3394-1507"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Tang2020.xml",
+        "description" : "SBML L3V1 file of updated model for estimation of transmission risk of COVID-19 and impact of public health interventions",
+        "fileSize" : "79963",
+        "mimeType" : "application/xml",
+        "md5sum" : "d9667c60e395fbc3dc87ec3cf822b198",
+        "sha1sum" : "6f146b3ac579fc783dc6a71a0ba6008007355e9d",
+        "sha256sum" : "419550086c7eec65e944a0872acbd09459d5a22dcd5167de9dc1e9fad39886c6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Tang2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "23394",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "93c566f1e8f4f209f08037c6af9f5ae2",
+        "sha1sum" : "1935dfb6553410dba001e1e36fc31d6ee5079864",
+        "sha256sum" : "4d4846f411576121fb58a02a29eaf06971e141ee49f2e8015f0b210e8d454fb6"
+      },
+      {
+        "name" : "Tang2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "36367",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d8652ce286068763b5f0586f2f9f3b93",
+        "sha1sum" : "5adbbc2218a56396914dd3f6d99da23f18c1db97",
+        "sha256sum" : "8fc05f60bca687eb5791b7e764837f048c7e77bc12d840754d374667594e1b89"
+      },
+      {
+        "name" : "Tang2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9636",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "51ce5c3c6ea3a1feb54bf2cb337d3aa0",
+        "sha1sum" : "ffa6add72f8fd3fc635b3625527cc4b6f86a0178",
+        "sha256sum" : "c8357bd6203dc0a006903dc0b5e5c435a8d6180493008cad3d70dfdd9e3961e3"
+      },
+      {
+        "name" : "Tang2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9636",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "955a5c8babc1b30aa94823c38d2f1f00",
+        "sha1sum" : "1b1a93b4cf809058e1f75a8c8abf306d183be5ee",
+        "sha256sum" : "810eb1ac064bbe5ad6af2905c9b630df7a2c8517287ae15e0a551ae87eedf6b6"
+      },
+      {
+        "name" : "Tang2020.cps",
+        "description" : "COPASI 4.29 (Build 228) file of updated model for estimation of transmission risk of COVID-19 and impact of public health interventions",
+        "fileSize" : "122056",
+        "mimeType" : "application/xml",
+        "md5sum" : "51c339b83eb274879ef05108b0b8bc19",
+        "sha1sum" : "dd91d80d061c06c6180bf492c20ee82586731c75",
+        "sha256sum" : "be03cac9d980812125a26c9596250e15b44cd3a5c10cedc067ce3a8c693da746"
+      },
+      {
+        "name" : "Tang2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7075",
+        "mimeType" : "text/plain",
+        "md5sum" : "725f188d5068c809092f5e14b7a6ebff",
+        "sha1sum" : "25da4ee0667945ba4779b45dc71b26404551590c",
+        "sha256sum" : "ee11ef983631a45948a8632846f09f86f4ec5572586e4d142d9d099a8cde22c8"
+      },
+      {
+        "name" : "Tang2020.sedml",
+        "description" : "SED-ML file of updated model for estimation of transmission risk of COVID-19 and impact of public health interventions (additionally CRBM-validated and adjusted).",
+        "fileSize" : "28305",
+        "mimeType" : "application/xml",
+        "md5sum" : "e9e83920688dd657f5c26c070f257375",
+        "sha1sum" : "7d206502b8ea6d3f47a043849ffe56f1fca006c6",
+        "sha256sum" : "3ddb9588334f379399a9c6370027c92eaefe6447f54d5e2e9e7be57c23f65062"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "120868",
+        "mimeType" : "image/png",
+        "md5sum" : "a801b99d09749e2b86b084bbe3e924a3",
+        "sha1sum" : "a706cd7c2f6761c734a724d23fd0a5058987cf3f",
+        "sha256sum" : "e8210d8ea4fa6d45e6699fa1d1e05556d61fead134b42c67302f943a290306ff"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "224",
+        "mimeType" : "text/plain",
+        "md5sum" : "ef9d5d3c2a701fd6a643f776f442b3f4",
+        "sha1sum" : "a73ed6696d1742673151185f0901784714730d97",
+        "sha256sum" : "2c846acb48bebd3af465ca95e5467d2e59c1eac4eaf60de8832ad9fc1fffd95f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1395",
+        "mimeType" : "application/xml",
+        "md5sum" : "1ec9db0bfc3f4aeeea85fd6092c8a1d6",
+        "sha1sum" : "7a4b45f50319cf2f57f7584ee8aa46bb470f50ce",
+        "sha256sum" : "979c5daa52a844a2bfdc19553750f32f59f6a0a4c1cc43d425ba4d0189459d65"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3332",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "39017463529cb08d8fe1a729b5b8410f",
+        "sha1sum" : "2399011e20ead5865d48c1d5919f40b29fccfad6",
+        "sha256sum" : "26708d848174ebeaf3589bf0b36388a88357bcdb215c997c33fe34e94fd62358"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1604378378,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000972"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724294252,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285549,
+  "submissionId" : "MODEL2011030001",
+  "publicationId" : "BIOMD0000000972",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000971",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000971"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "32099934",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/32099934"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2011030001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2011030001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000972",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000972"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "BIOMD0000000971",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000971"
+    }
+  ]
+}

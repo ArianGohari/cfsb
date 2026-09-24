@@ -1,0 +1,260 @@
+{
+  "name" : "Cappuccio2006 - Cancer immunotherapy by interleukin-21",
+  "description" : "This model describes the effects of Il-21 on tumor eradication via natural killer cell-mediated and CD8+ T-cell-mediated lysis of tumor cells. The model demonstrates changes in growth dynamics in nonimmunogenic B16 melanoma and the immunogenic MethA and MCA205 fibrosarcomas, showing a strong dependence of the NK-cell/CD8+ T-cell balance on tumor immunogenicity.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16849579",
+    "journal" : "Cancer research",
+    "title" : "Cancer immunotherapy by interleukin-21: potential treatment strategies evaluated in a mathematical model.",
+    "affiliation" : "Institute for Medical Biomathematics, Bene-Ataroth, Israel.",
+    "synopsis" : "The newly characterized interleukin (IL)-21 plays a central role in the transition from innate immunity to adaptive immunity and shows substantial tumor regression in mice. IL-21 is now developed as a cancer immunotherapeutic drug, but conditions for efficacious therapy, and the conflicting immunostimulatory and immunoinhibitory influence of the cytokine, are yet to be defined. We studied the effects of IL-21 on tumor eradication in a mathematical model focusing on natural killer (NK) cell-mediated and CD8+ T-cell-mediated lysis of tumor cells. Model parameters were estimated using results in tumor-bearing mice treated with IL-21 via cytokine gene therapy (CGT), hydrodynamics-based gene delivery (HGD), or standard interval dosing (SID). Our model accurately retrieved experimental growth dynamics in the nonimmunogenic B16 melanoma and the immunogenic MethA and MCA205 fibrosarcomas, showing a strong dependence of the NK-cell/CD8+ T-cell balance on tumor immunogenicity. Moreover, in melanoma, simulations of CGT-like dosing regimens, dynamically determined according to tumor mass changes, resulted in efficient disease elimination. In contrast, in fibrosarcoma, such a strategy was not superior to that of fixed dosing regimens, HGD or SID. Our model supports clinical use of IL-21 as a potent stimulator of cellular immunity against cancer, and suggests selecting the immunotherapy strategy according to tumor immunogenicity. Nonimmunogenic tumors, but not highly immunogenic tumors, should be controlled by IL-21 dosing, which depends on tumor mass at the time of administration. This method imitates, yet amplifies, the natural anticancer immune response rather than accelerates only one of the response arms in an unbalanced manner.",
+    "year" : 2006,
+    "month" : "7",
+    "volume" : "66",
+    "issue" : "14",
+    "pages" : "7293-7300",
+    "link" : "http://identifiers.org/pubmed/16849579",
+    "authors" : [
+      {
+        "name" : "Cappuccio A",
+        "institution" : "Istituto Applicazioni Calcolo - CNR, V.le del Policlinico 137, 00161 Roma, Italy. a.cappuccio@iac.cnr.it",
+        "orcid" : "0000-0002-8266-2344"
+      },
+      {
+        "name" : "Moran Elishmereni"
+      },
+      {
+        "name" : "Zvia Agur"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Cappuccio2006 v2.0.xml",
+        "description" : "L2V4 SBML Model of Cappuccio2006 - Cancer immunotherapy by interleukin-21",
+        "fileSize" : "78994",
+        "mimeType" : "application/xml",
+        "md5sum" : "0b51a4d28bffcf3c421498e424584cf7",
+        "sha1sum" : "a70d0dbb5b08066aabf5e735cd6ed2ce91c0a3a4",
+        "sha256sum" : "627478501461c26991a83261134dcd8c899e77cd7b3c534e1a14f8583138090b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Cappuccio2006 v2.0-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "19241",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c2a633635848c510487ea9d74e5be4fc",
+        "sha1sum" : "8e10a3b312cd64215a32d2b65a3927301ed576f8",
+        "sha256sum" : "70919207a2034e29b1655ae3cdc1f5e15baacd69fbd1a89288d10971670d7140"
+      },
+      {
+        "name" : "Cappuccio2006 v2.0-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "26937",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c2861e181a89ad8aa26b011eeacdb9a8",
+        "sha1sum" : "f024b4e232ee886f15f49854be16e2ec5ef4853d",
+        "sha256sum" : "caf59f41c7ee37dbdf49db950cf3cf85b54f96dfc4aff72b3474eab7d1ea24ca"
+      },
+      {
+        "name" : "Cappuccio2006 v2.0-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8555",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f0b08e5bed3cae445c1753b0c9c51d71",
+        "sha1sum" : "e2605eaf5c242343d6106b6bba136818f90b2f75",
+        "sha256sum" : "c729cbfacecc832a39c00c624856f40c320caeccff09f6c8866cf8b19734bda9"
+      },
+      {
+        "name" : "Cappuccio2006 v2.0-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8555",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d6aa9a0a540a620672b78d225621799a",
+        "sha1sum" : "419413e518d1093a5f20891240d64774ef44a625",
+        "sha256sum" : "838e14e592c6425830556cfde82202f69808218a124ce2817274722bdb9f57e8"
+      },
+      {
+        "name" : "Cappuccio2006 v2.0.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6268",
+        "mimeType" : "text/plain",
+        "md5sum" : "0b212d9f4406a7a46ee6f43c36786f23",
+        "sha1sum" : "2e60cd447c7dfcc627963e77437b4fc07b266ea4",
+        "sha256sum" : "9acfc00440e0b69c946ca9997e9d8a70e7927e97db660231fce8c340eba31d1d"
+      },
+      {
+        "name" : "Cappuccio2006 v9.0.cps",
+        "description" : "COPASI file of Model of Cappuccio2006 - Cancer immunotherapy by interleukin-21",
+        "fileSize" : "96596",
+        "mimeType" : "application/xml",
+        "md5sum" : "05b648f0c59e1bac0b92309253ad5fa2",
+        "sha1sum" : "2dd5ee58b33de454c6b3be0b3a7b4a9e3b61d75a",
+        "sha256sum" : "bda82452c83783a16f370cfe14cf7ccb3d660bfa0f31149c47604f06d43f60d7"
+      },
+      {
+        "name" : "Cappuccio2006 v9.0.sedml",
+        "description" : "SED-ML file of Model of Cappuccio2006 - Cancer immunotherapy by interleukin-21 (additionally CRBM-validated and adjusted).",
+        "fileSize" : "25465",
+        "mimeType" : "application/xml",
+        "md5sum" : "a98f17a514988653ee91a7f8313cdd83",
+        "sha1sum" : "cf35681c880c561ff8ec23002c5ca15a2358719e",
+        "sha256sum" : "289c51881d4bc01a22ae6b3abc616f76bb160cebe6a4a2977fd849922eae5e4b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "25179",
+        "mimeType" : "image/png",
+        "md5sum" : "21d5cda5de8998bbd3642161d6078b05",
+        "sha1sum" : "399dd39ae46561fd34d5d1310610082669858acf",
+        "sha256sum" : "f52095c4c37e95d478d28a9ed6263b5086fa9d7510c346e59dad8b4a2d5b613d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "192",
+        "mimeType" : "text/plain",
+        "md5sum" : "0bc8ea0d33f33f079d34a16c83e024b0",
+        "sha1sum" : "b75fc7872185e962819d905e9c4a2c39d4200a20",
+        "sha256sum" : "29a310400848e99dc0ea47ff7ebd17f4ba58edda7123a58bc260b4dc0106fba4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1475",
+        "mimeType" : "application/xml",
+        "md5sum" : "04d7a3ef0a0f363a234d7fa16c92939d",
+        "sha1sum" : "f056bf57a1fd9631006576877ad505a72d129a01",
+        "sha256sum" : "a59b4820798c3b2a274bff7790734d227a3c7ebeae6aa600181d4e20ef52e17d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2046",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ee2787afeb1b1e195f3056f09ff06578",
+        "sha1sum" : "4a75609e1579e08a937508cdcca1ac4eff687804",
+        "sha256sum" : "af91e1cf48ce10d7f2211e44a1804e2c5535b5e5093426b5016c077d7853a440"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 6,
+        "submitted" : 1564132774,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000761"
+      },
+      {
+        "version" : 7,
+        "submitted" : 1724289061,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285447,
+  "submissionId" : "MODEL1907230001",
+  "publicationId" : "BIOMD0000000761",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16849579",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16849579"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1907230001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1907230001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000761",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000761"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0002420",
+      "name" : "natural killer cell mediated cytotoxicity directed against tumor cell target",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002420"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0002419",
+      "name" : "T cell mediated cytotoxicity directed against tumor cell target",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002419"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15438",
+      "name" : "Cancer Immunotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15438"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15543",
+      "name" : "Interleukin Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15543"
+    }
+  ]
+}

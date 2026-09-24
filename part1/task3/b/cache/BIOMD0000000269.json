@@ -1,0 +1,281 @@
+{
+  "name" : "Liu2010_Hormonal_Crosstalk_Arabidopsis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the single cell model for analysis of hormonal crosstalk in Arabidopsis described in the article:      <br />                <strong>Modelling and experimental analysis of hormonal crosstalk in Arabidopsis.</strong>                <br />          Liu J, Mehdi S, Topping J, Tarkowski P and Lindsey K. Mol Syst Biol. 2010 Jun 8;6:373; PmID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20531403\">20531403</a>          , DOI:      <a href=\"dx.doi.org/10.1038/msb.2010.26\">10.1038/msb.2010.26</a>                <br />          Abstract:      <br />          An important question in plant biology is how genes influence the crosstalk between hormones to regulate growth. In this study, we model POLARIS (PLS) gene function and crosstalk between auxin, ethylene and cytokinin in Arabidopsis. Experimental evidence suggests that PLS acts on or close to the ethylene receptor ETR1, and a mathematical model describing possible PLS-ethylene pathway interactions is developed, and used to make quantitative predictions about PLS-hormone interactions. Modelling correctly predicts experimental results for the effect of the pls gene mutation on endogenous cytokinin concentration. Modelling also reveals a role for PLS in auxin biosynthesis in addition to a role in auxin transport. The model reproduces available mutants, and with new experimental data provides new insights into how PLS regulates auxin concentration, by controlling the relative contribution of auxin transport and biosynthesis and by integrating auxin, ethylene and cytokinin signalling. Modelling further reveals that a bell-shaped dose-response relationship between endogenous auxin and root length is established via PLS. This combined modelling and experimental analysis provides new insights into the integration of hormonal signals in plants.      </p>            <p>This model was originally created using Copasi and taken from the supplementary materials of the MSB article. It uses equation 5 for the auxin biosynthesis and was altered to also contain the reactions for ACC, IAA and cytokinine import. Different from the supplementary material, the parameters for the auxin synthesis, v2, are set to k2c = 0.01 uM and k2=0.2 uM_per_sec and for the WT PLS transcription k6=0.3 . To obtain the model described in the first table of the supplementary materials, set k2c=k2=0 and k6=0.9 . For the pls and PLSox mutants, k6 should be set to 0 and 0.45, respectively.</p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use      <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20531403",
+    "journal" : "Molecular systems biology",
+    "title" : "Modelling and experimental analysis of hormonal crosstalk in Arabidopsis.",
+    "affiliation" : "The Integrative Cell Biology Laboratory and The Biophysical Sciences Institute, School of Biological and Biomedical Sciences, Durham University, Durham, UK. junli.liu@durham.ac.uk",
+    "synopsis" : "An important question in plant biology is how genes influence the crosstalk between hormones to regulate growth. In this study, we model POLARIS (PLS) gene function and crosstalk between auxin, ethylene and cytokinin in Arabidopsis. Experimental evidence suggests that PLS acts on or close to the ethylene receptor ETR1, and a mathematical model describing possible PLS-ethylene pathway interactions is developed, and used to make quantitative predictions about PLS-hormone interactions. Modelling correctly predicts experimental results for the effect of the pls gene mutation on endogenous cytokinin concentration. Modelling also reveals a role for PLS in auxin biosynthesis in addition to a role in auxin transport. The model reproduces available mutants, and with new experimental data provides new insights into how PLS regulates auxin concentration, by controlling the relative contribution of auxin transport and biosynthesis and by integrating auxin, ethylene and cytokinin signalling. Modelling further reveals that a bell-shaped dose-response relationship between endogenous auxin and root length is established via PLS. This combined modelling and experimental analysis provides new insights into the integration of hormonal signals in plants.",
+    "year" : 2010,
+    "month" : "6",
+    "volume" : "6",
+    "pages" : "373",
+    "link" : "http://identifiers.org/pubmed/20531403",
+    "authors" : [
+      {
+        "name" : "Junli Liu",
+        "institution" : "The Integrative Cell Biology Laboratory and The Biophysical Sciences Institute, School of Biological and Biomedical Sciences, Durham University, Durham, UK. junli.liu@durham.ac.uk",
+        "orcid" : "0000-0001-8264-2450"
+      },
+      {
+        "name" : "Saher Mehdi"
+      },
+      {
+        "name" : "Jennifer Topping"
+      },
+      {
+        "name" : "Petr Tarkowski",
+        "orcid" : "0000-0002-7581-7686"
+      },
+      {
+        "name" : "Keith Lindsey",
+        "orcid" : "0000-0002-7992-6804"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000269_url.xml",
+        "description" : "SBML L2V4 representation of Liu2010_Hormonal_Crosstalk_Arabidopsis",
+        "fileSize" : "64051",
+        "mimeType" : "application/xml",
+        "md5sum" : "d63a6de7134742c628580e7b52ddb0b5",
+        "sha1sum" : "64a7c203f20ea793f84707016d93080f85cdaf58",
+        "sha256sum" : "d22ae00abbcc99c19f58f715aca6a310d7ba1bd1e4ad314ca3a628b651188822"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000269-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "33022",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e3a4d45edfd9c6eeb01e1c544f6e9eed",
+        "sha1sum" : "cdb6780e58e258f7d3bb5f5d0d4b8b4f91234e36",
+        "sha256sum" : "812eca403e77fae831dd0bfbf6ff21bfd64c140eb1c76bcb3037e262a50f6b29"
+      },
+      {
+        "name" : "BIOMD0000000269-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "48922",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "335e67b7d864715d474b3c5bbbc06a0b",
+        "sha1sum" : "037c727803b98f5770696abf31988f8bc58c3089",
+        "sha256sum" : "c880cf72bd735313b89c867d7a10f3c981bec0a713d103af137f01f7f4a82361"
+      },
+      {
+        "name" : "BIOMD0000000269-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12970",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "75f8f7453bb2aa72a166deb90d950a0a",
+        "sha1sum" : "e82ad31b3427efbfcc777d4814c9d15c95d48d42",
+        "sha256sum" : "e7495c0b17a084f7ee673af852af15afe10849aa0888b34d67d4951680340d76"
+      },
+      {
+        "name" : "BIOMD0000000269-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "12970",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "481cee5533ed23e8bc252be1a29aa855",
+        "sha1sum" : "d40fadcb48bcec4447be093c5da9cbfae4a9265c",
+        "sha256sum" : "a20a2c34058eed47e0d757532b75817a6e2782b9cde98aa9cbf262dd7d42741f"
+      },
+      {
+        "name" : "BIOMD0000000269.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12970",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "481cee5533ed23e8bc252be1a29aa855",
+        "sha1sum" : "d40fadcb48bcec4447be093c5da9cbfae4a9265c",
+        "sha256sum" : "a20a2c34058eed47e0d757532b75817a6e2782b9cde98aa9cbf262dd7d42741f"
+      },
+      {
+        "name" : "BIOMD0000000269.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11660",
+        "mimeType" : "text/plain",
+        "md5sum" : "d58b11d42983e87a2101db392798625d",
+        "sha1sum" : "e397ca3b7737ab32d4e84f70780a30d473316422",
+        "sha256sum" : "079afb8ab560d60bddf5baa2dbc77d86d7d004d634b7be188a70b8cb22022c5a"
+      },
+      {
+        "name" : "BIOMD0000000269.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "276122",
+        "mimeType" : "application/pdf",
+        "md5sum" : "e78cde212fe70c96c8ee91f043352e50",
+        "sha1sum" : "f31ade8acf2a9001f9b528ae1ec3d082cc2638c4",
+        "sha256sum" : "6a5e116d8dd5de5d98b2153d3dc7a5698f4a4e805b432fd2008b3d6e7fd3b13f"
+      },
+      {
+        "name" : "BIOMD0000000269.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "54840",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4813eecee613f9887b1e91605934a095",
+        "sha1sum" : "a4945a27b3c558a2eb7d8a74b10450cb8d479dd2",
+        "sha256sum" : "25876f5db470325e9e653068e9ec16d296a7983ae73af24a4f78ec7716b0eb5e"
+      },
+      {
+        "name" : "BIOMD0000000269_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "42465",
+        "mimeType" : "application/xml",
+        "md5sum" : "a1e4d8c2748cb240fcb6a4651403c559",
+        "sha1sum" : "cf17db0dbe6b993f3331f72571177734ea75d4dd",
+        "sha256sum" : "fbd8e46aff8745f60f6e99ca9af89b990fffc7c1823fccc6f390346a7b899b93"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "5349",
+        "mimeType" : "image/png",
+        "md5sum" : "d9a8671aa866ecff7c4f555038b0f34e",
+        "sha1sum" : "c896e5d985ea902ee94c5b4e16917a363bfb716c",
+        "sha256sum" : "a19a557760ac42b5d77a8e3ed0e5ce15e21a47fc869d148a8239fca9d88b7e59"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "196",
+        "mimeType" : "text/plain",
+        "md5sum" : "48673f3d984b505f93fb41b654a9a5a0",
+        "sha1sum" : "5ab2ee98a146593573abc2beb80a35bdb976c222",
+        "sha256sum" : "800a4cd73cbc9811d5b6c38811fe01fb964686fb91045b5584e50465c94f16f4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1680",
+        "mimeType" : "application/xml",
+        "md5sum" : "017b6e79b78d8b39643cb3f28c278bf8",
+        "sha1sum" : "b278c82a750b235e82542d10b32aec905497b281",
+        "sha256sum" : "4f194aa45886cc1b1f9858726e01722b8a8cdc1168b43c3d6cdcde4e4bf8dd11"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4973",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "531eb12916fc2ddfdbaa7db01cc83f4e",
+        "sha1sum" : "8e7a03d6867813a8d5e78c3e751f8c4fb3648318",
+        "sha256sum" : "da72b711a87ee3811f152cad69d73738135d7992f2e62eb17787c476353c1df6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1282836836,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of hormonal crosstalk analysis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1328729323,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Liu2010_Hormonal_Crosstalk_Arabidopsis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272049,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284987,
+  "submissionId" : "MODEL1008260000",
+  "publicationId" : "BIOMD0000000269",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1008260000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1008260000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000269",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000269"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20531403",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20531403"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009873",
+      "name" : "ethylene-activated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009873"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009734",
+      "name" : "auxin-activated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009734"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009736",
+      "name" : "cytokinin-activated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009736"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

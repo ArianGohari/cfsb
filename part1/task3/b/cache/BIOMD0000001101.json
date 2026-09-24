@@ -1,0 +1,263 @@
+{
+  "name" : "Zhou2024 - Post Infarction Myocyte Electromechanics",
+  "description" : "A human ventricular electromechanical modelling and simulation framework is constructed and validated with rich experimental and clinical datasets. Abnormalities caused by scar and border zone ionic remodeling are introduced in varying degrees as reported in experimental data obtained in acute and chronic infarction. Simulations enabled reproducing and explaining clinical phenotypes post-MI, from ionic remodelling to ECGs and pressure-volume loops.",
+  "format" : {
+    "name" : "MATLAB (Octave)",
+    "identifier" : "matlab",
+    "version" : "*"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.7554/eLife.93002.2",
+    "journal" : "eLife",
+    "title" : "Clinical phenotypes in acute and chronic infarction explained through human ventricular electromechanical modelling and simulations",
+    "affiliation" : "University of Oxford",
+    "synopsis" : "Aims\nSudden death after myocardial infarction (MI) is associated with electrophysiological heterogeneities and ionic remodelling, which are reflected as variable phenotypes. Low ejection fraction (EF) is used in risk stratification, but its mechanistic links with the post-MI pro-arrhythmic heterogeneities are unknown. We aim to provide a mechanistic explanation of clinical phenotypes in acute and chronic MI, from ionic remodeling to ECG and EF, using human electromechanical modelling and simulation to augment experimental and clinical investigations.\n\nMethods and Results\nA human ventricular electromechanical modelling and simulation framework is constructed and validated with rich experimental and clinical datasets. Abnormalities caused by scar and border zone ionic remodeling are introduced in varying degrees as reported in experimental data obtained in acute and chronic infarction. Simulations enabled reproducing and explaining clinical phenotypes post-MI, from ionic remodelling to ECGs and pressure-volume loops. In acute MI, T-wave inversion and Brugada phenocopy were explained by up to 57 ms of local APD prolongation and activation failure due to the inhibition of potassium, sodium and calcium channels in the border zone. In chronic MI, upright tall T-waves highlight large repolarisation dispersion caused by uneven potassium channel expression in border and remote zones, which promoted ectopic propagation at fast pacing. Post-MI ionic remodelling reduced EF by up to 10% through inhibition of calcium transient amplitude due to weaker calcium currents or SERCA activity, but the EF at resting heart rate was not sensitive to the extent of repolarisation heterogeneity and the risk of repolarisation abnormalities at fast pacing.\n\nConclusions\nMulti-scale modelling and simulation coherently integrates experimental and clinical data at subcellular, tissue, and organ scales to unravel electromechanical disease mechanisms in MI. In acute post-MI, ionic remodelling and its effect on refractoriness and propagation failure in the BZ have a strong impact on phenotypic ECG variability, whereas in chronic post-MI, the repolarisation dispersion across the BZ is crucial. T-wave and QT abnormalities are better indicators of repolarisation heterogeneities than EF in post-MI.",
+    "year" : 2024,
+    "month" : "10",
+    "link" : "http://identifiers.org/doi/10.7554/eLife.93002.2",
+    "authors" : [
+      {
+        "name" : "Xin Zhou"
+      },
+      {
+        "name" : "Zhinuo Jenny Wang"
+      },
+      {
+        "name" : "Julia Camps"
+      },
+      {
+        "name" : "Jakub Tomek"
+      },
+      {
+        "name" : "Alfonso Santiago"
+      },
+      {
+        "name" : "Adria Quintanas"
+      },
+      {
+        "name" : "Mariano Vazquez"
+      },
+      {
+        "name" : "Marmar Vaseghi"
+      },
+      {
+        "name" : "Blanca Rodriguez"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Zhou2024_Updated-model.m",
+        "description" : "updated Main model file for the model (results reproduced)",
+        "fileSize" : "24006",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6c2ef5c832037f49def379121e8f31ec",
+        "sha1sum" : "b6825ba341f7d99aaf3ea9043eec1769121c5236",
+        "sha256sum" : "b66addc675a5466a0ecc2dc7d13e3ae6aa9ac3fdf76fb6fad7735d91caca5531"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BioModelsMetadata_MODEL2402290004.csv",
+        "description" : "Annotation file for the model",
+        "fileSize" : "779",
+        "mimeType" : "text/plain",
+        "md5sum" : "ca4d10d7db842bc00b07514724c2dc0a",
+        "sha1sum" : "7e073d054236a56642a7dc6a5fc69f4b251c1d03",
+        "sha256sum" : "6578c8e07ef7757028e40975018c403defcca38fbb2c9f856c0c9098dfb2fad6"
+      },
+      {
+        "name" : "EndoAcuteBZ1.m",
+        "description" : "script for generating acute infarction border zone 1 traces",
+        "fileSize" : "1746",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "81227fbd6cfad4530b3ae8b04ea1d028",
+        "sha1sum" : "d258e75a4724b5c226693387b1a842754229e3d1",
+        "sha256sum" : "1bb7ca90fb0d25c2519fd5e75a6dde6f2cce910f2bf726755bd9cc03500fb96d"
+      },
+      {
+        "name" : "EndoAcuteBZ2.m",
+        "description" : "script for generating acute infarction border zone 2 traces",
+        "fileSize" : "1737",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bee90fb2da7354a65b4d96a97bbc846e",
+        "sha1sum" : "3d60f06428796a1a3b7465d4e2e74914db2f842a",
+        "sha256sum" : "83cfa2586616cfeaa4f4e96607b823b65f677a62b539e94c1fe6758acd0467ce"
+      },
+      {
+        "name" : "EndoAcuteBZ3.m",
+        "description" : "script for generating acute infarction border zone 3 traces",
+        "fileSize" : "1861",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2d9baef4109a25630d6a3b9a3f326d3b",
+        "sha1sum" : "61488d2224b689850986a89b4947ee378702f77a",
+        "sha256sum" : "7acd5abfa0dacbbdec7d8a3a8808f0d82ec8a917a39277acac415f858879b95d"
+      },
+      {
+        "name" : "EndoChronicBZ.m",
+        "description" : "script for generating chronic infarction border zone traces",
+        "fileSize" : "1897",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6778b6870a20588cfde84807e2ad366a",
+        "sha1sum" : "225bc8cfe7ab13b01d61589b428008d086467f56",
+        "sha256sum" : "8c01d9854cd6fa968630e5e60141d51edaf6d64f7a24a6c69bf763655831bd2f"
+      },
+      {
+        "name" : "EndoChronicRZ1.m",
+        "description" : "script for generating chronic infarction remote zone 1 traces",
+        "fileSize" : "1901",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b582748b91830ee05d7c5d596fecb2ca",
+        "sha1sum" : "68d8f4cf9d5f2150bd199aacd44fd7a844f57526",
+        "sha256sum" : "dff506359daa8760d09bbe8d3d75288cacdceff6aadce723c3bf24a3b6ccbc69"
+      },
+      {
+        "name" : "EndoChronicRZ2.m",
+        "description" : "script for generating chronic infarction remote zone 2 traces",
+        "fileSize" : "1915",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9bc656a46df595f1444ab11ade09fd44",
+        "sha1sum" : "e3e5a5bf5c3eaa806eee53ee277f0203409c36e3",
+        "sha256sum" : "b2e4c29eb78107170f66263e3ae679557dae29df9fbd318184be4c99cf7de2a7"
+      },
+      {
+        "name" : "EndoNZ.m",
+        "description" : "script for generating normal traces",
+        "fileSize" : "1565",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "245c88f73242d9b28c79247f30c6f1bb",
+        "sha1sum" : "a280ac909f02d94b38e4a34d881aa1a27fdd7a45",
+        "sha256sum" : "5337a65e5fd1976baf5383ea16505e7c149e63996c048a1b981551a4784287a5"
+      },
+      {
+        "name" : "POM253.mat",
+        "description" : "Parameter file for population of models",
+        "fileSize" : "21719",
+        "mimeType" : "application/x-matlab-data",
+        "md5sum" : "99b424565c65d7e300e97abba43474fe",
+        "sha1sum" : "26332c733a490fa9085a48976b80b97b94688a3a",
+        "sha256sum" : "46caf37f5487d4830f1bc1decc3c2431ec6be6729f77c360eab9807ee2f66cfc"
+      },
+      {
+        "name" : "PlotAPCaTTaAcuteAndChronic.m",
+        "description" : "Script for the plot of results",
+        "fileSize" : "3156",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2f911e01263b9d92c4d35d1bc08a75e6",
+        "sha1sum" : "005d933dedea89d0020965c617995626086c6102",
+        "sha256sum" : "13c9e5a06ff8abb680b9018adae539a242bd4eee95a7c04c88801f4a45f81baa"
+      },
+      {
+        "name" : "getCurrentsStructureCaMKSKJrelpKinetics.m",
+        "description" : "calculation of currents",
+        "fileSize" : "9661",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3033b2e7b0142dd482af728c6791d88a",
+        "sha1sum" : "281c40aa84725ecc800ce5963d1d1da2e76751d0",
+        "sha256sum" : "fb7ce6dcfafd87ef74386dac65e586ef424903422fbca0eee564b45eacd1813e"
+      },
+      {
+        "name" : "getStartingState.m",
+        "description" : "starting state",
+        "fileSize" : "3007",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7382f60070bdbc15e90460fe23aa9734",
+        "sha1sum" : "1f6a1ee00eb9332eb9cc461f034f3f284f74fa38",
+        "sha256sum" : "df7a38ad32865b3500e3b958c9b2f4762ac160babf9a5182813c4edcb430c9e5"
+      },
+      {
+        "name" : "main.m",
+        "description" : "main file for the model file",
+        "fileSize" : "15042",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "81a71d19ebf5ac7d8a62bb7d66dc07c5",
+        "sha1sum" : "db543021dd62351c21589e4cce2b2defcbdc50ba",
+        "sha256sum" : "ce4e69622b0c1130402eb0e8dbc274e9114dda7178cc5592c294f8cadeafd9ee"
+      },
+      {
+        "name" : "modelRunnerCaMKSKJrelpKinetics1ms.m",
+        "description" : "model simulation defitions",
+        "fileSize" : "5615",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fd4bb6495b108eb534a0a1b64ec59bd8",
+        "sha1sum" : "1ba8bb57fd90f98242c616bf989ea1a563fe7de6",
+        "sha256sum" : "5b2fa4333d1b5e1232d9064060c743c444e21ad7242976cbef403a1e8a2030bc"
+      },
+      {
+        "name" : "model_ToRORd_LandCaMKSKJrelpKinetics.m",
+        "description" : "Main model file for electromechanics",
+        "fileSize" : "27068",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3bf4ebec1714d017f41674c882961a70",
+        "sha1sum" : "eeb531448f87aac70c3964e330e1ca71b06634de",
+        "sha256sum" : "04031d99350e8587465b444b8c8aa8ed933ad82294e51ac2fef1951e398db357"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1709212744,
+        "submitter" : "XIN ZHOU",
+        "comment" : "Import of Zhou2024PostInfarctionMyocyteElectromechanics"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1741090397,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Updated model file reproducing results and also added annotation file"
+      }
+    ]
+  },
+  "firstPublished" : 1742825997,
+  "submissionId" : "MODEL2402290004",
+  "publicationId" : "BIOMD0000001101",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "XIN ZHOU",
+        "email" : "xin.zhou.joy@hotmail.com",
+        "orcid" : "0000-0003-2814-3399",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "XIN ZHOU",
+        "email" : "xin.zhou.joy@hotmail.com",
+        "orcid" : "0000-0003-2814-3399",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.7554/eLife.93002.2",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.7554/eLife.93002.2"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2402290004",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2402290004"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001101",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001101"
+    }
+  ]
+}

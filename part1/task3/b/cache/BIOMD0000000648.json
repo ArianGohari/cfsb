@@ -1,0 +1,368 @@
+{
+  "name" : "Padala2017- ERK, PI3K/Akt and Wnt signalling network (normal)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Padala2017- ERK, PI3K/Akt and Wnt signallingnetwork (normal)</div><div class=\"dc:description\">Crosstalk model of the ERK, Wnt and Aktsignalling pathways under normal condition.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/28367561\" title=\"Access to this publication\">Cancerous perturbations    within the ERK, PI3K/Akt, and Wnt/?-catenin signaling network    constitutively activate inter-pathway positive feedback    loops.</a>  </div>  <div class=\"bibo:authorList\">Padala RR, Karnawat R, Viswanathan  SB, Thakkar AV, Das AB.</div>  <div class=\"bibo:Journal\">Mol Biosyst 2017 May; 13(5):  830-840</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Perturbations in molecular signaling pathways are a result    of genetic or epigenetic alterations, which may lead to    malignant transformation of cells. Despite cellular robustness,    specific genetic or epigenetic changes of any gene can trigger    a cascade of failures, which result in the malfunctioning of    cell signaling pathways and lead to cancer phenotypes. The    extent of cellular robustness has a link with the architecture    of the network such as feedback and feedforward loops.    Perturbation in components within feedback loops causes a    transition from a regulated to a persistently activated state    and results in uncontrolled cell growth. This work represents    the mathematical and quantitative modeling of ERK, PI3K/Akt,    and Wnt/?-catenin signaling crosstalk to show the dynamics of    signaling responses during genetic and epigenetic changes in    cancer. ERK, PI3K/Akt, and Wnt/?-catenin signaling crosstalk    networks include both intra and inter-pathway feedback loops    which function in a controlled fashion in a healthy cell. Our    results show that cancerous perturbations of components such as    EGFR, Ras, B-Raf, PTEN, and components of the destruction    complex cause extreme fragility in the network and    constitutively activate inter-pathway positive feedback loops.    We observed that the aberrant signaling response due to the    failure of specific network components is transmitted    throughout the network via crosstalk, generating an additive    effect on cancer growth and proliferation.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000648\">BIOMD0000000648</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "28367561",
+    "journal" : "Molecular bioSystems",
+    "title" : "Cancerous perturbations within the ERK, PI3K/Akt, and Wnt/β-catenin signaling network constitutively activate inter-pathway positive feedback loops.",
+    "affiliation" : "Department of Biotechnology, National Institute of Technology Warangal, Warangal, Telangana 506004, India. bikasasim@gmail.com asimbikas@nitw.ac.in.",
+    "synopsis" : "Perturbations in molecular signaling pathways are a result of genetic or epigenetic alterations, which may lead to malignant transformation of cells. Despite cellular robustness, specific genetic or epigenetic changes of any gene can trigger a cascade of failures, which result in the malfunctioning of cell signaling pathways and lead to cancer phenotypes. The extent of cellular robustness has a link with the architecture of the network such as feedback and feedforward loops. Perturbation in components within feedback loops causes a transition from a regulated to a persistently activated state and results in uncontrolled cell growth. This work represents the mathematical and quantitative modeling of ERK, PI3K/Akt, and Wnt/β-catenin signaling crosstalk to show the dynamics of signaling responses during genetic and epigenetic changes in cancer. ERK, PI3K/Akt, and Wnt/β-catenin signaling crosstalk networks include both intra and inter-pathway feedback loops which function in a controlled fashion in a healthy cell. Our results show that cancerous perturbations of components such as EGFR, Ras, B-Raf, PTEN, and components of the destruction complex cause extreme fragility in the network and constitutively activate inter-pathway positive feedback loops. We observed that the aberrant signaling response due to the failure of specific network components is transmitted throughout the network via crosstalk, generating an additive effect on cancer growth and proliferation.",
+    "year" : 2017,
+    "month" : "5",
+    "volume" : "13",
+    "issue" : "5",
+    "pages" : "830-840",
+    "link" : "http://identifiers.org/pubmed/28367561",
+    "authors" : [
+      {
+        "name" : "Rahul Rao Padala",
+        "institution" : "Department of Biotechnology, National Institute of Technology Warangal, Warangal, Telangana 506004, India. bikasasim@gmail.com asimbikas@nitw.ac.in."
+      },
+      {
+        "name" : "Rishabh Karnawat",
+        "orcid" : "0000-0003-1928-7788"
+      },
+      {
+        "name" : "Satish Bharathwaj Viswanathan"
+      },
+      {
+        "name" : "Abhishek Vijay Thakkar",
+        "orcid" : "0000-0001-7663-4913"
+      },
+      {
+        "name" : "Asim Bikas Das",
+        "orcid" : "0000-0003-1801-7487"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000648_url.xml",
+        "description" : "SBML L2V4 representation of Padala2017- ERK, PI3K/Akt and Wnt signalling network (normal)",
+        "fileSize" : "334921",
+        "mimeType" : "application/xml",
+        "md5sum" : "4b57603f68f8a08b1a428fdfdb4c6adc",
+        "sha1sum" : "55e9de4dc82f093446159faea942fcac3c965291",
+        "sha256sum" : "6ddae0da1db49ac73de34a4d5a47b2451e2b1777a1793e56b955050884f6f08c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000648-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "122070",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3cc8d5b1ebdc22ea2748e7a7d11703d0",
+        "sha1sum" : "c5694c65401aed13bca1cff5c85634f392f277e7",
+        "sha256sum" : "637b7362864a510853f8c7cc9d110ea3a3e1dd89f211555621bcb5431e3f36c1"
+      },
+      {
+        "name" : "BIOMD0000000648-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "206086",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5279fd75a69996f7afdfc94833079ab7",
+        "sha1sum" : "3af35a41eadf581f11488c304af0ca61b13b5531",
+        "sha256sum" : "e16e089052c6371ec1911a91f1eff794dfaafe750255aef7538184cae8b844c9"
+      },
+      {
+        "name" : "BIOMD0000000648-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "41789",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b540699c0bc9b60605baccb8943dbe6d",
+        "sha1sum" : "896688904c07fa215e27b8dedc8144229e60bd72",
+        "sha256sum" : "80db521e54d0cdf7156b6475ba639fb16746985dd22c5ad738086628136b9a43"
+      },
+      {
+        "name" : "BIOMD0000000648-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "41789",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f5ca487742bf06fb19db9e89b39d1c17",
+        "sha1sum" : "2bc92434f8ae430315fc8476aeeb95aacff78302",
+        "sha256sum" : "1546109e73a8cae27f400c452b4ee59f7b06e7e80279a6336e3bfd62cf33399b"
+      },
+      {
+        "name" : "BIOMD0000000648.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "41847",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6caba1b9b1058bf06c52e4eedda57678",
+        "sha1sum" : "e0a2d65e9581e72433f9bd74a8585292fb15a61f",
+        "sha256sum" : "1aa2a2c2bc62a96dd4608a96545c645c709ea0a9954b79f4744daff2eec687bf"
+      },
+      {
+        "name" : "BIOMD0000000648.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "37062",
+        "mimeType" : "text/plain",
+        "md5sum" : "74b3a18cb7afd5efac9bfedf68a743b4",
+        "sha1sum" : "3bb65879c46c72fb1e1c937e352dc4059489cfea",
+        "sha256sum" : "01cc05e22e8fbdd2648c62a3ed31a3e7c8ad96d120aadf73d9d206c0ac18de7c"
+      },
+      {
+        "name" : "BIOMD0000000648.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "910827",
+        "mimeType" : "image/png",
+        "md5sum" : "81e3c2a1c29ae3f15db89fbbd020a6fc",
+        "sha1sum" : "da9d3a5cb049d64315e0d3429f3b1b7ed9ecae98",
+        "sha256sum" : "1a6860312dcd75de767b438b9e3a7e75e3d5d49d45eb5d77252d2fd74b1dd821"
+      },
+      {
+        "name" : "BIOMD0000000648.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "160081",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "8e702a2df9306ec5383f1b5b695d711b",
+        "sha1sum" : "953e88900ed85c4c9986800a8d988c5175c685e9",
+        "sha256sum" : "661042ffb2bc0a5ccfb62365651083849ddfc61894388fa2eab154829c427b3e"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "173630",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "c0729ff93e233b134535d579559bfc73",
+        "sha1sum" : "ec148a1a62ecdce042e86459d5496d93e878e412",
+        "sha256sum" : "a9c5cbf7242cbd40d40d6dd5ea85dc602558e40a0e91de3fa16a8831eaaa8db2"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "382",
+        "mimeType" : "text/plain",
+        "md5sum" : "fb6fe93efe112504c1b6619878d7f8bc",
+        "sha1sum" : "4954f6caad17e3170a66e1876a80f450a60e6e83",
+        "sha256sum" : "ec88da6a1b733197356124ae48718926c56c45d9f4198b020a82a6a73f5f2f22"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1781",
+        "mimeType" : "application/xml",
+        "md5sum" : "2b831ef5489fcaab66f4cba5b5637936",
+        "sha1sum" : "fd7c92e2783e8402e724fca47a769a17da3d8ab2",
+        "sha256sum" : "87858aa532576c51b2c04cc6d251c0c2224c9c70a9b3ab99ecd7deaa33a3678b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5979",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0b4966441eafe581a8bf48f5c431a727",
+        "sha1sum" : "7cfb622075f097bb7936903fc7e56cfb613da0ed",
+        "sha256sum" : "c3ba9b6a7f211e182e78d8bc260c4bedde179ab3b363050e59d7cf6851b135d1"
+      },
+      {
+        "name" : "normal_RS.cps",
+        "description" : "This copasi file comprises the model and can reproduce figures in Figure 2A-C of the reference publication. PS: Ignore",
+        "fileSize" : "382609",
+        "mimeType" : "application/xml",
+        "md5sum" : "c7e6f9c3233c655d8759edbbf2ee1686",
+        "sha1sum" : "1343750f39b6612af4bdbcf1444fface77f420af",
+        "sha256sum" : "163826df62fd79b0bd39c265e8b8de6f2e26eaea50be485d7e344705793889a6"
+      },
+      {
+        "name" : "normal_RS.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "114892",
+        "mimeType" : "application/xml",
+        "md5sum" : "d248ec2b847b8f92936350648c3bac53",
+        "sha1sum" : "47ab5119fbd83bc247dd8650badbd9e90958d74e",
+        "sha256sum" : "1d97574a29593ab15932a7a50ff1733adcdf2bd1ce993d627c98559a916cbefe"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1504017940,
+        "submitter" : "Emma Fairbanks",
+        "comment" : "Original import of Padala2017- ERK, PI3K/Akt and Wnt signalling network (normal)"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1505921204,
+        "submitter" : "Emma Fairbanks",
+        "comment" : "Current version of Padala2017- ERK, PI3K/Akt and Wnt signalling network (normal)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416740,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: normal_RS.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1553169499,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "MAMO term qualifier updated from isDescribedBy to hasProperty"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724285394,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285398,
+  "submissionId" : "MODEL1708290005",
+  "publicationId" : "BIOMD0000000648",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Emma Fairbanks",
+        "email" : "emmafairbanks93@gmail.com",
+        "affiliation" : "University of Nottingham",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000033",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000033"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "map04010",
+      "name" : "MAPK signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04010"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1708290005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1708290005"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000648",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000648"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "28367561",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/28367561"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000149",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000149"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000623",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000623"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "21391741",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21391741"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0051896",
+      "name" : "regulation of protein kinase B signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051896"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0060828",
+      "name" : "regulation of canonical Wnt signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0060828"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0043408",
+      "name" : "regulation of MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0043408"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "map04310",
+      "name" : "Wnt signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04310"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "map04151",
+      "name" : "PI3K-Akt signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04151"
+    }
+  ]
+}

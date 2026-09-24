@@ -1,0 +1,289 @@
+{
+  "name" : "Markevich2004_MAPK_phosphoRandomElementary",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model corresponds to the schema 3 of Markevich et al 2004, as described in the figure 2 and the supplementary table S2. Phosphorylations follow distributive random kinetics, while dephosphorylations follow an ordered mechanism. The phosphorylations are modeled with three elementary reactions:      <br />          E+S&lt;=&gt;ES-&gt;E+P      <br />          The dephosphorylations are modeled with five elementary reactions:      <br />          E+S&lt;=&gt;ES-&gt;EP&lt;=&gt;E+P      <br />          The model reproduces figure 5 in the main article.      </p>            <p>The model is further described in:      <br />                <strong>Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades.</strong>          Markevich NI, Hoek JB, Kholodenko BN. J Cell Biol. 2004 Feb 2;164(3):353-9.      <br />          PMID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/14744999\">14744999</a>          ; DOI:      <a href=\"http://dx.doi.org/10.1083/jcb.200308060\">10.1083/jcb.200308060</a>                <br />          Abstract:      <br />          Mitogen-activated protein kinase (MAPK) cascades can operate as bistable switches residing in either of two different stable states. MAPK cascades are often embedded in positive feedback loops, which are considered to be a prerequisite for bistable behavior. Here we demonstrate that in the absence of any imposed feedback regulation, bistability and hysteresis can arise solely from a distributive kinetic mechanism of the two-site MAPK phosphorylation and dephosphorylation. Importantly, the reported kinetic properties of the kinase (MEK) and phosphatase (MKP3) of extracellular signal-regulated kinase (ERK) fulfill the essential requirements for generating a bistable switch at a single MAPK cascade level. Likewise, a cycle where multisite phosphorylations are performed by different kinases, but dephosphorylation reactions are catalyzed by the same phosphatase, can also exhibit bistability and hysteresis. Hence, bistability induced by multisite covalent modification may be a widespread mechanism of the control of protein activity.      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2010 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14744999",
+    "journal" : "The Journal of cell biology",
+    "title" : "Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades.",
+    "affiliation" : "Department of Pathology, Anatomy, and Cell Biology, Thomas Jefferson University, 1020 Locust St., Philadelphia, PA 19107, USA.",
+    "synopsis" : "Mitogen-activated protein kinase (MAPK) cascades can operate as bistable switches residing in either of two different stable states. MAPK cascades are often embedded in positive feedback loops, which are considered to be a prerequisite for bistable behavior. Here we demonstrate that in the absence of any imposed feedback regulation, bistability and hysteresis can arise solely from a distributive kinetic mechanism of the two-site MAPK phosphorylation and dephosphorylation. Importantly, the reported kinetic properties of the kinase (MEK) and phosphatase (MKP3) of extracellular signal-regulated kinase (ERK) fulfill the essential requirements for generating a bistable switch at a single MAPK cascade level. Likewise, a cycle where multisite phosphorylations are performed by different kinases, but dephosphorylation reactions are catalyzed by the same phosphatase, can also exhibit bistability and hysteresis. Hence, bistability induced by multisite covalent modification may be a widespread mechanism of the control of protein activity.",
+    "year" : 2004,
+    "month" : "2",
+    "volume" : "164",
+    "issue" : "3",
+    "pages" : "353-359",
+    "link" : "http://identifiers.org/pubmed/14744999",
+    "authors" : [
+      {
+        "name" : "Nick I Markevich",
+        "institution" : "Department of Pathology, Anatomy, and Cell Biology, Thomas Jefferson University, 1020 Locust St., Philadelphia, PA 19107, USA."
+      },
+      {
+        "name" : "Jan B Hoek",
+        "orcid" : "0000-0001-7127-4218"
+      },
+      {
+        "name" : "Boris N Kholodenko",
+        "orcid" : "0000-0002-9483-4975"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000028_url.xml",
+        "description" : "SBML L2V4 representation of Markevich2004_MAPK_phosphoRandomElementary",
+        "fileSize" : "44662",
+        "mimeType" : "application/xml",
+        "md5sum" : "a3e5faa17b4bb038542fcd3ca847fcf9",
+        "sha1sum" : "5e14ea6a59ddf7b7b021bccb61d3d902cdf90854",
+        "sha256sum" : "2ecdc543c6ecb323ae31d13f8fec1846905cc5b9567827f1da8b0efef30ee107"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000028-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "38365",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1a5a9d8a2400a45818fbf0d155dc9b84",
+        "sha1sum" : "10187853760a6993897e2da08c9c0681d350f0da",
+        "sha256sum" : "eee5d84b6b01c421a45fc132509a7cb801f5ca9915aae7889608c45e74070ef9"
+      },
+      {
+        "name" : "BIOMD0000000028-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "61675",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "22fa65cd4ed6f8bdbbdec3bea1dba1fb",
+        "sha1sum" : "2e636d7556294433adf495a9f3232a73f887f54a",
+        "sha256sum" : "1e38ff5a944c312a76abc3bfae0bb46e2bfe7dbd47256d7f02f592031533c394"
+      },
+      {
+        "name" : "BIOMD0000000028-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10151",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f16036fc1d33bf66f3164314a996e311",
+        "sha1sum" : "07d900f907e592368e53a889add7c3ccf5f278b6",
+        "sha256sum" : "6e5c010a9f379a9ae937c0a2621287201993ca36c434632221491b7d3ec5c0e8"
+      },
+      {
+        "name" : "BIOMD0000000028-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10151",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bf29ca983175080c5cd48463bf9692f4",
+        "sha1sum" : "3b6a7d9acf929759da39592329d95c48a8221754",
+        "sha256sum" : "eeca6009b7c592d8b06b017f4678f854b443f0f41d72aab56859aff0006a0c61"
+      },
+      {
+        "name" : "BIOMD0000000028.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10151",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bf29ca983175080c5cd48463bf9692f4",
+        "sha1sum" : "3b6a7d9acf929759da39592329d95c48a8221754",
+        "sha256sum" : "eeca6009b7c592d8b06b017f4678f854b443f0f41d72aab56859aff0006a0c61"
+      },
+      {
+        "name" : "BIOMD0000000028.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7020",
+        "mimeType" : "text/plain",
+        "md5sum" : "cac701dbfedbcc5acfb23391c54bf8bc",
+        "sha1sum" : "c34b7767ea97f0cf863bb0bc3882eef3256dcbb3",
+        "sha256sum" : "07c785235df056682a558d05d6486e2d4dbe53a2d81c307fc56d676d7cbb110e"
+      },
+      {
+        "name" : "BIOMD0000000028.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "221931",
+        "mimeType" : "application/pdf",
+        "md5sum" : "223c358b40eca4b9b70afad29aa44073",
+        "sha1sum" : "e5c862bb0ac3e4ea9fe5f864061e1b7bf36b9dfa",
+        "sha256sum" : "eaab44edc5a4281e7a9f39b62918a9643fa35264d1777acc615e863886801d49"
+      },
+      {
+        "name" : "BIOMD0000000028.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "152284",
+        "mimeType" : "image/png",
+        "md5sum" : "bb869c41c55d67d43d3ad37d73454c1c",
+        "sha1sum" : "76385ecde013ae4e20722121e8eb872788af64c3",
+        "sha256sum" : "bfa5bf537982499ee1a699abd9eec89a61c5e3cd7e89dedc36983d643d0c4ab7"
+      },
+      {
+        "name" : "BIOMD0000000028.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "6225",
+        "mimeType" : "text/plain",
+        "md5sum" : "e591cd4b2a6d6ddd2130a1b294d0bf75",
+        "sha1sum" : "32965b922b31dfcc864ed403fb53ba59c0cc41c4",
+        "sha256sum" : "d96a7a7b917228a23df985cf94f64adf775bb6c3f4578f79a3b0d04a1cba240e"
+      },
+      {
+        "name" : "BIOMD0000000028.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "50557",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "0a6e403a2d0758151944ad27e2ec2d24",
+        "sha1sum" : "38493f4152724cecc3daa5d29a8d2ee8611228eb",
+        "sha256sum" : "5eee124de452cd8ffa5137cb19ea3a1c11eb3c7489a5e804728cd358a7e0df77"
+      },
+      {
+        "name" : "BIOMD0000000028.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "68635",
+        "mimeType" : "application/xml",
+        "md5sum" : "ed9f790c22930eacf97819fcaf580090",
+        "sha1sum" : "50b39ac40f6548bf071001bd181005c5a4b7aee5",
+        "sha256sum" : "71982d2797f0fe33779ab8b97c31b4e0a15ef68faff0e566368f132c0b24a1b8"
+      },
+      {
+        "name" : "BIOMD0000000028_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "36191",
+        "mimeType" : "application/xml",
+        "md5sum" : "93c1f0a87b3d266fde70f21bb2bd8c52",
+        "sha1sum" : "6392fb92ff8938abddfcebcd13290cec0d0d83c9",
+        "sha256sum" : "6909069740101ffb724cfd8aa9b2bf23a05847a57f52bb21b66a43b2620c6606"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "23834",
+        "mimeType" : "image/png",
+        "md5sum" : "03ab2045ab5ba5a6c3590fc9517a2e89",
+        "sha1sum" : "44f1380f8bca85873e78ac92dfa470a35eeb5066",
+        "sha256sum" : "ad26cadaaaab87996cdae237df49d93e13af9b4517874c1e880668b240f87c2e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "476",
+        "mimeType" : "text/plain",
+        "md5sum" : "69551e00306b96c5eb96eeb26cd9a120",
+        "sha1sum" : "0c1bf7f3cc7b30467ec8af0450ea186465d9d64d",
+        "sha256sum" : "2f3017f95264e532a9292a2b12e1c05e235c1906a5a372bda5de4c808c6ef3b3"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "5a6fa5d8cb6c6915e0a595e1bd05dad8",
+        "sha1sum" : "316b7efd4c75a08505961a0cbb4f268f2e2b7c78",
+        "sha256sum" : "37f5d2f54d04e2e0208bd1ff154e7d84fd74438dfd7f0b80e7839a90b3748e05"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4898",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7ede852804c3cdc3ea0cd2c933b5baa0",
+        "sha1sum" : "e3c8d82b6b997e5af634f30176080c7910cc7928",
+        "sha256sum" : "93da5a94ec4a777fb8245bac53b3a07bcdecf5d144378e99fa089fd31173462d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126622164,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Markevich2004_MAPK_phosphoRandomElementary"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1337121750,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Markevich2004_MAPK_phosphoRandomElementary"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265427,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284849,
+  "submissionId" : "MODEL6618552953",
+  "publicationId" : "BIOMD0000000028",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14744999",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14744999"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "8355",
+      "name" : "Xenopus laevis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/8355"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6618552953",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6618552953"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000028",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000028"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

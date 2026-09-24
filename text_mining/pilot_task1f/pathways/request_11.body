@@ -1,0 +1,202 @@
+<html>
+<head>
+<style type="text/css">
+a:link,a:visited { font-weight:bold; color:#005500; text-decoration:none; }
+a:focus,a:hover,a:active { font-weight:bold; color:#00ad00; text-decoration:none; }
+</style>
+<script type="text/javascript" src="javascript/common.js"></script>
+</head>
+<body style="background-image:url(images/bckgr.jpeg)">
+<div align="center" style="font-family:Arial,sans-serif; font-size:10px;">
+<img src="images/mpg.png" onclick="openW('http://www.mpg.de','MPG','resizable=1,scrollbars=2,width=1024,height=800,toolbar=0');">
+<br>
+</div>
+<a href="http://www.molgen.mpg.de" target="_blank">
+<img src="images/MPIMG_logo.png">
+</a>
+<br><br>
+<table cellpadding="4" border="0" style="font-size:10pt; font-family:Arial,sans-serif;">
+  <tr>
+	<td colspan="2" align="center">
+      <image src="images/cpdblogo.png">
+	  <br>
+    </image></td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="rlFrame" target="rlFrame">home</a><br>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="getStatistics" target="rlFrame">content information</a><br>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="search_page" target="rlFrame">search</a>
+	</td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <table style="font-size:10pt; font-family:Arial,sans-serif;">
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="search_page" target="rlFrame">interactions of molecules/pathways</a></td>
+		</tr>
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="search_couple?firstsearch=1" target="rlFrame">shortest interaction paths</a></td>
+		</tr>
+	  </table>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <font style="font-weight:bold; color:#005500;"><span onclick="var m=document.getElementById('mgse'); if (m.style.display=='none'){m.style.display='block'} else {m.style.display='none'};" style="cursor: pointer;">gene set analysis</span></font>
+	</td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+      <div id="mgse" style="display:block;">
+	  <table style="font-size:10pt; font-family:Arial,sans-serif;">
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="fct_annot" target="rlFrame">over-representation analysis</a></td>
+		</tr>
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="enrichment" target="rlFrame">enrichment analysis</a> <br></td>
+		</tr>
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="inducedmod" target="rlFrame">induced network modules</a> <br></td>
+		</tr>
+        
+	  </table>
+      </div>
+	</td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <font style="font-weight:bold; color:#005500;"><span onclick="var m=document.getElementById('mmse'); if (m.style.display=='none'){m.style.display='block'} else {m.style.display='none'};" style="cursor: pointer;">metabolite set analysis</span></font>
+	</td>
+    <td>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+      <div id="mmse" style="display:none;">
+	  <table style="font-size:10pt; font-family:Arial,sans-serif;">
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="mfct_annot" target="rlFrame">over-representation analysis</a></td>
+		</tr>
+		<tr>
+		<td>&nbsp;&nbsp;&bull;</td>
+		<td><a href="menrichment" target="rlFrame">enrichment analysis</a> <br></td>
+		</tr>
+	  </table>
+      </div>
+	</td>
+    <td>
+    </td>
+  </tr>
+
+
+  <!--tr>
+	<td>
+	</td>
+	<td>
+      <a href="upload_page" target="rlFrame">network upload and mapping</A>  
+	</td>
+    <td> <br>
+    </td>
+  </tr-->
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="daccess" target="rlFrame">download / data access</a><br>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  
+  
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="tutorial" target="rlFrame">documentation</a><br>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="news_page" target="rlFrame">news</a><br>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+  <tr>
+	<td>
+	</td>
+	<td>
+	  <a href="contact_page" target="rlFrame">contact</a><br>
+	</td>
+    <td> <br>
+    </td>
+  </tr>
+
+</table>
+</body>
+</html>

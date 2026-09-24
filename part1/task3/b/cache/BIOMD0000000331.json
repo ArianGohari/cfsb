@@ -1,0 +1,293 @@
+{
+  "name" : "Larsen2004_CalciumSpiking_EnzymeBinding",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> On the encoding and decoding of calcium signals in hepatocytes</strong>        <br />Ann Zahle Larsen, Lars Folke Olsen and Ursula Kummera      <em>Biophysical Chemistry</em>Volume 107, Issue 1, 1 January 2004, Pages 83-99      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/14871603\">14871603</a>,      <br />        <strong>Abstract:</strong>        <br />Many different agonists use calcium as a second messenger. Despite intensive research in intracellular calcium signalling it is an unsolved riddle how the different types of information represented by the different agonists, is encoded using the universal carrier calcium. It is also still not clear how the information encoded is decoded again into the intracellular specific information at the site of enzymes and genes. After the discovery of calcium oscillations, one likely mechanism is that information is encoded in the frequency, amplitude and waveform of the oscillations. This hypothesis has received some experimental support. However, the mechanism of decoding of oscillatory signals is still not known. Here, we study a mechanistic model of calcium oscillations, which is able to reproduce both spiking and bursting calcium oscillations. We use the model to study the decoding of calcium signals on the basis of co-operativity of calcium binding to various proteins. We show that this co-operativity offers a simple way to decode different calcium dynamics into different enzyme activities.   </p>        <p>          <b>Note:</b>        </p>        <p> This model corresponds to the improved model eqn 1-7, as described by Larsen et al., 2004 implemented to investigate how the cell can decode different oscillations. This is done by introducing 2 more variables Enzyme and Product in addition to the 5 variables G-alpha, PLC, Ca_cyt, Ca_ER and Ca_mit receptor-operated model described in the first part of the paper. The receptor-operated model is itself a modified version of the model described in Kummer 2000 (PMID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10968983\">10968983</a>)</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14871603",
+    "journal" : "Biophysical chemistry",
+    "title" : "On the encoding and decoding of calcium signals in hepatocytes.",
+    "affiliation" : "Celcom, Department of Biochemistry and Molecular Biology, Syddansk Universitet, Campusvej 55, Odense M DK-5230, Denmark. zahle@odense.kollegienet.dk",
+    "synopsis" : "Many different agonists use calcium as a second messenger. Despite intensive research in intracellular calcium signalling it is an unsolved riddle how the different types of information represented by the different agonists, is encoded using the universal carrier calcium. It is also still not clear how the information encoded is decoded again into the intracellular specific information at the site of enzymes and genes. After the discovery of calcium oscillations, one likely mechanism is that information is encoded in the frequency, amplitude and waveform of the oscillations. This hypothesis has received some experimental support. However, the mechanism of decoding of oscillatory signals is still not known. Here, we study a mechanistic model of calcium oscillations, which is able to reproduce both spiking and bursting calcium oscillations. We use the model to study the decoding of calcium signals on the basis of co-operativity of calcium binding to various proteins. We show that this co-operativity offers a simple way to decode different calcium dynamics into different enzyme activities.",
+    "year" : 2004,
+    "month" : "1",
+    "volume" : "107",
+    "issue" : "1",
+    "pages" : "83-99",
+    "link" : "http://identifiers.org/pubmed/14871603",
+    "authors" : [
+      {
+        "name" : "Ann Zahle Larsen",
+        "institution" : "Celcom, Department of Biochemistry and Molecular Biology, Syddansk Universitet, Campusvej 55, Odense M DK-5230, Denmark. zahle@odense.kollegienet.dk"
+      },
+      {
+        "name" : "L F Olsen",
+        "orcid" : "0000-0001-7391-2340"
+      },
+      {
+        "name" : "Ursula Kummer"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000331_url.xml",
+        "description" : "SBML L2V4 representation of Larsen2004_CalciumSpiking_EnzymeBinding",
+        "fileSize" : "22295",
+        "mimeType" : "application/xml",
+        "md5sum" : "6b4e7c2f4edf1f526bbd0a57fff91fad",
+        "sha1sum" : "78ccf45eb6265650312255203f2b72b2b064179a",
+        "sha256sum" : "f8bcc4ab9cad13214e490d3ab2f280dd56aaea5f52c9118b1c92f00fbe674d92"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000331-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6749",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d8f429e32afbbee91fabba17390c63e0",
+        "sha1sum" : "29a7bcd856f01684a383c0424c223b508209bf2a",
+        "sha256sum" : "a41bab53aef437daa8ce1eb6f5513e1507920bb92f73df9a0ed5e015428bf0db"
+      },
+      {
+        "name" : "BIOMD0000000331-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "7571",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d43145bf0451a52ca51d67e3d362148b",
+        "sha1sum" : "74648b8bfec8f33a88e9ef2646ec6807b68c8559",
+        "sha256sum" : "95c833416e6a5b53fec457bad625bf0c5a4b500f54e61e30be7d0916e20e1da8"
+      },
+      {
+        "name" : "BIOMD0000000331-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6286",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c2b17e114485f9572592784ee6b1fffb",
+        "sha1sum" : "b9540e6121226a7a1cd1edc721165d5310f3eff6",
+        "sha256sum" : "22dfcd397ec4c6e2868505ed1f2e15411b4b052b0f8ad25dfda96152885dc033"
+      },
+      {
+        "name" : "BIOMD0000000331-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6286",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c6d483a9dd45486f629fb845e5f8c92e",
+        "sha1sum" : "f1a3ddb0506560b072c6465c480a23487be864e3",
+        "sha256sum" : "a8bcce0ec51e6353bc2bd41fc8e537dd820f7684411fb9761c791b987142a13c"
+      },
+      {
+        "name" : "BIOMD0000000331.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6286",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c6d483a9dd45486f629fb845e5f8c92e",
+        "sha1sum" : "f1a3ddb0506560b072c6465c480a23487be864e3",
+        "sha256sum" : "a8bcce0ec51e6353bc2bd41fc8e537dd820f7684411fb9761c791b987142a13c"
+      },
+      {
+        "name" : "BIOMD0000000331.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3886",
+        "mimeType" : "text/plain",
+        "md5sum" : "7326067575be45f1ca132522e3d18033",
+        "sha1sum" : "069ed196ad29067c728f84bade812f9b1ea4c718",
+        "sha256sum" : "9722ee30426bdf9ec080cf3acbf789f6e1f1d06f11e15dec102be65b5239d421"
+      },
+      {
+        "name" : "BIOMD0000000331.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "150851",
+        "mimeType" : "application/pdf",
+        "md5sum" : "5af67e648fd4e6229b782eebe81a2fc2",
+        "sha1sum" : "93f159a9a46011ebf429e816cff1f5eee5fb3bf2",
+        "sha256sum" : "075e5103a9b201816ffc518f1e211ba7c147b5ea0d5e5e21903157a384bb8031"
+      },
+      {
+        "name" : "BIOMD0000000331.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000331.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3359",
+        "mimeType" : "text/plain",
+        "md5sum" : "0f41497bffeebf814b8303c1c8655ef3",
+        "sha1sum" : "50e32a86ff1153648abc8918a08dfd09df1db513",
+        "sha256sum" : "64ca3d4dfe741bfffaf8afc60738e5070f918dfa7fdd8f4da4f8bad6cb37f336"
+      },
+      {
+        "name" : "BIOMD0000000331.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "BIOMD0000000331_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "21262",
+        "mimeType" : "application/xml",
+        "md5sum" : "6849593460ed4b04535dc8f651a80935",
+        "sha1sum" : "54c742ed4cd9d5ab27e1109bfacac348fe1a237d",
+        "sha256sum" : "b0f836894692d2906101d0e095988185d457cccb15ba33ecf74c8ce445f30ce0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "55952",
+        "mimeType" : "image/png",
+        "md5sum" : "d0f98498ac4670ee17dcaaf7860cf55e",
+        "sha1sum" : "0e0f31b7988bad6ef932a87ff2d8e1a8afac838f",
+        "sha256sum" : "59a81e161b60df1524daaccd605d0c0fb04145868428a5c96553e56cfc542088"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "244",
+        "mimeType" : "text/plain",
+        "md5sum" : "989b34e77d5718289702f281bbd62409",
+        "sha1sum" : "f7439ee26830f5f88efc84259168589600192924",
+        "sha256sum" : "1aa3d70942c5e51d19ad2cadf790472e96553cac4b93385ff09a3583fed31765"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "396082a429d6e0f1420a6a834dbf9afd",
+        "sha1sum" : "b92cf170bc95dcd37ef6fe2e4a6a827f2154ca4f",
+        "sha256sum" : "5c22c0d44be9b76396daf56e9a8be39c4c302c05f900ca4e5c0829d929cfcf82"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3979",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3c53e2028adf32149ae8c1ce40be798c",
+        "sha1sum" : "0c29bc89c0678d42b68412ad832ce18e5282b48b",
+        "sha256sum" : "bb93c7b0992938b5618e7e6b9c3af925b9c184177b5534860f43bf0aa1c9e714"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1304696907,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Larsen2004_CalciumSpiking_EnzymeBindin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1490371793,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Larsen2004_CalciumSpiking_EnzymeBinding"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273750,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285046,
+  "submissionId" : "MODEL1105060002",
+  "publicationId" : "BIOMD0000000331",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10116",
+      "name" : "Rattus norvegicus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10116"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14871603",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14871603"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "CL:0000182",
+      "name" : "hepatocyte",
+      "resource" : "Cell Type Ontology",
+      "uri" : "http://identifiers.org/cl/CL:0000182"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1105060002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1105060002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000331",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000331"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019899",
+      "name" : "enzyme binding",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019899"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

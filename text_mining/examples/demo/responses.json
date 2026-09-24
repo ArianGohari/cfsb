@@ -1,0 +1,22 @@
+{
+  "title_abstract:*": {
+    "decision": "include", "criterion_id": "I1", "reason": "Synthetic fixture only.",
+    "evidence_quote": "Circadian checkpoint synthetic test",
+    "criteria_evidence": {"I1": "Circadian checkpoint synthetic test", "I2": "Synthetic test of PER2 and TP53."}
+  },
+  "fulltext_eligibility:*": {
+    "decision": "include", "criterion_id": "I1", "reason": "Synthetic fixture only.",
+    "evidence_quote": "PER2 binds TP53 in human cells.",
+    "criteria_evidence": {"I1": "PER2 binds TP53 in human cells.", "I2": "We measured binding by assay."}
+  },
+  "extract:*": {
+    "candidates": [{
+      "subject_id": "UniProt:O15055", "object_id": "UniProt:P04637", "predicate": "BINDS",
+      "quote": "PER2 binds TP53 in human cells. We measured binding by assay.",
+      "subject_quote": "PER2", "object_quote": "TP53", "stance": "supports",
+      "attribution": "own_experiment", "attribution_quote": "We measured binding by assay.",
+      "experimental_method": {"value": "assay", "quote": "binding by assay"},
+      "context": {"species_id": {"value": "NCBITaxon:9606", "quote": "human cells"}}
+    }]
+  }
+}

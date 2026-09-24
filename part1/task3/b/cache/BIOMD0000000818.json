@@ -1,0 +1,244 @@
+{
+  "name" : "Lee2008 - ERK and PI3K signal integration by Myc",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Mechanisitc model of PI3K and ERK signal integration by Myc. ERK and PI3K regulated Myc satbility by phosphorylating the same. (PMID:18463697)</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18463697",
+    "journal" : "PLoS computational biology",
+    "title" : "Sensing and integration of Erk and PI3K signals by Myc.",
+    "affiliation" : "Department of Biomedical Engineering, Duke University, Durham, North Carolina, USA.",
+    "synopsis" : "The transcription factor Myc plays a central role in regulating cell-fate decisions, including proliferation, growth, and apoptosis. To maintain a normal cell physiology, it is critical that the control of Myc dynamics is precisely orchestrated. Recent studies suggest that such control of Myc can be achieved at the post-translational level via protein stability modulation. Myc is regulated by two Ras effector pathways: the extracellular signal-regulated kinase (Erk) and phosphatidylinositol 3-kinase (PI3K) pathways. To gain quantitative insight into Myc dynamics, we have developed a mathematical model to analyze post-translational regulation of Myc via sequential phosphorylation by Erk and PI3K. Our results suggest that Myc integrates Erk and PI3K signals to result in various cellular responses by differential stability control of Myc protein isoforms. Such signal integration confers a flexible dynamic range for the system output, governed by stability change. In addition, signal integration may require saturation of the input signals, leading to sensitive signal integration to the temporal features of the input signals, insensitive response to their amplitudes, and resistance to input fluctuations. We further propose that these characteristics of the protein stability control module in Myc may be commonly utilized in various cell types and classes of proteins.",
+    "year" : 2008,
+    "month" : "2",
+    "volume" : "4",
+    "issue" : "2",
+    "pages" : "e1000013",
+    "link" : "http://identifiers.org/pubmed/18463697",
+    "authors" : [
+      {
+        "name" : "Tae Lee",
+        "institution" : "Department of Biomedical Engineering, Duke University, Durham, North Carolina, USA."
+      },
+      {
+        "name" : "Guang Yao"
+      },
+      {
+        "name" : "Joseph Nevins"
+      },
+      {
+        "name" : "Lingchong You"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Lee2008.xml",
+        "description" : "SBML L2V4 file for Lee2008 model",
+        "fileSize" : "66559",
+        "mimeType" : "application/xml",
+        "md5sum" : "29feb9c5ca5ec5ddf6a8cf50fbb4bc3e",
+        "sha1sum" : "74f2c519042804599a14b991dc5482bce4027c0a",
+        "sha256sum" : "8ec3d8acc31f7eeb4d0163e44457cfe46840c37fa1e34e901e4e839f2b1cfefc"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Lee2008-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "18123",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "df59fabb5c68927215e13207a7558889",
+        "sha1sum" : "30324823c525a3981ecb873d9b49bf2ae759b64b",
+        "sha256sum" : "0accb5f940ce44954140c33591256da8b9ba6f8e29f0574b78de195f339d274e"
+      },
+      {
+        "name" : "Lee2008-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "26671",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d4a659393cde581eaeb7fa6794f32dbf",
+        "sha1sum" : "1cfe82a730d94d26152a225b7c7ad00d2582adbb",
+        "sha256sum" : "8b4e03b9cf0ff6d0d5edd95daab886f03a83a2b5186180fce5d816aca11e99d4"
+      },
+      {
+        "name" : "Lee2008-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7750",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3c1e18037293d57d57df0bbc2b942d9b",
+        "sha1sum" : "f6e87ae94c40a2d86b2ba18240910f7eb572bd84",
+        "sha256sum" : "3841b4f818950a08d0471507c3095345391b0f4f4ac21497c172da258a432ac1"
+      },
+      {
+        "name" : "Lee2008.cps",
+        "description" : "COPASI 4.24 (build 217) file for Lee2008 model",
+        "fileSize" : "101128",
+        "mimeType" : "application/xml",
+        "md5sum" : "da88cc28142a877c7d47ac3298dacc24",
+        "sha1sum" : "bcaba0c5a6485145b3dcb018278985e792a9a4f6",
+        "sha256sum" : "c2219272be7c12e1021ad6005bc3f528498c8eeadedb36ffc2627fd1a049ea1e"
+      },
+      {
+        "name" : "Lee2008.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5515",
+        "mimeType" : "text/plain",
+        "md5sum" : "9e3bd3262d60768ff29bc61c3ccda92d",
+        "sha1sum" : "5f28dc08bc6c4b13d1b6382b223bb41558f286d5",
+        "sha256sum" : "293ebef8d91a7bb27a7ad95544c5f914b043da7c238ba982ce8fed3d37a55ff1"
+      },
+      {
+        "name" : "Lee2008.sedml",
+        "description" : "SEDML file for Lee2008 model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "24626",
+        "mimeType" : "application/xml",
+        "md5sum" : "11b20eb84acbac905bb053a9a4aade47",
+        "sha1sum" : "34578036c9f35daa9d14a1bac50e893b5b6de6cf",
+        "sha256sum" : "395c665944bde80a31e7959fbdca3df56a6fad835dff25fa818dd2c55690a58d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "139402",
+        "mimeType" : "image/png",
+        "md5sum" : "cfab76b111574e318bbab9dcd00e0b93",
+        "sha1sum" : "129c8434cbb948aa5deeff96ea848487d4a08776",
+        "sha256sum" : "81a86e327a23e87e5fa00e46555877f7655aff56a7e8c288b41c7c38ce38266a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "262",
+        "mimeType" : "text/plain",
+        "md5sum" : "4fb2d841a94141296d72a9d788c6eac9",
+        "sha1sum" : "cd0e72f21afac7ef5dd3f993ece0e97118dac40a",
+        "sha256sum" : "89fcdcf4f88c2a108bb1781b5fe36ee5cdb39853fe17cc3a1e870a370bdf2725"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1276",
+        "mimeType" : "application/xml",
+        "md5sum" : "ff57b31a7bcac40bfeac9a2f8f920f7a",
+        "sha1sum" : "77004463550c1d8e357e631177107b042f147a06",
+        "sha256sum" : "022fe8bd72e68b19caa7dd251e00cdc4277ce9d6c3236f99407677765ba159e1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1738",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c6c6274e79f56fa99a17d18d4f61b30f",
+        "sha1sum" : "d19976a2f89e0fbe4a539e4175983677c804d1fb",
+        "sha256sum" : "967438a5dbfa88e5fcd2f963f6292b0e020bc51367d3c4caf0b271698dbe10f9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1568902655,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000818"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724290328,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285506,
+  "submissionId" : "MODEL1909170004",
+  "publicationId" : "BIOMD0000000818",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18463697",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18463697"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909170004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909170004"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000818",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000818"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0004254",
+      "name" : "cancer stem cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0004254"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "PW:0000168",
+      "name" : "growth factor signaling pathway",
+      "resource" : "Pathway Ontology",
+      "uri" : "http://identifiers.org/pw/PW:0000168"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0031647",
+      "name" : "regulation of protein stability",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0031647"
+    }
+  ]
+}

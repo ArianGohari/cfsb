@@ -1,0 +1,254 @@
+{
+  "name" : "Schokker2013 - A mathematical model representing cellular immune development and response to Salmonella of chicken intestinal tissue",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a dynamic mathematical model describing the development of the cellular branch of the intestinal immune system of poultry during the first 42 days of life, and of its response towards an oral infection with Salmonella enterica serovar Enteritidis.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23603730",
+    "journal" : "Journal of theoretical biology",
+    "title" : "A mathematical model representing cellular immune development and response to Salmonella of chicken intestinal tissue.",
+    "affiliation" : "Genetics and Genomics, Wageningen UR Livestock Research, Wageningen UR, PO Box 65, 6500 AB Lelystad, The Netherlands. dirkjan.schokker@wur.nl",
+    "synopsis" : "The aim of this study was to create a dynamic mathematical model of the development of the cellular branch of the intestinal immune system of poultry during the first 42 days of life and of its response towards an oral infection with Salmonella enterica serovar Enteritidis. The system elements were grouped in five important classes consisting of intra- and extracellular S. Enteritidis bacteria, macrophages, CD4+, and CD8+ cells. Twelve model variables were described by ordinary differential equations, including 50 parameters. Parameter values were estimated from literature or from own immunohistochemistry data. The model described the immune development in non-infected birds with an average R² of 0.87. The model showed less accuracy in reproducing the immune response to S. Enteritidis infection, with an average R² of 0.51, although model response did follow observed trends in time. Evaluation of the model against independent data derived from several infection trials showed strong/significant deviations from observed values. Nevertheless, it was shown that the model could be used to simulate the effect of varying input parameters on system elements response, such as the number of immune cells at hatch. Model simulations allowed one to study the sensitivity of the model outcome for varying model inputs. The initial number of immune cells at hatch was shown to have a profound impact on the predicted development in the number of systemic S. Enteritidis bacteria after infection. The theoretical contribution of this work is the identification of responses in system elements of the developing intestinal immune system of poultry obtaining a mathematical representation which allows one to explore the relationships between these elements under contrasting environmental conditions during different stages of intestinal development.",
+    "year" : 2013,
+    "month" : "8",
+    "volume" : "330",
+    "pages" : "75-87",
+    "link" : "http://identifiers.org/pubmed/23603730",
+    "authors" : [
+      {
+        "name" : "D Schokker",
+        "institution" : "Genetics and Genomics, Wageningen UR Livestock Research, Wageningen UR, PO Box 65, 6500 AB Lelystad, The Netherlands. dirkjan.schokker@wur.nl",
+        "orcid" : "0000-0001-6082-7227"
+      },
+      {
+        "name" : "A Bannink"
+      },
+      {
+        "name" : "M A Smits",
+        "orcid" : "0000-0002-3493-291X"
+      },
+      {
+        "name" : "J M J Rebel",
+        "orcid" : "0000-0003-4765-4215"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Schokker2013.xml",
+        "description" : "SBML L2V4 Representation of Schokker2013 - A mathematical model representing cellular immune development and response to Salmonella of chicken intestinal tissue",
+        "fileSize" : "115536",
+        "mimeType" : "application/xml",
+        "md5sum" : "d4848eb70e1996d5b2857e90a1dd1907",
+        "sha1sum" : "fc8eadfff359487384ac77d77ce050bffd7f138d",
+        "sha256sum" : "53040afdee696ec5333a68b34f971a821e839916d21696ce08c3c7db77a7d34b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Schokker2013-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "34155",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d47e48019ea69347e859568d4b6377d9",
+        "sha1sum" : "808f57024bb6e672aa8a88d555e7fd6df093b289",
+        "sha256sum" : "e8cf42a2f3dd32fdbca23d3fdb05f7fb36495c8a122d9a114a230f02680075e3"
+      },
+      {
+        "name" : "Schokker2013-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "52172",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "407a1d0a70a2e45cbf17b1cdd0dd2c52",
+        "sha1sum" : "90964a633476533f50b1f17e2f4b92b100ce7860",
+        "sha256sum" : "e3eacdf39dfa1d656b308753cc8802fc13ccfa2797d983355a376858a74960c7"
+      },
+      {
+        "name" : "Schokker2013-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14225",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5aa76effd626cf724e3142426f87ceaa",
+        "sha1sum" : "465da34a9f86a157d417ca16f259d8a430de5581",
+        "sha256sum" : "b32a44676f68aecab4df0e061680547f3d397fa590225e4fcd27224a61dc5bf7"
+      },
+      {
+        "name" : "Schokker2013-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14225",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "002bc12ce7bc692a7807e30f676e3796",
+        "sha1sum" : "a7dbb8f4c4d89e7ac0299e9e33e389d679738f78",
+        "sha256sum" : "00b1633467a82afb362b04e9a8cfb7e6122964d1123b722b38ad820943598d9f"
+      },
+      {
+        "name" : "Schokker2013.cps",
+        "description" : "COPASI file of Schokker2013 - A mathematical model representing cellular immune development and response to Salmonella of chicken intestinal tissue",
+        "fileSize" : "186128",
+        "mimeType" : "application/xml",
+        "md5sum" : "8a1d56e0bbeb033327e916f4d3955a25",
+        "sha1sum" : "e37b04d6a31f88604eb5a4753285922628963818",
+        "sha256sum" : "22e774d1e9183a3f7b002ee38a65711609013ca79f60ee8324dcbb52a4ff6762"
+      },
+      {
+        "name" : "Schokker2013.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11733",
+        "mimeType" : "text/plain",
+        "md5sum" : "d0d7e882746f25d52a59d12006a4cb86",
+        "sha1sum" : "a7fa4dc5846348b08bc7146725e523a94ac93dfb",
+        "sha256sum" : "cdcd56c6167fa487f84a1026d82878dc1547a4bf3fee529113f088551dee07d7"
+      },
+      {
+        "name" : "Schokker2013.sedml",
+        "description" : "SED-ML file of Schokker2013 - A mathematical model representing cellular immune development and response to Salmonella of chicken intestinal tissue (additionally CRBM-validated and adjusted).",
+        "fileSize" : "48171",
+        "mimeType" : "application/xml",
+        "md5sum" : "16e4c7ae28368af0e5160404deab1a19",
+        "sha1sum" : "c0837945b4a7b39abb796860729bd5f7eeac3d0f",
+        "sha256sum" : "a40d90f807839d9ad8d847b20b3a3f7f4801d607cbfc5a94ee89f072d6fd6cb0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12081",
+        "mimeType" : "image/png",
+        "md5sum" : "baeaa6aa4b62fe2fdf44fe7613693d3f",
+        "sha1sum" : "d61a0eeb55be030d03004abaf2e1878562bb614d",
+        "sha256sum" : "88144fab5351fcefa0a78657144f3f35114c91f9b4a7747d9689a6171b9f9a45"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "126",
+        "mimeType" : "text/plain",
+        "md5sum" : "164ca6fb583593a58f2d13916f5efa53",
+        "sha1sum" : "fd2fbcd440b5ac1fa74c207ae7b104e8cd040274",
+        "sha256sum" : "3e33f2aaf8dea0ad09ab873edb97ac093f5a9b9d7ee6d16899951a24501bb84c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1427",
+        "mimeType" : "application/xml",
+        "md5sum" : "c284836e705fe6dd586db2ad12dbd6ac",
+        "sha1sum" : "b8d583fafa1925d3c20dcc8b8219686c5279ddbd",
+        "sha256sum" : "9661111a84b0bd09cc84375baaa36f4a05cc58a9355a4fcf6977798bb6e35f0f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1979",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "64ec02f70e62b42f21beabda538682a5",
+        "sha1sum" : "4a366d1416c52843ca61c59be5accd7f4b496bfb",
+        "sha256sum" : "f31bd89a27d7cf9d4e6ab611623a73c72fc0336f7ba3a7f995ed1fcc5dca6ecb"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1576503740,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000895"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724292356,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285525,
+  "submissionId" : "MODEL1912160004",
+  "publicationId" : "BIOMD0000000895",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C17930",
+      "name" : "Immune Response Process",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C17930"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23603730",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23603730"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1912160004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1912160004"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000895",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000895"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C34082",
+      "name" : "Gastrointestinal Tract",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C34082"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C157974",
+      "name" : "Salmonellosis",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C157974"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9031",
+      "name" : "Gallus gallus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9031"
+    }
+  ]
+}

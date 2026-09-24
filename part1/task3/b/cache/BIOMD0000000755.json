@@ -1,0 +1,248 @@
+{
+  "name" : "Hansen2019 - Nine species reduced model of blood coagulation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>its a nine species reduced model of Hockin 2002. Model uses different level of reduction (5,7,9,11) and testing the best alignment with Hockin model results</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31161687",
+    "journal" : "International journal for numerical methods in biomedical engineering",
+    "title" : "Automated reduction of blood coagulation models.",
+    "affiliation" : "Department of Mechanical Engineering, University of California, Berkeley, Berkeley, California.",
+    "synopsis" : "Mathematical modeling of thrombosis typically involves modeling the coagulation cascade. Models of coagulation generally involve the reaction kinetics for dozens of proteins. The resulting system of equations is difficult to parameterize, and its numerical solution is challenging when coupled to blood flow or other physics important to clotting. Prior research suggests that essential aspects of coagulation may be reproduced by simpler models. This evidence motivates a systematic approach to model reduction. We herein introduce an automated framework to generate reduced-order models of blood coagulation. The framework consists of nested optimizations, where an outer optimization selects the optimal species for the reduced-order model and an inner optimization selects the optimal reaction rates for the new coagulation network. The framework was tested on an established 34-species coagulation model to rigorously consider what level of model fidelity is necessary to capture essential coagulation dynamics. The results indicate that a nine-species reduced-order model is sufficient to reproduce the thrombin dynamics of the benchmark 34-species model for a range of tissue factor concentrations, including those not included in the optimization process. Further model reduction begins to compromise the ability to capture the thrombin generation process. The framework proposed herein enables automated development of reduced-order models of coagulation that maintain essential dynamics used to model thrombosis.",
+    "year" : 2019,
+    "month" : "10",
+    "volume" : "35",
+    "issue" : "10",
+    "pages" : "e3220",
+    "link" : "http://identifiers.org/pubmed/31161687",
+    "authors" : [
+      {
+        "name" : "Kirk B Hansen",
+        "institution" : "Department of Mechanical Engineering, University of California, Berkeley, Berkeley, California.",
+        "orcid" : "0000-0001-7146-3983"
+      },
+      {
+        "name" : "Shawn C Shadden",
+        "institution" : "Department of Mechanical Engineering, University of California, Berkeley, Berkeley, California.",
+        "orcid" : "0000-0001-7561-1568"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Hansen2019.xml",
+        "description" : "SBML L2V4 file for the curated model",
+        "fileSize" : "41829",
+        "mimeType" : "application/xml",
+        "md5sum" : "3fc54e518b5c381620caef21afcd627e",
+        "sha1sum" : "92893fa5a88e4790ed73b8e718a99493176ca2fa",
+        "sha256sum" : "96b2f81b3f6f9b1dd1e09ca1983fb8ba74bf45d9c8e9e972924902fd732dd22a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Hansen2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "17503",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d23808e0ea65e34eaefeb1bb39f12381",
+        "sha1sum" : "10c1f7f034b2f917fcca310cf1a48607b0dc35f5",
+        "sha256sum" : "320fdf2c980d6f4e1f5891c80198885fd2ce85d1d29184173dadfb2fbbe07708"
+      },
+      {
+        "name" : "Hansen2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "27627",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "29f707b2f578fe212be2c2e5b0cb1804",
+        "sha1sum" : "30e0a90d94d36e2eef6fd9ad21aa3536dfb36d00",
+        "sha256sum" : "a8b8c147730b547349a32b1f608ec2982ff226e038ee1053da1ed2c661feb607"
+      },
+      {
+        "name" : "Hansen2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5551",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3e6dc193e5624a0142579272f4106bca",
+        "sha1sum" : "c22bf010cf2221b5c69018a7cea995fdc41b3c10",
+        "sha256sum" : "c5abdf25cdd4caa7630c0f12bf9243c9e81e64ed3c087a2c10d1618e244584bc"
+      },
+      {
+        "name" : "Hansen2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5551",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e7178c36f1b4c4cf6af8c39b754a4625",
+        "sha1sum" : "425416bc0cea4880d988e0fba5ae7402e1e0b69c",
+        "sha256sum" : "e9dec481dac1c9c8738bada9c320fed902787b7f07a58fad8300adfb4edc7237"
+      },
+      {
+        "name" : "Hansen2019.cps",
+        "description" : "COPASI 4.30 (Build240) file for the curated model.",
+        "fileSize" : "68188",
+        "mimeType" : "application/xml",
+        "md5sum" : "0e9fcf682bf5731624e20725a5085684",
+        "sha1sum" : "0232bc32238c691344fe66261d58f96f0e04d377",
+        "sha256sum" : "bce7b491e99e0928ebac62dbb9d8b41a844894a06959609a6ab7b1f0cecaadfe"
+      },
+      {
+        "name" : "Hansen2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3272",
+        "mimeType" : "text/plain",
+        "md5sum" : "fb4c05ddbbda9e6133c00e11aadacc78",
+        "sha1sum" : "b269705aa92a63c75c7a5c48816903cfb407208d",
+        "sha256sum" : "163fe2f96c41542bb529dc7f2463515d3feca9c81d71210875ca6abb72f582df"
+      },
+      {
+        "name" : "Hansen2019.sedml",
+        "description" : "SEDML file for the curated model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "11833",
+        "mimeType" : "application/xml",
+        "md5sum" : "01ad3ce8701c59c6fd9d933abb4fcd4d",
+        "sha1sum" : "079c180404cb5481550472fa99b3e361082ee258",
+        "sha256sum" : "2f58e15aba81c23e1507d17a4536b33f70135fd5e60762ef31cf8f226dedd10e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "79627",
+        "mimeType" : "image/png",
+        "md5sum" : "7d203d92a4e6d10733e31ae226eded5c",
+        "sha1sum" : "48541f64caf9d0b21da5a424d3d48f61f92e6e6b",
+        "sha256sum" : "858871b56fbb6a51ddc8e5deecf6f5836609afad7f28b662b8876edbea17bfe9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "259",
+        "mimeType" : "text/plain",
+        "md5sum" : "4dd1ec783aad03b07abe248cc4c55ddb",
+        "sha1sum" : "966d3a399f668599d3c374a31a8cc73045e47433",
+        "sha256sum" : "47414c194e0bda75c736f7c1587e9433eaed58b8577f05730c5fc090d7ac5394"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "7f2bb6653ec09e64b5b141e88b68bf0f",
+        "sha1sum" : "78d6cc9c42737c45235054ec346deb1690362507",
+        "sha256sum" : "cf97cbec787b5e40705b966097385e0c201d2f3c5c158c96736192c063e0c5ce"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1755",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bff0601280d1eb2b938e2d4ce982a664",
+        "sha1sum" : "b74723088d14da812a737711787c872803e6bfbc",
+        "sha256sum" : "5d1e420a85531aa512020b1287d6f2d74b900cf163b14603a41b4e81cbf913a5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1563468533,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000755"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1617014321,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Updated model file with missing annotations."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1617874714,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000755"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724288895,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285444,
+  "submissionId" : "MODEL1907180004",
+  "publicationId" : "BIOMD0000000755",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31161687",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31161687"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1907180004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1907180004"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000755",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000755"
+    }
+  ]
+}

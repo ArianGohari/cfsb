@@ -1,0 +1,325 @@
+{
+  "name" : "Qi2013 - IL-6 and IFN crosstalk model (non-competitive)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Qi2013 - IL-6 and IFN crosstalk model(non-competitive)</div><div class=\"dc:description\">This model <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000543\">[BIOMD0000000543]</a>describes the crosstalk between IFN-gamma and IL-6 inducedsignalling; it aims to outline mechanisms and factors that maycontrol the interaction between both signalling pathways,discussing a role of heterodimer formation in signallingdysfunction.<br /><br />To account for the possibility of different IFNR and gp130binding sites for STAT1 and STAT3, model 1 <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000543\">[BIOMD0000000543]</a>assumes that there is no competition between STAT1 and STAT3 forthe receptor complexes (includes two extra reactions).<br />The reverse of this is true in model 2 <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000544\">[BIOMD0000000544]</a>where it generally is assumed that there is competition betweenSTAT1 and STAT3 for the receptor complexes.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/23384097\" title=\"Access to this publication\">Elucidating the crosstalk    mechanism between IFN-gamma and IL-6 via mathematical    modelling.</a>  </div>  <div class=\"bibo:authorList\">Qi YF, Huang YX, Wang HY, Zhang Y,  Bao YL, Sun LG, Wu Y, Yu CL, Song ZB, Zheng LH, Sun Y, Wang GN,  Li YX.</div>  <div class=\"bibo:Journal\">BMC Bioinformatics 2013; 14: 41</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>BACKGROUND: Interferon-gamma (IFN-gamma) and interleukin-6    (IL-6) are multifunctional cytokines that regulate immune    responses, cell proliferation, and tumour development and    progression, which frequently have functionally opposing roles.    The cellular responses to both cytokines are activated via the    Janus kinase/signal transducer and activator of transcription    (JAK/STAT) pathway. During the past 10 years, the crosstalk    mechanism between the IFN-gamma and IL-6 pathways has been    studied widely and several biological hypotheses have been    proposed, but the kinetics and detailed crosstalk mechanism    remain unclear. RESULTS: Using established mathematical models    and new experimental observations of the crosstalk between the    IFN-gamma and IL-6 pathways, we constructed a new crosstalk    model that considers three possible crosstalk levels: (1) the    competition between STAT1 and STAT3 for common receptor docking    sites; (2) the mutual negative regulation between SOCS1 and    SOCS3; and (3) the negative regulatory effects of the formation    of STAT1/3 heterodimers. A number of simulations were tested to    explore the consequences of cross-regulation between the two    pathways. The simulation results agreed well with the    experimental data, thereby demonstrating the effectiveness and    correctness of the model. CONCLUSION: In this study, we    developed a crosstalk model of the IFN-gamma and IL-6 pathways    to theoretically investigate their cross-regulation mechanism.    The simulation experiments showed the importance of the three    crosstalk levels between the two pathways. In particular, the    unbalanced competition between STAT1 and STAT3 for IFNR and    gp130 led to preferential activation of IFN-gamma and IL-6,    while at the same time the formation of STAT1/3 heterodimers    enhanced preferential signal transduction by sequestering a    fraction of the activated STATs. The model provided a good    explanation of the experimental observations and provided    insights that may inform further research to facilitate a    better understanding of the cross-regulation mechanism between    the two pathways.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000543\">BIOMD0000000543</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23384097",
+    "journal" : "BMC bioinformatics",
+    "title" : "Elucidating the crosstalk mechanism between IFN-gamma and IL-6 via mathematical modelling.",
+    "affiliation" : "National Engineering Laboratory for Druggable Gene and Protein Screening, Northeast Normal University, Changchun 130024, China.",
+    "synopsis" : "<h4>Background</h4>Interferon-gamma (IFN-gamma) and interleukin-6 (IL-6) are multifunctional cytokines that regulate immune responses, cell proliferation, and tumour development and progression, which frequently have functionally opposing roles. The cellular responses to both cytokines are activated via the Janus kinase/signal transducer and activator of transcription (JAK/STAT) pathway. During the past 10 years, the crosstalk mechanism between the IFN-gamma and IL-6 pathways has been studied widely and several biological hypotheses have been proposed, but the kinetics and detailed crosstalk mechanism remain unclear.<h4>Results</h4>Using established mathematical models and new experimental observations of the crosstalk between the IFN-gamma and IL-6 pathways, we constructed a new crosstalk model that considers three possible crosstalk levels: (1) the competition between STAT1 and STAT3 for common receptor docking sites; (2) the mutual negative regulation between SOCS1 and SOCS3; and (3) the negative regulatory effects of the formation of STAT1/3 heterodimers. A number of simulations were tested to explore the consequences of cross-regulation between the two pathways. The simulation results agreed well with the experimental data, thereby demonstrating the effectiveness and correctness of the model.<h4>Conclusion</h4>In this study, we developed a crosstalk model of the IFN-gamma and IL-6 pathways to theoretically investigate their cross-regulation mechanism. The simulation experiments showed the importance of the three crosstalk levels between the two pathways. In particular, the unbalanced competition between STAT1 and STAT3 for IFNR and gp130 led to preferential activation of IFN-gamma and IL-6, while at the same time the formation of STAT1/3 heterodimers enhanced preferential signal transduction by sequestering a fraction of the activated STATs. The model provided a good explanation of the experimental observations and provided insights that may inform further research to facilitate a better understanding of the cross-regulation mechanism between the two pathways.",
+    "year" : 2013,
+    "month" : "2",
+    "volume" : "14",
+    "pages" : "41",
+    "link" : "http://identifiers.org/pubmed/23384097",
+    "authors" : [
+      {
+        "name" : "Yun-feng Qi",
+        "institution" : "National Engineering Laboratory for Druggable Gene and Protein Screening, Northeast Normal University, Changchun 130024, China."
+      },
+      {
+        "name" : "Yan-xin Huang"
+      },
+      {
+        "name" : "Hong-yan Wang"
+      },
+      {
+        "name" : "Yu Zhang"
+      },
+      {
+        "name" : "Yong-li Bao"
+      },
+      {
+        "name" : "Lu-guo Sun"
+      },
+      {
+        "name" : "Yin Wu"
+      },
+      {
+        "name" : "Chun-lei Yu"
+      },
+      {
+        "name" : "Zhen-bo Song"
+      },
+      {
+        "name" : "Li-hua Zheng"
+      },
+      {
+        "name" : "Ying Sun"
+      },
+      {
+        "name" : "Guan-nan Wang"
+      },
+      {
+        "name" : "Yu-xin Li"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000543_url.xml",
+        "description" : "SBML L2V4 representation of Qi2013 - IL-6 and IFN crosstalk model (non-competitive)",
+        "fileSize" : "537284",
+        "mimeType" : "application/xml",
+        "md5sum" : "aba3704a0b4db60b6c02d241769483a3",
+        "sha1sum" : "578a248f5db1df3c6e8353c24623c2adee80d9fc",
+        "sha256sum" : "156cddf78d44738bbaedc6fb91b1085f90b23f346ab1e77df8a8b40a0c3dc74b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000543-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "231662",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "36510a6936e3ed56e61d2146ed7dc67c",
+        "sha1sum" : "6a910c2dedb006cd15d074b1bd739f52f7cd7893",
+        "sha256sum" : "2e5b781818fb11d5af585508fd74a10fbfca83437220f954576b68f544f6f835"
+      },
+      {
+        "name" : "BIOMD0000000543-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "391122",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a26bdb64183f3db5efd158f9c6234384",
+        "sha1sum" : "8dce20d3e61effd160af162b4a975226c6d24c17",
+        "sha256sum" : "ac4df59bd4fd79dc5639865043549d3946ced1204196821685baf53257ffae09"
+      },
+      {
+        "name" : "BIOMD0000000543-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "65309",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f2ed81df4b07cfe9f70b080e874a76cf",
+        "sha1sum" : "b1484586eb2a11159e17d324024d8eb02507662e",
+        "sha256sum" : "93f3d9cc10e9a79e6ce665daaf1d526e747f48c3109effa13efe188cc00cbf2d"
+      },
+      {
+        "name" : "BIOMD0000000543-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "65309",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "951c1d874a65b123b69b6a1174c9a1a3",
+        "sha1sum" : "eedf45e46ce11ec5b056a4f132e1c4276143bccd",
+        "sha256sum" : "c659e78a14086e77cd330ef6ab6cc4afedb6b3e12b343e31de50d7efcdc6d2c9"
+      },
+      {
+        "name" : "BIOMD0000000543.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "65309",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "951c1d874a65b123b69b6a1174c9a1a3",
+        "sha1sum" : "eedf45e46ce11ec5b056a4f132e1c4276143bccd",
+        "sha256sum" : "c659e78a14086e77cd330ef6ab6cc4afedb6b3e12b343e31de50d7efcdc6d2c9"
+      },
+      {
+        "name" : "BIOMD0000000543.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "56340",
+        "mimeType" : "text/plain",
+        "md5sum" : "d68db0fa12a329029263a5c05246933f",
+        "sha1sum" : "139484c2c4ca4d22bc024acdd93f58d3bd6764cc",
+        "sha256sum" : "6bc1ec4c4945706c417a4d5cda0cfcba383e360309a071a23051a54a828a1d8a"
+      },
+      {
+        "name" : "BIOMD0000000543.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "951948",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9c14d41352e5ef8113ee068ffedfd4ba",
+        "sha1sum" : "132ea26a63ad71be1e2cde42bef042dfb680991b",
+        "sha256sum" : "247909b1fc0bb92203a7bafb6474857e22b0dc5f19e6cae1d2c2c0046d9025b3"
+      },
+      {
+        "name" : "BIOMD0000000543.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "6207713",
+        "mimeType" : "image/png",
+        "md5sum" : "01a10f54e87ce36c18519968dd950226",
+        "sha1sum" : "1a7468687f0114734d4e225a2b7099bcdf095fa2",
+        "sha256sum" : "d64b30185c110ebae9732c9fe92ea794884df9b365bdbefecc3d7cc4ae4bcc41"
+      },
+      {
+        "name" : "BIOMD0000000543.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "524830",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "d1a73677e375ad82f56a0a9c837670e2",
+        "sha1sum" : "05eee1afd0f4badbc9d8106ea7c2f690201c9053",
+        "sha256sum" : "ad2ffbf652bd9d695f68566394903e67c32844f2c155263566bcb2ab507e5be5"
+      },
+      {
+        "name" : "BIOMD0000000543_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "265186",
+        "mimeType" : "application/xml",
+        "md5sum" : "53f04e12719f1ca5eb4c37fe0ddb69db",
+        "sha1sum" : "0d0f76e46065c8c926d071f213b3c0cf3e0839f0",
+        "sha256sum" : "f465b6b7bcb2b8b258d870cf9faeefb5c3a4289a67879a9a3440a6322e03638c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "103776",
+        "mimeType" : "image/png",
+        "md5sum" : "d9f566d36fe1eccc392bb8f464116db3",
+        "sha1sum" : "7a202254e1177e5652a82e8ec211c7ba8e28e031",
+        "sha256sum" : "13f4016bf1836be8e37a688a146dbe98eb62ec8142316498cc006be8c0793370"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "193",
+        "mimeType" : "text/plain",
+        "md5sum" : "75062dbca3599a11fb8b6d47703a59f4",
+        "sha1sum" : "51d4162fbb6c81e58339f2e88809b8dc44a5e152",
+        "sha256sum" : "a90b4a8875a2822f66eed58c5d76092db9aae2b468c62a5e033f0c67c7a91d68"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "8e1b1534df3035ffe8fe07a3dbffbcbe",
+        "sha1sum" : "a311a51fdbca118f5be6dfd2c67e61f036f4e0a2",
+        "sha256sum" : "b3f75b98e0171a4475f90f2d4169cd64ad2cbff02db1234c3daf4e93933a6fba"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7070",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "15e6c2237e7d64d683d76d0068fc49ab",
+        "sha1sum" : "ba350c0476ac85691ee82310b13bc26b6f702bf2",
+        "sha256sum" : "ab5e23acb8e19bf7b55902dc3a26a54cf56a489bed9a4d156089e52ad93e8dc1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1408453708,
+        "submitter" : "Vincent Knight-Schrijver",
+        "comment" : "Original import of Qi2013 - IL-6 and IFN crosstalk model (non-competitive)"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412599461,
+        "submitter" : "Vincent Knight-Schrijver",
+        "comment" : "Current version of Qi2013 - IL-6 and IFN crosstalk model (non-competitive)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724281019,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285316,
+  "submissionId" : "MODEL1408190003",
+  "publicationId" : "BIOMD0000000543",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vincent Knight-Schrijver",
+        "email" : "vknight@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1408190003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1408190003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000543",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000543"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23384097",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23384097"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0060333",
+      "name" : "interferon-gamma-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0060333"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0070102",
+      "name" : "interleukin-6-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070102"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_27307",
+      "name" : "Interleukin-6 signaling",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_27307"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_25078",
+      "name" : "Interferon gamma signaling",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_25078"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019221",
+      "name" : "cytokine-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019221"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

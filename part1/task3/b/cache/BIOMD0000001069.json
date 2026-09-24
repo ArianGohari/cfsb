@@ -1,0 +1,230 @@
+{
+  "name" : "Alam2019 - Machine learning approach of automatic identification and counting of blood cells",
+  "description" : "This model is used for automatic identification and counting of three types of blood cells: Red Blood Cells (RBC), White Blood Cells (WBC) and Platelet (Platelets) using the ‘you only look once’ (YOLO) object detection and classification algorithm with some additions to remove overannotation. The YOLO framework has been trained with a modified configuration BCCD Dataset of blood smear images to automatically identify and count red blood cells, white blood cells, and platelets. Postprocessing with k-nearest neighbor (KNN) and intersection over union (IOU) approach reduces issues with multiple annotation of platelets. The original code was extended to save the trained YoloV2 network state into the protobuf format. This is then used to generate the ONNX model, containing the weigths. Additional code was added to implement the inference step for image annotation based on the ONNX model, as well as the post-processing logic as used on the original model output. Dependencies have been documented explicitly using a conda environment.yml file to simplify reproducibility.Original GitHub repository: https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-CellsGitHub repository: https://github.com/nilshoffmann/Automatic-Identification-and-Counting-of-Blood-Cells",
+  "format" : {
+    "name" : "Open Neural Network Exchange",
+    "identifier" : "ONNX",
+    "version" : "*"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1049/htl.2018.5098",
+    "journal" : "Healthcare technology letters",
+    "title" : "Machine learning approach of automatic identification and counting of blood cells.",
+    "affiliation" : "Department of EEE, Bangladesh University of Engineering and Technology, Dhaka, Bangladesh.",
+    "synopsis" : "A complete blood cell count is an important test in medical diagnosis to evaluate overall health condition. Traditionally blood cells are counted manually using haemocytometer along with other laboratory equipment's and chemical compounds, which is a time-consuming and tedious task. In this work, the authors present a machine learning approach for automatic identification and counting of three types of blood cells using 'you only look once' (YOLO) object detection and classification algorithm. YOLO framework has been trained with a modified configuration BCCD Dataset of blood smear images to automatically identify and count red blood cells, white blood cells, and platelets. Moreover, this study with other convolutional neural network architectures considering architecture complexity, reported accuracy, and running time with this framework and compare the accuracy of the models for blood cells detection. They also tested the trained model on smear images from a different dataset and found that the learned models are generalised. Overall the computer-aided system of detection and counting enables us to count blood cells from smear images in less than a second, which is useful for practical applications.",
+    "year" : 2019,
+    "month" : "8",
+    "volume" : "6",
+    "issue" : "4",
+    "pages" : "103-108",
+    "link" : "http://identifiers.org/doi/10.1049/htl.2018.5098",
+    "authors" : [
+      {
+        "name" : "Alam MM"
+      },
+      {
+        "name" : "Islam MT"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "saved_model.onnx",
+        "description" : "Exported YoloV2 Model for Blood Cell Detection with 3 classes",
+        "fileSize" : "63132297",
+        "mimeType" : "application/octet-stream",
+        "md5sum" : "c061a4fca182fe9bd6cf193bbbfb84cd",
+        "sha1sum" : "5c133a7d5c9dbc6b0a62ad6aef41349384599d5b",
+        "sha256sum" : "791ca6b7cd4c5f372ad8e641cc325ffd4d14f1d75f1de25bd982ef5d41bf4c25"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Dockerfile.onnx",
+        "description" : "Dockerfile to build and apply ONNX model on data/image_001.jpg",
+        "fileSize" : "809",
+        "mimeType" : "text/plain",
+        "md5sum" : "9c981099448157b25be966b3f516ca9e",
+        "sha1sum" : "c4676c822c9a921da94177d912244faf73fe234c",
+        "sha256sum" : "cf93370fb48e5331e8592ae8abf4067658833c1e8073e0d55325b23b38ac01b0"
+      },
+      {
+        "name" : "Dockerfile.train",
+        "description" : "Dockerfile to train the original, YoloV2 Model.",
+        "fileSize" : "1057",
+        "mimeType" : "text/plain",
+        "md5sum" : "4fab3eeeec15a7fb16599053c8548c85",
+        "sha1sum" : "94e81a74781593303bcd1e5dae8e70320ee93d41",
+        "sha256sum" : "722e454f43dd2a98d39b68d91cda624846431eedcf0dfb94e0d12c4eceb66f12"
+      },
+      {
+        "name" : "biomodels-ontology-terms.docx",
+        "description" : "BioModels metadata annotations",
+        "fileSize" : "5938",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "md5sum" : "8380d37e7201d529575115d6f41ab02b",
+        "sha1sum" : "939004aa7fd369e06c18be4ae262caf97aa2253f",
+        "sha256sum" : "973b52b34d47537749a9767281a9cd1061d4fed1654b68f53325cbe4b769ff5d"
+      },
+      {
+        "name" : "ground_truth.csv",
+        "description" : "Ground Truth for determination of classification performance",
+        "fileSize" : "51373",
+        "mimeType" : "text/plain",
+        "md5sum" : "d38f2e41b76adc197306f9ba23ff7716",
+        "sha1sum" : "20eec751060b5f2b348dd18599216b9071fbf62c",
+        "sha256sum" : "14ae23272e53594de4239973cc5b21921bfded07926e4ebfc0c7307be8806f7a"
+      },
+      {
+        "name" : "image_001.jpg",
+        "description" : "Original example image with YoloV2 TensorFlow network based annotations",
+        "fileSize" : "117428",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "0a696d0cdfd19788862e1d0506dec18a",
+        "sha1sum" : "afe6739e2fe4b7d50ecf07a2f1e8b3869f43e0dc",
+        "sha256sum" : "16b97ac1441109f95f8bf254898b3b7785a82a58a9244a868a5160e4c2add19b"
+      },
+      {
+        "name" : "meta.pkl",
+        "description" : "Model metadata for ONNX model execution",
+        "fileSize" : "1052",
+        "mimeType" : "application/octet-stream",
+        "md5sum" : "ab6d00f044a3c8cb3408747282de6e0b",
+        "sha1sum" : "78f710052b2bdb9f03b6a1cdf86b86462c581b06",
+        "sha256sum" : "d4c1f1ce7e94c729614e497d634b32063365e2d8e3f5b3f5ecfc9753b7683823"
+      },
+      {
+        "name" : "onnx-image_001.jpg",
+        "description" : "Reproduced example image with ONNX network based annotations",
+        "fileSize" : "114978",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "9eb6c8fa06069ef28853c52584192d2b",
+        "sha1sum" : "6ab0759386b99b7dbcea589e6e2c49c78a4738c3",
+        "sha256sum" : "508285690e2aaff3f32da3a2b11d9489a44b123457d73c5c2350e545fdd61a22"
+      },
+      {
+        "name" : "rbcs-classification-centers.png",
+        "description" : "Classification center points for all test set files of YoloV2 TF2 and ONNX Model predictions",
+        "fileSize" : "510822",
+        "mimeType" : "image/png",
+        "md5sum" : "d585a6a107c885bde76c0943fa8b0604",
+        "sha1sum" : "39eddb3a5f2cffef5b12c28c380ef252ff3db9aa",
+        "sha256sum" : "d4b12cffc3a26b9d6e87701d11fde4d62f39f342cd997e74876ac760094fa0a9"
+      },
+      {
+        "name" : "rbcs-classification-counts.png",
+        "description" : "Total classification counts per test file between YoloV2 TF2 and ONNX Model",
+        "fileSize" : "356145",
+        "mimeType" : "image/png",
+        "md5sum" : "1dfe969569e6b1ddb11a728bf7b43439",
+        "sha1sum" : "af4ecf34376e09a0cf58ebfdb78aa4ffb3e8ff01",
+        "sha256sum" : "6fd40db38e74d55a5445b211c5a6a6d241594b73c7822b48b440574333a629ef"
+      },
+      {
+        "name" : "rbcs-classification-numbers.csv",
+        "description" : "Numbers of total blood cells detected in ground truth, tensorflow model and onnx model. Comparable to Table 2. Minor differences remain.",
+        "fileSize" : "75",
+        "mimeType" : "text/plain",
+        "md5sum" : "27d7737938fadfa52ea94a1796d2a445",
+        "sha1sum" : "796f4ce99a6cb43d284fdd40abb84fa2dfe7ca66",
+        "sha256sum" : "f8e298d3b6c1c6a0332f1bea6f03666cd664e267b28acd060079242386249105"
+      },
+      {
+        "name" : "rbcs-onnx-Testing.csv",
+        "description" : "Annotations on Testing data for ONNX network model",
+        "fileSize" : "49734",
+        "mimeType" : "text/plain",
+        "md5sum" : "b2ace4ae0f3e27d713d53a7f74cd7dd7",
+        "sha1sum" : "7a9c94de16787bf8ed11a16a16bb6bddfaf26527",
+        "sha256sum" : "1548efeaaf2127156673a6e5943e43119f139df5fc2844de63bdb11558047c7a"
+      },
+      {
+        "name" : "rbcs-tf-Testing.csv",
+        "description" : "Annotations on Testing data for original TensorFlow network model",
+        "fileSize" : "48760",
+        "mimeType" : "text/plain",
+        "md5sum" : "11b04a00161072c8e0d6b1a4c03437b3",
+        "sha1sum" : "1079a77a82d1b3758b066f46419c59bf970a79d8",
+        "sha256sum" : "4008c4ff0f12d95792b077153dfd9bb00160d94da0810a1ae32d62ee7f7002be"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1683307332,
+        "submitter" : "Nils Hoffmann",
+        "comment" : "Added additional figures to show differences between original and ONNX model."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1684480276,
+        "submitter" : "Nils Hoffmann",
+        "comment" : "Added Docker image to train the original YoloV2 model."
+      }
+    ]
+  },
+  "firstPublished" : 1685035676,
+  "submissionId" : "MODEL2305050001",
+  "publicationId" : "BIOMD0000001069",
+  "modellingApproach" : {
+    "accession" : "OTHER",
+    "name" : "Other",
+    "resource" : "Unknown"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FAIR-AIML",
+    "Machine Learning Model"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Nils Hoffmann",
+        "email" : "n.hoffmann@fz-juelich.de",
+        "affiliation" : "Forschungszentrum Jülich",
+        "orcid" : "0000-0002-6540-6875",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nils Hoffmann",
+        "email" : "n.hoffmann@fz-juelich.de",
+        "affiliation" : "Forschungszentrum Jülich",
+        "orcid" : "0000-0002-6540-6875",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1049/htl.2018.5098",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi/10.1049/htl.2018.5098"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL2305050001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db/MODEL2305050001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001069",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db/BIOMD0000001069"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2305050001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db/MODEL2305050001"
+    }
+  ]
+}

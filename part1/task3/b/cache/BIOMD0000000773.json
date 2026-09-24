@@ -1,0 +1,230 @@
+{
+  "name" : "Wodarz2018/2 - model with transit amplifying cells",
+  "description" : "The paper describes a model of effect of cellular de-differentiation on the dynamics and evolution of tissue and tumor cells. Created by COPASI 4.25 (Build 207) This model is described in the article: Effect of cellular de-differentiation on the dynamics and evolution of tissue and tumor cells in mathematical models with feedback regulationDominik Wodarz J Theor Biol. 2018 July 07; 448: 86–93Abstract: Tissues are maintained by adult stem cells that self-renew and also differentiate into functioning tissue cells. Homeostasis is achieved by a set of complex mechanisms that involve regulatory feedback loops. Similarly, tumors are believed to be maintained by a minority population of cancer stem cells, while the bulk of the tumor is made up of more differentiated cells, and there is indication that some of the feedback loops that operate in tissues continue to be functional in tumors. Mathematical models of such tissue hierarchies, including feedback loops, have been analyzed in a variety of different contexts. Apart from stem cells giving rise to differentiated cells, it has also been observed that more differentiated cells can de-differentiate into stem cells, both in healthy tissue and tumors, aspects of which have also been investigated mathematically. This paper analyses the effect of de-differentiation on the basic and evolutionary dynamics of cells in the context of tissue hierarchy models that include negative feedback regulation of the cell populations. The models predict that in the presence of de-differentiation, the fixation probability of a neutral mutant is lower than in its absence. Therefore, if de-differentiation occurs, a mutant with identical parameters compared to the wild-type cell population behaves like a disadvantageous mutant. Similarly, the process of de-differentiation is found to lower the fixation probability of an advantageous mutant. These results indicate that the presence of de- differentiation can lower the rates of tumor initiation and progression in the context of the models considered here.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29605227",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Effect of cellular de-differentiation on the dynamics and evolution of tissue and tumor cells in mathematical models with feedback regulation.",
+    "affiliation" : "Department of Ecology and Evolutionary Biology & Department of Mathematics, 321 Steinhaus Hall, University of California, Irvine, CA 92617, USA. Electronic address: dwodarz@uci.edu.",
+    "synopsis" : "Tissues are maintained by adult stem cells that self-renew and also differentiate into functioning tissue cells. Homeostasis is achieved by a set of complex mechanisms that involve regulatory feedback loops. Similarly, tumors are believed to be maintained by a minority population of cancer stem cells, while the bulk of the tumor is made up of more differentiated cells, and there is indication that some of the feedback loops that operate in tissues continue to be functional in tumors. Mathematical models of such tissue hierarchies, including feedback loops, have been analyzed in a variety of different contexts. Apart from stem cells giving rise to differentiated cells, it has also been observed that more differentiated cells can de-differentiate into stem cells, both in healthy tissue and tumors, aspects of which have also been investigated mathematically. This paper analyses the effect of de-differentiation on the basic and evolutionary dynamics of cells in the context of tissue hierarchy models that include negative feedback regulation of the cell populations. The models predict that in the presence of de-differentiation, the fixation probability of a neutral mutant is lower than in its absence. Therefore, if de-differentiation occurs, a mutant with identical parameters compared to the wild-type cell population behaves like a disadvantageous mutant. Similarly, the process of de-differentiation is found to lower the fixation probability of an advantageous mutant. These results indicate that the presence of de-differentiation can lower the rates of tumor initiation and progression in the context of the models considered here.",
+    "year" : 2018,
+    "month" : "7",
+    "volume" : "448",
+    "pages" : "86-93",
+    "link" : "http://identifiers.org/pubmed/29605227",
+    "authors" : [
+      {
+        "name" : "Dominik Wodarz",
+        "institution" : "Department of Ecology and Evolutionary Biology & Department of Mathematics, 321 Steinhaus Hall, University of California, Irvine, CA 92617, USA. Electronic address: dwodarz@uci.edu.",
+        "orcid" : "0000-0002-8017-3707"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Wodarz2018_2.xml",
+        "description" : "SBML L3V1 representation of model with TA cells",
+        "fileSize" : "68890",
+        "mimeType" : "application/xml",
+        "md5sum" : "75900b4a96db032188e23ce02530e63c",
+        "sha1sum" : "a9285ae6253f36faba34172c7454a902f48bd9ad",
+        "sha256sum" : "c01a6e0b60f1805d4e46dd3bd6eac5016715aa364955be7e883e1f9c21f0c589"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Wodarz2018_2-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "9930",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "235493fc9d20f0c618147541d3ccf694",
+        "sha1sum" : "9f8214c1aabcdb39eabafc4509ee2b13e04013e5",
+        "sha256sum" : "aebe011db263a4fc81ccee0053dbf0e9595458d6665f6b740be930b0a1d786de"
+      },
+      {
+        "name" : "Wodarz2018_2-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "13287",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c219f9444d2a49ca52d584746daf9b2c",
+        "sha1sum" : "23507149f9dec7239644258eddab5f549ae52d87",
+        "sha256sum" : "6a30b093bc7f59854f8075205c7b6702031ba44d7a595c3230c1864ca2244a5b"
+      },
+      {
+        "name" : "Wodarz2018_2-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5772",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ada4fe41a4d39de58e08541628e811b5",
+        "sha1sum" : "606dd67821c016eb88e4e295bba004bd1596bb16",
+        "sha256sum" : "a2025320e972f99087824ce8beb6f90e864fb0547c7cbfcc98ad510cad1f0c4c"
+      },
+      {
+        "name" : "Wodarz2018_2-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5772",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dc35ab9f4ef709a3b006311a730dc061",
+        "sha1sum" : "1b6b5d4b55231e5fbe049c369b32390f4d366419",
+        "sha256sum" : "0993e5a208a13bbaf1822a3d3cbe48f704cd56b9e1453734ff54c014e0af762d"
+      },
+      {
+        "name" : "Wodarz2018_2.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "81376",
+        "mimeType" : "application/xml",
+        "md5sum" : "0a5b63a073cc93c4967ca05c5e5047e4",
+        "sha1sum" : "51e38419b4d3c681511125c8e61949d361e59633",
+        "sha256sum" : "a492136038c294e33a5579d2a96706d395a3b9ebd95c3be6fbaae8e44bd3c20e"
+      },
+      {
+        "name" : "Wodarz2018_2.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3844",
+        "mimeType" : "text/plain",
+        "md5sum" : "e2ecad394e2097cb1e21af44a7424a49",
+        "sha1sum" : "ede664bd589024e521509086f16ef1352fb4ab81",
+        "sha256sum" : "773f5bc2d26bfd69e94fdb8842a4ce85f27bdfc4f15e2c73444c3d604530442f"
+      },
+      {
+        "name" : "Wodarz2018_2.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "18892",
+        "mimeType" : "application/xml",
+        "md5sum" : "a5544a01dd5eb5d656210c4744c23a0e",
+        "sha1sum" : "c75fb1778364f81b2dafcc0f1211847ceb27de7b",
+        "sha256sum" : "2735967222cb5c33f95399358726faf94e2fa14a6874837d3db240b5d23d7a9f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "14600",
+        "mimeType" : "image/png",
+        "md5sum" : "b00d09dbeb48c9dc693a9a998fcccef5",
+        "sha1sum" : "e0abc39feefd3500e8e068c922dab2b1fe306d6e",
+        "sha256sum" : "e497ad4b9d1a46ad3c8d57e774e924aa7024ef8bc3967e27c13a70fe613443d1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "107",
+        "mimeType" : "text/plain",
+        "md5sum" : "6a7851aca597edc007fb17090232c6d7",
+        "sha1sum" : "8e4f167fbb2e5202a145cb8ee758ab0f498ed23d",
+        "sha256sum" : "690bffc930a5e451662249139cce3fb6c604b4a4a5e52b0502d33d6ebc4bfc24"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1427",
+        "mimeType" : "application/xml",
+        "md5sum" : "82719afa79dc460361271c14a7e02348",
+        "sha1sum" : "f17f391641c2f5439bd0a77f76bac6c6c5a4fb48",
+        "sha256sum" : "4c5f3184ade9b27d7c2644ae7f7d0756fdc52815a7a501198dd817a47807a237"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4185",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "16c791ddcfad6bf97c9a50c5eabcd7f2",
+        "sha1sum" : "ac1527f3801a6f06bc1410250c9bf311f67850c7",
+        "sha256sum" : "3370268eb23c7259344a1a57dcfac2df218754e99afea44a6ff04ffb1fb7725a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1564669553,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000773"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724289326,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285455,
+  "submissionId" : "MODEL1908010002",
+  "publicationId" : "BIOMD0000000773",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002418",
+      "name" : "immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002418"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29605227",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29605227"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000773",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000773"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908010002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908010002"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Search results</title>
+<link rel="stylesheet" type="text/css" href="css/sheet.css">
+<script type="text/javascript" src="javascript/common.js"></script>
+<script type="text/javascript" src="javascript/tooltip.js"></script>
+<style type="text/css">
+a:link,a:visited { color:#005500; text-decoration:none; }
+a:focus,a:hover,a:active { color:#00ad00; text-decoration:none; }
+</style>
+</head>
+<body style="font-size:12pt; font-family:Arial,sans-serif; background-color:#f8ffff;">
+<div style="left: 994px; top: 49px; visibility: hidden;" id="dhtmltooltip" class="dhtmltooltip">TT</div>
+<table border="0" style="width:100%"><colgroup><col width="95%"><col width="5%"></colgroup><tr><td><font style="color:#004400; font-family:Arial,sans-serif; font-weight:bold; font-size:18pt; text-decoration:underline;">Show interactions of entities / pathways</font>
+<br>
+<font style="font-size:10pt; color:#CCCCCC;">Search for entities / pathways &nbsp;&nbsp;&gt;</font><font style="font-size:10pt; color:#004400;">&nbsp;&nbsp; Select entities / pathways of interest &nbsp;&nbsp;</font><font style="font-size:10pt; color:#CCCCCC;">&gt;&nbsp;&nbsp; Select interactions of interest &nbsp;&nbsp;&gt;&nbsp;&nbsp; Visualize interaction network </font>
+</td><td valign="top"><img src="images/info.png" title="Help" onclick="openW('tutorial#search.molpwy','Help','resizable=1,scrollbars=2,width=1024,height=800,toolbar=0');"></td></tr></table><br><br><br>
+<form name="checktable" method="post" action="getInteractionsOfObjs" onsubmit="return Check()">
+<input type="hidden" name="objtype" value="p">
+<input type="submit" value="Show interactions" onClick="subm=fullInput(document.checktable,'objs:list','Please select at least one pathway.');" class="cpdbutton">
+<table border="0" style="font-size:10pt;font-family:Arial,sans-serif;">
+<colgroup>
+<col width="4%">
+<col width="90%">
+<col width="6%">
+</colgroup>
+<tr bgcolor="#E1E1E1">
+<td align="center">
+<b>Select</b><br><nobr><span class="pseudolink" onclick="SetChecks(document.checktable,1,'objs:list')">all</span> <span class="pseudolink" onclick="SetChecks(document.checktable,0,'objs:list')">none</span></nobr>
+<td><b>Pathway names</b></td>
+<td><b>External links</b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="147321">
+</td>
+<td align="left" valign="top">Circadian Clock</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-400253" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="283605">
+</td>
+<td align="left" valign="top">Circadian rhythm pathway<br>circadianpathway</td>
+<td align="left" valign="top"><b><a href="http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=circadianpathway&source=NCI-Nature%20curated&what=graphic&jpg=on" target="_blank" title="Pid" style="color:#aa0000;">P</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="4415597">
+</td>
+<td align="left" valign="top">Circadian rhythm related genes</td>
+<td align="left" valign="top"><b><a href="http://www.wikipathways.org/index.php/Pathway:WP3594" target="_blank" title="Wikipathways" style="color:#555555;">W</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="4415707">
+</td>
+<td align="left" valign="top">Exercise-induced Circadian Regulation</td>
+<td align="left" valign="top"><b><a href="http://www.wikipathways.org/index.php/Pathway:WP410" target="_blank" title="Wikipathways" style="color:#555555;">W</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="186064">
+</td>
+<td align="left" valign="top">Circadian rhythm - Homo sapiens (human)</td>
+<td align="left" valign="top"><b><a href="http://www.genome.jp/dbget-bin/www_bget?path:hsa04710" target="_blank" title="Kegg" style="color:#00aa00;">K</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="186066">
+</td>
+<td align="left" valign="top">Circadian entrainment - Homo sapiens (human)</td>
+<td align="left" valign="top"><b><a href="http://www.genome.jp/dbget-bin/www_bget?path:hsa04713" target="_blank" title="Kegg" style="color:#00aa00;">K</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="122348">
+</td>
+<td align="left" valign="top">BMAL1:CLOCK,NPAS2 activates circadian gene expression</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-1368108" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+</table>
+<input type="hidden" name="checknames" value="[]"></input>
+<input type="submit" value="Show interactions" onClick="subm=fullInput(document.checktable,'objs:list','Please select at least one pathway.');" class="cpdbutton">
+<input type="hidden" name="exp" value="0">
+</form>
+</body>
+</html>

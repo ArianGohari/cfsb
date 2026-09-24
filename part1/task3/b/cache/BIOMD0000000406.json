@@ -1,0 +1,283 @@
+{
+  "name" : "Moriya2011_CellCycle_FissionYeast",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>Overexpression limits of fission yeast cell-cycle regulators in vivo and in silico.</strong>                <br />          Moriya H, Chino A, Kapuy O, Csikász-Nagy A, Novák B.      <em>Mol Syst Biol.</em>          2011 Dec 6;7:556.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22146300\">22146300</a>          ,      <br />                <strong>Abstract:</strong>                <br />          Cellular systems are generally robust against fluctuations of intracellular parameters such as gene expression level. However, little is known about expression limits of genes required to halt cellular systems. In this study, using the fission yeast Schizosaccharomyces pombe, we developed a genetic 'tug-of-war' (gTOW) method to assess the overexpression limit of certain genes. Using gTOW, we determined copy number limits for 31 cell-cycle regulators; the limits varied from 1 to &gt;100. Comparison with orthologs of the budding yeast Saccharomyces cerevisiae suggested the presence of a conserved fragile core in the eukaryotic cell cycle. Robustness profiles of networks regulating cytokinesis in both yeasts (septation-initiation network (SIN) and mitotic exit network (MEN)) were quite different, probably reflecting differences in their physiologic functions. Fragility in the regulation of GTPase spg1 was due to dosage imbalance against GTPase-activating protein (GAP) byr4. Using the gTOW data, we modified a mathematical model and successfully reproduced the robustness of the S. pombe cell cycle with the model.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" class=\"external\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22146300",
+    "journal" : "Molecular systems biology",
+    "title" : "Overexpression limits of fission yeast cell-cycle regulators in vivo and in silico.",
+    "affiliation" : "Research Core for Interdisciplinary Sciences, Okayama University, Okayama, Japan.",
+    "synopsis" : "Cellular systems are generally robust against fluctuations of intracellular parameters such as gene expression level. However, little is known about expression limits of genes required to halt cellular systems. In this study, using the fission yeast Schizosaccharomyces pombe, we developed a genetic 'tug-of-war' (gTOW) method to assess the overexpression limit of certain genes. Using gTOW, we determined copy number limits for 31 cell-cycle regulators; the limits varied from 1 to >100. Comparison with orthologs of the budding yeast Saccharomyces cerevisiae suggested the presence of a conserved fragile core in the eukaryotic cell cycle. Robustness profiles of networks regulating cytokinesis in both yeasts (septation-initiation network (SIN) and mitotic exit network (MEN)) were quite different, probably reflecting differences in their physiologic functions. Fragility in the regulation of GTPase spg1 was due to dosage imbalance against GTPase-activating protein (GAP) byr4. Using the gTOW data, we modified a mathematical model and successfully reproduced the robustness of the S. pombe cell cycle with the model.",
+    "year" : 2011,
+    "month" : "12",
+    "volume" : "7",
+    "pages" : "556",
+    "link" : "http://identifiers.org/pubmed/22146300",
+    "authors" : [
+      {
+        "name" : "Hisao Moriya",
+        "institution" : "Research Core for Interdisciplinary Sciences, Okayama University, Okayama, Japan.",
+        "orcid" : "0000-0001-7638-3640"
+      },
+      {
+        "name" : "Ayako Chino"
+      },
+      {
+        "name" : "Orsolya Kapuy"
+      },
+      {
+        "name" : "Attila Csikász-Nagy",
+        "orcid" : "0000-0002-2919-5601"
+      },
+      {
+        "name" : "Béla Novák",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000406_url.xml",
+        "description" : "SBML L2V4 representation of Moriya2011_CellCycle_FissionYeast",
+        "fileSize" : "104404",
+        "mimeType" : "application/xml",
+        "md5sum" : "f157ec2371ee8133cce46c9a35b02e89",
+        "sha1sum" : "616203390e2e2d88898ec65ac700a0bd1574c553",
+        "sha256sum" : "413b91d4eede0b46b07a689f99847b240b179603e17ea4edbba339d8545041cd"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000406-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "70554",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "175d620b69addb0ca155bcea74b24b85",
+        "sha1sum" : "c262b8705d2dbdce1f19ecba952fc0640ccce8be",
+        "sha256sum" : "878731585faf66334bcfec81c428aa0db490220a580c409ffd69a97a42c0964d"
+      },
+      {
+        "name" : "BIOMD0000000406-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "119255",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "12b118d21c0e39e9d99476fdcf036f48",
+        "sha1sum" : "127912f2e10fc56c2c35728c8073d93520be6dff",
+        "sha256sum" : "181d14cf99d93d4752eeda2d36f5bf104034675532bf8a57b772d8198b0b0dbd"
+      },
+      {
+        "name" : "BIOMD0000000406-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "26960",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a625c80053fa50eb908e45e9a4958641",
+        "sha1sum" : "75deaa3bd1dbb64745718385170a3680d6beda3e",
+        "sha256sum" : "044cb3e1153786834dd24a3e11439e52ef717c1b7100d48b0c439d7025249dd1"
+      },
+      {
+        "name" : "BIOMD0000000406.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "26960",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ca879d85c11120a343ed6baf7f9a06eb",
+        "sha1sum" : "b9a2258481bc554e72b0e9cfc86b36d207bf5e3d",
+        "sha256sum" : "65a6def06e416ad047e08747335078a30e5c70cdc7c334849566ffa7f8607778"
+      },
+      {
+        "name" : "BIOMD0000000406.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "22009",
+        "mimeType" : "text/plain",
+        "md5sum" : "bf32d00c1134bcc144b3acaf59dbde53",
+        "sha1sum" : "593fe0ec74a4a153bad44d20fbca514233ef8fb8",
+        "sha256sum" : "91875f73ad39b75631e1b08bc2a520a505b809baa3974a7b18b6f2cd816fb1cf"
+      },
+      {
+        "name" : "BIOMD0000000406.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "419612",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d9979ecc642e1c84af4d8a74a844fcbd",
+        "sha1sum" : "0b30f2f549fdc7fa601e787166178a81d69a5c61",
+        "sha256sum" : "00c6fe17f363b44fa42c790a988e95dd89303efebe75f248b1a1a091f554ef60"
+      },
+      {
+        "name" : "BIOMD0000000406.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1084359",
+        "mimeType" : "image/png",
+        "md5sum" : "a3672ecb859d4a58b4bb31aacc59136e",
+        "sha1sum" : "d21e102987ef2f52d4671b4e097d78c448d1a6aa",
+        "sha256sum" : "a9c31cd6fe1f0b54499d192fbd35e731a2b6e126d55df42ccd7ebbbd840f0ff4"
+      },
+      {
+        "name" : "BIOMD0000000406.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "158820",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "da060ad4f70c477899c190156910663f",
+        "sha1sum" : "12312f4914c21b315eca65a6a74e257f845716c3",
+        "sha256sum" : "3d8c6bfd7cca436ad965f8ef7f79b30bdd84ef4fde1373ee0dfc38d3dcc9606b"
+      },
+      {
+        "name" : "BIOMD0000000406.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "131196",
+        "mimeType" : "application/xml",
+        "md5sum" : "62932e46a82a4f2906eeb6bcddd7daff",
+        "sha1sum" : "5dab77d75439f51ad924101fe74fa2df7475fb28",
+        "sha256sum" : "4ca5501e13a47ab563d5d0390a70387d266ab587fbbee695ccbc41209e3465e2"
+      },
+      {
+        "name" : "BIOMD0000000406_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "120624",
+        "mimeType" : "application/xml",
+        "md5sum" : "7e7383cf267bf7fd635e2226cedfb465",
+        "sha1sum" : "7790997fabb9bc87728eda75cab8b166635267c8",
+        "sha256sum" : "993d3fb72152e9067fec1408ce5cb326fed2d50a875a6f02af0e57a17a05de98"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "31949",
+        "mimeType" : "image/png",
+        "md5sum" : "f3f2b2614f3a0a2e6748ba01b92d2d7c",
+        "sha1sum" : "62240f523677cecd457e5b63a4dc59d67d94bb08",
+        "sha256sum" : "10608db76b6c0b6c99668f4d5edc264c6e941a7f6df5216306dca2fb5ed05b66"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "179",
+        "mimeType" : "text/plain",
+        "md5sum" : "ce7f39ade1efb195f8c520b9cece3869",
+        "sha1sum" : "fb8af02eff349ba5dff68add9e5028ab7b09e8e0",
+        "sha256sum" : "7789beb12e03fb70ae834e1690f5017c18e03d5cd634bb3f61b8225c9cc2f0a1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "1df8c3f6dcaf97dcefcd329e93412f3a",
+        "sha1sum" : "50ee958dc4f747518162c0c9a5ce807bdbf0328a",
+        "sha256sum" : "e7f81c3aece3f1b1eca924b04b0e29b7ceeb5c190d4988319ecc659f55617ae8"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4560",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c579fc2eee364de77c27052026772e83",
+        "sha1sum" : "628e05e2cd4174dbfd9da265aaba43524aa78304",
+        "sha256sum" : "c65e1b289348afc86e42e39d20aa60d16287e8abaf8368b5244c69c6f99a5974"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1320380194,
+        "submitter" : "Hisao Moriya",
+        "comment" : "Original import of BIOMD0000000406.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1342033805,
+        "submitter" : "Hisao Moriya",
+        "comment" : "Current version of Moriya2011_CellCycle_FissionYeast"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275818,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285132,
+  "submissionId" : "MODEL1111040000",
+  "publicationId" : "BIOMD0000000406",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Hisao Moriya",
+        "email" : "hisaom@cc.okayama-u.ac.jp",
+        "affiliation" : "Okayama University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1111040000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1111040000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000406",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000406"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22146300",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22146300"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1011020000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1011020000"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051726",
+      "name" : "regulation of cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051726"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4896",
+      "name" : "Schizosaccharomyces pombe",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4896"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

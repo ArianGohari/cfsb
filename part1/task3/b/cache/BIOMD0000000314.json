@@ -1,0 +1,340 @@
+{
+  "name" : "Raia2011 - IL13 L1236",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the model of IL13 induced signalling in L1236 cells described in the article:      <br />                <b>Dynamic Mathematical Modeling of IL13-Induced Signaling in Hodgkin and Primary Mediastinal B-Cell Lymphoma Allows Prediction of Therapeutic Targets.</b>                <br />          Raia V, Schilling M, Böhm M, Hahn B, Kowarsch A, Raue A, Sticht C, Bohl S, Saile M, Möller P, Gretz N, Timmer J, Theis F, Lehmann WD, Lichter P and Klingmüller U. Cancer Res. 2011 Feb 1;71(3):693-704. PubmedID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21127196\">21127196</a>          ; DOI:      <a href=\"http://dx.doi.org/10.1158/0008-5472.CAN-10-2987\">10.1158/0008-5472.CAN-10-2987</a>                <br />          Abstract:      <br />          Primary mediastinal B-cell lymphoma (PMBL) and classical Hodgkin lymphoma (cHL) share a frequent constitutive activation of JAK (Janus kinase)/STAT signaling pathway. Because of complex, nonlinear relations within the pathway, key dynamic properties remained to be identified to predict possible strategies for intervention. We report the development of dynamic pathway models based on quantitative data collected on signaling components of JAK/STAT pathway in two lymphoma-derived cell lines, MedB-1 and L1236, representative of PMBL and cHL, respectively. We show that the amounts of STAT5 and STAT6 are higher whereas those of SHP1 are lower in the two lymphoma cell lines than in normal B cells. Distinctively, L1236 cells harbor more JAK2 and less SHP1 molecules per cell than MedB-1 or control cells. In both lymphoma cell lines, we observe interleukin-13 (IL13)-induced activation of IL4 receptor α, JAK2, and STAT5, but not of STAT6. Genome-wide, 11 early and 16 sustained genes are upregulated by IL13 in both lymphoma cell lines. Specifically, the known STAT-inducible negative regulators CISH and SOCS3 are upregulated within 2 hours in MedB-1 but not in L1236 cells. On the basis of this detailed quantitative information, we established two mathematical models, MedB-1 and L1236 model, able to describe the respective experimental data. Most of the model parameters are identifiable and therefore the models are predictive. Sensitivity analysis of the model identifies six possible therapeutic targets able to reduce gene expression levels in L1236 cells and three in MedB-1. We experimentally confirm reduction in target gene expression in response to inhibition of STAT5 phosphorylation, thereby validating one of the predicted targets.      </p>            <p>All concentrations in the model, apart from IL13, are in molecules/cell. IL13 is given in ng/ml. As the cell volume is not explicitely given in the article, it is just approximately derived from the MW of IL13 (15.8 kDa) and the conversion factor 3.776 molecules IL13/cell = 1 ng/ml to be around 100 fl.</p>            <p>SBML model exported from PottersWheel on 2010-08-10 12:14:57.      <br />          Inline follows the original matlab code:      </p>            <pre>% PottersWheel model definition filefunction m = Raia2010_IL13_L1236()m             = pwGetEmptyModel();%% Meta informationm.ID          = 'Raia2010_IL13_L1236';m.name        = 'Raia2010_IL13_L1236';m.description = '';m.authors     = {'Raia et al'};m.dates       = {'2010'};m.type        = 'PW-2-0-47';%% X: Dynamic variables% m = pwAddX(m, ID, startValue, type, minValue, maxValue, unit, compartment, name, description, typeOfStartValue)m = pwAddX(m, 'Rec'         ,              1.8, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'Rec_i'       , 118.598421286338, 'global',  0.001, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'IL13_Rec'    ,                0, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'p_IL13_Rec'  ,                0, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'p_IL13_Rec_i',                0, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'JAK2'        ,               24, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'pJAK2'       ,                0, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'SHP1'        ,              9.4, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'STAT5'       ,              209, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'pSTAT5'      ,                0, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'CD274mRNA'   ,                0, 'fix'   , 1e-006, 10000, 'molecules/cell (x 1000)', 'cell', []  , []  , []             , []  , 'protein.generic');%% R: Reactions% m = pwAddR(m, reactants, products, modifiers, type, options, rateSignature, parameters, description, ID, name, fast, compartments, parameterTrunks, designerPropsR, stoichiometry, reversible)m = pwAddR(m, {'Rec'         }, {'IL13_Rec'    }, {'IL13stimulation'}, 'C' , [] , 'k1 * m1 * r1 * 3.776', {'Kon_IL13Rec'             });m = pwAddR(m, {'Rec'         }, {'Rec_i'       }, {                 }, 'MA', [] , []                    , {'Rec_intern'              });m = pwAddR(m, {'Rec_i'       }, {'Rec'         }, {                 }, 'MA', [] , []                    , {'Rec_recycle'             });m = pwAddR(m, {'IL13_Rec'    }, {'p_IL13_Rec'  }, {'pJAK2'          }, 'E' , [] , []                    , {'Rec_phosphorylation'     });m = pwAddR(m, {'JAK2'        }, {'pJAK2'       }, {'IL13_Rec'       }, 'E' , [] , []                    , {'JAK2_phosphorylation'    });m = pwAddR(m, {'JAK2'        }, {'pJAK2'       }, {'p_IL13_Rec'     }, 'E' , [] , []                    , {'JAK2_phosphorylation'    });m = pwAddR(m, {'p_IL13_Rec'  }, {'p_IL13_Rec_i'}, {                 }, 'MA', [] , []                    , {'pRec_intern'             });m = pwAddR(m, {'p_IL13_Rec_i'}, {              }, {                 }, 'MA', [] , []                    , {'pRec_degradation'        });m = pwAddR(m, {'pJAK2'       }, {'JAK2'        }, {'SHP1'           }, 'E' , [] , []                    , {'pJAK2_dephosphorylation' });m = pwAddR(m, {'STAT5'       }, {'pSTAT5'      }, {'pJAK2'          }, 'E' , [] , []                    , {'STAT5_phosphorylation'   });m = pwAddR(m, {'pSTAT5'      }, {'STAT5'       }, {'SHP1'           }, 'E' , [] , []                    , {'pSTAT5_dephosphorylation'});m = pwAddR(m, {              }, {'CD274mRNA'   }, {'pSTAT5'         }, 'C' , [] , 'm1*k1'               , {'CD274mRNA_production'    });%% C: Compartments% m = pwAddC(m, ID, size,  outside, spatialDimensions, name, unit, constant)m = pwAddC(m, 'cell', 1);%% K: Dynamical parameters% m = pwAddK(m, ID, value, type, minValue, maxValue, unit, name, description)m = pwAddK(m, 'Kon_IL13Rec'             , 0.00174086832237195, 'global', 1e-009, 1000);m = pwAddK(m, 'Rec_phosphorylation'     , 9.07540737285078   , 'global', 1e-009, 1000);m = pwAddK(m, 'pRec_intern'             , 0.324132341358502  , 'global', 1e-009, 1000);m = pwAddK(m, 'pRec_degradation'        , 0.417538218767296  , 'global', 1e-009, 1000);m = pwAddK(m, 'Rec_intern'              , 0.259685756311325  , 'global', 1e-009, 1000);m = pwAddK(m, 'Rec_recycle'             , 0.00392430355501153, 'global', 1e-009, 1000);m = pwAddK(m, 'JAK2_phosphorylation'    , 0.300019047540849  , 'global', 1e-009, 1000);m = pwAddK(m, 'pJAK2_dephosphorylation' , 0.0981610557569751 , 'global', 1e-009, 1000);m = pwAddK(m, 'STAT5_phosphorylation'   , 0.00426766529531612, 'global', 1e-009, 1000);m = pwAddK(m, 'pSTAT5_dephosphorylation', 0.0116388587580445 , 'global', 1e-009, 1000);m = pwAddK(m, 'CD274mRNA_production'    , 0.0115927572109515 , 'global', 1e-009, 1000);%% U: Driving input% m = pwAddU(m, ID, uType, uTimes, uValues, compartment, name, description, u2Values, alternativeIDs, designerProps)m = pwAddU(m, 'IL13stimulation', 'steps', [-100 0]  , [0 1]  , [], [], [], [], {}, [], 'protein.generic');%% Default sampling time pointsm.t = 0:1:120;%% Y: Observables% m = pwAddY(m, rhs, ID, scalingParameter, errorModel, noiseType, unit, name, description, alternativeIDs, designerProps)m = pwAddY(m, 'Rec + IL13_Rec + p_IL13_Rec'         , 'RecSurf_obs'  , 'scale_RecSurf'  , '0.1 * y + 0.1 * max(y)');m = pwAddY(m, 'IL13_Rec + p_IL13_Rec + p_IL13_Rec_i', 'IL13-cell_obs', 'scale_IL13-cell', '0.15 * y + 0.05 * max(y)');m = pwAddY(m, 'p_IL13_Rec + p_IL13_Rec_i'           , 'pIL4Ra_obs'   , 'scale_pIL4Ra'   , '0.10 * y + 0.15 * max(y)');m = pwAddY(m, 'pJAK2'                               , 'pJAK2_obs'    , 'scale_pJAK2'    , '0.1 * y + 0.1 * max(y)');m = pwAddY(m, 'CD274mRNA'                           , 'CD274mRNA_obs', 'scale_CD274mRNA', '0.1 * y + 0.1 * max(y)');m = pwAddY(m, 'pSTAT5'                              , 'pSTAT5_obs'   , 'scale_pSTAT5'   , '0.1 * y + 0.1 * max(y)');%% S: Scaling parameters% m = pwAddS(m, ID, value, type, minValue, maxValue, unit, name, description)m = pwAddS(m, 'scale_pJAK2'    , 0.469836894150194, 'global',  0.001, 10000);m = pwAddS(m, 'scale_pIL4Ra'   ,  1.80002942264669, 'global',  0.001, 10000);m = pwAddS(m, 'scale_RecSurf'  ,                 1,    'fix', 0.0001, 10000);m = pwAddS(m, 'scale_IL13-cell',  174.726805005048, 'global',  0.001, 10000);m = pwAddS(m, 'scale_CD274mRNA', 0.110568221201943, 'global',  0.001, 10000);m = pwAddS(m, 'scale_pSTAT5'   ,                 1,    'fix',  0.001, 10000);%% Designer properties (do not modify)m.designerPropsM = [1 1 1 0 0 0 400 250 600 400 1 1 1 0 0 0 0];</pre>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21127196",
+    "journal" : "Cancer research",
+    "title" : "Dynamic mathematical modeling of IL13-induced signaling in Hodgkin and primary mediastinal B-cell lymphoma allows prediction of therapeutic targets.",
+    "affiliation" : "Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance and Molecular Genetics, German Cancer Research Center, Heidelberg, Germany.",
+    "synopsis" : "Primary mediastinal B-cell lymphoma (PMBL) and classical Hodgkin lymphoma (cHL) share a frequent constitutive activation of JAK (Janus kinase)/STAT signaling pathway. Because of complex, nonlinear relations within the pathway, key dynamic properties remained to be identified to predict possible strategies for intervention. We report the development of dynamic pathway models based on quantitative data collected on signaling components of JAK/STAT pathway in two lymphoma-derived cell lines, MedB-1 and L1236, representative of PMBL and cHL, respectively. We show that the amounts of STAT5 and STAT6 are higher whereas those of SHP1 are lower in the two lymphoma cell lines than in normal B cells. Distinctively, L1236 cells harbor more JAK2 and less SHP1 molecules per cell than MedB-1 or control cells. In both lymphoma cell lines, we observe interleukin-13 (IL13)-induced activation of IL4 receptor α, JAK2, and STAT5, but not of STAT6. Genome-wide, 11 early and 16 sustained genes are upregulated by IL13 in both lymphoma cell lines. Specifically, the known STAT-inducible negative regulators CISH and SOCS3 are upregulated within 2 hours in MedB-1 but not in L1236 cells. On the basis of this detailed quantitative information, we established two mathematical models, MedB-1 and L1236 model, able to describe the respective experimental data. Most of the model parameters are identifiable and therefore the models are predictive. Sensitivity analysis of the model identifies six possible therapeutic targets able to reduce gene expression levels in L1236 cells and three in MedB-1. We experimentally confirm reduction in target gene expression in response to inhibition of STAT5 phosphorylation, thereby validating one of the predicted targets.",
+    "year" : 2011,
+    "month" : "2",
+    "volume" : "71",
+    "issue" : "3",
+    "pages" : "693-704",
+    "link" : "http://identifiers.org/pubmed/21127196",
+    "authors" : [
+      {
+        "name" : "Valentina Raia",
+        "institution" : "Division of Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance and Molecular Genetics, German Cancer Research Center, Heidelberg, Germany."
+      },
+      {
+        "name" : "Marcel Schilling",
+        "institution" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "orcid" : "0000-0002-9517-5166"
+      },
+      {
+        "name" : "Martin Böhm"
+      },
+      {
+        "name" : "Bettina Hahn"
+      },
+      {
+        "name" : "Andreas Kowarsch"
+      },
+      {
+        "name" : "Andreas Raue"
+      },
+      {
+        "name" : "Carsten Sticht"
+      },
+      {
+        "name" : "Sebastian Bohl"
+      },
+      {
+        "name" : "Maria Saile"
+      },
+      {
+        "name" : "Peter Möller"
+      },
+      {
+        "name" : "Norbert Gretz"
+      },
+      {
+        "name" : "Jens Timmer"
+      },
+      {
+        "name" : "Fabian Theis",
+        "orcid" : "0000-0002-2419-1943"
+      },
+      {
+        "name" : "Wolf-Dieter Lehmann"
+      },
+      {
+        "name" : "Peter Lichter"
+      },
+      {
+        "name" : "Ursula Klingmüller",
+        "institution" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "orcid" : "0000-0001-9845-3099"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000314_url.xml",
+        "description" : "SBML L2V4 representation of Raia2011 - IL13 L1236",
+        "fileSize" : "38254",
+        "mimeType" : "application/xml",
+        "md5sum" : "090ce7532769e0a6e7b85b4d3c31681b",
+        "sha1sum" : "f1a7679b8d96e6ea49f17424363d17b5c311aa1a",
+        "sha256sum" : "4a9d9abe3b4fa6c16e5066ff08cbadec516fe641fd0206f2a6c18fd79dafdde0"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000314-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "24645",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e432210788d7ad309c643c892b17642e",
+        "sha1sum" : "3d4c5bfcb8d8399bc4f4f97f95eab17c5e0cb51b",
+        "sha256sum" : "dd47cc9696d62eff1de7838dbced25999fa59a9fd8d4b662dd5234aba1c09478"
+      },
+      {
+        "name" : "BIOMD0000000314-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "35193",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "66d9c856edb65d8a08f7395a5931d6c4",
+        "sha1sum" : "b675e9ebff57dc204163bcee7c35f35df0d82393",
+        "sha256sum" : "e83afbe78bcadf4a2e8534a921c3c4159e5cef7f03866763ea0d237b0fb0778a"
+      },
+      {
+        "name" : "BIOMD0000000314-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6992",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "65a0aca8c75e72f6cc3dfced670eec17",
+        "sha1sum" : "3a763900544951f1b9be1fc387369c7ef53452dc",
+        "sha256sum" : "59889f0721bb48d16783afb555f77826c5baff31795798051c53afca68561573"
+      },
+      {
+        "name" : "BIOMD0000000314.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6992",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b7bf8312733970821177921a48b009fc",
+        "sha1sum" : "5e6fa52745450ddd3d35d25a1080cde65fac4146",
+        "sha256sum" : "cb844efe2d371263a7e6156ce387078514466bd1c89d673ec28c415620e79616"
+      },
+      {
+        "name" : "BIOMD0000000314.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4606",
+        "mimeType" : "text/plain",
+        "md5sum" : "45ddfac5cb9529f0fa4e30bc686be3e5",
+        "sha1sum" : "29e57127096780837b18f71b1803a5617600f049",
+        "sha256sum" : "299741b7ec823ef9b4895f30cbc4cc8a7fb5f1eb8b9f2ab94f057e4b8f68d9e7"
+      },
+      {
+        "name" : "BIOMD0000000314.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "214432",
+        "mimeType" : "application/pdf",
+        "md5sum" : "2264fee7a01535af4f4603e614d17eff",
+        "sha1sum" : "5b670ba3e3684eff4c5512f10a5d2890f44461df",
+        "sha256sum" : "f780c0625d325068670cebff89822c735d74dcaa8209147ea0407872149795b6"
+      },
+      {
+        "name" : "BIOMD0000000314.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "82009",
+        "mimeType" : "image/png",
+        "md5sum" : "9eef33f302259ca9b6e4a6fe83522d04",
+        "sha1sum" : "73204ea984d5818f399ea8a6e2b87c4178b1a826",
+        "sha256sum" : "4b658107a868bc89ea1921611f6598253309a6df3aabc821f42eb28e33c092cb"
+      },
+      {
+        "name" : "BIOMD0000000314.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "31108",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "15ffc2e3eff4fa3ddf82612f48ee182b",
+        "sha1sum" : "d9f8fa8f0d034c2671260d62709042cf55cb0f8c",
+        "sha256sum" : "2a3c41ad3822ba0edcd4f4ee6d0e6c705c4c8f8aa6ebe38ebf6697d98a5e2356"
+      },
+      {
+        "name" : "BIOMD0000000314.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "57235",
+        "mimeType" : "application/xml",
+        "md5sum" : "3afea893b679b49c8a5ade953d8ff0fd",
+        "sha1sum" : "32700010eb573e0e225243936b807b4a66cbe70d",
+        "sha256sum" : "817e0e1babbe4cbddb7a13f979b29c658cb0c0d20dda63bd094291eaea0697c0"
+      },
+      {
+        "name" : "BIOMD0000000314_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "23985",
+        "mimeType" : "application/xml",
+        "md5sum" : "8f8e569bb9c167ab2661d4730055a08a",
+        "sha1sum" : "f2ad46a4234e50ec5d8bf9c4e20b312270a3aa8e",
+        "sha256sum" : "9b3ae49c19bc67b81a20b11d8be1f73f8fddba40ed8685e4d27e05fdeda8949f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21132",
+        "mimeType" : "image/png",
+        "md5sum" : "57616ae6a9f328ed3cfe98d1aefd8dcf",
+        "sha1sum" : "8fe4cd48a8b7e0726985206be76cebb79f44d9ec",
+        "sha256sum" : "42d7573ddf269f4ae39abf438c19dc7b23d1262a0449bed9bac1bc326df129af"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "166",
+        "mimeType" : "text/plain",
+        "md5sum" : "8c9ce65356acc23fd01f3a220d945903",
+        "sha1sum" : "aa26635c1e0241c94ecffbaac4bb7f53633d4a72",
+        "sha256sum" : "1905767abaf0d4cec493629c70fe943c71810abeea429c9c0bb9766c27a95a9a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "92a0200fdc14e5cf6466f0dae2e052d4",
+        "sha1sum" : "bf3dcef96a7025b80a1ca898f0912792fd3610d0",
+        "sha256sum" : "b4fd46aba0a9db27d871724bd89943b15a311295a30712501aec7a506622633f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "15639",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "26064d369df609cd670c4aab003b70dc",
+        "sha1sum" : "97d49f240b5d2c0055b05762877484fda1b0a5e6",
+        "sha256sum" : "e5521f27d55adcc73f3be89b3286f369f874a3d3fc5600519f82c5e48b60c733"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1296640037,
+        "submitter" : "Marcel Schilling",
+        "comment" : "Original import of Raia2010_IL13_L1236"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495110664,
+        "submitter" : "Marcel Schilling",
+        "comment" : "Current version of Raia2011 - IL13 L1236"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273317,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285029,
+  "submissionId" : "MODEL1102020002",
+  "publicationId" : "BIOMD0000000314",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Marcel Schilling",
+        "email" : "m.schilling@dkfz.de",
+        "affiliation" : "German Cancer Research Center",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1102020002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1102020002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000314",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000314"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21127196",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21127196"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:8567",
+      "name" : "Hodgkin's lymphoma",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:8567"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "REACT_22232",
+      "name" : "Signaling by Interleukins",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_22232"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa04630",
+      "name" : "Jak-STAT signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04630"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0004973",
+      "name" : "Hodgkin lymphoma cell line",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0004973"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007259",
+      "name" : "JAK-STAT cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007259"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

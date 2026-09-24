@@ -1,0 +1,329 @@
+{
+  "name" : "Goldbeter2008_Somite_Segmentation_Clock_Notch_Wnt_FGF",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is a model of the coupled Natch, Wnt and FGF modules as described in:      <br />                <b>A. Goldbeter and O. Pourquié</b>          ,      <em>Modeling the segmentation clock as a network of coupled oscillations in the Notch, Wnt and FGF signaling pathways.</em>          J Theor Biol. 2008 Jun 7;252(3):574-85, pubmed ID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18308339\">18308339</a>                <br />          To uncouple the modules remove the reaction      <em>MAx_trans_Xa</em>          and set      <em>vsFK=vsF</em>          .      <br />          The SBML version of the model was converted from the CellML      <a href=\"http://www.cellml.org/models/goldbeter_pourquie_2008_version02\">version</a>          by Catherine Lloyd for the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          .      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" class=\"external\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18308339",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Modeling the segmentation clock as a network of coupled oscillations in the Notch, Wnt and FGF signaling pathways.",
+    "affiliation" : "Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C.P. 231, B-1050 Brussels, Belgium. agoldbet@ulb.ac.be",
+    "synopsis" : "The formation of somites in the course of vertebrate segmentation is governed by an oscillator known as the segmentation clock, which is characterized by a period ranging from 30 min to a few hours depending on the organism. This oscillator permits the synchronized activation of segmentation genes in successive cohorts of cells in the presomitic mesoderm in response to a periodic signal emitted by the segmentation clock, thereby defining the future segments. Recent microarray experiments [Dequeant, M.L., Glynn, E., Gaudenz, K., Wahl, M., Chen, J., Mushegian, A., Pourquie, O., 2006. A complex oscillating network of signaling genes underlies the mouse segmentation clock. Science 314, 1595-1598] indicate that the Notch, Wnt and Fibroblast Growth Factor (FGF) signaling pathways are involved in the mechanism of the segmentation clock. By means of computational modeling, we investigate the conditions in which sustained oscillations occur in these three signaling pathways. First we show that negative feedback mediated by the Lunatic Fringe protein on intracellular Notch activation can give rise to periodic behavior in the Notch pathway. We then show that negative feedback exerted by Axin2 on the degradation of beta-catenin through formation of the Axin2 destruction complex can produce oscillations in the Wnt pathway. Likewise, negative feedback on FGF signaling mediated by the phosphatase product of the gene MKP3/Dusp6 can produce oscillatory gene expression in the FGF pathway. Coupling the Wnt, Notch and FGF oscillators through common intermediates can lead to synchronized oscillations in the three signaling pathways or to complex periodic behavior, depending on the relative periods of oscillations in the three pathways. The phase relationships between cycling genes in the three pathways depend on the nature of the coupling between the pathways and on their relative autonomous periods. The model provides a framework for analyzing the dynamics of the segmentation clock in terms of a network of oscillating modules involving the Wnt, Notch and FGF signaling pathways.",
+    "year" : 2008,
+    "month" : "6",
+    "volume" : "252",
+    "issue" : "3",
+    "pages" : "574-585",
+    "link" : "http://identifiers.org/pubmed/18308339",
+    "authors" : [
+      {
+        "name" : "Albert Goldbeter",
+        "institution" : "Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C.P. 231, B-1050 Brussels, Belgium. agoldbet@ulb.ac.be"
+      },
+      {
+        "name" : "Olivier Pourquié",
+        "orcid" : "0000-0001-5189-1227"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000201_url.xml",
+        "description" : "SBML L2V3 representation of Goldbeter2008_Somite_Segmentation_Clock_Notch_Wnt_FGF",
+        "fileSize" : "82698",
+        "mimeType" : "application/xml",
+        "md5sum" : "e08f5715e183f032cd88590c28df17b4",
+        "sha1sum" : "cbdf84fd1f00869504968d8d3292919e31c7b867",
+        "sha256sum" : "6e1861d9c8d149054352bb3087e87a02be6b554a96df2c438106fa05e950f3ca"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000201-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "48024",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "338feadf7378ed91bc1c88e0daeedc61",
+        "sha1sum" : "21cf0af976a5e1f703b169b8e2b027ad331c8677",
+        "sha256sum" : "add1da7f6969084974449447060b2f85069ec6a15d29ea7b6f9c67f8671bf4cc"
+      },
+      {
+        "name" : "BIOMD0000000201-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "68625",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "766c9ebabd8e9483e07c94d35f8f09cd",
+        "sha1sum" : "c849a16516eb875411a6e05acb1b5c9d891acfba",
+        "sha256sum" : "d5d5af30a49514a0aca0015a1c7fb37d8d84324ea855592fff17f036f84fa9e8"
+      },
+      {
+        "name" : "BIOMD0000000201-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16526",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6cbc8a192f7e09fa350800ef8bbbceb0",
+        "sha1sum" : "7846278325dfdcd87e4b733c77473f37cbf7a0b9",
+        "sha256sum" : "1b447f70707a50ee36fb867eeabe100ec1027ad05c785e165663bd8ebe35ce51"
+      },
+      {
+        "name" : "BIOMD0000000201.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16526",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "467a353a15a563dca571f9f54cc61f70",
+        "sha1sum" : "526e4066f28aa1e79d5d9de802bb85c3252882c0",
+        "sha256sum" : "6ba37b7e3d99e84998f20c10ae5f8bfe523cee2a1d4f223961230aab765985b4"
+      },
+      {
+        "name" : "BIOMD0000000201.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11926",
+        "mimeType" : "text/plain",
+        "md5sum" : "866061f5f9c32b293934acef0b454e4e",
+        "sha1sum" : "f2f33d98ae20e7b4bec56c08ac2bb8aefd5e3e60",
+        "sha256sum" : "6baff003429f0ac5346aaa0cece50a644b424d6f5e2397e6e129b856793c808e"
+      },
+      {
+        "name" : "BIOMD0000000201.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "284857",
+        "mimeType" : "application/pdf",
+        "md5sum" : "bc4dd9f85290b81c79264560e8d086f2",
+        "sha1sum" : "8e64133a85ad90f72e1164e77bba15cc74a953db",
+        "sha256sum" : "b44aad01abc5f587f0ccb143960bf91e08ef9e5b8a012bd582bd2940c8b60add"
+      },
+      {
+        "name" : "BIOMD0000000201.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "220455",
+        "mimeType" : "image/png",
+        "md5sum" : "ac2f4c5c3aa5c7242998a286e6db9f97",
+        "sha1sum" : "7c07828483d1b81e16ad5439e245f7265db7f045",
+        "sha256sum" : "a9b36b2bc023087923b82e0df119d48a8fa0fd2236616182e8d6a70cdee7d232"
+      },
+      {
+        "name" : "BIOMD0000000201.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "85537",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "eb684ad34ac2d34d26ed495d27fee78e",
+        "sha1sum" : "d590544975fb740c8d4c2034b18622c4a3606a6d",
+        "sha256sum" : "eae2d7660a762f28435328cffaeb918c04499b7c7573e7b07677e98edbc940a2"
+      },
+      {
+        "name" : "BIOMD0000000201.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "105254",
+        "mimeType" : "application/xml",
+        "md5sum" : "7405d55ea15cc9b014b791e549d3ed25",
+        "sha1sum" : "3257219cf51785949042e4bef634629a10d5b34e",
+        "sha256sum" : "928c8b3776e28dbb8b97c287ec6a2aeaff0465f0a0fafabbc634a285271b0164"
+      },
+      {
+        "name" : "BIOMD0000000201_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "73051",
+        "mimeType" : "application/xml",
+        "md5sum" : "aa90b85109b3789660dae06da601e39e",
+        "sha1sum" : "e05cebff1240e1584a935f1c5abc4454d1a5e48d",
+        "sha256sum" : "cec1ddbefda3e0ca9ec58dafddd4ab125d8ac9cb147e7693db7d5cc39d5dcfaa"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19159",
+        "mimeType" : "image/png",
+        "md5sum" : "71e1c11f20ee5927fb941040c3e03d51",
+        "sha1sum" : "1810f0a7048c173af2122547786df0d7086e3b9c",
+        "sha256sum" : "ddd789559b4a399ceee466167e6b1444d75a9525e84fb9866cc4ce2ae14216cd"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "54",
+        "mimeType" : "text/plain",
+        "md5sum" : "97c1884058b472de10b260e51dc0a0c8",
+        "sha1sum" : "78712071be77d95db63318bd2ae1fff0496ddc12",
+        "sha256sum" : "17538f9e7f4751dbd8d7f5b3477ae4aefe771c1cc39b3eb00a9fd21ecbc5f38c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "069e05ca18271b7ad9c89c6771b163c1",
+        "sha1sum" : "d0bc9655bd2cb23c168fab234e149cfa39c976de",
+        "sha256sum" : "6ae1f90bdca32d4c727341416130905275754e868ebef050c979821d6bf3bbda"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3889",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "da2841c15fd5132d705da0bbf70b3522",
+        "sha1sum" : "b15f06d4849f0b0682f7c2f6ef3ef412ccabf6e0",
+        "sha256sum" : "afb74cba319b3483638e34ba22ae8d7b18edbec364fbc0b1017311f57f8910aa"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1226415402,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of BIOMD0000000201.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1370456235,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Goldbeter2008_Somite_Segmentation_Clock_Notch_Wnt_FGF"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270132,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284934,
+  "submissionId" : "MODEL6415057828",
+  "publicationId" : "BIOMD0000000201",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6415057828",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6415057828"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000201",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000201"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18308339",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18308339"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0007219",
+      "name" : "Notch signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007219"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0016055",
+      "name" : "Wnt signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0016055"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0008543",
+      "name" : "fibroblast growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008543"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0001756",
+      "name" : "somitogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0001756"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "ko04330",
+      "name" : "Notch signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04330"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "ko04310",
+      "name" : "Wnt signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04310"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "ko04010",
+      "name" : "MAPK signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04010"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "REACT_299.2",
+      "name" : "Signaling by NOTCH",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_299.2"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "REACT_9470.2",
+      "name" : "Signaling by FGFR",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_9470.2"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "REACT_11045.1",
+      "name" : "Signaling by Wnt",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_11045.1"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "32524",
+      "name" : "Amniota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/32524"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

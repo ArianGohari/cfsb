@@ -1,0 +1,362 @@
+{
+  "name" : "Radosavljevic2009_BioterroristAttack_PanicProtection_1",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />        <strong>Epidemics of panic during a bioterrorist attack--a mathematical model.</strong>        <br />          Radosavljevic V, Radunovic D, Belojevic G.      <em>Med Hypotheses</em>          2009 Sep;73(3):342-6      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19423234\">19423234</a>          ,      <br />        <strong>Abstract:</strong>        <br />          A bioterrorist attacks usually cause epidemics of panic in a targeted population. We have presented epidemiologic aspect of this phenomenon as a three-component model--host, information on an attack and social network. We have proposed a mathematical model of panic and counter-measures as the function of time in a population exposed to a bioterrorist attack. The model comprises ordinary differential equations and graphically presented combinations of the equations parameters. Clinically, we have presented a model through a sequence of psychic conditions and disorders initiated by an act of bioterrorism. This model might be helpful for an attacked community to timely and properly apply counter-measures and to minimize human mental suffering during a bioterrorist attack.      </p>        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>        <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "19423234",
+    "journal" : "Medical hypotheses",
+    "title" : "Epidemics of panic during a bioterrorist attack--a mathematical model.",
+    "affiliation" : "Military Institute of Preventive Medicine, Belgrade, Serbia.",
+    "synopsis" : "A bioterrorist attacks usually cause epidemics of panic in a targeted population. We have presented epidemiologic aspect of this phenomenon as a three-component model--host, information on an attack and social network. We have proposed a mathematical model of panic and counter-measures as the function of time in a population exposed to a bioterrorist attack. The model comprises ordinary differential equations and graphically presented combinations of the equations parameters. Clinically, we have presented a model through a sequence of psychic conditions and disorders initiated by an act of bioterrorism. This model might be helpful for an attacked community to timely and properly apply counter-measures and to minimize human mental suffering during a bioterrorist attack.",
+    "year" : 2009,
+    "month" : "9",
+    "volume" : "73",
+    "issue" : "3",
+    "pages" : "342-346",
+    "link" : "http://identifiers.org/pubmed/19423234",
+    "authors" : [
+      {
+        "name" : "Vladan Radosavljevic",
+        "institution" : "Military Institute of Preventive Medicine, Belgrade, Serbia."
+      },
+      {
+        "name" : "Desanka Radunovic"
+      },
+      {
+        "name" : "Goran Belojevic",
+        "orcid" : "0000-0002-5463-4397"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Radosavljevic2009.xml",
+        "description" : "SBML L2V4 representation of Radosavljevic2009 BioterroristAttack_PanicProtection",
+        "fileSize" : "14268",
+        "mimeType" : "application/xml",
+        "md5sum" : "1888b16d51722e7e00818b44e2a1bee0",
+        "sha1sum" : "2c0f6dcf90d8dbbe999f212f15e3d351ad0ffaac",
+        "sha256sum" : "ec6a11497ff5ccb057b445ff17b1fb6d9a13ec77ba1eec4531b8e14c6cd3b21c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL1203070000-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3176",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ec0b50c5cda80b8d501b44bf3e8b1774",
+        "sha1sum" : "b2e88eafbbcbe09fab1a28c6939d1d4a182e92bb",
+        "sha256sum" : "8bef41aa66a5e6c55afc1c1ad6fb0e46c58f64e7c87dcab3dc2eca61f968287b"
+      },
+      {
+        "name" : "MODEL1203070000-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "3491",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9323a7fa076954d8e5d1fda1dcba488f",
+        "sha1sum" : "5e5c916faa12e94878912f29e3851794b58c7a66",
+        "sha256sum" : "0aaaabdc01da4d330d6e930095589cfb5bd68f95c9c5437e37872ba8f45f7871"
+      },
+      {
+        "name" : "MODEL1203070000-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3048",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f0d1a2bd3e03d2eddd00718e67c43117",
+        "sha1sum" : "a039875f2da592fd8aa5e25702a13e1e6d1b2012",
+        "sha256sum" : "957c27c58ae655ac63e5e1a76f1176304bff47d6043ba874e9393381b938f208"
+      },
+      {
+        "name" : "MODEL1203070000-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3048",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "62a334bcd2897f1d6d355b57b924a5ac",
+        "sha1sum" : "6fdc72ef24e192d47974c3196d99f0962eed6ef2",
+        "sha256sum" : "92b6a8a82b75817ba64a78c867e8a1c088a11be2c80921f6fd5bccd23106e6c4"
+      },
+      {
+        "name" : "MODEL1203070000.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "2170",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c469664ee8cd60ec52fb5be03e9ad64f",
+        "sha1sum" : "3623413dc9f800a8e46cb9d77f77f4d6af948f75",
+        "sha256sum" : "e4353abc43afca1f5dbdbecf96e46f00704b4fadd5337ccac589855b5aeff163"
+      },
+      {
+        "name" : "MODEL1203070000.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1258",
+        "mimeType" : "text/plain",
+        "md5sum" : "c5a78e6c77789e66c5529f3b183c55f1",
+        "sha1sum" : "5bd4baca436194e58c09cf29368ff300f8a5e8ac",
+        "sha256sum" : "c4dc0ac2d8959c4e7731c442f5c2ce7d3860aa3627de5e872bad7badc1f69ab6"
+      },
+      {
+        "name" : "MODEL1203070000.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "137276",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3dc0126ef99ada8e0a47805de2b9c1e4",
+        "sha1sum" : "5ddafcb3d3d45fbe0a4c232908e317024407f602",
+        "sha256sum" : "159d2c544d923d84a38d99c5a1dfbc70c745e47817d064601bc2914965ebedfe"
+      },
+      {
+        "name" : "MODEL1203070000.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "MODEL1203070000.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1005",
+        "mimeType" : "text/plain",
+        "md5sum" : "826bb1cfec50c8a6fa854af645c7996b",
+        "sha1sum" : "b636d0e290337edd8ed9c1aa2f1ac843f4de76e1",
+        "sha256sum" : "8928ce908c39f195515a0d9fd743669aa5dc36ccdb27ba3769df78ab30dc4a7a"
+      },
+      {
+        "name" : "MODEL1203070000.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "MODEL1203070000_url.xml",
+        "description" : "old xml file",
+        "fileSize" : "5823",
+        "mimeType" : "application/xml",
+        "md5sum" : "c7909fe51c1b2f019a7981ef489d693d",
+        "sha1sum" : "2c439d39134c61ad3b203e54a3e7b96fd886d6f8",
+        "sha256sum" : "930e3877e7661df5d7bba01c07ec99fc02b8771d5b3394cdd0851a183015cdef"
+      },
+      {
+        "name" : "Radosavljevic2009-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "3934",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "85caae4222e1f81aaeb424faab5c21e5",
+        "sha1sum" : "bd1ab6a72d07bb8e6e7bcaa013a38d8815625d0c",
+        "sha256sum" : "8b6a5f277ed0dcba07e8f904c40ecc0267131a6691889212d300ce08e7e2e1a7"
+      },
+      {
+        "name" : "Radosavljevic2009-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "4262",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b1c127b6fe9faa58775425c7c1504bbb",
+        "sha1sum" : "947cd45f0c22975eebd1e5614da0e856bcb2ba5f",
+        "sha256sum" : "a0b02406cfc4c769a8955cd1edddda41e1b883f3d8f28e6847f7bd1603234d0e"
+      },
+      {
+        "name" : "Radosavljevic2009-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3106",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4044483637ea530cd6a1a2354e25f178",
+        "sha1sum" : "0c2c1e15c57d85136c3e26a93ff64cb751d04c5c",
+        "sha256sum" : "721fab909fcf3f5c7dadeef791c8db5af440cadb409efc9dad5247980ea69087"
+      },
+      {
+        "name" : "Radosavljevic2009-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3106",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e978c4e10725a23ad8e3a91e23c4d222",
+        "sha1sum" : "88587d39f67ff6c25edc9d9bc04b85832aba5d83",
+        "sha256sum" : "f45073fd511a385973dfc5f000b556c8b071d4c204508dfff5457fa06c365f9b"
+      },
+      {
+        "name" : "Radosavljevic2009.cps",
+        "description" : "COPASI version 4.24 (Build 197) Radosavljevic2009_BioterroristAttack_PanicProtection",
+        "fileSize" : "37224",
+        "mimeType" : "application/xml",
+        "md5sum" : "d930cc17ce7254533651f30957019c78",
+        "sha1sum" : "211544511ddea208823db202e8233825e680706c",
+        "sha256sum" : "d4120a0398c5808c81cfbbbca1bf234a0c796d6d0b65d2d42c28f5278fecc0e0"
+      },
+      {
+        "name" : "Radosavljevic2009.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1318",
+        "mimeType" : "text/plain",
+        "md5sum" : "48f5d24bfb3c38c81dc3f5682d69cef8",
+        "sha1sum" : "04c993c43dc9a8e36f8b4575a68009e24d76ce45",
+        "sha256sum" : "0edcf609e879409955a8d9d7ce86d2545be7f9c8b2552a8a886dedeb6710d991"
+      },
+      {
+        "name" : "Radosavljevic2009.sedml",
+        "description" : "SEDML L1V2 Radosavljevic2009_BioterroristAttack_PanicProtection (additionally CRBM-validated and adjusted).",
+        "fileSize" : "6628",
+        "mimeType" : "application/xml",
+        "md5sum" : "6cf59d6cc0d89035d8518e866560565a",
+        "sha1sum" : "41e6a82068cf49223795640dfb30940263a33805",
+        "sha256sum" : "b5aa7f0631ef90fff75c68ad770bee594b6ff6b1cac063af1eb2347c605915f5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "346725",
+        "mimeType" : "image/png",
+        "md5sum" : "fa61015639d0f16af5f0562179a71fc4",
+        "sha1sum" : "dcdbef82c1ac1499ffd7f0e9851a95234b938e68",
+        "sha256sum" : "3edd6eb2a20ca8ae7c954e78a4fd282b5c19fb789d8b22a5ec646a0984d44115"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "607",
+        "mimeType" : "text/plain",
+        "md5sum" : "51739e7d1eed45594dabfbd98a5b88b5",
+        "sha1sum" : "b39d22c37cf34a865fec53d883d512f6f40c3c52",
+        "sha256sum" : "f8348e09dd172ba7b45d0de9b0606be02428983b61b6649e651576503eefd8e0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2769",
+        "mimeType" : "application/xml",
+        "md5sum" : "410e70defaecb7288fce3f6479c4deab",
+        "sha1sum" : "ffc0adf3c04766384605e9300181dc814c05190c",
+        "sha256sum" : "740f37de172a0d8636aeefdf332aefb00163d1dd498d5faf280fbce2aef76583"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4095",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "abbda872b9f0ee3b7caf0101f33b9405",
+        "sha1sum" : "275a734d6ecf388fe43dc797abbaab6be0dc5919",
+        "sha256sum" : "45446fe14278f25c48b83fc8e13435df535039584a39fed3b605099d56381bfc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1331130721,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1331130924,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Radosavljevic2009_BioterroristAttack_PanicProtection"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1571736053,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000836"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724290887,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285509,
+  "submissionId" : "MODEL1203070000",
+  "publicationId" : "BIOMD0000000836",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mohammad Umer Sharif Shohan",
+        "email" : "msharifshohan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0003-3985-2879",
+        "external" : false
+      },
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "19423234",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19423234"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1203070000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1203070000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000836",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000836"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042596",
+      "name" : "fear response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042596"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "0004262",
+      "name" : "panic disorder",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0004262"
+    }
+  ]
+}

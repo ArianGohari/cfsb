@@ -1,0 +1,316 @@
+{
+  "name" : "Radulescu2008_NFkB_hierarchy_M_14_25_28_Lipniacky",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <html xmlns=\"http://www.w3.org/1999/xhtml\">        <body>          <h1>NFkB model M(14,25,28) - Lipniacky's NFkB model</h1>          <p>This is a model of NFkB pathway functioning from hierarchy of models of decreasing complexity,created to demonstrate application of model reduction methods proposed in </p>          <p>      This a model from the article:      <br />          <strong>Robust simplifications of multiscale biochemical networks. </strong>          <br />Radulescu O, Gorban A., Zinovyev A., Lilienbaum. A.      <em>BMC Syst Biol</em>2008:2:86       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18854041\">18854041</a>,      <br />          <strong>Abstract:</strong>          <br />BACKGROUND: Cellular processes such as metabolism, decision making in development and differentiation, signalling, etc., can be modeled as large networks of biochemical reactions. In order to understand the functioning of these systems, there is a strong need for general model reduction techniques allowing to simplify models without loosing their main properties. In systems biology we also need to compare models or to couple them as parts of larger models. In these situations reduction to a common level of complexity is needed. RESULTS: We propose a systematic treatment of model reduction of multiscale biochemical networks. First, we consider linear kinetic models, which appear as \"pseudo-monomolecular\" subsystems of multiscale nonlinear reaction networks. For such linear models, we propose a reduction algorithm which is based on a generalized theory of the limiting step that we have developed in 1. Second, for non-linear systems we develop an algorithm based on dominant solutions of quasi-stationarity equations. For oscillating systems, quasi-stationarity and averaging are combined to eliminate time scales much faster and much slower than the period of the oscillations. In all cases, we obtain robust simplifications and also identify the critical parameters of the model. The methods are demonstrated for simple examples and for a more complex model of NF-kappaB pathway. CONCLUSION: Our approach allows critical parameter identification and produces hierarchies of models. Hierarchical modeling is important in \"middle-out\" approaches when there is need to zoom in and out several levels of complexity. Critical parameter identification is an important issue in systems biology with potential applications to biological control and therapeutics. Our approach also deals naturally with the presence of multiple time scales, which is a general property of systems biology models.   </p>          <p> This model is originally proposed by Lipniacki 2004 (Lipniacki T, Paszek P, Brasier AR, Luxon B, Kimmel M.(2004). Mathematical model of NF-kappaB regulatory module.  J. Theor. Biol. 228 (2): 195-215. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15094015\">15094015</a>        </p>        <p>The models are provided in CellDesigner v3.5format. The name of the model M(x,y,z) should bedeciphered as following: </p>        <p>x - number of speciesy - number of reactionsz - number of parameters</p>        <p>Simulation protocol:The model can be simulated in CellDesignerdirectly, or in any simulator supportingevents. The simulation period should beset up in 20 hours (t=72000 sec). This model reproduces Figure 3b (M(14,25,28)) of the publication. </p>        <p>For additional information please contactAndrei.Zinovyev at curie.fr   </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </html></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18854041",
+    "journal" : "BMC systems biology",
+    "title" : "Robust simplifications of multiscale biochemical networks.",
+    "affiliation" : "IRMAR (CNRS UMR 6025), Université de Rennes 1, Rennes, France. ovidiu.radulescu@univ-rennes1.fr",
+    "synopsis" : "<h4>Background</h4>Cellular processes such as metabolism, decision making in development and differentiation, signalling, etc., can be modeled as large networks of biochemical reactions. In order to understand the functioning of these systems, there is a strong need for general model reduction techniques allowing to simplify models without loosing their main properties. In systems biology we also need to compare models or to couple them as parts of larger models. In these situations reduction to a common level of complexity is needed.<h4>Results</h4>We propose a systematic treatment of model reduction of multiscale biochemical networks. First, we consider linear kinetic models, which appear as \"pseudo-monomolecular\" subsystems of multiscale nonlinear reaction networks. For such linear models, we propose a reduction algorithm which is based on a generalized theory of the limiting step that we have developed in 1. Second, for non-linear systems we develop an algorithm based on dominant solutions of quasi-stationarity equations. For oscillating systems, quasi-stationarity and averaging are combined to eliminate time scales much faster and much slower than the period of the oscillations. In all cases, we obtain robust simplifications and also identify the critical parameters of the model. The methods are demonstrated for simple examples and for a more complex model of NF-kappaB pathway.<h4>Conclusion</h4>Our approach allows critical parameter identification and produces hierarchies of models. Hierarchical modeling is important in \"middle-out\" approaches when there is need to zoom in and out several levels of complexity. Critical parameter identification is an important issue in systems biology with potential applications to biological control and therapeutics. Our approach also deals naturally with the presence of multiple time scales, which is a general property of systems biology models.",
+    "year" : 2008,
+    "month" : "10",
+    "volume" : "2",
+    "pages" : "86",
+    "link" : "http://identifiers.org/pubmed/18854041",
+    "authors" : [
+      {
+        "name" : "Ovidiu Radulescu",
+        "orcid" : "0000-0001-6453-5707"
+      },
+      {
+        "name" : "Alexander N Gorban",
+        "orcid" : "0000-0001-6224-1430"
+      },
+      {
+        "name" : "Andrei Zinovyev",
+        "orcid" : "0000-0002-9517-7284"
+      },
+      {
+        "name" : "Alain Lilienbaum",
+        "orcid" : "0000-0002-6437-3186"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000226_url.xml",
+        "description" : "SBML L2V1 representation of Radulescu2008_NFkB_hierarchy_M_14_25_28_Lipniacky",
+        "fileSize" : "138686",
+        "mimeType" : "application/xml",
+        "md5sum" : "202495d9d2e9c424f6501390e623c9ff",
+        "sha1sum" : "51bc23141ad9302f372f1feb4730bf5534290628",
+        "sha256sum" : "0633a045b2ed71187d6b66b4defe00e1f2a1ae787cf003757e5883e070e17697"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000226-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "39730",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c113bf2754a0edaf7f9f0495631c4e58",
+        "sha1sum" : "7d6bb0c32048bedd46c17ea777eae33456d6dcb1",
+        "sha256sum" : "634411dbd4c2cf92dee091348224079e8bfd751cd27175687bcd37964e1a130c"
+      },
+      {
+        "name" : "BIOMD0000000226-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "63711",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "66cd4ba247b578c2d98f548c1c9fcbe9",
+        "sha1sum" : "71796831a31bd0566dd1a44df9915a3343d73780",
+        "sha256sum" : "4c520d5dfbdf22890494a0537a8ce3dfbd3355e056fcb9a0d8c5a9c1c69016b6"
+      },
+      {
+        "name" : "BIOMD0000000226-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9790",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "88fc78588e79b26a74bb928a90ce9433",
+        "sha1sum" : "dff41aa8fed876710fa2f08f1c80f09fe751212f",
+        "sha256sum" : "647ed49066502179cb826321ad75c54011ff1f15f6ab84d05ab6956b6408406a"
+      },
+      {
+        "name" : "BIOMD0000000226-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9790",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "095eb39f05c938eb4daa7e7ca761e542",
+        "sha1sum" : "d118ea835736e137aec76b4448721858f78cfce5",
+        "sha256sum" : "48ac79a6ca4f14ac93b2259fad22cf5226c50a1026e6c523e12ff05326ea9397"
+      },
+      {
+        "name" : "BIOMD0000000226.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9790",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "095eb39f05c938eb4daa7e7ca761e542",
+        "sha1sum" : "d118ea835736e137aec76b4448721858f78cfce5",
+        "sha256sum" : "48ac79a6ca4f14ac93b2259fad22cf5226c50a1026e6c523e12ff05326ea9397"
+      },
+      {
+        "name" : "BIOMD0000000226.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7029",
+        "mimeType" : "text/plain",
+        "md5sum" : "dddb13e32fe90e931fb454de5e982cf6",
+        "sha1sum" : "ded658bb9777bd2460714a2f5329fc021fc104f1",
+        "sha256sum" : "c3a304ad80009840ef4142aa8b00f63ba8d04ee77c231361add8040230218a8f"
+      },
+      {
+        "name" : "BIOMD0000000226.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "242310",
+        "mimeType" : "application/pdf",
+        "md5sum" : "23f506774ba52b36733d56cd63d7dabe",
+        "sha1sum" : "b9610031802c90c0f930fac73d7af6c9f5d304b6",
+        "sha256sum" : "5fe08d07309a205e71769fefe00b65d2b8b94fe91ebfee7bb12e01724edf88b3"
+      },
+      {
+        "name" : "BIOMD0000000226.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "209950",
+        "mimeType" : "image/png",
+        "md5sum" : "7d8b14e40b6ea509a58d0d6302d73259",
+        "sha1sum" : "b4540dbceae4f0c596cab4619eb51219a6225b91",
+        "sha256sum" : "5fbf2f24c8cddb26cf7bc308a49e24beee53a098f4ad96c94fc6931af254b531"
+      },
+      {
+        "name" : "BIOMD0000000226.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5399",
+        "mimeType" : "text/plain",
+        "md5sum" : "efb9a0253d07af48d0d6bd6f74fa7575",
+        "sha1sum" : "a5cf5baadb5ffcdd9d118af513ed751313b59f76",
+        "sha256sum" : "bdfaf28128634163668311c44f8022715d496e4beda324cf9fa7f906c62b830c"
+      },
+      {
+        "name" : "BIOMD0000000226.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "58547",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "39f81a0cad341ca72a7e6abbb6ebd4b2",
+        "sha1sum" : "659b80c3a9277ab692129d17dda5059e60e84000",
+        "sha256sum" : "e82f5b8d3c6f94fabc9cb398b11d72fbb00e4c48fd7d0532bd7f810c6a7e2934"
+      },
+      {
+        "name" : "BIOMD0000000226.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "75814",
+        "mimeType" : "application/xml",
+        "md5sum" : "4050f6b77e4f70bf453a659c3edd71b7",
+        "sha1sum" : "a5d288764ff4478b64bffaff161a3e152acc6aa4",
+        "sha256sum" : "f1c77c1a1a61d1caeb93d3ff625f49e42a17639e7e11aeb7cf6e1a18552e739d"
+      },
+      {
+        "name" : "BIOMD0000000226_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "45783",
+        "mimeType" : "application/xml",
+        "md5sum" : "066628815fb5c100a756fc8b6fc12076",
+        "sha1sum" : "103ae6dfc26aa699186cd6559e70a911931173d8",
+        "sha256sum" : "9a67d3c19286479791386cb70707eb1d7588c6391de78e788ea486270f0c0894"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "15654",
+        "mimeType" : "image/png",
+        "md5sum" : "044d24f913029576f0f03e6e6c81b7a9",
+        "sha1sum" : "afafb60f0a9a22c276bb8e7d4816217b3837e78b",
+        "sha256sum" : "d180a79b7d53cc15f050aff4e7bca787ba4cc07b4f667289c10e4a4925d05476"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "145",
+        "mimeType" : "text/plain",
+        "md5sum" : "962531cb201b3d7ba2316c367bbc5fd5",
+        "sha1sum" : "4883c00dbc2bbe7218a00f9dcaa2cea6231d17b1",
+        "sha256sum" : "b09a2418991eb1a06e2a10127c3f657af1982985d7adc30e5906f5f3ecf50908"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "80badca6321d9b3ff94f4302c37c1f54",
+        "sha1sum" : "945fc1567f6f4c6166ab518ae33e166da5efba14",
+        "sha256sum" : "a04fb6147920c74ef8cd40f364829f4080f0feec2453aff97cfe7b11410628f0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6706",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6d76ea3e352958f46ec3e1aeb88cdb08",
+        "sha1sum" : "25abd4f1fb60c3a33d0681c987a6c6b9e28e9ab7",
+        "sha256sum" : "1b59390e9438c7a894e08793e67bc1f811919a963fce4ec736094bab134f5a5b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1235752092,
+        "submitter" : "Andrei Zinovyev",
+        "comment" : "Original import of Radulescu2008_NFkB_hierarchy_M_14_25_28_Lipniacky"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401807354,
+        "submitter" : "Andrei Zinovyev",
+        "comment" : "Current version of Radulescu2008_NFkB_hierarchy_M_14_25_28_Lipniacky"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270837,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284952,
+  "submissionId" : "MODEL7743386835",
+  "publicationId" : "BIOMD0000000226",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Andrei Zinovyev",
+        "email" : "andrei.zinovyev@curie.fr",
+        "affiliation" : "Institut Curie",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7743386835",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7743386835"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000226",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000226"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18854041",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18854041"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000140",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000140"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000139",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000139"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "15094015",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15094015"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "mmu04660",
+      "name" : "T cell receptor signaling pathway - Mus musculus (mouse)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/mmu04660"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007249",
+      "name" : "I-kappaB kinase/NF-kappaB signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007249"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

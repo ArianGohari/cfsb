@@ -1,0 +1,277 @@
+{
+  "name" : "Novak2001_FissionYeast_CellCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces the time evolution of several species as depicted in Fig 4 of the paper. Events have been used to reset  cell mass when the value of M-phase promoting factor (MPF) decreases through 0.1. The model was successfully tested on Cell Designer.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12779461",
+    "journal" : "Chaos (Woodbury, N.Y.)",
+    "title" : "Mathematical model of the cell division cycle of fission yeast.",
+    "affiliation" : "Department of Agricultural Chemical Technology, Budapest University of Technology and Economics, Szt Gellert ter 4, 1111 Budapest, Hungary.",
+    "synopsis" : "Much is known about the genes and proteins controlling the cell cycle of fission yeast. Can these molecular components be spun together into a consistent mechanism that accounts for the observed behavior of growth and division in fission yeast cells? To answer this question, we propose a mechanism for the control system, convert it into a set of 14 differential and algebraic equations, study these equations by numerical simulation and bifurcation theory, and compare our results to the physiology of wild-type and mutant cells. In wild-type cells, progress through the cell cycle (G1-->S-->G2-->M) is related to cyclic progression around a hysteresis loop, driven by cell growth and chromosome alignment on the metaphase plate. However, the control system operates much differently in double-mutant cells, wee1(-) cdc25Delta, which are defective in progress through the latter half of the cell cycle (G2 and M phases). These cells exhibit \"quantized\" cycles (interdivision times clustering around 90, 160, and 230 min). We show that these quantized cycles are associated with a supercritical Hopf bifurcation in the mechanism, when the wee1 and cdc25 genes are disabled. (c) 2001 American Institute of Physics.",
+    "year" : 2001,
+    "month" : "3",
+    "volume" : "11",
+    "issue" : "1",
+    "pages" : "277-286",
+    "link" : "http://identifiers.org/pubmed/12779461",
+    "authors" : [
+      {
+        "name" : "Béla Novák",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      },
+      {
+        "name" : "Zsuzsa Pataki"
+      },
+      {
+        "name" : "Andrea Ciliberto"
+      },
+      {
+        "name" : "John J. Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000111_url.xml",
+        "description" : "SBML L2V4 representation of Novak2001_FissionYeast_CellCycle",
+        "fileSize" : "55301",
+        "mimeType" : "application/xml",
+        "md5sum" : "46a0ab3c9747f9eaaa21ec097b42997b",
+        "sha1sum" : "4f11749eeccbc1cdc88fbdea728206bccd5c9dd4",
+        "sha256sum" : "90670e4510f6d950bcf52a61f6cca2958d0b48e41ec6d0a7145797a7212fdab9"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000111-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "25839",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0bd16d46293fc7acd6f01b982c389bc6",
+        "sha1sum" : "285ae1ca5d1f2e1a10c22f60b8bcef7038b36822",
+        "sha256sum" : "aac8837675f1a10c8d0e2f2e127a1159092d4b3c4ccf8d72e9ba59d4e3a8ed75"
+      },
+      {
+        "name" : "BIOMD0000000111-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "35749",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4ad3e7f8fac1aa162de10332c0422a1e",
+        "sha1sum" : "4021f0345072849eec722d71544c2dc757c88139",
+        "sha256sum" : "3ae6faa169c464c85676b47e82285cf4be752e02c3df3f33a55b1ad3b4b4c385"
+      },
+      {
+        "name" : "BIOMD0000000111-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11547",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2b660d68560d2605d497ff466f7fc567",
+        "sha1sum" : "5ba7d0923694fc829ca1e8a271c5e67cac6bf070",
+        "sha256sum" : "67c7c59a345ca39ecbaffc3f16c881ccaea4f1a9fe689f93f94ffee070a293e2"
+      },
+      {
+        "name" : "BIOMD0000000111-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11547",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1883a4d98427f0fd40e4560cb8fa8202",
+        "sha1sum" : "b7b916608d09b18b02346dce0dcd3224cd678cfb",
+        "sha256sum" : "10afe411cb35884bcae4a475012ebc8db5a99ed7bd029a36a26ece704a7325ff"
+      },
+      {
+        "name" : "BIOMD0000000111.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "11547",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1883a4d98427f0fd40e4560cb8fa8202",
+        "sha1sum" : "b7b916608d09b18b02346dce0dcd3224cd678cfb",
+        "sha256sum" : "10afe411cb35884bcae4a475012ebc8db5a99ed7bd029a36a26ece704a7325ff"
+      },
+      {
+        "name" : "BIOMD0000000111.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "214315",
+        "mimeType" : "application/pdf",
+        "md5sum" : "02f30eccab5b737bbdd4d59c81d58b66",
+        "sha1sum" : "427a739b83b80327951fdbb47d1db02998ea2dde",
+        "sha256sum" : "75e1c5d11fab06148684b72e671dd72c6d3fc7c46854ce29bb9daeb4171d7c07"
+      },
+      {
+        "name" : "BIOMD0000000111.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "116466",
+        "mimeType" : "image/png",
+        "md5sum" : "6477f213e461797acaeb38fb608d8246",
+        "sha1sum" : "a4d4704311ad4590d5ff632d8d4924486f671070",
+        "sha256sum" : "141612572a59c24276336249dd445f4c25014016d262b8bf00c0536e89b73937"
+      },
+      {
+        "name" : "BIOMD0000000111.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "41676",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2bbd6359a0fb7442d1a081c357e65b1c",
+        "sha1sum" : "2f8f40ed708bdbb9ed0adcf1ad4118d1c62a4e48",
+        "sha256sum" : "e09fd2ab2b1e7ccc394ddb1f4fdc4d820afe48fb3eda5841d171d515125846d3"
+      },
+      {
+        "name" : "BIOMD0000000111_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "45311",
+        "mimeType" : "application/xml",
+        "md5sum" : "1bf75c277906fb2e99426e32a3e7d053",
+        "sha1sum" : "607dcc35c96e79d8c96389601374fb17f9fda7c2",
+        "sha256sum" : "1255e24c50680982fbc481793580510950cff69b94381795e5d29a778e238950"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "121635",
+        "mimeType" : "image/png",
+        "md5sum" : "7e43b579a41d1a958a7f02cfef9ad4d3",
+        "sha1sum" : "0d373f7f8c45aac2b921c2e16e52968b55d19802",
+        "sha256sum" : "ae351fb15bd22e3bdccaaa5be4df8066d292f54c274018e192b8ca08f419d366"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "71",
+        "mimeType" : "text/plain",
+        "md5sum" : "3f90db2f95d40e0eaf580d816b04f887",
+        "sha1sum" : "fc18024320978d727616bc52a5ea324eb4d87b82",
+        "sha256sum" : "ee334b2b601e41211d0065b694f6a23455de005bdb0c37fd5d4da2afbc0817ec"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1679",
+        "mimeType" : "application/xml",
+        "md5sum" : "f71881dda6644c3e43138ad6db42751f",
+        "sha1sum" : "a1188e084f1e30b06888bd3ded846a520df5c46a",
+        "sha256sum" : "157b15c0421ad76a059e781c043749ffcb888185baca10702eed52b43fa2a69d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3140",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3256616a811f3ca883d85a2331ce7750",
+        "sha1sum" : "e9b195140cdef2d5820a76b9c9489584ada9e30e",
+        "sha256sum" : "2f7162de6ed07b147b0731dc06c67e374e9f0d9d9e63bded4cc3c06aa8aa8f4d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1177095502,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Novak2001_FissionYeast_CellCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341510475,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Novak2001_FissionYeast_CellCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267728,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284883,
+  "submissionId" : "MODEL6488296959",
+  "publicationId" : "BIOMD0000000111",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "REACT_152",
+      "name" : "Cell Cycle, Mitotic",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_152"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6488296959",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6488296959"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000111",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000111"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12779461",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12779461"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4894",
+      "name" : "Schizosaccharomycetaceae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4894"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "spo04111",
+      "name" : "Cell cycle - yeast - Schizosaccharomyces pombe (fission yeast)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/spo04111"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

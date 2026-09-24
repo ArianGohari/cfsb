@@ -1,0 +1,43 @@
+Task4 bounded evaluation, 2026-09-21
+
+Verdict: the current system fails end-to-end reliability for recovering the molecular assertions in this bounded source sample. It produces no held-out predictions. This does not establish poor precision: precision is undefined. These results cannot validate a biological network or clinical use.
+
+Reference and separation
+40 real sentences from 5 local papers: 13 positive, 12 context-only, 11 uncertain, 3 negated, 1 outside the selected predicate vocabulary. There are 15 positive molecular relations. Each sentence has exact Unicode offsets, a corpus SHA-256, its complete local paragraph, rationale, directed/undirected relation labels, identity descriptions and explicit unknown normalization. This is a source-anchored MACHINE reference, not human gold. No human independence or expert adjudication is claimed.
+
+The reference was frozen before opening run prediction/annotation artifacts. Required docs/task4.md had already disclosed the aggregate held-out result and development assertions; this assessment was therefore not fully blinded. Freeze and reference hashes were recorded before first evaluation. These are local integrity receipts, not trusted external timestamps. No labels were passed into the tool, no development changes were made, and no label handoff occurred before first frozen scoring.
+
+Reference SHA-256:
+34b6f33a6e67df2c76c134821f35253b3aaaae1be89b1da7443be8a0f7df1a25
+
+PMID33898942 is excluded from all held-out scores. The sample is purposively stratified, not random, and includes reported/cited molecular assertions rather than only Caco2 own-experiment results. Whole papers are NOT completely annotated. Paragraphs supply context but do not enlarge the 40-sentence denominator. Built-in evaluate.py requires complete paper labels, so it was read but not used with a false extraction_complete claim.
+
+Results against task4-rules-001
+Reported-assertion scope includes supports evidence with auto_pass or assertion_pass. Molecular-pair scoring covers BINDS, INHIBITS, ACTIVATES, UPREGULATES and DOWNREGULATES; other predicate outputs are counted separately. Binding is undirected, regulation directional. Normalized identity and strict context/attribution accuracy are not scored. Null reference IDs mean unknown, not verified absence. The scorer supports endpoint-contained mention matching; with zero predictions there is no identity-matching credit to inspect.
+
+Relations: TP 0, FP 0, FN 15; recall 0%, F1 0; precision and its interval undefined.
+Sentences: TP 0, FP 0, FN 13, TN 27; recall 0%; precision undefined.
+95% Wilson model limits: relation recall 0–20.4%; sentence recall 0–22.8%; false-positive sentence rate 0–12.5%. At the positive-paper level, detection is 0/4, limits 0–49.0%. These are descriptive binomial limits: clustering, purposive selection and uncertain machine labels prevent population-confidence claims.
+
+Coverage and bottlenecks
+20/40 sentences reached extraction. Only 8/40 contained any aligned source mention; 7/40 contained two mentions of any type. None of the 15 reference pairs had molecular candidates for both endpoints. Candidate-supported: 0; missing entities in extracted documents: 11; unavailable through the screening/annotation gate: 4. Candidate-supported recall is undefined (0/0). This sample cannot isolate rule accuracy from upstream losses. Two-mention coverage is not reference-pair coverage.
+
+Corpus coverage, not recall: 29/29 fulltexts retrieved; 11 annotated documents, 1,946 mentions, 3,030 parser sentences and 497 two-mention sentences. Two accepted evidence rows occur only in development, outside the bounded test. Held-out paper yield is 0/28. Ten original extraction requests, including their actual source annotations, replayed identically with sockets and LLM construction blocked. Current tool hashes match the recorded run and stayed unchanged.
+
+Adversarial findings and smallest next fixes
+No accepted assertions occurred on the 27 negative/context/uncertainty sentences. This is mostly abstention and sparse candidates, not demonstrated safety against negation or context errors. Development-only perturbations of actual annotations correctly rejected missing mentions, shifted offsets and conflicting same-span identities. The corpus text was never fabricated or altered.
+
+1. Measure and repair screening/alignment losses first. Preserve separate not-processed, entity-missing and candidate-supported counts; never interpret any of them as biological absence. Broader assertion retrieval and Caco2-only experimental evidence need distinct scopes.
+2. Resolve entity representation before adding relation patterns. Run inputs contain gene/protein and viral-construct/cell-line identity hazards; the current schema also omits chemical regulators. Do not turn every Gene into a Protein or accept a cell-line namespace as proof of cell identity. Unsupported classes and unknown normalization must stay explicit.
+3. Only after candidate coverage is available, test clause-local negation/speculation, coordinated targets and expression-versus-activity predicates on new development examples. Current whole-sentence vetoes and complete-sentence grammars are narrow (rules.py:99–179); the present held-out set cannot quantify their separate loss. Do not relax rejection guards wholesale.
+
+Only this aggregate report should be shared for tool development. Keep reference.json, freeze_reference.py and sentence-level result details out of tuning; once those labels are inspected for development, use new held-out material. No exact test labels are reproduced here.
+
+Files and verification
+reference.json and freeze.json: immutable sentence labels and pre-output integrity receipt.
+freeze_reference.py: corpus-only construction record; refuses overwriting.
+evaluate_bounded.py and results.json: offline bounded scorer and first frozen results.
+check_evaluation.py and checks.json: six engineering check groups, not additional biological labels.
+commands.txt: commands and exit status.
+
+All created files are under part1/task4/evaluation/. The tool and corpus were read only. Graph/database export was not rerun or independently validated here; this evaluates review evidence and replays extraction requests.

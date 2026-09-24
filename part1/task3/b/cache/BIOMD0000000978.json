@@ -1,0 +1,262 @@
+{
+  "name" : "Mukandavire2020 - SEIR model of early COVID-19 transmission in South Africa",
+  "description" : "The emergence and fast global spread of COVID-19 has presented one of the greatest public health challenges in modern times with no proven cure or vaccine. Africa is still early in this epidemic, therefore the extent of disease severity is not yet clear. We used a mathematical model to fit to the observed cases of COVID-19 in South Africa to estimate the basic reproductive number and critical vaccination coverage to control the disease for different hypothetical vaccine efficacy scenarios. We also estimated the percentage reduction in effective contacts due to the social distancing measures implemented. Early model estimates show that COVID-19 outbreak in South Africa had a basic reproductive number of 2.95 (95% credible interval [CrI] 2.83–3.33). A vaccine with 70% efficacy had the capacity to contain COVID-19 outbreak but at very higher vaccination coverage 94.44% (95% Crl 92.44–99.92%) with a vaccine of 100% efficacy requiring 66.10% (95% Crl 64.72–69.95%) coverage. Social distancing measures put in place have so far reduced the number of social contacts by 80.31% (95% Crl 79.76–80.85%). These findings suggest that a highly efficacious vaccine would have been required to contain COVID-19 in South Africa. Therefore, the current social distancing measures to reduce contacts will remain key in controlling the infection in the absence of vaccines and other therapeutics.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "32706790",
+    "journal" : "PloS one",
+    "title" : "Quantifying early COVID-19 outbreak transmission in South Africa and exploring vaccine efficacy scenarios.",
+    "affiliation" : "Centre for Data Science, Coventry University, Coventry, United Kingdom.",
+    "synopsis" : "The emergence and fast global spread of COVID-19 has presented one of the greatest public health challenges in modern times with no proven cure or vaccine. Africa is still early in this epidemic, therefore the extent of disease severity is not yet clear. We used a mathematical model to fit to the observed cases of COVID-19 in South Africa to estimate the basic reproductive number and critical vaccination coverage to control the disease for different hypothetical vaccine efficacy scenarios. We also estimated the percentage reduction in effective contacts due to the social distancing measures implemented. Early model estimates show that COVID-19 outbreak in South Africa had a basic reproductive number of 2.95 (95% credible interval [CrI] 2.83-3.33). A vaccine with 70% efficacy had the capacity to contain COVID-19 outbreak but at very higher vaccination coverage 94.44% (95% Crl 92.44-99.92%) with a vaccine of 100% efficacy requiring 66.10% (95% Crl 64.72-69.95%) coverage. Social distancing measures put in place have so far reduced the number of social contacts by 80.31% (95% Crl 79.76-80.85%). These findings suggest that a highly efficacious vaccine would have been required to contain COVID-19 in South Africa. Therefore, the current social distancing measures to reduce contacts will remain key in controlling the infection in the absence of vaccines and other therapeutics.",
+    "year" : 2020,
+    "month" : "0",
+    "volume" : "15",
+    "issue" : "7",
+    "pages" : "e0236003",
+    "link" : "http://identifiers.org/pubmed/32706790",
+    "authors" : [
+      {
+        "name" : "Zindoga Mukandavire",
+        "institution" : "Centre for Data Science, Coventry University, UK; School of Computing, Electronics and Mathematics, Coventry University, UK.",
+        "orcid" : "0000-0002-8108-1441"
+      },
+      {
+        "name" : "Farai Nyabadza",
+        "institution" : "Department of Mathematics and Applied Mathematics, University of Johannesburg, Johannesburg, South Africa."
+      },
+      {
+        "name" : "Noble J Malunguza",
+        "institution" : "Department of Insurance and Actuarial Science, National University of Science and Technology, Bulawayo, Zimbabwe."
+      },
+      {
+        "name" : "Diego F Cuadros",
+        "institution" : "Department of Geography and Geographic Information Science, University of Cincinnati, Cincinnati, OH, United States of America.Health Geography and Disease Modeling Laboratory, University of Cincinnati, Cincinnati, OH, United States of America."
+      },
+      {
+        "name" : "Tinevimbo Shiri",
+        "institution" : "Liverpool School of Tropical Medicine, Liverpool, England, United Kingdom."
+      },
+      {
+        "name" : "Godfrey Musuka",
+        "institution" : "ICAP at Columbia University, Harare, Zimbabwe.",
+        "orcid" : "0000-0001-9077-4429"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Mukandavire2020.xml",
+        "description" : "SBML L3V1 file of SEIR model of early COVID-19 transmission in South Africa",
+        "fileSize" : "30697",
+        "mimeType" : "application/xml",
+        "md5sum" : "fb68f4b892a6d88477af328f529a8487",
+        "sha1sum" : "3b173e799daac32c1b02dcfa70d2574faefeb44a",
+        "sha256sum" : "dece73429b9dfb1c9da7d423025870bc8caf4ef9a533d0d12cb0524b3b3dc06a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Mukandavire2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "9068",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e23458e644069beaea16c4301a05f582",
+        "sha1sum" : "a9523d1710eec53c5bfe3a685199d71e6e2c008f",
+        "sha256sum" : "3e1f65291df874fce2aa57e81c28938464c95561a5c89c0b116a3d76b6afdbd2"
+      },
+      {
+        "name" : "Mukandavire2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "12374",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "612789444dce02f46722dbba2a878fb7",
+        "sha1sum" : "83e797e7ba38de1e57cf0041389adf1af53392be",
+        "sha256sum" : "8e464b2856c56308cb4cd531963255d1962e0f81bb67fc96117b94fedf337327"
+      },
+      {
+        "name" : "Mukandavire2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4392",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f340d3786841ec9fa197269f9ede0ce4",
+        "sha1sum" : "7b5134d16f319a39da17e1c7ef4a072472f69b4a",
+        "sha256sum" : "7e30d143a1d2057f6af7879470a9fe45803898fcd74b74d5755710767f4588bb"
+      },
+      {
+        "name" : "Mukandavire2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4392",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9cbe062daa6478151c0a80b3f21ab5fb",
+        "sha1sum" : "693397d6278ab1bf97aaeb3ed6a86be3138d21f0",
+        "sha256sum" : "6798c8c7a5d7aa1d9c65dd8a79c8d653b72d2eae8b979957ea6ffaf38aa7ad98"
+      },
+      {
+        "name" : "Mukandavire2020.cps",
+        "description" : "COPASI 4.29 (Build 228) file of SEIR model of early COVID-19 transmission in South Africa",
+        "fileSize" : "54640",
+        "mimeType" : "application/xml",
+        "md5sum" : "9d397c19aa2d55a952587b7ea799c32d",
+        "sha1sum" : "a5737aee5eeed039f2333a4ddd1b066352b53433",
+        "sha256sum" : "31983203752b742098e476ca812c69c3546a0205f7d0bf7d0a2835801439e9ac"
+      },
+      {
+        "name" : "Mukandavire2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2602",
+        "mimeType" : "text/plain",
+        "md5sum" : "318026d7deba7476e04a7ea323acde6f",
+        "sha1sum" : "40097c56a267c77ba99627d5e3ef6ce5e307d76d",
+        "sha256sum" : "7edbf375328f3e62f442bc718f44472e98b251c8a5a287173d9700ee0e8841c1"
+      },
+      {
+        "name" : "Mukandavire2020.sedml",
+        "description" : "SED-ML file of SEIR model of early COVID-19 transmission in South Africa (additionally CRBM-validated and adjusted). (additionally CRBM-validated and adjusted).",
+        "fileSize" : "10541",
+        "mimeType" : "application/xml",
+        "md5sum" : "dde4133fdd1bb21be94d8606f1b9e958",
+        "sha1sum" : "d5f5d63cf65e28c2151ca10d5386fecdbfc19726",
+        "sha256sum" : "b787aaa06682dc69a095e4b578a2680655ee0a098f3eccc0b2696aaf6ba656bc"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "9718",
+        "mimeType" : "image/png",
+        "md5sum" : "cc526e048e9e662cadac46a572439584",
+        "sha1sum" : "247eb3260ea8ec6adc442289b4338456a644eb38",
+        "sha256sum" : "3a3c69077f41a59267cd5722111f73bbb9bba9356e12a5995d46ed1526d5e9c1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "47",
+        "mimeType" : "text/plain",
+        "md5sum" : "52ff58ce5ed5fb7e95f57e045338f40a",
+        "sha1sum" : "84244489b3ad5a27e8319423f4f215f3ec18cc6a",
+        "sha256sum" : "8d6465dae08caad20382d0c6a3dc4f2accd2785004fab7f874e09757276be398"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1451",
+        "mimeType" : "application/xml",
+        "md5sum" : "5499785081a5d689ab3264d3967a74ea",
+        "sha1sum" : "670d878291314dd6938cf3b6c6136728155cbc16",
+        "sha256sum" : "18e770bce16436e0e2a644cdf606b4daeba6a771b813f36f9e6de7756b4eed6f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3134",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b297e06d24983261701bf595092803ff",
+        "sha1sum" : "94191865a2ea3c8425d6080144e1841257a2d5ab",
+        "sha256sum" : "7ae2673cf6107b618a78dc745f5c5eaa055e3d8fb066b3eff0320d09b52e4543"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1606816326,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000978"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1735840419,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285551,
+  "submissionId" : "MODEL2012010001",
+  "publicationId" : "BIOMD0000000978",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "32706790",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/32706790"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2012010001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2012010001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000978",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000978"
+    }
+  ]
+}

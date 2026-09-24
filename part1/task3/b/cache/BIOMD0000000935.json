@@ -1,0 +1,257 @@
+{
+  "name" : "Ferrel2011 - Cdk1 and APC regulation in cell cycle in Xenopus laevis",
+  "description" : "Mathematical model of the regulation of Cdk1 and APC in cell cycle in Xenopus Laevis",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21414480",
+    "journal" : "Cell",
+    "title" : "Modeling the cell cycle: why do certain circuits oscillate?",
+    "affiliation" : "Department of Chemical and Systems Biology, Stanford University School of Medicine, Stanford, CA 94305-5174, USA. james.ferrell@stanford.edu",
+    "synopsis" : "Computational modeling and the theory of nonlinear dynamical systems allow one to not simply describe the events of the cell cycle, but also to understand why these events occur, just as the theory of gravitation allows one to understand why cannonballs fly in parabolic arcs. The simplest examples of the eukaryotic cell cycle operate like autonomous oscillators. Here, we present the basic theory of oscillatory biochemical circuits in the context of the Xenopus embryonic cell cycle. We examine Boolean models, delay differential equation models, and especially ordinary differential equation (ODE) models. For ODE models, we explore what it takes to get oscillations out of two simple types of circuits (negative feedback loops and coupled positive and negative feedback loops). Finally, we review the procedures of linear stability analysis, which allow one to determine whether a given ODE model and a particular set of kinetic parameters will produce oscillations.",
+    "year" : 2011,
+    "month" : "3",
+    "volume" : "144",
+    "issue" : "6",
+    "pages" : "874-885",
+    "link" : "http://identifiers.org/pubmed/21414480",
+    "authors" : [
+      {
+        "name" : "James E Ferrell",
+        "institution" : "Department of Chemical and Systems Biology, Stanford University School of Medicine, Stanford, CA 94305-5174, USA. james.ferrell@stanford.edu"
+      },
+      {
+        "name" : "Tsai TY",
+        "institution" : "Department of Chemical and Systems Biology, Stanford University School of Medicine, Stanford, CA 94305-5174, USA.",
+        "orcid" : "0000-0003-1121-9406"
+      },
+      {
+        "name" : "Qiong Yang",
+        "orcid" : "0000-0002-2442-2094"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Ferrel2011.xml",
+        "description" : "SBML L2V4 representation of Ferrel2011 - Cdk1 and APC regulation in cell cycle in Xenopus Laevis",
+        "fileSize" : "28032",
+        "mimeType" : "application/xml",
+        "md5sum" : "33523c55b6c2a87be5b26e263f83c9d2",
+        "sha1sum" : "72094cfa1cf634fee126de24ed2c049a1d7fcecb",
+        "sha256sum" : "b20b9173171168da1571a40307e7ee21ab7a5f6b4fa9663231a2ed0e9b830872"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Ferrel2011-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "8515",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "277058a12c3724d0c360d0b9078cbaf4",
+        "sha1sum" : "0d600a5950a22b158e42e38b5479a246a3ef6636",
+        "sha256sum" : "79018de6eb8a9dd5768494f23c0bf8f165c497386df7421b6fa83201aaf9a019"
+      },
+      {
+        "name" : "Ferrel2011-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "11060",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b05e738b9fdfc752109cf137e94c0b3a",
+        "sha1sum" : "375ee092789f1616cd10562cb6ace36143dfae80",
+        "sha256sum" : "a0b39b0660f1cf94b17d09c425afb596e6aacd44d2c9edc3e894ed9c33cb55b0"
+      },
+      {
+        "name" : "Ferrel2011-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4104",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0bf3e149075bfd6266b065318e433ae4",
+        "sha1sum" : "11bcdee7e1ea27b40429cebd77df2505817d9bc7",
+        "sha256sum" : "04a3946e18da88fe81023d5b27927c7bb10b35a8c809a88db41d1f39548dd157"
+      },
+      {
+        "name" : "Ferrel2011-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4104",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "15cc9025f7c8299f67eded1b804099b1",
+        "sha1sum" : "6b801c84ea706c0e1fc4d81e6b9f2f3dc7e51cbd",
+        "sha256sum" : "ce5a513f53d4f80ef59fc176f3773646d81f5133dbf5162f8438d35f46bad307"
+      },
+      {
+        "name" : "Ferrel2011.cps",
+        "description" : "COPASI version 4.27 (Build 217) for reproducing figure 5C in the reference publication.",
+        "fileSize" : "57434",
+        "mimeType" : "application/xml",
+        "md5sum" : "dc4eb4bcbefe5fbf04f178a1d365e441",
+        "sha1sum" : "9cb4e8b9c76dccf22acc5b23cec36550ce4c6e45",
+        "sha256sum" : "caf23ce43a071f977330ba63cdbde9644b862513fc6418ee6742b6585020d4cd"
+      },
+      {
+        "name" : "Ferrel2011.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2578",
+        "mimeType" : "text/plain",
+        "md5sum" : "8e8dc47ee3b1bb7f739a47e1b5d466ad",
+        "sha1sum" : "500752e09ebd90845fd1d63f8aaf89f932bf1d9d",
+        "sha256sum" : "5d420a7f24d53877fc78bfe5cf5ffa96f05def7f8c6153b2f8d4dcbd1e65ba27"
+      },
+      {
+        "name" : "Ferrel2011.sedml",
+        "description" : "SEDML file to generate Figure 4C (additionally CRBM-validated and adjusted).",
+        "fileSize" : "10926",
+        "mimeType" : "application/xml",
+        "md5sum" : "d926dfe416e54f13d483b8059d56171a",
+        "sha1sum" : "e9e48ebeef6515017b9ecdb6c559f11955c9b725",
+        "sha256sum" : "16092a12254b042c65568f5640f21c79eee9a38e33a68d720191b9ea50f84622"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "15630",
+        "mimeType" : "image/png",
+        "md5sum" : "c9ad5c171d4aed2797d1aa5dc92f4332",
+        "sha1sum" : "df020babe4fb7c4dd30fb709a3f096e701e4cf54",
+        "sha256sum" : "b5fbb16adb1fe2bc709dc90d3cc885ed6a31a6920e28f1397bbc119924868e42"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "138",
+        "mimeType" : "text/plain",
+        "md5sum" : "0133e3369e1698c3557c95fbce7493f8",
+        "sha1sum" : "0b71ccca6ccff66bb89a3fbf468c135cc9aa00bc",
+        "sha256sum" : "3d377456d6a6d6bbed9d535ed3c7abfdb17bd4f0b9b680fe8a4bab06764dd0ae"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "1deec3fc5847b105b9760cc6365d751e",
+        "sha1sum" : "4d35ce27b36dddf5fe05533e26dc5943e820c950",
+        "sha256sum" : "b3cadcf2dd842e945b42354c2563d2960ad10badecdfcf3975e39f45fd519aef"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1407",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "924aa592a129d2ea35bfc5d528d54f3a",
+        "sha1sum" : "7ea14baba89bc0c97eb968b89d3c9d7808900b37",
+        "sha256sum" : "35934ce598129258d53715327ea83b0e02fe55e2bfe55d0ef3900eba036a86a4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1536076220,
+        "submitter" : "Matthieu MAIRE",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1587746985,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000935"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724293387,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285540,
+  "submissionId" : "MODEL1809040003",
+  "publicationId" : "BIOMD0000000935",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthieu MAIRE",
+        "email" : "matt.maire@free.fr",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0051726",
+      "name" : "regulation of cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051726"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "8355",
+      "name" : "Xenopus laevis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/8355"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1809040003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1809040003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000935",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000935"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21414480",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:21414480"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "21414480",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21414480"
+    }
+  ]
+}

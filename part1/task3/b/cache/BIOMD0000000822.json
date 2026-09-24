@@ -1,0 +1,295 @@
+{
+  "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer",
+  "description" : "This model is based on:Dynamic modeling of signal transduction by mTOR complexes in cancerAuthor:Mohammadreza Dorvash, Mohammad Farahmandnia, Pouria Mosaddeghi, Mitra Farahmandnejad, Hosein Saber, Mohammadhossein Khorraminejad-Shirazi, Amir Azadi, Iman TavassolyAbstract:Signal integration has a crucial role in the cell fate decision and dysregulation of the cellular signaling pathways is a primary characteristic of cancer. As a signal integrator, mTOR shows a complex dynamical behavior which determines the cell fate at different cellular processes levels, including cell cycle progression, cell survival, cell death, metabolic reprogramming, and aging. The dynamics of the complex responses to rapamycin in cancer cells have been attributed to its differential time-dependent inhibitory effects on mTORC1 and mTORC2, the two main complexes of mTOR. Two explanations were previously provided for this phenomenon: 1-Rapamycin does not inhibit mTORC2 directly, whereas it prevents mTORC2 formation by sequestering free mTOR protein (Le Chatelier’s principle). 2-Components like Phosphatidic Acid (PA) further stabilize mTORC2 compared with mTORC1. To understand the mechanism by which rapamycin differentially inhibits the mTOR complexes in the cancer cells, we present a mathematical model of rapamycin mode of action based on the first explanation, i.e., Le Chatelier’s principle. Translating the interactions among components of mTORC1 and mTORC2 into a mathematical model revealed the dynamics of rapamycin action in different doses and time-intervals of rapamycin treatment. This model shows that rapamycin has stronger effects on mTORC1 compared with mTORC2, simply due to its direct interaction with free mTOR and mTORC1, but not mTORC2, without the need to consider other components that might further stabilize mTORC2. Based on our results, even when mTORC2 is less stable compared with mTORC1, it can be less inhibited by rapamycin.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31493485",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Dynamic modeling of signal transduction by mTOR complexes in cancer.",
+    "affiliation" : "Pharmaceutical Sciences Research Center, Shiraz University of Medical Sciences, Shiraz, Iran; Cell and Molecular Medicine Student Research Group, Faculty of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran.",
+    "synopsis" : "Signal integration has a crucial role in the cell fate decision and dysregulation of the cellular signaling pathways is a primary characteristic of cancer. As a signal integrator, mTOR shows a complex dynamical behavior which determines the cell fate at different cellular processes levels, including cell cycle progression, cell survival, cell death, metabolic reprogramming, and aging. The dynamics of the complex responses to rapamycin in cancer cells have been attributed to its differential time-dependent inhibitory effects on mTORC1 and mTORC2, the two main complexes of mTOR. Two explanations were previously provided for this phenomenon: 1-Rapamycin does not inhibit mTORC2 directly, whereas it prevents mTORC2 formation by sequestering free mTOR protein (Le Chatelier's principle). 2-Components like Phosphatidic Acid (PA) further stabilize mTORC2 compared with mTORC1. To understand the mechanism by which rapamycin differentially inhibits the mTOR complexes in the cancer cells, we present a mathematical model of rapamycin mode of action based on the first explanation, i.e., Le Chatelier's principle. Translating the interactions among components of mTORC1 and mTORC2 into a mathematical model revealed the dynamics of rapamycin action in different doses and time-intervals of rapamycin treatment. This model shows that rapamycin has stronger effects on mTORC1 compared with mTORC2, simply due to its direct interaction with free mTOR and mTORC1, but not mTORC2, without the need to consider other components that might further stabilize mTORC2. Based on our results, even when mTORC2 is less stable compared with mTORC1, it can be less inhibited by rapamycin.",
+    "year" : 2019,
+    "month" : "12",
+    "volume" : "483",
+    "pages" : "109992",
+    "link" : "http://identifiers.org/pubmed/31493485",
+    "authors" : [
+      {
+        "name" : "Mohammadreza Dorvash",
+        "institution" : "Pharmaceutical Sciences Research Center, Shiraz University of Medical Sciences, Shiraz, Iran; Cell and Molecular Medicine Student Research Group, Faculty of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran.",
+        "orcid" : "0000-0002-1935-9625"
+      },
+      {
+        "name" : "Mohammad Farahmandnia",
+        "institution" : "Cell and Molecular Medicine Student Research Group, Faculty of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran; Student Research Committee, Shiraz University of Medical Sciences, Shiraz, Iran."
+      },
+      {
+        "name" : "Pouria Mosaddeghi",
+        "institution" : "Pharmaceutical Sciences Research Center, Shiraz University of Medical Sciences, Shiraz, Iran; Cell and Molecular Medicine Student Research Group, Faculty of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran; Student Research Committee, Shiraz University of Medical Sciences, Shiraz, Iran."
+      },
+      {
+        "name" : "Mitra Farahmandnejad",
+        "institution" : "Pharmaceutical Sciences Research Center, Shiraz University of Medical Sciences, Shiraz, Iran; Cell and Molecular Medicine Student Research Group, Faculty of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran; Student Research Committee, Shiraz University of Medical Sciences, Shiraz, Iran."
+      },
+      {
+        "name" : "Hosein Saber",
+        "institution" : "Pharmaceutical Sciences Research Center, Shiraz University of Medical Sciences, Shiraz, Iran; Student Research Committee, Shiraz University of Medical Sciences, Shiraz, Iran."
+      },
+      {
+        "name" : "Mohammadhossein Khorraminejad-Shirazi",
+        "institution" : "Cell and Molecular Medicine Student Research Group, Faculty of Medicine, Shiraz University of Medical Sciences, Shiraz, Iran; Student Research Committee, Shiraz University of Medical Sciences, Shiraz, Iran."
+      },
+      {
+        "name" : "Amir Azadi",
+        "institution" : "Pharmaceutical Sciences Research Center, Shiraz University of Medical Sciences, Shiraz, Iran; Department of Pharmaceutics, School of Pharmacy, Shiraz University of Medical Sciences, Shiraz, Iran."
+      },
+      {
+        "name" : "Iman Tavassoly",
+        "institution" : "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, 1425 Madison Ave, New York, NY 10029, USA. Electronic address: iman.tavassoly@mssm.edu.",
+        "orcid" : "0000-0002-2258-1091"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer.xml",
+        "description" : "SBML L2V4 file for the model",
+        "fileSize" : "83939",
+        "mimeType" : "application/xml",
+        "md5sum" : "2d8129a43483235ee0c496fc31370d2c",
+        "sha1sum" : "8b041b1a98aef69a685ba16e0942f3877a118695",
+        "sha256sum" : "1d746e3643c16e81781ec456376364446e692542a988557746980cf65441f27f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "21222",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "306c760e93ceaa55eb9bc8284bfc515f",
+        "sha1sum" : "0e804c1ea089dec118c63fe5d2fa4e581e013603",
+        "sha256sum" : "343c1b42e5d9d7081d69e013d8162d48116db5d5a7eef6ffaf4adac007ec1fde"
+      },
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "34111",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "78fdb5dac711d257cbe7fe0626c427e4",
+        "sha1sum" : "dde7c61dbd3a43ea40dd79336e34d1f3f603e03a",
+        "sha256sum" : "eb78c82f124b48402bcd1b6c996034eae02847d57ca2cf283dbe1dce6aeb6adb"
+      },
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11284",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4762c69af1ee3fbdeec2e9b1419cd9e5",
+        "sha1sum" : "dd483e79538bdafdc00b7d711f00a3d28c0b30db",
+        "sha256sum" : "a4afe0acc6d539ce7ca0a61f3bc79f8bb7c6259baa5e9ca681369220266933e5"
+      },
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11284",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b72de362dd733627023877c5a2ee5951",
+        "sha1sum" : "00fab6a2ac6aa269a9324e9d8b7e44d971949aa1",
+        "sha256sum" : "4ba1a03b030da7dc952b9a078a6e48ce12cedad323fb1d407dc14486d7ac6bb2"
+      },
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer.cps",
+        "description" : "COPASI 4.24 (Build 197) file for the model",
+        "fileSize" : "104616",
+        "mimeType" : "application/xml",
+        "md5sum" : "34d59504c7d039acb5a092758dd8c6d0",
+        "sha1sum" : "9d12e2a542eadd3b71f6d22b2b387cf9c1f2046d",
+        "sha256sum" : "9151ec528ad6915f925e7c3d9425c6b1d1576329ed71f072a0705c6066860206"
+      },
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8995",
+        "mimeType" : "text/plain",
+        "md5sum" : "3ff8d81b6734e75f1e62005c54b961c7",
+        "sha1sum" : "4f059c9893917f030461d1ecdde5d0dedffba8e1",
+        "sha256sum" : "d58a9fc1732a2db2beb65a33404a4fd4c725ccad751dc73fe3b4271be4cee8da"
+      },
+      {
+        "name" : "Dorvash2019 - Dynamic modeling of signal transduction by mTOR complexes in cancer.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "28356",
+        "mimeType" : "application/xml",
+        "md5sum" : "790e3cc475478bb0d5310927091264a1",
+        "sha1sum" : "8d8e617440d8ee3b365fc69b9f2356be10ee07e7",
+        "sha256sum" : "6a8d3f8aaa55473339d97e27e3ff3ea7c13b4235143ca9bf6608dc6d8812007a"
+      },
+      {
+        "name" : "Fig 4.png",
+        "description" : "PNG plot of the model simulation Fig 4",
+        "fileSize" : "28219",
+        "mimeType" : "image/png",
+        "md5sum" : "aa8b57910ccdaa8bd6150f68c352c3d6",
+        "sha1sum" : "8023bc5e523f9cb4d5030b8d3d52661509ef3cb2",
+        "sha256sum" : "fcac4386ee626f07c3845aad2c8eef7416fc661528cfea78d21cfd3eb037eff9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28219",
+        "mimeType" : "image/png",
+        "md5sum" : "aa8b57910ccdaa8bd6150f68c352c3d6",
+        "sha1sum" : "8023bc5e523f9cb4d5030b8d3d52661509ef3cb2",
+        "sha256sum" : "fcac4386ee626f07c3845aad2c8eef7416fc661528cfea78d21cfd3eb037eff9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "1894",
+        "mimeType" : "text/plain",
+        "md5sum" : "1398e8289abf9cacc2f0bcd098866299",
+        "sha1sum" : "f48dce63f7a2d4bd7be2919b2ae5950933a0ccef",
+        "sha256sum" : "0f92d302e7c3c35e13c9b13f7c433bcdd514e6bbf9036ee3583e03d9cda3b09c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2200",
+        "mimeType" : "application/xml",
+        "md5sum" : "0fc4fac4550c825881d7e31c899a5dfd",
+        "sha1sum" : "47f64675fb3c76036f8a478bbe767b569a4830b4",
+        "sha256sum" : "d9a2522606d5b50650eedd5c5cb72ba7e42a7b44851650a41b201b651aa3354e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3841",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e1e697a28bf87955fe65574289ff7003",
+        "sha1sum" : "3cb976a0563c8709ee0004799e3b9fd17935f7de",
+        "sha256sum" : "c999c715e53201e7cb3351c7f7d1ae1a923379062203bc2aba1c5ed34d354392"
+      },
+      {
+        "name" : "simbiodata.mat",
+        "description" : "Matlab files attached in the publication",
+        "fileSize" : "10475",
+        "mimeType" : "application/x-matlab-data",
+        "md5sum" : "201ee0fd6866a4eeda81013b1508e103",
+        "sha1sum" : "22eed2d4bdfc7875d6f3b3924197a66cb5ca2bb9",
+        "sha256sum" : "596015162ed94f63b04ff8a639e6ff434fcb41ec1ecc12365a23aeb74c532c7a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1569421231,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Automatically added model identifier BIOMD0000000822"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1569842087,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Automatically added model identifier BIOMD0000000822"
+      },
+      {
+        "version" : 7,
+        "submitted" : 1724290425,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285507,
+  "submissionId" : "MODEL1909250002",
+  "publicationId" : "BIOMD0000000822",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Szeyi Ng",
+        "email" : "sng@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000311",
+      "name" : "cancer",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000311"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909250002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909250002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000822",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000822"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31493485",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:31493485"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C2201",
+      "name" : "mTOR Inhibitor",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C2201"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C43382",
+      "name" : "Signal",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C43382"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "31493485",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31493485"
+    }
+  ]
+}

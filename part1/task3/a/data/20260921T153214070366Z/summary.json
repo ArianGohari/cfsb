@@ -1,0 +1,820 @@
+{
+  "records": [
+    {
+      "record": "BIOMD0000000170",
+      "original_sha256": "f6f1bd3faf8223d8a32314e7422263568e88b1f662b9d2ee9f7e0300960d6328",
+      "requests": [
+        {
+          "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000000170?format=json",
+          "requested_at_utc": "2026-09-21T15:32:14.070744+00:00",
+          "status": 200,
+          "final_url": "https://www.biomodels.org/BIOMD0000000170?format=json",
+          "headers": {
+            "Content-Type": "application/json;charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "close",
+            "Date": "Mon, 21 Sep 2026 15:32:15 GMT",
+            "Set-Cookie": "SESSION=f7e7e1be-e8b8-443d-adca-858c7ee16501; Path=/; HttpOnly",
+            "Via": "1.1 biomodels.org, 1.1 c69902ded6396eee37d12b61d86f4414.cloudfront.net (CloudFront)",
+            "Server": "Apache",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Pop": "FRA60-P12",
+            "X-Amz-Cf-Id": "NIVAs0HwBmf5lqA9Jdh3KSqo6XceiJ-7u-sAgW-dIng3ds862gOn9g==",
+            "Vary": "Origin"
+          },
+          "completed_at_utc": "2026-09-21T15:32:15.376238+00:00",
+          "bytes": 12311,
+          "sha256": "73eb112e84e4cf64536acfa31e8dbf89fbc6a597385c66c9125edee10aef708f",
+          "body": "BIOMD0000000170_metadata.raw"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/biomodels/model/files/BIOMD0000000170?format=json",
+          "requested_at_utc": "2026-09-21T15:32:15.376681+00:00",
+          "status": 200,
+          "final_url": "https://www.biomodels.org/model/files/BIOMD0000000170?format=json",
+          "headers": {
+            "Content-Type": "application/json;charset=UTF-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "close",
+            "Date": "Mon, 21 Sep 2026 15:32:15 GMT",
+            "Set-Cookie": "SESSION=4404d52a-b630-46b2-bf4c-204d7a9c820e; Path=/; HttpOnly",
+            "Via": "1.1 biomodels.org, 1.1 609d449080e37cc33d10975411c741a4.cloudfront.net (CloudFront)",
+            "Server": "Apache",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Pop": "FRA60-P12",
+            "X-Amz-Cf-Id": "TNWTMGqdAegtV1WS7_h927vvVFpLUycVAiqMH_ViT2l5Hs6GodONhw==",
+            "Vary": "Origin"
+          },
+          "completed_at_utc": "2026-09-21T15:32:16.050564+00:00",
+          "bytes": 4657,
+          "sha256": "1c0629bb671c396078a91486a7616fb2cd2c9ef89b5d009f84c1e6e27758c2fe",
+          "body": "BIOMD0000000170_files.raw"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000170?filename=BIOMD0000000170_url.xml",
+          "requested_at_utc": "2026-09-21T15:32:16.052028+00:00",
+          "status": 200,
+          "final_url": "https://www.biomodels.org/model/download/BIOMD0000000170?filename=BIOMD0000000170_url.xml",
+          "headers": {
+            "Content-Type": "application/xml;charset=UTF-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "close",
+            "Date": "Mon, 21 Sep 2026 15:32:16 GMT",
+            "Set-Cookie": "SESSION=f12a89e1-0339-49b8-bf25-398b262502d9; Path=/; HttpOnly",
+            "Via": "1.1 biomodels.org, 1.1 8ca6d808eca447f641ca06cbc81bf1e2.cloudfront.net (CloudFront)",
+            "Server": "Apache",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+            "Cache-Control": "private, no-cache, must-revalidate",
+            "Content-Disposition": "attachment;filename=\"BIOMD0000000170_url.xml\"",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Pop": "FRA60-P12",
+            "X-Amz-Cf-Id": "4ASt3SRurLXHV5jAzSPMnW770BqvEHZfLQj6sWTPaHoyYNpsYhLruA==",
+            "Vary": "Origin"
+          },
+          "completed_at_utc": "2026-09-21T15:32:16.959071+00:00",
+          "bytes": 32693,
+          "sha256": "ec4a5b68041d448cf34b82af4fc26a3b2e5c68b57b04b29a2cd28ad557bd7898",
+          "body": "BIOMD0000000170_current_0.xml"
+        }
+      ],
+      "downloads": [
+        {
+          "remote_filename": "BIOMD0000000170_url.xml",
+          "file": "BIOMD0000000170_current_0.xml",
+          "same_bytes_as_original": false,
+          "validation": {
+            "file": "/Users/arian/Projects/uni/ss26/cfsb/project/part1/task3/a/data/20260921T153214070366Z/BIOMD0000000170_current_0.xml",
+            "sha256": "ec4a5b68041d448cf34b82af4fc26a3b2e5c68b57b04b29a2cd28ad557bd7898",
+            "bytes": 32693,
+            "level": 2,
+            "version": 1,
+            "read_diagnostics": 0,
+            "checkConsistency_return": 1,
+            "severity_counts": {
+              "Warning": 1
+            },
+            "category_counts": {
+              "SBML unit consistency": 1
+            },
+            "issues": [
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 267,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'v1b * (y7 + c) / (k1b * (1 + pow(y3 / k1i, hill_coeff)) + y7 + c)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              }
+            ],
+            "ok": true,
+            "model_id": "Weimann2004_CircadianOscillator",
+            "model_name": "Weimann2004_CircadianOscillator",
+            "inventory": {
+              "compartments": 2,
+              "species": 7,
+              "reactions": 17,
+              "parameters_global": 27,
+              "parameters_local": 0,
+              "rules": 3,
+              "assignment_rules": 3,
+              "rate_rules": 0,
+              "algebraic_rules": 0,
+              "events": 0,
+              "initial_assignments": 0,
+              "function_definitions": 0,
+              "unit_definitions": 6,
+              "constraints": 0
+            },
+            "species": [
+              {
+                "id": "y1",
+                "name": "Per2 or Cry mRNA"
+              },
+              {
+                "id": "y2",
+                "name": "PER2_CRY_complex_cytoplasm"
+              },
+              {
+                "id": "y3",
+                "name": "PER2_CRY_complex_nucleus"
+              },
+              {
+                "id": "y4",
+                "name": "Bmal1 mRNA"
+              },
+              {
+                "id": "y5",
+                "name": "BMAL1_cytoplasm"
+              },
+              {
+                "id": "y6",
+                "name": "BMAL1_nucleus"
+              },
+              {
+                "id": "y7",
+                "name": "Active BMAL1"
+              }
+            ]
+          }
+        }
+      ],
+      "ok": true
+    },
+    {
+      "record": "BIOMD0000001006",
+      "original_sha256": "c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389",
+      "requests": [
+        {
+          "url": "https://www.ebi.ac.uk/biomodels/BIOMD0000001006?format=json",
+          "requested_at_utc": "2026-09-21T15:32:16.984695+00:00",
+          "status": 200,
+          "final_url": "https://www.biomodels.org/BIOMD0000001006?format=json",
+          "headers": {
+            "Content-Type": "application/json;charset=utf-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "close",
+            "Date": "Mon, 21 Sep 2026 15:32:17 GMT",
+            "Set-Cookie": "SESSION=9c0e1741-5248-45b6-bc6e-63589d2d3113; Path=/; HttpOnly",
+            "Via": "1.1 biomodels.org, 1.1 6a979963b4bbad2eae71dd7856d44c8c.cloudfront.net (CloudFront)",
+            "Server": "Apache",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Pop": "FRA60-P12",
+            "X-Amz-Cf-Id": "y8oXrgHPOB_UDAACzamyo3MPByFhnPpWlpjde7XsCl76GYvltfZnxg==",
+            "Vary": "Origin"
+          },
+          "completed_at_utc": "2026-09-21T15:32:17.571618+00:00",
+          "bytes": 11237,
+          "sha256": "e379d2b789e2be4e447a8d9e47fc4a49d4648c0f69da3f1f5ae1a25fd5cb9bc8",
+          "body": "BIOMD0000001006_metadata.raw"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/biomodels/model/files/BIOMD0000001006?format=json",
+          "requested_at_utc": "2026-09-21T15:32:17.573028+00:00",
+          "status": 200,
+          "final_url": "https://www.biomodels.org/model/files/BIOMD0000001006?format=json",
+          "headers": {
+            "Content-Type": "application/json;charset=UTF-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "close",
+            "Date": "Mon, 21 Sep 2026 15:32:18 GMT",
+            "Set-Cookie": "SESSION=8185009c-7478-462c-91d7-ebb6b06e7992; Path=/; HttpOnly",
+            "Via": "1.1 biomodels.org, 1.1 609d449080e37cc33d10975411c741a4.cloudfront.net (CloudFront)",
+            "Server": "Apache",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+            "Cache-Control": "no-store, no-cache, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Pop": "FRA60-P12",
+            "X-Amz-Cf-Id": "j0e4V7C9zp-fUwHLwrvtwYZk7IJjhdezyG-SWqy3nXGnbiBNRfPmrQ==",
+            "Vary": "Origin"
+          },
+          "completed_at_utc": "2026-09-21T15:32:18.370797+00:00",
+          "bytes": 4073,
+          "sha256": "52dda2cee879e8778a28c75016c09984f0e388eaf18ef86d49da93565bce4b8f",
+          "body": "BIOMD0000001006_files.raw"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000001006?filename=Ciliberto2005.xml",
+          "requested_at_utc": "2026-09-21T15:32:18.372368+00:00",
+          "status": 200,
+          "final_url": "https://www.biomodels.org/model/download/BIOMD0000001006?filename=Ciliberto2005.xml",
+          "headers": {
+            "Content-Type": "application/xml;charset=UTF-8",
+            "Transfer-Encoding": "chunked",
+            "Connection": "close",
+            "Date": "Mon, 21 Sep 2026 15:32:18 GMT",
+            "Set-Cookie": "SESSION=9c974aa0-298c-4a22-9a92-9ee7c90e5a2d; Path=/; HttpOnly",
+            "Via": "1.1 biomodels.org, 1.1 609d449080e37cc33d10975411c741a4.cloudfront.net (CloudFront)",
+            "Server": "Apache",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Permissions-Policy": "geolocation=(), camera=(), microphone=()",
+            "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+            "Cache-Control": "private, no-cache, must-revalidate",
+            "Content-Disposition": "attachment;filename=\"Ciliberto2005.xml\"",
+            "X-Cache": "Miss from cloudfront",
+            "X-Amz-Cf-Pop": "FRA60-P12",
+            "X-Amz-Cf-Id": "ULtGGf6Hs85PWFG0jT2QS6u7ou9mbCqaMfl-4eR19I-Aa4SjDXgI3Q==",
+            "Vary": "Origin"
+          },
+          "completed_at_utc": "2026-09-21T15:32:19.106094+00:00",
+          "bytes": 105846,
+          "sha256": "c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389",
+          "body": "BIOMD0000001006_current_0.xml"
+        }
+      ],
+      "downloads": [
+        {
+          "remote_filename": "Ciliberto2005.xml",
+          "file": "BIOMD0000001006_current_0.xml",
+          "same_bytes_as_original": true,
+          "validation": {
+            "file": "/Users/arian/Projects/uni/ss26/cfsb/project/part1/task3/a/data/20260921T153214070366Z/BIOMD0000001006_current_0.xml",
+            "sha256": "c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389",
+            "bytes": 105846,
+            "level": 2,
+            "version": 4,
+            "read_diagnostics": 0,
+            "checkConsistency_return": 57,
+            "severity_counts": {
+              "Warning": 57
+            },
+            "category_counts": {
+              "SBML unit consistency": 30,
+              "Modeling practice": 27
+            },
+            "issues": [
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1269,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <initialAssignment> <math> expression 'vratio' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1276,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'kd2 + kd2_ * DNA_damage / (Jdam + DNA_damage)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1297,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'ampl * step' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1319,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'Mdm2_cyt + 1 / ModelValue_6 * Mdm2_p_nuc + Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1369,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F2_Damage(kDNA, IR)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1413,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F3_Repair(kdDNA, p53_total, DNA_damage, Jdna)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1456,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * Constant_flux__irreversible(ks53)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1496,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * kd53 * p53_total' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1538,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F1___ubiquitination1(Kf, Mdm2_p_nuc, p53)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1586,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F8_ubiquitination2(Kf, Mdm2_p_nuc, p53_ub)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1628,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * kd53 * p53_ub' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1666,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F9__p53_ub_ub_deg(kd53, kd53_0, p53_ub_ub)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1708,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * Kr * p53_ub' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1749,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * Kr * p53_ub_ub' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1790,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F10___mdm2cyt_synthesis(ks2, ks2_0, p53_total, m, Js)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1836,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F4___mdm2_phos(p53_total, Jph, kph, Mdm2_cyt)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1875,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kd2 * Mdm2_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1913,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kd2 * Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1951,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F11___translocation1(vratio, kout, Mdm2_p_nuc)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 1996,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kdeph * Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2034,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kin * Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2072,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * kd2_0 * Mdm2_p_nuc' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2113,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F7___indirect(kd53_0, p53_ub_ub)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2157,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F2_Damage(kout, Mdm2_p_nuc)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2197,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F12__translocation2(vratio, kin, Mdm2_p_cyt)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2210,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <event> <delay> expression '2' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2224,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <event> <trigger> expression 'gt(time, 10)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2239,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <eventAssignment> <math> expression '1' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2260,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <event> <trigger> expression 'gt(time, 20)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 99505,
+                "severity": "Warning",
+                "category": "SBML unit consistency",
+                "line": 2270,
+                "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <eventAssignment> <math> expression '0' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 872,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Kf' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 887,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Kr' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 902,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ks53' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 917,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kDNA' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 932,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kdDNA' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 947,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Jdna' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 962,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'vratio' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 977,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd53' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 992,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ks2' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1007,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ks2_0' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1022,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd2' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1037,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd2_' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1052,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kph' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1067,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kdeph' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1082,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kin' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1097,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kout' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1112,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd53_0' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1127,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'm' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1142,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Js' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1157,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Jdam' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1172,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Jph' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1187,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ampl' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1202,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'step' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1217,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 't_on' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1232,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 't_off' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1247,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd2_0' does not have a 'units' attribute."
+              },
+              {
+                "phase": "consistency",
+                "id": 80701,
+                "severity": "Warning",
+                "category": "Modeling practice",
+                "line": 1262,
+                "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ModelValue_6' does not have a 'units' attribute."
+              }
+            ],
+            "ok": true,
+            "model_id": "Ciliberto2005___Steady_states_and_oscillations_in_the_p53_Mdm2_network",
+            "model_name": "Ciliberto2005 - Steady states and oscillations in the p53/Mdm2 network",
+            "inventory": {
+              "compartments": 2,
+              "species": 10,
+              "reactions": 21,
+              "parameters_global": 27,
+              "parameters_local": 0,
+              "rules": 4,
+              "assignment_rules": 4,
+              "rate_rules": 0,
+              "algebraic_rules": 0,
+              "events": 2,
+              "initial_assignments": 1,
+              "function_definitions": 11,
+              "unit_definitions": 5,
+              "constraints": 0
+            },
+            "species": [
+              {
+                "id": "DNA_damage",
+                "name": "DNA_damage"
+              },
+              {
+                "id": "IR",
+                "name": "IR"
+              },
+              {
+                "id": "p53_total",
+                "name": "p53_total"
+              },
+              {
+                "id": "p53_ub",
+                "name": "p53_ub"
+              },
+              {
+                "id": "p53_ub_ub",
+                "name": "p53_ub_ub"
+              },
+              {
+                "id": "Mdm2_cyt",
+                "name": "Mdm2_cyt"
+              },
+              {
+                "id": "Mdm2_p_cyt",
+                "name": "Mdm2_p_cyt"
+              },
+              {
+                "id": "Mdm2_p_nuc",
+                "name": "Mdm2_p_nuc"
+              },
+              {
+                "id": "p53",
+                "name": "p53"
+              },
+              {
+                "id": "MDM2_total",
+                "name": "MDM2_total"
+              }
+            ]
+          }
+        }
+      ],
+      "ok": true
+    }
+  ],
+  "ok": true
+}

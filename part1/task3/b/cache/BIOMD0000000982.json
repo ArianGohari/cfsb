@@ -1,0 +1,285 @@
+{
+  "name" : "Law2020 - SIR model of COVID-19 transmission in Malyasia with time-varying parameters",
+  "description" : "The susceptible-infectious-removed (SIR) model offers the simplest framework to study transmission dynamics of COVID-19, however, it does not factor in its early depleting trend observed during a lockdown. We modified the SIR model to specifically simulate the early depleting transmission dynamics of COVID-19 to better predict its temporal trend in Malaysia. The classical SIR model was fitted to observed total (I total), active (I) and removed (R) cases of COVID-19 before lockdown to estimate the basic reproduction number. Next, the model was modified with a partial time-varying force of infection, given by a proportionally depleting transmission coefficient, [Formula: see text] and a fractional term, z. The modified SIR model was then fitted to observed data over 6 weeks during the lockdown. Model fitting and projection were validated using the mean absolute percent error (MAPE). The transmission dynamics of COVID-19 was interrupted immediately by the lockdown. The modified SIR model projected the depleting temporal trends with lowest MAPE for I total, followed by I, I daily and R. During lockdown, the dynamics of COVID-19 depleted at a rate of 4.7% each day with a decreased capacity of 40%. For 7-day and 14-day projections, the modified SIR model accurately predicted I total, I and R. The depleting transmission dynamics for COVID-19 during lockdown can be accurately captured by time-varying SIR model. Projection generated based on observed data is useful for future planning and control of COVID-19.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "33303925",
+    "journal" : "Scientific reports",
+    "title" : "Tracking the early depleting transmission dynamics of COVID-19 with a time-varying SIR model.",
+    "affiliation" : "Institute for Clinical Research, Ministry of Health Malaysia, Setia Alam, Malaysia. kblaw@crc.gov.my.",
+    "synopsis" : "The susceptible-infectious-removed (SIR) model offers the simplest framework to study transmission dynamics of COVID-19, however, it does not factor in its early depleting trend observed during a lockdown. We modified the SIR model to specifically simulate the early depleting transmission dynamics of COVID-19 to better predict its temporal trend in Malaysia. The classical SIR model was fitted to observed total (I total), active (I) and removed (R) cases of COVID-19 before lockdown to estimate the basic reproduction number. Next, the model was modified with a partial time-varying force of infection, given by a proportionally depleting transmission coefficient, [Formula: see text] and a fractional term, z. The modified SIR model was then fitted to observed data over 6 weeks during the lockdown. Model fitting and projection were validated using the mean absolute percent error (MAPE). The transmission dynamics of COVID-19 was interrupted immediately by the lockdown. The modified SIR model projected the depleting temporal trends with lowest MAPE for I total, followed by I, I daily and R. During lockdown, the dynamics of COVID-19 depleted at a rate of 4.7% each day with a decreased capacity of 40%. For 7-day and 14-day projections, the modified SIR model accurately predicted I total, I and R. The depleting transmission dynamics for COVID-19 during lockdown can be accurately captured by time-varying SIR model. Projection generated based on observed data is useful for future planning and control of COVID-19.",
+    "year" : 2020,
+    "month" : "12",
+    "volume" : "10",
+    "issue" : "1",
+    "pages" : "21721",
+    "link" : "http://identifiers.org/pubmed/33303925",
+    "authors" : [
+      {
+        "name" : "Kian Boon Law",
+        "institution" : "Institute for Clinical Research, Ministry of Health Malaysia, Setia Alam, Malaysia. kblaw@crc.gov.my.",
+        "orcid" : "0000-0002-1175-1307"
+      },
+      {
+        "name" : "Kalaiarasu M Peariasamy",
+        "institution" : "Institute for Clinical Research, Ministry of Health Malaysia, Setia Alam, Malaysia.",
+        "orcid" : "0000-0001-9279-3498"
+      },
+      {
+        "name" : "Balvinder Singh Gill",
+        "institution" : "Institute for Medical Research, Ministry of Health Malaysia, Kuala Lumpur, Malaysia."
+      },
+      {
+        "name" : "Sarbhan Singh",
+        "institution" : "Institute for Medical Research, Ministry of Health Malaysia, Kuala Lumpur, Malaysia."
+      },
+      {
+        "name" : "Bala Murali Sundram",
+        "institution" : "Institute for Medical Research, Ministry of Health Malaysia, Kuala Lumpur, Malaysia.",
+        "orcid" : "0000-0002-8805-1106"
+      },
+      {
+        "name" : "Kamesh Rajendran",
+        "institution" : "Institute for Medical Research, Ministry of Health Malaysia, Kuala Lumpur, Malaysia."
+      },
+      {
+        "name" : "Sarat Chandra Dass",
+        "institution" : "Heriot-Watt University Malaysia, Putrajaya, Malaysia.",
+        "orcid" : "0000-0002-7376-0436"
+      },
+      {
+        "name" : "Yi Lin Lee",
+        "institution" : "Institute for Clinical Research, Ministry of Health Malaysia, Setia Alam, Malaysia."
+      },
+      {
+        "name" : "Pik Pin Goh",
+        "institution" : "Institute for Clinical Research, Ministry of Health Malaysia, Setia Alam, Malaysia."
+      },
+      {
+        "name" : "Hishamshah Ibrahim",
+        "institution" : "Ministry of Health Malaysia, Putrajaya, Malaysia."
+      },
+      {
+        "name" : "Noor Hisham Abdullah",
+        "institution" : "Ministry of Health Malaysia, Putrajaya, Malaysia.",
+        "orcid" : "0000-0002-4022-1102"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Law2020.xml",
+        "description" : "SBML L3V1 file of SIR model of COVID-19 transmission in Malyasia with time-varying parameters",
+        "fileSize" : "29764",
+        "mimeType" : "application/xml",
+        "md5sum" : "e7db55ae4ee14e684377a080b2ee7c42",
+        "sha1sum" : "e141bceb279ac5a70c2130a028ded32b7c74292e",
+        "sha256sum" : "377ff1a4a7d22cbddc9cc38564020d72236e053e54165f8ef861d8d5e76dd436"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Law2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "7959",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7d933e7ef809ae0075528664dd9e893c",
+        "sha1sum" : "9b9a0ed39a0f60aeadc22720cd16d4c2d59adb40",
+        "sha256sum" : "f306b3d9e7cfbfc29823ef11bafab26f8a4a63f966398db484eccfc375721be3"
+      },
+      {
+        "name" : "Law2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "10259",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9ea6748e1102d1b7a9b424c230ea363e",
+        "sha1sum" : "21c2bbfb1a37536c5c3c9e6775710578f1d948e7",
+        "sha256sum" : "16fb309190c1debd765d3e080d09f1f4d241eebe9102f191c23ed51b9c1bf38f"
+      },
+      {
+        "name" : "Law2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4558",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7aee3c428ba23460ce016392811348e0",
+        "sha1sum" : "1cd8b7ce3febb3138bf77cb889a3288bb3fca5b0",
+        "sha256sum" : "11c0c91cd28a75f6159d9d1bc637bc7e734bf93e6bf3294e863e8d2ca7345594"
+      },
+      {
+        "name" : "Law2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4558",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "78b18bc63db345385ccfbab26bd62d70",
+        "sha1sum" : "5ef9ecf0a7c23fc87c64f136824ba1fac3fc18e4",
+        "sha256sum" : "7666e8a554534aaf147f722d77a5e292367f2bea0ca1cd20a4eb7febd8699d98"
+      },
+      {
+        "name" : "Law2020.cps",
+        "description" : "COPASI 4.29 (Build 228) file of SIR model of COVID-19 transmission in Malyasia with time-varying parameters",
+        "fileSize" : "56638",
+        "mimeType" : "application/xml",
+        "md5sum" : "e158a1960462e81ec38e776eb47d3308",
+        "sha1sum" : "16cb2324663a62856a2be210e18955cb66579620",
+        "sha256sum" : "215e55c35a4811a3eef97e31fb02a88bc007ad89d4f87570bef6ddcfcc8988a4"
+      },
+      {
+        "name" : "Law2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2826",
+        "mimeType" : "text/plain",
+        "md5sum" : "e88a758a51b01795e02037648f23cd43",
+        "sha1sum" : "a1adbdc55dbf7b50d652e5f282c29bec822acda7",
+        "sha256sum" : "6209a21432df08a8204c4183927b9e6cf628b7c1044996ab3f73ba7b76868ca5"
+      },
+      {
+        "name" : "Law2020.sedml",
+        "description" : "SED-ML file of SIR model of COVID-19 transmission in Malyasia with time-varying parameters (additionally CRBM-validated and adjusted).",
+        "fileSize" : "11265",
+        "mimeType" : "application/xml",
+        "md5sum" : "0db83f946cbd773b5cb3618e16151eb8",
+        "sha1sum" : "83a614606e405a699eeed1786b04740ba78c676c",
+        "sha256sum" : "ab30a8bba28955fade88e8c079705a230ba6cfb9db465e93dd672f09ee04d23a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "144850",
+        "mimeType" : "image/png",
+        "md5sum" : "b263df6e020b74fe1eea34ca03f78ecf",
+        "sha1sum" : "6806512f7ad410219acdff9c2deba7e8ebd90afe",
+        "sha256sum" : "e3efa241a96e6bde42ea676355fedb766c9a32bf3fbc5d4010be76e60c6039a7"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "138",
+        "mimeType" : "text/plain",
+        "md5sum" : "393502506031d7381c0bc7c6501518f4",
+        "sha1sum" : "a061a2569bd2b9fe7e20c86f743c027017d3de32",
+        "sha256sum" : "82cdd0952bce90fb7ed04dc6b8bc7c94535fd7638a606209099e095301828ab9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1387",
+        "mimeType" : "application/xml",
+        "md5sum" : "a5ea1f5ce35ceb41887571ea0c87b62f",
+        "sha1sum" : "8741110a1718e864d96d788f5596d651ac913643",
+        "sha256sum" : "818771914542a4026d05b9dd2794d058819d13dac9d8baa1345b672267686bb9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3338",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c722b88011de7a441b815ac8b8534493",
+        "sha1sum" : "9ae14d952658ef6ea5d08bce2725006b65be592c",
+        "sha256sum" : "b5a4a60779d07eab428749f8bafe474d52d6da2afb1111f65607d124f4400108"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1608844859,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000982"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724294467,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285552,
+  "submissionId" : "MODEL2012240001",
+  "publicationId" : "BIOMD0000000982",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "33303925",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/33303925"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2012240001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2012240001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000982",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000982"
+    }
+  ]
+}

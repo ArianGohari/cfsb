@@ -1,0 +1,266 @@
+{
+  "name" : "Cuadros2020 - SIHRD spatiotemporal model of COVID-19 transmission in Ohio",
+  "description" : "The role of geospatial disparities in the dynamics of the COVID-19 pandemic is poorly understood. We developed a spatially-explicit mathematical model to simulate transmission dynamics of COVID-19 disease infection in relation with the uneven distribution of the healthcare capacity in Ohio, U.S. The results showed substantial spatial variation in the spread of the disease, with localized areas showing marked differences in disease attack rates. Higher COVID-19 attack rates experienced in some highly connected and urbanized areas (274 cases per 100,000 people) could substantially impact the critical health care response of these areas regardless of their potentially high healthcare capacity compared to more rural and less connected counterparts (85 cases per 100,000). Accounting for the spatially uneven disease diffusion linked to the geographical distribution of the critical care resources is essential in designing effective prevention and control programmes aimed at reducing the impact of COVID-19 pandemic.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "32736312",
+    "journal" : "Health & place",
+    "title" : "Spatiotemporal transmission dynamics of the COVID-19 pandemic and its impact on critical healthcare capacity.",
+    "affiliation" : "Department of Geography and Geographic Information Science, University of Cincinnati, Cincinnati, OH, USA; Health Geography and Disease Modeling Laboratory, University of Cincinnati, Cincinnati, OH, USA; Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA. Electronic address: diego.cuadros@uc.edu.",
+    "synopsis" : "The role of geospatial disparities in the dynamics of the COVID-19 pandemic is poorly understood. We developed a spatially-explicit mathematical model to simulate transmission dynamics of COVID-19 disease infection in relation with the uneven distribution of the healthcare capacity in Ohio, U.S. The results showed substantial spatial variation in the spread of the disease, with localized areas showing marked differences in disease attack rates. Higher COVID-19 attack rates experienced in some highly connected and urbanized areas (274 cases per 100,000 people) could substantially impact the critical health care response of these areas regardless of their potentially high healthcare capacity compared to more rural and less connected counterparts (85 cases per 100,000). Accounting for the spatially uneven disease diffusion linked to the geographical distribution of the critical care resources is essential in designing effective prevention and control programmes aimed at reducing the impact of COVID-19 pandemic.",
+    "year" : 2020,
+    "month" : "7",
+    "volume" : "64",
+    "pages" : "102404",
+    "link" : "http://identifiers.org/pubmed/32736312",
+    "authors" : [
+      {
+        "name" : "Diego F Cuadros",
+        "institution" : "Department of Geography and Geographic Information Science, University of Cincinnati, Cincinnati, OH, USA; Health Geography and Disease Modeling Laboratory, University of Cincinnati, Cincinnati, OH, USA; Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA. Electronic address: diego.cuadros@uc.edu."
+      },
+      {
+        "name" : "Yanyu Xiao",
+        "institution" : "Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA; Department of Mathematical Sciences, University of Cincinnati, Cincinnati, USA."
+      },
+      {
+        "name" : "Zindoga Mukandavire",
+        "institution" : "Centre for Data Science, Coventry University, UK; School of Computing, Electronics and Mathematics, Coventry University, UK.",
+        "orcid" : "0000-0002-8108-1441"
+      },
+      {
+        "name" : "Esteban Correa-Agudelo",
+        "institution" : "Department of Geography and Geographic Information Science, University of Cincinnati, Cincinnati, OH, USA; Health Geography and Disease Modeling Laboratory, University of Cincinnati, Cincinnati, OH, USA; Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA.",
+        "orcid" : "0000-0003-2910-7015"
+      },
+      {
+        "name" : "Andrés Hernández",
+        "institution" : "Department of Geography and Geographic Information Science, University of Cincinnati, Cincinnati, OH, USA; Health Geography and Disease Modeling Laboratory, University of Cincinnati, Cincinnati, OH, USA; Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA."
+      },
+      {
+        "name" : "Hana Kim",
+        "institution" : "Department of Geography and Geographic Information Science, University of Cincinnati, Cincinnati, OH, USA; Health Geography and Disease Modeling Laboratory, University of Cincinnati, Cincinnati, OH, USA; Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA."
+      },
+      {
+        "name" : "Neil J MacKinnon",
+        "institution" : "Geospatial Health Advising Group, University of Cincinnati, Cincinnati, OH, USA; James L. Winkle College of Pharmacy, University of Cincinnati, Cincinnati, OH, USA.",
+        "orcid" : "0000-0001-8111-6651"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Cuadros2020.xml",
+        "description" : "SBML L3V1 representation of SIHRD spatiotemporal model of COVID-19 transmission in Ohio",
+        "fileSize" : "200333",
+        "mimeType" : "application/xml",
+        "md5sum" : "686f706d17e66200c2f70898fd1adfe1",
+        "sha1sum" : "728952565bb9cbbf0fd17187a446545e61ac5cd6",
+        "sha256sum" : "016fd94f3fa52eb2dfe44e0bb67f8b388f5b1450ea6e67dc926ac1fe8efda546"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Cuadros2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "61876",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6cab44c7bf2295841cabfce225e36ffd",
+        "sha1sum" : "5eb1b99d08c06a4c8320ab444827b7536340d3e8",
+        "sha256sum" : "2973702d1fdbd9f8ea662151f7ede620ba16ef4db7faaca3fc6b879bfc59a3c7"
+      },
+      {
+        "name" : "Cuadros2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "107980",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2db92687332aa6c641f08cc4b5b59859",
+        "sha1sum" : "92329d04dd1c5000012619218300dbf89c00dd30",
+        "sha256sum" : "07c4b8fc7c5f00276140f3101282402ca1521e0f0d45ada0063f53da9f53ccfb"
+      },
+      {
+        "name" : "Cuadros2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "32316",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f7652d907a2df325679fa4d77985e94d",
+        "sha1sum" : "81f40a4ab02502e19810c2ac30a4791463c7453e",
+        "sha256sum" : "0feca63d957e673be005b205f5f63a594fdf138b9f3d808a5ce17dff75e228fd"
+      },
+      {
+        "name" : "Cuadros2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "32316",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "67b4de9b42fbf2bea332cbb51376db87",
+        "sha1sum" : "b4adfa7cf85b412db256383c69c697970468f7e2",
+        "sha256sum" : "272cf71a42338938d956ac1330bac0ec6aec5d28a9c7be2c92e682fcc4ecf3f7"
+      },
+      {
+        "name" : "Cuadros2020.cps",
+        "description" : "COPASI 4.29 (Build 228) file of SIHRD spatiotemporal model of COVID-19 transmission in Ohio",
+        "fileSize" : "225749",
+        "mimeType" : "application/xml",
+        "md5sum" : "04f3f0bd8fbcceb9b8d2580d80b5723b",
+        "sha1sum" : "4c3a623c682c74b47ee71e366229701985fd1e5e",
+        "sha256sum" : "56dcd0ceca3b4f8793730b867376794b44c96215ac45ee1a1bb380b0deec39e4"
+      },
+      {
+        "name" : "Cuadros2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "23730",
+        "mimeType" : "text/plain",
+        "md5sum" : "c14c22ba7ab0022e0ea447e66d1a0cd7",
+        "sha1sum" : "082ede93f5730fa821291d706cfe8dd3ff2b867b",
+        "sha256sum" : "4c40543dbfead8f05d5ab27c17d7abdb54482671d0ca5ef1436745d5e87afa8a"
+      },
+      {
+        "name" : "Cuadros2020.sedml",
+        "description" : "SED-ML file of SIHRD spatiotemporal model of COVID-19 transmission in Ohio (additionally CRBM-validated and adjusted).",
+        "fileSize" : "90428",
+        "mimeType" : "application/xml",
+        "md5sum" : "e621b8c41d1e414012f45c3f33472a35",
+        "sha1sum" : "dd2c3380da0013d2b03bdf52e96c32d2fe0eadfe",
+        "sha256sum" : "f581624059b6b8ac56631b4b14d830f8bc54cdebcde17205d228198a89c5b0ab"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "103588",
+        "mimeType" : "image/png",
+        "md5sum" : "5463c110b514546c818dce0fdcd81b14",
+        "sha1sum" : "ed52e354cc28b9f7d74ff463b2e878ee41671f32",
+        "sha256sum" : "a24b48aa6624dfc2e35d273a262b3517c62779fb7b1e322efd878d806a10b532"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "116",
+        "mimeType" : "text/plain",
+        "md5sum" : "498bf451b1ece6df0dd37bb57e573f4f",
+        "sha1sum" : "4ce2608f554ee053fae7335a37bbd5557b5eb2b4",
+        "sha256sum" : "9efc1b3ea2ec116c3bbcda1e9511b73c0ee582dc861f0b0bea4bf005d0276894"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1419",
+        "mimeType" : "application/xml",
+        "md5sum" : "61ae5f689c2c024d7493d9dd083cb4e5",
+        "sha1sum" : "870e93490d26908fdf21339d9143313f708f9a21",
+        "sha256sum" : "bf76661a582ece378bcbb2e6b9618b58af61ec8edb00939793e3a6b76b90c0ed"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2796",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a0766b03349e841cc61456fa32ee5937",
+        "sha1sum" : "54440c630542ad160ca5684a24d02222b6c80ffa",
+        "sha256sum" : "5ee57afff92668835386894049aa54e5761e2107f045ec6ce07b9969e6cb8367"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1603782327,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000969"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724294183,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285548,
+  "submissionId" : "MODEL2010270001",
+  "publicationId" : "BIOMD0000000969",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "32736312",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/32736312"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000969",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000969"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2010270001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2010270001"
+    }
+  ]
+}

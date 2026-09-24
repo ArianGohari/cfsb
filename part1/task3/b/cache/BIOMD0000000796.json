@@ -1,0 +1,230 @@
+{
+  "name" : "Yang2012 - cancer growth with angiogenesis",
+  "description" : "The paper describes a model of tumor growth with angiogenesis. Created by COPASI 4.26 (Build 213) This model is described in the article: Mathematical modeling of solid cancer growth with angiogenesisHyun M Yang Theoretical Biology and Medical Modelling 2012, 9:2 Abstract: Background: Cancer arises when within a single cell multiple malfunctions of control systems occur, which are, broadly, the system that promote cell growth and the system that protect against erratic growth. Additional systems within the cell must be corrupted so that a cancer cell, to form a mass of any real size, produces substances that promote the growth of new blood vessels. Multiple mutations are required before a normal cell can become a cancer cell by corruption of multiple growth-promoting systems.Methods: We develop a simple mathematical model to describe the solid cancer growth dynamics inducing angiogenesis in the absence of cancer controlling mechanisms.Results: The initial conditions supplied to the dynamical system consist of a perturbation in form of pulse: The origin of cancer cells from normal cells of an organ of human body. Thresholds of interacting parameters were obtained from the steady states analysis. The existence of two equilibrium points determine the strong dependency of dynamical trajectories on the initial conditions. The thresholds can be used to control cancer.Conclusions: Cancer can be settled in an organ if the following combination matches: better fitness of cancer cells, decrease in the efficiency of the repairing systems, increase in the capacity of sprouting from existing vascularization, and higher capacity of mounting up new vascularization. However, we show that cancer is rarely induced in organs (or tissues) displaying an efficient (numerically and functionally) reparative or regenerative mechanism.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22300422",
+    "journal" : "Theoretical biology & medical modelling",
+    "title" : "Mathematical modeling of solid cancer growth with angiogenesis.",
+    "affiliation" : "UNICAMP - IMECC - DMA, Praça Sérgio Buarque de Holanda, Campinas, SP, Brazil. hyunyang@ime.unicamp.br",
+    "synopsis" : "<h4>Background</h4>Cancer arises when within a single cell multiple malfunctions of control systems occur, which are, broadly, the system that promote cell growth and the system that protect against erratic growth. Additional systems within the cell must be corrupted so that a cancer cell, to form a mass of any real size, produces substances that promote the growth of new blood vessels. Multiple mutations are required before a normal cell can become a cancer cell by corruption of multiple growth-promoting systems.<h4>Methods</h4>We develop a simple mathematical model to describe the solid cancer growth dynamics inducing angiogenesis in the absence of cancer controlling mechanisms.<h4>Results</h4>The initial conditions supplied to the dynamical system consist of a perturbation in form of pulse: The origin of cancer cells from normal cells of an organ of human body. Thresholds of interacting parameters were obtained from the steady states analysis. The existence of two equilibrium points determine the strong dependency of dynamical trajectories on the initial conditions. The thresholds can be used to control cancer.<h4>Conclusions</h4>Cancer can be settled in an organ if the following combination matches: better fitness of cancer cells, decrease in the efficiency of the repairing systems, increase in the capacity of sprouting from existing vascularization, and higher capacity of mounting up new vascularization. However, we show that cancer is rarely induced in organs (or tissues) displaying an efficient (numerically and functionally) reparative or regenerative mechanism.",
+    "year" : 2012,
+    "month" : "2",
+    "volume" : "9",
+    "pages" : "2",
+    "link" : "http://identifiers.org/pubmed/22300422",
+    "authors" : [
+      {
+        "name" : "Hyun M Yang",
+        "institution" : "UNICAMP - IMECC - DMA, Praça Sérgio Buarque de Holanda, Campinas, SP, Brazil. hyunyang@ime.unicamp.br",
+        "orcid" : "0000-0002-1711-363X"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Yang2012.xml",
+        "description" : "SBML L3V1 representation of tumour angiogenesis model",
+        "fileSize" : "94671",
+        "mimeType" : "application/xml",
+        "md5sum" : "99b15ac55fd5435aa4fc4d5ed97209eb",
+        "sha1sum" : "b41b18e4cfbeefa89a3063ba1d25d72e052271fe",
+        "sha256sum" : "9e71b8bd2e793b34d673babd5eb981e217e53a05b03fff72e39d8cca954775ef"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Yang2012-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "15494",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f90825ae04480157cadcd54fcda9bcc4",
+        "sha1sum" : "6212ab85f18f1169458f3625f0948c8d5f11d93c",
+        "sha256sum" : "a6422df9235d81fd5996afad82991f6b5fbfbd8d40847ff4911c042bf51a75e9"
+      },
+      {
+        "name" : "Yang2012-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "22757",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "57ddfee97137b4ba5ac13de1bf2e398e",
+        "sha1sum" : "64814bd136a8cc0eb62edf55c5cba98480ac3549",
+        "sha256sum" : "9bd2c5725dfc03883d0e4f9676491c2910cd8e575af714ed3396ed100d8bc04b"
+      },
+      {
+        "name" : "Yang2012-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7078",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8b0e28975985ffa1038468358d83f973",
+        "sha1sum" : "f5515c621772ee15378ebad8e83ed531df11d30f",
+        "sha256sum" : "f6f681f284487fd76c1d99ed740f3677d62006c680bde824ad2d0d79acddf194"
+      },
+      {
+        "name" : "Yang2012-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7078",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3a66a8b4347a3adad1a4da33ba2e988d",
+        "sha1sum" : "3d2dba868a8b8fff26a9471cbd982b55324590fe",
+        "sha256sum" : "2925ee9266bea85afd6d9dc41b7e2f5c35f6462287c805dc140fc133dc6ec857"
+      },
+      {
+        "name" : "Yang2012.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "105713",
+        "mimeType" : "application/xml",
+        "md5sum" : "25bb36e9ce62bc5af110a5d42289c7e9",
+        "sha1sum" : "7d3115202b3b0fae90502497ddd24f53d09bf657",
+        "sha256sum" : "9134b9b4ec21ca090a0973b3b38cd8df7cbe30dc4c9fdb5a2aa20412766fdb18"
+      },
+      {
+        "name" : "Yang2012.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4959",
+        "mimeType" : "text/plain",
+        "md5sum" : "8c3bb48fd8888f14ee406333a4538a09",
+        "sha1sum" : "05675cbc4300ff2bac9ede4e525657f9cadd2f1c",
+        "sha256sum" : "0268b30e2455fac476a00a530e97dfbf40a30b395ff98f918863eb08b7912e5b"
+      },
+      {
+        "name" : "Yang2012.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "27094",
+        "mimeType" : "application/xml",
+        "md5sum" : "fddb9ffd98934b289ef15c16b29f8b71",
+        "sha1sum" : "2d771e7a2c197f0fc1c5f8553174a668ff26de36",
+        "sha256sum" : "1cfe64f9b2260890c8d26ce9be5cab34a4051c176c5a9ba9a1fc39f1e9757f74"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36428",
+        "mimeType" : "image/png",
+        "md5sum" : "75768781bfe868b3797f81b5b6becfa9",
+        "sha1sum" : "7cd626b1f2de54f36b41bc71d17ea2f9565102da",
+        "sha256sum" : "3f1c242368cea39672c9fcdb5fe2782b58d8c2ccde71012fa4915a11f30d1e97"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "106",
+        "mimeType" : "text/plain",
+        "md5sum" : "21afed6e5c61d4db37194b4fcd644e5e",
+        "sha1sum" : "a6a297d38f805d2a80400e39ce09964e7a3774a9",
+        "sha256sum" : "4d5000226a99a246fa8eb1799f9442cfd88f19d18021b75df47d5afdfbaf17f6"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1395",
+        "mimeType" : "application/xml",
+        "md5sum" : "6d12f0778670ed3637b2aeca2a706bca",
+        "sha1sum" : "222c17a7c7cf6d1ad029acfecbc728273ee2583d",
+        "sha256sum" : "0f0bfbf1fb0438f3beaecc26ac46f29516c4c6547f8adc8f2c2fee489e6b0d9e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3815",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e919f89f1f41021e6f78f864d8c5383f",
+        "sha1sum" : "18645951d2e476521954f57273d9913564e25ba0",
+        "sha256sum" : "5a51abc0c4ded81fe5584479ee7b19fae40bea339b074475a5ff7589dd39d08f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1565800427,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000796"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724289805,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285470,
+  "submissionId" : "MODEL1908140001",
+  "publicationId" : "BIOMD0000000796",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22300422",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22300422"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000796",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000796"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908140001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908140001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C19361",
+      "name" : "Tumor Angiogenesis",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C19361"
+    }
+  ]
+}

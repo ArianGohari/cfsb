@@ -1,0 +1,1083 @@
+{
+  "version": "bounded-sentence-v1",
+  "annotation_source": "independent task agent; machine-generated source-anchored reference; NOT human gold",
+  "human_independence": false,
+  "clinical_validity": false,
+  "prediction_scope": "reported_assertions",
+  "development_excluded": [
+    "PMID:33898942"
+  ],
+  "complete_paper_annotations": false,
+  "sentence_denominator": 40,
+  "target_predicates": [
+    "BINDS",
+    "INHIBITS",
+    "ACTIVATES",
+    "UPREGULATES",
+    "DOWNREGULATES"
+  ],
+  "scope": "Explicit asserted molecular pairs for target predicates, including reported/cited results and abundance regulation. No inference from viral phenotype, coexpression, clinical outcome or speculative mechanism. Binding is undirected; regulatory direction is strict. Unspecified classes do not add endpoints except explicitly family-level trypsin, retained without accession.",
+  "context_policy": "Full paragraph read. Null IDs mean unknown/not normalized, not verified absence. Context prose records supported own-experiment conditions; no strict normalized-context score is claimed.",
+  "sampling": "Purposive, stratified by source reading; 5 papers, 40 distinct real sentences. No random-population inference. All eligible molecular pairs in these sentences for the target predicates are labeled; paragraphs are context only, not scoring units.",
+  "prefreeze_exposure": "Required docs/task4.md disclosed aggregate zero held-out predictions and two development assertions before labeling. evaluate.py schema and a predicate-symbol search were read. No run prediction/annotation artifacts were opened before this freeze. Thus output-artifact separation, not fully blinded or human-independent assessment.",
+  "sentences": [
+    {
+      "sentence_id": "PMID33143316:L4:S4",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 4,
+      "paragraph": "Cell entry of coronaviruses is mediated by the interaction of the viral spike (S) protein with their host cell receptors, which differ between different coronaviruses [8]. For example, Middle East respiratory syndrome coronavirus (MERS-CoV) uses dipeptidyl peptidase 4 (DPP4) as a cellular receptor [8]. Host cell entry of SARS-CoV-2 and of the closely related severe acute respiratory syndrome virus (SARS-CoV) is mediated by angiotensin-converting enzyme 2 (ACE2) [8,9,10]. S binding to ACE2 depends on S cleavage at three sites (S1, S2, and S2’) by host cell proteases, typically by the transmembrane serine protease 2 (TMPRSS2), and can be inhibited by serine protease inhibitors [9,10]. Camostat was the first serine protease inhibitor that was shown to inhibit TMPRSS2 [9]. Subsequently, additional TMPRSS2 inhibitors, including nafamostat and Arbidol derivatives, were demonstrated to interfere with SARS-CoV-2 internalization into host cells [11,12,13].",
+      "paragraph_start": 406,
+      "text": "Camostat was the first serine protease inhibitor that was shown to inhibit TMPRSS2 [9].",
+      "start": 1098,
+      "end": 1185,
+      "stratum": "positive",
+      "rationale": "Cited inhibition; drug to enzyme, not reverse.",
+      "relations": [
+        {
+          "subject": {
+            "text": "Camostat",
+            "start": 1098,
+            "end": 1106,
+            "identity": "camostat",
+            "normalized_id": null
+          },
+          "predicate": "INHIBITS",
+          "object": {
+            "text": "TMPRSS2",
+            "start": 1173,
+            "end": 1180,
+            "identity": "TMPRSS2 protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L5:S0",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 5,
+      "paragraph": "Aprotinin is a serine protease inhibitor, which has previously been shown to inhibit TMPRSS2 and has been suggested as a treatment option for influenza viruses and coronaviruses [14,15]. Herein, we investigated the effects of aprotinin against SARS-CoV-2.",
+      "paragraph_start": 1368,
+      "text": "Aprotinin is a serine protease inhibitor, which has previously been shown to inhibit TMPRSS2 and has been suggested as a treatment option for influenza viruses and coronaviruses [14,15].",
+      "start": 1368,
+      "end": 1554,
+      "stratum": "positive",
+      "rationale": "Established inhibition survives the separate speculative treatment clause.",
+      "relations": [
+        {
+          "subject": {
+            "text": "Aprotinin",
+            "start": 1368,
+            "end": 1377,
+            "identity": "aprotinin",
+            "normalized_id": null
+          },
+          "predicate": "INHIBITS",
+          "object": {
+            "text": "TMPRSS2",
+            "start": 1453,
+            "end": 1460,
+            "identity": "TMPRSS2 protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L5:S1",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 5,
+      "paragraph": "Aprotinin is a serine protease inhibitor, which has previously been shown to inhibit TMPRSS2 and has been suggested as a treatment option for influenza viruses and coronaviruses [14,15]. Herein, we investigated the effects of aprotinin against SARS-CoV-2.",
+      "paragraph_start": 1368,
+      "text": "Herein, we investigated the effects of aprotinin against SARS-CoV-2.",
+      "start": 1555,
+      "end": 1623,
+      "stratum": "context",
+      "rationale": "Investigation objective, not a molecular result.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33143316:L40:S0",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 40,
+      "paragraph": "Both aprotinin and SERPINA1/alpha-1 antitrypsin are trypsin inhibitors [26,28]. To verify the integrity of the used protease inhibitor samples, we tested their capacity to antagonize trypsin and enable Caco2 and A549 cell adhesion. The results confirmed that both protease inhibitors are active (Figure S2). Taken together, these findings indicate differences in the protease inhibitor spectrum of aprotinin and SERPINA1/alpha-1 antitrypsin that result in different effects on SARS-CoV-2 replication.",
+      "paragraph_start": 12245,
+      "text": "Both aprotinin and SERPINA1/alpha-1 antitrypsin are trypsin inhibitors [26,28].",
+      "start": 12245,
+      "end": 12324,
+      "stratum": "positive",
+      "rationale": "Two inhibitors target trypsin activity. Trypsin is a family-level identity; no single accession asserted.",
+      "relations": [
+        {
+          "subject": {
+            "text": "aprotinin",
+            "start": 12250,
+            "end": 12259,
+            "identity": "aprotinin",
+            "normalized_id": null
+          },
+          "predicate": "INHIBITS",
+          "object": {
+            "text": "trypsin",
+            "start": 12297,
+            "end": 12304,
+            "identity": "trypsin family",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        },
+        {
+          "subject": {
+            "text": "SERPINA1/alpha-1 antitrypsin",
+            "start": 12264,
+            "end": 12292,
+            "identity": "SERPINA1 protein",
+            "normalized_id": null
+          },
+          "predicate": "INHIBITS",
+          "object": {
+            "text": "trypsin",
+            "start": 12297,
+            "end": 12304,
+            "identity": "trypsin family",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L44:S0",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 44,
+      "paragraph": "Protease inhibitors were suggested to interfere with SARS-CoV-2 replication predominantly as entry inhibitors that prevent S cleavage and activation [15]. In agreement, aprotinin addition after a one-hour adsorption period did not significantly interfere with SARS-CoV-2 replication in one round of a replication assay, in which virus titers were determined 8 h post-infection with an MOI of 0.1 (Figure 3A). In contrast, remdesivir, which was anticipated to interfere with the replication of the viral genome, inhibited SARS-CoV-2 replication when added post-infection (Figure 3A).",
+      "paragraph_start": 13404,
+      "text": "Protease inhibitors were suggested to interfere with SARS-CoV-2 replication predominantly as entry inhibitors that prevent S cleavage and activation [15].",
+      "start": 13404,
+      "end": 13558,
+      "stratum": "uncertain",
+      "rationale": "Suggested class-level mechanism, not a specific confirmed molecular pair.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33143316:L44:S1",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 44,
+      "paragraph": "Protease inhibitors were suggested to interfere with SARS-CoV-2 replication predominantly as entry inhibitors that prevent S cleavage and activation [15]. In agreement, aprotinin addition after a one-hour adsorption period did not significantly interfere with SARS-CoV-2 replication in one round of a replication assay, in which virus titers were determined 8 h post-infection with an MOI of 0.1 (Figure 3A). In contrast, remdesivir, which was anticipated to interfere with the replication of the viral genome, inhibited SARS-CoV-2 replication when added post-infection (Figure 3A).",
+      "paragraph_start": 13404,
+      "text": "In agreement, aprotinin addition after a one-hour adsorption period did not significantly interfere with SARS-CoV-2 replication in one round of a replication assay, in which virus titers were determined 8 h post-infection with an MOI of 0.1 (Figure 3A).",
+      "start": 13559,
+      "end": 13812,
+      "stratum": "negated",
+      "rationale": "No significant post-adsorption antiviral effect under the stated assay; do not generalize to all conditions.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33143316:L47:S0",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 47,
+      "paragraph": "Host cell protease inhibitors interfere with the activity of proteases such as TMPRSS2 [33,34] that mediate SARS-CoV-2 cell entry by cleaving and activating the viral S protein [9,11,12]. An analysis of the effect of SARS-CoV-2 infection on host cell protease inhibitors using proteomics data from SARS-CoV-2-infected Caco2 cells [35] showed that the endogenous protease inhibitors SPINT1 (Kunitz-type protease inhibitor 1), SPINT2 (Kunitz-type protease inhibitor 2), and SERPINA1 (alpha-1-antitrypsin) are present at lower levels in SARS-CoV-2-infected cells than in non-infected control cells 24 h post-infection (Figure 4A). Translatome data from the same dataset [35] indicated that the translation of SERPINA1 and SPINT2 (but not that of SPINT1) is also reduced in SARS-CoV-2-infected cells (Figure 4B). Hence, SARS-CoV-2 infection results in the downregulation of endogenous protease inhibitors, which may support SARS-CoV-2 replication. Thus, compensation for downregulated endogenous protease inhibitors may contribute to the antiviral effects of aprotinin.",
+      "paragraph_start": 14383,
+      "text": "Host cell protease inhibitors interfere with the activity of proteases such as TMPRSS2 [33,34] that mediate SARS-CoV-2 cell entry by cleaving and activating the viral S protein [9,11,12].",
+      "start": 14383,
+      "end": 14570,
+      "stratum": "positive",
+      "rationale": "TMPRSS2 activates viral S by cleavage; unnamed inhibitor class is not a specific entity. Cleavage itself is outside the target predicate set.",
+      "relations": [
+        {
+          "subject": {
+            "text": "TMPRSS2",
+            "start": 14462,
+            "end": 14469,
+            "identity": "TMPRSS2 protein",
+            "normalized_id": null
+          },
+          "predicate": "ACTIVATES",
+          "object": {
+            "text": "S protein",
+            "start": 14550,
+            "end": 14559,
+            "identity": "SARS-CoV-2 spike protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L49:S1",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 49,
+      "paragraph": "We also investigated the effects of aprotinin in SARS-CoV-2-infected air–liquid interface (ALI) cultures from primary bronchial epithelial cells. A targeted proteomics assay demonstrated that aprotinin 20 µM suppressed the expression of the SARS-CoV-2 proteins N (nucleocapsid protein) and M (membrane protein) in SARS-CoV-2-infected ALI cultures (Figure 5A, Table S1). The results for N were confirmed by Western blots in the ALI cultures infected with SARS-CoV-2/FFM7 (Figure 5B). SARS-CoV-2/FFM7 (G lineage) is an alternative isolate derived from a patient from Israel [18]. Aprotinin also suppressed SARS-CoV-2 S expression in SARS-CoV-2/FFM7-infected Calu-3 lung adenocarcinoma cells (Figure S3).",
+      "paragraph_start": 15575,
+      "text": "A targeted proteomics assay demonstrated that aprotinin 20 µM suppressed the expression of the SARS-CoV-2 proteins N (nucleocapsid protein) and M (membrane protein) in SARS-CoV-2-infected ALI cultures (Figure 5A, Table S1).",
+      "start": 15721,
+      "end": 15944,
+      "stratum": "positive",
+      "rationale": "Measured suppression of N and M abundance, not direct inhibition of their activity.",
+      "relations": [
+        {
+          "subject": {
+            "text": "aprotinin",
+            "start": 15767,
+            "end": 15776,
+            "identity": "aprotinin",
+            "normalized_id": null
+          },
+          "predicate": "DOWNREGULATES",
+          "object": {
+            "text": "N (nucleocapsid protein)",
+            "start": 15836,
+            "end": 15860,
+            "identity": "SARS-CoV-2 nucleocapsid protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "own_experiment",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": "SARS-CoV-2 infection; aprotinin treatment; 20 µM; primary bronchial epithelial ALI cultures",
+            "compartment": null
+          }
+        },
+        {
+          "subject": {
+            "text": "aprotinin",
+            "start": 15767,
+            "end": 15776,
+            "identity": "aprotinin",
+            "normalized_id": null
+          },
+          "predicate": "DOWNREGULATES",
+          "object": {
+            "text": "M (membrane protein)",
+            "start": 15865,
+            "end": 15885,
+            "identity": "SARS-CoV-2 membrane protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "own_experiment",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": "SARS-CoV-2 infection; aprotinin treatment; 20 µM; primary bronchial epithelial ALI cultures",
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L49:S4",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 49,
+      "paragraph": "We also investigated the effects of aprotinin in SARS-CoV-2-infected air–liquid interface (ALI) cultures from primary bronchial epithelial cells. A targeted proteomics assay demonstrated that aprotinin 20 µM suppressed the expression of the SARS-CoV-2 proteins N (nucleocapsid protein) and M (membrane protein) in SARS-CoV-2-infected ALI cultures (Figure 5A, Table S1). The results for N were confirmed by Western blots in the ALI cultures infected with SARS-CoV-2/FFM7 (Figure 5B). SARS-CoV-2/FFM7 (G lineage) is an alternative isolate derived from a patient from Israel [18]. Aprotinin also suppressed SARS-CoV-2 S expression in SARS-CoV-2/FFM7-infected Calu-3 lung adenocarcinoma cells (Figure S3).",
+      "paragraph_start": 15575,
+      "text": "Aprotinin also suppressed SARS-CoV-2 S expression in SARS-CoV-2/FFM7-infected Calu-3 lung adenocarcinoma cells (Figure S3).",
+      "start": 16153,
+      "end": 16276,
+      "stratum": "positive",
+      "rationale": "Suppression of spike expression in the stated infected cell line.",
+      "relations": [
+        {
+          "subject": {
+            "text": "Aprotinin",
+            "start": 16153,
+            "end": 16162,
+            "identity": "aprotinin",
+            "normalized_id": null
+          },
+          "predicate": "DOWNREGULATES",
+          "object": {
+            "text": "SARS-CoV-2 S",
+            "start": 16179,
+            "end": 16191,
+            "identity": "SARS-CoV-2 spike protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "own_experiment",
+          "context": {
+            "species_id": null,
+            "cell_line_id": "Calu-3 (normalization unknown)",
+            "condition": "SARS-CoV-2 infection; aprotinin treatment",
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L51:S0",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 51,
+      "paragraph": "Herein, we showed that aprotinin inhibits SARS-CoV-2 replication predominantly as an entry inhibitor, probably via interfering with SARS-CoV-2 S activation by TMPRSS2. Notably, SERPINA1/alpha-1 antitrypsin, which is available as a pharmaceutical preparation for the treatment of alpha-1 antitrypsin deficiency [27], did not inhibit SARS-CoV-2 replication in the same concentration range. Further investigations will have to elucidate the differences between aprotinin and SERPINA1/alpha-1 antitrypsin that are responsible for the discrepancy in anti-SARS-CoV-2 activity. Notably, SERPINA1/alpha-1 antitrypsin was shown to inhibit TMPRSS2 in an enzymatic assay and is suggested as an antiviral treatment for COVID-19 [36]. A clinical trial testing SERPINA1/alpha-1 antitrypsin for the treatment of COVID-19 has recently been started (ClinicalTrials.gov Identifier: NCT04385836). Based on our data, however, SERPINA1/alpha-1 antitrypsin is not expected to exert direct antiviral effects in COVID-19 patients. Our findings also indicate that antiviral therapy candidates should be tested for their effects on complete replication-competent viruses in permissive cells.",
+      "paragraph_start": 16291,
+      "text": "Herein, we showed that aprotinin inhibits SARS-CoV-2 replication predominantly as an entry inhibitor, probably via interfering with SARS-CoV-2 S activation by TMPRSS2.",
+      "start": 16291,
+      "end": 16458,
+      "stratum": "uncertain",
+      "rationale": "Observed antiviral phenotype, but the specific TMPRSS2/spike mechanism is only probable.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33143316:L51:S3",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 51,
+      "paragraph": "Herein, we showed that aprotinin inhibits SARS-CoV-2 replication predominantly as an entry inhibitor, probably via interfering with SARS-CoV-2 S activation by TMPRSS2. Notably, SERPINA1/alpha-1 antitrypsin, which is available as a pharmaceutical preparation for the treatment of alpha-1 antitrypsin deficiency [27], did not inhibit SARS-CoV-2 replication in the same concentration range. Further investigations will have to elucidate the differences between aprotinin and SERPINA1/alpha-1 antitrypsin that are responsible for the discrepancy in anti-SARS-CoV-2 activity. Notably, SERPINA1/alpha-1 antitrypsin was shown to inhibit TMPRSS2 in an enzymatic assay and is suggested as an antiviral treatment for COVID-19 [36]. A clinical trial testing SERPINA1/alpha-1 antitrypsin for the treatment of COVID-19 has recently been started (ClinicalTrials.gov Identifier: NCT04385836). Based on our data, however, SERPINA1/alpha-1 antitrypsin is not expected to exert direct antiviral effects in COVID-19 patients. Our findings also indicate that antiviral therapy candidates should be tested for their effects on complete replication-competent viruses in permissive cells.",
+      "paragraph_start": 16291,
+      "text": "Notably, SERPINA1/alpha-1 antitrypsin was shown to inhibit TMPRSS2 in an enzymatic assay and is suggested as an antiviral treatment for COVID-19 [36].",
+      "start": 16862,
+      "end": 17012,
+      "stratum": "positive",
+      "rationale": "Enzymatic inhibition is asserted; clinical treatment remains a suggestion.",
+      "relations": [
+        {
+          "subject": {
+            "text": "SERPINA1/alpha-1 antitrypsin",
+            "start": 16871,
+            "end": 16899,
+            "identity": "SERPINA1 protein",
+            "normalized_id": null
+          },
+          "predicate": "INHIBITS",
+          "object": {
+            "text": "TMPRSS2",
+            "start": 16921,
+            "end": 16928,
+            "identity": "TMPRSS2 protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33143316:L52:S3",
+      "paper_id": "PMID:33143316",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33143316.txt",
+      "source_sha256": "8403a9e08ff93cd48e1ba070c82bc5b6b6d2fd7719fe114fb608381c50c7acbb",
+      "line": 52,
+      "paragraph": "Aprotinin exerted anti-SARS-CoV-2 effects in three cell culture models (Caco2, Calu-3, and air–liquid interface cultures from primary bronchial epithelial cells) and against three SARS-CoV-2 strains (FFM1, FFM2, FFM6, and FFM7). Notably, another study became available during the revision of our manuscript that detected anti-SARS-CoV-2 activity of aprotinin in Calu-3 cells [37]. Our findings are also in agreement with studies that reported other TMPRSS2 inhibitors to inhibit SARS-CoV-2 entry and replication [11,12,13]. In addition, furin has been shown to cleave and activate SARS-CoV-2 S and furin inhibitors have been demonstrated to exert anti-SARS-CoV-2 effects [38].",
+      "paragraph_start": 17457,
+      "text": "In addition, furin has been shown to cleave and activate SARS-CoV-2 S and furin inhibitors have been demonstrated to exert anti-SARS-CoV-2 effects [38].",
+      "start": 17981,
+      "end": 18133,
+      "stratum": "positive",
+      "rationale": "Cited furin activation of spike, distinct from unspecified furin inhibitors and antiviral phenotype.",
+      "relations": [
+        {
+          "subject": {
+            "text": "furin",
+            "start": 17994,
+            "end": 17999,
+            "identity": "furin protein",
+            "normalized_id": null
+          },
+          "predicate": "ACTIVATES",
+          "object": {
+            "text": "SARS-CoV-2 S",
+            "start": 18038,
+            "end": 18050,
+            "identity": "SARS-CoV-2 spike protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33282147:L7:S0",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 7,
+      "paragraph": "ACE2 was first discovered in 2000 and shown to share 40% amino acid similarity with ACE1 [8]. Unlike ACE1, which converts Ang I into Ang II, the primary function of ACE2 is to cleave Leu or Phe in Ang II to produce Ang (1–7). Ang (1–7) counteracts the vaso/broncho-constriction effect of Ang II, which may alleviate acute respiratory distress syndrome (ARDS) and inflammation caused by SARS-CoV and SARS-CoV-2 [9]. ACE2 was experimentally determined to be a functional receptor for SARS-CoV [7]. ACE2 consists of a peptidase domain in the N-terminus and a collectrin-like domain in the C-terminus, with a single transmembrane helix and a short intracellular segment [10]. The structure of SARS-CoV S in complex with ACE2 has been solved, and the important amino acids (AAs) residing within the interface between two proteins were identified [11].",
+      "paragraph_start": 3348,
+      "text": "ACE2 was first discovered in 2000 and shown to share 40% amino acid similarity with ACE1 [8].",
+      "start": 3348,
+      "end": 3441,
+      "stratum": "context",
+      "rationale": "Sequence similarity does not establish a molecular interaction.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33282147:L7:S4",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 7,
+      "paragraph": "ACE2 was first discovered in 2000 and shown to share 40% amino acid similarity with ACE1 [8]. Unlike ACE1, which converts Ang I into Ang II, the primary function of ACE2 is to cleave Leu or Phe in Ang II to produce Ang (1–7). Ang (1–7) counteracts the vaso/broncho-constriction effect of Ang II, which may alleviate acute respiratory distress syndrome (ARDS) and inflammation caused by SARS-CoV and SARS-CoV-2 [9]. ACE2 was experimentally determined to be a functional receptor for SARS-CoV [7]. ACE2 consists of a peptidase domain in the N-terminus and a collectrin-like domain in the C-terminus, with a single transmembrane helix and a short intracellular segment [10]. The structure of SARS-CoV S in complex with ACE2 has been solved, and the important amino acids (AAs) residing within the interface between two proteins were identified [11].",
+      "paragraph_start": 3348,
+      "text": "ACE2 consists of a peptidase domain in the N-terminus and a collectrin-like domain in the C-terminus, with a single transmembrane helix and a short intracellular segment [10].",
+      "start": 3844,
+      "end": 4019,
+      "stratum": "context",
+      "rationale": "Domain inventory, not interaction between distinct molecular entities.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33282147:L7:S5",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 7,
+      "paragraph": "ACE2 was first discovered in 2000 and shown to share 40% amino acid similarity with ACE1 [8]. Unlike ACE1, which converts Ang I into Ang II, the primary function of ACE2 is to cleave Leu or Phe in Ang II to produce Ang (1–7). Ang (1–7) counteracts the vaso/broncho-constriction effect of Ang II, which may alleviate acute respiratory distress syndrome (ARDS) and inflammation caused by SARS-CoV and SARS-CoV-2 [9]. ACE2 was experimentally determined to be a functional receptor for SARS-CoV [7]. ACE2 consists of a peptidase domain in the N-terminus and a collectrin-like domain in the C-terminus, with a single transmembrane helix and a short intracellular segment [10]. The structure of SARS-CoV S in complex with ACE2 has been solved, and the important amino acids (AAs) residing within the interface between two proteins were identified [11].",
+      "paragraph_start": 3348,
+      "text": "The structure of SARS-CoV S in complex with ACE2 has been solved, and the important amino acids (AAs) residing within the interface between two proteins were identified [11].",
+      "start": 4020,
+      "end": 4194,
+      "stratum": "positive",
+      "rationale": "Solved complex supports physical association of SARS-CoV (not SARS-CoV-2) spike with ACE2.",
+      "relations": [
+        {
+          "subject": {
+            "text": "SARS-CoV S",
+            "start": 4037,
+            "end": 4047,
+            "identity": "SARS-CoV spike protein",
+            "normalized_id": null
+          },
+          "predicate": "BINDS",
+          "object": {
+            "text": "ACE2",
+            "start": 4064,
+            "end": 4068,
+            "identity": "ACE2 protein",
+            "normalized_id": null
+          },
+          "direction": "undirected",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "review_summary",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S4",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14].",
+      "start": 4729,
+      "end": 4925,
+      "stratum": "negated",
+      "rationale": "Negated SARS-CoV-2 receptor usage; positive receptor usage of other viruses is not a named molecular pair.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S6",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed.",
+      "start": 4977,
+      "end": 5147,
+      "stratum": "context",
+      "rationale": "Engineered cell susceptibility with explicit exclusions; no specific spike/receptor binding result is asserted.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S7",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry.",
+      "start": 5148,
+      "end": 5322,
+      "stratum": "positive",
+      "rationale": "Camostat mesylate is explicitly identified as TMPRSS2 inhibitor; no direct protein edge to viral entry.",
+      "relations": [
+        {
+          "subject": {
+            "text": "camostat mesylate",
+            "start": 5225,
+            "end": 5242,
+            "identity": "camostat mesylate",
+            "normalized_id": null
+          },
+          "predicate": "INHIBITS",
+          "object": {
+            "text": "TMPRSS2",
+            "start": 5279,
+            "end": 5286,
+            "identity": "TMPRSS2 protein",
+            "normalized_id": null
+          },
+          "direction": "subject_to_object",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "review_summary",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S9",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15].",
+      "start": 5409,
+      "end": 5554,
+      "stratum": "context",
+      "rationale": "Cross-analyte abundance comparison, not CD147/GRP78 regulation of ACE2.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S10",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "CD147 showed direct association with SARS-CoV-2 S in vitro.",
+      "start": 5555,
+      "end": 5614,
+      "stratum": "positive",
+      "rationale": "In-vitro association is asserted; the paragraph cautions against inferring functional receptor identity.",
+      "relations": [
+        {
+          "subject": {
+            "text": "CD147",
+            "start": 5555,
+            "end": 5560,
+            "identity": "CD147 protein",
+            "normalized_id": null
+          },
+          "predicate": "BINDS",
+          "object": {
+            "text": "SARS-CoV-2 S",
+            "start": 5592,
+            "end": 5604,
+            "identity": "SARS-CoV-2 spike protein",
+            "normalized_id": null
+          },
+          "direction": "undirected",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "review_summary",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S11",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds.",
+      "start": 5615,
+      "end": 5708,
+      "stratum": "uncertain",
+      "rationale": "Proposed GRP78 binding is not confirmed, unlike the preceding association.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33282147:L8:S12",
+      "paper_id": "PMID:33282147",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33282147.txt",
+      "source_sha256": "da0a3bd93d5465e5a13e30e74a48829c07709ce3153235f832b291745bf4a1a2",
+      "line": 8,
+      "paragraph": "Receptor-mediated viral entry is a prerequisite for infection. Considering the close relationship between SARS-CoV-2 and SARS-CoV, ACE2 was immediately predicted as a potential receptor, which was later verified by in vitro experiments. Using HeLa cells that did not express ACE2 per se, Zhou et al. showed that the introduction of the human ACE2 gene facilitated SARS-CoV-2 infection [12]. Based on ACE2, other species supporting SARS-CoV-2 infection included Chinese horseshoe bats, civets, and pigs, with mice being the exception. In addition, they found that SARS-CoV-2 did not use aminopeptidase N (APN) and dipeptidyl peptidase 4 (DPP4) for entry, which are the receptors used by HCoV-229E and MERS, respectively [13], [14]. This conclusion was validated by another work [6]. Using S protein expressed by vesicular stomatitis virus, they confirmed that cell lines lacking ACE2 can be infected when human/bat ACE2 but not DPP4 or APN is expressed. They also confirmed the dependence on proteases for infection and found that camostat mesylate, a clinically approved inhibitor of TMPRSS2, effectively inhibited viral entry. There are alternative proteins to be predicted as potential receptors for SARS-CoV-2. The glycoprotein CD147 and ER chaperone GRP78 attracted attention, as both of the two have higher mRNA and protein levels than ACE2 in lung [15]. CD147 showed direct association with SARS-CoV-2 S in vitro. For GRP78, it was proposed to bind S through cyclic structure constituted by disulfide bonds. However, direct evidence supporting their receptor identity need to be strengthened.",
+      "paragraph_start": 4195,
+      "text": "However, direct evidence supporting their receptor identity need to be strengthened.",
+      "start": 5709,
+      "end": 5793,
+      "stratum": "uncertain",
+      "rationale": "Explicit lack of strong receptor evidence; do not inherit confirmation from adjacent claims.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L4:S1",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 4,
+      "paragraph": "The coronavirus S protein plays a pivotal role in mediating coronavirus entry (6, 7). The ectodomain of SARS-CoV S protein is divided into two subunits, S1 and S2. SARS-CoV S1 contains a receptor-binding domain (RBD) that specifically binds to human angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit contains the fusion peptide (8, 9). Like SARS-CoV, the SARS-CoV-2 S protein in the prefusion conformation is a homotrimer, with three S1 heads sitting on top of a trimeric S2 stalk (10–12). It was initially proposed that at a given time, only one of three RBDs is in an upward position for receptor binding (12). However, a very recent structural study of a full-length, fully wild-type SARS-CoV-2 S protein indicated that the prefusion structure is in the “all-down” configuration (13). The interaction between the RBD and ACE2 is thought to lock the SARS-CoV-2 spike protein in a conformation that makes it susceptible to multiple cellular proteases (14), including cell surface transmembrane serine protease 2 (TMPRSS2) and the lysosomal proteases cathepsins (15–20). In addition to receptor binding, sequential proteolytic cleavages of SARS-CoV S protein at the S1/S2 site and the S2 site are also important for triggering conformational changes in the S2 subunit and the final exposure of the fusion peptide (16). All current evidence implies that SARS-CoV-2 may follow the footsteps of SARS-CoV to enter host cells.",
+      "paragraph_start": 1265,
+      "text": "The ectodomain of SARS-CoV S protein is divided into two subunits, S1 and S2.",
+      "start": 1351,
+      "end": 1428,
+      "stratum": "context",
+      "rationale": "Subunit composition does not assert binding between separate proteins.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L4:S2",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 4,
+      "paragraph": "The coronavirus S protein plays a pivotal role in mediating coronavirus entry (6, 7). The ectodomain of SARS-CoV S protein is divided into two subunits, S1 and S2. SARS-CoV S1 contains a receptor-binding domain (RBD) that specifically binds to human angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit contains the fusion peptide (8, 9). Like SARS-CoV, the SARS-CoV-2 S protein in the prefusion conformation is a homotrimer, with three S1 heads sitting on top of a trimeric S2 stalk (10–12). It was initially proposed that at a given time, only one of three RBDs is in an upward position for receptor binding (12). However, a very recent structural study of a full-length, fully wild-type SARS-CoV-2 S protein indicated that the prefusion structure is in the “all-down” configuration (13). The interaction between the RBD and ACE2 is thought to lock the SARS-CoV-2 spike protein in a conformation that makes it susceptible to multiple cellular proteases (14), including cell surface transmembrane serine protease 2 (TMPRSS2) and the lysosomal proteases cathepsins (15–20). In addition to receptor binding, sequential proteolytic cleavages of SARS-CoV S protein at the S1/S2 site and the S2 site are also important for triggering conformational changes in the S2 subunit and the final exposure of the fusion peptide (16). All current evidence implies that SARS-CoV-2 may follow the footsteps of SARS-CoV to enter host cells.",
+      "paragraph_start": 1265,
+      "text": "SARS-CoV S1 contains a receptor-binding domain (RBD) that specifically binds to human angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit contains the fusion peptide (8, 9).",
+      "start": 1429,
+      "end": 1613,
+      "stratum": "positive",
+      "rationale": "SARS-CoV RBD binds human ACE2. Do not replace SARS-CoV by SARS-CoV-2 or RBD by a different viral protein.",
+      "relations": [
+        {
+          "subject": {
+            "text": "receptor-binding domain (RBD)",
+            "start": 1452,
+            "end": 1481,
+            "identity": "SARS-CoV spike RBD",
+            "normalized_id": null
+          },
+          "predicate": "BINDS",
+          "object": {
+            "text": "human angiotensin-converting enzyme 2 (ACE2)",
+            "start": 1509,
+            "end": 1553,
+            "identity": "human ACE2 protein",
+            "normalized_id": null
+          },
+          "direction": "undirected",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID33685917:L4:S4",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 4,
+      "paragraph": "The coronavirus S protein plays a pivotal role in mediating coronavirus entry (6, 7). The ectodomain of SARS-CoV S protein is divided into two subunits, S1 and S2. SARS-CoV S1 contains a receptor-binding domain (RBD) that specifically binds to human angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit contains the fusion peptide (8, 9). Like SARS-CoV, the SARS-CoV-2 S protein in the prefusion conformation is a homotrimer, with three S1 heads sitting on top of a trimeric S2 stalk (10–12). It was initially proposed that at a given time, only one of three RBDs is in an upward position for receptor binding (12). However, a very recent structural study of a full-length, fully wild-type SARS-CoV-2 S protein indicated that the prefusion structure is in the “all-down” configuration (13). The interaction between the RBD and ACE2 is thought to lock the SARS-CoV-2 spike protein in a conformation that makes it susceptible to multiple cellular proteases (14), including cell surface transmembrane serine protease 2 (TMPRSS2) and the lysosomal proteases cathepsins (15–20). In addition to receptor binding, sequential proteolytic cleavages of SARS-CoV S protein at the S1/S2 site and the S2 site are also important for triggering conformational changes in the S2 subunit and the final exposure of the fusion peptide (16). All current evidence implies that SARS-CoV-2 may follow the footsteps of SARS-CoV to enter host cells.",
+      "paragraph_start": 1265,
+      "text": "It was initially proposed that at a given time, only one of three RBDs is in an upward position for receptor binding (12).",
+      "start": 1768,
+      "end": 1890,
+      "stratum": "uncertain",
+      "rationale": "Historical proposal of conformation, not a molecular pair assertion.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L4:S8",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 4,
+      "paragraph": "The coronavirus S protein plays a pivotal role in mediating coronavirus entry (6, 7). The ectodomain of SARS-CoV S protein is divided into two subunits, S1 and S2. SARS-CoV S1 contains a receptor-binding domain (RBD) that specifically binds to human angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit contains the fusion peptide (8, 9). Like SARS-CoV, the SARS-CoV-2 S protein in the prefusion conformation is a homotrimer, with three S1 heads sitting on top of a trimeric S2 stalk (10–12). It was initially proposed that at a given time, only one of three RBDs is in an upward position for receptor binding (12). However, a very recent structural study of a full-length, fully wild-type SARS-CoV-2 S protein indicated that the prefusion structure is in the “all-down” configuration (13). The interaction between the RBD and ACE2 is thought to lock the SARS-CoV-2 spike protein in a conformation that makes it susceptible to multiple cellular proteases (14), including cell surface transmembrane serine protease 2 (TMPRSS2) and the lysosomal proteases cathepsins (15–20). In addition to receptor binding, sequential proteolytic cleavages of SARS-CoV S protein at the S1/S2 site and the S2 site are also important for triggering conformational changes in the S2 subunit and the final exposure of the fusion peptide (16). All current evidence implies that SARS-CoV-2 may follow the footsteps of SARS-CoV to enter host cells.",
+      "paragraph_start": 1265,
+      "text": "All current evidence implies that SARS-CoV-2 may follow the footsteps of SARS-CoV to enter host cells.",
+      "start": 2597,
+      "end": 2699,
+      "stratum": "uncertain",
+      "rationale": "Speculative analogy between viruses, not a confirmed molecular interaction.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L5:S1",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 5,
+      "paragraph": "The S protein of SARS-CoV-2 displays two distinct features compared to SARS-CoV and other betacoronaviruses: (i) the SARS-CoV-2 S protein appears to have been well adapted for binding to human ACE2 (hACE2) despite significant sequence divergence from SARS-CoV S protein in the RBD region (21, 22), and (ii) a distinct 4-amino-acid insert within the S protein (underlined, SPRRAR↓S) between the S1 receptor-binding subunit and the S2 fusion subunit presumably creates a functional polybasic (furin) cleavage site. This novel S1/S2 site within the SARS-CoV-2 S protein is hypothesized to affect the stability, transmission, and/or host range of the virus (23, 24).",
+      "paragraph_start": 2700,
+      "text": "This novel S1/S2 site within the SARS-CoV-2 S protein is hypothesized to affect the stability, transmission, and/or host range of the virus (23, 24).",
+      "start": 3213,
+      "end": 3362,
+      "stratum": "uncertain",
+      "rationale": "Hypothesized insert effect on host range; no confirmed molecular pair.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L12:S6",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 12,
+      "paragraph": "Next, we sought to investigate the role of the PRRA insert in SARS-CoV-2 entry. To explore the proteolytic cleavage mediated by the insert, we transfected 293T cells with constructs expressing wild-type SARS-CoV-2 spike (SARS-CoV-2 S), a mutant with PRRA removed (SARS-CoV-2 S ΔPRRA), bat RaTG13 spike (RaTG13 S), an insertion mutant containing the PRRA insert (RaTG13 S+PRRA), and the pangolin GX S protein (pangolin GX S) (Fig. 2A). We used a mouse monoclonal antibody that recognizes the S2 domains of both SARS-CoV spike and SARS-CoV-2 spike proteins for detection. Partial cleavage was noticed when SARS-CoV-2 S was expressed in 293T cells, and the deletion of PRRA abolished the cleaved products (Fig. 2B). Interestingly, RaTG13 S was partially cleaved even in the absence of PRRA. The insertion of PRRA into RaTG13 S further enhanced cleavage by 2- to 3-fold. Pangolin GX S protein did not show a similar cleavage pattern in transfected 293T cells. Altogether, these results suggest that CoV S proteins undergo intensive intracellular processing before being loaded onto virions. To confirm that cleavage occurs in the context of infection, Western blotting was performed using SARS-CoV-2-infected Vero E6 cell lysates. Again, a similar cleavage pattern was observed (Fig. 2B). Of note, the extent of the observed cleavage appears to vary significantly among susceptible cell lines. While the ratio of the cleaved over noncleaved SARS-CoV-2 S protein appears to be comparable between 293T and Vero E6 cells, the infected human lung epithelial cell line Calu-3 and the intestinal cell line Caco-2 yielded banding patterns that represent rather complete cleavage of the S protein in Caco-2 and less cleavage in Calu-3 cells (Fig. 2B).",
+      "paragraph_start": 6668,
+      "text": "Pangolin GX S protein did not show a similar cleavage pattern in transfected 293T cells.",
+      "start": 7535,
+      "end": 7623,
+      "stratum": "negated",
+      "rationale": "Absence of a cleavage pattern in a specific construct/cell context; not global absence of cleavage.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L14:S4",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 14,
+      "paragraph": "A precleaved S protein at S1/S2 could confer an unexpected fusogenic ability on the plasma membrane and allow coronaviruses to undergo receptor-independent entry (virus-cell fusion) (7, 29). To assess S protein-mediated membrane fusion, we set up a quantitative cell-cell fusion assay in which 293T acceptor cells, containing a LoxP-flanked stop cassette that blocks the transcription of the downstream luciferase reporter gene, were cocultured with Cre-expressing donor cells. Fusion between donor and acceptor cell membranes removes the stop cassette and hence permits luciferase production. Various spike constructs were transfected into donor cells, and the hACE2 plasmid was then transfected into the acceptor cells. Notably, even in the absence of hACE2, SARS-CoV-2 spike induced fusion at a level about 5-fold over the background (Fig. 2C). The deletion of PRRA from SARS-CoV-2 S protein completely abolished this basal level of fusion activity. In the presence of hACE2, all S proteins induced cell-cell fusion to various extents (up to 30-fold above the background), with wild-type SARS-CoV-2 S being the most efficient one. Surprisingly, both the insertion of the novel PRRA into RaTG13 S and the deletion of PRRA from SARS-CoV-2 S reduced the fusogenic ability in the presence of ACE2, in comparison to their wild-type counterparts. Finally, the addition of TMPRSS2 marginally affected S protein-driven cell-cell fusion (Fig. 2C).",
+      "paragraph_start": 9742,
+      "text": "Notably, even in the absence of hACE2, SARS-CoV-2 spike induced fusion at a level about 5-fold over the background (Fig. 2C).",
+      "start": 10464,
+      "end": 10589,
+      "stratum": "context",
+      "rationale": "Fusion persists without hACE2; phenotype is not evidence that spike activates ACE2.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID33685917:L14:S8",
+      "paper_id": "PMID:33685917",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_33685917.txt",
+      "source_sha256": "6a9155360e781b4f46b50a07bf068a1a6e354e7b7c6a14f1224a643eb9dda6f4",
+      "line": 14,
+      "paragraph": "A precleaved S protein at S1/S2 could confer an unexpected fusogenic ability on the plasma membrane and allow coronaviruses to undergo receptor-independent entry (virus-cell fusion) (7, 29). To assess S protein-mediated membrane fusion, we set up a quantitative cell-cell fusion assay in which 293T acceptor cells, containing a LoxP-flanked stop cassette that blocks the transcription of the downstream luciferase reporter gene, were cocultured with Cre-expressing donor cells. Fusion between donor and acceptor cell membranes removes the stop cassette and hence permits luciferase production. Various spike constructs were transfected into donor cells, and the hACE2 plasmid was then transfected into the acceptor cells. Notably, even in the absence of hACE2, SARS-CoV-2 spike induced fusion at a level about 5-fold over the background (Fig. 2C). The deletion of PRRA from SARS-CoV-2 S protein completely abolished this basal level of fusion activity. In the presence of hACE2, all S proteins induced cell-cell fusion to various extents (up to 30-fold above the background), with wild-type SARS-CoV-2 S being the most efficient one. Surprisingly, both the insertion of the novel PRRA into RaTG13 S and the deletion of PRRA from SARS-CoV-2 S reduced the fusogenic ability in the presence of ACE2, in comparison to their wild-type counterparts. Finally, the addition of TMPRSS2 marginally affected S protein-driven cell-cell fusion (Fig. 2C).",
+      "paragraph_start": 9742,
+      "text": "Finally, the addition of TMPRSS2 marginally affected S protein-driven cell-cell fusion (Fig. 2C).",
+      "start": 11086,
+      "end": 11183,
+      "stratum": "context",
+      "rationale": "Marginal change of a fusion phenotype does not assert TMPRSS2 activation or inhibition of spike.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID34094637:L2:S2",
+      "paper_id": "PMID:34094637",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_34094637.txt",
+      "source_sha256": "18c94ff3d4213f846f601d01a78c751190d3d653fcdf5782f74f29df780cbdaf",
+      "line": 2,
+      "paragraph": "As of 28 April 2021, the COVID-19 pandemic has resulted in 148,329,348 confirmed cases, including 3,128,962 deaths (https://covid19.who.int/). The pathogen causing COVID-19 is acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1]. SARS-CoV-2 infection begins when spike proteins attach to angiotensin-converting enzyme 2 (ACE2), the host cell receptor for SARS-CoV-2 [2]. Next, transmembrane serine protease 2 (TMPRSS2) cleaves the SARS-CoV-2 spike protein on the cell membrane, which is important for the fusion of viral and cellular membranes [3]. In summary, ACE2 is the prerequisite for SARS-CoV-2 infection, while TMPRSS2 facilitates viral entry and spread [3]. Therefore, the expression of ACE2 and TMPRSS2 directly points to the cellular tropism of SARS-CoV-2, which has important implications for the pathogenesis of COVID-19 [4, 5].",
+      "paragraph_start": 136,
+      "text": "SARS-CoV-2 infection begins when spike proteins attach to angiotensin-converting enzyme 2 (ACE2), the host cell receptor for SARS-CoV-2 [2].",
+      "start": 371,
+      "end": 511,
+      "stratum": "positive",
+      "rationale": "Spike attachment to ACE2, not binding of the whole viral species node.",
+      "relations": [
+        {
+          "subject": {
+            "text": "spike proteins",
+            "start": 404,
+            "end": 418,
+            "identity": "SARS-CoV-2 spike protein",
+            "normalized_id": null
+          },
+          "predicate": "BINDS",
+          "object": {
+            "text": "angiotensin-converting enzyme 2 (ACE2)",
+            "start": 429,
+            "end": 467,
+            "identity": "ACE2 protein",
+            "normalized_id": null
+          },
+          "direction": "undirected",
+          "negated": false,
+          "certainty": "asserted",
+          "attribution": "cited_result",
+          "context": {
+            "species_id": null,
+            "cell_line_id": null,
+            "condition": null,
+            "compartment": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence_id": "PMID34094637:L2:S3",
+      "paper_id": "PMID:34094637",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_34094637.txt",
+      "source_sha256": "18c94ff3d4213f846f601d01a78c751190d3d653fcdf5782f74f29df780cbdaf",
+      "line": 2,
+      "paragraph": "As of 28 April 2021, the COVID-19 pandemic has resulted in 148,329,348 confirmed cases, including 3,128,962 deaths (https://covid19.who.int/). The pathogen causing COVID-19 is acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1]. SARS-CoV-2 infection begins when spike proteins attach to angiotensin-converting enzyme 2 (ACE2), the host cell receptor for SARS-CoV-2 [2]. Next, transmembrane serine protease 2 (TMPRSS2) cleaves the SARS-CoV-2 spike protein on the cell membrane, which is important for the fusion of viral and cellular membranes [3]. In summary, ACE2 is the prerequisite for SARS-CoV-2 infection, while TMPRSS2 facilitates viral entry and spread [3]. Therefore, the expression of ACE2 and TMPRSS2 directly points to the cellular tropism of SARS-CoV-2, which has important implications for the pathogenesis of COVID-19 [4, 5].",
+      "paragraph_start": 136,
+      "text": "Next, transmembrane serine protease 2 (TMPRSS2) cleaves the SARS-CoV-2 spike protein on the cell membrane, which is important for the fusion of viral and cellular membranes [3].",
+      "start": 512,
+      "end": 689,
+      "stratum": "out_of_vocabulary",
+      "rationale": "Explicit TMPRSS2 cleavage of spike; CLEAVES is not a target predicate and must not silently become INHIBITS.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID34094637:L2:S5",
+      "paper_id": "PMID:34094637",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_34094637.txt",
+      "source_sha256": "18c94ff3d4213f846f601d01a78c751190d3d653fcdf5782f74f29df780cbdaf",
+      "line": 2,
+      "paragraph": "As of 28 April 2021, the COVID-19 pandemic has resulted in 148,329,348 confirmed cases, including 3,128,962 deaths (https://covid19.who.int/). The pathogen causing COVID-19 is acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1]. SARS-CoV-2 infection begins when spike proteins attach to angiotensin-converting enzyme 2 (ACE2), the host cell receptor for SARS-CoV-2 [2]. Next, transmembrane serine protease 2 (TMPRSS2) cleaves the SARS-CoV-2 spike protein on the cell membrane, which is important for the fusion of viral and cellular membranes [3]. In summary, ACE2 is the prerequisite for SARS-CoV-2 infection, while TMPRSS2 facilitates viral entry and spread [3]. Therefore, the expression of ACE2 and TMPRSS2 directly points to the cellular tropism of SARS-CoV-2, which has important implications for the pathogenesis of COVID-19 [4, 5].",
+      "paragraph_start": 136,
+      "text": "Therefore, the expression of ACE2 and TMPRSS2 directly points to the cellular tropism of SARS-CoV-2, which has important implications for the pathogenesis of COVID-19 [4, 5].",
+      "start": 807,
+      "end": 981,
+      "stratum": "context",
+      "rationale": "Joint expression as tropism indicator does not imply ACE2/TMPRSS2 interaction or mutual regulation.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID34094637:L3:S4",
+      "paper_id": "PMID:34094637",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_34094637.txt",
+      "source_sha256": "18c94ff3d4213f846f601d01a78c751190d3d653fcdf5782f74f29df780cbdaf",
+      "line": 3,
+      "paragraph": "Recently, emerging evidence has indicated that COVID-19 represents a serious threat to older populations [6]. Older COVID-19 patients are disproportionately affected by severe and fatal outcomes. It is worth noting that 95.4% of COVID-19 death cases in the US are more than 50 years old [6]. Age-related alterations in gene expression play a pivotal role in human disease [7, 8]. Recognizing the importance of ACE2 and TMPRSS2 for the cellular tropism of SARS-CoV-2, we explored the landscape of cell-type identities for ACE2+ TMPRSS2+ cells across different human tissues and the age-related alterations in ACE2 and TMPRSS2 expression across different cell types.",
+      "paragraph_start": 982,
+      "text": "Recognizing the importance of ACE2 and TMPRSS2 for the cellular tropism of SARS-CoV-2, we explored the landscape of cell-type identities for ACE2+ TMPRSS2+ cells across different human tissues and the age-related alterations in ACE2 and TMPRSS2 expression across different cell types.",
+      "start": 1362,
+      "end": 1646,
+      "stratum": "context",
+      "rationale": "Study objective about expression; ACE2+ TMPRSS2+ are marker-positive cells.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID34094637:L4:S2",
+      "paper_id": "PMID:34094637",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_34094637.txt",
+      "source_sha256": "18c94ff3d4213f846f601d01a78c751190d3d653fcdf5782f74f29df780cbdaf",
+      "line": 4,
+      "paragraph": "A recent study identified various cell-type clusters in human tissues through single-cell RNA sequencing (scRNA-seq), reflecting the growing knowledge of cellular heterogeneity at the single-cell level [9]. Based on the well-established link between viral entry factors and cellular tropism [4, 5], we constructed a scRNA-seq-based analysis framework for mapping the cellular tropism by analyzing the expression of ACE2 and TMPRSS2. We consolidated the ACE2+ TMPRSS2+ cells by tissue type and cell-type cluster, and then established their relationships. Next, we evaluated age-related expression of ACE2 and TMPRSS2 in different cell types (Fig. 1). This approach was designed to enable a greater understanding of COVID-19 pathogenesis and to generate new hypotheses on which tissue and cell types are the potential targets of SARS-CoV-2.",
+      "paragraph_start": 1647,
+      "text": "We consolidated the ACE2+ TMPRSS2+ cells by tissue type and cell-type cluster, and then established their relationships.",
+      "start": 2080,
+      "end": 2200,
+      "stratum": "context",
+      "rationale": "Relationships of cell groups and tissues, not interactions of marker proteins.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID34094637:L4:S4",
+      "paper_id": "PMID:34094637",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_34094637.txt",
+      "source_sha256": "18c94ff3d4213f846f601d01a78c751190d3d653fcdf5782f74f29df780cbdaf",
+      "line": 4,
+      "paragraph": "A recent study identified various cell-type clusters in human tissues through single-cell RNA sequencing (scRNA-seq), reflecting the growing knowledge of cellular heterogeneity at the single-cell level [9]. Based on the well-established link between viral entry factors and cellular tropism [4, 5], we constructed a scRNA-seq-based analysis framework for mapping the cellular tropism by analyzing the expression of ACE2 and TMPRSS2. We consolidated the ACE2+ TMPRSS2+ cells by tissue type and cell-type cluster, and then established their relationships. Next, we evaluated age-related expression of ACE2 and TMPRSS2 in different cell types (Fig. 1). This approach was designed to enable a greater understanding of COVID-19 pathogenesis and to generate new hypotheses on which tissue and cell types are the potential targets of SARS-CoV-2.",
+      "paragraph_start": 1647,
+      "text": "This approach was designed to enable a greater understanding of COVID-19 pathogenesis and to generate new hypotheses on which tissue and cell types are the potential targets of SARS-CoV-2.",
+      "start": 2297,
+      "end": 2485,
+      "stratum": "uncertain",
+      "rationale": "Hypothesis-generation objective, not validated target tissue or molecular mechanism.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID32402155:L4:S0",
+      "paper_id": "PMID:32402155",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_32402155.txt",
+      "source_sha256": "38fe203065967a7877260dd68f360341940bd2853b2f57271dcd45a22edf8636",
+      "line": 4,
+      "paragraph": "Since the kidneys are among the most common targets of SARS-CoV-2, we performed in silico analysis of publicly available data sets of single-cell RNA sequencing. This analysis revealed that RNA for angiotensin-converting enzyme 2 (ACE2), transmembrane serine protease 2 (TMPRSS2), and cathepsin L (CTSL) — RNA of genes that are considered to facilitate SARS-CoV-2 infection3 — is enriched in multiple kidney-cell types from fetal development through adulthood (Fig. S1). This enrichment may facilitate SARS-CoV-2–associated kidney injury, as previously suggested.4",
+      "paragraph_start": 1194,
+      "text": "Since the kidneys are among the most common targets of SARS-CoV-2, we performed in silico analysis of publicly available data sets of single-cell RNA sequencing.",
+      "start": 1194,
+      "end": 1355,
+      "stratum": "context",
+      "rationale": "Analysis method, not a molecular interaction.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID32402155:L4:S3",
+      "paper_id": "PMID:32402155",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_32402155.txt",
+      "source_sha256": "38fe203065967a7877260dd68f360341940bd2853b2f57271dcd45a22edf8636",
+      "line": 4,
+      "paragraph": "Since the kidneys are among the most common targets of SARS-CoV-2, we performed in silico analysis of publicly available data sets of single-cell RNA sequencing. This analysis revealed that RNA for angiotensin-converting enzyme 2 (ACE2), transmembrane serine protease 2 (TMPRSS2), and cathepsin L (CTSL) — RNA of genes that are considered to facilitate SARS-CoV-2 infection3 — is enriched in multiple kidney-cell types from fetal development through adulthood (Fig. S1). This enrichment may facilitate SARS-CoV-2–associated kidney injury, as previously suggested.4",
+      "paragraph_start": 1194,
+      "text": "This enrichment may facilitate SARS-CoV-2–associated kidney injury, as previously suggested.4",
+      "start": 1665,
+      "end": 1758,
+      "stratum": "uncertain",
+      "rationale": "Speculative kidney injury implication, not an identified molecular pair.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID32402155:L6:S0",
+      "paper_id": "PMID:32402155",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_32402155.txt",
+      "source_sha256": "38fe203065967a7877260dd68f360341940bd2853b2f57271dcd45a22edf8636",
+      "line": 6,
+      "paragraph": "On the basis of these findings, renal tropism is a potential explanation of commonly reported new clinical signs of kidney injury in patients with Covid-19,5 even in patients with SARS-CoV-2 infection who are not critically ill. Our results indicate that SARS-CoV-2 has an organotropism beyond the respiratory tract, including the kidneys, liver, heart, and brain, and we speculate that organotropism influences the course of Covid-19 disease and, possibly, aggravates preexisting conditions.",
+      "paragraph_start": 2451,
+      "text": "On the basis of these findings, renal tropism is a potential explanation of commonly reported new clinical signs of kidney injury in patients with Covid-19,5 even in patients with SARS-CoV-2 infection who are not critically ill.",
+      "start": 2451,
+      "end": 2679,
+      "stratum": "uncertain",
+      "rationale": "Potential organ-level explanation; no molecular interaction.",
+      "relations": []
+    },
+    {
+      "sentence_id": "PMID32402155:L6:S1",
+      "paper_id": "PMID:32402155",
+      "split": "test",
+      "source_path": "part1/task4/corpus/PMID_32402155.txt",
+      "source_sha256": "38fe203065967a7877260dd68f360341940bd2853b2f57271dcd45a22edf8636",
+      "line": 6,
+      "paragraph": "On the basis of these findings, renal tropism is a potential explanation of commonly reported new clinical signs of kidney injury in patients with Covid-19,5 even in patients with SARS-CoV-2 infection who are not critically ill. Our results indicate that SARS-CoV-2 has an organotropism beyond the respiratory tract, including the kidneys, liver, heart, and brain, and we speculate that organotropism influences the course of Covid-19 disease and, possibly, aggravates preexisting conditions.",
+      "paragraph_start": 2451,
+      "text": "Our results indicate that SARS-CoV-2 has an organotropism beyond the respiratory tract, including the kidneys, liver, heart, and brain, and we speculate that organotropism influences the course of Covid-19 disease and, possibly, aggravates preexisting conditions.",
+      "start": 2680,
+      "end": 2943,
+      "stratum": "uncertain",
+      "rationale": "Observed organotropism plus speculative clinical implications, no molecular pair.",
+      "relations": []
+    }
+  ]
+}

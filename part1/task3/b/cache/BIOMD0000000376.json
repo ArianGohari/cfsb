@@ -1,0 +1,326 @@
+{
+  "name" : "Bertram2007_IsletCell_Oscillations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This is the model described in the article:              <br />        <strong>Interaction of glycolysis and mitochondrial respiration in metabolic oscillations of pancreatic islets. </strong>        <br />       Bertram R, Satin LS, Pedersen MG, Luciani DS, Sherman A.         <em>Biophys J. </em> 2007 Mar 1;92(5):1544-55. Pubmed ID:               <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17172305\">17172305</a>, doi:         <a href=\"http://dx.doi.org/10.1529/biophysj.106.097154\">10.1529/biophysj.106.097154</a>.              <br />        <strong>Abstract:</strong>        <br /> Insulin secretion from pancreatic beta-cells is oscillatory, with a typical period of 2-7 min, reflecting oscillations in membrane potential and the cytosolic Ca(2+) concentration. Our central hypothesis is that the slow 2-7 min oscillations are due to glycolytic oscillations, whereas faster oscillations that are superimposed are due to Ca(2+) feedback onto metabolism or ion channels. We extend a previous mathematical model based on this hypothesis to include a more detailed description of mitochondrial metabolism. We demonstrate that this model can account for typical oscillatory patterns of membrane potential and Ca(2+) concentration in islets. It also accounts for temporal data on oxygen consumption in islets. A recent challenge to the notion that glycolytic oscillations drive slow Ca(2+) oscillations in islets are data showing that oscillations in Ca(2+), mitochondrial oxygen consumption, and NAD(P)H levels are all terminated by membrane hyperpolarization. We demonstrate that these data are in fact compatible with a model in which glycolytic oscillations are the key player in rhythmic islet activity. Finally, we use the model to address the recent finding that the activity of islets from some mice is uniformly fast, whereas that from islets of other mice is slow. We propose a mechanism for this dichotomy.   </p>        <p>This model was taken from the               <a href=\"http://www.cellml.org/models\">CellML repository</a> and automatically converted to SBML.              <br />The original model was:               <a href=\"http://www.cellml.org/models/bertram_satin_pedersen_luciani_sherman_2007_version02\">          <strong>Bertram, Satin, Pedersen, Luciani, Sherman, 2007 version 02</strong>        </a>        <br />The original CellML model was created and curated by:              <br />        <strong>Catherine May Lloyd</strong>        <br />    c.lloyd(at)auckland.ac.nz              <br />    The University of Auckland, Bioengineering Institute</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17172305",
+    "journal" : "Biophysical journal",
+    "title" : "Interaction of glycolysis and mitochondrial respiration in metabolic oscillations of pancreatic islets.",
+    "affiliation" : "Department of Mathematics and Programs in Neuroscience and Molecular Biophysics, Florida State University, Tallahassee, Florida, USA. bertram@math.fsu.edu",
+    "synopsis" : "Insulin secretion from pancreatic beta-cells is oscillatory, with a typical period of 2-7 min, reflecting oscillations in membrane potential and the cytosolic Ca(2+) concentration. Our central hypothesis is that the slow 2-7 min oscillations are due to glycolytic oscillations, whereas faster oscillations that are superimposed are due to Ca(2+) feedback onto metabolism or ion channels. We extend a previous mathematical model based on this hypothesis to include a more detailed description of mitochondrial metabolism. We demonstrate that this model can account for typical oscillatory patterns of membrane potential and Ca(2+) concentration in islets. It also accounts for temporal data on oxygen consumption in islets. A recent challenge to the notion that glycolytic oscillations drive slow Ca(2+) oscillations in islets are data showing that oscillations in Ca(2+), mitochondrial oxygen consumption, and NAD(P)H levels are all terminated by membrane hyperpolarization. We demonstrate that these data are in fact compatible with a model in which glycolytic oscillations are the key player in rhythmic islet activity. Finally, we use the model to address the recent finding that the activity of islets from some mice is uniformly fast, whereas that from islets of other mice is slow. We propose a mechanism for this dichotomy.",
+    "year" : 2007,
+    "month" : "3",
+    "volume" : "92",
+    "issue" : "5",
+    "pages" : "1544-1555",
+    "link" : "http://identifiers.org/pubmed/17172305",
+    "authors" : [
+      {
+        "name" : "Richard Bertram",
+        "institution" : "Department of Mathematics and Programs in Neuroscience and Molecular Biophysics, Florida State University, Tallahassee, Florida, USA. bertram@math.fsu.edu",
+        "orcid" : "0000-0001-8577-2592"
+      },
+      {
+        "name" : "Leslie S Satin"
+      },
+      {
+        "name" : "Morten Gram Pedersen",
+        "orcid" : "0000-0002-2639-2394"
+      },
+      {
+        "name" : "Dan S Luciani",
+        "orcid" : "0000-0002-4318-4159"
+      },
+      {
+        "name" : "Arthur Sherman",
+        "orcid" : "0000-0002-8372-5941"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000376_url.xml",
+        "description" : "SBML L2V4 representation of Bertram2007_IsletCell_Oscillations",
+        "fileSize" : "67897",
+        "mimeType" : "application/xml",
+        "md5sum" : "723bcad5b514edf91e90d673b446bb52",
+        "sha1sum" : "c0ece6b128bbf2e1fc7a605afcbd5e95bf8a4ff5",
+        "sha256sum" : "432d62b63eeb81c4e025ed3ea6fd5e17932bd63db5c5edded8468f70d2e6f09f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "376.cps",
+        "description" : "This COPASI file reproduces fig 4 of the reference publication,but the time scale needs to be adjusted to get the curation figure",
+        "fileSize" : "95399",
+        "mimeType" : "application/xml",
+        "md5sum" : "c7829e6b9e15888529e105e26c4bf467",
+        "sha1sum" : "3475f61cd81a716b0e648deb73a52c10e9d3b26e",
+        "sha256sum" : "7479d1bd755f2156b029e53e737397bcdbe743366d5e0fab9258253a56e50281"
+      },
+      {
+        "name" : "376.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "85568",
+        "mimeType" : "application/xml",
+        "md5sum" : "6f300140bd2d8596cddcebf6faf9c157",
+        "sha1sum" : "0b5ca1bc898e3e250df50618525faa3ab8bde013",
+        "sha256sum" : "78ccd351f48b25173f13076ed902544ab6c244a9f05aa243fce5468c4309e3dd"
+      },
+      {
+        "name" : "BIOMD0000000376-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "8258",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c742f5394e74af67a66b94808b817687",
+        "sha1sum" : "4c1b808e3f29f74293ac35771114f13d991abb49",
+        "sha256sum" : "8f7e92bd82baf50026fdc92dde568551d6bfed147f352e845be04f3a4beda7ea"
+      },
+      {
+        "name" : "BIOMD0000000376-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "9428",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c86214cc8f1d2e5db5f015d92af6cfa3",
+        "sha1sum" : "f1f0fce83c054637e68d63a9ef77d4a8062a0062",
+        "sha256sum" : "7d4afee74a7932349d48deaa72450c3ec5864c6630e613149dc4ebcc6495c56c"
+      },
+      {
+        "name" : "BIOMD0000000376-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "21737",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "60f0a00c95902c3f4589ea71ccae6fec",
+        "sha1sum" : "904bfb4979afd765a474770fc73c3ed234279c18",
+        "sha256sum" : "be0122a49d7a00862befd82df8c3df9f416e38c1ac1f81f170a8646f4f45b9bc"
+      },
+      {
+        "name" : "BIOMD0000000376-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "21737",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c7e7ebbb18043ffe1c16f428f2ede902",
+        "sha1sum" : "22d5c1d9b7fba73ba3ebea4b03aeafad43f4e2b4",
+        "sha256sum" : "4c783addec42f919971e24ed8fc78eecabd689df06a7e72634a626940eb058d9"
+      },
+      {
+        "name" : "BIOMD0000000376.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "21737",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c7e7ebbb18043ffe1c16f428f2ede902",
+        "sha1sum" : "22d5c1d9b7fba73ba3ebea4b03aeafad43f4e2b4",
+        "sha256sum" : "4c783addec42f919971e24ed8fc78eecabd689df06a7e72634a626940eb058d9"
+      },
+      {
+        "name" : "BIOMD0000000376.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "19114",
+        "mimeType" : "text/plain",
+        "md5sum" : "49eaf6f27c75d0e372e7a5c1faadfd02",
+        "sha1sum" : "ca10ddec256fc71b1b35bad79997bf4c8f199bee",
+        "sha256sum" : "48d64365a32c8631b4b4ee735ef2b68bfdbfb387a5cf6d51152fa2258b6d5a31"
+      },
+      {
+        "name" : "BIOMD0000000376.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "219848",
+        "mimeType" : "application/pdf",
+        "md5sum" : "62461b0d789da5538441940ed073100a",
+        "sha1sum" : "0f671419946a51fc599c69547281fa082ffa46b7",
+        "sha256sum" : "40ec23eb64d055cb12c3939dfec039be832e95ad7133893f25092a1e64adb3eb"
+      },
+      {
+        "name" : "BIOMD0000000376.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000376.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "58018",
+        "mimeType" : "image/png",
+        "md5sum" : "e2dc986e2912e899ffa11c7c32aef1b0",
+        "sha1sum" : "38de19df8e7c3b115830eb9d67bd500081870e2d",
+        "sha256sum" : "02fd19665fe1220eadf2295939f27b9fe5954c93bd8e16e7b202fb2264479b7c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "b45d93b2cbafae5c32b78e116a856d84",
+        "sha1sum" : "d1098f7243903fe51ec34c2b42bcc47c00660a8e",
+        "sha256sum" : "5a734eda8e36e803373da69dc0d050c516546a12dfb70a75e4d9c33fd48d6699"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1883",
+        "mimeType" : "application/xml",
+        "md5sum" : "4d91ba6ff4f67a7fe4ceaec8f197f31d",
+        "sha1sum" : "9155580f4913ddd44d85ff112d9f9e5ebd41af90",
+        "sha256sum" : "a46bd462fc05ece8581cefc55e320821eef362f8e32cb3b40d583d2ff41c9363"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5386",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "568f672a061c7aa1c814d28102f197c5",
+        "sha1sum" : "03a744dcdbcb86cef92cd28513ed88bb14a803f8",
+        "sha256sum" : "2d501218e6c0a888c9e78f9ca467cd453878d6c5c05ae17ac2572dead41a97c7"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1237895660,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Bertram2007 islet cell oscillations"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138900,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Bertram2007_IsletCell_Oscillations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545412538,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: 376.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724275025,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285097,
+  "submissionId" : "MODEL7889980156",
+  "publicationId" : "BIOMD0000000376",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000783",
+      "name" : "pancreatic beta cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000783"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0044342",
+      "name" : "type B pancreatic cell proliferation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0044342"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0061469",
+      "name" : "regulation of type B pancreatic cell proliferation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0061469"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000373",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000373"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7889980156",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7889980156"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000376",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000376"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17172305",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17172305"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

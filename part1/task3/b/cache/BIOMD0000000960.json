@@ -1,0 +1,273 @@
+{
+  "name" : "Paiva2020 - SEIAHRD model of transmission dynamics of COVID-19",
+  "description" : "This paper proposes a dynamic model to describe and forecast the dynamics of the coronavirus disease COVID-19 transmission. The model is based on an approach previously used to describe the Middle East Respiratory Syndrome (MERS) epidemic. This methodology is used to describe the COVID-19 dynamics in six countries where the pandemic is widely spread, namely China, Italy, Spain, France, Germany, and the USA. For this purpose, data from the European Centre for Disease Prevention and Control (ECDC) are adopted. It is shown how the model can be used to forecast new infection cases and new deceased and how the uncertainties associated to this prediction can be quantified. This approach has the advantage of being relatively simple, grouping in few mathematical parameters the many conditions which affect the spreading of the disease. On the other hand, it requires previous data from the disease transmission in the country, being better suited for regions where the epidemic is not at a very early stage. With the estimated parameters at hand, one can use the model to predict the evolution of the disease, which in turn enables authorities to plan their actions. Moreover, one key advantage is the straightforward interpretation of these parameters and their influence over the evolution of the disease, which enables altering some of them, so that one can evaluate the effect of public policy, such as social distancing. The results presented for the selected countries confirm the accuracy to perform predictions.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "32735581",
+    "journal" : "PloS one",
+    "title" : "A data-driven model to describe and forecast the dynamics of COVID-19 transmission.",
+    "affiliation" : "Institute of Science and Technology (ICT), Federal University of São Paulo (UNIFESP), São José dos Campos, SP, Brazil.",
+    "synopsis" : "This paper proposes a dynamic model to describe and forecast the dynamics of the coronavirus disease COVID-19 transmission. The model is based on an approach previously used to describe the Middle East Respiratory Syndrome (MERS) epidemic. This methodology is used to describe the COVID-19 dynamics in six countries where the pandemic is widely spread, namely China, Italy, Spain, France, Germany, and the USA. For this purpose, data from the European Centre for Disease Prevention and Control (ECDC) are adopted. It is shown how the model can be used to forecast new infection cases and new deceased and how the uncertainties associated to this prediction can be quantified. This approach has the advantage of being relatively simple, grouping in few mathematical parameters the many conditions which affect the spreading of the disease. On the other hand, it requires previous data from the disease transmission in the country, being better suited for regions where the epidemic is not at a very early stage. With the estimated parameters at hand, one can use the model to predict the evolution of the disease, which in turn enables authorities to plan their actions. Moreover, one key advantage is the straightforward interpretation of these parameters and their influence over the evolution of the disease, which enables altering some of them, so that one can evaluate the effect of public policy, such as social distancing. The results presented for the selected countries confirm the accuracy to perform predictions.",
+    "year" : 2020,
+    "month" : "0",
+    "volume" : "15",
+    "issue" : "7",
+    "pages" : "e0236386",
+    "link" : "http://identifiers.org/pubmed/32735581",
+    "authors" : [
+      {
+        "name" : "Henrique Mohallem Paiva",
+        "institution" : "Institute of Science and Technology (ICT), Federal University of São Paulo (UNIFESP), São José dos Campos, SP, Brazil.",
+        "orcid" : "0000-0001-7081-8383"
+      },
+      {
+        "name" : "Rubens Junqueira Magalhães Afonso",
+        "institution" : "Institute of Flight System Dynamics, Department of Aerospace and Geodesy, Technical University of Munich (TUM), Garching bei München, Bavaria, Germany.Department of Electronics Engineering, Aeronautics Institute of Technology (ITA), São José dos Campos, SP, Brazil.",
+        "orcid" : "0000-0001-9209-2253"
+      },
+      {
+        "name" : "Igor Luppi de Oliveira",
+        "institution" : "Institute of Science and Technology (ICT), Federal University of São Paulo (UNIFESP), São José dos Campos, SP, Brazil."
+      },
+      {
+        "name" : "Gabriele Fernandes Garcia",
+        "institution" : "Institute of Science and Technology (ICT), Federal University of São Paulo (UNIFESP), São José dos Campos, SP, Brazil.",
+        "orcid" : "0000-0001-5816-0312"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Paiva2020.xml",
+        "description" : "SBML L2V4 representation of SEIAHRD model of transmission dynamics of COVID-19",
+        "fileSize" : "212046",
+        "mimeType" : "application/xml",
+        "md5sum" : "79d9cce415edc3b119c7982ce5cc8da1",
+        "sha1sum" : "b13f898e8e596ebbd9c2e9bdfc30de2729a5c217",
+        "sha256sum" : "8877a70c38fbd191614f57dd99132133b0d81bc41f59825371ca30b163bf51ea"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Paiva2020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "21598",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "be7640b6b15a2499d7efdf59d0124a5e",
+        "sha1sum" : "8e6daa2958a9c25a3df9ed98c6848813e68ae822",
+        "sha256sum" : "b9918d40b97e2b56145bc8a36bc130cb1a2316d4f79b08b1195faa50be3666d7"
+      },
+      {
+        "name" : "Paiva2020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "32542",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e9040ca7b2e68b3fdcb16eae17d3ec68",
+        "sha1sum" : "9cd978191b4723dd2c707879a5df5bf8638f9328",
+        "sha256sum" : "fcafd036dbe0dece202e396c025c897ab6fa59aa33fedff245eb1ad6d0326247"
+      },
+      {
+        "name" : "Paiva2020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "33289",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "df516ecc55bc9901e1446301bf520e52",
+        "sha1sum" : "43bcecf2dffeb0f97f48fce07b13cb94e78adb4d",
+        "sha256sum" : "98fa8f4c834913f3910f75014c48cdec748bab482fb638b65d971e7bcb909c80"
+      },
+      {
+        "name" : "Paiva2020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "33289",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3d74233b69c0d498c9e7210984f504f0",
+        "sha1sum" : "f1a25d7fc43bfa3ab5744e16590dd817f540cc0e",
+        "sha256sum" : "e01d3f9f7faa4c474aa6bf598903a7ee4d051c293524fcbfc501ab726800e813"
+      },
+      {
+        "name" : "Paiva2020.cps",
+        "description" : "COPASI 4.29 (Build 228) file of SEIAHRD model of transmission dynamics of COVID-19",
+        "fileSize" : "227106",
+        "mimeType" : "application/xml",
+        "md5sum" : "71829d00dc9ccb61090f27f0b0a7700c",
+        "sha1sum" : "629f97567d832ea24809fe61ea54c679df0e9110",
+        "sha256sum" : "8c1a0c9d04789b0f01ad87f393fb3ff0251586805800ed0cf2c066cbb615563a"
+      },
+      {
+        "name" : "Paiva2020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "27387",
+        "mimeType" : "text/plain",
+        "md5sum" : "2e037aba32de90c1a60a15405ee4c2bd",
+        "sha1sum" : "acf9f00f202b98924f4634967de8490035e4415e",
+        "sha256sum" : "637a6ec642bb2ab3c878eec4b998ce3c38d08d4aa0c10d5d84b19f6ddacf0f7a"
+      },
+      {
+        "name" : "Paiva2020.sedml",
+        "description" : "SED-ML file of SEIAHRD model of transmission dynamics of COVID-19 (additionally CRBM-validated and adjusted).",
+        "fileSize" : "136253",
+        "mimeType" : "application/xml",
+        "md5sum" : "4c3bb3c0e79903672f767ffa5e6cb92b",
+        "sha1sum" : "799c9c3eac35a5a960dd4628853b77ed9293bb38",
+        "sha256sum" : "de3fe39a94bf92de342e9f57658eafa8891ba162e44fba3a958d60aed2c7ac4e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41433",
+        "mimeType" : "image/png",
+        "md5sum" : "15d0d7ab801d61d13897d57750f57e03",
+        "sha1sum" : "cfbfbdd49014b02093f50b8eb552094b452d1009",
+        "sha256sum" : "ec66b2dc6b92fc2473b6efb455926032bcf47622804e54ab8f47a24540cee189"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "689",
+        "mimeType" : "text/plain",
+        "md5sum" : "8415bd4914dde8b49f1101aa331b6415",
+        "sha1sum" : "dbf9b411e75f678f7b7b06e9ccc472648f33cf49",
+        "sha256sum" : "5489eb680336e3ada889076738b9fb9b2bfa9ef3c7ab31c217da5653d76a09bb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1403",
+        "mimeType" : "application/xml",
+        "md5sum" : "17a8f7cbac0d0c7fdda2942f5f400c80",
+        "sha1sum" : "a03525b7e845611d7a505491e42f71447110fcf6",
+        "sha256sum" : "0db1f4b801230421b6cae69ce4c702e07dc812669f31d5388b20157eaea8ebfb"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3215",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5cbb9b40e644d6b402d298f70f49edb0",
+        "sha1sum" : "7a2e7b823933f68965f523273ebc6c06bc2e96ff",
+        "sha256sum" : "537dd307eccd4b6a42fd9893605264dfe4cac0a7bf68093ab42bc3b681a264ca"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1597916529,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000960"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1598458357,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000960"
+      },
+      {
+        "version" : 9,
+        "submitted" : 1601939956,
+        "submitter" : "Kausthubh Ramachandran",
+        "comment" : "Automatically added model identifier BIOMD0000000960"
+      },
+      {
+        "version" : 10,
+        "submitted" : 1724293982,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285546,
+  "submissionId" : "MODEL2008200001",
+  "publicationId" : "BIOMD0000000960",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000028",
+    "name" : "population model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000028"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "COVID-19"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kausthubh Ramachandran",
+        "email" : "rkausthubh@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-6221-8166",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2697049",
+      "name" : "Severe acute respiratory syndrome coronavirus 2",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2697049"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000028",
+      "name" : "population model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000028"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "DOID:0080600",
+      "name" : "COVID-19",
+      "resource" : "\nHuman Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0080600"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "32735581",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/32735581"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2008200001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2008200001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000960",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000960"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "0000503",
+      "resource" : "Infectious Disease Ontology",
+      "uri" : "http://identifiers.org/ido/0000503"
+    }
+  ]
+}

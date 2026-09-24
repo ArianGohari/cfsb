@@ -1,0 +1,255 @@
+{
+  "name" : "Benedict2011 - Genome-scale metoblic network of Methanosarcina acetivorans (iMB745)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Benedict2011 - Genome-scale metoblic networkof Methanosarcina acetivorans (iMB745)</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/22139506\" title=\"Access to this publication\">Genome-scale metabolic    reconstruction and hypothesis testing in the methanogenic    archaeon Methanosarcina acetivorans C2A.</a>  </div>  <div class=\"bibo:authorList\">Benedict MN, Gonnerman MC, Metcalf  WW, Price ND.</div>  <div class=\"bibo:Journal\">J. Bacteriol. 2012 Feb; 194(4):  855-865</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Methanosarcina acetivorans strain C2A is a marine    methanogenic archaeon notable for its substrate utilization,    genetic tractability, and novel energy conservation mechanisms.    To help probe the phenotypic implications of this organism's    unique metabolism, we have constructed and manually curated a    genome-scale metabolic model of M. acetivorans, iMB745, which    accounts for 745 of the 4,540 predicted protein-coding genes    (16%) in the M. acetivorans genome. The reconstruction effort    has identified key knowledge gaps and differences in peripheral    and central metabolism between methanogenic species. Using flux    balance analysis, the model quantitatively predicts wild-type    phenotypes and is 96% accurate in knockout lethality    predictions compared to currently available experimental data.    The model was used to probe the mechanisms and energetics of    by-product formation and growth on carbon monoxide, as well as    the nature of the reaction catalyzed by the soluble    heterodisulfide reductase HdrABC in M. acetivorans. The    genome-scale model provides quantitative and qualitative    hypotheses that can be used to help iteratively guide    additional experiments to further the state of knowledge about    methanogenesis.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1507180040\">MODEL1507180040</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22139506",
+    "journal" : "Journal of bacteriology",
+    "title" : "Genome-scale metabolic reconstruction and hypothesis testing in the methanogenic archaeon Methanosarcina acetivorans C2A.",
+    "affiliation" : "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois, USA.",
+    "synopsis" : "Methanosarcina acetivorans strain C2A is a marine methanogenic archaeon notable for its substrate utilization, genetic tractability, and novel energy conservation mechanisms. To help probe the phenotypic implications of this organism's unique metabolism, we have constructed and manually curated a genome-scale metabolic model of M. acetivorans, iMB745, which accounts for 745 of the 4,540 predicted protein-coding genes (16%) in the M. acetivorans genome. The reconstruction effort has identified key knowledge gaps and differences in peripheral and central metabolism between methanogenic species. Using flux balance analysis, the model quantitatively predicts wild-type phenotypes and is 96% accurate in knockout lethality predictions compared to currently available experimental data. The model was used to probe the mechanisms and energetics of by-product formation and growth on carbon monoxide, as well as the nature of the reaction catalyzed by the soluble heterodisulfide reductase HdrABC in M. acetivorans. The genome-scale model provides quantitative and qualitative hypotheses that can be used to help iteratively guide additional experiments to further the state of knowledge about methanogenesis.",
+    "year" : 2012,
+    "month" : "2",
+    "volume" : "194",
+    "issue" : "4",
+    "pages" : "855-865",
+    "link" : "http://identifiers.org/pubmed/22139506",
+    "authors" : [
+      {
+        "name" : "Matthew N Benedict",
+        "institution" : "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois, USA."
+      },
+      {
+        "name" : "Matthew C Gonnerman"
+      },
+      {
+        "name" : "William W Metcalf"
+      },
+      {
+        "name" : "Nathan D Price",
+        "orcid" : "0000-0002-4157-0267"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "MODEL1507180040_url.xml",
+        "description" : "SBML L3V1 representation of Benedict2011 - Genome-scale metoblic network of Methanosarcina acetivorans (iMB745)",
+        "fileSize" : "1276509",
+        "mimeType" : "application/xml",
+        "md5sum" : "a355a93e717736af2cd5c4f28672b576",
+        "sha1sum" : "6b82dca659eeeffc7bfb7825712743c0a514e30b",
+        "sha256sum" : "f40219b2cc6872661133369b523de6e13d6c44d431a31399b171852a797fe72e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL1507180040-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "1640196",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "87f2c26eba94f83d4f5fa69dddb4e548",
+        "sha1sum" : "ddbc782f60127c408bf113b2edf25f967199efb4",
+        "sha256sum" : "029ab59f8e2f4559a5b0f1521228358b2e1e98c3869642dbd532d636d4f54375"
+      },
+      {
+        "name" : "MODEL1507180040-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "3116341",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4e97a9f00ec5dce6c1ed99da8ffac0ab",
+        "sha1sum" : "957a3c4da22ccb084ebabadb8aa6873081f13c4a",
+        "sha256sum" : "09ae0198130e7ed578f54811551f992031422e271fffc5c5b9a78fb248e84619"
+      },
+      {
+        "name" : "MODEL1507180040.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "759",
+        "mimeType" : "text/plain",
+        "md5sum" : "9b1ef856b069b6a45bf4d02d6230a96f",
+        "sha1sum" : "00b5eca660d1a7ed202e0de9653c1be30b324f05",
+        "sha256sum" : "aee0eb5f501a01bf4817824e9b009a5d06ee5483c909a61bc4496c3bab27ca4d"
+      },
+      {
+        "name" : "MODEL1507180040.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "4909156",
+        "mimeType" : "application/pdf",
+        "md5sum" : "33ca9f432eb181125366f7baaddaee66",
+        "sha1sum" : "70465c84760f8df3919213fcd851e5152ca8536f",
+        "sha256sum" : "184d2756f402b6486bf9df2b8a1a6ef51ee842e321c70c7a8219ab7e4daa01ec"
+      },
+      {
+        "name" : "MODEL1507180040.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5189",
+        "mimeType" : "image/png",
+        "md5sum" : "603905e8aa4cc6ee8bbb56a895d093c8",
+        "sha1sum" : "4f5418a4d42c80db438ca0bfb758d2771630001e",
+        "sha256sum" : "d8b25e248df2e019004bf27eda2c8e7ee8575c1cae91cdd7c565e327c28250e9"
+      },
+      {
+        "name" : "MODEL1507180040.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "380",
+        "mimeType" : "text/plain",
+        "md5sum" : "d8108a67c3e1285e398b2114b832da84",
+        "sha1sum" : "bc00487f436d85a745e6147526a301ac5c861bcb",
+        "sha256sum" : "9bfaf664e0afd844d31a7c4fde08b14150ade452ff20c55ca50d8a0b7433609f"
+      },
+      {
+        "name" : "MODEL1507180040.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "557",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a81fbb335519c0fe6a988e4a5a31d7fa",
+        "sha1sum" : "0bd85814ba3393edb0c942c7a9b993057c527960",
+        "sha256sum" : "9a933a43e9c3465072df142961527cf0193ec76680512d3ac5fb0c3b0f333aad"
+      },
+      {
+        "name" : "MODEL1507180040.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "944",
+        "mimeType" : "application/xml",
+        "md5sum" : "ddba90aaddf69cd6f0c433f82081b45a",
+        "sha1sum" : "e57b0747c34f7ae85bf222661ddaae84edb8623a",
+        "sha256sum" : "fc59aabe181c38a40c71ae4f3abc6a6b18fe9c329deb762c4d3ecf0eadfc9262"
+      },
+      {
+        "name" : "MODEL1507180040.xpp",
+        "description" : "Auto-generated XPP file",
+        "fileSize" : "381",
+        "mimeType" : "text/plain",
+        "md5sum" : "e430eb1f485eb3346835897030be4b55",
+        "sha1sum" : "2f02ae1b1cefa994e040070b9eaf7a43dbad95cc",
+        "sha256sum" : "b70a8034d42a438609b141b504afc740d0c4c2f40f3e13d7d835b9a72ddc0b33"
+      },
+      {
+        "name" : "MODEL1507180040_urn.xml",
+        "description" : "Auto-generated SBML file with URNs",
+        "fileSize" : "1276075",
+        "mimeType" : "application/xml",
+        "md5sum" : "c013d1cc697667c0eb686bd97d0e4dd8",
+        "sha1sum" : "4a82ee53bc0b95aad73148fbd0f62e6e8478cecf",
+        "sha256sum" : "a39be26c1537d43d418ad383feae91b027e208ce21f1616db1a75d4479d3562c"
+      },
+      {
+        "name" : "iMB745.omex",
+        "description" : "FROG Report",
+        "fileSize" : "266061",
+        "mimeType" : "application/zip",
+        "md5sum" : "1bc7e690eab260239fcc5c90cd86c610",
+        "sha1sum" : "d42b4c6a52203b9314637a5f3b1c611a42e9a136",
+        "sha256sum" : "22e2a96510ec038c99cbdeb5bbba5d9ac66139d1c5158903d26eefb612b310b7"
+      },
+      {
+        "name" : "iMB745_miniFROG.xlsx",
+        "description" : "miniFROG Report",
+        "fileSize" : "11341",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "7d26444cf7792696064cbe2202d01c0d",
+        "sha1sum" : "ed58173a02b6ca26c0ab5fb9e7c0c59b31c4def9",
+        "sha256sum" : "e632b5b65e8597d4bf36d83df82e486ea3263713e23fcb8800675b727e49727f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1437233282,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of MODEL1507180040.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1438120325,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Benedict2011 - Genome-scale metoblic network of Methanosarcina acetivorans (iMB745)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724237095,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Current version of Benedict2011 - Genome-scale metoblic network of Methanosarcina acetivorans (iMB745)"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1739364018,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Automatically added model identifier BIOMD0000001097"
+      }
+    ]
+  },
+  "firstPublished" : 1729023157,
+  "submissionId" : "MODEL1507180040",
+  "publicationId" : "BIOMD0000001097",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "Modeller" : [
+      {
+        "name" : "Pratyay Sengupta",
+        "email" : "pratyay.iitm@gmail.com",
+        "affiliation" : "Indian Institute of Technology Madras",
+        "orcid" : "0000-0002-0184-9335",
+        "external" : false
+      },
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "n.lenovere@gmail.com",
+        "affiliation" : "The Babraham Institute",
+        "external" : false
+      }
+    ],
+    "Other" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1507180040",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1507180040"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22139506",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:22139506"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000009",
+      "name" : "Constraint-based model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000009"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001097",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001097"
+    }
+  ]
+}

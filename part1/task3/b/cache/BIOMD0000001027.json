@@ -1,0 +1,355 @@
+{
+  "name" : "Zake2021 - PBPK model of metformin in mice: single dose peroral",
+  "description" : "This model is supplementary material of publication \"Physiologically based metformin pharmacokinetics model of mice and scale-up to humans for the estimation of concentrations in various tissues\"by Darta Maija Zake, Linda Zaharenko, Janis Kurlovics, Vitalijs Komasilovs, Janis Klovins and Egils Stalidzans.The model is pre-set for simulation of a single peroral dose.This is a whole-body model representing the pharmacokinetics of metformin in the mouse body. The model is in the form of ordinary differential equations and describes metformin concentration in 20 compartments. The model consists of 20 compartments (“Compartments” in COPASI model) describing various tissues or tissue sub-compartments and body fluids of metformin action (venous and arterial plasma, intestine, kidney, heart, fat, muscle, brain, lungs, stomach, liver, portal vein, remainder urine and feces). Body weight and the weight of all compartments is expressed as a volume in mL and for the calculations it is assumed that 1mL = 1g. The volumes of most compartments are calculated as a fraction of the body weight/volume, and the fractions are determined from literature data, the volumes of the stomach lumen and intestine lumen are fixed and do not change depending on the body weight.  Similarly, the volume of external urine and feces is set to 1mL, but those are “volumeless” compartments as they are only necessary for the calculation of metformin amount, not concentration. The model consists of 20 species (“Species” in COPASI model) that correspond to the metformin concentrations in the 20 compartments. The initial concentrations for all the species are 0 nmol/mL as metformin is not produced in the body and can only be detected after dose administration. The model consists of 33 reactions – they describe the transport processes of metformin in the body. The reactions include local parameters that are involved only in that particular reaction and global parameters – parameters that are used in multiple reactions or are calculated depending on another parameter e.g. scale-up coefficients. The model consists of 52 global quantities – parameters involved in multiple reactions or necessary for another parameter calculation:1.Parameters describing metformin dose – either in peroral (Metformin Dose in Lumen in mg) or intravenous (Metformin Dose in Plasma in mg). 2.Parameter describing mice physiology – body weight (in mL), cardiac output, blood flow to different compartments described as Q”compartment_name” (for example Qliver describes blood flow to the liver compartment). Qgfr refers to the glomerular filtration rate. 3.Tissue:plasma partition coefficients (Ktp) that are necessary for the scale-up to humans.4.Parameters involved in the calculation of metformin amount in mg, these parameters are named mg”Compartment_name” (for example mgLiver describes the metformin amount in mg in the liver tissues). The time points of dose release are defined as “events” in COPASI and can be changed as necessary. Time course simulations can be accessed through the section “Time Course” in this section the time duration and intervals can be changed. When time-course simulations are run three plots are created – Metformin amount in the 20 compartments, metformin concentrations in the compartments and reaction fluxes of all the reactions (see “Output Specifications” -> “Plots” to activate or deactivate plots).",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1371/journal.pone.0249594",
+    "journal" : "PLOS ONE",
+    "title" : "Physiologically based metformin pharmacokinetics model of mice and scale-up to humans for the estimation of concentrations in various tissues",
+    "affiliation" : "Latvian Biomedical Research and Study Centre: Riga, LV; University of Latvia: Riga, LV",
+    "synopsis" : "Metformin is the primary drug for type 2 diabetes treatment and a promising candidate for other disease treatment. It has significant deviations between individuals in therapy efficiency and pharmacokinetics, leading to the administration of an unnecessary overdose or an insufficient dose. There is a lack of data regarding the concentration-time profiles in various human tissues that limits the understanding of pharmacokinetics and hinders the development of precision therapies for individual patients. The physiologically based pharmacokinetic (PBPK) model developed in this study is based on humans’ known physiological parameters (blood flow, tissue volume, and others). The missing tissue-specific pharmacokinetics parameters are estimated by developing a PBPK model of metformin in mice where the concentration time series in various tissues have been measured. Some parameters are adapted from human intestine cell culture experiments. The resulting PBPK model for metformin in humans includes 21 tissues and body fluids compartments and can simulate metformin concentration in the stomach, small intestine, liver, kidney, heart, skeletal muscle adipose, and brain depending on the body weight, dose, and administration regimen. Simulations for humans with a bodyweight of 70kg have been analyzed for doses in the range of 500-1500mg. Most tissues have a half-life (T1/2) similar to plasma (3.7h) except for the liver and intestine with shorter T1/2 and muscle, kidney, and red blood cells that have longer T1/2. The highest maximal concentrations (Cmax) turned out to be in the intestine (absorption process) and kidney (excretion process), followed by the liver. The developed metformin PBPK model for mice does not have a compartment for red blood cells and consists of 20 compartments. The developed human model can be personalized by adapting measurable values (tissue volumes, blood flow) and measuring metformin concentration time-course in blood and urine after a single dose of metformin. The personalized model can be used as a decision support tool for precision therapy development for individuals.",
+    "year" : 2021,
+    "month" : "4",
+    "volume" : "16",
+    "issue" : "4",
+    "pages" : "e0249594",
+    "link" : "http://identifiers.org/doi/10.1371/journal.pone.0249594",
+    "authors" : [
+      {
+        "name" : "Darta Maija Zake"
+      },
+      {
+        "name" : "Janis Kurlovics"
+      },
+      {
+        "name" : "Linda Zaharenko"
+      },
+      {
+        "name" : "Vitalijs Komasilovs"
+      },
+      {
+        "name" : "Janis Klovins"
+      },
+      {
+        "name" : "Egils Stalidzans"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Zake2021_Metformin_Mice_PO.xml",
+        "description" : "SBML L3V1 file for the curated model",
+        "fileSize" : "226064",
+        "mimeType" : "application/xml",
+        "md5sum" : "9a97750710014558880687462d0322ee",
+        "sha1sum" : "6f71802199598fb411a078a7c69a3b6de50a67d3",
+        "sha256sum" : "f14207440d2c9761023f06e4c304118998c780f1d8d37d2a0909951a3bf3ad47"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "43672",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5d1226eb930820b3dcf98325e1ee9d7a",
+        "sha1sum" : "9b29c195dbd3e1cc3e0eaad09bdfe29d959e9435",
+        "sha256sum" : "3b7f33e80e86057e1edfc9fd2fddeab896c7b03be102542c3e5c973a6212ddb6"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "80456",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8102e7c29c0b63ce369b10f50bf33c0e",
+        "sha1sum" : "2b1043e5cf0733644407e67797ee986841f512e2",
+        "sha256sum" : "82fb40db3de4ca64236a0919db41f7318dbb2ed333157e527218fee656f1455d"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "32759",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a216445b25fce23b1c134fc2ca469867",
+        "sha1sum" : "26d9d6235e86d7e0ffb8ec9fc2102e6effeb4704",
+        "sha256sum" : "9f96211204eddb5da3fc02f43b212c0c028ea17d0204b5861bdad982e6d1baa4"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "32759",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "45e728b5c3038d15a345dd67314ef147",
+        "sha1sum" : "50f9501d932492099f15411c15bbc8b3ac4d9ea6",
+        "sha256sum" : "d47f3c0caa249221196b04011ab4cbe5474edc019684fadc9a61c2bdca7c6611"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose.cps",
+        "description" : "Original submission: COPASI version: pharmacokinetics of metformin in mice, per-oral, single dose",
+        "fileSize" : "291807",
+        "mimeType" : "application/xml",
+        "md5sum" : "18cb2f494f67720396f559945e37174a",
+        "sha1sum" : "52221ab2ee33d8b9382c6f5beed0e46a19316e42",
+        "sha256sum" : "dcdb3ef594a9d3ae21359b1a0d6112982ccde91e8325726b46e171f594d0a71a"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25193",
+        "mimeType" : "text/plain",
+        "md5sum" : "d55c846d512510f28a8977086354ed86",
+        "sha1sum" : "414145c0a4d3bf18af7c264537fdba0f263e09c4",
+        "sha256sum" : "aee8177eb29e3c56155c15c18ca6e3b602afa838e4205480c0562b28f6da8046"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "111604",
+        "mimeType" : "application/xml",
+        "md5sum" : "a3089b4ae11db1480a8bf9210b6705c4",
+        "sha1sum" : "51ff14a84008c9a6388a39df1cd5ca5a4110c01e",
+        "sha256sum" : "71a2c4969a86035a8f8c0a3844aa0451f7b70462a38fbceb23f034161e37b3d0"
+      },
+      {
+        "name" : "Zake2021 - PBPK Metformin Mice PO single dose.xml",
+        "description" : "Original submission: SBML L2V4 pharmacokinetics of metformin in mice, per-oral, single dose",
+        "fileSize" : "168230",
+        "mimeType" : "application/xml",
+        "md5sum" : "55c89e9a9eccd9b3156aee34fa4f63d9",
+        "sha1sum" : "cc7153c67f372a751eeb865ddf4eeb2fb6557b07",
+        "sha256sum" : "3ef4ab57a8b80e02c36d5d3241521d27e0e1256a8a403ad8713b45cadf80fe04"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "59519",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4e33b234bd15d5a983166f6f281f0cbb",
+        "sha1sum" : "583eeb4aafba951eef375ee772b0a0e9cfda1ed0",
+        "sha256sum" : "bdcaf33e1898f3e0d6b61c9e7a02a3635e4843f6c1bebc851540c1bcb3350373"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "96396",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "33d2c038052720f43b67a8a158cf5867",
+        "sha1sum" : "9f5cbefa24679642a404f92218a0778dfe9bf215",
+        "sha256sum" : "b42c7a0efe272b3c4cf68add3986e5e17a7e72f6c62b8ce2f4fc6e6282636594"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "32949",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6fe47270bb5cabdf8a55cc5674df1993",
+        "sha1sum" : "a6b73f9a2afd5ad6d870c48f4058b324b6d80075",
+        "sha256sum" : "f2717c74d127018691665e04dfa5522d58ee79e763c6fea677ddb622d86bb469"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "32949",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2b1499be21402bd2384eb8022ff6c703",
+        "sha1sum" : "998c3608b48770d199ad39e4cd6bc071794c36fa",
+        "sha256sum" : "0a1175a48d5848a37d6263bb0c37ced29e6dee44b472e6a15c8c18a73bde142d"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO.cps",
+        "description" : "COPASI 4.33(Build 246) file for the curated model",
+        "fileSize" : "316201",
+        "mimeType" : "application/xml",
+        "md5sum" : "9bcb3b6e79f762beaea88058a83edf85",
+        "sha1sum" : "0cc3c8cd1c3cce6d60ab3a96af2052c3535ba404",
+        "sha256sum" : "5b3a95f859d87b4e82a65cbf0b91d058de3fa316db9ef52d01cc97586edf39e5"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25435",
+        "mimeType" : "text/plain",
+        "md5sum" : "9c4c6539f164d9bd2606d36cb70d4f48",
+        "sha1sum" : "81740d8ea18425312be226f4793a371b1ea23ef4",
+        "sha256sum" : "3af04e8d2b77ba5331b226c3f7f19fdbc21f1b3c972ba46dfb3fca844778187b"
+      },
+      {
+        "name" : "Zake2021_Metformin_Mice_PO.sedml",
+        "description" : "SEDML file for the curated model (Additionally CRBM-validated and adjusted.)",
+        "fileSize" : "111499",
+        "mimeType" : "application/xml",
+        "md5sum" : "6cfb52ad8f1141fa826fe157912c85a1",
+        "sha1sum" : "7c4941d1206ccf06456a5fd65fc635d3c0a39ecc",
+        "sha256sum" : "38c25ccf8cbd1eae2a1c160b0a7696752495c0077a67f6b26b70450b7003bda0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "525441",
+        "mimeType" : "image/png",
+        "md5sum" : "da1f0e65ff4870c67f9ea90301f0a4bf",
+        "sha1sum" : "e07225f9e9990365dcb3db83e3c5dddb4e1590dc",
+        "sha256sum" : "bb62826a4e28b8a8a624e703b0f4e0495b4fb699e3170e633bf2f001b401931a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "204",
+        "mimeType" : "text/plain",
+        "md5sum" : "c592718f7de99a199f5be40aa9e60830",
+        "sha1sum" : "64739ecf9242b53900bc432dd36fcd8f7f0451ec",
+        "sha256sum" : "256a2130d52ae7210adbcba58fbade31bbe639ab58d80e85ca674288a72d3d0f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2749",
+        "mimeType" : "application/xml",
+        "md5sum" : "49272cd0ea7575c6845657e059f6707f",
+        "sha1sum" : "4367603d33d90e6a267a7174af3af4ab4886893c",
+        "sha256sum" : "15605ebbe8925770aea3c45dcc15e306118f9f6b873c487e32de8b2b77a6c8e0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5345",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1692e1621b746b7b104942e16ca9e335",
+        "sha1sum" : "9bcb79b716a25de8018a3718d8bc2f32608e927d",
+        "sha256sum" : "97f1d8fb587a8da72e1c5bc71dff6e87cbaacda6c6fd4561cc9a8c00c69966ab"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 7,
+        "submitted" : 1628610754,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000001027"
+      },
+      {
+        "version" : 8,
+        "submitted" : 1724295696,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285616,
+  "submissionId" : "MODEL2103020001",
+  "publicationId" : "BIOMD0000001027",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Egils Stalidzans",
+        "email" : "egils.stalidzans@gmail.com",
+        "affiliation" : "Biosystems Group, LAtvia University of Agriculture",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10095",
+      "name" : "Mus sp.",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10095"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "CHEBI:6801",
+      "name" : "metformin",
+      "resource" : "ChEBI",
+      "uri" : "http://identifiers.org/chebi/CHEBI:6801"
+    },
+    {
+      "qualifier" : "bqmodel:unknownQualifier",
+      "accession" : "MODEL2103020001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2103020001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2103020001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2103020001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001027",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001027"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1371/journal.pone.0249594",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1371/journal.pone.0249594"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "33826656",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/33826656"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000203",
+      "name" : "Physiologically based pharmacokinetic model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000203"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "FMA:7149",
+      "name" : "Organ system",
+      "resource" : "FMA",
+      "uri" : "http://identifiers.org/fma/FMA:7149"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C38288",
+      "name" : "Oral Route of Administration",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C38288"
+    }
+  ]
+}

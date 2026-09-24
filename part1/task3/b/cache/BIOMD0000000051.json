@@ -1,0 +1,312 @@
+{
+  "name" : "Chassagnole2002_Carbon_Metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p align=\"left\">The model reproduces Figures 4,5 and 6 of the publication. The analytical functions for cometabolites Catp, Camp, Cnadph,  and Cnadp slightly differ from the equations given in the paper. These changes were made in consultation with Dr. Christophe Chassagnole and are essential for reproducing the figures.  The dependency of the rate of change of extracellular glucose concentration on the ratio of biomass concentration to specific weight of biomass (Cx*rPTS/Rhox) is taken into account by appropriately adjusting the stoichiometries of the species involved in the phosphotransferase system  (rPTS). The rmax values for the various reactions are obtained from experiments and are not provided in the paper. However, these were personally communicated to the JWS repository. The model has been successfully tested on MathSBML.</p>        <p align=\"left\">          <font face=\"Arial, Helvetica, sans-serif\">            <b>              <a href=\"http://www.sbml.org/\">SBML</a>              level 2 code generated for the JWS Online project by Jacky Snoep using          <a href=\"http://pysces.sourceforge.net/\">PySCeS</a>              <br />              Run this model online at          <a href=\"http://jjj.biochem.sun.ac.za/\">http://jjj.biochem.sun.ac.za</a>              <br />              To cite JWS Online please refer to: Olivier, B.G. and Snoep, J.L. (2004)          <a href=\"http://bioinformatics.oupjournals.org/cgi/content/abstract/20/13/2143\">Web-based modelling using JWS Online</a>              , Bioinformatics, 20:2143-2144          </b>          </font>        </p>        <br />        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>      <br />      <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17590932",
+    "journal" : "Biotechnology and bioengineering",
+    "title" : "Dynamic modeling of the central carbon metabolism of Escherichia coli.",
+    "affiliation" : "Institute of Biochemical Engineering, University of Stuttgart, Stuttgart, Germany.",
+    "synopsis" : "Application of metabolic engineering principles to the rational design of microbial production processes crucially depends on the ability to describe quantitatively the systemic behavior of the central carbon metabolism to redirect carbon fluxes to the product-forming pathways. Despite the importance for several production processes, development of an essential dynamic model for central carbon metabolism of Escherichia coli has been severely hampered by the current lack of kinetic information on the dynamics of the metabolic reactions. Here we present the design and experimental validation of such a dynamic model, which, for the first time, links the sugar transport system (i.e., phosphotransferase system [PTS]) with the reactions of glycolysis and the pentose-phosphate pathway. Experimental observations of intracellular concentrations of metabolites and cometabolites at transient conditions are used to validate the structure of the model and to estimate the kinetic parameters. Further analysis of the detailed characteristics of the system offers the possibility of studying important questions regarding the stability and control of metabolic fluxes.",
+    "year" : 2002,
+    "month" : "7",
+    "volume" : "79",
+    "issue" : "1",
+    "pages" : "53-73",
+    "link" : "http://identifiers.org/pubmed/17590932",
+    "authors" : [
+      {
+        "name" : "Christophe Chassagnole",
+        "institution" : "Institute of Biochemical Engineering, University of Stuttgart, Stuttgart, Germany.",
+        "orcid" : "0000-0002-3764-9407"
+      },
+      {
+        "name" : "Naruemol Noisommit-Rizzi"
+      },
+      {
+        "name" : "Joachim W Schmid"
+      },
+      {
+        "name" : "Klaus Mauch"
+      },
+      {
+        "name" : "Matthias Reuss"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000051_url.xml",
+        "description" : "SBML L2V1 representation of Chassagnole2002_Carbon_Metabolism",
+        "fileSize" : "125408",
+        "mimeType" : "application/xml",
+        "md5sum" : "f07894d8056c287a99027bdfade37acb",
+        "sha1sum" : "92905e6d046c0dcaa0f73c5bcb195cfb71df5716",
+        "sha256sum" : "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000051-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "85160",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f503e534c1ce0fa53f9ec1418d5521ec",
+        "sha1sum" : "e9033ec00f090dbba9b2574c704a76816b84f6fc",
+        "sha256sum" : "8ec93b38fdc4038bb6ff6208fe1750967f9ebf70f0ba9e1bf3050b204bdf1cec"
+      },
+      {
+        "name" : "BIOMD0000000051-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "118543",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e05d3fc79a13313d32378255d9190e5a",
+        "sha1sum" : "acd3778acd4d36881d8954f39592d2a8882dad82",
+        "sha256sum" : "f7e5ab7037f906ba7b6d3425ba4cdacc9dfec9bf13f14790aa287323d0b53e85"
+      },
+      {
+        "name" : "BIOMD0000000051-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "29253",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c95c10a8b7f05cceddca19e3a88b095a",
+        "sha1sum" : "c6f5bf8d88123771d50f059a1e1a3bb3c4f3f9ab",
+        "sha256sum" : "eee4b944252cac0b17517c03d92f58c046f7247556cd8bd645224331fd3b816f"
+      },
+      {
+        "name" : "BIOMD0000000051-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "29253",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "037db3e4ad6de43e61d1aa5986fb9e3e",
+        "sha1sum" : "17bbdcfec4a6e51705e745c1952cc1386bdc8cf7",
+        "sha256sum" : "de676591fce388f7f66043f8400a8404f085f4a8401213951a55548baf95a82f"
+      },
+      {
+        "name" : "BIOMD0000000051.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "29253",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "037db3e4ad6de43e61d1aa5986fb9e3e",
+        "sha1sum" : "17bbdcfec4a6e51705e745c1952cc1386bdc8cf7",
+        "sha256sum" : "de676591fce388f7f66043f8400a8404f085f4a8401213951a55548baf95a82f"
+      },
+      {
+        "name" : "BIOMD0000000051.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "21637",
+        "mimeType" : "text/plain",
+        "md5sum" : "edee5de5ee606e2702466b039df663fd",
+        "sha1sum" : "d2e6f76a2eaf79206cf07a566cf829a4860f3685",
+        "sha256sum" : "73c5906044038b182d1d613a8b1c0a48e61b67f8f1bc2a9e0bfea4df9e83f6a8"
+      },
+      {
+        "name" : "BIOMD0000000051.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "354665",
+        "mimeType" : "application/pdf",
+        "md5sum" : "16a78dd50916949df3ce21beca937c73",
+        "sha1sum" : "68c73dfd7b906951c6fa1559ff0b4689de229e4e",
+        "sha256sum" : "e66c0fd4947772015364b7b34fb8360ea7798cd75acdd40d6d2a362fa09266b8"
+      },
+      {
+        "name" : "BIOMD0000000051.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "306667",
+        "mimeType" : "image/png",
+        "md5sum" : "e57f2f1af6ee6b901c4275d95fc0d0b0",
+        "sha1sum" : "91ea810ea69d0949c7264f5f81c30d4ae71ddd6c",
+        "sha256sum" : "a130c71e2141f6a0961885f117ea1217b655f7672fca51a961fd5d5e46d1d112"
+      },
+      {
+        "name" : "BIOMD0000000051.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "82918",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6b0a6d553e5392e348ce018761c9cc2a",
+        "sha1sum" : "cc26bf5d80dc87d5274986469924898eb7079f69",
+        "sha256sum" : "ccad19fab9999af3e162f657430deb5157f1c5e1fea8cf8b8b61d665dedb6b61"
+      },
+      {
+        "name" : "BIOMD0000000051.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "138703",
+        "mimeType" : "application/xml",
+        "md5sum" : "bc227b1440cb0900e97ffae189643464",
+        "sha1sum" : "4e7347399aba91118853055d90e66fbb53385949",
+        "sha256sum" : "0e2554d1e6fc4519324cf59e5066bf8af6d5677e5fe13837e013c1e4da768a3e"
+      },
+      {
+        "name" : "BIOMD0000000051_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "42648",
+        "mimeType" : "application/xml",
+        "md5sum" : "c66042a905aa766d347ae42f2442752b",
+        "sha1sum" : "1f8a36c9443e3ab2c19a06f5fce888dfade6a5ec",
+        "sha256sum" : "7759029eb804ee257af1b1d08ac1b1d7a46c4e27637ed5138afb74ad18abb5c9"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "62411",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "0e285b91f697f8951671cb88e87c106d",
+        "sha1sum" : "c40c533c92b01a8f7a8c48085af452ac2d5b99f2",
+        "sha256sum" : "e7365ba6b98f268987c55be7f124eaba8138da323ce6b1a60119d4a8adba18b2"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "90",
+        "mimeType" : "text/plain",
+        "md5sum" : "a884c78f0725a734e5ddc9302dc52986",
+        "sha1sum" : "047b788269981bcb3ddf10300eee82ca64d898c2",
+        "sha256sum" : "3e6d9a2717e57e2d5504431098001a1f8eaca28d2566675bdc31899ac566abf5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "d4b54b566ebc7a4df7b62c7b37dc115c",
+        "sha1sum" : "d3d4048da0f5a13aba1d0b6812c7ac7a335a782c",
+        "sha256sum" : "04a77a9fe4b5208f0c30025a2c4a6dd106cfed8a26bff57c6a29e7355313f208"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4440",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2310970ee97ab4f3a672158ac8c479dd",
+        "sha1sum" : "8fa994affdaab7f10732d5aa87e9210fd5399d45",
+        "sha256sum" : "f27504ab041863fcf666b0dcbbe7379ee90037a4076f73f06bd5543ceadcd0b4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1137624714,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of chassagnole1"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460132764,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Chassagnole2002_Carbon_Metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266054,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284857,
+  "submissionId" : "MODEL6624119661",
+  "publicationId" : "BIOMD0000000051",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6624119661",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6624119661"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000051",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000051"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17590932",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17590932"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "map00030",
+      "name" : "Pentose phosphate pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map00030"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "map00010",
+      "name" : "Glycolysis / Gluconeogenesis",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map00010"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0009401",
+      "name" : "phosphoenolpyruvate-dependent sugar phosphotransferase system",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009401"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006098",
+      "name" : "pentose-phosphate shunt",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006098"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

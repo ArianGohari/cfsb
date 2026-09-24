@@ -1,0 +1,397 @@
+{
+  "name" : "Morris2008 - Fitting protein aggregation data via F-W 2-step mechanism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Morris2008 - Fitting protein aggregation datavia F-W 2-step mechanism</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/18247636\" title=\"Access to this publication\">Fitting neurological protein    aggregation kinetic data via a 2-step, minimal/\"Ockham's razor\"    model: the Finke-Watzky mechanism of nucleation followed by    autocatalytic surface growth.</a>  </div>  <div class=\"bibo:authorList\">Morris AM, Watzky MA, Agar JN, Finke  RG.</div>  <div class=\"bibo:Journal\">Biochemistry 2008 Feb; 47(8):  2413-2427</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>The aggregation of proteins has been hypothesized to be an    underlying cause of many neurological disorders including    Alzheimer's, Parkinson's, and Huntington's diseases; protein    aggregation is also important to normal life function in cases    such as G to F-actin, glutamate dehydrogenase, and tubulin and    flagella formation. For this reason, the underlying mechanism    of protein aggregation, and accompanying kinetic models for    protein nucleation and growth (growth also being called    elongation, polymerization, or fibrillation in the literature),    have been investigated for more than 50 years. As a way to    concisely present the key prior literature in the protein    aggregation area, Table 1 in the main text summarizes 23 papers    by 10 groups of authors that provide 5 basic classes of    mechanisms for protein aggregation over the period from 1959 to    2007. However, and despite this major prior effort, still    lacking are both (i) anything approaching a consensus mechanism    (or mechanisms), and (ii) a generally useful, and thus widely    used, simplest/\"Ockham's razor\" kinetic model and associated    equations that can be routinely employed to analyze a broader    range of protein aggregation kinetic data. Herein we    demonstrate that the 1997 Finke-Watzky (F-W) 2-step mechanism    of slow continuous nucleation, A --&gt; B (rate constant k1),    followed by typically fast, autocatalytic surface growth, A + B    --&gt; 2B (rate constant k2), is able to quantitatively account    for the kinetic curves from all 14 representative data sets of    neurological protein aggregation found by a literature search    (the prion literature was largely excluded for the purposes of    this study in order provide some limit to the resultant    literature that was covered). The F-W model is able to    deconvolute the desired nucleation, k1, and growth, k2, rate    constants from those 14 data sets obtained by four different    physical methods, for three different proteins, and in nine    different labs. The fits are generally good, and in many cases    excellent, with R2 values &gt;or=0.98 in all cases. As such,    this contribution is the current record of the widest set of    protein aggregation data best fit by what is also the simplest    model offered to date. Also provided is the mathematical    connection between the 1997 F-W 2-step mechanism and the 2000    3-step mechanism proposed by Saitô and co-workers. In    particular, the kinetic equation for Saitô's 3-step    mechanism is shown to be mathematically identical to the    earlier, 1997 2-step F-W mechanism under the 3 simplifying    assumptions Saitô and co-workers used to derive their    kinetic equation. A list of the 3 main caveats/limitations of    the F-W kinetic model is provided, followed by the main    conclusions from this study as well as some needed future    experiments.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000567\">BIOMD0000000567</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18247636",
+    "journal" : "Biochemistry",
+    "title" : "Fitting neurological protein aggregation kinetic data via a 2-step, minimal/\"Ockham's razor\" model: the Finke-Watzky mechanism of nucleation followed by autocatalytic surface growth.",
+    "affiliation" : "Department of Chemistry, Colorado State University, Fort Collins, Colorado 80523, USA.",
+    "synopsis" : "The aggregation of proteins has been hypothesized to be an underlying cause of many neurological disorders including Alzheimer's, Parkinson's, and Huntington's diseases; protein aggregation is also important to normal life function in cases such as G to F-actin, glutamate dehydrogenase, and tubulin and flagella formation. For this reason, the underlying mechanism of protein aggregation, and accompanying kinetic models for protein nucleation and growth (growth also being called elongation, polymerization, or fibrillation in the literature), have been investigated for more than 50 years. As a way to concisely present the key prior literature in the protein aggregation area, Table 1 in the main text summarizes 23 papers by 10 groups of authors that provide 5 basic classes of mechanisms for protein aggregation over the period from 1959 to 2007. However, and despite this major prior effort, still lacking are both (i) anything approaching a consensus mechanism (or mechanisms), and (ii) a generally useful, and thus widely used, simplest/\"Ockham's razor\" kinetic model and associated equations that can be routinely employed to analyze a broader range of protein aggregation kinetic data. Herein we demonstrate that the 1997 Finke-Watzky (F-W) 2-step mechanism of slow continuous nucleation, A --> B (rate constant k1), followed by typically fast, autocatalytic surface growth, A + B --> 2B (rate constant k2), is able to quantitatively account for the kinetic curves from all 14 representative data sets of neurological protein aggregation found by a literature search (the prion literature was largely excluded for the purposes of this study in order provide some limit to the resultant literature that was covered). The F-W model is able to deconvolute the desired nucleation, k1, and growth, k2, rate constants from those 14 data sets obtained by four different physical methods, for three different proteins, and in nine different labs. The fits are generally good, and in many cases excellent, with R2 values >or=0.98 in all cases. As such, this contribution is the current record of the widest set of protein aggregation data best fit by what is also the simplest model offered to date. Also provided is the mathematical connection between the 1997 F-W 2-step mechanism and the 2000 3-step mechanism proposed by Saitô and co-workers. In particular, the kinetic equation for Saitô's 3-step mechanism is shown to be mathematically identical to the earlier, 1997 2-step F-W mechanism under the 3 simplifying assumptions Saitô and co-workers used to derive their kinetic equation. A list of the 3 main caveats/limitations of the F-W kinetic model is provided, followed by the main conclusions from this study as well as some needed future experiments.",
+    "year" : 2008,
+    "month" : "2",
+    "volume" : "47",
+    "issue" : "8",
+    "pages" : "2413-2427",
+    "link" : "http://identifiers.org/pubmed/18247636",
+    "authors" : [
+      {
+        "name" : "Aimee M Morris",
+        "institution" : "Department of Chemistry, Colorado State University, Fort Collins, Colorado 80523, USA.",
+        "orcid" : "0000-0002-2442-126X"
+      },
+      {
+        "name" : "Murielle A Watzky",
+        "orcid" : "0000-0002-7127-8507"
+      },
+      {
+        "name" : "Jeffrey N Agar",
+        "orcid" : "0000-0003-2645-1873"
+      },
+      {
+        "name" : "Richard G Finke"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000567_url.xml",
+        "description" : "SBML L2V4 representation of Morris2008 - Fitting protein aggregation data via F-W 2-step mechanism",
+        "fileSize" : "21308",
+        "mimeType" : "application/xml",
+        "md5sum" : "d10000cca00e792d170374cefc2e4bb3",
+        "sha1sum" : "82c3dcec69f5bd8e7ed3a910d053cf0a51bf5369",
+        "sha256sum" : "64f21faf64ceb954bfbc233a8c2e0bf8cf41a2830549ef2b1a75cae89b9d6846"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000567-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "11310",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c71710a4138ba6786338d15f61fc84d1",
+        "sha1sum" : "5a48a48ba128bba3635e8160707be08a954174db",
+        "sha256sum" : "e18da795523aa9cea2f827b2babf6cf4c0488d7020485fe27633cb7efc2f8ad8"
+      },
+      {
+        "name" : "BIOMD0000000567-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "13447",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a7963148ce1fa98629e7f6962599fc73",
+        "sha1sum" : "65c7558175e01fcdbcf581027e38e6ee9995d782",
+        "sha256sum" : "a2ca81610de218923e1c4d0e0b7a9d2b72f4d3de8a199f97557be5a394851f83"
+      },
+      {
+        "name" : "BIOMD0000000567-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3854",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "13c725a4a2d529e6037f4b4819cd450d",
+        "sha1sum" : "1f4da05e26e8e5cbf8f659c15f48037a4f273236",
+        "sha256sum" : "549bab247616ab1544ebfc7bb85e53e9fb5022d5b51308e76ee6b7cbfabcdd22"
+      },
+      {
+        "name" : "BIOMD0000000567-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3854",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3ff51f9358f607605320b54471755b3d",
+        "sha1sum" : "8f52a2010e0881f41de15d67a95bedfd5035b730",
+        "sha256sum" : "90dc38f1f04b3015accb1695b4fdafd56c2cd11535e309d7e461c442087f96a3"
+      },
+      {
+        "name" : "BIOMD0000000567.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3812",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "82955103bbd816d57d50f6367ae9ede3",
+        "sha1sum" : "d4621428c51ecf2289f2cd005f37d652e07e72b5",
+        "sha256sum" : "3bf1e27fd479616552517c7421ee82ff5761770b0b5aa2b033a4cdd1aa94394a"
+      },
+      {
+        "name" : "BIOMD0000000567.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2041",
+        "mimeType" : "text/plain",
+        "md5sum" : "4db5552d3a821871bac9c1053537a652",
+        "sha1sum" : "4530186a905747971ada09a311439502db7c43cd",
+        "sha256sum" : "ad9e5efe4399e841b70ed459b5bcb9a54391e77068ac56eb45fb189d89f30266"
+      },
+      {
+        "name" : "BIOMD0000000567.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "145900",
+        "mimeType" : "application/pdf",
+        "md5sum" : "5acc74d8c6f882528c2587b1a351fc2d",
+        "sha1sum" : "56e314b5fc9f21aab8548023afe9bbb21d02c70b",
+        "sha256sum" : "46017cd0d16c4787c7fa421d461fe44b71b05cd3395fac40eaa1b6c322f8b904"
+      },
+      {
+        "name" : "BIOMD0000000567.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "14910",
+        "mimeType" : "image/png",
+        "md5sum" : "ffb92d72453b990084a244a186731c3b",
+        "sha1sum" : "4a5d143e036e1591b0b94cf261ed4bfe0d6552d6",
+        "sha256sum" : "362f423617ec37283d5fe9baec4e3ce202b368778b2a89768794063ede77793b"
+      },
+      {
+        "name" : "BIOMD0000000567.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "6217",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e6e5d76cf3e344728c1072dc9b043a5b",
+        "sha1sum" : "f3e0109df336110465122260cc87e0305893af81",
+        "sha256sum" : "41bba48fd0701a5b11d5dd5efc54beb96e4d42e21cdee4a0780dcf2d2dc68cb8"
+      },
+      {
+        "name" : "BIOMD0000000567.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "26946",
+        "mimeType" : "application/xml",
+        "md5sum" : "e029c396ffe95b24cad09bda5f1a2e4b",
+        "sha1sum" : "cbbf68daa51660fa317f4345a42e24278d511822",
+        "sha256sum" : "b8e9e7c2d8b15e3bf1e383ee88fd3c8d63b078b536cddaa6c8ae16eb413f8418"
+      },
+      {
+        "name" : "Morris2008.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "33298",
+        "mimeType" : "application/xml",
+        "md5sum" : "be56f8898f9626c0417de1aa6cbe7f83",
+        "sha1sum" : "d6a0c711cd4cc205412a6c5922f0437c62aae760",
+        "sha256sum" : "e884598b5d780724e7a596bea823f4a9c24f996977d0652b260dae3199e75d7d"
+      },
+      {
+        "name" : "Morris2008.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "7445",
+        "mimeType" : "application/xml",
+        "md5sum" : "13783b3929eb7ff4ecf1aa5a65811349",
+        "sha1sum" : "ee4597f7936cf1cf543b35c60559eef0a00fb7c5",
+        "sha256sum" : "81228cef1c9a217f62f90a6d5528ff979f86ab2492a2e77ce980e474548dc82c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "73932",
+        "mimeType" : "image/png",
+        "md5sum" : "dfbf282422ba03f3e972bd05d76afa0d",
+        "sha1sum" : "092641d6e9076dc04ca15aee87e220e2f8dc326f",
+        "sha256sum" : "a3b534050fda3ad6ed79d80b924c173d7a9846d3f9fdc109f4174d05dcee7cfa"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "912",
+        "mimeType" : "text/plain",
+        "md5sum" : "4918cd90e93bb74ad1cd2abd4d833ce2",
+        "sha1sum" : "40857b4be1bb218585f6ebbe5afb61fa3ba0316d",
+        "sha256sum" : "4d12d3a487b4e25acd7740f1ca562c0ec453e85dc8708cf0175b4e546d95cee3"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2019",
+        "mimeType" : "application/xml",
+        "md5sum" : "ff0b9144485baecd71ead5fed94b67f1",
+        "sha1sum" : "cf8fcea216a8f3f84d3474f768f073da35cebab3",
+        "sha256sum" : "4bf02c150215f236ead234f40835f9475f6079ef3c570ed0a04d08e130626073"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "13724",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "967ad0ae1be0033ddb696d4b229b976b",
+        "sha1sum" : "cb426cfb37bbbce1048ba93680e739f0d1e7c816",
+        "sha256sum" : "4a9071d4ac0fa62d82d3bce9aa63f9953de97e23b3c973a3c8806fd41e328c1f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1421422273,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Original import of Morris2009 - α-Synuclein aggregation variable temperature and pH"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1422032233,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Current version of Morris2009 - α-Synuclein aggregation variable temperature and pH"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1530614017,
+        "submitter" : "administrator",
+        "comment" : "make model name in the file consistent with the database"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281734,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285352,
+  "submissionId" : "MODEL1501160000",
+  "publicationId" : "BIOMD0000000567",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Audald Lloret i Villas",
+        "email" : "lloret@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:1990000",
+      "name" : "amyloid fibril formation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1990000"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10.1021/ja9705102",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1021/ja9705102"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1501160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1501160000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000567",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000567"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18247636",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18247636"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16981683",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16981683"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16981676",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16981676"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "12785778",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12785778"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16301322",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16301322"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16081040",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16081040"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16536526",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16536526"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "12186976",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12186976"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16117499",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16117499"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16981684",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16981684"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16981679",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16981679"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "15794636",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15794636"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:12858",
+      "name" : "Huntington's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:12858"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

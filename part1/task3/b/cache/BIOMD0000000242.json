@@ -1,0 +1,297 @@
+{
+  "name" : "Bai2003_G1phaseRegulation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />                <strong>Theoretical and experimental evidence for hysteresis in cell proliferation.</strong>                <br />          Bai S, Goodrich D, Thron CD, Tecarro E, Obeyesekere M.      <em>Cell Cycle.</em>          2003 Jan-Feb;2(1):46-52.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12695688\">12695688</a>          ,      <br />                <strong>Abstract:</strong>                <br />          We propose a mathematical model for the regulation of the G1-phase of the mammalian cell cycle taking into account interactions of cyclin D/cdk4, cyclin E/cdk2, Rb and E2F. Mathematical analysis of this model predicts that a change in the proliferative status in response to a change in concentrations of serum growth factors will exhibit the property of hysteresis: the concentration of growth factors required to induce proliferation is higher than the concentration required to maintain proliferation. We experimentally confirmed this prediction in mouse embryonic fibroblasts in vitro. In agreement with the mathematical model, this indicates that changes in proliferative mode caused by small changes in concentrations of growth factors are not easily reversible. Based on this study, we discuss the importance of proliferation hysteresis for cell cycle regulation.      </p>            <br />        The original model was taken from the Cell Cycle DataBase (CCDB).    <p>Variable added: assignment rule for denoting phosphorylated Rb (Rb_phosphorylated i.e(RT-RS-R)) created.</p>            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12695688",
+    "journal" : "Cell cycle (Georgetown, Tex.)",
+    "title" : "Theoretical and experimental evidence for hysteresis in cell proliferation.",
+    "affiliation" : "Department of Pharmacology and Therapeutics, Roswell Park Cancer Institute, Elm and Carlton Streets, Buffalo, NY 14263, USA.",
+    "synopsis" : "We propose a mathematical model for the regulation of the G1-phase of the mammalian cell cycle taking into account interactions of cyclin D/cdk4, cyclin E/cdk2, Rb and E2F. Mathematical analysis of this model predicts that a change in the proliferative status in response to a change in concentrations of serum growth factors will exhibit the property of hysteresis: the concentration of growth factors required to induce proliferation is higher than the concentration required to maintain proliferation. We experimentally confirmed this prediction in mouse embryonic fibroblasts in vitro. In agreement with the mathematical model, this indicates that changes in proliferative mode caused by small changes in concentrations of growth factors are not easily reversible. Based on this study, we discuss the importance of proliferation hysteresis for cell cycle regulation.",
+    "year" : 2003,
+    "month" : "0",
+    "volume" : "2",
+    "issue" : "1",
+    "pages" : "46-52",
+    "link" : "http://identifiers.org/pubmed/12695688",
+    "authors" : [
+      {
+        "name" : "Shaochun Bai",
+        "institution" : "Department of Pharmacology and Therapeutics, Roswell Park Cancer Institute, Elm and Carlton Streets, Buffalo, NY 14263, USA."
+      },
+      {
+        "name" : "David Goodrich"
+      },
+      {
+        "name" : "C Dennis Thron"
+      },
+      {
+        "name" : "Edwin Tecarro"
+      },
+      {
+        "name" : "Mandri Obeyesekere"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000242_url.xml",
+        "description" : "SBML L2V4 representation of Bai2003_G1phaseRegulation",
+        "fileSize" : "33046",
+        "mimeType" : "application/xml",
+        "md5sum" : "61387976d0e060a4df55fa171426c54c",
+        "sha1sum" : "3b532a2892baca0821a453b90e5796c5c1edc85a",
+        "sha256sum" : "e1ea32af9db84c110fa8272d3eb44d52d1485e7590ab5d1570ee683a02c8aa60"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000242-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19720",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "773b321c78b8cb25077ea4f76b452f12",
+        "sha1sum" : "01e0744a7bad4c5b026bc961c49ba908974c7e6a",
+        "sha256sum" : "132bb86f96ee410bf46fead62e84a2d95f914aefbf18e637fdad4a87b32d7898"
+      },
+      {
+        "name" : "BIOMD0000000242-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "28082",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6c58845a322918e8be4eebefe8df79ac",
+        "sha1sum" : "f5aebdd7430c85d4bfd84b60083498f955661384",
+        "sha256sum" : "8f973a484187d2d1eee18ef657ef25fbe66d84c2e6b8f27231ab5b996dac0d7e"
+      },
+      {
+        "name" : "BIOMD0000000242-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7377",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c9b155a17b0bf5b3c3ffa6863ae411a4",
+        "sha1sum" : "ef493f04bee88b0fae0aa621d4a19aada0e75c9f",
+        "sha256sum" : "8b173c140efa7df5e686f80ee52f000253665bb20c2923bbf8af386f1042dd60"
+      },
+      {
+        "name" : "BIOMD0000000242-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7377",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1805dd6cc1f2407bcbc04d3e7ff541e9",
+        "sha1sum" : "90c06a1241ac04de03ebaa50884f7654573cc63f",
+        "sha256sum" : "3904b6e4f8ef15aa89408c5d24915f45715743282c261abbc578dc5c942e6dd0"
+      },
+      {
+        "name" : "BIOMD0000000242.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7377",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1805dd6cc1f2407bcbc04d3e7ff541e9",
+        "sha1sum" : "90c06a1241ac04de03ebaa50884f7654573cc63f",
+        "sha256sum" : "3904b6e4f8ef15aa89408c5d24915f45715743282c261abbc578dc5c942e6dd0"
+      },
+      {
+        "name" : "BIOMD0000000242.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4920",
+        "mimeType" : "text/plain",
+        "md5sum" : "4df2ba63b0c952862b733ac920641666",
+        "sha1sum" : "07af6403ed9364c24f5131c384ca514e8c6f02a0",
+        "sha256sum" : "02fee48b0f24f1bcc8967b67e9d249957a82e83b88525d1b4ebe62dea94ce22b"
+      },
+      {
+        "name" : "BIOMD0000000242.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "198351",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c3f15884d260fc564fb348cf5c997392",
+        "sha1sum" : "d143857f353f78292237ddf10553a31b45256076",
+        "sha256sum" : "fc75f446993e63151d1af614c63d648bc9eab94f5bc648abf4de6bdf202bb7bc"
+      },
+      {
+        "name" : "BIOMD0000000242.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "122133",
+        "mimeType" : "image/png",
+        "md5sum" : "2a436431e032faf679946cfcfb9c4b64",
+        "sha1sum" : "dc53c82d3285a77585f8d1c6a2dcd46ee4411684",
+        "sha256sum" : "ecdeaa9b767ba3f250fb3c6aa25052772953695432280cdbed1396746c6df231"
+      },
+      {
+        "name" : "BIOMD0000000242.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "35792",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a29a64f4f7ef5493bf70a043847c5f6d",
+        "sha1sum" : "7bf4983731d22549dafa49f36931e25eef69549b",
+        "sha256sum" : "6595bb48d364c706face76eb3a37df61ed4bea9986f825bb51a22ef858c494f0"
+      },
+      {
+        "name" : "BIOMD0000000242.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "39391",
+        "mimeType" : "application/xml",
+        "md5sum" : "eafb729e99ec332635f46fb3db200d96",
+        "sha1sum" : "2b7f36c974d97964152793a5adaea6fe830c4cac",
+        "sha256sum" : "94dda79940c85113e1d67b9a9c5bf6554533d616d45a1d9b4452e2a804a69eb7"
+      },
+      {
+        "name" : "BIOMD0000000242_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "26190",
+        "mimeType" : "application/xml",
+        "md5sum" : "0f033b2dea1b7bcd6c1eb44b25fe648f",
+        "sha1sum" : "a36e906ffca88786f1447f93296d91ae5091afa7",
+        "sha256sum" : "0a5ca2474ac5fad656dad1924a6b3e54cf6c9af7736694033a8b5ccd4b6c09e9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "62175",
+        "mimeType" : "image/png",
+        "md5sum" : "b5686e35c0a6bc2828a9752c7fb2d69d",
+        "sha1sum" : "27fc2a477bf40c7a103f02fa8c871c61a6e434b6",
+        "sha256sum" : "9373cb5b9071da8547dfcf89657559675c711a223443ba0424c1f4adaa79629a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "128",
+        "mimeType" : "text/plain",
+        "md5sum" : "bb763d680b5c1e623b326c6f2306327d",
+        "sha1sum" : "3a4fe27e2b0e9f62b34da19ab065328884afe142",
+        "sha256sum" : "37f2c6e4efb49786d849a8e7bffb96f261b331d0969537a0f8e9ceee5bdf75cd"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "3e45ecf4e1435a5f6cad129fdc9996b2",
+        "sha1sum" : "1742aee99d07cc89cd68f0c3ce714792e419fcdc",
+        "sha256sum" : "1fe4b52e67fde5efe92713f3f40c289bdc63ca7958c46a565b98f468e4c31664"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4435",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "66f02b5968a64a1fee700a82e1d6de6a",
+        "sha1sum" : "55117ef00fa6680c8c0d6dc207e127d0b6631b4a",
+        "sha256sum" : "faef2dc10c68ad04003cd82580fcc1ec8a3afe0bc4eb84e8a41a9be51f658a46"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1267799848,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Bai2003_G1phaseRegulation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392384175,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Bai2003_G1phaseRegulation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271306,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284965,
+  "submissionId" : "MODEL1003050000",
+  "publicationId" : "BIOMD0000000242",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1003050000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1003050000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000242",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000242"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12695688",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12695688"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000168",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000168"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000114",
+      "name" : "obsolete regulation of transcription involved in G1 phase of mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000114"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_1590",
+      "name" : "G1 Phase",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_1590"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "39107",
+      "name" : "Murinae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/39107"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

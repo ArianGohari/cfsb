@@ -1,0 +1,291 @@
+{
+  "name" : "Ratushny2012_ASSURE_II",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>Asymmetric positive feedback loops reliably control biological responses</strong>                <br />          Alexander V Ratushny, Ramsey A Saleem, Katherine Sitko, Stephen A Ramsey &amp; John D Aitchison      <em>Mol Syst Biol.</em>          2012 Apr 24;8:577.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22531117\">22531117</a>          ,      <br />                <strong>Abstract:</strong>                <br />          Positive feedback is a common mechanism enabling biological systems to respond to stimuli in a switch-like manner. Such systems are often characterized by the requisite formation of a heterodimer where only one of the pair is subject to feedback. This ASymmetric Self-UpREgulation (ASSURE) motif is central to many biological systems, including cholesterol homeostasis (LXRα/RXRα), adipocyte differentiation (PPARγ/RXRα), development and differentiation (RAR/RXR), myogenesis (MyoD/E12) and cellular antiviral defense (IRF3/IRF7). To understand why this motif is so prevalent, we examined its properties in an evolutionarily conserved transcriptional regulatory network in yeast (Oaf1p/Pip2p). We demonstrate that the asymmetry in positive feedback confers a competitive advantage and allows the system to robustly increase its responsiveness while precisely tuning the response to a consistent level in the presence of varying stimuli. This study reveals evolutionary advantages for the ASSURE motif, and mechanisms for control, that are relevant to pharmacologic intervention and synthetic biology applications.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" class=\"external\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22531117",
+    "journal" : "Molecular systems biology",
+    "title" : "Asymmetric positive feedback loops reliably control biological responses.",
+    "affiliation" : "Institute for Systems Biology, Seattle, WA, USA.",
+    "synopsis" : "Positive feedback is a common mechanism enabling biological systems to respond to stimuli in a switch-like manner. Such systems are often characterized by the requisite formation of a heterodimer where only one of the pair is subject to feedback. This ASymmetric Self-UpREgulation (ASSURE) motif is central to many biological systems, including cholesterol homeostasis (LXRα/RXRα), adipocyte differentiation (PPARγ/RXRα), development and differentiation (RAR/RXR), myogenesis (MyoD/E12) and cellular antiviral defense (IRF3/IRF7). To understand why this motif is so prevalent, we examined its properties in an evolutionarily conserved transcriptional regulatory network in yeast (Oaf1p/Pip2p). We demonstrate that the asymmetry in positive feedback confers a competitive advantage and allows the system to robustly increase its responsiveness while precisely tuning the response to a consistent level in the presence of varying stimuli. This study reveals evolutionary advantages for the ASSURE motif, and mechanisms for control, that are relevant to pharmacologic intervention and synthetic biology applications.",
+    "year" : 2012,
+    "month" : "4",
+    "volume" : "8",
+    "pages" : "577",
+    "link" : "http://identifiers.org/pubmed/22531117",
+    "authors" : [
+      {
+        "name" : "Alexander V Ratushny",
+        "institution" : "Institute for Systems Biology, Seattle, WA, USA."
+      },
+      {
+        "name" : "Ramsey A Saleem"
+      },
+      {
+        "name" : "Katherine Sitko"
+      },
+      {
+        "name" : "Stephen A Ramsey"
+      },
+      {
+        "name" : "John D Aitchison"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000421_url.xml",
+        "description" : "SBML L2V4 representation of Ratushny2012_ASSURE_II",
+        "fileSize" : "15286",
+        "mimeType" : "application/xml",
+        "md5sum" : "9857a3ec60181a0f7ecdc959cd3e1812",
+        "sha1sum" : "295598a78f9a96c083bafb6c7452d41b7a76aee9",
+        "sha256sum" : "c6b1f9b60b6381185805800409c0a489c4417e57948adde02630d0affd2d3aa3"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000421-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6307",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b0f769d99c6a61af6a4d2c4d5519e5d7",
+        "sha1sum" : "feeb5cef218e27a002c3d0e012fc0127a56311d7",
+        "sha256sum" : "c9f29e44fb7445d174b8520dcbd6ca09c0683ac24d24b11e29c5d096f110b8cc"
+      },
+      {
+        "name" : "BIOMD0000000421-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "8323",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1f2b35187f8bfac296e20acccf0afc24",
+        "sha1sum" : "6d38a4864b92af97f2e4620a7f45c07185b6b747",
+        "sha256sum" : "f62851f29584d299672e4a6b4c3ab3ccfaafb6aab4954c73689c141a27211fec"
+      },
+      {
+        "name" : "BIOMD0000000421-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4317",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8fe0df8185ac7d3759f8af3f818b539d",
+        "sha1sum" : "630ff2371c76643b2b6826f96e661eed64b62d99",
+        "sha256sum" : "3c3253df883f6a0ad0869b6bbe364512f2c3a3b08f7561255cdaf5481043fe48"
+      },
+      {
+        "name" : "BIOMD0000000421-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4317",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "584d0e61a0b5644e5ad738fc7bb732b0",
+        "sha1sum" : "5eb1212db68d76e8e5893bd2b3386f23aff4161c",
+        "sha256sum" : "13173d85a3dac17ae9c4d38a5f1b4a92504272c9fe529900bcf012b5f32210bc"
+      },
+      {
+        "name" : "BIOMD0000000421.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4317",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "584d0e61a0b5644e5ad738fc7bb732b0",
+        "sha1sum" : "5eb1212db68d76e8e5893bd2b3386f23aff4161c",
+        "sha256sum" : "13173d85a3dac17ae9c4d38a5f1b4a92504272c9fe529900bcf012b5f32210bc"
+      },
+      {
+        "name" : "BIOMD0000000421.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2280",
+        "mimeType" : "text/plain",
+        "md5sum" : "d24fbc894b5fe556678ca14f0660c56a",
+        "sha1sum" : "5662d62556355f0ac9315ceecc2e087a4393eb18",
+        "sha256sum" : "64908035309d263b366543cc855c63841740ca0543b78ef3cf0479f644388178"
+      },
+      {
+        "name" : "BIOMD0000000421.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "157876",
+        "mimeType" : "application/pdf",
+        "md5sum" : "2a424e4766f29b8295bad20f56db9435",
+        "sha1sum" : "5ac1aff648c5b6988673409e8ea639c4500021c3",
+        "sha256sum" : "374e2532e3f718bcf44bfde2756e09c414674c0405dbaf27371833e4f01f9f6b"
+      },
+      {
+        "name" : "BIOMD0000000421.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "9402",
+        "mimeType" : "image/png",
+        "md5sum" : "dfa441394e1fe74ca9800603c09517c1",
+        "sha1sum" : "61f836f0e8439ef55f2ac151a13a8f5f54c3d407",
+        "sha256sum" : "6eaa962c8a1564b7ab265ff8cd27e5a84b8689b2f15b236f3266e846eb5bd1aa"
+      },
+      {
+        "name" : "BIOMD0000000421.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "4580",
+        "mimeType" : "text/plain",
+        "md5sum" : "eb7884ee3491b116d4ef948ec1b212b8",
+        "sha1sum" : "7e4a494840ac284a30951d60b212f7828d293582",
+        "sha256sum" : "e910e6ceb51aa2c4a30e2c4e1e80e3ab39d507704a3050e2ac64bce8f9ed6da4"
+      },
+      {
+        "name" : "BIOMD0000000421.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "6248",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4e4e9cb8411b59e5dd1d294a5f39c8ca",
+        "sha1sum" : "12df98b888886e8b5736934b8d24d0f970a23611",
+        "sha256sum" : "c95e5c605cb0db8f4e9260075cdf7af2a78040dabade06b1aac50b6ad1f2542e"
+      },
+      {
+        "name" : "BIOMD0000000421.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "17911",
+        "mimeType" : "application/xml",
+        "md5sum" : "4a401962d2f06445a021bce1833f58ec",
+        "sha1sum" : "e0e0a8cb2d134c70fbebbb55c5efed0d7a2a39c2",
+        "sha256sum" : "c7ecb7072e36f32ab17b6a36b93e97b522bcdf8be6903b9c545a6e27f8ae4494"
+      },
+      {
+        "name" : "BIOMD0000000421_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "10999",
+        "mimeType" : "application/xml",
+        "md5sum" : "4e1d9ac889dbe9c58bceb69489120be9",
+        "sha1sum" : "d8d34ff0bcebcf3d5e2a4ed368696c6f642e49cb",
+        "sha256sum" : "2a45fd280b2c796372e70830111f4a33abedfb920a20c3d704b1d2760020ce1b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "18558",
+        "mimeType" : "image/png",
+        "md5sum" : "32c79a6588c7dfce06832077239821ca",
+        "sha1sum" : "f12594bdb730e284db9a808ce358b1ba72006d7b",
+        "sha256sum" : "b2cb82dddfdd09a96a53ca22e436b5f1ea46fed7891e6a27291704d0cbac0e99"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "219",
+        "mimeType" : "text/plain",
+        "md5sum" : "5c24c460162d95f1c7101eb1f60a03b4",
+        "sha1sum" : "56d59528f804fb8a4398bfab64d978685ddbb92b",
+        "sha256sum" : "2984198c8ca39e05067ff9f737c0f1ba16a322236608dcebd22651c7d87a6cbf"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "89ee8df1a4f48bae8167584e983c9d5c",
+        "sha1sum" : "6d968d70c092c25c8ef0c7993686aefbf6219125",
+        "sha256sum" : "1a0572a5a21ccfba064ae40f7e35eb39a85d7e8cfa1e196a01b6223e4a62e136"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4557",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a0d5de0f976c11519653726f548e2e4b",
+        "sha1sum" : "d6d3eccbe72a6f4ead3b46bf46addb72fe7fc4d9",
+        "sha256sum" : "12bc506a1d9c92b32a3de980b1a631e9fcaa7468c6723290f18f0b618f69d3a1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1330563539,
+        "submitter" : "Alexander Ratushny",
+        "comment" : "Original import of Ratushny2012_ASSURE_II"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1409763181,
+        "submitter" : "Alexander Ratushny",
+        "comment" : "Current version of Ratushny2012_ASSURE_II"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724276231,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285151,
+  "submissionId" : "MODEL1203010002",
+  "publicationId" : "BIOMD0000000421",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Alexander Ratushny",
+        "email" : "alexander.ratushny@systemsbiology.org",
+        "affiliation" : "Institute for Systems Biology (ISB) and Seattle BioMed",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1203010002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1203010002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000421",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000421"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22531117",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22531117"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006355",
+      "name" : "regulation of transcription, DNA-templated",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006355"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

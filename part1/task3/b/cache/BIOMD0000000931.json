@@ -1,0 +1,360 @@
+{
+  "name" : "Voliotis2019-GnRH Pulse Generation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Fertility critically depends on the gonadotropin-releasing hormone (GnRH) pulse generator, a neural construct comprised of hypothalamic neurons coexpressing kisspeptin, neurokoinin-B and dynorphin. Here, using mathematical modeling and in vivo optogenetics we reveal for the first time how this neural construct initiates and sustains the appropriate ultradian frequency essential for reproduction. Prompted by mathematical modeling, we show experimentally using female estrous mice that robust pulsatile release of luteinizing hormone, a proxy for GnRH, emerges abruptly as we increase the basal activity of the neuronal network using continuous low-frequency optogenetic stimulation. Further increase in basal activity markedly increases pulse frequency and eventually leads to pulse termination. Additional model predictions that pulsatile dynamics emerge from nonlinear positive and negative feedback interactions mediated through neurokinin-B and dynorphin signaling respectively are confirmed neuropharmacologically. Our results shed light on the long-elusive GnRH pulse generator offering new horizons for reproductive health and wellbeing.SIGNIFICANCE STATEMENT The gonadotropin-releasing hormone (GnRH) pulse generator controls the pulsatile secretion of the gonadotropic hormones LH and FSH and is critical for fertility. The hypothalamic arcuate kisspeptin neurons are thought to represent the GnRH pulse generator, since their oscillatory activity is coincident with LH pulses in the blood; a proxy for GnRH pulses. However, the mechanisms underlying GnRH pulse generation remain elusive. We developed a mathematical model of the kisspeptin neuronal network and confirmed its predictions experimentally, showing how LH secretion is frequency-modulated as we increase the basal activity of the arcuate kisspeptin neurons in vivo using continuous optogenetic stimulation. Our model provides a quantitative framework for understanding the reproductive neuroendocrine system and opens new horizons for fertility regulationModel is encoded by Johannes and submitted to BioModels by Ahmad Zyoud.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31645462",
+    "journal" : "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "title" : "The Origin of GnRH Pulse Generation: An Integrative Mathematical-Experimental Approach.",
+    "affiliation" : "Department of Mathematics and Living Systems Institute, College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter EX4 4QF, United Kingdom, M.Voliotis@exeter.ac.uk K.Tsaneva-Atanasova@exeter.ac.uk.",
+    "synopsis" : "Fertility critically depends on the gonadotropin-releasing hormone (GnRH) pulse generator, a neural construct comprised of hypothalamic neurons coexpressing kisspeptin, neurokoinin-B and dynorphin. Here, using mathematical modeling and <i>in vivo</i> optogenetics we reveal for the first time how this neural construct initiates and sustains the appropriate ultradian frequency essential for reproduction. Prompted by mathematical modeling, we show experimentally using female estrous mice that robust pulsatile release of luteinizing hormone, a proxy for GnRH, emerges abruptly as we increase the basal activity of the neuronal network using continuous low-frequency optogenetic stimulation. Further increase in basal activity markedly increases pulse frequency and eventually leads to pulse termination. Additional model predictions that pulsatile dynamics emerge from nonlinear positive and negative feedback interactions mediated through neurokinin-B and dynorphin signaling respectively are confirmed neuropharmacologically. Our results shed light on the long-elusive GnRH pulse generator offering new horizons for reproductive health and wellbeing.<b>SIGNIFICANCE STATEMENT</b> The gonadotropin-releasing hormone (GnRH) pulse generator controls the pulsatile secretion of the gonadotropic hormones LH and FSH and is critical for fertility. The hypothalamic arcuate kisspeptin neurons are thought to represent the GnRH pulse generator, since their oscillatory activity is coincident with LH pulses in the blood; a proxy for GnRH pulses. However, the mechanisms underlying GnRH pulse generation remain elusive. We developed a mathematical model of the kisspeptin neuronal network and confirmed its predictions experimentally, showing how LH secretion is frequency-modulated as we increase the basal activity of the arcuate kisspeptin neurons <i>in vivo</i> using continuous optogenetic stimulation. Our model provides a quantitative framework for understanding the reproductive neuroendocrine system and opens new horizons for fertility regulation.",
+    "year" : 2019,
+    "month" : "12",
+    "volume" : "39",
+    "issue" : "49",
+    "pages" : "9738-9747",
+    "link" : "http://identifiers.org/pubmed/31645462",
+    "authors" : [
+      {
+        "name" : "Margaritis Voliotis",
+        "institution" : "Department of Mathematics and Living Systems Institute, College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter EX4 4QF, United Kingdom, M.Voliotis@exeter.ac.uk K.Tsaneva-Atanasova@exeter.ac.uk.The Engineering and Physical Sciences Research Council (EPSRC) Centre for Predictive Modelling in Healthcare, University of Exeter, Exeter EX4 4QJ, United Kingdom.",
+        "orcid" : "0000-0001-6488-7198"
+      },
+      {
+        "name" : "Xiao Feng Li",
+        "institution" : "Department of Women and Children's Health, School of Life Course Sciences, King's College London, London SE1 1UL, United Kingdom, and."
+      },
+      {
+        "name" : "Ross De Burgh",
+        "institution" : "Department of Women and Children's Health, School of Life Course Sciences, King's College London, London SE1 1UL, United Kingdom, and."
+      },
+      {
+        "name" : "Geffen Lass",
+        "institution" : "Department of Women and Children's Health, School of Life Course Sciences, King's College London, London SE1 1UL, United Kingdom, and."
+      },
+      {
+        "name" : "Stafford L Lightman",
+        "institution" : "Henry Wellcome Laboratory for Integrative Neuroscience and Endocrinology, University of Bristol, Bristol BS1 3NY, United Kingdom.",
+        "orcid" : "0000-0002-8546-9646"
+      },
+      {
+        "name" : "Kevin T O'Byrne",
+        "institution" : "Department of Women and Children's Health, School of Life Course Sciences, King's College London, London SE1 1UL, United Kingdom, and.",
+        "orcid" : "0000-0002-2548-4182"
+      },
+      {
+        "name" : "Krasimira Tsaneva-Atanasova",
+        "institution" : "Department of Mathematics and Living Systems Institute, College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter EX4 4QF, United Kingdom, M.Voliotis@exeter.ac.uk K.Tsaneva-Atanasova@exeter.ac.uk.The Engineering and Physical Sciences Research Council (EPSRC) Centre for Predictive Modelling in Healthcare, University of Exeter, Exeter EX4 4QJ, United Kingdom.",
+        "orcid" : "0000-0002-6294-7051"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Voliotis2019.xml",
+        "description" : "SBML L2V4 Voliotis2019-GnRH Pulse Generation_Curated_Fig1A",
+        "fileSize" : "37255",
+        "mimeType" : "application/xml",
+        "md5sum" : "529a7de8532f77e6c9230d0076678e3c",
+        "sha1sum" : "851f424f41339ab010f5af508ff49cd0d68e63d8",
+        "sha256sum" : "05a11fc51a20ea423cef87210466769cc31bc4e0e76fb7dcc388605ea4240dc2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Voliotis2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "7888",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8fb7b694225511a7a916e4d0642dd171",
+        "sha1sum" : "02f23390e202273a59c101e0b50cb307a0e7d10c",
+        "sha256sum" : "d48867aa3451435b4a70b42fbaa03dc313ba50d9421451c90b9743c542ca926b"
+      },
+      {
+        "name" : "Voliotis2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "10916",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "452ecd664622893bff811f004392adb8",
+        "sha1sum" : "cf91c4e07d8179aa5f8de5067353de53e082defa",
+        "sha256sum" : "5fb33abe4104a44d3216ede9e3667bf47df2e856f45cc3b8326b412b3894a803"
+      },
+      {
+        "name" : "Voliotis2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5038",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "679a6156a330fea1eef7fda1ca07cbfc",
+        "sha1sum" : "0d83fe7f6acc4005493022532150616aedceea96",
+        "sha256sum" : "39ac626a26d4e75b8bb731aa743a5361551dddef17fd783b895497ac2a24c65b"
+      },
+      {
+        "name" : "Voliotis2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5038",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cde4077cd18a76dff2275b49b2db52e1",
+        "sha1sum" : "0511fc91e6cbcc11cc6085380c68685dcf72bd27",
+        "sha256sum" : "e769b81e1bf9b66e362db035acb39990f7fc9cec859154a22ad4a12dcda52d15"
+      },
+      {
+        "name" : "Voliotis2019-original-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "7888",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8fb7b694225511a7a916e4d0642dd171",
+        "sha1sum" : "02f23390e202273a59c101e0b50cb307a0e7d10c",
+        "sha256sum" : "d48867aa3451435b4a70b42fbaa03dc313ba50d9421451c90b9743c542ca926b"
+      },
+      {
+        "name" : "Voliotis2019-original-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "10916",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "452ecd664622893bff811f004392adb8",
+        "sha1sum" : "cf91c4e07d8179aa5f8de5067353de53e082defa",
+        "sha256sum" : "5fb33abe4104a44d3216ede9e3667bf47df2e856f45cc3b8326b412b3894a803"
+      },
+      {
+        "name" : "Voliotis2019-original-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5038",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "679a6156a330fea1eef7fda1ca07cbfc",
+        "sha1sum" : "0d83fe7f6acc4005493022532150616aedceea96",
+        "sha256sum" : "39ac626a26d4e75b8bb731aa743a5361551dddef17fd783b895497ac2a24c65b"
+      },
+      {
+        "name" : "Voliotis2019-original-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5038",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cde4077cd18a76dff2275b49b2db52e1",
+        "sha1sum" : "0511fc91e6cbcc11cc6085380c68685dcf72bd27",
+        "sha256sum" : "e769b81e1bf9b66e362db035acb39990f7fc9cec859154a22ad4a12dcda52d15"
+      },
+      {
+        "name" : "Voliotis2019-original.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3402",
+        "mimeType" : "text/plain",
+        "md5sum" : "1c2a2e32ace176b6e410d0b387932d49",
+        "sha1sum" : "697d3bcd248976a30ef111901e1aeff2ee0fb961",
+        "sha256sum" : "077f7e88038711a6f08a2310751387afcd0fa61a21b6b0a90af1085d034ecbb4"
+      },
+      {
+        "name" : "Voliotis2019-original.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "18816",
+        "mimeType" : "application/xml",
+        "md5sum" : "ed487bf8a164f84a18a2510e89e41606",
+        "sha1sum" : "c089208a7a213f4644516eb5da8d00dcd95de2aa",
+        "sha256sum" : "8d71a37d3dce4fa09f7f706b1d524ea02a6abb8c12ce9e641f0c7b3713927e32"
+      },
+      {
+        "name" : "Voliotis2019-original.xml",
+        "description" : "SBML L2V4 Voliotis2019-GnRH Pulse Generation_Original",
+        "fileSize" : "37983",
+        "mimeType" : "application/xml",
+        "md5sum" : "bac1a126ed95065212e3a8976eef279b",
+        "sha1sum" : "b2919b5571ff5c75bf53feeb482afe408cd06224",
+        "sha256sum" : "2ba5c25f415270beeb86da1b8055bcfbb5f1c4d5b9a37aedecaf8003633925ac"
+      },
+      {
+        "name" : "Voliotis2019.cps",
+        "description" : "COPASI version 4.27 (Build 217) Voliotis2019-GnRH Pulse Generation_Curated_Fig1A",
+        "fileSize" : "70197",
+        "mimeType" : "application/xml",
+        "md5sum" : "f42fbe651aaa8e03e93bdda258859b57",
+        "sha1sum" : "6765c11129541db34b88606a44d53e5a61a16c1e",
+        "sha256sum" : "9bcfdf2c801dc3aefe4b143492ad02267c32f923c790d38db9a860e419790005"
+      },
+      {
+        "name" : "Voliotis2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3402",
+        "mimeType" : "text/plain",
+        "md5sum" : "1c2a2e32ace176b6e410d0b387932d49",
+        "sha1sum" : "697d3bcd248976a30ef111901e1aeff2ee0fb961",
+        "sha256sum" : "077f7e88038711a6f08a2310751387afcd0fa61a21b6b0a90af1085d034ecbb4"
+      },
+      {
+        "name" : "Voliotis2019.sedml",
+        "description" : "SBML L2V4 Voliotis2019-GnRH Pulse Generation_Curated_Fig1A (additionally CRBM-validated and adjusted).",
+        "fileSize" : "18789",
+        "mimeType" : "application/xml",
+        "md5sum" : "356c1540c9efe37fcb86fafbdb5879b1",
+        "sha1sum" : "dd9d7c97fbd814d8a93270b67332acd3e0c835f4",
+        "sha256sum" : "662ffe2dfed7654b8021d82b78715989a97dd36863c03985c9f16179b98e457a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "14608",
+        "mimeType" : "image/png",
+        "md5sum" : "1079af48aaf5fc119f5f52b2773c5e9a",
+        "sha1sum" : "c9597737d0c0f880139785eda8afd8800eaca027",
+        "sha256sum" : "f1ed43e556a1ff3a318f72896ffed846e1f1fb273a7eaafebb1b81903fcff7b5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "154",
+        "mimeType" : "text/plain",
+        "md5sum" : "6f08bbfef16215ef8b8ce3f2acbd3431",
+        "sha1sum" : "48f298ad4bb3b6597c4ed5c91fbec8f3e665b2d7",
+        "sha256sum" : "d84e5f0dfd6c40eb470847c877852bed690536a4631a11daa93077fcf66ea6cc"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2318",
+        "mimeType" : "application/xml",
+        "md5sum" : "c890c95dd3de8c30345c6e92de8368db",
+        "sha1sum" : "d0727bdc28f718ac2b1c7dff70aab5c8990460d3",
+        "sha256sum" : "56d09a90ab10d1d1707f378ab93a7dfbb15d3fa83767947d3bdf222004f32ff9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3852",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "adda989e5fcb81ff80136b19840bc59b",
+        "sha1sum" : "e368de05b8c6b634b906e3b9a9b5f78e84787076",
+        "sha256sum" : "2b3fa1e7f71aad64dd2e0f3a138e9fc6c12b9aea860f5b7ba57b952946e28eea"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1584651774,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Import of Voliotis2019-GnRH Pulse Generation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1586282928,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000931"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1642675162,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Renamed one of the additional files to resolve the main and that file having the same name"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724293290,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285539,
+  "submissionId" : "MODEL2003190007",
+  "publicationId" : "BIOMD0000000931",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10088",
+      "name" : "Mus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10088"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2003190007",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2003190007"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000931",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000931"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31645462",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:31645462"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "31645462",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31645462"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C41064",
+      "name" : "Endocrine",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C41064"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C16578",
+      "name" : "Fertility",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C16578"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C2270",
+      "name" : "Gonadotrophin Releasing Hormone",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C2270"
+    }
+  ]
+}

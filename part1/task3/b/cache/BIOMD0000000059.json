@@ -1,0 +1,289 @@
+{
+  "name" : "Fridlyand2003_Calcium_flux",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces block A of Fig 5 and also Fig 3 (without the inclusion of Tg action). The model was successfully tested on MathSBML</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12644446",
+    "journal" : "American journal of physiology. Endocrinology and metabolism",
+    "title" : "Modeling of Ca2+ flux in pancreatic beta-cells: role of the plasma membrane and intracellular stores.",
+    "affiliation" : "Department of Medicine, University of Chicago, Illinois 60637, USA.",
+    "synopsis" : "We have developed a detailed mathematical model of ionic flux in beta-cells that includes the most essential channels and pumps in the plasma membrane. This model is coupled to equations describing Ca2+, inositol 1,4,5-trisphosphate (IP3), ATP, and Na+ homeostasis, including the uptake and release of Ca2+ by the endoplasmic reticulum (ER). In our model, metabolically derived ATP activates inward Ca2+ flux by regulation of ATP-sensitive K+ channels and depolarization of the plasma membrane. Results from the simulations support the hypothesis that intracellular Na+ and Ca2+ in the ER can be the main variables driving both fast (2-7 osc/min) and slow intracellular Ca2+ concentration oscillations (0.3-0.9 osc/min) and that the effect of IP3 on Ca2+ leak from the ER contributes to the pattern of slow calcium oscillations. Simulations also show that filling the ER Ca2+ stores leads to faster electrical bursting and Ca2+ oscillations. Specific Ca2+ oscillations in isolated beta-cell lines can also be simulated.",
+    "year" : 2003,
+    "month" : "7",
+    "volume" : "285",
+    "issue" : "1",
+    "pages" : "E138-54",
+    "link" : "http://identifiers.org/pubmed/12644446",
+    "authors" : [
+      {
+        "name" : "Leonid E Fridlyand",
+        "institution" : "Department of Medicine, University of Chicago, Illinois 60637, USA."
+      },
+      {
+        "name" : "Natalia Tamarina"
+      },
+      {
+        "name" : "Louis H Philipson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000059_url.xml",
+        "description" : "SBML L2V1 representation of Fridlyand2003_Calcium_flux",
+        "fileSize" : "67027",
+        "mimeType" : "application/xml",
+        "md5sum" : "fea13898dddb7c675abcd2f0e3e3fa98",
+        "sha1sum" : "f7a242b37426cdc2e3ad5377b36f7428187dc6d4",
+        "sha256sum" : "62b74f8818f8bd3596fbb1c4b4f3ff09427f27fc0557c0495c6666fbbe425580"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000059-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "27089",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "82574d4c4ad79a72b74adc949e1d79d1",
+        "sha1sum" : "f96303930f930a40207cdb9475eae1e3a2fdb8c2",
+        "sha256sum" : "04496cbb628d7abfaeccdd6276da14785d94727f11db8bef086585cdb4107c5e"
+      },
+      {
+        "name" : "BIOMD0000000059-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "37168",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1aace023f4e42a12f1e833bd2f3d7311",
+        "sha1sum" : "216ab09025a1141b222e8870970c163a4e6ba8fe",
+        "sha256sum" : "76027ef5dda4b757c614915e135dc3cec624c72d98f62ee7da8f3684364cc0d7"
+      },
+      {
+        "name" : "BIOMD0000000059-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16016",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "919b8764a801f7baeac03623beb70775",
+        "sha1sum" : "a8056481da616eafc83711c0008d603bda945f2c",
+        "sha256sum" : "c1ea87e609f9dcd8403c78151d9ac51ba596c767b0a9c42f8f4ddaba9b46a783"
+      },
+      {
+        "name" : "BIOMD0000000059-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16016",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "70d1654b7af4b778554dc294d9179987",
+        "sha1sum" : "2dbce4e114fbb853d8616ac8b1ccff92b73c3a65",
+        "sha256sum" : "25cf70e07b5f0be4be7ebfe93b912c7d177789c486d2014b41bb9216eb58fc13"
+      },
+      {
+        "name" : "BIOMD0000000059.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16016",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "70d1654b7af4b778554dc294d9179987",
+        "sha1sum" : "2dbce4e114fbb853d8616ac8b1ccff92b73c3a65",
+        "sha256sum" : "25cf70e07b5f0be4be7ebfe93b912c7d177789c486d2014b41bb9216eb58fc13"
+      },
+      {
+        "name" : "BIOMD0000000059.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12836",
+        "mimeType" : "text/plain",
+        "md5sum" : "b18d3a528f3a7791756102a2ad213c60",
+        "sha1sum" : "79a03143a3e68329124ff9d1a3cc83cbf36ab812",
+        "sha256sum" : "0949222bd377db661defb84c8f4c7d44674b85efa6af2de06d30935eba62d03a"
+      },
+      {
+        "name" : "BIOMD0000000059.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "239550",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7041dab246ae6b221c4dc0cc8a6c8ecb",
+        "sha1sum" : "aaefad57380c059acef90f655d2b142fb2464caf",
+        "sha256sum" : "0065ea76d8a73c9f160c2b06b43110680c3f5428d3ba3bcd9b0054fde5621b16"
+      },
+      {
+        "name" : "BIOMD0000000059.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "87462",
+        "mimeType" : "image/png",
+        "md5sum" : "9e98125fe15b209bdc6f8b4f762d6d0b",
+        "sha1sum" : "c6436238a3870225e7c68914168861f4772d6a54",
+        "sha256sum" : "14ee2f828e74b9af7ba25d4d31d6ed844dfa03786a15bdbfbac1198b437aef5d"
+      },
+      {
+        "name" : "BIOMD0000000059.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "32589",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e51af7bac632eb997528b4368e0a326e",
+        "sha1sum" : "8b8691fe81800f472adf131e4e0864a14e09a7ec",
+        "sha256sum" : "28e42608f663f1fe61aec22b5151b84661efe857b941eb613c2ea85fe9d20939"
+      },
+      {
+        "name" : "BIOMD0000000059_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "65505",
+        "mimeType" : "application/xml",
+        "md5sum" : "79f788f6625a048c12edef6147265887",
+        "sha1sum" : "813ae39385a4c648a7a6d488f45fbce30cec7626",
+        "sha256sum" : "4127fc8db9b1557c9114e2052b1016b479a8ae4206dfbb69f463b4f54429cc3f"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "45546",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "4d517d3312f5dec63953ed49d30bbae7",
+        "sha1sum" : "c5f82c50af1529b75a0b34c99ca2be8a1bf3539d",
+        "sha256sum" : "f2de1ca90573968dece47b54c41df2cbf9420c67a999dda8d6fc96fae037379e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "95",
+        "mimeType" : "text/plain",
+        "md5sum" : "05d6b406a38d3ca6f011e729ca460fdc",
+        "sha1sum" : "0dc26cd652452a2d0a6c53b2a693f744fd805029",
+        "sha256sum" : "c48fad97ee6870ebe50514fa1681cb09a8b7dd9fd6b2e8cec24af8db8f45c639"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1792",
+        "mimeType" : "application/xml",
+        "md5sum" : "e746ef73b72502f995c466e73e0f98c5",
+        "sha1sum" : "df45d0047f23f557320709477c9825f3c9511ab1",
+        "sha256sum" : "7467457eba7f7f0265f11ea90f3fc029984ca804429f23932118cadcdefb8007"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2954",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "71fb8200d4ba9bb8ad90f7af0cb47e4d",
+        "sha1sum" : "56956fec8995f285c6758236a62bfd130638e1da",
+        "sha256sum" : "d44f6c6e06350941d19f432fff8f919f0c61f18657611b57df9d5d93fb3bae14"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1151083004,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Fridlyand2003_Calcium_flux"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1400952424,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Fridlyand2003_Calcium_flux"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266274,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284860,
+  "submissionId" : "MODEL0928773489",
+  "publicationId" : "BIOMD0000000059",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "map04020",
+      "name" : "Calcium signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04020"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0928773489",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0928773489"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000059",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000059"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12644446",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12644446"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0050796",
+      "name" : "regulation of insulin secretion",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0050796"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0050848",
+      "name" : "regulation of calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0050848"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000783",
+      "name" : "pancreatic beta cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000783"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+digraph Ciliberto2005 {
+graph [rankdir=LR, bgcolor="white", fontname="Helvetica", fontsize=12, labelloc=b, label="Ciliberto2005 · p53/Mdm2 · Reaktionsgraph\nDurchgezogen: SBML-Reaktionen (Gewicht 1); gestrichelt: Einfluss auf Reaktionsrate (+/−).\nDoppelrand: durch Regel bestimmt, keine unabhängige Stoffmenge; Startwerte laut SBML (mol/L).\np53 = p53_total − p53_ub − p53_ub_ub; MDM2_total = Mdm2_cyt + Mdm2_p_cyt + Mdm2_p_nuc/15.\nIR = ampl × step; step: 1 nach Trigger t > 10 plus 2 s Verzögerung, 0 bei t > 20.\nDNA_damage erhöht kd2_0 und damit R18. Transporte bleiben getrennte Ein-/Ausflüsse wie im SBML.\n∅ = Quelle/Senke der SBML-Bilanz, nicht zwingend physischer Abbau (z. B. Transport).", nodesep=0.22, ranksep=0.55];
+node [fontname="Helvetica", fontsize=12, style=filled];
+edge [fontname="Helvetica", fontsize=10, color="#475569", arrowsize=0.65];
+subgraph cluster_Cyt {
+label="Cytoplasma"; color="#94a3b8"; style=rounded;
+"Mdm2_cyt" [shape=ellipse, fillcolor="#dbeafe", peripheries=1, label="Mdm2\ncyt\n0.1161"];
+"Mdm2_p_cyt" [shape=ellipse, fillcolor="#dbeafe", peripheries=1, label="Mdm2\np\ncyt\n0.01187"];
+"MDM2_total" [shape=ellipse, fillcolor="#dbeafe", peripheries=2, label="MDM2\ntotal\n0.15009"];
+source_Cyt [shape=circle, fillcolor="#f1f5f9", label="∅"];
+sink_Cyt [shape=circle, fillcolor="#f1f5f9", label="∅"];
+}
+subgraph cluster_Nuc {
+label="Zellkern"; color="#94a3b8"; style=rounded;
+"DNA_damage" [shape=ellipse, fillcolor="#ede9fe", peripheries=1, label="DNA\ndamage\n0"];
+"IR" [shape=ellipse, fillcolor="#ede9fe", peripheries=2, label="IR\n0"];
+"p53_total" [shape=ellipse, fillcolor="#ede9fe", peripheries=1, label="p53\ntotal\n0.07118"];
+"p53_ub" [shape=ellipse, fillcolor="#ede9fe", peripheries=1, label="p53\nub\n0.02456"];
+"p53_ub_ub" [shape=ellipse, fillcolor="#ede9fe", peripheries=1, label="p53\nub\nub\n0.006826"];
+"Mdm2_p_nuc" [shape=ellipse, fillcolor="#ede9fe", peripheries=1, label="Mdm2\np\nnuc\n0.3318"];
+"p53" [shape=ellipse, fillcolor="#ede9fe", peripheries=2, label="p53\n0.039794"];
+source_Nuc [shape=circle, fillcolor="#f1f5f9", label="∅"];
+sink_Nuc [shape=circle, fillcolor="#f1f5f9", label="∅"];
+}
+"source_Nuc" -> "DNA_damage" [id="DNA_Damage_0", tooltip="DNA_Damage", label="R1\nDNA Damage"];
+"IR" -> "DNA_damage" [id="influence_DNA_Damage_IR", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R1", tooltip="Einfluss auf Rate: DNA_Damage"];
+"DNA_damage" -> "sink_Nuc" [id="DNA_Repair_0", tooltip="DNA_Repair", label="R2\nDNA Repair"];
+"p53_total" -> "DNA_damage" [id="influence_DNA_Repair_p53_total", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R2", tooltip="Einfluss auf Rate: DNA_Repair"];
+"source_Nuc" -> "p53_total" [id="p53_total_production_0", tooltip="p53_total_production", label="R3\np53 total production"];
+"p53_total" -> "sink_Nuc" [id="p53_total_degradation_0", tooltip="p53_total_degradation", label="R4\np53 total degradation"];
+"source_Nuc" -> "p53_ub" [id="p53_ubiquitination_1_0", tooltip="p53_ubiquitination_1", label="R5\np53 ubiquitination 1"];
+"Mdm2_p_nuc" -> "p53_ub" [id="influence_p53_ubiquitination_1_Mdm2_p_nuc", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R5", tooltip="Einfluss auf Rate: p53_ubiquitination_1"];
+"p53" -> "p53_ub" [id="influence_p53_ubiquitination_1_p53", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R5", tooltip="Einfluss auf Rate: p53_ubiquitination_1"];
+"p53_ub" -> "p53_ub_ub" [id="p53_ubiquitination_2_0", tooltip="p53_ubiquitination_2", label="R6\np53 ubiquitination 2"];
+"Mdm2_p_nuc" -> "p53_ub_ub" [id="influence_p53_ubiquitination_2_Mdm2_p_nuc", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R6", tooltip="Einfluss auf Rate: p53_ubiquitination_2"];
+"p53_ub" -> "sink_Nuc" [id="p53_ub_degradation_0", tooltip="p53_ub_degradation", label="R7\np53 ub degradation"];
+"p53_ub_ub" -> "sink_Nuc" [id="p53_ub_ub_degradation_0", tooltip="p53_ub_ub_degradation", label="R8\np53 ub ub degradation"];
+"p53_ub" -> "sink_Nuc" [id="p53_deubiquitination_1_0", tooltip="p53_deubiquitination_1", label="R9\np53 deubiquitination\n1"];
+"p53_ub_ub" -> "p53_ub" [id="p53_deubiquitination_2_0", tooltip="p53_deubiquitination_2", label="R10\np53 deubiquitination\n2"];
+"source_Cyt" -> "Mdm2_cyt" [id="Mdm2_cyt_production_0", tooltip="Mdm2_cyt_production", label="R11\nMdm2 cyt production"];
+"p53_total" -> "Mdm2_cyt" [id="influence_Mdm2_cyt_production_p53_total", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R11", tooltip="Einfluss auf Rate: Mdm2_cyt_production"];
+"Mdm2_cyt" -> "Mdm2_p_cyt" [id="Mdm2_cyt_phosphorylation_0", tooltip="Mdm2_cyt_phosphorylation", label="R12\nMdm2 cyt\nphosphorylation"];
+"p53_total" -> "Mdm2_p_cyt" [id="influence_Mdm2_cyt_phosphorylation_p53_total", style=dashed, constraint=false, color="#b91c1c", fontcolor="#b91c1c", label="− R12", tooltip="Einfluss auf Rate: Mdm2_cyt_phosphorylation"];
+"Mdm2_cyt" -> "sink_Cyt" [id="Mdm2_cyt_degradation_0", tooltip="Mdm2_cyt_degradation", label="R13\nMdm2 cyt degradation"];
+"Mdm2_p_cyt" -> "sink_Cyt" [id="Mdm2_p_cyt_degradation_0", tooltip="Mdm2_p_cyt_degradation", label="R14\nMdm2 p cyt\ndegradation"];
+"Mdm2_p_nuc" -> "sink_Nuc" [id="Mdm2_p_nuc_translocation_out_0", tooltip="Mdm2_p_nuc_translocation_out", label="R15\nMdm2 p nuc\ntranslocation out"];
+"Mdm2_p_cyt" -> "Mdm2_cyt" [id="Mdm2_p_cyt_dephosphorylation_0", tooltip="Mdm2_p_cyt_dephosphorylation", label="R16\nMdm2 p cyt\ndephosphorylation"];
+"Mdm2_p_cyt" -> "sink_Cyt" [id="Mdm2_p_cyt_translocation_out_0", tooltip="Mdm2_p_cyt_translocation_out", label="R17\nMdm2 p cyt\ntranslocation out"];
+"Mdm2_p_nuc" -> "sink_Nuc" [id="Mdm2_p_nuc_degradation_0", tooltip="Mdm2_p_nuc_degradation", label="R18\nMdm2 p nuc\ndegradation"];
+"DNA_damage" -> "Mdm2_p_nuc" [id="influence_Mdm2_p_nuc_degradation_DNA_damage", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R18", tooltip="Einfluss auf Rate: Mdm2_p_nuc_degradation"];
+"p53_total" -> "sink_Nuc" [id="p53_total_degradation_2_0", tooltip="p53_total_degradation_2", label="R19\np53 total degradation\n2"];
+"p53_ub_ub" -> "p53_total" [id="influence_p53_total_degradation_2_p53_ub_ub", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R19", tooltip="Einfluss auf Rate: p53_total_degradation_2"];
+"source_Cyt" -> "Mdm2_p_cyt" [id="Mdm2_p_cyt_translocation_in_0", tooltip="Mdm2_p_cyt_translocation_in", label="R20\nMdm2 p cyt\ntranslocation in"];
+"Mdm2_p_nuc" -> "Mdm2_p_cyt" [id="influence_Mdm2_p_cyt_translocation_in_Mdm2_p_nuc", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R20", tooltip="Einfluss auf Rate: Mdm2_p_cyt_translocation_in"];
+"source_Nuc" -> "Mdm2_p_nuc" [id="Mdm2_p_nuc_translocation_in_0", tooltip="Mdm2_p_nuc_translocation_in", label="R21\nMdm2 p nuc\ntranslocation in"];
+"Mdm2_p_cyt" -> "Mdm2_p_nuc" [id="influence_Mdm2_p_nuc_translocation_in_Mdm2_p_cyt", style=dashed, constraint=false, color="#15803d", fontcolor="#15803d", label="+ R21", tooltip="Einfluss auf Rate: Mdm2_p_nuc_translocation_in"];
+}

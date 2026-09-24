@@ -1,0 +1,234 @@
+{
+  "name" : "Nikolaev2019 - Immunobiochemical reconstruction of influenza lung infection-melanoma skin cancer interactions",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical mechanistic immunobiochemical model that incorporates T cell pathways that control programmed cell death protein 1 (PD-1) expression. A core component of the model is a kinetic motif, termed a PD-1 Double Incoherent Feed-Forward Loop (DIFFL), which reflects known interactions between IRF4, Blimp-1, and Bcl-6.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30745900",
+    "journal" : "Frontiers in immunology",
+    "title" : "Immunobiochemical Reconstruction of Influenza Lung Infection-Melanoma Skin Cancer Interactions.",
+    "affiliation" : "Center for Quantitative Biology, Rutgers University, Piscataway, NJ, United States.",
+    "synopsis" : "It was recently reported that acute influenza infection of the lung promoted distal melanoma growth in the dermis of mice. Melanoma-specific CD8+ T cells were shunted to the lung in the presence of the infection, where they expressed high levels of inflammation-induced cell-activation blocker PD-1, and became incapable of migrating back to the tumor site. At the same time, co-infection virus-specific CD8+ T cells remained functional while the infection was cleared. It was also unexpectedly found that PD-1 blockade immunotherapy reversed this effect. Here, we proceed to ground the experimental observations in a mechanistic immunobiochemical model that incorporates T cell pathways that control PD-1 expression. A core component of our model is a kinetic motif, which we call a PD-1 Double Incoherent Feed-Forward Loop (DIFFL), and which reflects known interactions between IRF4, Blimp-1, and Bcl-6. The different activity levels of the PD-1 DIFFL components, as a function of the cognate antigen levels and the given inflammation context, manifest themselves in phenotypically distinct outcomes. Collectively, the model allowed us to put forward a few working hypotheses as follows: (i) the melanoma-specific CD8+ T cells re-circulating with the blood flow enter the lung where they express high levels of inflammation-induced cell-activation blocker PD-1 in the presence of infection; (ii) when PD-1 receptors interact with abundant PD-L1, constitutively expressed in the lung, T cells loose motility; (iii) at the same time, virus-specific cells adapt to strong stimulation by their cognate antigen by lowering the transiently-elevated expression of PD-1, remaining functional and mobile in the inflamed lung, while the infection is cleared. The role that T cell receptor (TCR) activation and feedback loops play in the underlying processes are also highlighted and discussed. We hope that the results reported in our study could potentially contribute to the advancement of immunological approaches to cancer treatment and, as well, to a better understanding of a broader complexity of fundamental interactions between pathogens and tumors.",
+    "year" : 2019,
+    "month" : "0",
+    "volume" : "10",
+    "pages" : "4",
+    "link" : "http://identifiers.org/pubmed/30745900",
+    "authors" : [
+      {
+        "name" : "Evgeni V Nikolaev",
+        "institution" : "Center for Quantitative Biology, Rutgers University, Piscataway, NJ, United States.Clinical Investigations and Precision Therapeutics Program, Rutgers Cancer Institute of New Jersey, New Brunswick, NJ, United States."
+      },
+      {
+        "name" : "Andrew Zloza",
+        "institution" : "Section of Surgical Oncology Research, Division of Surgical Oncology, Rutgers Cancer Institute of New Jersey, New Brunswick, NJ, United States.Department of Surgery, Rutgers Robert Wood Johnson Medical School, New Brunswick, NJ, United States."
+      },
+      {
+        "name" : "Sontag ED",
+        "institution" : "Department of Mathematics and Center for Quantitative Biology, Rutgers University, New Brunswick, NJ 08903, USA. Electronic address: eduardo.sontag@rutgers.edu.",
+        "orcid" : "0000-0001-8020-5783"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Nikolaev2019.xml",
+        "description" : "SBML L2V4 Representation of Nikolaev2019 - Immunobiochemical reconstruction of influenza lung infection-melanoma skin cancer interactions",
+        "fileSize" : "67003",
+        "mimeType" : "application/xml",
+        "md5sum" : "cddf36fad2a94d987f86188924586722",
+        "sha1sum" : "c8fa78e5eb6906993009f002371ff8f58b329154",
+        "sha256sum" : "bb73e2f7a1d011e40238da13bcfb0efd86f40d4eeeaf434fe4ccd547d2e0ff77"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Nikolaev2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "12651",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1cc0a38ba4e04751d1a6bcee1bb2a1a3",
+        "sha1sum" : "04e1469818f8e7b7b9f1e4b2e41b296233a43ebb",
+        "sha256sum" : "71c8ad0d661ea8cb138cdf7300565ef8aa6e2e042abd52e04e62df8f8e6e9e53"
+      },
+      {
+        "name" : "Nikolaev2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "16824",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d2bcbfbe468181ed1d2ce69fc3dd1f2c",
+        "sha1sum" : "1bc3ead4d82ce45df72a2b083e100de2608bbc5d",
+        "sha256sum" : "6182470362727bd217e895cfb01584b8ac8c83318bf2d18d29b9008f987cb506"
+      },
+      {
+        "name" : "Nikolaev2019.cps",
+        "description" : "COPASI file of Nikolaev2019 - Immunobiochemical reconstruction of influenza lung infection-melanoma skin cancer interactions",
+        "fileSize" : "131752",
+        "mimeType" : "application/xml",
+        "md5sum" : "d5fa4ec6c1ead31f473c0a70cc88906a",
+        "sha1sum" : "19756aa7a99b5514f04139fa5e5edbe127fa675a",
+        "sha256sum" : "8e311e8fbf73724cd4828bfb5d5c28dc259f1ce7e94e9e1cadf5fd11ca046d9b"
+      },
+      {
+        "name" : "Nikolaev2019.sedml",
+        "description" : "SED-ML file of Nikolaev2019 - Immunobiochemical reconstruction of influenza lung infection-melanoma skin cancer interactions (additionally CRBM-validated and adjusted).",
+        "fileSize" : "38563",
+        "mimeType" : "application/xml",
+        "md5sum" : "f5797891976290fedaebd8a8cda77dc9",
+        "sha1sum" : "233152f988ffc34a5a6730b638e61f5c10529e0f",
+        "sha256sum" : "4f300bf837d8ff2b0c10d7bc95d5566fe1fa81efcf33668bb66ed8cb3f0c2130"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "42657",
+        "mimeType" : "image/png",
+        "md5sum" : "9cadc0c694e5053a873c8e8ddb56564b",
+        "sha1sum" : "f4500daa7c43ad380568c9dbc3a4a289951e35ec",
+        "sha256sum" : "58cff12582804a6b6701361ac9760a0378e79581ae755addce3cdd8e64aa2fab"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "209",
+        "mimeType" : "text/plain",
+        "md5sum" : "2024eeefd387a54a4be011e1d0b2b62e",
+        "sha1sum" : "2996812625deccf20d42480f2ad06745dd32b4a6",
+        "sha256sum" : "638121415084c398316381b2425c25b4bfaf378e52129590166edfecb2a94349"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1087",
+        "mimeType" : "application/xml",
+        "md5sum" : "b80c3b850a7384c746bf4e266ed39ae2",
+        "sha1sum" : "a2361ac44309bfb8d2de85f3c48f8ab7344f2328",
+        "sha256sum" : "cd31c2eebf3bbde8de9cb8bf3dabf4f244278cb964c2615ed4779b15882a2688"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2003",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "19bc45135e7e48320d6512520ba027c4",
+        "sha1sum" : "fff039290b4a57315e5c5361887bf03bc9be8c3e",
+        "sha256sum" : "e352a91d64bcac3c419c729230297dc27041415e583d54fc426c367cd6b01590"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1574068742,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000865"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724291595,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285515,
+  "submissionId" : "MODEL1911180001",
+  "publicationId" : "BIOMD0000000865",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C53482",
+      "name" : "Influenza",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C53482"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30745900",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30745900"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911180001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911180001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000865",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000865"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C94697",
+      "name" : "Programmed Cell Death Protein 1",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C94697"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C3224",
+      "name" : "Melanoma",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C3224"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "PR:000001543",
+      "name" : "programmed cell death 1 ligand 1",
+      "resource" : "Protein Ontology",
+      "uri" : "http://identifiers.org/pr/PR:000001543"
+    }
+  ]
+}

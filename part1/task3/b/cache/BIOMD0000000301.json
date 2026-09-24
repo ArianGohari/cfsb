@@ -1,0 +1,278 @@
+{
+  "name" : "Friedland2009_Ara_RTC3_counter",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>\t  This is the model of the RTC3 counter described in the article:<br />        <b>Synthetic gene networks that count.</b>        <br />\t  Friedland AE, Lu TK, Wang X, Shi D, Church G, Collins JJ. Science. 2009 May 29;324(5931):1199-202. PMID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19478183\">19478183</a>, DOI:<a href=\"http://dx.doi.org/10.1126/science.1172005\">10.1126/science.1172005</a>      </p>      <p>\t  Abstract:<br />\t  Synthetic gene networks can be constructed to emulate digital circuits and devices, giving one the ability to program and design cells with some of the principles of modern computing, such as counting. A cellular counter would enable complex synthetic programming and a variety of biotechnology applications. Here, we report two complementary synthetic genetic counters in Escherichia coli that can count up to three induction events: the first, a riboregulated transcriptional cascade, and the second, a recombinase-based cascade of memory units. These modular devices permit counting of varied user-defined inputs over a range of frequencies and can be expanded to count higher numbers.\t</p>      <p> \t  The 3 arabinose pulses are implemented using events, one for the start of pulses and one for the end. The variable pulse_flag changes arabinose consumption to fit behaviour during pulses and in between. To simulate two pulses only, set the pulse length of the third pulse to a negative value (though with an absolute value smaller than the pulse intervall length). \t</p>      <p> Originally created by libAntimony v1.4 (using libSBML 3.4.1) </p>      <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>    </p>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "19478183",
+    "journal" : "Science (New York, N.Y.)",
+    "title" : "Synthetic gene networks that count.",
+    "affiliation" : "Howard Hughes Medical Institute, Department of Biomedical Engineering, Center for BioDynamics and Center for Advanced Biotechnology, Boston University, Boston, MA 02215, USA.",
+    "synopsis" : "Synthetic gene networks can be constructed to emulate digital circuits and devices, giving one the ability to program and design cells with some of the principles of modern computing, such as counting. A cellular counter would enable complex synthetic programming and a variety of biotechnology applications. Here, we report two complementary synthetic genetic counters in Escherichia coli that can count up to three induction events: the first, a riboregulated transcriptional cascade, and the second, a recombinase-based cascade of memory units. These modular devices permit counting of varied user-defined inputs over a range of frequencies and can be expanded to count higher numbers.",
+    "year" : 2009,
+    "month" : "5",
+    "volume" : "324",
+    "issue" : "5931",
+    "pages" : "1199-1202",
+    "link" : "http://identifiers.org/pubmed/19478183",
+    "authors" : [
+      {
+        "name" : "Ari E Friedland",
+        "institution" : "Howard Hughes Medical Institute, Department of Biomedical Engineering, Center for BioDynamics and Center for Advanced Biotechnology, Boston University, Boston, MA 02215, USA."
+      },
+      {
+        "name" : "Timothy K Lu",
+        "orcid" : "0000-0002-3918-8923"
+      },
+      {
+        "name" : "Xiao Wang",
+        "orcid" : "0000-0002-4056-0155"
+      },
+      {
+        "name" : "David Shi"
+      },
+      {
+        "name" : "George Church",
+        "orcid" : "0000-0001-6232-9969"
+      },
+      {
+        "name" : "James J Collins"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000301_url.xml",
+        "description" : "SBML L2V4 representation of Friedland2009_Ara_RTC3_counter",
+        "fileSize" : "41340",
+        "mimeType" : "application/xml",
+        "md5sum" : "568f7c7186f75ad17875df2bbf03eb36",
+        "sha1sum" : "5081e4f58b5f8699664869f34df6f69d9ebfd77b",
+        "sha256sum" : "4bac3fbc8713a97c19d97989186cbb59380fa11ff3c69f3329d71e10c8719fcd"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000301-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "20154",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f362eff8ffcc5b0c18f094ca882e6535",
+        "sha1sum" : "6d226d65a75a6235520e04b6c5d60e5e3bd559ca",
+        "sha256sum" : "8707bbbb5e2005aa55f2737b42b7a68a757a56562ca327e438f7769ec19fdc08"
+      },
+      {
+        "name" : "BIOMD0000000301-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "27388",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4572857d78ae0bdb0aa439ce68dca2c6",
+        "sha1sum" : "b1d7e11b158874f109ff31759c8e4d598df7b6bd",
+        "sha256sum" : "556bad0ba2575836ec746d211f091e5d0c2db35436288b6a82be25a460fe552c"
+      },
+      {
+        "name" : "BIOMD0000000301-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9304",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "66646245342101119ee204833bd076c0",
+        "sha1sum" : "d9efdef46c2ea8ad2835c495b4e7c210c6e14165",
+        "sha256sum" : "fc567ada6126ca0db756ff0f52bdfef19cfe91ec234465e5d7a7c1871e2f248b"
+      },
+      {
+        "name" : "BIOMD0000000301-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9304",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c686550dba0ec8f1ddf108f6481142ff",
+        "sha1sum" : "b340fe72671cd11c86715e822d731780e551c7e6",
+        "sha256sum" : "98b14bd1dd4b406aee216e0b0528c3205c8c2295e3fc2d5fc7007e64e5f40f72"
+      },
+      {
+        "name" : "BIOMD0000000301.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9304",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c686550dba0ec8f1ddf108f6481142ff",
+        "sha1sum" : "b340fe72671cd11c86715e822d731780e551c7e6",
+        "sha256sum" : "98b14bd1dd4b406aee216e0b0528c3205c8c2295e3fc2d5fc7007e64e5f40f72"
+      },
+      {
+        "name" : "BIOMD0000000301.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "201312",
+        "mimeType" : "application/pdf",
+        "md5sum" : "242a93fa99cc746a698cf037e15a316c",
+        "sha1sum" : "45210deb10e021b657a4c0b5c5ba49e39ceedb0d",
+        "sha256sum" : "38965ab0611d88d9dd7baf4520f83b68b06a93b0a6a1bc9e21daddd6c324a90a"
+      },
+      {
+        "name" : "BIOMD0000000301.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "66928",
+        "mimeType" : "image/png",
+        "md5sum" : "52a5b3a06145c5a53fae508188fd97c6",
+        "sha1sum" : "c12384396101459e21741839d10591167764fa80",
+        "sha256sum" : "505e16d034aee474ad4ea144fdd8557c8043e25f41e540d8d6a62cc9d60562c0"
+      },
+      {
+        "name" : "BIOMD0000000301.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "29081",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "8dfef9ed9e502c17633eb8636e30bbd2",
+        "sha1sum" : "24d53304fef223b91f5aa17109aed94b5f32c4c3",
+        "sha256sum" : "9a6f02a514af1cbe5d7160ba3edefc8bfc4251ea76997278558dec3dbf0fa58f"
+      },
+      {
+        "name" : "BIOMD0000000301_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "33645",
+        "mimeType" : "application/xml",
+        "md5sum" : "c4976a67e6c53068d3db5c3327031d87",
+        "sha1sum" : "ae80f6ed3bb9d25262a997c3fa73c904cce69841",
+        "sha256sum" : "d987be2f2684b657d48183f172c846fa99d23e21c8d984d348651cb9d470ce64"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "25748",
+        "mimeType" : "image/png",
+        "md5sum" : "1249127610a32315e8c2860928e4666c",
+        "sha1sum" : "99acffd44d03fdfece492db0d80b04c46f3b00ad",
+        "sha256sum" : "31196934fca8a3fdc3a6cfb4ab371019fc3b280fb7841498417bb59a32138bfa"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "506",
+        "mimeType" : "text/plain",
+        "md5sum" : "f035271ebb8a0756089c21798eb07ba5",
+        "sha1sum" : "42cd390dec7e98251011783b60e70597ca566b16",
+        "sha256sum" : "5b412b38c4bc184bf1aab216cd7208c7681ed319b70a9b2b6724328af1f1e38f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1679",
+        "mimeType" : "application/xml",
+        "md5sum" : "f86b4363de6c52ee7ca6b161669a8ccc",
+        "sha1sum" : "c031646b5aae53e716eb6ac0de367c6de081b963",
+        "sha256sum" : "b91eb3cbe5012ce711ffd30f668129a5d3ab84d6a6472d23a7075e3b2a284115"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4135",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "608311afd8c3df25633116cc663c53be",
+        "sha1sum" : "0a7974ebe592e78a27bf774fd67fd949914398af",
+        "sha256sum" : "5a80dbf7cd531fd68a6d0e118b879973ac5a65009e39ec7e4341df7f32b2b025"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1293054421,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Friedland2006_Ara_RTC_3_Counter"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138128,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Friedland2009_Ara_RTC3_counter"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272996,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285017,
+  "submissionId" : "MODEL1012220006",
+  "publicationId" : "BIOMD0000000301",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1012220006",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1012220006"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000301",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000301"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "19478183",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19478183"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "83333",
+      "name" : "Escherichia coli (strain K12)",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/83333"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006446",
+      "name" : "regulation of translational initiation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006446"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0045975",
+      "name" : "positive regulation of translation, ncRNA-mediated",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0045975"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

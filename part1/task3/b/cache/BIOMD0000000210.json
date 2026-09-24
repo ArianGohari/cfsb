@@ -1,0 +1,301 @@
+{
+  "name" : "Chickarmane2008 - Stem cell lineage - NANOG GATA-6 switch",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Chickarmane2008 - Stem cell lineage - NANOG GATA-6 switch</div>            <div class=\"dc:description\">      <p>In this work, a dynamical model of lineage determination based upon a minimal circuit, as discussed in PMID:        <a href=\"http://identifiers.org/pubmed/18941526\">17215298</a>            , which contains the Oct4/Sox2/Nanog core as well its interaction with a few other key genes is discussed.        </p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/18941526\" title=\"Access to this publication\">A computational model for understanding stem cell, trophectoderm and endoderm lineage determination.</a>                    </div>                <div class=\"bibo:authorList\">Chickarmane V, Peterson C</div>                <div class=\"bibo:Journal\">PloS one. 2008, 3(10):e3478</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>BACKGROUND: Recent studies have associated the transcription factors, Oct4, Sox2 and Nanog as parts of a self-regulating network which is responsible for maintaining embryonic stem cell properties: self renewal and pluripotency. In addition, mutual antagonism between two of these and other master regulators have been shown to regulate lineage determination. In particular, an excess of Cdx2 over Oct4 determines the trophectoderm lineage whereas an excess of Gata-6 over Nanog determines differentiation into the endoderm lineage. Also, under/over-expression studies of the master regulator Oct4 have revealed that some self-renewal/pluripotency as well as differentiation genes are expressed in a biphasic manner with respect to the concentration of Oct4. METHODOLOGY/</p>                    <p>PRINCIPAL FINDINGS: We construct a dynamical model of a minimalistic network, extracted from ChIP-on-chip and microarray data as well as literature studies. The model is based upon differential equations and makes two plausible assumptions; activation of Gata-6 by Oct4 and repression of Nanog by an Oct4-Gata-6 heterodimer. With these assumptions, the results of simulations successfully describe the biphasic behavior as well as lineage commitment. The model also predicts that reprogramming the network from a differentiated state, in particular the endoderm state, into a stem cell state, is best achieved by over-expressing Nanog, rather than by suppression of differentiation genes such as Gata-6.</p>                    <p>CONCLUSIONS: The computational model provides a mechanistic understanding of how different lineages arise from the dynamics of the underlying regulatory network. It provides a framework to explore strategies of reprogramming a cell from a differentiated state to a stem cell state through directed perturbations. Such an approach is highly relevant to regenerative medicine since it allows for a rapid search over the host of possibilities for reprogramming to a stem cell state.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL8389825246\">MODEL8389825246</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18941526",
+    "journal" : "PloS one",
+    "title" : "A computational model for understanding stem cell, trophectoderm and endoderm lineage determination.",
+    "affiliation" : "Division of Biology, California Institute of Technology, Pasadena, California, United States of America.",
+    "synopsis" : "<h4>Background</h4>Recent studies have associated the transcription factors, Oct4, Sox2 and Nanog as parts of a self-regulating network which is responsible for maintaining embryonic stem cell properties: self renewal and pluripotency. In addition, mutual antagonism between two of these and other master regulators have been shown to regulate lineage determination. In particular, an excess of Cdx2 over Oct4 determines the trophectoderm lineage whereas an excess of Gata-6 over Nanog determines differentiation into the endoderm lineage. Also, under/over-expression studies of the master regulator Oct4 have revealed that some self-renewal/pluripotency as well as differentiation genes are expressed in a biphasic manner with respect to the concentration of Oct4.<h4>Methodology/principal findings</h4>We construct a dynamical model of a minimalistic network, extracted from ChIP-on-chip and microarray data as well as literature studies. The model is based upon differential equations and makes two plausible assumptions; activation of Gata-6 by Oct4 and repression of Nanog by an Oct4-Gata-6 heterodimer. With these assumptions, the results of simulations successfully describe the biphasic behavior as well as lineage commitment. The model also predicts that reprogramming the network from a differentiated state, in particular the endoderm state, into a stem cell state, is best achieved by over-expressing Nanog, rather than by suppression of differentiation genes such as Gata-6.<h4>Conclusions</h4>The computational model provides a mechanistic understanding of how different lineages arise from the dynamics of the underlying regulatory network. It provides a framework to explore strategies of reprogramming a cell from a differentiated state to a stem cell state through directed perturbations. Such an approach is highly relevant to regenerative medicine since it allows for a rapid search over the host of possibilities for reprogramming to a stem cell state.",
+    "year" : 2008,
+    "month" : "0",
+    "volume" : "3",
+    "issue" : "10",
+    "pages" : "e3478",
+    "link" : "http://identifiers.org/pubmed/18941526",
+    "authors" : [
+      {
+        "name" : "Vijay Chickarmane",
+        "institution" : "Division of Biology, California Institute of Technology, Pasadena, California, United States of America."
+      },
+      {
+        "name" : "Carsten Peterson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000210_url.xml",
+        "description" : "SBML L2V3 representation of Chickarmane2008 - Stem cell lineage - NANOG GATA-6 switch",
+        "fileSize" : "42092",
+        "mimeType" : "application/xml",
+        "md5sum" : "519f5d72e79d3ab30b6c9b42f82a5981",
+        "sha1sum" : "b8685ffb898f00cf1d04f5bc860a4733c3b23f64",
+        "sha256sum" : "fa698cc484dd1b46bb80aff07609a4c50a933c5e6f88cdbef79c61c927215dec"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000210-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "24536",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7afaa4bd50f0576704a9073e3bf562fb",
+        "sha1sum" : "d7bf390792326a316f6b66465b9515c53c942475",
+        "sha256sum" : "9aaac9e2779bb19f645b45336049fbff89a7edb3d797b95895bde0a19c77de9b"
+      },
+      {
+        "name" : "BIOMD0000000210-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "35714",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a97d67da1babbd371c8dc3d57c1c12b0",
+        "sha1sum" : "bf4c420a0386c05875439f43cbaf7a206f104e8b",
+        "sha256sum" : "ba30179811498ea352e9f4a0d418787c7d3118b56fcae31c61321c6519ccba0f"
+      },
+      {
+        "name" : "BIOMD0000000210-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10116",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e69fbdf9a892946896598a968e1ace7e",
+        "sha1sum" : "59eea8a1c0c444134555fc85362c3ac028e2a329",
+        "sha256sum" : "c770e79c91a6502fedba6954921ac56713209384a0d922429eb2d86a5f0520f9"
+      },
+      {
+        "name" : "BIOMD0000000210.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10116",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dc8dafa8f652a57fbf91cee826662972",
+        "sha1sum" : "df13cc88940c8b046c9709894b1af00c3cf5a5fc",
+        "sha256sum" : "b9f0a37442f8dc0962cb4cef40b6ce17db4f07d1b4d8d796114440960beef63a"
+      },
+      {
+        "name" : "BIOMD0000000210.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7999",
+        "mimeType" : "text/plain",
+        "md5sum" : "df264d7ffd1bc02259244a6e2606e956",
+        "sha1sum" : "31a38dfc7a4d5dabca5da1d802079e1bd1a6e2ee",
+        "sha256sum" : "92b2a6fd3a73cad3f08c5f825c1aae92e52332f2aca6a4d7477893364826ba88"
+      },
+      {
+        "name" : "BIOMD0000000210.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "200700",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1a9727859db981d9ab025cb35972c9f4",
+        "sha1sum" : "b49e57ee6effd6927b0585347ee6cbfb6f83ff55",
+        "sha256sum" : "18f34fa94c96c67df92c84fc869f4a6bb09f3baa9b6bb7c79c9fffeddfeac421"
+      },
+      {
+        "name" : "BIOMD0000000210.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "123828",
+        "mimeType" : "image/png",
+        "md5sum" : "ab298f986ee85e5f76b80e00d3655fe0",
+        "sha1sum" : "d32802ec45c5ce9cc5037eff191e09dda8458d2e",
+        "sha256sum" : "ef589f4283a835d6812f5a6461eded9721023f17d03457efc3e90a991eea1281"
+      },
+      {
+        "name" : "BIOMD0000000210.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5110",
+        "mimeType" : "text/plain",
+        "md5sum" : "62b61497c10e0e5dcae1070f50b7f784",
+        "sha1sum" : "acc112ceb82fb0a538f7ab2ef0c09c64a82fa72a",
+        "sha256sum" : "ebac69bd18ebfe2c9ac4fc89fd6407e1937c505d203a30e184ec52cc2e3cfddd"
+      },
+      {
+        "name" : "BIOMD0000000210.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "39624",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ff4d3a93057a320924e8a5ba94631594",
+        "sha1sum" : "06f763dd72c688abd0f61c1643022b0bae872511",
+        "sha256sum" : "e56bf734e714fe83d9285b3c7018badeb628358ea0488c820b710223ec788409"
+      },
+      {
+        "name" : "BIOMD0000000210.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "61372",
+        "mimeType" : "application/xml",
+        "md5sum" : "efa9bcf15adbb72d5bf6885590358ca6",
+        "sha1sum" : "7346d2aad331b30ae26f1a43c3cc299874a3f229",
+        "sha256sum" : "61402d6a0deee81e22f7940eb8e0e63bc795a8bc1b60a903a24aad0a06d7bf56"
+      },
+      {
+        "name" : "BIOMD0000000210_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "42982",
+        "mimeType" : "application/xml",
+        "md5sum" : "df2b1e9458234f5a796073cd0dda6d19",
+        "sha1sum" : "668aa4e4fb99c2f964935ca5a244b008f6df52f1",
+        "sha256sum" : "60a3a89fcf30d89a4fde24139816b5f1da1737042a2bb46fc8d193674ac645a3"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "9427",
+        "mimeType" : "image/png",
+        "md5sum" : "a503262b2767fab20435d72102012b3e",
+        "sha1sum" : "1e5df9bab19af8d9732e5e87b34d5b54363ef16c",
+        "sha256sum" : "b1ee3d3d4994079f18dbebea0902321b0c1162f0d86716813ef5b85437d6d8af"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "237",
+        "mimeType" : "text/plain",
+        "md5sum" : "92396505d2b8f783be107e7c8fef17ed",
+        "sha1sum" : "88df224bd22d593d44d1a1e3e4ed395e95413596",
+        "sha256sum" : "6753f5f2821753ddce0014f97a68f317f6303095c0ff49b1f688e032f8a4920d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "782daa620c40b5b840e88f19a64ed7ed",
+        "sha1sum" : "75c0a58c3cb34d4a094a896afaa01ddfafc6d424",
+        "sha256sum" : "b3584efd5735b189ed8eb4210eb9cdd48bfc037f0dbaf71c59d97cddfcc79033"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6083",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b1e5f3182dda513f2b73903a6e3f789b",
+        "sha1sum" : "9be81e071bdb6d736699708b3bc00fe7aac78608",
+        "sha256sum" : "3bc56354d9ff11bcf0cff81eb7380e679831794b71572bc13145ba6e478e4da5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1228493024,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1370454067,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Chickarmane2008 - Stem cell lineage - NANOG GATA-6 switch"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270392,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284940,
+  "submissionId" : "MODEL8389825246",
+  "publicationId" : "BIOMD0000000210",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0048863",
+      "name" : "stem cell differentiation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048863"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18941526",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18941526"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000203",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000203"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000204",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000204"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0001830",
+      "name" : "trophectodermal cell fate commitment",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0001830"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042663",
+      "name" : "regulation of endodermal cell fate specification",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042663"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8389825246",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8389825246"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000210",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000210"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

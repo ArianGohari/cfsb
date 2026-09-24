@@ -1,0 +1,339 @@
+{
+  "name" : "Jarrett2015 - Modelling the interaction between immune response, bacterial dynamics and inflammatory damage",
+  "description" : "Mathematical model of pro- and anti-inflammatory response, inflammation/damage and infection dynamics in BALB/c mouse with Staphylococcal aureus infection.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24814512",
+    "journal" : "Mathematical medicine and biology : a journal of the IMA",
+    "title" : "Modelling the interaction between the host immune response, bacterial dynamics and inflammatory damage in comparison with immunomodulation and vaccination experiments.",
+    "affiliation" : "Department of Mathematics, Florida State University, 1017 Academic Way, Tallahassee, FL 32306, USA ajarrett@math.fsu.edu.",
+    "synopsis" : "The immune system is a complex system of chemical and cellular interactions that responds quickly to queues that signal infection and then reverts to a basal level once the challenge is eliminated. Here, we present a general, four-component model of the immune system's response to a Staphylococcal aureus (S. aureus) infection, using ordinary differential equations. To incorporate both the infection and the immune system, we adopt the style of compartmenting the system to include bacterial dynamics, damage and inflammation to the host, and the host response. We incorporate interactions not previously represented including cross-talk between inflammation/damage and the infection and the suppression of the anti-inflammatory pathway in response to inflammation/damage. As a result, the most relevant equilibrium of the system, representing the health state, is an all-positive basal level. The model is able to capture eight different experimental outcomes for mice challenged with intratibial osteomyelitis due to S. aureus, primarily involving immunomodulation and vaccine therapies. For further validation and parameter exploration, we perform a parameter sensitivity analysis which suggests that the model is very stable with respect to variations in parameters, indicates potential immunomodulation strategies and provides a possible explanation for the difference in immune potential for different mouse strains.",
+    "year" : 2015,
+    "month" : "9",
+    "volume" : "32",
+    "issue" : "3",
+    "pages" : "285-306",
+    "link" : "http://identifiers.org/pubmed/24814512",
+    "authors" : [
+      {
+        "name" : "Angela M Jarrett",
+        "institution" : "Department of Mathematics, Florida State University, 1017 Academic Way, Tallahassee, FL 32306, USA ajarrett@math.fsu.edu."
+      },
+      {
+        "name" : "N G Cogan",
+        "institution" : "Department of Mathematics, Florida State University, 1017 Academic Way, Tallahassee, FL 32306, USA."
+      },
+      {
+        "name" : "M E Shirtliff",
+        "institution" : "Department of Microbial Pathogenesis, Dental School, University of Maryland, Baltimore, MD, USA."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Jarrett2015.xml",
+        "description" : "SBML L2V4 representation of Jarrett2015 - Modelling the interaction between immune response, bacterial dynamics and inflammatory damage_Curated",
+        "fileSize" : "50796",
+        "mimeType" : "application/xml",
+        "md5sum" : "fcc8506204722c2d7701ddfc4a682a7a",
+        "sha1sum" : "ec4aec1e53cb1244c53754e1a3a616995cd39175",
+        "sha256sum" : "9733d8b0bd830cd6ed947fb3d5a57bd4baa7da274b09bf92258c1a6adbced6db"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Jarrett2015-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "11088",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1d9b247761f950940b291324fe6d472c",
+        "sha1sum" : "2f1505a72be9bcf009d7800331f83ccf2678f6b1",
+        "sha256sum" : "baf86a21838ba93f6cc84c91515273c200c23fc6bf8e6dc08f5f68e653716ecf"
+      },
+      {
+        "name" : "Jarrett2015-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "13753",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2a0a09184cc4fd60e08424109535ddb3",
+        "sha1sum" : "453e8fe41ca7a6d71c6097fb6ae2ae5380fcc5e0",
+        "sha256sum" : "d955e8d6a2959732aba46ee268ec1315dcf3068f1b28ddc70db63fc1bb7722b3"
+      },
+      {
+        "name" : "Jarrett2015-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5594",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ae356521df06802661b3df910136a61f",
+        "sha1sum" : "4d5b678616f7b3d1ab56406c13470f6a1a32284b",
+        "sha256sum" : "3602c47a1946e1f4269f4213788d58364bef5b266eeb5a924009cda43a132c64"
+      },
+      {
+        "name" : "Jarrett2015-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5594",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3ffa45972fa79e3efb33be08e6a1351a",
+        "sha1sum" : "c61b0cdc5a9b695b2081fd335eadc3a5c16ffaa1",
+        "sha256sum" : "f8c6158e7d93ea1b803f787e2fefafe4810d2008d26307d41dac9deaa25aac93"
+      },
+      {
+        "name" : "Jarrett2015.cps",
+        "description" : "COPASI version 4.27 (Build 217) Modelling the interaction between immune response, bacterial dynamics and inflammatory damage_Curated",
+        "fileSize" : "84217",
+        "mimeType" : "application/xml",
+        "md5sum" : "5a8dcfbbc14d94dc6ad4f2e4d3cd682a",
+        "sha1sum" : "446c1c317a77db46ff4efab2a50eadd43960703c",
+        "sha256sum" : "d2ba03ff11f801abaa3a10efc1bc70ecd6d9ae6b71dea673e7174b488d6e45b7"
+      },
+      {
+        "name" : "Jarrett2015.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3991",
+        "mimeType" : "text/plain",
+        "md5sum" : "7f6e002e63e7732844a1d3a4d55554b7",
+        "sha1sum" : "b4276f5d79df901387a53cdff19fe190bdcdc544",
+        "sha256sum" : "73de537c807bacd40036087d79b89efd799500d73439e0bbf020a388c09895c6"
+      },
+      {
+        "name" : "Jarrett2015.sedml",
+        "description" : "sed-ml L1V2_Modelling the interaction between immune response, bacterial dynamics and inflammatory damage_Curated (additionally CRBM-validated and adjusted).",
+        "fileSize" : "16364",
+        "mimeType" : "application/xml",
+        "md5sum" : "517e55faaac061b81da0ba0b77d11187",
+        "sha1sum" : "1337e9bcd7d8508d99fd434f906c5b3ba460efeb",
+        "sha256sum" : "728fe6ae5b07d2f623b2200fec2c63c4391d572e8b209d35a6ce7ea8de2b83b9"
+      },
+      {
+        "name" : "Jarrett2015_orignal-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "5072",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "959fe4cfc9294dbe2f1d3afe8b8af587",
+        "sha1sum" : "d4a5f3e4cc42a4457751091ec239de094ba5e46a",
+        "sha256sum" : "12dfd21cfa1f73f56618d98ba8d66f0762a1db6e096b2a067f33f9df9c0d4528"
+      },
+      {
+        "name" : "Jarrett2015_orignal-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "5519",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "137292b1f39972b8f014717cafb10015",
+        "sha1sum" : "4e7a2d6ece1dfbccbc2aa5392f06616f07c32690",
+        "sha256sum" : "486571981fd9a177f56818a3a17b106447a2ed0ba6b282959a7445ae5f67c1ec"
+      },
+      {
+        "name" : "Jarrett2015_orignal-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4377",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c67db896b3e8434b1e7b0cdf84804780",
+        "sha1sum" : "13229be8be17dfb3f4847b096ff846495926fac9",
+        "sha256sum" : "87482b94de4f84c6e744b7d1c498f6dd7b13e3d412c71af6c61dede222b051b7"
+      },
+      {
+        "name" : "Jarrett2015_orignal-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4377",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "546770fcd9075f90e9840ddb3d6c5508",
+        "sha1sum" : "260352481c0553ddecc37deece32becf9e9a9352",
+        "sha256sum" : "740c64f6af825721610f5ff5a585789ddc4faee9ed84881db36a707a6da2f549"
+      },
+      {
+        "name" : "Jarrett2015_orignal.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2276",
+        "mimeType" : "text/plain",
+        "md5sum" : "4ce280ca0a3ef50547096fd1569ffae8",
+        "sha1sum" : "4e1560efe1b6487bb3f892b7bf5aac162f537b51",
+        "sha256sum" : "dcc829e294c344ad4f0486eaf3875654bdfbdaf83904c7cde53b334df7d782b4"
+      },
+      {
+        "name" : "Jarrett2015_orignal.xml",
+        "description" : "SBML L2V4 representation of Jarrett2015 - Modelling the interaction between immune response, bacterial dynamics and inflammatory damage_orignal",
+        "fileSize" : "35972",
+        "mimeType" : "application/xml",
+        "md5sum" : "9b2707dce25becc28d8e14f8f6bd6ad7",
+        "sha1sum" : "8ccea7f4e4ab14bb9d0c6e78d0635cccc81b20d8",
+        "sha256sum" : "96711aa1ec3a7e1c5868aad8d519f61e157a1ebdfbb97596d7b1d5ad3c6b50d9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "72212",
+        "mimeType" : "image/png",
+        "md5sum" : "b6c152aa4cf4baa0557c55453a00faab",
+        "sha1sum" : "72bcde65864e33a0a0640895f25350127ed07256",
+        "sha256sum" : "cb1a110ad3538f1200b234fe0c060514dfce5f93cef58074228d693d7bd72d74"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "167",
+        "mimeType" : "text/plain",
+        "md5sum" : "91435099ab5b66cd6139c6637b565c03",
+        "sha1sum" : "3c1a500db375270621fde14d2d5cd2349821622a",
+        "sha256sum" : "7cddfb8563952a6e621067d45e4995e75cef7237c051a24f2833b3f0ed2e5380"
+      },
+      {
+        "name" : "figure.jpg",
+        "description" : "Curated figure 2. To improve the curated figures, Beta_2 was changed from 0.1 to 0.135_from the orignal",
+        "fileSize" : "22974",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "4d2a942fec0f1a03aab9f876490c5005",
+        "sha1sum" : "c74c75166ccfdb2d57ec3ff4ce7d2c7f652820ac",
+        "sha256sum" : "3b74fb6ab509cd7b143046741bc594b768f5510084d6a29d8bf2a9865810d4be"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2270",
+        "mimeType" : "application/xml",
+        "md5sum" : "4426dbcd094d08ce76f37443c71a468c",
+        "sha1sum" : "bf997bc0bd492094017173014070a75784793886",
+        "sha256sum" : "4b3d0c524ebb8014fe6f491f78aa8448511835ced02300e77ed3e2405af82498"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1663",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2b9d5e99e9ec01920a132ef05f111cb5",
+        "sha1sum" : "9e2d376b5f89a96d1d01850de25d521bafa80dcb",
+        "sha256sum" : "792100e83ae459ea3f6a312860c86e62aaeda82a2f16643dff87fc03ec0896a8"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1526917673,
+        "submitter" : "Matthew Roberts",
+        "comment" : "Uploaded COPASI file and curated figure to facilitate the curation process in the future"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1583921818,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000920"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724292957,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285537,
+  "submissionId" : "MODEL1803200002",
+  "publicationId" : "BIOMD0000000920",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthew Roberts",
+        "email" : "mroberts@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1803200002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1803200002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000920",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000920"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24814512",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:24814512"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL1803200002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1803200002"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0050727",
+      "name" : "regulation of inflammatory response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0050727"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "24814512",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24814512"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000602",
+      "name" : "BALB/c",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000602"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0005681",
+      "name" : "Staphylococcus aureus infection",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0005681"
+    }
+  ]
+}

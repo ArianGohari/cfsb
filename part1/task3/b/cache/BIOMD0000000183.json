@@ -1,0 +1,294 @@
+{
+  "name" : "Stefan2008 - calmodulin allostery",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">\t<div class=\"dc:title\">\t  Stefan2008 - calmodulin allostery\t</div>\t<div class=\"dc:description\">\t <p>An allosteric model for calmodulin activation, in which binding to calcium facilitates the transition between a low-affinity [tense (T)] and a high-affinity [relaxed (R)] state.</p>\t</div>\t<div class=\"dc:bibliographicCitation\">\t <p>This model is described in the article:</p>\t <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/18669651\" title=\"Access to this publication\">An allosteric model of calmodulin explains differential activation of PP2B and CaMKII.</a></div>\t <div class=\"bibo:authorList\">Stefan MI, Edelstein SJ, Le Novère N</div>\t <div class=\"bibo:Journal\">Proc. Natl. Acad. Sci. U.S.A. 2008 Aug; 105(31): 10768-10773</div>\t <p>Abstract:</p>\t <div class=\"bibo:abstract\">  \t   <p>Calmodulin plays a vital role in mediating bidirectional synaptic plasticity by activating either calcium/calmodulin-dependent protein kinase II (CaMKII) or protein phosphatase 2B (PP2B) at different calcium concentrations. We propose an allosteric model for calmodulin activation, in which binding to calcium facilitates the transition between a low-affinity [tense (T)] and a high-affinity [relaxed (R)] state. The four calcium-binding sites are assumed to be nonidentical. The model is consistent with previously reported experimental data for calcium binding to calmodulin. It also accounts for known properties of calmodulin that have been difficult to model so far, including the activity of nonsaturated forms of calmodulin (we predict the existence of open conformations in the absence of calcium), an increase in calcium affinity once calmodulin is bound to a target, and the differential activation of CaMKII and PP2B depending on calcium concentration.</p>\t </div>\t</div>\t<div class=\"dc:publisher\">\t <p>This model is hosted on <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a> and identified by: <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000183\">BIOMD0000000183</a>.</p>\t <p>To cite BioModels Database, please use: <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>.</p>\t</div>\t<div class=\"dc:license\">\t   <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a> for more information.</p>\t</div>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18669651",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "An allosteric model of calmodulin explains differential activation of PP2B and CaMKII.",
+    "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SD, United Kingdom.",
+    "synopsis" : "Calmodulin plays a vital role in mediating bidirectional synaptic plasticity by activating either calcium/calmodulin-dependent protein kinase II (CaMKII) or protein phosphatase 2B (PP2B) at different calcium concentrations. We propose an allosteric model for calmodulin activation, in which binding to calcium facilitates the transition between a low-affinity [tense (T)] and a high-affinity [relaxed (R)] state. The four calcium-binding sites are assumed to be nonidentical. The model is consistent with previously reported experimental data for calcium binding to calmodulin. It also accounts for known properties of calmodulin that have been difficult to model so far, including the activity of nonsaturated forms of calmodulin (we predict the existence of open conformations in the absence of calcium), an increase in calcium affinity once calmodulin is bound to a target, and the differential activation of CaMKII and PP2B depending on calcium concentration.",
+    "year" : 2008,
+    "month" : "8",
+    "volume" : "105",
+    "issue" : "31",
+    "pages" : "10768-10773",
+    "link" : "http://identifiers.org/pubmed/18669651",
+    "authors" : [
+      {
+        "name" : "Melanie I Stefan",
+        "orcid" : "0000-0002-6086-7357"
+      },
+      {
+        "name" : "Stuart J Edelstein"
+      },
+      {
+        "name" : "Nicolas Le Novère"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000183_url.xml",
+        "description" : "SBML L2V3 representation of Stefan2008 - calmodulin allostery",
+        "fileSize" : "509292",
+        "mimeType" : "application/xml",
+        "md5sum" : "3dacc06252ae5ae78931fc34fe1215e7",
+        "sha1sum" : "2e106997a09e7b8276d7353d2d0a90d72277dd9f",
+        "sha256sum" : "abd67e7c0f3a7e5886af1a2bda088dae63eb58abb6c11352fb0b0141d91de490"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000183-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "522076",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ff315ece07869bd8d29a9eb6c826e834",
+        "sha1sum" : "4e622f470d4c18acb4748e2925caba10ed919cc9",
+        "sha256sum" : "fc3278e8bb04d09622ffcb5ec9d7305a917f524e1a6f3a3b41dc33742ed06427"
+      },
+      {
+        "name" : "BIOMD0000000183-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "967318",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0eacfd1f8c190672eb108628fdebd6fb",
+        "sha1sum" : "807526e3742582b2f5fe9e20c44ab2b925d0aa6d",
+        "sha256sum" : "dfb95ea16dd93e7655092feaf6dbb48afc651c80c8a6db3e374a2a2c5bb538dd"
+      },
+      {
+        "name" : "BIOMD0000000183.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "117672",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "125af31c81c8e3da6224b14b185ed401",
+        "sha1sum" : "56555d9ba56ef8890ddcc46b5cebc8cb588fd0bb",
+        "sha256sum" : "d234935cf5f68952a6389c11658355e5c43e25be376b47214e421b5aad1318c8"
+      },
+      {
+        "name" : "BIOMD0000000183.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "93192",
+        "mimeType" : "text/plain",
+        "md5sum" : "b3c136e3e7376deda534de3803c33515",
+        "sha1sum" : "686387804d3f7582440c99ec2960b4143cb9941d",
+        "sha256sum" : "b9ef8a6fd60410f1ef1dc4ee68530815e2f9c25604f8e28a60852ab26821112a"
+      },
+      {
+        "name" : "BIOMD0000000183.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "1818378",
+        "mimeType" : "application/pdf",
+        "md5sum" : "43e2af060f2ac0012c4416c589b2b3c3",
+        "sha1sum" : "cd70502bd479615a5993925e4e267a797505286d",
+        "sha256sum" : "2ee8438c80cdfeb6f5f1c86b8f3637b8bb9fa395d59b7e02c0c4bc82f201168b"
+      },
+      {
+        "name" : "BIOMD0000000183.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5189",
+        "mimeType" : "image/png",
+        "md5sum" : "603905e8aa4cc6ee8bbb56a895d093c8",
+        "sha1sum" : "4f5418a4d42c80db438ca0bfb758d2771630001e",
+        "sha256sum" : "d8b25e248df2e019004bf27eda2c8e7ee8575c1cae91cdd7c565e327c28250e9"
+      },
+      {
+        "name" : "BIOMD0000000183.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "567",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4bdf94fac9284f2152d93a8af1c2a3b5",
+        "sha1sum" : "1a15338f9f2ab8f9db4244cfa874170ebc0c2427",
+        "sha256sum" : "ba074ad18f1dede2ed87de33f3a6592ed6ec66d6d322754ea58037afb6ca80f4"
+      },
+      {
+        "name" : "BIOMD0000000183.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "524119",
+        "mimeType" : "application/xml",
+        "md5sum" : "0766146ba26bfd1baeba9a13141a4156",
+        "sha1sum" : "f66de498a90e4922280c6c10dee78b99b18cb812",
+        "sha256sum" : "bf30010e374fabdd75ce6d9761fadad6c4fa87a89bf72e0e4fd4386b08476ccf"
+      },
+      {
+        "name" : "BIOMD0000000183_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "278405",
+        "mimeType" : "application/xml",
+        "md5sum" : "18e6e688dd3c9c9f227252835eee8190",
+        "sha1sum" : "e4e52b803c7a40c6d8fe9418694af1d81514855d",
+        "sha256sum" : "8dc1b6fa746bbb68301a65caf203a9aa84ef2c9ed7a1a2ccb06438d8a2b60efa"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11417",
+        "mimeType" : "image/png",
+        "md5sum" : "d01d3fb2b77d2b22cce7b52ec809580d",
+        "sha1sum" : "fd47c3122420146a7d9e8a2e1844dc1ade6e72c9",
+        "sha256sum" : "00bd8f4c2782bfef2be0924de6b7798e59ff2b6401a40134a85927fa3c325abc"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "414",
+        "mimeType" : "text/plain",
+        "md5sum" : "3fb2e214501a8b11b1c4bf5e1fefad8f",
+        "sha1sum" : "48f9281d1174d188215efae70a4780e7a8a9a708",
+        "sha256sum" : "29f84263d94aad31414b7c5a55a866ee64e18290f835bfca5fecc50848e53d60"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1674",
+        "mimeType" : "application/xml",
+        "md5sum" : "add86ad7a4a81cf0c54527078fa7bfc4",
+        "sha1sum" : "b974ce6678c01d7147511fac819d5463145819da",
+        "sha256sum" : "6faa011d72f319b495bfdf4a0672bcef70b20061df7ed7baaf83c435c534e224"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4830",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1266e66c0583994f96b28f27f16794e6",
+        "sha1sum" : "ae8b2be26c823bcea0d8042a67e35d627c6b85a7",
+        "sha256sum" : "ba7633a6f8b5ecffccd69ae817223d048e44d957bcafac86867181e161bbbae0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1218733732,
+        "submitter" : "Melanie Stefan",
+        "comment" : "Original import of Stefan2007_calmodulin_allostery"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401884548,
+        "submitter" : "Melanie Stefan",
+        "comment" : "Current version of Stefan2008 - calmodulin allostery"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269645,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284922,
+  "submissionId" : "MODEL9885984404",
+  "publicationId" : "BIOMD0000000183",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Melanie Stefan",
+        "email" : "mstefan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL9885984404",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9885984404"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000183",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000183"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18669651",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18669651"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04720",
+      "name" : "Long-term potentiation",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04720"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_9053.2",
+      "name" : "CaM pathway",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_9053.2"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005513",
+      "name" : "detection of calcium ion",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005513"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0004722",
+      "name" : "protein serine/threonine phosphatase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0004722"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0031915",
+      "name" : "positive regulation of synaptic plasticity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0031915"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0004683",
+      "name" : "calmodulin-dependent protein kinase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0004683"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005516",
+      "name" : "calmodulin binding",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005516"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "name" : "Phillips2007_AscendingArousalSystem_SleepWakeDynamics",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>A quantitative model of sleep-wake dynamics based on the physiology of thebrainstem ascending arousal system.</strong>        <br />          Phillips AJ, Robinson PA.      <em>J Biol Rhythms</em>          2007 Apr;22(2):167-79      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17440218\">17440218</a>          ,      <br />        <strong>Abstract:</strong>        <br />          A quantitative, physiology-based model of the ascending arousal system isdeveloped, using continuum neuronal population modeling, which involvesaveraging properties such as firing rates across neurons in each population. Themodel includes the ventrolateral preoptic area (VLPO), where circadian andhomeostatic drives enter the system, the monoaminergic and cholinergic nuclei ofthe ascending arousal system, and their interconnections. The human sleep-wakecycle is governed by the activities of these nuclei, which modulate thebehavioral state of the brain via diffuse neuromodulatory projections. The modelparameters are not free since they correspond to physiological observables.Approximate parameter bounds are obtained by requiring consistency withphysiological and behavioral measures, and the model replicates the humansleep-wake cycle, with physiologically reasonable voltages and firing rates.Mutual inhibition between the wake-promoting monoaminergic group andsleep-promoting VLPO causes ;;flip-flop'' behavior, with most time spent in 2stable steady states corresponding to wake and sleep, with transitions betweenthem on a timescale of a few minutes. The model predicts hysteresis in thesleep-wake cycle, with a region of bistability of the wake and sleep states.Reducing the monoaminergic-VLPO mutual inhibition results in a smallerhysteresis loop. This makes the model more prone to wake-sleep transitions inboth directions and makes the states less distinguishable, as in narcolepsy. Themodel behavior is robust across the constrained parameter ranges, but withsufficient flexibility to describe a wide range of observed phenomena.      </p>      <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/538f7b53af627b47e9d3f66aef27f9e5\">        <strong>Phillips AJ, Robinson PA. (2007) - version=1.0</strong>      </a>      <br />          The original CellML model was created by:      <br />      <strong>Catherine Lloyd</strong>      <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>    <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>  <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />  <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17440218",
+    "journal" : "Journal of biological rhythms",
+    "title" : "A quantitative model of sleep-wake dynamics based on the physiology of the brainstem ascending arousal system.",
+    "affiliation" : "School of Physics, University of Sydney, New South Wales 2006, Australia. ajp@physics.usyd.edu.au",
+    "synopsis" : "A quantitative, physiology-based model of the ascending arousal system is developed, using continuum neuronal population modeling, which involves averaging properties such as firing rates across neurons in each population. The model includes the ventrolateral preoptic area (VLPO), where circadian and homeostatic drives enter the system, the monoaminergic and cholinergic nuclei of the ascending arousal system, and their interconnections. The human sleep-wake cycle is governed by the activities of these nuclei, which modulate the behavioral state of the brain via diffuse neuromodulatory projections. The model parameters are not free since they correspond to physiological observables. Approximate parameter bounds are obtained by requiring consistency with physiological and behavioral measures, and the model replicates the human sleep-wake cycle, with physiologically reasonable voltages and firing rates. Mutual inhibition between the wake-promoting monoaminergic group and sleep-promoting VLPO causes ;;flip-flop'' behavior, with most time spent in 2 stable steady states corresponding to wake and sleep, with transitions between them on a timescale of a few minutes. The model predicts hysteresis in the sleep-wake cycle, with a region of bistability of the wake and sleep states. Reducing the monoaminergic-VLPO mutual inhibition results in a smaller hysteresis loop. This makes the model more prone to wake-sleep transitions in both directions and makes the states less distinguishable, as in narcolepsy. The model behavior is robust across the constrained parameter ranges, but with sufficient flexibility to describe a wide range of observed phenomena.",
+    "year" : 2007,
+    "month" : "4",
+    "volume" : "22",
+    "issue" : "2",
+    "pages" : "167-179",
+    "link" : "http://identifiers.org/pubmed/17440218",
+    "authors" : [
+      {
+        "name" : "A J K Phillips",
+        "institution" : "School of Physics, University of Sydney, New South Wales 2006, Australia. ajp@physics.usyd.edu.au",
+        "orcid" : "0000-0003-1156-7056"
+      },
+      {
+        "name" : "Robinson PA",
+        "orcid" : "0000-0002-5050-9804"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Phillips2007_Curated.xml",
+        "description" : "SBML L2V4 representation of Phillips2007_AscendingArousalSystem_SleepWakeDynamics_Curated",
+        "fileSize" : "51393",
+        "mimeType" : "application/xml",
+        "md5sum" : "383c736b9703241a6fe071a007b3ecbd",
+        "sha1sum" : "5ab5314940cf269e8537777c9efb8091569cb27f",
+        "sha256sum" : "7d1c0793f09d6cad681527e18c86d8f28df1f5d3ead6cf475592ccb6ae0d2581"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL1006230025-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "1123",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6442a4dabd92e21a269d8fdd5246824c",
+        "sha1sum" : "eb20bbd09feebb411c6ad1da32dfbfdcfe71f5aa",
+        "sha256sum" : "25d514a72234f9095a1ec5155236d689325c430c8d078952989bf3e094183eee"
+      },
+      {
+        "name" : "MODEL1006230025-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "2127",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "911fb6e14f7631310576fa02aade26b0",
+        "sha1sum" : "34e52931f39882b03d5de39a45ba01f882227085",
+        "sha256sum" : "53303a0c2efbdc5955948bb3f4ea451653605b2bf48a6946b0fb341bcd3f7eb3"
+      },
+      {
+        "name" : "MODEL1006230025.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3914",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d2e35f173cec9a45317ce5121f1ea599",
+        "sha1sum" : "6ab879ee4e9c9db47edeb1ad9d639580c752876e",
+        "sha256sum" : "2709bb2da43ece4e4ac06f06ac66c7a796ae6e31a1391f185442d1c64e90628b"
+      },
+      {
+        "name" : "MODEL1006230025.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2824",
+        "mimeType" : "text/plain",
+        "md5sum" : "e400b43bf472f29f05a19290f8a471f6",
+        "sha1sum" : "ecf84d6be4805bee0b8ac821525dca5a1c19851c",
+        "sha256sum" : "b363ed29c31ed65e6d5a236345651a5ca30b228b071489c7f44b1f0b626b3f75"
+      },
+      {
+        "name" : "MODEL1006230025.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "147859",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f7636be5f665b47d77827a233f67e2d3",
+        "sha1sum" : "373cc0a37f02613859b68bee5b4a25b93781e16e",
+        "sha256sum" : "cc25da7cd4c9b78f35d6a58cf9b7ea5d61430492b0f6177f6a449d934faa82c1"
+      },
+      {
+        "name" : "MODEL1006230025.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "Phillips2007.cps",
+        "description" : "COPASI version 4.27 (Build 217) Phillips2007_AscendingArousalSystem_SleepWakeDynamics_Curated",
+        "fileSize" : "85144",
+        "mimeType" : "application/xml",
+        "md5sum" : "f7daf0b0feca611e1e1984f72c90f659",
+        "sha1sum" : "308725f4d95345962a809ccbcf65ab3e9b99bfeb",
+        "sha256sum" : "893119580ed109b2dd46f980520ffd433aa71346a1ffea3369be38487e88c831"
+      },
+      {
+        "name" : "Phillips2007.sedml",
+        "description" : "sed-ml L1V2 Phillips2007_AscendingArousalSystem_SleepWakeDynamics_Curated (additionally CRBM-validated and adjusted).",
+        "fileSize" : "19081",
+        "mimeType" : "application/xml",
+        "md5sum" : "1aea51daff556f08e182830bd8438834",
+        "sha1sum" : "ac90396723ad2a4463430c269f87ba37523bfcae",
+        "sha256sum" : "374b2f435a4288403b67fbd8a28c18e34fc210a72040e14eeab6fd00def6f6b9"
+      },
+      {
+        "name" : "Phillips2007_Curated-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "8823",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "478d5ef15144638e72af33c731787060",
+        "sha1sum" : "3c7fb490de3c87a701ea539367d713c150bd48df",
+        "sha256sum" : "80138241ebcd5e2d50c0cfceb8c5c9cf7c206993acb499204832bea5e9840114"
+      },
+      {
+        "name" : "Phillips2007_Curated-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "11296",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b6c522f598895639fe2b2298eb7437fc",
+        "sha1sum" : "911704f6a29d04100a915d15ef479e9913a135fc",
+        "sha256sum" : "aa290e4f795f566cb5e49be0e1453ed3c139979fcb715bb1bf09668f85d5d0ab"
+      },
+      {
+        "name" : "Phillips2007_Curated-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5800",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0738ff2343ce738b9e84b25c32ebb5e6",
+        "sha1sum" : "ff73c6e1f085d67bd0b7516768ab2d2a1c3c34a1",
+        "sha256sum" : "31f88540a3021662507b965c5712f175235330015a1fc476c5f9b672385a69b5"
+      },
+      {
+        "name" : "Phillips2007_Curated-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5800",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0a4623e100daf8bd6fbde39bfa49c07e",
+        "sha1sum" : "d3219b4af8552065208290b61609d580ba1f5387",
+        "sha256sum" : "f2ddaff1c456265c100002beb6b813c64b91d3fed95ddc47adea8e6c26684ce1"
+      },
+      {
+        "name" : "Phillips2007_Curated.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4031",
+        "mimeType" : "text/plain",
+        "md5sum" : "80775cf272b67d2b8b8af8e9935d6837",
+        "sha1sum" : "865fd0faa681e467b6a6fd90dbb0ce905405ee60",
+        "sha256sum" : "f98651950d06258e5d4412b19c6a315b967ecc3587cb0ef139708230d5047698"
+      },
+      {
+        "name" : "Phillips2007_Original-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "3156",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5c294bc13ee2555af273eaa7d37a28fd",
+        "sha1sum" : "084f982a3e8c38fafbfa8d5db36dda7ee642fc3b",
+        "sha256sum" : "0923d96902f37dbc3032551f45d5f2924e14a2f0ab6bd42ab132ef8934b6c840"
+      },
+      {
+        "name" : "Phillips2007_Original-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "3239",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9b12a2e91d2ae624739eb8fe9e04ba9b",
+        "sha1sum" : "38aec31c3cde15bd08d67ec0254890d05dad9775",
+        "sha256sum" : "f75d477e40fce8e3148a9b4d0e7687e24ceb2bbdbeb96b023d03ce00e640273d"
+      },
+      {
+        "name" : "Phillips2007_Original-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4701",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c80e13f7dbdfb8b15f8817b748215cb2",
+        "sha1sum" : "1f8d855a429261799c1cfeb8ed6e4ce7d974e6c0",
+        "sha256sum" : "e0c2bee3c2e642b8b0b3d95d82b930fa0917e6e8c2e498fa4158a75504aa6db1"
+      },
+      {
+        "name" : "Phillips2007_Original-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4701",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e8b0d4c8a9bea49759633bcc4718e885",
+        "sha1sum" : "63625833240c23daa0f40c83e24fe7df9ff8d19b",
+        "sha256sum" : "406f99a4fffd35a3ac056ae9e23cb69bffacb49c20417d047909c780e161a343"
+      },
+      {
+        "name" : "Phillips2007_Original.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2848",
+        "mimeType" : "text/plain",
+        "md5sum" : "0f3d8919e8449929ad52ae57fae4ca5d",
+        "sha1sum" : "ecfc1f9aa0cd483a5429991f500d0968351c9b6a",
+        "sha256sum" : "da4f37311ee990bcc2ca61bd4e546b53677b58358d689a360bf142ec9f9ae150"
+      },
+      {
+        "name" : "Phillips2007_Original.xml",
+        "description" : "SBML L2V4 Phillips2007_AscendingArousalSystem_SleepWakeDynamics_Original File",
+        "fileSize" : "16428",
+        "mimeType" : "application/xml",
+        "md5sum" : "c95750cd795a5ed3b3270e71e4923444",
+        "sha1sum" : "14d44e73c3ae95d6e9b58f39fe6914ded749d0af",
+        "sha256sum" : "9ac2723d443c89f668eb1551a622d1db81805e3417ce2557dc40b4cdc0e88d33"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "157161",
+        "mimeType" : "image/png",
+        "md5sum" : "f731d07961fd6e9c0696e6db077bce1f",
+        "sha1sum" : "0403748732dba8ef32a68c0cd59cd9ee32ef5ea7",
+        "sha256sum" : "6197ddb258ab56295a43971cc84e39493a92d22c8817550375302abc15ebf445"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "301",
+        "mimeType" : "text/plain",
+        "md5sum" : "fbae15a293c6e1e6b4956d893a3a267c",
+        "sha1sum" : "7ad527e30187a658737a74e67b81b36013851f46",
+        "sha256sum" : "2c8c41831c148e0a4cc21e98a592e756cad371e101aad34bf70e540f08d2460e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2945",
+        "mimeType" : "application/xml",
+        "md5sum" : "4adbc5f121f033c1ec2fd10ea1a525b2",
+        "sha1sum" : "5c710ca87f8f891a4caad89c40751e95adee29ea",
+        "sha256sum" : "0e652599b98d7f68c3167658511388e489a6726ca60b4e02dfadb871c8fe2d0a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5852",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8b20ab42e713c3e43e5098231f3b35f3",
+        "sha1sum" : "a3c9fcbd4c47ef1a6053af4ad7c466e309a9861b",
+        "sha256sum" : "ac96b799b4a05da137fd276aa392d3e89624450a501a0b2b2d50afedcf046f57"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287921,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Phillips2007_AscendingArousalSystem_SleepWakeDynamics"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277472859,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Phillips2007_AscendingArousalSystem_SleepWakeDynamics"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1583151353,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000917"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724292879,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285537,
+  "submissionId" : "MODEL1006230025",
+  "publicationId" : "BIOMD0000000917",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000917",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000917"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230025",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230025"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17440218",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:17440218"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL1006230025",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230025"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0022410",
+      "name" : "circadian sleep/wake cycle process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0022410"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000146",
+      "name" : "brain stem",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000146"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "17440218",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17440218"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C99553",
+      "name" : "Sleep Study",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C99553"
+    }
+  ]
+}

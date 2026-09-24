@@ -1,0 +1,268 @@
+{
+  "name" : "Lai2014 - Hemiconcerted MWC model of intact calmodulin with two targets",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Lai2014 - Hemiconcerted MWC model of intactcalmodulin with two targets</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25611683\" title=\"Access to this publication\">Modulation of calmodulin    lobes by different targets: an allosteric model with    hemiconcerted conformational transitions.</a>  </div>  <div class=\"bibo:authorList\">Lai M, Brun D, Edelstein SJ, Le  Novère N.</div>  <div class=\"bibo:Journal\">PLoS Comput. Biol. 2015 Jan; 11(1):  e1004063</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Calmodulin is a calcium-binding protein ubiquitous in    eukaryotic cells, involved in numerous calcium-regulated    biological phenomena, such as synaptic plasticity, muscle    contraction, cell cycle, and circadian rhythms. It exibits a    characteristic dumbell shape, with two globular domains (N- and    C-terminal lobe) joined by a linker region. Each lobe can take    alternative conformations, affected by the binding of calcium    and target proteins. Calmodulin displays considerable    functional flexibility due to its capability to bind different    targets, often in a tissue-specific fashion. In various    specific physiological environments (e.g. skeletal muscle,    neuron dendritic spines) several targets compete for the same    calmodulin pool, regulating its availability and affinity for    calcium. In this work, we sought to understand the general    principles underlying calmodulin modulation by different target    proteins, and to account for simultaneous effects of multiple    competing targets, thus enabling a more realistic simulation of    calmodulin-dependent pathways. We built a mechanistic    allosteric model of calmodulin, based on an hemiconcerted    framework: each calmodulin lobe can exist in two conformations    in thermodynamic equilibrium, with different affinities for    calcium and different affinities for each target. Each lobe was    allowed to switch conformation on its own. The model was    parameterised and validated against experimental data from the    literature. In spite of its simplicity, a two-state allosteric    model was able to satisfactorily represent several sets of    experiments, in particular the binding of calcium on intact and    truncated calmodulin and the effect of different skMLCK    peptides on calmodulin's saturation curve. The model can also    be readily extended to include multiple targets. We show that    some targets stabilise the low calcium affinity T state while    others stabilise the high affinity R state. Most of the effects    produced by calmodulin targets can be explained as modulation    of a pre-existing dynamic equilibrium between different    conformations of calmodulin's lobes, in agreement with linkage    theory and MWC-type models.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000574\">BIOMD0000000574</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25611683",
+    "journal" : "PLoS computational biology",
+    "title" : "Modulation of calmodulin lobes by different targets: an allosteric model with hemiconcerted conformational transitions.",
+    "affiliation" : "Babraham Institute, Cambridge, United Kingdom.",
+    "synopsis" : "Calmodulin is a calcium-binding protein ubiquitous in eukaryotic cells, involved in numerous calcium-regulated biological phenomena, such as synaptic plasticity, muscle contraction, cell cycle, and circadian rhythms. It exibits a characteristic dumbell shape, with two globular domains (N- and C-terminal lobe) joined by a linker region. Each lobe can take alternative conformations, affected by the binding of calcium and target proteins. Calmodulin displays considerable functional flexibility due to its capability to bind different targets, often in a tissue-specific fashion. In various specific physiological environments (e.g. skeletal muscle, neuron dendritic spines) several targets compete for the same calmodulin pool, regulating its availability and affinity for calcium. In this work, we sought to understand the general principles underlying calmodulin modulation by different target proteins, and to account for simultaneous effects of multiple competing targets, thus enabling a more realistic simulation of calmodulin-dependent pathways. We built a mechanistic allosteric model of calmodulin, based on an hemiconcerted framework: each calmodulin lobe can exist in two conformations in thermodynamic equilibrium, with different affinities for calcium and different affinities for each target. Each lobe was allowed to switch conformation on its own. The model was parameterised and validated against experimental data from the literature. In spite of its simplicity, a two-state allosteric model was able to satisfactorily represent several sets of experiments, in particular the binding of calcium on intact and truncated calmodulin and the effect of different skMLCK peptides on calmodulin's saturation curve. The model can also be readily extended to include multiple targets. We show that some targets stabilise the low calcium affinity T state while others stabilise the high affinity R state. Most of the effects produced by calmodulin targets can be explained as modulation of a pre-existing dynamic equilibrium between different conformations of calmodulin's lobes, in agreement with linkage theory and MWC-type models.",
+    "year" : 2015,
+    "month" : "1",
+    "volume" : "11",
+    "issue" : "1",
+    "pages" : "e1004063",
+    "link" : "http://identifiers.org/pubmed/25611683",
+    "authors" : [
+      {
+        "name" : "Massimo Lai",
+        "institution" : "Babraham Institute, Cambridge, United Kingdom."
+      },
+      {
+        "name" : "Denis Brun",
+        "institution" : "EMBL-EBI, Hinxton, United Kingdom; Amadeus IT Group, Sophia Antipolis, France."
+      },
+      {
+        "name" : "Stuart J Edelstein",
+        "institution" : "Babraham Institute, Cambridge, United Kingdom."
+      },
+      {
+        "name" : "Nicolas Le Novère",
+        "institution" : "Babraham Institute, Cambridge, United Kingdom; EMBL-EBI, Hinxton, United Kingdom."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000574_url.xml",
+        "description" : "SBML L2V4 representation of Lai2014 - Hemiconcerted MWC model of intact calmodulin with two targets",
+        "fileSize" : "1329295",
+        "mimeType" : "application/xml",
+        "md5sum" : "163c80bff1155f3cba85cd8be63d8bab",
+        "sha1sum" : "51909a56ccf4273ac5be0bfea7c407e6250be748",
+        "sha256sum" : "2d00f6e9155ca2e5ec4427faa3fcfefb0552aa5088118242756d0aef357d60e1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000574-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "1120324",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3495f88820e912631c50d4ce3d5a0327",
+        "sha1sum" : "c7bdf03034f41871d1492f7f48ac8942461876f3",
+        "sha256sum" : "2e2a172b3f85542892ac240e08788f127d6203cc80d154dae3480e8e49643b7f"
+      },
+      {
+        "name" : "BIOMD0000000574-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "1966540",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5638eded459a2d72766a5cc9430f096c",
+        "sha1sum" : "bc880e29b87c90e033887fe8fd79b4a0eb713cde",
+        "sha256sum" : "ad7d1d7241707bcbc3e7bb3396898b7de9b7ec19558bebc5ce9029af31dbd94e"
+      },
+      {
+        "name" : "BIOMD0000000574.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "4803806",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b7ff426d2131742b4ed061753d8dc097",
+        "sha1sum" : "41b34229d8bb988141c30f263a39c7ee1761af71",
+        "sha256sum" : "f444fb64c279d95fc8105872be16890f89ed57d4bd956567bbee40a24eb0f085"
+      },
+      {
+        "name" : "BIOMD0000000574.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4328",
+        "mimeType" : "image/png",
+        "md5sum" : "81d994e161e608211e54f3b88628ba10",
+        "sha1sum" : "2eb1c19f2746daea7ec9f483fd6d13541d71e2cd",
+        "sha256sum" : "5177e89f3c778429d69859aa4db6576c53bff2fb12ed66b8dec949c8014d6d71"
+      },
+      {
+        "name" : "BIOMD0000000574.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "872",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "cd11595021bdaa6fc0c9a729f2228a1b",
+        "sha1sum" : "b774da1f42cf746f4e369eafb847d643689df783",
+        "sha256sum" : "f437176ed676281de0fba9c08fca9f696e4570b5a205a84734ee7b52ea573f1b"
+      },
+      {
+        "name" : "BIOMD0000000574.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "1048266",
+        "mimeType" : "application/xml",
+        "md5sum" : "38e6efda6baec629e6669e444b8ac915",
+        "sha1sum" : "b3796b7dfca67b7d676dc372120ea231c50de032",
+        "sha256sum" : "dcfa17b420dbeeb15ac23f0ed0dcfb85ea47eac6e79397b5883e127e21d8e602"
+      },
+      {
+        "name" : "MODEL1405060000_CaMKIIeffect.cps",
+        "description" : "Copasi file with the simulation settings to reproduce the above figure is available for download.",
+        "fileSize" : "1943070",
+        "mimeType" : "application/xml",
+        "md5sum" : "0942380f829825935ad59026715b0e29",
+        "sha1sum" : "8d1af25e013bc0da7913c69a99aec6381f1e4fd8",
+        "sha256sum" : "7bfc3354ca71625b9ba6a93f83804e93d06f992ec09dfba684cf1d6dc16224c3"
+      },
+      {
+        "name" : "MODEL1405060000_CaMKIIeffect.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "562243",
+        "mimeType" : "application/xml",
+        "md5sum" : "8c50ebeee5d8a293b166658164c8ba2d",
+        "sha1sum" : "e0a2b9e95816d0db881790006b672cc402c097bf",
+        "sha256sum" : "7b21d4798ea11deb15becd5823a383909eea4d3225e9215b9e42631a3cdb4538"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "18436",
+        "mimeType" : "image/png",
+        "md5sum" : "289ee2f1bc43bdf7f7bacfe10c3473a0",
+        "sha1sum" : "68e9ffa765ce20065649fd0e7ede1b453c4e161b",
+        "sha256sum" : "a5661ae305708ae656dc2724a49918af3f938cf659b30c2996425e7bf9b44a3a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "1132",
+        "mimeType" : "text/plain",
+        "md5sum" : "9d9675f315eadbc39f68352ae70fa66b",
+        "sha1sum" : "070c074a9238d219833897c0046480d149d8b451",
+        "sha256sum" : "0ab32dc9c7a2cbd1c014b9177a2c6e6d64b52a55f17451dc23e41ad609583ad5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1594",
+        "mimeType" : "application/xml",
+        "md5sum" : "deeb8f3af178ee9fb1e09df1cfb9f1fe",
+        "sha1sum" : "dd80c27976332a65b1482f12157d3d031c84cf4a",
+        "sha256sum" : "0721fcf948d145bb64b8cb545e4bce6ebdb6d8dc6b65baea0f712e9e7807cafb"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6104",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "24cb4c226efc1461dfc84c3a4fed89a5",
+        "sha1sum" : "5ac5d5383f45a092c0ccf7cc97d755e8f51b210d",
+        "sha256sum" : "614675695e461e012001af570269b8efd09b66228f8cd70b5326383416d9b411"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1399382409,
+        "submitter" : "Massimo Lai",
+        "comment" : "Original import of Lai2014_calmodulin_hemiconcerted_MWC"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1463771156,
+        "submitter" : "Massimo Lai",
+        "comment" : "Current version of Lai2014 - Hemiconcerted MWC model of intact calmodulin with two targets"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545415971,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: MODEL1405060000_CaMKIIeffect.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724282014,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285361,
+  "submissionId" : "MODEL1405060000",
+  "publicationId" : "BIOMD0000000574",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Massimo Lai",
+        "email" : "massimo.lai@babraham.ac.uk",
+        "affiliation" : "The Babraham Institute",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1405060000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1405060000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000574",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000574"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25611683",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25611683"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0004683",
+      "name" : "calmodulin-dependent protein kinase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0004683"
+    }
+  ]
+}

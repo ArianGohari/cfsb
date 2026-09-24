@@ -1,0 +1,42 @@
+{
+  "scope": "Only relations predicted in the frozen test sample; not a complete biological network.",
+  "nodes": [
+    "MDM2",
+    "PER2",
+    "TP53"
+  ],
+  "edges": [
+    {
+      "subject": "MDM2",
+      "predicate": "PROMOTES_DEGRADATION",
+      "object": "PER2",
+      "evidence": [
+        "test-rel-3"
+      ]
+    },
+    {
+      "subject": "MDM2",
+      "predicate": "UBIQUITINATES",
+      "object": "PER2",
+      "evidence": [
+        "test-rel-2"
+      ]
+    },
+    {
+      "subject": "PER2",
+      "predicate": "BINDS",
+      "object": "MDM2",
+      "evidence": [
+        "test-rel-1"
+      ]
+    },
+    {
+      "subject": "PER2",
+      "predicate": "STABILIZES",
+      "object": "TP53",
+      "evidence": [
+        "test-rel-7"
+      ]
+    }
+  ]
+}

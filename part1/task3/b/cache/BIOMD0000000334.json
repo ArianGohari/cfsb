@@ -1,0 +1,277 @@
+{
+  "name" : "Bungay2003_Thrombin_Generation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> A mathematical model of lipid-mediated thrombin generation      </strong>        <br />Bungay Sharene D., Gentry Patricia A., Gentry Rodney D.      <em>Mathematical Medicine and Biology</em>Volume 20, Issue 1, 1 March 2003, Pages 105-29      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12974500\">12974500</a>,      <br />        <strong>Abstract:</strong>        <br />Thrombin is an enzyme that is generated in both vascular and non-vascular systems. In blood coagulation, a fundamental process in all species, thrombin induces the formation of a fibrin clot. A dynamical model of thrombin generation in the presence of lipid surfaces is presented. This model also includes the self-regulating thrombin feedback reactions, the thrombomodulin-protein C-protein S inhibitory system, tissue factor pathway inhibitor (TFPI), and the inhibitor, antithrombin (AT). The dynamics of this complex system were found to be highly lipid dependent, as would be expected from experimental studies. Simulations of this model indicate that a threshold lipid level is required to generate physiologically relevant amounts of thrombin. The dependence of the onset, the peak levels, and the duration of thrombin generation on lipid was saturable. The lipid concentration affects the way in which the inhibitors modulate thrombin production. A novel feature of this model is the inclusion of the dynamical protein C pathway, initiated by thrombin feedback. This inhibitory system exerts its effects on the lipid surface, where its substrates are formed. The maximum impact of TFPI occurs at intermediate vesicle concentrations. Inhibition by AT is only indirectly affected by the lipid since AT irreversibly binds only to solution phase proteins. In a system with normal plasma concentrations of the proteins involved in thrombin formation, the combination of these three inhibitors is sufficient both to effectively stop thrombin generation prior to the exhaustion of its precursor, prothrombin, and to inhibit all thrombin formed. This model can be used to predict thrombin generation under extreme lipid conditions that are difficult to implement experimentally and to examine thrombin generation in non-vascular systems.      </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12974500",
+    "journal" : "Mathematical medicine and biology : a journal of the IMA",
+    "title" : "A mathematical model of lipid-mediated thrombin generation.",
+    "affiliation" : "Department of Mathematics and Statistics, University of Guelph, Guelph, Ontario, Canada N1G 2W1.",
+    "synopsis" : "Thrombin is an enzyme that is generated in both vascular and non-vascular systems. In blood coagulation, a fundamental process in all species, thrombin induces the formation of a fibrin clot. A dynamical model of thrombin generation in the presence of lipid surfaces is presented. This model also includes the self-regulating thrombin feedback reactions, the thrombomodulin-protein C-protein S inhibitory system, tissue factor pathway inhibitor (TFPI), and the inhibitor, antithrombin (AT). The dynamics of this complex system were found to be highly lipid dependent, as would be expected from experimental studies. Simulations of this model indicate that a threshold lipid level is required to generate physiologically relevant amounts of thrombin. The dependence of the onset, the peak levels, and the duration of thrombin generation on lipid was saturable. The lipid concentration affects the way in which the inhibitors modulate thrombin production. A novel feature of this model is the inclusion of the dynamical protein C pathway, initiated by thrombin feedback. This inhibitory system exerts its effects on the lipid surface, where its substrates are formed. The maximum impact of TFPI occurs at intermediate vesicle concentrations. Inhibition by AT is only indirectly affected by the lipid since AT irreversibly binds only to solution phase proteins. In a system with normal plasma concentrations of the proteins involved in thrombin formation, the combination of these three inhibitors is sufficient both to effectively stop thrombin generation prior to the exhaustion of its precursor, prothrombin, and to inhibit all thrombin formed. This model can be used to predict thrombin generation under extreme lipid conditions that are difficult to implement experimentally and to examine thrombin generation in non-vascular systems.",
+    "year" : 2003,
+    "month" : "3",
+    "volume" : "20",
+    "issue" : "1",
+    "pages" : "105-129",
+    "link" : "http://identifiers.org/pubmed/12974500",
+    "authors" : [
+      {
+        "name" : "Sharene D Bungay",
+        "institution" : "Department of Mathematics and Statistics, University of Guelph, Guelph, Ontario, Canada N1G 2W1."
+      },
+      {
+        "name" : "Patricia A Gentry"
+      },
+      {
+        "name" : "Rodney D Gentry"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000334_url.xml",
+        "description" : "SBML L2V1 representation of Bungay2003_Thrombin_Generation",
+        "fileSize" : "175564",
+        "mimeType" : "application/xml",
+        "md5sum" : "15b8c46ac69775ffd13a59c13d12a8ad",
+        "sha1sum" : "e3228e4ff128ed09825c128a572feaa472966c01",
+        "sha256sum" : "6db99001e2279d044da8ed1b83acac4c35bfb40ef8f6bf385a2334d6916ed589"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000334-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "115282",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "216339416990354c403f86ce5a2c89ab",
+        "sha1sum" : "15c3d14ec69ce432e76dd64ea67aec5a2aab679b",
+        "sha256sum" : "0811a1c5cd95d0935b5b8d6e3dc474c7f95b7a1941aabe419a16b0586bf39e62"
+      },
+      {
+        "name" : "BIOMD0000000334-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "199913",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fdbe1f4428d3bbbbf145185b09aea64c",
+        "sha1sum" : "0154c590eb83033e40952ebd8df1fe692b13ef5a",
+        "sha256sum" : "bc3e5522837376c8be0d18cc76907a120502fef27e06b07566933303ec058a4c"
+      },
+      {
+        "name" : "BIOMD0000000334-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "31846",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a1ccfff67e235c7283795d5665a76923",
+        "sha1sum" : "fae38292481419d8dc337d2bdce07c972ae7670e",
+        "sha256sum" : "5951aaf0ecdc1159b6323a9bbb407ada086579cdf43380c44a5b7636c8001e8f"
+      },
+      {
+        "name" : "BIOMD0000000334.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "31846",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fb00a10db23542215e7baa17c446dd63",
+        "sha1sum" : "8ee35ab70968145c5eee22e1b5b430d9ff5950c3",
+        "sha256sum" : "30c0ee46ba9c232f28c4ff368649ebe790130fc7fbc4371a701b0a319c5b12d9"
+      },
+      {
+        "name" : "BIOMD0000000334.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25546",
+        "mimeType" : "text/plain",
+        "md5sum" : "e0b2c9fc3094947c84ff76a804844fe2",
+        "sha1sum" : "40b4a42e3c382b8c29de04860ffb1815ad1086d6",
+        "sha256sum" : "bd7c3836f4b533584b1b83077febb201ffbd4710162665d935c7c6d4ee6973a3"
+      },
+      {
+        "name" : "BIOMD0000000334.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "483189",
+        "mimeType" : "application/pdf",
+        "md5sum" : "753be74ec2d995d3f7a768af83016fce",
+        "sha1sum" : "07e1a4b0aa50acd67ba1b359ae6b22d46884aa56",
+        "sha256sum" : "84b4ce19fad551abd7eaa68b69aa90fb9f692866240ec8b612725e7765d14e14"
+      },
+      {
+        "name" : "BIOMD0000000334.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "912240",
+        "mimeType" : "image/png",
+        "md5sum" : "2aa712dfe49f1ead6d6ab4a2121ffc37",
+        "sha1sum" : "fd74bb34ef149876e11db9b85398da05045ba54f",
+        "sha256sum" : "5d931f62c036350518705dd3aa0aae402d7e33c9fd2350e59f97219f6e76e1ab"
+      },
+      {
+        "name" : "BIOMD0000000334.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "29108",
+        "mimeType" : "text/plain",
+        "md5sum" : "ca980a34ec5b785c327aca921be57741",
+        "sha1sum" : "205ed6762ef53c1f95deb7b7d00022ddb7467349",
+        "sha256sum" : "3d2a79e1e93df3cb5e5ad1f7e8ee1b4acd2e3ec34df1d7a4e702257acbbc2fd1"
+      },
+      {
+        "name" : "BIOMD0000000334.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "146776",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "054e7cf339d34fb0aa1b5cf9ea1fe784",
+        "sha1sum" : "6723b3620972c4ed0f4d2937aa6762e076c40174",
+        "sha256sum" : "9cc4169c20511053263dcb7e885b758b205d261d509a325efde5e27e586243f5"
+      },
+      {
+        "name" : "BIOMD0000000334.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "252036",
+        "mimeType" : "application/xml",
+        "md5sum" : "3d5c5a3450275f27336cf028d336a0cd",
+        "sha1sum" : "e5b0202c37a824f341bf5533509a06587d52fa48",
+        "sha256sum" : "3aab463ba6ebcc92ca428b8f2ee2795b4c5acbcc9b15ba91296e5772bda80b3d"
+      },
+      {
+        "name" : "BIOMD0000000334_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "140644",
+        "mimeType" : "application/xml",
+        "md5sum" : "acd03473a6be84479646877fadf31fdf",
+        "sha1sum" : "43b22ecf5fa7d375fcc929a7cb12f3b453521852",
+        "sha256sum" : "fb7c6f060583d2d0274a3cadb3b9ce7ca7b68c55b4e8de7596094f7d5ed394c6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "81670",
+        "mimeType" : "image/png",
+        "md5sum" : "eeb9f76133c2ab93be2a09515dc1db10",
+        "sha1sum" : "59e68ab9666cbba504603c77c32afbcd4c13a2c8",
+        "sha256sum" : "709e5a550d59681a25180796eac90021c2265f8f419f00184e8a3c69a8de54fd"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "421",
+        "mimeType" : "text/plain",
+        "md5sum" : "483698c44c94a475762401cedcd98fb4",
+        "sha1sum" : "28375e47e94160d771b191f1b86fe430b0b33458",
+        "sha256sum" : "f1ac73086152b325be39d19fae0cda278e23e077e0547f2b996c1d09841952d2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "f75d134211e7b02b9c73bf60948f3def",
+        "sha1sum" : "b6c368ff7c6d49de2daea79004b07dec55aa206a",
+        "sha256sum" : "68b55990b7aba7daba314dc739899f2475449dbf8021ddca9365f44db8cbc21a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4835",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3e2c2272388c81c24e34d7b311cd0a6e",
+        "sha1sum" : "4804d7dd5f0c07f7fde380827feea5046bd6867e",
+        "sha256sum" : "96ff74e4d4c6e2f0531684f651c4c1a591792d8bc4b53a497dd5e7f705a09091"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1205971395,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Bungay2003_Thrombin_Generation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401287081,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Bungay2003_Thrombin_Generation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273855,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285050,
+  "submissionId" : "MODEL9852292468",
+  "publicationId" : "BIOMD0000000334",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL9852292468",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9852292468"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000334",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000334"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12974500",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12974500"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

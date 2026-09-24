@@ -1,0 +1,253 @@
+{
+  "name" : "Dritschel2018 - A mathematical model of cytotoxic and helper T cell interactions in a tumour microenvironment",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This model examines the role of helper and cytotoxic T cells in an anti-tumour response, with implicit inclusions of immunosuppressive effects. The model demonstrates the dependence of immunoediting on infilftration by helper and cytotoxic T cells, as well as the importance of these cells in mediating tumour elimination.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1080/23737867.2018.1465863",
+    "journal" : "Letters in Bioinformatics",
+    "title" : "A mathematical model of cytotoxic and helper T cell interactions in a tumour microenvironment",
+    "affiliation" : "Mathematical Institute, University of Oxford, Oxford, UK",
+    "synopsis" : "We develop a mathematical model to examine the role of helper and cytotoxic T cells in an anti-tumour immune response. The model comprises three ordinary differential equations describing the dynamics of the tumour cells, the helper and the cytotoxic T cells, and implicitly accounts for immunosuppressive effects. The aim is to investigate how the anti-tumour immune response varies with the level of infiltrating helper and cytotoxic T cells. Through a combination of analytical studies and numerical simulations, our model exemplifies the three Es of immunoediting: elimination, equilibrium and escape. Specifically, it reveals that the three Es of immunoediting depend highly on the infiltration rates of the helper and cytotoxic T cells. The model’s results indicate that both the helper and cytotoxic T cells play a key role in tumour elimination. They also show that combination therapies that boost the immune system and block tumour-induced immunosuppression may have a synergistic effect in reducing tumour growth.",
+    "year" : 2019,
+    "month" : "6",
+    "link" : "http://identifiers.org/doi/10.1080/23737867.2018.1465863",
+    "authors" : [
+      {
+        "name" : "Heidi Dritschel",
+        "institution" : "Mathematical Institute, University of Oxford"
+      },
+      {
+        "name" : "Sarah L. Waters",
+        "institution" : "Mathematical Institute, University of Oxford"
+      },
+      {
+        "name" : "Helen M. Byrne",
+        "institution" : "Mathematical Institute, University of Oxford"
+      },
+      {
+        "name" : "Andreas Roller",
+        "institution" : "Roche Pharmaceutical Research and Early Development"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Dritschel2018.xml",
+        "description" : "SBML L2V4 Model of Dritschel2018 - A mathematical model of cytotoxic and helper T cell interactions in a tumour microenvironment",
+        "fileSize" : "40887",
+        "mimeType" : "application/xml",
+        "md5sum" : "74a83b7fef5ec0bdd3b6a3c6f6f5d69f",
+        "sha1sum" : "2acdd6c1fe97a66b3a65aa0ca0b146a16284f55c",
+        "sha256sum" : "5f9cebc99faf618012508dfe531c456bec2a1d2cef87c3cc3e8d2ae3fac68eea"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Dritschel2018 Anno v1.cps",
+        "description" : "COPASI file of Dritschel2018 - A mathematical model of cytotoxic and helper T cell interactions in a tumour microenvironment",
+        "fileSize" : "59526",
+        "mimeType" : "application/xml",
+        "md5sum" : "624f5f16b69b5ec74af357852df7ce08",
+        "sha1sum" : "dacefb5ec04d1c046ec19f63163ba1650609ff79",
+        "sha256sum" : "7188ca320d02f54a4f66091b53a03d97978eab8d02673d19ca0199041c43ed43"
+      },
+      {
+        "name" : "Dritschel2018-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "13362",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fb7ce81bf107f77591d8b30b9f95108b",
+        "sha1sum" : "a829fa99c3e5adff3aa72fc372744058b4023510",
+        "sha256sum" : "8f623a290f6a487c532df2382f1c81a74bb8e46565105463cfca79a566366047"
+      },
+      {
+        "name" : "Dritschel2018-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "18274",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2c308cfbd8d8dafc6278ab6e522675bc",
+        "sha1sum" : "7ef675ce8384460da341479bb3ebb0ab55ca73fb",
+        "sha256sum" : "2652e28a3a3c546f0b209469e9f96649d376a879354510819fe5dcaeb06aa0df"
+      },
+      {
+        "name" : "Dritschel2018-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5627",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "04cad418246b2cae783b71970b8f9845",
+        "sha1sum" : "7573aa503e15f6f53da8ad0116c88075f206ead5",
+        "sha256sum" : "91924e93c360a1391c5518b9eb762417f8a8120ff5da172817f4080c8c51c595"
+      },
+      {
+        "name" : "Dritschel2018-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5627",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8476276cced328ed0e43ad9c30e5f225",
+        "sha1sum" : "7ca563c6991b8ff45897751bb6ab08caa755c1c8",
+        "sha256sum" : "1f24feb39b5e1a81a8b78fda859e80871c4bcda1baee2edfd343f2c0258704da"
+      },
+      {
+        "name" : "Dritschel2018.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4036",
+        "mimeType" : "text/plain",
+        "md5sum" : "28351f224fbbdbddaa841a0c3de15842",
+        "sha1sum" : "866600b522205e8bfa542a73356591363ea889e1",
+        "sha256sum" : "bd2d6b37714d2150f87636267977c37ec1f855a87526a1def91c296c905c05b1"
+      },
+      {
+        "name" : "Dritschel2018.sedml",
+        "description" : "SED-ML file of Dritschel2018 - A mathematical model of cytotoxic and helper T cell interactions in a tumour microenvironment (additionally CRBM-validated and adjusted).",
+        "fileSize" : "14228",
+        "mimeType" : "application/xml",
+        "md5sum" : "551198776f2f15f33c64be909cf3804b",
+        "sha1sum" : "64a8a584fb76e97e3da82b1246b80ca28ac2af28",
+        "sha256sum" : "20ecf45b894382d72778810e7ce56a89413627b037f836c7afc5241507856445"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "14450",
+        "mimeType" : "image/png",
+        "md5sum" : "7cca724e8238455c897a544fb03dfdec",
+        "sha1sum" : "1b7609660e424ea836a3607bd16d7968f7f319a1",
+        "sha256sum" : "ce89402dc34f83d6594d6783d4e16f113947300b699a9bff52266ac834d164bc"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "122",
+        "mimeType" : "text/plain",
+        "md5sum" : "7d7575b1a674a3da57838982ae60b461",
+        "sha1sum" : "8a34dbd95ee02ab0e4b93af7d44dbd042768c7c2",
+        "sha256sum" : "dc7823e01d16417f54b9cdf4617bbc39b8b4c439cad8895749778c18c71087ef"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1443",
+        "mimeType" : "application/xml",
+        "md5sum" : "8de635af0f57232a554c8664b4ffcbcd",
+        "sha1sum" : "4f6d05013375875104fa4097f337feaa91be5317",
+        "sha256sum" : "8db02e0317a592964de605c429c89e07097249dddb262652ed902f04d89306b0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2578",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c9fe0da1ea961416dc53194dffbbd057",
+        "sha1sum" : "cd9dbae14b247e70c15a4084c69c957072f228bd",
+        "sha256sum" : "66cbb8a47d0f708181b9d281159d0c87d152edefa99816933d2ba3bb9ddf2749"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 6,
+        "submitted" : 1564133153,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000763"
+      },
+      {
+        "version" : 10,
+        "submitted" : 1576671019,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000763"
+      },
+      {
+        "version" : 11,
+        "submitted" : 1724289117,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285449,
+  "submissionId" : "MODEL1907230003",
+  "publicationId" : "BIOMD0000000763",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0002424",
+      "name" : "T cell mediated immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002424"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1080/23737867.2018.1465863",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1080/23737867.2018.1465863"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "8186756",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8186756"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000763",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000763"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1907230003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1907230003"
+    }
+  ]
+}

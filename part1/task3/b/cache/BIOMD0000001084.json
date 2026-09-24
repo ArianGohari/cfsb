@@ -1,0 +1,149 @@
+{
+  "name" : "Mol2021 - P. thermoglucosidasius NCIMB 11955 (p_thermo)",
+  "description" : "FROG and miniFROG reports are provided for p_thermo genome-scale metabolic model. p_thermo is the model for Parageobacillus thermoglucosidasius NCIMB 11955. An analysis of the metabolism and internal fluxes of P. thermoglucosidasius is done in this study and the model can be found in the Supplementary data of Mol et al, 2021.",
+  "format" : {
+    "name" : "COMBINE archive",
+    "identifier" : "OMEX",
+    "version" : "0.1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1016/j.ymben.2021.03.002",
+    "journal" : "Metabolic engineering",
+    "title" : "Genome-scale metabolic modeling of P. thermoglucosidasius NCIMB 11955 reveals metabolic bottlenecks in anaerobic metabolism.",
+    "affiliation" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kongens Lyngby, Denmark.",
+    "synopsis" : "Parageobacillus thermoglucosidasius represents a thermophilic, facultative anaerobic bacterial chassis, with several desirable traits for metabolic engineering and industrial production. To further optimize strain productivity, a systems level understanding of its metabolism is needed, which can be facilitated by a genome-scale metabolic model. Here, we present p-thermo, the most complete, curated and validated genome-scale model (to date) of Parageobacillus thermoglucosidasius NCIMB 11955. It spans a total of 890 metabolites, 1175 reactions and 917 metabolic genes, forming an extensive knowledge base for P. thermoglucosidasius NCIMB 11955 metabolism. The model accurately predicts aerobic utilization of 22 carbon sources, and the predictive quality of internal fluxes was validated with previously published <sup>13</sup>C-fluxomics data. In an application case, p-thermo was used to facilitate more in-depth analysis of reported metabolic engineering efforts, giving additional insight into fermentative metabolism. Finally, p-thermo was used to resolve a previously uncharacterised bottleneck in anaerobic metabolism, by identifying the minimal required supplemented nutrients (thiamin, biotin and iron(III)) needed to sustain anaerobic growth. This highlights the usefulness of p-thermo for guiding the generation of experimental hypotheses and for facilitating data-driven metabolic engineering, expanding the use of P. thermoglucosidasius as a high yield production platform.",
+    "year" : 2021,
+    "month" : "5",
+    "volume" : "65",
+    "pages" : "123-134",
+    "link" : "http://identifiers.org/doi/10.1016/j.ymben.2021.03.002",
+    "authors" : [
+      {
+        "name" : "Viviënne Mol",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kongens Lyngby, Denmark."
+      },
+      {
+        "name" : "Martyn Bennett",
+        "institution" : "The Department of Biology & Biochemistry, University of Bath, Claverton Down, Bath, BA2 7AY, United Kingdom; The Centre for Sustainable Chemical Technologies (CSCT), University of Bath, Claverton Down, Bath, BA2 7AY, United Kingdom."
+      },
+      {
+        "name" : "Benjamín J Sánchez",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kongens Lyngby, Denmark; Department of Biotechnology and Biomedicine, Technical University of Denmark, Kongens Lyngby, Denmark."
+      },
+      {
+        "name" : "Beata K Lisowska",
+        "institution" : "The Department of Biology & Biochemistry, University of Bath, Claverton Down, Bath, BA2 7AY, United Kingdom."
+      },
+      {
+        "name" : "Markus J Herrgård",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kongens Lyngby, Denmark; BioInnovation Institute, Copenhagen N, Denmark."
+      },
+      {
+        "name" : "Alex Toftgaard Nielsen",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Kongens Lyngby, Denmark. Electronic address: atn@biosustain.dtu.dk.",
+        "orcid" : "0000-0001-6616-0187"
+      },
+      {
+        "name" : "David J Leak",
+        "institution" : "The Department of Biology & Biochemistry, University of Bath, Claverton Down, Bath, BA2 7AY, United Kingdom; The Centre for Sustainable Chemical Technologies (CSCT), University of Bath, Claverton Down, Bath, BA2 7AY, United Kingdom. Electronic address: djl36@bath.ac.uk."
+      },
+      {
+        "name" : "Nikolaus Sonnenschein",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, DK-2800 Kgs, Lyngby, Denmark.",
+        "orcid" : "0000-0002-7581-4936"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "p_thermo.omex",
+        "description" : "FROG Report",
+        "fileSize" : "292158",
+        "mimeType" : "application/zip",
+        "md5sum" : "3d5ea1925e0b7155e562dad469f145b5",
+        "sha1sum" : "905d5e779aa3f531ccdb090161cececa700c410c",
+        "sha256sum" : "f1a1c41aeab24ffc358a77d8eb7a9b59c49239e97a6277842c642d5f3e1cf8da"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "miniFROG_p-thermo.xlsx",
+        "description" : "miniFROG Report",
+        "fileSize" : "6141",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "6c36a79e9705e68f88696ba3efb821db",
+        "sha1sum" : "5f18fb174418e7eb392d10693d072683edf3a7a7",
+        "sha256sum" : "111d2e1e3d8dc548f3369d340e99a48620d137de50a9c43a97cb737c6aa2ba9e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 5,
+        "submitted" : 1724152891,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Import of Mol2021 - P. thermoglucosidasius NCIMB 11955 (p_thermo)"
+      }
+    ]
+  },
+  "firstPublished" : 1729019319,
+  "submissionId" : "MODEL2408030003",
+  "publicationId" : "BIOMD0000001084",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Aswathy K. Raghu",
+        "email" : "aswathy.raghu@gmail.com",
+        "affiliation" : "Northwestern University",
+        "external" : true
+      },
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1016/j.ymben.2021.03.002",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1016/j.ymben.2021.03.002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2408030003",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2408030003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001084",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001084"
+    }
+  ]
+}

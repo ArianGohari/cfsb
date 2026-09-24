@@ -1,0 +1,272 @@
+{
+  "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification",
+  "description" : "The model is based on publication:Mathematical analysis of gefitinib resistance of lung adenocarcinoma caused by MET amplificationAbstract:Gefitinib, one of the tyrosine kinase inhibitors of epidermal growth factor receptor (EGFR), is effective for treating lung adenocarcinoma harboring EGFR mutation; but later, most cases acquire a resistance to gefitinib. One of the mechanisms conferring gefitinib resistance to lung adenocarcinoma is the amplification of the MET gene, which is observed in 5–22% of gefitinib-resistant tumors. A previous study suggested that MET amplification could cause gefitinib resistance by driving ErbB3-dependent activation of the PI3K pathway. In this study, we built a mathematical model of gefitinib resistance caused by MET amplification using lung adenocarcinoma HCC827-GR (gefitinib resistant) cells. The molecular reactions involved in gefitinib resistance consisted of dimerization and phosphorylation of three molecules, EGFR, ErbB3, and MET were described by a series of ordinary differential equations. To perform a computer simulation, we quantified each molecule on the cell surface using flow cytometry and estimated unknown parameters by dimensional analysis. Our simulation showed that the number of active ErbB3 molecules is around a hundred-fold smaller than that of active MET molecules. Limited contribution of ErbB3 in gefitinib resistance by MET amplification is also demonstrated using HCC827-GR cells in culture experiments. Our mathematical model provides a quantitative understanding of the molecular reactions underlying drug resistance.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30824185",
+    "journal" : "Biochemical and biophysical research communications",
+    "title" : "Mathematical analysis of gefitinib resistance of lung adenocarcinoma caused by MET amplification.",
+    "affiliation" : "Division of Molecular Pathology, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan.",
+    "synopsis" : "Gefitinib, one of the tyrosine kinase inhibitors of epidermal growth factor receptor (EGFR), is effective for treating lung adenocarcinoma harboring EGFR mutation; but later, most cases acquire a resistance to gefitinib. One of the mechanisms conferring gefitinib resistance to lung adenocarcinoma is the amplification of the MET gene, which is observed in 5-22% of gefitinib-resistant tumors. A previous study suggested that MET amplification could cause gefitinib resistance by driving ErbB3-dependent activation of the PI3K pathway. In this study, we built a mathematical model of gefitinib resistance caused by MET amplification using lung adenocarcinoma HCC827-GR (gefitinib resistant) cells. The molecular reactions involved in gefitinib resistance consisted of dimerization and phosphorylation of three molecules, EGFR, ErbB3, and MET were described by a series of ordinary differential equations. To perform a computer simulation, we quantified each molecule on the cell surface using flow cytometry and estimated unknown parameters by dimensional analysis. Our simulation showed that the number of active ErbB3 molecules is around a hundred-fold smaller than that of active MET molecules. Limited contribution of ErbB3 in gefitinib resistance by MET amplification is also demonstrated using HCC827-GR cells in culture experiments. Our mathematical model provides a quantitative understanding of the molecular reactions underlying drug resistance.",
+    "year" : 2019,
+    "month" : "4",
+    "volume" : "511",
+    "issue" : "3",
+    "pages" : "544-550",
+    "link" : "http://identifiers.org/pubmed/30824185",
+    "authors" : [
+      {
+        "name" : "Takeshi Ito",
+        "institution" : "Division of Molecular Pathology, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+      },
+      {
+        "name" : "Yuki Kumagai",
+        "institution" : "Division of Molecular Pathology, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+      },
+      {
+        "name" : "Keiko Itano",
+        "institution" : "Graduate School of Engineering Science, Osaka University, Toyonaka, Japan."
+      },
+      {
+        "name" : "Tomoko Maruyama",
+        "institution" : "Division of Molecular Pathology, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan."
+      },
+      {
+        "name" : "Kenji Tamura",
+        "institution" : "Department of Breast and Medical Oncology, National Cancer Center Hospital, Tokyo, Japan."
+      },
+      {
+        "name" : "Shuji Kawasaki",
+        "institution" : "Mathematical Science and Physics, Graduate School of Engineering, Iwate University, Morioka, Japan."
+      },
+      {
+        "name" : "Takashi Suzuki",
+        "institution" : "Graduate School of Engineering Science, Osaka University, Toyonaka, Japan; Center for Mathematical Modeling and Data Science, Osaka University, Toyonaka, Japan."
+      },
+      {
+        "name" : "Yoshinori Murakami",
+        "institution" : "Division of Molecular Pathology, The Institute of Medical Science, The University of Tokyo, Tokyo, Japan. Electronic address: ymurakam@ims.u-tokyo.ac.jp."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification.xml",
+        "description" : "SBML L2V4 file for the model",
+        "fileSize" : "57151",
+        "mimeType" : "application/xml",
+        "md5sum" : "a51cb739a78dafa9b00e9cfa7a2aea74",
+        "sha1sum" : "3d77286f5cb638c9804bdb20cfd881e30f26b1e6",
+        "sha256sum" : "438b6d3b5f35ed979a56ca0e0cf0db6aa74e1f66c693ec86a519b71ad6ba6903"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Fig 3.png",
+        "description" : "PNG plot of the model simulation Figure 3",
+        "fileSize" : "102967",
+        "mimeType" : "image/png",
+        "md5sum" : "d177825ab8eb993a52453a417a242102",
+        "sha1sum" : "0427ff16b26916bc0a2df976dca0b0edaa1c357b",
+        "sha256sum" : "b618fa05821ec54111d1bddbc90414eafd5c0a794bae845d862de8ba25dc6a28"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "19708",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e78092a7e26929837fd60184d52e243c",
+        "sha1sum" : "7e2e55c838534fadb20f42c12051e105ddd7d871",
+        "sha256sum" : "31977d30c3d0c84dad86d645b7fffc1065d53b7df0fc391707993ed37356b09b"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "31161",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4b0318420fa0b02b34654b648864e739",
+        "sha1sum" : "8c7ca9eda327f5f15c29e0cf9c6f6646bb56f60b",
+        "sha256sum" : "e17fce2d290dfa9257ed908b831e31ac7f54fb8ccade73ddb38ce001b401894e"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7650",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ce598caea48d91d6ad6bdf1a1ca13d97",
+        "sha1sum" : "b847ddf7f383d85c5bccb6f29f258e99b99fb6f5",
+        "sha256sum" : "c53bb8b6e28623faf840575a628cc7ccaf97ec31462524dde942bdcba4e4d192"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7650",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3f29a3a3d9b8ddd7a22ecba9739ca029",
+        "sha1sum" : "03e3a8d142510fb370f5557b6bbf5a8b3cce0e37",
+        "sha256sum" : "a2a5cada8681f4d67758967a0c2eae6238ded8fb3b8c09c6ddda89099af198e5"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification.cps",
+        "description" : "COPASI 4.24 (Build 197) file for the model",
+        "fileSize" : "81589",
+        "mimeType" : "application/xml",
+        "md5sum" : "2dc07dc5b19b465a595566765fc7e4bb",
+        "sha1sum" : "2cf06e1c3f5bc3c1c3d224e870f5a603ffc0230a",
+        "sha256sum" : "e95c4ee702fca752541978936f97361fbce0ac172926895fdba77829cb1e87ef"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5806",
+        "mimeType" : "text/plain",
+        "md5sum" : "03ccf574cc4ada0e444edc57a45d1c66",
+        "sha1sum" : "30a7812f875efe17cc4778b406cd601b08bb353a",
+        "sha256sum" : "f8d949771ed96c6bf2a9cb1dde012997ac8a701d7fd6caa28b41d0e48458c91c"
+      },
+      {
+        "name" : "Ito2019 - gefitnib resistance of lung adenocarcinoma caused by MET amplification.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "22564",
+        "mimeType" : "application/xml",
+        "md5sum" : "8776233900ac0df1d97811c024f032d7",
+        "sha1sum" : "e9624bda62c4c9e62c65158a7ce9365593ff55f6",
+        "sha256sum" : "100a4c3124e86326b386423d1d836092365ea56254fb0779babb53b7b79f8990"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "102967",
+        "mimeType" : "image/png",
+        "md5sum" : "d177825ab8eb993a52453a417a242102",
+        "sha1sum" : "0427ff16b26916bc0a2df976dca0b0edaa1c357b",
+        "sha256sum" : "b618fa05821ec54111d1bddbc90414eafd5c0a794bae845d862de8ba25dc6a28"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "114",
+        "mimeType" : "text/plain",
+        "md5sum" : "65ed403f5ee122597cbb3afbb096afef",
+        "sha1sum" : "affc81bd8352e198ba2ffc21cfa2d68f23ef2b44",
+        "sha256sum" : "ff9cae290361080f8053abed7ee0784765d7197ac0f483a8d9be61c43fc5f413"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2071",
+        "mimeType" : "application/xml",
+        "md5sum" : "a335b9054be171de8ecdf44ccd3a5d5a",
+        "sha1sum" : "ae4120e33c016a4daa3ed63a0e68a5027438b6c8",
+        "sha256sum" : "7df41833dfea5b3be16f48de117a5c67f708f07f0e3a8f904cc9ba79d1c838f6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3520",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0aead1cc382d72a50bb8936e6d5bf2ec",
+        "sha1sum" : "60fd08cfae1f080f53ce9566d941713ed05b4bc4",
+        "sha256sum" : "a466333a83f1642426aa46487e3534bb35f826705801441ea53d0668f0c8266f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1569836621,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Automatically added model identifier BIOMD0000000827"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724290542,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285507,
+  "submissionId" : "MODEL1909300001",
+  "publicationId" : "BIOMD0000000827",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Szeyi Ng",
+        "email" : "sng@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isPropertyOf",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000827",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000827"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909300001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909300001"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30824185",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:30824185"
+    },
+    {
+      "qualifier" : "bqbiol:isPropertyOf",
+      "accession" : "0000311",
+      "name" : "cancer",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000311"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "30824185",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30824185"
+    }
+  ]
+}

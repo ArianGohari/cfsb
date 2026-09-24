@@ -1,0 +1,282 @@
+{
+  "name" : "Alexander2010_Tcell_Regulation_Sys2",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is system 2, the model with Michelis Menten type antigen uptake by pAPCs, described in the article:      <br />                <strong>Self-tolerance and Autoimmunity in a Regulatory T Cell Model.</strong>                <br />          Alexander HK, Wahl LM.      <em>Bull Math Biol.</em>          2010 Mar 2.          PMID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20195912\">20195912</a>          , doi:      <a href=\"http://dx.doi.org/10.1007/s11538-010-9519-2\">10.1007/s11538-010-9519-2</a>          ;      <br />                <strong>Abstract:</strong>                <br />          The class of immunosuppressive lymphocytes known as regulatory T cells (Tregs) has been identified as a key component in preventing autoimmune diseases. Although Tregs have been incorporated previously in mathematical models of autoimmunity, we take a novel approach which emphasizes the importance of professional antigen presenting cells (pAPCs). We examine three possible mechanisms of Treg action (each in isolation) through ordinary differential equation (ODE) models. The immune response against a particular autoantigen is suppressed both by Tregs specific for that antigen and by Tregs of arbitrary specificities, through their action on either maturing or already mature pAPCs or on autoreactive effector T cells. In this deterministic approach, we find that qualitative long-term behaviour is predicted by the basic reproductive ratio R (0) for each system. When R (0) &lt; 1, only the trivial equilibrium exists and is stable; when R (0)&gt;1, this equilibrium loses its stability and a stable non-trivial equilibrium appears. We interpret the absence of self-damaging populations at the trivial equilibrium to imply a state of self-tolerance, and their presence at the non-trivial equilibrium to imply a state of chronic autoimmunity. Irrespective of mechanism, our model predicts that Tregs specific for the autoantigen in question play no role in the system's qualitative long-term behaviour, but have quantitative effects that could potentially reduce an autoimmune response to sub-clinical levels. Our results also suggest an important role for Tregs of arbitrary specificities in modulating the qualitative outcome. A stochastic treatment of the same model demonstrates that the probability of developing a chronic autoimmune response increases with the initial exposure to self antigen or autoreactive effector T cells. The three different mechanisms we consider, while leading to a number of similar predictions, also exhibit key differences in both transient dynamics (ODE approach) and the probability of chronic autoimmunity (stochastic approach).      </p>            <p>Originally created by libAntimony v1.4 (using libSBML 3.4.1)</p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20195912",
+    "journal" : "Bulletin of mathematical biology",
+    "title" : "Self-tolerance and autoimmunity in a regulatory T cell model.",
+    "affiliation" : "Department of Applied Mathematics, University of Western Ontario, London, Ontario, Canada.",
+    "synopsis" : "The class of immunosuppressive lymphocytes known as regulatory T cells (Tregs) has been identified as a key component in preventing autoimmune diseases. Although Tregs have been incorporated previously in mathematical models of autoimmunity, we take a novel approach which emphasizes the importance of professional antigen presenting cells (pAPCs). We examine three possible mechanisms of Treg action (each in isolation) through ordinary differential equation (ODE) models. The immune response against a particular autoantigen is suppressed both by Tregs specific for that antigen and by Tregs of arbitrary specificities, through their action on either maturing or already mature pAPCs or on autoreactive effector T cells. In this deterministic approach, we find that qualitative long-term behaviour is predicted by the basic reproductive ratio R(0) for each system. When R(0)<1, only the trivial equilibrium exists and is stable; when R(0)>1, this equilibrium loses its stability and a stable non-trivial equilibrium appears. We interpret the absence of self-damaging populations at the trivial equilibrium to imply a state of self-tolerance, and their presence at the non-trivial equilibrium to imply a state of chronic autoimmunity. Irrespective of mechanism, our model predicts that Tregs specific for the autoantigen in question play no role in the system's qualitative long-term behaviour, but have quantitative effects that could potentially reduce an autoimmune response to sub-clinical levels. Our results also suggest an important role for Tregs of arbitrary specificities in modulating the qualitative outcome. A stochastic treatment of the same model demonstrates that the probability of developing a chronic autoimmune response increases with the initial exposure to self antigen or autoreactive effector T cells. The three different mechanisms we consider, while leading to a number of similar predictions, also exhibit key differences in both transient dynamics (ODE approach) and the probability of chronic autoimmunity (stochastic approach).",
+    "year" : 2011,
+    "month" : "1",
+    "volume" : "73",
+    "issue" : "1",
+    "pages" : "33-71",
+    "link" : "http://identifiers.org/pubmed/20195912",
+    "authors" : [
+      {
+        "name" : "H K Alexander",
+        "institution" : "Department of Applied Mathematics, University of Western Ontario, London, Ontario, Canada.",
+        "orcid" : "0000-0002-4104-0418"
+      },
+      {
+        "name" : "L M Wahl"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000290_url.xml",
+        "description" : "SBML L2V4 representation of Alexander2010_Tcell_Regulation_Sys2",
+        "fileSize" : "21759",
+        "mimeType" : "application/xml",
+        "md5sum" : "6a6be5214ff06636a9ec1d158e0a06f0",
+        "sha1sum" : "7558b23276d86b3fd54b8f4638901b786d209e20",
+        "sha256sum" : "4912eb0bf84f8bb7fa64f0264f0cb69b64f06d40f7c18fb9ea91612b4a4367b0"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000290-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "12735",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "589f05a47182b391b9150438da60ede1",
+        "sha1sum" : "695ee2e020118abb89de732b57abfadbcbd73433",
+        "sha256sum" : "8e1801584ac25b3ccb706509576f3e2110d62caf36420ce81b39e7e6a6771ebd"
+      },
+      {
+        "name" : "BIOMD0000000290-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "18779",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "995a29eea18150a21bb3070e6af371f5",
+        "sha1sum" : "b4bf156f6dade673ef42cacebc63b479a17bdf18",
+        "sha256sum" : "9a401c36fcb726e996deed88f74e43cfca437a02957bb5fcb6b9b27395714474"
+      },
+      {
+        "name" : "BIOMD0000000290-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5479",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0d70ceaa8d529b8681ce4174b7cecc75",
+        "sha1sum" : "3f2409375ee4af16cac58628a5d4166d70a017e2",
+        "sha256sum" : "86422ae97e84dcabc9d8c1e2d5a3f75f40914d22686369a5acd0d7903fd0f0e9"
+      },
+      {
+        "name" : "BIOMD0000000290-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5479",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "75ec727894eae07e77d1d1bf56061f11",
+        "sha1sum" : "b8b576e1ba153ebfba44226a7e1bd9b2b8983fb0",
+        "sha256sum" : "eaf47bf54e94057f8abc27d22366118e0d8d421e63fc0e9711ccfe0505413514"
+      },
+      {
+        "name" : "BIOMD0000000290.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5479",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "75ec727894eae07e77d1d1bf56061f11",
+        "sha1sum" : "b8b576e1ba153ebfba44226a7e1bd9b2b8983fb0",
+        "sha256sum" : "eaf47bf54e94057f8abc27d22366118e0d8d421e63fc0e9711ccfe0505413514"
+      },
+      {
+        "name" : "BIOMD0000000290.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3402",
+        "mimeType" : "text/plain",
+        "md5sum" : "0f912d08ed3a3effc0c4871a40a59792",
+        "sha1sum" : "81df59334a76c25e41ca7e5fa3b9db508342cae8",
+        "sha256sum" : "4bd5a1023955984ff005e6e7dfe309982e645d2b4f3a58c04db8f8ce1c82755b"
+      },
+      {
+        "name" : "BIOMD0000000290.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "180817",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b3a777bb9bca1e9d3c8f5de815c75149",
+        "sha1sum" : "d54b41132cec96cc12dffa852476ca2e2d79b1ea",
+        "sha256sum" : "b2246573460f9ef09255da158b0e28cc89e339116a885fb85e69034981306010"
+      },
+      {
+        "name" : "BIOMD0000000290.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "53621",
+        "mimeType" : "image/png",
+        "md5sum" : "d0be02c80307b3825846742ca6608f08",
+        "sha1sum" : "b566b6af3ece964e4acf9e07978c60b0e96fa68c",
+        "sha256sum" : "afee6016e42504ce013ea4ccf13b7e5c02cb9f380ea303de2c70e5b63c697ac4"
+      },
+      {
+        "name" : "BIOMD0000000290.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "22382",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "682d58425c644965c106d8b74db429d4",
+        "sha1sum" : "87b7f13bf3f08b1b9eeacfc633e74c1b8379d7a7",
+        "sha256sum" : "d733eb915f32c204b1517a79288bc0be16fa20cbb8e5e571991ab473c6713b8f"
+      },
+      {
+        "name" : "BIOMD0000000290.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "29176",
+        "mimeType" : "application/xml",
+        "md5sum" : "871dd779c62bec0cfd6ba39070042e42",
+        "sha1sum" : "1c933d2827e750724c9bab66fc835db527f8fcd8",
+        "sha256sum" : "99a9136acb125d18755c38978e3b4666fa534f9ec3926aa73e9a1583ee0d5b6f"
+      },
+      {
+        "name" : "BIOMD0000000290_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "19169",
+        "mimeType" : "application/xml",
+        "md5sum" : "3dbc36f8bce254ba78d5abc64d7e03a9",
+        "sha1sum" : "e79f93aa98410c11f9aa1ad0d673e9c65e4849f0",
+        "sha256sum" : "f5286472a69dc0c9f732da9c44d6750ab26c76f6ef58540f0ac35870f5096cc1"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "34504",
+        "mimeType" : "image/png",
+        "md5sum" : "de069f9a5374fcc2d557e9e2933c2a16",
+        "sha1sum" : "1cb21e3fe14bccca40f97e9f8e5f30e6b618ffe1",
+        "sha256sum" : "42416381441be4218e9e0f13122d3953c4409e9ce49a5245172541c61bffe62e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "132",
+        "mimeType" : "text/plain",
+        "md5sum" : "30cb19d885933341aa4eb68f638338bd",
+        "sha1sum" : "b4f0aab03666f0abaabeb6a416b4e25d4c92a0d6",
+        "sha256sum" : "255ed681f1153b76d30b9e2f0024ddda2314036042125d60f62a209b50de518c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "f6916e25715cd864ee532d9867cf4418",
+        "sha1sum" : "89b7e1f63d9b6a78863ce600a3263c66293e28b2",
+        "sha256sum" : "800695206f242844b6540829184fc591df93b304d13fe40f24d804a5bc5da7cc"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4562",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6f633af2f01024b388041818151dc18b",
+        "sha1sum" : "8d9ebd44a4ecfb81d44e3f604815c55a6fb0b46d",
+        "sha256sum" : "5929c0c752607f0e2344525927e9c135889cd5eda0e1db1f69f08bec17489cdc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1292982891,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Alexander2010_Tcell_Regulation_Sys2"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1394545956,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Alexander2010_Tcell_Regulation_Sys2"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272691,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285006,
+  "submissionId" : "MODEL1012220001",
+  "publicationId" : "BIOMD0000000290",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1012220001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1012220001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000290",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000290"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20195912",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20195912"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "DOID:417",
+      "name" : "hypersensitivity reaction type II disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:417"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0002667",
+      "name" : "regulation of T cell anergy",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002667"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "33208",
+      "name" : "Metazoa",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/33208"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

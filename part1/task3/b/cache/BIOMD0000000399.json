@@ -1,0 +1,291 @@
+{
+  "name" : "Jenkinson2011_EGF_MAPK",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is a model described in the article:<br />        <strong>Thermodynamically Consistent Model Calibration in Chemical Kinetics.</strong>        <br />Garrett Jenkinson and John Goutsias, BMC Systems Biology 2011 May 6;5(1):64.; PMID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21548948\">21548948</a>.</p>        <p>ABSTRACT:<br /> BACKGROUND:<br /> The dynamics of biochemical reaction systems are constrained by the fundamental laws of thermodynamics, which impose well-defined relationships among the reaction rate constants characterizing these systems. Constructing biochemical reaction systems from experimental observations often leads to parameter values that do not satisfy the necessary thermodynamic constraints. This can result in models that are not physically realizable and may lead to inaccurate, or even erroneous, descriptions of cellular function.<br /> RESULTS:<br /> We introduce a thermodynamically consistent model calibration (TCMC) method that can be effectively used to provide thermodynamically feasible values for the parameters of an open biochemical reaction system. The proposed method formulates the model calibration problem as a constrained optimization problem that takes thermodynamic constraints (and, if desired, additional non-thermodynamic constraints) into account. By calculating thermodynamically feasible values for the kinetic parameters of a well-known model of the EGF/ERK signaling cascade, we demonstrate the qualitative and quantitative significance of imposing thermodynamic constraints on these parameters and the effectiveness of our method for accomplishing this important task. MATLAB software, using the Systems Biology Toolbox 2.1, can be accessed from www.cis.jhu.edu/~goutsias/CSS lab/software.html. An SBML file containing the thermodynamically feasible EGF/ERK signaling cascade model can be found in the BioModels database.<br /> CONCLUSIONS:<br /> TCMC is a simple and flexible method for obtaining physically plausible values for the kinetic parameters of open biochemical reaction systems. It can be effectively used to recalculate a thermodynamically consistent set of parameter values for existing thermodynamically infeasible biochemical reaction models of cellular function as well as to estimate thermodynamically feasible values for the parameters of new models. Furthermore, TCMC can provide dimensionality reduction, better estimation performance, and lower computational complexity, and can help to alleviate the problem of data overfitting.</p>        <p>This model is a thermodynamically feasible version of a previous modelin the BioModels database,<a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000019\">BIOMD0000000019</a>, described in Computational modeling of the dynamics of the MAP kinase cascade activated by surface and internalized EGF receptors. Schoeberl et al (2002), PMID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11923843\">11923843</a>.<br /> The only difference between the present model and the model listed under BIOMD0000000019 are the values of the parameters.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21548948",
+    "journal" : "BMC systems biology",
+    "title" : "Thermodynamically consistent model calibration in chemical kinetics.",
+    "affiliation" : "Whitaker Biomedical Engineering Institute, The Johns Hopkins University, Baltimore, MD 21218, USA. goutsias@jhu.edu",
+    "synopsis" : "<h4>Background</h4>The dynamics of biochemical reaction systems are constrained by the fundamental laws of thermodynamics, which impose well-defined relationships among the reaction rate constants characterizing these systems. Constructing biochemical reaction systems from experimental observations often leads to parameter values that do not satisfy the necessary thermodynamic constraints. This can result in models that are not physically realizable and may lead to inaccurate, or even erroneous, descriptions of cellular function.<h4>Results</h4>We introduce a thermodynamically consistent model calibration (TCMC) method that can be effectively used to provide thermodynamically feasible values for the parameters of an open biochemical reaction system. The proposed method formulates the model calibration problem as a constrained optimization problem that takes thermodynamic constraints (and, if desired, additional non-thermodynamic constraints) into account. By calculating thermodynamically feasible values for the kinetic parameters of a well-known model of the EGF/ERK signaling cascade, we demonstrate the qualitative and quantitative significance of imposing thermodynamic constraints on these parameters and the effectiveness of our method for accomplishing this important task. MATLAB software, using the Systems Biology Toolbox 2.1, can be accessed from http://www.cis.jhu.edu/~goutsias/CSS lab/software.html. An SBML file containing the thermodynamically feasible EGF/ERK signaling cascade model can be found in the BioModels database.<h4>Conclusions</h4>TCMC is a simple and flexible method for obtaining physically plausible values for the kinetic parameters of open biochemical reaction systems. It can be effectively used to recalculate a thermodynamically consistent set of parameter values for existing thermodynamically infeasible biochemical reaction models of cellular function as well as to estimate thermodynamically feasible values for the parameters of new models. Furthermore, TCMC can provide dimensionality reduction, better estimation performance, and lower computational complexity, and can help to alleviate the problem of data overfitting.",
+    "year" : 2011,
+    "month" : "5",
+    "volume" : "5",
+    "pages" : "64",
+    "link" : "http://identifiers.org/pubmed/21548948",
+    "authors" : [
+      {
+        "name" : "Garrett Jenkinson",
+        "institution" : "Whitaker Biomedical Engineering Institute, The Johns Hopkins University, Baltimore, MD 21218, USA. goutsias@jhu.edu"
+      },
+      {
+        "name" : "John Goutsias"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000399_url.xml",
+        "description" : "SBML L2V1 representation of Jenkinson2011_EGF_MAPK",
+        "fileSize" : "253474",
+        "mimeType" : "application/xml",
+        "md5sum" : "5b3637b9155897412963380c2865bb97",
+        "sha1sum" : "345a1837c4adfe7787d31f029a5da7c5b9eb778e",
+        "sha256sum" : "ebd66eff0ce77479d7ee7b08880e835ba993188214114cc3ce87e1f7f282ed2f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000399-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "198690",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2dad1e0f0c517ce9e011e6470cb4605d",
+        "sha1sum" : "e39cc93079f447d62ded826c4d6bef341fafbb8f",
+        "sha256sum" : "bf6d4e7f215db5236349c3e98f83374e1b03833f731f5a12111a1d1c855132a9"
+      },
+      {
+        "name" : "BIOMD0000000399-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "342797",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e01f1d36c5eb17bcdfd1c504637939f8",
+        "sha1sum" : "e73e0434b73333c0fb4f59f7c4ed0564d817fbaa",
+        "sha256sum" : "1dbe25865946173e58e7634455263eed8089044f70adbebb4865db133b6e0297"
+      },
+      {
+        "name" : "BIOMD0000000399-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "39693",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a45b0e4f7fa871be0b4f860267de3663",
+        "sha1sum" : "e8c50519dfb165bfeeeb3f947d2f472b7d21c456",
+        "sha256sum" : "b1bf3b16b0dc5715e7bd99a00150f7091ab95e5a9b4cb9fb30840808a69be325"
+      },
+      {
+        "name" : "BIOMD0000000399-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "39693",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "886576feb82a697b6a3c3a5bca551e90",
+        "sha1sum" : "ea060af40397adbd016894d762b6e8ba98348cfe",
+        "sha256sum" : "7f1df6da40b1701bbffc54a6d50322968031939e2e42423c0091dfd118b563a4"
+      },
+      {
+        "name" : "BIOMD0000000399.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "39693",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "886576feb82a697b6a3c3a5bca551e90",
+        "sha1sum" : "ea060af40397adbd016894d762b6e8ba98348cfe",
+        "sha256sum" : "7f1df6da40b1701bbffc54a6d50322968031939e2e42423c0091dfd118b563a4"
+      },
+      {
+        "name" : "BIOMD0000000399.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "30486",
+        "mimeType" : "text/plain",
+        "md5sum" : "f615e9e9aad28b1e2af9eeaf8b921a4b",
+        "sha1sum" : "8c86cbdcc19d4bf57c057053ce4b0937a95e88bb",
+        "sha256sum" : "8241fec9c7ff244ec936d0a495d804d196f87e484fc88527072e25cc6f5aa4bd"
+      },
+      {
+        "name" : "BIOMD0000000399.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "698153",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6161cdb5de5d8ff40d02462c6d574a01",
+        "sha1sum" : "1a9d0048f31c8ec1d5b3e05f37a1694c926c3bd2",
+        "sha256sum" : "4cf39649ec8fdf076d6583f67b1d9a5232af170cbea2c0d628159609f0f1739c"
+      },
+      {
+        "name" : "BIOMD0000000399.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2748826",
+        "mimeType" : "image/png",
+        "md5sum" : "c3b6161ebd8c2a4bae683b4e3c363598",
+        "sha1sum" : "e6fa6b73ce527ac8adc2c1d8abdc9618ad9f11ab",
+        "sha256sum" : "114bd0ed953d658dfa948425c1060904b56c51980a0e57262c4f5313e818ba32"
+      },
+      {
+        "name" : "BIOMD0000000399.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "332683",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "57d003c389456947b8a4f758e30c7391",
+        "sha1sum" : "7d66ea5c8d989d2173fd0bf1cb3a23036780590c",
+        "sha256sum" : "cea52a0d379498befeceadf4780e437ebd81127e0e516e200edd088799b3e0a7"
+      },
+      {
+        "name" : "BIOMD0000000399_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "174195",
+        "mimeType" : "application/xml",
+        "md5sum" : "898fd1960ac6b72ab881a71cf37c047e",
+        "sha1sum" : "476529aede16fda4fd47df2038b0110803d6cba6",
+        "sha256sum" : "2c0d782b8fc63d94b27120c4b1c40eaecd2570b4c69eec5b65e2947f00948204"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "43746",
+        "mimeType" : "image/png",
+        "md5sum" : "b9bed0f325dcbb9b5735b84c7b5522e0",
+        "sha1sum" : "017de671ecfbc247c921c4c1815db08145b9ee1d",
+        "sha256sum" : "2cc6e0dfddf61ceb2e18bb69d45e81449e83ae3bd5b6c5b1240c129d03a7084f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "692",
+        "mimeType" : "text/plain",
+        "md5sum" : "86e530779360194629ab1f06931fed07",
+        "sha1sum" : "ee6bb004b92ef26012764406ba8e4a6e2ccfe841",
+        "sha256sum" : "de6330836f738b696ba7251041778450de5608ccd7ba48edd1773a9ac6f4631a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "137dc51837602e4d5b126eed5c4c523e",
+        "sha1sum" : "aec67d6fd6cba49b605250b48dbd02a0dc08c99a",
+        "sha256sum" : "86b422798ce5b0c3b77b9d154e7ae53b1fc92727139e8601eceffe7f13cbd1e3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5693",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "56c4c7d2033d24fe9636377b7cfd90a6",
+        "sha1sum" : "5a0196df3fea1ad5b1a90f1081e4f5801e407bef",
+        "sha256sum" : "1bf74f5c995aee3dc4147dab5cdf539c4b1258643a46fa21ac4c6586e0f3d26e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1304712989,
+        "submitter" : "Garrett Jenkinson",
+        "comment" : "Original import of BIOMD0000000399.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460139694,
+        "submitter" : "Garrett Jenkinson",
+        "comment" : "Current version of Jenkinson2011_EGF_MAPK"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275641,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285124,
+  "submissionId" : "MODEL1105060003",
+  "publicationId" : "BIOMD0000000399",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Garrett Jenkinson",
+        "email" : "jenkinson@jhu.edu",
+        "affiliation" : "Whitaker Biomedical Engineering Institute, The Johns Hopkins University, Baltimore, MD 21218, USA",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1105060003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1105060003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000399",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000399"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21548948",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21548948"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000019",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000019"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0007265",
+      "name" : "Ras protein signal transduction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007265"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_9417.3",
+      "name" : "Signaling by EGFR",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_9417.3"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

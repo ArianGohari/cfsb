@@ -1,0 +1,293 @@
+{
+  "name" : "Schliemann2011_TNF_ProAntiApoptosis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>Heterogeneity Reduces Sensitivity of Cell Death for TNF-Stimuli</strong>                <br />          Schliemann M, Bullinger E, Borchers S, Allgower F, Findeisen R, Scheurich P.      <em>BMC Syst Biol.</em>          2011 Dec 28;5(1):204.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22204418\">22204418</a>          ,      <br />                <strong>Abstract:</strong>                <br />          BACKGROUND:Apoptosis is a form of programmed cell death essential for the maintenance of homeostasis and the removal of potentially damaged cells in multicellular organisms. By binding its cognate membrane receptor, TNF receptor type 1 (TNF-R1), the proinflammatory cytokine Tumor Necrosis Factor (TNF) activates pro-apoptotic signaling via caspase activation, but at the same time also stimulates nuclear factor kappaB (NF-kappaB)-mediated survival pathways. Differential dose-response relationships of these two major TNF signaling pathways have been described experimentally and using mathematical modeling. However, the quantitative analysis of the complex interplay between pro- and anti-apoptotic signaling pathways is an open question as it is challenging for several reasons: the overall signaling network is complex, various time scales are present, and cells respond quantitatively and qualitatively in a heterogeneous manner.RESULTS:This study analyzes the complex interplay of the crosstalk of TNF-R1 induced pro- and anti-apoptotic signaling pathways based on an experimentally validated mathematical model. The mathematical model describes the temporal responses on both the single cell level as well as the level of a heterogeneous cell population, as observed in the respective quantitative experiments using TNF-R1 stimuli of different strengths and durations. Global sensitivity of the heterogeneous population was quantified by measuring the average gradient of time of death versus each population parameter. This global sensitivity analysis uncovers the concentrations of Caspase-8 and Caspase-3, and their respective inhibitors BAR and XIAP, as key elements for deciding the cell's fate. A simulated knockout of the NF-kappaB-mediated anti-apoptotic signaling reveals the importance of this pathway for delaying the time of death, reducing the death rate in the case of pulse stimulation and significantly increasing cell-to-cell variability.CONCLUSIONS:Cell ensemble modeling of a heterogeneous cell population including a global sensitivity analysis presented here allowed us to illuminate the role of the different elements and parameters on apoptotic signaling. The receptors serve to transmit the external stimulus; procaspases and their inhibitors control the switching from life to death, while NF-kappaB enhances the heterogeneity of the cell population. The global sensitivity analysis of the cell population model further revealed an unexpected impact of heterogeneity, i.e. the reduction of parametric sensitivity.      </p>            <p>      <b>Note:</b>          SBML model generated from Matlab system description            on 12-July-2011 21:08:15 by             exportSBML Copyright Eric Bullinger 2007-2011      </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22204418",
+    "journal" : "BMC systems biology",
+    "title" : "Heterogeneity reduces sensitivity of cell death for TNF-stimuli.",
+    "affiliation" : "Institute for Automation Engineering, Laboratory for Systems Theory and Automatic Control, Otto-von-Guericke University Magdeburg, Germany.",
+    "synopsis" : "<h4>Background</h4>Apoptosis is a form of programmed cell death essential for the maintenance of homeostasis and the removal of potentially damaged cells in multicellular organisms. By binding its cognate membrane receptor, TNF receptor type 1 (TNF-R1), the proinflammatory cytokine Tumor Necrosis Factor (TNF) activates pro-apoptotic signaling via caspase activation, but at the same time also stimulates nuclear factor κB (NF-κB)-mediated survival pathways. Differential dose-response relationships of these two major TNF signaling pathways have been described experimentally and using mathematical modeling. However, the quantitative analysis of the complex interplay between pro- and anti-apoptotic signaling pathways is an open question as it is challenging for several reasons: the overall signaling network is complex, various time scales are present, and cells respond quantitatively and qualitatively in a heterogeneous manner.<h4>Results</h4>This study analyzes the complex interplay of the crosstalk of TNF-R1 induced pro- and anti-apoptotic signaling pathways based on an experimentally validated mathematical model. The mathematical model describes the temporal responses on both the single cell level as well as the level of a heterogeneous cell population, as observed in the respective quantitative experiments using TNF-R1 stimuli of different strengths and durations. Global sensitivity of the heterogeneous population was quantified by measuring the average gradient of time of death versus each population parameter. This global sensitivity analysis uncovers the concentrations of Caspase-8 and Caspase-3, and their respective inhibitors BAR and XIAP, as key elements for deciding the cell's fate. A simulated knockout of the NF-κB-mediated anti-apoptotic signaling reveals the importance of this pathway for delaying the time of death, reducing the death rate in the case of pulse stimulation and significantly increasing cell-to-cell variability.<h4>Conclusions</h4>Cell ensemble modeling of a heterogeneous cell population including a global sensitivity analysis presented here allowed us to illuminate the role of the different elements and parameters on apoptotic signaling. The receptors serve to transmit the external stimulus; procaspases and their inhibitors control the switching from life to death, while NF-κB enhances the heterogeneity of the cell population. The global sensitivity analysis of the cell population model further revealed an unexpected impact of heterogeneity, i.e. the reduction of parametric sensitivity.",
+    "year" : 2011,
+    "month" : "12",
+    "volume" : "5",
+    "pages" : "204",
+    "link" : "http://identifiers.org/pubmed/22204418",
+    "authors" : [
+      {
+        "name" : "Monica Schliemann",
+        "institution" : "Institute for Automation Engineering, Laboratory for Systems Theory and Automatic Control, Otto-von-Guericke University Magdeburg, Germany.",
+        "orcid" : "0000-0002-3714-1523"
+      },
+      {
+        "name" : "Eric Bullinger"
+      },
+      {
+        "name" : "Steffen Borchers"
+      },
+      {
+        "name" : "Frank Allgöwer",
+        "orcid" : "0000-0002-3702-3658"
+      },
+      {
+        "name" : "Rolf Findeisen",
+        "orcid" : "0000-0002-9112-5946"
+      },
+      {
+        "name" : "Peter Scheurich"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000407_url.xml",
+        "description" : "SBML L2V4 representation of Schliemann2011_TNF_ProAntiApoptosis",
+        "fileSize" : "123122",
+        "mimeType" : "application/xml",
+        "md5sum" : "3747f0b22780d0876d7ebb5ae45160bc",
+        "sha1sum" : "10c0be9bf4f35f74eca2ee08786cfab2f13878fc",
+        "sha256sum" : "0c06b33efc389295bfce671b9970b18da61e010f343813ae862e7187ce00605d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000407-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "91452",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b7998f05800b36a1c225a0ec5d32ce28",
+        "sha1sum" : "7954fc2f181e0fccedd16301edc46cc598f94d9c",
+        "sha256sum" : "6d4b233f84d5a478d3c0b5dbcd471d33976e069c9eb9b07bdaae9bbe4e84209f"
+      },
+      {
+        "name" : "BIOMD0000000407-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "156565",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8d7895a333fb6e520fd06ad5dc7996d2",
+        "sha1sum" : "33fae0ae513dca2c54a1001210a9fbda36ee4b8a",
+        "sha256sum" : "09941b6eb580027bd68b3e3677d7855a533617acf7a68713b34deb233acf0bbf"
+      },
+      {
+        "name" : "BIOMD0000000407-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "31151",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b4c9e14b2635cffb772cc02dea018bcd",
+        "sha1sum" : "2ab5644767f7e79f603b90e41bf3f9278bcc3090",
+        "sha256sum" : "f32924381827c102d8f43c8a4d786a9cb52452bbc57a9819b5ad6db8c156ddaf"
+      },
+      {
+        "name" : "BIOMD0000000407-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "31151",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e2b6e4483763a3fc676c32e1914ea045",
+        "sha1sum" : "2a8b6b34494f755f512a47fc7ed418124d49c059",
+        "sha256sum" : "2e3275c1f8dc4cb178ee99c9836de083ccc6dcf621dec79a9ee1d9c63b82ecee"
+      },
+      {
+        "name" : "BIOMD0000000407.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "31151",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e2b6e4483763a3fc676c32e1914ea045",
+        "sha1sum" : "2a8b6b34494f755f512a47fc7ed418124d49c059",
+        "sha256sum" : "2e3275c1f8dc4cb178ee99c9836de083ccc6dcf621dec79a9ee1d9c63b82ecee"
+      },
+      {
+        "name" : "BIOMD0000000407.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25504",
+        "mimeType" : "text/plain",
+        "md5sum" : "d577fbf681d4021f551a855084210e35",
+        "sha1sum" : "6e78a2c291a387096a2a41f9acd641970038ed5c",
+        "sha256sum" : "0528efdf89db8a0bdccb8e6632b363d4c8192a94e19ccb8425953314e0dfaae0"
+      },
+      {
+        "name" : "BIOMD0000000407.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "535202",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1d82d17b9174716d5844cfc101822e8b",
+        "sha1sum" : "55a5c859093b59c49ee528ef877581d1f5e3d9f4",
+        "sha256sum" : "486b48a983465d3d93dd5cbd4baa55e583d2f84e96a37b383c3793f7d96cd511"
+      },
+      {
+        "name" : "BIOMD0000000407.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "602613",
+        "mimeType" : "image/png",
+        "md5sum" : "c9bd6be5d25f528bc1bd62605b8f84aa",
+        "sha1sum" : "79c208816c8895f1c5301ebb2118c4984011d516",
+        "sha256sum" : "ae621315c3ff5d3365c40ca8fd7e8aab2123a2dc39629388b8300b2e7836841e"
+      },
+      {
+        "name" : "BIOMD0000000407.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "186195",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "7dd25b01793802beef9939472ac70716",
+        "sha1sum" : "552cd9f3155e786afaa3826570632e1da9b2b46a",
+        "sha256sum" : "6c34e3d0b717caa5a77dcc3d5799069218970ee7d3183b78b04120c89497ae1e"
+      },
+      {
+        "name" : "BIOMD0000000407_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "79195",
+        "mimeType" : "application/xml",
+        "md5sum" : "e0e49ed378be5207dbe4b76c2ea72cc7",
+        "sha1sum" : "93cacea11da279cb186136efc6344a49e8809cbf",
+        "sha256sum" : "330cf3b5dc100d7685be18aad46f29ea4b47b229b91aaa2ad6d2b694bfea5477"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "35162",
+        "mimeType" : "image/png",
+        "md5sum" : "3bdf6115cdbb1fa3fa11e5b70131ed00",
+        "sha1sum" : "85dd02ba09ca42d932174cecaf2dc32aafc63b85",
+        "sha256sum" : "f9da723474293277d42784acbbcb4a605407f91031fd6c821ea48fd8c05539d7"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "523",
+        "mimeType" : "text/plain",
+        "md5sum" : "5b216f211b9dc70bb15a2e75751daca5",
+        "sha1sum" : "e6a30ae49055f94d7e99041f091990cdda6ad99b",
+        "sha256sum" : "d6cb65a9a94484fe2f0a7cec920525d273a6d085a07e648a87bbdc0409723e66"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "426b36d92d64bdbf4c7e5daf2cb38357",
+        "sha1sum" : "43e3f9fdc88d76489d37a8ed461c28db1a16202e",
+        "sha256sum" : "eae67aac77e6ddf8471e4d226bf0e109212a711dc249cc5a3059a4bcff1a6609"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5107",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a0b38dd953af8e7439b3bb7848a350f2",
+        "sha1sum" : "f33a3a05bb7da26d97db15ff29fe9d0574463356",
+        "sha256sum" : "5cbbd6f4d32c7259eb7946b2270fb1b649630b249414beba7b462c561ea392d6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1324501707,
+        "submitter" : "Monica Schliemann",
+        "comment" : "Original import of Schliemann2011_TNF_ProAntiApoptosis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1331205071,
+        "submitter" : "Monica Schliemann",
+        "comment" : "Current version of Schliemann2011_TNF_ProAntiApoptosis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275851,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285133,
+  "submissionId" : "MODEL1112210000",
+  "publicationId" : "BIOMD0000000407",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Monica Schliemann",
+        "email" : "monica.schliemann@systems-biology.eu",
+        "affiliation" : "Otto-von-Guericke-Universität Magdeburg",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1112210000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1112210000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000407",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000407"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22204418",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22204418"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "BTO:0002267",
+      "name" : "rhabdomyosarcoma cell line",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0002267"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "map04210",
+      "name" : "Apoptosis",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04210"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006915",
+      "name" : "apoptotic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006915"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

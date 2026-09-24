@@ -1,0 +1,296 @@
+{
+  "name" : "Smith2009 - RGS mediated GTP hydrolysis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Smith2009 - RGS mediated GTP hydrolysis</div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/19285552\" title=\"Access to this publication\">Dual positive and negative regulation of GPCR signaling by GTP hydrolysis.</a>                    </div>                <div class=\"bibo:authorList\">Smith B, Hill C, Godfrey EL, Rand D, van den Berg H, Thornton S, Hodgkin M, Davey J, Ladds G.</div>                <div class=\"bibo:Journal\">Cell Signal. 2009 Jul;21(7):1151-60.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>G protein-coupled receptors (GPCRs) regulate a variety of intracellular pathways through their ability to promote the binding of GTP to heterotrimeric G proteins. Regulator of G protein signaling (RGS) proteins increases the intrinsic GTPase activity of Galpha-subunits and are widely regarded as negative regulators of G protein signaling. Using yeast we demonstrate that GTP hydrolysis is not only required for desensitization, but is essential for achieving a high maximal (saturated level) response. Thus RGS-mediated GTP hydrolysis acts as both a negative (low stimulation) and positive (high stimulation) regulator of signaling. To account for this we generated a new kinetic model of the G protein cycle where Galpha(GTP) enters an inactive GTP-bound state following effector activation. Furthermore, in vivo and in silico experimentation demonstrates that maximum signaling output first increases and then decreases with RGS concentration. This unimodal, non-monotone dependence on RGS concentration is novel. Analysis of the kinetic model has revealed a dynamic network motif that shows precisely how inclusion of the inactive GTP-bound state for the Galpha produces this unimodal relationship.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>To reproduce dose-response plots in the publication, the model is simulated with 12 different concentrations (see parameter Ligand_conc). For each concentration, a single value must be obtained from the integral of the trajectory of species z3 from time=0 to time=30. These values are then used to build a dose-response plot (authors used GraphPad Prism). Mutant strains are simulated with alternative parameter values or initial conditions in Table S3.</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels\">BioModels Database</a>            and identified by:        <a href=\"http://www.ebi.ac.uk/biomodels/MODEL1212040001\">MODEL1212040001</a>            .        </p>                <p>To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. PMID:        <a href=\"http://identifiers.org/pubmed/20587024\">20587024</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "19285552",
+    "journal" : "Cellular signalling",
+    "title" : "Dual positive and negative regulation of GPCR signaling by GTP hydrolysis.",
+    "affiliation" : "Molecular Organization and Assembly of Cells Centre, University of Warwick, Coventry, UK.",
+    "synopsis" : "G protein-coupled receptors (GPCRs) regulate a variety of intracellular pathways through their ability to promote the binding of GTP to heterotrimeric G proteins. Regulator of G protein signaling (RGS) proteins increases the intrinsic GTPase activity of Galpha-subunits and are widely regarded as negative regulators of G protein signaling. Using yeast we demonstrate that GTP hydrolysis is not only required for desensitization, but is essential for achieving a high maximal (saturated level) response. Thus RGS-mediated GTP hydrolysis acts as both a negative (low stimulation) and positive (high stimulation) regulator of signaling. To account for this we generated a new kinetic model of the G protein cycle where Galpha(GTP) enters an inactive GTP-bound state following effector activation. Furthermore, in vivo and in silico experimentation demonstrates that maximum signaling output first increases and then decreases with RGS concentration. This unimodal, non-monotone dependence on RGS concentration is novel. Analysis of the kinetic model has revealed a dynamic network motif that shows precisely how inclusion of the inactive GTP-bound state for the Galpha produces this unimodal relationship.",
+    "year" : 2009,
+    "month" : "7",
+    "volume" : "21",
+    "issue" : "7",
+    "pages" : "1151-1160",
+    "link" : "http://identifiers.org/pubmed/19285552",
+    "authors" : [
+      {
+        "name" : "Benjamin Smith",
+        "institution" : "Molecular Organization and Assembly of Cells Centre, University of Warwick, Coventry, UK."
+      },
+      {
+        "name" : "Claire Hill"
+      },
+      {
+        "name" : "Emma L Godfrey"
+      },
+      {
+        "name" : "David A Rand",
+        "orcid" : "0000-0002-2217-3274"
+      },
+      {
+        "name" : "Hugo van den Berg",
+        "orcid" : "0000-0002-8230-6227"
+      },
+      {
+        "name" : "Steven Thornton"
+      },
+      {
+        "name" : "Matthew Hodgkin"
+      },
+      {
+        "name" : "John Davey"
+      },
+      {
+        "name" : "Graham Ladds",
+        "institution" : "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, UK.",
+        "orcid" : "0000-0001-7320-9612"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000439_url.xml",
+        "description" : "SBML L2V4 representation of Smith2009 - RGS mediated GTP hydrolysis",
+        "fileSize" : "50690",
+        "mimeType" : "application/xml",
+        "md5sum" : "4f26e725ffe8c4d685642c4f1398906f",
+        "sha1sum" : "b0535ee40df9d3ca74232491b0728e2dcedab48d",
+        "sha256sum" : "52d32fa23054d187112af47edb3852693b693f3b69bf9fdc894fb8c60f36336d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000439-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "37466",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0eed6ab65a72de389d9e8b90718b929f",
+        "sha1sum" : "093af5c32707456b0f43e00940b3ab8549c74de6",
+        "sha256sum" : "38b1c9cc8d1b99fe2a241ec93f94e2ffc1cc1597112e93974a249df7d3d6f12a"
+      },
+      {
+        "name" : "BIOMD0000000439-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "60446",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d06198e677d2d61aec76a05f42d98c08",
+        "sha1sum" : "a89daf8fa3ffd4daf3f8937a88b208b00f3f765a",
+        "sha256sum" : "16db58c1d2f1ea44fde90a5966aa2deb80893aedfe7e1b471f7e47af3a9dff60"
+      },
+      {
+        "name" : "BIOMD0000000439-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9989",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "40a44cf4d8a27c88236d39b04dc4e66e",
+        "sha1sum" : "48771eaf2c6ee8d9519507732bcefc57b04db27e",
+        "sha256sum" : "e57e53502f4a6c8831496905e4dd106fb4a3368d6e7cd522b0b91bb4f540e4dd"
+      },
+      {
+        "name" : "BIOMD0000000439-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9989",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4372a173afdf9e3952cb764f774f1382",
+        "sha1sum" : "1c75d99e15d1ae534098162fb2b81ae74ae013d8",
+        "sha256sum" : "77337fa28f168598c911744b2c61b5619fbe2d13bd67d8f2a1cbed8ab53de7fb"
+      },
+      {
+        "name" : "BIOMD0000000439.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9989",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4372a173afdf9e3952cb764f774f1382",
+        "sha1sum" : "1c75d99e15d1ae534098162fb2b81ae74ae013d8",
+        "sha256sum" : "77337fa28f168598c911744b2c61b5619fbe2d13bd67d8f2a1cbed8ab53de7fb"
+      },
+      {
+        "name" : "BIOMD0000000439.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6800",
+        "mimeType" : "text/plain",
+        "md5sum" : "4c487e24c00f6eaafca68554fce2fddf",
+        "sha1sum" : "c025de68386b06b1f6c4e6e2056d6a9df60fa55b",
+        "sha256sum" : "2430f74e1b602f1ef22f20fcaf259065e2fd16eed56b045a029fe90ca2cfe57f"
+      },
+      {
+        "name" : "BIOMD0000000439.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "270903",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3901addfe990d74fe8df150ff8a2b01e",
+        "sha1sum" : "ef046c7a38de2c8eab5f35552566f3385fa2eca0",
+        "sha256sum" : "0ac3a56a1b59e0e5bd206b27401ffa62e96c7d808c9e393289c233398a8cd577"
+      },
+      {
+        "name" : "BIOMD0000000439.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "320231",
+        "mimeType" : "image/png",
+        "md5sum" : "836a6a6074487ef9a885b237bb456db2",
+        "sha1sum" : "ee9af492f118a7231d81fd0363b7feadc0676054",
+        "sha256sum" : "c78f99d22349375fb467f3d7ba2b474988f93b28ef43277684f1652b9c00df48"
+      },
+      {
+        "name" : "BIOMD0000000439.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "68682",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e8b4241ad1dc748759a1d3ddeccc41bd",
+        "sha1sum" : "181c5e7e60fb3495540aa0975a4d625f7be7873a",
+        "sha256sum" : "b1fc9726db1e02a154f5f37633833357a48392400d25946f20024e29f39eb41a"
+      },
+      {
+        "name" : "BIOMD0000000439_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "26939",
+        "mimeType" : "application/xml",
+        "md5sum" : "2b28ca627e426272ce4adc8cced4c36b",
+        "sha1sum" : "b7b4a1ed26294d939a09fc30e1aa770f3561a9d7",
+        "sha256sum" : "6410f053123e22b92f29ba254d8ac690d9522e1b5f7399751114558a0994df09"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "51318",
+        "mimeType" : "image/png",
+        "md5sum" : "6bed06d552d4e11ec04076cb97f55747",
+        "sha1sum" : "ada41216bc0ea782dceb6055379a447209f9cfb9",
+        "sha256sum" : "fb439d6aac931e241c1732cb3b65bf759282132db4fa00764c13f79a55b14333"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "809",
+        "mimeType" : "text/plain",
+        "md5sum" : "2cec55d5cb3a3cd1a500125207fc8b17",
+        "sha1sum" : "0a793aa2b18d5ba3bae7a40ff7423056450fda2e",
+        "sha256sum" : "3fe441a923d7a0f67d300df9f67f53f747d04e90ff652857b24cfb667aed85e0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "be1dced45b4fdd737a8f3f73d628778c",
+        "sha1sum" : "6f576e6db1343188222cdced06941d4ee9a4528c",
+        "sha256sum" : "fc19a0537c3ebaea8e47f41b1a6586cdf050c0d894b3e757b8d2d4de1480ebf1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6089",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3c6b7a51094e1a55bbe4bbcb25b28e63",
+        "sha1sum" : "f9ea7b34291309865e2ccc878d549dac6c8e889d",
+        "sha256sum" : "5dbffdc67671ed7597c509ad49a0f48f0bb486da43fac00142d60d2a4c0395ce"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1354633775,
+        "submitter" : "Manuel Esparza-Franco",
+        "comment" : "Original import of Smith2009_RGS"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1395142766,
+        "submitter" : "Manuel Esparza-Franco",
+        "comment" : "Current version of Smith2009 - RGS mediated GTP hydrolysis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277010,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285174,
+  "submissionId" : "MODEL1212040001",
+  "publicationId" : "BIOMD0000000439",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Manuel Esparza-Franco",
+        "email" : "M.A.Esparza-Franco@warwick.ac.uk",
+        "affiliation" : "University of Warwick",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1212040001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1212040001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000439",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000439"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "19285552",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19285552"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "12446706",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12446706"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4896",
+      "name" : "Schizosaccharomyces pombe",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4896"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0008277",
+      "name" : "regulation of G-protein coupled receptor protein signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008277"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

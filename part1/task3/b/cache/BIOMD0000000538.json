@@ -1,0 +1,380 @@
+{
+  "name" : "Clarke2000 - One-hit model of cell death in neuronal degenerations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Clarke2000 - One-hit model of cell death inneuronal degenerations</div><div class=\"dc:description\">This one-hit model fits differentneuronal-death associated diseases for different animalmodels. </div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/10910361\" title=\"Access to this publication\">A one-hit model of cell    death in inherited neuronal degenerations.</a>  </div>  <div class=\"bibo:authorList\">Clarke G, Collins RA, Leavitt BR,  Andrews DF, Hayden MR, Lumsden CJ, McInnes RR.</div>  <div class=\"bibo:Journal\">Nature 2000 Jul; 406(6792):  195-199</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>In genetic disorders associated with premature neuronal    death, symptoms may not appear for years or decades. This delay    in clinical onset is often assumed to reflect the occurrence of    age-dependent cumulative damage. For example, it has been    suggested that oxidative stress disrupts metabolism in    neurological degenerative disorders by the cumulative damage of    essential macromolecules. A prediction of the cumulative damage    hypothesis is that the probability of cell death will increase    over time. Here we show in contrast that the kinetics of    neuronal death in 12 models of photoreceptor degeneration,    hippocampal neurons undergoing excitotoxic cell death, a mouse    model of cerebellar degeneration and Parkinson's and    Huntington's diseases are all exponential and better explained    by mathematical models in which the risk of cell death remains    constant or decreases exponentially with age. These kinetics    argue against the cumulative damage hypothesis; instead, the    time of death of any neuron is random. Our findings are most    simply accommodated by a 'one-hit' biochemical model in which    mutation imposes a mutant steady state on the neuron and a    single event randomly initiates cell death. This model appears    to be common to many forms of neurodegeneration and has    implications for therapeutic strategies.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000538\">BIOMD0000000538</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10910361",
+    "journal" : "Nature",
+    "title" : "A one-hit model of cell death in inherited neuronal degenerations.",
+    "affiliation" : "Program in Developmental Biology, The Research Institute, Hospital for Sick Children, Toronto, Ontario, Canada.",
+    "synopsis" : "In genetic disorders associated with premature neuronal death, symptoms may not appear for years or decades. This delay in clinical onset is often assumed to reflect the occurrence of age-dependent cumulative damage. For example, it has been suggested that oxidative stress disrupts metabolism in neurological degenerative disorders by the cumulative damage of essential macromolecules. A prediction of the cumulative damage hypothesis is that the probability of cell death will increase over time. Here we show in contrast that the kinetics of neuronal death in 12 models of photoreceptor degeneration, hippocampal neurons undergoing excitotoxic cell death, a mouse model of cerebellar degeneration and Parkinson's and Huntington's diseases are all exponential and better explained by mathematical models in which the risk of cell death remains constant or decreases exponentially with age. These kinetics argue against the cumulative damage hypothesis; instead, the time of death of any neuron is random. Our findings are most simply accommodated by a 'one-hit' biochemical model in which mutation imposes a mutant steady state on the neuron and a single event randomly initiates cell death. This model appears to be common to many forms of neurodegeneration and has implications for therapeutic strategies.",
+    "year" : 2000,
+    "month" : "7",
+    "volume" : "406",
+    "issue" : "6792",
+    "pages" : "195-199",
+    "link" : "http://identifiers.org/pubmed/10910361",
+    "authors" : [
+      {
+        "name" : "G Clarke",
+        "institution" : "Program in Developmental Biology, The Research Institute, Hospital for Sick Children, Toronto, Ontario, Canada."
+      },
+      {
+        "name" : "R A Collins"
+      },
+      {
+        "name" : "B R Leavitt",
+        "orcid" : "0000-0002-4532-766X"
+      },
+      {
+        "name" : "D F Andrews"
+      },
+      {
+        "name" : "M R Hayden",
+        "orcid" : "0000-0001-5159-1419"
+      },
+      {
+        "name" : "C J Lumsden"
+      },
+      {
+        "name" : "R R McInnes"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000538_url.xml",
+        "description" : "SBML L2V4 representation of Clarke2000 - One-hit model of cell death in neuronal degenerations",
+        "fileSize" : "18599",
+        "mimeType" : "application/xml",
+        "md5sum" : "4eb01071b083cd24dfc4de167a35a6b1",
+        "sha1sum" : "e29b87e1e91a0b3f032ec687f8e4fe9308572ff8",
+        "sha256sum" : "8da239cf79ade44b388a493f0337b39d6e4a2305d9eac39775894a48f66b2a94"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000538-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "8013",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "22dfc89c2f587165bccfa8248ef6b614",
+        "sha1sum" : "109f6c0d2e6c66f67ef07510e650c2af8c4a65b6",
+        "sha256sum" : "2a4b08fc4f81ccb110599ef5865c9c83093af47215eba9058537b9434f237e59"
+      },
+      {
+        "name" : "BIOMD0000000538-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "8671",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "aec4ffa437309c61edd018835155f080",
+        "sha1sum" : "7d72fcfc152561c79c79a2c9aeb52bd2b949c83a",
+        "sha256sum" : "df89c95da66d547321266e32affd71f4e0a093eeb805e412600d5751fd930baa"
+      },
+      {
+        "name" : "BIOMD0000000538-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3305",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "43d46afff29c8767aebb4f3bff404b5d",
+        "sha1sum" : "78a0e223abebd23083fc4a8735c41a7c3edbe96d",
+        "sha256sum" : "7ca5ab4c2bc179e4c02075321eb84bb5d602690bc1c421d70ebb8d74ca16ef2b"
+      },
+      {
+        "name" : "BIOMD0000000538-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3305",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b5e0bfbf8df0453b008c3bef4d1a910e",
+        "sha1sum" : "8505ad83e8589a4a6343332a7563798be798cffb",
+        "sha256sum" : "ddbcfb382765400ca614b17945760516059ab91c354b2d418c939b842eb8184b"
+      },
+      {
+        "name" : "BIOMD0000000538.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "2540",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "646ffbe404e230debd052f0ca126ee33",
+        "sha1sum" : "35629366ade43adb2d91b422ed3e1e918c6406d1",
+        "sha256sum" : "5308f195a11c27244f9c3100738436c898110c51b9d0ecd69cf6fa2506299cf1"
+      },
+      {
+        "name" : "BIOMD0000000538.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1504",
+        "mimeType" : "text/plain",
+        "md5sum" : "f844af0451e356f95ae25a45b9da5d9c",
+        "sha1sum" : "d3e5c98d440a67c7a946375a4edfc52af0e37cd3",
+        "sha256sum" : "87df165ebc7c3def8da26777c8fa336af348ed2ec334b1606c061c4d6eb12892"
+      },
+      {
+        "name" : "BIOMD0000000538.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "132225",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3bb35d7408f29a9acad10c0df28aa06e",
+        "sha1sum" : "e8cf2896a1d71eb075e51a80d673096593a3a30d",
+        "sha256sum" : "d06d86902914f0dced2013e8ee3690a93304795df80dce573ff2dc66b4809c75"
+      },
+      {
+        "name" : "BIOMD0000000538.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000538.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "Clarke2000.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "31866",
+        "mimeType" : "application/xml",
+        "md5sum" : "ebf4dd017734310989803232afbfdc8f",
+        "sha1sum" : "e8210d4cfcfbf05edab49b81ee6f36f9875038d1",
+        "sha256sum" : "a9072a6947a39c0d4e82d7dfd0a574bcd1ef07354748010bdfae6265b364f3a7"
+      },
+      {
+        "name" : "Clarke2000.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "7386",
+        "mimeType" : "application/xml",
+        "md5sum" : "b5ff01a1a472cb12ed03eb8b3309c1ea",
+        "sha1sum" : "9a929888a5ba7afbbf2f61763d14c45605210b3f",
+        "sha256sum" : "69d274d7d74642d86567370cef0e09ffa62bd81b15586c9b17d27609df3efa4e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "16172",
+        "mimeType" : "image/png",
+        "md5sum" : "44c3ef35dde30b30bf7dc9b1978068be",
+        "sha1sum" : "45f834ee44d32ea0a815c52e698c3d83abff8002",
+        "sha256sum" : "856752451922b765ed57c669cdcfe6cd82a710611210c75e77baf9a74861aabc"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "610",
+        "mimeType" : "text/plain",
+        "md5sum" : "6279f6cadded9711858053ec433a17bb",
+        "sha1sum" : "eb9b45ab159243cd00c0fff8cdf1ad1adfa89e4b",
+        "sha256sum" : "488c5d2c70f8cec863f8a4c4e86ac2647f2a950c26dc143f94489b22cf1f9d75"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1897",
+        "mimeType" : "application/xml",
+        "md5sum" : "1506688927918daeca6571ce767520db",
+        "sha1sum" : "28c4b78227aff7cd51c2b679563e70be9c1703d5",
+        "sha256sum" : "3bfa21b5d3ae361be17dfa49ab1809b2e6b104164fd8da08e4824f6f0ac5684f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5265",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9d5329de4ce5c26e326e04fdb754798f",
+        "sha1sum" : "ebd903bf01e6c9eeb56808c6665bdf8dc4899531",
+        "sha256sum" : "6cf64f61b5d8ff206a467b13edc0d4ad0df6b81fff8a921ac9ce7721f1484499"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1407412499,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Original import of Clarke2000 - One-hit model of cell death in neuronal degenerations"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1410270911,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Current version of Clarke2000 - One-hit model of cell death in neuronal degenerations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545413369,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Clarke2000.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724280770,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285308,
+  "submissionId" : "MODEL1408070000",
+  "publicationId" : "BIOMD0000000538",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Audald Lloret i Villas",
+        "email" : "lloret@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10116",
+      "name" : "Rattus norvegicus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10116"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1408070000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1408070000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000538",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000538"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10910361",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10910361"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9615",
+      "name" : "Canis lupus familiaris",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9615"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9685",
+      "name" : "Felis catus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9685"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:5327",
+      "name" : "retinal detachment",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:5327"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:5679",
+      "name" : "retinal disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:5679"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:0050633",
+      "name" : "ocular albinism",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0050633"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:12858",
+      "name" : "Huntington's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:12858"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:8466",
+      "name" : "retinal degeneration",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:8466"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:1443",
+      "name" : "cerebral degeneration",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1443"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051402",
+      "name" : "neuron apoptotic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051402"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

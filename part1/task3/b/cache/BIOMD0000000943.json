@@ -1,0 +1,262 @@
+{
+  "name" : "Hat2016 - Reponse of p53 System to irradiation in cell fate decision making",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>The p53 transcription factor is a regulator of key cellular processes including DNA repair, cell cycle arrest, and apoptosis. In this theoretical study, we investigate how the complex circuitry of the p53 network allows for stochastic yet unambiguous cell fate decision-making. The proposed Markov chain model consists of the regulatory core and two subordinated bistable modules responsible for cell cycle arrest and apoptosis. The regulatory core is controlled by two negative feedback loops (regulated by Mdm2 and Wip1) responsible for oscillations, and two antagonistic positive feedback loops (regulated by phosphatases Wip1 and PTEN) responsible for bistability. By means of bifurcation analysis of the deterministic approximation we capture the recurrent solutions (i.e., steady states and limit cycles) that delineate temporal responses of the stochastic system. Direct switching from the limit-cycle oscillations to the \"apoptotic\" steady state is enabled by the existence of a subcritical Neimark-Sacker bifurcation in which the limit cycle loses its stability by merging with an unstable invariant torus. Our analysis provides an explanation why cancer cell lines known to have vastly diverse expression levels of Wip1 and PTEN exhibit a broad spectrum of responses to DNA damage: from a fast transition to a high level of p53 killer (a p53 phosphoform which promotes commitment to apoptosis) in cells characterized by high PTEN and low Wip1 levels to long-lasting p53 level oscillations in cells having PTEN promoter methylated (as in, e.g., MCF-7 cell line).</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26928575",
+    "journal" : "PLoS computational biology",
+    "title" : "Feedbacks, Bifurcations, and Cell Fate Decision-Making in the p53 System.",
+    "affiliation" : "Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland.",
+    "synopsis" : "The p53 transcription factor is a regulator of key cellular processes including DNA repair, cell cycle arrest, and apoptosis. In this theoretical study, we investigate how the complex circuitry of the p53 network allows for stochastic yet unambiguous cell fate decision-making. The proposed Markov chain model consists of the regulatory core and two subordinated bistable modules responsible for cell cycle arrest and apoptosis. The regulatory core is controlled by two negative feedback loops (regulated by Mdm2 and Wip1) responsible for oscillations, and two antagonistic positive feedback loops (regulated by phosphatases Wip1 and PTEN) responsible for bistability. By means of bifurcation analysis of the deterministic approximation we capture the recurrent solutions (i.e., steady states and limit cycles) that delineate temporal responses of the stochastic system. Direct switching from the limit-cycle oscillations to the \"apoptotic\" steady state is enabled by the existence of a subcritical Neimark-Sacker bifurcation in which the limit cycle loses its stability by merging with an unstable invariant torus. Our analysis provides an explanation why cancer cell lines known to have vastly diverse expression levels of Wip1 and PTEN exhibit a broad spectrum of responses to DNA damage: from a fast transition to a high level of p53 killer (a p53 phosphoform which promotes commitment to apoptosis) in cells characterized by high PTEN and low Wip1 levels to long-lasting p53 level oscillations in cells having PTEN promoter methylated (as in, e.g., MCF-7 cell line).",
+    "year" : 2016,
+    "month" : "2",
+    "volume" : "12",
+    "issue" : "2",
+    "pages" : "e1004787",
+    "link" : "http://identifiers.org/pubmed/26928575",
+    "authors" : [
+      {
+        "name" : "Beata Hat",
+        "institution" : "Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland."
+      },
+      {
+        "name" : "Marek Kochańczyk",
+        "institution" : "Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland.",
+        "orcid" : "0000-0003-1215-3920"
+      },
+      {
+        "name" : "Marta N Bogdał",
+        "institution" : "Institute of Fundamental Technological Research, Polish Academy of Sciences, Warsaw, Poland."
+      },
+      {
+        "name" : "Tomasz Lipniacki",
+        "institution" : "Institute of Fundamental Technological Research, Warsaw, Poland. tomek@rice.edu",
+        "orcid" : "0000-0002-3488-2561"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Hat2016.xml",
+        "description" : "SBML L2V4 representation of Reponse of p53 System to irradiation in cell fate decision making",
+        "fileSize" : "358809",
+        "mimeType" : "application/xml",
+        "md5sum" : "9bd84dcec122a6a4eab952ed06e38e49",
+        "sha1sum" : "2148da60bdfbcc2fc73d8eaa8f3c1bb7949f74a1",
+        "sha256sum" : "d24ae335ef106eb205d80fd524e619f76e7ddb526d63198fa97271940507f2a4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Hat2016-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "98123",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "523db2e325586f77f23405cdde4ef636",
+        "sha1sum" : "c9944dfd0508b23a20d82c3ae871e9101c82d818",
+        "sha256sum" : "1ce11bb27b24f3dfb2e4befc5034ffa32a06160dd8d310caf5eccdf521986c47"
+      },
+      {
+        "name" : "Hat2016-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "167489",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "846d87f153310295913fbf3a035f534f",
+        "sha1sum" : "71d2a7d327f94c5c7924c0903a55479197c01a52",
+        "sha256sum" : "116965b7d03a9a18975b7d4d75a9219c479a4b12b7cbb8a76bccfd1a0ad7b35c"
+      },
+      {
+        "name" : "Hat2016-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "41184",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cdee75c7006e85a798f5e10f64e2fb71",
+        "sha1sum" : "30fbf1680500a366eac96feeb146d91d3ece5c1a",
+        "sha256sum" : "34052394d002ae64ba367aa1885f03b0004956cbb658efb33d754f844d89b19c"
+      },
+      {
+        "name" : "Hat2016-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "41184",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1e6aaa6119a8ccce5c44c2c263b584aa",
+        "sha1sum" : "1da8529f75418b43676f26794efde4f8930a64e3",
+        "sha256sum" : "617a797d45f429f9f06d628b3c29bfa3f61f285b0dc059b5a8b078f9ee6214e4"
+      },
+      {
+        "name" : "Hat2016.cps",
+        "description" : "COPASI version 4.27 (Build 217) file for reproducing figure 7 in the reference publication",
+        "fileSize" : "452491",
+        "mimeType" : "application/xml",
+        "md5sum" : "a9569957110c7fc50371f1d74271cfb3",
+        "sha1sum" : "2f9fe414141d4877736330eb30783782105c7a00",
+        "sha256sum" : "f33019471346f721ec6de3c80fc425f11db759a3fe51603ac65ba3db42a2eb4d"
+      },
+      {
+        "name" : "Hat2016.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "31838",
+        "mimeType" : "text/plain",
+        "md5sum" : "67a61cfeeaf077edc49a79f7c7e78f31",
+        "sha1sum" : "37813af141191cd29c0312007b6dafbed84b629a",
+        "sha256sum" : "adf7fe2fe9db1b0e6f9d5625bd5c62f47318b63f30576536560e9dc007528b7d"
+      },
+      {
+        "name" : "Hat2016.sedml",
+        "description" : "sed-ml L1V2 file for reproducing figure 7 in the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "142745",
+        "mimeType" : "application/xml",
+        "md5sum" : "883dc0bb7498f6d44bf65b8786216a42",
+        "sha1sum" : "462539f82faf6c170dc89e565b9711ffffcf1fa7",
+        "sha256sum" : "dc988ce4edb48e6f1b147c05ae4d3674d2c9267517ab4a375dfa8156269751d3"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19162",
+        "mimeType" : "image/png",
+        "md5sum" : "0588ac1e1aa83581de564db48ebfed5d",
+        "sha1sum" : "3861a84ad14a85d05b46d045a2fb8b678ec0dda2",
+        "sha256sum" : "694a78d6de4e706f2cba13a787d91746993d0023ebd01978fcfc1d0d1741f5d4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "138",
+        "mimeType" : "text/plain",
+        "md5sum" : "08554b60c4480a79fcbe3bf8dd7e1d99",
+        "sha1sum" : "81e90e05ce4649d9b506a9b3b6dedf3dfb5f09f1",
+        "sha256sum" : "d5c38150cb2dbd81129251bf3b597ed514b56534e046c72097d1314497df34a5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1387",
+        "mimeType" : "application/xml",
+        "md5sum" : "0835e0e8c5c552fc3ea5a837bf5a3a09",
+        "sha1sum" : "73bda084e1c0e7378ab78eee7dbb5a8acc4336d5",
+        "sha256sum" : "ecf86a2bdfc71e36cf78651050139a575cabdeb5dcc8411fc14469769fb81c24"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3238",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "875494b50081a9ebc439920b6181c05a",
+        "sha1sum" : "be8a7db47317a6d63d5efec2df5af6ae53998008",
+        "sha256sum" : "6449553ff9f249a937580ce5000a4a0bca0578eb12993abbbaab0c5e9fde4e90"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1536236237,
+        "submitter" : "Matthieu MAIRE",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1588615571,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000943"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724293572,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285542,
+  "submissionId" : "MODEL1809060002",
+  "publicationId" : "BIOMD0000000943",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthieu MAIRE",
+        "email" : "matt.maire@free.fr",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0007049",
+      "name" : "cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007049"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1809060002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1809060002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000943",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000943"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26928575",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:26928575"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1371/journal.pcbi.1004787",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1371/journal.pcbi.1004787"
+    }
+  ]
+}

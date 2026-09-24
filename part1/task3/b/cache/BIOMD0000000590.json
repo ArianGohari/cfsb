@@ -1,0 +1,276 @@
+{
+  "name" : "Hermansen2015 - denovo biosynthesis of pyrimidines in yeast",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Hermansen2015 - denovo biosynthesis of pyrimidines in yeast</div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/26511837\" title=\"Access to this publication\">Characterizing selective pressures on the pathway for de novo biosynthesis of pyrimidines in yeast. </a>          </div>          <div class=\"bibo:authorList\"> Hermansen RA , Mannakee BK , Knecht W , Liberles DA , Gutenkunst RN</div>          <div class=\"bibo:Journal\">BMC Evolutionary Biology. 2015, 15:232</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>    Selection on proteins is typically measured with the assumption that each protein acts independently. However, selection more likely acts at higher levels of biological organization, requiring an integrative view of protein function. Here, we built a kinetic model for de novo pyrimidine biosynthesis in the yeast Saccharomyces cerevisiae to relate pathway function to selective pressures on individual protein-encoding genes.Gene families across yeast were constructed for each member of the pathway and the ratio of nonsynonymous to synonymous nucleotide substitution rates (dN/dS) was estimated for each enzyme from S. cerevisiae and closely related species. We found a positive relationship between the influence that each enzyme has on pathway function and its selective constraint.We expect this trend to be locally present for enzymes that have pathway control, but over longer evolutionary timescales we expect that mutation-selection balance may change the enzymes that have pathway control.     </p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1512160000\">MODEL1512160000</a>.</p>        <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p>    </div>    <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p>  </div></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26511837",
+    "journal" : "BMC evolutionary biology",
+    "title" : "Characterizing selective pressures on the pathway for de novo biosynthesis of pyrimidines in yeast.",
+    "affiliation" : "Department of Molecular Biology, University of Wyoming, Laramie, WY, 82071, USA. rhermans@uwyo.edu.",
+    "synopsis" : "<h4>Background</h4>Selection on proteins is typically measured with the assumption that each protein acts independently. However, selection more likely acts at higher levels of biological organization, requiring an integrative view of protein function. Here, we built a kinetic model for de novo pyrimidine biosynthesis in the yeast Saccharomyces cerevisiae to relate pathway function to selective pressures on individual protein-encoding genes.<h4>Results</h4>Gene families across yeast were constructed for each member of the pathway and the ratio of nonsynonymous to synonymous nucleotide substitution rates (dN/dS) was estimated for each enzyme from S. cerevisiae and closely related species. We found a positive relationship between the influence that each enzyme has on pathway function and its selective constraint.<h4>Conclusions</h4>We expect this trend to be locally present for enzymes that have pathway control, but over longer evolutionary timescales we expect that mutation-selection balance may change the enzymes that have pathway control.",
+    "year" : 2015,
+    "month" : "10",
+    "volume" : "15",
+    "pages" : "232",
+    "link" : "http://identifiers.org/pubmed/26511837",
+    "authors" : [
+      {
+        "name" : "Russell A Hermansen",
+        "institution" : "Department of Molecular Biology, University of Wyoming, Laramie, WY, 82071, USA. rhermans@uwyo.edu.Department of Biology and Center for Computational Genetics and Genomics, Temple University, Philadelphia, PA, 19122, USA. rhermans@uwyo.edu."
+      },
+      {
+        "name" : "Brian K Mannakee",
+        "institution" : "Division of Epidemiology and Biostatistics, Mel and Enid Zuckerman College of Public Health, University of Arizona, Tucson, AZ, 85721, USA. mannakee@email.arizona.edu."
+      },
+      {
+        "name" : "Wolfgang Knecht",
+        "institution" : "Department of Biology and Lund Protein Production Platform, Lund University, 22362, Lund, Sweden. wolfgang.knecht@biol.lu.se."
+      },
+      {
+        "name" : "David A Liberles",
+        "institution" : "Department of Molecular Biology, University of Wyoming, Laramie, WY, 82071, USA. daliberles@temple.edu.Department of Biology and Center for Computational Genetics and Genomics, Temple University, Philadelphia, PA, 19122, USA. daliberles@temple.edu."
+      },
+      {
+        "name" : "Ryan N Gutenkunst",
+        "institution" : "Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ, 85721, USA. rgutenk@email.arizona.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000590_url.xml",
+        "description" : "SBML L2V4 representation of Hermansen2015 - denovo biosynthesis of pyrimidines in yeast",
+        "fileSize" : "77671",
+        "mimeType" : "application/xml",
+        "md5sum" : "758351ea543cb61d16771d0611f08949",
+        "sha1sum" : "57681df6e5a74b988711cf00f54e361a32ede8e3",
+        "sha256sum" : "6f5428a1fd400865d36e8b121cb7456cda1c65a9c80a40d75d1abdfc7636cc82"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000590-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "32020",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "049c400ac33fde51bc33794b36029f59",
+        "sha1sum" : "60f7979c7d2d457d27f842da9f84dcd54d2becf5",
+        "sha256sum" : "21a9a9974fae62ac4bc3d3cb246fa03976f4c38e12352e0b0fe82764fc4a75d6"
+      },
+      {
+        "name" : "BIOMD0000000590-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "44226",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "57e144424f5fa0ed483b971db50676d3",
+        "sha1sum" : "32d982ee6cc8230dcb67f82cb354f1f5ed3ae9e1",
+        "sha256sum" : "0e0fdce9b9bda93d1100d917004d391516eccb85e5e61bda23a9d334180ef6f6"
+      },
+      {
+        "name" : "BIOMD0000000590-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12013",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d06c48cc4c9e31b7dc11b8535db1434b",
+        "sha1sum" : "a6e6ba6b81faa0b3910c7439eb30d300d269e75b",
+        "sha256sum" : "f3ebb25a6f4a657fbe88862407978251fbd108945bdbc69ab9c0351758da2b0d"
+      },
+      {
+        "name" : "BIOMD0000000590-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "12013",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "750eff5437927e888c2c1ec80515ad30",
+        "sha1sum" : "fa04c2f26d38618a1005af1aaec0e036413e74eb",
+        "sha256sum" : "605205220d39592c7fb94958e553ff27ba05fe3e68f37a8ed3190ff66d59e989"
+      },
+      {
+        "name" : "BIOMD0000000590.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12013",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "750eff5437927e888c2c1ec80515ad30",
+        "sha1sum" : "fa04c2f26d38618a1005af1aaec0e036413e74eb",
+        "sha256sum" : "605205220d39592c7fb94958e553ff27ba05fe3e68f37a8ed3190ff66d59e989"
+      },
+      {
+        "name" : "BIOMD0000000590.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9602",
+        "mimeType" : "text/plain",
+        "md5sum" : "9f830c7b796ab0ac459ea4739cf5c8ad",
+        "sha1sum" : "7426a4cf2efa51e38e88173194a413698c935e30",
+        "sha256sum" : "b6c677472127242e4d4793fa4186b5306af9f2f42c42fcd58c0ab70e2ee6410d"
+      },
+      {
+        "name" : "BIOMD0000000590.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "250017",
+        "mimeType" : "application/pdf",
+        "md5sum" : "bb50a53b19f0d3cb542b74186bb33b71",
+        "sha1sum" : "ac127c504c4af40bb9599b52723a0003819324f3",
+        "sha256sum" : "1f0f4d28ae40c5fbd6cb59716f4c26402abab9451adb427aa2495f65f27623b0"
+      },
+      {
+        "name" : "BIOMD0000000590.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "102678",
+        "mimeType" : "image/png",
+        "md5sum" : "2476246ed7752014eca62994a37b926b",
+        "sha1sum" : "f54229d8df5751e4dfcd5fb8f4dd79c660e46046",
+        "sha256sum" : "bd1a4d879f4fe5051bc105cc316fe0bfc433fb5dae6a6c3694a8e0f53ddb410a"
+      },
+      {
+        "name" : "BIOMD0000000590.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "48005",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "568a90efb85e9dbc4488f4a6598489f9",
+        "sha1sum" : "9ac1347ea21b3e40479bede7b634d3a854aea1b5",
+        "sha256sum" : "f612b6d8611c7ed095540b0699ae13d16b8a339c38e4f3797fded3c96be24dab"
+      },
+      {
+        "name" : "BIOMD0000000590_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "33635",
+        "mimeType" : "application/xml",
+        "md5sum" : "49a2573cac6c94f7b1c2bd7889716c59",
+        "sha1sum" : "0b91778f3dc69a5a55499daa29debd19f6a104ad",
+        "sha256sum" : "94ca48118c9421b5fcde1301b1a20d399756133e840f9d864bc52ec1f5b93a66"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "50179",
+        "mimeType" : "image/png",
+        "md5sum" : "3b66fd3b9e7d68f805697077cb3821d3",
+        "sha1sum" : "f661677ff5c982bf9683b3806a62c40ff282ecf0",
+        "sha256sum" : "12543461b715be79fabbcbbea574bc003cefff5f837c443989f04337770eb8ec"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "219",
+        "mimeType" : "text/plain",
+        "md5sum" : "8913a3e4f48a5cc4667c721be1457df0",
+        "sha1sum" : "b5df06f93788205122121469415535412db030cc",
+        "sha256sum" : "65061b11bd81a450497443361c5bd53c032154395b9589eff021f2bb5b2c7ab8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "53307302ec5ecbfa55fbac360b575201",
+        "sha1sum" : "3775da7970826bfd9d432009907c944397b43012",
+        "sha256sum" : "9571868898d98ba0f2c9af7706c53a409ac21a53393936a13d4bda73e3303053"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5329",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "67c1a4a76ad82313ae48c86d3737fe57",
+        "sha1sum" : "8e23b534acc5702ef76e3ca0351cfd5eb4e9aa74",
+        "sha256sum" : "e26df974ed3f5a0207114d4e75c0495d3e6b2c17c712a699c467ce0d448a6d3b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1450282110,
+        "submitter" : "Brian Mannakee",
+        "comment" : "Original import of Hermansen2015_denovo_pyrimidine_biosynthesis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1455641901,
+        "submitter" : "Brian Mannakee",
+        "comment" : "Current version of Hermansen2015 - denovo biosynthesis of pyrimidines in yeast"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724282793,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285365,
+  "submissionId" : "MODEL1512160000",
+  "publicationId" : "BIOMD0000000590",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Brian Mannakee",
+        "email" : "mannakee@email.arizona.edu",
+        "affiliation" : "Gutenkunst Group - University of Arizona",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1512160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1512160000"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26511837",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26511837"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000590",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000590"
+    },
+    {
+      "qualifier" : "bqbiol:encodes",
+      "accession" : "rn00240",
+      "name" : "Pyrimidine metabolism",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/rn00240"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "doi:10.1186/s12862-015-0515-x",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/doi:10.1186/s12862-015-0515-x"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

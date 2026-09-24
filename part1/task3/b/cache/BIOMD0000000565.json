@@ -1,0 +1,278 @@
+{
+  "name" : "Machado2014 - Curcumin production pathway in Escherichia coli",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Machado2014 - Curcumin production pathway inEscherichia coli</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25218090\" title=\"Access to this publication\">A kinetic model for curcumin    production in Escherichia coli.</a>  </div>  <div class=\"bibo:authorList\">Machado D, Rodrigues LR, Rocha  I.</div>  <div class=\"bibo:Journal\">BioSystems 2014 Nov; 125: 16-21</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Curcumin is a natural compound obtained from turmeric, and    is well known for its pharmacological effects. In this work, we    design a heterologous pathway for industrial production of    curcumin in Escherichia coli. A kinetic model of the pathway is    then developed and connected to a kinetic model of the central    carbon metabolism of E. coli. This model is used for    optimization of the mutant strain through a rational design    approach, and two manipulation targets are identified for    overexpression. Dynamic simulations are then performed to    compare the curcumin production profiles of the different    mutant strains. Our results show that it is possible to obtain    a significant improvement in the curcumin production rates with    the proposed mutants. The kinetic model here developed can be    an important framework to optimize curcumin production at an    industrial scale and add value to its biomedical potential.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000565\">BIOMD0000000565</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25218090",
+    "journal" : "Bio Systems",
+    "title" : "A kinetic model for curcumin production in Escherichia coli.",
+    "affiliation" : "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal. Electronic address: dmachado@deb.uminho.pt.",
+    "synopsis" : "Curcumin is a natural compound obtained from turmeric, and is well known for its pharmacological effects. In this work, we design a heterologous pathway for industrial production of curcumin in Escherichia coli. A kinetic model of the pathway is then developed and connected to a kinetic model of the central carbon metabolism of E. coli. This model is used for optimization of the mutant strain through a rational design approach, and two manipulation targets are identified for overexpression. Dynamic simulations are then performed to compare the curcumin production profiles of the different mutant strains. Our results show that it is possible to obtain a significant improvement in the curcumin production rates with the proposed mutants. The kinetic model here developed can be an important framework to optimize curcumin production at an industrial scale and add value to its biomedical potential.",
+    "year" : 2014,
+    "month" : "11",
+    "volume" : "125",
+    "pages" : "16-21",
+    "link" : "http://identifiers.org/pubmed/25218090",
+    "authors" : [
+      {
+        "name" : "Daniel Machado",
+        "institution" : "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal. Electronic address: dmachado@deb.uminho.pt.",
+        "orcid" : "0000-0002-2063-5383"
+      },
+      {
+        "name" : "Lígia R Rodrigues",
+        "institution" : "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal. Electronic address: lrmr@deb.uminho.pt.",
+        "orcid" : "0000-0001-9265-0630"
+      },
+      {
+        "name" : "Rocha I",
+        "institution" : "Centre of Biological Engineering, University of Minho, Braga, Portugal.Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa (ITQB-NOVA), Oeiras, Portugal.",
+        "orcid" : "0000-0001-9494-3410"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000565_url.xml",
+        "description" : "SBML L2V4 representation of Machado2014 - Curcumin production pathway in Escherichia coli",
+        "fileSize" : "133084",
+        "mimeType" : "application/xml",
+        "md5sum" : "4c2d2982e592050d100367d914809a5b",
+        "sha1sum" : "96804e38eca99248b219ba98a4781fb106efab8f",
+        "sha256sum" : "773c4259c7f3fac81cb534968f4facad353aa9c0519feca2c66131160c520702"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000565-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "71103",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ac73b1764dd4779256ef2a9db232e22a",
+        "sha1sum" : "567400503673ff144656664042258930c26a6385",
+        "sha256sum" : "486a03107fdf05db938fc4307a1295495b0cdd52cae52a07039aa31719bbe5ce"
+      },
+      {
+        "name" : "BIOMD0000000565-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "115406",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2d966a756ac7f6d21ebb7019f64a6527",
+        "sha1sum" : "3de49e505c7610394d1791032e8702cdbf729b09",
+        "sha256sum" : "8a9923f3adcf6a9714f3bd756d0b0aa4c96bdd4d12021cbc2a3d7f783a3bee84"
+      },
+      {
+        "name" : "BIOMD0000000565-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "33602",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dd873366ba45dbcb25c53b5a241e2159",
+        "sha1sum" : "68358e407eee1e146c0401ad57dfb144a38193d4",
+        "sha256sum" : "1636abd13469f91d3e126c4f05483e50f931f926c278939aeefd1d37e96c3fd4"
+      },
+      {
+        "name" : "BIOMD0000000565-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "33602",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "be92b5b13d8aa68b99dbbfc6654456df",
+        "sha1sum" : "45ecf259e5b8ce042d622ffc670ba41e477193f2",
+        "sha256sum" : "779e3739603bbb3806a2ad01c48efeb724ab949c00f0c46114335f2fdf61ef84"
+      },
+      {
+        "name" : "BIOMD0000000565.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "33602",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "be92b5b13d8aa68b99dbbfc6654456df",
+        "sha1sum" : "45ecf259e5b8ce042d622ffc670ba41e477193f2",
+        "sha256sum" : "779e3739603bbb3806a2ad01c48efeb724ab949c00f0c46114335f2fdf61ef84"
+      },
+      {
+        "name" : "BIOMD0000000565.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "24393",
+        "mimeType" : "text/plain",
+        "md5sum" : "e954e8c5f4bf314fc1a0a9441f9afbf7",
+        "sha1sum" : "4e1e10435d6b718f19399c5813438fbe6710d4b2",
+        "sha256sum" : "5a965ad23c5cc0900aea8463040e2a05ac96f9b8980880d50451b56862963a81"
+      },
+      {
+        "name" : "BIOMD0000000565.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "451241",
+        "mimeType" : "application/pdf",
+        "md5sum" : "25deac5a937e7db2056be4ec10ecfe76",
+        "sha1sum" : "de78b3ef37f4ec207aff4e76dcb49a0d58f4269d",
+        "sha256sum" : "039eb8b07ae15e7c9608a1f1b8b655406fd5c7c0891ae08b4e206bf1ea22fcd4"
+      },
+      {
+        "name" : "BIOMD0000000565.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "177174",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c75dcf7bf5e81bfe9cb18f485293c242",
+        "sha1sum" : "f0ab32da25ceb79fae7610be8871d33b3e64e176",
+        "sha256sum" : "da83f9be2b476694cf89b822409870f611195c9a22122673efaf04e4cbe6f97a"
+      },
+      {
+        "name" : "BIOMD0000000565.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "129060",
+        "mimeType" : "application/xml",
+        "md5sum" : "a3fca07908086e94b096b61de9d96e77",
+        "sha1sum" : "786df9dd954782cd3b1de7faf56ed542ee9c3be0",
+        "sha256sum" : "2f3707126db90ae1e98c98ab61c8ac8f39a1127f19f6b27439f93b265d9ef2a7"
+      },
+      {
+        "name" : "BIOMD0000000565_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "56671",
+        "mimeType" : "application/xml",
+        "md5sum" : "926a61c2f9282ae25534a0cf3b9b82cb",
+        "sha1sum" : "27213d3574406da7ce845f79453e52cd391156f7",
+        "sha256sum" : "52f2e1666fc918740756d5005a9636676ac2b746677b49c617fcd8af0b401f3f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "32702",
+        "mimeType" : "image/png",
+        "md5sum" : "151875d2ade9a3a8350f5329f096c21c",
+        "sha1sum" : "b53f69e7585b4dbf0aa687caf1324e7978bb6303",
+        "sha256sum" : "7c6b0055636ab8f292d401c2617fd3b87104bbfb9aaa2d69c4b9944f4cd77732"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "522",
+        "mimeType" : "text/plain",
+        "md5sum" : "d61a7ad0685a837ec515c02b51bb481f",
+        "sha1sum" : "5dde54106c40cf6c7cc50b6f8e6902f0f66cbcf4",
+        "sha256sum" : "fd3730bfcade881264dbf3814a36765c1abf0e6cfd223224a5c9acc806469b1f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1802",
+        "mimeType" : "application/xml",
+        "md5sum" : "4cb9e4caaaab7a2c28de44f503d64a38",
+        "sha1sum" : "2ba6e50719ddc14da536dceee9dd059112f4b872",
+        "sha256sum" : "8c76b2560c412f337fd1a9bb57d79347567321361b7d268c84bb3f30db1f19ab"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4345",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d72f2fbe03da18227b106c311695fff4",
+        "sha1sum" : "bc6e7529a237a5351bd6178cdc32d47cc856eec0",
+        "sha256sum" : "d04b3e9c9432363304702a6878564ef453eee1d2959ca09643f47d5f6c1c5915"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1402066018,
+        "submitter" : "Daniel Machado",
+        "comment" : "Original import of Machado2014_Ecoli_curcumin_pathway"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1421072043,
+        "submitter" : "Daniel Machado",
+        "comment" : "Current version of Machado2014 - Curcumin production pathway in Escherichia coli"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724281676,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285349,
+  "submissionId" : "MODEL1406060000",
+  "publicationId" : "BIOMD0000000565",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Daniel Machado",
+        "email" : "dmachado@deb.uminho.pt",
+        "affiliation" : "University of Minho",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1406060000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1406060000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000565",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000565"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25218090",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25218090"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000051",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000051"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0036039",
+      "name" : "curcumin metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0036039"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

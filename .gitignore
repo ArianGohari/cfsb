@@ -1,0 +1,45 @@
+# macOS and local editor/session state
+.DS_Store
+.maki/
+explorer-session.json
+tmp.db
+*.sock
+**/.theme
+**/config.local.json
+**/*.headers
+
+# Python environments and caches
+**/.venv/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.amici_model/
+
+# Workflow and Quarto build state
+**/.snakemake/
+part1/.quarto/
+part1/_book/
+part1/**/task*_files/
+part1/index.html
+part1/search.json
+part1/site_libs/
+part1/task*/search.json
+*.log
+
+# Local copies of papers and course material
+/project.pdf
+part1/task*/sources/*.pdf
+part1/task1/sources/markdown/
+part1/task2/sources/markdown/
+
+# Downloaded source corpora and large supplementary files
+part1/task4/raw/
+part1/task4/corpus/
+part1/task4/data/*.xlsx
+part1/task4/data/*.xls
+part1/task4/data/*.pdf
+part1/task6/sources/*.tar.gz
+**/fulltext_raw/
+**/html_raw/

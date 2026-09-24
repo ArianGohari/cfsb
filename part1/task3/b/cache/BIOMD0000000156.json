@@ -1,0 +1,324 @@
+{
+  "name" : "Zatorsky2006_p53_Model5",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces time profile of p53 and Mdm2 as depicted in Fig 6B of the paper for Model 5. Results obtained using MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16773083",
+    "journal" : "Molecular systems biology",
+    "title" : "Oscillations and variability in the p53 system.",
+    "affiliation" : "Department of Molecular Cell Biology, Weizmann Institute of Science, Rehovot, Israel.",
+    "synopsis" : "Understanding the dynamics and variability of protein circuitry requires accurate measurements in living cells as well as theoretical models. To address this, we employed one of the best-studied protein circuits in human cells, the negative feedback loop between the tumor suppressor p53 and the oncogene Mdm2. We measured the dynamics of fluorescently tagged p53 and Mdm2 over several days in individual living cells. We found that isogenic cells in the same environment behaved in highly variable ways following DNA-damaging gamma irradiation: some cells showed undamped oscillations for at least 3 days (more than 10 peaks). The amplitude of the oscillations was much more variable than the period. Sister cells continued to oscillate in a correlated way after cell division, but lost correlation after about 11 h on average. Other cells showed low-frequency fluctuations that did not resemble oscillations. We also analyzed different families of mathematical models of the system, including a novel checkpoint mechanism. The models point to the possible source of the variability in the oscillations: low-frequency noise in protein production rates, rather than noise in other parameters such as degradation rates. This study provides a view of the extensive variability of the behavior of a protein circuit in living human cells, both from cell to cell and in the same cell over time.",
+    "year" : 2006,
+    "month" : "0",
+    "volume" : "2",
+    "pages" : "2006.0033",
+    "link" : "http://identifiers.org/pubmed/16773083",
+    "authors" : [
+      {
+        "name" : "Naama Geva-Zatorsky",
+        "institution" : "Department of Molecular Cell Biology, Weizmann Institute of Science, Rehovot, Israel.",
+        "orcid" : "0000-0002-7303-854X"
+      },
+      {
+        "name" : "Nitzan Rosenfeld"
+      },
+      {
+        "name" : "Shalev Itzkovitz",
+        "orcid" : "0000-0003-0685-2522"
+      },
+      {
+        "name" : "Ron Milo",
+        "orcid" : "0000-0003-1641-2299"
+      },
+      {
+        "name" : "Alex Sigal",
+        "orcid" : "0000-0001-8571-2004"
+      },
+      {
+        "name" : "Erez Dekel"
+      },
+      {
+        "name" : "Talia Yarnitzky"
+      },
+      {
+        "name" : "Yuvalal Liron"
+      },
+      {
+        "name" : "Paz Polak"
+      },
+      {
+        "name" : "Galit Lahav"
+      },
+      {
+        "name" : "Uri Alon"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000156_url.xml",
+        "description" : "SBML L2V1 representation of Zatorsky2006_p53_Model5",
+        "fileSize" : "12741",
+        "mimeType" : "application/xml",
+        "md5sum" : "dc985d89c465dc29b99352cff54a7aa3",
+        "sha1sum" : "54f3720cf5881c950752260c13569e6d7b98df56",
+        "sha256sum" : "70ca5dd300e73162b31f22a8ddfac61bf0400028bf159c6d100621d4b9efd78f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000156-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "10201",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b1cdf66a15c7cd02bfd9cc3a7e9e9890",
+        "sha1sum" : "213dd9d1a7e33cf3ab9700ca0af946d9e744d31e",
+        "sha256sum" : "6a48c1ecdb8a9acfe03d0b5be97c4f40aef9658b4f2fec91c3022414027b6437"
+      },
+      {
+        "name" : "BIOMD0000000156-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "13075",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "653a3b98168d4dc9afdfd3471d5340f1",
+        "sha1sum" : "cf52335c418804177f3105282af50aa2b667479b",
+        "sha256sum" : "1f9756039a7af480a514289e7de1b110db66485967f11fee3b5629c750e604cf"
+      },
+      {
+        "name" : "BIOMD0000000156-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3901",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ae4c9fa22d17112e9d28b043ec5c0641",
+        "sha1sum" : "2a2a16e72bf2bf94a9c8c35306dfbe70d420d348",
+        "sha256sum" : "1b22022ea0694a9890fd007cfd7d5242b69754a7a5f5c64ed80c6197cc860607"
+      },
+      {
+        "name" : "BIOMD0000000156-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3901",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "09159914dd66c464b565088295907157",
+        "sha1sum" : "63b21a0aacc78efa33d37e9dc47859ca5a03d428",
+        "sha256sum" : "d5de81e640244c119dd02d579d22f0e24e715bc95a4330f35634149dea12e8d6"
+      },
+      {
+        "name" : "BIOMD0000000156.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3901",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "09159914dd66c464b565088295907157",
+        "sha1sum" : "63b21a0aacc78efa33d37e9dc47859ca5a03d428",
+        "sha256sum" : "d5de81e640244c119dd02d579d22f0e24e715bc95a4330f35634149dea12e8d6"
+      },
+      {
+        "name" : "BIOMD0000000156.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2022",
+        "mimeType" : "text/plain",
+        "md5sum" : "3d1610f5f868add4f414814e0eae076f",
+        "sha1sum" : "d46bb7cb97848712d8ee0a6a611658688a2f0ba3",
+        "sha256sum" : "db778176307bd43257dc37ce3e059869fb1ec9521a32be3e95587d6a7ddab2c5"
+      },
+      {
+        "name" : "BIOMD0000000156.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "149317",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3e237a940b1150039e64fc522e9c8870",
+        "sha1sum" : "35dd4b7f6a0c890638a1cffbf35bf1f7a332fd23",
+        "sha256sum" : "141502dcfe7dc9b7fa64e77733fad1ebc1d3482d13f96381fdf6b1a1167f731b"
+      },
+      {
+        "name" : "BIOMD0000000156.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "21850",
+        "mimeType" : "image/png",
+        "md5sum" : "4204d17cdca3648c7efd0d5cb27fb259",
+        "sha1sum" : "3fff7c6e1b7c57daa5fd83a97b482470c7aba806",
+        "sha256sum" : "6bf24b1cd3c9b17e5b40295444caccc94165ce38a2543e3f63efb0aa5992e016"
+      },
+      {
+        "name" : "BIOMD0000000156.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1516",
+        "mimeType" : "text/plain",
+        "md5sum" : "5d22c961a3e075d18527c60232052811",
+        "sha1sum" : "1cdcb28b83432ea2e3d2db1f5356f456f805d9de",
+        "sha256sum" : "c0d580c4ee38be36e7b8f7d90eb67801f0860369f5a06714bff584eeeffe9eff"
+      },
+      {
+        "name" : "BIOMD0000000156.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "10654",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6856c954787c07828991da8490213d89",
+        "sha1sum" : "836857bca3e425a04621cf95cce5d642abd0f8b9",
+        "sha256sum" : "b2e38208c14f9bb1e35c6cda02350c9e6bb2d33771d43ca507ba5351da900ba1"
+      },
+      {
+        "name" : "BIOMD0000000156_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "10206",
+        "mimeType" : "application/xml",
+        "md5sum" : "bafaf4f7612c84118d3dbd35823ce14e",
+        "sha1sum" : "5de98361ade82f25db7705c9e8cd2c45db1cac7d",
+        "sha256sum" : "2cfb8beb4ebc0647af4816ca0acd604f39590bb24e3a5f8957473dd140f51e4f"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19273",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "5b2d36f08b96b9451d0397a662113d61",
+        "sha1sum" : "95323831aa3fd6c10441320a295162f670c65362",
+        "sha256sum" : "5472426d33b9957a4314fe5710b91c8069336051c58dba1ebcc6d5612600713e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "82",
+        "mimeType" : "text/plain",
+        "md5sum" : "bef65ed832ccdbb0c7993c4d58c73c17",
+        "sha1sum" : "3591b7fdb8d5e794945ca0474cdbfc13f4d146c3",
+        "sha256sum" : "3349aafee7819f48d85c9cdea8dfb4a18e6798e0971a617b8948e1f60baa3fa7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1913",
+        "mimeType" : "application/xml",
+        "md5sum" : "4c0ef9e997d0f10d39108807829a2bd5",
+        "sha1sum" : "f87c3ff276b8c2893cfcfd93c62223fe24f8b4d2",
+        "sha256sum" : "b69884f900a91abe3d9bbe0c13e393ce4ab5f220e142c251098ae4e993204e62"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3363",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f98d805f028fb259824a451894d807da",
+        "sha1sum" : "ed516e05c0559e4395aaaf1509037c523cba0e9f",
+        "sha256sum" : "d807cc088ac9de8e6339418453f38e87d5003d97383254eb053f408e7acff982"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1200346400,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Zatorsky2006_p53_Model5"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1395332930,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Zatorsky2006_p53_Model5"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268902,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284906,
+  "submissionId" : "MODEL0076384106",
+  "publicationId" : "BIOMD0000000156",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16773083",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16773083"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0030330",
+      "name" : "DNA damage response, signal transduction by p53 class mediator",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030330"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04115",
+      "name" : "p53 signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04115"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000093",
+      "name" : "MCF-7 cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000093"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0076384106",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0076384106"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000156",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000156"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "15725723",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15725723"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

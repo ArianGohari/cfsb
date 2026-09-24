@@ -1,0 +1,225 @@
+{
+  "name" : "Al-Husari2013 - pH and lactate in tumor",
+  "description" : "The paper describes a model of pH control in tumor. Created by COPASI 4.26 (Build 213) This model is described in the article: Regulation of tumour intracellular pH: A mathematical model examining the interplay between H and lactateMaymona Al-Husari, Steven D. WebbJournal of Theoretical Biology 322 (2013) 58–71 Abstract:Non-invasive measurements of pH have shown that both tumour and normal cells have intracellular pH (pHi) that lies on the alkaline side of neutrality (7.1–7.2). However, extracellular pH (pHe) is reported to be more acidic in some tumours compared to normal tissues. Many cellular processes and therapeutic agents are known to be tightly pH dependent which makes the study of intracellular pH regulation of paramount importance. We develop a mathematical model that examines the role of various membrane-based ion transporters in tumour pH regulation, in particular, with a focus on the interplay between lactate and H ions and whether the lactate/H symporter activity is sufficient to give rise to the observed reversed pH gradient that is seen is some tumours. Using linear stability analysis and H ions. We extend this analysis using perturbation techniques to specifically examine a rapid change in H-ion concentrations relative to variations in lactate. We then perform a parameter sensitivity analysis to explore solution robustness to parameter variations. An important result from our study is that a reversed pH gradient is possible in our system but for unrealistic parameter estimates—pointing to the possible involvement of other mechanisms in cellular pH gradient reversal, for example acidic vesicles, lysosomes, golgi and endosomes.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23340437",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Regulation of tumour intracellular pH: a mathematical model examining the interplay between H+ and lactate.",
+    "affiliation" : "Department of Mathematics and Statistics, University of Strathclyde, Glasgow G1 1XH, UK.",
+    "synopsis" : "Non-invasive measurements of pH have shown that both tumour and normal cells have intracellular pH (pHi) that lies on the alkaline side of neutrality (7.1-7.2). However, extracellular pH (pHe) is reported to be more acidic in some tumours compared to normal tissues. Many cellular processes and therapeutic agents are known to be tightly pH dependent which makes the study of intracellular pH regulation of paramount importance. We develop a mathematical model that examines the role of various membrane-based ion transporters in tumour pH regulation, in particular, with a focus on the interplay between lactate and H(+) ions and whether the lactate/H(+) symporter activity is sufficient to give rise to the observed reversed pH gradient that is seen is some tumours. Using linear stability analysis and numerical methods, we are able to gain a clear understanding of the relationship between lactate and H(+) ions. We extend this analysis using perturbation techniques to specifically examine a rapid change in H(+)-ion concentrations relative to variations in lactate. We then perform a parameter sensitivity analysis to explore solution robustness to parameter variations. An important result from our study is that a reversed pH gradient is possible in our system but for unrealistic parameter estimates-pointing to the possible involvement of other mechanisms in cellular pH gradient reversal, for example acidic vesicles, lysosomes, golgi and endosomes.",
+    "year" : 2013,
+    "month" : "4",
+    "volume" : "322",
+    "pages" : "58-71",
+    "link" : "http://identifiers.org/pubmed/23340437",
+    "authors" : [
+      {
+        "name" : "Maymona Al-Husari",
+        "institution" : "Department of Mathematics and Statistics, University of Strathclyde, Glasgow G1 1XH, UK."
+      },
+      {
+        "name" : "Steven D Webb"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Al-Husari2013.xml",
+        "description" : "SBML L3V1 representation of tumour pH control model",
+        "fileSize" : "67584",
+        "mimeType" : "application/xml",
+        "md5sum" : "0d46db6c5db44a5ae74ee2936d6be44b",
+        "sha1sum" : "beae51a54ad277b9a73dc82bc86fe24da7b70c1f",
+        "sha256sum" : "38a61f187933dd203908ac58fcfd822609949cd0d1cd21d7159981610f6f53c6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Al-Husari2013-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "13393",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b97eb11a237b9e3cb3f81e77140c76ee",
+        "sha1sum" : "1e03855866928083403a156ae01a73978b7c5e9c",
+        "sha256sum" : "f232199c37dc7806320a8f29a5f27fa7429483001b4ecd4399450fe89fed4207"
+      },
+      {
+        "name" : "Al-Husari2013-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "20018",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "af9f89d046382132b0d1d3cd1a812bab",
+        "sha1sum" : "1bf270a4377040d595e1acf4141a860170c290e5",
+        "sha256sum" : "e5129242c91d331498dfa2c643e3229cb2ab352ca43b0a252bd6cc718e6bfd49"
+      },
+      {
+        "name" : "Al-Husari2013-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5388",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b626ae890509979320cc0f2eb76e9ff9",
+        "sha1sum" : "3b364424d87d6c3aa88b5a4870fc5ab94e4fab27",
+        "sha256sum" : "27d6b56b322d09669c6820f7d697f0db43a142b5e86990314999518b5826b422"
+      },
+      {
+        "name" : "Al-Husari2013-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5388",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "abe0cc4d2f9f0e99f6726351a1eecbb8",
+        "sha1sum" : "be6be18f666b30a7dcdecd9e1f5dbbed0769d6b9",
+        "sha256sum" : "aec015d7e40a9d03b904cd907bb6c7104cdedc3fa2b670d32f6de5c21c995ef0"
+      },
+      {
+        "name" : "Al-Husari2013.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "86781",
+        "mimeType" : "application/xml",
+        "md5sum" : "c9e2383a80ab3d28432a38257d460902",
+        "sha1sum" : "c5765e33735ae7a811c6ab455ee74d294a1d2dbd",
+        "sha256sum" : "ada776af84a9778b3575b44cb13051c930d6d8032aba874aa3fe417e1ef3519b"
+      },
+      {
+        "name" : "Al-Husari2013.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3878",
+        "mimeType" : "text/plain",
+        "md5sum" : "a7adf36c7300e626022dcd9860cfb95c",
+        "sha1sum" : "0c974326157c1f0440cf57a3696e44d4a2279bc8",
+        "sha256sum" : "dcf63d1f6add02c05025b53ae007901003572d25417bb81aadfcc1d1d04a7bbd"
+      },
+      {
+        "name" : "Al-Husari2013.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "16770",
+        "mimeType" : "application/xml",
+        "md5sum" : "bff8961f82e1f9e6fcc12dff11b4854c",
+        "sha1sum" : "aaeff4432f932e82b43b9dfa1ef7a29e0ba24ef5",
+        "sha256sum" : "e1147548d2fcee4684535d3d1dd6e988e0725a1c66f1594a4ed0c59198715a08"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8881",
+        "mimeType" : "image/png",
+        "md5sum" : "aa6bec3fb7dbb99525e4bbb6d648f921",
+        "sha1sum" : "25105c79af7b055686e9332015a303ee1a301094",
+        "sha256sum" : "1788d3c7a6b44ec9eca80b6e4be7f9e02c72c7369880e9299679cde04b9ff16d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "89",
+        "mimeType" : "text/plain",
+        "md5sum" : "7a307e8ae133627c9d1a646203f58ca2",
+        "sha1sum" : "d76fd35c159a29ee743d1fda109b921d1eed9f9d",
+        "sha256sum" : "65bb83391334d7b306fd4da53027ea2d1eaf20aa0d1b305b20b7f831f6fb666d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1435",
+        "mimeType" : "application/xml",
+        "md5sum" : "95d568ed5b57a490799e07aa7277e0fd",
+        "sha1sum" : "81f8b866e2f103c7ff9527099d7b07abb4f0e9a5",
+        "sha256sum" : "30932c16f06008af5b58965bb6ee67f272e92b56b905c1971592e1a0ebd2e0b6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3754",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4c8a94d7ca64c91c9a47237129703502",
+        "sha1sum" : "a663a9a4e6062d07dbb3edf3a95c910949faad4e",
+        "sha256sum" : "453d4ee9e1697744946fbc63b2b363e3b546ac126404a3bf23a009dea9f27ca3"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1567516450,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000805"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724289984,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285505,
+  "submissionId" : "MODEL1909030001",
+  "publicationId" : "BIOMD0000000805",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23340437",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23340437"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000805",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000805"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909030001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909030001"
+    }
+  ]
+}

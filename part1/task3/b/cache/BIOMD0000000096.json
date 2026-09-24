@@ -1,0 +1,286 @@
+{
+  "name" : "Zeilinger2006_PRR7-PRR9light-Y",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces the time profile of cYm and cTm under light-dark cycles as depicted in Fig 4 and Fig 5  respectively. 12 hour light-dark cycles are accomplished using a simple algorithm in the event section. The model was successfully tested using MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17102803",
+    "journal" : "Molecular systems biology",
+    "title" : "A novel computational model of the circadian clock in Arabidopsis that incorporates PRR7 and PRR9.",
+    "affiliation" : "Department of Chemical Engineering, University of California, Santa Barbara, CA 93106-5080, USA.",
+    "synopsis" : "In plants, as in animals, the core mechanism to retain rhythmic gene expression relies on the interaction of multiple feedback loops. In recent years, molecular genetic techniques have revealed a complex network of clock components in Arabidopsis. To gain insight into the dynamics of these interactions, new components need to be integrated into the mathematical model of the plant clock. Our approach accelerates the iterative process of model identification, to incorporate new components, and to systematically test different proposed structural hypotheses. Recent studies indicate that the pseudo-response regulators PRR7 and PRR9 play a key role in the core clock of Arabidopsis. We incorporate PRR7 and PRR9 into an existing model involving the transcription factors TIMING OF CAB (TOC1), LATE ELONGATED HYPOCOTYL (LHY) and CIRCADIAN CLOCK ASSOCIATED (CCA1). We propose candidate models based on experimental hypotheses and identify the computational models with the application of an optimization routine. Validation is accomplished through systematic analysis of various mutant phenotypes. We introduce and apply sensitivity analysis as a novel tool for analyzing and distinguishing the characteristics of proposed architectures, which also allows for further validation of the hypothesized structures.",
+    "year" : 2006,
+    "month" : "0",
+    "volume" : "2",
+    "pages" : "58",
+    "link" : "http://identifiers.org/pubmed/17102803",
+    "authors" : [
+      {
+        "name" : "Melanie N Zeilinger",
+        "institution" : "Department of Chemical Engineering, University of California, Santa Barbara, CA 93106-5080, USA."
+      },
+      {
+        "name" : "Eva M Farré",
+        "orcid" : "0000-0003-1566-7572"
+      },
+      {
+        "name" : "Stephanie R Taylor"
+      },
+      {
+        "name" : "Steve A Kay"
+      },
+      {
+        "name" : "Francis J Doyle"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000096_url.xml",
+        "description" : "SBML L2V1 representation of Zeilinger2006_PRR7-PRR9light-Y",
+        "fileSize" : "88038",
+        "mimeType" : "application/xml",
+        "md5sum" : "04b9ac7c6b6f1938b2a50145d2110ca3",
+        "sha1sum" : "e7c68fb8745c8449ea3f892e4c86945917d88b68",
+        "sha256sum" : "8c05e83e136cf83320272eedc59dac5b9a01f5e3c0c39fab57bab538bb98d702"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000096-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "44964",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d5b348d11bb61a90d6434634e8de506f",
+        "sha1sum" : "27eb7dccdbeb96452caa6425e700c14d8fbb68c5",
+        "sha256sum" : "2ccdae2a93fcc9c6f7902b1a2663ff9b4031335bd4df11b9acdfe2810375fc23"
+      },
+      {
+        "name" : "BIOMD0000000096-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "70882",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8f035d699da074684a60a0d5e5ab13b4",
+        "sha1sum" : "c3c379c0c0316d81c1e36fd04d5003f40ce51a1f",
+        "sha256sum" : "f89338c4f636ae12e0fe459959a1c0d2003945a99541928c2cc46baa4c5aa99a"
+      },
+      {
+        "name" : "BIOMD0000000096-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "18515",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4a399d1fa794a4d982aabef2087c1480",
+        "sha1sum" : "26fa99d14ba64e72decd19b9bb6162987ff2df32",
+        "sha256sum" : "a0822dd7c831b98df3cfc98d8c66788e04e17c00582c5895a90d3bcf5092a1f0"
+      },
+      {
+        "name" : "BIOMD0000000096-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "18515",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b37cc4aed8c4a286b59dc1df9ccf0843",
+        "sha1sum" : "53fabdba4226f943a829d8573e2364260808ea5d",
+        "sha256sum" : "2ef42d88be6c3fb09bfbfdc217f23be1d2180dc10c7125dd3a11fb0f74ba2d83"
+      },
+      {
+        "name" : "BIOMD0000000096.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "18515",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b37cc4aed8c4a286b59dc1df9ccf0843",
+        "sha1sum" : "53fabdba4226f943a829d8573e2364260808ea5d",
+        "sha256sum" : "2ef42d88be6c3fb09bfbfdc217f23be1d2180dc10c7125dd3a11fb0f74ba2d83"
+      },
+      {
+        "name" : "BIOMD0000000096.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "297072",
+        "mimeType" : "application/pdf",
+        "md5sum" : "fc69c65d469f672c22bc5d1b890e6aca",
+        "sha1sum" : "91ee05285279c3392a8f76c777297905e41c478f",
+        "sha256sum" : "e4628a30b5a31ce42b7b6769be7b1e9b39229849d42264da30639228af67f208"
+      },
+      {
+        "name" : "BIOMD0000000096.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "244043",
+        "mimeType" : "image/png",
+        "md5sum" : "bdeea75d48ea2e4ab89266841dc77169",
+        "sha1sum" : "1ed571bcce1217e7f252b6958296ec639a9db3f0",
+        "sha256sum" : "a34a19584e957ded875d9fd062fcc517d9fcecec1069d64edd490fa0575d674c"
+      },
+      {
+        "name" : "BIOMD0000000096.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "86418",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "dbca16e2edfe71008d684067ce137c2d",
+        "sha1sum" : "78b1e28ad8129fa552e48d0f8dd63a03a43861a1",
+        "sha256sum" : "04f1bfb2c9f451c8e5664e8840477694a373598c7dd57cf5bea7be19dc143b45"
+      },
+      {
+        "name" : "BIOMD0000000096.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "110496",
+        "mimeType" : "application/xml",
+        "md5sum" : "929a660380df5a747691f29cd94d6b17",
+        "sha1sum" : "52676d27cf705ab550f06d31918f14da705a2f10",
+        "sha256sum" : "fbea3803d97002f6f531fbbe6c80f981313d4aaf104bc93840f67b5d812be349"
+      },
+      {
+        "name" : "BIOMD0000000096_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "83596",
+        "mimeType" : "application/xml",
+        "md5sum" : "d289e323c80e510a3801af9232d15850",
+        "sha1sum" : "098a358475d9b6b0965950b0a22be6e1590595a6",
+        "sha256sum" : "e67121db11071b0347e4e06e50dc7551de59c6ef92f315d190a45020ab2f4efd"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "29628",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "0d8bf50341a03c1b18e6e273431f566e",
+        "sha1sum" : "b5b2b85e6325a1534017619bd4ccf62630091d3f",
+        "sha256sum" : "92d32625d924fd358d5f43ccae704c2323ece04a4c48b770968bc379c31b5305"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "113",
+        "mimeType" : "text/plain",
+        "md5sum" : "0dd8f453c5d97bcd99603f52fdf06990",
+        "sha1sum" : "2b0c03f91503a96af8950993ed7ebb53330b1a58",
+        "sha256sum" : "913abef71b0434202dff736aae41234102de7f66efb922ad73541a8fc1f8c36d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1803",
+        "mimeType" : "application/xml",
+        "md5sum" : "d624e6c8d0a6a00ed9c80219b00691f8",
+        "sha1sum" : "efa7348a22b248fa5190daeeead1c43f901568fd",
+        "sha256sum" : "83864447461c342ebf44d96d10a5deb7e07d25ba9fd63803d24d1ebe6be37b83"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3053",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c825a345b6399a9f5073541f6e2c92c4",
+        "sha1sum" : "b8af8367370f5fdc97eb78e5a22bf1b001bb1c2d",
+        "sha256sum" : "b1848b5d0592b4952676a2d48917a6be406a46c380e8f7cc49236d5ab3cbad52"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1173824794,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Original import of PRR7-PRR9light-Y"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341503228,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Current version of Zeilinger2006_PRR7-PRR9light-Y"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267311,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284876,
+  "submissionId" : "MODEL4025634026",
+  "publicationId" : "BIOMD0000000096",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Molecular Systems Biology",
+        "email" : "msbforum@embo.org",
+        "affiliation" : "Nature Publishing Group",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4025634026",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4025634026"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000096",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000096"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17102803",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17102803"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000055",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000055"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007623",
+      "name" : "circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007623"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "ath04710",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ath04710"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3701",
+      "name" : "Arabidopsis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3701"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

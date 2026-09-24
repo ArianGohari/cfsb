@@ -1,0 +1,241 @@
+{
+  "name" : "Parra_Guillen2013 -  Mathematical model approach to describe tumour response in mice after vaccine administration_model1",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Mathematical model approach to describe tumour response in mice after vaccine administration and its applicability to immune-stimulatory cytokine-based strategies.Parra-Guillen ZP1, Berraondo P, Grenier E, Ribba B, Troconiz IF.Author informationAbstractImmunotherapy is a growing therapeutic strategy in oncology based on the stimulation of innate and adaptive immune systems to induce the death of tumour cells. In this paper, we have developed a population semi-mechanistic model able to characterize the mechanisms implied in tumour growth dynamic after the administration of CyaA-E7, a vaccine able to target antigen to dendritic cells, thus triggering a potent immune response. The mathematical model developed presented the following main components: (1) tumour progression in the animals without treatment was described with a linear model, (2) vaccine effects were modelled assuming that vaccine triggers a non-instantaneous immune response inducing cell death. Delayed response was described with a series of two transit compartments, (3) a resistance effect decreasing vaccine efficiency was also incorporated through a regulator compartment dependent upon tumour size, and (4) a mixture model at the level of the elimination of the induced signal vaccine (k 2) to model tumour relapse after treatment, observed in a small percentage of animals (15.6%). The proposed model structure was successfully applied to describe antitumor effect of IL-12, suggesting its applicability to different immune-stimulatory therapies. In addition, a simulation exercise to evaluate in silico the impact on tumour size of possible combination therapies has been shown. This type of mathematical approaches may be helpful to maximize the information obtained from experiments in mice, reducing the number of animals and the cost of developing new antitumor immunotherapies.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23605806",
+    "journal" : "The AAPS journal",
+    "title" : "Mathematical model approach to describe tumour response in mice after vaccine administration and its applicability to immune-stimulatory cytokine-based strategies.",
+    "affiliation" : "Department of Pharmacy and Pharmaceutical Technology, School of Pharmacy, University of Navarra, C/Irunlarrea 1, 31008, Pamplona, Navarra, Spain.",
+    "synopsis" : "Immunotherapy is a growing therapeutic strategy in oncology based on the stimulation of innate and adaptive immune systems to induce the death of tumour cells. In this paper, we have developed a population semi-mechanistic model able to characterize the mechanisms implied in tumour growth dynamic after the administration of CyaA-E7, a vaccine able to target antigen to dendritic cells, thus triggering a potent immune response. The mathematical model developed presented the following main components: (1) tumour progression in the animals without treatment was described with a linear model, (2) vaccine effects were modelled assuming that vaccine triggers a non-instantaneous immune response inducing cell death. Delayed response was described with a series of two transit compartments, (3) a resistance effect decreasing vaccine efficiency was also incorporated through a regulator compartment dependent upon tumour size, and (4) a mixture model at the level of the elimination of the induced signal vaccine (k 2) to model tumour relapse after treatment, observed in a small percentage of animals (15.6%). The proposed model structure was successfully applied to describe antitumor effect of IL-12, suggesting its applicability to different immune-stimulatory therapies. In addition, a simulation exercise to evaluate in silico the impact on tumour size of possible combination therapies has been shown. This type of mathematical approaches may be helpful to maximize the information obtained from experiments in mice, reducing the number of animals and the cost of developing new antitumor immunotherapies.",
+    "year" : 2013,
+    "month" : "7",
+    "volume" : "15",
+    "issue" : "3",
+    "pages" : "797-807",
+    "link" : "http://identifiers.org/pubmed/23605806",
+    "authors" : [
+      {
+        "name" : "Zinnia P Parra-Guillen",
+        "institution" : "Department of Pharmacy and Pharmaceutical Technology, School of Pharmacy, University of Navarra, C/Irunlarrea 1, 31008, Pamplona, Navarra, Spain.",
+        "orcid" : "0000-0003-1503-2710"
+      },
+      {
+        "name" : "Pedro Berraondo",
+        "orcid" : "0000-0001-7410-1865"
+      },
+      {
+        "name" : "Emmanuel Grenier"
+      },
+      {
+        "name" : "Benjamin Ribba"
+      },
+      {
+        "name" : "Iñaki F Troconiz",
+        "orcid" : "0000-0003-3700-8658"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Parra_Guillen2013.xml",
+        "description" : "SBML L2V4 Parra_Guillen2013 -  Mathematical model approach to describe tumour response in mice after vaccine administration_model1",
+        "fileSize" : "39312",
+        "mimeType" : "application/xml",
+        "md5sum" : "265cf39b0eca39fdfc3ab4eeca9dacff",
+        "sha1sum" : "59394e540a1ff5d5414f10d3b44a9703f493aaa6",
+        "sha256sum" : "84cf188ace050e072a73671f7f15dc39c326def096fe9449b95ac4f432627561"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Parra_Guillen2013-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "12115",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6895bf88353efc6eb6129f66382449e6",
+        "sha1sum" : "aab3027138ad7ca9eac31487df393df4ddfecf16",
+        "sha256sum" : "1c77f521a7bee8d4e87bc10bb4121c027ff3ffdaaa505fe241085e9abbad0afc"
+      },
+      {
+        "name" : "Parra_Guillen2013-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "17687",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c1ac58b014bac741c7ec9fed5ae79d51",
+        "sha1sum" : "6a0c265c5e49af894d9c3ed55907fcf1c38bb5e4",
+        "sha256sum" : "cd08b32ecfc7d38d85a8d4c686531fb624f2b9a77008b3ef27517b9e9f4d0f03"
+      },
+      {
+        "name" : "Parra_Guillen2013-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7077",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "452511ab2562e66c82dc215bcea19e2c",
+        "sha1sum" : "263081d4cf133693b81387f7cdfc9cc3b1597fc0",
+        "sha256sum" : "12c2dd9c9cc5e52caf4fbcc377b8937ac143da1a497da3fb6fa5a08bb4fdbc60"
+      },
+      {
+        "name" : "Parra_Guillen2013-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7077",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c32c149bea70db4b935e63ad82800edd",
+        "sha1sum" : "40c80a3638b3cf268d4aa43e29e6f04f9a668156",
+        "sha256sum" : "736fef79a94444bffe33d9c1573f884ef17ccacd894b3f06391143a2c7c50084"
+      },
+      {
+        "name" : "Parra_Guillen2013.cps",
+        "description" : "COPASI version 4.24 (Build 197) Parra_Guillen2013 -  Mathematical model approach to describe tumour response in mice after vaccine administration_model1",
+        "fileSize" : "72862",
+        "mimeType" : "application/xml",
+        "md5sum" : "31aa0929e10c5c98393e6bdddaa27f58",
+        "sha1sum" : "f8e2fac2890024fd7700ed8ff6aa2eaacebfcd00",
+        "sha256sum" : "6c5c6a62fdc64cd77d2a6ae0a1aea4c48e3ece7b6b86d6ed4478809fc2790bbc"
+      },
+      {
+        "name" : "Parra_Guillen2013.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5064",
+        "mimeType" : "text/plain",
+        "md5sum" : "430c50a25ba497f3c5d855765cc33de7",
+        "sha1sum" : "0415a0240f253b184be7402a8a4ab879ae44de4a",
+        "sha256sum" : "a2f097319c8962a7c1028d65dfb62595d8e4aaf4f98a72c2704fae8cbd48cb6d"
+      },
+      {
+        "name" : "Parra_Guillen2013.sedml",
+        "description" : "SEDML L1V2 Dubey2007 - Parra_Guillen2013 -  Mathematical model approach to describe tumour response in mice after vaccine administration_model1 (additionally CRBM-validated and adjusted).",
+        "fileSize" : "17588",
+        "mimeType" : "application/xml",
+        "md5sum" : "6bbd4bf8e51db458ec973470fbcc2428",
+        "sha1sum" : "f071b605001e99cae9279e0e1709f7a3ad5b4b8f",
+        "sha256sum" : "1872634d741de62730cdefd4b0afc9a9aea88a30e03cc99954a014e34f4e6a01"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "146083",
+        "mimeType" : "image/png",
+        "md5sum" : "9f8ad3cf6c4d97c82a9c601950c6064c",
+        "sha1sum" : "bfb2bced8e5ab20e12e09751ed4316b19734905a",
+        "sha256sum" : "3c5b7f0d657b9a24fadd8883af688f4407b6e9e9b511b2e6b9e1a4910fcd4f68"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "294",
+        "mimeType" : "text/plain",
+        "md5sum" : "7db26c28bd59966efd5cb79e143dd35d",
+        "sha1sum" : "c4d7bf560a756741b352772187146ea15268530b",
+        "sha256sum" : "3fc83143dc498bde57db2e9056c2024c515cd06f9ac84d9c865d51414dac687f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1467",
+        "mimeType" : "application/xml",
+        "md5sum" : "979335ad6b2496901f016a9558273092",
+        "sha1sum" : "85da9c95b5296bc2a78a9dd6a949150caffbff23",
+        "sha256sum" : "1f162f27eff04bc4509aa7b79617be3e7e1313812a41684b32f5edc59a8b01a9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3723",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9c145c770d0f4f35ef129be7662418db",
+        "sha1sum" : "714b306ece81ca1ffe4baf98aba78dacf4a4bb1c",
+        "sha256sum" : "f413a1b2111c56602a718ff6da5315b7e052697866ee2ce1362436e961858cdd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1579703862,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000914"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724292787,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285537,
+  "submissionId" : "MODEL2001220002",
+  "publicationId" : "BIOMD0000000914",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mohammad Umer Sharif Shohan",
+        "email" : "msharifshohan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0003-3985-2879",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23605806",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23605806"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2001220002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2001220002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000914",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000914"
+    }
+  ]
+}

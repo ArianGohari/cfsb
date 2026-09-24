@@ -1,0 +1,291 @@
+{
+  "name" : "Pokhilko2010_CircClock",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Data assimilation constrains new connections and components in a complex, eukaryotic circadian clock model.</strong>        <br />Pokhilko A, Hodge SK, Stratford K, Knox K, Edwards KD, Thomson AW, Mizuno T, Millar AJ.      <em>Mol Syst Biol.</em>2010 Sep 21;6:416.       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20865009\">20865009</a>,      <br />        <strong>Abstract:</strong>        <br />Circadian clocks generate 24-h rhythms that are entrained by the day/night cycle. Clock circuits include several light inputs and interlocked feedback loops, with complex dynamics. Multiple biological components can contribute to each part of the circuit in higher organisms. Mechanistic models with morning, evening and central feedback loops have provided a heuristic framework for the clock in plants, but were based on transcriptional control. Here, we model observed, post-transcriptional and post-translational regulation and constrain many parameter values based on experimental data. The model's feedback circuit is revised and now includes PSEUDO-RESPONSE REGULATOR 7 (PRR7) and ZEITLUPE. The revised model matches data in varying environments and mutants, and gains robustness to parameter variation. Our results suggest that the activation of important morning-expressed genes follows their release from a night inhibitor (NI). Experiments inspired by the new model support the predicted NI function and show that the PRR5 gene contributes to the NI. The multiple PRR genes of Arabidopsis uncouple events in the late night from light-driven responses in the day, increasing the flexibility of rhythmic regulation.   </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20865009",
+    "journal" : "Molecular systems biology",
+    "title" : "Data assimilation constrains new connections and components in a complex, eukaryotic circadian clock model.",
+    "affiliation" : "School of Biological Sciences, University of Edinburgh, Mayfield Road, Edinburgh, UK.",
+    "synopsis" : "Circadian clocks generate 24-h rhythms that are entrained by the day/night cycle. Clock circuits include several light inputs and interlocked feedback loops, with complex dynamics. Multiple biological components can contribute to each part of the circuit in higher organisms. Mechanistic models with morning, evening and central feedback loops have provided a heuristic framework for the clock in plants, but were based on transcriptional control. Here, we model observed, post-transcriptional and post-translational regulation and constrain many parameter values based on experimental data. The model's feedback circuit is revised and now includes PSEUDO-RESPONSE REGULATOR 7 (PRR7) and ZEITLUPE. The revised model matches data in varying environments and mutants, and gains robustness to parameter variation. Our results suggest that the activation of important morning-expressed genes follows their release from a night inhibitor (NI). Experiments inspired by the new model support the predicted NI function and show that the PRR5 gene contributes to the NI. The multiple PRR genes of Arabidopsis uncouple events in the late night from light-driven responses in the day, increasing the flexibility of rhythmic regulation.",
+    "year" : 2010,
+    "month" : "9",
+    "volume" : "6",
+    "pages" : "416",
+    "link" : "http://identifiers.org/pubmed/20865009",
+    "authors" : [
+      {
+        "name" : "Alexandra Pokhilko",
+        "institution" : "School of Biological Sciences, University of Edinburgh, Mayfield Road, Edinburgh, UK."
+      },
+      {
+        "name" : "Sarah K Hodge"
+      },
+      {
+        "name" : "Kevin Stratford"
+      },
+      {
+        "name" : "Kirsten Knox",
+        "orcid" : "0000-0002-5487-1763"
+      },
+      {
+        "name" : "Kieron D Edwards",
+        "orcid" : "0000-0002-7202-4082"
+      },
+      {
+        "name" : "Adrian W Thomson"
+      },
+      {
+        "name" : "Takeshi Mizuno"
+      },
+      {
+        "name" : "Andrew J Millar",
+        "orcid" : "0000-0003-1756-3654"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000273_url.xml",
+        "description" : "SBML L2V4 representation of Pokhilko2010_CircClock",
+        "fileSize" : "129409",
+        "mimeType" : "application/xml",
+        "md5sum" : "bd451475d885e8c54cb96481083dbe91",
+        "sha1sum" : "ee1045ed31a8ac4e60d746485988f7e53c632d67",
+        "sha256sum" : "1159ea79abd9e42f3ce479b95a5a9c3bd6c333a637565c3e03f0390d777c71ca"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000273-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "37732",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d072a952af53fc3c6ea45b1444262fbb",
+        "sha1sum" : "73b772b8b96b3fb36878b53a70e012cfcd592ffb",
+        "sha256sum" : "60e75aa7d434d91e815efdef7ef331e5b0a9e9fa88319d396d425a0cff4095b4"
+      },
+      {
+        "name" : "BIOMD0000000273-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "57459",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "acf403f0594c9bc8995da3bdff73826f",
+        "sha1sum" : "638b1280a801fbbe46c800f297a64bf9ba2d1333",
+        "sha256sum" : "a7f7444c2745a2b3e84c4c47b6aa863e7dcbbb0d0a1be33afdacb3dda55f5249"
+      },
+      {
+        "name" : "BIOMD0000000273-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "21823",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "511dea7fc219c8dc85339803a2a3cb31",
+        "sha1sum" : "e7df95f42cb7b0958b51e47029cf715b43d06c8e",
+        "sha256sum" : "31333bb2960381dc3d09364aa5ce8b2d1cac3bc6888cdfd5aff4ecc61b55176a"
+      },
+      {
+        "name" : "BIOMD0000000273-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "21823",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d132bda4b4201d2ba2322e083b9dcae7",
+        "sha1sum" : "b95d7e6699fa92a1a02b1e5de9997cd00931347f",
+        "sha256sum" : "3502111aa751ddde5f9ee85b5d8abdc04e05789551982bf46e6545432c9da46f"
+      },
+      {
+        "name" : "BIOMD0000000273.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "21823",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d132bda4b4201d2ba2322e083b9dcae7",
+        "sha1sum" : "b95d7e6699fa92a1a02b1e5de9997cd00931347f",
+        "sha256sum" : "3502111aa751ddde5f9ee85b5d8abdc04e05789551982bf46e6545432c9da46f"
+      },
+      {
+        "name" : "BIOMD0000000273.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "18767",
+        "mimeType" : "text/plain",
+        "md5sum" : "6656798a50781e9c5cc5545a55f8d5e5",
+        "sha1sum" : "49f2d57b249b5fa89beb134e0e8a77713b9865f8",
+        "sha256sum" : "5aacfd6b9850382a60bf5c26c268fe49ac7cc2f553e95bfb6d7e6a81725115cc"
+      },
+      {
+        "name" : "BIOMD0000000273.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "353055",
+        "mimeType" : "application/pdf",
+        "md5sum" : "a45d68a1aa782639edb593bdc4f8dfe8",
+        "sha1sum" : "f30ef3f4cdb73829454541bee8c40d6e702a2cfd",
+        "sha256sum" : "a482b3ed91dfd4d047743eea818bc5d78af2a16309b5c98ed3cdfaae9396fdf2"
+      },
+      {
+        "name" : "BIOMD0000000273.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "273145",
+        "mimeType" : "image/png",
+        "md5sum" : "71f4ec16901afc1a2691f373bb985842",
+        "sha1sum" : "8307ba809921eb271b4e936c3c01df7a00955634",
+        "sha256sum" : "389f87b6e18f7278de979bfbedd65ca8e55339eaf380e3005b4f60bacf5befec"
+      },
+      {
+        "name" : "BIOMD0000000273.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "84000",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2f58f8dc6da1f0d54b9db7e40288695a",
+        "sha1sum" : "ac67fca4a185cb2ca1a2e5f2faa2e33cbf5cc0ce",
+        "sha256sum" : "b7965c48ae9f569fd484e337515f994d3f7d53f1ea014cdf98b9ef58b0e1e623"
+      },
+      {
+        "name" : "BIOMD0000000273_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "83162",
+        "mimeType" : "application/xml",
+        "md5sum" : "4e7c0112fd30be7c198b9783125f3ee1",
+        "sha1sum" : "43b0f91e4ae05f8ba5a753d4cc0c05e0e5606fa9",
+        "sha256sum" : "9fa405d599c11830b355558fd0de788423f2c70be14b0ab2e55f050bccd1419e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "26095",
+        "mimeType" : "image/png",
+        "md5sum" : "bf04952bddfb3a86345206476345a78e",
+        "sha1sum" : "a943e11981718b67a30b108fff3a2825ec05b6f7",
+        "sha256sum" : "29b3a5b84d16f2a3116a523fd28e4df8e4aa3ef7fb64bcf492d2286c17c07aca"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "132",
+        "mimeType" : "text/plain",
+        "md5sum" : "e594dbb9c166fa9f7d2d88e377feaad0",
+        "sha1sum" : "11f2aabfeb4d9f70f704430f12648a77cce86614",
+        "sha256sum" : "ccc8f0c9c4cbc3e4e5eee9bba96909a309363ab61c2964ebc30723e709c556b8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "d75f16031ed8d42f27a981bb82c684db",
+        "sha1sum" : "99458240bc283b8eba8d69fd37c8ee07baa925ef",
+        "sha256sum" : "a825adb1793d4c601e48698e9a3bea8c16dc467e3ce83474059b486a28a78b89"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3689",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d34d04c6ffa927bd2fe3ce35fd2fd815",
+        "sha1sum" : "a4b48839accc737b47d46d8eb1092d10fc7eb49b",
+        "sha256sum" : "6a4dd5bf447853dc67fc5d2e9ce0eb08750bee3eadca1d8458b7c9b271d08123"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1279991087,
+        "submitter" : "Alexandra Pokhilko",
+        "comment" : "Original import of Alex"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135929,
+        "submitter" : "Alexandra Pokhilko",
+        "comment" : "Current version of Pokhilko2010_CircClock"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272153,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284991,
+  "submissionId" : "MODEL1007240000",
+  "publicationId" : "BIOMD0000000273",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Alexandra Pokhilko",
+        "email" : "apokhilk@staffmail.ed.ac.uk",
+        "affiliation" : "Edinburgh University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1007240000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1007240000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000273",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000273"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20865009",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20865009"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000089",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000089"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

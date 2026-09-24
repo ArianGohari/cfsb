@@ -1,0 +1,308 @@
+{
+  "name" : "Mueller2008_ThrombinGeneration_minimal",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17936855",
+    "journal" : "Mathematical biosciences",
+    "title" : "Tolerance and threshold in the extrinsic coagulation system.",
+    "affiliation" : "Technical University Munich, Centre for Mathematical Sciences, Boltzmannstr. 3, D-85748 Garching/Munich, Germany. johannes.mueller@gsf.de",
+    "synopsis" : "This paper focus on the quest for mechanisms that are able to create tolerance and an activation threshold in the extrinsic coagulation cascade. We propose that the interplay of coagulation inhibitor and blood flow creates threshold behavior. First we test this hypothesis in a minimal, four dimensional model. This model can be analysed by means of time scale analysis. We find indeed that only the interplay of blood flow and inhibition together are able to produce threshold behavior. The mechanism relays on a combination of raw substance supply and wash-out effect by the blood flow and a stabilization of the resting state by the inhibition. We use the insight into this minimal model to interpret the simulation results of a large model. Here, we find that the initiating steps (TF that produces together with fVII(a) factor Xa) does not exhibit threshold behavior, but the overall system does. Hence, the threshold behavior appears via the feedback loop (in that fIIa produces indirectly fXa that in turn produces fIIa again) inhibited by ATIII and blood flow.",
+    "year" : 2008,
+    "month" : "2",
+    "volume" : "211",
+    "issue" : "2",
+    "pages" : "226-254",
+    "link" : "http://identifiers.org/pubmed/17936855",
+    "authors" : [
+      {
+        "name" : "Johannes Müller",
+        "institution" : "Technical University Munich, Centre for Mathematical Sciences, Boltzmannstr. 3, D-85748 Garching/Munich, Germany. johannes.mueller@gsf.de"
+      },
+      {
+        "name" : "Stefan Brandt"
+      },
+      {
+        "name" : "Katrin Mayerhofer"
+      },
+      {
+        "name" : "Thorsten Tjardes"
+      },
+      {
+        "name" : "Marc Maegele"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000367_url.xml",
+        "description" : "SBML L2V4 representation of Mueller2008_ThrombinGeneration_minimal",
+        "fileSize" : "6836",
+        "mimeType" : "application/xml",
+        "md5sum" : "45b22dc8def600a34b3f621dc4992909",
+        "sha1sum" : "6215ea8198a9f351130ca306fb3092e3187c81bd",
+        "sha256sum" : "e3a07138c38ee43954cdebe67431d2022e52f92e1b50124f19e725d19770a146"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000367-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3905",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5dbf9b7e0e65ffce2dff0ecbdd58dece",
+        "sha1sum" : "5db2379300b812dfa980c12246f6125e94ed4a1a",
+        "sha256sum" : "3ff87fceb80e352bb8d83b2c8ffb57763803528d764ab6033b5381513d4ec2ed"
+      },
+      {
+        "name" : "BIOMD0000000367-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "4283",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5c71304a97f25d6035940d816eef5cab",
+        "sha1sum" : "ce985caaf01cbe4941cf18886c8006049e1e4bf4",
+        "sha256sum" : "0b947b5aa779f682e4ef2fb6cbdcc4fb63f96d29a777979bd8e81e4cb13c0e51"
+      },
+      {
+        "name" : "BIOMD0000000367-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3672",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b511d9fb85b3a77766517020a5055420",
+        "sha1sum" : "e4d1e86f200f30b4720ebbe1ce20182bf0286a1e",
+        "sha256sum" : "b08e2b5bfca80fa20d1229a245ad3d829fe91e3e2742e6db344b4847f655ff73"
+      },
+      {
+        "name" : "BIOMD0000000367-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3672",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9e69eb311bc416503a4a7fcff79d67a1",
+        "sha1sum" : "3328eed71ece257c673cd792d80fc78be7761980",
+        "sha256sum" : "1699537a8c0d02c46394a21a60b8096e22cef40c1f63a41f51a8120bbb026227"
+      },
+      {
+        "name" : "BIOMD0000000367.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3672",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9e69eb311bc416503a4a7fcff79d67a1",
+        "sha1sum" : "3328eed71ece257c673cd792d80fc78be7761980",
+        "sha256sum" : "1699537a8c0d02c46394a21a60b8096e22cef40c1f63a41f51a8120bbb026227"
+      },
+      {
+        "name" : "BIOMD0000000367.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1642",
+        "mimeType" : "text/plain",
+        "md5sum" : "e3dcf6cec6ef1ce9118edb9976afda22",
+        "sha1sum" : "b13ab03348deb412a429d456feb9130f3e7d9ae2",
+        "sha256sum" : "86c6366ce1d5bbd05a152208bbf37f23b354ca0acd9f9f102218b86a5d66be92"
+      },
+      {
+        "name" : "BIOMD0000000367.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "128592",
+        "mimeType" : "application/pdf",
+        "md5sum" : "be47cd1ab18a479888fca8db3f297729",
+        "sha1sum" : "9fe6aa232a5d820153a0180d603f307e9d11d9f4",
+        "sha256sum" : "e055e53f4cf311cf2649412cb62cdd8cc71943a4a2c012f45c80bcb7eada12e9"
+      },
+      {
+        "name" : "BIOMD0000000367.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000367.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1477",
+        "mimeType" : "text/plain",
+        "md5sum" : "3386cb3c5ccb6f94431588114c5e80ad",
+        "sha1sum" : "a65a93fcb94bcdb7517558d1139d413450846330",
+        "sha256sum" : "b6cd46ebee074e107d6af45eb895ca1632561e55e7b9e3a0cea7d0737b2d649d"
+      },
+      {
+        "name" : "BIOMD0000000367.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "BIOMD0000000367_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "8187",
+        "mimeType" : "application/xml",
+        "md5sum" : "c26313702cf9296251106197dae63287",
+        "sha1sum" : "a47db438bd785566d9ac10d4adc134e168e5b041",
+        "sha256sum" : "fb2ef0b59cea49262f6a0529e8f514273a92b32d6eb0d45aaf70d7716afe3264"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "39301",
+        "mimeType" : "image/png",
+        "md5sum" : "c798325d9cf741d253c8594b99f390b2",
+        "sha1sum" : "3b6cfb6336fac50bf397b5d496a00fdf5e460360",
+        "sha256sum" : "c350f92a0bbba0b510e3b3a61a737717d0e0afff6cd84b4760eeba420b5504bf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "205",
+        "mimeType" : "text/plain",
+        "md5sum" : "b6cee6b04d21e6bf5ebbcd48cbd1ab5a",
+        "sha1sum" : "3dcf8871222d922c6c5a138f85b66749dc458708",
+        "sha256sum" : "da5c8e846c45a053c70f9926a7eea8ba1aaf76ababa6c1d0112fafe759e8209c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "deb2baa42ed60bcf690267eb78ed813b",
+        "sha1sum" : "665f791c56e673fe0b35b96a9d4d38041aea56d2",
+        "sha256sum" : "1ff04cec26fa906a1f71db09cee0548580f1029b1d70a3f88957d12316b65cc1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2512",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8a5a2c7c9985b106f47488b26f0eeaeb",
+        "sha1sum" : "3b98779292252b33c7feea922e62543977baf765",
+        "sha256sum" : "bdabce58be548c39b7d7c4ef582000503766c5578984f354d827cb7c4887efc0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1314381098,
+        "submitter" : "Michael Schubert",
+        "comment" : "Original import of Mueller_ThrombinGeneration_minimal"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412879056,
+        "submitter" : "Michael Schubert",
+        "comment" : "Current version of Muller2008_treshold_minimal"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1530613761,
+        "submitter" : "administrator",
+        "comment" : "replaced by model in make framework but no changes to it"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1530613761,
+        "submitter" : "administrator",
+        "comment" : "replaced by model in make framework but no changes to it"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724274804,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285087,
+  "submissionId" : "MODEL1108260013",
+  "publicationId" : "BIOMD0000000367",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Michael Schubert",
+        "email" : "schubert@ebi.ac.uk",
+        "affiliation" : "EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108260013",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108260013"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000367",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000367"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17936855",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17936855"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:3393",
+      "name" : "coronary artery disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:3393"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

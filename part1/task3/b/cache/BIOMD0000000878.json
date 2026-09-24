@@ -1,0 +1,366 @@
+{
+  "name" : "Lenbury2001_InsulinKineticsModel_A",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Modeling insulin kinetics: responses to a single oral glucose administration or ambulatory-fed conditions.</strong>        <br />          Lenbury Y, Ruktamatakul S, Amornsamarnkul S.      <em>Biosystems.</em>          2001 Jan;59(1):15-25.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11226623\">11226623</a>          ,      <br />        <strong>Abstract:</strong>        <br />          This paper presents a nonlinear mathematical model of the glucose-insulin feedback system, which has been extended to incorporate the beta-cells' function on maintaining and regulating plasma insulin level in man. Initially, a gastrointestinal absorption term for glucose is utilized to effect the glucose absorption by the intestine and the subsequent release of glucose into the bloodstream, taking place at a given initial rate and falling off exponentially with time. An analysis of the model is carried out by the singular perturbation technique in order to derive boundary conditions on the system parameters which identify, in particular, the existence of limit cycles in our model system consistent with the oscillatory patterns often observed in clinical data. We then utilize a sinusoidal term to incorporate the temporal absorption of glucose in order to study the responses in the patients under ambulatory-fed conditions. A numerical investigation is carried out in this case to construct a bifurcation diagram to identify the ranges of parametric values for which chaotic behavior can be expected, leading to interesting biological interpretations.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/520cbff71e195d0a0ed36ce1c78d46d5/lenbury_ruktamatakul_amornsamarnkul_2001_a.cellml/view\">          <strong>lenbury_ruktamatakul_amornsamarnkul_2001_A</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@aukland.ac.nz      <br />          The University of Auckland      <br />          The Bioengineering Institute      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11226623",
+    "journal" : "Bio Systems",
+    "title" : "Modeling insulin kinetics: responses to a single oral glucose administration or ambulatory-fed conditions.",
+    "affiliation" : "Department of Mathematics, Faculty of Science, Mahidol University, Rama 6 Rd., Bangkok 10400, Thailand. scylb@mahidol.ac.th",
+    "synopsis" : "This paper presents a nonlinear mathematical model of the glucose-insulin feedback system, which has been extended to incorporate the beta-cells' function on maintaining and regulating plasma insulin level in man. Initially, a gastrointestinal absorption term for glucose is utilized to effect the glucose absorption by the intestine and the subsequent release of glucose into the bloodstream, taking place at a given initial rate and falling off exponentially with time. An analysis of the model is carried out by the singular perturbation technique in order to derive boundary conditions on the system parameters which identify, in particular, the existence of limit cycles in our model system consistent with the oscillatory patterns often observed in clinical data. We then utilize a sinusoidal term to incorporate the temporal absorption of glucose in order to study the responses in the patients under ambulatory-fed conditions. A numerical investigation is carried out in this case to construct a bifurcation diagram to identify the ranges of parametric values for which chaotic behavior can be expected, leading to interesting biological interpretations.",
+    "year" : 2001,
+    "month" : "1",
+    "volume" : "59",
+    "issue" : "1",
+    "pages" : "15-25",
+    "link" : "http://identifiers.org/pubmed/11226623",
+    "authors" : [
+      {
+        "name" : "Y Lenbury",
+        "institution" : "Department of Mathematics, Faculty of Science, Mahidol University, Rama 6 Rd., Bangkok 10400, Thailand. scylb@mahidol.ac.th"
+      },
+      {
+        "name" : "S Ruktamatakul"
+      },
+      {
+        "name" : "S Amornsamarnkul"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Lenbury2001.xml",
+        "description" : "SBML L2V4 representation of Lenbury2001 - InsulinKineticsModel_A",
+        "fileSize" : "43459",
+        "mimeType" : "application/xml",
+        "md5sum" : "e234a8ff51cb769f2873863c71ad99eb",
+        "sha1sum" : "4d455483c4939371920d87aec6ab173331c46371",
+        "sha256sum" : "35d68dd8f34247902bd0184665e27efb7d9a05a0210852f395589e803c58ae03"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Lenbury2001-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "9660",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f1179e866d9bc644876c0d8e073db99b",
+        "sha1sum" : "2bf4554ce5526c7d0f9d60a8be73ffa1878180c9",
+        "sha256sum" : "0de39062be87cc5884cc2cada55264a61211e7bd57b2cf5633e0f37e5aeeee26"
+      },
+      {
+        "name" : "Lenbury2001-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "12951",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "66a44ab0c844d2f886b3a837acc53e4a",
+        "sha1sum" : "e447f7434e6d7fe6f52352eda2314df3d287d1bb",
+        "sha256sum" : "cf214c63961c1bf9db6944f1445315a701767e67f6b842ef9d7fae2aa4838fd8"
+      },
+      {
+        "name" : "Lenbury2001-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5507",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "425379c5e4ff1ad79f7066f1fd4b2729",
+        "sha1sum" : "475a50935a3928da38637848bab80c40a2a035e5",
+        "sha256sum" : "0677a4fab4a359d66f5174b4960e7bb230e3d179963c5ef586684dd20afd1591"
+      },
+      {
+        "name" : "Lenbury2001-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5507",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e2e77b2bf53314463459467e0c53a139",
+        "sha1sum" : "c6cc05edf63215eea6fed42ac52565bfa881db94",
+        "sha256sum" : "3da7c48d8586dc3c8256c7fc9d818eb387e6b7ef547dd223f957826b9100c15b"
+      },
+      {
+        "name" : "Lenbury2001.cps",
+        "description" : "COPASI version 4.24 (Build 197) representation of Lenbury2001 - InsulinKineticsModel_A",
+        "fileSize" : "70337",
+        "mimeType" : "application/xml",
+        "md5sum" : "9aad671344f77075dc28ddd6123ac3b9",
+        "sha1sum" : "b535d24e9a8d2ebf6d6705ed2984726da69ef4ec",
+        "sha256sum" : "e4b08087661b789c46881fdbff174323db26dec27a8adcc409f2bdc85e3bd63c"
+      },
+      {
+        "name" : "Lenbury2001.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3622",
+        "mimeType" : "text/plain",
+        "md5sum" : "5f116bccd824a9a3db44ba7ed9c99397",
+        "sha1sum" : "38e87ce15819250a2eebc2b3bf9628addb341cd5",
+        "sha256sum" : "9334cb34f97cb522dc41d308d79987936c6dc78580cfcd87c96af7b8db1924e7"
+      },
+      {
+        "name" : "Lenbury2001.sedml",
+        "description" : "SEDML L1V2 representation of Lenbury2001 - InsulinKineticsModel_A (additionally CRBM-validated and adjusted).",
+        "fileSize" : "14884",
+        "mimeType" : "application/xml",
+        "md5sum" : "c6c8ffd7d3d19d3cb06874d3c1f97bd1",
+        "sha1sum" : "7a0059a0cfadfef9322ebf263c39660ba6e967e9",
+        "sha256sum" : "09b18328ef19d9215a22c335e3eb340b38121917cd8062924491bab7a6d30613"
+      },
+      {
+        "name" : "MODEL1201140002-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3114",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "85c78637e3d1fdc516bd01fb21a7d707",
+        "sha1sum" : "7a8a1d414c080b175f887bbe622f7d4912d593d6",
+        "sha256sum" : "8d1ac18efe1cc1d58314bd90082c6574a42f5762ab55999abdcb657f47804807"
+      },
+      {
+        "name" : "MODEL1201140002-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "3197",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6d12e033bb599ab18ff0c722dc52d2ad",
+        "sha1sum" : "72645f3d6b80afb171db5f76d9dfd41f8997b273",
+        "sha256sum" : "99a710bd1b4d011d638b98e69500d16c08b5e27c9a32bdc5f64559338c038a02"
+      },
+      {
+        "name" : "MODEL1201140002-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3682",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5076217ca91bfecba191aee2462dd65d",
+        "sha1sum" : "c995154a34f9bec4e14d51f322a051cd124e7adc",
+        "sha256sum" : "d100dd7a7f7f5ded30a5fadbe9fc888290a28d9526ae436595acd582d6da7e2d"
+      },
+      {
+        "name" : "MODEL1201140002-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3682",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "880dace4e2a84cf7d2a87ce9fc449b42",
+        "sha1sum" : "5623173456090c5708cf57f8bab199f56d6a9f94",
+        "sha256sum" : "1686d96910655db05a93302e6307ccfddc4bee63efdf4c11658545863c9594f6"
+      },
+      {
+        "name" : "MODEL1201140002.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "2892",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9490e42c24d01f72a2df9cfb8b33bf56",
+        "sha1sum" : "ab378d8c4d4e70e579f90fda34823ddf3ab0a1a8",
+        "sha256sum" : "1b4f0219fe34ef5c73ce2732e5f422cb4f0954aa59a04931319f9ccedcfe2c24"
+      },
+      {
+        "name" : "MODEL1201140002.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1787",
+        "mimeType" : "text/plain",
+        "md5sum" : "bc22f27948f93ed6a4e1ab814b7349e1",
+        "sha1sum" : "b5258f77240cfa9ed4c4d6818a5aa8aea4bfb9c4",
+        "sha256sum" : "96903a2398c7938a5bdeee0d1ee363fadde0b8cd5ce6b552dc30f64cf9c19589"
+      },
+      {
+        "name" : "MODEL1201140002.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "131875",
+        "mimeType" : "application/pdf",
+        "md5sum" : "923ccdad9d652ebdbe252863ba376005",
+        "sha1sum" : "28eef85db3a484ba791bec96c9b7c0b77bc915ac",
+        "sha256sum" : "7e2733cc7eedb2df985917c1b9d254822447630d8fd100147ceffee1d8aab855"
+      },
+      {
+        "name" : "MODEL1201140002.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "MODEL1201140002.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1530",
+        "mimeType" : "text/plain",
+        "md5sum" : "01a45f32485a14ac2cd1933bd6490ddf",
+        "sha1sum" : "621fd41df8f943d67b8cdf4aa70289938c78f533",
+        "sha256sum" : "e671ae9ecadf272d70e11cf07287930f2233b4c4cf1ca6f1adec4779cdbc4bbb"
+      },
+      {
+        "name" : "MODEL1201140002.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "MODEL1201140002_url.xml",
+        "description" : "old xml file",
+        "fileSize" : "8416",
+        "mimeType" : "application/xml",
+        "md5sum" : "709714cc8c3e23f8ddf126b057f4e187",
+        "sha1sum" : "e77a08934a34a5613ab0e4e790851d3c47885759",
+        "sha256sum" : "15ad5b1cc4fa30066c7b51d0b94b266fd0519dc388241d2ab9b40579a5afc7c6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "683759",
+        "mimeType" : "image/png",
+        "md5sum" : "1a05e996b2d77b325dcaf52631e0b999",
+        "sha1sum" : "7af9b5f4b97bf66f8aa2f580658873a78ef62b42",
+        "sha256sum" : "94c90b85c095f04ffc4f627d1b4c494d8074b86a51bd60a7b53d515a208c7b16"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "250",
+        "mimeType" : "text/plain",
+        "md5sum" : "0822533ac65abe76e4d0b4ebd08b4054",
+        "sha1sum" : "9e0e4bfcf83a82ff5a079e991ca13cc882900484",
+        "sha256sum" : "4080b32fc49ee8d50b045a458a5b9096285ee753da13c78ffb3a144e30c85976"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2721",
+        "mimeType" : "application/xml",
+        "md5sum" : "e812e759d824b9af10dac480e77a20f1",
+        "sha1sum" : "0bce8dd3f05324c3e6f37a6576ee9ce47d96740a",
+        "sha256sum" : "f794f04643c2a084a42ed5b688ee95493ac30f234d39c1fbfdd7126639ae56fe"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5598",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4ea684fa1fbc730e85e5ea408eb46e11",
+        "sha1sum" : "d9a9b41ed5251da027f9ea3eed8ab75549773a26",
+        "sha256sum" : "69fefcb64773c11d296e659b7f2879d80c1325175838e47bc65843af258ed73e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1326571177,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Original import of Lenbury2001_InsulinKineticsModel_A"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1326571689,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Current version of Lenbury2001_InsulinKineticsModel_A"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1574940869,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000878"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724291946,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285519,
+  "submissionId" : "MODEL1201140002",
+  "publicationId" : "BIOMD0000000878",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mohammad Umer Sharif Shohan",
+        "email" : "msharifshohan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0003-3985-2879",
+        "external" : false
+      },
+      {
+        "name" : "Ishan Ajmera",
+        "email" : "ajmera@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11226623",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11226623"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000878",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000878"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1201140002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1201140002"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL1201140002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1201140002"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042593",
+      "name" : "glucose homeostasis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042593"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "basis": "Nach Lektüre der vier Crossref-Referenzlisten, vor den folgenden Suchabfragen. Keine automatische Auswertung des Zitiertwerdens als Priorität.",
+  "parameters": {"format": "json", "resultType": "core", "pageSize": 10, "cursorMark": "*"},
+  "sort": "Dienststandard/Relevanz",
+  "filters": "Nur die aufgeführten DOI bzw. exakter Titelausdruck. Keine zusätzlichen Datums-, Sprach-, Species- oder Publikationstypfilter; keine weiteren Seiten.",
+  "queries": [
+    {
+      "id": "prior_tumor",
+      "query": "DOI:10.1016/S0304-3835(99)00320-1 OR DOI:10.1097/00001648-200101000-00013 OR TITLE:\"Importance of cell kinetics rhythmicity for control of cell proliferation and carcinogenesis in rat liver\" OR DOI:10.1093/jnci/94.9.690 OR DOI:10.1093/carcin/bgi075",
+      "reason": "Fu-Referenzen BIB2 Anderson 2000, BIB21 Hansen 2001, BIB6 Barbason 1995; Gréchez-Cassiau bib44 Filipski 2002; Gery bib7 Chen 2005. Frühere experimentelle/epidemiologische Uhr-Tumor-Arbeiten von genspezifischer PER2-/PER1-Mechanistik unterscheiden."
+    },
+    {
+      "id": "prior_cycle",
+      "query": "DOI:10.1016/S0002-9440(10)64135-1 OR DOI:10.1016/S0002-9440(10)65306-0 OR DOI:10.1016/0016-5085(91)90019-H OR DOI:10.1002/ar.1091200408 OR DOI:10.1074/jbc.M107499200 OR DOI:10.1073/pnas.0502610102",
+      "reason": "Matsuo-Referenzen e_1_3_2_32_2 (Bjarnason 2001), e_1_3_2_5_2 und e_1_3_2_9_2 für ältere Teilungsrhythmen; Fu BIB9/Gréchez-Cassiau bib17 Bjarnason 1999; Gréchez-Cassiau bib18 Grundschober 2001 und bib20 Hirayama 2005 als frühere molekulare Arbeiten. Identität und Aussage erst anhand Treffer prüfen."
+    }
+  ],
+  "remaining_fulltext_budget": "Nach diesen zwei Requests maximal zwei öffentliche PMCID-Volltextabrufe; Auswahl anhand molekularer historischer Relevanz und tatsächlich vorhandener PMCID dokumentieren. Keine weiteren Metadatensuchen."
+}

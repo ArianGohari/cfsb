@@ -1,0 +1,287 @@
+{
+  "name" : "Scheper1999_CircClock",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a> for more information.</p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>      <p>To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "9870936",
+    "journal" : "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "title" : "A mathematical model for the intracellular circadian rhythm generator.",
+    "affiliation" : "Oxford Brookes University, School for Computing and Math Science, Gipsy Lane Campus, OX3 0BP Headington Oxford, United Kingdom.",
+    "synopsis" : "A mathematical model for the intracellular circadian rhythm generator has been studied, based on a negative feedback of protein products on the transcription rate of their genes. The study is an attempt at examining minimal but biologically realistic requirements for a negative molecular feedback loop involving considerably faster reactions, to produce (slow) circadian oscillations. The model included mRNA and protein production and degradation, along with a negative feedback of the proteins upon mRNA production. The protein production process was described solely by its total duration and a nonlinear term, whereas also the feedback included nonlinear interactions among protein molecules. This system was found to produce robust oscillations in protein and mRNA levels over a wide range of parameter values. Oscillations were slow, with periods much longer than the time constants of any of the individual system parameters. Circadian oscillations were obtained for realistic values of the parameters. The system was readily entrainable to external periodic perturbations. Two distinct classes of phase response curves were found, viz. with or without a time domain within the circadian cycle in which external perturbations fail to induce a phase shift (\"dead zone\"). The delay and nonlinearity in the protein production and the cooperativity in the negative feedback (Hill coefficient) were for this model found to be necessary and sufficient to generate robust circadian oscillations. The similarities between model outcomes and empirical findings establish that circadian rhythmicity at the cellular level can plausibly emerge from interactions among molecular systems which are not in themselves rhythmic.",
+    "year" : 1999,
+    "month" : "1",
+    "volume" : "19",
+    "issue" : "1",
+    "pages" : "40-47",
+    "link" : "http://identifiers.org/pubmed/9870936",
+    "authors" : [
+      {
+        "name" : "T Scheper",
+        "institution" : "Oxford Brookes University, School for Computing and Math Science, Gipsy Lane Campus, OX3 0BP Headington Oxford, United Kingdom."
+      },
+      {
+        "name" : "D Klinkenberg"
+      },
+      {
+        "name" : "C Pennartz",
+        "orcid" : "0000-0001-8328-1175"
+      },
+      {
+        "name" : "J van Pelt"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000024_url.xml",
+        "description" : "SBML L2V1 representation of Scheper1999_CircClock",
+        "fileSize" : "12534",
+        "mimeType" : "application/xml",
+        "md5sum" : "ddebaad8bac923a2f70c013c5219815d",
+        "sha1sum" : "b54378bc6bc976c956cda0a69bf999c81439b60e",
+        "sha256sum" : "748514f402eea94c49346701a30f2b429c9c7d5de922cd450e5a155d5f69dbe1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000024-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "11114",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ce1a16d7e77f6cd36a62856221efc387",
+        "sha1sum" : "0780b9115066d256759175b9ff4b4aa2ad6a634f",
+        "sha256sum" : "91a9a1389211693eb5aee17923ab50b8745a9323ac839de86d6394325311dd6c"
+      },
+      {
+        "name" : "BIOMD0000000024-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "14640",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "504cc3bdf3cbea5b230b5e163cbb4310",
+        "sha1sum" : "23601bbfd5991a13e3d267f1b112875055a1cc61",
+        "sha256sum" : "f47655051c0b71f25ab79187f6fab5c67b13ec42f108adb39303f30b4d6309fc"
+      },
+      {
+        "name" : "BIOMD0000000024-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3780",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9dca5fde1cbf1c360be6cb6a7621eb30",
+        "sha1sum" : "befaeee3a1d89c4ebf6543f2682afc873454fa46",
+        "sha256sum" : "7be223530151d8a147470dfdca1dfe132ef3b48fcae14b44859db689f3cce124"
+      },
+      {
+        "name" : "BIOMD0000000024-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3780",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4f0d92fd7a6be1ccf1d3c064f44c20de",
+        "sha1sum" : "53a6bb92c83b5dcf2bb476a24b8538ec93c6549a",
+        "sha256sum" : "8f7eda8c3e869f6592d70ad66af3f599614fc694c16793286beb35c9a5748cab"
+      },
+      {
+        "name" : "BIOMD0000000024.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3780",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4f0d92fd7a6be1ccf1d3c064f44c20de",
+        "sha1sum" : "53a6bb92c83b5dcf2bb476a24b8538ec93c6549a",
+        "sha256sum" : "8f7eda8c3e869f6592d70ad66af3f599614fc694c16793286beb35c9a5748cab"
+      },
+      {
+        "name" : "BIOMD0000000024.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1779",
+        "mimeType" : "text/plain",
+        "md5sum" : "ff16af9026a023345b30e495ed2298b7",
+        "sha1sum" : "88129fc0e668161c112606898535e84c8d1f95b6",
+        "sha256sum" : "bca2b3c9513911289e3878c5e01223bfc61701de095871c0b5be1b7d7d116908"
+      },
+      {
+        "name" : "BIOMD0000000024.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "159037",
+        "mimeType" : "application/pdf",
+        "md5sum" : "394e612c98277df19a95fe5eb18c7e51",
+        "sha1sum" : "c316491c3fafb05f0ecb72ce04d52139c0d4f76d",
+        "sha256sum" : "85ede8a71b52c152811f424b1940ab94fd31c97ac8f185d27f32562c0b96618f"
+      },
+      {
+        "name" : "BIOMD0000000024.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "15330",
+        "mimeType" : "image/png",
+        "md5sum" : "de0880f399f4034091ebf5727d47dd32",
+        "sha1sum" : "1135d1803710045c42c1c3922899d7e4cac4414c",
+        "sha256sum" : "a8a80309337b0e2da2220a229fa3cdaad7533c73b3b8a97bd59cdb025d670f38"
+      },
+      {
+        "name" : "BIOMD0000000024.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "9072",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "fbf62e95e2c7142f5b6a2e85b0f4d359",
+        "sha1sum" : "27d11c08897ff625c9e179b3f8f1abc1eb1eb939",
+        "sha256sum" : "d6765a8ce030b0995de40e35a800dedaa0a2ea2526b92d0030cdebdcb116b675"
+      },
+      {
+        "name" : "BIOMD0000000024_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "6233",
+        "mimeType" : "application/xml",
+        "md5sum" : "71603890f8efb30cc82fba934893e66d",
+        "sha1sum" : "862c6b25767dadcb17f7da69d1cbea27a7e06e41",
+        "sha256sum" : "5162cf995dabd2f8ad176ac0cc0ec3e66e3b6e0dd779a146c8880e8460558a2b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "4223",
+        "mimeType" : "image/png",
+        "md5sum" : "87a1a965423fe54de1f0baeab01440d8",
+        "sha1sum" : "73bc8a5c7808029a0306a9b1863f41cb71c0d2c6",
+        "sha256sum" : "97c2c7d2301f570ac3660d7e02357ee10b42473b163824c852fe1ed4f8c037f8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "41",
+        "mimeType" : "text/plain",
+        "md5sum" : "f205595b0585ba5328e8b38c3b52cd28",
+        "sha1sum" : "9e798c32712a73358adb1b61208ae28e80b38c66",
+        "sha256sum" : "60d7b124201bb8bb7900ce41e71c7dd64f68d9866b39ce09b4cc157e2c7a738a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "d6f358a84c6482138373c5e67a79eb96",
+        "sha1sum" : "dbe4b5a31f428fe22c0b0c1c4bd3d30afd788a08",
+        "sha256sum" : "a1580a7b9def1c94f904a0603690992b3df2829370847084c37e4f3a270b9fa3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2813",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "93018f0b4fe231b7249f765107c1bbe5",
+        "sha1sum" : "89c2b780c151fed594ff774806ee4356c3f1c518",
+        "sha256sum" : "594c13a959e69f2c2600b19aaa9e0a3c9762ae93a40ae816edb58ec26a09e511"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126621861,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Scheper1999_CircClock"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424871310,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Scheper1999_CircClock"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265325,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284848,
+  "submissionId" : "MODEL6618241436",
+  "publicationId" : "BIOMD0000000024",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000089",
+    "name" : "delayed differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000089"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7227",
+      "name" : "Drosophila melanogaster",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7227"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6618241436",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6618241436"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000024",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000024"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "9870936",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9870936"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10036",
+      "name" : "Mesocricetus auratus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10036"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "dme04711",
+      "name" : "Circadian rhythm - fly - Drosophila melanogaster (fruit fly)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/dme04711"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO:0000089",
+      "name" : "delayed differential equation model ",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000089"
+    }
+  ]
+}

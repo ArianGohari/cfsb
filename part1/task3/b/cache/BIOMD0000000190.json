@@ -1,0 +1,287 @@
+{
+  "name" : "Rodriguez-Caso2006_Polyamine_Metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>          <span style=\"font-weight: 600;\">SBML creators: Armando Reyes-Palomares * , Carlos Rodríguez-Caso +, Raul Montañez * , Marta Cascante $, Francisca Sánchez-Jiménez * , Miguel A. Medina *</span>        </p>        <p>          <span style=\"font-weight: 600;\">* ProCel Group, Department of Molecular Biology and Biochemistry, Faculty of Sciences, Campus de Teatinos, University of Malaga and CIBER de Enfermedades Raras (CIBER-ER). + Complex Systems Lab (ICREA-UPF), Barcelona Biomedical Research Park (PRBB-GRIB). $ Department of Biochemistry and Molecular Biology, Faculty of Biology, Universitat de Barcelona.</span>        </p>        <p>          <span style=\"font-weight: 600;\">http://asp.uma.es</span>        </p>        <p>          <span style=\"font-weight: 600;\">Metabolic modeling of polyamine metabolism in mammals.</span>          <br />          <span style=\"font-style: italic;\">Rodríguez-Caso,C et al.: J Biol Chem 2006 : 281:21799-812.</span>          <br />          The model reproduces the dynamical behavior of the polyamine metabolism in mammals. In this model there are some additions and corrections to the publication. All perturbations and analysis have produced results very close to the published experiments. The model was successfully tested on CoPaSi v.4.4 (build 26).      </p>        <p>Parameters not included in the publication:</p>        <p>1. Parameters for SSAT kinetic constants:</p>        <p>KmAcCoA = 1.5 µM</p>        <p>KmCoA = 40 µM</p>        <p>2. Parameters for equation MAT (table 1):</p>        <p>Vmax_MAT = 0.45 µM/min</p>        <p>Km_MAT = 41 µM</p>        <p>Ki_MET_MAT = 50 µM</p>        <p>3. Erratum.: The corrected ODE for time-dependent variable Antz is:</p>        <p>KsANTZ*(1-1/(1+Keq*0.01*([D]+[S])))-KdANTZ*[Antz]</p>        <p>According to these modifications the new steady-state analysis results are:</p>        <p>Metabolites:</p>        <p>[P]= 104.681 µM</p>        <p>[D]= 76.7492 µM</p>        <p>[S]= 58.0135 µM</p>        <p>[SAM]= 52.327 µM</p>        <p>[A]= 0.0101962 µM</p>        <p>[aS]= 0.0245375 µM</p>        <p>[aD]= 0.832236 µM</p>        <p>Time-dependent global parameters:</p>        <p>[Antz] = 0.574038 µM</p>        <p>Vmaxodc = 1.28315 µM/min</p>        <p>Vmaxssat = 0.673814 µM/min</p>        <p>Vmaxsamdc = 0.36829 µM/min</p>        <br />        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>      <br />      <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16709566",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "Mathematical modeling of polyamine metabolism in mammals.",
+    "affiliation" : "Departamento de Biología Molecular y Bioquímica, Facultad de Ciencias, Universidad de Málaga, Málaga E-29071, Spain.",
+    "synopsis" : "Polyamines are considered as essential compounds in living cells, since they are involved in cell proliferation, transcription, and translation processes. Furthermore, polyamine homeostasis is necessary to cell survival, and its deregulation is involved in relevant processes, such as cancer and neurodegenerative disorders. Great efforts have been made to elucidate the nature of polyamine homeostasis, giving rise to relevant information concerning the behavior of the different components of polyamine metabolism, and a great amount of information has been generated. However, a complex regulation at transcriptional, translational, and metabolic levels as well as the strong relationship between polyamines and essential cell processes make it difficult to discriminate the role of polyamine regulation itself from the whole cell response when an experimental approach is given in vivo. To overcome this limitation, a bottom-up approach to model mathematically metabolic pathways could allow us to elucidate the systemic behavior from individual kinetic and molecular properties. In this paper, we propose a mathematical model of polyamine metabolism from kinetic constants and both metabolite and enzyme levels extracted from bibliographic sources. This model captures the tendencies observed in transgenic mice for the so-called key enzymes of polyamine metabolism, ornithine decarboxylase, S-adenosylmethionine decarboxylase and spermine spermidine N-acetyl transferase. Furthermore, the model shows a relevant role of S-adenosylmethionine and acetyl-CoA availability in polyamine homeostasis, which are not usually considered in systemic experimental studies.",
+    "year" : 2006,
+    "month" : "8",
+    "volume" : "281",
+    "issue" : "31",
+    "pages" : "21799-21812",
+    "link" : "http://identifiers.org/pubmed/16709566",
+    "authors" : [
+      {
+        "name" : "Carlos Rodríguez-Caso",
+        "institution" : "Departamento de Biología Molecular y Bioquímica, Facultad de Ciencias, Universidad de Málaga, Málaga E-29071, Spain.",
+        "orcid" : "0000-0002-0423-6681"
+      },
+      {
+        "name" : "Raúl Montañez",
+        "orcid" : "0000-0003-1667-2218"
+      },
+      {
+        "name" : "Marta Cascante",
+        "institution" : "Departamento de Bioquímica, Facultad de Química, Universidad de Barcelona, Barcelona E-08028, Spain.",
+        "orcid" : "0000-0002-2062-4633"
+      },
+      {
+        "name" : "Francisca Sánchez-Jiménez",
+        "orcid" : "0000-0002-4958-6060"
+      },
+      {
+        "name" : "Miguel A Medina",
+        "orcid" : "0000-0001-7275-6462"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000190_url.xml",
+        "description" : "SBML L2V3 representation of Rodriguez-Caso2006_Polyamine_Metabolism",
+        "fileSize" : "57595",
+        "mimeType" : "application/xml",
+        "md5sum" : "f8ac484710c20c6295fafcea67d41028",
+        "sha1sum" : "74e73952ede8fd66b071e4f98a29168a33b65cc1",
+        "sha256sum" : "e0087d22a559278e556941d4b95014f7c9ef45d642f848c3d1fbf8785fd3b83d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000190-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "33521",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7559817a99fbea2173244e9be9120ff2",
+        "sha1sum" : "055598f06d1f0654babe048f987f5fbc68772a01",
+        "sha256sum" : "9cb74838eb0350bd2b2e30a92ef3bd2c76e83233474ff520d0560babb0ed2d71"
+      },
+      {
+        "name" : "BIOMD0000000190-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "46340",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c21fafe35502aba3d785c82e43c7d2ff",
+        "sha1sum" : "846268e69673497808270601d4f050258f579503",
+        "sha256sum" : "1a0a9098b8c7dd30eab64d56e313208d775d0b756c8d8be13d36f9134defcd3f"
+      },
+      {
+        "name" : "BIOMD0000000190-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12809",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2d4522f68a95e1ee3fed99823e4c4b82",
+        "sha1sum" : "0547620801175ce2373363d9009b7f4304de1955",
+        "sha256sum" : "0304497dd0c3700f28307eb4f0a56a125bc119939aef1fcfb95ff727f4e80126"
+      },
+      {
+        "name" : "BIOMD0000000190-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "12809",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ba63c6584ed2c63fa47593d15d028a46",
+        "sha1sum" : "bdb01c06637b46c77af0b58e2b4ca6afadc6b7f4",
+        "sha256sum" : "c0501bd198cde65bd5ab0b0bc7541b79e8e1c22a356f040f011c66b6957527aa"
+      },
+      {
+        "name" : "BIOMD0000000190.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12809",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ba63c6584ed2c63fa47593d15d028a46",
+        "sha1sum" : "bdb01c06637b46c77af0b58e2b4ca6afadc6b7f4",
+        "sha256sum" : "c0501bd198cde65bd5ab0b0bc7541b79e8e1c22a356f040f011c66b6957527aa"
+      },
+      {
+        "name" : "BIOMD0000000190.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8448",
+        "mimeType" : "text/plain",
+        "md5sum" : "77dee94bfe12ea31e13fd5db3c6513f9",
+        "sha1sum" : "532864c6f43e6510b091089bc4b87b66c2e042aa",
+        "sha256sum" : "026b21de0d23fdab3c5334e4e34f9a7d2faef2ee4d5671dfc859fec24e7b31fd"
+      },
+      {
+        "name" : "BIOMD0000000190.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "229461",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0467515289928a58aa2179f94fc4af62",
+        "sha1sum" : "476cf59e977d2674aa593d3cfce9248deed26b66",
+        "sha256sum" : "a4d5c2dfbe3d157269eef2b632dd6d60d8a6817f8576aba044a8ec7aede75a8e"
+      },
+      {
+        "name" : "BIOMD0000000190.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "142023",
+        "mimeType" : "image/png",
+        "md5sum" : "e37cabb3bd91c021918773dd89d41cd3",
+        "sha1sum" : "75ac6e8ad646cc93579e70d004610a628fbdfbfb",
+        "sha256sum" : "e6d96c81b0b779e7f81dee3725c4ebc3b14a06b6352a7165b6ad4bbe99678ee4"
+      },
+      {
+        "name" : "BIOMD0000000190.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "30968",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c56171c65dc9a13fc8a6bdc9386fbe07",
+        "sha1sum" : "4b5cda694918c0a359827678d0fca364d095d808",
+        "sha256sum" : "251a1794eeb4fbf85b4f5b5873ae12d39fad4012db77c3d11c18345fb78582af"
+      },
+      {
+        "name" : "BIOMD0000000190_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "24689",
+        "mimeType" : "application/xml",
+        "md5sum" : "11539a152a82db24161ec4b0ddb1532b",
+        "sha1sum" : "01f3291b81cbcd407d2ca4d378d8d304e93a1705",
+        "sha256sum" : "0479f3d9ede39efaf485bd48b2a7881984197cc340212560885f005f15e7e661"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12909",
+        "mimeType" : "image/png",
+        "md5sum" : "7cdda8db26747388572ea88ec10dc5a3",
+        "sha1sum" : "55b137c60305afe2a0c102380af57c44e05d8d28",
+        "sha256sum" : "91b9044f0996353de9ed26a198631b21fddb43eafb8fe5a092b5e2924a5f3c3b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "207",
+        "mimeType" : "text/plain",
+        "md5sum" : "d9002d2ee28d87c066170750e3b1abd6",
+        "sha1sum" : "9b8209c00423eff361ffc190a429e25ce349e4e1",
+        "sha256sum" : "7048c5bfe16a0b1af8be833d1e22780798d993461e01cd3a2963e75db2d7261d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "abfcbb76fda5dd8626e47416da7f06d3",
+        "sha1sum" : "2150b4334173f84a526fa62fdad424daddfd3d87",
+        "sha256sum" : "9f8466ee8eaf5cf62f85fac5be659f241cdaee97b2806c39711305dd4e228f1a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5548",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f9072fdd03d265301a9d462faf6df016",
+        "sha1sum" : "fc5ad0123fba248a317b3fb15828a21444477b27",
+        "sha256sum" : "c560cb0fa9a67fab00bf0f5a28a1afd2e2cecb240e5ce313e88cd17050c39d0d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1220880949,
+        "submitter" : "Armando Reyes-Palomares",
+        "comment" : "Original import of Rodriguez-Caso2006_Polyamine_Metabolism"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341502654,
+        "submitter" : "Armando Reyes-Palomares",
+        "comment" : "Current version of Rodriguez-Caso2006_Polyamine_Metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269826,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284926,
+  "submissionId" : "MODEL6812345601",
+  "publicationId" : "BIOMD0000000190",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Armando Reyes-Palomares",
+        "email" : "armando@uma.es",
+        "affiliation" : "University of M?laga. CIBERER (Enfermedades Raras)",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6812345601",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6812345601"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000190",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000190"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16709566",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16709566"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9989",
+      "name" : "Rodentia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9989"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006595",
+      "name" : "polyamine metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006595"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

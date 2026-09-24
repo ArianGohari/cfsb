@@ -1,0 +1,313 @@
+{
+  "name" : "Tiago2010_FeMetabolism_FeLoaded",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Systems analysis of iron metabolism: the network of iron pools and fluxes</strong>        <br />Tiago JS Lopes, Tatyana Luganskaja, Maja Vujic-Spasic, Matthias W Hentze, Martina U Muckenthaler, Klaus Schumann and Jens G Reich      <em>BMC Systems Biology</em>2010, Aug 13;4(1):112.       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20704761\">20704761</a>,      <br />        <strong>Abstract:</strong>        <br />Background      <br />Every cell of the mammalian organism needs iron in numerous oxido-reductive processes as well as for transport and storage of oxygen. The versatility of ionic iron makes it a toxic entity which can catalyze the production of radicals that damage vital membranous and macromolecular assemblies in the cell. The mammalian organism maintains therefore a complex regulatory network of iron uptake, excretion and intra-body distribution. Intracellular regulation in different cell types is intertwined with a global hormonal signaling structure. Iron deficiency as well as excess of iron are frequent and serious human disorders. They can affect every cell, but also the organism as a whole.      <br />Results      <br />Here, we present a kinematic model of the dynamic system of iron pools and fluxes. It is based on ferrokinetic data and chemical measurements in C57BL6 wild-type mice maintained on iron-deficient, iron-adequate, or iron-loaded diet. The tracer iron levels in major tissues and organs (16 compartment) were followed for 28 days. The evaluation resulted in a whole-body model of fractional clearance rates. The analysis permits calculation of absolute flux rates in the steady-state, of iron distribution into different organs, of tracer-accessible pool sizes and of residence times of iron in the different compartments in response to three states of iron-repletion induced by the dietary regime.      <br />Conclusions      <br />This mathematical model presents a comprehensive physiological picture of mice under three different diets with varying iron contents. The quantitative results reflect systemic properties of iron metabolism: dynamic closedness, hierarchy of time scales, switch-over response and dynamics of iron storage in parenchymal organs. Therefore, we could assess which parameters will change under dietary perturbations and study in quantitative terms when those changes take place.   </p>      <p>        <strong> This model corresponds to the Iron Loaded condition - Mice </strong>      </p>      <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20704761",
+    "journal" : "BMC systems biology",
+    "title" : "Systems analysis of iron metabolism: the network of iron pools and fluxes.",
+    "affiliation" : "Max-Delbrueck-Centrum of Molecular Medicine, Berlin-Buch, Germany.",
+    "synopsis" : "<h4>Background</h4>Every cell of the mammalian organism needs iron as trace element in numerous oxido-reductive processes as well as for transport and storage of oxygen. The very versatility of ionic iron makes it a toxic entity which can catalyze the production of radicals that damage vital membranous and macromolecular assemblies in the cell. The mammalian organism maintains therefore a complex regulatory network of iron uptake, excretion and intra-body distribution. Intracellular regulation in different cell types is intertwined with a global hormonal signalling structure. Iron deficiency as well as excess of iron are frequent and serious human disorders. They can affect every cell, but also the organism as a whole.<h4>Results</h4>Here, we present a kinematic model of the dynamic system of iron pools and fluxes. It is based on ferrokinetic data and chemical measurements in C57BL6 wild-type mice maintained on iron-deficient, iron-adequate, or iron-loaded diet. The tracer iron levels in major tissues and organs (16 compartment) were followed for 28 days. The evaluation resulted in a whole-body model of fractional clearance rates. The analysis permits calculation of absolute flux rates in the steady-state, of iron distribution into different organs, of tracer-accessible pool sizes and of residence times of iron in the different compartments in response to three states of iron-repletion induced by the dietary regime.<h4>Conclusions</h4>This mathematical model presents a comprehensive physiological picture of mice under three different diets with varying iron contents. The quantitative results reflect systemic properties of iron metabolism: dynamic closedness, hierarchy of time scales, switch-over response and dynamics of iron storage in parenchymal organs. Therefore, we could assess which parameters will change under dietary perturbations and study in quantitative terms when those changes take place.",
+    "year" : 2010,
+    "month" : "8",
+    "volume" : "4",
+    "pages" : "112",
+    "link" : "http://identifiers.org/pubmed/20704761",
+    "authors" : [
+      {
+        "name" : "Tiago J S Lopes",
+        "institution" : "Max-Delbrueck-Centrum of Molecular Medicine, Berlin-Buch, Germany."
+      },
+      {
+        "name" : "Tatyana Luganskaja"
+      },
+      {
+        "name" : "Maja Vujić Spasić"
+      },
+      {
+        "name" : "Matthias W Hentze",
+        "orcid" : "0000-0002-4023-7876"
+      },
+      {
+        "name" : "Martina U Muckenthaler",
+        "orcid" : "0000-0002-3778-510X"
+      },
+      {
+        "name" : "Klaus Schümann"
+      },
+      {
+        "name" : "Jens G Reich"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000261_url.xml",
+        "description" : "SBML L2V1 representation of Tiago2010_FeMetabolism_FeLoaded",
+        "fileSize" : "116936",
+        "mimeType" : "application/xml",
+        "md5sum" : "e7d846cab4aed45d0804cde5dc87fb51",
+        "sha1sum" : "698eb9dcce61d959533a501aa403d98ece7e7904",
+        "sha256sum" : "6d4d6956aa23d90117aae073cbb7adbd1da564973125c3e39ac51335aeb85e20"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000261-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "41510",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3c511ae752b20e41096c8d5de59001fe",
+        "sha1sum" : "c2857dc1513082fe7dc5157e1aedc2004251661f",
+        "sha256sum" : "c625e0aa06f4c3a36c5876647c504324ba5e1efab561264c97e3b280d95c9c74"
+      },
+      {
+        "name" : "BIOMD0000000261-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "65020",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "85a838845a4d4af5b0c8c823210585b9",
+        "sha1sum" : "90d65e37ebcaca4748ba8f669e1b8bbf650a92e0",
+        "sha256sum" : "a45244d749b9ea62b79460d86c2591f1fc68bb92fd95b758193c7d5e3603f88f"
+      },
+      {
+        "name" : "BIOMD0000000261-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9816",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f85cb9e666a9b3812f277748df15b6f5",
+        "sha1sum" : "252067349b46aa90c19d4428ea2628293b0550fe",
+        "sha256sum" : "2f78cbac0c609be4b30710dafabcef1473c594e1e54dce5e99e6473770c6df6a"
+      },
+      {
+        "name" : "BIOMD0000000261-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9816",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "65dfc70ed0c451645dbc387cf55007c0",
+        "sha1sum" : "419a3d89fef3aece5a686eb1904742aa5d5b8c52",
+        "sha256sum" : "abc1c5a9a8eaac39c4931bac7e51a01b294349a2827ce6daef29ca7c4c6fc7d0"
+      },
+      {
+        "name" : "BIOMD0000000261.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9816",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "65dfc70ed0c451645dbc387cf55007c0",
+        "sha1sum" : "419a3d89fef3aece5a686eb1904742aa5d5b8c52",
+        "sha256sum" : "abc1c5a9a8eaac39c4931bac7e51a01b294349a2827ce6daef29ca7c4c6fc7d0"
+      },
+      {
+        "name" : "BIOMD0000000261.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6755",
+        "mimeType" : "text/plain",
+        "md5sum" : "21b19ab0603983a402daaea69fe10a21",
+        "sha1sum" : "c3c71236a7a68636062757f8b6648e4908cf0bcf",
+        "sha256sum" : "ba49f5f4e6a53bb05910f81176d58c92b780bd848c92d49018c792d39ea80601"
+      },
+      {
+        "name" : "BIOMD0000000261.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "256928",
+        "mimeType" : "application/pdf",
+        "md5sum" : "51803524d785ce8dc6af2c142153bafb",
+        "sha1sum" : "d93e242234b243e7792b84df9b7398cfeb8d2432",
+        "sha256sum" : "57a3d75f978a2ad08677057dec99cb770c7f3deab7d5939ac2a475a05d9a1560"
+      },
+      {
+        "name" : "BIOMD0000000261.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "201247",
+        "mimeType" : "image/png",
+        "md5sum" : "3d640d31528901fc4a33717ee85f41c1",
+        "sha1sum" : "205f9506bcae480f730d327865decc098f1c0cc0",
+        "sha256sum" : "d5b5cb8d15fe5e39189dcf56490760e5888209926afcdc783c738e5190e5dd9f"
+      },
+      {
+        "name" : "BIOMD0000000261.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5834",
+        "mimeType" : "text/plain",
+        "md5sum" : "05f222011ae65af29b114d15dabb8b1f",
+        "sha1sum" : "3ee3ec67772c1d4634e76a2f3b77f51d1d864d00",
+        "sha256sum" : "408151ddf668e9275eca7ca5a2f0fec14280bfe6dfe60698c435cd097158dfa8"
+      },
+      {
+        "name" : "BIOMD0000000261.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "51088",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a5f359d0ea79b9781fb8b9e2fe602d05",
+        "sha1sum" : "4ca687a4f4c7ed43f62f693e2c790c50a6cf13d8",
+        "sha256sum" : "9bbf0c327a171616e9c811f29f994522bd20a338cce1e06f70bb3ad352a023d2"
+      },
+      {
+        "name" : "BIOMD0000000261.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "84573",
+        "mimeType" : "application/xml",
+        "md5sum" : "3b36fe871b7b3159fffde223359ec98e",
+        "sha1sum" : "51f044e3a9f812bf1b11d141818025ad84c8d573",
+        "sha256sum" : "4453e3ac75b5af071c26a81ed70a858c5b6f8175bb996969a5cedd66fde2d90a"
+      },
+      {
+        "name" : "BIOMD0000000261_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "28054",
+        "mimeType" : "application/xml",
+        "md5sum" : "696e0970137a64e4a2948fd05d0a897a",
+        "sha1sum" : "364d05656eafe7fff69a2a1680ef13acef54bcd5",
+        "sha256sum" : "38b45e4f2eb42bd0d45561da932747e0c54109d9cf7711ac721f16cafb071826"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "66505",
+        "mimeType" : "image/png",
+        "md5sum" : "99bfe17fe5f72be5dbd5acbc99f8a195",
+        "sha1sum" : "7c0bcce73a2e9c66f76bbcb382b4de8ebfab01b5",
+        "sha256sum" : "0d0ebb38adc5794de22827ab038fe8d0699b66e4faeaebeb4b96dba2cfcabd54"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "225",
+        "mimeType" : "text/plain",
+        "md5sum" : "8e345ac318398e09d0331e6b07dd5164",
+        "sha1sum" : "499ba8e75964211d6a5ec97e56eb247d53eae98b",
+        "sha256sum" : "0a2737f2cde23cdbb18a17dd59c9c5e810371979e5beab2e25cabf33524a23fc"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "ed5d3d1dee6bca9508cc57a4c965a374",
+        "sha1sum" : "3c15536a6bea470059a0269537f084c6966668e2",
+        "sha256sum" : "44639e69fe287ae41ebdab10cbcfb7b3a693136aa6b3526ffc355e0e4d28811e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5311",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7b04e9c1a5b7808c8d2b9fd9e30cd7a7",
+        "sha1sum" : "c6a969a479ba6eea42f6400352f6ebdf0a2f4583",
+        "sha256sum" : "05d2980c5969a0f48e93015915575f64d71bf532b3c57d7174314817fdf3fccc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1254160025,
+        "submitter" : "Tiago Jose da Silva Lopes",
+        "comment" : "Original import of BIOMD0000000261.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396625699,
+        "submitter" : "Tiago Jose da Silva Lopes",
+        "comment" : "Current version of Tiago2010_FeMetabolism_FeLoaded"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271853,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284980,
+  "submissionId" : "MODEL4152822384",
+  "publicationId" : "BIOMD0000000261",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Tiago Jose da Silva Lopes",
+        "email" : "tiagojab@yahoo.com.br",
+        "affiliation" : "Max Delbrueck Center for Molecular Medicine",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4152822384",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4152822384"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000261",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000261"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20704761",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20704761"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0060586",
+      "name" : "multicellular organismal iron ion homeostasis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0060586"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0034756",
+      "name" : "regulation of iron ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0034756"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006826",
+      "name" : "iron ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006826"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

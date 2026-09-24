@@ -1,0 +1,270 @@
+{
+  "name" : "Tyson2001_Cell_Cycle_Regulation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model describes the budding yeast cell cycle model used in fig 8 a in      <br />                <strong>Regulation of the eukaryotic cell cycle: molecular antagonism, hysteresis, and irreversible transitions.</strong>                <br />                <em>Tyson JJ and Novak B.,        <strong>J Theor Biol</strong>            2001        </em>          May;210(2):249-63.      <br />          It consitsts of the equations (2)-(8), with mu=0.005 min      <sup>-1</sup>          . It was taken from      <a href=\"http://www.itb.cnr.it/cellcycle\">Cell Cycle DB</a>          (      <a href=\"http://www.itb.cnr.it/cellcycle/modelSBML_rep.php?id_model=12\">file</a>          )  and only slightly altered.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11371178",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Regulation of the eukaryotic cell cycle: molecular antagonism, hysteresis, and irreversible transitions.",
+    "affiliation" : "Department of Biology, Virginian Polytechnic Institute and State University, Blacksburg, VA 24061, USA. tyson@vt.edu",
+    "synopsis" : "In recent years, molecular biologists have uncovered a wealth of information about the proteins controlling cell growth and division in eukaryotes. The regulatory system is so complex that it defies understanding by verbal arguments alone. Quantitative tools are necessary to probe reliably into the details of cell cycle control. To this end, we convert hypothetical molecular mechanisms into sets of nonlinear ordinary differential equations and use standard analytical and numerical methods to study their solutions. First, we present a simple model of the antagonistic interactions between cyclin-dependent kinases and the anaphase promoting complex, which shows how progress through the cell cycle can be thought of as irreversible transitions (Start and Finish) between two stable states (G1 and S-G2-M) of the regulatory system. Then we add new pieces to the \"puzzle\" until we obtain reasonable models of the control systems in yeast cells, frog eggs, and cultured mammalian cells.",
+    "year" : 2001,
+    "month" : "5",
+    "volume" : "210",
+    "issue" : "2",
+    "pages" : "249-263",
+    "link" : "http://identifiers.org/pubmed/11371178",
+    "authors" : [
+      {
+        "name" : "J J Tyson"
+      },
+      {
+        "name" : "B Novak"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000195_url.xml",
+        "description" : "SBML L2V3 representation of Tyson2001_Cell_Cycle_Regulation",
+        "fileSize" : "47574",
+        "mimeType" : "application/xml",
+        "md5sum" : "dbb9714cd3be7eff4a15bacb5aa26d33",
+        "sha1sum" : "da65c96751d39c37bbc548f9ad64b42c5acbb14f",
+        "sha256sum" : "f3e400b36319d451117f3056b37bb3d761855ab467d26b4b8c5b003f7c6f810a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000195-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "28511",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "46dac50af2948137071e91319af2265b",
+        "sha1sum" : "5f318107ddaa87dec5b11dea7d125783f28eeaa4",
+        "sha256sum" : "a88099f593688a9d335cfaccaf5a67372e487c16087da7eaf2fa2a0625360076"
+      },
+      {
+        "name" : "BIOMD0000000195-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "39621",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fe6bc1df6b9d1720694585f5d0866567",
+        "sha1sum" : "31572408dcf5990339a3fd17fdf0eb9630b0795a",
+        "sha256sum" : "454dd9e4cb508117d18dbffdb97e90032b29bc7aafb5c6f21b1653a8f0d5806b"
+      },
+      {
+        "name" : "BIOMD0000000195-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9363",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4975a9ecf6da8ca36f2021a521ac3800",
+        "sha1sum" : "885de19bd1dc032c6c9d18c23082043501fe4621",
+        "sha256sum" : "3c9461466daccb2616b12503b63d4a63b87edfc270740ea769ee8ddced6209e5"
+      },
+      {
+        "name" : "BIOMD0000000195-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9363",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a99206f9e6f349a0663c2dd51026845e",
+        "sha1sum" : "407e69a55594aece171ea6d7199d7accd571bf3f",
+        "sha256sum" : "68ec555b1f9c02062e6baf9427f89d2cf70933f14c5f1eeb898a60b8754fbecd"
+      },
+      {
+        "name" : "BIOMD0000000195.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9363",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a99206f9e6f349a0663c2dd51026845e",
+        "sha1sum" : "407e69a55594aece171ea6d7199d7accd571bf3f",
+        "sha256sum" : "68ec555b1f9c02062e6baf9427f89d2cf70933f14c5f1eeb898a60b8754fbecd"
+      },
+      {
+        "name" : "BIOMD0000000195.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6866",
+        "mimeType" : "text/plain",
+        "md5sum" : "759e2e47af7a965011243b02df7d7840",
+        "sha1sum" : "074e23b4686360c4f8ece73e108eae6af786f339",
+        "sha256sum" : "b9d536c1d7a00c485e7fab52b5fae1fa597673c0fe02bad14cad64156d341a48"
+      },
+      {
+        "name" : "BIOMD0000000195.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "221133",
+        "mimeType" : "application/pdf",
+        "md5sum" : "fb4cfc0dd8d81f3296d9b24bf0fde977",
+        "sha1sum" : "fbf667df1eed5cad4801abfa878009a5de185101",
+        "sha256sum" : "334a854a0f245c874ff5fbdf7484594af99d03dfd0a72f462aa40ace2fdf441e"
+      },
+      {
+        "name" : "BIOMD0000000195.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "117690",
+        "mimeType" : "image/png",
+        "md5sum" : "7e0d16252e789acd22d8023ad43162c0",
+        "sha1sum" : "f547383e8fa7698e0d73013b6cc84387859fff3a",
+        "sha256sum" : "99cd770dc8707e4c1703e8713fe6ce6fdc2769712be8d850a397a94afc5cbe49"
+      },
+      {
+        "name" : "BIOMD0000000195_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "39170",
+        "mimeType" : "application/xml",
+        "md5sum" : "b41cea1d56f00b479c1b0510ed8d4e1d",
+        "sha1sum" : "2f04a783d4e2121ce11aa6a7d36ea45b383f76ff",
+        "sha256sum" : "aa534cb5a875e93afcc2440bff76ae676076c1be6a98531b9b5dcf0395aca17c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "58209",
+        "mimeType" : "image/png",
+        "md5sum" : "5adc96a7c4433ced8e365d3e31b2a607",
+        "sha1sum" : "472bba2facf65c319c66ed202b134c0de7c89971",
+        "sha256sum" : "30c7f17bd447e87657edd663cef00ca447560ddf599942807d74c3b5e7366da7"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "40",
+        "mimeType" : "text/plain",
+        "md5sum" : "e5fa5fa79516726240f2a483dc5f4313",
+        "sha1sum" : "6c99d4b1acb88684fef13e01260af8866404f40b",
+        "sha256sum" : "51fe21d5424f25b98aa19254b4f838112cdb0666045466bfbf987e402de9b3e1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1676",
+        "mimeType" : "application/xml",
+        "md5sum" : "b5a387be081b58ba10e3ea55c9eebf2b",
+        "sha1sum" : "90bc0abb696c1d2866c2e70bec4abb62e0184297",
+        "sha256sum" : "d257007c217ef3c09ea253b736ff428028fd6154cca9f6fafa85c3eee978832a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3686",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d33b204d0f86c1992322de1ce09fdec2",
+        "sha1sum" : "2c5d373f283ab09a2c4aead14d3d08bae767d6f6",
+        "sha256sum" : "71380be0df3371dd20be5502224a249f0f4ea476e4aa4f14d3df89645a9f2dc4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1222172352,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of independent implementation of Tyson et al. 2001"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460134009,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Tyson2001_Cell_Cycle_Regulation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269953,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284930,
+  "submissionId" : "MODEL3897475441",
+  "publicationId" : "BIOMD0000000195",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL3897475441",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL3897475441"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000195",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000195"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11371178",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11371178"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "map04111",
+      "name" : "Cell cycle - yeast",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04111"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_152.2",
+      "name" : "Cell Cycle, Mitotic",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_152.2"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051726",
+      "name" : "regulation of cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051726"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

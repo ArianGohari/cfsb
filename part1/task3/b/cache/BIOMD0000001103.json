@@ -1,0 +1,179 @@
+{
+  "name" : "Palaniappan2021 - Cell free modelling of second generation Toehold switches",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">       <body xmlns=\"http://www.w3.org/1999/xhtml\">         <pre>Cervical cancer is a global public health subject as it affects women in the reproductive ages, and accounts for the second largest burden among cancer patients worldwide with an unforgiving 50% mortality rate. Poor awareness and access to effective diagnosis have led to this enormous disease burden, calling for point-of-care, minimally invasive diagnosis methods. Here, an end-to-end quantitative approach for a new kind of diagnosis has been developed, comprising identification of optimal biomarkers, design of the sensor, and simulation of the diagnostic circuit. Using miRNA expression data in the public domain, we identified circulating miRNA biomarkers specific to cervical cancer using multi-tier screening. Synthetic riboregulators called toehold switches specific for the biomarker panel were then designed. To predict the dynamic range of toehold switches for use in genetic circuits as biosensors, we developed a generic grammar of these switches, and built a multivariate linear regression model using thermodynamic features derived from RNA secondary structure and interaction. The model yielded predictions of toehold efficacy with an adjusted R2 = 0.59. Reaction kinetics modelling was performed to predict the sensitivity of the second-generation toehold switches to the miRNA biomarkers. Simulations showed a linear response between 10nM and 100nM before saturation. Our study demonstrates an end-to-end workflow for the efficient design of genetic circuits geared towards the effective detection of unique genomic signatures that would be increasingly important in today’s world. The approach has the potential to direct experimental efforts and minimise costs. All resources are provided open-source (https://github.com/igem2019) under GNU GPLv3 licence.</pre>       </body>     </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "35475253",
+    "journal" : "Synthetic and systems biotechnology",
+    "title" : "End-to-end computational approach to the design of RNA biosensors for detecting miRNA biomarkers of cervical cancer.",
+    "affiliation" : "Department of Bioengineering, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu, 613 401, India.",
+    "synopsis" : "Cervical cancer is a global public health subject as it affects women in the reproductive ages, and accounts for the second largest burden among cancer patients worldwide with an unforgiving 50% mortality rate. Relatively scant awareness and limited access to effective diagnosis have led to this enormous disease burden, calling for point-of-care, minimally invasive diagnosis methods. Here, an end-to-end quantitative unified pipeline for diagnosis has been developed, beginning with identification of optimal biomarkers, concurrent design of toehold switch sensors, and finally simulation of the designed diagnostic circuits to assess performance. Using miRNA expression data in the public domain, we identified miR-21-5p and miR-20a-5p as blood-based miRNA biomarkers specific to early-stage cervical cancer employing a multi-tier algorithmic screening. Synthetic riboregulators called toehold switches specific to the biomarker panel were then designed. To predict the dynamic range of toehold switches for use in genetic circuits as biosensors, we used a generic grammar of these switches, and built a neural network model of dynamic range using thermodynamic features derived from mRNA secondary structure and interaction. Second-generation toehold switches were used to overcome the design challenges associated with miRNA biomarkers. The resultant model yielded an adj. R<sup>2</sup> ∼0.71, outperforming earlier models of toehold-switch dynamic range. Reaction kinetics modelling was performed to predict the sensitivity of the second-generation toehold switches to the miRNA biomarkers. Simulations showed a linear response between 10 nM and 100 nM before saturation. Our study demonstrates an end-to-end computational workflow for the efficient design of genetic circuits geared towards the effective detection of unique genomic/nucleic-acid signatures. The approach has the potential to replace iterative experimental trial and error, and focus time, money, and efforts. All software including the toehold grammar parser, neural network model and reaction kinetics simulation are available as open-source software (https://github.com/SASTRA-iGEM2019) under GNU GPLv3 licence.",
+    "year" : 2022,
+    "month" : "6",
+    "volume" : "7",
+    "issue" : "2",
+    "pages" : "802-814",
+    "link" : "http://identifiers.org/pubmed/35475253",
+    "authors" : [
+      {
+        "name" : "Priyannth Ramasami S Baabu",
+        "institution" : "Department of Bioengineering, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu, 613 401, India.School of Advanced Materials Science and Engineering, Sungkyunkwan University (SKKU), Suwon, 16419, Republic of Korea."
+      },
+      {
+        "name" : "Shivaramakrishna Srinivasan",
+        "institution" : "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu 613401, India.Life Sciences Division, TCS Research, Tata Consultancy Services, Chennai, Tamil Nadu, 600042, India."
+      },
+      {
+        "name" : "Swetha Nagarajan",
+        "institution" : "Department of Bioengineering, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu, 613 401, India."
+      },
+      {
+        "name" : "Sangeetha Muthamilselvan",
+        "institution" : "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu 613401, India.",
+        "orcid" : "0000-0002-2269-5216"
+      },
+      {
+        "name" : "Thamarai Selvi",
+        "institution" : "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu 613401, India."
+      },
+      {
+        "name" : "Raghavv R Suresh",
+        "institution" : "Department of Bioengineering, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, Tamil Nadu, 613 401, India."
+      },
+      {
+        "name" : "Ashok Palaniappan",
+        "institution" : "SASTRA Deemed University",
+        "orcid" : "0000-0003-2841-9527"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Palaniappan2021_Cell_free_modelling_of_second_generation_toehold_switches_v2.xml",
+        "description" : "SBML L2V4 representation of Palaniappan2021 - cell free modelling of second generation toehold switches",
+        "fileSize" : "45631",
+        "mimeType" : "application/xml",
+        "md5sum" : "2099789b9b1b6845fe8ddfb5c650b2b6",
+        "sha1sum" : "be02b5ec42776207d30263e2a711a684be37210b",
+        "sha256sum" : "8d4ff23bd388b6e3292e94bcecb4ce0645efb1fed00ac195edebb7685ee686cd"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Palaniappan2021_Cell_free_modelling_of_second_generation_toehold_switches_v2.cps",
+        "description" : "Copasi representation of Palaniappan2021 - cell free modelling of second generation toehold switches",
+        "fileSize" : "79917",
+        "mimeType" : "application/xml",
+        "md5sum" : "9b930921f92649d06a10505adb739409",
+        "sha1sum" : "480a3b3c01cd473ab655109e9476ec07c29f5e75",
+        "sha256sum" : "8fbcb0e8177dec86d08faf2628a264cebf2ef07f7175160020b38830e8f372c3"
+      },
+      {
+        "name" : "Palaniappan2021_Cell_free_modelling_of_second_generation_toehold_switches_v2.omex",
+        "description" : "OMEX file",
+        "fileSize" : "738",
+        "mimeType" : "application/zip",
+        "md5sum" : "670fcdf91f72e49aed6734ba15ad47a9",
+        "sha1sum" : "1809c5fda2d2804cadb228dd6baa132b01b5872b",
+        "sha256sum" : "eab428aa8d65ce992293f646ee8167fcab029452701d5cb6c250303b649a86a7"
+      },
+      {
+        "name" : "Palaniappan2021_Cell_free_modelling_of_second_generation_toehold_switches_v2.sedml",
+        "description" : "SED-ML representation of Palaniappan2021 - cell free modelling of second generation toehold switches",
+        "fileSize" : "10482",
+        "mimeType" : "application/xml",
+        "md5sum" : "68014305465cadf062f3b28c66c393f5",
+        "sha1sum" : "bdacfa0a9db44450b89cd734c387d6358a433652",
+        "sha256sum" : "08ccdb93f37c9d6e669c9ac55c2a945814cb43ffbe56fc68672b4ae3eed51427"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1651737066,
+        "submitter" : "Ashok Palaniappan",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1743439531,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Automatically added model identifier BIOMD0000001103"
+      }
+    ]
+  },
+  "firstPublished" : 1743439532,
+  "submissionId" : "MODEL2107150001",
+  "publicationId" : "BIOMD0000001103",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Modeller" : [
+      {
+        "name" : "Ashok Palaniappan",
+        "email" : "apalania@scbt.sastra.edu",
+        "affiliation" : "SASTRA Deemed University",
+        "orcid" : "0000-0003-2841-9527",
+        "external" : false
+      },
+      {
+        "name" : "Mikal Daou",
+        "email" : "mdaou@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001103",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001103"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2107150001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2107150001"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "C15201",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15201"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1016/j.synbio.2022.03.008",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1016/j.synbio.2022.03.008"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C16608",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C16608"
+    }
+  ]
+}

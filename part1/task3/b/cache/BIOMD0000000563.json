@@ -1,0 +1,279 @@
+{
+  "name" : "Pritchard2014 - plant-microbe interaction",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Pritchard2014 - plant-microbeinteraction</div><div class=\"dc:description\"><a href=\"http://www.researchgate.net/publication/269416257_Phosphoproteomic_analyses_reveal_novel_cross-modulation_mechanisms_between_two_signaling_pathways_in_yeast?pli=1&amp;loginT=T119LdbJzzjSBy5zwNxGPgnwdZm8Pyvx&amp;uid=4c69385c-25a4-40cc-b7f8-455903c4d769&amp;cp=re289_ca_up_sl2_p12&amp;ch=reg\" style=\"text-decoration: none;\" /> <a href=\"http://www.researchgate.net/publication/269416257_Phosphoproteomic_analyses_reveal_novel_cross-modulation_mechanisms_between_two_signaling_pathways_in_yeast?pli=1&amp;loginT=T119LdbJzzjSBy5zwNxGPgnwdZm8Pyvx&amp;uid=4c69385c-25a4-40cc-b7f8-455903c4d769&amp;cp=re289_ca_up_sl2_p12&amp;ch=reg\" style=\"text-decoration: none;\"><span style=\"color: rgb(68, 68, 68); font-size: 14px; text-decoration: none; font-family: Helvetica,Arial,sans-serif;\">Thismodel is an abstraction of a generic interaction between microbes,and a plant host. The reactions are generally intended to berepresentative of processes, not specific molecular mechanisms(except where indicated, eg. for activation of receptors). Themodel is intended to be of a similar level of abstraction as theZig-Zag model proposed in Jones and Dangl (2006) [PMID:</span></a><a href=\"http://http://www.ncbi.nlm.nih.gov/pubmed/17108957\">  <span style=\"text-decoration: none;\">17108957</span></a><a href=\"http://www.researchgate.net/publication/269416257_Phosphoproteomic_analyses_reveal_novel_cross-modulation_mechanisms_between_two_signaling_pathways_in_yeast?pli=1&amp;loginT=T119LdbJzzjSBy5zwNxGPgnwdZm8Pyvx&amp;uid=4c69385c-25a4-40cc-b7f8-455903c4d769&amp;cp=re289_ca_up_sl2_p12&amp;ch=reg\" style=\"text-decoration: none;\">],</a> <a href=\"http://www.researchgate.net/publication/269416257_Phosphoproteomic_analyses_reveal_novel_cross-modulation_mechanisms_between_two_signaling_pathways_in_yeast?pli=1&amp;loginT=T119LdbJzzjSBy5zwNxGPgnwdZm8Pyvx&amp;uid=4c69385c-25a4-40cc-b7f8-455903c4d769&amp;cp=re289_ca_up_sl2_p12&amp;ch=reg\" style=\"text-decoration: none;\">  <span style=\"color: rgb(68, 68, 68); font-size: 14px; text-decoration: none; font-family: Helvetica,Arial,sans-serif;\">but  to represent a dynamic system. Jones and Dangl (2006) model is  used here to illustrate the advantages of dynamic representations  of systems over expository models such as the Zig-Zag  model.</span></a></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25382065\" title=\"Access to this publication\">The zigzag model of    plant-microbe interactions: is it time to move on?</a>  </div>  <div class=\"bibo:authorList\">Pritchard L, Birch PR.</div>  <div class=\"bibo:Journal\">Mol. Plant Pathol. 2014 Dec; 15(9):  865-870</div>  <p>Abstract:</p></div><div class=\"bm:curation\">  <br /></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000563\">BIOMD0000000563</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25382065",
+    "journal" : "Molecular plant pathology",
+    "title" : "The zigzag model of plant-microbe interactions: is it time to move on?",
+    "affiliation" : "Information and Computational Sciences, University of Dundee, Errol Rd, Invergowrie, Dundee, DD2 5DA, UK; Dundee Effector Consortium, University of Dundee, Errol Rd, Invergowrie, Dundee, DD2 5DA, UK; Centre for Human and Animal Pathogens in the Environment, University of Dundee, Errol Rd, Invergowrie, Dundee, DD2 5DA, UK.",
+    "year" : 2014,
+    "month" : "12",
+    "volume" : "15",
+    "issue" : "9",
+    "pages" : "865-870",
+    "link" : "http://identifiers.org/pubmed/25382065",
+    "authors" : [
+      {
+        "name" : "Leighton Pritchard",
+        "institution" : "Institute of Biological Sciences, University of Wales, Aberystwyth, UK.",
+        "orcid" : "0000-0002-8392-2822"
+      },
+      {
+        "name" : "Paul R J Birch",
+        "orcid" : "0000-0002-6559-3746"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000563_url.xml",
+        "description" : "SBML L2V4 representation of Pritchard2014 - plant-microbe interaction",
+        "fileSize" : "57299",
+        "mimeType" : "application/xml",
+        "md5sum" : "726af1ca10a945f1ab2f253714e450b5",
+        "sha1sum" : "948894f5cc2cf6c733718c9b888516e571546d4f",
+        "sha256sum" : "a889dfb76e56d9da56b02d753feaba5ba9673bdb17a94a94ff2f35f973520e81"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000563-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "23103",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cde52bb4ccdb600eb92adad4dc87f1dd",
+        "sha1sum" : "8f455fd9e266fb9ed2926d38fdd066d1cd397583",
+        "sha256sum" : "1eac3f37dcd600ac9e7797b800a3bcd6833f3646701c695095897cb3b7a7656f"
+      },
+      {
+        "name" : "BIOMD0000000563-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "38275",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0f5d81709a76d31de5c08b67733ac812",
+        "sha1sum" : "e8c73d6e44859faa4815b5708b628d5cf574d26c",
+        "sha256sum" : "d9e7b626cdb556ec0cbae0eb76752e5bf7cce46e72b3448d39978600982fea22"
+      },
+      {
+        "name" : "BIOMD0000000563-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d3f2ebc6a89ecf481efc47d6d9502d36",
+        "sha1sum" : "91821fd2a9dc2d07000e9c89971d78dec88dab40",
+        "sha256sum" : "eb5a8928bfe5bbb844f506d7e98518c65643a70fc71e7613d101f3971d3c5bbe"
+      },
+      {
+        "name" : "BIOMD0000000563-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9c9dd5c30c4fdf294f33fef4dc2bda92",
+        "sha1sum" : "65fea3b1021740d185ce462a749e2986c3ea81c0",
+        "sha256sum" : "dd6a502c033a79850c00e6fcf3ebe480c07840b8ce06371eacdbce7e903bb05e"
+      },
+      {
+        "name" : "BIOMD0000000563.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "8684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9c9dd5c30c4fdf294f33fef4dc2bda92",
+        "sha1sum" : "65fea3b1021740d185ce462a749e2986c3ea81c0",
+        "sha256sum" : "dd6a502c033a79850c00e6fcf3ebe480c07840b8ce06371eacdbce7e903bb05e"
+      },
+      {
+        "name" : "BIOMD0000000563.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5397",
+        "mimeType" : "text/plain",
+        "md5sum" : "ef310be8e988e90046954844f851304a",
+        "sha1sum" : "fad7e57950e6f7e25ac75a6a7bd787039d05d5bc",
+        "sha256sum" : "347754e01d790b02aa4e7f355404d2c69f9f9187c891000e5a87df0bca75f679"
+      },
+      {
+        "name" : "BIOMD0000000563.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "237877",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3c30d0f6486c335da18801557ec9a2d2",
+        "sha1sum" : "9b62b38dd6149143639d2f05453744f63375bb6c",
+        "sha256sum" : "a5229b1fd853c0ec6a456d22d79bd0acc80e84da9c02ed807043cfe452d3c37a"
+      },
+      {
+        "name" : "BIOMD0000000563.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "201816",
+        "mimeType" : "image/png",
+        "md5sum" : "9130e03d7b160248eb8dd44272715f8a",
+        "sha1sum" : "6796f05ee540b2715272d46556aeb8234a1696ca",
+        "sha256sum" : "85c93a7d8a4cab02a8a89fe310f9318a43342557e40c249339801fab8f102607"
+      },
+      {
+        "name" : "BIOMD0000000563.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "49748",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b0a718f6e556e11ab574965553ace63b",
+        "sha1sum" : "3b711040b54de45cdd861857e6720fb36fb8b2a4",
+        "sha256sum" : "aae9836b1e47865ee36ac77528cbcbbae3bda34e88fa50dd4f238fbc127f215b"
+      },
+      {
+        "name" : "BIOMD0000000563_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "17990",
+        "mimeType" : "application/xml",
+        "md5sum" : "42b693d266be0d99187b3301824e4b88",
+        "sha1sum" : "28316d5b800bff9c582ef26a2c707677e95eaec2",
+        "sha256sum" : "b1abe9a6821f55560061f97f939e83aeca634615a2898111622a5ccf2b4a6c64"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28061",
+        "mimeType" : "image/png",
+        "md5sum" : "c285c4b64d092fb3fe9ca7cfb67d0167",
+        "sha1sum" : "50b9d64028779f1997e5fb4f2399ebd104ed1940",
+        "sha256sum" : "b132d9c84f3c3cf34d01bd8f512ba18c450cd7450d2b38338c12760720edde4e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "960",
+        "mimeType" : "text/plain",
+        "md5sum" : "bdb637d94a36384057b9fb318fbce251",
+        "sha1sum" : "a1bf266fb865355f9b62335fb54c4ea6c5743f61",
+        "sha256sum" : "8e49ab6d2656a4a4a3034d153bfdcb8e15a04c3234f9aca3690bf86ceccde5b2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "469a76a0911ef66024f9d346acdd8bc6",
+        "sha1sum" : "25bf15684daae17ba866a97c3dee09abe0ee78ce",
+        "sha256sum" : "95b1f782011286d450b8b91348365226adfc0a5d3d77f233324e191225465c3a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6520",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a15eef5cd149a23f69dcd48885788ce1",
+        "sha1sum" : "21827327a03ae33703fcb95384b4bc6528383d60",
+        "sha256sum" : "387cc9b54da02b0d6a6a5101aa1f8d868918568546f6cd33b8c0ee5c6c41c3a5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1409245710,
+        "submitter" : "Leighton Pritchard",
+        "comment" : "Original import of New Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1419008865,
+        "submitter" : "Leighton Pritchard",
+        "comment" : "Current version of Pritchard2014 - plant-microbe interaction"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724281615,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285346,
+  "submissionId" : "MODEL1408280000",
+  "publicationId" : "BIOMD0000000563",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Leighton Pritchard",
+        "email" : "leighton.pritchard@hutton.ac.uk",
+        "affiliation" : "The James Hutton Institute",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1408280000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1408280000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000563",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000563"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25382065",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25382065"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "17108957",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17108957"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0002376",
+      "name" : "immune system process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002376"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "317",
+      "name" : "Pseudomonas syringae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/317"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3701",
+      "name" : "Arabidopsis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3701"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

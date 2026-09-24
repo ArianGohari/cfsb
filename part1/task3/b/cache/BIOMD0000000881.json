@@ -1,0 +1,224 @@
+{
+  "name" : "Kogan2013 - A mathematical model for the immunotherapeutic control of the TH1 TH2 imbalance in melanoma",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model describing the imbalance between T helper (Th1/Th2) cell types in melanome patients, together with its regulation via IL-12 treatment. The model focuses on the interactions between the two T helper cell types as mediated by their respective key cytokines, interferon gamma and IL-10.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.3934/dcdsb.2013.18.1017",
+    "journal" : "Discrete and Continuous Dynamical Systems - Series B",
+    "title" : "A mathematical model for the immunotherapeutic control of the TH1/TH2 imbalance in melanoma",
+    "affiliation" : "10 Hate'ena St., Bene Ataroth 60991, Israel",
+    "synopsis" : "Aggressive cancers develop immune suppression mechanisms, allowing them to evade specific immune responses. Patients with active melanoma are polarized towards a T helper (Th) 2-type immune phenotype, which subverts effective anticancer Th1-type cellular immunity. The pro-inammatory factor, interleukin (IL)-12, can potentially restore Th1 responses in such patients, but still shows limited clinical efficacy and substantial side effects. We developed a model for the Th1/Th2 imbalance in melanoma patients and its regulation via IL-12 treatment. The model focuses on the interactions between the two Th cell types as mediated by their respective key cytokines, interferon (IFN)-γ and IL-10. Theoretical and numerical analysis showed a landscape consisting of a single, globally attracting steady state, which is stable under large ranges of relevant parameter values. Our results suggest that in melanoma, the cellular arm of the immune system cannot reverse tumor immunotolerance naturally, and that immunotherapy may be the only way to overturn tumor dominance. We have shown that given a toxicity threshold for IFNγ, the maximal allowable IL-12 concentration to yield a Th1-polarized state can be estimated. Moreover, our analysis pinpoints the IL-10 secretion rate as a significant factor inuencing the Th1:Th2 balance, suggesting its use as a personal immunomarker for prognosis.",
+    "year" : 2016,
+    "month" : "6",
+    "volume" : "18",
+    "issue" : "4",
+    "pages" : "1017-1030",
+    "link" : "http://identifiers.org/doi/10.3934/dcdsb.2013.18.1017",
+    "authors" : [
+      {
+        "name" : "Kogan, Y."
+      },
+      {
+        "name" : "Agur, Z."
+      },
+      {
+        "name" : "Elishmereni, M."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Kogan2013.xml",
+        "description" : "SBML L2V4 Representation of Kogan2013 - A mathematical model for the immunotherapeutic control of the TH1 TH2 imbalance in melanoma",
+        "fileSize" : "51628",
+        "mimeType" : "application/xml",
+        "md5sum" : "c2269c834fe7000a031b62cbc76c6e76",
+        "sha1sum" : "7c40509b36ad7feafb48cd51462f00f763852078",
+        "sha256sum" : "8d7b6b710ed9ed409651352f50baa2e9b1c5abea9aac247fb12210db536a48f6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Kogan2013-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "13990",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b44360bb7af53d1bf413acce97a08e5d",
+        "sha1sum" : "3e3c90f1a30a457d4396bfd407c9ebdd1a79b9e8",
+        "sha256sum" : "800493bcd73260f7366ef84a0b72e5c74e6da1fc7fb06b5fee2c42346294b613"
+      },
+      {
+        "name" : "Kogan2013-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "19182",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a454c992c957dde27a6dda244b42821d",
+        "sha1sum" : "0fd6dfe37c0ec98fe597ba4b510e501643fecd17",
+        "sha256sum" : "a95914b0e9d162a417d56b37490f0894150e22f4e219ecb5645255d531905d5c"
+      },
+      {
+        "name" : "Kogan2013.cps",
+        "description" : "COPASI file of Kogan2013 - A mathematical model for the immunotherapeutic control of the TH1 TH2 imbalance in melanoma",
+        "fileSize" : "96775",
+        "mimeType" : "application/xml",
+        "md5sum" : "544ef06ebaf18b63cc352c591412a4f6",
+        "sha1sum" : "54307a246d7df915a39196554af265b03f82e063",
+        "sha256sum" : "b08eace8c0411836b4eb2d05ecf2ef66e76358c824296a548c34534b61f68e8a"
+      },
+      {
+        "name" : "Kogan2013.sedml",
+        "description" : "SED-ML file of Kogan2013 - A mathematical model for the immunotherapeutic control of the TH1 TH2 imbalance in melanoma (additionally CRBM-validated and adjusted).",
+        "fileSize" : "24079",
+        "mimeType" : "application/xml",
+        "md5sum" : "9b4dfdf1d06dbb7152caf06dbc838153",
+        "sha1sum" : "e7ad14b8489a6d152949c73e7f3f7e016e274bd3",
+        "sha256sum" : "e86c381edee4eefdde425bec09013ff311a1633e53423f558028a72dcec783cd"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12968",
+        "mimeType" : "image/png",
+        "md5sum" : "1bd240db4fc1bef48bcafb29360b74d2",
+        "sha1sum" : "94c4068bf8c6fcf60116dffe815c3c761f9e7be8",
+        "sha256sum" : "6e5ebdbfe09054096236b1b7925758ec4c66f49437a451f581906cb2d7b0842d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "c268241fdf36b885b5e146e2c55075f2",
+        "sha1sum" : "5395e08f81f0e5e69501470d4b49cd7aaa3e828c",
+        "sha256sum" : "d0e6ccd779ee8c953b3d11bacca9a456b52de169b5b50ad9dfdd1566098a21ad"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1072",
+        "mimeType" : "application/xml",
+        "md5sum" : "0b0cdf255186ef7952fef4deed2008f5",
+        "sha1sum" : "2c4b5c01f1cd2173015fdf3ffcf01a5ac9da8014",
+        "sha256sum" : "20b3f24658f037038699b0012ec9fabaa0f6388392840577e942173483ae9482"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2048",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0b358bcfbc4103bf069da70f7f577828",
+        "sha1sum" : "8c6d9f63d7a0e369ac421a289a275a85991fcb8c",
+        "sha256sum" : "91209bbbc97ff02a76bee0b26f042c1b73571f461afa3299cba289eff28c145a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1575280955,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000881"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724292004,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285520,
+  "submissionId" : "MODEL1912020001",
+  "publicationId" : "BIOMD0000000881",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.3934/dcdsb.2013.18.1017",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.3934/dcdsb.2013.18.1017"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000881",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000881"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1912020001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1912020001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C18670",
+      "name" : "Cancer Immunology",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C18670"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C20496",
+      "name" : "Interferon Gamma",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C20496"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C20514",
+      "name" : "Interleukin-12",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C20514"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C20512",
+      "name" : "Interleukin-10",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C20512"
+    }
+  ]
+}

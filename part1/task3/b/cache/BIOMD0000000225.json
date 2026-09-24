@@ -1,0 +1,288 @@
+{
+  "name" : "Westermark2003_Pancreatic_GlycOsc_basic",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This is the basic model described in eq. 1 of the article: <br />        <strong>A model of phosphofructokinase and glycolytic oscillations in the pancreatic beta-cell. </strong>        <br />Westermark PO and Lansner A. <em>Biophys J.</em> 2003 Jul;85(1):126-39. PMID:       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12829470\">12829470</a>, doi:<a href=\"http://dx.doi.org/10.1016/S0006-3495(03)74460-9\">10.1016/S0006-3495(03)74460-9</a>        <br />        <strong>Abstract:</strong>        <br />We have constructed a model of the upper part of the glycolysis in the pancreatic beta-cell. The model comprises the enzymatic reactions from glucokinase to glyceraldehyde-3-phosphate dehydrogenase (GAPD). Our results show, for a substantial part of the parameter space, an oscillatory behavior of the glycolysis for a large range of glucose concentrations. We show how the occurrence of oscillations depends on glucokinase, aldolase and/or GAPD activities, and how the oscillation period depends on the phosphofructokinase activity. We propose that the ratio of glucokinase and aldolase and/or GAPD activities are adequate as characteristics of the glucose responsiveness, rather than only the glucokinase activity. We also propose that the rapid equilibrium between different oligomeric forms of phosphofructokinase may reduce the oscillation period sensitivity to phosphofructokinase activity. Methodologically, we show that a satisfying description of phosphofructokinase kinetics can be achieved using the irreversible Hill equation with allosteric modifiers. We emphasize the use of parameter ranges rather than fixed values, and the use of operationally well-defined parameters in order for this methodology to be feasible. The theoretical results presented in this study apply to the study of insulin secretion mechanisms, since glycolytic oscillations have been proposed as a cause of oscillations in the ATP/ADP ratio which is linked to insulin secretion.      </p>      <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12829470",
+    "journal" : "Biophysical journal",
+    "title" : "A model of phosphofructokinase and glycolytic oscillations in the pancreatic beta-cell.",
+    "affiliation" : "PSCI/SANS, NADA, Royal Institute of Technology (KTH), SE-100 44 Stockholm, Sweden. paal@nada.kth.se",
+    "synopsis" : "We have constructed a model of the upper part of the glycolysis in the pancreatic beta-cell. The model comprises the enzymatic reactions from glucokinase to glyceraldehyde-3-phosphate dehydrogenase (GAPD). Our results show, for a substantial part of the parameter space, an oscillatory behavior of the glycolysis for a large range of glucose concentrations. We show how the occurrence of oscillations depends on glucokinase, aldolase and/or GAPD activities, and how the oscillation period depends on the phosphofructokinase activity. We propose that the ratio of glucokinase and aldolase and/or GAPD activities are adequate as characteristics of the glucose responsiveness, rather than only the glucokinase activity. We also propose that the rapid equilibrium between different oligomeric forms of phosphofructokinase may reduce the oscillation period sensitivity to phosphofructokinase activity. Methodologically, we show that a satisfying description of phosphofructokinase kinetics can be achieved using the irreversible Hill equation with allosteric modifiers. We emphasize the use of parameter ranges rather than fixed values, and the use of operationally well-defined parameters in order for this methodology to be feasible. The theoretical results presented in this study apply to the study of insulin secretion mechanisms, since glycolytic oscillations have been proposed as a cause of oscillations in the ATP/ADP ratio which is linked to insulin secretion.",
+    "year" : 2003,
+    "month" : "7",
+    "volume" : "85",
+    "issue" : "1",
+    "pages" : "126-139",
+    "link" : "http://identifiers.org/pubmed/12829470",
+    "authors" : [
+      {
+        "name" : "Pål O Westermark",
+        "institution" : "PSCI/SANS, NADA, Royal Institute of Technology (KTH), SE-100 44 Stockholm, Sweden. paal@nada.kth.se"
+      },
+      {
+        "name" : "Anders Lansner",
+        "orcid" : "0000-0002-2358-7815"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000225_url.xml",
+        "description" : "SBML L2V4 representation of Westermark2003_Pancreatic_GlycOsc_basic",
+        "fileSize" : "25084",
+        "mimeType" : "application/xml",
+        "md5sum" : "a88aaaa86ef5f56700ccab21bdf01c41",
+        "sha1sum" : "beb0dadec2d7052f3c0fa9d79dee2add103ed61a",
+        "sha256sum" : "98dbf032bbea71bb6de172e62f1b5b671363b87a2f4d2b6ebb46b4c386fff100"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000225-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "12305",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f24b0838a9082ca95b0d0596b05d0dc5",
+        "sha1sum" : "e9f7a0159a2734ccbd9f1da4803429b1d0142573",
+        "sha256sum" : "a7b16792c817048f09fee4c9bc9cd5448de16b979e061d1a381f57599836095e"
+      },
+      {
+        "name" : "BIOMD0000000225-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "15415",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "92235b0b6ae748b4e7ccf932b8e896a5",
+        "sha1sum" : "0f5a80be093798a22d10886cb005c30736f33ebb",
+        "sha256sum" : "e4c926752068cf915797c23c4b60ee2f838a69bde5bfe1852246977ad5a006ef"
+      },
+      {
+        "name" : "BIOMD0000000225-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5348",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "648b32c9726662b0e0d439fed4dea63e",
+        "sha1sum" : "984cb9e9c5434ab8760ff0660475253a14329a97",
+        "sha256sum" : "4c71e2553092a47431ad4c965d291b8c70963ccb65dbb90438e97e11d37c77bd"
+      },
+      {
+        "name" : "BIOMD0000000225-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5348",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "082223d8f17ffd4c248e1dc87c3102bf",
+        "sha1sum" : "3a1d58b2631984a56e002bf27c5fd5cde40fba17",
+        "sha256sum" : "99270359dbbf5600c9ef269cca3d0e0050940ba1580abe9d283fec92b7c74b38"
+      },
+      {
+        "name" : "BIOMD0000000225.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5348",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "082223d8f17ffd4c248e1dc87c3102bf",
+        "sha1sum" : "3a1d58b2631984a56e002bf27c5fd5cde40fba17",
+        "sha256sum" : "99270359dbbf5600c9ef269cca3d0e0050940ba1580abe9d283fec92b7c74b38"
+      },
+      {
+        "name" : "BIOMD0000000225.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3252",
+        "mimeType" : "text/plain",
+        "md5sum" : "a71a5f370375bb0857fa810b4e2a2c12",
+        "sha1sum" : "0b90678b21fc8043e6b650ee99c37c22927dc786",
+        "sha256sum" : "03fe12a30564fcfff09ad6ada0b37f7df7db24029bf8f6e89099151fb299896b"
+      },
+      {
+        "name" : "BIOMD0000000225.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "162645",
+        "mimeType" : "application/pdf",
+        "md5sum" : "2ed83b876773115207feb846fd65e665",
+        "sha1sum" : "5fe9ab0fc7c23feab4cf4d1a9b5209b1940ee2e7",
+        "sha256sum" : "4d369032e0af870cc7f0a1332797a677b9fc3f577ca6fda2994a3b6a50985188"
+      },
+      {
+        "name" : "BIOMD0000000225.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "12709",
+        "mimeType" : "image/png",
+        "md5sum" : "0c52e819dcfc1b6af67e24d4535e4adb",
+        "sha1sum" : "e3d937fe5516b2bd6429a6471da6051690738d99",
+        "sha256sum" : "b9f823f688e9f97d8552d07a7296d8e3bb18643c22acd2376e736ffc7054dfc8"
+      },
+      {
+        "name" : "BIOMD0000000225.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "6985",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "058d62ccce35cd46d60c228614f77e1e",
+        "sha1sum" : "245c065535935aea8cc8596fbf62afa3b0de1392",
+        "sha256sum" : "2fedf15dcaa3c40817a82083f50c5d6d473df0d9421add87a67c15afd7a5dace"
+      },
+      {
+        "name" : "BIOMD0000000225.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "26005",
+        "mimeType" : "application/xml",
+        "md5sum" : "d771dd69113f4462e34558fed3f6fa39",
+        "sha1sum" : "f2c6d00f3a86c6aff27bd67c637979de85a6e316",
+        "sha256sum" : "65ed8fb84737e010d8d09a617b6fe8313311aac3dad538f439ef80b4a42c0b9e"
+      },
+      {
+        "name" : "BIOMD0000000225_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "16675",
+        "mimeType" : "application/xml",
+        "md5sum" : "bcad5d1d1798448041104e32259593ca",
+        "sha1sum" : "ef9ef0049f154037366c486689f22fdc422b6f48",
+        "sha256sum" : "8abf7d79b8bae500b460e87e5aed5147f3594251da7bb4bba9edfe72c572c074"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "31573",
+        "mimeType" : "image/png",
+        "md5sum" : "da4214a7fc802d830f253d795b99263f",
+        "sha1sum" : "b280ae7e32b989eed1f356e29c82175803006f13",
+        "sha256sum" : "7ab1e3e873f38c4f3cd2a5b2f79301cf0c509ca98adaf790750cc3553a5c3e74"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "129",
+        "mimeType" : "text/plain",
+        "md5sum" : "45e61e82d63694262332ee3a7d2b4f75",
+        "sha1sum" : "355cbbd3fe126a094994cf6f7d5293dbbaa0fcac",
+        "sha256sum" : "b5b7b24f5a3a0233db230b3e1205fb6b273224d5938ac9a3ba6d98912a0cd7d4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "dbdb1150667f6d4e930b9f79ad0baeb7",
+        "sha1sum" : "bdd587c3f65947fc38251b1e1b70342198a2913e",
+        "sha256sum" : "56473cefa530b7c4b6bca30982ab08353b9afa4e71863a9c34f1b7633cad55a6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5169",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "207005b74edcd94ff35236145e4cf374",
+        "sha1sum" : "f42dd57bb9028de50a601fea84887fa4ec31eddc",
+        "sha256sum" : "d107af6e97944e13aa1b93c26e35fc444c16c8c75a15b40210525f8ac98b3cdc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1245958197,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Westermark2003 Pancreatic GlycOsc"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401241704,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Westermark2003_Pancreatic_GlycOsc_basic"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270808,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284951,
+  "submissionId" : "MODEL5950995486",
+  "publicationId" : "BIOMD0000000225",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5950995486",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5950995486"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000225",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000225"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12829470",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12829470"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "6271617",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/6271617"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "map00010",
+      "name" : "Glycolysis / Gluconeogenesis",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map00010"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

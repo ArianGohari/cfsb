@@ -1,0 +1,249 @@
+{
+  "name" : "Simon2019 - NIK-dependent p100 processing into p52 and IkBd degradation, mass action, SBML 2v4",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model represents NIK-dependent p100 processing into p52  and NIK-dependent IkBd degradation with mass action kinetics. Compare this mass action representation to the Michaelis-Menten model. In this model the dose-response to increasing p100 mRNA is not monotonic due to substrate complex competition.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1073/pnas.1816000116",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Substrate complex competition is a regulatory motif that allows NFκB RelA to license but not amplify NFκB RelB",
+    "affiliation" : "Institute for Quantitative and Computational Biosciences, University of California, Los Angeles, CA 90095",
+    "synopsis" : "Signaling pathways often share molecular components, tying the activity of one pathway to the functioning of another. In the NFκB signaling system, distinct kinases mediate inflammatory and developmental signaling via RelA and RelB, respectively. Although the substrates of the developmental, so-called noncanonical, pathway are induced by inflammatory/canonical signaling, crosstalk is limited. Through dynamical systems modeling, we identified the underlying regulatory mechanism. We found that as the substrate of the noncanonical kinase NIK, the nfkb2 gene product p100, transitions from a monomer to a multimeric complex, it may compete with and inhibit p100 processing to the active p52. Although multimeric complexes of p100 (IκBδ) are known to inhibit preexisting RelA:p50 through sequestration, here we report that p100 complexes can inhibit the enzymatic formation of RelB:p52. We show that the dose–response systems properties of this complex substrate competition motif are poorly accounted for by standard Michaelis–Menten kinetics, but require more detailed mass action formulations. In sum, although tonic inflammatory signaling is required for adequate expression of the noncanonical pathway precursors, the substrate complex competition motif identified here can prevent amplification of the active RelB:p52 dimer in elevated inflammatory conditions to ensure reliable RelB-dependent developmental signaling independent of inflammatory context.",
+    "year" : 2019,
+    "month" : "4",
+    "link" : "http://identifiers.org/doi/10.1073/pnas.1816000116",
+    "authors" : [
+      {
+        "name" : "Simon Mitchell",
+        "institution" : "University of California, Los Angeles",
+        "orcid" : "0000-0003-1091-6349"
+      },
+      {
+        "name" : "Alexander Hoffmann",
+        "orcid" : "0000-0002-5607-3845"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Simon2019_model4.xml",
+        "description" : "SBML L2V4 NIK-dependent p100 processing into p52 and IkBd degradation, mass action",
+        "fileSize" : "36104",
+        "mimeType" : "application/xml",
+        "md5sum" : "d82c35611ef60635dcba2b4ab561af00",
+        "sha1sum" : "d63aeb387bd28bb584ca573d582fbbdad5bf02b7",
+        "sha256sum" : "3cdda182acee14f0bd55c4721532f3e3d9b749e946003b2ce74c3e51991c537c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MA-p52-IkBd-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "12091",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0bd7edf6f23e6f5600f5aa2f0214a303",
+        "sha1sum" : "1a12387e562c85bd444a4b434d4cc0d4321db547",
+        "sha256sum" : "cce37f98f88dab7ec01008523b071e12f8882f6948e045cdf010f4369b7576dc"
+      },
+      {
+        "name" : "MA-p52-IkBd-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "21112",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c100b477a6f2a6bcd58564cf2b571536",
+        "sha1sum" : "afdf79247f22e4b2408a7f2333ab2f9b391605e3",
+        "sha256sum" : "3adc899ef6537970f3b9badf07115c27959d8bea4cc97706d3a35e6ba69d7a71"
+      },
+      {
+        "name" : "MA-p52-IkBd.xml",
+        "description" : "old xml file",
+        "fileSize" : "28835",
+        "mimeType" : "application/xml",
+        "md5sum" : "d0d3b1cd2dc07ec1bfac934837a87f6c",
+        "sha1sum" : "45c200cd8afa28fe3a9c04aee8d122557791c0a1",
+        "sha256sum" : "1f152715c884797a0ba87c9139f144c03a8bd5469aa2cca3a8a774c8eeb93f79"
+      },
+      {
+        "name" : "Simon2019_model4-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "15790",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5d169589b766124fe6e3dfdc64216310",
+        "sha1sum" : "1998197c927e6076f8e7fb06cb78522ccc70e68c",
+        "sha256sum" : "fa98e049902bc433dd3b0ad10e6da2c827aaa132dcdbe921473ea856f1f6d643"
+      },
+      {
+        "name" : "Simon2019_model4-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "24903",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "09357e9b1db71674c166b227e0178e7e",
+        "sha1sum" : "294903aca3af4492e5c7b5cfcea2bf4f4e3b6d91",
+        "sha256sum" : "5dc03ce78a66c1843ac82567d01e3d36e66bbaf7def71446bcc52b2d5f83bc78"
+      },
+      {
+        "name" : "Simon2019_model4.cps",
+        "description" : "COPASI version 4.24 (Build 197) NIK-dependent p100 processing into p52 and IkBd degradation, mass action",
+        "fileSize" : "61450",
+        "mimeType" : "application/xml",
+        "md5sum" : "70dafc6de64809fa764acb1587559cbb",
+        "sha1sum" : "ce9c2c1764279e491153b77feb94d9a120bdc94e",
+        "sha256sum" : "60ff0c500db84268e9dd50d288c5938ea6a9419412902fe1388665bcfba2df12"
+      },
+      {
+        "name" : "Simon2019_model4.sedml",
+        "description" : "SEDML L1V2 NIK-dependent p100 processing into p52 and IkBd degradation, mass action (additionally CRBM-validated and adjusted).",
+        "fileSize" : "12610",
+        "mimeType" : "application/xml",
+        "md5sum" : "bf4a95e90e4a7402d9abc84b9b085722",
+        "sha1sum" : "2ae8fd602c7eb5f98d848627a3c06b0f9561e9f7",
+        "sha256sum" : "cfb866a39a62cef6440596adb389ecf0d484887decec00dc860ee577524769a6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "16046",
+        "mimeType" : "image/png",
+        "md5sum" : "ac3bb414f527db188b5ea5fd4f51612c",
+        "sha1sum" : "7b8267f0e85c07d64a65aef96ca0ea166e93f673",
+        "sha256sum" : "cbc674b7b9539d4b07b4e395b2bc94bd0283c159cddc6d7306183b357b192918"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "103",
+        "mimeType" : "text/plain",
+        "md5sum" : "b7619388c71da96a5701c237d8940773",
+        "sha1sum" : "4be5ed1e956d39aa5db1968f72c4f20f250beadd",
+        "sha256sum" : "3bee5013fcd51ed40d580e5b038bc1c81f4c3bcf4b82865937a63799dd87b0e4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1471",
+        "mimeType" : "application/xml",
+        "md5sum" : "1e8e8f1df7dd9669aa004d6b5ac670c1",
+        "sha1sum" : "afada63c89e5d57cbdaf29bbb6d2162b82e0ab25",
+        "sha256sum" : "f53dede629d2120609552d4ad44a0758712d365d23c297f6b84729cfb37e3cac"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2018",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "102c03db36a9955b3779ad1c4d4e0c9c",
+        "sha1sum" : "11d12f437192248c0eeb2cce0912eb2e2d98e986",
+        "sha256sum" : "08d8793c21d920f28e169412813cf8b584bcbdbdeb479301f4c3478de806774e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1556834046,
+        "submitter" : "Simon Mitchell",
+        "comment" : "updated publication"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1574180955,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000870"
+      },
+      {
+        "version" : 9,
+        "submitted" : 1578577483,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000870"
+      },
+      {
+        "version" : 10,
+        "submitted" : 1724291697,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285516,
+  "submissionId" : "MODEL1904020003",
+  "publicationId" : "BIOMD0000000870",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mohammad Umer Sharif Shohan",
+        "email" : "msharifshohan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0003-3985-2879",
+        "external" : false
+      },
+      {
+        "name" : "Simon Mitchell",
+        "email" : "Simon.mitchell@ucla.edu",
+        "affiliation" : "University of California, Los Angeles",
+        "orcid" : "0000-0003-1091-6349",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1073/pnas.1816000116",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1073/pnas.1816000116"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1904020003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1904020003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000870",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000870"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL1904020003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1904020003"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "31048505",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31048505"
+    }
+  ]
+}

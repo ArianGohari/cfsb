@@ -1,0 +1,284 @@
+{
+  "name" : "Hettling2011_CreatineKinase",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> \tAnalyzing the functional properties of the creatine kinase system with multiscale 'sloppy' modeling. </strong>        <br />Hettling H, van Beek JH       <em>PLoS Comput Biol.</em>2011 Aug;7(8):e1002130.        <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/PMEDID\">PMEDID</a>,      <br />        <strong>Abstract:</strong>        <br />In this study the function of the two isoforms of creatine kinase (CK; EC 2.7.3.2) in myocardium is investigated. The 'phosphocreatine shuttle' hypothesis states that mitochondrial and cytosolic CK plays a pivotal role in the transport of high-energy phosphate (HEP) groups from mitochondria to myofibrils in contracting muscle. Temporal buffering of changes in ATP and ADP is another potential role of CK. With a mathematical model, we analyzed energy transport and damping of high peaks of ATP hydrolysis during the cardiac cycle. The analysis was based on multiscale data measured at the level of isolated enzymes, isolated mitochondria and on dynamic response times of oxidative phosphorylation measured at the whole heart level. Using 'sloppy modeling' ensemble simulations, we derived confidence intervals for predictions of the contributions by phosphocreatine (PCr) and ATP to the transfer of HEP from mitochondria to sites of ATP hydrolysis. Our calculations indicate that only 15±8% (mean±SD) of transcytosolic energy transport is carried by PCr, contradicting the PCr shuttle hypothesis. We also predicted temporal buffering capabilities of the CK isoforms protecting against high peaks of ATP hydrolysis (3750 µM*s(-1)) in myofibrils. CK inhibition by 98% in silico leads to an increase in amplitude of mitochondrial ATP synthesis pulsation from 215±23 to 566±31 µM*s(-1), while amplitudes of oscillations in cytosolic ADP concentration double from 77±11 to 146±1 µM. Our findings indicate that CK acts as a large bandwidth high-capacity temporal energy buffer maintaining cellular ATP homeostasis and reducing oscillations in mitochondrial metabolism. However, the contribution of CK to the transport of high-energy phosphate groups appears limited. Mitochondrial CK activity lowers cytosolic inorganic phosphate levels while cytosolic CK has the opposite effect.   </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21912519",
+    "journal" : "PLoS computational biology",
+    "title" : "Analyzing the functional properties of the creatine kinase system with multiscale 'sloppy' modeling.",
+    "affiliation" : "Centre for Integrative Bioinformatics VU, VU University Amsterdam, Amsterdam, The Netherlands. hettling@few.vu.nl",
+    "synopsis" : "In this study the function of the two isoforms of creatine kinase (CK; EC 2.7.3.2) in myocardium is investigated. The 'phosphocreatine shuttle' hypothesis states that mitochondrial and cytosolic CK plays a pivotal role in the transport of high-energy phosphate (HEP) groups from mitochondria to myofibrils in contracting muscle. Temporal buffering of changes in ATP and ADP is another potential role of CK. With a mathematical model, we analyzed energy transport and damping of high peaks of ATP hydrolysis during the cardiac cycle. The analysis was based on multiscale data measured at the level of isolated enzymes, isolated mitochondria and on dynamic response times of oxidative phosphorylation measured at the whole heart level. Using 'sloppy modeling' ensemble simulations, we derived confidence intervals for predictions of the contributions by phosphocreatine (PCr) and ATP to the transfer of HEP from mitochondria to sites of ATP hydrolysis. Our calculations indicate that only 15±8% (mean±SD) of transcytosolic energy transport is carried by PCr, contradicting the PCr shuttle hypothesis. We also predicted temporal buffering capabilities of the CK isoforms protecting against high peaks of ATP hydrolysis (3750 µM*s(-1)) in myofibrils. CK inhibition by 98% in silico leads to an increase in amplitude of mitochondrial ATP synthesis pulsation from 215±23 to 566±31 µM*s(-1), while amplitudes of oscillations in cytosolic ADP concentration double from 77±11 to 146±1 µM. Our findings indicate that CK acts as a large bandwidth high-capacity temporal energy buffer maintaining cellular ATP homeostasis and reducing oscillations in mitochondrial metabolism. However, the contribution of CK to the transport of high-energy phosphate groups appears limited. Mitochondrial CK activity lowers cytosolic inorganic phosphate levels while cytosolic CK has the opposite effect.",
+    "year" : 2011,
+    "month" : "8",
+    "volume" : "7",
+    "issue" : "8",
+    "pages" : "e1002130",
+    "link" : "http://identifiers.org/pubmed/21912519",
+    "authors" : [
+      {
+        "name" : "Hannes Hettling",
+        "institution" : "Centre for Integrative Bioinformatics VU, VU University Amsterdam, Amsterdam, The Netherlands. hettling@few.vu.nl"
+      },
+      {
+        "name" : "Johannes H G M van Beek"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000408_url.xml",
+        "description" : "SBML L2V4 representation of Hettling2011_CreatineKinase",
+        "fileSize" : "70987",
+        "mimeType" : "application/xml",
+        "md5sum" : "50eecacf779156308d235e0cbaf957d6",
+        "sha1sum" : "4fb73afbaab8fb94d1c979eff65f6a23cc3562e2",
+        "sha256sum" : "d036ea50ac952b808108535b8bdea2bf9e431fbb021b33d17fb6f4cf7e4f9ff4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000408-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "27287",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a2440a02a9bc34cff462867335a8585e",
+        "sha1sum" : "a52c6f07f4f130a89a6a57db8be7fa6e7e1c25ed",
+        "sha256sum" : "ca0b81674f326d09c6e80a5ddf83f3912fbd68a45c83cb1135708c301a1e3db8"
+      },
+      {
+        "name" : "BIOMD0000000408-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "37489",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "65118731be9ca809096801a0d6a5ab92",
+        "sha1sum" : "67bee876297e6cf064c86d265b32aed2234bfc35",
+        "sha256sum" : "f6b0da935b1307d4aa2c3ecaa11f21fea470d0a7b49655c4c8ca838b9ec91f72"
+      },
+      {
+        "name" : "BIOMD0000000408-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "13925",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0f41a2664d72d7cfa9a06a4238fe257e",
+        "sha1sum" : "8073977a43f3b39da604edeb54d71c9bba41c35f",
+        "sha256sum" : "51d766aa1656a7db253e08e19e95fbd5124cfa3d88af0252bff54be62a3fad4f"
+      },
+      {
+        "name" : "BIOMD0000000408-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "13925",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8145850a21fd021c53c65d8993d01045",
+        "sha1sum" : "01298a0a84a67154f501fc7b9d8190b160318485",
+        "sha256sum" : "7ba4cc5fae379418fb28af62669e0514f652bc33a10cec6947e9b285b4c1bdfe"
+      },
+      {
+        "name" : "BIOMD0000000408.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "13925",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8145850a21fd021c53c65d8993d01045",
+        "sha1sum" : "01298a0a84a67154f501fc7b9d8190b160318485",
+        "sha256sum" : "7ba4cc5fae379418fb28af62669e0514f652bc33a10cec6947e9b285b4c1bdfe"
+      },
+      {
+        "name" : "BIOMD0000000408.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10044",
+        "mimeType" : "text/plain",
+        "md5sum" : "46ba47ffb4f5af168087ba75d65771e3",
+        "sha1sum" : "47941c04f475482d636af4fb3c46368ab838897d",
+        "sha256sum" : "895a8c5d3a5508f235b763a88d7c5f341286ba63ee99f705804e770bad7a61b6"
+      },
+      {
+        "name" : "BIOMD0000000408.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "222350",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3a81fc420e9c8916ac78d868f852d848",
+        "sha1sum" : "d0b04d5126dcfa182d8028bc4328783ce7b2343e",
+        "sha256sum" : "18be6fc0e908384fc2a22e5625cf1bf6f96df02db292482b99b4315c1f3029c0"
+      },
+      {
+        "name" : "BIOMD0000000408.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "40362",
+        "mimeType" : "image/png",
+        "md5sum" : "5e13c1491e48c18fb47fadbec83edfb4",
+        "sha1sum" : "14fbc66324363e19326bccac3c9586891ee8aea5",
+        "sha256sum" : "a553b3d7db63477f95557fce8b8e6e1da25a4a56cc63da1423d4e8de1547e327"
+      },
+      {
+        "name" : "BIOMD0000000408.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "20979",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b6b0d233ccf5ded00d4592111ed46d8b",
+        "sha1sum" : "957cfbe5361e29a00acfa06e759dfc8e3eeb8892",
+        "sha256sum" : "754e7871ebacaf0cdda01d425f8937151fcc2401196b53e5b90a350177e0f8a6"
+      },
+      {
+        "name" : "BIOMD0000000408_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "44791",
+        "mimeType" : "application/xml",
+        "md5sum" : "8c2d7089ad461bd6667fb53daa7c2cc5",
+        "sha1sum" : "a80f6576e655eda2e827090d3c337c78f5c84273",
+        "sha256sum" : "6ca59d2ea3945d38201e74e53f867be30443a92ace80ce2ff3f1f54818f6e963"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41745",
+        "mimeType" : "image/png",
+        "md5sum" : "38f3991b9df0a90c1fbb8fef3cc9b6d4",
+        "sha1sum" : "b2b220cf27bafac95f94021f45427dc1f6c90757",
+        "sha256sum" : "e758a5b87e147da81b821990c7060392eb9ba9b125905a1005ad0f797db48da0"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "86",
+        "mimeType" : "text/plain",
+        "md5sum" : "d44ca01aed51d1eb7530b87b21239f21",
+        "sha1sum" : "ebf57f3c9a80266212d913df45d15b7e6accd9db",
+        "sha256sum" : "0b84d0c4f5047998a9a757a91117b45b7dc3464bbc252732078fddcc7282fb7a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "e6cad450056ceae886a5b03ed12aef0b",
+        "sha1sum" : "cc3f99bf966784c9a550bb762f70e10fb050eb82",
+        "sha256sum" : "3910496253b542f057cd96d54d11b3755d90fc048e0bade3e488106bb330432c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4987",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ec4502793f86c001583fca7b94a2f7ec",
+        "sha1sum" : "7786f6b8c0dc85d672a7217ab09daa49fb3ed8df",
+        "sha256sum" : "ecb61abc91f7e42c47620c766684920602a1893e1a5f2911503d0ec9af5e9e01"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1327493955,
+        "submitter" : "Hannes Hettling",
+        "comment" : "Original import of Hettling_VanBeek_creatine_kinase_2011"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424867270,
+        "submitter" : "Hannes Hettling",
+        "comment" : "Current version of Hettling2011_CreatineKinase"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275877,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285135,
+  "submissionId" : "MODEL1201250000",
+  "publicationId" : "BIOMD0000000408",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Hannes Hettling",
+        "email" : "j.hettling@vu.nl",
+        "affiliation" : "VU University Amsterdam",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1201250000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1201250000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000408",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000408"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21912519",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21912519"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1006230027",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230027"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000041",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000041"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9984",
+      "name" : "Oryctolagus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9984"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0046034",
+      "name" : "ATP metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0046034"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006600",
+      "name" : "creatine metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006600"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

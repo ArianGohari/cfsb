@@ -1,0 +1,286 @@
+{
+  "name" : "Legewie2006_apoptosis_WT",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <p xmlns=\"http://www.w3.org/1999/xhtml\">    The model reproduces active Caspase-3 time profile corresponding to the total Apaf-1 value of 20 nM as depicted in Fig 2-A . The model was successfully tested on MathSBML.</p>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16978046",
+    "journal" : "PLoS computational biology",
+    "title" : "Mathematical modeling identifies inhibitors of apoptosis as mediators of positive feedback and bistability.",
+    "affiliation" : "Institute for Theoretical Biology, Humboldt University, Berlin, Germany. s.legewie@biologie.hu-berlin.de",
+    "synopsis" : "The intrinsic, or mitochondrial, pathway of caspase activation is essential for apoptosis induction by various stimuli including cytotoxic stress. It depends on the cellular context, whether cytochrome c released from mitochondria induces caspase activation gradually or in an all-or-none fashion, and whether caspase activation irreversibly commits cells to apoptosis. By analyzing a quantitative kinetic model, we show that inhibition of caspase-3 (Casp3) and Casp9 by inhibitors of apoptosis (IAPs) results in an implicit positive feedback, since cleaved Casp3 augments its own activation by sequestering IAPs away from Casp9. We demonstrate that this positive feedback brings about bistability (i.e., all-or-none behaviour), and that it cooperates with Casp3-mediated feedback cleavage of Casp9 to generate irreversibility in caspase activation. Our calculations also unravel how cell-specific protein expression brings about the observed qualitative differences in caspase activation (gradual versus all-or-none and reversible versus irreversible). Finally, known regulators of the pathway are shown to efficiently shift the apoptotic threshold stimulus, suggesting that the bistable caspase cascade computes multiple inputs into an all-or-none caspase output. As cellular inhibitory proteins (e.g., IAPs) frequently inhibit consecutive intermediates in cellular signaling cascades (e.g., Casp3 and Casp9), the feedback mechanism described in this paper is likely to be a widespread principle on how cells achieve ultrasensitivity, bistability, and irreversibility.",
+    "year" : 2006,
+    "month" : "9",
+    "volume" : "2",
+    "issue" : "9",
+    "pages" : "e120",
+    "link" : "http://identifiers.org/pubmed/16978046",
+    "authors" : [
+      {
+        "name" : "Stefan Legewie",
+        "orcid" : "0000-0003-4111-0567"
+      },
+      {
+        "name" : "Nils Blüthgen",
+        "orcid" : "0000-0002-0171-7447"
+      },
+      {
+        "name" : "Hanspeter Herzel"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000102_url.xml",
+        "description" : "SBML L2V1 representation of Legewie2006_apoptosis_WT",
+        "fileSize" : "58209",
+        "mimeType" : "application/xml",
+        "md5sum" : "561afa351719815e91ae038d13594ec2",
+        "sha1sum" : "c1251fc7eee1d2cb6c535bb485a2689e6df258e8",
+        "sha256sum" : "9be1a866da6ef6c9b31976ffa46af1500775bedcdc6d3120cfacf7cede593b79"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000102-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "41400",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cac48d99fa5aa4e095d6606733948ac7",
+        "sha1sum" : "186de7b24cadbe46ff23d60135d6b9ce4a8971e5",
+        "sha256sum" : "ef6285ab17cf2388c8e1dd46f62e41a821b4151e9fd21f273e39ef5a0447d401"
+      },
+      {
+        "name" : "BIOMD0000000102-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "69033",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3141438837671f53745df4e23831b144",
+        "sha1sum" : "b822059ecb054450d997efb948cb6d2cfa0103e7",
+        "sha256sum" : "1a9bab1b8ca7c8161d3f0f08c0504be303179ca2b3d3352fa56e7706d6083803"
+      },
+      {
+        "name" : "BIOMD0000000102-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11790",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "189693b54829849ed33546ed2a8970a8",
+        "sha1sum" : "4f2cffa2b05aa21f054a85ba12ca9deb2bd7056a",
+        "sha256sum" : "28c43ec749015b058817f395b53ed69e7ec05ab57343c20759a8ba83e49dbfe3"
+      },
+      {
+        "name" : "BIOMD0000000102-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11790",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6e6bde938cf4ad53c100a20d9817bc33",
+        "sha1sum" : "b3e39b8c6f8b6764ba149ec24f9288382131f794",
+        "sha256sum" : "071e5ba74fcf16cd5664d32dd219a946e0fb6c316845b8f32424ef868029aea3"
+      },
+      {
+        "name" : "BIOMD0000000102.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "11790",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6e6bde938cf4ad53c100a20d9817bc33",
+        "sha1sum" : "b3e39b8c6f8b6764ba149ec24f9288382131f794",
+        "sha256sum" : "071e5ba74fcf16cd5664d32dd219a946e0fb6c316845b8f32424ef868029aea3"
+      },
+      {
+        "name" : "BIOMD0000000102.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8557",
+        "mimeType" : "text/plain",
+        "md5sum" : "93175d28741c9601447cf0b96e43c3bb",
+        "sha1sum" : "72ab4cebbb4ea1e646558c557ff48d07a56765ed",
+        "sha256sum" : "421d091289c44b5e3926278d37d4b04bcbd86ffb2d339bc76e208017edcc16c2"
+      },
+      {
+        "name" : "BIOMD0000000102.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "236918",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b86e3f34a7792661e559d7b3fdd54dc1",
+        "sha1sum" : "adb01ba7c3f7c83bdbd3e5e00fb6c83470b405f6",
+        "sha256sum" : "0d22e4377848c207bfdb631ff7d5cfd3c71da15a8b1618e4348367634478d49c"
+      },
+      {
+        "name" : "BIOMD0000000102.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "239891",
+        "mimeType" : "image/png",
+        "md5sum" : "49b7c95f40dacad6f7262224db0826d5",
+        "sha1sum" : "f912cbde2c2fcbfe0cee38e3abf2de12d540cb0f",
+        "sha256sum" : "e80a6cf155dd7f1769ed2551516282582e95c3cabedf88270d33bc2ee4710784"
+      },
+      {
+        "name" : "BIOMD0000000102.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "63025",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "47d03db4b9f678cfe8c86f0f984501d7",
+        "sha1sum" : "cda81cecdcdecf1c34e83bfba16829d468fd1cd5",
+        "sha256sum" : "1df910f9f307b7fd273c908f79ae202648fdd1e8ffb6c65557a38db059c4e179"
+      },
+      {
+        "name" : "BIOMD0000000102.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "78159",
+        "mimeType" : "application/xml",
+        "md5sum" : "e5f9ea45cae1251b08fd5bb72dbba07b",
+        "sha1sum" : "fb2bee7ff4a588fbb78caf60547e7d0de78f91cd",
+        "sha256sum" : "e675deba67316c367e6bebd3ec65e104d152b2e539fa0b71d14b43ff8e8b5a7f"
+      },
+      {
+        "name" : "BIOMD0000000102_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "44912",
+        "mimeType" : "application/xml",
+        "md5sum" : "cc972e7c807c4c0f75ca084ddfb82cc8",
+        "sha1sum" : "dea2d1984fbaa17484d31fe4338383f3a6d0741f",
+        "sha256sum" : "e51c083c04d368a2c5104e50620209445f4a1751e3f2b35679a5b3ac1be61af9"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "15255",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "d7147e035832fa3fb5a27e41ff283519",
+        "sha1sum" : "0219d3bd4785a194796e304cef4f286eb248b3ef",
+        "sha256sum" : "fd7bd9219e49b2111c37d7c02bfeaea3b25c4b1898c29638b8d5a69d6c2ecdcf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "177",
+        "mimeType" : "text/plain",
+        "md5sum" : "4e4fa8f4acd787befb4ff1c21cbff5af",
+        "sha1sum" : "4395804efa3fb0abdeb479b6a32da7348f277ad2",
+        "sha256sum" : "16130bb359833c72c25d35a2ba23c49a2e8af654a0881c3722c7c3cba03fd4fc"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "094e341d8168777b2bd7eabfafa06dd3",
+        "sha1sum" : "02785f5add9892a71de4be6d3bf8cff102290bb3",
+        "sha256sum" : "dd65184b1c0cdfc6c1d661f79e0aa664094f6e2b17ca7b39d8dfc700d2147fcf"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1843",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7b56247e2cc8792076ac1ba54b05ed06",
+        "sha1sum" : "941e1e2c9d17453554b2ef7b0c9406ff4ec23a79",
+        "sha256sum" : "37c5e15e24978fa533d0372525cf525c31e1e0af7a92ca08530c892eaf78b4d2"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1174647469,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Legewie2006_apoptosis_WT"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1394038765,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Legewie2006_apoptosis_WT"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267469,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284879,
+  "submissionId" : "MODEL8567576821",
+  "publicationId" : "BIOMD0000000102",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8567576821",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8567576821"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000102",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000102"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16978046",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16978046"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04210",
+      "name" : "Apoptosis - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04210"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006915",
+      "name" : "apoptotic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006915"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

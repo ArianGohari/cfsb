@@ -1,0 +1,233 @@
+{
+  "name" : "Sible2007 - Mitotic cell cycle mecanism in Xenopus Laevis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Although not a traditional experimental \"method,\" mathematical modeling can provide a powerful approach for investigating complex cell signaling networks, such as those that regulate the eukaryotic cell division cycle. We describe here one modeling approach based on expressing the rates of biochemical reactions in terms of nonlinear ordinary differential equations. We discuss the steps and challenges in assigning numerical values to model parameters and the importance of experimental testing of a mathematical model. We illustrate this approach throughout with the simple and well-characterized example of mitotic cell cycles in frog egg extracts. To facilitate new modeling efforts, we describe several publicly available modeling environments, each with a collection of integrated programs for mathematical modeling. This review is intended to justify the place of mathematical modeling as a standard method for studying molecular regulatory networks and to guide the non-expert to initiate modeling projects in order to gain a systems-level perspective for complex control systems.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17189866",
+    "journal" : "Methods (San Diego, Calif.)",
+    "title" : "Mathematical modeling as a tool for investigating cell cycle control networks.",
+    "affiliation" : "Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061-0406, USA. siblej@vt.edu",
+    "synopsis" : "Although not a traditional experimental \"method,\" mathematical modeling can provide a powerful approach for investigating complex cell signaling networks, such as those that regulate the eukaryotic cell division cycle. We describe here one modeling approach based on expressing the rates of biochemical reactions in terms of nonlinear ordinary differential equations. We discuss the steps and challenges in assigning numerical values to model parameters and the importance of experimental testing of a mathematical model. We illustrate this approach throughout with the simple and well-characterized example of mitotic cell cycles in frog egg extracts. To facilitate new modeling efforts, we describe several publicly available modeling environments, each with a collection of integrated programs for mathematical modeling. This review is intended to justify the place of mathematical modeling as a standard method for studying molecular regulatory networks and to guide the non-expert to initiate modeling projects in order to gain a systems-level perspective for complex control systems.",
+    "year" : 2007,
+    "month" : "2",
+    "volume" : "41",
+    "issue" : "2",
+    "pages" : "238-247",
+    "link" : "http://identifiers.org/pubmed/17189866",
+    "authors" : [
+      {
+        "name" : "Jill C Sible",
+        "institution" : "Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061-0406, USA. siblej@vt.edu"
+      },
+      {
+        "name" : "John J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Sible2007.xml",
+        "description" : "SBML L2V4 representation of Sible2007 - Mitotic cell cycle mecanism in Xenopus Laevis",
+        "fileSize" : "91088",
+        "mimeType" : "application/xml",
+        "md5sum" : "83df377d32e43f7f5cef7aec48bc6130",
+        "sha1sum" : "781de8a5540828d5ac95bea03bcdbec7a9153c48",
+        "sha256sum" : "e7696639157542b7b77e228a499c5c597a97f0e8a10b8bae68df618868d51574"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Sible2007-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10161",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a06d54d298f580e0741729f170708a12",
+        "sha1sum" : "611fe89205e08aa355f4fb9cdddf2f1240aa18bb",
+        "sha256sum" : "18e680481fade735bbdf15e101df0ec06f4d9575f461c07fe4e6ce5a21a0f1d2"
+      },
+      {
+        "name" : "Sible2007-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10161",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ddb4d3617c87aa00cf87be91a955b167",
+        "sha1sum" : "a1f85c2d7b6f3ab1d0ce51946478d4cfd815ef6d",
+        "sha256sum" : "752a07af8df3e73126d668a1c0af40fe98aae03baf245cda9fb1945fd56e500c"
+      },
+      {
+        "name" : "Sible2007.cps",
+        "description" : "COPASI version 4.27 (Build 217) for reproducing figure 4A in the reference publication.",
+        "fileSize" : "129085",
+        "mimeType" : "application/xml",
+        "md5sum" : "d9f2297e56bf9bdce9194c867891ad3a",
+        "sha1sum" : "f7154f2fdeae771cb48def74fe6bea0d3ebae67c",
+        "sha256sum" : "f7131184aab81f07c38c7d9cd4ea1ed3b4600538bd6aea604a3030bbb07cd2ee"
+      },
+      {
+        "name" : "Sible2007.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7620",
+        "mimeType" : "text/plain",
+        "md5sum" : "7460d75f13dc4a1c534d7341fa917ea7",
+        "sha1sum" : "9fc387f357451f78dfbf307c95c9a562c0077c02",
+        "sha256sum" : "e732ac010796db76204b3a5d1d690b95cfd79e0630bc068b939caa54371567ed"
+      },
+      {
+        "name" : "Sible2007.sedml",
+        "description" : "sed-ml L1V2 file for reproducing figure 4A in the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "35294",
+        "mimeType" : "application/xml",
+        "md5sum" : "5dd25823bbb3bf3a774bd7107cdef389",
+        "sha1sum" : "89b7b942cd338a18bc2e7a8a8c8185b319bd952c",
+        "sha256sum" : "84b78929b59813f6c2b3727e6a1f7d6f85cd001aa4a9c1f49498047a5d045340"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41279",
+        "mimeType" : "image/png",
+        "md5sum" : "522e2a966c17cdb80bfbf9720f8e6eee",
+        "sha1sum" : "074a2f4216cc98d61367ebdf708edd6a29b5e5ca",
+        "sha256sum" : "fb57915e8ea784c0947923e67bf76156788516bf062a25dc53a0b50094afc176"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "138",
+        "mimeType" : "text/plain",
+        "md5sum" : "01b03d8122423937893aae1f9db7fcf3",
+        "sha1sum" : "cdc1610e8f6f5680f0c85112cbcc103d199ec439",
+        "sha256sum" : "1be58edbf25644455244e2645d12704f351c5d010a8e83590859497f5bc400e0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1159",
+        "mimeType" : "application/xml",
+        "md5sum" : "5b92b041d5b348ca11b1e45c0ffc5f09",
+        "sha1sum" : "2f19cc822e55d1f40318e22979d4b478ef6627ef",
+        "sha256sum" : "f416aa292bbb45586b589c6bbedcad4b7b4f9caab2f20df49175016aabc4f26c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2710",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b6cc5b80c4786d5b133d385960048c12",
+        "sha1sum" : "4d52929af532921ec7c3fbdbd2d9c77b4b8c505b",
+        "sha256sum" : "8b3368165fdfa6e48acbd3dc12a07fa97927727e94ce4b94a5dd609c8e522eba"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1536243505,
+        "submitter" : "Matthieu MAIRE",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1588333081,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000942"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724293546,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285541,
+  "submissionId" : "MODEL1809060005",
+  "publicationId" : "BIOMD0000000942",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthieu MAIRE",
+        "email" : "matt.maire@free.fr",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0051726",
+      "name" : "regulation of cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051726"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "8355",
+      "name" : "Xenopus laevis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/8355"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000942",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000942"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1809060005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1809060005"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17189866",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:17189866"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "17189866",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17189866"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name" : "Chen2004 - Cell Cycle Regulation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Chen2004 - Cell Cycle Regulation</div>            <div class=\"dc:description\">      <p>This is a hypothetical model of cell cycle that describes the molecular mechanism for regulating DNA synthesis, bud emergence, mitosis, and cell division in budding yeast.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/15169868\" title=\"Access to this publication\">Integrative analysis of cell cycle control in budding yeast.</a>                    </div>                <div class=\"bibo:authorList\">Chen KC, Calzone L, Csikasz-Nagy A, Cross FR, Novak B, Tyson JJ</div>                <div class=\"bibo:Journal\">Mol. Biol. Cell. [2004 Aug; Volume: 15 (Issue: 8 )] Page info: 3841-62</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>The adaptive responses of a living cell to internal and external signals are controlled by networks of proteins whose interactions are so complex that the functional integration of the network cannot be comprehended by intuitive reasoning alone. Mathematical modeling, based on biochemical rate equations, provides a rigorous and reliable tool for unraveling the complexities of molecular regulatory networks. The budding yeast cell cycle is a challenging test case for this approach, because the control system is known in exquisite detail and its function is constrained by the phenotypic properties of &gt;100 genetically engineered strains. We show that a mathematical model built on a consensus picture of this control system is largely successful in explaining the phenotypes of mutants described so far. A few inconsistencies between the model and experiments indicate aspects of the mechanism that require revision. In addition, the model allows one to frame and critique hypotheses about how the division cycle is regulated in wild-type and mutant cells, to predict the phenotypes of new mutant combinations, and to estimate the effective values of biochemical rate constants that are difficult to measure directly in vivo.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>The model reproduces the time profiles of the different species in Figure 2 of the paper. The figure depicts the cycle of a daughter cell. Since the Mass Doubling Time (MDT) is 90 minutes, time t=90 from the model simulation will correspond to time t=0 in the paper. The model was successfully tested using MathSBML and SBML odeSolver.</p>                </div>            <div class=\"bm:modification\">      <p>To create a valid SBML file, a local parameter k=1 was added in the reaction 'Inactivation_274_CDC20'. Also, in order to annotate the protein and to have the interaction in the reaction graph to match figure 1 of the article, the reaction rate constants k_{mad2}, k_{bub2} and k_{lte1} are considered as species and renamed as MAD2, BUB2 and LTE1 in the model.</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000056\">BIOMD0000000056</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15169868",
+    "journal" : "Molecular biology of the cell",
+    "title" : "Integrative analysis of cell cycle control in budding yeast.",
+    "affiliation" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061-0406, USA. kchen@vt.edu",
+    "synopsis" : "The adaptive responses of a living cell to internal and external signals are controlled by networks of proteins whose interactions are so complex that the functional integration of the network cannot be comprehended by intuitive reasoning alone. Mathematical modeling, based on biochemical rate equations, provides a rigorous and reliable tool for unraveling the complexities of molecular regulatory networks. The budding yeast cell cycle is a challenging test case for this approach, because the control system is known in exquisite detail and its function is constrained by the phenotypic properties of >100 genetically engineered strains. We show that a mathematical model built on a consensus picture of this control system is largely successful in explaining the phenotypes of mutants described so far. A few inconsistencies between the model and experiments indicate aspects of the mechanism that require revision. In addition, the model allows one to frame and critique hypotheses about how the division cycle is regulated in wild-type and mutant cells, to predict the phenotypes of new mutant combinations, and to estimate the effective values of biochemical rate constants that are difficult to measure directly in vivo.",
+    "year" : 2004,
+    "month" : "8",
+    "volume" : "15",
+    "issue" : "8",
+    "pages" : "3841-3862",
+    "link" : "http://identifiers.org/pubmed/15169868",
+    "authors" : [
+      {
+        "name" : "Katherine C Chen",
+        "institution" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061-0406, USA. kchen@vt.edu"
+      },
+      {
+        "name" : "Laurence Calzone",
+        "institution" : "Institut Curie, Paris, France. Laurence.Calzone@curie.fr",
+        "orcid" : "0000-0002-7835-1148"
+      },
+      {
+        "name" : "Attila Csikasz-Nagy",
+        "orcid" : "0000-0002-2919-5601"
+      },
+      {
+        "name" : "Frederick R Cross"
+      },
+      {
+        "name" : "Béla Novák",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      },
+      {
+        "name" : "John J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000056_url.xml",
+        "description" : "SBML L2V1 representation of Chen2004 - Cell Cycle Regulation",
+        "fileSize" : "208287",
+        "mimeType" : "application/xml",
+        "md5sum" : "8538e6e66789c14e92a0c7ecbe7808d0",
+        "sha1sum" : "6fc972cc054b77f72b7734ce50173d3b144b39f7",
+        "sha256sum" : "fc955bffc47e55f1f6376b002d5d5ca10ce40e63bbb2959910665b647f937bd1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000056-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "133054",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "369000406bb58b37b549904dd3e62576",
+        "sha1sum" : "7e66116eefcadcc0d1a59e8acb72b9bcbba2d85a",
+        "sha256sum" : "62449c432e5f8bca080300a4be5bab01b7d0703e3b6d8c8f9f3afd969c3b339a"
+      },
+      {
+        "name" : "BIOMD0000000056-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "215532",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8bfe6dafc387b2e229aa056f4d43945a",
+        "sha1sum" : "c2d1de0f8444458b50ac620270af51f21c52560e",
+        "sha256sum" : "7cd249ec1173bcde560b12213ef479e9101c47a2f4396a4129c3e0f93d5190e6"
+      },
+      {
+        "name" : "BIOMD0000000056-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "44401",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8202e11886df3c027be2f0f812ffcca5",
+        "sha1sum" : "ec8b04d1aa76281d65712ce7661b1441678e5273",
+        "sha256sum" : "8af593dfbbca8fb86266f7b05c79372d5626445955fd6a88e836991594a076c8"
+      },
+      {
+        "name" : "BIOMD0000000056.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "44681",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7c325c71ebdfa4f9663de07d518912a8",
+        "sha1sum" : "230abb2f8dd765c14b5ae83001c8470438b9bb1e",
+        "sha256sum" : "4e02eda2bc1c3271a417bdeeb4b5c06c132dfa2e0f1cac5ed20903bf2b23d11e"
+      },
+      {
+        "name" : "BIOMD0000000056.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "35426",
+        "mimeType" : "text/plain",
+        "md5sum" : "2079f71df5e9c482e095d6297d60c1bf",
+        "sha1sum" : "7b5e1e4c44d6e570fabbf582f2321b12d5745c48",
+        "sha256sum" : "6105ac6fff6c443982a881648c58ca4c74cce25645af8fb0226f0cef1bc2f0f2"
+      },
+      {
+        "name" : "BIOMD0000000056.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "586939",
+        "mimeType" : "application/pdf",
+        "md5sum" : "5cbd1f7a7f75073b5191508a9aacb71c",
+        "sha1sum" : "4193907265bdadc1fd29d69efdf59f72ed34948b",
+        "sha256sum" : "0cd715d8b4a725c2e54c22c5d6661c6e466fa044264391349c06f039b3029a77"
+      },
+      {
+        "name" : "BIOMD0000000056.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "826113",
+        "mimeType" : "image/png",
+        "md5sum" : "d3615cc354427f74ab6f6959fb2bf3a4",
+        "sha1sum" : "87e9841b4f7fe904a542cae4d8f815d216e77b46",
+        "sha256sum" : "644f3778ad74c1a013c8693f4041e3f8ac0d131576b3e7a1af40ed8656ed67e2"
+      },
+      {
+        "name" : "BIOMD0000000056.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "236241",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "5cb37081b67201216b285a4fa8f0c9ad",
+        "sha1sum" : "d3ddc6f5c061af6111c73df92bbf5e7f19c402bf",
+        "sha256sum" : "dadb219be771b59898aa820d8ec6c7d62ca96628c398506f4f40197502d5e260"
+      },
+      {
+        "name" : "BIOMD0000000056.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "260490",
+        "mimeType" : "application/xml",
+        "md5sum" : "e14a2546604c3b4b28d95fdf5477aea5",
+        "sha1sum" : "0cb89e52d4738db0baa87bdccac9bf7f722ce683",
+        "sha256sum" : "cfe27277e9ba00aa16bf07332b261e7c57b58b06561dc532e593e1703cdd1e03"
+      },
+      {
+        "name" : "BIOMD0000000056_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "178764",
+        "mimeType" : "application/xml",
+        "md5sum" : "76a91cd9ef3bfd6edfbfde63a4ff4db2",
+        "sha1sum" : "9ac0521ccb86c25ae13a8f74a3f156b43bb5d3a7",
+        "sha256sum" : "f4c0f793183151e79492c9b31651567c4514f575b4d15ede043eecd45c385e5e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17685",
+        "mimeType" : "image/png",
+        "md5sum" : "f669fb0923dbde99dbcea877e97a7cdf",
+        "sha1sum" : "10dd0f1c3520401474c0165a489d0b3cd0f0d1df",
+        "sha256sum" : "19d577688247ed3fcaf3f4698cb38e467083608e83049db67c50d08b16c16fc3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "137",
+        "mimeType" : "text/plain",
+        "md5sum" : "386452e8254e75ab7ede138101af30db",
+        "sha1sum" : "2ab887710bb2128bebcaabdd7eda3f661acbeb7b",
+        "sha256sum" : "41a93e3a4974fbb429248ecf24f9954d0bdf2f294c85dcb424707db2dc82cf0d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "2d22606c4b72a879bae26640998616e1",
+        "sha1sum" : "e36a8350b661d7ed308e6de6d1ed52bb9cf41354",
+        "sha256sum" : "02500ced74607e1aa81753c132b749bc8fac0455e85f31757a9962591fb2debe"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6046",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "687c6c1c1f5b7a9e416080d3e341781a",
+        "sha1sum" : "1921c93836b673578316421c050d08449e4475e5",
+        "sha256sum" : "b3488a184b15fb30fc524f8fd5e74cf356d30f367feacd8c77c5785b98f86b0f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1147268829,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Chen2004_CellCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1370606378,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Chen2004 - Cell Cycle Regulation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266195,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284859,
+  "submissionId" : "MODEL6624073334",
+  "publicationId" : "BIOMD0000000056",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6624073334",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6624073334"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000056",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000056"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15169868",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15169868"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "sce04111",
+      "name" : "Cell cycle - yeast - Saccharomyces cerevisiae (budding yeast)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/sce04111"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqbiol:isHomologTo",
+      "accession" : "REACT_152",
+      "name" : "Cell Cycle, Mitotic",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_152"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

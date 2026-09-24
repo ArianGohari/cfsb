@@ -1,0 +1,359 @@
+{
+  "name" : "Verma2016 - Ca(2+) Signal Propagation Along Hepatocyte Cords",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Verma2016 - Ca(2+) Signal Propagation Along Hepatocyte Cords</div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/27076052\" title=\"Access to this publication\">Computational Modeling of    Spatiotemporal Ca(2+) Signal Propagation Along Hepatocyte    Cords.</a>          </div>          <div class=\"bibo:authorList\">Verma A, Makadia H, Hoek JB,  Ogunnaike BA, Vadigepalli R.</div>          <div class=\"bibo:Journal\">IEEE Trans Biomed Eng 2016 Oct; 63(10):  2047-2055</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>The purpose of this study is to model the dynamics of    lobular Ca(2+) wave propagation induced by an extracellular    stimulus, and to analyze the effect of spatially systematic    variations in cell-intrinsic signaling parameters on sinusoidal    Ca(2+) response.We developed a computational model of lobular    scale Ca(2+) signaling that accounts for receptor- mediated    initiation of cell-intrinsic Ca(2+) signal in hepatocytes and    its propagation to neighboring hepatocytes through gap    junction-mediated molecular exchange.Analysis of the    simulations showed that a pericentral-to-periportal spatial    gradient in hormone sensitivity and/or rates of IP3 synthesis    underlies the Ca(2+) wave propagation. We simulated specific    cases corresponding to localized disruptions in the graded    pattern of these parameters along a hepatic sinusoid.    Simulations incorporating locally altered parameters exhibited    Ca(2+) waves that do not propagate throughout the hepatic    plate. Increased gap junction coupling restored normal Ca(2+)    wave propagation when hepatocytes with low Ca(2+) signaling    ability were localized in the midlobular or the pericentral    region.Multiple spatial patterns in intracellular signaling    parameters can lead to Ca(2+) wave propagation that is    consistent with the experimentally observed spatial patterns of    Ca(2+) dynamics. Based on simulations and analysis, we predict    that increased gap junction-mediated intercellular coupling can    induce robust Ca(2+) signals in otherwise poorly responsive    hepatocytes, at least partly restoring the sinusoidally    oriented Ca (2+) waves.Our bottom-up model of agonist-evoked    spatial Ca(2+) patterns can be integrated with detailed    descriptions of liver histology to study Ca(2+) regulation at    the tissue level.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1603110003\">MODEL1603110003</a>.</p>          <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p>        </div>        <div class=\"dc:license\">          <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p>        </div>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "27076052",
+    "journal" : "IEEE transactions on bio-medical engineering",
+    "title" : "Computational Modeling of Spatiotemporal Ca(2+) Signal Propagation Along Hepatocyte Cords.",
+    "synopsis" : "<h4>Objective</h4>The purpose of this study is to model the dynamics of lobular Ca(2+) wave propagation induced by an extracellular stimulus, and to analyze the effect of spatially systematic variations in cell-intrinsic signaling parameters on sinusoidal Ca(2+) response.<h4>Methods</h4>We developed a computational model of lobular scale Ca(2+) signaling that accounts for receptor- mediated initiation of cell-intrinsic Ca(2+) signal in hepatocytes and its propagation to neighboring hepatocytes through gap junction-mediated molecular exchange.<h4>Results</h4>Analysis of the simulations showed that a pericentral-to-periportal spatial gradient in hormone sensitivity and/or rates of IP3 synthesis underlies the Ca(2+) wave propagation. We simulated specific cases corresponding to localized disruptions in the graded pattern of these parameters along a hepatic sinusoid. Simulations incorporating locally altered parameters exhibited Ca(2+) waves that do not propagate throughout the hepatic plate. Increased gap junction coupling restored normal Ca(2+) wave propagation when hepatocytes with low Ca(2+) signaling ability were localized in the midlobular or the pericentral region.<h4>Conclusion</h4>Multiple spatial patterns in intracellular signaling parameters can lead to Ca(2+) wave propagation that is consistent with the experimentally observed spatial patterns of Ca(2+) dynamics. Based on simulations and analysis, we predict that increased gap junction-mediated intercellular coupling can induce robust Ca(2+) signals in otherwise poorly responsive hepatocytes, at least partly restoring the sinusoidally oriented Ca (2+) waves.<h4>Significance</h4>Our bottom-up model of agonist-evoked spatial Ca(2+) patterns can be integrated with detailed descriptions of liver histology to study Ca(2+) regulation at the tissue level.",
+    "year" : 2016,
+    "month" : "10",
+    "volume" : "63",
+    "issue" : "10",
+    "pages" : "2047-2055",
+    "link" : "http://identifiers.org/pubmed/27076052",
+    "authors" : [
+      {
+        "name" : "Aalap Verma"
+      },
+      {
+        "name" : "Hirenkumar Makadia"
+      },
+      {
+        "name" : "Jan B Hoek",
+        "orcid" : "0000-0001-7127-4218"
+      },
+      {
+        "name" : "Babatunde A Ogunnaike"
+      },
+      {
+        "name" : "Rajanikanth Vadigepalli",
+        "orcid" : "0000-0002-8405-1037"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Verma2016.xml",
+        "description" : "SBML L2V4 Ca(2+) Signal Propagation Along Hepatocyte Cords",
+        "fileSize" : "346336",
+        "mimeType" : "application/xml",
+        "md5sum" : "199686852fadcc6f4b92cff3018b87e0",
+        "sha1sum" : "647f56fb35f9d31b51bd4cfd77725c437beb07bf",
+        "sha256sum" : "b8705482f14050ee7df1121f6981c025180fc00ec0a6bde5ff0ce053c1e01604"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL1603110003-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "105170",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "74ee5cebcb7e947858b8ae84ec41264e",
+        "sha1sum" : "8b9ce7ab2bd698fa0c209ff4c8d41ad45b4822ac",
+        "sha256sum" : "e1f0cb66de83fd67c131816bc0c00f79e57beeb46c093569056a0fb094d36a4b"
+      },
+      {
+        "name" : "MODEL1603110003-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "184554",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "30c967f0e2ee2f2e295cad91517a2c23",
+        "sha1sum" : "472ac593621cf4b441f3f9a1d65dff230c1075bd",
+        "sha256sum" : "1819693825e8e85aab80453cc75c8a6a80af695d399f82de33dfb91c38bda6a2"
+      },
+      {
+        "name" : "MODEL1603110003-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "45838",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2d2a1e669c4eb711dba52718d12af5c8",
+        "sha1sum" : "106d3daf321c91560576006cf920869065a48c99",
+        "sha256sum" : "7a38d0cd36aa5dd618e2fa040e2d9ea16fefd0cd8c9e417afec62279fb52ba18"
+      },
+      {
+        "name" : "MODEL1603110003-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "45838",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1803d9d38b2d616622dc867c4b51e9ad",
+        "sha1sum" : "f893a5a77f4c83096fc9f68dd8e8c2e1ebde2d6e",
+        "sha256sum" : "45e2393801dbfd4733573aa41a827cd2c8aef9560a2821b729a8b70128b8fa6d"
+      },
+      {
+        "name" : "MODEL1603110003.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "42578",
+        "mimeType" : "text/plain",
+        "md5sum" : "f04b7743c2634d1b91b11a4ca419c1d8",
+        "sha1sum" : "875a485f0fb48c8b78f6ce2464664ec70e27bf93",
+        "sha256sum" : "77f14072992db4686e4d6538e9fef660d99e02d4a4ecbb3aac8c5004c20cd40a"
+      },
+      {
+        "name" : "MODEL1603110003.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "961765",
+        "mimeType" : "image/png",
+        "md5sum" : "dd11247492175afbf556c9a06a6d4d6d",
+        "sha1sum" : "ffee534b1642af871c41098ccc3efe515911e441",
+        "sha256sum" : "994439bdf8f1d262210089b37d0c78dce18e156749a06c59bf038485a7a1eb15"
+      },
+      {
+        "name" : "MODEL1603110003.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "258870",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "088e574cec12f437caab7d0e34fc0944",
+        "sha1sum" : "d62e94f3e144882e2ef77033d9e6a787b8460987",
+        "sha256sum" : "c49030253e52d8a6686501a3802e1f3dd285693acbfb0c2b19a80119a7103c02"
+      },
+      {
+        "name" : "MODEL1603110003_url.xml",
+        "description" : "old xml file",
+        "fileSize" : "373075",
+        "mimeType" : "application/xml",
+        "md5sum" : "ecdaae78825521ddad909f0c991b6161",
+        "sha1sum" : "3996379e9211c3cabf32826bb22a1c0109187198",
+        "sha256sum" : "e84cd41eeb019b0aa468c642b481beafd5171311097d2f94ebe23f181e1a0104"
+      },
+      {
+        "name" : "Verma2016-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "108751",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f4c87910ec9106204916790cc826b79b",
+        "sha1sum" : "d22bf594a0ee9150dd3fcdadd47aa144e3bb92f1",
+        "sha256sum" : "61ccb410b176188ffde11a75730e3e732a6c50c1f881dfae0549bfbdc83327a5"
+      },
+      {
+        "name" : "Verma2016-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "189810",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e0cb7c76af28fe03c9fd8bccc10895bc",
+        "sha1sum" : "5546c82b19e7c9a8eba7f207f53516fbc8c95cfc",
+        "sha256sum" : "975ddf0ba3b356e67a5b5add6bc5171d53e1a01cf222b94696dbfaf28fd7402d"
+      },
+      {
+        "name" : "Verma2016-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "47838",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7062cbae899bdb52b7f6210ee10417ef",
+        "sha1sum" : "d02eb302007a6387013b4c2a9ca6b76e22192436",
+        "sha256sum" : "0ffc85c7440c57a0a8fc82f80fb069f272489ce0b839239c5c8e97ad9d68aa70"
+      },
+      {
+        "name" : "Verma2016-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "47838",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ffaa0f20489dd8439f4ccf5f9e4991ff",
+        "sha1sum" : "a5357e0b4633f12f67420abb2bd6e0c67f649b49",
+        "sha256sum" : "231c83c8d5d6419a14ad3974c4cfd14d1ee6c0979f75a90ba5137a42c6a3306d"
+      },
+      {
+        "name" : "Verma2016.cps",
+        "description" : "COPASI version 4.24 (Build 197) Ca(2+) Signal Propagation Along Hepatocyte Cords",
+        "fileSize" : "702507",
+        "mimeType" : "application/xml",
+        "md5sum" : "d8315e2f41da5546558cbea1398b7763",
+        "sha1sum" : "dc7eadf50fdec7e886674ad21cba9ac842ad9765",
+        "sha256sum" : "4b31126026bbd74b7f345596c05d86fac43e4403b90cc3693a892dbecdea394d"
+      },
+      {
+        "name" : "Verma2016.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "44570",
+        "mimeType" : "text/plain",
+        "md5sum" : "96317591193ee62491058328f4ced97d",
+        "sha1sum" : "deeafb1d46c69760915539d1801d5206da1a27e9",
+        "sha256sum" : "37e47139bc75f21b1ed5e3bfbab7d1e401b007e476c6a66dbfc0140a04f392da"
+      },
+      {
+        "name" : "Verma2016.sedml",
+        "description" : "SEDML L1V2 Ca(2+) Signal Propagation Along Hepatocyte Cords (additionally CRBM-validated and adjusted).",
+        "fileSize" : "151576",
+        "mimeType" : "application/xml",
+        "md5sum" : "d229d453c49e96a3b2872cf2c4f62dfa",
+        "sha1sum" : "be865f7c9131ba3aed5c900ecd264b54b4c98820",
+        "sha256sum" : "0a801077c4ca279d0327482c2893e3e2f16e340f80007871a4a045236b2c831b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "625523",
+        "mimeType" : "image/png",
+        "md5sum" : "d814c1f54ec2cf2ab0202e364cb92bc1",
+        "sha1sum" : "51aadbb37d9e9c38f77d17396af96c68d915392e",
+        "sha256sum" : "16584baceb1043d698f8ff5eab53f803e533525dba13ab8e39778ab7896dbd9b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "350",
+        "mimeType" : "text/plain",
+        "md5sum" : "b696b635f95706849fe7d5252bb13855",
+        "sha1sum" : "f4ce6045cc7bdb054f8a8260b64dd5ec4c24166a",
+        "sha256sum" : "2f28f082fcce131588b7cd1580bd4da6c40b3322bc17c68b7a701fea4fbbeb05"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2356",
+        "mimeType" : "application/xml",
+        "md5sum" : "bb43a513b0f253d7ca339cde024fa738",
+        "sha1sum" : "fc06a0651362c0f2e6c9e93f248761480b4dfaf0",
+        "sha256sum" : "7ac2523b4c7eabc1649e5b4017d79b2a5798120b82e82ac6e6b95f2f7a92e718"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5625",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3d8c588ac202059d9597391aec2f5ac6",
+        "sha1sum" : "5c69d9ebf594bc5c79058877910bb5cb5707f2a7",
+        "sha256sum" : "775d5cc4a6e15b7eadec9156a09b34abc4271f60568ad897f5433488a85f56f0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1457735416,
+        "submitter" : "Aalap Verma",
+        "comment" : "Original import of Verma_Ca_Waves_Hepatocyte_Cords_2016"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1497284123,
+        "submitter" : "Aalap Verma",
+        "comment" : "Current version of Verma2016 - Ca(2+) Signal Propagation Along Hepatocyte Cords"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1571146573,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000834"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724290776,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285508,
+  "submissionId" : "MODEL1603110003",
+  "publicationId" : "BIOMD0000000834",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mohammad Umer Sharif Shohan",
+        "email" : "msharifshohan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0003-3985-2879",
+        "external" : false
+      },
+      {
+        "name" : "Aalap Verma",
+        "email" : "averma@udel.edu",
+        "affiliation" : "University of Delaware",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isInstanceOf",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isInstanceOf",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqmodel:isInstanceOf",
+      "accession" : "MODEL1603110003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1603110003"
+    },
+    {
+      "qualifier" : "bqmodel:isInstanceOf",
+      "accession" : "BTO:0000575",
+      "name" : "hepatocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000575"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "BTO:0000575",
+      "name" : "hepatocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000575"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "27076052",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/27076052"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000834",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000834"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1603110003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1603110003"
+    }
+  ]
+}

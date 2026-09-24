@@ -1,0 +1,319 @@
+{
+  "name" : "Brännmark2013 - Insulin signalling in human adipocytes (diabetic condition)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Brännmark2013 - Insulin signalling in human adipocytes (diabetic condition)</div>            <div class=\"dc:description\">      <p>The paper describes insulin signalling in human adipocytes under normal and diabetic states using mathematical models based on experimental data. This model corresponds to insulin signalling under diabetic condtion</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23400783\" title=\"Access to this publication\">Insulin Signaling in Type 2 Diabetes: EXPERIMENTAL AND MODELING ANALYSES REVEAL MECHANISMS OF INSULIN RESISTANCE IN HUMAN ADIPOCYTES.</a>                    </div>                <div class=\"bibo:authorList\">Brännmark C, Nyman E, Fagerholm S, Bergenholm L, Ekstrand EM, Cedersund G, Strålfors P.</div>                <div class=\"bibo:Journal\">J Biol Chem. 2013 Apr 5;288(14):9867-80.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>Type 2 diabetes originates in an expanding adipose tissue that for unknown reasons becomes insulin resistant. Insulin resistance reflects impairments in insulin signaling, but mechanisms involved are unclear because current research is fragmented. We report a systems level mechanistic understanding of insulin resistance, using systems wide and internally consistent data from human adipocytes. Based on quantitative steady-state and dynamic time course data on signaling intermediaries, normally and in diabetes, we developed a dynamic mathematical model of insulin signaling. The model structure and parameters are identical in the normal and diabetic states of the model, except for three parameters that change in diabetes: (i) reduced concentration of insulin receptor, (ii) reduced concentration of insulin-regulated glucose transporter GLUT4, and (iii) changed feedback from mammalian target of rapamycin in complex with raptor (mTORC1). Modeling reveals that at the core of insulin resistance in human adipocytes is attenuation of a positive feedback from mTORC1 to the insulin receptor substrate-1, which explains reduced sensitivity and signal strength throughout the signaling network. Model simulations with inhibition of mTORC1 are comparable with experimental data on inhibition of mTORC1 using rapamycin in human adipocytes. We demonstrate the potential of the model for identification of drug targets, e.g. increasing the feedback restores insulin signaling, both at the cellular level and, using a multilevel model, at the whole body level. Our findings suggest that insulin resistance in an expanded adipose tissue results from cell growth restriction to prevent cell necrosis.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1304160000\">MODEL1304160000</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23400783",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "Insulin signaling in type 2 diabetes: experimental and modeling analyses reveal mechanisms of insulin resistance in human adipocytes.",
+    "affiliation" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden.",
+    "synopsis" : "Type 2 diabetes originates in an expanding adipose tissue that for unknown reasons becomes insulin resistant. Insulin resistance reflects impairments in insulin signaling, but mechanisms involved are unclear because current research is fragmented. We report a systems level mechanistic understanding of insulin resistance, using systems wide and internally consistent data from human adipocytes. Based on quantitative steady-state and dynamic time course data on signaling intermediaries, normally and in diabetes, we developed a dynamic mathematical model of insulin signaling. The model structure and parameters are identical in the normal and diabetic states of the model, except for three parameters that change in diabetes: (i) reduced concentration of insulin receptor, (ii) reduced concentration of insulin-regulated glucose transporter GLUT4, and (iii) changed feedback from mammalian target of rapamycin in complex with raptor (mTORC1). Modeling reveals that at the core of insulin resistance in human adipocytes is attenuation of a positive feedback from mTORC1 to the insulin receptor substrate-1, which explains reduced sensitivity and signal strength throughout the signaling network. Model simulations with inhibition of mTORC1 are comparable with experimental data on inhibition of mTORC1 using rapamycin in human adipocytes. We demonstrate the potential of the model for identification of drug targets, e.g. increasing the feedback restores insulin signaling, both at the cellular level and, using a multilevel model, at the whole body level. Our findings suggest that insulin resistance in an expanded adipose tissue results from cell growth restriction to prevent cell necrosis.",
+    "year" : 2013,
+    "month" : "4",
+    "volume" : "288",
+    "issue" : "14",
+    "pages" : "9867-9880",
+    "link" : "http://identifiers.org/pubmed/23400783",
+    "authors" : [
+      {
+        "name" : "Cecilia Brännmark",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden."
+      },
+      {
+        "name" : "Elin Nyman",
+        "institution" : "Department of Biomedical Engineering, Linköping University, SE-58185, Linköping, Sweden; CVMD iMED DMPK AstraZeneca R&D, 431 83, Mölndal, Sweden.",
+        "orcid" : "0000-0002-4261-0291"
+      },
+      {
+        "name" : "Siri Fagerholm",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden."
+      },
+      {
+        "name" : "Linnéa Bergenholm",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden."
+      },
+      {
+        "name" : "Eva-Maria Ekstrand",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden.",
+        "orcid" : "0000-0001-5260-1826"
+      },
+      {
+        "name" : "Gunnar Cedersund",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden; Department of Biomedical Engineering, Linköping University, SE58185 Linköping, Sweden."
+      },
+      {
+        "name" : "Peter Strålfors",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE58185 Linköping, Sweden. Electronic address: peter.stralfors@liu.se."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000449_url.xml",
+        "description" : "SBML L2V4 representation of Brännmark2013 - Insulin signalling in human adipocytes (diabetic condition)",
+        "fileSize" : "73160",
+        "mimeType" : "application/xml",
+        "md5sum" : "a0d6a1788bdbf40e29d2c990787abe05",
+        "sha1sum" : "b6cd6c9b8b30e3c0aa6b0a8ed7e9c4bfed911fa5",
+        "sha256sum" : "fa04d2ebd5c5b23e06805cd77ff57724daa0064092ce568a67c00480f6b8ac18"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000449-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "49487",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3ad390d62409deea3f448cf9903c580c",
+        "sha1sum" : "e4323402eba453730562f8b027699a96c40b111c",
+        "sha256sum" : "8f61dfb67c2bfd8c7c26c2c2aa4bb6ab02d6fa6fc752be43523e9291cc16e733"
+      },
+      {
+        "name" : "BIOMD0000000449-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "78426",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "43f49c472a39f2f7106fbc59d45af39d",
+        "sha1sum" : "67edbf6121f1b663091193342826bd895999df15",
+        "sha256sum" : "50ee7918a9f16585a11a7206bd6e166dc7c38da5bb7136cdb3027d21004c7097"
+      },
+      {
+        "name" : "BIOMD0000000449-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16236",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "751af52fa40431a5cfc64230cc003853",
+        "sha1sum" : "1ec7f442798e50a1d5bd3e1301c0405f86d8f90b",
+        "sha256sum" : "734be187bf34ddb8168dd54ed7eaf303a3ece5ef21600bfa1ff5450f77f15170"
+      },
+      {
+        "name" : "BIOMD0000000449-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16236",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "90bfcedc133297eb061d814991c92da3",
+        "sha1sum" : "2f417dd139384668f099da2e98121321633e5394",
+        "sha256sum" : "d0caf7c8736fe6f63d17dd57ae4a55e8ab7585f62089834155f5ab2bbe56c9f3"
+      },
+      {
+        "name" : "BIOMD0000000449.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16237",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "146588a776f2d5084a3f1784bdd36952",
+        "sha1sum" : "4ee6bf872adce1bfd19f3010cc502bd7685b53f3",
+        "sha256sum" : "e9193958c54bc1f3645c3f0c499ae324128d2c6722080fa85eb9f5bd149ed727"
+      },
+      {
+        "name" : "BIOMD0000000449.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "13306",
+        "mimeType" : "text/plain",
+        "md5sum" : "c24bfd14ffb9e31d9ab5b4943a97074c",
+        "sha1sum" : "e38dfba8c66867596c48bb6ae42332503fee1bcb",
+        "sha256sum" : "862baaa512276967a290565677f64a6389b51a85c90ac6eecce7ab3b5bcd3788"
+      },
+      {
+        "name" : "BIOMD0000000449.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "323987",
+        "mimeType" : "application/pdf",
+        "md5sum" : "02c8ad208edc15e701652e59e88857e2",
+        "sha1sum" : "eba5d8a2560e4fc4675b0c77ae688f0b01e411d4",
+        "sha256sum" : "e69409d11621d4d8db587a524c40c84d43e23d74e5bf188b600a5f64e70c31c2"
+      },
+      {
+        "name" : "BIOMD0000000449.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "448020",
+        "mimeType" : "image/png",
+        "md5sum" : "4090512f22afd0f42f07c03a2ff0cb63",
+        "sha1sum" : "45c9831ba7d6baac72e3cd06567f552d8887cce6",
+        "sha256sum" : "4b9293a8cfcef29ae774a231fad8992a1f5329524000ae826127e3f2b7e45d2f"
+      },
+      {
+        "name" : "BIOMD0000000449.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "10797",
+        "mimeType" : "text/plain",
+        "md5sum" : "391578f4bd572f6279a4421c658192f1",
+        "sha1sum" : "399e87404321d4fd1120d1f55c0fec77fff50b68",
+        "sha256sum" : "d6a56da32089fdf228d015a25073101f0b1300aecf19c202d40e64c5ec151a80"
+      },
+      {
+        "name" : "BIOMD0000000449.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "96796",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2fca1cc937b331b4a483500025234963",
+        "sha1sum" : "f50ad3d504f8cf4179091875d8bbe153e78e1112",
+        "sha256sum" : "aaddd131622b821196ef57e880b49258c3723ce321244f290d5c4f0968556bea"
+      },
+      {
+        "name" : "BIOMD0000000449.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "91509",
+        "mimeType" : "application/xml",
+        "md5sum" : "7390183073563bc482c4ee575f92d6cc",
+        "sha1sum" : "27df73f9de2e1d9d9bcb5347fb3c22c36ed8e490",
+        "sha256sum" : "171d22540a5eacb78ab5fb3d090afcc09b6e1539565677d0a9841620ff548e3b"
+      },
+      {
+        "name" : "BIOMD0000000449_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "72144",
+        "mimeType" : "application/xml",
+        "md5sum" : "8ef8ad5a56199554eac94a31ac2160d0",
+        "sha1sum" : "19678fde5548b5a998b93981a43d9cc936f2b60b",
+        "sha256sum" : "786db89bee2d0f8bd062bd10b3b617b045b5e709cdf0e056e1851fdcf6437e54"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "61842",
+        "mimeType" : "image/png",
+        "md5sum" : "9fd7abf7bc7a2d0458c5f86119fcf1cc",
+        "sha1sum" : "4d8df4c3a48b72e15f4aef4ede6bd92cf6cd7791",
+        "sha256sum" : "2dd39357ed7c3b2991fba2e9869d339550dfecc5ddfbac5e7f851408d94834db"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "233",
+        "mimeType" : "text/plain",
+        "md5sum" : "306b50432da739a91fec21e1efcb8a4b",
+        "sha1sum" : "47cf4b47f965ea4671860a1ca61fc6a2dc114281",
+        "sha256sum" : "8331ee0a245066db983813916bbb1c879ba4ea128553fd4ea5efd1ff4776a912"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "0d0d374c0989e8508212d4979ee504b8",
+        "sha1sum" : "3ece6918b57336d3a0664f4118dafdd36864e542",
+        "sha256sum" : "5d87a64abf2a4f203e39f82ba59832b061e2beeeea59c04004fdeb17e2f505d2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5967",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "dff75d4de230fa8b143332091599db62",
+        "sha1sum" : "760f51a661792b4f1054fae9a109dee660de2415",
+        "sha256sum" : "3623a74422241e04ffca39001e202a27f90c6f136c2319f8bde8b1105a8645d3"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1366102650,
+        "submitter" : "Elin Nyman",
+        "comment" : "Original import of diabetesmodel"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1497644487,
+        "submitter" : "Elin Nyman",
+        "comment" : "Current version of Brännmark2013 - Insulin signalling in human adipocytes (diabetic condition)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277318,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285188,
+  "submissionId" : "MODEL1304160000",
+  "publicationId" : "BIOMD0000000449",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Elin Nyman",
+        "email" : "elin.nyman@liu.se",
+        "affiliation" : "Linköping University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1304160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1304160000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000449",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000449"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23400783",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23400783"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000343",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000343"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0032869",
+      "name" : "cellular response to insulin stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0032869"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:9352",
+      "name" : "type 2 diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9352"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "name" : "Larbat2016.1 - Modeling the diversion of primary carbon flux into secondary metabolism under variable nitrate and light or dark conditions (Base Model)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a global mathematical model describing metabolic partitioning of carbon resources in plants between growth and defense, as a function of nitrate fertilization. The model hinges on the dynamics of sucrose inflow/outflow properties.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "27164436",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Modeling the diversion of primary carbon flux into secondary metabolism under variable nitrate and light/dark conditions.",
+    "affiliation" : "INRA UMR 1121, Agronomie & Environnement Nancy-Colmar, TSA 40602, 54518 Vandoeuvre Cedex, France; Université de Lorraine UMR 1121, Agronomie & Environnement Nancy-Colmar, TSA 40602, 54518 Vandoeuvre Cedex, France. Electronic address: romain.larbat@univ-lorraine.fr.",
+    "synopsis" : "In plants, the partitioning of carbon resources between growth and defense is detrimental for their development. From a metabolic viewpoint, growth is mainly related to primary metabolism including protein, amino acid and lipid synthesis, whereas defense is based notably on the biosynthesis of a myriad of secondary metabolites. Environmental factors, such as nitrate fertilization, impact the partitioning of carbon resources between growth and defense. Indeed, experimental data showed that a shortage in the nitrate fertilization resulted in a reduction of the plant growth, whereas some secondary metabolites involved in plant defense, such as phenolic compounds, accumulated. Interestingly, sucrose, a key molecule involved in the transport and partitioning of carbon resources, appeared to be under homeostatic control. Based on the inflow/outflow properties of sucrose homeostatic regulation we propose a global model on how the diversion of the primary carbon flux into the secondary phenolic pathways occurs at low nitrate concentrations. The model can account for the accumulation of starch during the light phase and the sucrose remobilization by starch degradation during the night. Day-length sensing mechanisms for variable light-dark regimes are discussed, showing that growth is proportional to the length of the light phase. The model can describe the complete starch consumption during the night for plants adapted to a certain light/dark regime when grown on sufficient nitrate and can account for an increased accumulation of starch observed under nitrate limitation.",
+    "year" : 2016,
+    "month" : "8",
+    "volume" : "402",
+    "pages" : "144-157",
+    "link" : "http://identifiers.org/pubmed/27164436",
+    "authors" : [
+      {
+        "name" : "Romain Larbat",
+        "institution" : "INRA UMR 1121, Agronomie & Environnement Nancy-Colmar, TSA 40602, 54518 Vandoeuvre Cedex, France; Université de Lorraine UMR 1121, Agronomie & Environnement Nancy-Colmar, TSA 40602, 54518 Vandoeuvre Cedex, France. Electronic address: romain.larbat@univ-lorraine.fr.",
+        "orcid" : "0000-0002-9060-5040"
+      },
+      {
+        "name" : "Christophe Robin",
+        "institution" : "INRA UMR 1121, Agronomie & Environnement Nancy-Colmar, TSA 40602, 54518 Vandoeuvre Cedex, France; Université de Lorraine UMR 1121, Agronomie & Environnement Nancy-Colmar, TSA 40602, 54518 Vandoeuvre Cedex, France.",
+        "orcid" : "0000-0001-8117-806X"
+      },
+      {
+        "name" : "Cathrine Lillo",
+        "institution" : "Centre for Organelle Research, University of Stavanger, Stavanger Innovation Park, Måltidets Hus, 4021 Stavanger, Norway.",
+        "orcid" : "0000-0002-8470-8983"
+      },
+      {
+        "name" : "Tormod Drengstig",
+        "institution" : "Department of Computer Science and Electrical Engineering, University of Stavanger, 4036 Stavanger, Norway."
+      },
+      {
+        "name" : "Peter Ruoff",
+        "institution" : "Centre for Organelle Research, University of Stavanger, Stavanger Innovation Park, Måltidets Hus, 4021 Stavanger, Norway. Electronic address: peter.ruoff@uis.no."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Larbat2016.1.xml",
+        "description" : "SBML L2V4 Representation of Larbat2016.1 - Modeling the diversion of primary carbon flux into secondary metabolism under variable nitrate and light or dark conditions (Base Model)",
+        "fileSize" : "92468",
+        "mimeType" : "application/xml",
+        "md5sum" : "393c12a9693e05dc60802cdd96fcfdb5",
+        "sha1sum" : "91c30e45615492596c1b4f00f9e7af5f5ab1de7c",
+        "sha256sum" : "d03dde463e21297d5c8fcd663635775d881a4620d0598f4ee078d127cc4bf7e6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Larbat2016.1-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "23110",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6542e94c8f6af1379328358cc4f2c013",
+        "sha1sum" : "f0db4bcfc6fa26a1d75165ed23ebe73736426df4",
+        "sha256sum" : "d73404d5bf8d4e0d23b49babbfa21dbd44f45af440a46ef0f991806b1821ee41"
+      },
+      {
+        "name" : "Larbat2016.1-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "35205",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0337c2c97f3f556f578a1bba9feb62a9",
+        "sha1sum" : "12771a21240abddcb0a55959e09bd344242f6224",
+        "sha256sum" : "a3e342d29592e66e96db14e9393f6be2b28356735906d86a3e11c698c509b799"
+      },
+      {
+        "name" : "Larbat2016.1-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11478",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "221e3fbe7a0e45d7e2bf3b9803df9602",
+        "sha1sum" : "45461d01673f14d3d7ce6f8cab986e4972ebee7f",
+        "sha256sum" : "fd4f63ae9d2e65dc079f2657b858b1620a8aedffa7404308465ad6d8cf0106bb"
+      },
+      {
+        "name" : "Larbat2016.1-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11478",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "013ba9059b6b49fb0c325d4618b0296a",
+        "sha1sum" : "8496d1e0aedf7c447e74d1077fa992f0343bf54b",
+        "sha256sum" : "743befaadd560f1fd707525d84cc3d4bf2e56d346c4f531d1ab4c1631d892369"
+      },
+      {
+        "name" : "Larbat2016.1.cps",
+        "description" : "COPASI file of Larbat2016.1 - Modeling the diversion of primary carbon flux into secondary metabolism under variable nitrate and light or dark conditions (Base Model)",
+        "fileSize" : "144136",
+        "mimeType" : "application/xml",
+        "md5sum" : "bb8140e1246f813c8f3c626b1906a2df",
+        "sha1sum" : "9bb3198c5a2ea69bfcf4de48dcf1d429a9fea99f",
+        "sha256sum" : "6b7e8d5487176b8e4222f86f4450e154f61bd3a98dd83735438c9aee47d29ba8"
+      },
+      {
+        "name" : "Larbat2016.1.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9660",
+        "mimeType" : "text/plain",
+        "md5sum" : "db72f046d1e2e8bf63c09d46c15c0097",
+        "sha1sum" : "5420a5362b54b784c40fe2f11afefa8144331c83",
+        "sha256sum" : "ff91f2d442450723850868556e352ca56674a43b8855953d9e51e7f3146a8be4"
+      },
+      {
+        "name" : "Larbat2016.1.sedml",
+        "description" : "SED-ML file of Larbat2016.1 - Modeling the diversion of primary carbon flux into secondary metabolism under variable nitrate and light or dark conditions (Base Model) (additionally CRBM-validated and adjusted).",
+        "fileSize" : "37790",
+        "mimeType" : "application/xml",
+        "md5sum" : "e3c500ae0a51dd4186969283e8c48041",
+        "sha1sum" : "b937f225a8b97808d85b679602226ff861417617",
+        "sha256sum" : "d8bf2467efdbbc726e99849e4e05b47595ccc54f90fad4ad48b5333a16cfffe0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11262",
+        "mimeType" : "image/png",
+        "md5sum" : "8db86da73146638b3dd6e707bc61648a",
+        "sha1sum" : "7883ab9747bb6e8618134edc3f81a751ec902a3d",
+        "sha256sum" : "e4182154b132544c7dd3bb51fca9c7263310527a4b2ec610e31605ac0b2a7340"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "0e49be167c11c88f0fd8c98bd9287d3a",
+        "sha1sum" : "4b700c8b2a0042f298a87a764266dda4ed7e7e19",
+        "sha256sum" : "a936e4dd21a8815727b28141702138cd595d7b33d3d375eeab51e36ea30fd839"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1427",
+        "mimeType" : "application/xml",
+        "md5sum" : "fe2e23fb32ff2606b014003774959f84",
+        "sha1sum" : "7191866f9022a9e658e8b6483cfd47e3985001ea",
+        "sha256sum" : "5619dd8b84d616a02b4d1a9c21b0b9124bec205074c1a49d02a7e2bab660616a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1997",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "19e320b32ffc5fe57c6f4f6098a94310",
+        "sha1sum" : "c0f51dcc6c729fe125cd116285cc30621960b768",
+        "sha256sum" : "b3b9e2d80dc2905f76d77650a415c73d56cd2ee75730b47504149a0794a45665"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1573663823,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000857"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724291383,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285513,
+  "submissionId" : "MODEL1911130004",
+  "publicationId" : "BIOMD0000000857",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "27164436",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/27164436"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000857",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000857"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911130004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911130004"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0005985",
+      "name" : "sucrose metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005985"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0018958",
+      "name" : "phenol-containing compound metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0018958"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0005982",
+      "name" : "starch metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005982"
+    }
+  ]
+}

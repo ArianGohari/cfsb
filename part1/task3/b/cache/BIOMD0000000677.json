@@ -1,0 +1,284 @@
+{
+  "name" : "Holmes2006 - Hill's model of muscle contraction",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Holmes2006 - Hill's model of muscle contraction</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/16709736\" title=\"Access to this publication\">Teaching from classic    papers: Hill's model of muscle contraction.</a>  </div>  <div class=\"bibo:authorList\">Holmes JW.</div>  <div class=\"bibo:Journal\">Adv Physiol Educ 2006 Jun; 30(2):  67-72</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>A. V. Hill's 1938 paper \"The heat of shortening and the    dynamic constants of muscle\" is an enduring classic, presenting    detailed methods, meticulous experiments, and the model of    muscle contraction that now bears Hill's name. Pairing a    simulation based on Hill's model with a reading of his paper    allows students to follow his thought process to discover key    principles of muscle physiology and gain insight into how to    develop quantitative models of physiological processes. In this    article, the experience of the author using this approach in a    graduate biomedical engineering course is outlined, along with    suggestions for adapting this approach to other audiences.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000677\">BIOMD0000000677</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16709736",
+    "journal" : "Advances in physiology education",
+    "title" : "Teaching from classic papers: Hill's model of muscle contraction.",
+    "affiliation" : "Department of Biomedical Engineering, Columbia University, New York, New York 10027, USA. jh553@columbia.edu",
+    "synopsis" : "A. V. Hill's 1938 paper \"The heat of shortening and the dynamic constants of muscle\" is an enduring classic, presenting detailed methods, meticulous experiments, and the model of muscle contraction that now bears Hill's name. Pairing a simulation based on Hill's model with a reading of his paper allows students to follow his thought process to discover key principles of muscle physiology and gain insight into how to develop quantitative models of physiological processes. In this article, the experience of the author using this approach in a graduate biomedical engineering course is outlined, along with suggestions for adapting this approach to other audiences.",
+    "year" : 2006,
+    "month" : "6",
+    "volume" : "30",
+    "issue" : "2",
+    "pages" : "67-72",
+    "link" : "http://identifiers.org/pubmed/16709736",
+    "authors" : [
+      {
+        "name" : "Jeffrey W Holmes",
+        "institution" : "Department of Biomedical Engineering, Columbia University, New York, New York 10027, USA. jh553@columbia.edu",
+        "orcid" : "0000-0001-9125-7220"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000677_url.xml",
+        "description" : "SBML L2V4 representation of Holmes2006 - Hill\\s model of muscle contraction",
+        "fileSize" : "16852",
+        "mimeType" : "application/xml",
+        "md5sum" : "ad686d21e7a25325dae05a02087af4a1",
+        "sha1sum" : "fc4c2410f45d845e2d06ab433a69a3645ace5d17",
+        "sha256sum" : "caf38f7e46923cd348708c93488fb9d1fa7c77016798a9d9eed788441889b92e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000677-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3355",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ff5b7b66cc4a8e15879d482515220ba9",
+        "sha1sum" : "02ec3a96f438ea50973831fda73c2a533bb69551",
+        "sha256sum" : "b7877e7b2a125768678aba3abb75844d7de32a7de75849d30de18a41f0833c58"
+      },
+      {
+        "name" : "BIOMD0000000677-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "3398",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "543526060d8f36474bcf841f879b4d22",
+        "sha1sum" : "b115fc182b5d6cbfc2668d7418d5b34dfab073c7",
+        "sha256sum" : "651f34df62df323f1689b5dfa8abd128f51acd33904d5122635af5b4b960ae37"
+      },
+      {
+        "name" : "BIOMD0000000677-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3350",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "05b460384903332f86a5899ea5b43787",
+        "sha1sum" : "352305a055641ad9406e08510421c2c89bf82ed5",
+        "sha256sum" : "079cdb9debffd708b516290c59581820b5569fcf5f0130d8c0903db89877d268"
+      },
+      {
+        "name" : "BIOMD0000000677-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3350",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7f4383a4320d5005ca46f306030f41c1",
+        "sha1sum" : "79da3e0cbc55c05cd0b75bc87d6b1ede93fbf8e1",
+        "sha256sum" : "146f82f67b16c705cbe586e3bb07cd20f2c8012906c9b7258cc88f4ada85a0c9"
+      },
+      {
+        "name" : "BIOMD0000000677.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3350",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7f4383a4320d5005ca46f306030f41c1",
+        "sha1sum" : "79da3e0cbc55c05cd0b75bc87d6b1ede93fbf8e1",
+        "sha256sum" : "146f82f67b16c705cbe586e3bb07cd20f2c8012906c9b7258cc88f4ada85a0c9"
+      },
+      {
+        "name" : "BIOMD0000000677.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1848",
+        "mimeType" : "text/plain",
+        "md5sum" : "89d3f24c47b9cdecabec78e671a42de3",
+        "sha1sum" : "eba694fd4dc5e39e7a3ade1028f66068c2e0d4c6",
+        "sha256sum" : "ec2397d4bcaf29239f9ab42f54a8756f5a23642d46c89380aae9246e097203a7"
+      },
+      {
+        "name" : "BIOMD0000000677.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "135095",
+        "mimeType" : "application/pdf",
+        "md5sum" : "cb037e5deb03a14bae4906fd5b611c38",
+        "sha1sum" : "93aca4dbaba18213cb3fc5dda0d934fed31ef16a",
+        "sha256sum" : "7f6f09d56bee8632d5e8a3513ffc2c585165f2373e23862c3d52a054743d8986"
+      },
+      {
+        "name" : "BIOMD0000000677.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000677.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "MODEL1006230007.cps",
+        "description" : "Curated and annotated COPASI file.",
+        "fileSize" : "34679",
+        "mimeType" : "application/xml",
+        "md5sum" : "c044c69053e676e741a4fbea59cfc699",
+        "sha1sum" : "0433f142e59b2cb0ec87aefc57da782210b084b0",
+        "sha256sum" : "b31e1403b79bb3d291d5d80f95de142e16855b104083f3ae05c46edd906b1eaf"
+      },
+      {
+        "name" : "MODEL1006230007.sedml",
+        "description" : "SED-ML file for figure 1b of reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "8336",
+        "mimeType" : "application/xml",
+        "md5sum" : "345a8b9ac64e1466d89bce42b3af1bb8",
+        "sha1sum" : "c3ae450f71f9f89a88b7c5e56b9c12ce1a88a7af",
+        "sha256sum" : "89f5366a23d05d46a7a3501f7d47cb1c81a5a292a1eaf501b334f04a80a8a038"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "20505",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "ec2d244b97b7c8b6050d8c588d8faa91",
+        "sha1sum" : "e7f565d5c787aea9bdb348dc44d1bdbd680cb507",
+        "sha256sum" : "971368abe726c58f0addf931e6ca7ef1cbd6a1e57454f4d7d8f3701ae8904912"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "279",
+        "mimeType" : "text/plain",
+        "md5sum" : "dee2d432b952b1d696e7855997d04567",
+        "sha1sum" : "1abd1629b9844cb98ea3554bf66865bd7251dd42",
+        "sha256sum" : "a1cc235ebd9ba4c496226ea78337887eb13a145a11dbaf4b2ab4503d66a99cf9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1909",
+        "mimeType" : "application/xml",
+        "md5sum" : "f75a61036752d037e349d6836b861dc6",
+        "sha1sum" : "e0912cf62ec1085c9104fa4993ef734700882b27",
+        "sha256sum" : "37bf43792c7264217efb956dacac156b72de8770dcd43f16e1a01fbdbc287e9d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4080",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c305b21007e5c81778b2333ea7f55177",
+        "sha1sum" : "872ba8169bb2f58018d156177b3dc34cffb7e172",
+        "sha256sum" : "4c27993e2b6ab8cfc7467b301f625230057b11b64bee7d3991ed5e3b2745d8b4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287912,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Holmes2006_MuscleContration"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277471243,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Holmes2006_MuscleContration"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1521020167,
+        "submitter" : "administrator",
+        "comment" : "Current curated version of Holmes2006_MuscleContration"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724286292,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285406,
+  "submissionId" : "MODEL1006230007",
+  "publicationId" : "BIOMD0000000677",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230007",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230007"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000677",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000677"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16709736",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16709736"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006936",
+      "name" : "muscle contraction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006936"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "16709736",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16709736"
+    }
+  ]
+}

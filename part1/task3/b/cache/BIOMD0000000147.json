@@ -1,0 +1,301 @@
+{
+  "name" : "ODea2007_IkappaB",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p class=\"p1\">O'Dea, E.L., Barken, D., Peralta, R.Q., Tran K.T., Werner, S.L., Kearns, J.D., Levchenko, A., Hoffmann, A. A homeostatic model of IkB metabolism to control constitutive activity. Molecular Systems Biology, 3:111, pp. 1-7. 2007<br /></p>        <p class=\"p1\">Questions concerning the paper should be addressed to the corresponding author. Alexander Hoffmann (ahoffmann@ucsd.edu)</p>        <hr />        <p class=\"p1\">The original model was written and simulated within MathWorks MatLab 2006a using the ode15s (stiff/NDF) solver. It is highly recommended that those wanting to model this system use the MatLab version which we will freely provide upon request. As always, simulation results vary according to the numerical solver used.</p>        <p>Translation to SBML Level 2.1 was performed via reconstruction of the model within MathWorks SimBiology Desktop (version 2.1) followed by an Export to SBML. Please address questions about this SBML model to Jeff Kearns (jkearns@ucsd.edu).</p>        <p>BioModels DB curation: The model reproduces the values of diffferent species depicted in Fig 3A and 3B (wt) of the paper corresponding to Model1.1. To depict the the total IkB alpha, beta epsilon species, three additional parameters and their corresponding assignment rules have been introduced in this model by the creator. Model succesfully tested on MathSBML. </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17486138",
+    "journal" : "Molecular systems biology",
+    "title" : "A homeostatic model of IkappaB metabolism to control constitutive NF-kappaB activity.",
+    "affiliation" : "Signaling Systems Laboratory, Department of Chemistry and Biochemistry, UCSD, La Jolla, CA 92037, USA.",
+    "synopsis" : "Cellular signal transduction pathways are usually studied following administration of an external stimulus. However, disease-associated aberrant activity of the pathway is often due to misregulation of the equilibrium state. The transcription factor NF-kappaB is typically described as being held inactive in the cytoplasm by binding its inhibitor, IkappaB, until an external stimulus triggers IkappaB degradation through an IkappaB kinase-dependent degradation pathway. Combining genetic, biochemical, and computational tools, we investigate steady-state regulation of the NF-kappaB signaling module and its impact on stimulus responsiveness. We present newly measured in vivo degradation rate constants for NF-kappaB-bound and -unbound IkappaB proteins that are critical for accurate computational predictions of steady-state IkappaB protein levels and basal NF-kappaB activity. Simulations reveal a homeostatic NF-kappaB signaling module in which differential degradation rates of free and bound pools of IkappaB represent a novel cross-regulation mechanism that imparts functional robustness to the signaling module.",
+    "year" : 2007,
+    "month" : "0",
+    "volume" : "3",
+    "pages" : "111",
+    "link" : "http://identifiers.org/pubmed/17486138",
+    "authors" : [
+      {
+        "name" : "Ellen L O'Dea",
+        "institution" : "Signaling Systems Laboratory, Department of Chemistry and Biochemistry, UCSD, La Jolla, CA 92037, USA."
+      },
+      {
+        "name" : "Derren Barken"
+      },
+      {
+        "name" : "Raechel Q Peralta"
+      },
+      {
+        "name" : "Kim T Tran"
+      },
+      {
+        "name" : "Shannon L Werner"
+      },
+      {
+        "name" : "Jeffrey D Kearns"
+      },
+      {
+        "name" : "Andre Levchenko"
+      },
+      {
+        "name" : "Alexander Hoffmann"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000147_url.xml",
+        "description" : "SBML L2V4 representation of ODea2007_IkappaB",
+        "fileSize" : "103204",
+        "mimeType" : "application/xml",
+        "md5sum" : "542a1ef275a809cb6c47e9837638b569",
+        "sha1sum" : "b352e2f91617287cd6fe6e563a98d8b164db2d42",
+        "sha256sum" : "e557a7f6932e9e8cad9be27b0650ed60dcaf1a48abdfacd652ad1336d267049e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000147-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "73854",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "838354f9dc70a239f96e0709d7b2db0f",
+        "sha1sum" : "970d60eb03870dbd7b769423a10d0e97c449794d",
+        "sha256sum" : "9e6104572f61470e13cbb6143d08e54ba92576ceb14cf5cc429cfc4432381a1c"
+      },
+      {
+        "name" : "BIOMD0000000147-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "123641",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "dbf59e974f3c76b4f9b5d5425893c4fe",
+        "sha1sum" : "81d00d30061d8cc0452192d8e0be28b7a5e17ef2",
+        "sha256sum" : "21316a37730aa44a7748aa56e57ccce9cb2bd68e87607aa12355e4f8862dd4d9"
+      },
+      {
+        "name" : "BIOMD0000000147-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "20839",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "742368d79dfb52c82f396e7c76ad7eb2",
+        "sha1sum" : "52032c04447d6e798adb35b08580929f0f92c0bc",
+        "sha256sum" : "843defa3764139cec4a31276a2ed8c53822f6d0cecd19d2cf25d914127c82696"
+      },
+      {
+        "name" : "BIOMD0000000147-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "20839",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "810c0b7f15ecb66c7c75f6f7a44c3c1a",
+        "sha1sum" : "f6449326dfe0e281e56f1538646989f005cd842e",
+        "sha256sum" : "7859506647fc0d4f371bcd21c6817c7322f36d99eee62343b995255065cf8179"
+      },
+      {
+        "name" : "BIOMD0000000147.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "20839",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "810c0b7f15ecb66c7c75f6f7a44c3c1a",
+        "sha1sum" : "f6449326dfe0e281e56f1538646989f005cd842e",
+        "sha256sum" : "7859506647fc0d4f371bcd21c6817c7322f36d99eee62343b995255065cf8179"
+      },
+      {
+        "name" : "BIOMD0000000147.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "15790",
+        "mimeType" : "text/plain",
+        "md5sum" : "9c98ea3b723f102d5f30921e603f091e",
+        "sha1sum" : "8322837bad26998e921d0b0feed53e272cf5bbcf",
+        "sha256sum" : "d8d2509a3c9634e801edcb665fb697cac49c564ec372574264d2f4d4e0389053"
+      },
+      {
+        "name" : "BIOMD0000000147.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "373949",
+        "mimeType" : "application/pdf",
+        "md5sum" : "745b71df4d624c6a969a233a29cb9010",
+        "sha1sum" : "61eadbc7b3f978c50bfb4365d82ffbcb5a1f48a9",
+        "sha256sum" : "3326c5b48395b374327abdf585fce4b433f281918eed64b23a6d3d35be5cded1"
+      },
+      {
+        "name" : "BIOMD0000000147.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "505339",
+        "mimeType" : "image/png",
+        "md5sum" : "8844c13f7fdc3e84bbf64b9e68fea7a3",
+        "sha1sum" : "99b13f148790b719710cff0c8164e45b80c34101",
+        "sha256sum" : "28acf248e8e73eaa8e955b80137b38da59846d28f7ad4bc8844bf746f509a4d7"
+      },
+      {
+        "name" : "BIOMD0000000147.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "112496",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "32607ac5148765f123118f9060b9416d",
+        "sha1sum" : "324ab55e641bd086954a72c7fe0c91481ca4e17a",
+        "sha256sum" : "f467421b36de8e034a9454efdcd3046fc8c2cefb53e3f29d903911e1f437aa8b"
+      },
+      {
+        "name" : "BIOMD0000000147_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "48466",
+        "mimeType" : "application/xml",
+        "md5sum" : "6d458659ae790e490dfc47a2e34b1777",
+        "sha1sum" : "ee1b20b79f29ca5bb27c63b150861a11a586292b",
+        "sha256sum" : "5258072bb8064e057cd6510466030e3cec6fa5514c637c0ad367e85c6b278b9a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "31200",
+        "mimeType" : "image/png",
+        "md5sum" : "0b584f85342757ce6f1b4577e12bb455",
+        "sha1sum" : "d63f6b3a9ab73a2ac986a3e868fc5620b307b180",
+        "sha256sum" : "7840813d9f5260d426a836bddfc0ee9ed6d6efda0843af46c881d2165611353b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "172",
+        "mimeType" : "text/plain",
+        "md5sum" : "75da58ddc23ee2268044434169e90eb9",
+        "sha1sum" : "d19ac0653fe66d5d94edb6503edb7a6502db2723",
+        "sha256sum" : "901e3b70bcb6caba764ba458c7cfe7d71369c346b2b0793e42152188796abfc7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "033421218eb4fe56d3e3516b00aa17c3",
+        "sha1sum" : "1f4f7cf873a365fcfe4a2c060b5cb3a403e1b1e9",
+        "sha256sum" : "c07839d74990af1cddb44f9c2724b5b80c32f3542453618c4fc37e76432ea849"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4098",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a3891c883478a7891e090894785edc5b",
+        "sha1sum" : "74209378b23d451637114b80c9d45ea5ba696c90",
+        "sha256sum" : "0297ec48e4a7ebfdd92d4b7337d34e73e593a4ada7d2d05d97cdf3c903f77f2b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1189069588,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Original import of P1"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401149135,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Current version of ODea2007_IkappaB"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268630,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284901,
+  "submissionId" : "MODEL2784772048",
+  "publicationId" : "BIOMD0000000147",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Molecular Systems Biology",
+        "email" : "msbforum@embo.org",
+        "affiliation" : "Nature Publishing Group",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2784772048",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2784772048"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000147",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000147"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17486138",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17486138"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000139",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000139"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000140",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000140"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "mmu04660",
+      "name" : "T cell receptor signaling pathway - Mus musculus (mouse)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/mmu04660"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007249",
+      "name" : "I-kappaB kinase/NF-kappaB signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007249"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

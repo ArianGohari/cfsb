@@ -1,0 +1,378 @@
+{
+  "name" : "Band2012_DII-Venus_FullModel",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Root gravitropism is regulated by a transient lateral auxin gradient controlled by a tipping-point mechanism.</strong>        <br />Band LR, Wells DM, Larrieu A, Sun J, Middleton AM, French AP, Brunoud G, Sato EM, Wilson MH, Péret B, Oliva M, Swarup R, Sairanen I, Parry G, Ljung K, Beeckman T, Garibaldi JM, Estelle M, Owen MR, Vissenberg K, Hodgman TC, Pridmore TP, King JR, Vernoux T, Bennett MJ.      <em>Proc Natl Acad Sci U S A.</em>2012 Mar 20;109(12):4668-73       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22393022\">22393022</a>,      <br />        <strong>Abstract:</strong>        <br />Gravity profoundly influences plant growth and development. Plants respond to changes in orientation by using gravitropic responses to modify their growth. Cholodny and Went hypothesized over 80 years ago that plants bend in response to a gravity stimulus by generating a lateral gradient of a growth regulator at an organ's apex, later found to be auxin. Auxin regulates root growth by targeting Aux/IAA repressor proteins for degradation. We used an Aux/IAA-based reporter, domain II (DII)-VENUS, in conjunction with a mathematical model to quantify auxin redistribution following a gravity stimulus. Our multidisciplinary approach revealed that auxin is rapidly redistributed to the lower side of the root within minutes of a 90° gravity stimulus. Unexpectedly, auxin asymmetry was rapidly lost as bending root tips reached an angle of 40° to the horizontal. We hypothesize roots use a \"tipping point\" mechanism that operates to reverse the asymmetric auxin flow at the midpoint of root bending. These mechanistic insights illustrate the scientific value of developing quantitative reporters such as DII-VENUS in conjunction with parameterized mathematical models to provide high-resolution kinetics of hormone redistribution.   </p>        <p>   This model corresponds to the full model described in the article. </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22393022",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Root gravitropism is regulated by a transient lateral auxin gradient controlled by a tipping-point mechanism.",
+    "affiliation" : "Centre for Plant Integrative Biology,  University of Nottingham, Sutton Bonington LE12 5RD,  United Kingdom.",
+    "synopsis" : "Gravity profoundly influences plant growth and development. Plants respond to changes in orientation by using gravitropic responses to modify their growth. Cholodny and Went hypothesized over 80 years ago that plants bend in response to a gravity stimulus by generating a lateral gradient of a growth regulator at an organ's apex, later found to be auxin. Auxin regulates root growth by targeting Aux/IAA repressor proteins for degradation. We used an Aux/IAA-based reporter, domain II (DII)-VENUS, in conjunction with a mathematical model to quantify auxin redistribution following a gravity stimulus. Our multidisciplinary approach revealed that auxin is rapidly redistributed to the lower side of the root within minutes of a 90° gravity stimulus. Unexpectedly, auxin asymmetry was rapidly lost as bending root tips reached an angle of 40° to the horizontal. We hypothesize roots use a \"tipping point\" mechanism that operates to reverse the asymmetric auxin flow at the midpoint of root bending. These mechanistic insights illustrate the scientific value of developing quantitative reporters such as DII-VENUS in conjunction with parameterized mathematical models to provide high-resolution kinetics of hormone redistribution.",
+    "year" : 2012,
+    "month" : "3",
+    "volume" : "109",
+    "issue" : "12",
+    "pages" : "4668-4673",
+    "link" : "http://identifiers.org/pubmed/22393022",
+    "authors" : [
+      {
+        "name" : "Leah R Band",
+        "orcid" : "0000-0002-6979-1117"
+      },
+      {
+        "name" : "Darren M Wells",
+        "orcid" : "0000-0002-4246-4909"
+      },
+      {
+        "name" : "Antoine Larrieu",
+        "orcid" : "0000-0002-9024-5348"
+      },
+      {
+        "name" : "Jianyong Sun"
+      },
+      {
+        "name" : "Alistair M Middleton"
+      },
+      {
+        "name" : "Andrew P French",
+        "orcid" : "0000-0002-8313-2898"
+      },
+      {
+        "name" : "Géraldine Brunoud"
+      },
+      {
+        "name" : "Ethel Mendocilla Sato"
+      },
+      {
+        "name" : "Michael H Wilson",
+        "orcid" : "0000-0002-6323-6059"
+      },
+      {
+        "name" : "Benjamin Péret",
+        "orcid" : "0000-0003-1336-0796"
+      },
+      {
+        "name" : "Marina Oliva",
+        "orcid" : "0000-0001-8096-6857"
+      },
+      {
+        "name" : "Ranjan Swarup",
+        "orcid" : "0000-0002-6438-9188"
+      },
+      {
+        "name" : "Ilkka Sairanen"
+      },
+      {
+        "name" : "Geraint Parry"
+      },
+      {
+        "name" : "Karin Ljung",
+        "orcid" : "0000-0003-2901-189X"
+      },
+      {
+        "name" : "Tom Beeckman",
+        "orcid" : "0000-0001-8656-2060"
+      },
+      {
+        "name" : "Jonathan M Garibaldi",
+        "orcid" : "0000-0002-9690-7074"
+      },
+      {
+        "name" : "Mark Estelle"
+      },
+      {
+        "name" : "Markus R Owen",
+        "institution" : "School of Mathematical Sciences and Centre for Mathematical Medicine and Biology, University of Nottingham, Nottingham, UK.",
+        "orcid" : "0000-0002-3028-9138"
+      },
+      {
+        "name" : "Kris Vissenberg",
+        "orcid" : "0000-0003-0292-2095"
+      },
+      {
+        "name" : "T Charlie Hodgman",
+        "orcid" : "0000-0001-5862-8296"
+      },
+      {
+        "name" : "Tony P Pridmore",
+        "orcid" : "0000-0002-9485-1978"
+      },
+      {
+        "name" : "John R King",
+        "orcid" : "0000-0002-6228-8375"
+      },
+      {
+        "name" : "Teva Vernoux",
+        "institution" : "Laboratoire de Reproduction et Développement des Plantes, CNRS, INRA, ENS Lyon, UCBL, Université de Lyon, Lyon, France. teva.vernoux@ens-lyon.fr",
+        "orcid" : "0000-0002-8257-4088"
+      },
+      {
+        "name" : "Malcolm J Bennett",
+        "orcid" : "0000-0003-0475-390X"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000413_url.xml",
+        "description" : "SBML L2V4 representation of Band2012_DII-Venus_FullModel",
+        "fileSize" : "19885",
+        "mimeType" : "application/xml",
+        "md5sum" : "bf8ffb2fdbac7f05a325b59b5d70f1e5",
+        "sha1sum" : "fd76cde038327ec4f71e6c4b4408926f7f0079b2",
+        "sha256sum" : "ae30effa2d866873dae1d5d0f6c9cc441b924ca37e21244efe27d1e5c2fb89fc"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000413-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19164",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c12b532650ccd7655757d30363dfd221",
+        "sha1sum" : "80f32cdae440d57ba811a973a92b6ed4575e34be",
+        "sha256sum" : "d7a0c7824b2e4e322cf0016e6e083f764dc9e8357a8064eab598931c6ce525c2"
+      },
+      {
+        "name" : "BIOMD0000000413-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "28939",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7a79a926ad3601004c378a5636c4a16e",
+        "sha1sum" : "637e39d69906e8979fd19bae4004187a92895bdc",
+        "sha256sum" : "2e8deee55f661832f896c263aead051f1c223c9945f01658c3c361500a8a0dd0"
+      },
+      {
+        "name" : "BIOMD0000000413-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5213",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "34bc0cd92af886d1b287eaa19c319071",
+        "sha1sum" : "60120786b150e07999806f51daaec0a68bda0c77",
+        "sha256sum" : "ae5a13e6860d30c46df16bcc30a09493f604867f93a262624e300c3ec437bb56"
+      },
+      {
+        "name" : "BIOMD0000000413-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5213",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f988805a9dd2f8c1deb80cf3de13185b",
+        "sha1sum" : "4c60452644eb98a218ae392e0c87e5efe59d33c7",
+        "sha256sum" : "663b76f4f1ba72bcd8faa0a3245fb7448dc458a725d85daa04d29d8d21fe84ef"
+      },
+      {
+        "name" : "BIOMD0000000413.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5213",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f988805a9dd2f8c1deb80cf3de13185b",
+        "sha1sum" : "4c60452644eb98a218ae392e0c87e5efe59d33c7",
+        "sha256sum" : "663b76f4f1ba72bcd8faa0a3245fb7448dc458a725d85daa04d29d8d21fe84ef"
+      },
+      {
+        "name" : "BIOMD0000000413.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2902",
+        "mimeType" : "text/plain",
+        "md5sum" : "f822e3c417d6692f75f82bc2b8d8fabe",
+        "sha1sum" : "9d1773ddd4606bcf9a9fa14ddafac926a0d647b9",
+        "sha256sum" : "9dddfe7ce054270434ec2c264b153abfc217a39f4fed51c537a93a5d92ee56ae"
+      },
+      {
+        "name" : "BIOMD0000000413.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "171277",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d3c89f97687b03083bc5465d09eafa3d",
+        "sha1sum" : "047460bf0034f0da09284100049af544e2ed2262",
+        "sha256sum" : "daf330e6cd6d04e14606329a758ab56fc70a69951e7bd596537c1878c6f0ad58"
+      },
+      {
+        "name" : "BIOMD0000000413.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "47696",
+        "mimeType" : "image/png",
+        "md5sum" : "ce6337d1c7a89e22329a3efd127ec14b",
+        "sha1sum" : "c0e0dac598c4458814f85fd76080c297ee8e367d",
+        "sha256sum" : "dc40b03084ae179ec11e9c4e7ef72515c8da4f1c27cadde5c715568bb1777cc4"
+      },
+      {
+        "name" : "BIOMD0000000413.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "2019",
+        "mimeType" : "text/plain",
+        "md5sum" : "80b14f7bf7fbb697d1ea8e40726c3107",
+        "sha1sum" : "6fa358ded68a188d94c2042a5d0bfbbaf976cc66",
+        "sha256sum" : "217abce6bf83032c0613785c56a3f6e0852f8d5ed5b3fccced60300312dd077d"
+      },
+      {
+        "name" : "BIOMD0000000413.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "22444",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "229d53e30fee78608e3d4a61d0888972",
+        "sha1sum" : "3a5eb07265b3ce1da548aaea555177ea17da3010",
+        "sha256sum" : "f00819ca798f028e64f9409f89ed101426f0372875db7d36abc2aee34537db5c"
+      },
+      {
+        "name" : "BIOMD0000000413.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "31735",
+        "mimeType" : "application/xml",
+        "md5sum" : "8b06d855d565447276b761d1bba2bbc4",
+        "sha1sum" : "0ca8c6d7778d5f88f090d84c2b9b88b87a063827",
+        "sha256sum" : "1f3302223d913893118566e3a4e05fd1e45ac68a7a7e24da24a69120beacc376"
+      },
+      {
+        "name" : "BIOMD0000000413_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "16400",
+        "mimeType" : "application/xml",
+        "md5sum" : "fc176b1502020a3aaaac0e9decf8b6a5",
+        "sha1sum" : "8e916d32b239a3fa7af26dd6c6fc94dfcf028d3b",
+        "sha256sum" : "10f21289fed8192dfe57f6acc5f8451d4192b1f1efb9b59377dd1e8680879c1d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "109090",
+        "mimeType" : "image/png",
+        "md5sum" : "c68557e2b89a34f6fc6ee179a39cae87",
+        "sha1sum" : "68689418f3150545def79af052c1826e75d5a8c2",
+        "sha256sum" : "e9b9c6c71a3a2c8bea4bdc87e88ec42cf1168bfc929fa9266269780f0de80924"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "578",
+        "mimeType" : "text/plain",
+        "md5sum" : "4379bf02e9feb0a0a7f01d25d6819681",
+        "sha1sum" : "15940b8bdc7e8bf3724f740ae83625415add9ccb",
+        "sha256sum" : "0f39017125f384365e0b1daf537052941aeb51fe0751f1f3c90fab528369870d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "fbb69ab5dafeb56320e2377d36e1471f",
+        "sha1sum" : "23e716cecfa499a4210391aefbf764cfc7b5a6ad",
+        "sha256sum" : "b06d3bbaa7aaa66a26cb4d1ea18e8f7899eb7f6e2769095e5978cf9317ab92bd"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4339",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d6447c8e8cc99278cf8894f80c86b60f",
+        "sha1sum" : "6d7a4749b2a8b3ab8abb98c9af0c9b2c6b9a1b84",
+        "sha256sum" : "68fd3aa80a7bfdd58cebd0a846cf0fef12b95646ae35f87ab8700853f72ba7b8"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1332514071,
+        "submitter" : "Leah Band",
+        "comment" : "Original import of DII-Venus full model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396401931,
+        "submitter" : "Leah Band",
+        "comment" : "Current version of Band2012_DII-Venus_FullModel"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724276021,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285141,
+  "submissionId" : "MODEL1203230002",
+  "publicationId" : "BIOMD0000000413",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Leah Band",
+        "email" : "leah.band@cpib.ac.uk",
+        "affiliation" : "Centre for Plant Integrative Biology, University of Nottingham",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1203230002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1203230002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000413",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000413"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22393022",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22393022"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3701",
+      "name" : "Arabidopsis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3701"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009958",
+      "name" : "positive gravitropism",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009958"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0090354",
+      "name" : "regulation of auxin metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0090354"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

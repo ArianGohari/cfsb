@@ -1,0 +1,25 @@
+Working directory: /Users/arian/Projects/uni/ss26/cfsb/project
+No tool or corpus files were edited. No packages installed. No network requests made by this assessment.
+
+python3 part1/task4/evaluation/freeze_reference.py
+Initial attempt: exit 1, endpoint uniqueness check found trypsin inside antitrypsin. No reference/result was written.
+Second attempt: exit 1, uniqueness check found two standalone furin mentions. No reference/result was written.
+After explicit endpoint anchoring fixes, third attempt: PASS, exit 0.
+Output: 40 sentences, 13 positive sentences, 15 relations.
+Reference SHA-256: 34b6f33a6e67df2c76c134821f35253b3aaaae1be89b1da7443be8a0f7df1a25
+Do not rerun this builder over the frozen files; exclusive output creation is intentional.
+
+python3 -B part1/task4/evaluation/evaluate_bounded.py
+PASS, exit 0. First frozen evaluation: TP 0, FP 0, FN 15; precision null; recall 0.0. Original source-annotation replay: 10 requests, 2 development candidates, all identical. Sockets and LLM construction blocked.
+
+python3 -B part1/task4/evaluation/check_evaluation.py
+PASS, exit 0. Six engineering check groups. Frozen reference unchanged. Writes checks.json exclusively; does not overwrite an earlier receipt.
+
+python3 -B part1/task4/evaluation/evaluate_bounded.py --check
+PASS, exit 0. Frozen inputs, replay and recomputed results match. This is the non-writing repeat-verification command.
+
+Initial repository inspection:
+git status --short
+Exit 128: not a git repository. Used file hashes instead; no git actions performed.
+
+Additional read-only Python inspections: exit 0. They inspected run JSON shapes, actual annotation spans and source offsets. No extractor output artifacts were opened until after the successful reference freeze; aggregate results were already exposed by the required task document.

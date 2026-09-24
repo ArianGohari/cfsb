@@ -1,0 +1,163 @@
+{
+  "name" : "Jensen2020 - Streptococcus oralis (iCJ415)",
+  "description" : "We have presented FROG and miniFROG reports for the first genome-scale model, iCJ415, for Streptococcus oralis SK141. The model can be found in the Supplementary Material of the publication by Jensen et al, 2020 cited here.",
+  "format" : {
+    "name" : "COMBINE archive",
+    "identifier" : "OMEX",
+    "version" : "0.1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.3389/fgene.2020.00116",
+    "journal" : "Frontiers in genetics",
+    "title" : "Reconstruction and Validation of a Genome-Scale Metabolic Model of <i>Streptococcus oralis</i> (iCJ415), a Human Commensal and Opportunistic Pathogen.",
+    "affiliation" : "The Regional Department of Clinical Microbiology, Region Zealand, Slagelse, Denmark.",
+    "synopsis" : "The mitis group of streptococci (MGS) is a member of the healthy human microbiome in the oral cavity and upper respiratory tract. Troublingly, some MGS are able to escape this niche and cause infective endocarditis, a severe and devastating disease. Genome-scale models have been shown to be valuable in investigating metabolism of bacteria. Here we present the first genome-scale model, iCJ415, for <i>Streptococcus oralis</i> SK141. We validated the model using gene essentiality and amino acid auxotrophy data from closely related species. iCJ415 has 71-76% accuracy in predicting gene essentiality and 85% accuracy in predicting amino acid auxotrophy. Further, the phenotype of <i>S. oralis</i> was tested using the Biolog Phenotype microarrays, giving iCJ415 a 82% accuracy in predicting carbon sources. iCJ415 can be used to explore the metabolic differences within the MGS, and to explore the complicated metabolic interactions between different species in the human oral cavity.",
+    "year" : 2020,
+    "month" : "6",
+    "volume" : "11",
+    "pages" : "116",
+    "link" : "http://identifiers.org/doi/10.3389/fgene.2020.00116",
+    "authors" : [
+      {
+        "name" : "Christian S Jensen",
+        "institution" : "The Regional Department of Clinical Microbiology, Region Zealand, Slagelse, Denmark.",
+        "orcid" : "0000-0002-9530-1919"
+      },
+      {
+        "name" : "Charles J Norsigian",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      },
+      {
+        "name" : "Xin Fang",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      },
+      {
+        "name" : "Xiaohui C Nielsen",
+        "institution" : "The Regional Department of Clinical Microbiology, Region Zealand, Slagelse, Denmark."
+      },
+      {
+        "name" : "Jens Jørgen Christensen",
+        "institution" : "The Regional Department of Clinical Microbiology, Region Zealand, Slagelse, Denmark.Institute of Clinical Medicine, University of Copenhagen, Copenhagen, Denmark.",
+        "orcid" : "0000-0001-6721-4917"
+      },
+      {
+        "name" : "Bernhard O Palsson",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States.Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Lyngby, Denmark."
+      },
+      {
+        "name" : "Jonathan M Monk",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "suppl_datasheet_s2_iCJ415.omex",
+        "description" : "FROG Report",
+        "fileSize" : "57071",
+        "mimeType" : "application/zip",
+        "md5sum" : "3e693b1fa3b73e5d0039cd9fdf0a7aff",
+        "sha1sum" : "014490fb286595ee48df44e6cac576a5e8f469d2",
+        "sha256sum" : "9ca782d10ee23f8b3b6c1904630a3f6ecfe28d2349f15289ef4c92fe63dc4664"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "iCJ415_miniFROG.xlsx",
+        "description" : "miniFROG Report",
+        "fileSize" : "7711",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "c1a3c4e050f5c07b8d2b349692e8ec7f",
+        "sha1sum" : "345a1fa618c1bc3889348178fb247f55330e4d1b",
+        "sha256sum" : "d939e12f732a03809a448d6edc9ca01b791ba25048d808aeeb82644f4bfafa21"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 4,
+        "submitted" : 1723558466,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Import of Jensen2020- Streptococcus oralis (iCJ415)"
+      }
+    ]
+  },
+  "firstPublished" : 1729019585,
+  "submissionId" : "MODEL2406260001",
+  "publicationId" : "BIOMD0000001086",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      },
+      {
+        "name" : "Indumathi",
+        "email" : "indumathi2223@gmail.com",
+        "affiliation" : "Indian Institute of Technology Madras",
+        "orcid" : "0009-0009-9237-5996",
+        "external" : false
+      }
+    ],
+    "Curator" : [
+      {
+        "name" : "Indumathi",
+        "email" : "indumathi2223@gmail.com",
+        "affiliation" : "Indian Institute of Technology Madras",
+        "orcid" : "0009-0009-9237-5996",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.3389/fgene.2020.00116",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.3389/fgene.2020.00116"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2406260001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2406260001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001086",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001086"
+    }
+  ]
+}

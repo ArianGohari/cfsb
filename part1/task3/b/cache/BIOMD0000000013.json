@@ -1,0 +1,279 @@
+{
+  "name" : "Poolman2004_CalvinCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Applications of metabolic modelling to plant metabolism.</strong>        <br /> \t  Poolman MG ,Assmus HE, Fell DA       <em>J. Exp. Bot.</em>[2004 May; Volume: 55 (Issue: 400 )]: 1177-86       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15073223\">15073223</a>,      <br />        <strong>Abstract:</strong>        <br />In this paper some of the general concepts underpinning the computer modelling of metabolic systems are introduced. The difference between kinetic and structural modelling is emphasized, and the more important techniques from both, along with the physiological implications, are described. These approaches are then illustrated by descriptions of other work, in which they have been applied to models of the Calvin cycle, sucrose metabolism in sugar cane, and starch metabolism in potatoes.   </p>        <br />        <br />        <p> This model describes the non oxidative Calvin cycle as depicted in Poolman et al; J Exp Bot (2004) 55:1177-1186, fig 2. Reaction E20: E4P + F6P ↔  S7P + GAP, is depicted in the figure, but not included in the model. The light reaction: ADP + P        <sub>i</sub> → ATP, is included in the model, but only mentioned in the figure caption. The parameters and initial concentrations are the same as in Poolman, 1999, Computer Modelling Applied to the Calvin Cycle, PhD Thesis, Oxford Brookes University, Appendix A (available at at         <a href=\"http://mudshark.brookes.ac.uk/index.php/Publications/Theses/Mark\">http://mudshark.brookes.ac.uk/index.php/Publications/Theses/Mark</a>) </p>        <p> © Mark Poolman (mgpoolman@brookes.ac.uk) 1995-2002        <br />Based on a description by Pettersson 1988, Eur. J. Biochem. 175, 661-672        <br />Differences are:        <br />1 - Reactions assumed by Pettersson to be in equilibrium have fast mass action kinetics.        <br />2 - Introduction of the parameter PGAxpMult to modulate PGA export through TPT.        <br />3 - Introduction of Starch phosphorylase reaction.        <br />This file may be freely copied or translated into other formats provided:        <br /> 1 - This notice is reproduced in its entirety        <br />2 - Published material making use of (information gained from) this model cites at least:        <br />(a) Poolman, 1999, Computer Modelling Applied to the Calvin Cycle, PhD Thesis, Oxford Brookes University        <br />(b) Poolman, Fell, and Thomas. 2000, Modelling Photosynthesis and its control, J. Exp. Bot. 51, 319-328        <br />or        <br />(c) Poolman et al. 2001, Computer modelling and experimental evidence for two steady states in the photosynthetic Calvin cycle. Eur. J. Biochem. 268, 2810-2816        <br />Further related information may be found at         <a href=\"http://mudshark.brookes.ac.uk\">http://mudshark.brookes.ac.uk</a>.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15073223",
+    "journal" : "Journal of experimental botany",
+    "title" : "Applications of metabolic modelling to plant metabolism.",
+    "affiliation" : "School of Biology and Molecular Science, Oxford Brookes University, Headington, Oxford OX3 OBP, UK. mgpoolman@brookes.ac.uk",
+    "synopsis" : "In this paper some of the general concepts underpinning the computer modelling of metabolic systems are introduced. The difference between kinetic and structural modelling is emphasized, and the more important techniques from both, along with the physiological implications, are described. These approaches are then illustrated by descriptions of other work, in which they have been applied to models of the Calvin cycle, sucrose metabolism in sugar cane, and starch metabolism in potatoes.",
+    "year" : 2004,
+    "month" : "5",
+    "volume" : "55",
+    "issue" : "400",
+    "pages" : "1177-1186",
+    "link" : "http://identifiers.org/pubmed/15073223",
+    "authors" : [
+      {
+        "name" : "M G Poolman",
+        "institution" : "School of Biology and Molecular Science, Oxford Brookes University, Headington, Oxford OX3 OBP, UK. mgpoolman@brookes.ac.uk"
+      },
+      {
+        "name" : "H E Assmus"
+      },
+      {
+        "name" : "D A Fell",
+        "orcid" : "0000-0001-6669-2247"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000013_url.xml",
+        "description" : "SBML L2V1 representation of Poolman2004_CalvinCycle",
+        "fileSize" : "96608",
+        "mimeType" : "application/xml",
+        "md5sum" : "d768e039f359ca8f468dedecb2a757b1",
+        "sha1sum" : "6306c50efefad2d601ea9f2ec17545048b01b325",
+        "sha256sum" : "e4a9445a74eef88a9783c178f873eebccba72464e8da1fee5cc84e5b4b9192bc"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000013-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "66627",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "43fd588045f45c1792c3566b69ceac19",
+        "sha1sum" : "d5970363c538b566cd5efd9cf2dd617962544efb",
+        "sha256sum" : "5084856b08565133ecd9fc9ff47628987d5081f0b9e9337a9a1316696dd50773"
+      },
+      {
+        "name" : "BIOMD0000000013-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "95360",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "97e2b1b432e497f93d77d90b837ec066",
+        "sha1sum" : "afc593ecefed991b20ef7065455b8e77249bff9e",
+        "sha256sum" : "c731474f6ff3a991f287d58cf7ff00a576c4c5a5636e70e937d7c199f76dca41"
+      },
+      {
+        "name" : "BIOMD0000000013-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "19343",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2dc94484c0425552416d502a578cbe6a",
+        "sha1sum" : "2e1e5b8cad8b863bf48758b89afd832ad01dde83",
+        "sha256sum" : "362977c00e31bac4c31236367ec09db34cd4f724fccc1e5632f38e85c8c4c5e5"
+      },
+      {
+        "name" : "BIOMD0000000013-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "19343",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bade81dbb4e663100bc233633952dbe3",
+        "sha1sum" : "130a3234c683619d0e1aebd89100db3d55b08f06",
+        "sha256sum" : "80c8357de708b358645fe7fe80399bd22a5a13c769b917497e4602b3a624c2a2"
+      },
+      {
+        "name" : "BIOMD0000000013.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "19343",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bade81dbb4e663100bc233633952dbe3",
+        "sha1sum" : "130a3234c683619d0e1aebd89100db3d55b08f06",
+        "sha256sum" : "80c8357de708b358645fe7fe80399bd22a5a13c769b917497e4602b3a624c2a2"
+      },
+      {
+        "name" : "BIOMD0000000013.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "14281",
+        "mimeType" : "text/plain",
+        "md5sum" : "b200e30176d54465269f715639d1b19b",
+        "sha1sum" : "f2efc6e62e1e42f4ce1d6b4256a51c2bc66f56ba",
+        "sha256sum" : "7d10f6ec94f928ea72afd1e22e4d403360ad6e15152bb2ffb7488a86eb7d037c"
+      },
+      {
+        "name" : "BIOMD0000000013.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "289339",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d67ddf1d79d62e86ffe04aa8287c6456",
+        "sha1sum" : "630681cf85b84faf6d08a01539ed9970c0cc6720",
+        "sha256sum" : "8aac9e4114d330ab702b5ac62461e73a23fe8dd96eb579c30a90aa51f02bd326"
+      },
+      {
+        "name" : "BIOMD0000000013.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "134122",
+        "mimeType" : "image/png",
+        "md5sum" : "1655f2ef186ac2ca335db9c163cb028e",
+        "sha1sum" : "6fa5638eb342d837d0ed56fce41834c681caf640",
+        "sha256sum" : "8a2ca7a0d7a4ee9cd34c4747ed876dcd4f925744f915bedbbf608021ffd4a884"
+      },
+      {
+        "name" : "BIOMD0000000013.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "19624",
+        "mimeType" : "text/plain",
+        "md5sum" : "73cb9dce6124e506ef89af9d174d8566",
+        "sha1sum" : "3803d32cd808c46ef4651f989251d8bfd0d4e743",
+        "sha256sum" : "1bedd0bf948741f7543bb9a8bf581ba7ce76808947691b0d51948ade483d60fd"
+      },
+      {
+        "name" : "BIOMD0000000013.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "127006",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "7027f40e5749588c446e8e6c19c1b723",
+        "sha1sum" : "1c4facb0a4ddafc6dae1a0c111dbeb6cd532adb6",
+        "sha256sum" : "da8348eaba1fe3e6d7234c2c5337987766e8de96c45957241cb9c947387099fd"
+      },
+      {
+        "name" : "BIOMD0000000013_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "32372",
+        "mimeType" : "application/xml",
+        "md5sum" : "9a38f7954f9e533a2ed4c5748518bb12",
+        "sha1sum" : "7d81c08584aa0045258bd7dd502089f3ae8a3ffb",
+        "sha256sum" : "960c10dbba2de56b52e5064952398cc01882e74a438c4464344fdf5a7f49a790"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11285",
+        "mimeType" : "image/png",
+        "md5sum" : "54c48088b6eb44bfd901b16fdd5819f9",
+        "sha1sum" : "64482cdf63784dc023d8d8d37bd808377f170dd6",
+        "sha256sum" : "6f46b2589c1d8cf708de3e7c28dadb90f654347817c52974f4a24b8cf09df3ee"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "275",
+        "mimeType" : "text/plain",
+        "md5sum" : "21b3412054f8957230f4fdf48597c5a1",
+        "sha1sum" : "15f5c98b2dcfeb283383279fe40d228c7caf9f8a",
+        "sha256sum" : "68465440e260f03adb898ffbf6858972609bcdb9565fcdf362688872c18bc11d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "105be543471cfa139f86fe0925e50c71",
+        "sha1sum" : "354eb43ca1bef56597fe8748f2c2f0ca4307f8e4",
+        "sha256sum" : "5658417cbb4c1c60eff9014438e64cb2a4962ec189de2c1207d48a9cfe1f2adc"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5600",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "52ec2821db18357e7cbb1684df57996a",
+        "sha1sum" : "38969513a7e7d7a26bc910210e9e49ac6bcd2d41",
+        "sha256sum" : "fa8db608aab62200bdcef1f10cc2710f8217ba1218a5e86e7a58588141072ff6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126620214,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Poolman2004_CalvinCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1487846845,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Poolman2004_CalvinCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724264996,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284844,
+  "submissionId" : "MODEL6615594069",
+  "publicationId" : "BIOMD0000000013",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6615594069",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6615594069"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000013",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000013"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15073223",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15073223"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4097",
+      "name" : "Nicotiana tabacum",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4097"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019253",
+      "name" : "reductive pentose-phosphate cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019253"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

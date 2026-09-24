@@ -1,0 +1,278 @@
+{
+  "name" : "Jarrett2018 - trastuzumab-induced immune response in murine HER2+ breast cancer model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>The paper describes a model on the trastuzumab-induced immune response in murine(mouse) HER2+ breast cancer.Created by COPASI 4.25 (Build 207) This model is described in the article: Mathematical modelling of trastuzumab-induced immune response in an in vivo murine model of HER2+ breast cancer Angela M. Jarrett, Meghan J. Bloom, Wesley Godfrey, Anum K. Syed, David A. Ekrut, Lauren I. Ehrlich, Thomas E. Yankeelov, Anna G. Sorace Mathematical Medicine and Biology: A Journal of the IMA (2018) 00, 1–30 Abstract: The goal of this study is to develop an integrated, mathematical–experimental approach for understanding the interactions between the immune system and the effects of trastuzumab on breast cancer that overexpresses the human epidermal growth factor receptor 2 (HER2+). A system of coupled, ordinary differential equations was constructed to describe the temporal changes in tumour growth, along with intratumoural changes in the immune response, vascularity, necrosis and hypoxia. The mathematical model is calibrated with serially acquired experimental data of tumour volume, vascularity, necrosis and hypoxia obtained from either imaging or histology from a murine model of HER2+ breast cancer. Sensitivity analysis shows that model components are sensitive for 12 of 13 parameters, but accounting for uncertainty in the parameter values, model simulations still agree with the experimental data. Given theinitial conditions, the mathematical model predicts an increase in the immune infiltrates over time in the treated animals. Immunofluorescent staining results are presented that validate this prediction by showing an increased co-staining of CD11c and F4/80 (proteins expressed by dendritic cells and/or macrophages) in the total tissue for the treated tumours compared to the controls. We posit that the proposed mathematical–experimental approach can be used to elucidate driving interactions between the trastuzumab-induced responses in the tumour and the immune system that drive the stabilization of vasculature while simultaneously decreasing tumour growth—conclusions revealed by the mathematical model that were not deducible from the experimental data alone. This model is hosted on BioModels Database and identified by: MODEL1907050004. To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1093/imammb/dqy014",
+    "journal" : "Mathematical Medicine and Biology: A Journal of the IMA",
+    "title" : "Mathematical modelling of trastuzumab-induced immune response in an in vivo murine model of HER2+ breast cancer",
+    "affiliation" : "Correspondence: Anna G. Sorace\r\nE-mail address: anna.sorace@austin.utexas.edu\r\nDepartment of Biomedical Engineering; Department of Diagnostic Medicine, Department of Oncology, and Livestrong Cancer Institutes at The University of Texas at Austin, Austin, TX 78712, USA",
+    "synopsis" : "The goal of this study is to develop an integrated, mathematical–experimental approach for understanding the interactions between the immune system and the effects of trastuzumab on breast cancer that overexpresses the human epidermal growth factor receptor 2 (HER2+). A system of coupled, ordinary differential equations was constructed to describe the temporal changes in tumour growth, along with intratumoural changes in the immune response, vascularity, necrosis and hypoxia. The mathematical model is calibrated with serially acquired experimental data of tumour volume, vascularity, necrosis and hypoxia obtained from either imaging or histology from a murine model of HER2+ breast cancer. Sensitivity analysis shows that model components are sensitive for 12 of 13 parameters, but accounting for uncertainty in the parameter values, model simulations still agree with the experimental data. Given theinitial conditions, the mathematical model predicts an increase in the immune infiltrates over time in the treated animals. Immunofluorescent staining results are presented that validate this prediction by showing an increased co-staining of CD11c and F4/80 (proteins expressed by dendritic cells and/or macrophages) in the total tissue for the treated tumours compared to the controls. We posit that the proposed mathematical–experimental approach can be used to elucidate driving interactions between the trastuzumab-induced responses in the tumour and the immune system that drive the stabilization of vasculature while simultaneously decreasing tumour growth—conclusions revealed by the mathematical model that were not deducible from the experimental data alone.",
+    "year" : 2018,
+    "month" : "8",
+    "issue" : "00",
+    "pages" : "1-30",
+    "link" : "http://identifiers.org/doi/10.1093/imammb/dqy014",
+    "authors" : [
+      {
+        "name" : "Angela M. Jarrett"
+      },
+      {
+        "name" : "Meghan J. Bloom"
+      },
+      {
+        "name" : "Wesley Godfrey"
+      },
+      {
+        "name" : "Anum K. Syed"
+      },
+      {
+        "name" : "David A. Ekrut"
+      },
+      {
+        "name" : "Lauren I. Ehrlich"
+      },
+      {
+        "name" : "Thomas E. Yankeelov"
+      },
+      {
+        "name" : "Anna G. Sorace"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Jarrett2018.xml",
+        "description" : "SBML L2V4 representation of trastuzumab-induced immune response in an in vivo murine model of HER2+ breast cancer model--control group",
+        "fileSize" : "76981",
+        "mimeType" : "application/xml",
+        "md5sum" : "843f2f1c5e05a7b8cc3f9dcbc131a08e",
+        "sha1sum" : "a7a4fe53a1cbddd1a63d737553c87a5bc73e549d",
+        "sha256sum" : "e8d46e276333e77607862741dba12bfd1ebeeb054b3565eff61132c859d8d64b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Jarrett2018-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "15320",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3ce7cab48001e5eea1f89bb808200388",
+        "sha1sum" : "349d87e803444e44ec0fe789c9729ff52d4d1998",
+        "sha256sum" : "b048916e227eb718465c2e7b6ad386de858cd3c01036a111d6c513860fe8698a"
+      },
+      {
+        "name" : "Jarrett2018-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "20362",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fbe7096b80a29c32400e6c3bc0a276dc",
+        "sha1sum" : "4f712958bfe2fdaa6834eb25d5b5ccf4ed160680",
+        "sha256sum" : "052c0f811c0ecfbfa119fa57152cccbc63c6eead0ee70e8870a731c7c55580df"
+      },
+      {
+        "name" : "Jarrett2018-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6032",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4116f2a6f5a6fb7314fe1d0303f8ea7f",
+        "sha1sum" : "d14d17d54f7c05ab8047a0f18ff20a488e87f3bd",
+        "sha256sum" : "9189031721f73127bf2a61cf37f21794650bf38167acc2a584bef9d0e0e4aefc"
+      },
+      {
+        "name" : "Jarrett2018-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6032",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8662aca6af9f9f3f9b675c5ff130a632",
+        "sha1sum" : "e7d6fddc261136441e557eebd8b480a141f7e5d5",
+        "sha256sum" : "d4a7e70d31f44e2dc003e01f412ba3c3a2e0ea580992ac1d53faa2ae052c1688"
+      },
+      {
+        "name" : "Jarrett2018.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "101921",
+        "mimeType" : "application/xml",
+        "md5sum" : "4581d3fbd37028c874f55b1dcb5aab1f",
+        "sha1sum" : "4e3391cdcf1d49196b0d0770dbe03749ccde0564",
+        "sha256sum" : "1502832a140c15918fdf20b19eec1de7252f2abb9fe7e70af4aee1dd02aedea3"
+      },
+      {
+        "name" : "Jarrett2018.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4124",
+        "mimeType" : "text/plain",
+        "md5sum" : "1b94658fabdf9187d69a8961729cbb5b",
+        "sha1sum" : "024ae962fb0ebc75f0337b0c5db472af9ea3d11b",
+        "sha256sum" : "57e22395a0fc870ea27c95443ce0d6e4199e3e72006734ccad364e8830b0467a"
+      },
+      {
+        "name" : "Jarrett2018.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "18575",
+        "mimeType" : "application/xml",
+        "md5sum" : "e675c0cd7ca8afeafbef4ffb82086351",
+        "sha1sum" : "9769ef258ef4a9339552b318d918a081cbc4b1cd",
+        "sha256sum" : "f617d4dadd8d6343b942f9b5a662bf737d712caf5b2c42f51bb29d3199b94da5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19916",
+        "mimeType" : "image/png",
+        "md5sum" : "a85bdfb15bc4073589f1b044ee548cde",
+        "sha1sum" : "fd8e15ad7dbca6d86116f3d67937a15adbae16a5",
+        "sha256sum" : "d24dcd9dafd35dbbd35780a62e61b866fbfcddc248560f729182e64729e04897"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "235",
+        "mimeType" : "text/plain",
+        "md5sum" : "5584337ade8645fc9f3dd5a9e196e8cc",
+        "sha1sum" : "7f2107d74bea5cd340439e14b414da5917d8f91c",
+        "sha256sum" : "96554148d5aa3829a9efd5999a73428f7625576573482e400aef2bbadb312251"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1419",
+        "mimeType" : "application/xml",
+        "md5sum" : "5e49cad1694a4353c64ecc3e316656d1",
+        "sha1sum" : "f8c628ca4729c3630b37121a76efdd3122e3e995",
+        "sha256sum" : "784d007b0afcc30b5c4bd52b250000eb3b2800129aa56dcd911a9d8cf19cdf82"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4488",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "09e517fd4fa253cfb58da4a1e7c133c1",
+        "sha1sum" : "835d4005950722d7fbcc1a7f831322ef7f5b23c1",
+        "sha256sum" : "e352391cdfd8db183978367089083980319bffc2690bd86522e851b1360607cb"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1562325311,
+        "submitter" : "Jinghao Men",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 9,
+        "submitted" : 1562759677,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000745"
+      },
+      {
+        "version" : 10,
+        "submitted" : 1724288579,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285438,
+  "submissionId" : "MODEL1907050004",
+  "publicationId" : "BIOMD0000000745",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aah",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0002418",
+      "name" : "immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002418"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1907050004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1907050004"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000745",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000745"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1093/imammb/dqy014",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1093/imammb/dqy014"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30239754",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30239754"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000149",
+      "name" : "breast",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000149"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000305",
+      "name" : "breast carcinoma",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000305"
+    }
+  ]
+}

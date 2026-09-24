@@ -1,0 +1,199 @@
+{
+  "name" : "Nogales2020 - Genome-scale metabolic network of Pseudomonas putida (iJN1462)",
+  "description" : "iJN1462 (i) incorporates several hundred additional genes and associated reactions resulting in new predictive capabilities, including new nutrients supporting growth; (ii) was validated by in vivo growth screens that included previously untested carbon (48) and nitrogen (41) sources; (iii) yielded gene essentiality predictions showing large accuracy when compared with a knock-out library and Bar-seq data; and (iv) allowed mapping of its network to 82 P. putida sequenced strains revealing functional core that reflect the large metabolic versatility of this species, including aromatic compounds derived from lignin.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31657101",
+    "journal" : "Environmental microbiology",
+    "title" : "High-quality genome-scale metabolic modelling of Pseudomonas putida highlights its broad metabolic capabilities.",
+    "affiliation" : "Department of Systems Biology, Centro Nacional de Biotecnología (CNB-CSIC), Madrid, Spain.",
+    "synopsis" : "Genome-scale reconstructions of metabolism are computational species-specific knowledge bases able to compute systemic metabolic properties. We present a comprehensive and validated reconstruction of the biotechnologically relevant bacterium Pseudomonas putida KT2440 that greatly expands computable predictions of its metabolic states. The reconstruction represents a significant reactome expansion over available reconstructed bacterial metabolic networks. Specifically, iJN1462 (i) incorporates several hundred additional genes and associated reactions resulting in new predictive capabilities, including new nutrients supporting growth; (ii) was validated by in vivo growth screens that included previously untested carbon (48) and nitrogen (41) sources; (iii) yielded gene essentiality predictions showing large accuracy when compared with a knock-out library and Bar-seq data; and (iv) allowed mapping of its network to 82 P. putida sequenced strains revealing functional core that reflect the large metabolic versatility of this species, including aromatic compounds derived from lignin. Thus, this study provides a thoroughly updated metabolic reconstruction and new computable phenotypes for P. putida, which can be leveraged as a first step toward understanding the pan metabolic capabilities of Pseudomonas.",
+    "year" : 2020,
+    "month" : "1",
+    "volume" : "22",
+    "issue" : "1",
+    "pages" : "255-269",
+    "link" : "http://identifiers.org/pubmed/31657101",
+    "authors" : [
+      {
+        "name" : "Juan Nogales",
+        "institution" : "Department of Systems Biology, Centro Nacional de Biotecnología (CNB-CSIC), Madrid, Spain.Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA.",
+        "orcid" : "0000-0002-4961-0833"
+      },
+      {
+        "name" : "Joshua Mueller",
+        "institution" : "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA.Department of Chemical and Biomolecular Engineering, University of Nebraska-Lincoln, Lincoln, NE, USA."
+      },
+      {
+        "name" : "Steinn Gudmundsson",
+        "institution" : "Center for Systems Biology, University of Iceland, Reykjavík, Iceland."
+      },
+      {
+        "name" : "Francisco J Canalejo",
+        "institution" : "Department of Systems Biology, Centro Nacional de Biotecnología (CNB-CSIC), Madrid, Spain."
+      },
+      {
+        "name" : "Estrella Duque",
+        "institution" : "Department of Environmental Protection, Estación Experimental del Zaidín (CSIC), Granada, Spain."
+      },
+      {
+        "name" : "Jonathan Monk",
+        "institution" : "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA."
+      },
+      {
+        "name" : "Adam M Feist",
+        "institution" : "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA."
+      },
+      {
+        "name" : "Juan Luis Ramos",
+        "institution" : "Department of Environmental Protection, Estación Experimental del Zaidín (CSIC), Granada, Spain.",
+        "orcid" : "0000-0002-8731-7435"
+      },
+      {
+        "name" : "Wei Niu",
+        "institution" : "Department of Chemical and Biomolecular Engineering, University of Nebraska-Lincoln, Lincoln, NE, USA.",
+        "orcid" : "0000-0003-3826-1276"
+      },
+      {
+        "name" : "Bernhard O Palsson",
+        "institution" : "Department of Bioengineering, University of California, San Diego, La Jolla, CA, USA."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "iJN1463.xml",
+        "description" : "Pseudomonas Putida GEM",
+        "fileSize" : "9976168",
+        "mimeType" : "application/xml",
+        "md5sum" : "a0310533190f9e9a0002700dab5bc305",
+        "sha1sum" : "ff3ac890c0868d8b26dfa778d5c6e97583902abd",
+        "sha256sum" : "43b91508748233f017faf670ceb0ce6a2f6c784cca70e01a1667000a364df07c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "801611ee-d0a1-414a-86f6-f8f991a7eda6.omex",
+        "description" : "FROG report",
+        "fileSize" : "606579",
+        "mimeType" : "application/zip",
+        "md5sum" : "7a8f56ace536465a2e36901a1df717b3",
+        "sha1sum" : "2b67ed531c3c9866e7958119ff1c5c8829bb64b1",
+        "sha256sum" : "00b5c1746f987587f1c18beee92eec87191471edd147dfe42be8c235fdb15e8b"
+      },
+      {
+        "name" : "miniFROG Report_Juan_010422.xlsx",
+        "description" : "miniFROG report",
+        "fileSize" : "57697",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "cd32dc18928f804b9c34a8d9b5cf4566",
+        "sha1sum" : "0cac5bf303303fed72aed9f710754f9c41d85fb6",
+        "sha256sum" : "ca8901bc0c8f594b69c3399922582280205767ad886a611e61f541c9047c1698"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1649087593,
+        "submitter" : "David San León Granado",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1723459410,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1739362898,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Automatically added model identifier BIOMD0000001093"
+      }
+    ]
+  },
+  "firstPublished" : 1729020180,
+  "submissionId" : "MODEL2204040001",
+  "publicationId" : "BIOMD0000001093",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ],
+    "Curator" : [
+      {
+        "name" : "Indumathi",
+        "email" : "indumathi2223@gmail.com",
+        "affiliation" : "Indian Institute of Technology Madras",
+        "orcid" : "0009-0009-9237-5996",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "David San León Granado",
+        "email" : "dsanleon@cnb.csic.es",
+        "affiliation" : "Spanish National Center for Biotechnology",
+        "orcid" : "0000-0001-8138-500X",
+        "external" : false
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31657101",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:31657101"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2204040001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2204040001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000009",
+      "name" : "Constraint-based model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000009"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001093",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001093"
+    }
+  ]
+}

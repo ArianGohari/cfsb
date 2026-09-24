@@ -1,0 +1,315 @@
+{
+  "name" : "Hernjak2005_Calcium_Signaling",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces the time profiles of Calcium in the spine and dendrites as depicted in Fig 8 and Fig 9 of the paper for CF activation.</p>            <p>The model was reproduced using MathSBML.</p>            <p>Please note that the units of volume species is molecules/micrometer cubed as against the units of microMolar given in the paper. To convert the units to microMolar multiply the species concentration by the conversion factor 1/602.</p>            <br />            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use      <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16169982",
+    "journal" : "Biophysical journal",
+    "title" : "Modeling and analysis of calcium signaling events leading to long-term depression in cerebellar Purkinje cells.",
+    "affiliation" : "Center for Cell Analysis and Modeling, University of Connecticut Health Center, Farmington, Connecticut.",
+    "synopsis" : "Modeling and simulation of the calcium signaling events that precede long-term depression of synaptic activity in cerebellar Purkinje cells are performed using the Virtual Cell biological modeling framework. It is found that the unusually high density and low sensitivity of inositol-1,4,5-trisphosphate receptors (IP3R) are critical to the ability of the cell to generate and localize a calcium spike in a single dendritic spine. The results also demonstrate the model's capability to simulate the supralinear calcium spike observed experimentally during coincident activation of the parallel and climbing fibers. The sensitivity of the calcium spikes to certain biological and geometrical effects is investigated as well as the mechanisms that underlie the cell's ability to generate the supralinear spike. The sensitivity of calcium release rates from the IP3R to calcium concentrations, as well as IP3 concentrations, allows the calcium spike to form. The diffusion barrier caused by the small radius of the spine neck is shown to be important, as a threshold radius is observed above which a spike cannot be formed. Additionally, the calcium buffer capacity and diffusion rates from the spine are found to be important parameters in shaping the calcium spike.",
+    "year" : 2005,
+    "month" : "12",
+    "volume" : "89",
+    "issue" : "6",
+    "pages" : "3790-3806",
+    "link" : "http://identifiers.org/pubmed/16169982",
+    "authors" : [
+      {
+        "name" : "Nicholas Hernjak",
+        "institution" : "Center for Cell Analysis and Modeling, University of Connecticut Health Center, Farmington, Connecticut."
+      },
+      {
+        "name" : "Boris M Slepchenko"
+      },
+      {
+        "name" : "Kathleen Fernald"
+      },
+      {
+        "name" : "Charles C Fink"
+      },
+      {
+        "name" : "Dale Fortin"
+      },
+      {
+        "name" : "Ion I Moraru",
+        "orcid" : "0000-0002-3746-9676"
+      },
+      {
+        "name" : "James Watras"
+      },
+      {
+        "name" : "Leslie M Loew",
+        "orcid" : "0000-0002-1851-4646"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000162_url.xml",
+        "description" : "SBML L2V1 representation of Hernjak2005_Calcium_Signaling",
+        "fileSize" : "199170",
+        "mimeType" : "application/xml",
+        "md5sum" : "5b799a3dd5ba7603b26467ef7671c196",
+        "sha1sum" : "1cf14e9221818235a69a53bdeac29bf5aaea26b7",
+        "sha256sum" : "a9b2246173124442b7c3b65cf0f484c29e1e8ff1df7946c9e1006c6373422ae8"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000162-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "58365",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ea34024f170a9e9ec9bf64728c6f9f6f",
+        "sha1sum" : "4b1f8cf1c7ffb2bac5aa5ffe49cf67bdfba6d039",
+        "sha256sum" : "d28c69fd6dadc1f1500a187fa7645d4d6e2e9b457729c84faf40d5d98988c3cf"
+      },
+      {
+        "name" : "BIOMD0000000162-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "94999",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6e403449054189e6a73179751f202c5d",
+        "sha1sum" : "27631a8422ad32b8e3702db52fa287846fc2b954",
+        "sha256sum" : "004c0a9be9a0e85d7615df7670ad8ca35126dcfdde61d4f5a7fb7f48cea1f2c1"
+      },
+      {
+        "name" : "BIOMD0000000162-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "39609",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "05c6af892d28db3aea45bdef4c63fc76",
+        "sha1sum" : "acec45698a4c643039207356ed774175f451c036",
+        "sha256sum" : "26fe3fb6211f9b0bb1687df95051740e0c6b506cb746533fcc276e37a32bc0ed"
+      },
+      {
+        "name" : "BIOMD0000000162-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "39609",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d9e0c12954f1ede46c28b64547ab4bfa",
+        "sha1sum" : "32c3ce191d1e090307e62f3cb9d1c34cdbc0f03d",
+        "sha256sum" : "a51ee6e3f288f7c6a427fb356377faf598fad3c29504040dfaa1ad7dd41d738c"
+      },
+      {
+        "name" : "BIOMD0000000162.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "39609",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d9e0c12954f1ede46c28b64547ab4bfa",
+        "sha1sum" : "32c3ce191d1e090307e62f3cb9d1c34cdbc0f03d",
+        "sha256sum" : "a51ee6e3f288f7c6a427fb356377faf598fad3c29504040dfaa1ad7dd41d738c"
+      },
+      {
+        "name" : "BIOMD0000000162.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "31947",
+        "mimeType" : "text/plain",
+        "md5sum" : "7b98d199baeac3e0cb162a740edb18b3",
+        "sha1sum" : "30be7c02e66db74954d4f177b078b79b7624648e",
+        "sha256sum" : "51e271f6f5ba20a70365bcbe43d2086a27acb21cef8ef251b29ad6f91bbbc204"
+      },
+      {
+        "name" : "BIOMD0000000162.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "424726",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1b69a08ee1ea1e93b89e224b86e2a4b7",
+        "sha1sum" : "afec92b356937314482d2066ac0c40e770bf5732",
+        "sha256sum" : "8b9a646c7d69889527dd694d222cb399a4f1a9b0c1733a2a9a33ea3852cf9cb3"
+      },
+      {
+        "name" : "BIOMD0000000162.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "473726",
+        "mimeType" : "image/png",
+        "md5sum" : "d2dad1218d1759552c57e1c154afabe8",
+        "sha1sum" : "1c9c8dd65b2ed03dd5192f7eb321906bd69f7e6e",
+        "sha256sum" : "553172f28f4008439a4f8cb3071c402d2a45aafdaff6d4e2ca2d8e74a8290d68"
+      },
+      {
+        "name" : "BIOMD0000000162.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "124451",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "568b5e899bb136c140e2d69a9949e04e",
+        "sha1sum" : "3f04047e13f9c4ce63f66146a0ec5d364eba8723",
+        "sha256sum" : "b8cff60e2c3307d8ecf6ce68cc1882fd1b2baa5bc36499769293c0244c6bf20c"
+      },
+      {
+        "name" : "BIOMD0000000162.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "144401",
+        "mimeType" : "application/xml",
+        "md5sum" : "bd3777b0954a5801ecf1961dbbdac5f6",
+        "sha1sum" : "a1c0be433a869d31a96bf6ce900865fc9b28db23",
+        "sha256sum" : "320b2c4e3541a2b8009e0cadfefa8b0883a6fca53b41e0a032321f3f5565afd4"
+      },
+      {
+        "name" : "BIOMD0000000162_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "65816",
+        "mimeType" : "application/xml",
+        "md5sum" : "c310f81d38d32fe2f58455afc12c2e73",
+        "sha1sum" : "aec21890e78fb0e8eacb5841c91289e3806a448c",
+        "sha256sum" : "88f4a938cceb3daa623ebd95562ae555b587785468da167102c522598f7a3a7a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "26943",
+        "mimeType" : "image/png",
+        "md5sum" : "59a62a44442323bc978060210e2a011b",
+        "sha1sum" : "cccf2c1831c9be7fc45207d4db82c0427c57a3d8",
+        "sha256sum" : "7ac5f8fefacbd58622bd8d75b6f09c80d0c044b23fa49244134cc69455e465e8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "384",
+        "mimeType" : "text/plain",
+        "md5sum" : "1d638cfd72bdbca74749a8675979b3c3",
+        "sha1sum" : "4b222667223bd69b4d379880d2769ab0adb2d74d",
+        "sha256sum" : "a4116a689c4683b6b7f6dec450a1afbe58f928e729e00f2bb7ee6ced7e5a9579"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "d430c3f508c4d317478d8e2a6c630539",
+        "sha1sum" : "2d6fa9e5355d37b5e91b21e7184ccd4bd470a28f",
+        "sha256sum" : "73ed5928b355b894122a3e434577d71182d7e1994d137a2047787bb4fe4956e5"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3261",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b07a2c2bf8b409400f15db69cd71cea4",
+        "sha1sum" : "d6e692522483001504e7e96b2f0cee9be525bc18",
+        "sha256sum" : "727f7790a40f8d3393b52a76ed701ddc6407f9ea8194b8e03612e27135c58d14"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1201734474,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Hernjak2005_Calcium_Signaling"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392916011,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Hernjak2005_Calcium_Signaling"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269068,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284909,
+  "submissionId" : "MODEL1629310283",
+  "publicationId" : "BIOMD0000000162",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1629310283",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1629310283"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000162",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000162"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16169982",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16169982"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04730",
+      "name" : "Long-term depression - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04730"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0060025",
+      "name" : "regulation of synaptic activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0060025"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0006816",
+      "name" : "calcium ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006816"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7711",
+      "name" : "Chordata",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7711"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0001011",
+      "name" : "cerebellar Purkinje cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0001011"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

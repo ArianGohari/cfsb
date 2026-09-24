@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>Search results</title>
+<link rel="stylesheet" type="text/css" href="css/sheet.css">
+<script type="text/javascript" src="javascript/common.js"></script>
+<script type="text/javascript" src="javascript/tooltip.js"></script>
+<style type="text/css">
+a:link,a:visited { color:#005500; text-decoration:none; }
+a:focus,a:hover,a:active { color:#00ad00; text-decoration:none; }
+</style>
+</head>
+<body style="font-size:12pt; font-family:Arial,sans-serif; background-color:#f8ffff;">
+<div style="left: 994px; top: 49px; visibility: hidden;" id="dhtmltooltip" class="dhtmltooltip">TT</div>
+<table border="0" style="width:100%"><colgroup><col width="95%"><col width="5%"></colgroup><tr><td><font style="color:#004400; font-family:Arial,sans-serif; font-weight:bold; font-size:18pt; text-decoration:underline;">Show interactions of entities / pathways</font>
+<br>
+<font style="font-size:10pt; color:#CCCCCC;">Search for entities / pathways &nbsp;&nbsp;&gt;</font><font style="font-size:10pt; color:#004400;">&nbsp;&nbsp; Select entities / pathways of interest &nbsp;&nbsp;</font><font style="font-size:10pt; color:#CCCCCC;">&gt;&nbsp;&nbsp; Select interactions of interest &nbsp;&nbsp;&gt;&nbsp;&nbsp; Visualize interaction network </font>
+</td><td valign="top"><img src="images/info.png" title="Help" onclick="openW('tutorial#search.molpwy','Help','resizable=1,scrollbars=2,width=1024,height=800,toolbar=0');"></td></tr></table><br><br><br>
+<form name="checktable" method="post" action="getInteractionsOfObjs" onsubmit="return Check()">
+<input type="hidden" name="objtype" value="p">
+<input type="submit" value="Show interactions" onClick="subm=fullInput(document.checktable,'objs:list','Please select at least one pathway.');" class="cpdbutton">
+<table border="0" style="font-size:10pt;font-family:Arial,sans-serif;">
+<colgroup>
+<col width="4%">
+<col width="90%">
+<col width="6%">
+</colgroup>
+<tr bgcolor="#E1E1E1">
+<td align="center">
+<b>Select</b><br><nobr><span class="pseudolink" onclick="SetChecks(document.checktable,1,'objs:list')">all</span> <span class="pseudolink" onclick="SetChecks(document.checktable,0,'objs:list')">none</span></nobr>
+<td><b>Pathway names</b></td>
+<td><b>External links</b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="301296">
+</td>
+<td align="left" valign="top">p53 signaling pathway<br>p53pathway</td>
+<td align="left" valign="top"><b><a href="http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=p53pathway&what=graphic&jpg=on" target="_blank" title="Biocarta" style="color:#ff5555;">B</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="283803">
+</td>
+<td align="left" valign="top">p53 pathway<br>p53regulationpathway</td>
+<td align="left" valign="top"><b><a href="http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=p53regulationpathway&source=NCI-Nature%20curated&what=graphic&jpg=on" target="_blank" title="Pid" style="color:#aa0000;">P</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="4415424">
+</td>
+<td align="left" valign="top">TP53 network</td>
+<td align="left" valign="top"><b><a href="http://www.wikipathways.org/index.php/Pathway:WP1742" target="_blank" title="Wikipathways" style="color:#555555;">W</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="301172">
+</td>
+<td align="left" valign="top">hypoxia and p53 in the cardiovascular system<br>p53hypoxiapathway</td>
+<td align="left" valign="top"><b><a href="http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=p53hypoxiapathway&what=graphic&jpg=on" target="_blank" title="Biocarta" style="color:#ff5555;">B</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="100377">
+</td>
+<td align="left" valign="top">Stabilization of p53</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-69541" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="283794">
+</td>
+<td align="left" valign="top">Direct p53 effectors<br>p53downstreampathway</td>
+<td align="left" valign="top"><b><a href="http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=p53downstreampathway&source=NCI-Nature%20curated&what=graphic&jpg=on" target="_blank" title="Pid" style="color:#aa0000;">P</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14834">
+</td>
+<td align="left" valign="top">Regulation of TP53 Activity</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-5633007" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14012">
+</td>
+<td align="left" valign="top">Regulation of TP53 Expression</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804754" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13003">
+</td>
+<td align="left" valign="top">TP53 Regulates Metabolic Genes</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-5628897" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14265">
+</td>
+<td align="left" valign="top">Regulation of TP53 Degradation</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804757" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14832">
+</td>
+<td align="left" valign="top">PI5P Regulates TP53 Acetylation</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6811555" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="4415957">
+</td>
+<td align="left" valign="top">p53 transcriptional gene network</td>
+<td align="left" valign="top"><b><a href="http://www.wikipathways.org/index.php/Pathway:WP4963" target="_blank" title="Wikipathways" style="color:#555555;">W</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14835">
+</td>
+<td align="left" valign="top">Transcriptional Regulation by TP53</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-3700989" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="100405">
+</td>
+<td align="left" valign="top">p53-Independent DNA Damage Response</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-69610" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="100380">
+</td>
+<td align="left" valign="top">p53-Dependent G1 DNA Damage Response</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-69563" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="100381">
+</td>
+<td align="left" valign="top">p53-Dependent G1/S DNA damage checkpoint</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-69580" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="100406">
+</td>
+<td align="left" valign="top">p53-Independent G1/S DNA damage checkpoint</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-69613" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="186056">
+</td>
+<td align="left" valign="top">p53 signaling pathway - Homo sapiens (human)</td>
+<td align="left" valign="top"><b><a href="http://www.genome.jp/dbget-bin/www_bget?path:hsa04115" target="_blank" title="Kegg" style="color:#00aa00;">K</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14266">
+</td>
+<td align="left" valign="top">Regulation of TP53 Expression and Degradation</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6806003" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14697">
+</td>
+<td align="left" valign="top">Regulation of TP53 Activity through Methylation</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804760" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14833">
+</td>
+<td align="left" valign="top">Regulation of TP53 Activity through Acetylation</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804758" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13422">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Cell Death Genes</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-5633008" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13760">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Cell Cycle Genes</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6791312" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13989">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of DNA Repair Genes</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6796648" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="4415692">
+</td>
+<td align="left" valign="top">miRNA regulation of p53 pathway in prostate cancer</td>
+<td align="left" valign="top"><b><a href="http://www.wikipathways.org/index.php/Pathway:WP3982" target="_blank" title="Wikipathways" style="color:#555555;">W</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14519">
+</td>
+<td align="left" valign="top">Regulation of TP53 Activity through Phosphorylation</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804756" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="100379">
+</td>
+<td align="left" valign="top">Transcriptional activation of p53 responsive genes  </td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-69560" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13063">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Death Receptors and Ligands</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6803211" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13305">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Caspase Activators and Caspases</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6803207" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="14592">
+</td>
+<td align="left" valign="top">Regulation of TP53 Activity through Association with Co-factors</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804759" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13208">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Genes Involved in Cytochrome C Release</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6803204" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13547">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804116" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13643">
+</td>
+<td align="left" valign="top">TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804114" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1E1FF">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13759">
+</td>
+<td align="left" valign="top">TP53 regulates transcription of additional cell cycle genes whose exact role in the p53 pathway remain uncertain</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6804115" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+<tr bgcolor="#E1FFE1">
+<td valign="top" align="center">
+<input type="checkbox" name="objs:list" value="13421">
+</td>
+<td align="left" valign="top">TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain</td>
+<td align="left" valign="top"><b><a href="https://reactome.org/content/query?q=R-HSA-6803205" target="_blank" title="Reactome" style="color:#0000aa;">R</a></b></td>
+</tr>
+</table>
+<input type="hidden" name="checknames" value="[]"></input>
+<input type="submit" value="Show interactions" onClick="subm=fullInput(document.checktable,'objs:list','Please select at least one pathway.');" class="cpdbutton">
+<input type="hidden" name="exp" value="0">
+</form>
+</body>
+</html>

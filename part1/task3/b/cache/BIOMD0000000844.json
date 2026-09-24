@@ -1,0 +1,263 @@
+{
+  "name" : "Viertel2019 - A Computational model of the mammalian external tufted cell",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical conductance-based model of the bursting activity in external tufted (ET) cells of the olfactory bulb. The model includes ion-current based descriptions of the mechanisms underlying bursting in ET cells, with facilitation of blocking various currents to characterise bursting behaviour.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30290156",
+    "journal" : "Journal of theoretical biology",
+    "title" : "A Computational model of the mammalian external tufted cell.",
+    "affiliation" : "University of Utah, Department of Mathematics, 155 S 1400 E, Salt Lake City, Utah 84112, United States. Electronic address: viertel@math.utah.edu.",
+    "synopsis" : "We introduce a novel detailed conductance-based model of the bursting activity in external tufted (ET) cells of the olfactory bulb. We investigate the mechanisms underlying their bursting, and make experimentally-testable predictions. The ionic currents included in the model are specific to ET cells, and their kinetic and other parameters are based on experimental recordings. We validate the model by showing that its bursting characteristics under various conditions (e.g. blocking various currents) are consistent with experimental observations. Further, we identify the bifurcation structure and dynamics that explain bursting behavior. This analysis allows us to make predictions of the response of the cell to current pulses at different burst phases. We find that depolarizing (but not hyperpolarizing) inputs received during the interburst interval can advance burst timing, creating the substrate for synchronization by excitatory connections. It has been hypothesized that such synchronization among the ET cells within one glomerulus might help coordinate the glomerular output. Next we investigate model parameter sensitivity and identify parameters that play the most prominent role in controlling each burst characteristic, such as the burst frequency and duration. Finally, the response of the cell to periodic inputs is examined, reflecting the sniffing-modulated input that these cell receive in vivo. We find that individual cells can be better entrained by inputs with higher, rather than lower, frequencies than the intrinsic bursting frequency of the cell. Nevertheless, a heterogeneous population of ET cells (as may be found in a glomerulus) is able to produce reliable periodic population responses even at lower input frequencies.",
+    "year" : 2019,
+    "month" : "2",
+    "volume" : "462",
+    "pages" : "109-121",
+    "link" : "http://identifiers.org/pubmed/30290156",
+    "authors" : [
+      {
+        "name" : "Ryan Viertel",
+        "institution" : "University of Utah, Department of Mathematics, 155 S 1400 E, Salt Lake City, Utah 84112, United States. Electronic address: viertel@math.utah.edu."
+      },
+      {
+        "name" : "Alla Borisyuk",
+        "institution" : "University of Utah, Department of Mathematics, 155 S 1400 E, Salt Lake City, Utah 84112, United States. Electronic address: borisyuk@math.utah.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Viertel2019.xml",
+        "description" : "SBML L2V4 Representation of Viertel2019 - A Computational model of the mammalian external tufted cell",
+        "fileSize" : "127574",
+        "mimeType" : "application/xml",
+        "md5sum" : "eae2371005624fcccc53faa3e8e22d50",
+        "sha1sum" : "fb30bec3018271a79876da0f7e68b88e2d2448d8",
+        "sha256sum" : "3e1958eb1dc46cb9399004d62711b73ae9071fdaf37fdccaba03dd8a89ae95c7"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Viertel2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "13461",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "522c457905d1568e1a28f3762ffb07d0",
+        "sha1sum" : "e6838e3ecc46414b742f094bf7e0f6b49e43a0da",
+        "sha256sum" : "c8eb5bb9f51d5d17a5eeb3494f086ac219045a8b541d952d60bdee25a4550528"
+      },
+      {
+        "name" : "Viertel2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "18774",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "78f16562696420bf32c2417bd440900f",
+        "sha1sum" : "ca37695b6dc48d811b9dd495d9c771f9ff5de7d5",
+        "sha256sum" : "dfcd70cee60b3903999928620159595b2744b8222e85f9c5684418c799bc7766"
+      },
+      {
+        "name" : "Viertel2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14740",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "126d330cb5a75d81e88346d9c5535ccf",
+        "sha1sum" : "0ae636e8e5034a1186e714387faf378183a9cb58",
+        "sha256sum" : "19961a63409da6c8acbd03d3de9e6297cc23c951063339779257c20eea2a9323"
+      },
+      {
+        "name" : "Viertel2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14740",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ce042484138c26684f7999920482d9ea",
+        "sha1sum" : "2306e72c70f21191d4706cd9eac99f5df3fc83c7",
+        "sha256sum" : "f3f66bd5f0d10823f4576ec64304ab2436ebe196e3b6f05b8020b362b1af80cc"
+      },
+      {
+        "name" : "Viertel2019.cps",
+        "description" : "COPASI file of Viertel2019 - A Computational model of the mammalian external tufted cell",
+        "fileSize" : "167976",
+        "mimeType" : "application/xml",
+        "md5sum" : "22135e96fd4379a33c5e525628a2f1f5",
+        "sha1sum" : "0a28c5dd483284e230140e9be58aef308898b7df",
+        "sha256sum" : "b7595fa2a9d2c8c4473b24b4ad7fd9bbdd9ce8d5882a109cd702879729085477"
+      },
+      {
+        "name" : "Viertel2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12611",
+        "mimeType" : "text/plain",
+        "md5sum" : "9aa2500749de5be8581c14abb39027f5",
+        "sha1sum" : "4db3790a5a945a3d21b67157be7a7087a5f77b66",
+        "sha256sum" : "226c5f9c401f798828e4c54d94b8c9efef35ba55352db5fc80bb6a0c5520ffd8"
+      },
+      {
+        "name" : "Viertel2019.sedml",
+        "description" : "SED-ML file of Viertel2019 - A Computational model of the mammalian external tufted cell (additionally CRBM-validated and adjusted).",
+        "fileSize" : "55607",
+        "mimeType" : "application/xml",
+        "md5sum" : "98036a7ffa4d53c75f714c82f0b2d0fa",
+        "sha1sum" : "f6bd56a3a31778cf9f53495ec86fe20d5bd5ae79",
+        "sha256sum" : "276b6b125927fd16f0ec275b3a0d2d4b6064326dca0843d08018cbecd9a538e2"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "788585",
+        "mimeType" : "image/png",
+        "md5sum" : "88d36172a8583e9289213c86edc2ded6",
+        "sha1sum" : "c641bfdeafc18ddd33bbded71dc65709a34499ce",
+        "sha256sum" : "46a0fb2ca421e37fd0c9173c8dd458e10a855edf3e8f6e02386a8a1c021c809e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "162",
+        "mimeType" : "text/plain",
+        "md5sum" : "011821dd04d4c4390bd58c7c63e8e470",
+        "sha1sum" : "b5065615eb4cb6c1bfd38161b6effb0ab9783d65",
+        "sha256sum" : "b9e0181d6a8b376e5a0be2dff5f1752f50a5d3d0cb8b6140e91edeba51c59436"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1419",
+        "mimeType" : "application/xml",
+        "md5sum" : "c26974d884f1c88bd9b6efad056f1b28",
+        "sha1sum" : "98db9b829647176bd729470e03613eef786b4ba8",
+        "sha256sum" : "f702775507fb4e4c53763fdfb405c48b940c1c5ced314cab3fe7088ea1988c01"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3526",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1008fd3594baca7c3beb0eaee491b323",
+        "sha1sum" : "432a031ef0a6f02bb5a872258dc6cb7167db5b50",
+        "sha256sum" : "edeb5beb31f057ca37c13f9cd7d3159369a8f46db12961b334b2f9f24f726329"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1573401410,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000844"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1633463825,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Automatically added model identifier BIOMD0000000844"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724291071,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285510,
+  "submissionId" : "MODEL1911100001",
+  "publicationId" : "BIOMD0000000844",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30290156",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30290156"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "25717156",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25717156"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9497431",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9497431"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "21723921",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21723921"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000844",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000844"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911100001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911100001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "TEDDY_0000055",
+      "name" : "bursting",
+      "resource" : "TEDDY",
+      "uri" : "http://identifiers.org/biomodels.teddy/TEDDY_0000055"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "CL:1001503",
+      "name" : "olfactory bulb tufted cell",
+      "resource" : "Cell Type Ontology",
+      "uri" : "http://identifiers.org/cl/CL:1001503"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "name" : "Deineko2003_CellCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces Fig 3 of the paper corresponding to the transition to S phase. Units have not been defined for this model because the paper mentions the use of arbitrary units for the various species and parameters. Model reproduced using MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14582399",
+    "journal" : "Genetika",
+    "title" : "[Modeling dynamics of gene net, regulating the cell cycle in mammalian cells].",
+    "affiliation" : "Institute of Cytology and Genetics, Siberian Division, Russian Academy of Sciences, Novosibirsk, 630090 Russia.",
+    "synopsis" : "The study of the molecular mechanisms determining cellular programs of proliferation, differentiation, and apoptosis is currently attracting much attention. Recent studies have demonstrated that the system of cell-cycle control based on the transcriptional regulation of the expression of specific genes is responsible for the transition between programs. These groups of functionally connected genes from so-called gene networks characterized by numerous feedbacks and a complex behavioral dynamics. Computer simulation methods have been applied to studying the dynamics of gene networks regulating the cell cycle of vertebrates. The data on the regulation of the key genes obtained from the CYCLE-TRRD database have been used as a basis to construct gene networks of different degrees of complexity controlling the G1/S transition, one of the most important stages of the cell cycle. The behavior dynamics of the model constructed has been analyzed. Two qualitatively different functional modes of the system has been obtained. It has also been shown that the transition between these modes depends on the duration of the proliferation signal. It has also been demonstrated that the additional feedback from factor E2F to genes c-fos and c-jun, which was predicted earlier based on the computer analysis of promoters, plays an important role in the transition of the cell to the S phase.",
+    "year" : 2003,
+    "month" : "9",
+    "volume" : "39",
+    "issue" : "9",
+    "pages" : "1285-1292",
+    "link" : "http://identifiers.org/pubmed/14582399",
+    "authors" : [
+      {
+        "name" : "I V Deĭneko",
+        "institution" : "Institute of Cytology and Genetics, Siberian Division, Russian Academy of Sciences, Novosibirsk, 630090 Russia."
+      },
+      {
+        "name" : "A E Kel'"
+      },
+      {
+        "name" : "O V Kel'-Margulis"
+      },
+      {
+        "name" : "E Wingender",
+        "orcid" : "0000-0002-7729-8453"
+      },
+      {
+        "name" : "V A Ratner"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000208_url.xml",
+        "description" : "SBML L2V3 representation of Deineko2003_CellCycle",
+        "fileSize" : "24755",
+        "mimeType" : "application/xml",
+        "md5sum" : "b8ecadf4cd0796a962a1dcaa9b53f16c",
+        "sha1sum" : "6e924c29e3f81f4c6c33393547d92d2eef13d5c6",
+        "sha256sum" : "12857b58be44bf2d94b784826651f34311bdd993c3ddd42e3b5e9f0c5f76f8fe"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000208-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18399",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7436d0611be27e2c6fb8235818ff39d8",
+        "sha1sum" : "59f1744ed0b964986a703a4f6734406acba4e387",
+        "sha256sum" : "bd9f669eae07debf01d285e1a5a39d24947a93f4faca34a2eddab92485cbb54b"
+      },
+      {
+        "name" : "BIOMD0000000208-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "26767",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0475198a510340d0ec5fc042484acab3",
+        "sha1sum" : "182f1955606cd023635f5389e4ad15155145085b",
+        "sha256sum" : "4bb2e252035f7a58e9c5515e596d74f9bc2269f5a7ba18195cb6b347b32e4d24"
+      },
+      {
+        "name" : "BIOMD0000000208-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5644",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bb8327ea6aa00c2325848251ea1dab54",
+        "sha1sum" : "bc087b6436be0543b2c2bc927badb94c0b015ba7",
+        "sha256sum" : "bd7bb489476024e5e04d313a0992481b5ad344098096c04a2941ad024f769679"
+      },
+      {
+        "name" : "BIOMD0000000208-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5644",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "46e14f7bd70156a9679c88c585696936",
+        "sha1sum" : "dcfae9c78c90b1a1efe5d2badc672c614c3243f7",
+        "sha256sum" : "53905b08e193f8d8b8cda36ee95c0945595d1234eb3ab2c754c6548970e4b38f"
+      },
+      {
+        "name" : "BIOMD0000000208.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5644",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "46e14f7bd70156a9679c88c585696936",
+        "sha1sum" : "dcfae9c78c90b1a1efe5d2badc672c614c3243f7",
+        "sha256sum" : "53905b08e193f8d8b8cda36ee95c0945595d1234eb3ab2c754c6548970e4b38f"
+      },
+      {
+        "name" : "BIOMD0000000208.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3588",
+        "mimeType" : "text/plain",
+        "md5sum" : "fe6ab66ac446e2454d130dc6689a5b3c",
+        "sha1sum" : "01309e43bdc5ce15277b0d5587e4e132871f0f9d",
+        "sha256sum" : "523a76b8de48897d50cb9651757b0c71ccbf9f0f521c27d25df8aa61c84b8523"
+      },
+      {
+        "name" : "BIOMD0000000208.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "181379",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6bdd4a015e6221517e4e897445540545",
+        "sha1sum" : "e940914ff5c1d1719e8ecedd8eb26f62ce0a4965",
+        "sha256sum" : "61beedb3c71e56a2016a0850ec9ebf3c8961d96bc20191cf36de2c8e77b09da4"
+      },
+      {
+        "name" : "BIOMD0000000208.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "86079",
+        "mimeType" : "image/png",
+        "md5sum" : "dc3d5b6071ed56a158770e50588c486f",
+        "sha1sum" : "551e9dd310c7349624040f1c3855ae870182be74",
+        "sha256sum" : "bd2efc3a0cb98947f2eddb5d2e7fc0b72e8e96f2fd14196126b0cd882f15835d"
+      },
+      {
+        "name" : "BIOMD0000000208.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "30321",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2799e6ceffbd2ed14aba47a779620e8a",
+        "sha1sum" : "d17e947e0a991eff6d44e518fb8822e5221fb86c",
+        "sha256sum" : "2c198613cfda18bd4cee81389c4d17746c9fa0856c29a425809aaf884b5e8d59"
+      },
+      {
+        "name" : "BIOMD0000000208.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "37314",
+        "mimeType" : "application/xml",
+        "md5sum" : "c1446b1f5e452e3517123f266bebec13",
+        "sha1sum" : "aeddc1573d88707c67d0c37e2aaa395381a9c04c",
+        "sha256sum" : "b3725577f3fcc56c2205074c08c60b64b2f8d4fd564af419de7bade60c3772f9"
+      },
+      {
+        "name" : "BIOMD0000000208_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "22524",
+        "mimeType" : "application/xml",
+        "md5sum" : "c158fbffabbf98c61712c56df702577a",
+        "sha1sum" : "9df60b3ebc7629ea2c090d1a78202180a6ba1cd4",
+        "sha256sum" : "b3dfe099c17c30638ca5c14268b77deb26851b79398d224761bff0f198958325"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "27736",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "44e76121a17bd34dcae51c60ccc35d45",
+        "sha1sum" : "c72e0d37bc9b29f1562411c06d437fede46da134",
+        "sha256sum" : "d214571e2a4b1a640625bc32771bf9a6c0b339e9eaeb83b42b99c1c32c246db3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "81",
+        "mimeType" : "text/plain",
+        "md5sum" : "e4ce3fd8755594650cbe8fb54731532b",
+        "sha1sum" : "c4ea517dbb65209fbd58c414037dd27338667cb7",
+        "sha256sum" : "8f7153f97c9eb88d9e54132c4c68606225987b993b178f7d2b73418d89dda456"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "a9c8c1878acbee64c962edeeaaa14e73",
+        "sha1sum" : "3b6efc5659e3dd19af986247bd215e1365a7c951",
+        "sha256sum" : "14d057462587b6baa997669851c7fa5ba782f76bd4c3eaf151135757c006d178"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2972",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "eac70539a4f00bf259bf52d6db6df460",
+        "sha1sum" : "c1c40345b5639d301ac1528f6a77602a237d503d",
+        "sha256sum" : "f883c1df69954a20816dca0863ee509127b8e449ae5e3cb320d51cad28cdca19"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1227820803,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Deineko2003_CellCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341502864,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Deineko2003_CellCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270341,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284939,
+  "submissionId" : "MODEL1475866846",
+  "publicationId" : "BIOMD0000000208",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "hsa04110",
+      "name" : "Cell cycle - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04110"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1475866846",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1475866846"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000208",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000208"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14582399",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14582399"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

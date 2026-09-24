@@ -1,0 +1,145 @@
+{
+  "name" : "Norsigian2018 - A. baumannii (iCN718)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>FROG and miniFROG Reports for the organism <i>A. baumannii</i>. <br />The model (iCN718) originates from BiGG Models Database: A Database of Genome-Scale Metabolic Models (http://bigg.ucsd.edu/). Copyright © 2019 The Regents of the University of California     <br />      <br />          To cite BiGG Models Database, please use:      <a href=\"http://dx.doi.org/10.1093/nar/gkv1049\" target=\"_blank\">King ZA, Lu JS, Dräger A, Miller PC, Federowicz S, Lerman JA, Ebrahim A, Palsson BO, and Lewis NE. BiGG Models: A platform for integrating, standardizing, and sharing genome-scale models (2016) Nucleic Acids Research 44(D1):D515-D522. doi:10.1093/nar/gkv1049</a>  </p></body>    </notes>",
+  "format" : {
+    "name" : "COMBINE archive",
+    "identifier" : "OMEX",
+    "version" : "0.1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.3389/fgene.2018.00121",
+    "journal" : "Frontiers in genetics",
+    "title" : "iCN718, an Updated and Improved Genome-Scale Metabolic Network Reconstruction of <i>Acinetobacter baumannii</i> AYE.",
+    "affiliation" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States.",
+    "synopsis" : "<i>Acinetobacter baumannii</i> has become an urgent clinical threat due to the recent emergence of multi-drug resistant strains. There is thus a significant need to discover new therapeutic targets in this organism. One means for doing so is through the use of high-quality genome-scale reconstructions. Well-curated and accurate genome-scale models (GEMs) of <i>A. baumannii</i> would be useful for improving treatment options. We present an updated and improved genome-scale reconstruction of <i>A. baumannii</i> AYE, named iCN718, that improves and standardizes previous <i>A. baumannii</i> AYE reconstructions. iCN718 has 80% accuracy for predicting gene essentiality data and additionally can predict large-scale phenotypic data with as much as 89% accuracy, a new capability for an <i>A. baumannii</i> reconstruction. We further demonstrate that iCN718 can be used to analyze conserved metabolic functions in the A. baumannii core genome and to build strain-specific GEMs of 74 other <i>A. baumannii</i> strains from genome sequence alone. iCN718 will serve as a resource to integrate and synthesize new experimental data being generated for this urgent threat pathogen.",
+    "year" : 2018,
+    "month" : "7",
+    "volume" : "9",
+    "pages" : "121",
+    "link" : "http://identifiers.org/doi/10.3389/fgene.2018.00121",
+    "authors" : [
+      {
+        "name" : "Charles J Norsigian",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      },
+      {
+        "name" : "Erol Kavvas",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      },
+      {
+        "name" : "Yara Seif",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      },
+      {
+        "name" : "Bernhard O Palsson",
+        "institution" : "Department of Bioengineering, University of California, San Diego, San Diego, CA, United States."
+      },
+      {
+        "name" : "Jonathan M Monk",
+        "institution" : "Department of Bioengineering, University of California, San Diego, La Jolla, USA. jmonk@ucsd.edu.",
+        "orcid" : "0000-0002-3895-8949"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "iCN718.omex",
+        "description" : "FROG Report",
+        "fileSize" : "93512",
+        "mimeType" : "application/zip",
+        "md5sum" : "86afbe5b764ee4e90396a4e6e2b0f906",
+        "sha1sum" : "33dd723852d366325c6c8d2fc84092d239b7c170",
+        "sha256sum" : "19240aac825726eae00a0a202875347b7bd479f3b4823f73709d8cf6d78ca289"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "iCN718_miniFROG.xlsx",
+        "description" : "miniFROG Report",
+        "fileSize" : "11257",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "996f1c115aca3aeeb5eedb29a9f98c2f",
+        "sha1sum" : "b66f202f9f454f376aa8e5a87bfcc34fb205fcb6",
+        "sha256sum" : "b688b3bdd4b1d7ee4484cd08c1902eced37999233e6a70bc168c8d7d9e0c249f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1724231304,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Import of Norsigian2018 - A. baumannii (iCN718)"
+      }
+    ]
+  },
+  "firstPublished" : 1729019558,
+  "submissionId" : "MODEL2406270001",
+  "publicationId" : "BIOMD0000001085",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      },
+      {
+        "name" : "Indumathi",
+        "email" : "indumathi2223@gmail.com",
+        "affiliation" : "Indian Institute of Technology Madras",
+        "orcid" : "0009-0009-9237-5996",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.3389/fgene.2018.00121",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.3389/fgene.2018.00121"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2406270001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2406270001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001085",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001085"
+    }
+  ]
+}

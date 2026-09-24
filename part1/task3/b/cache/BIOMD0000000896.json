@@ -1,0 +1,247 @@
+{
+  "name" : "Szymanska2009 - Mathematical modeling of heat shock protein synthesis in response to temperature change",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model of heat shock protein synthesis induced by an external temperature stimulus. The model consists of a system of nine nonlinear ordinary differential equations describing the temporal evolution of key variables involved in the regulation of HSP synthesis.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "19327370",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Mathematical modeling of heat shock protein synthesis in response to temperature change.",
+    "affiliation" : "ICM, University of Warsaw, Pawińskiego 5a, 02-106 Warszawa, Poland. mysz@icm.edu.pl",
+    "synopsis" : "One of the most important questions in cell biology is how cells cope with rapid changes in their environment. The range of common molecular responses includes a dramatic change in the pattern of gene expression and the elevated synthesis of so-called heat shock (or stress) proteins (HSPs). Induction of HSPs increases cell survival under stress conditions [Morimoto, R.I., 1993. Cells in stress: transcriptional activation of heat shock genes. Science 259, 1409-1410]. In this paper we propose a mathematical model of heat shock protein synthesis induced by an external temperature stimulus. Our model consists of a system of nine nonlinear ordinary differential equations describing the temporal evolution of the key variables involved in the regulation of HSP synthesis. Computational simulations of our model are carried out for different external temperature stimuli. We compare our model predictions with experimental data for three different cases-one corresponding to heat shock, the second corresponding to slow heating conditions and the third corresponding to a short heat shock (lasting about 40 min). We also present our model predictions for heat shocks carried out up to different final temperatures and finally we present a new hypothesis concerning the molecular response to stress that explains some phenomena observed in experiments.",
+    "year" : 2009,
+    "month" : "8",
+    "volume" : "259",
+    "issue" : "3",
+    "pages" : "562-569",
+    "link" : "http://identifiers.org/pubmed/19327370",
+    "authors" : [
+      {
+        "name" : "Zuzanna Szymańska",
+        "institution" : "ICM, University of Warsaw, Pawińskiego 5a, 02-106 Warszawa, Poland. mysz@icm.edu.pl",
+        "orcid" : "0000-0002-2968-5627"
+      },
+      {
+        "name" : "Maciej Zylicz"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Szymanska2009.xml",
+        "description" : "SBML L2V4 Representation of Szymanska2009 - Mathematical modeling of heat shock protein synthesis in response to temperature change",
+        "fileSize" : "68220",
+        "mimeType" : "application/xml",
+        "md5sum" : "a60b31fd919d34375cf893893be0b69f",
+        "sha1sum" : "2c259c789cb6fc6b69d7a7f3259750acff6a1e29",
+        "sha256sum" : "b3649e70e5deb87ef264678d10fe7c9abc30e3d662a865b6e2c47cee6ff98209"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Szymanska2009-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "27394",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7f9f1c9e21de7463865fd6a144b4ef8b",
+        "sha1sum" : "1fcf7fc286c1b6d51d133e9d0be5312bc0559ef2",
+        "sha256sum" : "f5e497e8d4ae5c36738e6e53a6692ba5c77dc7f8d59f2392c47ffcb37724a043"
+      },
+      {
+        "name" : "Szymanska2009-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "45953",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a16f7f993df038d9575d61a5fad81ca9",
+        "sha1sum" : "63003453f15108464fd51708616d9bc2acc854e4",
+        "sha256sum" : "89d0611a73288e849f08ca439ac846b74cdc238eac0be38450b5d57f1cf9650d"
+      },
+      {
+        "name" : "Szymanska2009-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8929",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "80fc7b2cca39f806d4b0cb9a349fb180",
+        "sha1sum" : "296d2f9c7f4f7dca659ff6e8c2b3afa3050878e5",
+        "sha256sum" : "d46901b92d324d4364f09519004d9244b82e7554bed75e00a52f543fc090cb9a"
+      },
+      {
+        "name" : "Szymanska2009-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8929",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c22d0ca3e7670de580f0760a42be6a4e",
+        "sha1sum" : "94056a173d237c66c933e5ea6aca66900f84de1d",
+        "sha256sum" : "920a784c01babef720bc709a293a41b0eef54952deec0e62f074915b060cf873"
+      },
+      {
+        "name" : "Szymanska2009.cps",
+        "description" : "COPASI file of Szymanska2009 - Mathematical modeling of heat shock protein synthesis in response to temperature change",
+        "fileSize" : "93878",
+        "mimeType" : "application/xml",
+        "md5sum" : "308426f5655c2fce560a887f0a350c5f",
+        "sha1sum" : "58cf585a983ecd31846bf87d3724ab7fe544dc91",
+        "sha256sum" : "da5989ed403eabdd392b29b9e187d3677e4a98ca689b07a1478d8afc7281986b"
+      },
+      {
+        "name" : "Szymanska2009.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6235",
+        "mimeType" : "text/plain",
+        "md5sum" : "72285de679008838380d58a3f3e22012",
+        "sha1sum" : "db194a4c7bbf4e8d737a7353f6e7cfa2df89af23",
+        "sha256sum" : "54044baa3195dadb4c953d1600bfcebf10f249bc70e6c67aacd7fcb31a835559"
+      },
+      {
+        "name" : "Szymanska2009.sedml",
+        "description" : "SED-ML file of Szymanska2009 - Mathematical modeling of heat shock protein synthesis in response to temperature change (additionally CRBM-validated and adjusted).",
+        "fileSize" : "25656",
+        "mimeType" : "application/xml",
+        "md5sum" : "1d7727da6fa90981bd64829780e60a29",
+        "sha1sum" : "e7b4f4bfaf5dc6ea6537801b72723dd13cd616cc",
+        "sha256sum" : "3917b0b51e1e528bb140cb0c37f3042d0683533442a0b7e464fa37b0bf54e47b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "10608",
+        "mimeType" : "image/png",
+        "md5sum" : "00be91ffef210e6725f759094710d4d2",
+        "sha1sum" : "e536729d772e3ace3d8e31160cf7a3f5d3459784",
+        "sha256sum" : "fba8c3c57f4b889170a2a39988816c2eab8765e07688747b9347f589cbd993e5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "124",
+        "mimeType" : "text/plain",
+        "md5sum" : "1a034f462a35c23984d89d7eb16ef3d0",
+        "sha1sum" : "73f5795deda7bf2fcd1eb117053f570700743af1",
+        "sha256sum" : "62cab8cdaae8152d8da8f8ba19ecb18e1bf6fd9e2b6c4a309b8e6b11ad7e9f74"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1435",
+        "mimeType" : "application/xml",
+        "md5sum" : "3804720b4b9bb0a0f124be27fbee9818",
+        "sha1sum" : "f0b11eb1b3b86fa1e90bc7190ec73a833b93cac3",
+        "sha256sum" : "f8800ee660fa8415dd8835068e096a2ee9336c289e6579f7e00898ff38f2e67f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1933",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2d098cd61f86d60d55ac97e67131871a",
+        "sha1sum" : "fe35ad88a626601ec0e6568e240be2532d2c8dbf",
+        "sha256sum" : "76233dd883bd2860d1bff8e2bbb0fa1876e58fe7526329471b766dec3e47df12"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1576513972,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000896"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724292378,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285526,
+  "submissionId" : "MODEL1912160005",
+  "publicationId" : "BIOMD0000000896",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C17132",
+      "name" : "Signaling Pathway",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C17132"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "19327370",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19327370"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1912160005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1912160005"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000896",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000896"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C16672",
+      "name" : "Heat Shock Protein",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C16672"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C21065",
+      "name" : "Cell Stress Process",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C21065"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "name" : "Soni2018 - IL6 induced M2 Phenotype in Leishmania major infected macrophage",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>IL-6 has been proposed to favor the development of Th2 responses and play an important role in the communication between cells of multicellular organisms. They are involved in the regulation of complex cellular processes such as proliferation, differentiation and act as key player during inflammation and immune response. Th2 cytokines play an immunoregulatory role in early infection. Literature says in mice infected with L. major, IL-6 may promote the development of both Th1 and Th2 responses. IL-4 is also considered to be the signature cytokine of Th-2 response. IL6 was initially characterized as a Th1 cytokine but later on it was proved to be a pleiotropic cytokine, secreted from different cell types including the macrophages. A major challenge is to understand how these complex non-linear processes are connected and regulated. Systems biology approaches may be used to tackle this challenge in an iterative process of quantitative mathematical analysis. In this study, we created an in silico model of IL6 mediated macrophage activation which suffers from an excessive impact of the negative feedback loop involving SOCS1. The strategy adopted in this framework may help to reduce the complexity of the leishmanial IL6 model analysis and also laydown various physiological or pathological conditions of IL6 signaling in future.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29128405",
+    "journal" : "Cytokine",
+    "title" : "Systems cues governing IL6 signaling in leishmaniasis.",
+    "affiliation" : "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SPPU Pune University Campus, Pune 411007, India.",
+    "synopsis" : "IL-6 has been proposed to favor the development of Th2 responses and play an important role in the communication between cells of multicellular organisms. They are involved in the regulation of complex cellular processes such as proliferation, differentiation and act as key player during inflammation and immune response. Th2 cytokines play an immunoregulatory role in early infection. Literature says in mice infected with L. major, IL-6 may promote the development of both Th1 and Th2 responses. IL-4 is also considered to be the signature cytokine of Th-2 response. IL-10 was initially characterized as a Th2 cytokine but later on it was proved to be a pleiotropic cytokine, secreted from different cell types including the macrophages. A major challenge is to understand how these complex non-linear processes are connected and regulated. Systems biology approaches may be used to tackle this challenge in an iterative process of quantitative mathematical analysis. In this study, we created an in silico model of IL6 mediated macrophage activation which suffers from an excessive impact of the negative feedback loop involving SOCS3. The strategy adopted in this framework may help to reduce the complexity of the leishmanial IL6 model analysis and also laydown various physiological or pathological conditions of IL6 signaling in future.",
+    "year" : 2018,
+    "month" : "6",
+    "volume" : "106",
+    "pages" : "169-175",
+    "link" : "http://identifiers.org/pubmed/29128405",
+    "authors" : [
+      {
+        "name" : "Bhavnita Soni",
+        "institution" : "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SPPU Pune University Campus, Pune 411007, India.",
+        "orcid" : "0000-0002-8765-4634"
+      },
+      {
+        "name" : "Bhaskar Saha",
+        "institution" : "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SPPU Pune University Campus, Pune 411007, India.",
+        "orcid" : "0000-0002-5833-7912"
+      },
+      {
+        "name" : "Shailza Singh",
+        "institution" : "National Centre for Cell Science, NCCS Complex, Ganeshkhind, SPPU Pune University Campus, Pune 411007, India. Electronic address: shailza_iitd@yahoo.com."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Soni2018.xml",
+        "description" : "SBML L2V4 representation of Mathematical model of IL6 induced signaling in Leishmania major infected macrophage",
+        "fileSize" : "163275",
+        "mimeType" : "application/xml",
+        "md5sum" : "aa1b1386fc64681f1412dd6b5c55975a",
+        "sha1sum" : "654e5e210e00f79b5c8333b14cce90afb80b48cd",
+        "sha256sum" : "7b5a3ba09d99dab5f606b9e3761ebf45db5f2c6f0c970f76ffe52115de9e668b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "M2 Phenotype-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "66511",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "418336558211ad1e254586e33c04a4fb",
+        "sha1sum" : "ed5f92772390b6a14844d3824b422c01f929a882",
+        "sha256sum" : "d8604f771a806bc2b6b95344a19f7caf23bcba5d2688f2390839364e75b4d278"
+      },
+      {
+        "name" : "M2 Phenotype-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "126455",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e8e979bbaffd16d1c19dfae77d78a00c",
+        "sha1sum" : "803fb68157042ef58259c4765c695834f04cfb91",
+        "sha256sum" : "7e79cc9cfaaa1b02f74ab03cc4ccf8cfba7ed68f7a7ee5a38581944603879ae7"
+      },
+      {
+        "name" : "M2 Phenotype-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "56036",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8582f4bbabb1886f99b7fbfeb523e527",
+        "sha1sum" : "63f930065ec558545158a8627b4fe7edaf7efca4",
+        "sha256sum" : "869b57f3bff5f8d4ab30d0c390988070b63a8133e336959362b6a076d5d86c8a"
+      },
+      {
+        "name" : "M2 Phenotype-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "56036",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "94631c89036a941029cd4513ca240fc9",
+        "sha1sum" : "7e84d00154a4ccda37bae3f80e6ab56d8f5be8bd",
+        "sha256sum" : "e7db803f709e2d3bbf29927f7af886df106b45910fd8781225a187551f883c55"
+      },
+      {
+        "name" : "M2 Phenotype.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "39466",
+        "mimeType" : "text/plain",
+        "md5sum" : "f2794105baa6aa53de56ad4bfa137ec0",
+        "sha1sum" : "11b3cd1882e0a486ded8200a114c61b8e3039d55",
+        "sha256sum" : "520a59a63512b861641675309e3c6cd69de49e1a8cb56e1442eed27de8b03ebc"
+      },
+      {
+        "name" : "M2 Phenotype.xml",
+        "description" : "old xml file",
+        "fileSize" : "111117",
+        "mimeType" : "application/xml",
+        "md5sum" : "fa71a1c52d923f96b5f71c7efe4e8f52",
+        "sha1sum" : "9451dfc6aaea77319a9986825f0c9c64f65eb319",
+        "sha256sum" : "89211958f854df544bcdc521b5dc7831896a26d1f76499b3f9e29d4100871470"
+      },
+      {
+        "name" : "Soni2018-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "76765",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b80cc50945557d4dc372833a3b880824",
+        "sha1sum" : "71c7fdf8021bb6340cdcdccfa09bdc7a68e1b256",
+        "sha256sum" : "63a08bee642810d1ebd78cd62f45e54d3c6c1c84e25b8e487964277550e9aac9"
+      },
+      {
+        "name" : "Soni2018-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "137115",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "76ef80d356f58751cf3e5eedea55cd00",
+        "sha1sum" : "21225c4cbadbbb84d518ba75ee78ff34b4d6a001",
+        "sha256sum" : "4813cbefd7e3ffc9c3e9a3830248823f4b44c1aa6d7ee6052f7ffc38b8522d7b"
+      },
+      {
+        "name" : "Soni2018-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "56321",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cd64a0d2ad5b39e004c1ee1421bd1125",
+        "sha1sum" : "ef66c4cf478fd1398062aee09d47e268ed828ee1",
+        "sha256sum" : "ca87d41ee8df4212fd8d2b7208d5b4e3dea923e163b789ecebaa3c9d1f6c71b0"
+      },
+      {
+        "name" : "Soni2018-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "56321",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ff3026ad25866663f3f4ac5a64b39bd4",
+        "sha1sum" : "e8bd9e3c3ba9917613f43d3cb1d7dfeec54f585f",
+        "sha256sum" : "2a7c848741ecf8bafb29ddfdf7cb9a3f107fca496314f22bdcb6453b1d3e4bd1"
+      },
+      {
+        "name" : "Soni2018.cps",
+        "description" : "COPASI version 4.24 (Build 197) representation of Mathematical model of IL6 induced signaling in Leishmania major infected macrophage",
+        "fileSize" : "221637",
+        "mimeType" : "application/xml",
+        "md5sum" : "748be660a8f3dcbb287e1ef82d0d6a8f",
+        "sha1sum" : "3ab7a0c6a9114130f3463c16b06aaceb4e6728d6",
+        "sha256sum" : "d24433a065a3368b703e489aa08ad4360bcc81f49f7c852182f98e9ed3693c32"
+      },
+      {
+        "name" : "Soni2018.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "39751",
+        "mimeType" : "text/plain",
+        "md5sum" : "f4a0b5abbe3d468cbe980df409a2b9b2",
+        "sha1sum" : "73f40d62176c489eb558eec3b454466ed29c11ed",
+        "sha256sum" : "aea31646be134790630c83f02783679d2469175f914b9dfc50090df51d703629"
+      },
+      {
+        "name" : "Soni2018.sedml",
+        "description" : "SEDML L1V2 representation of Mathematical model of IL6 induced signaling in Leishmania major infected macrophage (additionally CRBM-validated and adjusted).",
+        "fileSize" : "69476",
+        "mimeType" : "application/xml",
+        "md5sum" : "1f0863232c792562031ef6cfd06b8892",
+        "sha1sum" : "224540b714984d133d7b42ba5f14388d3fcf07c1",
+        "sha256sum" : "2c0e3a5ef03b7cca1133564aa82ee81109e91ad4c8fd2dbc0746aeda843d1020"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "63834",
+        "mimeType" : "image/png",
+        "md5sum" : "9fd3cf0ffd79b87af8e0e492ce3361be",
+        "sha1sum" : "7a47ca7a2221fd63cfa1abcf70b61e433a975fd4",
+        "sha256sum" : "ca78924a8c30997791befc372304523b5b3be7d916d01417420c7aca30881715"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "223",
+        "mimeType" : "text/plain",
+        "md5sum" : "11922369185c49c64641edf7727a3527",
+        "sha1sum" : "11489fb569c00a2916f47eccefe9f6e0a49fe2a2",
+        "sha256sum" : "fe990185442171da94f287361626ca546916847591ed19f7ea28f7e5afd68193"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2102",
+        "mimeType" : "application/xml",
+        "md5sum" : "54f2aa2469d124948b4adc67d080384c",
+        "sha1sum" : "6366b2f0229daa956a882a35deb74264c5dbdb01",
+        "sha256sum" : "1ced8b55fef572421110ca5a3a4b1f07acf83ab8acb0c1054115e61983a4f0f1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2905",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3e0e66c72ae686487aced329c1101ed9",
+        "sha1sum" : "ce5ffa6aa889884898aeb0425dddf125e263b0ab",
+        "sha256sum" : "bf90b3e736f4f931a1430a735a897918c8e87b3eba7266ceb12f5e2040b8a11a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 4,
+        "submitted" : 1558701595,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 6,
+        "submitted" : 1574439993,
+        "submitter" : "Mohammad Umer Sharif Shohan",
+        "comment" : "Automatically added model identifier BIOMD0000000873"
+      },
+      {
+        "version" : 7,
+        "submitted" : 1724291793,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285517,
+  "submissionId" : "MODEL1812070001",
+  "publicationId" : "BIOMD0000000873",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mohammad Umer Sharif Shohan",
+        "email" : "msharifshohan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0003-3985-2879",
+        "external" : false
+      },
+      {
+        "name" : "Bhavnita Soni",
+        "email" : "bhavnitas@nccs.res.in",
+        "affiliation" : "National Center for cell science",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:hasInstance",
+      "accession" : "NCIT:C39127",
+      "name" : "IL6 Signaling Pathway",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C39127"
+    },
+    {
+      "qualifier" : "bqmodel:hasInstance",
+      "accession" : "5658",
+      "name" : "Leishmania",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/5658"
+    },
+    {
+      "qualifier" : "bqmodel:hasInstance",
+      "accession" : "MODEL1812070001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1812070001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1812070001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1812070001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000873",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000873"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29128405",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:29128405"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL1812070001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1812070001"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "5658",
+      "name" : "Leishmania",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/5658"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "29128405",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29128405"
+    }
+  ]
+}

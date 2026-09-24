@@ -1,0 +1,319 @@
+{
+  "name" : "Wang2009 - PI3K Ras Crosstalk",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>PI3K-dependent cross-talk interactions converge with Ras as quantifiable inputs integrated by Erk.</strong>                <br />          Wang CC, Cirit M, Haugh JM      <em>Mol. Syst. Biol.</em>          2009;5:246.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19225459\">19225459</a>          ,      <br />                <strong>Abstract:</strong>                <br />          Although it is appreciated that canonical signal-transduction pathways represent dominant modes of regulation embedded in larger interaction networks, relatively little has been done to quantify pathway cross-talk in such networks. Through quantitative measurements that systematically canvas an array of stimulation and molecular perturbation conditions, together with computational modeling and analysis, we have elucidated cross-talk mechanisms in the platelet-derived growth factor (PDGF) receptor signaling network, in which phosphoinositide 3-kinase (PI3K) and Ras/extracellular signal-regulated kinase (Erk) pathways are prominently activated. We show that, while PI3K signaling is insulated from cross-talk, PI3K enhances Erk activation at points both upstream and downstream of Ras. The magnitudes of these effects depend strongly on the stimulation conditions, subject to saturation effects in the respective pathways and negative feedback loops. Motivated by those dynamics, a kinetic model of the network was formulated and used to precisely quantify the relative contributions of PI3K-dependent and -independent modes of Ras/Erk activation.      </p>            <br />            <p>This model is parameterized with the median of the estimated parameters given in the supplementary material of the original publication's (doi:      <a href=\"http://dx.doi.org/10.1038/msb.2009.4\">10.1038/msb.2009.4</a>          )      <a href=\"http://www.nature.com/msb/journal/v5/n1/extref/msb20094-s1.pdf\">supplement</a>          on pages 8 and 9.      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2010 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />                <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "19225459",
+    "journal" : "Molecular systems biology",
+    "title" : "PI3K-dependent cross-talk interactions converge with Ras as quantifiable inputs integrated by Erk.",
+    "affiliation" : "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC 27695-7905, USA.",
+    "synopsis" : "Although it is appreciated that canonical signal-transduction pathways represent dominant modes of regulation embedded in larger interaction networks, relatively little has been done to quantify pathway cross-talk in such networks. Through quantitative measurements that systematically canvas an array of stimulation and molecular perturbation conditions, together with computational modeling and analysis, we have elucidated cross-talk mechanisms in the platelet-derived growth factor (PDGF) receptor signaling network, in which phosphoinositide 3-kinase (PI3K) and Ras/extracellular signal-regulated kinase (Erk) pathways are prominently activated. We show that, while PI3K signaling is insulated from cross-talk, PI3K enhances Erk activation at points both upstream and downstream of Ras. The magnitudes of these effects depend strongly on the stimulation conditions, subject to saturation effects in the respective pathways and negative feedback loops. Motivated by those dynamics, a kinetic model of the network was formulated and used to precisely quantify the relative contributions of PI3K-dependent and -independent modes of Ras/Erk activation.",
+    "year" : 2009,
+    "month" : "0",
+    "volume" : "5",
+    "pages" : "246",
+    "link" : "http://identifiers.org/pubmed/19225459",
+    "authors" : [
+      {
+        "name" : "Chun-Chao Wang",
+        "institution" : "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC 27695-7905, USA.",
+        "orcid" : "0000-0003-4884-3835"
+      },
+      {
+        "name" : "Murat Cirit"
+      },
+      {
+        "name" : "Jason M Haugh",
+        "institution" : "Department of Chemical Engineering North Carolina State University, Raleigh, North Carolina 27695-7905, USA. jason_haugh@ncsu.edu",
+        "orcid" : "0000-0002-2476-4027"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000288_url.xml",
+        "description" : "SBML L2V4 representation of Wang2009 - PI3K Ras Crosstalk",
+        "fileSize" : "51477",
+        "mimeType" : "application/xml",
+        "md5sum" : "a0de0298c2cf073f60f1d034c93f7051",
+        "sha1sum" : "6a26d7a68f0a1bb1306bf01ca1a9af67ae984225",
+        "sha256sum" : "1833b271c7c3b25dd4b28a4f08acc4650601556f8e0aee321434242116a9387e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000288-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "21945",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3863a9bdaa77bfde9ff5d861ecff57d9",
+        "sha1sum" : "0a909b2f5e771fe95316b02dde81d14c5c2ebeed",
+        "sha256sum" : "9d88c93fc004802929149dbd4ce1dfb38d1c64c03bd78e424e88456a21658ef6"
+      },
+      {
+        "name" : "BIOMD0000000288-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "29589",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "042bd47b02940d2f2f241be155e8ff37",
+        "sha1sum" : "c54c6045cb58dd169be169395fcb9b9be7038b4f",
+        "sha256sum" : "bfd773028396410958fc9e8e1893b1930f23b8e6e4eb0b16923f081b6183aeed"
+      },
+      {
+        "name" : "BIOMD0000000288-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10660",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5252b9246a513ddb79781677d18d76eb",
+        "sha1sum" : "3efca713663f0610b3cbbbb77cd15d0d0504b5fa",
+        "sha256sum" : "d4ccded6557dabe97a726d0453638eefcf77a949381165a293907741156938de"
+      },
+      {
+        "name" : "BIOMD0000000288-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10660",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f810dc067bacd6212df0224471a88fee",
+        "sha1sum" : "b63c8bacacf2cfea880377e9797e11f82dc1bbd2",
+        "sha256sum" : "5d2efc907f3eb9142aab641e1aebccf71db83b2198e8d34de33d4ff4be4e365f"
+      },
+      {
+        "name" : "BIOMD0000000288.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10660",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f810dc067bacd6212df0224471a88fee",
+        "sha1sum" : "b63c8bacacf2cfea880377e9797e11f82dc1bbd2",
+        "sha256sum" : "5d2efc907f3eb9142aab641e1aebccf71db83b2198e8d34de33d4ff4be4e365f"
+      },
+      {
+        "name" : "BIOMD0000000288.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7507",
+        "mimeType" : "text/plain",
+        "md5sum" : "2cdae6dc796a358f7e5d61a258f8c239",
+        "sha1sum" : "5755f0ffb3de51dacf3c6342a3554f13be6618b2",
+        "sha256sum" : "904a345f4ebed075708f4b6b905a9e49bce2729b4a39f89eaebf90a29ebbf360"
+      },
+      {
+        "name" : "BIOMD0000000288.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "219709",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d93a39d1740f9bfdae19bf5d3411d922",
+        "sha1sum" : "8c5b7caad59ec01dae7018e91f1be819f5e58937",
+        "sha256sum" : "ed12cdf60d1aa164e5905dd2f2179ce708b53c81bc3065936fbb24278dc0c4e9"
+      },
+      {
+        "name" : "BIOMD0000000288.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "152785",
+        "mimeType" : "image/png",
+        "md5sum" : "33e5056804562a923824fe7f3624247c",
+        "sha1sum" : "f7826c3247050ec1462f8f23760c65f7d93f58c3",
+        "sha256sum" : "c40ffa95c1375829a9a9e8d296848545249025bb16a467c5fb6bcf364b8c5d53"
+      },
+      {
+        "name" : "BIOMD0000000288.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "6672",
+        "mimeType" : "text/plain",
+        "md5sum" : "8154f2b0191071364ea119597d7e9826",
+        "sha1sum" : "6727dea72f00d9e5b732998d33fad2698388c4d9",
+        "sha256sum" : "5d9616523c8f1e03cd5d6a87f1216e137cb221a97ba46620f32fd613bfbf532e"
+      },
+      {
+        "name" : "BIOMD0000000288.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "46758",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6c4efe0107e73dda8bd941006fe92e86",
+        "sha1sum" : "2120b41345f342908d497d5052379b0bf8f78c93",
+        "sha256sum" : "84bd20287dd053406d74dc60e073a57b2e49477139c75740e1b2121e741efdaf"
+      },
+      {
+        "name" : "BIOMD0000000288_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "44309",
+        "mimeType" : "application/xml",
+        "md5sum" : "5804956f28b2debc774575b92f932c45",
+        "sha1sum" : "6acebf5415e5e21321c8dafdd47f8df11c071cf5",
+        "sha256sum" : "d94f980a17f9920482daaf3f65aa732149ff8f95b4f147d3dcb868755606ad5c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41232",
+        "mimeType" : "image/png",
+        "md5sum" : "06c65b7e4058eb246872fbe5fa103dee",
+        "sha1sum" : "977d0d7ddd61add4a1d59e45f99878e43a12b0bf",
+        "sha256sum" : "7e0ff29014191da3c8dc8578be8663f2358b0a95f9c61126dfecd7262b7de4d3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "609",
+        "mimeType" : "text/plain",
+        "md5sum" : "63f404dc24df02b87486bdf1c1a221ae",
+        "sha1sum" : "b8f4574d61ee3e768d20192e067c656eb2a6852b",
+        "sha256sum" : "a31ed3da8bddc939b63cd826a664e7901aeaa4c7384ee1eded8474cd80bec8ce"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "86ac7d5c5a3a4c0804bfb4dd5c297070",
+        "sha1sum" : "1730e31e3b4677d3edb713bd703fc6dd527948d6",
+        "sha256sum" : "8fa6776a096d7f7c7118eb8c5600ea9ce31346998299216f693905f63e50c886"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6252",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "66b66df91856a0cd8c58668bf2135c75",
+        "sha1sum" : "f8c2ce8c44fbcf6854d3f50288f2bc9feb234b0b",
+        "sha256sum" : "5c2e54335c9d5a49cab661197808d57545d4a31ec58131ec80e97cd203ce367b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1257710575,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Wang2009_PI3K_Ras_Crosstalk"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392377587,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Wang2009 - PI3K Ras Crosstalk"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272641,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285004,
+  "submissionId" : "MODEL0910130003",
+  "publicationId" : "BIOMD0000000288",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0910130003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0910130003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000288",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000288"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "19225459",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19225459"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "12871957",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12871957"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16314431",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16314431"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0014065",
+      "name" : "phosphatidylinositol 3-kinase signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0014065"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0070371",
+      "name" : "ERK1 and ERK2 cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070371"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0048008",
+      "name" : "platelet-derived growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048008"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04012",
+      "name" : "ErbB signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04012"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04010",
+      "name" : "MAPK signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04010"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

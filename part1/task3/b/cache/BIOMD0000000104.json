@@ -1,0 +1,269 @@
+{
+  "name" : "Klipp2002_MetabolicOptimization_linearPathway(n=2)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Klipp2002_MetabolicOptimization_linearPathway(n=2)</div>            <div class=\"dc:description\">      <p>The model describes time dependent gene expression as a means to enable cells to adapt metabolic activity optimally based on environmental conditions. It uses a simple unbranched pathway and a constraint of fixed total enzyme. It calculates enzyme profiles at different times which optimise a performance function, and compares them to experimental data. The initial model is cell-type agnostic, while the experimeental data is from yeast.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/12423338\" title=\"Access to this publication\">Prediction of temporal gene expression. Metabolic opimization by re-distribution of enzyme activities.</a>                    </div>                <div class=\"bibo:authorList\">Klipp E, Heinrich R, Holzhütter HG.</div>                <div class=\"bibo:Journal\">Eur. J. Biochem. 2002 Nov; 269(22): 5406-5413</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>A computational approach is used to analyse temporal gene expression in the context of metabolic regulation. It is based on the assumption that cells developed optimal adaptation strategies to changing environmental conditions. Time- dependent enzyme profiles are calculated which optimize the function of a metabolic pathway under the constraint of limited total enzyme amount. For linear model pathways it is   shown that wave-like enzyme profiles are optimal for a rapid substrate turnover. For the central metabolism of yeast cells enzyme profiles are calculated which ensure long-term homeostasis of key metabolites under conditions of a diauxic shift. These enzyme profiles are in close correlation with observed gene expression data. Our results demonstrate that optimality principles help to rationalize observed gene expression profiles.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>This model is from the paper        <i>Prediction of temporal gene expression metabolic optimization by re-distribution of enzyme activities.</i>            The model describes optimal enzyme profiles and metabolite time courses for a simple linear metabolic pathway (n=2). Figure 1 was reproduced using roadRunner. The values of k1 and k2 were not explicitly stated in the publication, but calculations were performed for equal catalytic efficiencies of the enzymes (ki=k), hence the curator assigned k1=k2=1. Also enzyme concentrations are given in units of Etot; times are given in units of 1/(k*Etot) in the papaer, for simplicity , we use defalut units of the SBML to present the concentration and time.        </p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000104\">MODEL4931762955</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12423338",
+    "journal" : "European journal of biochemistry",
+    "title" : "Prediction of temporal gene expression. Metabolic opimization by re-distribution of enzyme activities.",
+    "affiliation" : "Max-Planck-Institute of Molecular Genetics, Berlin, Germany.",
+    "synopsis" : "A computational approach is used to analyse temporal gene expression in the context of metabolic regulation. It is based on the assumption that cells developed optimal adaptation strategies to changing environmental conditions. Time-dependent enzyme profiles are calculated which optimize the function of a metabolic pathway under the constraint of limited total enzyme amount. For linear model pathways it is shown that wave-like enzyme profiles are optimal for a rapid substrate turnover. For the central metabolism of yeast cells enzyme profiles are calculated which ensure long-term homeostasis of key metabolites under conditions of a diauxic shift. These enzyme profiles are in close correlation with observed gene expression data. Our results demonstrate that optimality principles help to rationalize observed gene expression profiles.",
+    "year" : 2002,
+    "month" : "11",
+    "volume" : "269",
+    "issue" : "22",
+    "pages" : "5406-5413",
+    "link" : "http://identifiers.org/pubmed/12423338",
+    "authors" : [
+      {
+        "name" : "Edda Klipp",
+        "institution" : "Max-Planck-Institute of Molecular Genetics, Berlin, Germany."
+      },
+      {
+        "name" : "Reinhart Heinrich"
+      },
+      {
+        "name" : "Hermann-Georg Holzhütter",
+        "orcid" : "0000-0002-5054-6023"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000104_url.xml",
+        "description" : "SBML L2V1 representation of Klipp2002_MetabolicOptimization_linearPathway(n=2)",
+        "fileSize" : "15924",
+        "mimeType" : "application/xml",
+        "md5sum" : "00bea383ef2dfbe1004a0023bfdd85f6",
+        "sha1sum" : "b28e6540b36e936d8294afc53949bbb23956d335",
+        "sha256sum" : "3e60058d27e6603b862e0d0f306592a55689ecfe2d60f203d0dd2a2fedd319e6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000104-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6636",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b32a8eac147beeda1b324c01be9ef42f",
+        "sha1sum" : "4df48084162b9dc40a384321d0c1bec5de15adcc",
+        "sha256sum" : "e2ea68c8e12058dd4f27e0780cff21998c190f6dc3738292f13859ed37534af6"
+      },
+      {
+        "name" : "BIOMD0000000104-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "8984",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3731d13de9c53fa696f493cfbf39556f",
+        "sha1sum" : "a7702538fd9c02f8344798dd27e82233e598576d",
+        "sha256sum" : "aa03be9c57d6616fc899c584eb98140d82810f4c4b86794a642a6d9f8742a52b"
+      },
+      {
+        "name" : "BIOMD0000000104-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3648",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fa72f3ca84e297280a99dec7fbb21640",
+        "sha1sum" : "969880f0d841afcb9b32cf998ba41fcf4a57c99a",
+        "sha256sum" : "5ba747d5cf4550b04ee6c0a3e96831aff3a445953ed4acd09d93ab29749a9b43"
+      },
+      {
+        "name" : "BIOMD0000000104.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3648",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cabfaebef268fdfd86e93468b16fe79a",
+        "sha1sum" : "f7bcb0131ef5a956dd8c6f2a8e5f112ffb62fce5",
+        "sha256sum" : "04ca78052ef2ec522898899f5582fa94ee4d6d2d20687ddaa0b5482924f55698"
+      },
+      {
+        "name" : "BIOMD0000000104.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1941",
+        "mimeType" : "text/plain",
+        "md5sum" : "c968b27856aff0b65af89c6488002b89",
+        "sha1sum" : "dfc3e3a233646f199465da04cefade7b1f481dc5",
+        "sha256sum" : "b14b21c701fa18a8ae2efb4e7e0441fac286f243b97854be360e6808f28d4313"
+      },
+      {
+        "name" : "BIOMD0000000104.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "155753",
+        "mimeType" : "application/pdf",
+        "md5sum" : "35c32d2d9eb5035c9ffdd4a901f2acbf",
+        "sha1sum" : "9590978a984591fce026eb6df0e47ee3d1610446",
+        "sha256sum" : "69026e1de1d2593885c0f621f018d879895e3cc5c086ef4b84783fd191298edc"
+      },
+      {
+        "name" : "BIOMD0000000104.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "12379",
+        "mimeType" : "image/png",
+        "md5sum" : "8f3b0317864263afe0db19efa165035d",
+        "sha1sum" : "96cb17ba188515cd6fd04b78dfe82906f6f714b4",
+        "sha256sum" : "f3d09eac25be3b525c428aa75d520eb6e47a3313f214e5f6f74f5992f1822303"
+      },
+      {
+        "name" : "BIOMD0000000104.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "7036",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "763914fa9cb0761d9daa30964eeed75a",
+        "sha1sum" : "19d34f7bee6e9b1ec25ac5c88a1f43ab1357a9e5",
+        "sha256sum" : "d3e579483ae77ac494a9bb7659fcf1dc925ba26f52ccc932531543408d970d94"
+      },
+      {
+        "name" : "BIOMD0000000104.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "26107",
+        "mimeType" : "application/xml",
+        "md5sum" : "0a0e517b723c56fffa736f9899a4a5b2",
+        "sha1sum" : "2a7267c31eaf8d7d772f7cb8d2db6a63c8f19800",
+        "sha256sum" : "057f2dbb20b28d39e3ff1bea329be7394164c430690d1675e4d279490421a594"
+      },
+      {
+        "name" : "BIOMD0000000104_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "7629",
+        "mimeType" : "application/xml",
+        "md5sum" : "7ac6debafd4f30e005eef3c58e0777f1",
+        "sha1sum" : "cfaf86ac7fcc0ae9461618da3b94f37b320964e5",
+        "sha256sum" : "89ee45bf92c1e3e8b36ff77f2dcbc9525589b4456f5ec210901bc7d857ed911c"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "40819",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "6a82a74f38500c7d23d896112b86e6cf",
+        "sha1sum" : "37e31405e55b0b95bba553ae7dd086cdca2d836d",
+        "sha256sum" : "b021c8f7379eb437fcb23ac5d8ccff59eae00fbb97f0ff2782703928ec74d6b0"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "90",
+        "mimeType" : "text/plain",
+        "md5sum" : "33afe37f0df1c352bc7748f92ff9c91c",
+        "sha1sum" : "edda5cdc9b1041d5a43125a014357741805b7288",
+        "sha256sum" : "f410514b3eec940c8cf245be5bd7295f0d87b8f133ed5d06b88550662d77b65f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1795",
+        "mimeType" : "application/xml",
+        "md5sum" : "bed1b6d334ea44456ea11190c93068ef",
+        "sha1sum" : "d952a1e42448c5931facefbea8e48f6f168f9360",
+        "sha256sum" : "a3ba41ece60f775d5fda628d73fd89f7106ce40391a533b4509b21dbc9bf76ed"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5778",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "23017a0acacf6c388d333928abfed8bb",
+        "sha1sum" : "1d36d3614ac89511ad83302fd8e87e47ac9594ba",
+        "sha256sum" : "e72e8103571d625e18276fb50d26a7fc74db0c976c35164590bd06b11fa07469"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1174936126,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Klipp2002_MetabolicOptimization_linearPathway(n=2)"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424867074,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Klipp2002_MetabolicOptimization_linearPathway(n=2)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267516,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284880,
+  "submissionId" : "MODEL4931762955",
+  "publicationId" : "BIOMD0000000104",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4931762955",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4931762955"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000104",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000104"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12423338",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12423338"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0010468",
+      "name" : "regulation of gene expression",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0010468"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

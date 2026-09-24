@@ -1,0 +1,308 @@
+{
+  "name" : "Becker2010_EpoR_CoreModel",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the core model described in the article:      <br />                <strong>Covering a Broad Dynamic Range: Information Processing at the Erythropoietin Receptor</strong>                <br />          Verena Becker, Marcel Schilling, Julie Bachmann, Ute Baumann, Andreas Raue, Thomas Maiwald, Jens Timmer and Ursula Klingmüller;      <em>Science</em>          Published Online May 20, 2010; DOI:      <a href=\"http://dx.doi.org/10.1126/science.1184913\">10.1126/science.1184913</a>          PMID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20488988\">20488988</a>                <br />          Abstract:      <br />          Cell surface receptors convert extracellular cues into receptor activation, thereby triggering intracellular signaling networks and controlling cellular decisions. A major unresolved issue is the identification of receptor properties that critically determine processing of ligand-encoded information. We show by mathematical modeling of quantitative data and experimental validation that rapid ligand depletion and replenishment of cell surface receptor are characteristic features of the erythropoietin (Epo) receptor (EpoR). The amount of Epo-EpoR complexes and EpoR activation integrated over time corresponds linearly to ligand input, covering a broad range of ligand concentrations. This relation solely depends on EpoR turnover independent of ligand binding, suggesting an essential role of large intracellular receptor pools. These receptor properties enable the system to cope with basal and acute demand in the hematopoietic system.      </p>            <p>SBML model exported from PottersWheel.</p>            <pre>% PottersWheel model definition filefunction m = BeckerSchilling2010_EpoR_CoreModel()m             = pwGetEmptyModel();%% Meta informationm.ID          = 'BeckerSchilling2010_EpoR_CoreModel';m.name        = 'BeckerSchilling2010_EpoR_CoreModel';m.description = 'BeckerSchilling2010_EpoR_CoreModel';m.authors     = {'Verena Becker',' Marcel Schilling'};m.dates       = {'2010'};m.type        = 'PW-2-0-42';%% X: Dynamic variables% m = pwAddX(m, ID, startValue, type, minValue, maxValue, unit, compartment, name, description, typeOfStartValue)m = pwAddX(m, 'EpoR'     ,     516, 'fix'   ,    0, 10000,   [], 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'Epo'      , 2030.19, 'global', 1890,  2310,   [], 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'Epo_EpoR' ,       0, 'fix'   ,    0, 10000,   [], 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'Epo_EpoRi',       0, 'fix'   ,    0, 10000,   [], 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'dEpoi'    ,       0, 'fix'   ,    0, 10000,   [], 'cell', []  , []  , []             , []  , 'protein.generic');m = pwAddX(m, 'dEpoe'    ,       0, 'fix'   ,    0, 10000,   [], 'cell', []  , []  , []             , []  , 'protein.generic');%% R: Reactions% m = pwAddR(m, reactants, products, modifiers, type, options, rateSignature, parameters, description, ID, name, fast, compartments, parameterTrunks, designerPropsR, stoichiometry, reversible)m = pwAddR(m, {            }, {'EpoR'      }, {  }, 'C' , [] , 'k1*k2', {'kt','Bmax'}, [], 'reaction0001');m = pwAddR(m, {'EpoR'      }, {            }, {  }, 'MA', [] , []     , {'kt'       }, [], 'reaction0002');m = pwAddR(m, {'Epo','EpoR'}, {'Epo_EpoR'  }, {  }, 'MA', [] , []     , {'kon'      }, [], 'reaction0003');m = pwAddR(m, {'Epo_EpoR'  }, {'Epo','EpoR'}, {  }, 'MA', [] , []     , {'koff'     }, [], 'reaction0004');m = pwAddR(m, {'Epo_EpoR'  }, {'Epo_EpoRi' }, {  }, 'MA', [] , []     , {'ke'       }, [], 'reaction0005');m = pwAddR(m, {'Epo_EpoRi' }, {'Epo','EpoR'}, {  }, 'MA', [] , []     , {'kex'      }, [], 'reaction0006');m = pwAddR(m, {'Epo_EpoRi' }, {'dEpoi'     }, {  }, 'MA', [] , []     , {'kdi'      }, [], 'reaction0007');m = pwAddR(m, {'Epo_EpoRi' }, {'dEpoe'     }, {  }, 'MA', [] , []     , {'kde'      }, [], 'reaction0008');%% C: Compartments% m = pwAddC(m, ID, size,  outside, spatialDimensions, name, unit, constant)m = pwAddC(m, 'cell', 1);%% K: Dynamical parameters% m = pwAddK(m, ID, value, type, minValue, maxValue, unit, name, description)m = pwAddK(m, 'kt'  , 0.0329366 , 'global', 1e-007, 1000);m = pwAddK(m, 'Bmax', 516       , 'fix'   , 492   , 540 );m = pwAddK(m, 'kon' , 0.00010496, 'global', 1e-007, 1000);m = pwAddK(m, 'koff', 0.0172135 , 'global', 1e-007, 1000);m = pwAddK(m, 'ke'  , 0.0748267 , 'global', 1e-007, 1000);m = pwAddK(m, 'kex' , 0.00993805, 'global', 1e-007, 1000);m = pwAddK(m, 'kdi' , 0.00317871, 'global', 1e-007, 1000);m = pwAddK(m, 'kde' , 0.0164042 , 'global', 1e-007, 1000);%% Default sampling time pointsm.t = 0:3:99;%% Y: Observables% m = pwAddY(m, rhs, ID, scalingParameter, errorModel, noiseType, unit, name, description, alternativeIDs, designerProps)m = pwAddY(m, 'Epo + dEpoe'      , 'Epo_extracellular_obs');m = pwAddY(m, 'Epo_EpoR'         , 'Epo_cellsurface_obs'  );m = pwAddY(m, 'Epo_EpoRi + dEpoi', 'Epo_intracellular_obs');%% S: Scaling parameters% m = pwAddS(m, ID, value, type, minValue, maxValue, unit, name, description)m = pwAddS(m, 'scale_Epo_extracellular_obs', 1, 'fix', 0, 100);m = pwAddS(m, 'scale_Epo_cellsurface_obs'  , 1, 'fix', 0, 100);m = pwAddS(m, 'scale_Epo_intracellular_obs', 1, 'fix', 0, 100);%% Designer properties (do not modify)m.designerPropsM = [1 1 1 0 0 0 400 250 600 400 1 1 1 0 0 0 0];</pre>            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20488988",
+    "journal" : "Science (New York, N.Y.)",
+    "title" : "Covering a broad dynamic range: information processing at the erythropoietin receptor.",
+    "affiliation" : "Division Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg, Germany.",
+    "synopsis" : "Cell surface receptors convert extracellular cues into receptor activation, thereby triggering intracellular signaling networks and controlling cellular decisions. A major unresolved issue is the identification of receptor properties that critically determine processing of ligand-encoded information. We show by mathematical modeling of quantitative data and experimental validation that rapid ligand depletion and replenishment of the cell surface receptor are characteristic features of the erythropoietin (Epo) receptor (EpoR). The amount of Epo-EpoR complexes and EpoR activation integrated over time corresponds linearly to ligand input; this process is carried out over a broad range of ligand concentrations. This relation depends solely on EpoR turnover independent of ligand binding, which suggests an essential role of large intracellular receptor pools. These receptor properties enable the system to cope with basal and acute demand in the hematopoietic system.",
+    "year" : 2010,
+    "month" : "6",
+    "volume" : "328",
+    "issue" : "5984",
+    "pages" : "1404-1408",
+    "link" : "http://identifiers.org/pubmed/20488988",
+    "authors" : [
+      {
+        "name" : "Verena Becker",
+        "institution" : "Division Systems Biology of Signal Transduction, DKFZ-ZMBH Alliance, German Cancer Research Center, 69120 Heidelberg, Germany."
+      },
+      {
+        "name" : "Marcel Schilling",
+        "institution" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "orcid" : "0000-0002-9517-5166"
+      },
+      {
+        "name" : "Julie Bachmann"
+      },
+      {
+        "name" : "Ute Baumann"
+      },
+      {
+        "name" : "Andreas Raue"
+      },
+      {
+        "name" : "Thomas Maiwald"
+      },
+      {
+        "name" : "Jens Timmer"
+      },
+      {
+        "name" : "Ursula Klingmüller",
+        "institution" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "orcid" : "0000-0001-9845-3099"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000271_url.xml",
+        "description" : "SBML L2V4 representation of Becker2010_EpoR_CoreModel",
+        "fileSize" : "27043",
+        "mimeType" : "application/xml",
+        "md5sum" : "14e1eaa004faae65b6969b1d784f984a",
+        "sha1sum" : "efece2460dd1d1419c305bafeef39d1687c522c4",
+        "sha256sum" : "89a48c6d558d34a2c626bbee8bf736caf40f8f90c0959ba5cef427cdab40c637"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000271-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19222",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "62e7e2cf53eb6337c04203ca3dff9686",
+        "sha1sum" : "3ea8cee5ae20f4db279fbed77d5778860df529b2",
+        "sha256sum" : "9347579dd7f3cd07dfdde6d0675bf73ea0472e109c55c4ca30117537278dac2b"
+      },
+      {
+        "name" : "BIOMD0000000271-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "26935",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9cec83d87d463dcac79849beb502846c",
+        "sha1sum" : "50f4416d9a57ed98f611ab866faccdc6f5301398",
+        "sha256sum" : "8d7fdf0600bf0599af86ac5a208ef7dc844afca2d3affdda2afb49523946ef04"
+      },
+      {
+        "name" : "BIOMD0000000271-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5159",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a67fa8a9f11808b9fc0b82007d9eb0e8",
+        "sha1sum" : "e90048eb6bfb15f5ec16f90b995bba7641b73fd2",
+        "sha256sum" : "3f71d6932841bcaac009344d173eec01319614f44ae8eb6c06ce3bf3744171b4"
+      },
+      {
+        "name" : "BIOMD0000000271-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5159",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9788c1aac01d4172b560c8c6d354536d",
+        "sha1sum" : "1deb78f700fee9dc3147ef0d3cf0b991f6ba253a",
+        "sha256sum" : "93d0ada4357cd968990d9cab7af9803264df4a96b8da334afa2adc0a8c730a33"
+      },
+      {
+        "name" : "BIOMD0000000271.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5159",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9788c1aac01d4172b560c8c6d354536d",
+        "sha1sum" : "1deb78f700fee9dc3147ef0d3cf0b991f6ba253a",
+        "sha256sum" : "93d0ada4357cd968990d9cab7af9803264df4a96b8da334afa2adc0a8c730a33"
+      },
+      {
+        "name" : "BIOMD0000000271.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3178",
+        "mimeType" : "text/plain",
+        "md5sum" : "0ef1abd1d1d0efdef79167e42f3c8f0f",
+        "sha1sum" : "8c088e9dd737535765075c4bf5819805b17091d5",
+        "sha256sum" : "ca539463829c9106cb20339140e1e4f5c612026013d14a24579e361931232186"
+      },
+      {
+        "name" : "BIOMD0000000271.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "191004",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3870c97631bbbbb6723fed1df8a6edeb",
+        "sha1sum" : "d400814f7b90283ece0a87bbf8e8dfe6bd94decd",
+        "sha256sum" : "a958205e0afaaf08f5f5137badebb93f4124e66c58e31a470b2fc5f6c44f8531"
+      },
+      {
+        "name" : "BIOMD0000000271.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "41553",
+        "mimeType" : "image/png",
+        "md5sum" : "e7ea747a81deb2595d3b6fe598a26a27",
+        "sha1sum" : "b1ebd07f9469e2a38bf88bd9a3f964d1b7a46154",
+        "sha256sum" : "c78cadc4f1f744f8c6e543db954c0b150f9899fc0dce9c9e89a2832da45d831f"
+      },
+      {
+        "name" : "BIOMD0000000271.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "18139",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b2b50929454de96a4be2b23627facc17",
+        "sha1sum" : "04cd4eea329d46e145482853adec4df0bd412786",
+        "sha256sum" : "b48758696391182c40ff762193c0b95f7609ce87cec7f1b9269b3a02da9d9683"
+      },
+      {
+        "name" : "BIOMD0000000271_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "16707",
+        "mimeType" : "application/xml",
+        "md5sum" : "9cff0df0e81b04841a8dc945a3f74b03",
+        "sha1sum" : "2846b576362d6fb28a65c50bcd78ca3ec4daa05b",
+        "sha256sum" : "7a69862a0a8994f19d3053e040366eb1feed97b51dcd711bd1cb3644e360687e"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17751",
+        "mimeType" : "image/png",
+        "md5sum" : "00084b33c653885bc58585d4551dd326",
+        "sha1sum" : "b06b75ead5161b524ac51ca9bb09fb8f9a6cedf7",
+        "sha256sum" : "f94a945054ec7743880e2c8adaa96d6b600cfedbecfa2f33a0acca9b8b87a01b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "124",
+        "mimeType" : "text/plain",
+        "md5sum" : "1f36ef222fc42c47aa2c039fe22ebdfd",
+        "sha1sum" : "334d88cc6c8f86abca715e3a7ff331b6e46e9cbb",
+        "sha256sum" : "400aef20c739bd375d130f79320cce588b548dd33087f4ce325a97071929a4c5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "d0ccc2499ba2e9551e8c40636967aa95",
+        "sha1sum" : "78fc3119d2671ad9d627f37105794cc0399ea5b6",
+        "sha256sum" : "99ea65d0c20b16f416f3daabb14ef3e549c6ea28ad6c2ffed5d42da9120cc2d0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "10169",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f3c0eba724b664ae9e60e96d1e1ff607",
+        "sha1sum" : "0257117da52be6b9ea7970c33e5d3b845e70dd33",
+        "sha256sum" : "38329c8572ce942d119867bd839b88af9d4f140925461a18fe822e0068f39fde"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1274885978,
+        "submitter" : "Verena Becker",
+        "comment" : "Original import of BeckerSchilling2010_EpoR_CoreModel"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1328015443,
+        "submitter" : "Verena Becker",
+        "comment" : "Current version of Becker2010_EpoR_CoreModel"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272103,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284989,
+  "submissionId" : "MODEL1005260000",
+  "publicationId" : "BIOMD0000000271",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Verena Becker",
+        "email" : "verena_becker@hms.harvard.edu",
+        "affiliation" : "Department of Systems Biology, Harvard Medical School, Boston, USA",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1005260000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1005260000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000271",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000271"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20488988",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20488988"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "39107",
+      "name" : "Murinae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/39107"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "BTO:0001035",
+      "name" : "hematopoietic cell line",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0001035"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0004900",
+      "name" : "erythropoietin receptor activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0004900"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04630",
+      "name" : "Jak-STAT signaling pathway",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04630"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04640",
+      "name" : "Hematopoietic cell lineage",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04640"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

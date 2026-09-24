@@ -1,0 +1,128 @@
+{
+  "name" : "Nouri2020 - Zymomonas mobilis  (iHN446)",
+  "description" : "FROG and miniFROG reports are compiled for the reconstructed genome-scale metabolic model (iHN446) for Z. mobilis. The model can be found in the article Nouri et al, 2020 cited here.",
+  "format" : {
+    "name" : "COMBINE archive",
+    "identifier" : "OMEX",
+    "version" : "0.1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1038/s41598-020-64721-x",
+    "journal" : "Scientific reports",
+    "title" : "A reconciliation of genome-scale metabolic network model of Zymomonas mobilis ZM4.",
+    "affiliation" : "Department of Microbial Biotechnology, School of Biology, College of Science, University of Tehran, Tehran, Iran.",
+    "synopsis" : "Zymomonas mobilis ZM4 has recently been used for a variety of biotechnological purposes. To rationally enhance its metabolic performance, a reliable genome-scale metabolic network model (GEM) of this organism is required. To this end, we reconstructed a genome-scale metabolic model (iHN446) for Z. mobilis, which involves 446 genes, 859 reactions, and 894 metabolites. We started by first reconciling the existing GEMs previously constructed for Z. mobilis to obtain a draft network. Next, recent gene annotations, up-to-date literature, physiological data and biochemical databases were used to upgrade the network. Afterward, the draft network went through a curative and iterative process of gap-filling by computational tools and manual refinement. The final model was evaluated using experimental data and literature information. We next applied this model as a platform for analyzing the links between transcriptome-flux and transcriptome-metabolome. We found that experimental observations were in agreement with the predicted results from our final GEM. Taken together, this comprehensive model (iHN446) can be utilized for studying metabolism in Z. mobilis and finding rational targets for metabolic engineering applications.",
+    "year" : 2020,
+    "month" : "5",
+    "volume" : "10",
+    "issue" : "1",
+    "pages" : "7782",
+    "link" : "http://identifiers.org/doi/10.1038/s41598-020-64721-x",
+    "authors" : [
+      {
+        "name" : "Hoda Nouri",
+        "institution" : "Department of Microbial Biotechnology, School of Biology, College of Science, University of Tehran, Tehran, Iran."
+      },
+      {
+        "name" : "Hamideh Fouladiha",
+        "institution" : "Department of Biotechnology, College of Science, University of Tehran, Tehran, Iran."
+      },
+      {
+        "name" : "Hamid Moghimi",
+        "institution" : "Department of Microbial Biotechnology, School of Biology, College of Science, University of Tehran, Tehran, Iran. hmoghimi@ut.ac.ir.",
+        "orcid" : "0000-0002-9454-7474"
+      },
+      {
+        "name" : "Sayed-Amir Marashi",
+        "institution" : "Department of Biotechnology, College of Science, University of Tehran, Tehran, Iran. marashi@ut.ac.ir.",
+        "orcid" : "0000-0001-9801-7449"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "iHN446.omex",
+        "description" : "FROG Report",
+        "fileSize" : "171070",
+        "mimeType" : "application/zip",
+        "md5sum" : "b155a3ca74157599c02f4e2a5a0d4e2f",
+        "sha1sum" : "f964d0bdf71548218a2c9f480cee77ef64d9d7aa",
+        "sha256sum" : "7d4ac800d6f2cd8592ccc0edc9bf8216df72908f400e865adbcd68b9864006a1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "iHN446_miniFROG.xlsx",
+        "description" : "miniFROG Report",
+        "fileSize" : "11751",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "e92d949fb925455b52889bc09b7ce87b",
+        "sha1sum" : "2fc5f787690a7530fa2cbf9001256d1180366b81",
+        "sha256sum" : "35592e1f8a9f6efc214ca008ce8a9ec25ef9964eb62d0f9a0a396675437286ad"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1722808628,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Import of Nouri2020- Zymomonas mobilis  (iHN446)"
+      }
+    ]
+  },
+  "firstPublished" : 1729019647,
+  "submissionId" : "MODEL2406250003",
+  "publicationId" : "BIOMD0000001088",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Lavanya Raajaraam",
+        "email" : "lavanyaraajaraam@gmail.com",
+        "affiliation" : "Centre for Integrative Biology and Systems Medicine (IBSE), IIT Madras, Chennai 600 036, India",
+        "external" : true
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1038/s41598-020-64721-x",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1038/s41598-020-64721-x"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2406250003",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2406250003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001088",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001088"
+    }
+  ]
+}

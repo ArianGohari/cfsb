@@ -1,0 +1,312 @@
+{
+  "name" : "Kerkhoven2013 - Glycolysis and Pentose Phosphate Pathway in T.brucei - MODEL D (with ATP:ADP antiporter)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Kerkhoven2013 - Glycolysis and Pentose Phosphate Pathway in T.brucei - MODEL D (with ATP:ADP antiporter)</div>            <div class=\"dc:description\">      <p>There are six models (Model A, B, C, C-fruc, D, D-fruc) described in the paper. Model A (        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000513\">BIOMD0000000513</a>            ) is the model developed originally by Achar et al. (2012) (        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000428\">BIOMD0000000428</a>            ), which describes glycolysis in T.brucei. This glycolysis model is extended to include pentose phosphate pathway (PPP), which is Model B ((        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000514\">BIOMD0000000514</a>            ). Model B is further extended to include glycosomal ribokinase, leading to Model C (        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000510\">BIOMD0000000510</a>            ). Model D (        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000511\">BIOMD0000000511</a>            ) is again an extension of Model B, which includes an ATP:ADP antiporter. Model C-fruc (        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000515\">BIOMD0000000515</a>            ) and Model D-fruc (        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000516\">BIOMD0000000516</a>            ) are extensions of Model C and D, respectively, which includes fructose transporter and its subsequent utilizing reactions. This model correspond to Model D of the paper.        </p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/24339766\" title=\"Access to this publication\">Handling uncertainty in dynamic models: the pentose phosphate pathway in Trypanosoma brucei.</a>                    </div>                <div class=\"bibo:authorList\">Kerkhoven EJ, Achcar F, Alibu VP, Burchmore RJ, Gilbert IH, Trybiło M, Driessen NN, Gilbert D, Breitling R, Bakker BM, Barrett MP.</div>                <div class=\"bibo:Journal\">PLoS Comput Biol. 2013 Dec;9(12):e1003371.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>Dynamic models of metabolism can be useful in identifying potential drug targets, especially in unicellular organisms. A model of glycolysis in the causative agent of human African trypanosomiasis, Trypanosoma brucei, has already shown the utility of this approach. Here we add the pentose phosphate pathway (PPP) of T. brucei to the glycolytic model. The PPP is localized to both the cytosol and the glycosome and adding it to the glycolytic model without further adjustments leads to a draining of the essential bound-phosphate moiety within the glycosome. This phosphate \"leak\" must be resolved for the model to be a reasonable representation of parasite physiology. Two main types of theoretical solution to the problem could be identified: (i) including additional enzymatic reactions in the glycosome, or (ii) adding a mechanism to transfer bound phosphates between cytosol and glycosome. One example of the first type of solution would be the presence of a glycosomal ribokinase to regenerate ATP from ribose 5-phosphate and ADP. Experimental characterization of ribokinase in T. brucei showed that very low enzyme levels are sufficient for parasite survival, indicating that other mechanisms are required in controlling the phosphate leak. Examples of the second type would involve the presence of an ATP:ADP exchanger or recently described permeability pores in the glycosomal membrane, although the current absence of identified genes encoding such molecules impedes experimental testing by genetic manipulation. Confronted with this uncertainty, we present a modeling strategy that identifies robust predictions in the context of incomplete system characterization. We illustrate this strategy by exploring the mechanism underlying the essential function of one of the PPP enzymes, and validate it by confirming the model predictions experimentally.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000511\">BIOMD0000000511</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24339766",
+    "journal" : "PLoS computational biology",
+    "title" : "Handling uncertainty in dynamic models: the pentose phosphate pathway in Trypanosoma brucei.",
+    "affiliation" : "Wellcome Trust Centre for Molecular Parasitology, Institute of Infection, Immunity and Inflammation and Glasgow Polyomics, College of Medical, Veterinary and Life Sciences, University of Glasgow, Glasgow, United Kingdom ; Systems and Synthetic Biology Group, Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden.",
+    "synopsis" : "Dynamic models of metabolism can be useful in identifying potential drug targets, especially in unicellular organisms. A model of glycolysis in the causative agent of human African trypanosomiasis, Trypanosoma brucei, has already shown the utility of this approach. Here we add the pentose phosphate pathway (PPP) of T. brucei to the glycolytic model. The PPP is localized to both the cytosol and the glycosome and adding it to the glycolytic model without further adjustments leads to a draining of the essential bound-phosphate moiety within the glycosome. This phosphate \"leak\" must be resolved for the model to be a reasonable representation of parasite physiology. Two main types of theoretical solution to the problem could be identified: (i) including additional enzymatic reactions in the glycosome, or (ii) adding a mechanism to transfer bound phosphates between cytosol and glycosome. One example of the first type of solution would be the presence of a glycosomal ribokinase to regenerate ATP from ribose 5-phosphate and ADP. Experimental characterization of ribokinase in T. brucei showed that very low enzyme levels are sufficient for parasite survival, indicating that other mechanisms are required in controlling the phosphate leak. Examples of the second type would involve the presence of an ATP:ADP exchanger or recently described permeability pores in the glycosomal membrane, although the current absence of identified genes encoding such molecules impedes experimental testing by genetic manipulation. Confronted with this uncertainty, we present a modeling strategy that identifies robust predictions in the context of incomplete system characterization. We illustrate this strategy by exploring the mechanism underlying the essential function of one of the PPP enzymes, and validate it by confirming the model predictions experimentally.",
+    "year" : 2013,
+    "month" : "0",
+    "volume" : "9",
+    "issue" : "12",
+    "pages" : "e1003371",
+    "link" : "http://identifiers.org/pubmed/24339766",
+    "authors" : [
+      {
+        "name" : "Eduard J Kerkhoven",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0002-3593-5792"
+      },
+      {
+        "name" : "Fiona Achcar",
+        "orcid" : "0000-0001-8792-7615"
+      },
+      {
+        "name" : "Vincent P Alibu"
+      },
+      {
+        "name" : "Richard J Burchmore",
+        "orcid" : "0000-0003-1663-9004"
+      },
+      {
+        "name" : "Ian H Gilbert"
+      },
+      {
+        "name" : "Maciej Trybiło"
+      },
+      {
+        "name" : "Nicole N Driessen"
+      },
+      {
+        "name" : "David Gilbert"
+      },
+      {
+        "name" : "Rainer Breitling",
+        "orcid" : "0000-0001-7173-0922"
+      },
+      {
+        "name" : "Barbara M Bakker",
+        "institution" : "Microbial Physiology, BioCentrum Amsterdam, Vrije Universiteit, De Boelelaan 1087, NL-1081 HV Amsterdam, BioCentrum Amsterdam, University of Amsterdam, Plantage Muidergracht 12, NL-1018 TV Amsterdam, The Netherlands.",
+        "orcid" : "0000-0001-6274-3633"
+      },
+      {
+        "name" : "Michael P Barrett",
+        "orcid" : "0000-0001-9447-3519"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000511_url.xml",
+        "description" : "SBML L2V4 representation of Kerkhoven2013 - Glycolysis and Pentose Phosphate Pathway in T.brucei - MODEL D (with ATP:ADP antiporter)",
+        "fileSize" : "141866",
+        "mimeType" : "application/xml",
+        "md5sum" : "9d47245f5c579bedc5c1ce939d2c6a2b",
+        "sha1sum" : "27046f12b87a53bf32806b994e9dbe599a8355c7",
+        "sha256sum" : "e0b91482d31d10d4a81bf67169914f3a21f63b3fcc1d3c8782b2561317f722e5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000511-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "76095",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5294a528ed6547e5eb7cbd83e6cc8e5b",
+        "sha1sum" : "2880ebdf8082dbd9d305df35fdcea6aead2e4d94",
+        "sha256sum" : "171aff16fdb0f84603ba3f905a15d5c81d6c04c12c6881d127a5b324ee342907"
+      },
+      {
+        "name" : "BIOMD0000000511-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "121604",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f922c1d6fde4daec2450f35155612df1",
+        "sha1sum" : "36d99491665932de6d04efa85a2b25879fa0421f",
+        "sha256sum" : "87ff44f35fb252d3c702658cbdbf2b54e22d61ea97b4de831d50a8dfe72ed40c"
+      },
+      {
+        "name" : "BIOMD0000000511-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "35250",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0759cbb4b05464fd24416a1c7cb5e01d",
+        "sha1sum" : "c34af3b63e89825451a5e1040dd3b896dc31cb4d",
+        "sha256sum" : "95a7bb6ec556560d4b7f68a8549eeaaf88382c06c2d721d500327738cf923ad0"
+      },
+      {
+        "name" : "BIOMD0000000511-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "35250",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "eb32852b073765baceac1687036b49ee",
+        "sha1sum" : "9ae836e3e153934dd5bdc060f4003194bf22b7b8",
+        "sha256sum" : "463c6ef516945da82c80a792e2c55f1fa8bdb8d155681426bb8af139deb81d04"
+      },
+      {
+        "name" : "BIOMD0000000511.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "34977",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "82393091188d7ad923f929b90e995557",
+        "sha1sum" : "065946187b3aa9f5d9e1a73e9f01eb55e5f71e14",
+        "sha256sum" : "f968cf3cb090921333a694d4a6330c9a83aa5fa4a9ee28cad6de26e04a6c3ba1"
+      },
+      {
+        "name" : "BIOMD0000000511.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "26660",
+        "mimeType" : "text/plain",
+        "md5sum" : "c330c48e6efc86f8b9b3dc9d7af60036",
+        "sha1sum" : "3de30fa7e156d8cb0d61aa380f14a625812d2cb4",
+        "sha256sum" : "bd686d91a3b398762ea1f1a6da8360320a3c8e7ec309733d09dae7ada7d04422"
+      },
+      {
+        "name" : "BIOMD0000000511.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "473487",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6dd14566af4d430d92c6100890f6c3e8",
+        "sha1sum" : "29eac7bb8756795f5920ed31f326bc751a459b93",
+        "sha256sum" : "f33c5f0247c9eaae7a21dc0c690b634e28b893a61bc11b1ba35209c7da823c84"
+      },
+      {
+        "name" : "BIOMD0000000511.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1428884",
+        "mimeType" : "image/png",
+        "md5sum" : "050cfe779c0e19182015968f0e0b3d36",
+        "sha1sum" : "1f23061c87e88ee6b71cff86213ed10d21b0eb2c",
+        "sha256sum" : "4f90893856560e483d7ae27a8a2244e1d127bf73a2b661bf5689fd1a91cf1945"
+      },
+      {
+        "name" : "BIOMD0000000511.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "145800",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "7fb018f5c17b5d07ec90ffa9c0adc90b",
+        "sha1sum" : "0af47c93f010ad218bf3973628a4a2c429ca31ab",
+        "sha256sum" : "df7830b8c3c34d66b5e26fc0b837bb1c9cf56c45de3bdffdbeddd0977e2439d0"
+      },
+      {
+        "name" : "BIOMD0000000511_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "52892",
+        "mimeType" : "application/xml",
+        "md5sum" : "23d64f5bc5843dbdc3f9202f12985e93",
+        "sha1sum" : "2240ba39f2f81d14aace5d3e822c2343b9c76652",
+        "sha256sum" : "ea678221e20a77412147446b53c827a592c217e85fc46f071ff113a632cb377b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41896",
+        "mimeType" : "image/png",
+        "md5sum" : "3381da7e499ae362e2a66dbb228c84c1",
+        "sha1sum" : "16d839d79771775d16fb298dc0828e5b33a07bf6",
+        "sha256sum" : "6fecd3bb6ba6d6e6fd8cf4108ba28022bf82bbc7213715aa2cabbafb0a1684ee"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "342",
+        "mimeType" : "text/plain",
+        "md5sum" : "64de91a5adbee4312d94c1ed678cdb0a",
+        "sha1sum" : "f44aed28b7f3ed55b3541d592ece1618c4cd727f",
+        "sha256sum" : "7b9a41503d7bcdc3f9dfcda20cc84dfc59faf7a8aaa91843baa62efb5ba0e24b"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "92d4f46312d10e719da7926f9029e0ac",
+        "sha1sum" : "cb455f5bcf694af9a21680d1165641915a5c74fa",
+        "sha256sum" : "65e339519c5e74abd82dd116405fbd027494446ef23294fcf02764e2142ce9f3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7436",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b0852c8e16ca350886ede7df0af638d1",
+        "sha1sum" : "c2e0d8853ca4c63ec30b2fb14c2c70239845cd2e",
+        "sha256sum" : "dcad7791437f8e5424320bf66f3f60a4a643927f5e5df4837ac54d32268fd50e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1389090863,
+        "submitter" : "Eduard Kerkhoven",
+        "comment" : "Original import of GlycPPP_Kerkhoven13_modelD"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1394034950,
+        "submitter" : "Eduard Kerkhoven",
+        "comment" : "Current version of Kerkhoven2013 - Glycolysis and Pentose Phosphate Pathway in T.brucei - MODEL D (with ATP:ADP antiporter)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724279834,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285267,
+  "submissionId" : "MODEL1401070001",
+  "publicationId" : "BIOMD0000000511",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Eduard Kerkhoven",
+        "email" : "eduardk@chalmers.se",
+        "affiliation" : "Chalmers University of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1401070001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1401070001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000511",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000511"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24339766",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24339766"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000514",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000514"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006098",
+      "name" : "pentose-phosphate shunt",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006098"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "5691",
+      "name" : "Trypanosoma brucei",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/5691"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

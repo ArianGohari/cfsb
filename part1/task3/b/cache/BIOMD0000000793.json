@@ -1,0 +1,318 @@
+{
+  "name" : "Chen2011/1 - bone marrow invasion absolute model",
+  "description" : "The paper describes a model of tumor invasion to bone marrow. Created by COPASI 4.26 (Build 213) This model is described in the article: Modeling invasion of metastasizing cancer cells to bone marrow utilizing ecological principlesKun-Wan Chen, Kenneth J Pienta Theoretical Biology and Medical Modelling 2011, 8:36 Abstract: Background: The invasion of a new species into an established ecosystem can be directly compared to the steps involved in cancer metastasis. Cancer must grow in a primary site, extravasate and survive in the circulation to then intravasate into target organ (invasive species survival in transport). Cancer cells often lay dormant at their metastatic site for a long period of time (lag period for invasive species) before proliferating (invasive spread). Proliferation in the new site has an impact on the target organ microenvironment (ecological impact) and eventually the human host (biosphere impact).Results: Tilman has described mathematical equations for the competition between invasive species in a structured habitat. These equations were adapted to study the invasion of cancer cells into the bone marrow microenvironment as a structured habitat. A large proportion of solid tumor metastases are bone metastases, known to usurp hematopoietic stem cells (HSC) homing pathways to establish footholds in the bone marrow. This required accounting for the fact that this is the natural home of hematopoietic stem cells and that they already occupy this structured space. The adapted Tilman model of invasion dynamics is especially valuable for modeling the lag period or dormancy of cancer cells.Conclusions: The Tilman equations for modeling the invasion of two species into a defined space have been modified to study the invasion of cancer cells into the bone marrow microenvironment. These modified equations allow a more flexible way to model the space competition between the two cell species. The ability to model initial density, metastatic seeding into the bone marrow and growth once the cells are present, and movement of cells out of the bone marrow niche and apoptosis of cells are all aspects of the adapted equations. These equations are currently being applied to clinical data sets for verification and further refinement of the models.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21967667",
+    "journal" : "Theoretical biology & medical modelling",
+    "title" : "Modeling invasion of metastasizing cancer cells to bone marrow utilizing ecological principles.",
+    "affiliation" : "Department of Internal Medicine, The University of Michigan, 7308 CCC, 1500 E, Medical Center Drive, Ann Arbor, MI 48109, USA. kpienta@umich.edu",
+    "synopsis" : "<h4>Background</h4>The invasion of a new species into an established ecosystem can be directly compared to the steps involved in cancer metastasis. Cancer must grow in a primary site, extravasate and survive in the circulation to then intravasate into target organ (invasive species survival in transport). Cancer cells often lay dormant at their metastatic site for a long period of time (lag period for invasive species) before proliferating (invasive spread). Proliferation in the new site has an impact on the target organ microenvironment (ecological impact) and eventually the human host (biosphere impact).<h4>Results</h4>Tilman has described mathematical equations for the competition between invasive species in a structured habitat. These equations were adapted to study the invasion of cancer cells into the bone marrow microenvironment as a structured habitat. A large proportion of solid tumor metastases are bone metastases, known to usurp hematopoietic stem cells (HSC) homing pathways to establish footholds in the bone marrow. This required accounting for the fact that this is the natural home of hematopoietic stem cells and that they already occupy this structured space. The adapted Tilman model of invasion dynamics is especially valuable for modeling the lag period or dormancy of cancer cells.<h4>Conclusions</h4>The Tilman equations for modeling the invasion of two species into a defined space have been modified to study the invasion of cancer cells into the bone marrow microenvironment. These modified equations allow a more flexible way to model the space competition between the two cell species. The ability to model initial density, metastatic seeding into the bone marrow and growth once the cells are present, and movement of cells out of the bone marrow niche and apoptosis of cells are all aspects of the adapted equations. These equations are currently being applied to clinical data sets for verification and further refinement of the models.",
+    "year" : 2011,
+    "month" : "10",
+    "volume" : "8",
+    "pages" : "36",
+    "link" : "http://identifiers.org/pubmed/21967667",
+    "authors" : [
+      {
+        "name" : "Kun-Wan Chen",
+        "institution" : "Department of Internal Medicine, The University of Michigan, 7308 CCC, 1500 E, Medical Center Drive, Ann Arbor, MI 48109, USA. kpienta@umich.edu"
+      },
+      {
+        "name" : "Kenneth J Pienta",
+        "orcid" : "0000-0002-4138-2186"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Chen2011_1.xml",
+        "description" : "SBML L3V1 representation of bone marrow invasion model",
+        "fileSize" : "34293",
+        "mimeType" : "application/xml",
+        "md5sum" : "b9ed85af3a4b79a7933b393e06924072",
+        "sha1sum" : "7ebc8e2341d8a0a2c6676cac2fda3b371f279d11",
+        "sha256sum" : "a45017f4abf8ce445394df05fc338460c475b6be0adf8475a7a3ed5cdb5edfe8"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Chen2011_1-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "8954",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4896be93f3b8f556f5c436d792756270",
+        "sha1sum" : "db9915b7f9e4a81a934e5a173079c5142ddd614e",
+        "sha256sum" : "9b8c0d76d996c50040c6c49104618f4f3db915e94182374567ceab2825fcadbc"
+      },
+      {
+        "name" : "Chen2011_1-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "11466",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d138a3d15944094532fb90abe40e429c",
+        "sha1sum" : "1f3fb0e752190d87493f298c05374e2c3a1d4fcb",
+        "sha256sum" : "18f43204520cc9f92aea6d86b117d99d406d087ccc6e3db3c0f7ff2ec5b2e006"
+      },
+      {
+        "name" : "Chen2011_1-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3581",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "55ff942da5cf6c2b1bea02e4323173aa",
+        "sha1sum" : "0f612db9abf401783558da97df2cc375e6642bf0",
+        "sha256sum" : "714f810eb76081e38e1a4f4d429ee7e147c54e3ec35195132485e932b22a9089"
+      },
+      {
+        "name" : "Chen2011_1-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3581",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6bf994e4d702c15d44eccba0a2cb6a79",
+        "sha1sum" : "f35cfa7ba8847738a38da4bcefe605b6e75d5e37",
+        "sha256sum" : "100ae162ba735f491432072e7079d64469eb6bb28affa9936c80fa8798b978f7"
+      },
+      {
+        "name" : "Chen2011_1.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "54364",
+        "mimeType" : "application/xml",
+        "md5sum" : "6750f5e2d0c9618ba0a041ab9a17385a",
+        "sha1sum" : "0daed17b7091af06671eef1eef7908849aaccb3a",
+        "sha256sum" : "433b75101c22d4f62d30bbef330b9ac05fc6757a710fc59c4bf45cf00e325acc"
+      },
+      {
+        "name" : "Chen2011_1.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1853",
+        "mimeType" : "text/plain",
+        "md5sum" : "e74dfe396895633b21c3a90f288a1dba",
+        "sha1sum" : "9e81b56942905eeb3c4b9c5ccc19bf61ef238ae7",
+        "sha256sum" : "f617bb45fae0072e3bef364433b501fb62a1c4678e73dba28d9a640b1b05dd39"
+      },
+      {
+        "name" : "Chen2011_1.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "8823",
+        "mimeType" : "application/xml",
+        "md5sum" : "93a7b1e503d8053de9697094f2be1cc0",
+        "sha1sum" : "ad661e21cbb9bb8c74e16b0da5c6be8c482d7933",
+        "sha256sum" : "71635fea9b2d7d8745d8f7d20a889903631db4b31a1a28fec8dd113efdf18682"
+      },
+      {
+        "name" : "Chen2011_1swapped-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "7389",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8266bf964599276f5eaf8ceb5c427ef5",
+        "sha1sum" : "239d8aa4b5cf7aaa949adf3243b38e033369a5ae",
+        "sha256sum" : "ec4bf93a63d072d82d208d84bfbfe28056eb4e7867f4768b08961e51d1696adf"
+      },
+      {
+        "name" : "Chen2011_1swapped-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "9873",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "98328549d86506bbbba965d5fe20ee72",
+        "sha1sum" : "a09a6b98c198e54a9ee6f53157028acf22426a6f",
+        "sha256sum" : "642a17afa44f12b969b946d9621a17c033b78277c9c99556a07444cca73f6e86"
+      },
+      {
+        "name" : "Chen2011_1swapped-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3463",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "118e64653660ff5715c0cf13c7af2027",
+        "sha1sum" : "4404b9a48bbe24e1152ff42e87194d306fa95eaf",
+        "sha256sum" : "9a3cd3a11c907c9162f7ee377c6ef76900ec1b6027882544f1e41182a39c0e8e"
+      },
+      {
+        "name" : "Chen2011_1swapped-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3463",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d43f44973d8c6fbc3c8dd0f9dbaad3d9",
+        "sha1sum" : "810a8ea578121be3354f55ca5561d7796c722f5b",
+        "sha256sum" : "ef762d31c07046c479320ccfa6b3f2dbd323fd0599ab722996eaf3cb23c2f6f0"
+      },
+      {
+        "name" : "Chen2011_1swapped.cps",
+        "description" : "CPS file of the model in COPASI-swapped species",
+        "fileSize" : "54258",
+        "mimeType" : "application/xml",
+        "md5sum" : "64d79993f4489c7fc2672075cdf5b4a7",
+        "sha1sum" : "7e211fa0139781fd6c861ef68986da52a810d752",
+        "sha256sum" : "49088217438840a497a250dc64ba630dae2bcc04692bdc587f7233bcf4f2669a"
+      },
+      {
+        "name" : "Chen2011_1swapped.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1743",
+        "mimeType" : "text/plain",
+        "md5sum" : "c2e0422b79cfdcd1ebea3762113cd7de",
+        "sha1sum" : "81b19b7f53df88d1c9a89df7852d85d013d95de4",
+        "sha256sum" : "454004556702cab31b4a0efdc40882400676a94ade29e3dfa2a547933965479c"
+      },
+      {
+        "name" : "Chen2011_1swapped.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "8830",
+        "mimeType" : "application/xml",
+        "md5sum" : "3ed58e7d8cb995841aeaaeaf9645f7df",
+        "sha1sum" : "06905896396cb5a073372cd61ea920e4c0b0e873",
+        "sha256sum" : "35970b599bdbea7b447e777327cfb94466d5e8d40f4c9a45a17577d38356ad7e"
+      },
+      {
+        "name" : "Chen2011_1swapped.xml",
+        "description" : "The model with superior-inferior species swapped for Fig3",
+        "fileSize" : "36180",
+        "mimeType" : "application/xml",
+        "md5sum" : "26b12527737a6f2dd1875f107d803d51",
+        "sha1sum" : "ce3ecba10b43692397ab901fb0f5987b26df7c06",
+        "sha256sum" : "356b534fd03ff1cd52d83ab9ff1d57374f3d590c19df4a1d50df472cd0dd5b86"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "64505",
+        "mimeType" : "image/png",
+        "md5sum" : "961b9ab2e3183ccf7b5909232fe834ba",
+        "sha1sum" : "6799650e9f7e3399fa9d9b877bc339fdf70d5258",
+        "sha256sum" : "39c46ecee233eeb07b968e8383ea6ff93a005836214a76faf84966d38388a374"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "108",
+        "mimeType" : "text/plain",
+        "md5sum" : "87c7abcbc57c078a7757590f9441f4a8",
+        "sha1sum" : "0376ab71e5bdd5bb9a0c6a6a643365961ba9a5bb",
+        "sha256sum" : "945b5ccf7718464f44b528bb1e476179380e89dc05085007fa22160bdc7d9fee"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2397",
+        "mimeType" : "application/xml",
+        "md5sum" : "0add9f1b02ed665752bcd874df60e473",
+        "sha1sum" : "9b496860614aecaa39a36937c0fb87c3f216bf56",
+        "sha256sum" : "1c3d87cbc42b219ee92f96ed6b9b6885743194a8acbbfa6021b59104374d58c7"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4348",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cacca6815c90e9e675a8f1bc3e76b0eb",
+        "sha1sum" : "bcf76ae28074555977a7db844545234ee040956e",
+        "sha256sum" : "0939c7adfd9529b18b739f140e00097ca9a46df3738b93ac0b30da2bbd117509"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1565710087,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000793"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724289741,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285469,
+  "submissionId" : "MODEL1908130002",
+  "publicationId" : "BIOMD0000000793",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908130002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908130002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000793",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000793"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21967667",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:21967667"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000141",
+      "name" : "bone marrow",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000141"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C20625",
+      "name" : "Tumor Cell Invasion",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C20625"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "21967667",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21967667"
+    }
+  ]
+}

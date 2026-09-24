@@ -1,0 +1,279 @@
+{
+  "name" : "Cellière2011 - Plasticity of TGF-β Signalling",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Cellière2011 - Plasticity of TGF-β Signalling</div>        <div class=\"dc:description\">          <p>Transforming growth factor beta (TGF-β) signalling has been implicated as an important regulator of almost all major cell behaviours, including proliferation, differentiation, cell death, and motility. It remains unclear that how the TGF-β signalling pathway accomplishes the flexibility in its responses. What and how many parameters have to be altered for cells to respond differently to perform complex tasks? This canonical response has been explored in this model, by considering the core signalling architecture of TGF-β pathway.</p>        </div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/22051045\" title=\"Access to this publication\">Plasticity of TGF-β signaling</a>          </div>          <div class=\"bibo:authorList\">Cellière G, Fengos G, Hervé M, Iber D.</div>          <div class=\"bibo:Journal\">BMC Syst Biol. 2011 Nov 3;5:184.</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>The family of TGF-β ligands is large and its members are involved in many different signaling processes. These signaling processes strongly differ in type with TGF-β ligands eliciting both sustained or transient responses. Members of the TGF-β family can also act as morphogen and cellular responses would then be expected to provide a direct read-out of the extracellular ligand concentration. A number of different models have been proposed to reconcile these different behaviours. We were interested to define the set of minimal modifications that are required to change the type of signal processing in the TGF-β signaling network.\t\tRESULTS:To define the key aspects for signaling plasticity we focused on the core of the TGF-β signaling network. With the help of a parameter screen we identified ranges of kinetic parameters and protein concentrations that give rise to transient, sustained, or oscillatory responses to constant stimuli, as well as those parameter ranges that enable a proportional response to time-varying ligand concentrations (as expected in the read-out of morphogens). A combination of a strong negative feedback and fast shuttling to the nucleus biases signaling to a transient rather than a sustained response, while oscillations were obtained if ligand binding to the receptor is weak and the turn-over of the I-Smad is fast. A proportional read-out required inefficient receptor activation in addition to a low affinity of receptor-ligand binding. We find that targeted modification of single parameters suffices to alter the response type. The intensity of a constant signal (i.e. the ligand concentration), on the other hand, affected only the strength but not the type of the response.CONCLUSIONS:The architecture of the TGF-β pathway enables the observed signaling plasticity. The observed range of signaling outputs to TGF-β ligand in different cell types and under different conditions can be explained with differences in cellular protein concentrations and with changes in effective rate constants due to cross-talk with other signaling pathways. It will be interesting to uncover the exact cellular differences as well as the details of the cross-talks in future work.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels\">BioModels Database</a>            and identified by:        <a href=\"http://www.ebi.ac.uk/biomodels/MODEL1208280000\">MODEL1208280000</a>            .        </p>        <p>To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. PMID:        <a href=\"http://identifiers.org/pubmed/20587024\">20587024</a>            .        </p>    </div>    <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to [CC0 Public Domain Dedication&gt;http://creativecommons.org/publicdomain/zero/1.0/] for more information.</p>    </div>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22051045",
+    "journal" : "BMC systems biology",
+    "title" : "Plasticity of TGF-β signaling.",
+    "affiliation" : "Department of Biosystems Science and Engineering (D-BSSE), Eidgenöossische Technische Hochschule Zurich (ETHZ), Mattenstrasse 26, 4058 Basel, Switzerland.",
+    "synopsis" : "<h4>Background</h4>The family of TGF-β ligands is large and its members are involved in many different signaling processes. These signaling processes strongly differ in type with TGF-β ligands eliciting both sustained or transient responses. Members of the TGF-β family can also act as morphogen and cellular responses would then be expected to provide a direct read-out of the extracellular ligand concentration. A number of different models have been proposed to reconcile these different behaviours. We were interested to define the set of minimal modifications that are required to change the type of signal processing in the TGF-β signaling network.<h4>Results</h4>To define the key aspects for signaling plasticity we focused on the core of the TGF-β signaling network. With the help of a parameter screen we identified ranges of kinetic parameters and protein concentrations that give rise to transient, sustained, or oscillatory responses to constant stimuli, as well as those parameter ranges that enable a proportional response to time-varying ligand concentrations (as expected in the read-out of morphogens). A combination of a strong negative feedback and fast shuttling to the nucleus biases signaling to a transient rather than a sustained response, while oscillations were obtained if ligand binding to the receptor is weak and the turn-over of the I-Smad is fast. A proportional read-out required inefficient receptor activation in addition to a low affinity of receptor-ligand binding. We find that targeted modification of single parameters suffices to alter the response type. The intensity of a constant signal (i.e. the ligand concentration), on the other hand, affected only the strength but not the type of the response.<h4>Conclusions</h4>The architecture of the TGF-β pathway enables the observed signaling plasticity. The observed range of signaling outputs to TGF-β ligand in different cell types and under different conditions can be explained with differences in cellular protein concentrations and with changes in effective rate constants due to cross-talk with other signaling pathways. It will be interesting to uncover the exact cellular differences as well as the details of the cross-talks in future work.",
+    "year" : 2011,
+    "month" : "11",
+    "volume" : "5",
+    "pages" : "184",
+    "link" : "http://identifiers.org/pubmed/22051045",
+    "authors" : [
+      {
+        "name" : "Geraldine Cellière",
+        "institution" : "Department of Biosystems Science and Engineering (D-BSSE), Eidgenöossische Technische Hochschule Zurich (ETHZ), Mattenstrasse 26, 4058 Basel, Switzerland."
+      },
+      {
+        "name" : "Georgios Fengos"
+      },
+      {
+        "name" : "Marianne Hervé"
+      },
+      {
+        "name" : "Dagmar Iber",
+        "orcid" : "0000-0001-8051-1035"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000600_url.xml",
+        "description" : "SBML L2V4 representation of Cellière2011 - Plasticity of TGF-β Signalling",
+        "fileSize" : "236464",
+        "mimeType" : "application/xml",
+        "md5sum" : "ad0546380980f58e14a9d284d1e4faf7",
+        "sha1sum" : "ca3e41652950ad5193997c1b671e8a4fd5110da3",
+        "sha256sum" : "0f6d241fdf1e0ffd46fbb0f203c0b83c135e23c6bb0ae81d3dfad7fd4a9c1827"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000600-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "48888",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "faef6b7d95760ca41c80a1efe26ec726",
+        "sha1sum" : "21da7d889d6cf3ff2b71c22c9826e0dd98c44883",
+        "sha256sum" : "aa0b215b66551643b0caf056e47034b2ed541956eee0a9a96595c519617d83fa"
+      },
+      {
+        "name" : "BIOMD0000000600-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "74922",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "de8545db2673c3156272c3f62d7b607f",
+        "sha1sum" : "054259dccfb2989cd65467d5c02f46efd14f7297",
+        "sha256sum" : "080724e8b834c1ea007d137a8f119fb6e5af947feba76e1b3165d4fa12c9906b"
+      },
+      {
+        "name" : "BIOMD0000000600-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10176",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d2b2b14ea72b2cd2416fa111e2c6fc7f",
+        "sha1sum" : "4948856c1ad57381aad6ca49a845282683693d74",
+        "sha256sum" : "451838927931bc6e4c0b8f74aa4c6e3554d666e2ad57bc9d673fa5591bafc8bf"
+      },
+      {
+        "name" : "BIOMD0000000600-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10176",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1da087d82b669905f2b383bf435ba34d",
+        "sha1sum" : "96ed9200e5da3633419b08a574f158656fe67800",
+        "sha256sum" : "a983e87a410ea91cf99453f5b9d0e27a9a2e028c115d7b4929529ca5120bf870"
+      },
+      {
+        "name" : "BIOMD0000000600.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10178",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "eb7cb1ada1c24c98b2daa69696b01950",
+        "sha1sum" : "22a85536f6057bd009d8691544a87f5d3b560ea0",
+        "sha256sum" : "4336aa5f8b79fef624b4d1f03d83b4028139917a2e76790fddb5ba20dead36c5"
+      },
+      {
+        "name" : "BIOMD0000000600.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7571",
+        "mimeType" : "text/plain",
+        "md5sum" : "a03f6222e2357bbcab789322dbd11d03",
+        "sha1sum" : "02463b77dd39dff56ec99840a19c158cf26f0f86",
+        "sha256sum" : "fb7a176cccc7fdf7277ca8547efc5930eb6787e08ab9a90f47dfde62632b6e0f"
+      },
+      {
+        "name" : "BIOMD0000000600.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "292374",
+        "mimeType" : "application/pdf",
+        "md5sum" : "a0da4703e2ab513d47c4a25ca2500e09",
+        "sha1sum" : "4a0de7981899ce828ca9dfc0ab277135a3078c2f",
+        "sha256sum" : "cf2b0108ff4f7a8101327fc1ff0a37c3c87ef4dc5ccd6ee4a44fde2401203a74"
+      },
+      {
+        "name" : "BIOMD0000000600.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "185780",
+        "mimeType" : "image/png",
+        "md5sum" : "3b317df2d3b05c5e7bd162d9b028ca67",
+        "sha1sum" : "f9a972590113a6dd80de8a19dd348c72f0229ae1",
+        "sha256sum" : "0680106f729126ade74f48fd934747e430895604456378f1c234b6261d089280"
+      },
+      {
+        "name" : "BIOMD0000000600.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "59287",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "7d2b459a1ea3481a776fbcfdf24cc484",
+        "sha1sum" : "2a609c087374de62865645909eebb368c01bc291",
+        "sha256sum" : "0f5c4abcd2ff648346faafb8e4f371826e5cbff0cb5f8022a67a4773eb742e95"
+      },
+      {
+        "name" : "BIOMD0000000600_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "40099",
+        "mimeType" : "application/xml",
+        "md5sum" : "6139606b9762641cc10276e42ea50303",
+        "sha1sum" : "c6fe4f3f204c70189da693ce5791341cfa78799b",
+        "sha256sum" : "9ab12526163c9fdf76e9ff56be8699468b10ef304a6e94836a9f0cf70772c469"
+      },
+      {
+        "name" : "CurationPlot.py",
+        "description" : "Python script to generate curation plot",
+        "fileSize" : "4021",
+        "mimeType" : "text/plain",
+        "md5sum" : "d29f0d652f3163c5def934c170d5bbcc",
+        "sha1sum" : "fb4172c1ccdd8b777dfd6bcac2809e9c0d991d46",
+        "sha256sum" : "60113b6834a9a2f2cf7a7c77fd012a2c433f5a56e182144fde18a86de869d92d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "125134",
+        "mimeType" : "image/png",
+        "md5sum" : "4aa75d5870201bb89e24300dd78cf347",
+        "sha1sum" : "a210f5c00d01f90fe630c295a73b0671c9de13d6",
+        "sha256sum" : "21d4cc20684524456d337149596c16cbe7505144ffc6b5d8f5fc79a9ce4db324"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "343",
+        "mimeType" : "text/plain",
+        "md5sum" : "3da5ee9e23fc90d7fc1f4d8568790b8a",
+        "sha1sum" : "ed2a251bd4e9dd2c87173cc7910379a0ef575773",
+        "sha256sum" : "aa9ed322646ca4bdc4ac42672aa276f7c9d0959fc66e4706eba4338e28ca012a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "f4310365d93107115eeebe42186d4471",
+        "sha1sum" : "5bc5412d9e465fb73a4c9ea57c921ef5636aa24b",
+        "sha256sum" : "8c6fcda363cdde5d43e491b1da02e1fe2c2a619828531163133f06d251f0440a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6190",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "41faa60bfc499102313c000faa8c1e4f",
+        "sha1sum" : "98a398131f88cdb5004e26f2f7ef5fcb548ad15f",
+        "sha256sum" : "c733d7d9122f13109691190b57350a78ac36ab1c25438d7e7cda6e4aa896766e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1346176561,
+        "submitter" : "Georgios Fengos",
+        "comment" : "Original import of Simple Hill with inhibitor"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460994999,
+        "submitter" : "Georgios Fengos",
+        "comment" : "Current version of Cellière2011 - Plasticity of TGF-β Signalling"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724283173,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285368,
+  "submissionId" : "MODEL1208280000",
+  "publicationId" : "BIOMD0000000600",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Georgios Fengos",
+        "email" : "georgios.fengos@bsse.ethz.ch",
+        "affiliation" : "Eidgenössische Technische Hochschule Zurich (ETHZ)",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1208280000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1208280000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000600",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000600"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22051045",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22051045"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007179",
+      "name" : "transforming growth factor beta receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007179"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "22051045",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22051045"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

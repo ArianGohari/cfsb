@@ -1,0 +1,292 @@
+{
+  "name" : "Ayati2010_BoneRemodelingDynamics_WithTumour+DrugTreatment",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> A mathematical model of bone remodeling dynamics for normal bone cell populations and myeloma bone disease </strong>        <br />Bruce P Ayati, Claire M Edwards, Glenn F Webb and John P Wikswo.      <em>Biology Direct</em>2010 Apr 20;5(28).      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20406449\">20406449</a>,      <br />        <strong>Abstract:</strong>        <br />BACKGROUND:Multiple myeloma is a hematologic malignancy associated with the development of a destructive osteolytic bone disease.RESULTS:Mathematical models are developed for normal bone remodeling and for the dysregulated bone remodeling that occurs in myeloma bone disease. The models examine the critical signaling between osteoclasts (bone resorption) and osteoblasts (bone formation). The interactions of osteoclasts and osteoblasts are modeled as a system of differential equations for these cell populations, which exhibit stable oscillations in the normal case and unstable oscillations in the myeloma case. In the case of untreated myeloma, osteoclasts increase and osteoblasts decrease, with net bone loss as the tumor grows. The therapeutic effects of targeting both myeloma cells and cells of the bone marrow microenvironment on these dynamics are examined.CONCLUSIONS:The current model accurately reflects myeloma bone disease and illustrates how treatment approaches may be investigated using such computational approaches.   </p>        <p>          <b>Note:</b>        </p>        <p> The paper describes three models 1) Zero-dimensional Bone Model without Tumour, 2) Zero-dimensional Bone Model with Tumour and 3) Zero-dimensional Bone Model with Tumour and Drug Treatment. This model corresponds to the Zero-dimensional Bone Model with Tumour and Drug Treatment.</p>        <p> Typos in the publication:</p>        <p>Equation (4): The first term should be (β1/α1)^(g12/Γ) and not (β2/α2)^(g12/Γ) </p>        <p>Equation (14): The first term should be (β1/α1)^(((g12/(1+r12))/Γ) and not (β2/α2)^(((g12/(1+r12))/Γ) </p>        <p>Equation (13): The first term should be (β1/α1)^((1-g22+r22)/Γ) and not (β1/α1)^((1-g22-r22)/Γ) </p>        <p>All these corrections has been implemented in the model, with the authors agreement. </p>        <p>Beyond these, there are several mismatches between the equation numbers that are mentioned in for each equation and the reference that has been made to these equations in the figure legend.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20406449",
+    "journal" : "Biology direct",
+    "title" : "A mathematical model of bone remodeling dynamics for normal bone cell populations and myeloma bone disease.",
+    "affiliation" : "Department of Mathematics, University of Iowa, Iowa City, IA 52242, USA. ayati@math.uiowa.edu",
+    "synopsis" : "<h4>Background</h4>Multiple myeloma is a hematologic malignancy associated with the development of a destructive osteolytic bone disease.<h4>Results</h4>Mathematical models are developed for normal bone remodeling and for the dysregulated bone remodeling that occurs in myeloma bone disease. The models examine the critical signaling between osteoclasts (bone resorption) and osteoblasts (bone formation). The interactions of osteoclasts and osteoblasts are modeled as a system of differential equations for these cell populations, which exhibit stable oscillations in the normal case and unstable oscillations in the myeloma case. In the case of untreated myeloma, osteoclasts increase and osteoblasts decrease, with net bone loss as the tumor grows. The therapeutic effects of targeting both myeloma cells and cells of the bone marrow microenvironment on these dynamics are examined.<h4>Conclusions</h4>The current model accurately reflects myeloma bone disease and illustrates how treatment approaches may be investigated using such computational approaches.<h4>Reviewers</h4>This article was reviewed by Ariosto Silva and Mark P. Little.",
+    "year" : 2010,
+    "month" : "4",
+    "volume" : "5",
+    "pages" : "28",
+    "link" : "http://identifiers.org/pubmed/20406449",
+    "authors" : [
+      {
+        "name" : "Bruce P Ayati",
+        "institution" : "Department of Mathematics, University of Iowa, Iowa City, IA 52242, USA. ayati@math.uiowa.edu",
+        "orcid" : "0000-0002-4472-6271"
+      },
+      {
+        "name" : "Claire M Edwards",
+        "orcid" : "0000-0002-1257-5659"
+      },
+      {
+        "name" : "Glenn F Webb"
+      },
+      {
+        "name" : "John P Wikswo"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000403_url.xml",
+        "description" : "SBML L2V4 representation of Ayati2010_BoneRemodelingDynamics_WithTumour+DrugTreatment",
+        "fileSize" : "22584",
+        "mimeType" : "application/xml",
+        "md5sum" : "1985823fbb0c69dd2b77f084d53e8857",
+        "sha1sum" : "ab78da921b3cae542164d1fcebba51483f7ab464",
+        "sha256sum" : "da3b63c022bdde7e6eea7b0df890befaf4d59b84c2a3084504b709e30bf4dd1c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000403-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6538",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7bab6280465faedb214ddca217542554",
+        "sha1sum" : "483b3fe8ad0865cfdaeaf99e5f9f216a5f90bec3",
+        "sha256sum" : "8943947fc53ca119b933499151481a33c08e862a441f00a38a067238fd799899"
+      },
+      {
+        "name" : "BIOMD0000000403-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "7042",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b1f09a2f455a854b9e177473461d6392",
+        "sha1sum" : "bd043b9becbf4985603608500721e532db7979e1",
+        "sha256sum" : "e95a053e3573f2e010df24ec877b18d37700a6e096db4023cd39559278fdeaf4"
+      },
+      {
+        "name" : "BIOMD0000000403-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6094",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e593edcf5539271b22a4d63d7a7f3629",
+        "sha1sum" : "5bc5ffb9a246ee505e18cbe522d223e4d925b2d6",
+        "sha256sum" : "ca039552874451f377d05e0d77f1e6b230ff81e37a708ca82f78296319fd7c6e"
+      },
+      {
+        "name" : "BIOMD0000000403-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6094",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1c4c7e76d2718e598ad19d9f1a5820de",
+        "sha1sum" : "cd47e1876902501c767c481b477860046a23cb25",
+        "sha256sum" : "5ef2907c9cfff3c4ec284476dee43bba9da43f4415aaba9434fbb8e8bf4751b1"
+      },
+      {
+        "name" : "BIOMD0000000403.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6094",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1c4c7e76d2718e598ad19d9f1a5820de",
+        "sha1sum" : "cd47e1876902501c767c481b477860046a23cb25",
+        "sha256sum" : "5ef2907c9cfff3c4ec284476dee43bba9da43f4415aaba9434fbb8e8bf4751b1"
+      },
+      {
+        "name" : "BIOMD0000000403.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3986",
+        "mimeType" : "text/plain",
+        "md5sum" : "83f41ba40d837da1f1aebfc9a64a366b",
+        "sha1sum" : "d74061dd167b9ea5f29b3824bcdcc400097acf91",
+        "sha256sum" : "9f2ccf0ffb0057fac5bc95fa4bcfb0a0f42d71be031cf434b7e8f99589ebd043"
+      },
+      {
+        "name" : "BIOMD0000000403.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "148429",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7df52171df85bc282edd21918c5213b5",
+        "sha1sum" : "30559e815fcab0a9291aac58b8aebe89a18a722a",
+        "sha256sum" : "11715b2f83d55d52e45e9827081a71751bdad980b47446d79fe8f218848c39dc"
+      },
+      {
+        "name" : "BIOMD0000000403.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000403.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "BIOMD0000000403_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "17253",
+        "mimeType" : "application/xml",
+        "md5sum" : "898aff049beed72c5d5a2134d633aca4",
+        "sha1sum" : "47a165172970acc88422974ee060c5537436cec8",
+        "sha256sum" : "01a45589a597e3996781adb7b0d58c53446344b3f542c5e4c221b99ddde386b7"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "55533",
+        "mimeType" : "image/png",
+        "md5sum" : "0cfb45c363ea304f1b9a6399507173e8",
+        "sha1sum" : "d1ceff71bf54d1d3bee30b304cb46e1f8f6e5741",
+        "sha256sum" : "0737087d888f6466bb3ae99dde9330d95b349f8ae5ae3d3235545d94d00a6ec3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "332",
+        "mimeType" : "text/plain",
+        "md5sum" : "f127b23fd1f95932d2bce3f9eb706a57",
+        "sha1sum" : "e858120ab8ed4301c705513dbd67d57751fd5af6",
+        "sha256sum" : "9ac2c7f15e3e101fe6c6b3cd0d75413504616e44c59bb55d4964a87baf5e6fd8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "7d76dce15d0617bbcf5b327690b88b99",
+        "sha1sum" : "22ba7f9f274aa3d2a2fd4364419c8a8f3fcf6563",
+        "sha256sum" : "57599c663742256696755e18b9f85bf450cdbc567c447bc544afe679fc79c809"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4505",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c895d378caf2d8c035d6e12013f14843",
+        "sha1sum" : "14daab73cc3f272eb20e99b4bac8a98259a6d5c4",
+        "sha256sum" : "68efbdc749f3773787f99b996e6b3fa39a4e5ca0dbbc1eb2ed1fd2f8cbeb1608"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1323188624,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Ayati2010_BoneRemodelingDynamics_WithTumour+DrugTreatment"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1484323730,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Ayati2010_BoneRemodelingDynamics_WithTumour+DrugTreatment"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275735,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285129,
+  "submissionId" : "MODEL1112060002",
+  "publicationId" : "BIOMD0000000403",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0046850",
+      "name" : "regulation of bone remodeling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0046850"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7711",
+      "name" : "Chordata",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7711"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000148",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000148"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20406449",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20406449"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000279",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000279"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:9538",
+      "name" : "multiple myeloma",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9538"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1112060002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1112060002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000403",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000403"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

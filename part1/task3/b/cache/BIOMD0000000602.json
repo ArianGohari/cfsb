@@ -1,0 +1,308 @@
+{
+  "name" : "Stavrum2013 - Tryptophan Metabolism in Liver",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Stavrum2013 - Tryptophan Metabolism inLiver</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/24129579\" title=\"Access to this publication\">Model of tryptophan    metabolism, readily scalable using tissue-specific gene    expression data.</a>  </div>  <div class=\"bibo:authorList\">Stavrum AK, Heiland I, Schuster S,  Puntervoll P, Ziegler M.</div>  <div class=\"bibo:Journal\">J. Biol. Chem. 2013 Nov; 288(48):  34555-34566</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Tryptophan is utilized in various metabolic routes including    protein synthesis, serotonin, and melatonin synthesis and the    kynurenine pathway. Perturbations in these pathways have been    associated with neurodegenerative diseases and cancer. Here we    present a comprehensive kinetic model of the complex network of    human tryptophan metabolism based upon existing kinetic data    for all enzymatic conversions and transporters. By integrating    tissue-specific expression data, modeling tryptophan metabolism    in liver and brain returned intermediate metabolite    concentrations in the physiological range. Sensitivity and    metabolic control analyses identified expected key enzymes to    govern fluxes in the branches of the network. Combining    tissue-specific models revealed a considerable impact of the    kynurenine pathway in liver on the concentrations of    neuroactive derivatives in the brain. Moreover, using    expression data from a cancer study predicted metabolite    changes that resembled the experimental observations. We    conclude that the combination of the kinetic model with    expression data represents a powerful diagnostic tool to    predict alterations in tryptophan metabolism. The model is    readily scalable to include more tissues, thereby enabling    assessment of organismal tryptophan metabolism in health and    disease.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on  <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:  <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000602\">BIOMD0000000602</a>.</p>  <p>To cite BioModels Database, please use:  <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to  <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24129579",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "Model of tryptophan metabolism, readily scalable using tissue-specific gene expression data.",
+    "affiliation" : "From the Department of Informatics, University of Bergen, N-5008 Bergen, Norway.",
+    "synopsis" : "Tryptophan is utilized in various metabolic routes including protein synthesis, serotonin, and melatonin synthesis and the kynurenine pathway. Perturbations in these pathways have been associated with neurodegenerative diseases and cancer. Here we present a comprehensive kinetic model of the complex network of human tryptophan metabolism based upon existing kinetic data for all enzymatic conversions and transporters. By integrating tissue-specific expression data, modeling tryptophan metabolism in liver and brain returned intermediate metabolite concentrations in the physiological range. Sensitivity and metabolic control analyses identified expected key enzymes to govern fluxes in the branches of the network. Combining tissue-specific models revealed a considerable impact of the kynurenine pathway in liver on the concentrations of neuroactive derivatives in the brain. Moreover, using expression data from a cancer study predicted metabolite changes that resembled the experimental observations. We conclude that the combination of the kinetic model with expression data represents a powerful diagnostic tool to predict alterations in tryptophan metabolism. The model is readily scalable to include more tissues, thereby enabling assessment of organismal tryptophan metabolism in health and disease.",
+    "year" : 2013,
+    "month" : "11",
+    "volume" : "288",
+    "issue" : "48",
+    "pages" : "34555-34566",
+    "link" : "http://identifiers.org/pubmed/24129579",
+    "authors" : [
+      {
+        "name" : "Anne-Kristin Stavrum",
+        "institution" : "From the Department of Informatics, University of Bergen, N-5008 Bergen, Norway."
+      },
+      {
+        "name" : "Ines Heiland",
+        "institution" : "Faculty of Bioscience, Fisheries and Economics, Department of Arctic and Marine Biology, UiT The Arctic University of Norway, Tromsø, Norway ines.heiland@uit.no.",
+        "orcid" : "0000-0002-9124-5112"
+      },
+      {
+        "name" : "Stefan Schuster"
+      },
+      {
+        "name" : "Pål Puntervoll"
+      },
+      {
+        "name" : "Mathias Ziegler",
+        "orcid" : "0000-0001-6961-2396"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000602_url.xml",
+        "description" : "SBML L2V4 representation of Stavrum2013 - Tryptophan Metabolism in Liver",
+        "fileSize" : "328048",
+        "mimeType" : "application/xml",
+        "md5sum" : "3259c160d1cb02070e60b376cd2f3b49",
+        "sha1sum" : "2ca937ca8a68dd59120ed8c0094009755949a53a",
+        "sha256sum" : "a0d9fb5f0874762784cbd02ac2307bb5cbbcaee3948604a60038a9f98f19b54d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000602-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "153438",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3b4fd851a1a0f2b79ba7a26b24f139b7",
+        "sha1sum" : "4926bd761bded23f1bea18ce3fc74315c1ac5266",
+        "sha256sum" : "601482b5d3e77f17b4052bc968e06de2810c7b71843d2018cdb34fc839ae9249"
+      },
+      {
+        "name" : "BIOMD0000000602-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "228107",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c6031fb3a5a9f4c178b3d19b6fafbf59",
+        "sha1sum" : "7be0899fc0ddcc0d1f66e3dccd31126519a46994",
+        "sha256sum" : "33030c080f32bfd407532612e433f49c4c510a382169f292c52a40801917d69c"
+      },
+      {
+        "name" : "BIOMD0000000602-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "35812",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4fcdf2067897a0baa9612dc00f82ba0d",
+        "sha1sum" : "1279bf632ac391be3aac0f83b436c4ec9ea1dc36",
+        "sha256sum" : "280603e6ec78e9bc92f893abaa6948ccf3976b966d4d888845cb2568a689ce0f"
+      },
+      {
+        "name" : "BIOMD0000000602-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "35812",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6791b34efd589a588536c1b1c826984c",
+        "sha1sum" : "4b1cb3f159b1c10231ed5340b805b7958fae4129",
+        "sha256sum" : "cacd6d3d58613a4c7eec65567b4daa5ddb43991b4d06a8981085ef62712ea7b0"
+      },
+      {
+        "name" : "BIOMD0000000602.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "35812",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6791b34efd589a588536c1b1c826984c",
+        "sha1sum" : "4b1cb3f159b1c10231ed5340b805b7958fae4129",
+        "sha256sum" : "cacd6d3d58613a4c7eec65567b4daa5ddb43991b4d06a8981085ef62712ea7b0"
+      },
+      {
+        "name" : "BIOMD0000000602.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "24509",
+        "mimeType" : "text/plain",
+        "md5sum" : "dcf5427e3286ddb6bffb777121f010a4",
+        "sha1sum" : "17be972f05c749596a26afded03bed0eaf3268ec",
+        "sha256sum" : "379d232934e4775360e6054e42be94886bd24e77e1821603af4f5d1b3b8e9f3f"
+      },
+      {
+        "name" : "BIOMD0000000602.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "517550",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6e5588cf3a743f0e2a352f8ce8096165",
+        "sha1sum" : "868eb7e81fcc114b2929fc04bbcd44c23df32c00",
+        "sha256sum" : "b811ecb03ef86d0c924ce92cfd6a1e98005919b0a0a5e786e84675b594ef2fc1"
+      },
+      {
+        "name" : "BIOMD0000000602.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1760112",
+        "mimeType" : "image/png",
+        "md5sum" : "a9180a52c5ff566ad9858b457b6e0119",
+        "sha1sum" : "2dc939d99f92d70c97579b338960cc1276631fd5",
+        "sha256sum" : "b34f6a5c6d5948c3d480e173b842eac12edce0586fc7cdde80a42fac96b7e4a3"
+      },
+      {
+        "name" : "BIOMD0000000602.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "28385",
+        "mimeType" : "text/plain",
+        "md5sum" : "76f1ea1791d9c7e56a37fd66174b31b5",
+        "sha1sum" : "4d2d775833cf7e55c96ff374baa440ae8e1915b8",
+        "sha256sum" : "16210505d0dfbd4e8bcd8a9f3365155b53992c50d20f32726f8ab0d5db95856b"
+      },
+      {
+        "name" : "BIOMD0000000602.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "185872",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ac78e6e2f6663068d30b02629070bc14",
+        "sha1sum" : "c5df01b0bc9ab1e746850b23d58345141bdd9cce",
+        "sha256sum" : "c27c72000fe9e33bd9edf97226b5fbeffadd05d0468e1d43525dbb554ccacf0b"
+      },
+      {
+        "name" : "BIOMD0000000602.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "466623",
+        "mimeType" : "application/xml",
+        "md5sum" : "079aeecce85b1feeaf75aaff5b1b4a23",
+        "sha1sum" : "d8789b8fe8be7790263122a137a7953a8a970dfe",
+        "sha256sum" : "6fdbd75eb94dfb741c2a6833d8821ab977454204aa289f8ca05cfcf85a9fd8cc"
+      },
+      {
+        "name" : "BIOMD0000000602_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "88749",
+        "mimeType" : "application/xml",
+        "md5sum" : "b20b00a88ec5db872e2a13a9760abe93",
+        "sha1sum" : "ffd613d91c4cab6227b204bd7ea5e17bab501596",
+        "sha256sum" : "bf916c41d53e4b56b53506c15645d332446bf25b9f78720d64ffef6efb4a5f5a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "119278",
+        "mimeType" : "image/png",
+        "md5sum" : "789b909a55525e10c5dbf50f9aaa2e71",
+        "sha1sum" : "bf2b10c0d14cee913605ef52b40836d419427b61",
+        "sha256sum" : "eca373553b76a964eba9d534a8cb36c61b5957a7c4e7264d16aa5faeebdcbcd8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "464",
+        "mimeType" : "text/plain",
+        "md5sum" : "2b69396d5fe35f8be22789d147016c21",
+        "sha1sum" : "4a5baa41df5b2bbc7bacf42dcc2432b748fcf824",
+        "sha256sum" : "56f6971d097d7bdd288280931ac125a274c5c0ebefebcc0c7c407ae1aa20481e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "8f1efbebff0c4b9b116025b9add5f086",
+        "sha1sum" : "fd6f6687b68d01fcc1116f00a8b3716776e33a2e",
+        "sha256sum" : "fe85b0ab48b003df3f3411a3e44a3ea05f3dd21bafd9131afc43ecb2e45bc474"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5118",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bacb5219c4baa9fcfa7c7d9b224a90f8",
+        "sha1sum" : "d9a09f2d2138de7807c05d3675b108dc64c0822b",
+        "sha256sum" : "c9880e8cc5debaf163da2dae2bfe56aad714e9acba2f2696a32febece71fa39c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1381930617,
+        "submitter" : "Ines Heiland",
+        "comment" : "Original import of Model of Tryptophan Metabolism in Liver"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1490098342,
+        "submitter" : "Ines Heiland",
+        "comment" : "Current version of Stavrum2013 - Tryptophan Metabolism in Liver"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724283719,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285390,
+  "submissionId" : "MODEL1310160000",
+  "publicationId" : "BIOMD0000000602",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ines Heiland",
+        "email" : "ines.heiland@uit.no",
+        "affiliation" : "Dept. of Arctic and Marine Biology, UiT The Arctic University of Norway, Tromsø Norway",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1310160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1310160000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000602",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000602"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24129579",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24129579"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000759",
+      "resource" : "BRENDA",
+      "uri" : "urn:miriam:brenda:BTO%3A0000759"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006587",
+      "name" : "serotonin biosynthetic process from tryptophan",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006587"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006568",
+      "name" : "tryptophan metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006568"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

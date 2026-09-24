@@ -1,0 +1,277 @@
+{
+  "name" : "Gardner2000 - genetic toggle switch in E.coli",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Gardner2000 - genetic toggle switch in E.coli</div>            <div class=\"dc:description\">      <p>The behaviour of the genetic toggle switch and the conditions for bistability has been studies using a synthetic, bistable gene circuit.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/10659857\" title=\"Access to this publication\">Construction of a genetic toggle switch in Escherichia coli.</a>                    </div>                <div class=\"bibo:authorList\">Gardner TS, Cantor CR, Collins JJ</div>                <div class=\"bibo:Journal\">Nature. 2000 Jan 20;403(6767):339-42.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>It has been proposed' that gene-regulatory circuits with virtually any desired property can be constructed from networks of simple regulatory elements. These properties, which include multistability and oscillations, have been found in specialized gene circuits such as the bacteriophage lambda switch and the Cyanobacteria circadian oscillator. However, these behaviours have not been demonstrated in networks of non-specialized regulatory components. Here we present the construction of a genetic toggle switch-a synthetic, bistable gene-regulatory network-in Escherichia coli and provide a simple theory that predicts the conditions necessary for bistability. The toggle is constructed from any two repressible promoters arranged in a mutually inhibitory network. It is flipped between stable states using transient chemical or thermal induction and exhibits a nearly ideal switching threshold. As a practical device, the toggle switch forms a synthetic, addressable cellular memory unit and has implications for biotechnology, biocomputing and gene therapy.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000507\">BIOMD0000000507</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10659857",
+    "journal" : "Nature",
+    "title" : "Construction of a genetic toggle switch in Escherichia coli.",
+    "affiliation" : "Department of Biomedical Engineering, Center for BioDynamics, Boston University, Massachusetts 02215, USA.",
+    "synopsis" : "It has been proposed' that gene-regulatory circuits with virtually any desired property can be constructed from networks of simple regulatory elements. These properties, which include multistability and oscillations, have been found in specialized gene circuits such as the bacteriophage lambda switch and the Cyanobacteria circadian oscillator. However, these behaviours have not been demonstrated in networks of non-specialized regulatory components. Here we present the construction of a genetic toggle switch-a synthetic, bistable gene-regulatory network-in Escherichia coli and provide a simple theory that predicts the conditions necessary for bistability. The toggle is constructed from any two repressible promoters arranged in a mutually inhibitory network. It is flipped between stable states using transient chemical or thermal induction and exhibits a nearly ideal switching threshold. As a practical device, the toggle switch forms a synthetic, addressable cellular memory unit and has implications for biotechnology, biocomputing and gene therapy.",
+    "year" : 2000,
+    "month" : "1",
+    "volume" : "403",
+    "issue" : "6767",
+    "pages" : "339-342",
+    "link" : "http://identifiers.org/pubmed/10659857",
+    "authors" : [
+      {
+        "name" : "T S Gardner",
+        "institution" : "Department of Biomedical Engineering, Center for BioDynamics, Boston University, Massachusetts 02215, USA."
+      },
+      {
+        "name" : "C R Cantor"
+      },
+      {
+        "name" : "J J Collins"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000507_url.xml",
+        "description" : "SBML L3V1 representation of Gardner2000 - genetic toggle switch in E.coli",
+        "fileSize" : "25979",
+        "mimeType" : "application/xml",
+        "md5sum" : "68ff06b2719cb1b4a329b05b13df895c",
+        "sha1sum" : "67fe4d276c0cc279d6b1c31065f85e7eb0031c2e",
+        "sha256sum" : "0f4371739524b1fd6afba694f3688bb35d007a4600f38662d862d5f0c8da62ca"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000507-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "7585",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "341c2aedd189cf2821229ac39415df8b",
+        "sha1sum" : "a4da672a3278365ed19231b8ff1cd1e7806b6cbe",
+        "sha256sum" : "4a9a017a7b628072e05a5bf901c7bb6c3ba43b9276e1dd2193eb18ea62a2fb62"
+      },
+      {
+        "name" : "BIOMD0000000507-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "9871",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7c3d2ada17568eb480c50060484efb5d",
+        "sha1sum" : "f59c1bdc06a7447efdd3b9e00275ed217f92b7dd",
+        "sha256sum" : "884e13f6766a31c1baeeaa2823338d94d9c4de4bc55ee367b215ac3b446edd15"
+      },
+      {
+        "name" : "BIOMD0000000507-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4487",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "211798d92965bda91002e94cc495ed4a",
+        "sha1sum" : "565c1c7932ced9152cdf13a0ec8cac2ae938dd02",
+        "sha256sum" : "7c6aff0c90d3bcbf3df4013ad79ecf3ee49a8aa954bb7d8e2208437454fc02e4"
+      },
+      {
+        "name" : "BIOMD0000000507.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4487",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "34fd2e58db5a16a5dc3a52e41d80a7f2",
+        "sha1sum" : "2f7b3c2abe498600db6e06b1d76e52978b037207",
+        "sha256sum" : "946d4759a99c6f4029437a49556658ef691e9a693a30b173c899194943a79890"
+      },
+      {
+        "name" : "BIOMD0000000507.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2796",
+        "mimeType" : "text/plain",
+        "md5sum" : "ae8e50eabd9a399c7bc7f9c5a7893148",
+        "sha1sum" : "5e3961cfa524cbe201181b75e46053de223b18ee",
+        "sha256sum" : "4ccdda2dc6f839528f69fc3d899f85cd31043f05efda51a6766e84b85aad3992"
+      },
+      {
+        "name" : "BIOMD0000000507.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "161199",
+        "mimeType" : "application/pdf",
+        "md5sum" : "026f4f86e590f380df69442ecc952351",
+        "sha1sum" : "773284fcda03ca3dbd423b72382287c357b427a2",
+        "sha256sum" : "26718261768252b66c6da61d3db1d4e1293febd11d0cffd79c5c5adc13161734"
+      },
+      {
+        "name" : "BIOMD0000000507.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "16432",
+        "mimeType" : "image/png",
+        "md5sum" : "f42461c77647e8a300ce65a64bbf0e89",
+        "sha1sum" : "9cd0d8e27b9b41bdba6c9817cb23bbdcb34da56f",
+        "sha256sum" : "15da46bd768e3148f2bdb50ad34237da104e290d836973a80f6c98d14e2ff0b4"
+      },
+      {
+        "name" : "BIOMD0000000507.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "a09cf39d95ab605db52198b969d9b4cb",
+        "sha1sum" : "b6049e3c848043ece8a8c9432788bb02a75b3d39",
+        "sha256sum" : "73ec6f7fb4375b98f8244ca4b6b8151a2840d492531a6bab6987da8fa6c40ecb"
+      },
+      {
+        "name" : "BIOMD0000000507.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "9804",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "df630c6c5ac4dad8268fdf308550e1d0",
+        "sha1sum" : "2eb83a18f21500222a3fb9b385fa6ceeff3668ae",
+        "sha256sum" : "3abcb4a2b7452de0e76a11ac0946666f0f9a484e8cac3c34b401679eb4fe777a"
+      },
+      {
+        "name" : "BIOMD0000000507.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "30394",
+        "mimeType" : "application/xml",
+        "md5sum" : "d33457954670cb66436fcd7aecb2dccd",
+        "sha1sum" : "be1eb5c32d782e3ba5350f90ff0deab8aca92252",
+        "sha256sum" : "9cd27922e61c6477f82cc19fca2f2bc52557373583ccf98431faa8709b6dc70b"
+      },
+      {
+        "name" : "BIOMD0000000507_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "11554",
+        "mimeType" : "application/xml",
+        "md5sum" : "d1d72f60b22dfc35c56fa97eff2a1168",
+        "sha1sum" : "9f5c48193dbfad606d57181e10cf525c6181b1fc",
+        "sha256sum" : "602ec6c1b08d551e51ae461812e26027eb48854d8b66be467feabb627b7ac408"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8904",
+        "mimeType" : "image/png",
+        "md5sum" : "fd9f2038777c78b51806ab9cd6640ab8",
+        "sha1sum" : "c1d8cea16a28112377345b872437286617cbf62f",
+        "sha256sum" : "3456042e1f4953c0c45992e62ba8160a753baf4b481907280d538aa8130641e6"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "170",
+        "mimeType" : "text/plain",
+        "md5sum" : "9821040eb20e9eba1940f1410772c0e8",
+        "sha1sum" : "74ccdad8c70b4ed547537728210efae3d863f2cc",
+        "sha256sum" : "53f1178a3efe53177e62fb480a15718db66ffaf605c7dcef300a1ed7e4467db1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "2f56c3013fc7472df8a6d56e50997a88",
+        "sha1sum" : "576266256abbe406461cd112df8aee96f0fe713f",
+        "sha256sum" : "e0796b8947d0ae0523bd1341b102579e9dda8654245076d0e60098d40984a1d2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4857",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "734795755e2c98843b6a366e31a50400",
+        "sha1sum" : "ebabaf2b71bdcec4a61a0c19906bd0a6fce236d8",
+        "sha256sum" : "f144e2d0f355c0990ba2488155c2f392054d22713782d37937c51fed62e2b417"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1390156779,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Gardner et al 2000"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1417001210,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Gardner2000 - genetic toggle switch in E.coli"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724279714,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285261,
+  "submissionId" : "MODEL1401190000",
+  "publicationId" : "BIOMD0000000507",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "n.lenovere@gmail.com",
+        "affiliation" : "The Babraham Institute",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1401190000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1401190000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000507",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000507"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10659857",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10659857"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0010468",
+      "name" : "regulation of gene expression",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0010468"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

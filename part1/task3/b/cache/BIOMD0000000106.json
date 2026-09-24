@@ -1,0 +1,295 @@
+{
+  "name" : "Yang2007_ArachidonicAcid",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is according to the paper      <i>Dynamic Simulation on the Arachidonic Acid Metabolic Network</i>          . Figure 2A has been reproduced by SBML ode solver on line. In the original model, all the reactions are presented as ODE directly. So curator rewrite each reaction according to the semantics of the paper.  In this paper, the authors used quict complex kinetics law to describe the catalysis in the network, curators did not necessarily know all the complete meanings of the paper.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17381237",
+    "journal" : "PLoS computational biology",
+    "title" : "Dynamic simulations on the arachidonic acid metabolic network.",
+    "affiliation" : "Beijing National Laboratory for Molecular Sciences, State Key Laboratory for Structural Chemistry of Unstable and Stable Species, College of Chemistry and Molecular Engineering, Peking University, Beijing, China.",
+    "synopsis" : "Drug molecules not only interact with specific targets, but also alter the state and function of the associated biological network. How to design drugs and evaluate their functions at the systems level becomes a key issue in highly efficient and low-side-effect drug design. The arachidonic acid metabolic network is the network that produces inflammatory mediators, in which several enzymes, including cyclooxygenase-2 (COX-2), have been used as targets for anti-inflammatory drugs. However, neither the century-old nonsteriodal anti-inflammatory drugs nor the recently revocatory Vioxx have provided completely successful anti-inflammatory treatment. To gain more insights into the anti-inflammatory drug design, the authors have studied the dynamic properties of arachidonic acid (AA) metabolic network in human polymorphous leukocytes. Metabolic flux, exogenous AA effects, and drug efficacy have been analyzed using ordinary differential equations. The flux balance in the AA network was found to be important for efficient and safe drug design. When only the 5-lipoxygenase (5-LOX) inhibitor was used, the flux of the COX-2 pathway was increased significantly, showing that a single functional inhibitor cannot effectively control the production of inflammatory mediators. When both COX-2 and 5-LOX were blocked, the production of inflammatory mediators could be completely shut off. The authors have also investigated the differences between a dual-functional COX-2 and 5-LOX inhibitor and a mixture of these two types of inhibitors. Their work provides an example for the integration of systems biology and drug discovery.",
+    "year" : 2007,
+    "month" : "3",
+    "volume" : "3",
+    "issue" : "3",
+    "pages" : "e55",
+    "link" : "http://identifiers.org/pubmed/17381237",
+    "authors" : [
+      {
+        "name" : "Kun Yang",
+        "institution" : "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, Beijing, China.",
+        "orcid" : "0000-0002-1060-8082"
+      },
+      {
+        "name" : "Wenzhe Ma"
+      },
+      {
+        "name" : "Huanhuan Liang"
+      },
+      {
+        "name" : "Qi Ouyang"
+      },
+      {
+        "name" : "Tang C",
+        "orcid" : "0000-0003-1474-3705"
+      },
+      {
+        "name" : "Luhua Lai"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000106_url.xml",
+        "description" : "SBML L2V1 representation of Yang2007_ArachidonicAcid",
+        "fileSize" : "74054",
+        "mimeType" : "application/xml",
+        "md5sum" : "4ce6c8bf9e1c2919ed6c875696fd2fb2",
+        "sha1sum" : "4918d82366394bcc3b6077c3f934fb0e7f073544",
+        "sha256sum" : "4c6423df3997f8232b894b8d853a5fd0b48df13ec9ac9922c8f1e90527cb464b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000106-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "51038",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "65ce6e34de3a2b4c2cc39fbf4d806723",
+        "sha1sum" : "87527029b6dca18169131c92e9a7678883815a6b",
+        "sha256sum" : "dfcf57f7cd7f103063c84c17e83b878651ca3b3814bff7eca9892cd15bf61302"
+      },
+      {
+        "name" : "BIOMD0000000106-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "71178",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "828812fb70a6bf591b4371d8feb6893d",
+        "sha1sum" : "7e0a40a5abcda4870bc9739f0ac1e4dea925880b",
+        "sha256sum" : "a43e564639e7f071fac958154e637c6e59c6cb24e42ffea646b7e2f8233e2644"
+      },
+      {
+        "name" : "BIOMD0000000106-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14267",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f5dfeda1788e20a0ba3a01afb89d33d3",
+        "sha1sum" : "ac6621cebaf3a0373d8fc149b34c7b1404614a39",
+        "sha256sum" : "24d779290d57f0ac8438248b9d038b67b3c50503b00c574355d58912b3f23b68"
+      },
+      {
+        "name" : "BIOMD0000000106.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14267",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4ab1336001363360e3f73b1c43b7613d",
+        "sha1sum" : "b563f8732f94f1c6b29a1a35e35dc410c800a231",
+        "sha256sum" : "09b6ad373f945ebe6796fad17896f991bb825f5b6435f4f9ff131aca74dca778"
+      },
+      {
+        "name" : "BIOMD0000000106.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10369",
+        "mimeType" : "text/plain",
+        "md5sum" : "aec78f6aa681f764054ede733abf6b65",
+        "sha1sum" : "15e01f53c522ac86ec7c5fd3ee1d51e985bfa7fb",
+        "sha256sum" : "27fa4afe4ce36c515f3e9c54be8fb93be8571a5529bdfba330bb82411b501062"
+      },
+      {
+        "name" : "BIOMD0000000106.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "277183",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0907787a8daf117552bddb718481f10e",
+        "sha1sum" : "991f198470fc364c3dbf15e1d7350a6b4661a701",
+        "sha256sum" : "fe4a41ed0636562e131230f7fcd8a2313f2782dea9be5d2465c94732ad978aa0"
+      },
+      {
+        "name" : "BIOMD0000000106.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "456005",
+        "mimeType" : "image/png",
+        "md5sum" : "290960eac0b643149d0f7c86dc938481",
+        "sha1sum" : "cbb654ee066e2b3bea4c5c88e357283b90a5447a",
+        "sha256sum" : "7478606ce0f3e480cbf050786fb28265bd5e830cea3f00d0f71d2c7994d3cf6a"
+      },
+      {
+        "name" : "BIOMD0000000106.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "9377",
+        "mimeType" : "text/plain",
+        "md5sum" : "129c681e9cb3cfdefc640fca0168679e",
+        "sha1sum" : "267a0fc7617de1d2cad6a9a6d7e6b60b910f2d9f",
+        "sha256sum" : "879d85e0d8ebe441e20101a086136f06a858e7fdfd7acab2b47380da6741a816"
+      },
+      {
+        "name" : "BIOMD0000000106.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "83816",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "0ec671dda75ba97bb78d579ada6f5f27",
+        "sha1sum" : "c7d76c5d5fdb9ea56714c99b6afbf3f03960c0e6",
+        "sha256sum" : "adcd577f9a17e49cb4aeeb2f878fe5f05f66354099659304d870242fa66edeac"
+      },
+      {
+        "name" : "BIOMD0000000106.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "85685",
+        "mimeType" : "application/xml",
+        "md5sum" : "0c62759a00e6c35ead92a1253f3a1048",
+        "sha1sum" : "922f284c7bf68624ae5693ec19ad5b964486cdc2",
+        "sha256sum" : "c6e309344c1bec78563936bc101295bd6ac47428e188869b06c7a6faaf58084d"
+      },
+      {
+        "name" : "BIOMD0000000106_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "60738",
+        "mimeType" : "application/xml",
+        "md5sum" : "0255031ae7e2b5a52a60d1c58ed715ec",
+        "sha1sum" : "08827333a2de4ec6d1c2260d415e40070d2e0c5b",
+        "sha256sum" : "501d34f7632516b2ee9814fb4419755eb8fde41a217ce299a1acd373a4bdfce4"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "24024",
+        "mimeType" : "image/png",
+        "md5sum" : "14762be408f24103d452e597d89229cc",
+        "sha1sum" : "432a37694590ed2b739d26467257229f5c718e97",
+        "sha256sum" : "61e936d4990046eb9c00ccee0f5e4021f068e3b38e9954c605f1e1cf49d84f8c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "57",
+        "mimeType" : "text/plain",
+        "md5sum" : "9c66e5e43326d8d91d098247ae18bfa4",
+        "sha1sum" : "92d2c28036c6fea39c1a4d1509f27985f793b6c3",
+        "sha256sum" : "220f87046c62ad4129d7071eb96cf94ab3d97307214ad2f508a3237008aee1eb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "3a4ffde80231398929010d61098f47a0",
+        "sha1sum" : "3dfae7e3b2de3cd41d4c5de08e350d0c05c73f27",
+        "sha256sum" : "6936a57c7aa2e7ceae4c5abe0c3aaed58ebad749682bea60fae6f42b797eae9e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3389",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "35efcedaa256bb3ba45b466b053b1462",
+        "sha1sum" : "6402b35b1b5178c2edc12d30dec7a84428eaf024",
+        "sha256sum" : "a5b75bfa892a3cecdb1f9a0a68ef22b26051a34aaf832b5cffae3aa1a234164d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1176150513,
+        "submitter" : "Kun Yang",
+        "comment" : "Original import of AAnetwork"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412942862,
+        "submitter" : "Kun Yang",
+        "comment" : "Current version of Yang2007_ArachidonicAcid"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267579,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284880,
+  "submissionId" : "MODEL8610058649",
+  "publicationId" : "BIOMD0000000106",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kun Yang",
+        "email" : "hlai@pku.edu.cn",
+        "affiliation" : "Beijing National Laboratory for Molecular Sciences",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8610058649",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8610058649"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000106",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000106"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17381237",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17381237"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "map00590",
+      "name" : "Arachidonic acid metabolism",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map00590"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019369",
+      "name" : "arachidonic acid metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019369"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

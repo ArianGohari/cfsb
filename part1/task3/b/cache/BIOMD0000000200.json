@@ -1,0 +1,280 @@
+{
+  "name" : "Bray1995_chemotaxis_receptorlinkedcomplex",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "8573792",
+    "journal" : "Molecular biology of the cell",
+    "title" : "Computer analysis of the binding reactions leading to a transmembrane receptor-linked multiprotein complex involved in bacterial chemotaxis.",
+    "affiliation" : "Department of Zoology, University of Cambridge, United Kingdom.",
+    "synopsis" : "The chemotactic response of bacteria is mediated by complexes containing two molecules each of a transmembrane receptor and the intracellular signaling proteins CheA and CheW. Mutants in which one or the other of the proteins of this complex are absent, inactive, or expressed at elevated amounts show altered chemotactic behavior and the phenotypes are difficult to interpret for some overexpression mutants. We have examined the possibility that these unexpected phenotypes might arise from the binding steps that lead to active complex formation. A limited genetic algorithm was used to search for sets of binding reactions and associated binding constants expected to give mutant phenotypes in accord with experimental data. Different sets of binding equilibria and different assumptions about the activity of particular receptor complexes were tried. Computer analysis demonstrated that it is possible to obtain sets of binding equilibria consistent with the observed phenotypes and provided a simple explanation for these phenotypes in terms of the distribution of active and inactive complexes formed under various conditions. Optimization methods of this kind offer a unique way to analyze reactions taking place inside living cells based on behavioral data.",
+    "year" : 1995,
+    "month" : "10",
+    "volume" : "6",
+    "issue" : "10",
+    "pages" : "1367-1380",
+    "link" : "http://identifiers.org/pubmed/8573792",
+    "authors" : [
+      {
+        "name" : "D Bray",
+        "institution" : "Department of Zoology, University of Cambridge, United Kingdom."
+      },
+      {
+        "name" : "R B Bourret",
+        "orcid" : "0000-0002-6666-9220"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000200_url.xml",
+        "description" : "SBML L2V3 representation of Bray1995_chemotaxis_receptorlinkedcomplex",
+        "fileSize" : "76788",
+        "mimeType" : "application/xml",
+        "md5sum" : "9fb1d27f08c9693f5918319471c315e6",
+        "sha1sum" : "596770a11eec05ef9ea491958ffd2c7198d3f734",
+        "sha256sum" : "df6db0ff3e9e3ef552e2a543a2189687c629affdaafb39c65a16f062caea5aa2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000200-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "63044",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "dd6d6be6f07d1878d21d3f10ad8c9a0d",
+        "sha1sum" : "423873d04f0c8392dbcc601128e4ae229c8677b4",
+        "sha256sum" : "17b5610258beb5f3ec0df8099fda7e952dc4f63de03f2da41506be5920357771"
+      },
+      {
+        "name" : "BIOMD0000000200-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "108150",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c27b9c787b1c32df5c8fd56ba0d65c0b",
+        "sha1sum" : "31c3369eeb024a03884e17a4f8265a1daeebc087",
+        "sha256sum" : "a14dcb215ea3952d40b03264fc89784c89037e8bb4c233e0be781579c2694083"
+      },
+      {
+        "name" : "BIOMD0000000200-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "17958",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "03fded493fa20f1d183bb5588b3488a6",
+        "sha1sum" : "2b0012e4c11bd2993686d7426a0428c09c4d325c",
+        "sha256sum" : "43c505f22a22913123257526e5312279a73b8b1fbb0fdc93cd50b73868206b96"
+      },
+      {
+        "name" : "BIOMD0000000200.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "17958",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7d9a8a61e911957dba2071d312333815",
+        "sha1sum" : "32641ee9e437ecf9bdeab64142288d2764dab72a",
+        "sha256sum" : "42ff31438a6d142ba18d1c8abfd7a047a46e22ccb62dcb1426c879d8305b7469"
+      },
+      {
+        "name" : "BIOMD0000000200.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11860",
+        "mimeType" : "text/plain",
+        "md5sum" : "27676699b04af330b8d9351a0278bfd0",
+        "sha1sum" : "d8c11659f6ddfeb993656b27dc6e9a51e4a03ecd",
+        "sha256sum" : "92803a86b6f34e7091a5f5a1a863dc284003f81a9dad678445b5f855cc1d690d"
+      },
+      {
+        "name" : "BIOMD0000000200.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "314502",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9db9341d046bd0ba2d997f7af6629118",
+        "sha1sum" : "e2b2281bd3190815b03e3ca3b6127219f11a2904",
+        "sha256sum" : "2b88a140c0f5630128512b5d9d59a5fe6b63d833af8e1edf1d7eeab8a3c3eaa6"
+      },
+      {
+        "name" : "BIOMD0000000200.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "541625",
+        "mimeType" : "image/png",
+        "md5sum" : "edf27d6d31051e466d2919544acc7da1",
+        "sha1sum" : "ab40d04f98c61450364d817d229b2532792c3662",
+        "sha256sum" : "602ec94ff2daee8b9de3ccf9574a8ef7163cb3ec5b6af087dfb3b5426761cd4b"
+      },
+      {
+        "name" : "BIOMD0000000200.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "96975",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6b82f7e63927db592fa8b49e025c13a1",
+        "sha1sum" : "59763d6912851c868b57063b0af5daadeb636a12",
+        "sha256sum" : "6346f49d8286b38f93b4490ca135838b87aab06851af1cea1de2aad89cec1a2b"
+      },
+      {
+        "name" : "BIOMD0000000200.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "103020",
+        "mimeType" : "application/xml",
+        "md5sum" : "fe8d9f7e6635db955062bd5446ddc38c",
+        "sha1sum" : "8842799fa7bf0a8aed4e83bfaaa5a1de30c493ef",
+        "sha256sum" : "c05181d7994b8733fc67f0710b5464ece793612c84a08e65b12457323545e86b"
+      },
+      {
+        "name" : "BIOMD0000000200_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "37244",
+        "mimeType" : "application/xml",
+        "md5sum" : "c28d9bb9cb96d9818b047ee5bb9825fc",
+        "sha1sum" : "7aa6196080ae484ea98ba379ff6b2009e1a0fa2b",
+        "sha256sum" : "3016ebb61d4592a06b0c0cd43db8d53a90c266a21a8b15f69ab2cd7ad6b332a6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8158",
+        "mimeType" : "image/png",
+        "md5sum" : "70d98d32a564150c1b12ed5d6d6a34e1",
+        "sha1sum" : "e15746e05807c15297083db88d881744dc705255",
+        "sha256sum" : "c90690a4d36f7eb77f41bf5d72805eb98b2d001e75886a000eaa1f8c09c48edf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "140",
+        "mimeType" : "text/plain",
+        "md5sum" : "e108ed9129eb2d24338ea1db0f53f27a",
+        "sha1sum" : "1d4f28248474dc1825d0e6de2e2697d81aac0eb8",
+        "sha256sum" : "b499d1a0e74ea7e58102ec0a8ccd498039a79bca83844340fe0eb0ee1c76b333"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "cb2abee144486fc7e4e329d9fdeb4fc2",
+        "sha1sum" : "399d89dad84502b563e450e1f1b3c683690d12e7",
+        "sha256sum" : "cde7d4b498b0bb4ed9ea3ac59fa6a06fd109844f174183e10cc92ea7a0fe4dc3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2660",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8514d84ef1d4193ea779d21665a2cb69",
+        "sha1sum" : "1c3114cc6fd8558040287d047157b1653f9d92f1",
+        "sha256sum" : "9119cfdd565275e5e10a0a49c68209507d7b8604441a04ab8edca0635babb835"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1226410290,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of bray1995_chemotaxis_receptorlinkedcomplex"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401810690,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Bray1995_chemotaxis_receptorlinkedcomplex"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270103,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284933,
+  "submissionId" : "MODEL6409760567",
+  "publicationId" : "BIOMD0000000200",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6409760567",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6409760567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000200",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000200"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "8573792",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8573792"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000404",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000404"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "eco02030",
+      "name" : "Bacterial chemotaxis - Escherichia coli K-12 MG1655",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/eco02030"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006935",
+      "name" : "chemotaxis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006935"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

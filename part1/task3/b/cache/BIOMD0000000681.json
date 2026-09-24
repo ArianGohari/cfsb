@@ -1,0 +1,293 @@
+{
+  "name" : "Waugh2006 - Diabetic Wound Healing - Treated and Untreated Macrophage Dynamics",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Macrophage dynamics in diabetic wound dealing.</strong>        <br />          Waugh HV, Sherratt JA.      <em>Bull Math Biol</em>          2006 Jan;68(1):197-207      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16794927\">16794927</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Wound healing in diabetes is a complex process, characterised by a chronicinflammation phase. The exact mechanism by which this occurs is not fullyunderstood, and whilst several treatments for healing diabetic wounds exist,very little research has been conducted towards the causes of the extendedinflammation phase. We describe a mathematical model which offers a possibleexplanation for diabetic wound healing in terms of the distribution ofmacrophage phenotypes being altered in the diabetic patient compared to normalwound repair. As a consequence of this, we put forward a suggestion fortreatment based on rectifying the macrophage phenotype imbalance.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/5f5e46fb3a5d3c2e85c81bef880f91d1\">          <strong>Waugh HV, Sherratt JA. (2006) - version=1.0</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16794927",
+    "journal" : "Bulletin of mathematical biology",
+    "title" : "Macrophage dynamics in diabetic wound dealing.",
+    "affiliation" : "School of Mathematics and Computing, Heriot-Watt University, Riccarton, Edinburgh, EH14 4AS, UK. hwaugh@ma.hw.ac.uk",
+    "synopsis" : "Wound healing in diabetes is a complex process, characterised by a chronic inflammation phase. The exact mechanism by which this occurs is not fully understood, and whilst several treatments for healing diabetic wounds exist, very little research has been conducted towards the causes of the extended inflammation phase. We describe a mathematical model which offers a possible explanation for diabetic wound healing in terms of the distribution of macrophage phenotypes being altered in the diabetic patient compared to normal wound repair. As a consequence of this, we put forward a suggestion for treatment based on rectifying the macrophage phenotype imbalance.",
+    "year" : 2006,
+    "month" : "1",
+    "volume" : "68",
+    "issue" : "1",
+    "pages" : "197-207",
+    "link" : "http://identifiers.org/pubmed/16794927",
+    "authors" : [
+      {
+        "name" : "Helen V Waugh",
+        "institution" : "School of Mathematics and Computing, Heriot-Watt University, Riccarton, Edinburgh, EH14 4AS, UK. hwaugh@ma.hw.ac.uk"
+      },
+      {
+        "name" : "Jonathan A Sherratt"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000681_url.xml",
+        "description" : "SBML L2V4 representation of Waugh2006 - Diabetic Wound Healing - Treated and Untreated Macrophage Dynamics",
+        "fileSize" : "37671",
+        "mimeType" : "application/xml",
+        "md5sum" : "3ce216bc3cf6d609bd6c58ba4cc4c85e",
+        "sha1sum" : "7b238550620e18e96ceff9ddc9f8db7493c493c6",
+        "sha256sum" : "e7a11bcb329cca31f201c3b330521090a33855b1515022d06de50d7360fb914e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000681-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6093",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "29174b197caef3e7ec00f1e8384802be",
+        "sha1sum" : "fd2b1c96728d30ce879b13b7dc0b5582deb580b0",
+        "sha256sum" : "b4329c86eab8d2b1cf0d5ab91803e25aafbf044eb4199a7aa4dfb78dc86e1a0d"
+      },
+      {
+        "name" : "BIOMD0000000681-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "6575",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "36b3131c72c2c83b70b0d66b6038275e",
+        "sha1sum" : "932a3b526abc4afccd02faa15c67b64f508b7b9b",
+        "sha256sum" : "8ea45d8507701e24ac3583fa38cbd1b1acb6a9b738a4b0d61174e1100895034b"
+      },
+      {
+        "name" : "BIOMD0000000681-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4339",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "db56b3dc2bb64e37a6376fc1b54f154c",
+        "sha1sum" : "098c8ba3e14b758ea9c9000d926e1ea4b52a9bef",
+        "sha256sum" : "b54072e7fdd37ed4179ba45b503d11ec99b6a6b6cafc4a97806c24073b12de13"
+      },
+      {
+        "name" : "BIOMD0000000681-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4339",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ec6d58b36e43ca8f1c8363433cb8d144",
+        "sha1sum" : "1952d6e967e0f402b7e0a920ead47a399da8d309",
+        "sha256sum" : "61056aafd0dc366da093238563e65fee200e7e311682912959fd668b5756cedc"
+      },
+      {
+        "name" : "BIOMD0000000681.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4343",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6756c03b6d485dbd44f52c2a87873567",
+        "sha1sum" : "a048135c05e573a0baeec478d2224ef0323dfe27",
+        "sha256sum" : "41d7c9b8c6b5add528cc7629b1ada339cd3504d2451fefc04642db97f6e787be"
+      },
+      {
+        "name" : "BIOMD0000000681.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2410",
+        "mimeType" : "text/plain",
+        "md5sum" : "2cf2b1f4251bef2ade2a2047f0fc5362",
+        "sha1sum" : "cae3ab29e79a890979f0a4df86b59e30464c8d99",
+        "sha256sum" : "9761ba2e936f763abe72b0ad35e19d09ef55ee2dc25430daea403ba81f97e36d"
+      },
+      {
+        "name" : "BIOMD0000000681.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "153780",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c69ec341b9688cb8ff36a489940ef62f",
+        "sha1sum" : "1119b0072fc2a4bb3f8ce25420ceeb9150976a2b",
+        "sha256sum" : "d930b37d72632009ed424a33effc9881d7018274d56c860b3e50e846d2e8be69"
+      },
+      {
+        "name" : "BIOMD0000000681.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000681.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "Waugh2006_3.cps",
+        "description" : "Curated and annotated copasi file.",
+        "fileSize" : "52352",
+        "mimeType" : "application/xml",
+        "md5sum" : "2ef53ca4be4c7bc8ec43eef9f46724db",
+        "sha1sum" : "0122e0b148786bf13449a2d0bf971714085e7d5f",
+        "sha256sum" : "ab9307de376338787394269bdf1d6fee753be0cd47e9920e2c341d8f0e1150ce"
+      },
+      {
+        "name" : "Waugh2006_3.sedml",
+        "description" : "SED-ML file to produce figure 2 (top and middle rows) of the reference publication. A parameter scan with one interval will change the value of the dummy_variable from zero to one, which will then either keep alpha constant or change alpha to 0.2. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "12040",
+        "mimeType" : "application/xml",
+        "md5sum" : "dd3d9e52c12143168792324a6b0028df",
+        "sha1sum" : "9881d1d8ee91e8918013fb2224c025a04b3c5a99",
+        "sha256sum" : "e7e70ba12f9ee52853ab73783bbeff17504bb06c554e1fa14c63f2afb72c7175"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "18289",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "fb73670a3c9cc1e99ced20161920dfeb",
+        "sha1sum" : "6534398cb5d5c78a3054e37f162dc447beb39c58",
+        "sha256sum" : "191b5d1cf051699b84712075dde51e322014f59db3365bcbe25b4d57687e4094"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "594",
+        "mimeType" : "text/plain",
+        "md5sum" : "a343d6ac71c4e4a478c24acb224e0031",
+        "sha1sum" : "026e387a4460aa0f90e6f35bf25fe41f51073343",
+        "sha256sum" : "727b5e92aac8cb14bf770801f56a3f884c2771989660dedc38bbfcca5c303aeb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1901",
+        "mimeType" : "application/xml",
+        "md5sum" : "0c7b8c0dedd463d1caa3c2c278d3225c",
+        "sha1sum" : "60eb34b661d134af9fe7281c3ffb4e9c5aab94a2",
+        "sha256sum" : "3b8fd72407620b1dccbe226c03cc05a620c51b9e18350c0ccc7dc88f08262589"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4632",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c42b605201011e67ce798ed67d0e9207",
+        "sha1sum" : "18034ca8e7d50baae5b26cda29b8117f90f7012f",
+        "sha256sum" : "b8dfb6bbef1af9f671bc41dab2a7be8408a49e70d22a423b1879429e4c909972"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287958,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Waugh2006_WoundHealingMacrophageDynamics_Diabetic_ModelA"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277477304,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Waugh2006_WoundHealingMacrophageDynamics_Diabetic_ModelA"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1519909962,
+        "submitter" : "administrator",
+        "comment" : "Curated and annotated XML file"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724286406,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285408,
+  "submissionId" : "MODEL1006230098",
+  "publicationId" : "BIOMD0000000681",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0061041",
+      "name" : "regulation of wound healing",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0061041"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "16794927",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16794927"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16794927",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16794927"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230098",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230098"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000681",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000681"
+    }
+  ]
+}

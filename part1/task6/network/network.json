@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "curated_on": "2026-09-23",
+    "taxon": 10090,
+    "model_type": "static typed evidence graph",
+    "llm_assisted": true,
+    "experimental_validation_performed": false,
+    "semantics": "Gene product nodes aggregate gene/protein identity. Signs refer only to the named endpoint and context. No rates or reaction stoichiometry."
+  },
+  "nodes": [
+    {
+      "id": "NCBIGene:11303",
+      "label": "Abca1",
+      "type": "gene_product",
+      "taxon": 10090,
+      "id_source": "https://www.ncbi.nlm.nih.gov/gene/11303"
+    },
+    {
+      "id": "NCBIGene:11307",
+      "label": "Abcg1",
+      "type": "gene_product",
+      "taxon": 10090,
+      "id_source": "https://www.ncbi.nlm.nih.gov/gene/11307"
+    },
+    {
+      "id": "NCBIGene:12772",
+      "label": "Ccr2",
+      "type": "gene_product",
+      "taxon": 10090,
+      "id_source": "https://www.ncbi.nlm.nih.gov/gene/12772"
+    },
+    {
+      "id": "NCBIGene:12774",
+      "label": "Ccr5",
+      "type": "gene_product",
+      "taxon": 10090,
+      "id_source": "https://www.ncbi.nlm.nih.gov/gene/12774"
+    },
+    {
+      "id": "NCBIGene:13051",
+      "label": "Cx3cr1",
+      "type": "gene_product",
+      "taxon": 10090,
+      "id_source": "https://www.ncbi.nlm.nih.gov/gene/13051"
+    },
+    {
+      "id": "NCBIGene:16176",
+      "label": "Il1b",
+      "type": "gene_product",
+      "taxon": 10090,
+      "id_source": "https://www.ncbi.nlm.nih.gov/gene/16176"
+    },
+    {
+      "id": "miRBase:MIMAT0000667",
+      "label": "mmu-miR-33-5p",
+      "type": "mature_miRNA",
+      "taxon": 10090,
+      "id_source": "https://mirbase.org/mature/MIMAT0000667"
+    },
+    {
+      "id": "TASK6:efflux_apoa1",
+      "label": "Cholesterinefflux zu ApoA-I",
+      "type": "process_or_phenotype",
+      "taxon": 10090,
+      "id_source": "local definition; task6.qmd"
+    },
+    {
+      "id": "TASK6:efflux_hdl",
+      "label": "Cholesterinefflux zu HDL",
+      "type": "process_or_phenotype",
+      "taxon": 10090,
+      "id_source": "local definition; task6.qmd"
+    },
+    {
+      "id": "TASK6:recruitment_hi",
+      "label": "Plaque-Akkumulation Ly6C-hi",
+      "type": "process_or_phenotype",
+      "taxon": 10090,
+      "id_source": "local definition; task6.qmd"
+    },
+    {
+      "id": "TASK6:recruitment_lo",
+      "label": "Plaque-Akkumulation Ly6C-lo",
+      "type": "process_or_phenotype",
+      "taxon": 10090,
+      "id_source": "local definition; task6.qmd"
+    },
+    {
+      "id": "TASK6:nets",
+      "label": "NETs im Apoe-KO-Plaquekontext",
+      "type": "process_or_phenotype",
+      "taxon": 10090,
+      "id_source": "local definition; task6.qmd"
+    },
+    {
+      "id": "TASK6:lesion",
+      "label": "Atherosklerotische Lesionslast",
+      "type": "process_or_phenotype",
+      "taxon": 10090,
+      "id_source": "local definition; task6.qmd"
+    }
+  ],
+  "edges": [
+    {
+      "id": "T6E01",
+      "source": "miRBase:MIMAT0000667",
+      "target": "NCBIGene:11303",
+      "relation": "represses_expression",
+      "sign": -1,
+      "taxon": 10090,
+      "module": "lipid_miRNA",
+      "cell_context": "mouse macrophages; supporting heterologous 3UTR reporter assays",
+      "source_pmid": "20466885",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20466885/",
+      "evidence": "mouse expression perturbation; human ABCA1 3UTR reporter support",
+      "locator": "Results; Figs 2-3",
+      "limitation": "Legacy miR-33 mapped to mature 5p; no 3p inference; reporter context differs from plaque"
+    },
+    {
+      "id": "T6E02",
+      "source": "miRBase:MIMAT0000667",
+      "target": "NCBIGene:11307",
+      "relation": "represses_expression",
+      "sign": -1,
+      "taxon": 10090,
+      "module": "lipid_miRNA",
+      "cell_context": "mouse macrophages; supporting heterologous 3UTR reporter assays",
+      "source_pmid": "20466885",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20466885/",
+      "evidence": "mouse expression perturbation; mouse Abcg1 3UTR reporter support",
+      "locator": "Results; Figs 2-3",
+      "limitation": "Legacy miR-33 mapped to mature 5p; no 3p inference; reporter context differs from plaque; Abcg1 targeting is species-specific"
+    },
+    {
+      "id": "T6E03",
+      "source": "NCBIGene:11303",
+      "target": "TASK6:efflux_apoa1",
+      "relation": "supports_efflux",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "lipid_miRNA",
+      "cell_context": "mouse macrophages; acceptor-specific cholesterol efflux",
+      "source_pmid": "20466885",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20466885/",
+      "evidence": "functional efflux evidence; pathway abstraction",
+      "locator": "Results; Fig 4",
+      "limitation": "Not a stoichiometric transport reaction; flux cannot be inferred from mRNA alone"
+    },
+    {
+      "id": "T6E04",
+      "source": "NCBIGene:11307",
+      "target": "TASK6:efflux_hdl",
+      "relation": "supports_efflux",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "lipid_miRNA",
+      "cell_context": "mouse macrophages; acceptor-specific cholesterol efflux",
+      "source_pmid": "20466885",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20466885/",
+      "evidence": "functional efflux evidence; pathway abstraction",
+      "locator": "Results; Fig 4",
+      "limitation": "Not a stoichiometric transport reaction; flux cannot be inferred from mRNA alone"
+    },
+    {
+      "id": "T6E05",
+      "source": "NCBIGene:12772",
+      "target": "TASK6:recruitment_hi",
+      "relation": "supports_accumulation",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "monocytes",
+      "cell_context": "Ly6C-hi monocytes; Apoe-deficient mouse atherosclerosis",
+      "source_pmid": "17200718",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17200718/",
+      "evidence": "receptor perturbation and monocyte tracking",
+      "locator": "Results: receptor use by subsets",
+      "limitation": "Accumulation includes recruitment and survival; not a direct transcriptional interaction"
+    },
+    {
+      "id": "T6E06",
+      "source": "NCBIGene:12774",
+      "target": "TASK6:recruitment_hi",
+      "relation": "supports_accumulation",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "monocytes",
+      "cell_context": "Ly6C-hi monocytes; Apoe-deficient mouse atherosclerosis",
+      "source_pmid": "17200718",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17200718/",
+      "evidence": "receptor perturbation and monocyte tracking",
+      "locator": "Results: receptor use by subsets",
+      "limitation": "Accumulation includes recruitment and survival; not a direct transcriptional interaction"
+    },
+    {
+      "id": "T6E07",
+      "source": "NCBIGene:13051",
+      "target": "TASK6:recruitment_hi",
+      "relation": "supports_accumulation",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "monocytes",
+      "cell_context": "Ly6C-hi monocytes; Apoe-deficient mouse atherosclerosis",
+      "source_pmid": "17200718",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17200718/",
+      "evidence": "receptor perturbation and monocyte tracking",
+      "locator": "Results: receptor use by subsets",
+      "limitation": "Accumulation includes recruitment and survival; not a direct transcriptional interaction"
+    },
+    {
+      "id": "T6E08",
+      "source": "NCBIGene:12774",
+      "target": "TASK6:recruitment_lo",
+      "relation": "supports_accumulation",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "monocytes",
+      "cell_context": "Ly6C-lo monocytes; Apoe-deficient mouse atherosclerosis",
+      "source_pmid": "17200718",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17200718/",
+      "evidence": "receptor perturbation and monocyte tracking",
+      "locator": "Results: CCR5 dependence",
+      "limitation": "Partial dependence; cannot substitute Ly6C-hi context"
+    },
+    {
+      "id": "T6E09",
+      "source": "TASK6:nets",
+      "target": "NCBIGene:16176",
+      "relation": "supports_expression_indirectly",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "neutrophil_macrophage",
+      "cell_context": "Apoe-deficient mouse aorta; macrophage-associated IL1b",
+      "source_pmid": "26185250",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26185250/",
+      "evidence": "indirect in vivo perturbation evidence",
+      "locator": "Fig 3A-D",
+      "limitation": "NE/PR3 deficiency and DNase are not perfectly NET-specific; detailed priming assay used HUMAN monocytes; mRNA and protein not equivalent to mature cytokine"
+    },
+    {
+      "id": "T6E10",
+      "source": "TASK6:nets",
+      "target": "TASK6:lesion",
+      "relation": "supports_lesion_burden_indirectly",
+      "sign": 1,
+      "taxon": 10090,
+      "module": "neutrophil_macrophage",
+      "cell_context": "Apoe-deficient mouse atherosclerosis",
+      "source_pmid": "26185250",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26185250/",
+      "evidence": "indirect in vivo perturbation evidence",
+      "locator": "Fig 2",
+      "limitation": "Model- and stage-specific phenotype; no quantitative human CAD risk prediction"
+    }
+  ]
+}

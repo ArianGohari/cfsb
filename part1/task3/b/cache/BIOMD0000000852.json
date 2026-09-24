@@ -1,0 +1,274 @@
+{
+  "name" : "Andersen2017 - Mathematical modelling as a proof of concept for MPNs as a human inflammation model for cancer development",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model investigating the role of chronic inflammation in the development and progression of myeloproliferative neoplasms (MPNs). The model describes the proliferation from stem cells to mature cells, including mutations of healthy stem cells to become malignant stem cells. The model also features a simple inflammatory coupling coping with cell death and affecting the basic model beneath.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "28859112",
+    "journal" : "PloS one",
+    "title" : "Mathematical modelling as a proof of concept for MPNs as a human inflammation model for cancer development.",
+    "affiliation" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark.",
+    "synopsis" : "The chronic Philadelphia-negative myeloproliferative neoplasms (MPNs) are acquired stem cell neoplasms which ultimately may transform to acute myelogenous leukemia. Most recently, chronic inflammation has been described as an important factor for the development and progression of MPNs in the biological continuum from early cancer stage to the advanced myelofibrosis stage, the MPNs being described as \"A Human Inflammation Model for Cancer Development\". This novel concept has been built upon clinical, experimental, genomic, immunological and not least epidemiological studies. Only a few studies have described the development of MPNs by mathematical models, and none have addressed the role of inflammation for clonal evolution and disease progression. Herein, we aim at using mathematical modelling to substantiate the concept of chronic inflammation as an important trigger and driver of MPNs.The basics of the model describe the proliferation from stem cells to mature cells including mutations of healthy stem cells to become malignant stem cells. We include a simple inflammatory coupling coping with cell death and affecting the basic model beneath. First, we describe the system without feedbacks or regulatory interactions. Next, we introduce inflammatory feedback into the system. Finally, we include other feedbacks and regulatory interactions forming the inflammatory-MPN model. Using mathematical modeling, we add further proof to the concept that chronic inflammation may be both a trigger of clonal evolution and an important driving force for MPN disease progression. Our findings support intervention at the earliest stage of cancer development to target the malignant clone and dampen concomitant inflammation.",
+    "year" : 2017,
+    "month" : "0",
+    "volume" : "12",
+    "issue" : "8",
+    "pages" : "e0183620",
+    "link" : "http://identifiers.org/pubmed/28859112",
+    "authors" : [
+      {
+        "name" : "Morten Andersen",
+        "institution" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark.",
+        "orcid" : "0000-0001-7582-0685"
+      },
+      {
+        "name" : "Zamra Sajid",
+        "institution" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark."
+      },
+      {
+        "name" : "Rasmus K Pedersen",
+        "institution" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark.",
+        "orcid" : "0000-0001-5946-8220"
+      },
+      {
+        "name" : "Johanne Gudmand-Hoeyer",
+        "institution" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark.",
+        "orcid" : "0000-0002-4972-0653"
+      },
+      {
+        "name" : "Christina Ellervik",
+        "institution" : "Department of Laboratory Medicine at Boston Children's Hospital, Boston, Massachusetts, United States of America.",
+        "orcid" : "0000-0002-3088-4375"
+      },
+      {
+        "name" : "Vibe Skov",
+        "institution" : "Department of Hematology, Zealand University Hospital, University of Copenhagen, Roskilde, Denmark."
+      },
+      {
+        "name" : "Lasse Kjær",
+        "institution" : "Department of Hematology, Zealand University Hospital, University of Copenhagen, Roskilde, Denmark."
+      },
+      {
+        "name" : "Niels Pallisgaard",
+        "institution" : "Department of Pathology, Zealand University Hospital, University of Copenhagen, Roskilde, Denmark.",
+        "orcid" : "0000-0002-0749-0810"
+      },
+      {
+        "name" : "Torben A Kruse",
+        "institution" : "Department of Clinical Genetics, Odense University Hospital, Odense, Denmark."
+      },
+      {
+        "name" : "Mads Thomassen",
+        "institution" : "Department of Clinical Genetics, Odense University Hospital, Odense, Denmark."
+      },
+      {
+        "name" : "Jesper Troelsen",
+        "institution" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark.",
+        "orcid" : "0000-0002-4177-3267"
+      },
+      {
+        "name" : "Hans Carl Hasselbalch",
+        "institution" : "Department of Hematology, Zealand University Hospital, University of Copenhagen, Roskilde, Denmark.",
+        "orcid" : "0000-0003-3936-8032"
+      },
+      {
+        "name" : "Johnny T Ottesen",
+        "institution" : "Department of Science and Environment, Roskilde University, Roskilde, Denmark."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Andersen2017.xml",
+        "description" : "SBML L2V4 Representation of Andersen2017 - Mathematical modelling as a proof of concept for MPNs as a human inflammation model for cancer development",
+        "fileSize" : "77905",
+        "mimeType" : "application/xml",
+        "md5sum" : "21a01d2124cc8e59442813c3ef13ab7d",
+        "sha1sum" : "fa2d0e91a9ef512035f7503d9a16318493d0b1fb",
+        "sha256sum" : "2f9ed57effd652d7941af9c1b36f3a1d3705a1e62bfaa09b870eeaa31735bdb5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Andersen2017-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "19748",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f3a5d0c24d7cd401dfd28475ccefc06c",
+        "sha1sum" : "0ef093bcb4a6e1edf4670337bbeeca6e1d548ea4",
+        "sha256sum" : "26b340c6dddedf0fc0b348f64686f24fa4561ddb8f7fc38cfb26e7bc2bf5c86c"
+      },
+      {
+        "name" : "Andersen2017-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "29258",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3d297a0ef5c27e3e10967249f52b37f1",
+        "sha1sum" : "6dd18483f2b20cba4559f336b91bd16f8174cfac",
+        "sha256sum" : "e57ea91c8459f927040f68d48dfd33e22954dfd6b901d9287226933ec8b5e9f3"
+      },
+      {
+        "name" : "Andersen2017-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10125",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "080a3990d6d2bc513b5e86748c036d96",
+        "sha1sum" : "9e4221cdb9784796229250bd1326f594f6dd7e6e",
+        "sha256sum" : "a64406fd2a4c8617879b4ee850869fd98782b173d8f388159192eb0be3fd1506"
+      },
+      {
+        "name" : "Andersen2017-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10125",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3de1142cd2db33fb06a12fb82bb8747e",
+        "sha1sum" : "f824ccb4b7a786ed7aa8f041e5c99d2bc96555f1",
+        "sha256sum" : "c610c196a174e86b81b582b85101a043429826f77d52b54ea8ffb55c1894e340"
+      },
+      {
+        "name" : "Andersen2017.cps",
+        "description" : "COPASI file of Andersen2017 - Mathematical modelling as a proof of concept for MPNs as a human inflammation model for cancer development",
+        "fileSize" : "113739",
+        "mimeType" : "application/xml",
+        "md5sum" : "ee2763d04ea5380e33a4abeb4a97131f",
+        "sha1sum" : "ded70d36d575004f38c56a78607bdf14b39d23b1",
+        "sha256sum" : "d0d9b967eb97cf952ab3b44a5178dd0157f2154faec386bbdb7f8fb19b907864"
+      },
+      {
+        "name" : "Andersen2017.sedml",
+        "description" : "SED-ML file of Andersen2017 - Mathematical modelling as a proof of concept for MPNs as a human inflammation model for cancer development (additionally CRBM-validated and adjusted).",
+        "fileSize" : "33681",
+        "mimeType" : "application/xml",
+        "md5sum" : "3d284cb28fb0d112289e4f3884d48658",
+        "sha1sum" : "7a4a2ac0b9a70b1d9c53ebf3c308824865afb8be",
+        "sha256sum" : "916502063f4c3b5d16f6c73f3f0cfd6bae4d50473fc7f5bd3129314e8b09984f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "24959",
+        "mimeType" : "image/png",
+        "md5sum" : "8f6380fb1b31eb7cfe7c48cd4cbb04da",
+        "sha1sum" : "75f56a43dda27b191995641a7747f3e71c761cd0",
+        "sha256sum" : "f20e57e4a753c11873609698c3f71bea65959a9a4b0acc7bcd7a73fa1e9a0f01"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "126",
+        "mimeType" : "text/plain",
+        "md5sum" : "ef68c0bd57b481e23dd3f086888ae103",
+        "sha1sum" : "1a78891fa5faa6cc5efa1037791a147b08330c68",
+        "sha256sum" : "c9d66e97612d7acd206a77d27762a7bb9ec02e452f0e24f51c3022ebe74bfaff"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1319",
+        "mimeType" : "application/xml",
+        "md5sum" : "1eb6f66bedf20761e9f821f89e856c63",
+        "sha1sum" : "e976ff76e5b8322b71676ea522700954c5902526",
+        "sha256sum" : "46beb4691daee197caa2b0003a099326d591c6e43096747f9541e4b7a4a82458"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2274",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b04e4c0da428674f5bd9c39ed1c68d9f",
+        "sha1sum" : "227f00250a26474c06bf4dd5977089a19ae99fb0",
+        "sha256sum" : "09c536e3089d3b4513bcaeb6bafaceb0e17dda09bbc54ef4cea5e7c4cd7ec24d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1573569566,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000852"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724291265,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285511,
+  "submissionId" : "MODEL1911120005",
+  "publicationId" : "BIOMD0000000852",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "28859112",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/28859112"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911120005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911120005"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000852",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000852"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MP:0002499",
+      "resource" : "Mammalian Phenotype Ontology",
+      "uri" : "http://identifiers.org/mp/MP:0002499"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C4345",
+      "name" : "Myeloproliferative Neoplasm",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C4345"
+    }
+  ]
+}

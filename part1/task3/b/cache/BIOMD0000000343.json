@@ -1,0 +1,372 @@
+{
+  "name" : "Brannmark2010_InsulinSignalling_Mifamodel",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Mass and information feedbacks through receptor endocytosis govern insulin signaling as revealed using a parameter-free modeling framework.</strong>        <br />Brannmark C, Palmer R, Glad ST, Cedersund G, Stralfors P.      <em>J Biol Chem.</em>2010 Jun 25;285(26):20171-9.       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20421297\">20421297</a>,      <br />        <strong>Abstract:</strong>        <br />Insulin and other hormones control target cells through a network of signal-mediating molecules. Such networks are extremely complex due to multiple feedback loops in combination with redundancy, shared signal mediators, and cross-talk between signal pathways. We present a novel framework that integrates experimental work and mathematical modeling to quantitatively characterize the role and relation between co-existing submechanisms in complex signaling networks. The approach is independent of knowing or uniquely estimating model parameters because it only relies on (i) rejections and (ii) core predictions (uniquely identified properties in unidentifiable models). The power of our approach is demonstrated through numerous iterations between experiments, model-based data analyses, and theoretical predictions to characterize the relative role of co-existing feedbacks governing insulin signaling. We examined phosphorylation of the insulin receptor and insulin receptor substrate-1 and endocytosis of the receptor in response to various different experimental perturbations in primary human adipocytes. The analysis revealed that receptor endocytosis is necessary for two identified feedback mechanisms involving mass and information transfer, respectively. Experimental findings indicate that interfering with the feedback may substantially increase overall signaling strength, suggesting novel therapeutic targets for insulin resistance and type 2 diabetes. Because the central observations are present in other signaling networks, our results may indicate a general mechanism in hormonal control.   </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20421297",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "Mass and information feedbacks through receptor endocytosis govern insulin signaling as revealed using a parameter-free modeling framework.",
+    "affiliation" : "Division of Cell Biology, Department of Clinical and Experimental Medicine, Laboratory of Diabetes and Integrated Systems Biology, Linköping University, SE58185 Linköping, Sweden.",
+    "synopsis" : "Insulin and other hormones control target cells through a network of signal-mediating molecules. Such networks are extremely complex due to multiple feedback loops in combination with redundancy, shared signal mediators, and cross-talk between signal pathways. We present a novel framework that integrates experimental work and mathematical modeling to quantitatively characterize the role and relation between co-existing submechanisms in complex signaling networks. The approach is independent of knowing or uniquely estimating model parameters because it only relies on (i) rejections and (ii) core predictions (uniquely identified properties in unidentifiable models). The power of our approach is demonstrated through numerous iterations between experiments, model-based data analyses, and theoretical predictions to characterize the relative role of co-existing feedbacks governing insulin signaling. We examined phosphorylation of the insulin receptor and insulin receptor substrate-1 and endocytosis of the receptor in response to various different experimental perturbations in primary human adipocytes. The analysis revealed that receptor endocytosis is necessary for two identified feedback mechanisms involving mass and information transfer, respectively. Experimental findings indicate that interfering with the feedback may substantially increase overall signaling strength, suggesting novel therapeutic targets for insulin resistance and type 2 diabetes. Because the central observations are present in other signaling networks, our results may indicate a general mechanism in hormonal control.",
+    "year" : 2010,
+    "month" : "6",
+    "volume" : "285",
+    "issue" : "26",
+    "pages" : "20171-20179",
+    "link" : "http://identifiers.org/pubmed/20421297",
+    "authors" : [
+      {
+        "name" : "Cecilia Brännmark",
+        "institution" : "Division of Cell Biology, Department of Clinical and Experimental Medicine, Laboratory of Diabetes and Integrated Systems Biology, Linköping University, SE58185 Linköping, Sweden."
+      },
+      {
+        "name" : "Robert Palmér"
+      },
+      {
+        "name" : "S Torkel Glad"
+      },
+      {
+        "name" : "Gunnar Cedersund"
+      },
+      {
+        "name" : "Peter Strålfors",
+        "institution" : "Department of Clinical and Experimental Medicine, Linköping University, SE-58185, Linköping, Sweden.",
+        "orcid" : "0000-0002-1196-1806"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000343_url.xml",
+        "description" : "SBML L2V4 representation of Brannmark2010_InsulinSignalling_Mifamodel",
+        "fileSize" : "23328",
+        "mimeType" : "application/xml",
+        "md5sum" : "0ce8617749ea6c5fea12fac41e05f764",
+        "sha1sum" : "f33dd4cd2996349c05444765aedd796cef289d5d",
+        "sha256sum" : "e6071ea0b9c38566ac209b7a99382599cc8dcce68ccdab7d51ab5ee865022106"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000343-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "8501",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "493573d9ea33d7878072f82e92a4cd50",
+        "sha1sum" : "6f07605dc7cb9acbd1f9de7c8713fc891f3a463c",
+        "sha256sum" : "5d9b91edb904e89be24f6e4083b05520e8003ca794844c1fba7728f38aa3e38c"
+      },
+      {
+        "name" : "BIOMD0000000343-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "11125",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6b93ec34834ec29dbb11fe34682f53af",
+        "sha1sum" : "3ad0896935fd387687ceb87fc46efae0f40a6d17",
+        "sha256sum" : "35e863343d068162f137d7d501873da5d59af49bac7f242f55832820560a7184"
+      },
+      {
+        "name" : "BIOMD0000000343-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8299",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e5d7b65b555084416ffbfacbe22c34fa",
+        "sha1sum" : "51051c42f590a32c39eabd2f3113f7cbb47fb919",
+        "sha256sum" : "ecf72254db5c491b9ec5b2783d69cef70a7025edfcff0915a0bc81a1a4d5d4bb"
+      },
+      {
+        "name" : "BIOMD0000000343.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "8299",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "005033f0dcdd9777f2a1723c95784cc6",
+        "sha1sum" : "4771024501ca37c82a5b2a5cace9ff9afee2a9ff",
+        "sha256sum" : "7eb2172174054570c29c2d268c93214578416a3fe9fa52637cd24d503b59b18d"
+      },
+      {
+        "name" : "BIOMD0000000343.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5463",
+        "mimeType" : "text/plain",
+        "md5sum" : "835e6cce1a5a0a4b24cc89853170dcf9",
+        "sha1sum" : "dfb6617941d54cb82edd2dcdccef0db2a570aba9",
+        "sha256sum" : "92fc25a959ee4a9a32610a9d7edfeb541b1ca7d7e9cba19aecdb9f8efbe8bb7e"
+      },
+      {
+        "name" : "BIOMD0000000343.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "174891",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7639363fda8e7f8a2e03fd87d008e27e",
+        "sha1sum" : "63d4bac47c3140dcb2c670a6cf3bdd060a236361",
+        "sha256sum" : "03f10edd5309e562374a0aae7376e401e30c399d9f542173fb6fe58428512f82"
+      },
+      {
+        "name" : "BIOMD0000000343.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000343.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3942",
+        "mimeType" : "text/plain",
+        "md5sum" : "168c56dd61dbd4874f9eeace37844131",
+        "sha1sum" : "8986b10eab0d4543a8b043e3148955a65f7f1806",
+        "sha256sum" : "7b91fb72e24b07f276749a6a0f61a301fa8b21c20c18bf0ddfcddb7a38b7d46d"
+      },
+      {
+        "name" : "BIOMD0000000343.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "2496",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "04515c4c68948c76d2164c261ba3d8f6",
+        "sha1sum" : "da0c02f42c29f7e65408e9407e0276d278603543",
+        "sha256sum" : "e39fc9f86d4f8db760edaa5976b861f71de52db42c4424c81a994895bfa17732"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "5028",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "78527ad6c91b61a98267200d640c674d",
+        "sha1sum" : "1577bc8fcbcf2512e622913fcf2acc6d46a6eb81",
+        "sha256sum" : "38a03937e7eed07f449607dac0bd0c4748604e6d87902c8db103657aa48dfced"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8368",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c647b87a8782038e457302f6d14c46f4",
+        "sha1sum" : "47e0caaac04cbc2b279067ed736e05cc85984e24",
+        "sha256sum" : "2833f423495f85072f92b0abf89def5005b9baf6c73fdb47889b9b887e2d963e"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8368",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e73da20d3aa0e7733fb26b2948ea8ff7",
+        "sha1sum" : "2ad52115c7f25faefc543f930d39d71bc126799a",
+        "sha256sum" : "9dcc042f1868ac6e12823ed7980fff374948e01cc3845b470ada0374ca967918"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent.cps",
+        "description" : "To produce plot D, an event function representing two step addition of insulin is required. This event function is included in the following model.",
+        "fileSize" : "53949",
+        "mimeType" : "application/xml",
+        "md5sum" : "e93d57be001d99501c598355e1c0df02",
+        "sha1sum" : "d1cd73d218da9cfa3de042db565c5f613a617b8f",
+        "sha256sum" : "61338403e0ae478944499c2b5e48da77d2a4b919c95190a0e467d5f5601a88ae"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5488",
+        "mimeType" : "text/plain",
+        "md5sum" : "2146a5124d7acfa1244fa0f5731bb806",
+        "sha1sum" : "d01777fa1373a3a4d0fb27e50ee4ad267d3bf203",
+        "sha256sum" : "53edf3d49a022154e4819098b904bf0c6172d4f2a8706ca600157121eef01415"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "25359",
+        "mimeType" : "application/xml",
+        "md5sum" : "b650009e4abc662b7e4f4842ab3d27e5",
+        "sha1sum" : "3048ae9bcb2d9647bbdb162f127c27376f9ba8a6",
+        "sha256sum" : "e4c302dbcaa1c105edf0dc74892082280944b43d3560ca869b688eb8655b6933"
+      },
+      {
+        "name" : "BIOMD0000000343_withevent.xml",
+        "description" : "To produce plot D, an event function representing two step addition of insulin is required. This event function is included in the following model.",
+        "fileSize" : "38436",
+        "mimeType" : "application/xml",
+        "md5sum" : "6558c34fb0e2fedd7c5260bacbfe9311",
+        "sha1sum" : "90668cedef2aa757ce63c78cd4191628a9e97105",
+        "sha256sum" : "5bc3a22b06f2f5d219c5761d34e8dc390329bd60f6c4ece1e9f8afa1d55f2153"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "91236",
+        "mimeType" : "image/png",
+        "md5sum" : "66f8b3b94d5ae14af49153ecd2ad9efb",
+        "sha1sum" : "939b2775ac0e104800f53e507547a92e94bbafbd",
+        "sha256sum" : "5cf829a326149a7b1f74be8e91cbf74dc77335ad2df9b0455a486bd428bfbaf7"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "306",
+        "mimeType" : "text/plain",
+        "md5sum" : "5a86e52301fd512aafe410cd5392125d",
+        "sha1sum" : "d2aa3c9860a327cae410923acf167a7a7883b54b",
+        "sha256sum" : "fbf73515b0a3717b5534c39f724226e094bb6beecb83267d97ca20f105b81cdb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2714",
+        "mimeType" : "application/xml",
+        "md5sum" : "e7c8cebeb023c397cd270ff322197231",
+        "sha1sum" : "bc5aa63ae71b658de61a8bd8e39cd3a374083f25",
+        "sha256sum" : "c3ea1d1f5636a250e62e64cafab1c99a270381b2654ef0220484be77759fbe3f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4109",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f4dd956c43dfa066d7d434d57d0f9890",
+        "sha1sum" : "01fd225dfb19203ccc667d1ddb390aeb10c20a4d",
+        "sha256sum" : "056cfb4e3da4cd8eb979c410115c378cd559d5be1674e44b916e5b50fbc7148a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1310652385,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Original import of model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138462,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Current version of Brannmark2010_InsulinSignalling_Mifamodel"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545412329,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: BIOMD0000000343_withevent.xml, BIOMD0000000343_withevent.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724274130,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285060,
+  "submissionId" : "MODEL1107140000",
+  "publicationId" : "BIOMD0000000343",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Ishan Ajmera",
+        "email" : "ajmera@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1107140000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1107140000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000343",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000343"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20421297",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20421297"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0008286",
+      "name" : "insulin receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008286"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000443",
+      "name" : "adipocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000443"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0038016",
+      "name" : "insulin receptor internalization",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0038016"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

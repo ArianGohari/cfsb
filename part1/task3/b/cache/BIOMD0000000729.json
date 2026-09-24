@@ -1,0 +1,246 @@
+{
+  "name" : "Goldbeter1996 - Cyclin Cdc2 kinase Oscillations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>We consider a minimal cascade model previously proposed for the mitotic oscillator driving the embryonic cell division cycle. The model is based on a bicyclic phosphorylation-dephosphorylation cascade involving cyclin and cdc2 kinase. By constructing stability diagrams showing domains of periodic behavior as a function of the maximum rates of the kinases and phosphatases involved in the two cycles of the cascade, we investigate the role of these converter enzymes in the oscillatory mechanism. Oscillations occur when the balance of kinase and phosphatase rates in each cycle is in a range bounded by two critical values. The results suggest ways to arrest the mitotic oscillator by altering the maximum rates of the converter enzymes. These results bear on the control of cell proliferation.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "8631387",
+    "journal" : "Experientia",
+    "title" : "Arresting the mitotic oscillator and the control of cell proliferation: insights from a cascade model for cdc2 kinase activation.",
+    "affiliation" : "Faculté des Sciences, Université Libre de Bruxelles, Belgium.",
+    "synopsis" : "We consider a minimal cascade model previously proposed for the mitotic oscillator driving the embryonic cell division cycle. The model is based on a bicyclic phosphorylation-dephosphorylation cascade involving cyclin and cdc2 kinase. By constructing stability diagrams showing domains of periodic behavior as a function of the maximum rates of the kinases and phosphatases involved in the two cycles of the cascade, we investigate the role of these converter enzymes in the oscillatory mechanism. Oscillations occur when the balance of kinase and phosphatase rates in each cycle is in a range bounded by two critical values. The results suggest ways to arrest the mitotic oscillator by altering the maximum rates of the converter enzymes. These results bear on the control of cell proliferation.",
+    "year" : 1996,
+    "month" : "3",
+    "volume" : "52",
+    "issue" : "3",
+    "pages" : "212-216",
+    "link" : "http://identifiers.org/pubmed/8631387",
+    "authors" : [
+      {
+        "name" : "A Goldbeter",
+        "institution" : "Faculté des Sciences, Université Libre de Bruxelles, Belgium."
+      },
+      {
+        "name" : "J M Guilmot"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Goldbeter1996.xml",
+        "description" : "SBML lvl2 file containing the model",
+        "fileSize" : "50423",
+        "mimeType" : "application/xml",
+        "md5sum" : "77bf0acf206f42828acf96120a312e62",
+        "sha1sum" : "0c0bc62c293e0e6277ddbc8b0adc17b12de1c752",
+        "sha256sum" : "106b7fbb1ffa358c92447f22726ddbaa6353f01b6dcc67a148107e279b9482a8"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Goldbeter1996-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "10397",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8813bb05f41065f2797db0fe64321ec5",
+        "sha1sum" : "c4d77ade93db0fbefb7669690a59d55b50b74a62",
+        "sha256sum" : "635b286caf0836f97dd11094eff49dbae1c10d928a212506b08f6acf52e03ca3"
+      },
+      {
+        "name" : "Goldbeter1996-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "14042",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b46b85d0fa2dfa4783a015a345027872",
+        "sha1sum" : "46d0d4e88b3d761d3c9680253f97e4862223e943",
+        "sha256sum" : "05e3a3fbab9a1b22276d1d67b4c4ba81023830c87ee1c58d25e3858910176d75"
+      },
+      {
+        "name" : "Goldbeter1996-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5127",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4d305f8090f08ef0ade3105eaf5b6e86",
+        "sha1sum" : "d56b51520d730003cc13dde6840e7593dbbe1dd7",
+        "sha256sum" : "36415987714ec649fa045949e6c9612dcbf3ccfd25746ae0079dee493ea09a84"
+      },
+      {
+        "name" : "Goldbeter1996-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5127",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0e2e1de59bf19128c274d76262c1c350",
+        "sha1sum" : "f40f772eed870a2cd08282ddb12c71325544c8b3",
+        "sha256sum" : "29749b8823fd241e721d3e1fa8d32148a462b585b39065ea8ce9e44515727c1f"
+      },
+      {
+        "name" : "Goldbeter1996.cps",
+        "description" : "Copasi file to generate the plot",
+        "fileSize" : "68996",
+        "mimeType" : "application/xml",
+        "md5sum" : "730d4a3d93568df43632964989d165ba",
+        "sha1sum" : "8aed0640323a02329fa983d61b7882a812ed05ba",
+        "sha256sum" : "0643f3f85263d4f4139850af104ce1f6750c1a87efc64430934eef3809734756"
+      },
+      {
+        "name" : "Goldbeter1996.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3337",
+        "mimeType" : "text/plain",
+        "md5sum" : "04532d2b3e0202c05722f18b9204212f",
+        "sha1sum" : "62d5ddc78aa1f3bb601e72441651691b23a4497b",
+        "sha256sum" : "a72d898c70f4c96af509e45fbec572835b7f3827d320d3f6e3e5f5363c465a90"
+      },
+      {
+        "name" : "Goldbeter1996.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "16910",
+        "mimeType" : "application/xml",
+        "md5sum" : "8928cb9f45c730082383c52a5cd3bdb3",
+        "sha1sum" : "1834630f9fdf4947b4d5961820c9815c2a425dae",
+        "sha256sum" : "c1af85691002044af54274f6516e48ab9198ce129f9e1a8bfaae29522266cbfd"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "135978",
+        "mimeType" : "image/png",
+        "md5sum" : "3dcb64b4c20dd0c9a9e039b8b6c73a1a",
+        "sha1sum" : "bf82dfe943035810b122290aee85ba2e27b3b4ec",
+        "sha256sum" : "09d89211947b8b4f668974d3672549fd1ca873649b7a7cc959c0cd6dc5f0fb2e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "58",
+        "mimeType" : "text/plain",
+        "md5sum" : "719e2e38393aa77947346204055d0b20",
+        "sha1sum" : "69dda9f1efa7a8ab59dda079f239c777674dea11",
+        "sha256sum" : "7ffb93087b0c1fce69f7c9d5b8822b67a90ff076e2b1f260b66fa15f5d0f8384"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1435",
+        "mimeType" : "application/xml",
+        "md5sum" : "6e1823e0b72524c860c7a4fd965db1d8",
+        "sha1sum" : "aa703628fdd1862860e01186561dbda0e345f0b2",
+        "sha256sum" : "d99ba518c7ea1e1379e942dbb78d7933c8ae53386e32a7249a5ff59615f68330"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2492",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9047fdfd1c3d31e0dcbe5bd0bb4a1c71",
+        "sha1sum" : "6669b4f250883ca92a4d89690a8c5b1188037fa7",
+        "sha256sum" : "5b7e3dfdd4b416322ab1f8a2cb3aca5f8e6bbec7c0ee5609becb999d0c393959"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1544623361,
+        "submitter" : "Ashley Xavier",
+        "comment" : "Automatically added model identifier BIOMD0000000729"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1562950611,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "updated xml file for bqbiol error flagged"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724288020,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285429,
+  "submissionId" : "MODEL1812120005",
+  "publicationId" : "BIOMD0000000729",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ashley Xavier",
+        "email" : "ashleythomasxavier@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0001-5372-3024",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "8631387",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8631387"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000729",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000729"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1812120005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1812120005"
+    }
+  ]
+}

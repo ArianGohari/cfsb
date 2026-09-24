@@ -1,0 +1,366 @@
+{
+  "name" : "Nayak2015 - Blood Coagulation Network - Predicting the Effects of Various Therapies on Biomarkers",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Nayak2015 - Blood Coagulation Network - Predicting the Effects of Various Therapies on Biomarkers</div>        <div class=\"dc:description\">          <div style=\"font-weight: bold\">Note:</div>          <div>The SBML model is generated from SimBiology. The SimBiology (.sbproj) file is available for download from the curation tab.   </div>      </div>      <div class=\"dc:bibliographicCitation\">        <p>This model is described in the article:</p>        <div class=\"bibo:title\">          <a href=\"http://identifiers.org/pubmed/26312163\" title=\"Access to this publication\">Using a Systems Pharmacology Model of the Blood Coagulation Network to Predict the Effects of Various Therapies on Biomarkers.</a>        </div>        <div class=\"bibo:authorList\">Nayak S, Lee D, Patel-Hett S, Pittman DD, Martin SW, Heatherington AC, Vicini P, Hua F.</div>        <div class=\"bibo:Journal\">CPT Pharmacometrics Syst Pharmacol. 2015 Jul;4(7):396-405.</div>        <p>Abstract:</p>        <div class=\"bibo:abstract\">          <p>A number of therapeutics have been developed or are under development aiming to modulate the coagulation network to treat various diseases. We used a systems model to better understand the effect of modulating various components on blood coagulation. A computational model of the coagulation network was built to match in-house in vitro thrombin generation and activated Partial Thromboplastin Time (aPTT) data with various concentrations of recombinant factor VIIa (FVIIa) or factor Xa added to normal human plasma or factor VIII-deficient plasma. Sensitivity analysis applied to the model revealed that lag time, peak thrombin concentration, area under the curve (AUC) of the thrombin generation profile, and aPTT show different sensitivity to changes in coagulation factors' concentrations and type of plasma used (normal or factor VIII-deficient). We also used the model to explore how variability in concentrations of the proteins in coagulation network can impact the response to FVIIa treatment.     </p>        </div>      </div>      <div class=\"dc:publisher\">        <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1511160000\">MODEL1511160000</a>.</p>      <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/26225232\" title=\"Latest BioModels Database publication\">BioModels:  Content, Features, Functionality and Use.</a>  </p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26312163",
+    "journal" : "CPT: pharmacometrics & systems pharmacology",
+    "title" : "Using a Systems Pharmacology Model of the Blood Coagulation Network to Predict the Effects of Various Therapies on Biomarkers.",
+    "affiliation" : "Pharmacometrics, Global Innovative Pharma Business (GIPB), Pfizer Inc. Cambridge, Massachusetts, USA.",
+    "synopsis" : "A number of therapeutics have been developed or are under development aiming to modulate the coagulation network to treat various diseases. We used a systems model to better understand the effect of modulating various components on blood coagulation. A computational model of the coagulation network was built to match in-house in vitro thrombin generation and activated Partial Thromboplastin Time (aPTT) data with various concentrations of recombinant factor VIIa (FVIIa) or factor Xa added to normal human plasma or factor VIII-deficient plasma. Sensitivity analysis applied to the model revealed that lag time, peak thrombin concentration, area under the curve (AUC) of the thrombin generation profile, and aPTT show different sensitivity to changes in coagulation factors' concentrations and type of plasma used (normal or factor VIII-deficient). We also used the model to explore how variability in concentrations of the proteins in coagulation network can impact the response to FVIIa treatment.",
+    "year" : 2015,
+    "month" : "7",
+    "volume" : "4",
+    "issue" : "7",
+    "pages" : "396-405",
+    "link" : "http://identifiers.org/pubmed/26312163",
+    "authors" : [
+      {
+        "name" : "S Nayak",
+        "institution" : "Pharmacometrics, Global Innovative Pharma Business (GIPB), Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "D Lee",
+        "institution" : "Quantitative Clinical Sciences, PharmaTherapeutics Clinical R&D, Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "S Patel-Hett",
+        "institution" : "Rare Disease Research Unit Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "D D Pittman",
+        "institution" : "Rare Disease Research Unit Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "S W Martin",
+        "institution" : "Pharmacometrics, Global Innovative Pharma Business (GIPB), Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "A C Heatherington",
+        "institution" : "Quantitative Clinical Sciences, PharmaTherapeutics Clinical R&D, Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "P Vicini",
+        "institution" : "Pharmacokinetics, Dynamics and Metabolism, New Biological Entities, Pfizer Inc. Cambridge, Massachusetts, USA."
+      },
+      {
+        "name" : "F Hua",
+        "institution" : "Quantitative Clinical Sciences, PharmaTherapeutics Clinical R&D, Pfizer Inc. Cambridge, Massachusetts, USA."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000611_url.xml",
+        "description" : "SBML L2V4 representation of Nayak2015 - Blood Coagulation Network - Predicting the Effects of Various Therapies on Biomarkers",
+        "fileSize" : "163328",
+        "mimeType" : "application/xml",
+        "md5sum" : "e31c4968e4180adcfc77a85859cc25f6",
+        "sha1sum" : "d91601bb411db0cf67b072ea54315febca203d21",
+        "sha256sum" : "e93eed1345bd20cec0935493da73808768eac01bbb0dc4ca589ab2218584c091"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000611-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "147691",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b388c7e611ab8bddd9c5ece4f1219763",
+        "sha1sum" : "97dfe58a1a59a86d751f61ad572ad1c2470ee8b0",
+        "sha256sum" : "3d0eda7d259d6e2f70b5c32e18094e7b7e02a87767a78d5f94789c99f53e1614"
+      },
+      {
+        "name" : "BIOMD0000000611-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "247837",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6491736be166ebc9fc8b2493245d946e",
+        "sha1sum" : "584280fed6e693c657c2c74645a4c8cb259074b4",
+        "sha256sum" : "59f932a2f8e4ec2aa389e67514b198a7899ce218562d7dc48337f854de1dd664"
+      },
+      {
+        "name" : "BIOMD0000000611-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "43298",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "24e7bed936ef7bb3e0de0b7bcfd23c0b",
+        "sha1sum" : "b8ec3677cfe502b23ed7bde308d8cdf2120a46b7",
+        "sha256sum" : "e474491350358c2b5c7d333cb6ccf78c3b244cb50bfd2067c3e63ea6fea282d8"
+      },
+      {
+        "name" : "BIOMD0000000611-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "43298",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1041618a774a26d4217c060e30c70d5f",
+        "sha1sum" : "b7d82efd9e465c94abacb3636adf215ddf90bc84",
+        "sha256sum" : "9c16dcedab2a3e803ccb3f26beb82eb6d986ccecbd54706a2958c37fb26484f6"
+      },
+      {
+        "name" : "BIOMD0000000611.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "43298",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1041618a774a26d4217c060e30c70d5f",
+        "sha1sum" : "b7d82efd9e465c94abacb3636adf215ddf90bc84",
+        "sha256sum" : "9c16dcedab2a3e803ccb3f26beb82eb6d986ccecbd54706a2958c37fb26484f6"
+      },
+      {
+        "name" : "BIOMD0000000611.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "30222",
+        "mimeType" : "text/plain",
+        "md5sum" : "149c8395a83e2cb930c03f291334a1e2",
+        "sha1sum" : "148cd65d4a496d43dba5fbe1cfbeb5648567411c",
+        "sha256sum" : "6709fb8f13603d1f9bef1836bfe6cc16e8978eec3626e08e6ef9c4485d160981"
+      },
+      {
+        "name" : "BIOMD0000000611.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "696138",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9a282b396234071b649fb5cbe566a6d8",
+        "sha1sum" : "94a1fb227ef292684573d63d51d43604fb655ed4",
+        "sha256sum" : "eb61a26b4bab7d6b372c1b9a9f79be7a4f1324c15ee5774e79f620b5e48a8363"
+      },
+      {
+        "name" : "BIOMD0000000611.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2876507",
+        "mimeType" : "image/png",
+        "md5sum" : "0d0fa37df79dcc0265b9258546b41c47",
+        "sha1sum" : "9bd02a72a766f7e681122b17bdf73fc73d2cbbf8",
+        "sha256sum" : "4eec125c4a182001f079003cc27b39d2d46bebf01f6a1186838da05b3ea6c83b"
+      },
+      {
+        "name" : "BIOMD0000000611.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "37466",
+        "mimeType" : "text/plain",
+        "md5sum" : "9cb29cbcadc35ef164a46429a05072ae",
+        "sha1sum" : "e0adf6441e09d14bd1d4f6cc98dd9280e1d7e7f6",
+        "sha256sum" : "88b8e05f6c5a1cf48b9ea3e075739a480c76f7a75432d76aaeb66b58386b2f90"
+      },
+      {
+        "name" : "BIOMD0000000611.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "303088",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "284db7d6b1948548132549d2b21eb464",
+        "sha1sum" : "ee1c9eff3848cd5bc5a4e5d3746d50d0a3f27caf",
+        "sha256sum" : "3afa1d4a5987fcb57ccef6f372ae20e58af35c524606e06cc5f8edc650588b00"
+      },
+      {
+        "name" : "BIOMD0000000611.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "210793",
+        "mimeType" : "application/xml",
+        "md5sum" : "ac85b98132f4bca90b64d7861aa02b6b",
+        "sha1sum" : "47c0ca977190dbccd2c2ad8158ef892296f68db0",
+        "sha256sum" : "baade4c2bc50e765e8507dd27c75a4a3eaa594cdecc48f3e1a99e21033f073c1"
+      },
+      {
+        "name" : "BIOMD0000000611_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "163611",
+        "mimeType" : "application/xml",
+        "md5sum" : "58ae3a1137410427aa7cd72a9ce7ec6c",
+        "sha1sum" : "f390b82193e1aba56bcb3e56e8f1aa1315b8bcfc",
+        "sha256sum" : "62094ee2b13a01d18f7e60c447d30bb7763456c4039ea97f2cac1e421fc69bf3"
+      },
+      {
+        "name" : "Nayak2015.zip",
+        "description" : "The Zip file contains two files.\r\n1. The Simbiology source file that was used to generate the SBML file.\r\n2. The matlab script that uses the simbiology file to reproduce the figures in the paper.",
+        "fileSize" : "37827",
+        "mimeType" : "application/zip",
+        "md5sum" : "f03ec4ce3635183e51c37761fc0d5173",
+        "sha1sum" : "e4c7dee6cb46030a88998930cda633372927b916",
+        "sha256sum" : "ee9c601dec343da1e9d094c806b0e71d361d2059583612d88fdb324864eefed5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "57702",
+        "mimeType" : "image/png",
+        "md5sum" : "f6ef375836cbc54ba2060f8001e37cb0",
+        "sha1sum" : "5d7720287a576c44a33a02bbe99dd5703aecab9c",
+        "sha256sum" : "07f1cf9331abd78c6d776bf7973db8a51d9759b0fd0ba3cd26261f17b52ba107"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "507",
+        "mimeType" : "text/plain",
+        "md5sum" : "d0d647fe587ec25ed85ef3238d7e3163",
+        "sha1sum" : "f441b4ce836648047407267362f8585ae58de6b9",
+        "sha256sum" : "0bd16fb32c2f767ee1934f697b2471a708049c7996113199184e68b17ed5169b"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2143",
+        "mimeType" : "application/xml",
+        "md5sum" : "9012e0262b8d0d247087c5cb13bbe2c0",
+        "sha1sum" : "a59ec99db92026c5747320595929c3e7eede820a",
+        "sha256sum" : "79cbfffc07704786585ccdee8396d388bb1bd7069f22249435d497da58a77c83"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5126",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b4e0c26199c45fe751150bec2d077531",
+        "sha1sum" : "3dc4a41ffb4007e4e7e09debe6bd2e1ae450ed52",
+        "sha256sum" : "ce1f28bc57b5bab347716cac10b53f7a1703a556962c25bc8a6acbb377aa5dfe"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1447698108,
+        "submitter" : "Satyaprakash Nayak",
+        "comment" : "Original import of Coagulation_Systems_Model_Nayak_et_al"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1484324048,
+        "submitter" : "Satyaprakash Nayak",
+        "comment" : "Current version of Nayak2015 - Blood Coagulation Network - Predicting the Effects of Various Therapies on Biomarkers"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416313,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Nayak2015.zip"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724284037,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285391,
+  "submissionId" : "MODEL1511160000",
+  "publicationId" : "BIOMD0000000611",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Satyaprakash Nayak",
+        "email" : "satyaprakash.nayak@pfizer.com",
+        "affiliation" : "Pfizer",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1511160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1511160000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000611",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000611"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26312163",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26312163"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1108260014",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108260014"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000340",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000340"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000338",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000338"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000335",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000335"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000339",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000339"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1247",
+      "name" : "blood coagulation disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1247"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

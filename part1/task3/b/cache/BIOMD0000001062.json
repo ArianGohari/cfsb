@@ -1,0 +1,174 @@
+{
+  "name" : "Kim2021 - Development of a Genome-Scale Metabolic Model and Phenome Analysis of the Probiotic Escherichia coli Strain Nissle 1917",
+  "description" : "Escherichia coli Nissle 1917 (EcN) is an intestinal probiotic that is effective for the treatment of intestinal disorders, such as inflammatory bowel disease and ulcerative colitis. EcN is a representative Gram-negative probiotic in biomedical research and is an intensively studied probiotic. However, to date, its genome-wide metabolic network model has not been developed. Here, we developed a comprehensive and highly curated EcN metabolic model, referred to as iDK1463, based on genome comparison and phenome analysis. The model was improved and validated by comparing the simulation results with experimental results from phenotype microarray tests. iDK1463 comprises 1463 genes, 1313 unique metabolites, and 2984 metabolic reactions. Phenome data of EcN were compared with those of Escherichia coli intestinal commensal K-12 MG1655. iDK1463 was simulated to identify the genetic determinants responsible for the observed phenotypic differences between EcN and K-12. Further, the model was simulated for gene essentiality analysis and utilization of nutrient sources under anaerobic growth conditions. These analyses provided insights into the metabolic mechanisms by which EcN colonizes and persists in the gut. iDK1463 will contribute to the system-level understanding of the functional capacity of gut microbes and their interactions with microbiota and human hosts, as well as the development of live microbial therapeutics.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "33672760",
+    "journal" : "International journal of molecular sciences",
+    "title" : "Development of a Genome-Scale Metabolic Model and Phenome Analysis of the Probiotic <i>Escherichia coli</i> Strain Nissle 1917.",
+    "affiliation" : "Department of Bioscience and Biotechnology, Konkuk University, Seoul 05029, Korea.",
+    "synopsis" : "<i>Escherichia coli</i> Nissle 1917 (EcN) is an intestinal probiotic that is effective for the treatment of intestinal disorders, such as inflammatory bowel disease and ulcerative colitis. EcN is a representative Gram-negative probiotic in biomedical research and is an intensively studied probiotic. However, to date, its genome-wide metabolic network model has not been developed. Here, we developed a comprehensive and highly curated EcN metabolic model, referred to as iDK1463, based on genome comparison and phenome analysis. The model was improved and validated by comparing the simulation results with experimental results from phenotype microarray tests. iDK1463 comprises 1463 genes, 1313 unique metabolites, and 2984 metabolic reactions. Phenome data of EcN were compared with those of <i>Escherichia coli</i> intestinal commensal K-12 MG1655. iDK1463 was simulated to identify the genetic determinants responsible for the observed phenotypic differences between EcN and K-12. Further, the model was simulated for gene essentiality analysis and utilization of nutrient sources under anaerobic growth conditions. These analyses provided insights into the metabolic mechanisms by which EcN colonizes and persists in the gut. iDK1463 will contribute to the system-level understanding of the functional capacity of gut microbes and their interactions with microbiota and human hosts, as well as the development of live microbial therapeutics.",
+    "year" : 2021,
+    "month" : "2",
+    "volume" : "22",
+    "issue" : "4",
+    "pages" : "2122",
+    "link" : "http://identifiers.org/pubmed/33672760",
+    "authors" : [
+      {
+        "name" : "Dohyeon Kim",
+        "institution" : "Department of Bioscience and Biotechnology, Konkuk University, Seoul 05029, Korea."
+      },
+      {
+        "name" : "Youngshin Kim",
+        "institution" : "Department of Bioscience and Biotechnology, Konkuk University, Seoul 05029, Korea."
+      },
+      {
+        "name" : "Sung Ho Yoon",
+        "institution" : "Department of Bioscience and Biotechnology, Konkuk University, Seoul 05029, Korea.",
+        "orcid" : "0000-0003-0171-944X"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "iDK1463.xml",
+        "description" : "SBML L3V1 annotated representation of Escherichia coli Nissle 1917",
+        "fileSize" : "11814880",
+        "mimeType" : "application/xml",
+        "md5sum" : "22893ed52d347761eaa4bfffd3b5c2b9",
+        "sha1sum" : "665a20a21983e340d89cabe524267a6340e36f8a",
+        "sha256sum" : "78d1fdac346ce64229c3338816531291333694cbf054a3bfdae48947288dc82b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "iDK1463.zip",
+        "description" : "iDK1463 FROG report using MATLAB",
+        "fileSize" : "43069",
+        "mimeType" : "application/zip",
+        "md5sum" : "e6de00b7b2069c39fa09aa554f0a072a",
+        "sha1sum" : "976b65a25918f3e6e0e8bee1ec33442346d13aac",
+        "sha256sum" : "51fdb67ecc0b13b10cf372a59ebda744c984c4e126fc69d78f9d61cf1e8020b3"
+      },
+      {
+        "name" : "idk1463.omex",
+        "description" : "Frog report with annotated model",
+        "fileSize" : "726215",
+        "mimeType" : "application/zip",
+        "md5sum" : "98d2d560113b46ebeacc218958aba7db",
+        "sha1sum" : "bc4259f481a85e8b23d9036dfad0c2d655946a0e",
+        "sha256sum" : "b9a9cf1a56bf00a596d131ce0774fc6c2ee6b947d3d028cf7aa797a8704f3bf8"
+      },
+      {
+        "name" : "miniFROG Report_Kim2021.xlsx",
+        "description" : "iDK1463 miniFROG report",
+        "fileSize" : "56646",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "3328101b2f693fdd4f1ce56963484029",
+        "sha1sum" : "fd18700448cf4d8ec88a33341b32419e5d0cc0bc",
+        "sha256sum" : "0f1c17d54ccbcbc8cb9cad8f3643bf5e4192cbd14978b40d47df57a4f45bb708"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1650268756,
+        "submitter" : "Dohyeon Kim",
+        "comment" : "Upload miniFROG report for iDK1463"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1660311619,
+        "submitter" : "Mikal Daou",
+        "comment" : "Added annotation"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1660311813,
+        "submitter" : "Mikal Daou",
+        "comment" : "Automatically added model identifier BIOMD0000001062"
+      },
+      {
+        "version" : 9,
+        "submitted" : 1724313940,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Automatically added model identifier BIOMD0000001062"
+      }
+    ]
+  },
+  "firstPublished" : 1729020012,
+  "submissionId" : "MODEL2204180001",
+  "publicationId" : "BIOMD0000001062",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000040",
+    "name" : "metabolic network",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000040"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Aswathy K. Raghu",
+        "email" : "aswathy.raghu@gmail.com",
+        "affiliation" : "Northwestern University",
+        "external" : true
+      },
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      },
+      {
+        "name" : "Mikal Daou",
+        "email" : "mdaou@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ],
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Dohyeon Kim",
+        "email" : "kdhgood9637@gmail.com",
+        "affiliation" : "Department of Bioscience and Biotechnology, Konkuk University, Seoul 05029, Korea",
+        "external" : false
+      },
+      {
+        "name" : "Mikal Daou",
+        "email" : "mdaou@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ],
+    "Other" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj"
+}

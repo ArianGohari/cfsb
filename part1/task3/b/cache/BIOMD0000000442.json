@@ -1,0 +1,270 @@
+{
+  "name" : "Sarma2012 - Oscillations in MAPK cascade (S2), inclusion of external signalling module",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Sarma2012 - Oscillations in MAPK cascade (S2), inclusion of external signalling module</div>            <div class=\"dc:description\">      <p>Two plausible designs (S1 and S2) of coupled positive and negative feedback loops of MAPK cascade has been described in this paper. This model corresponds to model S2 that comprises negative feedback from MK-PP to MKKK-P layer coupled to positive feedback from MK-PP to MKK-PP layer. In addition, a positive feedback loop from S2 to the phosphorylation step of Kinase X has been introduced.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/22694947\" title=\"Access to this publication\">Oscillations in MAPK cascade triggered by two distinct designs of coupled positive and negative feedback loops.</a>                    </div>                <div class=\"bibo:authorList\">Sarma U, Ghosh I.</div>                <div class=\"bibo:Journal\">BMC Res Notes. 2012 Jun 13;5:287.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>BACKGROUND:          <br />              Feedback loops, both positive and negative are embedded in the Mitogen Activated Protein Kinase (MAPK) cascade. In the three layer MAPK cascade, both feedback loops originate from the terminal layer and their sites of action are either of the two upstream layers. Recent studies have shown that the cascade uses coupled positive and negative feedback loops in generating oscillations. Two plausible designs of coupled positive and negative feedback loops can be elucidated from the literature; in one design the positive feedback precedes the negative feedback in the direction of signal flow and vice-versa in another. But it remains unexplored how the two designs contribute towards triggering oscillations in MAPK cascade. Thus it is also not known how amplitude, frequency, robustness or nature (analogous/digital) of the oscillations would be shaped by these two designs.          </p>                    <p>RESULTS:          <br />              We built two models of MAPK cascade that exhibited oscillations as function of two underlying designs of coupled positive and negative feedback loops. Frequency, amplitude and nature (digital/analogous) of oscillations were found to be differentially determined by each design. It was observed that the positive feedback emerging from an oscillating MAPK cascade and functional in an external signal processing module can trigger oscillations in the target module, provided that the target module satisfy certain parametric requirements. The augmentation of the two models was done to incorporate the nuclear-cytoplasmic shuttling of cascade components followed by induction of a nuclear phosphatase. It revealed that the fate of oscillations in the MAPK cascade is governed by the feedback designs. Oscillations were unaffected due to nuclear compartmentalization owing to one design but were completely abolished in the other case.          </p>                    <p>CONCLUSION:          <br />              The MAPK cascade can utilize two distinct designs of coupled positive and negative feedback loops to trigger oscillations. The amplitude, frequency and robustness of the oscillations in presence or absence of nuclear compartmentalization were differentially determined by two designs of coupled positive and negative feedback loops. A positive feedback from an oscillating MAPK cascade was shown to induce oscillations in an external signal processing module, uncovering a novel regulatory aspect of MAPK signal processing.          </p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1112190005\">MODEL1112190005</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22694947",
+    "journal" : "BMC research notes",
+    "title" : "Oscillations in MAPK cascade triggered by two distinct designs of coupled positive and negative feedback loops.",
+    "affiliation" : "National Centre for Cell Science, Ganeshkhind, Pune, India. uddipans@gmail.com",
+    "synopsis" : "<h4>Background</h4>Feedback loops, both positive and negative are embedded in the Mitogen Activated Protein Kinase (MAPK) cascade. In the three layer MAPK cascade, both feedback loops originate from the terminal layer and their sites of action are either of the two upstream layers. Recent studies have shown that the cascade uses coupled positive and negative feedback loops in generating oscillations. Two plausible designs of coupled positive and negative feedback loops can be elucidated from the literature; in one design the positive feedback precedes the negative feedback in the direction of signal flow and vice-versa in another. But it remains unexplored how the two designs contribute towards triggering oscillations in MAPK cascade. Thus it is also not known how amplitude, frequency, robustness or nature (analogous/digital) of the oscillations would be shaped by these two designs.<h4>Results</h4>We built two models of MAPK cascade that exhibited oscillations as function of two underlying designs of coupled positive and negative feedback loops. Frequency, amplitude and nature (digital/analogous) of oscillations were found to be differentially determined by each design. It was observed that the positive feedback emerging from an oscillating MAPK cascade and functional in an external signal processing module can trigger oscillations in the target module, provided that the target module satisfy certain parametric requirements. The augmentation of the two models was done to incorporate the nuclear-cytoplasmic shuttling of cascade components followed by induction of a nuclear phosphatase. It revealed that the fate of oscillations in the MAPK cascade is governed by the feedback designs. Oscillations were unaffected due to nuclear compartmentalization owing to one design but were completely abolished in the other case.<h4>Conclusion</h4>The MAPK cascade can utilize two distinct designs of coupled positive and negative feedback loops to trigger oscillations. The amplitude, frequency and robustness of the oscillations in presence or absence of nuclear compartmentalization were differentially determined by two designs of coupled positive and negative feedback loops. A positive feedback from an oscillating MAPK cascade was shown to induce oscillations in an external signal processing module, uncovering a novel regulatory aspect of MAPK signal processing.",
+    "year" : 2012,
+    "month" : "6",
+    "volume" : "5",
+    "pages" : "287",
+    "link" : "http://identifiers.org/pubmed/22694947",
+    "authors" : [
+      {
+        "name" : "Uddipan Sarma",
+        "institution" : "National Centre for Cell Science, Ganeshkhind, Pune, India. uddipans@gmail.com"
+      },
+      {
+        "name" : "Indira Ghosh"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000442_url.xml",
+        "description" : "SBML L2V4 representation of Sarma2012 - Oscillations in MAPK cascade (S2), inclusion of external signalling module",
+        "fileSize" : "68418",
+        "mimeType" : "application/xml",
+        "md5sum" : "9bb96d567335491e1633eff70994aec5",
+        "sha1sum" : "5cf6dd048fab0378d7521079ea121ba992b291b1",
+        "sha256sum" : "2a7261461a0d5b3b3f709505002aa7086cd16e5bfcadc916ea226d6bd2acebcf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000442-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "28423",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "01c00c1d63578d8847b5f3446c560ac3",
+        "sha1sum" : "9f32eb263163df238e6bf73353ffdddcf7aeb036",
+        "sha256sum" : "f6ac1acf6d7bab0894d46905e110d69dc7fe8a8e73a72108ee8c6207f456586c"
+      },
+      {
+        "name" : "BIOMD0000000442-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "39799",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f0f03a55b75ba29d3e7ecddb88fadea7",
+        "sha1sum" : "bb7ffc5b7a3cd4fd003acd3b3348e4bddfb4c739",
+        "sha256sum" : "647ada4675a9d89945721825eb2a915188a485f30f68ae2f5c07882de5d68206"
+      },
+      {
+        "name" : "BIOMD0000000442-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10881",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9db8c9afca53e52437f65373b7b71b59",
+        "sha1sum" : "7fadfc184a07b1f751f1bbe6e3ac3703b3212e64",
+        "sha256sum" : "3d7d4b93479f1aabb7abc2df6251282f31788e783afb0a63713ac38a42328e32"
+      },
+      {
+        "name" : "BIOMD0000000442.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10881",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "46199b77de314109aa2df382ab1a8aad",
+        "sha1sum" : "61b63c9bbd305257aa1505c4b56fb65d49a224e7",
+        "sha256sum" : "f601d96dc3b8cc4ce2401de2d13829e146c12ce52ecb50930c8b96a1af2e9f1d"
+      },
+      {
+        "name" : "BIOMD0000000442.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8292",
+        "mimeType" : "text/plain",
+        "md5sum" : "0c5d492eb8510ca747a47f06bc33945d",
+        "sha1sum" : "e038e87a2d1286985e315a40a9846c0aacb0f1c3",
+        "sha256sum" : "993a9dbdf0d4675a72d4d5e0a1041140e446f7c7fcf8f2a1e86de3ea9f47eef5"
+      },
+      {
+        "name" : "BIOMD0000000442.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "257048",
+        "mimeType" : "application/pdf",
+        "md5sum" : "97336969a29c2fa3d3b48e41130ca765",
+        "sha1sum" : "9dc075c447a149762b9ad84b3de9b9ab43eafdac",
+        "sha256sum" : "9846c859a4a105b0c6b7824de48d474e8c8614b5a4a75a2d961d370d5e84d98c"
+      },
+      {
+        "name" : "BIOMD0000000442.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "479816",
+        "mimeType" : "image/png",
+        "md5sum" : "d1b4538f0d284f699e1d2f61632f7018",
+        "sha1sum" : "82ebe79336be535380fe5bf5e2d65ec1f45c6fda",
+        "sha256sum" : "7f13329a2dbbc2684c0f35576f08510995c51d762399d3b1194346e6dd531802"
+      },
+      {
+        "name" : "BIOMD0000000442.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "61863",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ed1ffbb1b0af985e3c6455aca75e4eeb",
+        "sha1sum" : "16ab599835c6e4cbaaab00616fbae015cd57d6e2",
+        "sha256sum" : "6b77b5cd68402b59bad92de435e5736524adf216ebfe5b41f2dc8dc99b9cd3a0"
+      },
+      {
+        "name" : "BIOMD0000000442.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "66470",
+        "mimeType" : "application/xml",
+        "md5sum" : "af750433616de2a99b35cd84cc321ccd",
+        "sha1sum" : "19f084679dab9d5c27c97cbf6f7ad79b7af14af8",
+        "sha256sum" : "48e522c0d22056112dfac2f7239fb99ec995b9251b61474a241d926cf858571b"
+      },
+      {
+        "name" : "BIOMD0000000442_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "18038",
+        "mimeType" : "application/xml",
+        "md5sum" : "ec20252d003e4763b5c682d108a70341",
+        "sha1sum" : "1a07bfa3e2279991728392642365f0873bfd13bb",
+        "sha256sum" : "8e24bcb768a7ca9eec4ca2172e8c0e5e042c2984c8b824d8d58d8a0f3242e638"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36804",
+        "mimeType" : "image/png",
+        "md5sum" : "47fe26d04b495435126929b761b93e36",
+        "sha1sum" : "683d33d369e302fe4a619f6241961a0e4205acfd",
+        "sha256sum" : "d911f036bd762c67125325f20ae366fa62f71bb78b8084712da86a5b96876f37"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "198",
+        "mimeType" : "text/plain",
+        "md5sum" : "6daff45726d99ed0f564dd9776d5a5dd",
+        "sha1sum" : "88699cb42f8eba0d34347d6bf7c310c1ef881edd",
+        "sha256sum" : "acd36967a5b93cab15c567acfaf8e854826f15f350aa845bb7baa64283463131"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "e0cc6ac4c83ca6a75c3fe1de3f66777c",
+        "sha1sum" : "1ff46f67c02fd67054d01250d2062efc176a6158",
+        "sha256sum" : "d15c5aeb8ae02545ad04bc783ae4197480b6060cd6cbce0303cb369c83ec212d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6755",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c24ef3423da464d11d01498306df6a79",
+        "sha1sum" : "67dd288b968eb916845b1e9dc9143da2352f7c67",
+        "sha256sum" : "7a78b09715be88ff592b1c402f7550043d8c9011b45ab353d547d15ac7b4c7d5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1324318652,
+        "submitter" : "Uddipan Sarma",
+        "comment" : "Original import of New Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460139881,
+        "submitter" : "Uddipan Sarma",
+        "comment" : "Current version of Sarma2012 - Oscillations in MAPK cascade (S2), inclusion of external signalling module"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277094,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285178,
+  "submissionId" : "MODEL1112190005",
+  "publicationId" : "BIOMD0000000442",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Uddipan Sarma",
+        "email" : "uddipan@nccs.res.in",
+        "affiliation" : "National Centre for Cell Science",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22694947",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22694947"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1112190005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1112190005"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000442",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000442"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000441",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000441"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

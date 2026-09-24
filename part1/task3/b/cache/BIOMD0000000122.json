@@ -1,0 +1,302 @@
+{
+  "name" : "Fisher2006_Ca_Oscillation_dpdnt_NFAT_dynamics",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces the calcium oscillation dependent activation-deactivation kinetics of nuclear factor of activated T cells (NFAT) as depicted in Fig 4a of the paper. A simple algorithm in the events section takes care of the calcium oscillation. The model was successfully tested on MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17031595",
+    "journal" : "Annals of biomedical engineering",
+    "title" : "NFAT and NFkappaB activation in T lymphocytes: a model of differential activation of gene expression.",
+    "affiliation" : "Eugene McDermott Center for Human Growth and Development, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+    "synopsis" : "Mathematical models for the regulation of the Ca(2+)-dependent transcription factors NFAT and NFkappaB that are involved in the activation of the immune and inflammatory responses in T lymphocytes have been developed. These pathways are important targets for drugs, which act as powerful immunosuppressants by suppressing activation of NFAT and NFkappaB in T cells. The models simulate activation and deactivation over physiological concentrations of Ca(2+), diacyl glycerol (DAG), and PKCtheta using single and periodic step increases. The model suggests the following: (1) the activation NFAT does not occur at low frequencies as NFAT requires calcineurin activated by Ca(2+) to remain dephosphorylated and in the nucleus; (2) NFkappaB is activated at lower Ca(2+) oscillation frequencies than NFAT as IkappaB is degraded in response to elevations in Ca(2+) allowing free NFkappaB to translocate into the nucleus; and (3) the degradation of IkappaB is essential for efficient translocation of NFkappaB to the nucleus. Through sensitivity analysis, the model also suggests that the largest controlling factor for NFAT activation is the dissociation/reassociation rate of the NFAT:calcineurin complex and the translocation rate of the complex into the nucleus and for NFkappaB is the degradation/resynthesis rate of IkappaB and the import rate of IkappaB into the nucleus.",
+    "year" : 2006,
+    "month" : "11",
+    "volume" : "34",
+    "issue" : "11",
+    "pages" : "1712-1728",
+    "link" : "http://identifiers.org/pubmed/17031595",
+    "authors" : [
+      {
+        "name" : "Wayne G Fisher",
+        "institution" : "Eugene McDermott Center for Human Growth and Development, The University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+      },
+      {
+        "name" : "Pei-Chi Yang"
+      },
+      {
+        "name" : "Ram K Medikonduri"
+      },
+      {
+        "name" : "M Saleet Jafri",
+        "orcid" : "0000-0003-3174-1007"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000122_url.xml",
+        "description" : "SBML L2V1 representation of Fisher2006_Ca_Oscillation_dpdnt_NFAT_dynamics",
+        "fileSize" : "47674",
+        "mimeType" : "application/xml",
+        "md5sum" : "68d6852ffc709f6c7735d1ea5de1c986",
+        "sha1sum" : "92b02cbf60f6cfdc44636f2f9ec6bd3b2d2020b2",
+        "sha256sum" : "cbc7c4d9435f86daf9e2e8e74e226593539a7e2c21ec50c62aeca1d638f4f752"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000122-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "33272",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c419a4303e08c05252d6cced57897bb",
+        "sha1sum" : "dfd4f44bb3debeb387fafdd73d58d91929a063f4",
+        "sha256sum" : "b4c00abfee415ce4f63724002872c54a1e8d8d15374aca8ceb876260135fb9db"
+      },
+      {
+        "name" : "BIOMD0000000122-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "53326",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1c40854826d62e1b20dffc7c9b6e314f",
+        "sha1sum" : "3eb5a2c8e905ccd16d405ed08cd787d4b995d6d4",
+        "sha256sum" : "8e52f772fdf0b0962f204b239efc387db14dc8980b6fe6c6770bc632bf3a5c60"
+      },
+      {
+        "name" : "BIOMD0000000122-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9869",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b3c7b9c0d6e1fb5ecf73390dcb8eded2",
+        "sha1sum" : "27e5dd0680065168bdb14e3bb2e26ececcb12baa",
+        "sha256sum" : "dbb268e7c26eac4dd19003924e76ff7e401b1b6db08928270309aeab407cdf17"
+      },
+      {
+        "name" : "BIOMD0000000122-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9869",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3ba765f38e394cb0d7053f1855b6e561",
+        "sha1sum" : "5cd780b3846c809d37af893108c6e06e6a114efe",
+        "sha256sum" : "7ecadce7e2a9490db3a4cf1208004af186c152b34fdf21babecb328730adb56c"
+      },
+      {
+        "name" : "BIOMD0000000122.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9869",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3ba765f38e394cb0d7053f1855b6e561",
+        "sha1sum" : "5cd780b3846c809d37af893108c6e06e6a114efe",
+        "sha256sum" : "7ecadce7e2a9490db3a4cf1208004af186c152b34fdf21babecb328730adb56c"
+      },
+      {
+        "name" : "BIOMD0000000122.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7494",
+        "mimeType" : "text/plain",
+        "md5sum" : "33e81dc3ce6926be66c3e133180934a8",
+        "sha1sum" : "3bba41918af51f110514e141a30e13986cd32554",
+        "sha256sum" : "bf51c01a3bfc700e7f3c827bd3ad67b997e2d5940936628da506bc1924d4d718"
+      },
+      {
+        "name" : "BIOMD0000000122.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "227261",
+        "mimeType" : "application/pdf",
+        "md5sum" : "cd15345070186eae52477fac2faabd37",
+        "sha1sum" : "834583e05184c5b6872489832c136c5bcd4059f5",
+        "sha256sum" : "b426e772a12e73eac223d4d505819b4059b04c9415539096d91a66d883d7b659"
+      },
+      {
+        "name" : "BIOMD0000000122.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "142078",
+        "mimeType" : "image/png",
+        "md5sum" : "9dcfd96f8e50f0bb8ca435a97e19e2fa",
+        "sha1sum" : "f2c8dd69b8550fc53a30ec0b13547e513ac769ed",
+        "sha256sum" : "7d79604912a0db989883f212bfdb28d19beb4c3fd871a5af3af831a061f2bbe8"
+      },
+      {
+        "name" : "BIOMD0000000122.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "43876",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "bc2dc96e55f7a2da3006b2e422664ce7",
+        "sha1sum" : "0ef95c81f18e901c92b5cdc69807badd7831273d",
+        "sha256sum" : "1ef57bd54b087db0615457a120e2ecc80ab14bef4e9b13edb5f0ec3fb49c4120"
+      },
+      {
+        "name" : "BIOMD0000000122.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "56515",
+        "mimeType" : "application/xml",
+        "md5sum" : "565c959ac07d8df71237aaf05a877256",
+        "sha1sum" : "a3c44399cd683e79d327d2411cfc6a8cc2c95aea",
+        "sha256sum" : "df284038c02f014dfd99f21236f95effe153d4e81761fb85a740eeb294fa0fa3"
+      },
+      {
+        "name" : "BIOMD0000000122_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "32600",
+        "mimeType" : "application/xml",
+        "md5sum" : "a48d3be51653ca3899cfc9664e30c5bf",
+        "sha1sum" : "591adf92259165e3077c50161ccc6442929b0ecf",
+        "sha256sum" : "f8001c43402de3566bedec377d87a2fc3bed0fb4c5cb25125926e861aa338279"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "27741",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "18630704ce4cef4ecc18f7c0551d5c44",
+        "sha1sum" : "e887d588092d26ce32cb8e26aee87fea7e6103c6",
+        "sha256sum" : "0e1bea7a54354f640222919eb79b569eac61e470092cbbd284bb13909207f675"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "86",
+        "mimeType" : "text/plain",
+        "md5sum" : "318acde305bb3797cb60acf32e89159a",
+        "sha1sum" : "ad31d55ff9744a34c9387ff28fe9d5abe7963bd7",
+        "sha256sum" : "480d9d803d69487446eb1aa8788ca60880ba5c4a569afe2666b1b7aa2a18abab"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "ab2ab9e7a449d5883c74e9347fdb0020",
+        "sha1sum" : "a19a49759ff2f983d284ca41f30bb1d727d08fa3",
+        "sha256sum" : "5f7f18fbdac578d0370ca4e5214105b6d296780a8de55a29e9890f5064a4faeb"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3095",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7961a09293499b2982165bbb00c6314a",
+        "sha1sum" : "042cb499753c14c13d1278fff33ee2f4acb289d4",
+        "sha256sum" : "d6ae35d7c0ace125b8dc34533ab8589196b2634688647110d8e33d1e91800eca"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1183626915,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Fisher2006_Ca_Oscillation_dpdnt_NFAT_dynamics"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392396775,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Fisher2006_Ca_Oscillation_dpdnt_NFAT_dynamics"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268003,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284888,
+  "submissionId" : "MODEL2977476330",
+  "publicationId" : "BIOMD0000000122",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2977476330",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2977476330"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000122",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000122"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17031595",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17031595"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000782",
+      "name" : "T-lymphocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000782"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0033173",
+      "name" : "calcineurin-NFAT signaling cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0033173"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04660",
+      "name" : "T cell receptor signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04660"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0002709",
+      "name" : "regulation of T cell mediated immunity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002709"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

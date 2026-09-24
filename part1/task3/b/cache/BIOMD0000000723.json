@@ -1,0 +1,271 @@
+{
+  "name" : "Weis2014 - Data driven Mammalian Cell Cycle Model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>A Data-Driven, Mathematical Model of Mammalian Cell Cycle Regulation.</strong>        <br />          Michael C. Weis, Jayant Avva, James W. Jacobberger, Sree N. Sreenath     <em>PLoS ONE</em>          2014 May 13:   9(5): e97130    <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24824602\">24824602</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Progression of a cell through the division cycle is tightly controlled at different steps to ensure the integrity of genomereplication and partitioning to daughter cells. From published experimental evidence, we propose a molecularmechanism for control of the cell division cycle in Caulobacter crescentus. The mechanism, which is based on thesynthesis and degradation of three ‘‘master regulator’’ proteins (CtrA, GcrA, and DnaA), is converted into a quantitativemodel, in order to study the temporal dynamics of these and other cell cycle proteins. The model accounts forimportant details of the physiology, biochemistry, and genetics of cell cycle control in stalked C. crescentus cell. Itreproduces protein time courses in wild-type cells, mimics correctly the phenotypes of many mutant strains, andpredicts the phenotypes of currently uncharacterized mutants. Since many of the proteins involved in regulating thecell cycle of C. crescentus are conserved among many genera of a-proteobacteria, the proposed mechanism may beapplicable to other species of importance in agriculture and medicine.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24824602",
+    "journal" : "PloS one",
+    "title" : "A data-driven, mathematical model of mammalian cell cycle regulation.",
+    "affiliation" : "Department of Electrical Engineering and Computer Science, Case Western Reserve University, Cleveland, Ohio, United States of America.",
+    "synopsis" : "Few of >150 published cell cycle modeling efforts use significant levels of data for tuning and validation. This reflects the difficultly to generate correlated quantitative data, and it points out a critical uncertainty in modeling efforts. To develop a data-driven model of cell cycle regulation, we used contiguous, dynamic measurements over two time scales (minutes and hours) calculated from static multiparametric cytometry data. The approach provided expression profiles of cyclin A2, cyclin B1, and phospho-S10-histone H3. The model was built by integrating and modifying two previously published models such that the model outputs for cyclins A and B fit cyclin expression measurements and the activation of B cyclin/Cdk1 coincided with phosphorylation of histone H3. The model depends on Cdh1-regulated cyclin degradation during G1, regulation of B cyclin/Cdk1 activity by cyclin A/Cdk via Wee1, and transcriptional control of the mitotic cyclins that reflects some of the current literature. We introduced autocatalytic transcription of E2F, E2F regulated transcription of cyclin B, Cdc20/Cdh1 mediated E2F degradation, enhanced transcription of mitotic cyclins during late S/early G2 phase, and the sustained synthesis of cyclin B during mitosis. These features produced a model with good correlation between state variable output and real measurements. Since the method of data generation is extensible, this model can be continually modified based on new correlated, quantitative data.",
+    "year" : 2014,
+    "month" : "0",
+    "volume" : "9",
+    "issue" : "5",
+    "pages" : "e97130",
+    "link" : "http://identifiers.org/pubmed/24824602",
+    "authors" : [
+      {
+        "name" : "Michael C Weis",
+        "institution" : "Department of Electrical Engineering and Computer Science, Case Western Reserve University, Cleveland, Ohio, United States of America."
+      },
+      {
+        "name" : "Jayant Avva",
+        "institution" : "Department of Electrical Engineering and Computer Science, Case Western Reserve University, Cleveland, Ohio, United States of America."
+      },
+      {
+        "name" : "James W Jacobberger",
+        "institution" : "Case Comprehensive Cancer Center, Case Western Reserve University, Cleveland, Ohio, United States of America.",
+        "orcid" : "0000-0002-3092-5157"
+      },
+      {
+        "name" : "Sree N Sreenath",
+        "institution" : "Department of Electrical Engineering and Computer Science, Case Western Reserve University, Cleveland, Ohio, United States of America."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Weis2014.xml",
+        "description" : "SBML lvl2 file containing the model",
+        "fileSize" : "283002",
+        "mimeType" : "application/xml",
+        "md5sum" : "3e2c51d211b78c83d1620860eb33ede3",
+        "sha1sum" : "d19fd89af0046f4dee79f5338a390e14b4a409f2",
+        "sha256sum" : "7d2bea6b70a8d2a33c5a597987bd59931258d51bc0b4d4d1e291a38974f1f2bb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Weis2014-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "66968",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "edcfba6b525748d37e3f0a4393ccc498",
+        "sha1sum" : "f00105a70aea5aaaa8962c5de276616172f2ad2f",
+        "sha256sum" : "d71263d599e15966e7bf5276c36e060136839c9d07514982870c6211ef0230b3"
+      },
+      {
+        "name" : "Weis2014-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "112467",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ba25ce28724851f21fca99bb8ee44c51",
+        "sha1sum" : "088a900fc3707d0dbd47b1e13193bca29ff77134",
+        "sha256sum" : "5f0c91d7c39a1007a79eb87da4c9673e025363c05a96ef7ed90d81c1b3b0ab49"
+      },
+      {
+        "name" : "Weis2014-generate_plot.r",
+        "description" : "R code used to plot the curation data",
+        "fileSize" : "2277",
+        "mimeType" : "text/plain",
+        "md5sum" : "56e762fd31b255dbc2a5e7c6a6d9b71b",
+        "sha1sum" : "a76ff69c4cec37888e1fc28e76727db9f0791c87",
+        "sha256sum" : "7cec0f30bfb15b6983e4b9cea0a0dd8e9e1d2a85f1642e7dd4d6c3a2ff889c5d"
+      },
+      {
+        "name" : "Weis2014-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "31379",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "043d90ef8c8e4bdfd2bfd8c7c7e37e2d",
+        "sha1sum" : "d7fe64857a7fa7089810b74cb5a584f3eed267b1",
+        "sha256sum" : "e894c9dc918d5cedddd6e8f0ebd259b1b94a0353145c200d8e53e68e00ef8a0d"
+      },
+      {
+        "name" : "Weis2014-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "31379",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5128670031f9f822788369420b8ac4ff",
+        "sha1sum" : "e5563f8d33d683a08fbe9e1ab43991557c4fc68b",
+        "sha256sum" : "52149d4289e0d3d405042a9a36a6ca9856381cf3d99a8453613743c77f53df29"
+      },
+      {
+        "name" : "Weis2014.cps",
+        "description" : "Copasi file to generate the curation figure data",
+        "fileSize" : "428428",
+        "mimeType" : "application/xml",
+        "md5sum" : "204f51a5385997e3b683bbac9a036f07",
+        "sha1sum" : "628e4090f4ab297772d330834bbee839577d3ce9",
+        "sha256sum" : "d39b835729e4b1258f902279552ec1ccdd2ad8d492a50cd6956b956286aaa409"
+      },
+      {
+        "name" : "Weis2014.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "27661",
+        "mimeType" : "text/plain",
+        "md5sum" : "3e9ceb841fb5b9bf742c4445ff44ef28",
+        "sha1sum" : "f454a192080e9838c3b02353eb4c86beafc1b9fc",
+        "sha256sum" : "e1869fc414e671cc19e995e4899b2ee4ec1ddcca1d64d051d409a05b37fb57ad"
+      },
+      {
+        "name" : "Weis2014.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "128742",
+        "mimeType" : "application/xml",
+        "md5sum" : "9f801d036adf60878d307e61c5e72748",
+        "sha1sum" : "2eda18db13a1fef2851d77e4a454d46e18b2227e",
+        "sha256sum" : "d9f9286bd43adc390b3410beb3c0bbb93cd0fdbd15ebd9615a31b26a095d899d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "192501",
+        "mimeType" : "image/png",
+        "md5sum" : "ccd8a462e497b041d1f2abab9c5f11a7",
+        "sha1sum" : "c20d2d15b5493f631bb263aa25a8e52ccdd081c8",
+        "sha256sum" : "f9b0a0e8e5a8aaae6510cabe2de0a5f2d2a8e613faa466c42f48c82d058528d3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "149",
+        "mimeType" : "text/plain",
+        "md5sum" : "970f3e567799ce553d84dab69236dec2",
+        "sha1sum" : "6fef0d41be5954c909751eb2666aceac8b417f30",
+        "sha256sum" : "ebcb81d971c3437ec8eb0aa7fa6359249e9277490895b9aa5861d7862dbb2c7c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1509",
+        "mimeType" : "application/xml",
+        "md5sum" : "a2d5f12c4a707b72371184724c05dade",
+        "sha1sum" : "aaf5f06f0f8013d8a9ed77a8ee28b0896a017cbb",
+        "sha256sum" : "0612b73d7e2fa8ee5e30358f1b0797707880c7b23fd37ac1cfbec20e8062f239"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4477",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "23abefa641ed7b680ccfde75fd975a3e",
+        "sha1sum" : "7e2902942a6063a76bb306c1535ea78fc7e87092",
+        "sha256sum" : "5a208b7c5e4d7fe4b9182bbbd37841db7ff72059eea018c8f3cbee0df86fb10f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1542889453,
+        "submitter" : "Ashley Xavier",
+        "comment" : "Automatically added model identifier BIOMD0000000723"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724287833,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285426,
+  "submissionId" : "MODEL1811220001",
+  "publicationId" : "BIOMD0000000723",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ashley Xavier",
+        "email" : "ashleythomasxavier@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0001-5372-3024",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1811220001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1811220001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000723",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000723"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24824602",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:24824602"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "C38794",
+      "name" : "Cell Cycle Pathway",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C38794"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007049",
+      "name" : "cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007049"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "24824602",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24824602"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1371/journal.pone.0097130",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1371/journal.pone.0097130"
+    }
+  ]
+}

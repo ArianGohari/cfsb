@@ -1,0 +1,308 @@
+{
+  "name" : "Koschorreck2008_InsulinClearance",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Mathematical modeling and analysis of insulin clearance in vivo.</strong>        <br />Koschorreck M, Gilles ED.      <em>BMC Syst Biol.</em> 2008 May 13;2:43.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18477391\">    18477391</a>,      <br />        <strong>Abstract:</strong>        <br />BACKGROUND:Analyzing the dynamics of insulin concentration in the blood is necessary for a comprehensive understanding of the effects of insulin in vivo. Insulin removal from the blood has been addressed in many studies. The results are highly variable with respect to insulin clearance and the relative contributions of hepatic and renal insulin degradation.RESULTS:We present a dynamic mathematical model of insulin concentration in the blood and of insulin receptor activation in hepatocytes. The model describes renal and hepatic insulin degradation, pancreatic insulin secretion and nonspecific insulin binding in the liver. Hepatic insulin receptor activation by insulin binding, receptor internalization and autophosphorylation is explicitly included in the model. We present a detailed mathematical analysis of insulin degradation and insulin clearance. Stationary model analysis shows that degradation rates, relative contributions of the different tissues to total insulin degradation and insulin clearance highly depend on the insulin concentration.CONCLUSION:This study provides a detailed dynamic model of insulin concentration in the blood and of insulin receptor activation in hepatocytes. Experimental data sets from literature are used for the model validation. We show that essential dynamic and stationary characteristics of insulin degradation are nonlinear and depend on the actual insulin concentration. </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18477391",
+    "journal" : "BMC systems biology",
+    "title" : "Mathematical modeling and analysis of insulin clearance in vivo.",
+    "affiliation" : "Max Planck Institute for Dynamics of Complex Technical Systems, Sandtorstr, 1, 39106 Magdeburg, Germany. koschorreck@mpi-magdeburg.mpg.de",
+    "synopsis" : "<h4>Background</h4>Analyzing the dynamics of insulin concentration in the blood is necessary for a comprehensive understanding of the effects of insulin in vivo. Insulin removal from the blood has been addressed in many studies. The results are highly variable with respect to insulin clearance and the relative contributions of hepatic and renal insulin degradation.<h4>Results</h4>We present a dynamic mathematical model of insulin concentration in the blood and of insulin receptor activation in hepatocytes. The model describes renal and hepatic insulin degradation, pancreatic insulin secretion and nonspecific insulin binding in the liver. Hepatic insulin receptor activation by insulin binding, receptor internalization and autophosphorylation is explicitly included in the model. We present a detailed mathematical analysis of insulin degradation and insulin clearance. Stationary model analysis shows that degradation rates, relative contributions of the different tissues to total insulin degradation and insulin clearance highly depend on the insulin concentration.<h4>Conclusion</h4>This study provides a detailed dynamic model of insulin concentration in the blood and of insulin receptor activation in hepatocytes. Experimental data sets from literature are used for the model validation. We show that essential dynamic and stationary characteristics of insulin degradation are nonlinear and depend on the actual insulin concentration.",
+    "year" : 2008,
+    "month" : "5",
+    "volume" : "2",
+    "pages" : "43",
+    "link" : "http://identifiers.org/pubmed/18477391",
+    "authors" : [
+      {
+        "name" : "Markus Koschorreck",
+        "institution" : "Max Planck Institute for Dynamics of Complex Technical Systems, Sandtorstr, 1, 39106 Magdeburg, Germany. koschorreck@mpi-magdeburg.mpg.de"
+      },
+      {
+        "name" : "Ernst Dieter Gilles"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000345_url.xml",
+        "description" : "SBML L2V4 representation of Koschorreck2008_InsulinClearance",
+        "fileSize" : "54835",
+        "mimeType" : "application/xml",
+        "md5sum" : "c69afda23cc1487590f26bf2e4a135f7",
+        "sha1sum" : "de7dcd78f2f76b86ebc24a9f7c0fad09ac570a1f",
+        "sha256sum" : "f5ac3dff9ff5486441dd2b2225d1e7d19b873184ce9169ad523318da5bc19e25"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000345-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "9341",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1fc760fefc63119a10a05bffec1c8eb4",
+        "sha1sum" : "cb151c8f1209059176aa8263a97fdc387e6fe6f2",
+        "sha256sum" : "d1fdb6e64912db3b18b15226d7ed795fba3fadb584da574253485c895868210d"
+      },
+      {
+        "name" : "BIOMD0000000345-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "10691",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f4431cdca2637ac8bfd10ff0b925bac3",
+        "sha1sum" : "91707501ff029a861864b482cc8752572e0311a9",
+        "sha256sum" : "9fdcd603ece9bcc3cd26f324a571881a3d17b13e3246843bdddd17bb7f0e1932"
+      },
+      {
+        "name" : "BIOMD0000000345-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12169",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "901999e8424e176edf805f015df035c9",
+        "sha1sum" : "adcbf1f6d0f13acd51f1a292eca05060c09f6d1f",
+        "sha256sum" : "522796f979f33d75e67006dac26aebbe2d7236d62ec4adefd727756bf817765b"
+      },
+      {
+        "name" : "BIOMD0000000345-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "12169",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8b39404d3ea76c6309b15595adb40405",
+        "sha1sum" : "9bed5b702d5c08d3d381328da0a60115f553f4f5",
+        "sha256sum" : "28d80af2f8f4e2c9aa6941d044a789ab5e58fd3e528b7d2b79f7e7f8ababa46f"
+      },
+      {
+        "name" : "BIOMD0000000345.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12169",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8b39404d3ea76c6309b15595adb40405",
+        "sha1sum" : "9bed5b702d5c08d3d381328da0a60115f553f4f5",
+        "sha256sum" : "28d80af2f8f4e2c9aa6941d044a789ab5e58fd3e528b7d2b79f7e7f8ababa46f"
+      },
+      {
+        "name" : "BIOMD0000000345.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9381",
+        "mimeType" : "text/plain",
+        "md5sum" : "640840e55822ad50768dd2c878bedb3a",
+        "sha1sum" : "c2cecceed274f62c9fdc1d1f8eab77b94fc21db0",
+        "sha256sum" : "686bbc54d2a2e6042cdde6c89b6ddc118e9eb521d6af6db0d5b3e453f68abd85"
+      },
+      {
+        "name" : "BIOMD0000000345.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "183128",
+        "mimeType" : "application/pdf",
+        "md5sum" : "55d6fb0f27c2993be929f147db8d5f66",
+        "sha1sum" : "f1f0e251b09c9b78420db351bd169c20e68e8c93",
+        "sha256sum" : "9f6ae9c8396371c74972aa2fe7ea9fa19bb5a6f894018e1acb4ebc9d716c5f1c"
+      },
+      {
+        "name" : "BIOMD0000000345.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000345.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "6366",
+        "mimeType" : "text/plain",
+        "md5sum" : "aeb125d74f04c6f4b38577899e1fa3f4",
+        "sha1sum" : "023c32fd5205a03ea9ea3d460f63ac53252e7b40",
+        "sha256sum" : "3a3605086ddd22b3572fe68f1acfec7da07d24a95d7997cb35617f134facc94a"
+      },
+      {
+        "name" : "BIOMD0000000345.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000345_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "40396",
+        "mimeType" : "application/xml",
+        "md5sum" : "39a391d32563d3e21b4af394082dc11e",
+        "sha1sum" : "a3d1396b83a3947dd1b0e39028502ccf60867fba",
+        "sha256sum" : "42f8fe7d7e529d4c5a5f688a530c36ec61cda33dfee243f4ede79cae77be2850"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "86267",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "f9efa546ad4fe399dbe411688bd4f0b4",
+        "sha1sum" : "8b2b1509047e7f8e4bdbd76cc9496380860f4328",
+        "sha256sum" : "523c0e5dd65ff7faf23b21e5e42ac342bb9884cb38d795bb62578f8ab742114b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "283",
+        "mimeType" : "text/plain",
+        "md5sum" : "81bc4802f26f507b7a4dc4e044cf6af0",
+        "sha1sum" : "d3d898155626cad490fa11d7e2d1beda4e0bbba4",
+        "sha256sum" : "043746f0d35130546b18a2fd9133463e93d69d3020d3c3c635db6884856c3527"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1913",
+        "mimeType" : "application/xml",
+        "md5sum" : "8ff5bf7d3419d580eb9ed829309b5866",
+        "sha1sum" : "7a28f0f4eab7bea5d25c84fe0086bfe2e30ec70a",
+        "sha256sum" : "bc56b173e9e6c22bdadc184e04ba5002a76ef1d87d799df9f12ba35ff8b9107b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4208",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f979009411d36c27466d904810431767",
+        "sha1sum" : "df8e26115dfb972672f3cb1bc9a76e9be8aad00c",
+        "sha256sum" : "43f34859d532d8258e1fdb93f2e1a5ad54c808be714149957439ac7f4e08534d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1312488128,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Original import of Koschorreck2008_InsulinClearance"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412940739,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Current version of Koschorreck2008_InsulinClearance"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274217,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285062,
+  "submissionId" : "MODEL1108040000",
+  "publicationId" : "BIOMD0000000345",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ishan Ajmera",
+        "email" : "ajmera@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108040000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108040000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000345",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000345"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18477391",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18477391"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000575",
+      "name" : "hepatocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000575"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000089",
+      "name" : "blood",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000089"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:1900076",
+      "name" : "regulation of cellular response to insulin stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1900076"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005009",
+      "name" : "insulin-activated receptor activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005009"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0038016",
+      "name" : "insulin receptor internalization",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0038016"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

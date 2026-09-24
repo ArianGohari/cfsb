@@ -1,0 +1,264 @@
+{
+  "name" : "Smolen2004_CircClock",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>No inititial conditions are specified in the paper. Because there is a basal rate of transcription for each gene, it doesn't matter much. With the agreement of Paul Smolen, I put all the initial concentration at 0.001 nanomoles. N Le Novère.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15111397",
+    "journal" : "Biophysical journal",
+    "title" : "Simulation of Drosophila circadian oscillations, mutations, and light responses by a model with VRI, PDP-1, and CLK.",
+    "affiliation" : "Department of Neurobiology and Anatomy, W M Keck Center for the Neurobiology of Learning and Memory, The University of Texas-Houston Medical School, Houston, Texas 77225, USA.",
+    "synopsis" : "A model of Drosophila circadian rhythm generation was developed to represent feedback loops based on transcriptional regulation of per, Clk (dclock), Pdp-1, and vri (vrille). The model postulates that histone acetylation kinetics make transcriptional activation a nonlinear function of [CLK]. Such a nonlinearity is essential to simulate robust circadian oscillations of transcription in our model and in previous models. Simulations suggest that two positive feedback loops involving Clk are not essential for oscillations, because oscillations of [PER] were preserved when Clk, vri, or Pdp-1 expression was fixed. However, eliminating positive feedback by fixing vri expression altered the oscillation period. Eliminating the negative feedback loop in which PER represses per expression abolished oscillations. Simulations of per or Clk null mutations, of per overexpression, and of vri, Clk, or Pdp-1 heterozygous null mutations altered model behavior in ways similar to experimental data. The model simulated a photic phase-response curve resembling experimental curves, and oscillations entrained to simulated light-dark cycles. Temperature compensation of oscillation period could be simulated if temperature elevation slowed PER nuclear entry or PER phosphorylation. The model makes experimental predictions, some of which could be tested in transgenic Drosophila.",
+    "year" : 2004,
+    "month" : "5",
+    "volume" : "86",
+    "issue" : "5",
+    "pages" : "2786-2802",
+    "link" : "http://identifiers.org/pubmed/15111397",
+    "authors" : [
+      {
+        "name" : "Paul Smolen",
+        "institution" : "Department of Neurobiology and Anatomy, W M Keck Center for the Neurobiology of Learning and Memory, The University of Texas-Houston Medical School, Houston, Texas 77225, USA."
+      },
+      {
+        "name" : "Paul E Hardin",
+        "orcid" : "0000-0002-3370-9011"
+      },
+      {
+        "name" : "Brian S Lo"
+      },
+      {
+        "name" : "Douglas A Baxter"
+      },
+      {
+        "name" : "John H Byrne"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000034_url.xml",
+        "description" : "SBML L2V1 representation of Smolen2004_CircClock",
+        "fileSize" : "49429",
+        "mimeType" : "application/xml",
+        "md5sum" : "dfb67b6f14d6aabc1aa4c972a5f648f4",
+        "sha1sum" : "204bccff06606573ee01bc015893ff8e621734f4",
+        "sha256sum" : "05d93958690ebe26ab031bfdd3a288d091b33ad50b347076a98635b28d7357fe"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000034-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "26885",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8fcc1cfb6793cd911a984443ba9147c9",
+        "sha1sum" : "4ec00fc314151eff33282bd144355f33e24b9242",
+        "sha256sum" : "4bd1b3bbe944e3f1aa3df382badae7ca649fe1fead7dc7a160a5fa32cf289b0a"
+      },
+      {
+        "name" : "BIOMD0000000034-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "41933",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cfd315e0cc7da1a25e701455b23f46c2",
+        "sha1sum" : "d9aa385a81730c4a3d73a6b77e14edfde21d1179",
+        "sha256sum" : "6f5c673234714e7377993707ea2f80fb259f0f8a50d886cd9d42d813f69cb260"
+      },
+      {
+        "name" : "BIOMD0000000034-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14758",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6fb5b9860a430326e4da526b7d4529b2",
+        "sha1sum" : "89022e9b43739bfee0b352afa91bd95adacf65ea",
+        "sha256sum" : "f97d8006cd2202028a4e175b20c314aa332799e7e68ccc4adba8d3b435529083"
+      },
+      {
+        "name" : "BIOMD0000000034-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14758",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c70e748cd0ab7383a12ed3a39632097a",
+        "sha1sum" : "0e2055f869e69c55eda403f97bec5cbb3d051b8c",
+        "sha256sum" : "0d373bda703967858d02a73fe123d716fc8514df559469db4393c39194ee6eb2"
+      },
+      {
+        "name" : "BIOMD0000000034.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14758",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4bf2e34224bbe750b2fe50d5a1e9e081",
+        "sha1sum" : "adc878d803e76cb5aef58231d3fed94a6a3504e7",
+        "sha256sum" : "3a4715d5fa6f6349fcf22a21c7db90e90a52dcca29cad17cbd038b30c8d835fa"
+      },
+      {
+        "name" : "BIOMD0000000034.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10302",
+        "mimeType" : "text/plain",
+        "md5sum" : "d1ddcca677f66e2d27c9a5320a3d03ce",
+        "sha1sum" : "56f324675580085a5ad6714f91c9c0e2546a945e",
+        "sha256sum" : "e7050fec63e0b37e48ae5fc4c7d48f48c6b02da3c7a498a5e6b7e0d59158b239"
+      },
+      {
+        "name" : "BIOMD0000000034.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "214985",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1bba3f35b9ca7d63eb987eaee4f77b9d",
+        "sha1sum" : "0c7fcef43313bdbbfa587a54f7e5eb25a61ca70d",
+        "sha256sum" : "b3841e4e6651857d09916bb0b97373a7411d9f46687372a6662b7cf18455b4c8"
+      },
+      {
+        "name" : "BIOMD0000000034.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "59737",
+        "mimeType" : "image/png",
+        "md5sum" : "cebf89a2d78595f29204da597abb49bd",
+        "sha1sum" : "0d61a880934f91bfc89ee89cf56fae8d68d8e50e",
+        "sha256sum" : "b915474e79810aab0e11f28b24d346f09102e79ae5951fbb3e9e4a0912240580"
+      },
+      {
+        "name" : "BIOMD0000000034.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "44082",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f7293190c300b476542fca17a546571a",
+        "sha1sum" : "3d07d43322ac05c369da1d504a9e346790a0b79c",
+        "sha256sum" : "4f74b00df50b49a94f0ca67a5dba5a24df2c97a1bc5d1ca21cbedf4d96e4eba0"
+      },
+      {
+        "name" : "BIOMD0000000034_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "49263",
+        "mimeType" : "application/xml",
+        "md5sum" : "ebb65f5253f083cc1828b37f76ef9cf8",
+        "sha1sum" : "c6ef716004621316a51c383134c6da66c5d697f7",
+        "sha256sum" : "1356ebe657eb503c9c13bf774e8e02a64a2c8b5e10f8dbbc06cd5a09e5f74072"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1571",
+        "mimeType" : "application/xml",
+        "md5sum" : "3380d75a2be1db4bd0c736d7ef35cbdd",
+        "sha1sum" : "53a4c621d4066bf40bf456f74eda5166bef7612a",
+        "sha256sum" : "e2db86628b180688831cd2dfeef2c1965d572caf421cb5b89c7e2dfe4d8cec23"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3078",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3469f52c5ce219b5f7c6da78bba2c681",
+        "sha1sum" : "425b62a7075a15c62ba691129117347393a004bf",
+        "sha256sum" : "3cd8d5c425336b3447a7b9e8faa4ca55c8f75ff83c3d48b16eb466614ac52be2"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126623205,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Smolen2004_CircClock"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424870265,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Smolen2004_CircClock"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265591,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284851,
+  "submissionId" : "MODEL6619579403",
+  "publicationId" : "BIOMD0000000034",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000089",
+    "name" : "delayed differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000089"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7227",
+      "name" : "Drosophila melanogaster",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7227"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "dme04710",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/dme04710"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6619579403",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6619579403"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000034",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000034"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15111397",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15111397"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO:0000089",
+      "name" : "delayed differential equation model ",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000089"
+    }
+  ]
+}

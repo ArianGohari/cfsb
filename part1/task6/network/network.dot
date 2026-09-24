@@ -1,0 +1,28 @@
+digraph Mouse {
+graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.4", ranksep="0.7"];
+node [shape=box, style="rounded,filled", fillcolor="#eef4f8", fontname="Helvetica", fontsize=12];
+edge [fontname="Helvetica", fontsize=10];
+"NCBIGene:11303" [label="Abca1", fillcolor="#eef4f8"];
+"NCBIGene:11307" [label="Abcg1", fillcolor="#eef4f8"];
+"NCBIGene:12772" [label="Ccr2", fillcolor="#eef4f8"];
+"NCBIGene:12774" [label="Ccr5", fillcolor="#eef4f8"];
+"NCBIGene:13051" [label="Cx3cr1", fillcolor="#eef4f8"];
+"NCBIGene:16176" [label="Il1b", fillcolor="#eef4f8"];
+"miRBase:MIMAT0000667" [label="mmu-miR-33-5p", fillcolor="#e7dcf5"];
+"TASK6:efflux_apoa1" [label="Cholesterinefflux zu ApoA-I", fillcolor="#fff0d5"];
+"TASK6:efflux_hdl" [label="Cholesterinefflux zu HDL", fillcolor="#fff0d5"];
+"TASK6:recruitment_hi" [label="Plaque-Akkumulation Ly6C-hi", fillcolor="#fff0d5"];
+"TASK6:recruitment_lo" [label="Plaque-Akkumulation Ly6C-lo", fillcolor="#fff0d5"];
+"TASK6:nets" [label="NETs im Apoe-KO-Plaquekontext", fillcolor="#fff0d5"];
+"TASK6:lesion" [label="Atherosklerotische Lesionslast", fillcolor="#fff0d5"];
+"miRBase:MIMAT0000667" -> "NCBIGene:11303" [label="T6E01 -", color="#ad2932", arrowhead="tee", style="solid"];
+"miRBase:MIMAT0000667" -> "NCBIGene:11307" [label="T6E02 -", color="#ad2932", arrowhead="tee", style="solid"];
+"NCBIGene:11303" -> "TASK6:efflux_apoa1" [label="T6E03 +", color="#235e5b", arrowhead="normal", style="solid"];
+"NCBIGene:11307" -> "TASK6:efflux_hdl" [label="T6E04 +", color="#235e5b", arrowhead="normal", style="solid"];
+"NCBIGene:12772" -> "TASK6:recruitment_hi" [label="T6E05 +", color="#235e5b", arrowhead="normal", style="solid"];
+"NCBIGene:12774" -> "TASK6:recruitment_hi" [label="T6E06 +", color="#235e5b", arrowhead="normal", style="solid"];
+"NCBIGene:13051" -> "TASK6:recruitment_hi" [label="T6E07 +", color="#235e5b", arrowhead="normal", style="solid"];
+"NCBIGene:12774" -> "TASK6:recruitment_lo" [label="T6E08 +", color="#235e5b", arrowhead="normal", style="solid"];
+"TASK6:nets" -> "NCBIGene:16176" [label="T6E09 +", color="#235e5b", arrowhead="normal", style="dashed"];
+"TASK6:nets" -> "TASK6:lesion" [label="T6E10 +", color="#235e5b", arrowhead="normal", style="dashed"];
+}

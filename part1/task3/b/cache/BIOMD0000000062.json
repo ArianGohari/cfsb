@@ -1,0 +1,285 @@
+{
+  "name" : "Bhartiya2003_Tryptophan_operon",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      <a href=\"http://www.sbml.org/\">SBML</a>          level 2 code originaly generated for the JWS Online project by Jacky Snoep using      <a href=\"http://pysces.sourceforge.net/\">PySCeS</a>                <br />          Run this model online at      <a href=\"http://jjj.biochem.sun.ac.za/\">http://jjj.biochem.sun.ac.za</a>                <br />          To cite JWS Online please refer to: Olivier, B.G. and Snoep, J.L. (2004)      <a href=\"http://bioinformatics.oupjournals.org/cgi/content/abstract/20/13/2143\">Web-based modelling using JWS Online</a>          , Bioinformatics, 20:2143-2144      </p>            <p>      <u>BioModels Curation</u>          : The model reproduces Fig 3 of the publication. By substituting a value of 1.4 for Tex it is possible to reproduce Fig 3C and 3D(iii), Fig 3A and 3D(i), are obtained by setting Tex=0. Also, note that the tryptophan concentrations have been normalized by 82 micromolar in the figures; the normalized concetrations can be obtained via the parameters To/s/t_norm. The model was successfully tested on MathSBML and Copasi.      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use      <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12787031",
+    "journal" : "European journal of biochemistry",
+    "title" : "Dynamic model of Escherichia coli tryptophan operon shows an optimal structural design.",
+    "affiliation" : "Department of Chemical Engineering and School of Biosciences and Bioengineering, Indian Institute of Technology, Bombay, Mumbai, India.",
+    "synopsis" : "A mathematical model has been developed to study the effect of external tryptophan on the trp operon. The model accounts for the effect of feedback repression by tryptophan through the Hill equation. We demonstrate that the trp operon maintains an intracellular steady-state concentration in a fivefold range irrespective of extracellular conditions. Dynamic behavior of the trp operon corresponding to varying levels of extracellular tryptophan illustrates the adaptive nature of regulation. Depending on the external tryptophan level in the medium, the transient response ranges from a rapid and underdamped to a sluggish and highly overdamped response. To test model fidelity, simulation results are compared with experimental data available in the literature. We further demonstrate the significance of the biological structure of the operon on the overall performance. Our analysis suggests that the tryptophan operon has evolved to a truly optimal design.",
+    "year" : 2003,
+    "month" : "6",
+    "volume" : "270",
+    "issue" : "12",
+    "pages" : "2644-2651",
+    "link" : "http://identifiers.org/pubmed/12787031",
+    "authors" : [
+      {
+        "name" : "Sharad Bhartiya",
+        "institution" : "Department of Chemical Engineering and School of Biosciences and Bioengineering, Indian Institute of Technology, Bombay, Mumbai, India.",
+        "orcid" : "0000-0002-2856-695X"
+      },
+      {
+        "name" : "Subodh Rawool"
+      },
+      {
+        "name" : "K V Venkatesh"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000062_url.xml",
+        "description" : "SBML L2V4 representation of Bhartiya2003_Tryptophan_operon",
+        "fileSize" : "19200",
+        "mimeType" : "application/xml",
+        "md5sum" : "1c825803889ed84bec19282a1ee374c1",
+        "sha1sum" : "a6e409dab18ceaded49a95cdc1884ebe3c7db61b",
+        "sha256sum" : "cf9e10ee26a18a56c1c84ff50dd7e1675f406ccbc14d6657bf2b091f48da8646"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000062-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "9394",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ca4ab03e1f73ef1688ef5d292a4277af",
+        "sha1sum" : "9c410e23f1443f5c9cd7d9c2a9caafa97c0efdba",
+        "sha256sum" : "564e2b5e2c57f773b0aa2e8f1e630b87198814dbbaab8b44bacf0ed0e3f7441f"
+      },
+      {
+        "name" : "BIOMD0000000062-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "12396",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c31a537088f17d9cb33c3f209dc7888",
+        "sha1sum" : "d74c8968e656e1cb5e1934fc1cae4956a5a020c9",
+        "sha256sum" : "2832e06120ca4c63552297f0de64cbeaf4092040741c65311e1abc0ba9d00960"
+      },
+      {
+        "name" : "BIOMD0000000062-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5842",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f7c4de7bc3644a1a4f2d0cfde3a7d051",
+        "sha1sum" : "db9618095923ee4dfea5d4bd3befb85e902b241e",
+        "sha256sum" : "1e8dab030a710c3d1c7ef12ed26c7e7db07571e3da3d275675863d08291f7cbf"
+      },
+      {
+        "name" : "BIOMD0000000062-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5842",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "875bfeb2d293d71955a1b6e88066aeec",
+        "sha1sum" : "8cadb57148099cab16d2f01267723b83c959e3c8",
+        "sha256sum" : "f9269d45dd4b1dbe2fc85a142971c85e54624d090d202969895cebad4a70fde2"
+      },
+      {
+        "name" : "BIOMD0000000062.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5842",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "875bfeb2d293d71955a1b6e88066aeec",
+        "sha1sum" : "8cadb57148099cab16d2f01267723b83c959e3c8",
+        "sha256sum" : "f9269d45dd4b1dbe2fc85a142971c85e54624d090d202969895cebad4a70fde2"
+      },
+      {
+        "name" : "BIOMD0000000062.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3353",
+        "mimeType" : "text/plain",
+        "md5sum" : "7db8fc92761ff6a89bdf5a3b6bd71423",
+        "sha1sum" : "097c65d621e5afebea7b82a7c5f375893ef7ebe5",
+        "sha256sum" : "c033d6d84f9671e0c9ba2a345fd55026c582d92e40fbde0da062a6564b0ca87d"
+      },
+      {
+        "name" : "BIOMD0000000062.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "165130",
+        "mimeType" : "application/pdf",
+        "md5sum" : "798d518a000fdd04d3068759c4bd8ad8",
+        "sha1sum" : "2789f696392ee38b439ffd86f2cb7ca47510b6e5",
+        "sha256sum" : "639435262e03b6ae2f279bd0e55762a77eb73b10b9468596a3cd851ecf659a79"
+      },
+      {
+        "name" : "BIOMD0000000062.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "31112",
+        "mimeType" : "image/png",
+        "md5sum" : "95df0c5d1e027bda7606f0645238184f",
+        "sha1sum" : "7dbe31a45128375558b7efa5b783455fadd866d0",
+        "sha256sum" : "7dc0d1e0a9b48cfb55531c54559d38cb5a865254e496b619f177994b7236a9d7"
+      },
+      {
+        "name" : "BIOMD0000000062.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "12230",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a4de42bb6466998773322e160334a21f",
+        "sha1sum" : "ca1db10520154d807651c01bfbeb88fb6ca45435",
+        "sha256sum" : "455c6864ce5e15dda002c711256c99d71dfb175b5b5905b5113c1abf5a1df75a"
+      },
+      {
+        "name" : "BIOMD0000000062.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "22495",
+        "mimeType" : "application/xml",
+        "md5sum" : "8a8c4aa3c13f5bc6ea39bad2170e58ed",
+        "sha1sum" : "5f1f3656c860facfe101d43f12590c6a77044ecd",
+        "sha256sum" : "834789a478b2aac2b84924cde5b30080f9fccd791649d0ecc086922606b2a280"
+      },
+      {
+        "name" : "BIOMD0000000062_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "11957",
+        "mimeType" : "application/xml",
+        "md5sum" : "0abcaa52ec7709a0a819af33521741fe",
+        "sha1sum" : "564918e1d00ff1fbf731f16eef78b09abebd051e",
+        "sha256sum" : "8c11f938dfdc3a0363ca5eb0f1056df26575450016ff248a8ee8e579d4ccde41"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "39166",
+        "mimeType" : "image/png",
+        "md5sum" : "537148d39428b62dffd389762a86dcae",
+        "sha1sum" : "6f0e3433eb26c65c917ce85b86d62d41de889af3",
+        "sha256sum" : "b607f5496cd9f1fc00ad377e06e4fec40c827ce668feda7e4185528c4642425c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "66",
+        "mimeType" : "text/plain",
+        "md5sum" : "fb9d1fb9f0208577ad68b6ba190bffe6",
+        "sha1sum" : "31c2802e80156f72e8c40d28b489b2306553bea5",
+        "sha256sum" : "73dbe6d64619bd6fbf6c47d90f1cdd0b960dcb900505bae25697655a96522f58"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "82e7e2b050ef24ff3c2f5bb7e8e352ed",
+        "sha1sum" : "51615eb027010e723fa061c11cb534e6fec42dfe",
+        "sha256sum" : "50f4705f87acedb4e56303322e20960a6bc5ed6fa1566d3934cc082297223b06"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4394",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1707241560513dd970765fccdbcfa04a",
+        "sha1sum" : "c7bb22443163f31cb8f5bbd641e0650bddfa7961",
+        "sha256sum" : "25e9ecc334e4cc4f03d9153358a22d0ad6f7d11fc264f6fba668d63dfd5e3fac"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1154422472,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of bhartiya"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392220111,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Bhartiya2003_Tryptophan_operon"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266351,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284861,
+  "submissionId" : "MODEL6624111460",
+  "publicationId" : "BIOMD0000000062",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6624111460",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6624111460"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000062",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000062"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12787031",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12787031"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11171956",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11171956"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000162",
+      "name" : "tryptophan biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000162"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

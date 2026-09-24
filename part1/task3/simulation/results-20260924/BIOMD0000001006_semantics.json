@@ -1,0 +1,740 @@
+{
+  "model": "BIOMD0000001006",
+  "sha256": "c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389",
+  "revision": 3,
+  "level": 2,
+  "version": 4,
+  "read_diagnostics": 0,
+  "issues": [
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <initialAssignment> <math> expression 'vratio' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'kd2 + kd2_ * DNA_damage / (Jdam + DNA_damage)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'ampl * step' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <assignmentRule> <math> expression 'Mdm2_cyt + 1 / ModelValue_6 * Mdm2_p_nuc + Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F2_Damage(kDNA, IR)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F3_Repair(kdDNA, p53_total, DNA_damage, Jdna)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * Constant_flux__irreversible(ks53)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * kd53 * p53_total' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F1___ubiquitination1(Kf, Mdm2_p_nuc, p53)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F8_ubiquitination2(Kf, Mdm2_p_nuc, p53_ub)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * kd53 * p53_ub' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F9__p53_ub_ub_deg(kd53, kd53_0, p53_ub_ub)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * Kr * p53_ub' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * Kr * p53_ub_ub' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F10___mdm2cyt_synthesis(ks2, ks2_0, p53_total, m, Js)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F4___mdm2_phos(p53_total, Jph, kph, Mdm2_cyt)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kd2 * Mdm2_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kd2 * Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F11___translocation1(vratio, kout, Mdm2_p_nuc)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kdeph * Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Cyt * kin * Mdm2_p_cyt' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * kd2_0 * Mdm2_p_nuc' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'Nuc * F7___indirect(kd53_0, p53_ub_ub)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F2_Damage(kout, Mdm2_p_nuc)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <kineticLaw> <math> expression 'F12__translocation2(vratio, kin, Mdm2_p_cyt)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <event> <delay> expression '2' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <event> <trigger> expression 'gt(time, 10)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <eventAssignment> <math> expression '1' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <event> <trigger> expression 'gt(time, 20)' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 99505,
+      "severity": "Warning",
+      "category": "SBML unit consistency",
+      "message": "In situations where a mathematical expression contains literal numbers or parameters whose units have not been declared, it is not possible to verify accurately the consistency of the units in the expression. \n The units of the <eventAssignment> <math> expression '0' cannot be fully checked. Unit consistency reported as either no errors or further unit errors related to this object may not be accurate.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Kf' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Kr' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ks53' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kDNA' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kdDNA' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Jdna' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'vratio' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd53' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ks2' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ks2_0' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd2' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd2_' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kph' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kdeph' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kin' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kout' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd53_0' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'm' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Js' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Jdam' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'Jph' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ampl' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'step' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 't_on' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 't_off' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'kd2_0' does not have a 'units' attribute.\n"
+    },
+    {
+      "id": 80701,
+      "severity": "Warning",
+      "category": "Modeling practice",
+      "message": "As a principle of best modeling practice, the units of a <parameter> should be declared rather than be left undefined. Doing so improves the ability of software to check the consistency of units and helps make it easier to detect potential errors in models.\n The <parameter> with the id 'ModelValue_6' does not have a 'units' attribute.\n"
+    }
+  ],
+  "units": [
+    {
+      "id": "length",
+      "definition": "metre (exponent = 1, multiplier = 1, scale = 0)"
+    },
+    {
+      "id": "area",
+      "definition": "metre (exponent = 2, multiplier = 1, scale = 0)"
+    },
+    {
+      "id": "volume",
+      "definition": "litre (exponent = 1, multiplier = 1, scale = 0)"
+    },
+    {
+      "id": "time",
+      "definition": "second (exponent = 1, multiplier = 1, scale = 0)"
+    },
+    {
+      "id": "substance",
+      "definition": "mole (exponent = 1, multiplier = 1, scale = 0)"
+    }
+  ],
+  "compartments": [
+    {
+      "id": "Cyt",
+      "size": 1.0,
+      "constant": true
+    },
+    {
+      "id": "Nuc",
+      "size": 1.0,
+      "constant": true
+    }
+  ],
+  "species": [
+    {
+      "id": "DNA_damage",
+      "name": "DNA_damage",
+      "initial_kind": "concentration",
+      "initial_value": 0.0,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "IR",
+      "name": "IR",
+      "initial_kind": "concentration",
+      "initial_value": 0.0,
+      "boundary": true,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "p53_total",
+      "name": "p53_total",
+      "initial_kind": "concentration",
+      "initial_value": 0.07118,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "p53_ub",
+      "name": "p53_ub",
+      "initial_kind": "concentration",
+      "initial_value": 0.02456,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "p53_ub_ub",
+      "name": "p53_ub_ub",
+      "initial_kind": "concentration",
+      "initial_value": 0.006826,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "Mdm2_cyt",
+      "name": "Mdm2_cyt",
+      "initial_kind": "concentration",
+      "initial_value": 0.1161,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "Mdm2_p_cyt",
+      "name": "Mdm2_p_cyt",
+      "initial_kind": "concentration",
+      "initial_value": 0.01187,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "Mdm2_p_nuc",
+      "name": "Mdm2_p_nuc",
+      "initial_kind": "concentration",
+      "initial_value": 0.331800000000002,
+      "boundary": false,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "p53",
+      "name": "p53",
+      "initial_kind": "concentration",
+      "initial_value": 0.039794,
+      "boundary": true,
+      "constant": false,
+      "has_only_substance_units": false
+    },
+    {
+      "id": "MDM2_total",
+      "name": "MDM2_total",
+      "initial_kind": "concentration",
+      "initial_value": 0.150090000000001,
+      "boundary": true,
+      "constant": false,
+      "has_only_substance_units": false
+    }
+  ],
+  "parameters": [
+    {
+      "id": "Kf",
+      "value": 8.8,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "Kr",
+      "value": 2.5,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "ks53",
+      "value": 0.055,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kDNA",
+      "value": 0.18,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kdDNA",
+      "value": 0.017,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "Jdna",
+      "value": 1.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "vratio",
+      "value": 15.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kd53",
+      "value": 0.0055,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "ks2",
+      "value": 0.0015,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "ks2_0",
+      "value": 0.006,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kd2",
+      "value": 0.01,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kd2_",
+      "value": 0.01,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kph",
+      "value": 0.05,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kdeph",
+      "value": 6.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kin",
+      "value": 14.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kout",
+      "value": 0.5,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kd53_0",
+      "value": 8.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "m",
+      "value": 3.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "Js",
+      "value": 1.2,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "Jdam",
+      "value": 0.2,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "Jph",
+      "value": 0.01,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "ampl",
+      "value": 1.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "step",
+      "value": 0.0,
+      "units": "",
+      "constant": false
+    },
+    {
+      "id": "t_on",
+      "value": 10.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "t_off",
+      "value": 20.0,
+      "units": "",
+      "constant": true
+    },
+    {
+      "id": "kd2_0",
+      "value": 0.01,
+      "units": "",
+      "constant": false
+    },
+    {
+      "id": "ModelValue_6",
+      "value": 15.0,
+      "units": "",
+      "constant": true
+    }
+  ],
+  "rules": [
+    {
+      "variable": "kd2_0",
+      "type": "assignment",
+      "formula": "kd2 + kd2_ * DNA_damage / (Jdam + DNA_damage)"
+    },
+    {
+      "variable": "IR",
+      "type": "assignment",
+      "formula": "ampl * step"
+    },
+    {
+      "variable": "p53",
+      "type": "assignment",
+      "formula": "p53_total - p53_ub - p53_ub_ub"
+    },
+    {
+      "variable": "MDM2_total",
+      "type": "assignment",
+      "formula": "Mdm2_cyt + (1 / ModelValue_6) * Mdm2_p_nuc + Mdm2_p_cyt"
+    }
+  ],
+  "initial_assignments": [
+    {
+      "symbol": "ModelValue_6",
+      "formula": "vratio"
+    }
+  ],
+  "events": [
+    {
+      "id": "event",
+      "trigger": "time > 10",
+      "delay": "2",
+      "assignments": [
+        {
+          "variable": "step",
+          "formula": "1"
+        }
+      ]
+    },
+    {
+      "id": "event_1",
+      "trigger": "time > 20",
+      "delay": null,
+      "assignments": [
+        {
+          "variable": "step",
+          "formula": "0"
+        }
+      ]
+    }
+  ],
+  "function_definitions": [
+    {
+      "id": "Constant_flux__irreversible",
+      "formula": "lambda(v, v)"
+    },
+    {
+      "id": "F11___translocation1",
+      "formula": "lambda(Vratio, k, S, Vratio * k * S)"
+    },
+    {
+      "id": "F9__p53_ub_ub_deg",
+      "formula": "lambda(k1, k2, s, (k1 + k2) * s)"
+    },
+    {
+      "id": "F7___indirect",
+      "formula": "lambda(k, M, k * M)"
+    },
+    {
+      "id": "F1___ubiquitination1",
+      "formula": "lambda(k, E, S, k * E * S)"
+    },
+    {
+      "id": "F2_Damage",
+      "formula": "lambda(k, M, k * M)"
+    },
+    {
+      "id": "F3_Repair",
+      "formula": "lambda(k, p53, S, Jdna, k * p53 * (S / (Jdna + S)))"
+    },
+    {
+      "id": "F4___mdm2_phos",
+      "formula": "lambda(p53t, Jph, kph, S, (kph / (Jph + p53t)) * S)"
+    },
+    {
+      "id": "F8_ubiquitination2",
+      "formula": "lambda(k, M, S, k * M * S)"
+    },
+    {
+      "id": "F10___mdm2cyt_synthesis",
+      "formula": "lambda(p1, p2, p53tot, m, Js, p1 + p2 * p53tot^m / (Js^m + p53tot^m))"
+    },
+    {
+      "id": "F12__translocation2",
+      "formula": "lambda(Vratio, k, M, Vratio * k * M)"
+    }
+  ]
+}

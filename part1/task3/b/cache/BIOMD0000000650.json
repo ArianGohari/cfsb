@@ -1,0 +1,269 @@
+{
+  "name" : "Owen1998 - Tumour  treatment model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Owen1998 - tumour treatment model</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/9661282\" title=\"Access to this publication\">Modelling the macrophage    invasion of tumours: effects on growth and composition.</a>  </div>  <div class=\"bibo:authorList\">Owen MR, Sherratt JA.</div>  <div class=\"bibo:Journal\">IMA J Math Appl Med Biol 1998 Jun;  15(2): 165-185</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Even in the early stages of their development, tumours are    not simply a homogeneous grouping of mutant cells; rather, they    develop in tandem with normal tissue cells, and also recruit    other cell types including lymphatic cells and the endothelial    cells required for the development of a blood supply. It has    been repeatedly seen that macrophages form a significant    proportion of the tumour mass, and that they can have a variety    of effects upon the tumour, leading to a delicate balance    between growth promotion and inhibition. This paper develops a    model for the early, avascular growth of a tumour,    concentrating on the inhibitory effect of macrophages due to    their cytolytic activity. It is shown that such an immune    response is not sufficient to prevent growth, due to it being a    second-order process with respect to the density of the tumour    cells present. However, the presence of macrophages does have    important effects on the tumour composition, and the authors    perform a detailed bifurcation analysis of their model to    clarify this. An extended model is also considered which    incorporates addition of exogenous chemical regulators. In this    case, the model admits the possibility of tumour regression,    and the therapeutic implications of this are discussed.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1708250002\">MODEL1708250002</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "9661282",
+    "journal" : "IMA journal of mathematics applied in medicine and biology",
+    "title" : "Modelling the macrophage invasion of tumours: effects on growth and composition.",
+    "affiliation" : "Nonlinear Systems Laboratory, University of Warwick, Coventry, UK. owen@maths.warwick.ac.uk",
+    "synopsis" : "Even in the early stages of their development, tumours are not simply a homogeneous grouping of mutant cells; rather, they develop in tandem with normal tissue cells, and also recruit other cell types including lymphatic cells and the endothelial cells required for the development of a blood supply. It has been repeatedly seen that macrophages form a significant proportion of the tumour mass, and that they can have a variety of effects upon the tumour, leading to a delicate balance between growth promotion and inhibition. This paper develops a model for the early, avascular growth of a tumour, concentrating on the inhibitory effect of macrophages due to their cytolytic activity. It is shown that such an immune response is not sufficient to prevent growth, due to it being a second-order process with respect to the density of the tumour cells present. However, the presence of macrophages does have important effects on the tumour composition, and the authors perform a detailed bifurcation analysis of their model to clarify this. An extended model is also considered which incorporates addition of exogenous chemical regulators. In this case, the model admits the possibility of tumour regression, and the therapeutic implications of this are discussed.",
+    "year" : 1998,
+    "month" : "6",
+    "volume" : "15",
+    "issue" : "2",
+    "pages" : "165-185",
+    "link" : "http://identifiers.org/pubmed/9661282",
+    "authors" : [
+      {
+        "name" : "M R Owen",
+        "institution" : "Nonlinear Systems Laboratory, University of Warwick, Coventry, UK. owen@maths.warwick.ac.uk"
+      },
+      {
+        "name" : "J A Sherratt"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000650_url.xml",
+        "description" : "SBML L2V4 representation of Owen1998 - Tumour  treatment model",
+        "fileSize" : "27583",
+        "mimeType" : "application/xml",
+        "md5sum" : "8ef749f5ae93bbe62d80c3d95246ec6c",
+        "sha1sum" : "6a4b02c45e9ea034c3602e9ea67feac54370bd14",
+        "sha256sum" : "2c0d550c3875e68cb74b1c1eef514221681283a3da87f4e0eaec28c9cc5cdccb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000650-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3700",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c4684e4462a10e78d759303b8b1a4141",
+        "sha1sum" : "f7be16f8bdeec6bb7ba02efcbc3a3122b8f52991",
+        "sha256sum" : "0add69009250673f7d1e8f51974351266fcd538f9ef81dae529f5b6f1ce6dbd0"
+      },
+      {
+        "name" : "BIOMD0000000650-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "4042",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f138d1f1954b15001d9266aed744dbba",
+        "sha1sum" : "baa16576227176a0bcd77cee92a76e45eb6875e9",
+        "sha256sum" : "3597795ea750da1076408c1445cf027f55e80a8e93713f8a8743ac5e42e6e097"
+      },
+      {
+        "name" : "BIOMD0000000650-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4404",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3260719d3ad85d24c0b2bde51b2c8b7c",
+        "sha1sum" : "c0d1359333c009f29ca0cb87c9223ca617dc6376",
+        "sha256sum" : "96f7f7cbb061a8f4989fc47df20b16ee5b3df028e9932d2a94291ca89dc741d3"
+      },
+      {
+        "name" : "BIOMD0000000650-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4404",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "01dc4103e287101a4787cafe0d698638",
+        "sha1sum" : "63c433e0419d317488aa3823b6656f020149bec3",
+        "sha256sum" : "dc1936ec3ab8e70098cac16ce352234e8da068a6ddf038f03f1079bc25422750"
+      },
+      {
+        "name" : "BIOMD0000000650.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4410",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "390fac1dd8c13416ee7a951073526b99",
+        "sha1sum" : "f7538a9b127edd3a97d21339a7d53ea781996178",
+        "sha256sum" : "5d2d46edcf75f5c16e3b47fc3298dba66b52d159dd1816617850b17c5fa603b4"
+      },
+      {
+        "name" : "BIOMD0000000650.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2265",
+        "mimeType" : "text/plain",
+        "md5sum" : "5e177fbe9d100fb1b0875ff570d10c4d",
+        "sha1sum" : "2758934ecccd9fa7271380ff8e62aaa6a7978be5",
+        "sha256sum" : "4845a80e1af58d55094eb425858ef717cd7b3458610d7b7eba94421ed4fd77fb"
+      },
+      {
+        "name" : "BIOMD0000000650.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000650.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "MODEL1708250002.cps",
+        "description" : "COPASI file to reproduce Figure 6 in the reference publication",
+        "fileSize" : "45870",
+        "mimeType" : "application/xml",
+        "md5sum" : "18768b9cf85abf369b1ce6fd607569fc",
+        "sha1sum" : "617c493abff16cd04f9e9f904089c3cd6801d242",
+        "sha256sum" : "60b54889960137e74a088acfc27cc9987c952d46351b6aa4adcb95fea9c91ea9"
+      },
+      {
+        "name" : "MODEL1708250002_treatment_start10.sedml",
+        "description" : "SED-ML file to reproduce Figure 6 for treatment_start time 10. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "11169",
+        "mimeType" : "application/xml",
+        "md5sum" : "e8cecf824b4311a35830adb7b9af3570",
+        "sha1sum" : "fea26fb7b5c6c4091337d8971a955a35c63a367e",
+        "sha256sum" : "a1c2fbd3177551883c1098509bdb433aff0c5fd6dd0bfd84afce592739b18fc3"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28316",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "b918966aaedb79c8e81d0621d4c74e61",
+        "sha1sum" : "9e3b786670bde4fa49649555ef616f253bdd86e6",
+        "sha256sum" : "b03756fe1677b5c15284f19ef5a22b631b9fe02ed74409ac4dec7958f4be82c8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "419",
+        "mimeType" : "text/plain",
+        "md5sum" : "2b9e9a30820e70e87537d8bfd817d9b0",
+        "sha1sum" : "6a1187329357715759dbcea9303bdb290568ebaf",
+        "sha256sum" : "8a0630ebd9b86c98428da7d0f597ca590a1d072c6d115e00aafec43ecdffc484"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1811",
+        "mimeType" : "application/xml",
+        "md5sum" : "2c3be0d512b7c939fe9951e481b3a93a",
+        "sha1sum" : "6a9ced455b5cc5274e3d954678cbc5c49c37b78c",
+        "sha256sum" : "ad8beebfa1e47747e04b45d9832e06fa0cb02c41ac767be772a63b03669eb055"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4779",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4edc7a2d7dcd88d12fba9b99cbf7cac5",
+        "sha1sum" : "95e00790aaa5ed077e3fb046932d8a0445cf054e",
+        "sha256sum" : "1bf8034811b161268b4eb9f892b8eb4f165063fcbf98fbc7e85c490382c4aabe"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1503658089,
+        "submitter" : "Emma Fairbanks",
+        "comment" : "Original import of Owen1998 - tumour  treatment model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1516276933,
+        "submitter" : "Emma Fairbanks",
+        "comment" : "Current version of Owen1998 - Tumour  treatment model"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416794,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: MODEL1708250002_treatment_start10.sedml, MODEL1708250002.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724285495,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285398,
+  "submissionId" : "MODEL1708250002",
+  "publicationId" : "BIOMD0000000650",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Emma Fairbanks",
+        "email" : "emmafairbanks93@gmail.com",
+        "affiliation" : "University of Nottingham",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1708250002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1708250002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000650",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000650"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "9661282",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9661282"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "9661282",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9661282"
+    }
+  ]
+}

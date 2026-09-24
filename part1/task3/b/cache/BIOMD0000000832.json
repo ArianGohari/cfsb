@@ -1,0 +1,254 @@
+{
+  "name" : "Shin2016 - Unveiling Hidden Dynamics of Hippo Signalling",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model describing Hippo signalling pathway activity. It includes descriptions of crosstalk with the Akt and ERK MAPK pathways; crosstalk activity is described using complex regulatory mechanisms comprised of competitive protein-protein interactions and phosphorylation mediated feedback loops.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "27527217",
+    "journal" : "Genes",
+    "title" : "Unveiling Hidden Dynamics of Hippo Signalling: A Systems Analysis.",
+    "affiliation" : "Department of Biochemistry and Molecular Biology, School of Biomedical Sciences, Monash University, Clayton Victoria 3800, Australia. sungyoung.shin@monash.edu.",
+    "synopsis" : "The Hippo signalling pathway has recently emerged as an important regulator of cell apoptosis and proliferation with significant implications in human diseases. In mammals, the pathway contains the core kinases MST1/2, which phosphorylate and activate LATS1/2 kinases. The pro-apoptotic function of the MST/LATS signalling axis was previously linked to the Akt and ERK MAPK pathways, demonstrating that the Hippo pathway does not act alone but crosstalks with other signalling pathways to coordinate network dynamics and cellular outcomes. These crosstalks were characterised by a multitude of complex regulatory mechanisms involving competitive protein-protein interactions and phosphorylation mediated feedback loops. However, how these different mechanisms interplay in different cellular contexts to drive the context-specific network dynamics of Hippo-ERK signalling remains elusive. Using mathematical modelling and computational analysis, we uncovered that the Hippo-ERK network can generate highly diverse dynamical profiles that can be clustered into distinct dose-response patterns. For each pattern, we offered mechanistic explanation that defines when and how the observed phenomenon can arise. We demonstrated that Akt displays opposing, dose-dependent functions towards ERK, which are mediated by the balance between the Raf-1/MST2 protein interaction module and the LATS1 mediated feedback regulation. Moreover, Ras displays a multi-functional role and drives biphasic responses of both MST2 and ERK activities; which are critically governed by the competitive protein interaction between MST2 and Raf-1. Our study represents the first in-depth and systematic analysis of the Hippo-ERK network dynamics and provides a concrete foundation for future studies.",
+    "year" : 2016,
+    "month" : "8",
+    "volume" : "7",
+    "issue" : "8",
+    "pages" : "E44",
+    "link" : "http://identifiers.org/pubmed/27527217",
+    "authors" : [
+      {
+        "name" : "Sung-Young Shin",
+        "institution" : "Department of Biochemistry and Molecular Biology, School of Biomedical Sciences, Monash University, Clayton, Victoria, 3800, Australia.Biomedicine Discovery Institute, Monash University, Clayton, Victoria, 3800, Australia.",
+        "orcid" : "0000-0002-1447-9687"
+      },
+      {
+        "name" : "Lan K Nguyen",
+        "institution" : "Department of Biochemistry and Molecular Biology, School of Biomedical Sciences, Monash University, Clayton Victoria 3800, Australia. lan.k.nguyen@monash.edu.Biomedicine Discovery Institute, Monash University, Clayton Victoria 3800, Australia. lan.k.nguyen@monash.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Shin2016.xml",
+        "description" : "SBML L2V4 Representation of Shin2016 - Unveiling Hidden Dynamics of Hippo Signalling",
+        "fileSize" : "142676",
+        "mimeType" : "application/xml",
+        "md5sum" : "ad11fd57625ff8ffd8052d549979a51e",
+        "sha1sum" : "14e461dd848a3ab308b04a361619361807aebdb9",
+        "sha256sum" : "b35ee199b0b2a7ee7bdfb50ef78e76edf649f280f7131b2e4ca170efd26e424e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Shin2016-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "35005",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "69ec6f80595a958545676686e40473ce",
+        "sha1sum" : "8302554205a441290a0b13256bfcc47239438e11",
+        "sha256sum" : "65a6ad5737a69a41f8ed9c3accb44747d9def9d9e38569278e35cb22938b5321"
+      },
+      {
+        "name" : "Shin2016-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "58273",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7d358026700f203f3443cd27b8505588",
+        "sha1sum" : "48ec4517ddba51f27524209a9b549c85c4fec65c",
+        "sha256sum" : "1927e7bf530d6e3d35f3cba1769a1316fd1fd12416653bc9d595d75ca6d92382"
+      },
+      {
+        "name" : "Shin2016-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16648",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "465dd4c28f65a6498b72f5a39dd1e82a",
+        "sha1sum" : "339df8da4eb237d4e0105904034e30bcbe4a0441",
+        "sha256sum" : "99efff3d415e55f181964491d8372d2a53a408f462e0f1bd195e25682d135266"
+      },
+      {
+        "name" : "Shin2016-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16648",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e7e277313f619bef7aaa6cc936355154",
+        "sha1sum" : "b42b7e86752c9ca676c24bd8b158ccc91002ceba",
+        "sha256sum" : "24a3ccde6d56a7db7b13ba8f7b6262291550c8817e8704eb9e3f12945cf65ece"
+      },
+      {
+        "name" : "Shin2016.cps",
+        "description" : "COPASI file of Shin2016 - Unveiling Hidden Dynamics of Hippo Signalling",
+        "fileSize" : "190137",
+        "mimeType" : "application/xml",
+        "md5sum" : "e7a9de5013a7ea0ad008ab8af9e9f8f3",
+        "sha1sum" : "003074928c066c2dda236da673c4ee9976806aec",
+        "sha256sum" : "500faa9cf9ba1c6f0f44444375da2691b737640457de0e3ab5c00d90c2c1a390"
+      },
+      {
+        "name" : "Shin2016.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "14459",
+        "mimeType" : "text/plain",
+        "md5sum" : "a94d529a3644a928e1e92038d7d677dd",
+        "sha1sum" : "16cc1a09b55c54516da4910d27cd9258839d3326",
+        "sha256sum" : "69247cb28e3ec0c5b0b770ea917bae354e64d75bfa32af3637c44cff9a90c8d8"
+      },
+      {
+        "name" : "Shin2016.sedml",
+        "description" : "SED-ML file of Shin2016 - Unveiling Hidden Dynamics of Hippo Signalling (additionally CRBM-validated and adjusted).",
+        "fileSize" : "57515",
+        "mimeType" : "application/xml",
+        "md5sum" : "438f3a4c84240545945c230577ce26af",
+        "sha1sum" : "8057c457de8bf9b0f41a25cd7fa4092c29b426e3",
+        "sha256sum" : "8311071d2f5a6e61853caa4167dcf084ec172d6e0f4747110da98d0aa8eddfee"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "25596",
+        "mimeType" : "image/png",
+        "md5sum" : "6655edd55c6604c9d6c6c2019cc151c4",
+        "sha1sum" : "b386f891feaad8f05da2d9ab970f3756eb79c7c6",
+        "sha256sum" : "2a70ac780529ffb6c621f5a02ae6306cac29d4e9807c3bdbfc1d10e4ba135b3b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "129",
+        "mimeType" : "text/plain",
+        "md5sum" : "83cdefe48df265a0ef3d0c01a70b3b15",
+        "sha1sum" : "c6fd4c253fe6b78585009c9a51b178eb964c000c",
+        "sha256sum" : "a82ffbc85a0f9a11b299af73b9ba1caec543fa375e278b995cf864d17ed73b7c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1395",
+        "mimeType" : "application/xml",
+        "md5sum" : "7955336df863761e5616875447777e2e",
+        "sha1sum" : "9a6d99ceb52fd9b2fd0c76bb3bc83ccecefca43c",
+        "sha256sum" : "c34776aebcaed854e6afd4a52848118874caa168bd23f783336dbd33a67e7448"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1883",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "725cffe0c8f1cc51aad5b4b4cd5e5aeb",
+        "sha1sum" : "af24b3883a9a23a1ab25ade42d48ee4bcf282315",
+        "sha256sum" : "426d1d21979003e43394ae91f2e080ee5b21abbea6b5d560ed03ba91ce6acf06"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1569406859,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Import of Shin2016 - Unveiling Hidden Dynamics of Hippo Signalling"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1570707463,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000832"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724290682,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285508,
+  "submissionId" : "MODEL1909250001",
+  "publicationId" : "BIOMD0000000832",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "27527217",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/27527217"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000832",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000832"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909250001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909250001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C38834",
+      "name" : "MAPK Signaling Pathway",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/NCIT:C38834"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C38981",
+      "name" : "AKT Signaling Pathway",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/NCIT:C38981"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0035329",
+      "name" : "hippo signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0035329"
+    }
+  ]
+}

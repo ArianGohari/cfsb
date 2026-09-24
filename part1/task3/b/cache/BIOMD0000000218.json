@@ -1,0 +1,294 @@
+{
+  "name" : "Singh2006_TCA_mtu_model2",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />                <strong>Kinetic modeling of tricarboxylic acid cycle and glyoxylate bypass in Mycobacterium tuberculosis, and its application to assessment of drug targets.</strong>                <br />          Singh VK  ,  Ghosh I      <em>Theor Biol Med Model</em>          2006 Aug 3;3:27      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16887020\">16887020</a>          ,      <br />                <strong>Abstract:</strong>                <br />          BACKGROUND: Targeting persistent tubercule bacilli has become an important challenge in the development of anti-tuberculous drugs. As the glyoxylate bypass is essential for persistent bacilli, interference with it holds the potential for designing new antibacterial drugs. We have developed kinetic models of the tricarboxylic acid cycle and glyoxylate bypass in Escherichia coli and Mycobacterium tuberculosis, and studied the effects of inhibition of various enzymes in the M. tuberculosis model. RESULTS: We used E. coli to validate the pathway-modeling protocol and showed that changes in metabolic flux can be estimated from gene expression data. The M. tuberculosis model reproduced the observation that deletion of one ofthe two isocitrate lyase genes has little effect on bacterial growth in macrophages, but deletion of both genes leads to the elimination of the bacilli from the lungs. It also substantiated the inhibition of isocitrate lyases by 3-nitropropionate. On the basis of our simulation studies, we propose that: (i) fractional inactivation of both isocitrate dehydrogenase 1 and isocitrate dehydrogenase 2 is required for a flux through the glyoxylate bypass in persistent mycobacteria; and (ii) increasing the amount of active isocitrate dehydrogenases can stop the flux through the glyoxylate bypass, so the kinase that inactivates isocitrate dehydrogenase 1 and/or the proposed inactivator of isocitrate dehydrogenase 2 is a potential target for drugs against persistent mycobacteria. In addition, competitive inhibition of isocitrate lyases along with a reduction in the inactivation of isocitrate dehydrogenases appears to be a feasible strategy for targeting persistent mycobacteria. CONCLUSION: We used kinetic modeling of biochemical pathways to assess various potential anti-tuberculous drug targets that interfere with the glyoxylate bypass flux, and indicated the type of inhibition needed to eliminate the pathogen. The advantage of such an approach to the assessment of drug targets is that it facilitates the study of systemic effect(s) of the modulation of the target enzyme(s) in the cellular environment.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16887020",
+    "journal" : "Theoretical biology & medical modelling",
+    "title" : "Kinetic modeling of tricarboxylic acid cycle and glyoxylate bypass in Mycobacterium tuberculosis, and its application to assessment of drug targets.",
+    "affiliation" : "Bioinformatics Centre, University of Pune, Pune-411007, India. vivek@bioinfo.ernet.in",
+    "synopsis" : "<h4>Background</h4>Targeting persistent tubercule bacilli has become an important challenge in the development of anti-tuberculous drugs. As the glyoxylate bypass is essential for persistent bacilli, interference with it holds the potential for designing new antibacterial drugs. We have developed kinetic models of the tricarboxylic acid cycle and glyoxylate bypass in Escherichia coli and Mycobacterium tuberculosis, and studied the effects of inhibition of various enzymes in the M. tuberculosis model.<h4>Results</h4>We used E. coli to validate the pathway-modeling protocol and showed that changes in metabolic flux can be estimated from gene expression data. The M. tuberculosis model reproduced the observation that deletion of one of the two isocitrate lyase genes has little effect on bacterial growth in macrophages, but deletion of both genes leads to the elimination of the bacilli from the lungs. It also substantiated the inhibition of isocitrate lyases by 3-nitropropionate. On the basis of our simulation studies, we propose that: (i) fractional inactivation of both isocitrate dehydrogenase 1 and isocitrate dehydrogenase 2 is required for a flux through the glyoxylate bypass in persistent mycobacteria; and (ii) increasing the amount of active isocitrate dehydrogenases can stop the flux through the glyoxylate bypass, so the kinase that inactivates isocitrate dehydrogenase 1 and/or the proposed inactivator of isocitrate dehydrogenase 2 is a potential target for drugs against persistent mycobacteria. In addition, competitive inhibition of isocitrate lyases along with a reduction in the inactivation of isocitrate dehydrogenases appears to be a feasible strategy for targeting persistent mycobacteria.<h4>Conclusion</h4>We used kinetic modeling of biochemical pathways to assess various potential anti-tuberculous drug targets that interfere with the glyoxylate bypass flux, and indicated the type of inhibition needed to eliminate the pathogen. The advantage of such an approach to the assessment of drug targets is that it facilitates the study of systemic effect(s) of the modulation of the target enzyme(s) in the cellular environment.",
+    "year" : 2006,
+    "month" : "8",
+    "volume" : "3",
+    "pages" : "27",
+    "link" : "http://identifiers.org/pubmed/16887020",
+    "authors" : [
+      {
+        "name" : "Vivek Kumar Singh",
+        "institution" : "Bioinformatics Centre, University of Pune, Pune-411007, India. vivek@bioinfo.ernet.in"
+      },
+      {
+        "name" : "Indira Ghosh"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000218_url.xml",
+        "description" : "SBML L2V4 representation of Singh2006_TCA_mtu_model2",
+        "fileSize" : "60358",
+        "mimeType" : "application/xml",
+        "md5sum" : "bb6d422cb6411e8a602e71a307a31e57",
+        "sha1sum" : "9d2340ef5c25ccd33bcdb74f7c301d43ab75f0bc",
+        "sha256sum" : "5dbda5b48c93274fceeb05d168d2e36218b8b7af64f4d2122e05af1976cc6df4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000218-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "32588",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a377cfc3c84ddb239d2b2b3d0490d9a3",
+        "sha1sum" : "8a3eb4927c56999e8c4f262718796c9e6e793d22",
+        "sha256sum" : "3b6c4a28c8467a7118301c592323c011231a941daa84e709f996c106be8ab38e"
+      },
+      {
+        "name" : "BIOMD0000000218-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "46374",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2d7b66b48bef956305c076b4cdc55a61",
+        "sha1sum" : "0590aa8e1b4152334d1e84e25118986c865e73bc",
+        "sha256sum" : "690e8ae87133d4c738ac300f35264bb84390240eae7a77f07e1c5a78f2974c0d"
+      },
+      {
+        "name" : "BIOMD0000000218-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14068",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7fcf256ed922fa97d8bbdac76969249b",
+        "sha1sum" : "4fd45469c1b3ec84300b8598075c4395b51ce317",
+        "sha256sum" : "8440255421e0f866cd9d4101549cd897d38290931247239094c168dbe369aace"
+      },
+      {
+        "name" : "BIOMD0000000218-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14068",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ae3634628cb5d8355692418568f01ae2",
+        "sha1sum" : "1dff219012c5389d2cf1db967d4d1f4118a0b5d4",
+        "sha256sum" : "69a18d810e85e4d54460b980487d52837c9eceefb3552c47003f2e6e29f908f9"
+      },
+      {
+        "name" : "BIOMD0000000218.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14068",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ae3634628cb5d8355692418568f01ae2",
+        "sha1sum" : "1dff219012c5389d2cf1db967d4d1f4118a0b5d4",
+        "sha256sum" : "69a18d810e85e4d54460b980487d52837c9eceefb3552c47003f2e6e29f908f9"
+      },
+      {
+        "name" : "BIOMD0000000218.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9549",
+        "mimeType" : "text/plain",
+        "md5sum" : "93c66fb733f947d0d991d743d18558ce",
+        "sha1sum" : "0a512e58e91d4c8c5121682f18931bb85af78a0b",
+        "sha256sum" : "4615c1bcda4be4af0a27d036872cb261cab58317a03234f0f5107949772efe17"
+      },
+      {
+        "name" : "BIOMD0000000218.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "222720",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1f70bf28ce824feb428c23e3fdb27a64",
+        "sha1sum" : "efa3c2c8af54fda7359ec3339cc59ab5765d0d7e",
+        "sha256sum" : "c143e544f4fe5a5dde6bd928599d61eaa768751492c4e97afae72b8f13a9d7e5"
+      },
+      {
+        "name" : "BIOMD0000000218.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "16418",
+        "mimeType" : "image/png",
+        "md5sum" : "4b219bc0afd4b4af1c3906fbc2634605",
+        "sha1sum" : "5351a36bd9f2defe6447bca85dcfd20270f1aa9d",
+        "sha256sum" : "9ee5ddac22827d5fd29f7f0413355489754f62a1c373f8056a74d18fc01f4e72"
+      },
+      {
+        "name" : "BIOMD0000000218.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "35353",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "1c88102caffaf644b1482c98b0054d8f",
+        "sha1sum" : "cb578ece0ee05cf7dcf2551811d5f6ad17a1eba4",
+        "sha256sum" : "63557c4409847d4de2e36abd4b37afd05252348480b506a40dfd4149569458f4"
+      },
+      {
+        "name" : "BIOMD0000000218.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "62399",
+        "mimeType" : "application/xml",
+        "md5sum" : "4291fe451a820e575ea370d675bb6af8",
+        "sha1sum" : "266d413ccd3b60f1b62f76425bb59b14bc6f9a51",
+        "sha256sum" : "b7ac8d3c1013827fc1691b23a2b365d4f89fe5ceb170881a63fca7a837fbb21c"
+      },
+      {
+        "name" : "BIOMD0000000218_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "17610",
+        "mimeType" : "application/xml",
+        "md5sum" : "c097a4edb442196cecc7fd51ccf41618",
+        "sha1sum" : "58251497ff697a54065ff2efac991556833aa86b",
+        "sha256sum" : "1174fae09dabc98d22a82a82c999703a2bb265081de4a5a553b8242199b19ae2"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "75713",
+        "mimeType" : "image/png",
+        "md5sum" : "df7bf0c765186e2b47f3244dbd2746ab",
+        "sha1sum" : "4fecb8e225c614c7150062b97c415b6dd4c12cba",
+        "sha256sum" : "7ee535fe65ece95d0f09b36d64fa950e6e6cb612528b2a3d19f4fc83e55c9e74"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "3156",
+        "mimeType" : "text/plain",
+        "md5sum" : "5bda270efa0904732242a78b8a9162d6",
+        "sha1sum" : "ffe9e962c2db72c272401cea0eb5f81f40ec5eb5",
+        "sha256sum" : "8ac6960dcb6eff029cc2fef9479745ae21b0d86edc7d33818507a9764c5c9f97"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "4a106d1add5b3d8c8fdfac88f45ac729",
+        "sha1sum" : "af9c3809031413532c8a8a80c21696b18c63703f",
+        "sha256sum" : "6f3abf3c1eb6dc1bd46fb76301feed9ac468520ead955fafe2130c372ebff724"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5690",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "308aa6df791856846363e645a069e155",
+        "sha1sum" : "dec7086081025089309f3ddea1e9596b29e50048",
+        "sha256sum" : "b74b5012801f759846e66dd65dab29b5b3b689a769d54f55ae94329654ec2a5b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1159573792,
+        "submitter" : "Indira Ghosh",
+        "comment" : "Original import of Singh_Ghosh2006_TCA_mtu_model2"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341503135,
+        "submitter" : "Indira Ghosh",
+        "comment" : "Current version of Singh2006_TCA_mtu_model2"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270613,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284946,
+  "submissionId" : "MODEL8584468482",
+  "publicationId" : "BIOMD0000000218",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Indira Ghosh",
+        "email" : "indira@bioinfo.ernet.in",
+        "affiliation" : "Bioinformatics Centre, University of Pune, Ganeshkhind Road, Pune, Maharashtra, India, 411007",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8584468482",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8584468482"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000218",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000218"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16887020",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16887020"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "ko00020",
+      "name" : "Citrate cycle (TCA cycle)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko00020"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006097",
+      "name" : "glyoxylate cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006097"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006099",
+      "name" : "tricarboxylic acid cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006099"
+    },
+    {
+      "qualifier" : "bqbiol:isHomologTo",
+      "accession" : "REACT_1785",
+      "name" : "Citric acid cycle (TCA cycle)",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_1785"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "1773",
+      "name" : "Mycobacterium tuberculosis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/1773"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

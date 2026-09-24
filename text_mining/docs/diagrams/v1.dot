@@ -1,0 +1,28 @@
+digraph V1 {
+  rankdir=TB;
+  graph [label="Aufgabe 1(g): Snakemake + feste LLM-Schritte\nKeine freie Agent-Schleife; kein manueller Haltepunkt", labelloc=t];
+  node [shape=box];
+
+  input [label="Queries + Suchzeitraum + optionale Startpapers\nPilotlimit explizit; kein Vollstaendigkeitsanspruch"];
+  search [label="Europe PMC + dokumentierte Startquellen\nSuchtreffer vor Deduplikation sichern; Korpus einfrieren"];
+  screening [label="LLM-Titel-/Abstract-Screening\nKriterien + Belege validieren\ninclude und unclear zur Beschaffung"];
+  documents [label="Volltextbeschaffung\nretrieved / not_retrieved / pending\nFehlender Volltext ist kein fachlicher Ausschluss"];
+  eligibility [label="LLM-Volltext-Eignungspruefung\nEndgueltiger Einschluss mit Beleg\nAusschluesse und offene Faelle separat protokollieren"];
+  annotation [label="PubTator + Textalignment + Normalisierung\nFehlende Annotationen sichtbar protokollieren"];
+  extraction [label="LLM-Extraktion aus begrenzten Textabschnitten\nArgumente + Relation + Kontext + Originalbelege\nBei Unsicherheit: Enthaltung"];
+  qc [label="Deterministische Python-Validierung\nSchema + Zitate/Offsets + Identifier + Praedikate\nauto_pass / uncertain / rejected"];
+  dataset [label="Fuenf Parquet-Tabellen\npapers / documents / entities / relations / evidence\nManifest + Protokolle + gespeicherte LLM-Requests/Responses"];
+  db [label="Primaerer LadybugDB-Graph\nNur eingeschlossene Reports + auto_pass-Evidence\nNeubau + Integritaetspruefung"];
+  report [label="Ausgabe (g) + PRISMA-Auswahlbericht\nRecords / Reports / Studies unterscheiden\nKeine Relation extrahiert bedeutet nicht ausgeschlossen"];
+
+  input -> search -> screening -> documents;
+  documents -> eligibility [label="Volltext beschafft"];
+  eligibility -> annotation [label="endgueltig eingeschlossen"];
+  annotation -> extraction -> qc -> dataset -> db;
+  search -> report [style=dashed, label="Suchprotokoll"];
+  screening -> report [style=dashed, label="Auswahlprotokoll"];
+  documents -> report [style=dashed, label="Beschaffungsstatus"];
+  eligibility -> report [style=dashed, label="Einschluss / Ausschluss / offen"];
+  db -> report;
+  dataset -> report;
+}

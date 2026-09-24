@@ -1,0 +1,307 @@
+{
+  "name" : "Fridlyand2010_GlucoseSensitivity_B",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Glucose sensing in the pancreatic beta cell: a computational systems analysis.</strong>        <br />Fridlyand LE, Philipson LH.<em>Theor Biol Med Model.</em>2010 May 24;7:15.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20497556\">    20497556</a>,      <br />        <strong>Abstract:</strong>        <br />BACKGROUND:Pancreatic beta-cells respond to rising blood glucose by increasing oxidative metabolism, leading to an increased ATP/ADP ratio in the cytoplasm. This leads to a closure of KATP channels, depolarization of the plasma membrane, influx of calcium and the eventual secretion of insulin. Such mechanism suggests that beta-cell metabolism should have a functional regulation specific to secretion, as opposed to coupling to contraction. The goal of this work is to uncover contributions of the cytoplasmic and mitochondrial processes in this secretory coupling mechanism using mathematical modeling in a systems biology approach.METHODS:We describe a mathematical model of beta-cell sensitivity to glucose. The cytoplasmic part of the model includes equations describing glucokinase, glycolysis, pyruvate reduction, NADH and ATP production and consumption. The mitochondrial part begins with production of NADH, which is regulated by pyruvate dehydrogenase. NADH is used in the electron transport chain to establish a proton motive force, driving the F1F0 ATPase. Redox shuttles and mitochondrial Ca2+ handling were also modeled.RESULTS:The model correctly predicts changes in the ATP/ADP ratio, Ca2+ and other metabolic parameters in response to changes in substrate delivery at steady-state and during cytoplasmic Ca2+ oscillations. Our analysis of the model simulations suggests that the mitochondrial membrane potential should be relatively lower in beta cells compared with other cell types to permit precise mitochondrial regulation of the cytoplasmic ATP/ADP ratio. This key difference may follow from a relative reduction in respiratory activity. The model demonstrates how activity of lactate dehydrogenase, uncoupling proteins and the redox shuttles can regulate beta-cell function in concert; that independent oscillations of cytoplasmic Ca2+ can lead to slow coupled metabolic oscillations; and that the relatively low production rate of reactive oxygen species in beta-cells under physiological conditions is a consequence of the relatively decreased mitochondrial membrane potential.CONCLUSION:This comprehensive model predicts a special role for mitochondrial control mechanisms in insulin secretion and ROS generation in the beta cell. The model can be used for testing and generating control hypotheses and will help to provide a more complete understanding of beta-cell glucose-sensing central to the physiology and pathology of pancreatic beta-cells.   </p>        <p> This model was taken from the <a href=\"http://www.nrcam.uchc.edu/\" target=\"_blank\"> Vcell </a> MathModel directory and was converted to SBML </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20497556",
+    "journal" : "Theoretical biology & medical modelling",
+    "title" : "Glucose sensing in the pancreatic beta cell: a computational systems analysis.",
+    "affiliation" : "Department of Medicine, The University of Chicago, Chicago, IL 60637, USA. lfridlia@medicine.bsd.uchicago.edu",
+    "synopsis" : "<h4>Background</h4>Pancreatic beta-cells respond to rising blood glucose by increasing oxidative metabolism, leading to an increased ATP/ADP ratio in the cytoplasm. This leads to a closure of KATP channels, depolarization of the plasma membrane, influx of calcium and the eventual secretion of insulin. Such mechanism suggests that beta-cell metabolism should have a functional regulation specific to secretion, as opposed to coupling to contraction. The goal of this work is to uncover contributions of the cytoplasmic and mitochondrial processes in this secretory coupling mechanism using mathematical modeling in a systems biology approach.<h4>Methods</h4>We describe a mathematical model of beta-cell sensitivity to glucose. The cytoplasmic part of the model includes equations describing glucokinase, glycolysis, pyruvate reduction, NADH and ATP production and consumption. The mitochondrial part begins with production of NADH, which is regulated by pyruvate dehydrogenase. NADH is used in the electron transport chain to establish a proton motive force, driving the F1F0 ATPase. Redox shuttles and mitochondrial Ca2+ handling were also modeled.<h4>Results</h4>The model correctly predicts changes in the ATP/ADP ratio, Ca2+ and other metabolic parameters in response to changes in substrate delivery at steady-state and during cytoplasmic Ca2+ oscillations. Our analysis of the model simulations suggests that the mitochondrial membrane potential should be relatively lower in beta cells compared with other cell types to permit precise mitochondrial regulation of the cytoplasmic ATP/ADP ratio. This key difference may follow from a relative reduction in respiratory activity. The model demonstrates how activity of lactate dehydrogenase, uncoupling proteins and the redox shuttles can regulate beta-cell function in concert; that independent oscillations of cytoplasmic Ca2+ can lead to slow coupled metabolic oscillations; and that the relatively low production rate of reactive oxygen species in beta-cells under physiological conditions is a consequence of the relatively decreased mitochondrial membrane potential.<h4>Conclusion</h4>This comprehensive model predicts a special role for mitochondrial control mechanisms in insulin secretion and ROS generation in the beta cell. The model can be used for testing and generating control hypotheses and will help to provide a more complete understanding of beta-cell glucose-sensing central to the physiology and pathology of pancreatic beta-cells.",
+    "year" : 2010,
+    "month" : "5",
+    "volume" : "7",
+    "pages" : "15",
+    "link" : "http://identifiers.org/pubmed/20497556",
+    "authors" : [
+      {
+        "name" : "Leonid E Fridlyand",
+        "institution" : "Department of Medicine, The University of Chicago, Chicago, IL 60637, USA. lfridlia@medicine.bsd.uchicago.edu",
+        "orcid" : "0000-0003-4424-9986"
+      },
+      {
+        "name" : "Louis H Philipson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000349_url.xml",
+        "description" : "SBML L2V4 representation of Fridlyand2010_GlucoseSensitivity_B",
+        "fileSize" : "54786",
+        "mimeType" : "application/xml",
+        "md5sum" : "46b41aa4bea8e2f1a600a09a6a9b0c35",
+        "sha1sum" : "f6b59bdcb07189eba66486aeb78ba40f0bce1cd3",
+        "sha256sum" : "6a79b50cc2ca77f5a4caa7f7113fe2353b218e344498e80118d678d006c7d776"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000349-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "7541",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "880dd4ee7f74decaedf6e86ca2425d5e",
+        "sha1sum" : "051431e596bdead7784b381fbf4f90abd5bbf6c6",
+        "sha256sum" : "026d569b367b9073f235168c63e4cafd5f587ac45fbf17a4a5167812647f8239"
+      },
+      {
+        "name" : "BIOMD0000000349-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "8312",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "54ee37f93b659459b9c5e6d836600edd",
+        "sha1sum" : "8b4c34190e70dea0bda2c9b68a67781bc85819f0",
+        "sha256sum" : "f1d5b8c3c3261d85b66fc983f78f2e326c5e8bd765a39db5666bffe8754eb041"
+      },
+      {
+        "name" : "BIOMD0000000349-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14715",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e3338cc79afefd641c28512ff3b09259",
+        "sha1sum" : "a1ab377a0f1adfeae8541e1c66d3e92b86abe150",
+        "sha256sum" : "1f090f310a66c067ab66806e7bd2ad7aa29811ea8483afccab65a92c8f38e793"
+      },
+      {
+        "name" : "BIOMD0000000349-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14715",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cd93da0d79d9924540b85c39dfe3fcdc",
+        "sha1sum" : "97b47cb81f82140e41a90c00d7f0b7db38c295e2",
+        "sha256sum" : "a320542836674aa750e8fd4e1a77a84bf6e4343b37d2917111e3f53ab12401e7"
+      },
+      {
+        "name" : "BIOMD0000000349.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14715",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c7199c27b4f7472566f3fcdf999ddca8",
+        "sha1sum" : "820a57c9834edc3d52818f3aade9d3f5bffdc313",
+        "sha256sum" : "a9b305b765be3474c2d5c7c5e2b914ecef17a6625413232bbaefe7e4cc97be43"
+      },
+      {
+        "name" : "BIOMD0000000349.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11631",
+        "mimeType" : "text/plain",
+        "md5sum" : "7c4fa47cd445996a007ab44e54e21e35",
+        "sha1sum" : "9112fe587e4b61b8a0c33bfdadfc9513e75d4a9b",
+        "sha256sum" : "ce4530df842c06f6550f05412aea9895c00dc58e9bb234cf9e512a18a93b6848"
+      },
+      {
+        "name" : "BIOMD0000000349.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "189794",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6cabc0e1de6a9571c25fe9c626ec7f2f",
+        "sha1sum" : "d958e7a671d66cc8b352b6cbf5b13d5b6f42d5a3",
+        "sha256sum" : "b2e795a0ed002937037e0b3096b0104760f0b22600e3454276cb6e7da7d6bfe8"
+      },
+      {
+        "name" : "BIOMD0000000349.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000349.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "10895",
+        "mimeType" : "text/plain",
+        "md5sum" : "8f7d637b117c13dc0cfda570dd3b0143",
+        "sha1sum" : "31929adc435640fd23d86bab613a21692b3217d9",
+        "sha256sum" : "f197c4a0ef027351c158e2f81edd7d20360320f6306e1ccfab6a59e159f2d7b7"
+      },
+      {
+        "name" : "BIOMD0000000349.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000349_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "59432",
+        "mimeType" : "application/xml",
+        "md5sum" : "046cf545b56dab5ce1e7b964f494334f",
+        "sha1sum" : "6966f1940ac451c4173a898a21de1afdf8c662a3",
+        "sha256sum" : "df701ec7d55e86d479a8d33d77099ac1e063548a13a54274e38d224ef7198b17"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "98228",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "789be0d462297a84af798d8e58362360",
+        "sha1sum" : "a82c408677e9779e056970f925f1b2405761883a",
+        "sha256sum" : "89cee299c3be05597acb05d4dcb1e98cffcc624731ba025b7ee9e763a1b682b3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "259",
+        "mimeType" : "text/plain",
+        "md5sum" : "2ea0d5efcfd2ca67e48481c02a475a3f",
+        "sha1sum" : "477e35c1b0b64c41c6ac5e26d5e21d8bd62f4079",
+        "sha256sum" : "94354b61eb6ff7637b88b560ed26b9767ebd7aa2cddd136011b9b9829915f43a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1913",
+        "mimeType" : "application/xml",
+        "md5sum" : "8f5091471ca2ead13e4917ea70b21fa8",
+        "sha1sum" : "5e4549465000989d609147f1527f734f85006427",
+        "sha256sum" : "65e37ace429b415a6f49d1e9ee35bf11ecadac79fdc2309ccee7f169bd9e6540"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6612",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "62bdfe6a148e6c6942eb1da364c5ab91",
+        "sha1sum" : "1028d42698da94b359732a2e7d70d5192f959437",
+        "sha256sum" : "d6e62ddca0e0986bf08ca8fd5fdc380e10ce04f9d73c1b28b1fbd358d4a455c6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1312917378,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Original import of Fridlyand2010_GlucoseSensitivity_B"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412940580,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Current version of Fridlyand2010_GlucoseSensitivity_B"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274322,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285066,
+  "submissionId" : "MODEL1108090001",
+  "publicationId" : "BIOMD0000000349",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ishan Ajmera",
+        "email" : "ajmera@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20497556",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20497556"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9575814",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9575814"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9575813",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9575813"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000783",
+      "name" : "pancreatic beta cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000783"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0044342",
+      "name" : "type B pancreatic cell proliferation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0044342"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0061178",
+      "name" : "regulation of insulin secretion involved in cellular response to glucose stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0061178"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108090001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108090001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000349",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000349"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "name" : "Yamada2003_JAK_STAT_SOCS1_knockout",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      <u>NCBS Curation Comments:</u>          This model shows the control mechanism of Jak-Stat pathway, here SOCS1 (Suppressor of cytokine signaling-I) was identified as the negative regulator of Jak and STAT signal transduction pathway. This is the knockout version of Jak-Stat pathway in this model the SOCS1 has been knocked out i.e it formation is not shown. The graphs are almost similar to the graphs as shown in the paper but STAT1n graph has some ambiguities. Thanks to Dr Satoshi Yamada for clarifying some of those ambiguities and providing the values used in simulations.      </p>            <p>      <u>Biomodels Curation Comments:</u>          The model reproduces the figures 2 (B,D,F,H,J,L,N) corresponding to JAK/STAT activation in SOCS1 knock out cells. The model was successfully tested on MathSBML      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2006 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\">terms of use</a>          .      </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12527385",
+    "journal" : "FEBS letters",
+    "title" : "Control mechanism of JAK/STAT signal transduction pathway.",
+    "affiliation" : "Advanced Technology R&D Center, Mitsubishi Electric Corporation, 8-1-1, Tsukaguchi-Honmachi, Amagasaki, Hyogo 661-8661, Japan. yamada.satoshi@wrc.melco.co.jp",
+    "synopsis" : "Suppressor of cytokine signaling-1 (SOCS1) was identified as the negative regulator of Janus kinase (JAK) and signal transducer and activator of transcription (STAT) signal transduction pathway. However, the kinetics and control mechanism of the pathway have not yet been fully understood. We have developed the computer simulation of the JAK/STAT pathway. Without nuclear phosphatase, SOCS1's binding to JAK did not cause the decrease in nuclear phosphorylated STAT1. However, without SH2 domain-containing tyrosine phosphatase 2 (SHP-2) or cytoplasmic phosphatase, it did. So nuclear phosphatase is considered to be the most important in this system. By changing parameters of the model, dynamical characteristics and control mechanism were investigated.",
+    "year" : 2003,
+    "month" : "1",
+    "volume" : "534",
+    "issue" : "1-3",
+    "pages" : "190-196",
+    "link" : "http://identifiers.org/pubmed/12527385",
+    "authors" : [
+      {
+        "name" : "Satoshi Yamada",
+        "institution" : "Advanced Technology R&D Center, Mitsubishi Electric Corporation, 8-1-1, Tsukaguchi-Honmachi, Amagasaki, Hyogo 661-8661, Japan. yamada.satoshi@wrc.melco.co.jp"
+      },
+      {
+        "name" : "Satoru Shiono"
+      },
+      {
+        "name" : "Akiko Joo"
+      },
+      {
+        "name" : "Akihiko Yoshimura"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000094_url.xml",
+        "description" : "SBML L2V1 representation of Yamada2003_JAK_STAT_SOCS1_knockout",
+        "fileSize" : "106129",
+        "mimeType" : "application/xml",
+        "md5sum" : "65200d920c918224f176d33c6f10ab97",
+        "sha1sum" : "b8255149074b989af74a548ea60b9a6d278ae488",
+        "sha256sum" : "b164ae9f8fbdbd52ea1799792c3436a5ae826aef1922ccf5cf44d6277241abd4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000094-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "82120",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d61a896ae084f524d9a8fde4319e20ef",
+        "sha1sum" : "c2a393952c62f5d4438033511643765012402bf0",
+        "sha256sum" : "9ff5e6cfdc59ec2c9e54e9bf4e6289ce417987fb2d4168defa83008a5e940b29"
+      },
+      {
+        "name" : "BIOMD0000000094-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "136645",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5812b7b9ee1174b916933a425e896b69",
+        "sha1sum" : "319127d87222f226dc3b19c07b4bcdbe7d47ba69",
+        "sha256sum" : "6f42c8174b90cb503aa2a4ae8876959f91152fe57081e01aa5450f07f426afc6"
+      },
+      {
+        "name" : "BIOMD0000000094-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "20483",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "67f3b10a0c0cd62dc92655eeb768f4f7",
+        "sha1sum" : "31fb70be6a3e8a34f8ace0eb93e16dd0982f698b",
+        "sha256sum" : "56a68f6f8f62a7cb91b7ca92e72c3776f8aa379481a33f7cd81d337a3a6fe164"
+      },
+      {
+        "name" : "BIOMD0000000094-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "20483",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6e1e411a3e36b7959bbb919720cdc998",
+        "sha1sum" : "1eb60c1a43f2f33220b8c88c7a7cd71a6f20d262",
+        "sha256sum" : "30c955915bfac8372e7a89a076766fb637fb97ada341ad0a38d852b3f7b3d014"
+      },
+      {
+        "name" : "BIOMD0000000094.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "20483",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6e1e411a3e36b7959bbb919720cdc998",
+        "sha1sum" : "1eb60c1a43f2f33220b8c88c7a7cd71a6f20d262",
+        "sha256sum" : "30c955915bfac8372e7a89a076766fb637fb97ada341ad0a38d852b3f7b3d014"
+      },
+      {
+        "name" : "BIOMD0000000094.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "16552",
+        "mimeType" : "text/plain",
+        "md5sum" : "46e202072282de968ab704dd76dc18a1",
+        "sha1sum" : "aa4c200382926b8293b10f88000331d2e35f9cb4",
+        "sha256sum" : "eab3148eff45d7ff5f306b5730d1cdeb3fa13b834afc450ed8016ad09781a8b3"
+      },
+      {
+        "name" : "BIOMD0000000094.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "365741",
+        "mimeType" : "application/pdf",
+        "md5sum" : "02c4906c15344050cdfb482eee9b327b",
+        "sha1sum" : "78dee80e0783906e475a787cc41fe31fb05fe177",
+        "sha256sum" : "855e2183894dadcef4e7fff696d12740ee65ca2194eeaa85fd3499960a2bb870"
+      },
+      {
+        "name" : "BIOMD0000000094.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "545306",
+        "mimeType" : "image/png",
+        "md5sum" : "26dade8def980dc4e415f72b26e7f828",
+        "sha1sum" : "ea54244ed08a84b37fb45e4f6f80f65f1ab2d56a",
+        "sha256sum" : "1c6824c2d585e54667c5ec4d2f1541fabe531400b937089e7294a39194e033a9"
+      },
+      {
+        "name" : "BIOMD0000000094.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "111059",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c2a2e4364932f034a5e4844c3c94e117",
+        "sha1sum" : "36fd513e8ce760094582f121014ab3adbd87722c",
+        "sha256sum" : "f179dfad565b800a52782a20bb389740aeef00eb110f06535f3b371eea8d1c8f"
+      },
+      {
+        "name" : "BIOMD0000000094.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "138658",
+        "mimeType" : "application/xml",
+        "md5sum" : "5348004b1f6b7ced5494e1bc723b5e8c",
+        "sha1sum" : "b56d4ee65df38eb72e462ec097b285a2e3bc164a",
+        "sha256sum" : "6209793f1e412177d2ef7bb0c26cb29505d465702e6050b52793b64fe3f52c16"
+      },
+      {
+        "name" : "BIOMD0000000094_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "50162",
+        "mimeType" : "application/xml",
+        "md5sum" : "ebee555342a9675738c3c30d6f0e5570",
+        "sha1sum" : "332a846c96fbf58e80444d029e8ca92bf9443907",
+        "sha256sum" : "5395bea95347446598005512e9ab747804241e76886422bbc503d2773b8fe4e1"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "37306",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "ea0309c89989298e741e7acccce8996d",
+        "sha1sum" : "01b47f99dd60351ff26c289488fbe62651896ab2",
+        "sha256sum" : "9e54549f95bf01ef497f342718f3dd1584fbfd22f3edd70333d9f0ff63a19241"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "118",
+        "mimeType" : "text/plain",
+        "md5sum" : "6d3cfec3997e8ec26046f2dbc0b5921c",
+        "sha1sum" : "ba7e2da3328271e7d843f400ac40adf94e8d28cb",
+        "sha256sum" : "4f94b58d0af151149f74fb5436b47d70f34f7dd9f01987a075ffd96da94a95b5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "63302e305804db6d78d14e0f1b00013d",
+        "sha1sum" : "d710972a956df8202ff2ae98ceae6e96cbd1cef4",
+        "sha256sum" : "3a26b0dc40e25e075cbf1fde83ed162ed929cd8f649795f2c36bbd12c58408ce"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2793",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "78a3a429217794db6dd193d491ff1103",
+        "sha1sum" : "76ee1ed05f5ce3e8e3d6c015763f7e9fcebad5f2",
+        "sha256sum" : "55e5fb086d0365ebb2d638cec5178bffff5d30875e54dd21ace91f835d8b38d2"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1173823853,
+        "submitter" : "Sharat Vayttaden",
+        "comment" : "Original import of Yamada_2003_SOCS1_knockout"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1385552726,
+        "submitter" : "Sharat Vayttaden",
+        "comment" : "Current version of Yamada2003_JAK_STAT_SOCS1_knockout"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267256,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284875,
+  "submissionId" : "MODEL4883413839",
+  "publicationId" : "BIOMD0000000094",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Sharat Vayttaden",
+        "email" : "doqcs@ncbs.res.in",
+        "affiliation" : "DOQCS",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12527385",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12527385"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007259",
+      "name" : "JAK-STAT cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007259"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "mmu04630",
+      "name" : "Jak-STAT signaling pathway - Mus musculus (mouse)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/mmu04630"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4883413839",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4883413839"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000094",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000094"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000093",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000093"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

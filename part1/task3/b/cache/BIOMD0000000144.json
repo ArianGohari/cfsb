@@ -1,0 +1,282 @@
+{
+  "name" : "Calzone2007_CellCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the Dynamical model of nuclear division cycles during early embryogenesis of Drosophila, without StringT regulation. so ksstg=kdstg=0. Figure1B has been simulated by MathSBML. Curator changed model from only one compartment into two compartments according to the paper. Detail explaination of the models are in the supplement information of the paper.The author didn't specify which compartment Xm, Stgm, Xp are located, we assume that they locate in cytoplasm.</p>            <p>Some of the parameter values for the equations are dimensionless parameters.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17667953",
+    "journal" : "Molecular systems biology",
+    "title" : "Dynamical modeling of syncytial mitotic cycles in Drosophila embryos.",
+    "affiliation" : "Molecular Network Dynamics Research Group of Hungarian Academy of Sciences and Budapest University of Technology and Economics, Budapest, Gellért tér, Hungary.",
+    "synopsis" : "Immediately following fertilization, the fruit fly embryo undergoes 13 rapid, synchronous, syncytial nuclear division cycles driven by maternal genes and proteins. During these mitotic cycles, there are barely detectable oscillations in the total level of B-type cyclins. In this paper, we propose a dynamical model for the molecular events underlying these early nuclear division cycles in Drosophila. The model distinguishes nuclear and cytoplasmic compartments of the embryo and permits exploration of a variety of rules for protein transport between the compartments. Numerical simulations reproduce the main features of wild-type mitotic cycles: patterns of protein accumulation and degradation, lengthening of later cycles, and arrest in interphase 14. The model is consistent with mutations that introduce subtle changes in the number of mitotic cycles before interphase arrest. Bifurcation analysis of the differential equations reveals the dependence of mitotic oscillations on cycle number, and how this dependence is altered by mutations. The model can be used to predict the phenotypes of novel mutations and effective ranges of the unmeasured rate constants and transport coefficients in the proposed mechanism.",
+    "year" : 2007,
+    "month" : "0",
+    "volume" : "3",
+    "pages" : "131",
+    "link" : "http://identifiers.org/pubmed/17667953",
+    "authors" : [
+      {
+        "name" : "Laurence Calzone",
+        "institution" : "Institut Curie, Paris, France. Laurence.Calzone@curie.fr",
+        "orcid" : "0000-0002-7835-1148"
+      },
+      {
+        "name" : "Denis Thieffry",
+        "institution" : "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+        "orcid" : "0000-0003-0271-1757"
+      },
+      {
+        "name" : "John J Tyson"
+      },
+      {
+        "name" : "Bela Novak",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000144_url.xml",
+        "description" : "SBML L2V1 representation of Calzone2007_CellCycle",
+        "fileSize" : "110414",
+        "mimeType" : "application/xml",
+        "md5sum" : "35fba47698bb87cc8f12c604df8029b3",
+        "sha1sum" : "1e3b8ea517e0509d035ab1c9f26555f4d5f3db15",
+        "sha256sum" : "d670e2d504fb5f82baf06cc81c1fd4164e28a370d851d24888d502192ccd7b11"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000144-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "53699",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5de21a3626e78703d53d7e87cbdec190",
+        "sha1sum" : "fd718e02b2f5cec786cafe70c41243032da2d439",
+        "sha256sum" : "8217cd68ed57a551a59ada507874ea98eee0ae3c010e7f10e31a388a07aa35c9"
+      },
+      {
+        "name" : "BIOMD0000000144-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "85496",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3c6747ae26a4aad5b75867d6efba8605",
+        "sha1sum" : "050ef0afb6874d00841535d16cc396045dc655ef",
+        "sha256sum" : "eaaece0042612ad2c5300f397f47fb53c4bd2894f0999a49daccc47bc5a30974"
+      },
+      {
+        "name" : "BIOMD0000000144-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "17547",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "294802cc52f84c8879dbdbe54dcd48dc",
+        "sha1sum" : "2fd4724bfdcf96b183d4bd4778d26fc5078796df",
+        "sha256sum" : "dcf57f587f2378db098f851f2f228874b9a1b14fca323228ce037491d1b30837"
+      },
+      {
+        "name" : "BIOMD0000000144-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "17547",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "07fcc9e9208af5296416faab97c802cc",
+        "sha1sum" : "62aff6af0c863f2427cc73abc19b84730e932b9b",
+        "sha256sum" : "44f254b8e04caff0853ea9598a373c4fd719b9871632e19a10fe139eeb216ee3"
+      },
+      {
+        "name" : "BIOMD0000000144.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "17547",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "07fcc9e9208af5296416faab97c802cc",
+        "sha1sum" : "62aff6af0c863f2427cc73abc19b84730e932b9b",
+        "sha256sum" : "44f254b8e04caff0853ea9598a373c4fd719b9871632e19a10fe139eeb216ee3"
+      },
+      {
+        "name" : "BIOMD0000000144.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "13009",
+        "mimeType" : "text/plain",
+        "md5sum" : "3f70796a71b4e9d7ef4b621e1d40011a",
+        "sha1sum" : "53f8b6034326e2192fa03f317f38f0f9065faf45",
+        "sha256sum" : "eb80522c475f1c2335d5b8710ce66d0ea6936664a4c31eb33cb7f157dda192a7"
+      },
+      {
+        "name" : "BIOMD0000000144.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "347742",
+        "mimeType" : "application/pdf",
+        "md5sum" : "bf16154d50e4c1baa1674b8c0d32b4f3",
+        "sha1sum" : "ae0ad5a66d088cfff6336253b1bc8987610311a5",
+        "sha256sum" : "536da9bbe73c8e0449e210376cacf06255f4fed43e2753a99acd5c930bafe132"
+      },
+      {
+        "name" : "BIOMD0000000144.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "577102",
+        "mimeType" : "image/png",
+        "md5sum" : "388ff5788697a5591c10c7649f7a7b75",
+        "sha1sum" : "cdceacd343dc879e3d31f6b19075d0fc3bb71f8c",
+        "sha256sum" : "b3f7b63e726986d8b27eb7b12e25a8183dcc7396be36d0f429eece925c932681"
+      },
+      {
+        "name" : "BIOMD0000000144.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "125576",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "d3c533282683cd558424d9c1337a79e5",
+        "sha1sum" : "7f35bdd43f4f91e1dee113c134650adf5e301382",
+        "sha256sum" : "3e54ebb631d8718d12411e1a867614d23bc6f3a842c6f1380cf30c836848b113"
+      },
+      {
+        "name" : "BIOMD0000000144_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "65433",
+        "mimeType" : "application/xml",
+        "md5sum" : "37441e318c36931e96dbfe9e91c36091",
+        "sha1sum" : "8e1fe8554239daa85c0b86586827c53c45fccdab",
+        "sha256sum" : "071afb22021c0db9e32e0c1d3fa642de1c47b36362b5febf0ad44e0246a8773f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "7304",
+        "mimeType" : "image/png",
+        "md5sum" : "70e228ba714fcea96d6e212c647edcdd",
+        "sha1sum" : "5120737740ca9e4fed9ab09226694520d795d72e",
+        "sha256sum" : "5e1fb8fd0b7d7a678f94853b720d504e8b667955a553483218147ee2cc100dcf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "40",
+        "mimeType" : "text/plain",
+        "md5sum" : "a33bb5679b401d2fe7a82a0d44a5595d",
+        "sha1sum" : "f313fe7fc14abc64498284a3c0397cd1603aab7f",
+        "sha256sum" : "59f1be3f8dc6451ade3adab3ccbb9a09433d7ff2ad26c3caa3f0be98038b1fdb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "9f7f46aeb7960ce668b037bac4218939",
+        "sha1sum" : "70502d99dc02ac34efed7b6b6fa85c73fe9ca549",
+        "sha256sum" : "564d9852ffba0fd279add20eba882034791ce94cfc37e448fe6c32c0166c131f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3436",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ea13de17bc38350b754d94b975af9a47",
+        "sha1sum" : "7c93831aba016003d590b2b2ad0e9139869e5380",
+        "sha256sum" : "2b755175594eca68b71eda556b2709d608171916db53ff1aae4a2e14cb126af2"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1187889165,
+        "submitter" : "Laurence Calzone",
+        "comment" : "Original import of BIOMD0000000144.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341510512,
+        "submitter" : "Laurence Calzone",
+        "comment" : "Current version of Calzone2007_CellCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268540,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284899,
+  "submissionId" : "MODEL1509031628",
+  "publicationId" : "BIOMD0000000144",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Laurence Calzone",
+        "email" : "laurence.calzone@curie.fr",
+        "affiliation" : "Institut Curie",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1509031628",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1509031628"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000144",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000144"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17667953",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17667953"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7215",
+      "name" : "Drosophila",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7215"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051783",
+      "name" : "regulation of nuclear division",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051783"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "name" : "Olsen2003_peroxidase",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      <strong>Notes of the BioModels curators:</strong>                </p>            <p>The current model reproduce the figure 7, panel B of the paper. Note that there is a typo in the figure. The ordinates represent the concentration of peroxyde, as stated in the legend, and not of oxygen. The model has been tested in COPASI (http://www.copasi.org/, build 13).</p>            <p>      <strong>Notes of the original version of the SBML file:</strong>                </p>            <p align=\"left\">      <font face=\"Arial, Helvetica, sans-serif\">        <b>          <a href=\"http://www.sbml.org/\">SBML</a>              level 2 code generated for the JWS Online project by Jacky Snoep using          <a href=\"http://pysces.sourceforge.net/\">PySCeS</a>                        <br />              Run this model online at          <a href=\"http://jjj.biochem.sun.ac.za/\">http://jjj.biochem.sun.ac.za</a>                        <br />              To cite JWS Online please refer to: Olivier, B.G. and Snoep, J.L. (2004)          <a href=\"http://bioinformatics.oupjournals.org/cgi/content/abstract/20/13/2143\">Web-based modelling using JWS Online</a>              , Bioinformatics, 20:2143-2144          </b>                    </font>                </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12823550",
+    "journal" : "European journal of biochemistry",
+    "title" : "Mechanism of protection of peroxidase activity by oscillatory dynamics.",
+    "affiliation" : "European Media Laboratory, Heidelberg, Germany. lfo@bmb.sdu.dk",
+    "synopsis" : "The peroxidase-oxidase reaction is known to involve reactive oxygen species as intermediates. These intermediates inactivate many types of biomolecules, including peroxidase itself. Previously, we have shown that oscillatory dynamics in the peroxidase-oxidase reaction seem to protect the enzyme from inactivation. It was suggested that this is due to a lower average concentration of reactive oxygen species in the oscillatory state compared to the steady state. Here, we studied the peroxidase-oxidase reaction with either 4-hydroxybenzoic acid or melatonin as cofactors. We show that the protective effect of oscillatory dynamics is present in both cases. We also found that the enzyme degradation depends on the concentration of the cofactor and on the pH of the reaction mixture. We simulated the oscillatory behaviour, including the oscillation/steady state bistability observed experimentally, using a detailed reaction scheme. The computational results confirm the hypothesis that protection is due to lower average concentrations of superoxide radical during oscillations. They also show that the shape of the oscillations changes with increasing cofactor concentration resulting in a further decrease in the average concentration of radicals. We therefore hypothesize that the protective effect of oscillatory dynamics is a general effect in this system.",
+    "year" : 2003,
+    "month" : "7",
+    "volume" : "270",
+    "issue" : "13",
+    "pages" : "2796-2804",
+    "link" : "http://identifiers.org/pubmed/12823550",
+    "authors" : [
+      {
+        "name" : "L F Olsen",
+        "orcid" : "0000-0001-7391-2340"
+      },
+      {
+        "name" : "Marcus J B Hauser",
+        "orcid" : "0000-0003-2105-3446"
+      },
+      {
+        "name" : "Ursula Kummer"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000046_url.xml",
+        "description" : "SBML L2V1 representation of Olsen2003_peroxidase",
+        "fileSize" : "29028",
+        "mimeType" : "application/xml",
+        "md5sum" : "2c31ae0f4d067c23749fadcff08d33e4",
+        "sha1sum" : "eeba71c3f287de280714879574c7f904be7e3209",
+        "sha256sum" : "dc1d91abdde172fb3ddfd74cc421f8e35df660d3fffe6a329a73edb15015c03b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000046-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "33841",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3fdb02a5830d958a16b0ada05deb3013",
+        "sha1sum" : "fa5822505de8ef9016432d5e3ff810a5b0e4ab7c",
+        "sha256sum" : "80422fb2249534a855fe77b1ea56790e88af99dcb3df856905e1055f5a5cebf9"
+      },
+      {
+        "name" : "BIOMD0000000046-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "52703",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fe74e427cb22ab484f3dbb6e9e334018",
+        "sha1sum" : "aca5c17516f8351d4a2e85bbedb643c3425017ce",
+        "sha256sum" : "55482fa189642ce0bea138e1cea86b699888b655b6872e8642af9c56f02bb7b4"
+      },
+      {
+        "name" : "BIOMD0000000046-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7854",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "48f4a7752168cef0e6aac182346fa7c1",
+        "sha1sum" : "08213640aa52d792ba4e8514577b155ba3cf9d60",
+        "sha256sum" : "2c0679ddb15ca218e5cbe5f48df12ef8a2e4d0db1968885cf7086669f60c8af8"
+      },
+      {
+        "name" : "BIOMD0000000046-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7854",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6eaf0b0833b4100298c330927837571a",
+        "sha1sum" : "0ac91e133e43a61cc8c5a65f37fe774930a52cc6",
+        "sha256sum" : "44a321ed1597dfeac9657404235a7cc236edd7d363c1c1138dad10d0061cb464"
+      },
+      {
+        "name" : "BIOMD0000000046.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7854",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6eaf0b0833b4100298c330927837571a",
+        "sha1sum" : "0ac91e133e43a61cc8c5a65f37fe774930a52cc6",
+        "sha256sum" : "44a321ed1597dfeac9657404235a7cc236edd7d363c1c1138dad10d0061cb464"
+      },
+      {
+        "name" : "BIOMD0000000046.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5014",
+        "mimeType" : "text/plain",
+        "md5sum" : "4b32a18fee6f19ccdb824b5c004d08a0",
+        "sha1sum" : "44f20afec213a39ee2b4fe8171ddbb842783ef77",
+        "sha256sum" : "fadd0dd6d2ce96e40dc855bdcc331be4b1c138f9010e2772c41c9351b6bb0524"
+      },
+      {
+        "name" : "BIOMD0000000046.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "214351",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d568c4c2b54c05a5da40699d46a81961",
+        "sha1sum" : "72cde07c5db5c43cb3cab147e3f2bc8a694a0fa0",
+        "sha256sum" : "b2f9e031c94eaa6d38284fccdd7d5990ebc925bff464444887dd76961aad4be7"
+      },
+      {
+        "name" : "BIOMD0000000046.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "172657",
+        "mimeType" : "image/png",
+        "md5sum" : "a30da77426256622b401cc16439a9bd1",
+        "sha1sum" : "737ed0637e41ead6d9c1151dad0f448e624de027",
+        "sha256sum" : "d912ee9185eaabfaac4faaea17498835c1adfc16064a89a234e14a1f378b2d8d"
+      },
+      {
+        "name" : "BIOMD0000000046.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5546",
+        "mimeType" : "text/plain",
+        "md5sum" : "27fdb4ec9ed9afa61a8e4451ff1b5a78",
+        "sha1sum" : "23a0d79b691c86ff86f345dc9acc4d783b2a7eac",
+        "sha256sum" : "8c0bd9842c29e298f1d179291d9b6c16c52fcad8d98a700fea99acd9d23c441d"
+      },
+      {
+        "name" : "BIOMD0000000046.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "36770",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c159a111c91fe6881c43cb4a25292b62",
+        "sha1sum" : "7fd4b3005e8c05fe850edaaff178ac4018a88288",
+        "sha256sum" : "7552855bec1dea6dda6e33496179fe8d0622dbc42f1d6f1d2afba97467c4473d"
+      },
+      {
+        "name" : "BIOMD0000000046.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "48080",
+        "mimeType" : "application/xml",
+        "md5sum" : "913942acec21a057795b99e17ec22fe8",
+        "sha1sum" : "05c7d1c86994853c35581b35cf8800dedf7c218b",
+        "sha256sum" : "9d7bfbdb39a2c8c7b92babb0af10ba67ced129d4e099ec6bdd71d10eb38ef769"
+      },
+      {
+        "name" : "BIOMD0000000046_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "20121",
+        "mimeType" : "application/xml",
+        "md5sum" : "4c5093836e0af7db7001f4abd2873cf5",
+        "sha1sum" : "395121d47fe72250b110f5c446d3212a8d5f5cc4",
+        "sha256sum" : "0fcc5fed62aadcb949f3fb9dbbce74f4927873b2c8561c1a5730371c7dfaacce"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17452",
+        "mimeType" : "image/png",
+        "md5sum" : "593683f23df8acaf0f0e83f760465030",
+        "sha1sum" : "4aff5f703476ea5633f2a3efe5d43b5bcbff1b68",
+        "sha256sum" : "d3a42c378ad9245ac47e3a7b3608feb59d389d607238e3fa6e1b14d204a456d4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "44",
+        "mimeType" : "text/plain",
+        "md5sum" : "0d0fc5ed11efee4e082ae2d391ef7357",
+        "sha1sum" : "8b9f544769aff8e3f508944de9c9792e7be1ee03",
+        "sha256sum" : "615aef3a01d2881f40fc17695e05515f08e88cc0389322324205959eb624902d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "00aafd30d3b3f53ae124035491ba1d15",
+        "sha1sum" : "905867e8931cb9bfa5623c3f43f6c9ac9c15f5d8",
+        "sha256sum" : "80df1c03ff07fa74059f0ddfa0d317431833ca6048c8f1f9cbf38b12dbd7a91d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4722",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "171ccc01673b069a192b55bcdb01895f",
+        "sha1sum" : "b3cea5a0300e286ec0f90368f0769d233ce7af80",
+        "sha256sum" : "6bfef092364c6739ac327409078752a7290afaca6ff568acf80a487d7ffd2ad0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126626890,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Olsen2003_peroxidase"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460132499,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Olsen2003_peroxidase"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265902,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284856,
+  "submissionId" : "MODEL6623265463",
+  "publicationId" : "BIOMD0000000046",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6623265463",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6623265463"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000046",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12823550",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12823550"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11901676",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11901676"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3704",
+      "name" : "Armoracia rusticana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3704"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0016692",
+      "name" : "NADH peroxidase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0016692"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

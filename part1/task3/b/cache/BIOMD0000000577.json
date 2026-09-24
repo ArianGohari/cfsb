@@ -1,0 +1,316 @@
+{
+  "name" : "Zhou2015 - Circadian clock with immune regulator NPR1",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Zhou2015 - Circadian clock with immuneregulator NPR1</div><div class=\"dc:description\">Arabidopsis clock model modified fromP2012 (Pokhilko et al., 2013 - <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000445\">BIOMD0000000445</a>)model to include the master immune regulator NPR1 coupling to LHY,TOC1 and PRR7.<br /> Triggers: The Global Quantities contain triggers that allowone to change coupling settings, Salicyclic acid (SA) treatment andnpr1 mutants.<br /> LHY_on: true-&gt;NPR1 couples to LHY<br /> PRR7_on: true-&gt;NPR1 couples to PRR7<br /> WT: true-&gt;WT plants, false-&gt;npr1 mutant plants<br /> SA: true-&gt;SA treated plants, false-&gt;no treatment<br /> This model has L=1, i.e. operates only under constant lightconditions and is not aiming to make preditions under diurnalconditions. Due to period overshoot only time points after 28h arerelevant.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/26098366\" title=\"Access to this publication\">Redox rhythm reinforces the    circadian clock to gate immune response.</a>  </div>  <div class=\"bibo:authorList\">Zhou M, Wang W, Karapetyan S, Mwimba  M, Marqués J, Buchler NE, Dong X.</div>  <div class=\"bibo:Journal\">Nature 2015 Jun;</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Recent studies have shown that in addition to the    transcriptional circadian clock, many organisms, including    Arabidopsis, have a circadian redox rhythm driven by the    organism's metabolic activities. It has been hypothesized that    the redox rhythm is linked to the circadian clock, but the    mechanism and the biological significance of this link have    only begun to be investigated. Here we report that the master    immune regulator NPR1 (non-expressor of pathogenesis-related    gene 1) of Arabidopsis is a sensor of the plant's redox state    and regulates transcription of core circadian clock genes even    in the absence of pathogen challenge. Surprisingly, acute    perturbation in the redox status triggered by the immune signal    salicylic acid does not compromise the circadian clock but    rather leads to its reinforcement. Mathematical modelling and    subsequent experiments show that NPR1 reinforces the circadian    clock without changing the period by regulating both the    morning and the evening clock genes. This balanced network    architecture helps plants gate their immune responses towards    the morning and minimize costs on growth at night. Our study    demonstrates how a sensitive redox rhythm interacts with a    robust circadian clock to ensure proper responsiveness to    environmental stimuli without compromising fitness of the    organism.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000577\">BIOMD0000000577</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26098366",
+    "journal" : "Nature",
+    "title" : "Redox rhythm reinforces the circadian clock to gate immune response.",
+    "affiliation" : "1] Howard Hughes Medical Institute-Gordon and Betty Moore Foundation, Duke University, Durham, North Carolina 27708, USA [2] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA.",
+    "synopsis" : "Recent studies have shown that in addition to the transcriptional circadian clock, many organisms, including Arabidopsis, have a circadian redox rhythm driven by the organism's metabolic activities. It has been hypothesized that the redox rhythm is linked to the circadian clock, but the mechanism and the biological significance of this link have only begun to be investigated. Here we report that the master immune regulator NPR1 (non-expressor of pathogenesis-related gene 1) of Arabidopsis is a sensor of the plant's redox state and regulates transcription of core circadian clock genes even in the absence of pathogen challenge. Surprisingly, acute perturbation in the redox status triggered by the immune signal salicylic acid does not compromise the circadian clock but rather leads to its reinforcement. Mathematical modelling and subsequent experiments show that NPR1 reinforces the circadian clock without changing the period by regulating both the morning and the evening clock genes. This balanced network architecture helps plants gate their immune responses towards the morning and minimize costs on growth at night. Our study demonstrates how a sensitive redox rhythm interacts with a robust circadian clock to ensure proper responsiveness to environmental stimuli without compromising fitness of the organism.",
+    "year" : 2015,
+    "month" : "7",
+    "volume" : "523",
+    "issue" : "7561",
+    "pages" : "472-476",
+    "link" : "http://identifiers.org/pubmed/26098366",
+    "authors" : [
+      {
+        "name" : "Mian Zhou",
+        "institution" : "1] Howard Hughes Medical Institute-Gordon and Betty Moore Foundation, Duke University, Durham, North Carolina 27708, USA [2] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA."
+      },
+      {
+        "name" : "Wei Wang",
+        "institution" : "1] Howard Hughes Medical Institute-Gordon and Betty Moore Foundation, Duke University, Durham, North Carolina 27708, USA [2] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA.",
+        "orcid" : "0000-0002-3780-5158"
+      },
+      {
+        "name" : "Sargis Karapetyan",
+        "institution" : "Department of Physics, Duke University, Durham, North Carolina 27708, USA.Center for Genomic & Computational Biology, Durham, North Carolina 27710, USA.",
+        "orcid" : "0000-0003-0020-310X"
+      },
+      {
+        "name" : "Musoki Mwimba",
+        "institution" : "1] Howard Hughes Medical Institute-Gordon and Betty Moore Foundation, Duke University, Durham, North Carolina 27708, USA [2] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA."
+      },
+      {
+        "name" : "Jorge Marqués",
+        "institution" : "1] Howard Hughes Medical Institute-Gordon and Betty Moore Foundation, Duke University, Durham, North Carolina 27708, USA [2] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA."
+      },
+      {
+        "name" : "Nicolas E Buchler",
+        "institution" : "1] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA [2] Department of Physics, Duke University, Durham, North Carolina 27708, USA.",
+        "orcid" : "0000-0003-3940-3432"
+      },
+      {
+        "name" : "Xinnian Dong",
+        "institution" : "1] Howard Hughes Medical Institute-Gordon and Betty Moore Foundation, Duke University, Durham, North Carolina 27708, USA [2] Department of Biology, PO Box 90338, Duke University, Durham, North Carolina 27708, USA."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000577_url.xml",
+        "description" : "SBML L2V4 representation of Zhou2015 - Circadian clock with immune regulator NPR1",
+        "fileSize" : "449340",
+        "mimeType" : "application/xml",
+        "md5sum" : "103291f48825ad7f738c18a33fa99f8a",
+        "sha1sum" : "fbe42d778725837f35427f48260f3ebd89875951",
+        "sha256sum" : "803078e6438170e833b46cfcd1317c649af8fe51596262ab03a4ba1b6c9edda6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000577-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "60103",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "74a30d9fccf813188b3005affc48f1b5",
+        "sha1sum" : "aabb6ce5d4d74f4476b6044c0ec97427bc4bf330",
+        "sha256sum" : "e958256d5293f65cacb5f3f80e00b257e679a451f4ef18131ee20175f0a10a5f"
+      },
+      {
+        "name" : "BIOMD0000000577-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "94652",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6d630a9423b97a18e7e4275d2baa0168",
+        "sha1sum" : "f07badf6cf825a2bbc6cdb059f373cb9f61544c3",
+        "sha256sum" : "6741f401b7625b63a61e5f03235ba1d43ce6b06099cdeaa29e7265e1e8e8380c"
+      },
+      {
+        "name" : "BIOMD0000000577-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "43246",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a6530e1038c40b979058ea7ddf70fc8b",
+        "sha1sum" : "866025cece4635b95ba6a4f5fb458f9f4fa1308d",
+        "sha256sum" : "46beaeb61c754e86e7d06b21c97b1d6dae26de10c35bb3709d02edaf31217f91"
+      },
+      {
+        "name" : "BIOMD0000000577-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "43246",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "25e8a63a8f026cf39ea2de649cf5d181",
+        "sha1sum" : "cf258f44bf327af9ebb489cbe2f955d9b241e18b",
+        "sha256sum" : "c6fe1be15275b7065ce286dded162e878155874e36f51817e3d0928a6fde1052"
+      },
+      {
+        "name" : "BIOMD0000000577.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "43246",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "25e8a63a8f026cf39ea2de649cf5d181",
+        "sha1sum" : "cf258f44bf327af9ebb489cbe2f955d9b241e18b",
+        "sha256sum" : "c6fe1be15275b7065ce286dded162e878155874e36f51817e3d0928a6fde1052"
+      },
+      {
+        "name" : "BIOMD0000000577.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "40174",
+        "mimeType" : "text/plain",
+        "md5sum" : "0e07ca839aa87ff5872dd76409f521b8",
+        "sha1sum" : "0e0707fe751766017a9a3abc2c0072760cab8cdd",
+        "sha256sum" : "46a09852907e35768f6350d4c0d423028ac905ca584187acea32e3289faf3ed7"
+      },
+      {
+        "name" : "BIOMD0000000577.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "593163",
+        "mimeType" : "application/pdf",
+        "md5sum" : "dc4fe99bf4434c8f3efa4d836f0b039d",
+        "sha1sum" : "774ec24596d8323b3d49ad76fc86a5a62dfe2017",
+        "sha256sum" : "f91002d22744a4af26fe6b6a0f9aa3d4882da4c0529c86158aeef02853350e90"
+      },
+      {
+        "name" : "BIOMD0000000577.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1576271",
+        "mimeType" : "image/png",
+        "md5sum" : "afb0e08ec7e8a94fcc05d26edf00adaa",
+        "sha1sum" : "01d9bdd8960b4740f170c28b85ec3380e395e4ad",
+        "sha256sum" : "6e3aeb114b1d1ad513d7a5796b6f0c4a679ff9dbf21d20528c606145c0ee8501"
+      },
+      {
+        "name" : "BIOMD0000000577.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "208570",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e831e7749c80dec52b661e2b60b8f43a",
+        "sha1sum" : "e29f042d2eb8754fde223904696adea4add76f91",
+        "sha256sum" : "de43a3e30732ab7bba8fc43c943605a39a4b2ddaa562af0b2f6bbb2ada3f408f"
+      },
+      {
+        "name" : "BIOMD0000000577_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "140287",
+        "mimeType" : "application/xml",
+        "md5sum" : "eede5a7dfb48e49c3cc140899ba0dbae",
+        "sha1sum" : "a04c30d9cb744e999338e480ec4a96bb19e521c1",
+        "sha256sum" : "bf6e29015fa984ab8b8ebf400ac26286e2177c73bc1d673f99d654b4cfebbfb8"
+      },
+      {
+        "name" : "Zhou2015_CurationFiles.zip",
+        "description" : "The copasi file that was used to generate the curation figures (figure 6a, 6i and 6j of the reference publication), the copasi file of original P2012 (Pokhilko 2013) model sent by the author that was used obtain the plot CK in figures 6i and 6j, and the experimental data (Target - Figure 6a (npr1 mutant); Figure 6i and 6j (SA treatment) are available in the zip file.",
+        "fileSize" : "274717",
+        "mimeType" : "application/zip",
+        "md5sum" : "e2326166ffe43d03cd2ae4544ed3303e",
+        "sha1sum" : "78eaf37354ad41150622e531e37df8d8852c232c",
+        "sha256sum" : "5cba934293afac677f72e1fa208b17eafe2d5275f259445a19ffb0a58bb12b21"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "85845",
+        "mimeType" : "image/png",
+        "md5sum" : "b97a6b900fc29744af6f4010a7a23612",
+        "sha1sum" : "ca4155dc23315a95836266b2d0a9d77b5ec5895c",
+        "sha256sum" : "bd63186df2d17e6fd2339b6f1113b369a8808f8c04610ff9631702969b71cea9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "972",
+        "mimeType" : "text/plain",
+        "md5sum" : "657485352271dba50e9e476999b7970c",
+        "sha1sum" : "1fd1df3637fed5eb906ca517e0f404fbe4c7ba2b",
+        "sha256sum" : "58a73c8c14bcf9f7b0133c5c36c6333e68b75f2d20ba9cf5ac64de9d3691d5fb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1913",
+        "mimeType" : "application/xml",
+        "md5sum" : "b9059e459ec9eb44fbfb8404dd9e59de",
+        "sha1sum" : "d95c647a43a37072f9e462fb4cb4b4a80993c8bc",
+        "sha256sum" : "8d954e40573a10db8b98518204c3f2d1d3d2b9a9fb86bb3ab7f89f4f6fdbc5a8"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5989",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8d63be7c920655d2c6f2ecc9c21dbc57",
+        "sha1sum" : "5c11dc63fb958fadaf91be0d36dc80f1cd3f8c69",
+        "sha256sum" : "560b2c77a506c2b9f21e918dc35bd75e1e3c4068d37cd509733cb419fbcf21a9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1433191247,
+        "submitter" : "Sargis Karapetyan",
+        "comment" : "Original import of Arabidopsis clock model P2012 with NPR1"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1436960403,
+        "submitter" : "Sargis Karapetyan",
+        "comment" : "Current version of Zhou2015 - Circadian clock with immune regulator NPR1"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416068,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Zhou2015_CurationFiles.zip"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724282178,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285363,
+  "submissionId" : "MODEL1506010000",
+  "publicationId" : "BIOMD0000000577",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Sargis Karapetyan",
+        "email" : "sk197@duke.edu",
+        "affiliation" : "Duke University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1506010000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1506010000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000577",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000577"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26098366",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26098366"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000445",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000445"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "name" : "Messiha2013 - combined glycolysis and pentose phosphate pathway model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Messiha2013 - combined glycolysis and pentose phosphate pathway model</div>        <div class=\"dc:description\">          <p>            <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000502\">BIOMD0000000502</a>            and        <a href=\"http://identifiers.org/biomodels.db/MODEL1303260018\">MODEL1303260018</a>            are combined to examine the response to oxidative stress.        </p>        </div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/doi/10.7287/peerj.preprints.146v2\" title=\"Access to this publication\">Enzyme characterisation and kinetic modelling of pentose phosphate pathway in yeast.</a>          </div>          <div class=\"bibo:authorList\">Hanan L. Messiha, Edward Kent, Naglis Malys, Kathleen M. Carroll, Pedro Mendes, Kieran Smallbone</div>          <div class=\"bibo:Journal\">PeerJ PrePrints 1:e146v2</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>We present the quantification and kinetic characterisation of the enzymes of the pentose phosphate pathway in Saccharomyces cerevisiae. The data are combined into a mathematical model that describes the dynamics of this system and allows for the predicting changes in metabolite concentrations and fluxes in response to perturbations. We use the model to study the response of yeast to a glucose pulse. We then combine the model with an existing glycolysis one to study the effect of oxidative stress on carbohydrate metabolism. The combination of these two models was made possible by the standardized enzyme kinetic experiments carried out in both studies. This work demonstrates the feasibility of constructing larger network models by merging smaller pathway models.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000503\">BIOMD0000000503</a>            .        </p>        <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>    </div>    <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>  </div></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.7287/peerj.preprints.146v2",
+    "journal" : "PeerJ PrePrints",
+    "title" : "Enzyme characterisation and kinetic modelling of the pentose phosphate pathway in yeast",
+    "affiliation" : "School of Life Sciences, The University of Manchester, Manchester, United Kingdom 2 Manchester Center for Integrative Systems Biology, The University of Manchester, Manchester, United Kingdom",
+    "synopsis" : "We present the quantification and kinetic characterisation of the enzymes of the pentose phosphate pathway in Saccharomyces cerevisiae. The data are combined into a mathematical model that describes the dynamics of this system and allows for the predicting changes in metabolite concentrations and fluxes in response to perturbations. We use the model to study the response of yeast to a glucose pulse. We then combine the model with an existing glycolysis one to study the effect of oxidative stress on carbohydrate metabolism. The combination of these two models was made possible by the standardized enzyme kinetic experiments carried out in both studies. This work demonstrates the feasibility of constructing larger network models by merging smaller pathway models.",
+    "year" : 2013,
+    "link" : "http://identifiers.org/doi/10.7287/peerj.preprints.146v2",
+    "authors" : [
+      {
+        "name" : "Messiha HL"
+      },
+      {
+        "name" : "Kent E"
+      },
+      {
+        "name" : "Malys N"
+      },
+      {
+        "name" : "Carroll KM"
+      },
+      {
+        "name" : "Mendes P"
+      },
+      {
+        "name" : "Smallbone K."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000503_url.xml",
+        "description" : "SBML L2V4 representation of Messiha2013 - combined glycolysis and pentose phosphate pathway model",
+        "fileSize" : "221811",
+        "mimeType" : "application/xml",
+        "md5sum" : "9e0e398375cd22c6f68401fe0eadd4a5",
+        "sha1sum" : "3420c83efd5fe29da30a6218162ba22cf3ae2775",
+        "sha256sum" : "c60abb2effae135083a72059368c764d84181dd45a7d1354c55cb775f9299169"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000503-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "133456",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6651215e6152ca2ef991bf3cfe26dd9b",
+        "sha1sum" : "e81122c8d8c100a0a720505b2d0335bb149879bc",
+        "sha256sum" : "0e2fa08dd42a37a26cf56970aa19ef4c8ee08ad4f4ed2f576960e7eb0236dec9"
+      },
+      {
+        "name" : "BIOMD0000000503-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "176918",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "508eca879502b43b397f3d3107e778c0",
+        "sha1sum" : "942cbd55fe7d3d90eb09b3103986beaf10a16302",
+        "sha256sum" : "a0f3b7e015b70637d2aff96ef643bf6189987e17e9a31ba23d6335a0681284a3"
+      },
+      {
+        "name" : "BIOMD0000000503-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "39292",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "06ab64f2a32912707e9f8ec553b5d69c",
+        "sha1sum" : "097263db2c2137f11ebb157356b81b436529486c",
+        "sha256sum" : "6c43cb4d6cb9b318cc0bcea0a49a28a0e93bcff026a77cfbc90de439dc195ebd"
+      },
+      {
+        "name" : "BIOMD0000000503-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "39292",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6d8c9fed2ef474fb0c98ed8c57a3db0d",
+        "sha1sum" : "b428ca5223b15dd0c4cea2564b4201441f4e7a30",
+        "sha256sum" : "2bea9ab482c307a748751d340bb440abbc778ad8bf6b6d1296dea192ae1e499f"
+      },
+      {
+        "name" : "BIOMD0000000503.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "39292",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6d8c9fed2ef474fb0c98ed8c57a3db0d",
+        "sha1sum" : "b428ca5223b15dd0c4cea2564b4201441f4e7a30",
+        "sha256sum" : "2bea9ab482c307a748751d340bb440abbc778ad8bf6b6d1296dea192ae1e499f"
+      },
+      {
+        "name" : "BIOMD0000000503.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "28803",
+        "mimeType" : "text/plain",
+        "md5sum" : "c6810c1514c02133354caa83a449ec79",
+        "sha1sum" : "fb18b41c1e523bf6672fe834df850139716af715",
+        "sha256sum" : "aa0d8088d3421e531811f45bd0cffed293d6e29f2497e3c59497766dad09b4d1"
+      },
+      {
+        "name" : "BIOMD0000000503.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "459996",
+        "mimeType" : "application/pdf",
+        "md5sum" : "092f1d87886a4241cf2e4e637b89a063",
+        "sha1sum" : "757a422357d72192ea24edb29c4388d5d73218b7",
+        "sha256sum" : "d8e25b64b96bb342eb64b896adeb54e23f219c3874e5a51d79cff575996e8f28"
+      },
+      {
+        "name" : "BIOMD0000000503.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1755085",
+        "mimeType" : "image/png",
+        "md5sum" : "0f654a5836b00c432c3a7beddb1f3032",
+        "sha1sum" : "57a217d5b1876f1c4860345ffa2ccbf8897f3686",
+        "sha256sum" : "79213b75a64ef0a7e92b7f7ad3145091fa1f305e85c268efd381dc93e94137d6"
+      },
+      {
+        "name" : "BIOMD0000000503.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "165367",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "3b54742d68715a615a1baa09e912cbab",
+        "sha1sum" : "dcdeaf5ade4b5aff7935874d970fab3d347851c6",
+        "sha256sum" : "c6ed051c26293cb854e5321a5106b21d8b732a5ec58e0eac6a18fd873258eb5a"
+      },
+      {
+        "name" : "BIOMD0000000503_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "74871",
+        "mimeType" : "application/xml",
+        "md5sum" : "c369a67957f0e5d0d72d493d841433de",
+        "sha1sum" : "5721177343a9ed755e7f7266f9fae97aedcd4a95",
+        "sha256sum" : "1b571621731ab008d97f50a1e1aef6f5309854c2167a137a5cc17f86adfd9ccf"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "2565",
+        "mimeType" : "image/png",
+        "md5sum" : "39af9de3d73648a89c859da35ed3f60d",
+        "sha1sum" : "2df21c0adb25f9806ef696e41522daffb419c155",
+        "sha256sum" : "41a205f9e389bafe00956b76392af36e9a325d1d6c5d6cf42dc666f8933e0e29"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "1144",
+        "mimeType" : "text/plain",
+        "md5sum" : "c07f9a2170ce13e38485e68040f61f51",
+        "sha1sum" : "f859c39421e9eaed684d2af75cfbd4ecf40c93cb",
+        "sha256sum" : "ef2746021461890c8d8fc86cb929d52b937da38d4f2bc4c7dd47287cfa5dac43"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "2403fcdf9b3fa84cba8d4dd77a2fddb2",
+        "sha1sum" : "0736b91dc8b3f4e2c60044f5a12ac49497d31fa7",
+        "sha256sum" : "efca3cf2fa97fc6724702a0a50f196db2f7637b98015b3572831e79bfee11d66"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4968",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c05ac42452d1c80e4b399869548d98e6",
+        "sha1sum" : "b2e85b1baad844fc25f2bc3b2b33d18f22b74936",
+        "sha256sum" : "0be7236f8a6ca052f6045ab5fa154c773c52bf9aa81a55ffb091688e4dd0dddc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1385722423,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Original import of glycolysis_ppp"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460140695,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Current version of Messiha2013 - combined glycolysis and pentose phosphate pathway model"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724279499,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285255,
+  "submissionId" : "MODEL1311290001",
+  "publicationId" : "BIOMD0000000503",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kieran Smallbone",
+        "email" : "kieran.smallbone@ncl.ac.uk",
+        "affiliation" : "Human Nutrition Research Centre, Newcastle University, Newcastle upon Tyne, UK.",
+        "orcid" : "0000-0003-2815-7045",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1311290001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1311290001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000503",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000503"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.7287/peerj.preprints.146v2",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.7287/peerj.preprints.146v2"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1303260018",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1303260018"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000502",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000502"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006098",
+      "name" : "pentose-phosphate shunt",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006098"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

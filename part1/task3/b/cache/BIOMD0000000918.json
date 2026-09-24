@@ -1,0 +1,312 @@
+{
+  "name" : "Schwarz2018-Cdk Activity Threshold Determines Passage through the Restriction Point",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>At the restriction point (R), mammalian cells irreversibly commit to divide. R has been viewed as a point in G1 that is passed when growth factor signaling initiates a positive feedback loop of Cdk activity. However, recent studies have cast doubt on this model by claiming R occurs prior to positive feedback activation in G1 or even before completion of the previous cell cycle. Here we reconcile these results and show that whereas many commonly used cell lines do not exhibit a G1 R, primary fibroblasts have a G1 R that is defined by a precise Cdk activity threshold and the activation of cell-cycle-dependent transcription. A simple threshold model, based solely on Cdk activity, predicted with more than 95% accuracy whether individual cells had passed R. That a single measurement accurately predicted cell fate shows that the state of complex regulatory networks can be assessed using a few critical protein activities.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29351845",
+    "journal" : "Molecular cell",
+    "title" : "A Precise Cdk Activity Threshold Determines Passage through the Restriction Point.",
+    "affiliation" : "Department of Biology, Stanford University, Stanford, CA 94305, USA.",
+    "synopsis" : "At the restriction point (R), mammalian cells irreversibly commit to divide. R has been viewed as a point in G1 that is passed when growth factor signaling initiates a positive feedback loop of Cdk activity. However, recent studies have cast doubt on this model by claiming R occurs prior to positive feedback activation in G1 or even before completion of the previous cell cycle. Here we reconcile these results and show that whereas many commonly used cell lines do not exhibit a G1 R, primary fibroblasts have a G1 R that is defined by a precise Cdk activity threshold and the activation of cell-cycle-dependent transcription. A simple threshold model, based solely on Cdk activity, predicted with more than 95% accuracy whether individual cells had passed R. That a single measurement accurately predicted cell fate shows that the state of complex regulatory networks can be assessed using a few critical protein activities.",
+    "year" : 2018,
+    "month" : "1",
+    "volume" : "69",
+    "issue" : "2",
+    "pages" : "253-264.e5",
+    "link" : "http://identifiers.org/pubmed/29351845",
+    "authors" : [
+      {
+        "name" : "Clayton Schwarz",
+        "institution" : "Department of Biology, Stanford University, Stanford, CA 94305, USA."
+      },
+      {
+        "name" : "Amy Johnson",
+        "institution" : "Department of Biology, Stanford University, Stanford, CA 94305, USA."
+      },
+      {
+        "name" : "Mardo Kõivomägi",
+        "institution" : "Department of Biology, Stanford University, Stanford, CA 94305, USA."
+      },
+      {
+        "name" : "Evgeny Zatulovskiy",
+        "institution" : "Department of Biology, Stanford University, Stanford, CA 94305, USA.",
+        "orcid" : "0000-0002-7847-5829"
+      },
+      {
+        "name" : "Carolyn J Kravitz",
+        "institution" : "Department of Biology, Stanford University, Stanford, CA 94305, USA.",
+        "orcid" : "0000-0003-0357-8986"
+      },
+      {
+        "name" : "Andreas Doncic",
+        "institution" : "Department of Cell Biology & Green Center for Systems Biology, UT Southwestern Medical Center, Dallas, TX 75390, USA."
+      },
+      {
+        "name" : "Jan M Skotheim",
+        "institution" : "Department of Biology, Stanford University, Stanford, CA 94305, USA. Electronic address: skotheim@stanford.edu.",
+        "orcid" : "0000-0001-8420-6820"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Schwarz2018.xml",
+        "description" : "SBML L2V4 file Schwarz2018-Cdk Activity Threshold Determines Passage through the Restriction Point_ Curated",
+        "fileSize" : "76176",
+        "mimeType" : "application/xml",
+        "md5sum" : "b5ad2926c79fed2e3b23a288e77dfd6d",
+        "sha1sum" : "850b30535a41944b4e6b3a0512e48cc614a75232",
+        "sha256sum" : "203f91d4429d9ad69106023c8556feacc047ada30c2221638c9b5705717a5ef3"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Schwarz2018-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "13340",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e053411f937d823db908b72acbc320fc",
+        "sha1sum" : "b23e7e3dc5c42e72c631ec8166034ebeea5a7337",
+        "sha256sum" : "e7a8d34ecf6c1600c647645bfa6fd37cd8b27a386305b544fbc3a0238640884e"
+      },
+      {
+        "name" : "Schwarz2018-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "17433",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "74855ce00bf4996015570b5eba4e3aa8",
+        "sha1sum" : "f5b21e822401b68f84db62a9798a9958b4dbe88e",
+        "sha256sum" : "b0e59c993f89c19156d2408577f03e50ff4c4b4afdf7f9bc93b0648d6862a64e"
+      },
+      {
+        "name" : "Schwarz2018-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7964",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a85a4c67158ce56250d9c867dd33cacc",
+        "sha1sum" : "3c6e90e0174db91c21f6603f8854eedbfe3bb229",
+        "sha256sum" : "28d9d3067fa110b8c8c5042f799b8f78e54da82a756a787741051dc9c7998450"
+      },
+      {
+        "name" : "Schwarz2018.cps",
+        "description" : "COPASI version 4.27 (Build 217) Schwarz2018-Cdk Activity Threshold Determines Passage through the Restriction Point_ Curated",
+        "fileSize" : "124584",
+        "mimeType" : "application/xml",
+        "md5sum" : "5894f6ddb803b01e7134da7ac7e9bf33",
+        "sha1sum" : "c92fd12bb66cfc10a16825eaa76b8fd467245950",
+        "sha256sum" : "3fc555ec218187897d4aa3be7be438d8fb469a08f2811b503e67e915e3f2feb4"
+      },
+      {
+        "name" : "Schwarz2018.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6071",
+        "mimeType" : "text/plain",
+        "md5sum" : "d6be27a36daee246e3c2db7714a15561",
+        "sha1sum" : "18f044f2f28129f1b23de346c9a6933716d09fa0",
+        "sha256sum" : "a045c0cd77909260ab8dc4df3fcfceb273d0d534dbaf99df475a5042da9e824f"
+      },
+      {
+        "name" : "Schwarz2018.sedml",
+        "description" : "sed-ml L1V2_Schwarz2018-Cdk Activity Threshold Determines Passage through the Restriction Point_Curated (additionally CRBM-validated and adjusted).",
+        "fileSize" : "23193",
+        "mimeType" : "application/xml",
+        "md5sum" : "d3c031346bc59dc7323174e50bfc64ba",
+        "sha1sum" : "39fa0d9aa4b20b3fe4934aeef09f4437720925f1",
+        "sha256sum" : "e2409601c9c4beab36a292329ec70ddf31049c1578258ef536fc58fd38660a9e"
+      },
+      {
+        "name" : "Schwarz2018_orignal-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "11740",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "68396c04ab0697b7a0429e3f60f162d1",
+        "sha1sum" : "fed458b4ac894d6d86108c76a7237e1b3759d160",
+        "sha256sum" : "63de40c2f12412585919ca220e08bca0e0a6373dbd0024b16b8d1a0716c52e23"
+      },
+      {
+        "name" : "Schwarz2018_orignal-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "15807",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3dac91b925e26fe1f471282fa3a8e34e",
+        "sha1sum" : "ea9df31f10b43908a0110e898ec25c8584dbd318",
+        "sha256sum" : "f7b714e4a5c73906e3d50e1d4d36a10b9868fdc9873611d0daf56aa595aa62b0"
+      },
+      {
+        "name" : "Schwarz2018_orignal-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8744",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3838447514b2de66ec23b72dff230e3d",
+        "sha1sum" : "1a9e812082c301e5c7688585b27218b8af5fc6ed",
+        "sha256sum" : "ad019bfcef4bb809da4854ffa9dbb661d2a33cb07c498a6c1ca8efc64dd93f6d"
+      },
+      {
+        "name" : "Schwarz2018_orignal.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7202",
+        "mimeType" : "text/plain",
+        "md5sum" : "b42a13e5647f3330be776d1195b4d69c",
+        "sha1sum" : "cdae837b257f6a75364ac637876daff20e3b3a2b",
+        "sha256sum" : "09fa843a75aa47d41133284e6cf067f409fc612bbc67706f16647fd7969c38c0"
+      },
+      {
+        "name" : "Schwarz2018_orignal.xml",
+        "description" : "SBML L2V4 file Schwarz2018-Cdk Activity Threshold Determines Passage through the Restriction Point_Original File",
+        "fileSize" : "98424",
+        "mimeType" : "application/xml",
+        "md5sum" : "04c7ba8225c2387a57d87c9217ab6c87",
+        "sha1sum" : "90c07a745e228973bf9d54bdf8b4e63e41f88152",
+        "sha256sum" : "8859c5df9ff9744a4a48532196c8253f73d99cebaca3e8aa6b0e1db6486cbce4"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "43427",
+        "mimeType" : "image/png",
+        "md5sum" : "5d2d2d2b891a83f4423014466fc239b3",
+        "sha1sum" : "3b8c07ba710e38f46053ec0e32238997f762695c",
+        "sha256sum" : "7abecb44ade8369ddef91760856beeed4f54626dca455b11514d6841ddb29ef4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "464",
+        "mimeType" : "text/plain",
+        "md5sum" : "fe20535fae009ef6670f3c9a87d2067e",
+        "sha1sum" : "ebfa26c1bfc10f75e4cb17d8bd7af8fbf4bcf465",
+        "sha256sum" : "5c230e3ef7a0294a1829414a82894e0844072996be9f35f501c4f646a37905a1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1930",
+        "mimeType" : "application/xml",
+        "md5sum" : "e78faa403af82f004d9d481a64462cf2",
+        "sha1sum" : "baad72da9192d4730d3554977d8f776873417026",
+        "sha256sum" : "0b5bd601378628e6381afa4adcef3f94c84cc553ce838799022848218fb8fa2a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2639",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "89ba32556e33cf9ccde3c8d7781be336",
+        "sha1sum" : "9779e5d2e4344419201bc9f0e99df3501ad750fc",
+        "sha256sum" : "eb1d69154f5296f999bf636cd28b3ff692f9c20a76e6cac0e7fe8d2415b3884e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1583410985,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000918"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724292909,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285537,
+  "submissionId" : "MODEL2003030001",
+  "publicationId" : "BIOMD0000000918",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000918",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000918"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2003030001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2003030001"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29351845",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:29351845"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "MODEL2003030001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2003030001"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "C12958",
+      "name" : "Mammalian Cell",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C12958"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "0000362",
+      "name" : "mammalian",
+      "resource" : "BioAssay Ontology",
+      "uri" : "http://identifiers.org/bao/0000362"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "29351845",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29351845"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C18689",
+      "name" : "Cell Cycle Checkpoint",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C18689"
+    }
+  ]
+}

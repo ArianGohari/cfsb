@@ -1,0 +1,290 @@
+{
+  "name" : "Heiland2012_CircadianClock_C.reinhardtii",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>Modeling temperature entrainment of circadian clocks using the Arrhenius equation and a reconstructed model from Chlamydomonas reinhardtii</strong>                <br />          Ines Heiland, Christian Bodenstein, Thomas Hinze, Olga Weisheit, Oliver Ebenhoeh, Maria Mittag and Stefan Schuster      <em>Journal of Biological Physics</em>          4 March 2012; pp 1-16; doi:      <a href=\"http://dx.doi.org//10.1007/s10867-012-9264-x\">10.1007/s10867-012-9264-x</a>          ,      <br />                <strong>Abstract:</strong>                <br />          Endogenous circadian rhythms allow living organisms to anticipate daily variations in their natural environment. Temperature regulation and entrainment mechanisms of circadian clocks are still poorly understood. To better understand the molecular basis of these processes, we built a mathematical model based on experimental data examining temperature regulation of the circadian RNA-binding protein CHLAMY1 from the unicellular green alga Chlamydomonas reinhardtii , simulating the effect of temperature on the rates by applying the Arrhenius equation. Using numerical simulations, we demonstrate that our model is temperature-compensated and can be entrained to temperature cycles of various length and amplitude. The range of periods that allow entrainment of the model depends on the shape of the temperature cycles and is larger for sinusoidal compared to rectangular temperature curves. We show that the response to temperature of protein (de)phosphorylation rates play a key role in facilitating temperature entrainment of the oscillator in Chlamydomonas reinhardtii . We systematically investigated the response of our model to single temperature pulses to explain experimentally observed phase response curves.      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23729908",
+    "journal" : "Journal of biological physics",
+    "title" : "Modeling temperature entrainment of circadian clocks using the Arrhenius equation and a reconstructed model from Chlamydomonas reinhardtii.",
+    "affiliation" : "Department of Bioinformatics, School of Biology and Pharmacy, Friedrich-Schiller University Jena, E.-Abbe-Platz 2, 07743 Jena, Germany.",
+    "synopsis" : "Endogenous circadian rhythms allow living organisms to anticipate daily variations in their natural environment. Temperature regulation and entrainment mechanisms of circadian clocks are still poorly understood. To better understand the molecular basis of these processes, we built a mathematical model based on experimental data examining temperature regulation of the circadian RNA-binding protein CHLAMY1 from the unicellular green alga Chlamydomonas reinhardtii, simulating the effect of temperature on the rates by applying the Arrhenius equation. Using numerical simulations, we demonstrate that our model is temperature-compensated and can be entrained to temperature cycles of various length and amplitude. The range of periods that allow entrainment of the model depends on the shape of the temperature cycles and is larger for sinusoidal compared to rectangular temperature curves. We show that the response to temperature of protein (de)phosphorylation rates play a key role in facilitating temperature entrainment of the oscillator in Chlamydomonas reinhardtii. We systematically investigated the response of our model to single temperature pulses to explain experimentally observed phase response curves.",
+    "year" : 2012,
+    "month" : "6",
+    "volume" : "38",
+    "issue" : "3",
+    "pages" : "449-464",
+    "link" : "http://identifiers.org/pubmed/23729908",
+    "authors" : [
+      {
+        "name" : "Ines Heiland",
+        "institution" : "Faculty of Bioscience, Fisheries and Economics, Department of Arctic and Marine Biology, UiT The Arctic University of Norway, Tromsø, Norway ines.heiland@uit.no.",
+        "orcid" : "0000-0002-9124-5112"
+      },
+      {
+        "name" : "Christian Bodenstein"
+      },
+      {
+        "name" : "Thomas Hinze"
+      },
+      {
+        "name" : "Olga Weisheit"
+      },
+      {
+        "name" : "Oliver Ebenhoeh"
+      },
+      {
+        "name" : "Maria Mittag"
+      },
+      {
+        "name" : "Stefan Schuster"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000411_url.xml",
+        "description" : "SBML L2V4 representation of Heiland2012_CircadianClock_C.reinhardtii",
+        "fileSize" : "70200",
+        "mimeType" : "application/xml",
+        "md5sum" : "f158e3010c5ce756263bc8e68042dbad",
+        "sha1sum" : "1b055ef59461908dc60da7e96e3a5e59c8067756",
+        "sha256sum" : "dd481b4267ba065f9d6a8f37605e80a2ac5cdfa708358a8879c4e6c286c7df39"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000411-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "21697",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4d339e65a078a39305a2b55d031f84c0",
+        "sha1sum" : "694e5fcb193f3886ec144b1b743a7858c9e4cbe5",
+        "sha256sum" : "0fc973cd34dd14f7e2f01f0d2fb6f8bcef72a57abc8f8865b4d7caae8da43fe3"
+      },
+      {
+        "name" : "BIOMD0000000411-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "33898",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5f01622e94f230363828b1e8d73b1689",
+        "sha1sum" : "7056dcf74443103d63768b74d2179b57933859fb",
+        "sha256sum" : "12199af055a5ffe9b560f81b17b8735b6a00798eebb8245c9fa331bbe4965011"
+      },
+      {
+        "name" : "BIOMD0000000411-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9938",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ada83f3dbd4f90fb2c674dc38edec636",
+        "sha1sum" : "f8d12ff732ec4d092908739275fc352558b84e34",
+        "sha256sum" : "e56b5eb68c64f21c50e8d66a7facf236a160a6ef031cfd32f944c8a8434d457e"
+      },
+      {
+        "name" : "BIOMD0000000411-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9938",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9292589e503dde64b0699d563a9ecdc1",
+        "sha1sum" : "4cfb484ccd9c4566ce4ff91d589551110a3635fc",
+        "sha256sum" : "8c49dcb7c959cb48550d2163a13bdd658303ebfbc7fa7abca325edddf7ed7d10"
+      },
+      {
+        "name" : "BIOMD0000000411.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9938",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9292589e503dde64b0699d563a9ecdc1",
+        "sha1sum" : "4cfb484ccd9c4566ce4ff91d589551110a3635fc",
+        "sha256sum" : "8c49dcb7c959cb48550d2163a13bdd658303ebfbc7fa7abca325edddf7ed7d10"
+      },
+      {
+        "name" : "BIOMD0000000411.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7118",
+        "mimeType" : "text/plain",
+        "md5sum" : "bc8a55957ab2fde4439260ac12a2c1e3",
+        "sha1sum" : "30f1d9fabe266eb0691dd54aabf21be7a20f42b2",
+        "sha256sum" : "b828c12b879fe997e91335b13ef33e708df639bf0583e7f807526eda8b24ec3f"
+      },
+      {
+        "name" : "BIOMD0000000411.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "230527",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6756a06607d826b16c15602b9e07ea99",
+        "sha1sum" : "d9b79e811ffd2236fb4fe2dfb4053ccaf11c830d",
+        "sha256sum" : "7cc3d8c3fed34b323851d8921bc9c451062e47b95df4719d7787dab4a10573c0"
+      },
+      {
+        "name" : "BIOMD0000000411.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "57821",
+        "mimeType" : "image/png",
+        "md5sum" : "40a3b60f6381347fa4793390903f89b6",
+        "sha1sum" : "62e67ad411941b35130fc2566b410cf30e0c45a0",
+        "sha256sum" : "c41da4b6bf9060298da339e5dc73cf148eb1075202031c240026c02bcd4ad48b"
+      },
+      {
+        "name" : "BIOMD0000000411.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "27460",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6df7fa921c5df879c1c2e1b4ffd1ecbc",
+        "sha1sum" : "a764ae219028643f0bcd6b83239f38ee625931f8",
+        "sha256sum" : "49fdcbf66b7f8d823fc0e55a1abe52d590c364597c56f987d448cc7fde5750ef"
+      },
+      {
+        "name" : "BIOMD0000000411.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "76953",
+        "mimeType" : "application/xml",
+        "md5sum" : "bbc6f4a5caf07aec2ddd40e15d015ab1",
+        "sha1sum" : "3162e8053bc9150dbfa83c4d06719769bd4203b7",
+        "sha256sum" : "a1b1cb38db5b39b3bd1f48ea8665f94b49739f685ecb23ac109d4fd78a53de36"
+      },
+      {
+        "name" : "BIOMD0000000411_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "22268",
+        "mimeType" : "application/xml",
+        "md5sum" : "90e2e3ca80e4fd99d469a589b121fed9",
+        "sha1sum" : "9504afb2d7b8f29829a02697beb5133ef2e38643",
+        "sha256sum" : "7b8c242ef43571fa7cd34884347c0cb969ade737621feebf735f64f4b621e603"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "52670",
+        "mimeType" : "image/png",
+        "md5sum" : "9b539bff87045ce6920b34de6126d148",
+        "sha1sum" : "ab6c40fc30ef79c2411016830119262d427a9100",
+        "sha256sum" : "a508c63dca0ae3e1a64c78c4743212bf402e4261db05153048b3a8a8b1378e93"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "332",
+        "mimeType" : "text/plain",
+        "md5sum" : "d9e85743f32ac438f8902193b95d470e",
+        "sha1sum" : "66d57e82b328ec5195c8288b0175324c15683d81",
+        "sha256sum" : "09a43213a70d7cc289827ec1d5129b008f042f02e0268795879209cbc28d81f2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "9f62fc27a4761124e686583e8b711a9b",
+        "sha1sum" : "0a052cde44905996a3c6df5878a2d1b6b8144ba0",
+        "sha256sum" : "0e07812892842a68cf02ac96231aad745926a8c09fd0e2a7f8941587e58b69d5"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4661",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e8e0bdbee18a2ee2eebfa93b102ff600",
+        "sha1sum" : "648a0c9bc241126ae98da8ce74871674d46e9b91",
+        "sha256sum" : "1611a63d89184e4bea1c2d5d505e0bab65d4b7df2b8cb8611c7f713fb8ae3967"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1326443320,
+        "submitter" : "Ines Heiland",
+        "comment" : "Original import of Temperature regulated model of a circadian oscillator in Chlamydomonas rheinhardtii based on C1/C3-komplex-formation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1391604308,
+        "submitter" : "Ines Heiland",
+        "comment" : "Current version of Heiland2012_CircadianClock_C.reinhardtii"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275967,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285138,
+  "submissionId" : "MODEL1201130000",
+  "publicationId" : "BIOMD0000000411",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ines Heiland",
+        "email" : "heiland.ines@uni-jena.de",
+        "affiliation" : "Dept. of Bioinformatics Friedrich Schiller University Jena",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1201130000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1201130000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000411",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000411"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23729908",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23729908"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3055",
+      "name" : "Chlamydomonas reinhardtii",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3055"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0060086",
+      "name" : "circadian temperature homeostasis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0060086"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

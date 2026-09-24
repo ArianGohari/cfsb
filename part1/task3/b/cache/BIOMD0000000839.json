@@ -1,0 +1,244 @@
+{
+  "name" : "Almeida2019 - Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a transcriptional-based mathematical model centered on linear combinations of the clock controlled elements (CCEs): E-box, R-box and D-box, used to identify the essential interactions needed to generate phase opposition between the activating CLOCK:BMAL1 and the repressing PER:CRY complexes.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31539528",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs.",
+    "affiliation" : "1600 Université Côte d'Azur, Inria, INRA, CNRS, UPMC Univ Paris 06, Biocore team, Sophia Antipolis, France; Université Côte d'Azur, CNRS, INSERM, iBV, France. Electronic address: sofia.figueiredo-almeida@inria.fr.",
+    "synopsis" : "The molecular oscillator of the mammalian circadian clock consists in a dynamical network of genes and proteins whose main regulatory mechanisms occur at the transcriptional level. From a dynamical point of view, the mechanisms leading to an oscillatory solution with an orderly protein peak expression and a clear day/night phase distinction remain unclear. Our goal is to identify the essential interactions needed to generate phase opposition between the activating CLOCK:BMAL1 and the repressing PER:CRY complexes and to better distinguish these two main clock molecular phases relating to rest/activity and fast/feeding cycles. To do this, we develop a transcription-based mathematical model centered on linear combinations of the clock controlled elements (CCEs): E-box, R-box and D-box. Each CCE is responsive to activators and repressors. After model calibration with single-cell data, we explore entrainment and period tuning via interplay with metabolism. Variation of the PER degradation rate γ<sub>p</sub>, relating to the tau mutation, results in asymmetric changes in the duration of the different clock molecular phases. Time spent at the state of high PER/PER:CRY decreases with γ<sub>p</sub>, while time spent at the state of high BMAL1 and CRY1, both proteins with activity in promoting insulin sensitivity, remains constant. This result suggests a possible mechanism behind the altered metabolism of tau mutation animals. Furthermore, we expose the clock system to two regulatory inputs, one relating to the fast/feeding cycle and the other to the light-dependent synchronization signaling. We observe the phase difference between these signals to also affect the relative duration of molecular clock states. Simulated circadian misalignment, known to correlate with insulin resistance, leads to decreased duration of BMAL1 expression. Our results reveal a possible mechanism for clock-controlled metabolic homeostasis, whereby the circadian clock controls the relative duration of different molecular (and metabolic) states in response to signaling inputs.",
+    "year" : 2020,
+    "month" : "1",
+    "volume" : "484",
+    "pages" : "110015",
+    "link" : "http://identifiers.org/pubmed/31539528",
+    "authors" : [
+      {
+        "name" : "Sofia Almeida",
+        "institution" : "1600 Université Côte d'Azur, Inria, INRA, CNRS, UPMC Univ Paris 06, Biocore team, Sophia Antipolis, France; Université Côte d'Azur, CNRS, INSERM, iBV, France. Electronic address: sofia.figueiredo-almeida@inria.fr.",
+        "orcid" : "0000-0002-7547-8784"
+      },
+      {
+        "name" : "Madalena Chaves",
+        "institution" : "1600 Université Côte d'Azur, Inria, INRA, CNRS, UPMC Univ Paris 06, Biocore team, Sophia Antipolis, France. Electronic address: http://www-sop.inria.fr/members/Madalena.Chaves/."
+      },
+      {
+        "name" : "Franck Delaunay",
+        "institution" : "Université Côte d'Azur, CNRS, INSERM, iBV, France. Electronic address: http://www.ibv.unice.fr/research-team/delaunay/.",
+        "orcid" : "0000-0003-4927-1701"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Almeida2019.xml",
+        "description" : "SBML L2V4 Representation of Almeida2019 - Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs",
+        "fileSize" : "70803",
+        "mimeType" : "application/xml",
+        "md5sum" : "782ccb6f32311b6d8985d3160fd6cea5",
+        "sha1sum" : "8c0bad9f709c4d4c13a8d0abe810135a9b03d929",
+        "sha256sum" : "d07347fca1dd3e3beb5aa9c1f4709a7b940befbf4080a08f7a8d1e05bc295365"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Almeida2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "20453",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2b3d359ee62036a133a4095512513bb5",
+        "sha1sum" : "802e504b329c5b97d4ea855d867b9f70f3595061",
+        "sha256sum" : "ddd34e1a55a46e33944ad0aa60f0a1f672d05f86b3be40e8b86fa42cab80562d"
+      },
+      {
+        "name" : "Almeida2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "31831",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2c6ee9f7031ab88278b29ce8f957e498",
+        "sha1sum" : "e2c15344329e12ce5af01db5f3cf288952c7d146",
+        "sha256sum" : "cd3476934fb4c14da372e9af4eebc54e2e5b2c1d1970dab6180cabc785a46ce1"
+      },
+      {
+        "name" : "Almeida2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7942",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "286ebb51b2b6e38f73d705ccf2fd1ddb",
+        "sha1sum" : "0ccab09127d95a5586a00776b8a337e4ddf64ed9",
+        "sha256sum" : "1e4008bd769707fb890dcfd73e356c969815c09d0310e656cf1fdf373c262283"
+      },
+      {
+        "name" : "Almeida2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7942",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "164c327c515708c5704c4d53250feca0",
+        "sha1sum" : "2e5da5b325e6e6da91c074f0e4786bb41b84cc55",
+        "sha256sum" : "46aef4659f71c70706a7514c7fe525166471bbf4be4e40986fc7d270dffb48bb"
+      },
+      {
+        "name" : "Almeida2019.cps",
+        "description" : "COPASI file of Almeida2019 - Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs",
+        "fileSize" : "110867",
+        "mimeType" : "application/xml",
+        "md5sum" : "75801036d3c5be7744cf0be57d7e8956",
+        "sha1sum" : "2eead83c1365379070aff5209e5d6f867ae49894",
+        "sha256sum" : "007f32bc79901a4e819168a17e640b3eb5102827bf04e3de5157fe3a7d124cf6"
+      },
+      {
+        "name" : "Almeida2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6577",
+        "mimeType" : "text/plain",
+        "md5sum" : "704cefc0bca5fa3c56720e618f24bc31",
+        "sha1sum" : "ac114d2680717dd363c18344a4d3fe3b00c65208",
+        "sha256sum" : "a3059bc59dac9c7f334b883d439e9d01a98c501099ee7664ac29dfee4f6c827b"
+      },
+      {
+        "name" : "Almeida2019.sedml",
+        "description" : "SED-ML file of Almeida2019 - Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs (additionally CRBM-validated and adjusted).",
+        "fileSize" : "33151",
+        "mimeType" : "application/xml",
+        "md5sum" : "510f87e93bed72944c95e4bd4252d1b5",
+        "sha1sum" : "77e28dff27b904c33f37632957abc0cab097e220",
+        "sha256sum" : "126bb0d5b5eae4888c5380df9a9506430f503f8158bb57b7605240411e575a66"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "41749",
+        "mimeType" : "image/png",
+        "md5sum" : "c6c784c5834a6176a199d2b3f40e71d1",
+        "sha1sum" : "a3ec5b6ebc1784815555e52e28cbe76abe8aff98",
+        "sha256sum" : "082d8320233bc169f9a56a09095ada0a20f4961b002d42ed329c11b71aa5acad"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "157",
+        "mimeType" : "text/plain",
+        "md5sum" : "cd5a44a59fc2e5e606b4186e114d12e8",
+        "sha1sum" : "f66de5866b3e053e62eba29115772acfcb3e4bc9",
+        "sha256sum" : "8831f949b0a04272caeb03bd8e1046a5454e690afc7dcb7d22bb362149ef6ab7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1419",
+        "mimeType" : "application/xml",
+        "md5sum" : "18faad4be39d80b96599f124a6ba44a1",
+        "sha1sum" : "070e81826a2d67b92e50c50bd45ef73fe82785ae",
+        "sha256sum" : "4abc79ccc08fd9cc9aa8ae9791f51a8de7ce200f9bd3735364cd59b465a8cce0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2026",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "448c1e276b3f9953e4dd9b83414b7c0c",
+        "sha1sum" : "80456fb71b586975ca35f4c181e4c3e77c764a93",
+        "sha256sum" : "7463e211976965e7e51cd222d50f5be076353b3373dd5018e909f641b08a359f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1572346794,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000839"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1613485177,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Corrected publication year for the model"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724290949,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285509,
+  "submissionId" : "MODEL1910290001",
+  "publicationId" : "BIOMD0000000839",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31539528",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31539528"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1910290001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1910290001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000839",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000839"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0007623",
+      "name" : "circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007623"
+    }
+  ]
+}

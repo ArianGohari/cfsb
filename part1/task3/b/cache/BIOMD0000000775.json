@@ -1,0 +1,244 @@
+{
+  "name" : "Iarosz2015 - brain tumor",
+  "description" : "The paper describes a model of brain tumor. Created by COPASI 4.25 (Build 207) This model is described in the article: Mathematical model of brain tumour with glia-neuron interactions and chemotherapy treatmentKelly C. Iarosz, Fernando S. Borges, Antonio M. Batista, Murilo S. Baptista, Regiane A. N. Siqueira, Ricardo L. Viana, Sergio R. LopesAbstract: In recent years, it became clear that a better understanding of the interactions among the main elements involved in the cancer network is necessary for the treatment of cancer and the suppression of cancer growth. In this work we propose a system of coupled differential equations that model brain tumour under treatment by chemotherapy, which considers interactions among the glial cells, the glioma, the neurons, and the chemotherapeutic agents. We study the conditions for the glioma growth to be eliminated, and identify values of the parameters for which the inhibition of the glioma growth is obtained with a minimal loss of healthy cells.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25596516",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Mathematical model of brain tumour with glia-neuron interactions and chemotherapy treatment.",
+    "affiliation" : "Institute for Complex Systems and Mathematical Biology, University of Aberdeen, AB24 3UE Aberdeen, UK. Electronic address: kiarosz@gmail.com.",
+    "synopsis" : "In recent years, it became clear that a better understanding of the interactions among the main elements involved in the cancer network is necessary for the treatment of cancer and the suppression of cancer growth. In this work we propose a system of coupled differential equations that model brain tumour under treatment by chemotherapy, which considers interactions among the glial cells, the glioma, the neurons, and the chemotherapeutic agents. We study the conditions for the glioma growth to be eliminated, and identify values of the parameters for which the inhibition of the glioma growth is obtained with a minimal loss of healthy cells.",
+    "year" : 2015,
+    "month" : "3",
+    "volume" : "368",
+    "pages" : "113-121",
+    "link" : "http://identifiers.org/pubmed/25596516",
+    "authors" : [
+      {
+        "name" : "Kelly C Iarosz",
+        "institution" : "Institute for Complex Systems and Mathematical Biology, University of Aberdeen, AB24 3UE Aberdeen, UK. Electronic address: kiarosz@gmail.com.",
+        "orcid" : "0000-0001-9134-0753"
+      },
+      {
+        "name" : "Fernando S Borges",
+        "institution" : "Pós-Graduação em Ciências/Física, Universidade Estadual de Ponta Grossa, 84030-900 Ponta Grossa, PR, Brazil.",
+        "orcid" : "0000-0002-7647-2341"
+      },
+      {
+        "name" : "Antonio M Batista",
+        "institution" : "Institute for Complex Systems and Mathematical Biology, University of Aberdeen, AB24 3UE Aberdeen, UK; Pós-Graduação em Ciências/Física, Universidade Estadual de Ponta Grossa, 84030-900 Ponta Grossa, PR, Brazil; Departamento de Matemática e Estatística, Universidade Estadual de Ponta Grossa, 84030-900 Ponta Grossa, PR, Brazil.",
+        "orcid" : "0000-0002-5899-0591"
+      },
+      {
+        "name" : "Murilo S Baptista",
+        "institution" : "Institute for Complex Systems and Mathematical Biology, University of Aberdeen, AB24 3UE Aberdeen, UK."
+      },
+      {
+        "name" : "Regiane A N Siqueira",
+        "institution" : "Pós-Graduação em Ciências/Física, Universidade Estadual de Ponta Grossa, 84030-900 Ponta Grossa, PR, Brazil."
+      },
+      {
+        "name" : "Ricardo L Viana",
+        "institution" : "Departamento de Física, Universidade Federal do Paraná, 81531-990 Curitiba, PR, Brazil."
+      },
+      {
+        "name" : "Sergio R Lopes",
+        "institution" : "Departamento de Física, Universidade Federal do Paraná, 81531-990 Curitiba, PR, Brazil.",
+        "orcid" : "0000-0002-7049-4902"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Iarosz2015.xml",
+        "description" : "SBML L3V1 representation of brain cancer model",
+        "fileSize" : "69162",
+        "mimeType" : "application/xml",
+        "md5sum" : "9882ec7629304080a6f958dcf85c6cc7",
+        "sha1sum" : "c3421960a3fd971bb8349f498630aa371d28a206",
+        "sha256sum" : "b11239dbc2b312efa32f10442df73c0a3b0e7f2434f746d2b531b5d262d84566"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Iarosz2015-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "13085",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "519e96d8861996d48394fc2393601ec2",
+        "sha1sum" : "2d5de6d4a7509daf8263829fe0dd093c34d03110",
+        "sha256sum" : "487ab89fb687dd910654ac80a9cca07cbac130cf1ba3a44656c8671a3f5dae82"
+      },
+      {
+        "name" : "Iarosz2015-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "17929",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d1c62b4d428c4d5f1cf3a1e30ad8b4c6",
+        "sha1sum" : "7912e8f3fe87037ab678edbc9d5e5ad7056bcd82",
+        "sha256sum" : "225bc40862da35cf4b82545582493f4a4e1fa13d6ca745d8f7fba0fb657a7617"
+      },
+      {
+        "name" : "Iarosz2015.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "82629",
+        "mimeType" : "application/xml",
+        "md5sum" : "9febebaec4adee4a53af4db649a7d044",
+        "sha1sum" : "c39fda381a519e3981f27b6da98e1d905fd17e89",
+        "sha256sum" : "72f703b6b8fb1609ebf48b0aa2a6dff3350763ba5898648a8bcd1eda25417f16"
+      },
+      {
+        "name" : "Iarosz2015.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "18145",
+        "mimeType" : "application/xml",
+        "md5sum" : "8d92be4c1c89964b3adbb316b896c581",
+        "sha1sum" : "f64a19958906e2ed6e695ddb7387076d0cf27a63",
+        "sha256sum" : "0771745d786fe6fb54e12d03c6ef7f2c9ae145055eda2e8465fdb94de2bb2b57"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "77040",
+        "mimeType" : "image/png",
+        "md5sum" : "08f0347e9c5044777337a2c7d36a246b",
+        "sha1sum" : "f8589b1c6ac4a9f23c7c4442bd91341f4af1ff6e",
+        "sha256sum" : "7181f41d728006a8f74804f7f1ecb58e586b7981b536705db09ed4382c4f7bff"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "112",
+        "mimeType" : "text/plain",
+        "md5sum" : "288ce302f8ef981ac9240766f44490b6",
+        "sha1sum" : "30ca1ce30c1e6c8bbef038a1a33c66e5d7f12cb0",
+        "sha256sum" : "27514cf7023cc80008e2596b23a038e8ef459b5c73566db1870c205a17669fa7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1077",
+        "mimeType" : "application/xml",
+        "md5sum" : "c6dd94fd20ed717e0716e12b6920ddcf",
+        "sha1sum" : "5030a0f057a285fa93e566e05c0661f576ba57fe",
+        "sha256sum" : "122f3a69d1ec36b30ec00252883e2f4caa6bcc7d66db8f2c2a72e124109db768"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3149",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "14bc1ef28196892d9b2c8cfbff08ad89",
+        "sha1sum" : "e0f4682b502b3424b5c1535ef59e6866cee1f773",
+        "sha256sum" : "46a8ff7d691294d97d3df26647505731a240bd2f01945b58485253a2bc3e7f13"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1564748239,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000775"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1735840331,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285456,
+  "submissionId" : "MODEL1908020001",
+  "publicationId" : "BIOMD0000000775",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002418",
+      "name" : "immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002418"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25596516",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25596516"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000775",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000775"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908020001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908020001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0003833",
+      "name" : "brain neoplasm",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0003833"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15632",
+      "name" : "Chemotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15632"
+    }
+  ]
+}

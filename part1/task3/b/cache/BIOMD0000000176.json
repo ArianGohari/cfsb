@@ -1,0 +1,281 @@
+{
+  "name" : "Conant2007_WGD_glycolysis_2A3AB",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Increased glycolytic flux as an outcome of whole-genome duplication in yeast.</strong>        <br />          Conant GC, Wolfe KH      <em>Mol. Syst. Biol.</em>          [2007 ; Volume: 3 (Issue: )]: 129      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17667951\">17667951</a>          ,      <br />        <strong>Abstract:</strong>        <br />          After whole-genome duplication (WGD), deletions return most loci to single copy. However, duplicate loci may survive through selection for increased dosage. Here, we show how the WGD increased copy number of some glycolytic genes could have conferred an almost immediate selective advantage to an ancestor of Saccharomyces cerevisiae, providing a rationale for the success of the WGD. We propose that the loss of other redundant genes throughout the genome resulted in incremental dosage increases for the surviving duplicated glycolytic genes. This increase gave post-WGD yeasts a growth advantage through rapid glucose fermentation; one of this lineage's many adaptations to glucose-rich environments. Our hypothesis is supported by data from enzyme kinetics and comparative genomics. Because changes in gene dosage follow directly from post-WGD deletions, dosage selection can confer an almost instantaneous benefit after WGD, unlike neofunctionalization or subfunctionalization, which require specific mutations. We also show theoretically that increased fermentative capacity is of greatest advantage when glucose resources are both large and dense, an observation potentially related to the appearance of angiosperms around the time of WGD.      </p>      <br />      <br />      <p>The original model submitted by the authors was slightly altered and now comprises the models originally submitted as MODEL2426780967, MODEL2427021978, MODEL2427095802. It reproduces figures 2A,3A and 3B from the publication.</p>      <p>This model uses the glycolysis model from Pritchard and Kell (2002) with an additional parameter,      <b>WGD_E</b>          , to adjust for the differing enzyme conzentrations before the  whole genome duplication (WGD) and parameters      <b>fV_xxx</b>          that adjust the      <b>Vmax</b>          of the different reactions (xxx eg. HXT or PYK).      <br />          Figure 3A from the article can be reproduced by changing the value of the parameters      <b>fV_xxx</b>          to 0.9 indiviually, with xxx signifying the different enzymes (HXT, HXK ...)      <br />          Figure 3B from the publication can be reproduced by setting  the parameter      <b>WGD_E</b>          to 0.75 and individually setting the parameters      <b>fV_xxx</b>          to 1.333.      <br />          To reproduce figure 2A from the article change the parameter      <b>WGD_E</b>          in the range between 0.65 and 1.0.      </p>    <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17667951",
+    "journal" : "Molecular systems biology",
+    "title" : "Increased glycolytic flux as an outcome of whole-genome duplication in yeast.",
+    "affiliation" : "Smurfit Institute of Genetics, Trinity College, University of Dublin, Dublin, Ireland. conantg@tcd.ie",
+    "synopsis" : "After whole-genome duplication (WGD), deletions return most loci to single copy. However, duplicate loci may survive through selection for increased dosage. Here, we show how the WGD increased copy number of some glycolytic genes could have conferred an almost immediate selective advantage to an ancestor of Saccharomyces cerevisiae, providing a rationale for the success of the WGD. We propose that the loss of other redundant genes throughout the genome resulted in incremental dosage increases for the surviving duplicated glycolytic genes. This increase gave post-WGD yeasts a growth advantage through rapid glucose fermentation; one of this lineage's many adaptations to glucose-rich environments. Our hypothesis is supported by data from enzyme kinetics and comparative genomics. Because changes in gene dosage follow directly from post-WGD deletions, dosage selection can confer an almost instantaneous benefit after WGD, unlike neofunctionalization or subfunctionalization, which require specific mutations. We also show theoretically that increased fermentative capacity is of greatest advantage when glucose resources are both large and dense, an observation potentially related to the appearance of angiosperms around the time of WGD.",
+    "year" : 2007,
+    "month" : "0",
+    "volume" : "3",
+    "pages" : "129",
+    "link" : "http://identifiers.org/pubmed/17667951",
+    "authors" : [
+      {
+        "name" : "Gavin C Conant",
+        "orcid" : "0000-0002-8677-4933"
+      },
+      {
+        "name" : "Kenneth H Wolfe",
+        "orcid" : "0000-0003-4992-4979"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000176_url.xml",
+        "description" : "SBML L2V1 representation of Conant2007_WGD_glycolysis_2A3AB",
+        "fileSize" : "103156",
+        "mimeType" : "application/xml",
+        "md5sum" : "80f100f83cb007f3da610fa7790d3001",
+        "sha1sum" : "9dd97e053ec26536abbcbf714bae7cf4b18a8101",
+        "sha256sum" : "feffc410b0d4751e202ccc0e7b69199c80e10e5a8b63c0f8b8241af4bbc8cace"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000176-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "65180",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "185a1e0c1e6f6f94fb5a2eef0e30456c",
+        "sha1sum" : "463aac71fd46030ccf05aa5d1af3f9cb8a8ebd18",
+        "sha256sum" : "9cccaa4a4c2671856b5c611c945e6860ddf7ca308240d25542a3471eb276e456"
+      },
+      {
+        "name" : "BIOMD0000000176-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "90033",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e176ffd487a9a1d4a8375d95f29adbc1",
+        "sha1sum" : "55f4318fafca8c8d64777b0e6cb3d996214e9c16",
+        "sha256sum" : "d36ced84bcdf443962da35aa30999c655ab33272afd9845244a0edf8a622f027"
+      },
+      {
+        "name" : "BIOMD0000000176-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "21416",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8502b81dffd6d02798f5377cfd712ef8",
+        "sha1sum" : "25edfb07b26c5ba44060f1b3860462a9cc4a765b",
+        "sha256sum" : "1e88b44ebb28935840c80e582a1b820c008ccac87758199f9344113be70aa2f0"
+      },
+      {
+        "name" : "BIOMD0000000176-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "21416",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "36843a157e52e63458eff443adfed3f9",
+        "sha1sum" : "3e8012b38b76e1dc64d44f19b7d7e6a7bf0d2488",
+        "sha256sum" : "e24ed04d50c263f8c22927f9b4b74887daa7bfb6247dd08bea7fd2504be345c2"
+      },
+      {
+        "name" : "BIOMD0000000176.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "21416",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "36843a157e52e63458eff443adfed3f9",
+        "sha1sum" : "3e8012b38b76e1dc64d44f19b7d7e6a7bf0d2488",
+        "sha256sum" : "e24ed04d50c263f8c22927f9b4b74887daa7bfb6247dd08bea7fd2504be345c2"
+      },
+      {
+        "name" : "BIOMD0000000176.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "15244",
+        "mimeType" : "text/plain",
+        "md5sum" : "302c79b02f1a2f6d0914766317c724fe",
+        "sha1sum" : "a381bf30a8356fb205d6dd6a79f3191839c5f7d1",
+        "sha256sum" : "277e1f4935febd93b3f3e31423ab026e8aba4035a053657d64e4f5adc31774fb"
+      },
+      {
+        "name" : "BIOMD0000000176.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "271108",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f46c20ae6de9e2c6dcf750484c7a151a",
+        "sha1sum" : "fcc7f8b3c5c1d0dc0a09c9c4c69fc502a9d1f0e8",
+        "sha256sum" : "47fc7baa832936e21024189f4048f0332c36555996af589b0d2fdc8b1d5f62d1"
+      },
+      {
+        "name" : "BIOMD0000000176.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "212237",
+        "mimeType" : "image/png",
+        "md5sum" : "feac0708033c8b24e23e8959eb377b28",
+        "sha1sum" : "cd743abdfc2750060dc8aeb7b9dcbd66ffccb9c4",
+        "sha256sum" : "b6266e214cc5d3b684bdc4d5dc1ec73bf815487ecdede46a43f728b3a8688d11"
+      },
+      {
+        "name" : "BIOMD0000000176.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "46161",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "5e0029ee9304b8eb0527946a28939d2c",
+        "sha1sum" : "4dab88853fb6a872b1faed31484bc7565ae31ff3",
+        "sha256sum" : "ebb223853319751f0e7b60c1246efd309f9813d719b721ea31ecc28f60b3f00a"
+      },
+      {
+        "name" : "BIOMD0000000176.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "98891",
+        "mimeType" : "application/xml",
+        "md5sum" : "5c69cc5105f952b7b24826cde5d55943",
+        "sha1sum" : "98d2fffd21ec98ccc02b10be4a2bc1a4e3965981",
+        "sha256sum" : "44103321fff9d987d61cba1035860ea69903b9bc07a4234d1c79ce26254cf89f"
+      },
+      {
+        "name" : "BIOMD0000000176_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "34010",
+        "mimeType" : "application/xml",
+        "md5sum" : "5ee264c4473eaf7a9e0880254d60cc61",
+        "sha1sum" : "27350797be24313f1272dc300fa064315ffb305e",
+        "sha256sum" : "fae18d0178c173e266cbd4e7d82ddec1f76c47b0ad581038d4543eb5705de494"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "18615",
+        "mimeType" : "image/png",
+        "md5sum" : "f24ba7d80b1aaa72c908ab39d9b40981",
+        "sha1sum" : "bbd9373d68b84ca289ab472ea71023715306e2c4",
+        "sha256sum" : "d1cf5b45fe9f0a506018ad951a5aba3366d94f3d8ae2534da71813d7735ea354"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "141",
+        "mimeType" : "text/plain",
+        "md5sum" : "7387d22c7d0759fa7f0afeaa244075c7",
+        "sha1sum" : "35fe8c4bb054ffea5ce1882d0e9f3b9554fceca1",
+        "sha256sum" : "6cc1787df5ccc6fb000d63ae9280adcf0f29e2fff76aa074b1b8186407d4f65c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "faf2620d8a69eae688198028f08ba3e3",
+        "sha1sum" : "3fcd14c2d819fb8cd7ce11f819227ace2f09050d",
+        "sha256sum" : "68a108e8f25007a181e69521cc836b92039a385d8cd51c3e0d46c49eaa920053"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5639",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a3766e17d5a3459404e718152a113fc0",
+        "sha1sum" : "f42330a490b3c36287abeffbe2b9b402e211213c",
+        "sha256sum" : "62887a629ac0ed0b5c4b4786bf362d2325ed6b5b9425d64faa4498a1182af089"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1218018118,
+        "submitter" : "Gavin Conant",
+        "comment" : "Original import of BIOMD0000000176.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1337181908,
+        "submitter" : "Gavin Conant",
+        "comment" : "Current version of Conant2007_WGD_glycolysis_2A3AB"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269457,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284917,
+  "submissionId" : "MODEL2427095802",
+  "publicationId" : "BIOMD0000000176",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Gavin Conant",
+        "email" : "conantg@tcd.ie",
+        "affiliation" : "Smurfit Institute of Genetics, University of Dublin, Trinity College, Dublin 2, Ireland",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2427095802",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2427095802"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000176",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000176"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17667951",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17667951"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "sce00010",
+      "name" : "Glycolysis / Gluconeogenesis - Saccharomyces cerevisiae (budding yeast)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/sce00010"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

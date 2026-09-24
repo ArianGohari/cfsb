@@ -1,0 +1,16 @@
+{
+  "offline": false,
+  "network": {
+    "timeout": 40,
+    "max_attempts": 2
+  },
+  "search": {
+    "source": "europepmc",
+    "queries": [
+      "(TITLE_ABS:\"Caco-2\" OR TITLE_ABS:Caco2) AND (TITLE_ABS:\"SARS-CoV-2\" OR TITLE_ABS:COVID-19) AND (TITLE_ABS:proteomics OR TITLE_ABS:proteomic OR TITLE_ABS:proteome)"
+    ],
+    "max_records": 100,
+    "page_size": 100,
+    "mode": "task4_pilot"
+  }
+}

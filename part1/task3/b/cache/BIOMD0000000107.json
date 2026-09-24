@@ -1,0 +1,289 @@
+{
+  "name" : "Novak1993 - Cell cycle M-phase control",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Novak1993 - Cell cycle M-phase control</div><div class=\"dc:description\">The model reproduces Figure 9 of the paper. Please note that active MPF and cyclin concentrations in the paper are given relative to total cdc2 concentration   (100nM). Active MPF (dimer_p)  is the cyclin-cdc2 complex that is phosphorylated at Thr161. The earlier versions of the model was successfully tested on MathSBML and Jarnac, and the current version was checked in Copasi.<br /></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/8126097\" title=\"Access to this publication\">    Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos.     </a>  </div>  <div class=\"bibo:authorList\">   Novak B, Tyson JJ.   </div>  <div class=\"bibo:Journal\">J. Cell. Sci. 1993 Dec; 106 ( Pt 4): 1153-1168 </div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>    To contribute to a deeper understanding of M-phase control in eukaryotic cells, we have constructed a model based on the biochemistry of M-phase promoting factor (MPF) in Xenopus oocyte extracts, where there is evidence for two positive feedback loops (MPF stimulates its own production by activating Cdc25 and inhibiting Wee1) and a negative feedback loop (MPF stimulates its own destruction by indirectly activating the ubiquitin pathway that degrades its cyclin subunit). To uncover the full dynamical possibilities of the control system, we translate the regulatory network into a set of differential equations and study these equations by graphical techniques and computer simulation. The positive feedback loops in the model account for thresholds and time lags in cyclin-induced and MPF-induced activation of MPF, and the model can be fitted quantitatively to these experimental observations. The negative feedback loop is consistent with observed time lags in MPF-induced cyclin degradation. Furthermore, our model indicates that there are two possible mechanisms for autonomous oscillations. One is driven by the positive feedback loops, resulting in phosphorylation and abrupt dephosphorylation of the Cdc2 subunit at an inhibitory tyrosine residue. These oscillations are typical of oocyte extracts. The other type is driven by the negative feedback loop, involving rapid cyclin turnover and negligible phosphorylation of the tyrosine residue of Cdc2. The early mitotic cycles of intact embryos exhibit such characteristics. In addition, by assuming that unreplicated DNA interferes with M-phase initiation by activating the phosphatases that oppose MPF in the positive feedback loops, we can simulate the effect of addition of sperm nuclei to oocyte extracts, and the lengthening of cycle times at the mid-blastula transition of intact embryos.     </p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000107\">BIOMD0000000107</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" title=\"Latest BioModels Database publication\">BioModels:  ten-year anniversary </a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "8126097",
+    "journal" : "Journal of cell science",
+    "title" : "Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos.",
+    "affiliation" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg 24060-0406.",
+    "synopsis" : "To contribute to a deeper understanding of M-phase control in eukaryotic cells, we have constructed a model based on the biochemistry of M-phase promoting factor (MPF) in Xenopus oocyte extracts, where there is evidence for two positive feedback loops (MPF stimulates its own production by activating Cdc25 and inhibiting Wee1) and a negative feedback loop (MPF stimulates its own destruction by indirectly activating the ubiquitin pathway that degrades its cyclin subunit). To uncover the full dynamical possibilities of the control system, we translate the regulatory network into a set of differential equations and study these equations by graphical techniques and computer simulation. The positive feedback loops in the model account for thresholds and time lags in cyclin-induced and MPF-induced activation of MPF, and the model can be fitted quantitatively to these experimental observations. The negative feedback loop is consistent with observed time lags in MPF-induced cyclin degradation. Furthermore, our model indicates that there are two possible mechanisms for autonomous oscillations. One is driven by the positive feedback loops, resulting in phosphorylation and abrupt dephosphorylation of the Cdc2 subunit at an inhibitory tyrosine residue. These oscillations are typical of oocyte extracts. The other type is driven by the negative feedback loop, involving rapid cyclin turnover and negligible phosphorylation of the tyrosine residue of Cdc2. The early mitotic cycles of intact embryos exhibit such characteristics. In addition, by assuming that unreplicated DNA interferes with M-phase initiation by activating the phosphatases that oppose MPF in the positive feedback loops, we can simulate the effect of addition of sperm nuclei to oocyte extracts, and the lengthening of cycle times at the mid-blastula transition of intact embryos.",
+    "year" : 1993,
+    "month" : "12",
+    "volume" : "106 ( Pt 4)",
+    "pages" : "1153-1168",
+    "link" : "http://identifiers.org/pubmed/8126097",
+    "authors" : [
+      {
+        "name" : "B Novak",
+        "institution" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg 24060-0406."
+      },
+      {
+        "name" : "J J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000107_url.xml",
+        "description" : "SBML L2V4 representation of Novak1993 - Cell cycle M-phase control",
+        "fileSize" : "48475",
+        "mimeType" : "application/xml",
+        "md5sum" : "22b3d3ca515943b8d7411cf388df9205",
+        "sha1sum" : "fa37867a07246bf3c15dc512ea3f5c3791a3a463",
+        "sha256sum" : "7668b31d5b8666370b4f8e0db989a9ef2f870866ff718594c4d47594f15785a1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000107-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "32984",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "85b875d191504434cb114dcf659a3a58",
+        "sha1sum" : "964300a626552a781525e74361c6f3e8f0b28b69",
+        "sha256sum" : "4aa87f7a295daae76d7bf9cd650a4ebeb3eb56834576248c1d93b0f151f5bb39"
+      },
+      {
+        "name" : "BIOMD0000000107-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "51676",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1d76ad31bc80648cac1ea6633bab839a",
+        "sha1sum" : "d0cdf1567df38cc888886a492e4048d00eb4261f",
+        "sha256sum" : "60266f1e5129a86948f5a6448aabff1779d49fa14a67cf00fd3e745eeba58d0b"
+      },
+      {
+        "name" : "BIOMD0000000107-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10622",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "acdc6d9eea0bac3607b7c31224d12f90",
+        "sha1sum" : "bcb9d5eff0038c258cbfa4c641b8333bfc24002d",
+        "sha256sum" : "abc8a8c9e366fa83764b200da10b39c1e2496d5eb484c6d311b02babefd0ba6a"
+      },
+      {
+        "name" : "BIOMD0000000107-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10622",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6cbd5c9a1b82e87d92ec90c60379c09a",
+        "sha1sum" : "79a823559418fa2ce64ceb097ac11084b793ff35",
+        "sha256sum" : "79ec7c0c376d92fd70952805427e4b723375164a4c199d4be81e65cd94c650ec"
+      },
+      {
+        "name" : "BIOMD0000000107.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10622",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6cbd5c9a1b82e87d92ec90c60379c09a",
+        "sha1sum" : "79a823559418fa2ce64ceb097ac11084b793ff35",
+        "sha256sum" : "79ec7c0c376d92fd70952805427e4b723375164a4c199d4be81e65cd94c650ec"
+      },
+      {
+        "name" : "BIOMD0000000107.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8081",
+        "mimeType" : "text/plain",
+        "md5sum" : "7c5253ba8ab2e86732a17ef5c2a341f4",
+        "sha1sum" : "bb93c42533cce5b8ae4db97cbd0fc079b943d140",
+        "sha256sum" : "df1d20914e2503da4d6572a7fd9d981e9ebc8caec99252825e82e7bb2a2cbd4b"
+      },
+      {
+        "name" : "BIOMD0000000107.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "237227",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f89f2f50b0a5d8d01b7e217f5c659b12",
+        "sha1sum" : "fa5e7b74f58187a2dbf3be72e1aef86decc1e5f8",
+        "sha256sum" : "95199e51fce0b2807220bf886fcd790c9f5bdfba3ba68ce46a52cd51b4b743b2"
+      },
+      {
+        "name" : "BIOMD0000000107.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "175429",
+        "mimeType" : "image/png",
+        "md5sum" : "eb280a95886f1c44d6aae21c47ca4739",
+        "sha1sum" : "9699650731a58763c5d768535f18d4bfd4afd645",
+        "sha256sum" : "3116453a98bdf0a2c7853d0743dbf4d4c48dfc6fd899df7bdaa5c9d5e3bdbefe"
+      },
+      {
+        "name" : "BIOMD0000000107.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5572",
+        "mimeType" : "text/plain",
+        "md5sum" : "3afe5769404659cc7930e886126ed9d5",
+        "sha1sum" : "5853b121369dcfda3dd4e0d6e7aba374a0df8394",
+        "sha256sum" : "be883363c06357d170716a67616a4bf68186eed1d512809cf82b93b5c47b143d"
+      },
+      {
+        "name" : "BIOMD0000000107.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "49598",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "de25979f992b80b5360dd0eb7cb81e1a",
+        "sha1sum" : "0182e2c0386fc86c0a2d4ecc3d17f158b73b763c",
+        "sha256sum" : "9ec87a6b0ce76497474730c937fcfe4fca76198c01783400ccfc74fabd54afe4"
+      },
+      {
+        "name" : "BIOMD0000000107.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "72243",
+        "mimeType" : "application/xml",
+        "md5sum" : "de5d9df6c5a924e393817245b70c57d4",
+        "sha1sum" : "5d7139d3f44f4fcf43713033bce27955f00ece64",
+        "sha256sum" : "5052c00c10d08a8d95585a7ccb13bd324995c0df67dbe788c0c27d8daf39cbf7"
+      },
+      {
+        "name" : "BIOMD0000000107_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "41501",
+        "mimeType" : "application/xml",
+        "md5sum" : "5041d0fd75d4c7485f370ef7169f5563",
+        "sha1sum" : "a4d459aa7c39a13482f329cc405ac2cfaabce6ea",
+        "sha256sum" : "5e36127a64bd32a3f0b7f50160654eb0122606e3f585d3f5a7eb36d1a031be90"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "38000",
+        "mimeType" : "image/png",
+        "md5sum" : "75d29ad36d53d3e0b4ff4fbe28e52c09",
+        "sha1sum" : "7985eef015b543b48143ed9d3094c0ddd287e2eb",
+        "sha256sum" : "a1626d63dab446c54a41bb0dd6f17f48117616e518b68f9585ada0577f0942a2"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "129",
+        "mimeType" : "text/plain",
+        "md5sum" : "761e5d532cbf35c6b7e7a68fcef13fbe",
+        "sha1sum" : "dc4d8c7735f807d3d5aa1809cc449e3a4ca18180",
+        "sha256sum" : "704c918957778fef5baae81931116566a3be17259c8c0ef01e00ca0237e6f17f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "0beba3e90dea7522e52eaf0e1247f8e0",
+        "sha1sum" : "28d6e05df296249191fd9a1c02ec57f132114cc0",
+        "sha256sum" : "3b79b5cfba24907b0ff6dd6b9e02b3f4f55c03fede1ce3868498b2eb1cd64179"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5885",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a00e6ec3ec4862c2bd303d64648b0f19",
+        "sha1sum" : "66bfb9315c87b02361079a3650e685ebfd55cf73",
+        "sha256sum" : "0a4bf5fa7a9fce784d23cc2bd44260720ea07f14b61d96c08c0d0f535d4042a2"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1176150555,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Novak1993_M_phase_control"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1458061038,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Novak1993 - Cell cycle M-phase control"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267607,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284881,
+  "submissionId" : "MODEL5876465734",
+  "publicationId" : "BIOMD0000000107",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5876465734",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5876465734"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000107",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000107"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "8126097",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8126097"
+    },
+    {
+      "qualifier" : "bqbiol:isHomologTo",
+      "accession" : "REACT_152",
+      "name" : "Cell Cycle, Mitotic",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_152"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "8292",
+      "name" : "Amphibia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/8292"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

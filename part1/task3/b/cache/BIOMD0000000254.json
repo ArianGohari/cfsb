@@ -1,0 +1,282 @@
+{
+  "name" : "Bier2000_GlycolyticOscillation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>How yeast cells synchronize their glycolytic oscillations: a perturbation analytic treatment </strong>        <br />Bier M, Bakker BM, Westerhoff HV.      <em>Biophys. J</em>2000 Mar;78(3):1087-93.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10692299\">10692299</a>,      <br />        <strong>Abstract:</strong>        <br />Of all the lifeforms that obtain their energy from glycolysis, yeast cells are among the most basic. Under certain conditions the concentrations of the glycolytic intermediates in yeast cells can oscillate. Individual yeast cells in a suspension can synchronize their oscillations to get in phase with each other. Although the glycolytic oscillations originate in the upper part of the glycolytic chain, the signaling agent in this synchronization appears to be acetaldehyde, a membrane-permeating metabolite at the bottom of the anaerobic part of the glycolytic chain. Here we address the issue of how a metabolite remote from the pacemaking origin of the oscillation may nevertheless control the synchronization. We present a quantitative model for glycolytic oscillations and their synchronization in terms of chemical kinetics. We show that, in essence, the common acetaldehyde concentration can be modeled as a small perturbation on the \"pacemaker\" whose effect on the period of the oscillations of cells in the same suspension is indeed such that a synchronization develops.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10692299",
+    "journal" : "Biophysical journal",
+    "title" : "How yeast cells synchronize their glycolytic oscillations: a perturbation analytic treatment.",
+    "affiliation" : "Section of Plastic and Reconstructive Surgery, Dept. of Surgery MC 6035, University of Chicago, Chicago, Illinois 60637, USA. mbier@surgery.bsd.uchicago.edu",
+    "synopsis" : "Of all the lifeforms that obtain their energy from glycolysis, yeast cells are among the most basic. Under certain conditions the concentrations of the glycolytic intermediates in yeast cells can oscillate. Individual yeast cells in a suspension can synchronize their oscillations to get in phase with each other. Although the glycolytic oscillations originate in the upper part of the glycolytic chain, the signaling agent in this synchronization appears to be acetaldehyde, a membrane-permeating metabolite at the bottom of the anaerobic part of the glycolytic chain. Here we address the issue of how a metabolite remote from the pacemaking origin of the oscillation may nevertheless control the synchronization. We present a quantitative model for glycolytic oscillations and their synchronization in terms of chemical kinetics. We show that, in essence, the common acetaldehyde concentration can be modeled as a small perturbation on the \"pacemaker\" whose effect on the period of the oscillations of cells in the same suspension is indeed such that a synchronization develops.",
+    "year" : 2000,
+    "month" : "3",
+    "volume" : "78",
+    "issue" : "3",
+    "pages" : "1087-1093",
+    "link" : "http://identifiers.org/pubmed/10692299",
+    "authors" : [
+      {
+        "name" : "M Bier",
+        "institution" : "Section of Plastic and Reconstructive Surgery, Dept. of Surgery MC 6035, University of Chicago, Chicago, Illinois 60637, USA. mbier@surgery.bsd.uchicago.edu"
+      },
+      {
+        "name" : "B M Bakker",
+        "institution" : "Microbial Physiology, BioCentrum Amsterdam, Vrije Universiteit, De Boelelaan 1087, NL-1081 HV Amsterdam, BioCentrum Amsterdam, University of Amsterdam, Plantage Muidergracht 12, NL-1018 TV Amsterdam, The Netherlands.",
+        "orcid" : "0000-0001-6274-3633"
+      },
+      {
+        "name" : "H V Westerhoff",
+        "institution" : "Infrastructure for Systems Biology Europe - The Netherlands (ISBE.NL), Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Molecular Cell Biology, VU University Amsterdam, Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Manchester Centre for Integrative Systems Biology, Manchester, UK. H.V.Westerhoff@VU.NL.",
+        "orcid" : "0000-0002-0443-6114"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000254_url.xml",
+        "description" : "SBML L2V4 representation of Bier2000_GlycolyticOscillation",
+        "fileSize" : "11513",
+        "mimeType" : "application/xml",
+        "md5sum" : "f3cfb317ff17501192ec6e2fe0c225f2",
+        "sha1sum" : "55aed2822e3d0949bacd89ae161a97430b0785b3",
+        "sha256sum" : "eb2c351bc8eba041714141483d3a2f53b166ab61d6540a65411b13a30bd08f51"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000254-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5640",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "92f94effaaffb3dc058bcaeea7f5a8b7",
+        "sha1sum" : "68ac3b03871e256b6de19c67031e6e67ad79e471",
+        "sha256sum" : "dbbf465e238d2db71fa113a954386315f648c14f66a6415744bddf8098dd87a6"
+      },
+      {
+        "name" : "BIOMD0000000254-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "6136",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "18b086785a5c333c9ba1679c7af11090",
+        "sha1sum" : "42df801b863be6edffa704f984aa4aa905831000",
+        "sha256sum" : "71c2647023e71b8531535b1ec3fadf7c78741ab01e7d5e5841dd3bf8465fba8e"
+      },
+      {
+        "name" : "BIOMD0000000254-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3787",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9deda1b87dee106bd88e6c5263bb5013",
+        "sha1sum" : "3ff755835bcffa79cc2ba09555299ed12bd92009",
+        "sha256sum" : "66a0ca9b44c6e655269cdf7a0a414d7dece5c37154d70cd6f7203660e720934e"
+      },
+      {
+        "name" : "BIOMD0000000254-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3787",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "819b49f762806fd02f3ed66867493e54",
+        "sha1sum" : "86a0e99f7e601b5701a91edcccd29346501ccf61",
+        "sha256sum" : "9294ab96423bbdbc7659abdd9666c568a9c58391c7f1f15fcaf68c7548e701a2"
+      },
+      {
+        "name" : "BIOMD0000000254.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3787",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "819b49f762806fd02f3ed66867493e54",
+        "sha1sum" : "86a0e99f7e601b5701a91edcccd29346501ccf61",
+        "sha256sum" : "9294ab96423bbdbc7659abdd9666c568a9c58391c7f1f15fcaf68c7548e701a2"
+      },
+      {
+        "name" : "BIOMD0000000254.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1791",
+        "mimeType" : "text/plain",
+        "md5sum" : "1f6670ecfe087865c836c99025f7c7dc",
+        "sha1sum" : "4de8d73e4e056c1273ba455d45aaa331f76bc2d2",
+        "sha256sum" : "0a09da0256f6ebb51044b34fc270d04e15164852d3a392cb2f2aab4500f20d44"
+      },
+      {
+        "name" : "BIOMD0000000254.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "137769",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6c853f2094bdd693ef4e3871b3e12953",
+        "sha1sum" : "3a9bff79af96271ae6936019278f702c3c34ab75",
+        "sha256sum" : "1f142b78aec0f806905d88e4ece4416ff56948a61ff048adfa07c98b4af4893a"
+      },
+      {
+        "name" : "BIOMD0000000254.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000254.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1492",
+        "mimeType" : "text/plain",
+        "md5sum" : "7fc2216be4c551a33bbde56724c32cec",
+        "sha1sum" : "dc6876fb488afca249d60ed143464c9eb3244ca6",
+        "sha256sum" : "60bafe9164808d71a115228060f3fb97b054ebea6794294ab7c051e97dc36465"
+      },
+      {
+        "name" : "BIOMD0000000254.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000254_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "8334",
+        "mimeType" : "application/xml",
+        "md5sum" : "bd050a7d23d01b0518b9098ca6ec6ad7",
+        "sha1sum" : "fb34a187c5a88b9cef4facd352a15711678cf61b",
+        "sha256sum" : "af30ecb54a9af677fb2240dd4296fe92736ce0b7a9a791f019260b9681788e85"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "64105",
+        "mimeType" : "image/png",
+        "md5sum" : "70ea651d16f62d1b9f24bc5af2dff97c",
+        "sha1sum" : "11d54d005d9d32322baf8cc7c84d20a33bed68b9",
+        "sha256sum" : "367cb649aa1d5599dd6b71b96beff72788cb4c214de75c75bd474cc019da834d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "120",
+        "mimeType" : "text/plain",
+        "md5sum" : "822cab318ba8ecf982048a2fe297caec",
+        "sha1sum" : "c1bbea317fd8b2c10acbe52b3801cfe6a02f92c1",
+        "sha256sum" : "1b5f342a4f9f68911736d0475a4858929b8811fd9db9f62e8623fe6fbe826488"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "60353a23ef4523017db8c82bdcfca4c6",
+        "sha1sum" : "378dd6f0640610f6a5bda88cc23cd1bb3f58ee1b",
+        "sha256sum" : "62dfc01efbcd976f4a3142908f0b892a430f1137fdfa251f68480c42ac9f321e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3371",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "994e7ddedb35f2cf045cb411141d2fe1",
+        "sha1sum" : "f0cf855b3484128e17a802a625af7a4b9684e0aa",
+        "sha256sum" : "714921028284ce4c5c84fea72f477f1ae64031f2f2fdc932ec5e68164937cd0a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1280155385,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Bier2000_GlycolyticOscillation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135400,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Bier2000_GlycolyticOscillation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271630,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284975,
+  "submissionId" : "MODEL1007260000",
+  "publicationId" : "BIOMD0000000254",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1007260000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1007260000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000254",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000254"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10692299",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10692299"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

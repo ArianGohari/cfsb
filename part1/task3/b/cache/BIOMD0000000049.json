@@ -1,0 +1,341 @@
+{
+  "name" : "Sasagawa2005_MAPK",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong>Prediction and validation of the distinct dynamics of transient and sustained ERK activation. </strong>        <br />Sasagawa S, Ozaki Y, Fujita K, Kuroda S       <em>Nat. Cell Biol.</em>[2005 Apr; Volume: 7 (Issue: 4 )]: 365-73       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15793571\">15793571</a>,      <br />        <strong>Abstract:</strong>        <br />To elucidate the hidden dynamics of extracellular-signal-regulated kinase (ERK) signalling networks, we developed a simulation model of ERK signalling networks by constraining in silico dynamics based on in vivo dynamics in PC12 cells. We predicted and validated that transient ERK activation depends on rapid increases of epidermal growth factor and nerve growth factor (NGF) but not on their final concentrations, whereas sustained ERK activation depends on the final concentration of NGF but not on the temporal rate of increase. These ERK dynamics depend on Ras and Rap1 dynamics, the inactivation processes of which are growth-factor-dependent and -independent, respectively. Therefore, the Ras and Rap1 systems capture the temporal rate and concentration of growth factors, and encode these distinct physical properties into transient and sustained ERK activation, respectively.    </p>        <p>Dynamics of active Ras, active Rap1 and phosphorylated ERK were correctly reproduced with CellDesigner 3.0</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15793571",
+    "journal" : "Nature cell biology",
+    "title" : "Prediction and validation of the distinct dynamics of transient and sustained ERK activation.",
+    "affiliation" : "Undergraduate Program for Bioinformatics and Systems Biology, Graduate School of Information Science and Technology, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan.",
+    "synopsis" : "To elucidate the hidden dynamics of extracellular-signal-regulated kinase (ERK) signalling networks, we developed a simulation model of ERK signalling networks by constraining in silico dynamics based on in vivo dynamics in PC12 cells. We predicted and validated that transient ERK activation depends on rapid increases of epidermal growth factor and nerve growth factor (NGF) but not on their final concentrations, whereas sustained ERK activation depends on the final concentration of NGF but not on the temporal rate of increase. These ERK dynamics depend on Ras and Rap1 dynamics, the inactivation processes of which are growth-factor-dependent and -independent, respectively. Therefore, the Ras and Rap1 systems capture the temporal rate and concentration of growth factors, and encode these distinct physical properties into transient and sustained ERK activation, respectively.",
+    "year" : 2005,
+    "month" : "4",
+    "volume" : "7",
+    "issue" : "4",
+    "pages" : "365-373",
+    "link" : "http://identifiers.org/pubmed/15793571",
+    "authors" : [
+      {
+        "name" : "Satoru Sasagawa",
+        "institution" : "Undergraduate Program for Bioinformatics and Systems Biology, Graduate School of Information Science and Technology, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan.",
+        "orcid" : "0000-0001-5769-8700"
+      },
+      {
+        "name" : "Yu-ichi Ozaki"
+      },
+      {
+        "name" : "Kazuhiro Fujita"
+      },
+      {
+        "name" : "Shinya Kuroda",
+        "institution" : "Department of Biological Sciences, Graduate School of Science, University of Tokyo, Hongo 7-3-1, Bunkyo-ku, Tokyo 113-0033, Japan; Department of Computational Biology, Graduate School of Frontier Sciences, University of Tokyo, Hongo 7-3-1, Bunkyo-ku, Tokyo 113-0033, Japan; CREST, Japan Science and Technology Corporation, Bunkyo-ku, Tokyo 113-0033, Japan. Electronic address: skuroda@bs.s.u-tokyo.ac.jp.",
+        "orcid" : "0000-0001-5059-8299"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000049_url.xml",
+        "description" : "SBML L2V1 representation of Sasagawa2005_MAPK",
+        "fileSize" : "414525",
+        "mimeType" : "application/xml",
+        "md5sum" : "65e3f1aca19d1797ec7ad0b6a3beefc6",
+        "sha1sum" : "74d3a81ce5583b5768587f4be8ec165eefd72513",
+        "sha256sum" : "746aaefe22c346f7853387e7768b1ea1dca2077c00e5aece7f7f3a9b5551e92e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000049-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "252229",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3e6ec5f76c342662ba4adaf68253c39f",
+        "sha1sum" : "95dc479e51b7944afc6b1622fbc5f62203a665ea",
+        "sha256sum" : "a8ecb2f5ed1c9354991eea317ab56ece7a5911dbc180997825d513a694430197"
+      },
+      {
+        "name" : "BIOMD0000000049-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "433706",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "caed7a45cb2907c18c4b49e0d288f99f",
+        "sha1sum" : "cd76bfc7077fdb259c2ca469206ab7aa20e2e34b",
+        "sha256sum" : "748abf00c4d56c5d1b1df9d48eee73a8590991013030efb93f29aa7d00e52221"
+      },
+      {
+        "name" : "BIOMD0000000049-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "64164",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ea615742ca5e633ce1291c4a45cdf827",
+        "sha1sum" : "83baef55a66a0299a06ab87c2868d54a038b9542",
+        "sha256sum" : "87869b1b4693aca904cc109341f1fb8734d58a7e16e093ec5267381d858756de"
+      },
+      {
+        "name" : "BIOMD0000000049.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "64164",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d8492e558153bcef99e408951d7e796a",
+        "sha1sum" : "1793cd822f1e0566b52a8b31686ea91dc3a11b4c",
+        "sha256sum" : "ba8ce0ed35d5a3d4e1d6f0105a37450d64b09a234cb71a106e28b1ba37c41a66"
+      },
+      {
+        "name" : "BIOMD0000000049.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "51703",
+        "mimeType" : "text/plain",
+        "md5sum" : "05a4976c9214db80d9025e227a6e941b",
+        "sha1sum" : "5a6a541fe58d8e4615e46833d51d9fa6ad353bcd",
+        "sha256sum" : "c6cba3ab6131993a458b41e534c990cd101cca20ca5a625f3fc9a740ebe42284"
+      },
+      {
+        "name" : "BIOMD0000000049.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "946932",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0a937535deb44dc39b377371d63e9c0c",
+        "sha1sum" : "569ca6e127695bd0c9da666261684c6d3c3ca618",
+        "sha256sum" : "92997e60b1754a0c6db7e4251c1f36867341a753032398eb6d6792145cb2a8c2"
+      },
+      {
+        "name" : "BIOMD0000000049.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4772177",
+        "mimeType" : "image/png",
+        "md5sum" : "e597700abe7b4991023a6b32df7bb449",
+        "sha1sum" : "0748efdf8db7053e8b71236b28ef0306c1f1c56e",
+        "sha256sum" : "7f98ce2e596e265883e22d9756aae817a5cd000f90e81f389623fdccfd232e5d"
+      },
+      {
+        "name" : "BIOMD0000000049.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "57301",
+        "mimeType" : "text/plain",
+        "md5sum" : "2568dec680b85e99cd125fdfc421d7ab",
+        "sha1sum" : "2ab48fa56a42d07cedc250f71cda85389d8eb4c6",
+        "sha256sum" : "269ff0ee1b0d9a19abf82428dc80de372d60ef621a790f5ce98c944f9b48a66b"
+      },
+      {
+        "name" : "BIOMD0000000049.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "417236",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "8830f301fcf2ffdd21cfb074a19bb117",
+        "sha1sum" : "307ec4551675c78aa93be242d9a3f238f8f665b4",
+        "sha256sum" : "097ad12d0189e257b429732beb443d94d3f6dccc16b50e0d810f885384adcbed"
+      },
+      {
+        "name" : "BIOMD0000000049.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "387230",
+        "mimeType" : "application/xml",
+        "md5sum" : "31dcd89f40e4d2c7f953723873b6e462",
+        "sha1sum" : "0cc5848b9c642a44153a3851327e73f735c62774",
+        "sha256sum" : "50044bf96454b05f48fd5e80bc5421dc864163ca6b68c84d32f91e799961fdd3"
+      },
+      {
+        "name" : "BIOMD0000000049_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "149673",
+        "mimeType" : "application/xml",
+        "md5sum" : "53ed205db105ee97c0df8c026a4b33de",
+        "sha1sum" : "a48fed42b051cee19d418c1e3570c1880ef8a3b9",
+        "sha256sum" : "850f01a4517e87bc1ac273d62c5dcfc491a85305be5b5ad951e45e9b4954819a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1695",
+        "mimeType" : "application/xml",
+        "md5sum" : "8520cce2cfcdfef8ae77e68261eb7861",
+        "sha1sum" : "33af65eeede60c5ccb7c366fe0e344f7591e74ff",
+        "sha256sum" : "2d393e32dae036aca66b43efd87d0feb27d60573683f72019e5726cacdec02b4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5677",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b2bcc9251d718ab1b3ec2c8368ad6e74",
+        "sha1sum" : "a08d5f39c2983b8b1bde6e31b5f96ef8e60cc599",
+        "sha256sum" : "eccf415c5fd8d46810c8377d7e4d711183476843241b6e98f7701a6eb90350be"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1137073372,
+        "submitter" : "Shinya Kuroda",
+        "comment" : "Original import of BIOMD0000000049.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396621624,
+        "submitter" : "Shinya Kuroda",
+        "comment" : "Current version of Sasagawa2005_MAPK"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265994,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284857,
+  "submissionId" : "MODEL6624243033",
+  "publicationId" : "BIOMD0000000049",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Shinya Kuroda",
+        "email" : "skuroda@is.s.u-tokyo.ac.jp",
+        "affiliation" : "Tokyo University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0070371",
+      "name" : "ERK1 and ERK2 cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070371"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0048011",
+      "name" : "neurotrophin TRK receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048011"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10114",
+      "name" : "Rattus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10114"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6624243033",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6624243033"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000049",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000049"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15793571",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15793571"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "14751248",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14751248"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL9071122126",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9071122126"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11024454",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11024454"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL9070467164",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9070467164"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000019",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000019"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11832340",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11832340"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL9079179924",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9079179924"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000146",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000146"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0007265",
+      "name" : "Ras protein signal transduction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007265"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "name" : "Lipniacki2004 - Mathematical model of NFKB regulatory module",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>its a mathematical model studying impact of TNF on NFKB nuclear dynamics. This model is derived from Hoffmann2002 (PMID:12424381).</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15094015",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Mathematical model of NF-kappaB regulatory module.",
+    "affiliation" : "Institute of Fundamental Technological Research, Warsaw, Poland. tomek@rice.edu",
+    "synopsis" : "The two-feedback-loop regulatory module of nuclear factor kappaB (NF-kappaB) signaling pathway is modeled by means of ordinary differential equations. The constructed model involves two-compartment kinetics of the activators IkappaB (IKK) and NF-kappaB, the inhibitors A20 and IkappaBalpha, and their complexes. In resting cells, the unphosphorylated IkappaBalpha binds to NF-kappaB and sequesters it in an inactive form in the cytoplasm. In response to extracellular signals such as tumor necrosis factor or interleukin-1, IKK is transformed from its neutral form (IKKn) into its active form (IKKa), a form capable of phosphorylating IkappaBalpha, leading to IkappaBalpha degradation. Degradation of IkappaBalpha releases the main activator NF-kappaB, which then enters the nucleus and triggers transcription of the inhibitors and numerous other genes. The newly synthesized IkappaBalpha leads NF-kappaB out of the nucleus and sequesters it in the cytoplasm, while A20 inhibits IKK converting IKKa into the inactive form (IKKi), a form different from IKKn, no longer capable of phosphorylating IkappaBalpha. After parameter fitting, the proposed model is able to properly reproduce time behavior of all variables for which the data are available: NF-kappaB, cytoplasmic IkappaBalpha, A20 and IkappaBalpha mRNA transcripts, IKK and IKK catalytic activity in both wild-type and A20-deficient cells. The model allows detailed analysis of kinetics of the involved proteins and their complexes and gives the predictions of the possible responses of whole kinetics to the change in the level of a given activator or inhibitor.",
+    "year" : 2004,
+    "month" : "5",
+    "volume" : "228",
+    "issue" : "2",
+    "pages" : "195-215",
+    "link" : "http://identifiers.org/pubmed/15094015",
+    "authors" : [
+      {
+        "name" : "Tomasz Lipniacki",
+        "institution" : "Institute of Fundamental Technological Research, Warsaw, Poland. tomek@rice.edu",
+        "orcid" : "0000-0002-3488-2561"
+      },
+      {
+        "name" : "Pawel Paszek",
+        "orcid" : "0000-0002-0363-0716"
+      },
+      {
+        "name" : "A R Allan R Brasier",
+        "orcid" : "0000-0002-5012-4090"
+      },
+      {
+        "name" : "Bruce Luxon"
+      },
+      {
+        "name" : "Marek Kimmel"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Lipniacki2004.xml",
+        "description" : "SBML L2V4 representation of Lipniacki2004 model",
+        "fileSize" : "243196",
+        "mimeType" : "application/xml",
+        "md5sum" : "fe4e77c1ba6e3cd3b935377eecbe4d8c",
+        "sha1sum" : "78c443b4175fce1169441e8b6953746c66c06346",
+        "sha256sum" : "78ff021b45d4ca35dd6f3a4de371196625a3a6a908531ff028b3ed946142d39c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Lipniacki2004-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "40980",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "43ca595bae775534ab1f55f6bd1db2eb",
+        "sha1sum" : "1de2db4feafda9f8a861bc8a47255c6db9e1186c",
+        "sha256sum" : "1a01efe48672acc3b3b44fe4d2892830c5199ae83095e4cc8ad9e0e5cf7bb099"
+      },
+      {
+        "name" : "Lipniacki2004-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "65609",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d2bf05d7ddae341d34f23b40873da92c",
+        "sha1sum" : "f3082fcbd581ef3125e58937388f0a318504f51e",
+        "sha256sum" : "969fcb4880490d9f28a0cde65e21936cc94388b33b1366deb36b06e5a2e60171"
+      },
+      {
+        "name" : "Lipniacki2004-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14075",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "51ca379916c7172d3d836ef680d7cf64",
+        "sha1sum" : "62dd1bf08ff14df2cd274255998aee9a89f467b3",
+        "sha256sum" : "d0065933384f84b0ccdb8fd9b4bb5e90125b1d5b8cf8e9b5ea95c4afd967a316"
+      },
+      {
+        "name" : "Lipniacki2004-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14075",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "31c82c9e82b1f1e7e8dd6f0366eb82d2",
+        "sha1sum" : "7f65b8f3228d9efb6d3d58a2e3c969f29e88e975",
+        "sha256sum" : "142e38b8c2d6097960f5ed240bd806978e08e980fe9eac5b2c4a1f21efea81fc"
+      },
+      {
+        "name" : "Lipniacki2004.cps",
+        "description" : "COPASI 4.24 (build 197) file for Lipniacki2004 model",
+        "fileSize" : "244882",
+        "mimeType" : "application/xml",
+        "md5sum" : "9a360a04f0871565b622109dfa62b497",
+        "sha1sum" : "f86ac6eccb223435e819855484b40e189e15769d",
+        "sha256sum" : "9360c676ca9546711d74bf7cd7ffc1feced01ebe3f93e02a10af5cb0a3c35088"
+      },
+      {
+        "name" : "Lipniacki2004.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10856",
+        "mimeType" : "text/plain",
+        "md5sum" : "7b41d48937cce712c7c960f56cc5ffcc",
+        "sha1sum" : "f74142bcfc9b1eb616af541e2f693d6091efe3ef",
+        "sha256sum" : "53cc60e68f542c4747fc8c841d2b3769b8143bcbf20067b6ab532de41e24af05"
+      },
+      {
+        "name" : "Lipniacki2004.sedml",
+        "description" : "SEDML file for Lipniacki2004 model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "49416",
+        "mimeType" : "application/xml",
+        "md5sum" : "43df23417fa6f77fd68ea7ac65123c83",
+        "sha1sum" : "7f1147774198eb1abc0b5e479e3adb462de3af99",
+        "sha256sum" : "f86d3b52a0cee09115634acdca59a2cff4d60008084a6845ceaba8c499bf8302"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "118313",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "357a7595ee17c6ef2a76947b44bb0bb3",
+        "sha1sum" : "ae3f85b6810ec133c9cd3aed20b294561978aee0",
+        "sha256sum" : "4e2e1b09bce9d45c543d80506d3eeb0883964f3463103b2d9823a85156121209"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "441",
+        "mimeType" : "text/plain",
+        "md5sum" : "c17e0045acc1c3c3fe2976a0a4041753",
+        "sha1sum" : "88732cdaf72104efbbdece163569f0dbf5e86804",
+        "sha256sum" : "164c25c03447e6ea1a9ec1bfe50d2f1c5430aa82c07fedd2262fe54b002da62b"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1437",
+        "mimeType" : "application/xml",
+        "md5sum" : "6d47f7c0f8c315446f7fc6fbb19e6b09",
+        "sha1sum" : "7e3890271a3cb4ee21f98cf589bde585584834d4",
+        "sha256sum" : "7efb8d8aeb7ad8977d57d4bb5a87ceb2b914dd35d1e11d7f5d30452d20a3ee6c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1596",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a68b2074cdd3425c10c62773f6763339",
+        "sha1sum" : "ca6e4cdbe8cfcba0b21920b78d8ba138eae8d10a",
+        "sha256sum" : "6f2ba3be0a0af46379597120a9e73f3d8d61d2bb66892ead44556b52529afbab"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1565370401,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000786"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724289589,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285464,
+  "submissionId" : "MODEL1908090003",
+  "publicationId" : "BIOMD0000000786",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai"
+}

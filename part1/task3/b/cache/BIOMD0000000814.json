@@ -1,0 +1,310 @@
+{
+  "name" : "Perez-Garcia19 - Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas",
+  "description" : "This is a model built by COPASI4.24(Build 197)This a model from the article: Computational design of improved standardized chemotherapy protocols for grade II oligodendrogliomasVíctor M. Pérez-García, Luis E. Ayala-Hernández, Juan Belmonte-Beitia, Philippe Schucht, Michael Murek, Andreas Raabe,  Juan Sepúlveda. PLoS Comput Biol. 2019 Jul; 15(7): e1006778.Abstract: Here we put forward a mathematical model describing the response of low-grade (WHO grade II) oligodendrogliomas (LGO) to temozolomide (TMZ). The model describes the longitudinal volumetric dynamics of tumor response to TMZ of a cohort of 11 LGO patients treated with TMZ. After finding patient-specific parameters, different therapeutic strategies were tried computationally on the ‘in-silico twins’ of those patients. Chemotherapy schedules with larger-than-standard rest periods between consecutive cycles had either the same or better long-term efficacy than the standard 28-day cycles. The results were confirmed in a large trial of 2000 virtual patients. These long-cycle schemes would also have reduced toxicity and defer the appearance of resistances. On the basis of those results, a combination scheme consisting of five induction TMZ cycles given monthly plus 12 maintenance cycles given every three months was found to provide substantial survival benefits for the in-silico twins of the 11 LGO patients (median 5.69 years, range: 0.67 to 68.45 years) and in a large virtual trial including 2000 patients. We used 220 sets of experiments in-silico to show that a clinical trial incorporating 100 patients per arm (standard intensive treatment versus 5 + 12 scheme) could demonstrate the superiority of the novel scheme after a follow-up period of 10 years. Thus, the proposed treatment plan could be the basis for a standardized TMZ treatment for LGO patients with survival benefits.This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.For more information see the terms of use.To cite BioModels Database, please use: Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31306418",
+    "journal" : "PLoS computational biology",
+    "title" : "Computational design of improved standardized chemotherapy protocols for grade II oligodendrogliomas.",
+    "affiliation" : "Department of Mathematics, Mathematical Oncology Laboratory (MOLAB), Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain.",
+    "synopsis" : "Here we put forward a mathematical model describing the response of low-grade (WHO grade II) oligodendrogliomas (LGO) to temozolomide (TMZ). The model describes the longitudinal volumetric dynamics of tumor response to TMZ of a cohort of 11 LGO patients treated with TMZ. After finding patient-specific parameters, different therapeutic strategies were tried computationally on the 'in-silico twins' of those patients. Chemotherapy schedules with larger-than-standard rest periods between consecutive cycles had either the same or better long-term efficacy than the standard 28-day cycles. The results were confirmed in a large trial of 2000 virtual patients. These long-cycle schemes would also have reduced toxicity and defer the appearance of resistances. On the basis of those results, a combination scheme consisting of five induction TMZ cycles given monthly plus 12 maintenance cycles given every three months was found to provide substantial survival benefits for the in-silico twins of the 11 LGO patients (median 5.69 years, range: 0.67 to 68.45 years) and in a large virtual trial including 2000 patients. We used 220 sets of experiments in-silico to show that a clinical trial incorporating 100 patients per arm (standard intensive treatment versus 5 + 12 scheme) could demonstrate the superiority of the novel scheme after a follow-up period of 10 years. Thus, the proposed treatment plan could be the basis for a standardized TMZ treatment for LGO patients with survival benefits.",
+    "year" : 2019,
+    "month" : "7",
+    "volume" : "15",
+    "issue" : "7",
+    "pages" : "e1006778",
+    "link" : "http://identifiers.org/pubmed/31306418",
+    "authors" : [
+      {
+        "name" : "Víctor M Pérez-García",
+        "institution" : "Mathematical Oncology Laboratory (MOLAB), Department of Mathematics, Instituto de Matemática Aplicada a la Ciencia y la Ingeniería, Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain.",
+        "orcid" : "0000-0002-6575-495X"
+      },
+      {
+        "name" : "Luis E Ayala-Hernández",
+        "institution" : "Departamento de Ciencias Exactas y Tecnología Centro Universitario de los Lagos, Universidad de Guadalajara, Lagos de Moreno, Mexico.",
+        "orcid" : "0000-0002-5383-5058"
+      },
+      {
+        "name" : "Juan Belmonte-Beitia",
+        "institution" : "Department of Mathematics, Mathematical Oncology Laboratory (MOLAB), Universidad de Castilla-La Mancha, Avda. Camilo José Cela, 3, 13071 Ciudad Real, Spain."
+      },
+      {
+        "name" : "Philippe Schucht",
+        "institution" : "Universitätsklinik für Neurochirurgie, Bern University Hospital, CH-3010 Bern, Switzerland."
+      },
+      {
+        "name" : "Michael Murek",
+        "institution" : "Universitätsklinik für Neurochirurgie, Bern University Hospital, CH-3010 Bern, Switzerland.",
+        "orcid" : "0000-0002-9874-1135"
+      },
+      {
+        "name" : "Andreas Raabe",
+        "institution" : "Universitätsklinik für Neurochirurgie, Bern University Hospital, CH-3010 Bern, Switzerland."
+      },
+      {
+        "name" : "Juan Sepúlveda",
+        "institution" : "Oncology Unit, Hospital 12 de Octubre, Avda. de Córdoba s/n, 28041 Madrid, Spain.",
+        "orcid" : "0000-0003-3548-9961"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas.xml",
+        "description" : "SBML L2V4 file for the model",
+        "fileSize" : "79959",
+        "mimeType" : "application/xml",
+        "md5sum" : "1fc7df64a53684c75c7280a00a2b102e",
+        "sha1sum" : "959831158341f0baadcc2488a66a1d68b24c47c9",
+        "sha256sum" : "d96c3d15bf333cc87b93a56ad54a7ad71876658aae986e1f64948b3daf88d1ea"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Fig 3e.png",
+        "description" : "PNG plot of the model simulation",
+        "fileSize" : "33453",
+        "mimeType" : "image/png",
+        "md5sum" : "29415fcbf6a8c6c4c3239b96f48bab0c",
+        "sha1sum" : "7662b581bcf0661d5271d4e5f37c7661d1f9d71f",
+        "sha256sum" : "9bf3ff4077c7fa1f5295817606a05088889b84dcaa9aab3d0d1a3157605a05a8"
+      },
+      {
+        "name" : "Nuevo_Modelo_P105.m",
+        "description" : "Correction MATLAB file sent by the author",
+        "fileSize" : "2194",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "aa1556d8cf75d92b8ebc88460a62dc3d",
+        "sha1sum" : "5b53e64c9b865104df3572305ce23ab822257f0f",
+        "sha256sum" : "073db3f333c601a2ccee3dd81a834a69b5215db21498ec98855d6d3722b8c947"
+      },
+      {
+        "name" : "Nuevo_Modelo_TMZ_P105.m",
+        "description" : "Correction MATLAB file sent by the author",
+        "fileSize" : "591",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "72e372cd6f3c3a02950f734e99d71135",
+        "sha1sum" : "926ed629f49ca0138eca93e4dbafe603157550de",
+        "sha256sum" : "77ac29b9383fc636ccfb807d4ea233a18ff168f28978005664901247e6b98a68"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "10240",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7e747edc64ca67586784a4fd0c8fc2c5",
+        "sha1sum" : "5e601d1a7beae898d731a24a0aa94aeb3c1622c5",
+        "sha256sum" : "4af47f0de62d395852aa969183b102b53580e9ac842724470422369f14978297"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "14012",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5c1bbdcab5b22a8b3b1b12e65f020018",
+        "sha1sum" : "c7dd5073eaba06ad99b38be7aedb1fae482ba57c",
+        "sha256sum" : "2143aa530f4374c48f6a8865ef5ada8e709992cbb99025a8b5b00d7c23a19f3b"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7783",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1c95ebe208b36b52a07895ad7763dae9",
+        "sha1sum" : "b3e392078dfbb8fe349751b3c0accb5ff39e01df",
+        "sha256sum" : "1fdac64079fb5c9bb1a3668fb3b9de7a0500c0bace005431dc3a5d8e8bbbe0b7"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7783",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6962578e4bbf7bd506bfdf63ac037397",
+        "sha1sum" : "abce27a6d715b6c86ea4fc12036f1c1992f84f19",
+        "sha256sum" : "657af2debed8c5b22bd48476a49346d0f95cf723b224869efc3179c2efb2af08"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas.cps",
+        "description" : "COPASI 4.24 (Build 197) file for the model",
+        "fileSize" : "74428",
+        "mimeType" : "application/xml",
+        "md5sum" : "cc06c561f06d1b68ff5da85cb5a22b6d",
+        "sha1sum" : "fe57c13e621bf05aab70cad63efc610af8d7f5b6",
+        "sha256sum" : "cef870139aeef6299457ced28ce1ef6d80d72989a99da34e998266e60d877513"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5715",
+        "mimeType" : "text/plain",
+        "md5sum" : "fab66dcc7e7303b68021f1ee20742306",
+        "sha1sum" : "410a57a79c20b1c65abbc93197bb7cee92fa098b",
+        "sha256sum" : "b848136d3fad86fac9deac2b698b7e39d6a61c2494ef00ccfa03bad826b45e55"
+      },
+      {
+        "name" : "Perez-Garcia19 Computational design of improved standardized chemotherapy protocols for grade 2 oligodendrogliomas.sedml",
+        "description" : "Sedml L1V2 file producing figure 2 (additionally CRBM-validated and adjusted).",
+        "fileSize" : "16456",
+        "mimeType" : "application/xml",
+        "md5sum" : "94e4b1fb5c48a03125f76cee735b79cd",
+        "sha1sum" : "d23031f88d86009403755f8762bdc2db9a4f90e2",
+        "sha256sum" : "7dbb5d14a228871e1f45e31d531221d47a416896810ca69a56316010a87a66ff"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "33453",
+        "mimeType" : "image/png",
+        "md5sum" : "29415fcbf6a8c6c4c3239b96f48bab0c",
+        "sha1sum" : "7662b581bcf0661d5271d4e5f37c7661d1f9d71f",
+        "sha256sum" : "9bf3ff4077c7fa1f5295817606a05088889b84dcaa9aab3d0d1a3157605a05a8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "519",
+        "mimeType" : "text/plain",
+        "md5sum" : "1eb5b181e7ddd953d28b1d377d73cf13",
+        "sha1sum" : "f5182818fa29f33ecc08485fa61a3be58d88ae46",
+        "sha256sum" : "68b7a24caaac569f83a56d6149d396e88ed38a825da882a2e0b5b1ce94ebb9d2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2576",
+        "mimeType" : "application/xml",
+        "md5sum" : "ba5544f040768f9e1f7e4b1fba89e353",
+        "sha1sum" : "4f288fd867c3d5631edd40a9f3efccf62d8ada5b",
+        "sha256sum" : "bf7c559648cc01fab8f6cc102ebcfc16759b191eaed051e9f2e8ddf2b6338380"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4336",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5d5ec617e51e4eb7f548f3a1e0f8a850",
+        "sha1sum" : "d5007fb619827b96389dc6f4232eceed540c74be",
+        "sha256sum" : "6d94a704b33e1de538a45000766959342f555d557cc0d532ef0e6e6461fa174b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1568719033,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Automatically added model identifier BIOMD0000000814"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1569490899,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724290215,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285506,
+  "submissionId" : "MODEL1909170002",
+  "publicationId" : "BIOMD0000000814",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Szeyi Ng",
+        "email" : "sng@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15632",
+      "name" : "Chemotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15632"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000311",
+      "name" : "cancer",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000311"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909170002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909170002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000814",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000814"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31306418",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:31306418"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000632",
+      "name" : "oligodendroglioma",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000632"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C1244",
+      "name" : "Temozolomide",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C1244"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "31306418",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31306418"
+    }
+  ]
+}

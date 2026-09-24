@@ -1,0 +1,307 @@
+{
+  "name" : "Croft2013 - GPCR-RGS interaction that compartmentalizes RGS activity",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Croft2013 - GPCR-RGS interaction that compartmentalizes RGS activity</div>            <div class=\"dc:description\">      <p>Through modelling studies, the classic quaternary complex (ligand-GPCR-G-RGS) has been extended to include an additional layer of regulation through GPCR-RGS interactions, which facilitate the compartmentalization of RGS activity into the plasma membrane and non-plasma compartments.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23900842\" title=\"Access to this publication\">A physiologically required G protein-coupled receptor (GPCR)-regulator of G protein signaling (RGS) interaction that compartmentalizes RGS activity.</a>                    </div>                <div class=\"bibo:authorList\">Croft W, Hill C, McCann E, Bond M, Esparza-Franco M, Bennett J, Rand D, Davey J, Ladds G.</div>                <div class=\"bibo:Journal\">J Biol Chem. 2013 Sep 20;288(38):27327-42.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>G protein-coupled receptors (GPCRs) can interact with regulator of G protein signaling (RGS) proteins. However, the effects of such interactions on signal transduction and their physiological relevance have been largely undetermined. Ligand-bound GPCRs initiate by promoting exchange of GDP for GTP on the Gα subunit of heterotrimeric G proteins. Signaling is terminated by hydrolysis of GTP to GDP through intrinsic GTPase activity of the Gα subunit, a reaction catalyzed by RGS proteins. Using yeast as a tool to study GPCR signaling in isolation, we define an interaction between the cognate GPCR (Mam2) and RGS (Rgs1), mapping the interaction domains. This reaction tethers Rgs1 at the plasma membrane and is essential for physiological signaling response. In vivo quantitative data inform the development of a kinetic model of the GTPase cycle, which extends previous attempts by including GPCR-RGS interactions. In vivo and in silico data confirm that GPCR-RGS interactions can impose an additional layer of regulation through mediating RGS subcellular localization to compartmentalize RGS activity within a cell, thus highlighting their importance as potential targets to modulate GPCR signaling pathways.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>        <b>Author's comment on reproducing the plots:</b>                    <br />            To reproduce dose-response plots in the publication, the model is simulated with 12 different ligand concentrations (see parameter Ligand_conc).        <br />            For each ligand concentration, a single value corresponding to total amount of output must be obtained, by calculating the area under the curve of the trajectory of species z3, from time=0 to time=30.        <br />            These total output values are then used to build a dose-response plot (authors used GraphPad Prism).        <br />            Mutant strains are simulated with alternative parameter values or initial conditions specified in the Supplementary Material.        </p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000479\">BIOMD0000000479</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23900842",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "A physiologically required G protein-coupled receptor (GPCR)-regulator of G protein signaling (RGS) interaction that compartmentalizes RGS activity.",
+    "affiliation" : "Division of Biomedical Cell Biology, Warwick Medical School.",
+    "synopsis" : "G protein-coupled receptors (GPCRs) can interact with regulator of G protein signaling (RGS) proteins. However, the effects of such interactions on signal transduction and their physiological relevance have been largely undetermined. Ligand-bound GPCRs initiate by promoting exchange of GDP for GTP on the Gα subunit of heterotrimeric G proteins. Signaling is terminated by hydrolysis of GTP to GDP through intrinsic GTPase activity of the Gα subunit, a reaction catalyzed by RGS proteins. Using yeast as a tool to study GPCR signaling in isolation, we define an interaction between the cognate GPCR (Mam2) and RGS (Rgs1), mapping the interaction domains. This reaction tethers Rgs1 at the plasma membrane and is essential for physiological signaling response. In vivo quantitative data inform the development of a kinetic model of the GTPase cycle, which extends previous attempts by including GPCR-RGS interactions. In vivo and in silico data confirm that GPCR-RGS interactions can impose an additional layer of regulation through mediating RGS subcellular localization to compartmentalize RGS activity within a cell, thus highlighting their importance as potential targets to modulate GPCR signaling pathways.",
+    "year" : 2013,
+    "month" : "9",
+    "volume" : "288",
+    "issue" : "38",
+    "pages" : "27327-27342",
+    "link" : "http://identifiers.org/pubmed/23900842",
+    "authors" : [
+      {
+        "name" : "Wayne Croft",
+        "institution" : "Division of Biomedical Cell Biology, Warwick Medical School."
+      },
+      {
+        "name" : "Claire Hill",
+        "institution" : "School of Life Sciences."
+      },
+      {
+        "name" : "Eilish McCann",
+        "institution" : "Division of Biomedical Cell Biology, Warwick Medical School."
+      },
+      {
+        "name" : "Michael Bond",
+        "institution" : "Division of Biomedical Cell Biology, Warwick Medical School."
+      },
+      {
+        "name" : "Manuel Esparza-Franco",
+        "institution" : "Systems Biology Centre, University of Warwick, Coventry CV4 7AL, United Kingdom."
+      },
+      {
+        "name" : "Jeannette Bennett",
+        "institution" : "Division of Biomedical Cell Biology, Warwick Medical School."
+      },
+      {
+        "name" : "David A Rand",
+        "orcid" : "0000-0002-2217-3274"
+      },
+      {
+        "name" : "John Davey",
+        "institution" : "Division of Biomedical Cell Biology, Warwick Medical School."
+      },
+      {
+        "name" : "Graham Ladds",
+        "institution" : "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, UK.",
+        "orcid" : "0000-0001-7320-9612"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000479_url.xml",
+        "description" : "SBML L2V4 representation of Croft2013 - GPCR-RGS interaction that compartmentalizes RGS activity",
+        "fileSize" : "96633",
+        "mimeType" : "application/xml",
+        "md5sum" : "24217badb4596af81d2a15765e23db94",
+        "sha1sum" : "37e2f0fe1aad7f34f6682c44f7ef96f5ce48ad07",
+        "sha256sum" : "4b8874b653398b7bf9b30978dc26506604954e58570599004283cc005c89dc25"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000479-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "76275",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "045e488cdaaf4efa07b6a79d06c76ff6",
+        "sha1sum" : "90f17e035820b6aabd5d909d88c100ca746dabdd",
+        "sha256sum" : "a453652a27b1bdc1876f0f209702663df8d4ab0c44f09edaa17efb6e2ae0c438"
+      },
+      {
+        "name" : "BIOMD0000000479-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "128144",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "74d0426776a566c3eb4f6c69f593be30",
+        "sha1sum" : "46cd792f1b34443a295cdbb49f19d918a62d197c",
+        "sha256sum" : "8cf1cf4c56a7f49addacff54e4a4322f38e6da4ce9ea977f78ca39a181e93ade"
+      },
+      {
+        "name" : "BIOMD0000000479-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "17405",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4c8d303d6d5f1a9511beeb8f22da7c05",
+        "sha1sum" : "c83d7dbc3404d12a1db660a4f5c25bf507dfc762",
+        "sha256sum" : "87e4737c91b56fd581102b7637007c8ea614ef9716a85aeb7970aef98b1c7bde"
+      },
+      {
+        "name" : "BIOMD0000000479-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "17405",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d325b0ac916a18790a298a178bef4438",
+        "sha1sum" : "a90e10a990a5b56a6a9583a57210130a4ef3bd6a",
+        "sha256sum" : "28865d36f5d52431c14e212fe183359257dc7fc4d83c0ca3547329795af9b422"
+      },
+      {
+        "name" : "BIOMD0000000479.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "17405",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d325b0ac916a18790a298a178bef4438",
+        "sha1sum" : "a90e10a990a5b56a6a9583a57210130a4ef3bd6a",
+        "sha256sum" : "28865d36f5d52431c14e212fe183359257dc7fc4d83c0ca3547329795af9b422"
+      },
+      {
+        "name" : "BIOMD0000000479.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12571",
+        "mimeType" : "text/plain",
+        "md5sum" : "017b9afdaddecb110b34714308eb8825",
+        "sha1sum" : "2fa9890eeb1d90f2f32a68750ef757663f812ecd",
+        "sha256sum" : "a7692f978202bcdcfa9ffdc62c9a89126f267c3ab83671b7b65d941bb38fd21c"
+      },
+      {
+        "name" : "BIOMD0000000479.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "404110",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6cf20abcbecb6a19ba19ee8c2336e611",
+        "sha1sum" : "45334fce9897a4ae9acc53f7bb1915d1e6beac86",
+        "sha256sum" : "afe8741db00057bfd769e036bf829f37517b47614fa12a44a64b6ea4f6c2eaba"
+      },
+      {
+        "name" : "BIOMD0000000479.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1527503",
+        "mimeType" : "image/png",
+        "md5sum" : "618405729ff361363d78367bfb1ab941",
+        "sha1sum" : "3fdd27c9d17d0f51d00b58ab0e79d8cea6b8d6e7",
+        "sha256sum" : "f28e6665d0edd6c410eb58425adb0a3b83eefcb26ad403f663a32fc08837ea4a"
+      },
+      {
+        "name" : "BIOMD0000000479.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "148713",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "5ee1c3e41b4780c31f6fb293a277f573",
+        "sha1sum" : "4e8c55e235e4b98b2518a47880c3db0818fb85ce",
+        "sha256sum" : "1cd188edbbd8db306d1e3e8d667ef6c5f0342e5df650208340c17e50d63d9de9"
+      },
+      {
+        "name" : "BIOMD0000000479_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "44096",
+        "mimeType" : "application/xml",
+        "md5sum" : "3b028118274317a92e47bf908ddd880d",
+        "sha1sum" : "4c16d67cbe78825b2fb07436663d5f4971bc44da",
+        "sha256sum" : "f67592dd67a5763f3ccadf481e9c7976491da10843e3538cfd1e6986884590a5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21033",
+        "mimeType" : "image/png",
+        "md5sum" : "2d7ba880fb38663268449122e0f3a215",
+        "sha1sum" : "3aec6f82cb6bced853d4c5950e52727542d596cb",
+        "sha256sum" : "c66a28b0493c48e1bc2abcb2cc7ab308f3ae25a2909c722b4110742584ebe223"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "214",
+        "mimeType" : "text/plain",
+        "md5sum" : "d35eaf4487cce1c6c46751c30a2c3937",
+        "sha1sum" : "041cb0736ff4c82236ccd7a07061ad76d7660c44",
+        "sha256sum" : "6d5ce96f30f5ded06b494f1b6747373d080f68536bc3b9e113420948f5926b05"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "e04bab6e839ab60e8385d840ccabc67a",
+        "sha1sum" : "96a6a973e21e519f2dadf8a1ae0c562d3b5b42f6",
+        "sha256sum" : "92747817105a2686cd5d4b99f1edd4d1254b7f590c957226f620024494ad0f72"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7005",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "83e39593d374c99d84aa04f5bd9f2b1c",
+        "sha1sum" : "5ab710cacbbcf0b2d0e1d35ad47322281a25f9ae",
+        "sha256sum" : "01e07f46a7675cdfa20204817c5ec200fbf6ad022be9822f6a99b2639affd86a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1369741840,
+        "submitter" : "Manuel Esparza-Franco",
+        "comment" : "Original import of Croft2013_Compartmentalized_RGS"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1398704689,
+        "submitter" : "Manuel Esparza-Franco",
+        "comment" : "Current version of Croft2013 - GPCR-RGS interaction that compartmentalizes RGS activity"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1735840484,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285221,
+  "submissionId" : "MODEL1305280000",
+  "publicationId" : "BIOMD0000000479",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Manuel Esparza-Franco",
+        "email" : "M.A.Esparza-Franco@warwick.ac.uk",
+        "affiliation" : "University of Warwick",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1305280000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1305280000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000479",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000479"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23900842",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23900842"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000439",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000439"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "15313578",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15313578"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0043087",
+      "name" : "regulation of GTPase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0043087"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

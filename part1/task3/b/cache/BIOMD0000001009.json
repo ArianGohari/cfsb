@@ -1,0 +1,319 @@
+{
+  "name" : "Zhang2007 - Mechanism of DNA damage response (Model2)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Its a mechanistic model explaining the impact of p53 on apoptosis decision. This model represents schema 2 of manuscript.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17245126",
+    "journal" : "Cell cycle (Georgetown, Tex.)",
+    "title" : "Exploring mechanisms of the DNA-damage response: p53 pulses and their possible relevance to apoptosis.",
+    "affiliation" : "Department of Biological Science, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061, USA.",
+    "synopsis" : "The transcription factor p53 plays a central role in maintaining genomic integrity. Recent experiments in MCF7 cells have shown that p53 protein level rises and falls in distinct pulses in response to DNA damage. The amplitudes of and intervals between pulses seem to be independent of the extent of damage, and some cells generate regular pulses of p53 over many days. Identifying the molecular mechanisms responsible for such interesting behavior is an important and challenging problem. This paper describes four dual-feedback mechanisms that combine both positive and negative feedback loops, which have been identified in the signaling network responsible for p53 regulation. Mathematical models of all four mechanisms are analyzed to determine if they are consistent with experimental observations and to characterize subtle differences among the possible mechanisms. In addition, a novel molecular mechanism is proposed whereby p53 pulses may induce, at first, cell cycle arrest and, if sustained, cell death. The proposal accounts for basic features of p53-mediated responses to DNA damage and suggests new experiments to probe the dynamics of p53 signaling.",
+    "year" : 2007,
+    "month" : "1",
+    "volume" : "6",
+    "issue" : "1",
+    "pages" : "85-94",
+    "link" : "http://identifiers.org/pubmed/17245126",
+    "authors" : [
+      {
+        "name" : "Tongli Zhang",
+        "institution" : "Department of Biological Science, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061, USA."
+      },
+      {
+        "name" : "Paul Brazhnik"
+      },
+      {
+        "name" : "John J Tyson",
+        "orcid" : "0000-0001-7560-6013"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Zhang2007_M2_low_dose.xml",
+        "description" : "SBML L2V4 representation of the Zhang2007 model2 for low DNA damage",
+        "fileSize" : "66633",
+        "mimeType" : "application/xml",
+        "md5sum" : "40e897c7533fd86e19fea36c7daf5256",
+        "sha1sum" : "36dae1a97a2d644a6b1cb99c1fcd979228a6c8d6",
+        "sha256sum" : "15931d47e47f5232286a0ef00bd716fa8f1c4d96de46f6eea00618f0bb6e65c0"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Model2-Two.ode",
+        "description" : "ODE file provided by author",
+        "fileSize" : "988",
+        "mimeType" : "text/plain",
+        "md5sum" : "a9707215e557380169d6ce9179a041d6",
+        "sha1sum" : "253d316da2f5490e11241934047440346da501d7",
+        "sha256sum" : "f9fee0adf2b0492837150828a241b546a1c3fb73c5ef766d61dc7f8a83c8505b"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "11018",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5e135fcbce645c281e30f43b49f23312",
+        "sha1sum" : "0b434f93eae8dad4831f75c9a487613790e557b9",
+        "sha256sum" : "5978755c410cddd7eada6b7ec65d166089270582babaea66cf78c87bfec95aa4"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "16481",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "747af667640c7c56054718e56fd698a3",
+        "sha1sum" : "bd16322fddf7fddf21dfbc294f0a4bbd80e6da29",
+        "sha256sum" : "9aa93183ee074db6bb99fff59dedac1ee8b9be29002b142e25da556946285fca"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7703",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c50ba1c1ff6deaa6a07f3dbf03c5b454",
+        "sha1sum" : "65b0bdfc579be0c71887f7afb00d9c1f97de5d21",
+        "sha256sum" : "8dd65dcdaef096533e9e87591d285572d3debfa914ac12af3b029a5656aa1f60"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose.cps",
+        "description" : "COPASI 4.31 (build243) file for the Zhang2007 model2 for high DNA damage",
+        "fileSize" : "113972",
+        "mimeType" : "application/xml",
+        "md5sum" : "54d52039f21eebca02db1d2f423bb070",
+        "sha1sum" : "50672ed28789289e53d94543d320b8bbcbf39f14",
+        "sha256sum" : "469c31fa42f84ba5133e67733d888aa1526a982b428274093eb3da2b4585cb7c"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5962",
+        "mimeType" : "text/plain",
+        "md5sum" : "30baeb47d224a0315ba73eedb92ad85c",
+        "sha1sum" : "9900ff5a2578f637112a4003148d8bf61c5b2b6c",
+        "sha256sum" : "134fb338b023425e66f7ae0215b8c3490c073328bf712880ca9a7fbba90a585f"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose.sedml",
+        "description" : "SEDML file for the Zhang2007 model2 for high DNA damage (additionally CRBM-validated and adjusted).",
+        "fileSize" : "28312",
+        "mimeType" : "application/xml",
+        "md5sum" : "de83e847173c1a4fbddda816a628738d",
+        "sha1sum" : "85d85475f9b2430e9aca281975109e99e7f6973e",
+        "sha256sum" : "87f9d375d5e27447b6228e72659addfc001162627ca9ac185a8be4d21189cbc9"
+      },
+      {
+        "name" : "Zhang2007_M2_high_dose.xml",
+        "description" : "SBML L2V4 representation of the Zhang2007 model2 for High DNA damage",
+        "fileSize" : "66376",
+        "mimeType" : "application/xml",
+        "md5sum" : "6971a768d5e85c9011866d9326c05c93",
+        "sha1sum" : "3997626c0e18a4b2ad5ca5ada26078231e85b1fc",
+        "sha256sum" : "e54afea107aa2362304284c47fadc428410a1da95b7d0a77e05229d07297d28d"
+      },
+      {
+        "name" : "Zhang2007_M2_low_dose-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "12587",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1b39e12b9c9e11b464b54e03fe45755b",
+        "sha1sum" : "d7a8b201ea7d94b77059a1c80b1b44ff632eb60f",
+        "sha256sum" : "67b692fbeec839710231dc0f9987681f5bd905a6402831f83d8af5906d3bfd16"
+      },
+      {
+        "name" : "Zhang2007_M2_low_dose-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "18076",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c14872077607c124d6f28504b04bed66",
+        "sha1sum" : "c01a0d47b929434582ee3cfe483df6893fc539a8",
+        "sha256sum" : "c04c42e875ee4e19a68c4d00623162f41486225a120f552f228f38a6733378d9"
+      },
+      {
+        "name" : "Zhang2007_M2_low_dose-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7825",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fd94fe2ee037d30db5ff9aa62ba91f1a",
+        "sha1sum" : "a252add6344b40c375eb5624566ce19c8db72b59",
+        "sha256sum" : "c6330e4a7770d46df0061949c72a126e37d86028d46b35568fd897d5846b88b9"
+      },
+      {
+        "name" : "Zhang2007_M2_low_dose.cps",
+        "description" : "COPASI 4.31 (build243) file for the Zhang2007 model2 for low DNA damage",
+        "fileSize" : "114036",
+        "mimeType" : "application/xml",
+        "md5sum" : "e98dfc288bd3b2feb40083aab7a267be",
+        "sha1sum" : "6868053820ae375692f9ad4cda90bfa563c01589",
+        "sha256sum" : "ad58786d780aa333d03c234fe3db6a47d2b49992d6a011c6a74995c68229a446"
+      },
+      {
+        "name" : "Zhang2007_M2_low_dose.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6080",
+        "mimeType" : "text/plain",
+        "md5sum" : "ffe47ca1e62a7ed90992fa2b4d4cbd6b",
+        "sha1sum" : "abc240683e7fb6a85cbc40ac6a07c09d56d08b86",
+        "sha256sum" : "a115c393576dbf792485e29051290eaa8f72522261623d0be3a0f840c2ce3b18"
+      },
+      {
+        "name" : "Zhang2007_M2_low_dose.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "28325",
+        "mimeType" : "application/xml",
+        "md5sum" : "5ed42fccdf27d93ef060fb775bbfb9b0",
+        "sha1sum" : "578548cca53d143022d81422d1fc57f37ae397a5",
+        "sha256sum" : "8c6b38e8e5866604948013f401560e76934c0b34d9074100e387d1dff12dde4c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "311759",
+        "mimeType" : "image/png",
+        "md5sum" : "9b35c61a889f81c35398a40df24eda92",
+        "sha1sum" : "1babe789f1da9e4f6beb5baf6eee1c4d476f8ebd",
+        "sha256sum" : "3c473fa2e130cb8cc56cbd97e1f49ef664faae71a28af432811684f2bcda7f45"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "455",
+        "mimeType" : "text/plain",
+        "md5sum" : "fa6e67fd8b5d8eb959a9adaefe3c4343",
+        "sha1sum" : "af48fe9a208216ac1bf1705ed2f0905a49f89372",
+        "sha256sum" : "d69ebf9329fd686c35ea52334ebcea7c31b696ba3a0945945385dadd7ab5efe6"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2380",
+        "mimeType" : "application/xml",
+        "md5sum" : "40d64b3b00e5386eaabf9242e62e8772",
+        "sha1sum" : "829888468c3e722b1b6c8add1a3d1e6daace624b",
+        "sha256sum" : "9c5b239332c3e4f44c758f1e41f0e299b43cf272ffeed4fa458a80ce1fa35f0b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1780",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5e69e15be266eb106e20d8dc4af8bce4",
+        "sha1sum" : "401365fa954542e4287225709be7cc48664bcd39",
+        "sha256sum" : "08248cbdf9d7695c90c5c58d1daa55b0306d610d6d9c7bcce42b1a0666c8e7c9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1624457941,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000001009"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1642675809,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Shed a duplicated additional file"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724295212,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285613,
+  "submissionId" : "MODEL2106230001",
+  "publicationId" : "BIOMD0000001009",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      },
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "PW:0000718",
+      "resource" : "Pathway Ontology",
+      "uri" : "http://identifiers.org/pw/PW:0000718"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17245126",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17245126"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "PW:0001360",
+      "name" : "DNA damage response pathway",
+      "resource" : "Pathway Ontology",
+      "uri" : "http://identifiers.org/pw/PW:0001360"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001009",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001009"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2106230001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2106230001"
+    }
+  ]
+}

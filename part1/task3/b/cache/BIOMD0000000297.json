@@ -1,0 +1,296 @@
+{
+  "name" : "Ciliberto2003_Morphogenesis_Checkpoint",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />                <strong>Mathematical model of the morphogenesis checkpoint in budding yeast.</strong>                <br />          Ciliberto A, Novak B, Tyson JJ      <em>J. Cell Biol.</em>          [2003 Dec; Volume: 163 (Issue: 6 )]    Page info: 1243-54      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/14691135\">14691135</a>          ,      <br />                <strong>Abstract:</strong>                <br />          The morphogenesis checkpoint in budding yeast delays progression through the cell cycle in response to stimuli that prevent bud formation. Central to the checkpoint mechanism is Swe1 kinase: normally inactive, its activation halts cell cycle progression in G2. We propose a molecular network for Swe1 control, based on published observations of budding yeast and analogous control signals in fission yeast. The proposed Swe1 network is merged with a model of cyclin-dependent kinase regulation, converted into a set of differential equations and studied by numerical simulation. The simulations accurately reproduce the phenotypes of a dozen checkpoint mutants. Among other predictions, the model attributes a new role to Hsl1, a kinase known to play a role in Swe1 degradation: Hsl1 must also be indirectly responsible for potent inhibition of Swe1 activity. The model supports the idea that the morphogenesis checkpoint, like other checkpoints, raises the cell size threshold for progression from one phase of the cell cycle to the next.      </p>            <p>      The model reproduces Fig 3 of the paper.</p>            <p>      This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14691135",
+    "journal" : "The Journal of cell biology",
+    "title" : "Mathematical model of the morphogenesis checkpoint in budding yeast.",
+    "affiliation" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061, USA.",
+    "synopsis" : "The morphogenesis checkpoint in budding yeast delays progression through the cell cycle in response to stimuli that prevent bud formation. Central to the checkpoint mechanism is Swe1 kinase: normally inactive, its activation halts cell cycle progression in G2. We propose a molecular network for Swe1 control, based on published observations of budding yeast and analogous control signals in fission yeast. The proposed Swe1 network is merged with a model of cyclin-dependent kinase regulation, converted into a set of differential equations and studied by numerical simulation. The simulations accurately reproduce the phenotypes of a dozen checkpoint mutants. Among other predictions, the model attributes a new role to Hsl1, a kinase known to play a role in Swe1 degradation: Hsl1 must also be indirectly responsible for potent inhibition of Swe1 activity. The model supports the idea that the morphogenesis checkpoint, like other checkpoints, raises the cell size threshold for progression from one phase of the cell cycle to the next.",
+    "year" : 2003,
+    "month" : "12",
+    "volume" : "163",
+    "issue" : "6",
+    "pages" : "1243-1254",
+    "link" : "http://identifiers.org/pubmed/14691135",
+    "authors" : [
+      {
+        "name" : "Andrea Ciliberto",
+        "institution" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061, USA."
+      },
+      {
+        "name" : "Béla Novák",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      },
+      {
+        "name" : "John J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000297_url.xml",
+        "description" : "SBML L2V4 representation of Ciliberto2003_Morphogenesis_Checkpoint",
+        "fileSize" : "96675",
+        "mimeType" : "application/xml",
+        "md5sum" : "6096f8443b100da42c69f8921b54cb99",
+        "sha1sum" : "29ed0e9eccf22305d48aaf2b725fbbc47f8415c5",
+        "sha256sum" : "6d950458126ae96c6dec08dcdcad7f1d82bc9d02313f36a9f3c4e69e7a1acd5c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000297-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "54868",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f89c0d96844ca6effba6cfc42e9569ee",
+        "sha1sum" : "d8549a7db776a74a965bdc5f24138542d8387ed9",
+        "sha256sum" : "ea0b437b2b16c5c039877304ba2ada1c44b5f100353a04ad4c72361847c87cca"
+      },
+      {
+        "name" : "BIOMD0000000297-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "88963",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9a9d0ba4886c1671c7a15ac7c808b9b6",
+        "sha1sum" : "caa0202f5d49538f7ee47474caa09edbbd8e3aea",
+        "sha256sum" : "6371fe280fffc45199e87244dbb1d0648f24b7a0093571b788879b01cd63b127"
+      },
+      {
+        "name" : "BIOMD0000000297-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "19841",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d7e6bdcee8b9d0550555f9ed8e59811c",
+        "sha1sum" : "938a01687bd607d38311765e3baf12ad75b05f43",
+        "sha256sum" : "0c11ade851b26fb0272efca79d40bf7bb00841834892460605a2b811f2a3c75a"
+      },
+      {
+        "name" : "BIOMD0000000297-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "19841",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a2f33c658557e645f9a0bc85ab029f65",
+        "sha1sum" : "4c8d6f486273d3d436a162e9345056c417013feb",
+        "sha256sum" : "8efeaa1f825008f21db3996da5358948d98c403a13077af48832182985b0bd16"
+      },
+      {
+        "name" : "BIOMD0000000297.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "19841",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a2f33c658557e645f9a0bc85ab029f65",
+        "sha1sum" : "4c8d6f486273d3d436a162e9345056c417013feb",
+        "sha256sum" : "8efeaa1f825008f21db3996da5358948d98c403a13077af48832182985b0bd16"
+      },
+      {
+        "name" : "BIOMD0000000297.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "347028",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9cb4d90aeaf3918acd157fb9df3c6575",
+        "sha1sum" : "fd5ce072dff9038be4b713bd64775323a1536c7f",
+        "sha256sum" : "93e400085d1a7045074e098d170e583195d4834ac28e0519c87e5dc1bc851a47"
+      },
+      {
+        "name" : "BIOMD0000000297.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "682864",
+        "mimeType" : "image/png",
+        "md5sum" : "aa32677dfe75b12133298b179bcf8537",
+        "sha1sum" : "23a179d9925ff24350d15a1b828eae11e94fabb2",
+        "sha256sum" : "287825440d8f98b259e95a72629b55e2e2d6e91fbc14df1cfb59507f85893a1b"
+      },
+      {
+        "name" : "BIOMD0000000297.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "113200",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f81a4563a1cb06683933f15a39c9f8fb",
+        "sha1sum" : "0199b49985e33e6cc9793b508d0245100562e264",
+        "sha256sum" : "2a714fa8f7236b966fca66e0409da21788258591beedd8c799b565aea68fcc6d"
+      },
+      {
+        "name" : "BIOMD0000000297.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "119415",
+        "mimeType" : "application/xml",
+        "md5sum" : "68be4727ec82421aeb3718ae4c90e7bb",
+        "sha1sum" : "e3873826b035af54be94f999fd2089e50f061cd7",
+        "sha256sum" : "1b2d948cb90cd9d9cdb8df32f33b9e202e04884c873ae9494f935333f4c25133"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "54247",
+        "mimeType" : "image/png",
+        "md5sum" : "fc488fc3c2f9b58a2b11cebaee9ed614",
+        "sha1sum" : "e0790574ba79094c21d8481b70d3de1551fe14db",
+        "sha256sum" : "e8005be88af6821c58ed9e704e6e20f521ec1dcfcaef63945b1772792137eb4b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "9d613309ba71bdb102aa60aa5e71b7d5",
+        "sha1sum" : "34a6bd0e9166a1168db3fe11a87b9932fd77ce16",
+        "sha256sum" : "4a101422e80102b984c826a25714d5d01e7e3dc5e08bfc618ce7bb22557a6710"
+      },
+      {
+        "name" : "f3.sedml",
+        "description" : "Reproduces Figure3 a - d (additionally CRBM-validated and adjusted).",
+        "fileSize" : "81124",
+        "mimeType" : "application/xml",
+        "md5sum" : "d3b4d6dbeec299853aef532f8ac8785c",
+        "sha1sum" : "3ac62832269528b171b5205690199891c7d52858",
+        "sha256sum" : "44d58ef6c3989cb36353e6ec6e202434ac1c4f42723372469596f2458360f311"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1784",
+        "mimeType" : "application/xml",
+        "md5sum" : "15d715f918212ec016ad8f06facf25d7",
+        "sha1sum" : "024efb9d7e2779d42751099b62168b7bb259000a",
+        "sha256sum" : "aa494916982759400e17a5f191f6f5ecdc75459191aa9be54bd743d9ca3eed0a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4260",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "20b371d6e49fd4f42a66564487e13fd5",
+        "sha1sum" : "611caf2c3321bf4e7625e2e0b6af3d5c81c13e2d",
+        "sha256sum" : "f7bed5c7e6badb7a4266de2725eb98ecd49d79b42274cb09f9de161acac6f9ec"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1205749617,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Ciliberto2003_Morphogenesis_Checkpoint"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1328017968,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Ciliberto2003_Morphogenesis_Checkpoint"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545412034,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: f3.sedml"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724272899,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285013,
+  "submissionId" : "MODEL2504064544",
+  "publicationId" : "BIOMD0000000297",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      },
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2504064544",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2504064544"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000297",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000297"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14691135",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14691135"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4896",
+      "name" : "Schizosaccharomyces pombe",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4896"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009653",
+      "name" : "anatomical structure morphogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009653"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000078",
+      "name" : "obsolete cytokinesis after mitosis checkpoint",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000078"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04111",
+      "name" : "Cell cycle - yeast",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04111"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

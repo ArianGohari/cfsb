@@ -1,0 +1,287 @@
+{
+  "name" : "Amara2013 - PCNA ubiquitylation in the activation of PRR pathway",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">    Mechanistic model of the Post-Replication Repair (PRR), the pathway involved in the bypass      of DNA lesions induced by sunlight exposure and UV radiation. PRR acts through two different mechanisms,      activated by mono- and poly-ubiquitylation of the DNA sliding clamp, called Proliferating Cell Nuclear Antigen (PCNA).      This model has been defined according to the stochastic formulation of chemical kinetics [Gillespie DT, J Phys Chem 1977, 81(25):2340-2361],      which requires to specify the set of molecular species occurring in the pathway and their respective interactions,      formally described as a set of biochemical reactions.      The volume considered for this system is 1.666667e-17L; this value can be used to convert the model into the deterministic formulation.</body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23514624",
+    "journal" : "BMC systems biology",
+    "title" : "In vivo and in silico analysis of PCNA ubiquitylation in the activation of the Post Replication Repair pathway in S. cerevisiae.",
+    "affiliation" : "Dipartimento di Bioscienze, Università degli Studi di Milano, Milano, Italy.",
+    "synopsis" : "<h4>Background</h4>The genome of living organisms is constantly exposed to several damaging agents that induce different types of DNA lesions, leading to cellular malfunctioning and onset of many diseases. To maintain genome stability, cells developed various repair and tolerance systems to counteract the effects of DNA damage. Here we focus on Post Replication Repair (PRR), the pathway involved in the bypass of DNA lesions induced by sunlight exposure and UV radiation. PRR acts through two different mechanisms, activated by mono- and poly-ubiquitylation of the DNA sliding clamp, called Proliferating Cell Nuclear Antigen (PCNA).<h4>Results</h4>We developed a novel protocol to measure the time-course ratios between mono-, di- and tri-ubiquitylated PCNA isoforms on a single western blot, which were used as the wet readout for PRR events in wild type and mutant S. cerevisiae cells exposed to acute UV radiation doses. Stochastic simulations of PCNA ubiquitylation dynamics, performed by exploiting a novel mechanistic model of PRR, well fitted the experimental data at low UV doses, but evidenced divergent behaviors at high UV doses, thus driving the design of further experiments to verify new hypothesis on the functioning of PRR. The model predicted the existence of a UV dose threshold for the proper functioning of the PRR model, and highlighted an overlapping effect of Nucleotide Excision Repair (the pathway effectively responsible to clean the genome from UV lesions) on the dynamics of PCNA ubiquitylation in different phases of the cell cycle. In addition, we showed that ubiquitin concentration can affect the rate of PCNA ubiquitylation in PRR, offering a possible explanation to the DNA damage sensitivity of yeast strains lacking deubiquitylating enzymes.<h4>Conclusions</h4>We exploited an in vivo and in silico combinational approach to analyze for the first time in a Systems Biology context the events of PCNA ubiquitylation occurring in PRR in budding yeast cells. Our findings highlighted an intricate functional crosstalk between PRR and other events controlling genome stability, and evidenced that PRR is more complicated and still far less characterized than previously thought.",
+    "year" : 2013,
+    "month" : "3",
+    "volume" : "7",
+    "pages" : "24",
+    "link" : "http://identifiers.org/pubmed/23514624",
+    "authors" : [
+      {
+        "name" : "Flavio Amara",
+        "institution" : "Dipartimento di Bioscienze, Università degli Studi di Milano, Milano, Italy."
+      },
+      {
+        "name" : "Riccardo Colombo",
+        "orcid" : "0000-0002-9499-0126"
+      },
+      {
+        "name" : "Paolo Cazzaniga"
+      },
+      {
+        "name" : "Dario Pescini",
+        "orcid" : "0000-0002-3090-4823"
+      },
+      {
+        "name" : "Attila Csikász-Nagy",
+        "orcid" : "0000-0002-2919-5601"
+      },
+      {
+        "name" : "Marco Muzi Falconi"
+      },
+      {
+        "name" : "Daniela Besozzi",
+        "orcid" : "0000-0001-5532-3059"
+      },
+      {
+        "name" : "Paolo Plevani",
+        "orcid" : "0000-0003-1869-2626"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000475_url.xml",
+        "description" : "SBML L2V4 representation of Amara2013 - PCNA ubiquitylation in the activation of PRR pathway",
+        "fileSize" : "72308",
+        "mimeType" : "application/xml",
+        "md5sum" : "20535acb6c71991965892fb8fc5f5eeb",
+        "sha1sum" : "704b4f85c8d1afe97002c982827d0f3cef129a30",
+        "sha256sum" : "8286ef35498d77ae35e3612f6296784b6a7b30cfa002f1631ad2a1be5e8e6fc3"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000475-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "52667",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e239ad12325e80fe48be190993c17be7",
+        "sha1sum" : "aa45115d1d2aac4484b2d39c28d95f5ea531e005",
+        "sha256sum" : "81b7a5ca48b85994b789d3e13de63632a765fdcae565dc99bfe934f2d19c2cf3"
+      },
+      {
+        "name" : "BIOMD0000000475-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "86375",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2ee0026c9498050dc16f3cdce2e0ce2c",
+        "sha1sum" : "97c9444736c3cb85cfcf354d44a32b2d15e32244",
+        "sha256sum" : "1409fc2ed0f90a776f0040972dacbf0da86a1b6909ecccf2a41adf6e6e61cd9d"
+      },
+      {
+        "name" : "BIOMD0000000475-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12961",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bad6fb907095a09179c34d83e93604bc",
+        "sha1sum" : "bd1a9e031b4d15ddde77adaadbb4e2e1849962bf",
+        "sha256sum" : "deda769b89afe053fd38756d6970a9cf40e737299954cb2fce6c6d7ba594ffb4"
+      },
+      {
+        "name" : "BIOMD0000000475-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "12961",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1af2dec268b0cdb8be26662a8700c776",
+        "sha1sum" : "77d6a25d3befa7d4d7eeffacc128a44ce25b3e66",
+        "sha256sum" : "98c3935fec551709d3d30e23b4b25576776053b81b119b6ef6c16106049cb0c6"
+      },
+      {
+        "name" : "BIOMD0000000475.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12961",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1af2dec268b0cdb8be26662a8700c776",
+        "sha1sum" : "77d6a25d3befa7d4d7eeffacc128a44ce25b3e66",
+        "sha256sum" : "98c3935fec551709d3d30e23b4b25576776053b81b119b6ef6c16106049cb0c6"
+      },
+      {
+        "name" : "BIOMD0000000475.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9642",
+        "mimeType" : "text/plain",
+        "md5sum" : "539d46f142dbd8d9f5a4f2bfe5358505",
+        "sha1sum" : "456d535f965efd9f5c1746af9a17b77bf45a759c",
+        "sha256sum" : "56568666a3d86776528aeeed3de2bdbf81ad84485eab10fe6f1df37dd4bf86fe"
+      },
+      {
+        "name" : "BIOMD0000000475.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "295820",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1930c356aba14d99b5b1327db15e9445",
+        "sha1sum" : "1a295288e220313daa395ec44cf767f68a99fcec",
+        "sha256sum" : "4d562b1f78707772a033620edc43f5a279d70263cdea19724bce68b5738a9523"
+      },
+      {
+        "name" : "BIOMD0000000475.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "503538",
+        "mimeType" : "image/png",
+        "md5sum" : "46b5bf12707ad9d5f6d84ac5898f98f9",
+        "sha1sum" : "7c43da826318747699b3a488c8fa103a16b61d5a",
+        "sha256sum" : "4386f5e3e01e7adfb0dc55e4cc5b3f7320cac26aa241b98e4825b825928be367"
+      },
+      {
+        "name" : "BIOMD0000000475.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "96424",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "35c91f7de442480573f1d7fee3fd5a56",
+        "sha1sum" : "b02fbd61d59020473f59fa4240874b1b504059e7",
+        "sha256sum" : "2084b1bd49ceb2b2be067c75aff1ca0474174222a2bb16fce1b3aa306c8a5479"
+      },
+      {
+        "name" : "BIOMD0000000475_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "32895",
+        "mimeType" : "application/xml",
+        "md5sum" : "1913f00f052d1eec25cf07ad0646032d",
+        "sha1sum" : "a436b2d2d1d9dddd949a6990e8d1f1d5b3b1d595",
+        "sha256sum" : "905cbb86ee6b724c4e477a6a00985f3851094275d47de3ae5c61138648cae159"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "38326",
+        "mimeType" : "image/png",
+        "md5sum" : "4e55e9de3fe6f6055d43568d51836e8b",
+        "sha1sum" : "8dc2123aa4f93413f3114182a26bfc89422b74fc",
+        "sha256sum" : "8cccee47325fd372cf5fde7514c0bef5c0f683c8bea85b7eb4692ef0c19a489b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "658",
+        "mimeType" : "text/plain",
+        "md5sum" : "0fa098281deafb879f8774c5aa1af4ae",
+        "sha1sum" : "57ecfc9418a7039a2acbed6463fb60e3a615b907",
+        "sha256sum" : "469f6f578046826e04d38b6bd189dc4427c3cd3894c19698f095b18a1d1518e7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "688c3af171fe197c1fdae54b91d1111e",
+        "sha1sum" : "2f121aabb0385abb40e0944420ecd56c75bebee1",
+        "sha256sum" : "a961caeeb14ccb3a4f7891cb226c1ec95708c7405662470676bad6db815d2640"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2745",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b8c34390aa24aa4d91106a3aa03737fb",
+        "sha1sum" : "a1e27e5267312d6b3f4e1df02a22437354df99f3",
+        "sha256sum" : "2ed68e579017bc96b3e59f053d569863a6ec82df2d06ea179d04e889c110bf33"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1353943274,
+        "submitter" : "Paolo Cazzaniga",
+        "comment" : "Original import of Amara2012_PRR_stochastic"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1394038570,
+        "submitter" : "Paolo Cazzaniga",
+        "comment" : "Current version of Amara2013 - PCNA ubiquitylation in the activation of PRR pathway"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724278522,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285216,
+  "submissionId" : "MODEL1211260000",
+  "publicationId" : "BIOMD0000000475",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Paolo Cazzaniga",
+        "email" : "paolo.cazzaniga@unibg.it",
+        "affiliation" : "University of Bergamo",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1211260000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1211260000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000475",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000475"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23514624",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23514624"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006301",
+      "name" : "postreplication repair",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006301"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

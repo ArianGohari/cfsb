@@ -1,0 +1,282 @@
+{
+  "name" : "Bush2016 - Extended Carrousel model of GPCR-RGS",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Bush2016 - Extended Carrousel model ofGPCR-RGS</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/28034910\" title=\"Access to this publication\">Yeast GPCR signaling    reflects the fraction of occupied receptors, not the    number.</a>  </div>  <div class=\"bibo:authorList\">Bush A, Vasen G, Constantinou A,  Dunayevich P, Patop IL, Blaustein M, Colman-Lerner A.</div>  <div class=\"bibo:Journal\">Mol. Syst. Biol. 2016 Dec; 12(12):  898</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>According to receptor theory, the effect of a ligand depends    on the amount of agonist-receptor complex. Therefore, changes    in receptor abundance should have quantitative effects.    However, the response to pheromone in Saccharomyces cerevisiae    is robust (unaltered) to increases or reductions in the    abundance of the G-protein-coupled receptor (GPCR), Ste2,    responding instead to the fraction of occupied receptor. We    found experimentally that this robustness originates during    G-protein activation. We developed a complete mathematical    model of this step, which suggested the ability to compute    fractional occupancy depends on the physical interaction    between the inhibitory regulator of G-protein signaling (RGS),    Sst2, and the receptor. Accordingly, replacing Sst2 by the    heterologous hsRGS4, incapable of interacting with the    receptor, abolished robustness. Conversely, forcing hsRGS4:Ste2    interaction restored robustness. Taken together with other    results of our work, we conclude that this GPCR pathway    computes fractional occupancy because ligand-bound GPCR-RGS    complexes stimulate signaling while unoccupied complexes    actively inhibit it. In eukaryotes, many RGSs bind to specific    GPCRs, suggesting these complexes with opposing activities also    detect fraction occupancy by a ratiometric measurement. Such    complexes operate as push-pull devices, which we have recently    described.</p>  </div></div><div class=\"bm:curation\">  <div>    <br />  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000638\">BIOMD0000000638</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "28034910",
+    "journal" : "Molecular systems biology",
+    "title" : "Yeast GPCR signaling reflects the fraction of occupied receptors, not the number.",
+    "affiliation" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.",
+    "synopsis" : "According to receptor theory, the effect of a ligand depends on the amount of agonist-receptor complex. Therefore, changes in receptor abundance should have quantitative effects. However, the response to pheromone in Saccharomyces cerevisiae is robust (unaltered) to increases or reductions in the abundance of the G-protein-coupled receptor (GPCR), Ste2, responding instead to the fraction of occupied receptor. We found experimentally that this robustness originates during G-protein activation. We developed a complete mathematical model of this step, which suggested the ability to compute fractional occupancy depends on the physical interaction between the inhibitory regulator of G-protein signaling (RGS), Sst2, and the receptor. Accordingly, replacing Sst2 by the heterologous hsRGS4, incapable of interacting with the receptor, abolished robustness. Conversely, forcing hsRGS4:Ste2 interaction restored robustness. Taken together with other results of our work, we conclude that this GPCR pathway computes fractional occupancy because ligand-bound GPCR-RGS complexes stimulate signaling while unoccupied complexes actively inhibit it. In eukaryotes, many RGSs bind to specific GPCRs, suggesting these complexes with opposing activities also detect fraction occupancy by a ratiometric measurement. Such complexes operate as push-pull devices, which we have recently described.",
+    "year" : 2016,
+    "month" : "12",
+    "volume" : "12",
+    "issue" : "12",
+    "pages" : "898",
+    "link" : "http://identifiers.org/pubmed/28034910",
+    "authors" : [
+      {
+        "name" : "Alan Bush",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina.",
+        "orcid" : "0000-0002-0407-5750"
+      },
+      {
+        "name" : "Gustavo Vasen",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina.",
+        "orcid" : "0000-0002-5968-2312"
+      },
+      {
+        "name" : "Andreas Constantinou",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina."
+      },
+      {
+        "name" : "Paula Dunayevich",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina."
+      },
+      {
+        "name" : "Inés Lucía Patop",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina."
+      },
+      {
+        "name" : "Matías Blaustein",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina.",
+        "orcid" : "0000-0001-6309-6888"
+      },
+      {
+        "name" : "Alejandro Colman-Lerner",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina colman-lerner@fbmc.fcen.uba.ar.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina.",
+        "orcid" : "0000-0002-2557-8883"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000638_url.xml",
+        "description" : "SBML L3V1 representation of Bush2016 - Extended Carrousel model of GPCR-RGS",
+        "fileSize" : "203221",
+        "mimeType" : "application/xml",
+        "md5sum" : "e80d9c89da66c5c69e2aca498e0a41d9",
+        "sha1sum" : "f4cf0625d2feaf0d76bdce38d89d2c156dc9454c",
+        "sha256sum" : "1f62b7e92938b686d29039bc4aaa2a6fa024d6b6fc927ed773dd82d48a9c7657"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000638-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "70740",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3b050d362a9d9a25bfdda8508499d58f",
+        "sha1sum" : "cfedbb71b9a68ca0e88b3a0f76ab95d920b03eb8",
+        "sha256sum" : "42a1efb7e4affdef3625bca83f90704becb35bf9639444272e05892a4107ea44"
+      },
+      {
+        "name" : "BIOMD0000000638-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "125835",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "76a52bc7fac5b14ec6dfde50371bb8b6",
+        "sha1sum" : "7ebc6bd551d1390eca92d00594365c98d5d9fa8f",
+        "sha256sum" : "21fbb2057f9d7f31a89bb7a2fc9e0b0f686b603da8270de1f4fa80a7a98888c5"
+      },
+      {
+        "name" : "BIOMD0000000638.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "600011",
+        "mimeType" : "image/png",
+        "md5sum" : "955652ebc96e15d50947338b394035a6",
+        "sha1sum" : "73f653aa03c04c74d16c07393289e6eba5d0bf06",
+        "sha256sum" : "453329ecf1624f94f0364efc3bb196cbb6ffde174f2d53eb3044475e43b0b9e6"
+      },
+      {
+        "name" : "BIOMD0000000638.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "a09cf39d95ab605db52198b969d9b4cb",
+        "sha1sum" : "b6049e3c848043ece8a8c9432788bb02a75b3d39",
+        "sha256sum" : "73ec6f7fb4375b98f8244ca4b6b8151a2840d492531a6bab6987da8fa6c40ecb"
+      },
+      {
+        "name" : "BIOMD0000000638.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "108203",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "3968a3e40ee60fd0d2120726d25ce23c",
+        "sha1sum" : "c037f7f62f433be838b59b832ab9bb69d5d7448b",
+        "sha256sum" : "3e121391eb4a4a692ece07e2cf1c62940088a2e7ebefdd1c2348b36a62add7f7"
+      },
+      {
+        "name" : "Bush2016-Extended-Carrousel-model-of-GPCR-RGS.cps",
+        "description" : "The attached COPASI files reproduce figure EV3B. \r\n\r\nThis file reproduces the curves of the \"Extended View\" figure EV3 B-D.  If you remove the \"k_off_R·G\" scan, then you will get only panel EV3B. Regarding the normalisation, be aware that Gtot=2042 is defined in number of molecules. To reproduce figures in panels EV3 B-D, you should normalise the total G protein concentration, [Gtot]=2042/3.92fl to obtain the saturation level obtained in figures EV3 B-E.",
+        "fileSize" : "257576",
+        "mimeType" : "application/xml",
+        "md5sum" : "0ffe7ddac7e940463736fa4e3d34312a",
+        "sha1sum" : "11fffa2a7b24a65d3b8281d9b8795e859cd48e57",
+        "sha256sum" : "52214c5143d49f7902746aab28210de2662a7752ad8ae899df1fba1b90e9f82c"
+      },
+      {
+        "name" : "Bush2016-Extended-Carrousel-model-of-GPCR-RGS.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "75634",
+        "mimeType" : "application/xml",
+        "md5sum" : "a009d866db5e0f94cf3038b00c9044c7",
+        "sha1sum" : "737cb33ec491137725cd7cdca6eaf98b659a1652",
+        "sha256sum" : "3648401974cf4cd11825d9867c330e1522e5c7e0151c6f8001fa0bbaed935916"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "55236",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "3bbff92f09aa3391469120eb88c6b962",
+        "sha1sum" : "dd62d46e1b94b680e514ca031c4c56ae4f78705a",
+        "sha256sum" : "d85d5cc236a52fbc44c1c10430d303ee24ac85eafa61a618a20f546e57af6452"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "414",
+        "mimeType" : "text/plain",
+        "md5sum" : "43ccc5fc99626d5e7aa29251103776fe",
+        "sha1sum" : "e59aeae2f02ae4aeaa889ee673395453bc031623",
+        "sha256sum" : "b1e434eae3655d471318a92bf4828bcdf716c9e1dddaa680ba6a176a4742fb65"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1513",
+        "mimeType" : "application/xml",
+        "md5sum" : "1683fcaa541171ae958c66f150b93b78",
+        "sha1sum" : "26a021436fc0c664442a58f6e27ef68de990dae4",
+        "sha256sum" : "9c34831f24f02fdda8dd1948689ba23fedf1c8c8fec151e39e8ccacb2aedc531"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5181",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cfa877ddc7ec654207bc056f43bede15",
+        "sha1sum" : "54d1367495b614a7efe4a30fb9b90c19a9cb59d0",
+        "sha256sum" : "7c8ad7c9ea3eb0f52aa02abc7cb108c0ea09d65da8462646ac6a8b36feb4ac98"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1477166711,
+        "submitter" : "Alan Bush",
+        "comment" : "Original import of Bush2016-Extended-Carrousel-model-of-GPCR-RGS"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1494946149,
+        "submitter" : "Alan Bush",
+        "comment" : "Current version of Bush2016 - Extended Carrousel model of GPCR-RGS"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416637,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Bush2016-Extended-Carrousel-model-of-GPCR-RGS.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724285064,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285396,
+  "submissionId" : "MODEL1610220001",
+  "publicationId" : "BIOMD0000000638",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000003",
+    "name" : "mathematical model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000003"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Alan Bush",
+        "email" : "abush84@gmail.com",
+        "affiliation" : "IFIBYNE-UBA-CONICET",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1610220001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1610220001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000638",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000638"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "28034910",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/28034910"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0001664",
+      "name" : "G-protein coupled receptor binding",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0001664"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0000772",
+      "name" : "mating pheromone activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000772"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000003",
+      "name" : "Mathematical model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000003"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    }
+  ]
+}

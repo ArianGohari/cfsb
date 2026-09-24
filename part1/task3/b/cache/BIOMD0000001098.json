@@ -1,0 +1,278 @@
+{
+  "name" : "Feist2006_methanogenesis_OptiMethanol",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16738551",
+    "journal" : "Molecular systems biology",
+    "title" : "Modeling methanogenesis with a genome-scale metabolic reconstruction of Methanosarcina barkeri.",
+    "affiliation" : "Department of Bioengineering, University of California--San Diego, La Jolla, CA 92092-0412, USA.",
+    "synopsis" : "We present a genome-scale metabolic model for the archaeal methanogen Methanosarcina barkeri. We characterize the metabolic network and compare it to reconstructions from the prokaryotic, eukaryotic and archaeal domains. Using the model in conjunction with constraint-based methods, we simulate the metabolic fluxes and resulting phenotypes induced by different environmental and genetic conditions. This represents the first large-scale simulation of either a methanogen or an archaeal species. Model predictions are validated by comparison to experimental growth measurements and phenotypes of M. barkeri on different substrates. The predicted growth phenotypes for wild type and mutants of the methanogenic pathway have a high level of agreement with experimental findings. We further examine the efficiency of the energy-conserving reactions in the methanogenic pathway, specifically the Ech hydrogenase reaction, and determine a stoichiometry for the nitrogenase reaction. This work demonstrates that a reconstructed metabolic network can serve as an analysis platform to predict cellular phenotypes, characterize methanogenic growth, improve the genome annotation and further uncover the metabolic characteristics of methanogenesis.",
+    "year" : 2006,
+    "month" : "1",
+    "volume" : "2",
+    "pages" : "2006.0004",
+    "link" : "http://identifiers.org/pubmed/16738551",
+    "authors" : [
+      {
+        "name" : "Adam M Feist",
+        "institution" : "Department of Bioengineering, University of California--San Diego, La Jolla, CA 92092-0412, USA."
+      },
+      {
+        "name" : "Johannes C M Scholten"
+      },
+      {
+        "name" : "Bernhard Ø Palsson"
+      },
+      {
+        "name" : "Fred J Brockman"
+      },
+      {
+        "name" : "Trey Ideker",
+        "orcid" : "0000-0002-1708-8454"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "MODEL5662324959_url.xml",
+        "description" : "SBML L2V1 representation of Feist2006_methanogenesis_OptiMethanol",
+        "fileSize" : "988062",
+        "mimeType" : "application/xml",
+        "md5sum" : "7110aa41b910358a39212ae16184b355",
+        "sha1sum" : "f0a15632b960b1fda19bf5645c6b1038a0717f48",
+        "sha256sum" : "57ff4c815acf1fd6e04e603d3fc59c5a966fbeb5caf4ce5e71af7519af82163f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL5662324959-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "1341562",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8310abd1edcfe46bc0f5a5ea8da46dc0",
+        "sha1sum" : "a6bbc8d7031d9a78881f37dfc81801fcd84c632c",
+        "sha256sum" : "9d5e03bfe84346ab61fc2be1d5c02cbacb76621e7561816ff6e46cb1868724aa"
+      },
+      {
+        "name" : "MODEL5662324959-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "2622726",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3ff73da9490935d2a4ee3a6fb82f3ea4",
+        "sha1sum" : "a780daa767d8f6c195cb24edee5df873309b573a",
+        "sha256sum" : "b46f3663c95cd0403a52b245f668d9da836ee751c41f964a0ee3004f236263e3"
+      },
+      {
+        "name" : "MODEL5662324959.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "399228",
+        "mimeType" : "text/plain",
+        "md5sum" : "b691d58a61f9e21dce8311c80260757c",
+        "sha1sum" : "2eba4d84bdb5fcbc560ea35dffbbb475f41063b1",
+        "sha256sum" : "e67240bc01a67460dc6cad38289115fb54eb6d42311e756fd7ed6608ef111ff1"
+      },
+      {
+        "name" : "MODEL5662324959.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "4746682",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b43555815ffaedda44ed0fb475509d65",
+        "sha1sum" : "62c29027fac85bca2d5b9d4836b568d00ca670aa",
+        "sha256sum" : "ab73389e857dde8144ea0eb565710d98063df2a429770dd68409c8044f658fed"
+      },
+      {
+        "name" : "MODEL5662324959.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5189",
+        "mimeType" : "image/png",
+        "md5sum" : "603905e8aa4cc6ee8bbb56a895d093c8",
+        "sha1sum" : "4f5418a4d42c80db438ca0bfb758d2771630001e",
+        "sha256sum" : "d8b25e248df2e019004bf27eda2c8e7ee8575c1cae91cdd7c565e327c28250e9"
+      },
+      {
+        "name" : "MODEL5662324959.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "167",
+        "mimeType" : "text/plain",
+        "md5sum" : "2a9f5a4637e72e030001d01812b5f968",
+        "sha1sum" : "5c710a86237d64c8a4e40da561fe98fcd0b1c786",
+        "sha256sum" : "ea58c2307355bb111fa1471667c12bf028c9206bdfcdcaa1b0abf9b6a3fab7da"
+      },
+      {
+        "name" : "MODEL5662324959.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "861",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "052198574aee0dce3517d8043b54239e",
+        "sha1sum" : "c02c985cb6f67cc9a78bd14d70c207413f0dab29",
+        "sha256sum" : "21a306081d1921b5bb856da4995c6aa08d88abe5ac9cf51e51d2da8800aa302a"
+      },
+      {
+        "name" : "MODEL5662324959.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "829",
+        "mimeType" : "application/xml",
+        "md5sum" : "5c692a30bbd1acba8838d6b56c942947",
+        "sha1sum" : "c2c705ef7101802eacab2fc0c275c4c69d02d4e2",
+        "sha256sum" : "6410d48c2b16f6f6f85a9f5e35f647dc7b9a4057ab41ac952c813d1abed139e8"
+      },
+      {
+        "name" : "MODEL5662324959.xpp",
+        "description" : "Auto-generated XPP file",
+        "fileSize" : "325425",
+        "mimeType" : "text/plain",
+        "md5sum" : "423ede4b02ca911ce676e7d9c4312c43",
+        "sha1sum" : "41d5a9582fc1e665ece0531c0b3aaaa443687586",
+        "sha256sum" : "44a55d90a3d71eb641d35df1a0792c97211a8791518ffeab7a236ba9d1efc595"
+      },
+      {
+        "name" : "MODEL5662324959_urn.xml",
+        "description" : "Auto-generated SBML file with URNs",
+        "fileSize" : "987724",
+        "mimeType" : "application/xml",
+        "md5sum" : "85cbb7323f2590bc651827f2faf737a0",
+        "sha1sum" : "146516e986fd2fddd38827df280c5739992b8c90",
+        "sha256sum" : "24a200054b21cc7be0a434432342ad4d178646b7cfc7cae6463065a5e99219ff"
+      },
+      {
+        "name" : "iAF692.omex",
+        "description" : "FROG Report",
+        "fileSize" : "69038",
+        "mimeType" : "application/zip",
+        "md5sum" : "eb6c2e1a33b90dd76f91803fa5da8159",
+        "sha1sum" : "8aab31d15b237667a0fdcd7f01449eec6930b8a0",
+        "sha256sum" : "49f0ad04051cd7c8f2794fc67ab5cb18c3af887db36acb6bcae08c6dbfa04e31"
+      },
+      {
+        "name" : "miniFROG_iAF692.xlsx",
+        "description" : "miniFROG Report",
+        "fileSize" : "6806",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "65dcd2a37fcfb27cd69f041a5580dfb1",
+        "sha1sum" : "81d2f7f5dd10eaac1ca7bdf2b8657c0a15e0eba9",
+        "sha256sum" : "4d15d293871e4a1f1f725eccc0eaa96ee5fe0ad12740e1da4ea9aa403f6bb26d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1159807950,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Original import of iAF692 network flux distributions for BOF optimization on methanol"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1183552816,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Current version of Feist2006_methanogenesis_OptiMethanol"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1723558111,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Addition of FROG Report (FBC Curation)"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1739364138,
+        "submitter" : "Tanisha Malpani",
+        "comment" : "Automatically added model identifier BIOMD0000001098"
+      }
+    ]
+  },
+  "firstPublished" : 1729023195,
+  "submissionId" : "MODEL5662324959",
+  "publicationId" : "BIOMD0000001098",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000009",
+    "name" : "constraint-based model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000009"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      },
+      {
+        "name" : "Sanjaay Balakrishnan",
+        "email" : "bt19m012@alumni.iitm.ac.in",
+        "affiliation" : "Centre for Integrative Biology and Systems Medicine (IBSE), IIT Madras, Chennai 600 036, India",
+        "external" : true
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Molecular Systems Biology",
+        "email" : "msbforum@embo.org",
+        "affiliation" : "Nature Publishing Group",
+        "external" : false
+      }
+    ],
+    "Submitter" : [
+      {
+        "name" : "Tanisha Malpani",
+        "email" : "tanishamalpani4@gmail.com",
+        "affiliation" : "Indian Institute of Technology, Madras",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5662324959",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5662324959"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16738551",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16738551"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2208",
+      "name" : "Methanosarcina barkeri",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2208"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0015948",
+      "name" : "methanogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0015948"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO:0000009",
+      "name" : "constraint-based model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "https://identifiers.org/mamo:MAMO_0000009"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001098",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001098"
+    }
+  ]
+}

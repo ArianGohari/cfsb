@@ -1,0 +1,283 @@
+{
+  "name" : "Goldbeter2007_Somitogenesis_Switch",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the simple model without diffusion described in th epublication<br />        <strong>Sharp developmental thresholds defined through bistability by antagonistic gradients of retinoic acid and FGF signaling.</strong>        <br />Goldbeter A, Gonze D, Pourquié O. <em>Dev Dyn.</em> 2007 Jun;236(6):1495-508. PMID:       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17497689\">17497689</a>, doi:<a href=\"http://dx.doi.org/10.1016/j.jtbi.2008.01.006\">10.1016/j.jtbi.2008.01.006</a>        <br />        <strong>Abstract:</strong>        <br />The establishment of thresholds along morphogen gradients in the embryo is poorly understood. Using mathematical modeling, we show that mutually inhibitory gradients can generate and position sharp morphogen thresholds in the embryonic space. Taking vertebrate segmentation as a paradigm, we demonstrate that the antagonistic gradients of retinoic acid (RA) and Fibroblast Growth Factor (FGF) along the presomitic mesoderm (PSM) may lead to the coexistence of two stable steady states. Here, we propose that this bistability is associated with abrupt switches in the levels of FGF and RA signaling, which permit the synchronized activation of segmentation genes, such as mesp2, in successive cohorts of PSM cells in response to the segmentation clock, thereby defining the future segments. Bistability resulting from mutual inhibition of RA and FGF provides a molecular mechanism for the all-or-none transitions assumed in the \"clock and wavefront\" somitogenesis model. Given that mutually antagonistic signaling gradients are common in development, such bistable switches could represent an important principle underlying embryonic patterning.</p>        <p> Originally created by libAntimony v1.4 (using libSBML 3.4.1) </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17497689",
+    "journal" : "Developmental dynamics : an official publication of the American Association of Anatomists",
+    "title" : "Sharp developmental thresholds defined through bistability by antagonistic gradients of retinoic acid and FGF signaling.",
+    "affiliation" : "Faculté des Sciences, Université Libre de Bruxelles, U.L.B., Brussels, Belgium.",
+    "synopsis" : "The establishment of thresholds along morphogen gradients in the embryo is poorly understood. Using mathematical modeling, we show that mutually inhibitory gradients can generate and position sharp morphogen thresholds in the embryonic space. Taking vertebrate segmentation as a paradigm, we demonstrate that the antagonistic gradients of retinoic acid (RA) and Fibroblast Growth Factor (FGF) along the presomitic mesoderm (PSM) may lead to the coexistence of two stable steady states. Here, we propose that this bistability is associated with abrupt switches in the levels of FGF and RA signaling, which permit the synchronized activation of segmentation genes, such as mesp2, in successive cohorts of PSM cells in response to the segmentation clock, thereby defining the future segments. Bistability resulting from mutual inhibition of RA and FGF provides a molecular mechanism for the all-or-none transitions assumed in the \"clock and wavefront\" somitogenesis model. Given that mutually antagonistic signaling gradients are common in development, such bistable switches could represent an important principle underlying embryonic patterning.",
+    "year" : 2007,
+    "month" : "6",
+    "volume" : "236",
+    "issue" : "6",
+    "pages" : "1495-1508",
+    "link" : "http://identifiers.org/pubmed/17497689",
+    "authors" : [
+      {
+        "name" : "Albert Goldbeter",
+        "institution" : "Faculté des Sciences, Université Libre de Bruxelles, U.L.B., Brussels, Belgium."
+      },
+      {
+        "name" : "Didier Gonze"
+      },
+      {
+        "name" : "Olivier Pourquié",
+        "orcid" : "0000-0001-5189-1227"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000275_url.xml",
+        "description" : "SBML L2V4 representation of Goldbeter2007_Somitogenesis_Switch",
+        "fileSize" : "27145",
+        "mimeType" : "application/xml",
+        "md5sum" : "8fa4552e92f388e63e4a0d823c6e784a",
+        "sha1sum" : "d801ce3bb1663afd449fe6bae2af8615d4d942f4",
+        "sha256sum" : "600e2c173146c24f77c738c9117aa684a0acf9aeedea227126efaf033f641e70"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000275-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18165",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4f1d6cf95bf1b5d22a3d819c954c43fd",
+        "sha1sum" : "8fadb41ad017e5099d01a07b3247cc57654a8be5",
+        "sha256sum" : "528e38f3d5579abc52ffc631a7ad294c1355d9dc7a23f754167b354143946978"
+      },
+      {
+        "name" : "BIOMD0000000275-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "22788",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e4ddfd538c56e8de51739237974d8f17",
+        "sha1sum" : "33cdc72661b19c09266f9673d369873be153dc02",
+        "sha256sum" : "9999dc796c0859b1b4e12c03aa395f25da478af0c7a475e419624941c0f33206"
+      },
+      {
+        "name" : "BIOMD0000000275-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5841",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cf0e9380d2d7ca2a0ac83312bb0f1b19",
+        "sha1sum" : "31ae5f350e03278ca3f4baaf670ccd0eed263f70",
+        "sha256sum" : "8f66882ab49c7ef4b33007bb91f1607757b6196d6aeae952d878dec05e51fda6"
+      },
+      {
+        "name" : "BIOMD0000000275-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5841",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "461180d247700b85bf1319d5e4fc8a17",
+        "sha1sum" : "989b38842efcbfd713d407fb9060d16c0ca20f20",
+        "sha256sum" : "6b2895934cff0fc27ec53340d7dc1cfd301c6da95ce9050975baa241bffdbdfe"
+      },
+      {
+        "name" : "BIOMD0000000275.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5841",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "461180d247700b85bf1319d5e4fc8a17",
+        "sha1sum" : "989b38842efcbfd713d407fb9060d16c0ca20f20",
+        "sha256sum" : "6b2895934cff0fc27ec53340d7dc1cfd301c6da95ce9050975baa241bffdbdfe"
+      },
+      {
+        "name" : "BIOMD0000000275.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3658",
+        "mimeType" : "text/plain",
+        "md5sum" : "bb3d638860c3b01baee7d0fa2c5c91b9",
+        "sha1sum" : "4d34f99eec26d8414c49198942755e20c9da32ec",
+        "sha256sum" : "92dfd9e0804355f336ed32bb14760ca06707442b01bd7e82e1f4be478b8aa853"
+      },
+      {
+        "name" : "BIOMD0000000275.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "186184",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6b41e56b23c6c943b452323ef3c8402a",
+        "sha1sum" : "e884426f5ff996d8a9fab82bb5dd7d36b9d30699",
+        "sha256sum" : "d52c7825aecae2c6ab48380c65b158ba1537322923f6ece954cf01bda0149ad5"
+      },
+      {
+        "name" : "BIOMD0000000275.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "41581",
+        "mimeType" : "image/png",
+        "md5sum" : "4ef352b7f527b95b0597c0689149c3e4",
+        "sha1sum" : "4285365a79ef601a51dcbaa93799af148bb23e5e",
+        "sha256sum" : "341ea0230cf430105fabbb5d842a885b0bb4a41c4c4623f2c7788504eb43332e"
+      },
+      {
+        "name" : "BIOMD0000000275.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "19405",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b331dd0dc7722c734edbe51eb015ab1c",
+        "sha1sum" : "03494a7aba982ac838df1cd562d796cf5205f402",
+        "sha256sum" : "dfc24b5a403938958c7745055fdd7b0a1bb9598306063f942f574279b6ec0ec9"
+      },
+      {
+        "name" : "BIOMD0000000275_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "22213",
+        "mimeType" : "application/xml",
+        "md5sum" : "64700cfefc1e8fb94184da955775882a",
+        "sha1sum" : "790a4079710c412089b4c58be997f371cfd0b37d",
+        "sha256sum" : "37c01747af5c7a4878996e5890de15269da782f403ec955fe4fd26239767d36f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "26157",
+        "mimeType" : "image/png",
+        "md5sum" : "7d20c7d06281ea662328bc758fdabd16",
+        "sha1sum" : "3672385f90ff31d3ba9b15842e6f42707efc77ca",
+        "sha256sum" : "0ca55984dca2820baf911c21d7f39174207f6d8f8dd66caa378b5cbf3de15afb"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "310",
+        "mimeType" : "text/plain",
+        "md5sum" : "e16d4694feb19c8688622d6d970e674d",
+        "sha1sum" : "427a851cb443a71e1b3b4ea51ee92ec47d0802fb",
+        "sha256sum" : "1c73e755340b697da8837c62cddbbd7ca7ca1fd02b431cf83021ff31b8f085ad"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "84bb402b3bfe09a7659a0ad326b94600",
+        "sha1sum" : "8c97c91f5c59216f3f3caab4e324b759af27c4a8",
+        "sha256sum" : "498221452d901fde5d6fe559fb5f6651ac49c13794049c5a997f3f3f4fa22242"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4472",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2e487aec2345e91f0f8d8bdb81db89f3",
+        "sha1sum" : "fbfe24bef4143b83cb3bccc9bb5b2cd91a47ab17",
+        "sha256sum" : "9c7af033d9acdaf0b01b19f208f32ca6463a36877f0b83105abbb126dfd1ccfe"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1289982705,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Goldbeter2007_Somitogenesis_Switch"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135952,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Goldbeter2007_Somitogenesis_Switch"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272199,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284993,
+  "submissionId" : "MODEL1011170000",
+  "publicationId" : "BIOMD0000000275",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1011170000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1011170000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000275",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000275"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17497689",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17497689"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7742",
+      "name" : "Vertebrata",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7742"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0032526",
+      "name" : "response to retinoic acid",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0032526"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0044344",
+      "name" : "cellular response to fibroblast growth factor stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0044344"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0001756",
+      "name" : "somitogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0001756"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

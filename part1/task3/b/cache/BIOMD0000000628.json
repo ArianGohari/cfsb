@@ -1,0 +1,304 @@
+{
+  "name" : "Li2012 Calcium mediated synaptic plasticity",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Li2012 Calcium mediated synapticplasticity</div><div class=\"dc:provenance\">This model is an extension of  <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000183\">BIOMD0000000183</a>.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/22962589\" title=\"Access to this publication\">Calcium input frequency,    duration and amplitude differentially modulate the relative    activation of calcineurin and CaMKII.</a>  </div>  <div class=\"bibo:authorList\">Li L, Stefan MI, Le Novère  N.</div>  <div class=\"bibo:Journal\">PLoS ONE 2012; 7(9): e43810</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>NMDA receptor dependent long-term potentiation (LTP) and    long-term depression (LTD) are two prominent forms of synaptic    plasticity, both of which are triggered by post-synaptic    calcium elevation. To understand how calcium selectively    stimulates two opposing processes, we developed a detailed    computational model and performed simulations with different    calcium input frequencies, amplitudes, and durations. We show    that with a total amount of calcium ions kept constant, high    frequencies of calcium pulses stimulate calmodulin more    efficiently. Calcium input activates both calcineurin and    Ca(2+)/calmodulin-dependent protein kinase II (CaMKII) at all    frequencies, but increased frequencies shift the relative    activation from calcineurin to CaMKII. Irrespective of    amplitude and duration of the inputs, the total amount of    calcium ions injected adjusts the sensitivity of the system to    calcium input frequencies. At a given frequency, the quantity    of CaMKII activated is proportional to the total amount of    calcium. Thus, an input of a small amount of calcium at high    frequencies can induce the same activation of CaMKII as a    larger amount, at lower frequencies. Finally, the extent of    activation of CaMKII signals with high calcium frequency is    further controlled by other factors, including the availability    of calmodulin, and by the potency of phosphatase    inhibitors.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000628\">BIOMD0000000628</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22962589",
+    "journal" : "PloS one",
+    "title" : "Calcium input frequency, duration and amplitude differentially modulate the relative activation of calcineurin and CaMKII.",
+    "affiliation" : "EMBL European Bioinformatics Institute, Hinxton, United Kingdom.",
+    "synopsis" : "NMDA receptor dependent long-term potentiation (LTP) and long-term depression (LTD) are two prominent forms of synaptic plasticity, both of which are triggered by post-synaptic calcium elevation. To understand how calcium selectively stimulates two opposing processes, we developed a detailed computational model and performed simulations with different calcium input frequencies, amplitudes, and durations. We show that with a total amount of calcium ions kept constant, high frequencies of calcium pulses stimulate calmodulin more efficiently. Calcium input activates both calcineurin and Ca(2+)/calmodulin-dependent protein kinase II (CaMKII) at all frequencies, but increased frequencies shift the relative activation from calcineurin to CaMKII. Irrespective of amplitude and duration of the inputs, the total amount of calcium ions injected adjusts the sensitivity of the system to calcium input frequencies. At a given frequency, the quantity of CaMKII activated is proportional to the total amount of calcium. Thus, an input of a small amount of calcium at high frequencies can induce the same activation of CaMKII as a larger amount, at lower frequencies. Finally, the extent of activation of CaMKII signals with high calcium frequency is further controlled by other factors, including the availability of calmodulin, and by the potency of phosphatase inhibitors.",
+    "year" : 2012,
+    "month" : "0",
+    "volume" : "7",
+    "issue" : "9",
+    "pages" : "e43810",
+    "link" : "http://identifiers.org/pubmed/22962589",
+    "authors" : [
+      {
+        "name" : "Lu Li",
+        "institution" : "EMBL European Bioinformatics Institute, Hinxton, United Kingdom.",
+        "orcid" : "0000-0002-6199-522X"
+      },
+      {
+        "name" : "Melanie I Stefan",
+        "orcid" : "0000-0002-6086-7357"
+      },
+      {
+        "name" : "Nicolas Le Novère"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000628_url.xml",
+        "description" : "SBML L2V4 representation of Li2012 Calcium mediated synaptic plasticity",
+        "fileSize" : "1542101",
+        "mimeType" : "application/xml",
+        "md5sum" : "914d95c54be6c7386e8267870109fe52",
+        "sha1sum" : "019c384b1d16dfc8edd4d691e59622fc927d349f",
+        "sha256sum" : "b4eb0ff0562b5a1c8ca3ff3af52a0e469501e4804a52b26a994552168f476c9f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000628-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "855612",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2999c7fcea7431dba60875db37f8c9ff",
+        "sha1sum" : "6860c88789a9b348b92c3934e8c7c110f2ff2be6",
+        "sha256sum" : "89d48f91739aa72a1cea0788fdaa91a583e067077e8b8be3d74b9a9bfbad8f83"
+      },
+      {
+        "name" : "BIOMD0000000628-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "1625950",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "14f7f6f87b6ccc027214fd2734b88854",
+        "sha1sum" : "f4241873bfc866b2c28529fc29212ef1ed76ef4f",
+        "sha256sum" : "c0e4502fb212347e587c8c1c79d774eaeaf091059360686fa25ca9404f4afce5"
+      },
+      {
+        "name" : "BIOMD0000000628-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "196336",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ee4c8a9964401d05139df66ccdf0fb8a",
+        "sha1sum" : "b99a6de62743afe8a530dcd6d43d0d0a9be410df",
+        "sha256sum" : "0338d75c9f80fcfc15cab465b483c085b41be1c5070157fc2044c2f964376b52"
+      },
+      {
+        "name" : "BIOMD0000000628.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "196336",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fea1b30f066acfc2f415f691678f573a",
+        "sha1sum" : "b6b01824bbdb87cb73447d7c6413f9a82bdd230c",
+        "sha256sum" : "eecc632d627ee0f42354346a234e1515c743342a186cbbb5d2199ffdf6eff9f2"
+      },
+      {
+        "name" : "BIOMD0000000628.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "153617",
+        "mimeType" : "text/plain",
+        "md5sum" : "016cf7807015945734945e7ccd2896c9",
+        "sha1sum" : "3face0fbffa4b0c713bb945a59d3a3491087304c",
+        "sha256sum" : "b51148e47738c3d1b3adac5da0ec8de1be0e9b38447c1b30cacfaa6821573c7c"
+      },
+      {
+        "name" : "BIOMD0000000628.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "2998796",
+        "mimeType" : "application/pdf",
+        "md5sum" : "29305db4c9b9eb635189efe792c8b398",
+        "sha1sum" : "cb8adc92323990a5b8bc407a51469ef918f5fa0a",
+        "sha256sum" : "550edf333aa48c1b0b0a1e46828ee307a79d93637f22e13856e510e6a49a4116"
+      },
+      {
+        "name" : "BIOMD0000000628.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4328",
+        "mimeType" : "image/png",
+        "md5sum" : "81d994e161e608211e54f3b88628ba10",
+        "sha1sum" : "2eb1c19f2746daea7ec9f483fd6d13541d71e2cd",
+        "sha256sum" : "5177e89f3c778429d69859aa4db6576c53bff2fb12ed66b8dec949c8014d6d71"
+      },
+      {
+        "name" : "BIOMD0000000628.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "567",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a6cca78c4cde870f6c61e1dce77325a4",
+        "sha1sum" : "c446761af7967a47433f2a765510f831e9d814e1",
+        "sha256sum" : "8552553f59b553e561e36176e270a39a7a1d2e121cc41022b5359fcafc3a2259"
+      },
+      {
+        "name" : "BIOMD0000000628.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "2039153",
+        "mimeType" : "application/xml",
+        "md5sum" : "f500eaf2c531da7684c45e41135b3f48",
+        "sha1sum" : "e0580774b84c243cd4035517f4dfa92409ff755d",
+        "sha256sum" : "507aefaca35af8dc11ea162f9d177cfb8511e85d8497fa863fa0073df75eb463"
+      },
+      {
+        "name" : "BIOMD0000000628_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "516754",
+        "mimeType" : "application/xml",
+        "md5sum" : "a6718c549e46219449e953c896ed2862",
+        "sha1sum" : "9b8dbbf8dc65e657ca64fe121a27ca2bbc4c0fc3",
+        "sha256sum" : "0cb546719df06238685118d571b472656dc3e070218c907eb176d0ec3afc15a3"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "65556",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "fc71c300f8ca73ae52cef3a9d9a5d1e4",
+        "sha1sum" : "45e52d700040c50da6f4602b52df27387936e9d2",
+        "sha256sum" : "6671cdca3df963637f591923e26e74da62916d9e5e0c4a65afe6f0a0ae6dfbb8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "461",
+        "mimeType" : "text/plain",
+        "md5sum" : "512ac121d4309b35f8d80f1a91bee3d1",
+        "sha1sum" : "2502a1a96669a30743f8667cd6c064acdec938c7",
+        "sha256sum" : "34f0462fb40d7aaf53ec919a02d7091c49051dcff0258dc0ec9f7d5db925adcd"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1795",
+        "mimeType" : "application/xml",
+        "md5sum" : "c1cbbb3c114696e8a1dc8d26b0d5b1db",
+        "sha1sum" : "37e1522e427e996bdbd93c9c67d7f7592d181339",
+        "sha256sum" : "894ec203a204ee0a3888f6b0d4d4ff147abef173766d0d535ba3a8e4dd7d6ee9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5190",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d570e16c643a63543c9846c3e03843b4",
+        "sha1sum" : "0af59f67aac1ff73317d8d1cf0dc5a47e04b54a7",
+        "sha256sum" : "898a46eed821778310abaaaf89b0b5c6fd213d6d7e01b576f9d665c6ead2853e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1488901095,
+        "submitter" : "Varun Kothamachu",
+        "comment" : "Original import of Ca mediated Syanptic Plasticity"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1493728035,
+        "submitter" : "Varun Kothamachu",
+        "comment" : "Current version of Li2012 Calcium mediated synaptic plasticity"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724284667,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285394,
+  "submissionId" : "MODEL1703070000",
+  "publicationId" : "BIOMD0000000628",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Varun Kothamachu",
+        "email" : "kothamav@babraham.ac.uk",
+        "affiliation" : "Babraham Institute",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1703070000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1703070000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000628",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000628"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22962589",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22962589"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000183",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000183"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_9053.2",
+      "name" : "CaM pathway",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_9053.2"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko04720",
+      "name" : "Long-term potentiation",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko04720"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:1900452",
+      "name" : "regulation of long term synaptic depression",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1900452"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0048167",
+      "name" : "regulation of synaptic plasticity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048167"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:1900271",
+      "name" : "regulation of long-term synaptic potentiation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1900271"
+    }
+  ]
+}

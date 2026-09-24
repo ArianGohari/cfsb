@@ -1,0 +1,325 @@
+{
+  "name" : "Sluka2016  - Acetaminophen PBPK",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <h1>Basic PBPK (Physiologically Based PharmacoKinetic) model of Acetaminophen.</h1>            <p>This is a basic model of Acetaminophen (APAP, Paracetamol) pharmacokinetics in humans. Many of the model parameters             (compartment volumes, volumetric flow rates, etc.) are scaled allometrically based on the body weight (BW) raised to the\t\t\t3/4 power. Because of that, the assigned values of many of the parameters are recalculated at run time and are different \t\t\tthan the default values for the particular entity (e.g., the volume of a compartment and the volumetric flow rate between compartments).</p>            <p>APAP dose is initially given in grams (APAP_Dose_gram), which is converted to moles via the APAP molecular weight (APAP_MW).\t\t\tAPAP quantities throughout the rest of the models are given in moles.</p>            <p>The base parameters are for a 70Kg human and a pharmacological oral dose of 1.4 gram of APAP. Metabolism is modelled as a single ODE in the liver compartment and the metabolite does not leave that compartment.</p>            <p>This model is loosely based on the model of Wambaugh and Shaw (PLoS Comput Biol. 2010 Apr 22;6(4):e1000756. doi: 10.1371/journal.pcbi.1000756. Pubmed ID: PMID- 20421935) with the following changes:</p>            <ol>      <li>The lung lumen compartment was omitted.</li>                <li>A kidney compartment was added.</li>                <li>Glomerular Filtration is from the kidney compartment.</li>                <li>The APAP dose was changed to 1.4g.</li>                <li>The gut adsorption rate constant (KGutabs),  tissue partition coefficients and liver metabolism rate constant (CLmetabolism) were fit using the human        <i>in vivo</i>            data of Critchley (Critchley, J. A., Critchley, L. A. H., Anderson, P. J., and Tomlinson, B. 2005  Journal of clinical pharmacy and therapeutics, 30(2), 179-184).        </li>                <li>        <b>To model the extensive re-adsorption of APAP from the kidney tubules back into the blood the QGfr value is modified. This was done by \t\t\t\tchanging the scaling parameter QGFR_ref value from 0.31 to 0.039, resulting in a decrease in the QGfr value of 8 fold (from 7.2 L/hr to 0.91 L/hr).</b>                    </li>                </ol>            <p>The parameters in this file are the      <b>REFSIM</b>          parameters from our publication.      </p>            </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "27636091",
+    "journal" : "PloS one",
+    "title" : "A Liver-Centric Multiscale Modeling Framework for Xenobiotics.",
+    "affiliation" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+    "synopsis" : "We describe a multi-scale, liver-centric in silico modeling framework for acetaminophen pharmacology and metabolism. We focus on a computational model to characterize whole body uptake and clearance, liver transport and phase I and phase II metabolism. We do this by incorporating sub-models that span three scales; Physiologically Based Pharmacokinetic (PBPK) modeling of acetaminophen uptake and distribution at the whole body level, cell and blood flow modeling at the tissue/organ level and metabolism at the sub-cellular level. We have used standard modeling modalities at each of the three scales. In particular, we have used the Systems Biology Markup Language (SBML) to create both the whole-body and sub-cellular scales. Our modeling approach allows us to run the individual sub-models separately and allows us to easily exchange models at a particular scale without the need to extensively rework the sub-models at other scales. In addition, the use of SBML greatly facilitates the inclusion of biological annotations directly in the model code. The model was calibrated using human in vivo data for acetaminophen and its sulfate and glucuronate metabolites. We then carried out extensive parameter sensitivity studies including the pairwise interaction of parameters. We also simulated population variation of exposure and sensitivity to acetaminophen. Our modeling framework can be extended to the prediction of liver toxicity following acetaminophen overdose, or used as a general purpose pharmacokinetic model for xenobiotics.",
+    "year" : 2016,
+    "month" : "0",
+    "volume" : "11",
+    "issue" : "9",
+    "pages" : "e0162428",
+    "link" : "http://identifiers.org/pubmed/27636091",
+    "authors" : [
+      {
+        "name" : "James P Sluka",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+        "orcid" : "0000-0002-5901-1404"
+      },
+      {
+        "name" : "Xiao Fu",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+        "orcid" : "0000-0002-8611-891X"
+      },
+      {
+        "name" : "Maciej Swat",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America."
+      },
+      {
+        "name" : "Julio M Belmonte",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+        "orcid" : "0000-0002-4315-9631"
+      },
+      {
+        "name" : "Alin Cosmanescu",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America."
+      },
+      {
+        "name" : "Sherry G Clendenon",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+        "orcid" : "0000-0002-3353-0919"
+      },
+      {
+        "name" : "John F Wambaugh",
+        "institution" : "National Center for Computational Toxicology Office of Research and Development US EPA, Research Triangle Park, NC 27711, United States of America.",
+        "orcid" : "0000-0002-4024-534X"
+      },
+      {
+        "name" : "James A Glazier",
+        "institution" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+        "orcid" : "0000-0003-3634-190X"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000619_url.xml",
+        "description" : "SBML L2V4 representation of Sluka2016  - Acetaminophen PBPK",
+        "fileSize" : "62139",
+        "mimeType" : "application/xml",
+        "md5sum" : "d4dba8db32efe56c28dd9bb52cdd1936",
+        "sha1sum" : "6b5a5b3b06e6fa96dabe6a4ba20964b19c1e277c",
+        "sha256sum" : "16f91200d21a7ea1b86f6fcaba74016c5c5db91eebe9d5fe00cb7d996e908bfd"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000619-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18014",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6834743ef2d847340bdf23bf88aca9a8",
+        "sha1sum" : "113ef079859e03205a44999156a4c54838d0a5d7",
+        "sha256sum" : "7b1de77c6315ec1e62615673c4c99073e5b19aaacf717dce76dc2e4711000c86"
+      },
+      {
+        "name" : "BIOMD0000000619-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "29023",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6596b83e9ad09df54bd68cce43d9f1da",
+        "sha1sum" : "59155723cf6bced742c979ab26ee2de7a30f7a81",
+        "sha256sum" : "78843a8ada8fec0ec68efbbf7953b6350b8cdc562be6fe6def1d2ecaf07a71b7"
+      },
+      {
+        "name" : "BIOMD0000000619-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9537",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "79f13a5ec0a2f4dcdd15a1922be66826",
+        "sha1sum" : "192564d8878288597d953b9dab82a5fd02fdd242",
+        "sha256sum" : "c4a811f8ffb9680be2200d7a57bd457e2a182cea475f9264123179ee1011dde2"
+      },
+      {
+        "name" : "BIOMD0000000619-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9537",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d9a6ac9d0ac5427186b9fef27455eef5",
+        "sha1sum" : "f97d00a6164943ad007fd8ed03483303dd1c97f1",
+        "sha256sum" : "42b70b6e8dd78febe14ef52a6543e93dabf6e5750763a734480e82f65db8ab4a"
+      },
+      {
+        "name" : "BIOMD0000000619.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9537",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d9a6ac9d0ac5427186b9fef27455eef5",
+        "sha1sum" : "f97d00a6164943ad007fd8ed03483303dd1c97f1",
+        "sha256sum" : "42b70b6e8dd78febe14ef52a6543e93dabf6e5750763a734480e82f65db8ab4a"
+      },
+      {
+        "name" : "BIOMD0000000619.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6932",
+        "mimeType" : "text/plain",
+        "md5sum" : "94b4a2db259205bbb76a189a5191ef51",
+        "sha1sum" : "a495d737a89ae2c30eb52ac0ddea0e905b8199cd",
+        "sha256sum" : "9cb186f4d69a10e8f0aaaaf9c490962b91ad3107b20eb7acb29fd1cb1b5b77c0"
+      },
+      {
+        "name" : "BIOMD0000000619.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "244976",
+        "mimeType" : "application/pdf",
+        "md5sum" : "ba6e01df8859aeea35c0205fb7734413",
+        "sha1sum" : "4529e0f161ffa7ef7f0d460c77eba2294ebee067",
+        "sha256sum" : "7adc59e66bd2395d6c4e5543121eb583ded47fa20688c755c27b7ec6bd275790"
+      },
+      {
+        "name" : "BIOMD0000000619.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "55231",
+        "mimeType" : "image/png",
+        "md5sum" : "7f00ebb398cd6419f7361e8d4c85f2a9",
+        "sha1sum" : "858ed0fd8d525f2d0b8981a8e9236b8e2add6c8a",
+        "sha256sum" : "b968f685467a163f57cf73ffbc3dfaf2af3cd425eaab2d1b8a2353387bdab78f"
+      },
+      {
+        "name" : "BIOMD0000000619.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "23188",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "22c1082c41cbc26d010170762ed55f4b",
+        "sha1sum" : "720a11fa13db6f26d622a0112d8ce98a257c9ea3",
+        "sha256sum" : "9883d2c03e5c847086150cf4c2e07482e16c1db37404674a464f4a8177098bff"
+      },
+      {
+        "name" : "BIOMD0000000619_APAP_PBPK.png",
+        "description" : "Grpahical layout of the PBPK model",
+        "fileSize" : "288184",
+        "mimeType" : "image/png",
+        "md5sum" : "3b6e5b0cf65ce28189dc0304fcf72410",
+        "sha1sum" : "702b87567e4e5b95760fb3d9a3b97d0dfad60489",
+        "sha256sum" : "c39b9d01040a034f63813bc1829d91004b3d784863ff5785d68a51aac93dffc7"
+      },
+      {
+        "name" : "BIOMD0000000619_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "37061",
+        "mimeType" : "application/xml",
+        "md5sum" : "c862ff7e39268f57ef7d50aa43eb8533",
+        "sha1sum" : "db0b0bc3f430cf70a3cd48c4c416975978d138de",
+        "sha256sum" : "ac8edc96a25f6490f3daeae0cc637ae32898aae801d8eae59e7898bc16988c96"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "44005",
+        "mimeType" : "image/png",
+        "md5sum" : "09b3ceed8f9269c1e5fa6f042bfa2d87",
+        "sha1sum" : "4436f3304224b8f9cbd2863b0b413906a13eece3",
+        "sha256sum" : "0139e51353d629cb23fd42e341764a8b2372ab687c91ad023f051b3c8f35dd8f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "801c18d20d75f8a8fe21a049d259443c",
+        "sha1sum" : "d871a26bb025bd163890c94fb512e7983e716e24",
+        "sha256sum" : "38ccbde33343f9d1d2a6ad9aa0ff5d1ab13152ae2691edbb0ccf81a4f93898e6"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1910",
+        "mimeType" : "application/xml",
+        "md5sum" : "8f1d1c583733e7076b38b2126a148098",
+        "sha1sum" : "c5c2fa68bb6f2bd268edb58154a66793f259ae8b",
+        "sha256sum" : "246917203f2fadd71d6bc5eee71be8c229e56dfc53ccde58a3f6fb0de50a1017"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4926",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "749e7e203306523d5d19e3b6d869625f",
+        "sha1sum" : "f77b8b14cfb34951cc3534f8b9f8bc685cc51a5f",
+        "sha256sum" : "5f1da749f090b445b49cd5088585cf8f72014b2be42893308ac8055e845bae78"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1443015138,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Wambaugh APAP PBPK"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495539127,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Sluka2016  - Acetaminophen PBPK"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1641244976,
+        "submitter" : "James P Sluka",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724284312,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285392,
+  "submissionId" : "MODEL1509230010",
+  "publicationId" : "BIOMD0000000619",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000203",
+    "name" : "physiologically based pharmacokinetic model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000203"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      },
+      {
+        "name" : "James P Sluka",
+        "email" : "JSluka@indiana.edu",
+        "affiliation" : "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+        "orcid" : "0000-0002-5901-1404",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1509230010",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1509230010"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000619",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000619"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "27636091",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/27636091"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "20421935",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20421935"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0017144",
+      "name" : "drug metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0017144"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042910",
+      "name" : "xenobiotic transporter activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042910"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    }
+  ]
+}

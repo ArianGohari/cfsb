@@ -1,0 +1,296 @@
+{
+  "name" : "Montañez2008_Arginine_catabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      <span style=\"font-weight:600\">SBML creators: Armando Reyes-Palomares * , Raul Montañez *, Carlos Rodriguez-Caso +, Francisca Sanchez-Jimenez * , Miguel A. Medina *</span>                </p>            <p>      <span style=\"font-weight:600\">* ProCel Group, Department of Molecular Biology and Biochemistry, Faculty of Sciences, Campus de Teatinos, University of Malaga and CIBER de Enfermedades Raras (CIBER-ER). + Complex Systems Lab (ICREA-UPF), Barcelona Biomedical Research Park (PRBB-GRIB).</span>                </p>            <p>      <span style=\"font-weight:600\">http://asp.uma.es</span>                </p>            <p>      <span style=\"font-weight:600\">In silico analysis of arginine catabolism as a source of nitric oxide or polyamines in endothelial cells.</span>                <br />                <span style=\"font-style:italic\">Montañez, R et al.: Amino Acids. 2008 Feb;34(2):223-9.</span>                <br />          The model reproduces the dynamical behavior of the arginine catabolism and transport in relation to the nitric oxide production. In this model there are some additions and corrections to the publication. All perturbations and analysis have produced results very close to the published experiments. The model was successfully tested on CoPaSi v.4.4 (build 26).      </p>            <p>Erratum: parameters values modificated respect to the publication to reach the steady-state:</p>            <p>Kmodc=90 µM (60 µM in the paper)</p>            <p>Kiornhat (is equivalent to the parameter Kmefflhat Eq ) = 360 µM (380 µM in the paper)</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17520329",
+    "journal" : "Amino acids",
+    "title" : "In silico analysis of arginine catabolism as a source of nitric oxide or polyamines in endothelial cells.",
+    "affiliation" : "Procel Group, Department of Molecular Biology and Biochemistry, University of Málaga, and CIBERER, Málaga, Spain.",
+    "synopsis" : "We use a modeling and simulation approach to carry out an in silico analysis of the metabolic pathways involving arginine as a precursor of nitric oxide or polyamines in aorta endothelial cells. Our model predicts conditions of physiological steady state, as well as the response of the system to changes in the control parameter, external arginine concentration. Metabolic flux control analysis allowed us to predict the values of flux control coefficients for all the transporters and enzymes included in the model. This analysis fulfills the flux control coefficient summation theorem and shows that both the low affinity transporter and arginase share the control of the fluxes through these metabolic pathways.",
+    "year" : 2008,
+    "month" : "2",
+    "volume" : "34",
+    "issue" : "2",
+    "pages" : "223-229",
+    "link" : "http://identifiers.org/pubmed/17520329",
+    "authors" : [
+      {
+        "name" : "R Montañez",
+        "orcid" : "0000-0003-1667-2218"
+      },
+      {
+        "name" : "C Rodríguez-Caso",
+        "institution" : "Departamento de Biología Molecular y Bioquímica, Facultad de Ciencias, Universidad de Málaga, Málaga E-29071, Spain.",
+        "orcid" : "0000-0002-0423-6681"
+      },
+      {
+        "name" : "F Sánchez-Jiménez",
+        "orcid" : "0000-0002-4958-6060"
+      },
+      {
+        "name" : "M A Medina",
+        "orcid" : "0000-0001-7275-6462"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000191_url.xml",
+        "description" : "SBML L2V3 representation of Montañez2008_Arginine_catabolism",
+        "fileSize" : "25004",
+        "mimeType" : "application/xml",
+        "md5sum" : "46f76c0abae99c2265638e09e024d14d",
+        "sha1sum" : "3b130d30eb3f2efef4de05997fb975ed6675963f",
+        "sha256sum" : "85598773f60544852ec927a21e2448cbfb432ac54f7a0e54a5a2f6bc3974c061"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000191-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "15343",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2472d17c792f146faea57ba18eff4fff",
+        "sha1sum" : "0b778bdebada15ae66eb91f341593f525d3f489d",
+        "sha256sum" : "9ad52feacfaa36b51e68fc87b6fdee676af2164d63773d1712322cfe69ebc5f9"
+      },
+      {
+        "name" : "BIOMD0000000191-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "18760",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "730401c92034fa1c849c3f28f2de1a26",
+        "sha1sum" : "a9ee0671a8933197c7dc91a1e6b3be481178adf1",
+        "sha256sum" : "1de05b3900572c7ed2fd400792a5541362e173c8daf7a3bc22024ec49d56f882"
+      },
+      {
+        "name" : "BIOMD0000000191-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5959",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e6e336bc231ea108672d88e1b20a5dcc",
+        "sha1sum" : "d19b28dfb11ba089b031dcec32a2631558eb737a",
+        "sha256sum" : "148b9d0a5780e08be0f1677276444dc20778059f46cef527b9f972764963634a"
+      },
+      {
+        "name" : "BIOMD0000000191-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5959",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fb3bd47a1b19a59de8b8653a1cedfcd5",
+        "sha1sum" : "b16e1bd198a8c05503ce6679efae66dc3905f03d",
+        "sha256sum" : "1d23ee19cfd372a1f3433360d0a1b4783cc2c777c2595c76dbc267fc3bf76bb0"
+      },
+      {
+        "name" : "BIOMD0000000191.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5960",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cbe469a5678238dba1adfd7a65550ef0",
+        "sha1sum" : "fc84312338dbe72c5e5f6b95769a1b9aed6adc79",
+        "sha256sum" : "bc0162fe95c7b1b0403071c13ddf23bbfb6b797a821c3cb1b4aa1564b87013b7"
+      },
+      {
+        "name" : "BIOMD0000000191.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3180",
+        "mimeType" : "text/plain",
+        "md5sum" : "25387f2b74750eef6d78cad2a9947c16",
+        "sha1sum" : "337da611f7e1fe4c76a4bec86ba2edbde5aa0cee",
+        "sha256sum" : "d9e86ed3ae77ba073ce9f52fc9fdd4f1272af1d1392130a6e53f452326ea0096"
+      },
+      {
+        "name" : "BIOMD0000000191.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "172811",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f29413e3c8dd5e1be973e99d9ef1dc65",
+        "sha1sum" : "62e35a0d8517facd7dd9edfdfc02a9b0ead94d8c",
+        "sha256sum" : "8f75897bc768461f74b9c2ebca8437ae0e2419b0364614092860e0105384f9fa"
+      },
+      {
+        "name" : "BIOMD0000000191.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "32928",
+        "mimeType" : "image/png",
+        "md5sum" : "737638d74775e92024296a9c0809ecae",
+        "sha1sum" : "9f61667dece26fb4f8a1aa945f2298cd62618d13",
+        "sha256sum" : "eea6f1ac7539986a5f9cc3f065d1dfb4f2f926d688d68b2cb1ac1be6989cebcd"
+      },
+      {
+        "name" : "BIOMD0000000191.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "11899",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2d0d9810429f8fbf88d001c71ead398e",
+        "sha1sum" : "a0c147fe8509b19fe76cb9ef44f240eca0849299",
+        "sha256sum" : "ae7e45ee79ce959db1d4cadd871e8ff6a20109bbce1adae22f529658a951b284"
+      },
+      {
+        "name" : "BIOMD0000000191_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "7505",
+        "mimeType" : "application/xml",
+        "md5sum" : "bd76f535f7f8d62c3fe9a14734a93382",
+        "sha1sum" : "f690e69bd51910d1d4eff1c45a900b1678927bbe",
+        "sha256sum" : "6961f365d413b633d521340653c7021a3c6a03f6c73513c1487cc4378955a679"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "69702",
+        "mimeType" : "image/png",
+        "md5sum" : "faf88bf4a76264f09a38c805d20a6a48",
+        "sha1sum" : "f71d624cb4a5055a580eaf3c4ccf4c3b80d9e77c",
+        "sha256sum" : "c63140fa39fed0678c5de39eef3f8a8eb4313ff66575eb6665ef699fbfad1aca"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "87",
+        "mimeType" : "text/plain",
+        "md5sum" : "4cd9e0a6fa19f9d8b0ccde44278c9eed",
+        "sha1sum" : "1bf18844a369a6d298e5cd055767f6ca96071141",
+        "sha256sum" : "5a518ea53aa9404f363e4bcd55b92751276e683447bd1092eeeb4d01d9978151"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "416067c2522713f65b1c5ceaabf1a1ca",
+        "sha1sum" : "6fee89b29311382bed39d355f4b4b5f6c9b3f184",
+        "sha256sum" : "a8f647e27aa5e94c1e537cd8592d53136df777f4ec097a6c9d5c56dfb814b582"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4574",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "14122de2b09d17df5ad9e78a129ce060",
+        "sha1sum" : "b9217270e07af00b5e6a858b5bbb20062c07a5ba",
+        "sha256sum" : "ed1aa40891b8b57d19e95695a9be312e77d7d5144890a823e49443b13d8efa80"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1221068911,
+        "submitter" : "Armando Reyes-Palomares",
+        "comment" : "Original import of Montañez2008_Arginine_catabolism"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460133931,
+        "submitter" : "Armando Reyes-Palomares",
+        "comment" : "Current version of Montañez2008_Arginine_catabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269851,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284927,
+  "submissionId" : "MODEL7416883636",
+  "publicationId" : "BIOMD0000000191",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Armando Reyes-Palomares",
+        "email" : "armando@uma.es",
+        "affiliation" : "University of M?laga. CIBERER (Enfermedades Raras)",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7416883636",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7416883636"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000191",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000191"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17520329",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17520329"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0006527",
+      "name" : "arginine catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006527"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "map00330",
+      "name" : "Arginine and proline metabolism",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map00330"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006809",
+      "name" : "nitric oxide biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006809"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0006591",
+      "name" : "ornithine metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006591"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

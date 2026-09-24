@@ -1,0 +1,265 @@
+{
+  "name" : "Beltrami1995_ThrombinGeneration_C",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "7568009",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Mathematical analysis of activation thresholds in enzyme-catalyzed positive feedbacks: application to the feedbacks of blood coagulation.",
+    "affiliation" : "Department of Applied Mathematics and Statistics, State University of New York, Stony Brook 11794, USA.",
+    "synopsis" : "A hierarchy of enzyme-catalyzed positive feedback loops is examined by mathematical and numerical analysis. Four systems are described, from the simplest, in which an enzyme catalyzes its own formation from an inactive precursor, to the most complex, in which two sequential feedback loops act in a cascade. In the latter we also examine the function of a long-range feedback, in which the final enzyme produced in the second loop activates the initial step in the first loop. When the enzymes generated are subject to inhibition or inactivation, all four systems exhibit threshold properties akin to excitable systems like neuron firing. For those that are amenable to mathematical analysis, expressions are derived that relate the excitation threshold to the kinetics of enzyme generation and inhibition and the initial conditions. For the most complex system, it was expedient to employ numerical simulation to demonstrate threshold behavior, and in this case long-range feedback was seen to have two distinct effects. At sufficiently high catalytic rates, this feedback is capable of exciting an otherwise subthreshold system. At lower catalytic rates, where the long-range feedback does not significantly affect the threshold, it nonetheless has a major effect in potentiating the response above the threshold. In particular, oscillatory behavior observed in simulations of sequential feedback loops is abolished when a long-range feedback is present.",
+    "year" : 1995,
+    "month" : "9",
+    "volume" : "92",
+    "issue" : "19",
+    "pages" : "8744-8748",
+    "link" : "http://identifiers.org/pubmed/7568009",
+    "authors" : [
+      {
+        "name" : "E Beltrami",
+        "institution" : "Department of Applied Mathematics and Statistics, State University of New York, Stony Brook 11794, USA."
+      },
+      {
+        "name" : "J Jesty"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000368_url.xml",
+        "description" : "SBML L2V4 representation of Beltrami1995_ThrombinGeneration_C",
+        "fileSize" : "10615",
+        "mimeType" : "application/xml",
+        "md5sum" : "bba8c5de17474680b1e1536b22eb1cd7",
+        "sha1sum" : "0b78d51ba3b8d0b7a501b4fff440adf4177f9dca",
+        "sha256sum" : "114ae9850ccd1f0fcc8007bc577c29167b6de1afee5345e96f703dea4a4d38f2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000368-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3860",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9eec9f4986372707535de14e9083b4cb",
+        "sha1sum" : "870bc6215b48349d6175774bc6cceb0b11780fd2",
+        "sha256sum" : "951da7a78b3e0a0683d63e30f509593cfbe94c27c104eee82e3f31d15dff9f81"
+      },
+      {
+        "name" : "BIOMD0000000368-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "4716",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "16ffcc9db42c4327a4b930cb42d5c506",
+        "sha1sum" : "e1fde46da05daf6b48440e54b0849581a59cf5da",
+        "sha256sum" : "98f6d9ec819f7ad3c48306ffbf2dec8f79a9f76ddef57a244c9605460423ce42"
+      },
+      {
+        "name" : "BIOMD0000000368-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4787",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "65d9e921203c99fa54f81864aae52875",
+        "sha1sum" : "691c21ec5913d048cf81cd57c08b6e20f69e8bb8",
+        "sha256sum" : "3a444cfe38c9e1e02bd3ab8650f4c8317a15a33b0b9b2a4d847c26dc2845afcd"
+      },
+      {
+        "name" : "BIOMD0000000368-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4787",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3850c113160831b9bc42f8c19aa36ad0",
+        "sha1sum" : "da879eb303bd88dfe10e8a0120687624b89e1a14",
+        "sha256sum" : "88ce65d051e9312e90b5a063969b69fbed15a6eeac340edfc9bc6f2e5adc1e6e"
+      },
+      {
+        "name" : "BIOMD0000000368.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4787",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e4ea8da9de8bccf6094e307cdcad6f0a",
+        "sha1sum" : "6450388c33c4ab946c1ade73904bd6c265331faa",
+        "sha256sum" : "42fb39bf714afc2017e8f024ed282a69a12c31585bc8f135d10b9040a867046c"
+      },
+      {
+        "name" : "BIOMD0000000368.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2307",
+        "mimeType" : "text/plain",
+        "md5sum" : "20f39e90585acc71eeec22cc13701399",
+        "sha1sum" : "a4060a5eaf4ba9ac71db927c55e0b385a23ae0b7",
+        "sha256sum" : "e771ebea3e22393e99f3ad061038128dd816765dbb1b0f2fcc0ebe94b57196ae"
+      },
+      {
+        "name" : "BIOMD0000000368.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "138012",
+        "mimeType" : "application/pdf",
+        "md5sum" : "da5ab7569f84ae81f2152437eb824ddd",
+        "sha1sum" : "b56c5438cdbe1dc19e7de9aaef2acd59d94026de",
+        "sha256sum" : "010b3e3c6e79bec8ab4af7935e8f101186c2a400d3c419a7f3288d159a9a036d"
+      },
+      {
+        "name" : "BIOMD0000000368.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000368.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "2189",
+        "mimeType" : "text/plain",
+        "md5sum" : "81922b197778a6952d6435835d58b8f8",
+        "sha1sum" : "b410883c2ef997aab419cd268b455a66d6c4996a",
+        "sha256sum" : "a0842c9aea1f4a9d47b77e7348d73cd78e1965d3b99ea13991453a12729ea71a"
+      },
+      {
+        "name" : "BIOMD0000000368_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "12323",
+        "mimeType" : "application/xml",
+        "md5sum" : "5510a7515e385da2a846efe9ce8f85d6",
+        "sha1sum" : "23aae34929715cda5ea85f911fd4ce2b2b050591",
+        "sha256sum" : "235ad005ef9cf68aad46e613ae19e414d74e4bd4cf73c871bf14adb8401eb9da"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "53426",
+        "mimeType" : "image/png",
+        "md5sum" : "d44ae23f1f59af2884a828b2e8cad6b8",
+        "sha1sum" : "ac65525753a1a8d46b339395e426bb96212ffb72",
+        "sha256sum" : "51d3f5809fa09dc5e555e05f44f8a42557a8c240f005aed5a2e1116cbb2ebc3a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "111",
+        "mimeType" : "text/plain",
+        "md5sum" : "f4fc7c586862cda03c2ba0d451a0bc42",
+        "sha1sum" : "bbef2ab81e64b7808923d79b6c3d89742885322a",
+        "sha256sum" : "23a011817e2e38ea88bc1c3a7f632dbcce4442c356e6467d034e0916e5a64fce"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1797",
+        "mimeType" : "application/xml",
+        "md5sum" : "a462e4c29a50bbf07270167fe5d482b5",
+        "sha1sum" : "d118e130ea70f47f757a4f150b19fb86af30aa55",
+        "sha256sum" : "097b54bb0feacebbfac4c38e130b6d18982dc7529b33162b8adc02bbc1e29284"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2624",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a42efefd2b7999f467e9d0996d387bf8",
+        "sha1sum" : "8d7d39aeefb1fa1a68e57a5c8efd62b18f910807",
+        "sha256sum" : "dfb89a490b5c61f97e78f3b3f75c48f7d7ae9ccc4180d0e146b92237a3850632"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1314380986,
+        "submitter" : "Michael Schubert",
+        "comment" : "Original import of Jesty1995_ThrombinGeneration_C"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412879134,
+        "submitter" : "Michael Schubert",
+        "comment" : "Current version of Beltrami1995_ThrombinGeneration_C"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274828,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285088,
+  "submissionId" : "MODEL1108260011",
+  "publicationId" : "BIOMD0000000368",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Michael Schubert",
+        "email" : "schubert@ebi.ac.uk",
+        "affiliation" : "EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108260011",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108260011"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000368",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000368"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "7568009",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/7568009"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

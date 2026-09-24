@@ -1,0 +1,327 @@
+{
+  "name" : "Lebeda2008 - BoNT paralysis (3 step model)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Lebeda2008 - BoNT paralysis (3 step model)</div><div class=\"dc:description\">  <span style=\"color: rgb(0, 0, 0); font-family: helvetica, 'trebuchet MS', arial, sans-serif; font-size: 12px;\">The  onset of paralysis of skeletal muscles induced by BoNT/A at the  isolated rat neuromuscular junction is describing in the model.  This is the 3-step model described in the paper. This model is  the reduced form of the model developed my Simpson 1980;  PMID:  </span>  <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/6243359\" style=\"font-family: helvetica, 'trebuchet MS', arial, sans-serif; font-size: 12px;\">6243359</a>  <font color=\"#000000\" face=\"helvetica, trebuchet MS, arial, sans-serif\">    <span style=\"font-size: 12px;\"> , i.e., it omits three    unknown parameters that represents the binding sites for each    species of the toxin. The extension to this model, i.e.    the 4-step model described in the paper is     <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000178\">BIOMD0000000178</a>.</span>  </font></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/18551355\" title=\"Access to this publication\">Onset dynamics of type A    botulinum neurotoxin-induced paralysis.</a>  </div>  <div class=\"bibo:authorList\">Lebeda FJ, Adler M, Erickson K,  Chushak Y.</div>  <div class=\"bibo:Journal\">J Pharmacokinet Pharmacodyn 2008 Jun;  35(3): 251-267</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Experimental studies have demonstrated that botulinum    neurotoxin serotype A (BoNT/A) causes flaccid paralysis by a    multi-step mechanism. Following its binding to specific    receptors at peripheral cholinergic nerve endings, BoNT/A is    internalized by receptor-mediated endocytosis. Subsequently its    zinc-dependent catalytic domain translocates into the    neuroplasm where it cleaves a vesicle-docking protein, SNAP-25,    to block neurally evoked cholinergic neurotransmission. We    tested the hypothesis that mathematical models having a minimal    number of reactions and reactants can simulate published data    concerning the onset of paralysis of skeletal muscles induced    by BoNT/A at the isolated rat neuromuscular junction (NMJ) and    in other systems. Experimental data from several laboratories    were simulated with two different models that were represented    by sets of coupled, first-order differential equations. In this    study, the 3-step sequential model developed by Simpson (J    Pharmacol Exp Ther 212:16-21,1980) was used to estimate upper    limits of the times during which anti-toxins and other    impermeable inhibitors of BoNT/A can exert an effect. The    experimentally determined binding reaction rate was verified to    be consistent with published estimates for the rate constants    for BoNT/A binding to and dissociating from its receptors.    Because this 3-step model was not designed to reproduce    temporal changes in paralysis with different toxin    concentrations, a new BoNT/A species and rate (k(S)) were added    at the beginning of the reaction sequence to create a 4-step    scheme. This unbound initial species is transformed at a rate    determined by k(S) to a free species that is capable of    binding. By systematically adjusting the values of k(S), the    4-step model simulated the rapid decline in NMJ function (k(S)    &gt;or= 0.01), the less rapid onset of paralysis in mice    following i.m. injections (k (S) = 0.001), and the slow onset    of the therapeutic effects of BoNT/A (k(S) &lt; 0.001) in man.    This minimal modeling approach was not only verified by    simulating experimental results, it helped to quantitatively    define the time available for an inhibitor to have some effect    (t(inhib)) and the relation between this time and the rate of    paralysis onset. The 4-step model predicted that as the rate of    paralysis becomes slower, the estimated upper limits of    (t(inhib)) for impermeable inhibitors become longer. More    generally, this modeling approach may be useful in studying the    kinetics of other toxins or viruses that invade host cells by    similar mechanisms, e.g., receptor-mediated endocytosis.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000267\">BIOMD0000000267</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18551355",
+    "journal" : "Journal of pharmacokinetics and pharmacodynamics",
+    "title" : "Onset dynamics of type A botulinum neurotoxin-induced paralysis.",
+    "affiliation" : "Integrated Toxicology Division, US Army Medical Research Institute of Infectious Diseases, Fort Detrick, MD 21702-5011, USA. Frank.Lebeda@amedd.army.mil",
+    "synopsis" : "Experimental studies have demonstrated that botulinum neurotoxin serotype A (BoNT/A) causes flaccid paralysis by a multi-step mechanism. Following its binding to specific receptors at peripheral cholinergic nerve endings, BoNT/A is internalized by receptor-mediated endocytosis. Subsequently its zinc-dependent catalytic domain translocates into the neuroplasm where it cleaves a vesicle-docking protein, SNAP-25, to block neurally evoked cholinergic neurotransmission. We tested the hypothesis that mathematical models having a minimal number of reactions and reactants can simulate published data concerning the onset of paralysis of skeletal muscles induced by BoNT/A at the isolated rat neuromuscular junction (NMJ) and in other systems. Experimental data from several laboratories were simulated with two different models that were represented by sets of coupled, first-order differential equations. In this study, the 3-step sequential model developed by Simpson (J Pharmacol Exp Ther 212:16-21,1980) was used to estimate upper limits of the times during which anti-toxins and other impermeable inhibitors of BoNT/A can exert an effect. The experimentally determined binding reaction rate was verified to be consistent with published estimates for the rate constants for BoNT/A binding to and dissociating from its receptors. Because this 3-step model was not designed to reproduce temporal changes in paralysis with different toxin concentrations, a new BoNT/A species and rate (k(S)) were added at the beginning of the reaction sequence to create a 4-step scheme. This unbound initial species is transformed at a rate determined by k(S) to a free species that is capable of binding. By systematically adjusting the values of k(S), the 4-step model simulated the rapid decline in NMJ function (k(S) >or= 0.01), the less rapid onset of paralysis in mice following i.m. injections (k (S) = 0.001), and the slow onset of the therapeutic effects of BoNT/A (k(S) < 0.001) in man. This minimal modeling approach was not only verified by simulating experimental results, it helped to quantitatively define the time available for an inhibitor to have some effect (t(inhib)) and the relation between this time and the rate of paralysis onset. The 4-step model predicted that as the rate of paralysis becomes slower, the estimated upper limits of (t(inhib)) for impermeable inhibitors become longer. More generally, this modeling approach may be useful in studying the kinetics of other toxins or viruses that invade host cells by similar mechanisms, e.g., receptor-mediated endocytosis.",
+    "year" : 2008,
+    "month" : "6",
+    "volume" : "35",
+    "issue" : "3",
+    "pages" : "251-267",
+    "link" : "http://identifiers.org/pubmed/18551355",
+    "authors" : [
+      {
+        "name" : "Frank J Lebeda",
+        "institution" : "Integrated Toxicology Division, US Army Medical Research Institute of Infectious Diseases, Fort Detrick, MD 21702-5011, USA. Frank.Lebeda@amedd.army.mil"
+      },
+      {
+        "name" : "Michael Adler"
+      },
+      {
+        "name" : "Keith Erickson"
+      },
+      {
+        "name" : "Yaroslav Chushak"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000267_url.xml",
+        "description" : "SBML L2V4 representation of Lebeda2008 - BoNT paralysis (3 step model)",
+        "fileSize" : "18153",
+        "mimeType" : "application/xml",
+        "md5sum" : "9f40f22f34d1711c5b4be3fb0bfcca18",
+        "sha1sum" : "846b26a4d4e53ce76103f94e0a512cfb75295684",
+        "sha256sum" : "b1620a8c5645d0622e04abfe51347043e67afcae2a26b9af259b22a1f5f23a39"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000267-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "12623",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cc33aec861a64a23aa8952fde3abc579",
+        "sha1sum" : "ec1961453227f1d8cc501aedbf087413b10f6caa",
+        "sha256sum" : "1b6b926939f609ef834865dc6e375e9aaf3d2e92cd536cdf1299a49757b5457a"
+      },
+      {
+        "name" : "BIOMD0000000267-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "15888",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fa532c4a6ca9e28fe94ee6ac29c8138e",
+        "sha1sum" : "77b354b2c2ce2263975e6f3d022303067a9b36ab",
+        "sha256sum" : "529f0cda8322ccc247aedf0d0efd26db9b06c54ac3ca3610306b158f25102936"
+      },
+      {
+        "name" : "BIOMD0000000267-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3860",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2068853d8adf1be328fa1ce088451bcc",
+        "sha1sum" : "338c906cba7fe0b395361c663db7e4b45d801f58",
+        "sha256sum" : "8bbf7c1fa16cdb0d2e5b3d6d00c4a5325c7dbe76a988fd52b4e0ac4e270bc2c8"
+      },
+      {
+        "name" : "BIOMD0000000267-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3860",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5cb41a6b28e267cc3f2342e34b1048ad",
+        "sha1sum" : "85919171e79c163e5a2976111c3d1990bfefe4ca",
+        "sha256sum" : "276df9a6641dbd714020339155b8f9f4b9694ac337acabbabd8e86d601f6655a"
+      },
+      {
+        "name" : "BIOMD0000000267.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3860",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5cb41a6b28e267cc3f2342e34b1048ad",
+        "sha1sum" : "85919171e79c163e5a2976111c3d1990bfefe4ca",
+        "sha256sum" : "276df9a6641dbd714020339155b8f9f4b9694ac337acabbabd8e86d601f6655a"
+      },
+      {
+        "name" : "BIOMD0000000267.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2023",
+        "mimeType" : "text/plain",
+        "md5sum" : "8317cbd901fb8468e1f8a796cac0acbf",
+        "sha1sum" : "36a07a74f6eed4a696fc3157806260e900f0f5ba",
+        "sha256sum" : "7364c429d1dc26322acf5f95f3a24afbb589aa84906ee2f0dd7477dc51ba2a41"
+      },
+      {
+        "name" : "BIOMD0000000267.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "153900",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7b9f48ddb20974cda152bec3c2cc464e",
+        "sha1sum" : "ec56b55812acd958e8760b526d58fb9b3a624152",
+        "sha256sum" : "9590b95132db13428d3da0d731986c53c5f96038770287973c2ab1e59dd878d4"
+      },
+      {
+        "name" : "BIOMD0000000267.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "12810",
+        "mimeType" : "image/png",
+        "md5sum" : "0577ceea058d413221290cb3b65cfbab",
+        "sha1sum" : "a9ae05c79cf76d05143fedc1d7186a544de9216b",
+        "sha256sum" : "5ac1f5e9a6ebef9d2ef25174d8f43cfd8ef8441f4580091754c60c186c78d44e"
+      },
+      {
+        "name" : "BIOMD0000000267.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "6465",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "374d248d77d235ff167867d6133bd381",
+        "sha1sum" : "449d5d8aa90702315befea3f1fc9777d27e29c88",
+        "sha256sum" : "99637c42ee4723f3e00ff384b8e493a7e1090204b92cdff6234429e0aa50a19c"
+      },
+      {
+        "name" : "BIOMD0000000267_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "8258",
+        "mimeType" : "application/xml",
+        "md5sum" : "ff089b85af54756927ba1a1ee7d9f53c",
+        "sha1sum" : "9abe4ce51935598e1cdbd32e88d7b9cb04739045",
+        "sha256sum" : "27e1b9b12ab589e4dc73149efe07e9348f4cecbeb605b1e7ea19b4910aa0b18c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28788",
+        "mimeType" : "image/png",
+        "md5sum" : "38d051710e59adcf377a5a63ce28e05f",
+        "sha1sum" : "754f54f62ef4ac4f79d4dcace4e6717954b4c549",
+        "sha256sum" : "b29e11b7fb38f982f82a1efd3c6b8484c145a29f4fe56201c8c71d7b23b01287"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "118",
+        "mimeType" : "text/plain",
+        "md5sum" : "d1c84ca6e91fdce47649df5f359ba533",
+        "sha1sum" : "f295b125c25700b716648959504ac50d258a324e",
+        "sha256sum" : "64badced8485a3cf662f6ba9263e76a9cc17770383d41bf60ea813dcd9acb9f5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "9b1a6f540680ce1317020406bc4aad23",
+        "sha1sum" : "111f575c32bf716b5463c11bb1e1c03cc84d0d84",
+        "sha256sum" : "3340f3ff9afb8e92d1d3237e635e88875e9ca70aed218ed3371a723e4ba8f0ee"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "8067",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "64b043402bbb83f3ba5ba9731816ac40",
+        "sha1sum" : "b92a25cb82126df3006b5df3fcdbba7fd539f643",
+        "sha256sum" : "eefd70be60d1dcfabbeda956f71df725dd4afb275a454ce1500d176f217d398d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1283872412,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Lebeda2008_BoNT_Paralysis_3stepModel"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495109635,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Lebeda2008 - BoNT paralysis (3 step model)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271996,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284985,
+  "submissionId" : "MODEL1009070000",
+  "publicationId" : "BIOMD0000000267",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1009070000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1009070000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000267",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000267"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18551355",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18551355"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "6243359",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/6243359"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0032223",
+      "name" : "negative regulation of synaptic transmission, cholinergic",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0032223"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006898",
+      "name" : "receptor-mediated endocytosis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006898"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009405",
+      "name" : "pathogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009405"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0033264",
+      "name" : "metalloendopeptidase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0033264"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_11184.1",
+      "name" : "Neurotoxicity of clostridium toxins",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_11184.1"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10116",
+      "name" : "Rattus norvegicus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10116"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:11976",
+      "name" : "botulism",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:11976"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

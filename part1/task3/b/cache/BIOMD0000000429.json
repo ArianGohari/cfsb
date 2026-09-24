@@ -1,0 +1,267 @@
+{
+  "name" : "Schaber2012 - Hog pathway in yeast",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Schaber2012 - Hog pathway in yeast</div>            <div class=\"dc:description\">      <p>The high osmolarity glycerol (HOG) pathway in the yeast Saccharomyces cerevisiae is one of the best-studied mitogen-activated protein kinase (MAPK) pathways and serves as a prototype signalling system for eukaryotes. This pathway is necessary and sufficient to adapt to high external osmolarity. A key component of this pathway is the stress-activated protein kinase (SAPK) Hog1, which is rapidly phosphorylated by the SAPK kinase Pbs2 upon hyper-osmotic shock, and which is the terminal kinase of two parallel signalling pathways, subsequently called the Sho1 branch and the Sln1 branch, respectively. Ensemble modelling (192 models) is used to study the yeast HOG pathway, a prototype for eukaryotic mitogen-activated kinase signalling systems. The best fit model (Model Nr.22: described here) provides new insights into the function of this system, some of which are then experimentally validated.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23149687\" title=\"Access to this publication\">Modelling reveals novel roles of two parallel signalling pathways and homeostatic feedbacks in yeast.</a>                    </div>                <div class=\"bibo:authorList\">Schaber J, Baltanas R, Bush A, Klipp E, Colman-Lerner A.</div>                <div class=\"bibo:Journal\">Mol Syst Biol. 2012 Nov 13;8:622.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>The high osmolarity glycerol (HOG) pathway in yeast serves as a prototype signalling system for eukaryotes. We used an unprecedented amount of data to parameterise 192 models capturing different hypotheses about molecular mechanisms underlying osmo-adaptation and selected a best approximating model. This model implied novel mechanisms regulating osmo-adaptation in yeast. The model suggested that (i) the main mechanism for osmo-adaptation is a fast and transient non-transcriptional Hog1-mediated activation of glycerol production, (ii) the transcriptional response serves to maintain an increased steady-state glycerol production with low steady-state Hog1 activity, and (iii) fast negative feedbacks of activated Hog1 on upstream signalling branches serves to stabilise adaptation response. The best approximating model also indicated that homoeostatic adaptive systems with two parallel redundant signalling branches show a more robust and faster response than single-branch systems. We corroborated this notion to a large extent by dedicated measurements of volume recovery in single cells. Our study also demonstrates that systematically testing a model ensemble against data has the potential to achieve a better and unbiased understanding of molecular mechanisms.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL1209110001\">MODEL1209110001</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23149687",
+    "journal" : "Molecular systems biology",
+    "title" : "Modelling reveals novel roles of two parallel signalling pathways and homeostatic feedbacks in yeast.",
+    "affiliation" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto von Guericke University, Magdeburg, Germany. schaber@med.ovgu.de",
+    "synopsis" : "The high osmolarity glycerol (HOG) pathway in yeast serves as a prototype signalling system for eukaryotes. We used an unprecedented amount of data to parameterise 192 models capturing different hypotheses about molecular mechanisms underlying osmo-adaptation and selected a best approximating model. This model implied novel mechanisms regulating osmo-adaptation in yeast. The model suggested that (i) the main mechanism for osmo-adaptation is a fast and transient non-transcriptional Hog1-mediated activation of glycerol production, (ii) the transcriptional response serves to maintain an increased steady-state glycerol production with low steady-state Hog1 activity, and (iii) fast negative feedbacks of activated Hog1 on upstream signalling branches serves to stabilise adaptation response. The best approximating model also indicated that homoeostatic adaptive systems with two parallel redundant signalling branches show a more robust and faster response than single-branch systems. We corroborated this notion to a large extent by dedicated measurements of volume recovery in single cells. Our study also demonstrates that systematically testing a model ensemble against data has the potential to achieve a better and unbiased understanding of molecular mechanisms.",
+    "year" : 2012,
+    "month" : "0",
+    "volume" : "8",
+    "pages" : "622",
+    "link" : "http://identifiers.org/pubmed/23149687",
+    "authors" : [
+      {
+        "name" : "Jörg Schaber",
+        "institution" : "Max Planck Institute for Molecular Genetics, Berlin, Germany.",
+        "orcid" : "0000-0001-6971-2530"
+      },
+      {
+        "name" : "Rodrigo Baltanas"
+      },
+      {
+        "name" : "Alan Bush"
+      },
+      {
+        "name" : "Edda Klipp"
+      },
+      {
+        "name" : "Alejandro Colman-Lerner",
+        "institution" : "Department of Physiology, Molecular and Cellular Biology, University of Buenos Aires, Buenos Aires, Argentina colman-lerner@fbmc.fcen.uba.ar.Institute of Physiology, Molecular Biology and Neurosciences, National Research Council (CONICET), Buenos Aires, Argentina.",
+        "orcid" : "0000-0002-2557-8883"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000429_url.xml",
+        "description" : "SBML L2V4 representation of Schaber2012 - Hog pathway in yeast",
+        "fileSize" : "219959",
+        "mimeType" : "application/xml",
+        "md5sum" : "3825aed24e70d1a6d55bdf34829ce2b5",
+        "sha1sum" : "53377298e7723d0ca2026f8b3752bb5662cd80ce",
+        "sha256sum" : "a1353c11190c33b80c881cb4ed5ad9a8cd41facf89d1efc5c73a22cde561c839"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000429-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "32823",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "46af81671b20b24510231cd73d3e7494",
+        "sha1sum" : "dd184bcf8cf1a565472e0683224a173966b44cf6",
+        "sha256sum" : "20d8560507c8b9996281007ececc48c0243b1b388f05dea582e839e8944efd3b"
+      },
+      {
+        "name" : "BIOMD0000000429-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "46995",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8930b7c0e8c27f0d62a43c9a74820086",
+        "sha1sum" : "af1d5062173a90a79b8f35fa48333b4fe606e30c",
+        "sha256sum" : "133771049c4ee9d738b8e2470c43ec7a710552b146b167b8da7999d818db02b1"
+      },
+      {
+        "name" : "BIOMD0000000429-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "20548",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5a9acd2e09fe8f89242b7f7d1488e9f8",
+        "sha1sum" : "dfeb09292b104baf688d6e32af2cbd4ffea8213a",
+        "sha256sum" : "df8e6d83f34e3e5b69ea851c8ea55228dad6df5a8a5a2890f18fb65db9752cc2"
+      },
+      {
+        "name" : "BIOMD0000000429.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "20548",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bd8cd4dc3214f2c4a0480e0fc4ee0dcd",
+        "sha1sum" : "f8bdd597818199420413b55b98d2345a42667408",
+        "sha256sum" : "449eb6b2eb14f76ed4cc0a5f3d42e13206aa80726fb809ed5e5d6de8d4b3f3b3"
+      },
+      {
+        "name" : "BIOMD0000000429.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "17690",
+        "mimeType" : "text/plain",
+        "md5sum" : "4ce45961b314c177b3a0eda6c2bacdad",
+        "sha1sum" : "40f84a0592801c90c63e54c64eb5e738fd2d1ec1",
+        "sha256sum" : "9543269bf276a91873f924d7e20340449c8adc513944382cb8c9f2b5beccf606"
+      },
+      {
+        "name" : "BIOMD0000000429.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "321904",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b9c0ed8cd007c66348eebe7b3f5baf5e",
+        "sha1sum" : "0ee752f508dcc92f901ec9d244160d890655b1ac",
+        "sha256sum" : "104cc6788a0a47e673f3ef6b24ecd43e2ac3702ab0b63a2053934af07db3222a"
+      },
+      {
+        "name" : "BIOMD0000000429.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "248611",
+        "mimeType" : "image/png",
+        "md5sum" : "afd8134b2a0a7230b1e5479af67177fd",
+        "sha1sum" : "69892dadadf14b6bc8403f0e79e22797de9c5a85",
+        "sha256sum" : "bc8f14da0f558b9d33eca9c87867e294731bce23be58b1b8baf12e1bc58f8c81"
+      },
+      {
+        "name" : "BIOMD0000000429.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "53824",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "987db3b6962e4223047846046b3ac3f2",
+        "sha1sum" : "1c680d025501bc2e5edaca626e2a1982ce897c15",
+        "sha256sum" : "0ec49b5655e37e6db758cb0b35ee775f74f8d889c8d6309fd134545c20313078"
+      },
+      {
+        "name" : "BIOMD0000000429_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "72245",
+        "mimeType" : "application/xml",
+        "md5sum" : "bfc1b4292d5fe79975714bf780d30246",
+        "sha1sum" : "f26bec2431ca6622db22ff75dd0853ed7c9a8a45",
+        "sha256sum" : "d28c05ac0b4d6b07633f2350e72b92d17a1ccea70b29f97fb28c0b26f072e9cf"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36749",
+        "mimeType" : "image/png",
+        "md5sum" : "613c3f0fd537b96c9f128fb70f8a2980",
+        "sha1sum" : "f0800a60acf715cff9cdfecd63c44486dd2bef83",
+        "sha256sum" : "1a9bfc6bf8bf7c83a472cc58a925f549952d69dac15afe514452a2e3ca568aa3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "353",
+        "mimeType" : "text/plain",
+        "md5sum" : "a67b664ee51cabb116df4d1c259cd45c",
+        "sha1sum" : "5a353f9d81c286b9994782651654166c7d5745ca",
+        "sha256sum" : "0e6287ac09f6b7820d9642d8f24173df192f11e084b1dab3d02554935246db92"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1671",
+        "mimeType" : "application/xml",
+        "md5sum" : "4143e6d8c8064c2b4ccfad6c5e47eccf",
+        "sha1sum" : "064aa844b3f5309b69c8c6a4f3cab427513ebf6f",
+        "sha256sum" : "86a4491e864ee0a5cde77e73dab2916ea0b5e94da81608a8bc7a24423c0e85c6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5990",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "272d6cf121a11a13128ade15d623ce15",
+        "sha1sum" : "5285f37cd89e61c9a3e44bbbaf4fa0e5eff303bc",
+        "sha256sum" : "d261a2fb22e792f907c70335281af93fdf957a1fc1eb49ebe1e03455799eca47"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1347367649,
+        "submitter" : "Joerg Schaber",
+        "comment" : "Original import of HOG wt"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1355495080,
+        "submitter" : "Joerg Schaber",
+        "comment" : "Current version of Schaber2012 - Hog pathway in yeast"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724276724,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285161,
+  "submissionId" : "MODEL1209110001",
+  "publicationId" : "BIOMD0000000429",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Joerg Schaber",
+        "email" : "schaber@med.ovgu.de",
+        "affiliation" : "OvGU",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1209110001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1209110001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000429",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000429"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23149687",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23149687"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000161",
+      "name" : "MAPK cascade involved in osmosensory signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000161"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

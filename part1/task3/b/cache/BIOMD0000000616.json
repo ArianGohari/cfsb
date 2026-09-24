@@ -1,0 +1,287 @@
+{
+  "name" : "Dunster2014 - WBC Interactions (Model1)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Dunster2014 - WBC Interactions (Model1)</div><div class=\"dc:description\">This is a sub-model of a three-stepinflammatory response modelling study. The model includes distinctpopulations of white blood cells namely, macrophages and active andapoptotic neutrophil populations. Neutrophil apoptosis rate ispredicted to be crucial for the qualitative nature of thesystem.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25053556\" title=\"Access to this publication\">The resolution of    inflammation: a mathematical model of neutrophil and macrophage    interactions.</a>  </div>  <div class=\"bibo:authorList\">Dunster JL, Byrne HM, King JR.</div>  <div class=\"bibo:Journal\">Bull. Math. Biol. 2014 Aug; 76(8):  1953-1980</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>There is growing interest in inflammation due to its    involvement in many diverse medical conditions, including    Alzheimer's disease, cancer, arthritis and asthma. The    traditional view that resolution of inflammation is a passive    process is now being superceded by an alternative hypothesis    whereby its resolution is an active, anti-inflammatory process    that can be manipulated therapeutically. This shift in mindset    has stimulated a resurgence of interest in the biological    mechanisms by which inflammation resolves. The    anti-inflammatory processes central to the resolution of    inflammation revolve around macrophages and are closely related    to pro-inflammatory processes mediated by neutrophils and their    ability to damage healthy tissue. We develop a spatially    averaged model of inflammation centring on its resolution,    accounting for populations of neutrophils and macrophages and    incorporating both pro- and anti-inflammatory processes. Our    ordinary differential equation model exhibits two outcomes that    we relate to healthy and unhealthy states. We use bifurcation    analysis to investigate how variation in the system parameters    affects its outcome. We find that therapeutic manipulation of    the rate of macrophage phagocytosis can aid in resolving    inflammation but success is critically dependent on the rate of    neutrophil apoptosis. Indeed our model predicts that an    effective treatment protocol would take a dual approach,    targeting macrophage phagocytosis alongside neutrophil    apoptosis.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000616\">BIOMD0000000616</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25053556",
+    "journal" : "Bulletin of mathematical biology",
+    "title" : "The resolution of inflammation: a mathematical model of neutrophil and macrophage interactions.",
+    "affiliation" : "Institute for Cardiovascular and Metabolic Research, School of Biological Sciences, University of Reading, Reading, UK, j.l.dunster@reading.ac.uk.",
+    "synopsis" : "There is growing interest in inflammation due to its involvement in many diverse medical conditions, including Alzheimer's disease, cancer, arthritis and asthma. The traditional view that resolution of inflammation is a passive process is now being superceded by an alternative hypothesis whereby its resolution is an active, anti-inflammatory process that can be manipulated therapeutically. This shift in mindset has stimulated a resurgence of interest in the biological mechanisms by which inflammation resolves. The anti-inflammatory processes central to the resolution of inflammation revolve around macrophages and are closely related to pro-inflammatory processes mediated by neutrophils and their ability to damage healthy tissue. We develop a spatially averaged model of inflammation centring on its resolution, accounting for populations of neutrophils and macrophages and incorporating both pro- and anti-inflammatory processes. Our ordinary differential equation model exhibits two outcomes that we relate to healthy and unhealthy states. We use bifurcation analysis to investigate how variation in the system parameters affects its outcome. We find that therapeutic manipulation of the rate of macrophage phagocytosis can aid in resolving inflammation but success is critically dependent on the rate of neutrophil apoptosis. Indeed our model predicts that an effective treatment protocol would take a dual approach, targeting macrophage phagocytosis alongside neutrophil apoptosis.",
+    "year" : 2014,
+    "month" : "8",
+    "volume" : "76",
+    "issue" : "8",
+    "pages" : "1953-1980",
+    "link" : "http://identifiers.org/pubmed/25053556",
+    "authors" : [
+      {
+        "name" : "J L Dunster",
+        "institution" : "Institute for Cardiovascular and Metabolic Research, School of Biological Sciences, University of Reading, Reading, UK, j.l.dunster@reading.ac.uk.",
+        "orcid" : "0000-0001-8986-4902"
+      },
+      {
+        "name" : "H M Byrne",
+        "institution" : "Wolfson Centre for Mathematical Biology, Mathematical Institute, University of Oxford, Andrew Wiles Building, Radcliffe Observatory Quarter, Woodstock Road, Oxford OX2 6GG, UK.",
+        "orcid" : "0000-0003-1771-5910"
+      },
+      {
+        "name" : "John R King",
+        "orcid" : "0000-0002-6228-8375"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000616_url.xml",
+        "description" : "SBML L3V1 representation of Dunster2014 - WBC Interactions (Model1)",
+        "fileSize" : "45590",
+        "mimeType" : "application/xml",
+        "md5sum" : "424099c72cf19b9ec0f584ba7c5ad0cf",
+        "sha1sum" : "a7e595901a6a5589ae2f45b249885e3c08165ebc",
+        "sha256sum" : "57615f54a6f7607de3e42fb53645a4ff540d5b15ff676f81afd19328a63f7d5b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000616-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "10127",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ffb4bf20d07fab61bd713951814ee636",
+        "sha1sum" : "9b451162ac07abdcac297670c337ae57288ff7db",
+        "sha256sum" : "94e57a915f86eacce73b111352428302c3dd74afd839423e9b41af29f8634c75"
+      },
+      {
+        "name" : "BIOMD0000000616-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "14678",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d5a4a28d5fa4ac7271845f6d1cdfac0f",
+        "sha1sum" : "60424bfa1d6825ddf3b02a96c1cfbeacfc059485",
+        "sha256sum" : "a073a66ff0b62a4cfe38e0051b37e3dc01d81958854fae5b3310376516a2747f"
+      },
+      {
+        "name" : "BIOMD0000000616-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5930",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ab3cf23dbba7315c27bdcf44d71e3962",
+        "sha1sum" : "5e8458b650791cb851acd3810051db5e4a94727b",
+        "sha256sum" : "3baeccf4643b623d768052fca1b4a94fd2f0de999932428248f6e2faedfe05f3"
+      },
+      {
+        "name" : "BIOMD0000000616-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5930",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5a01c9f6970dde707a14601b29ec9d9c",
+        "sha1sum" : "befbc0502ef13035d4ec992802fbdf76daf01d66",
+        "sha256sum" : "4f39b555f62a9b4a33c659ef36fff9d0880049fd1fb90c127b8a6f14f90493dc"
+      },
+      {
+        "name" : "BIOMD0000000616.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5930",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5a01c9f6970dde707a14601b29ec9d9c",
+        "sha1sum" : "befbc0502ef13035d4ec992802fbdf76daf01d66",
+        "sha256sum" : "4f39b555f62a9b4a33c659ef36fff9d0880049fd1fb90c127b8a6f14f90493dc"
+      },
+      {
+        "name" : "BIOMD0000000616.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4252",
+        "mimeType" : "text/plain",
+        "md5sum" : "fe1fc31d023002800ae727f715fda481",
+        "sha1sum" : "5d83fc49a555d5cd7803d9a85c946390d5eaf182",
+        "sha256sum" : "0e91b29f05a46da7b179a2cfc31370cba03e3ad8f4a1353377af2bfd7331087f"
+      },
+      {
+        "name" : "BIOMD0000000616.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "191742",
+        "mimeType" : "application/pdf",
+        "md5sum" : "fa65874f0d54093b220545f82b622338",
+        "sha1sum" : "1aae442bb1c1df94aff1a9994364e68f9e5219d2",
+        "sha256sum" : "acc79929803456e2fccd66d81a5487122307ce8851b6e2288bbbba34b59bf235"
+      },
+      {
+        "name" : "BIOMD0000000616.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "35231",
+        "mimeType" : "image/png",
+        "md5sum" : "d014effedaf2d9ea3c815a5333334d9b",
+        "sha1sum" : "1bf811c333eb058350eb30bd85185811f61697d2",
+        "sha256sum" : "06ac0a5620f08b338495d6ce093455e40bc4a06d74537e286bffb804132d6298"
+      },
+      {
+        "name" : "BIOMD0000000616.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "a09cf39d95ab605db52198b969d9b4cb",
+        "sha1sum" : "b6049e3c848043ece8a8c9432788bb02a75b3d39",
+        "sha256sum" : "73ec6f7fb4375b98f8244ca4b6b8151a2840d492531a6bab6987da8fa6c40ecb"
+      },
+      {
+        "name" : "BIOMD0000000616.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "17648",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "3ceb65b588791911112dc2aa0a671adf",
+        "sha1sum" : "2f951328d9681b18d00a5b3fcb0b4e7949cd2536",
+        "sha256sum" : "8f59deeda1604e359dec8a7b952af4f3be4f6ac98f8331cecefeca4a2c6ddb56"
+      },
+      {
+        "name" : "BIOMD0000000616_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "13625",
+        "mimeType" : "application/xml",
+        "md5sum" : "c9b44cbd1e4e8dd940ef76d9bbee1aed",
+        "sha1sum" : "c4b2c1353a83da4f9f00f537bc6af1c44ea070d0",
+        "sha256sum" : "64bb524ea99077f5ce97aea709a37d5e6015253db988fa656fb6eb58e3077692"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "66912",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "ca8bf8e8be93cd5104af45303c95c9d9",
+        "sha1sum" : "6c0dc708a9e62d9074078e96f5e67ff56a13b268",
+        "sha256sum" : "aed4306af4aa36f45d08df1c545fc69c4e66b74a59406ad70aac15c9d4625ada"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "329",
+        "mimeType" : "text/plain",
+        "md5sum" : "769b7240498a31870c151160940325dd",
+        "sha1sum" : "b73bd12238a692524a36682f9c7cd702410fdb52",
+        "sha256sum" : "3f7cc46edc239d52a59b3a48937b02c6c8e7dea95746bf7a41be22e1fbfa952f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1913",
+        "mimeType" : "application/xml",
+        "md5sum" : "5ef884f8b76584deb7d5fdcc82f4f5f9",
+        "sha1sum" : "97be9898aea15a67bdf6333c21e7a09d19b47e37",
+        "sha256sum" : "b4e4ffa87e9361de23dd1271522a29d17a9158ba61a08574f42bb7ed098f715b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5456",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6e54eb1f3c6e6e29fce34d2acdfa7a36",
+        "sha1sum" : "c8d978adbe64bf8c9c44e55497984f5c2eca38bc",
+        "sha256sum" : "0ee8b638865beba9b8e0ab73fdf1142c309ac11c07ed642fe22b6b490a8df214"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1471366298,
+        "submitter" : "Thawfeek Varusai",
+        "comment" : "Original import of Dunster2014_Model1_WBC_Interactions"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495823819,
+        "submitter" : "Thawfeek Varusai",
+        "comment" : "Current version of Dunster2014 - WBC Interactions (Model1)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724284215,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285392,
+  "submissionId" : "MODEL1608160000",
+  "publicationId" : "BIOMD0000000616",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Thawfeek Varusai",
+        "email" : "tvarusai@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1608160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1608160000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000616",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000616"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25053556",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25053556"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006954",
+      "name" : "inflammatory response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006954"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:+2914",
+      "resource" : "Human Disease Ontology",
+      "uri" : "urn:miriam:doid:DOID%3A+2914"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

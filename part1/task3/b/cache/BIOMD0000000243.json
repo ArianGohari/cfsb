@@ -1,0 +1,322 @@
+{
+  "name" : "Neumann2010_CD95Stimulation_NFkB_Apoptosis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>\t This is the reduced model (model 8) described in: <b>Dynamics within the CD95 death-inducing signaling complex decide life and death of cells.</b>        <br />       Leo Neumann, Carina Pforr, Joel Beaudouin, Alexander Golks, Peter H. Krammer, Inna N. Lavrik and Roland Eils (German Cancer Research Center (DKFZ), <a href=\"http://www.dkfz.de\">http://www.dkfz.de</a>);<em>Mol Sys Biol</em>2010;<b>6</b>:352.   doi:<a href=\"http://dx.doi.org/10.1038/msb.2010.6\">10.1038/msb.2010.6</a>; </p>        <p>          <b>Abstract:</b>          <br />This study explores the dilemma in cellular signaling that triggering of CD95 (Fas/APO-1) in some situations results in cell death and in others leads to the activation of NF-κB. We established an integrated kinetic mathematical model for CD95-mediated apoptotic and NF-κB signaling. Systematic model reduction resulted in a surprisingly simple model well approximating experimentally observed dynamics. The model postulates a new link between c-FLIP<sub>L</sub> cleavage in the death-inducing signaling complex (DISC) and the NF-κB pathway. We validated experimentally that CD95 stimulation resulted in an interaction of p43-FLIP with the IKK complex followed by its activation. Furthermore, we showed that the apoptotic and NF-κB pathways diverge already at the DISC. Model and experimental analysis of DISC formation showed that a subtle balance of c-FLIP<sub>L</sub> and procaspase-8 determines life/death decisions in a nonlinear manner. We present an integrated model describing the complex dynamics of CD95-mediated apoptosis and NF-κB signaling.</p>          <p>The original was taken from the MSB article supplementary material site <a href=\"http://www.nature.com/msb/journal/v6/n1/suppinfo/msb20106_S1.html\">msb20106-s2.xml</a>. All the species ids were changed since the model was not a valid SBML with its original ids - Lukas.</p>          <p> Notes added to the species [L] (the initial concentration of Anti-CD95), regarding changes to be made in the initial concentration of [L], to obtain figure 5D.</p>          <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>        </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20212524",
+    "journal" : "Molecular systems biology",
+    "title" : "Dynamics within the CD95 death-inducing signaling complex decide life and death of cells.",
+    "affiliation" : "Division of Theoretical Bioinformatics, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+    "synopsis" : "This study explores the dilemma in cellular signaling that triggering of CD95 (Fas/APO-1) in some situations results in cell death and in others leads to the activation of NF-kappaB. We established an integrated kinetic mathematical model for CD95-mediated apoptotic and NF-kappaB signaling. Systematic model reduction resulted in a surprisingly simple model well approximating experimentally observed dynamics. The model postulates a new link between c-FLIP(L) cleavage in the death-inducing signaling complex (DISC) and the NF-kappaB pathway. We validated experimentally that CD95 stimulation resulted in an interaction of p43-FLIP with the IKK complex followed by its activation. Furthermore, we showed that the apoptotic and NF-kappaB pathways diverge already at the DISC. Model and experimental analysis of DISC formation showed that a subtle balance of c-FLIP(L) and procaspase-8 determines life/death decisions in a nonlinear manner. We present an integrated model describing the complex dynamics of CD95-mediated apoptosis and NF-kappaB signaling.",
+    "year" : 2010,
+    "month" : "0",
+    "volume" : "6",
+    "pages" : "352",
+    "link" : "http://identifiers.org/pubmed/20212524",
+    "authors" : [
+      {
+        "name" : "Leo Neumann",
+        "institution" : "Division of Theoretical Bioinformatics, German Cancer Research Center (DKFZ), Heidelberg, Germany."
+      },
+      {
+        "name" : "Carina Pforr"
+      },
+      {
+        "name" : "Joel Beaudouin"
+      },
+      {
+        "name" : "Alexander Pappa"
+      },
+      {
+        "name" : "Nicolai Fricker"
+      },
+      {
+        "name" : "Peter H Krammer"
+      },
+      {
+        "name" : "Inna N Lavrik"
+      },
+      {
+        "name" : "Roland Eils",
+        "orcid" : "0000-0002-0034-4036"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000243_url.xml",
+        "description" : "SBML L2V4 representation of Neumann2010_CD95Stimulation_NFkB_Apoptosis",
+        "fileSize" : "49136",
+        "mimeType" : "application/xml",
+        "md5sum" : "5bb50248160e36f2b5e1e8bb0c7ce723",
+        "sha1sum" : "3bbdeb5dda3f41efe30afc56b7ddd028dcc6d032",
+        "sha256sum" : "9e980f893ba235d7ced40b605ed07dc0d6a1ce659fbdca6b927ad52057686628"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000243-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "46495",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1cbcb14cafd166e1478869bc0f7e3496",
+        "sha1sum" : "3aff85ce1706b6a59aa55ce67dbf19993f22388b",
+        "sha256sum" : "b629eaaa4a5811202fb9b0da422f40606dee236e8b61fd2eb4df4657d318ad1d"
+      },
+      {
+        "name" : "BIOMD0000000243-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "75523",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e454ae8f8850461d2ee8af5cf1dbc1b5",
+        "sha1sum" : "661fc74354a0a9ec0fbe1b422d1c49e88b915aa5",
+        "sha256sum" : "cecc0204a8d1004db2422ba53ca85b69b286437b53ae867746bc7a8e10623265"
+      },
+      {
+        "name" : "BIOMD0000000243-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10974",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "85e6175920f6474b134011032f6d2aeb",
+        "sha1sum" : "5267766f78c18a1ff0452ce7aa3ac3ef031dabed",
+        "sha256sum" : "275f997516c21620de8c9c16ab222c37446521f048bc15efe2089686f72a9f81"
+      },
+      {
+        "name" : "BIOMD0000000243-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10974",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "341130582cc5d31ad022dc42ea286adb",
+        "sha1sum" : "7d9a11ed84571d9eb2c5ed18eb67f311b629cec4",
+        "sha256sum" : "35e7d19cf6cb38d6f369c768dd6f8acc44fb06bd1d313f0b5185bcfe2b877970"
+      },
+      {
+        "name" : "BIOMD0000000243.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10974",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "341130582cc5d31ad022dc42ea286adb",
+        "sha1sum" : "7d9a11ed84571d9eb2c5ed18eb67f311b629cec4",
+        "sha256sum" : "35e7d19cf6cb38d6f369c768dd6f8acc44fb06bd1d313f0b5185bcfe2b877970"
+      },
+      {
+        "name" : "BIOMD0000000243.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7939",
+        "mimeType" : "text/plain",
+        "md5sum" : "899c7b41dd1470a56c2113e0b5a3a837",
+        "sha1sum" : "501358529720e2ad2fc060c6fca15e2b59b5222b",
+        "sha256sum" : "91ef494d359056a741cb0a9ba5ffe4c2212b65c42ba1877d6f1d0a58f47c36fa"
+      },
+      {
+        "name" : "BIOMD0000000243.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "258595",
+        "mimeType" : "application/pdf",
+        "md5sum" : "032c20340a8773da649c2cc9a95d293e",
+        "sha1sum" : "f7a94fffe1f7600b271a0a17ecbad78e9695aff9",
+        "sha256sum" : "e513a356d00eac985f5c89f669b40e26d731ca614ec1ea20a9c0671befc6573c"
+      },
+      {
+        "name" : "BIOMD0000000243.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "163697",
+        "mimeType" : "image/png",
+        "md5sum" : "23a7a3b4eb4f5b9a826ed44716b4c3ce",
+        "sha1sum" : "d8cc6b940e6ce0e1cf669b5aff10fa7875c06a03",
+        "sha256sum" : "0f927779d85e77518057cfb6b0678ff2bc196345d54ddf4d774c08b869c107ee"
+      },
+      {
+        "name" : "BIOMD0000000243.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "7628",
+        "mimeType" : "text/plain",
+        "md5sum" : "f73244a81607707b132f655ab49d466f",
+        "sha1sum" : "f62129d927f89498888680aff39d53accbe41fd3",
+        "sha256sum" : "86346179b5557bdcffb17dc8c52e3107654cc235d8bcd472c90f6cbc50cf2aa4"
+      },
+      {
+        "name" : "BIOMD0000000243.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "62492",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f13a143510ea72eaaa29133c5bac05f0",
+        "sha1sum" : "adaf36d41880d7c312780a9b78436124602abb50",
+        "sha256sum" : "345769901b3014ac01e610bf777d1ad889ac4b9d6df14851856d3c2e63d13f5a"
+      },
+      {
+        "name" : "BIOMD0000000243.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "80303",
+        "mimeType" : "application/xml",
+        "md5sum" : "aa352853664e0f89e7de61c00f7fa6c6",
+        "sha1sum" : "6336a2b8246dcbc9df6083448366095c1e1f144e",
+        "sha256sum" : "ce9dac453b87e73fc23828e88db2525cc2ce163d1f3a3fdcfe5e72d141c12654"
+      },
+      {
+        "name" : "BIOMD0000000243_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "38868",
+        "mimeType" : "application/xml",
+        "md5sum" : "6eecdd92d95cd28d6e29758574df58e9",
+        "sha1sum" : "139a77dd57d3cd1dddde0dc218ae7d671fc85f39",
+        "sha256sum" : "0653e0a96636cc8288b54b0d955197fc0614bd555dc01f6274927a0ccff913b6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "92280",
+        "mimeType" : "image/png",
+        "md5sum" : "8f185d660ca49ce974dfad278d55b94a",
+        "sha1sum" : "833a5e7776ae5fcf350cb6da9058a12585f4f009",
+        "sha256sum" : "e30a5cdbd99322788933e37cf21a9c7e2a6ecf7c5e439bcb9533e0345a5f37ae"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "403",
+        "mimeType" : "text/plain",
+        "md5sum" : "f04132e5a7a41155ec50764a0d030ff9",
+        "sha1sum" : "2973e5bfaad21f68265befd5b0dc85c08d59f0f0",
+        "sha256sum" : "4cbabd819d773bd394518b1d19ddeca3d8062851f107a0cad63863d88113bdf1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "e334116af45d8c1cc20be5018844e670",
+        "sha1sum" : "7c16095f9a1685d726bdb5a2dba7f09e8e339abb",
+        "sha256sum" : "5180f6bfb64e9070e43e4e1055a92c2326432aa2eef1973da4c3e41cfe7177cc"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4884",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3851e10830dca2aec1e72491fa54e736",
+        "sha1sum" : "3b2e77c1244f4b4557064a05840e53cadf396f2e",
+        "sha256sum" : "b0eb1ad820b87fa67ca28a7589cdf26390748495636f872165ceb5df25c93de1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1268186196,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Neumann2010_CD95_Signalling_reduced"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135281,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Neumann2010_CD95Stimulation_NFkB_Apoptosis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271335,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284965,
+  "submissionId" : "MODEL1003100001",
+  "publicationId" : "BIOMD0000000243",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1003100001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1003100001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000243",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000243"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20212524",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20212524"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_21281",
+      "name" : "TAK1 activates NFkB by phosphorylation and activation of IKKs complex",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_21281"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_1619",
+      "name" : "Death Receptor Signalling",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_1619"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0051092",
+      "name" : "positive regulation of NF-kappaB transcription factor activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051092"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0008624",
+      "name" : "apoptotic signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008624"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

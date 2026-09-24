@@ -1,0 +1,281 @@
+{
+  "name" : "Iwamoto2010 - Cell cycle reponse to DNA damage",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>After DNA damage, cells activate p53, a tumor suppressor gene, and select a cell fate (e.g., DNA repair, cell cycle arrest, or apoptosis). Recently, a p53 oscillatory behavior was observed following DNA damage. However, the relationship between this p53 oscillation and cell-fate selection is unclear. Here, we present a novel model of the DNA damage signaling pathway that includes p53 and whole cell cycle regulation and explore the relationship between p53 oscillation and cell fate selection. The simulation run without DNA damage qualitatively realized experimentally observed data from several cell cycle regulators, indicating that our model was biologically appropriate. Moreover, the comprehensive sensitivity analysis for the proposed model was implemented by changing the values of all kinetic parameters, which revealed that the cell cycle regulation system based on the proposed model has robustness on a fluctuation of reaction rate in each process. Simulations run with four different intensities of DNA damage, i.e. Low-damage, Medium-damage, High-damage, and Excess-damage, realized cell cycle arrest in all cases. Low-damage, Medium-damage, High-damage, and Excess-damage corresponded to the DNA damage caused by 100, 200, 400, and 800 J/m(2) doses of UV-irradiation, respectively, based on expression of p21, which plays a crucial role in cell cycle arrest. In simulations run with High-damage and Excess-damage, the length of the cell cycle arrest was shortened despite the severe DNA damage, and p53 began to oscillate. Cells initiated apoptosis and were killed at 400 and 800 J/m(2) doses of UV-irradiation, corresponding to High-damage and Excess-damage, respectively. Therefore, our model indicated that the oscillatory mode of p53 profoundly affects cell fate selection.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21095219",
+    "journal" : "Bio Systems",
+    "title" : "Mathematical modeling of cell cycle regulation in response to DNA damage: exploring mechanisms of cell-fate determination.",
+    "affiliation" : "Laboratory for Bioinformatics, Graduate School of Systems Life Sciences, Kyushu University, Maidashi, Higashi-ku, Fukuoka, Japan.",
+    "synopsis" : "After DNA damage, cells activate p53, a tumor suppressor gene, and select a cell fate (e.g., DNA repair, cell cycle arrest, or apoptosis). Recently, a p53 oscillatory behavior was observed following DNA damage. However, the relationship between this p53 oscillation and cell-fate selection is unclear. Here, we present a novel model of the DNA damage signaling pathway that includes p53 and whole cell cycle regulation and explore the relationship between p53 oscillation and cell fate selection. The simulation run without DNA damage qualitatively realized experimentally observed data from several cell cycle regulators, indicating that our model was biologically appropriate. Moreover, the comprehensive sensitivity analysis for the proposed model was implemented by changing the values of all kinetic parameters, which revealed that the cell cycle regulation system based on the proposed model has robustness on a fluctuation of reaction rate in each process. Simulations run with four different intensities of DNA damage, i.e. Low-damage, Medium-damage, High-damage, and Excess-damage, realized cell cycle arrest in all cases. Low-damage, Medium-damage, High-damage, and Excess-damage corresponded to the DNA damage caused by 100, 200, 400, and 800 J/m(2) doses of UV-irradiation, respectively, based on expression of p21, which plays a crucial role in cell cycle arrest. In simulations run with High-damage and Excess-damage, the length of the cell cycle arrest was shortened despite the severe DNA damage, and p53 began to oscillate. Cells initiated apoptosis and were killed at 400 and 800 J/m(2) doses of UV-irradiation, corresponding to High-damage and Excess-damage, respectively. Therefore, our model indicated that the oscillatory mode of p53 profoundly affects cell fate selection.",
+    "year" : 2011,
+    "month" : "3",
+    "volume" : "103",
+    "issue" : "3",
+    "pages" : "384-391",
+    "link" : "http://identifiers.org/pubmed/21095219",
+    "authors" : [
+      {
+        "name" : "Kazunari Iwamoto",
+        "institution" : "Laboratory for Bioinformatics, Graduate School of Systems Life Sciences, Kyushu University, Maidashi, Higashi-ku, Fukuoka, Japan."
+      },
+      {
+        "name" : "Hiroyuki Hamada"
+      },
+      {
+        "name" : "Yukihiro Eguchi"
+      },
+      {
+        "name" : "Masahiro Okamoto"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Iwamoto2010.xml",
+        "description" : "SBML L2V4 representation of Iwamoto2010 - Cell cycle reponse to DNA damage",
+        "fileSize" : "484615",
+        "mimeType" : "application/xml",
+        "md5sum" : "8e924b8ad6657c71611dae2a5ecc60fe",
+        "sha1sum" : "a51145ee1c314462db2a5a276dfdd491eb25be7a",
+        "sha256sum" : "62357712985f23a7610b53deef816d8dd7f7fc1d105ca480824f8ee25e60b0d9"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Iwamoto2010-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "171952",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c9ea3a7a9f5a7147b963a2d8ab93040",
+        "sha1sum" : "575009e495785004368d5f9cf8310c2a38d37340",
+        "sha256sum" : "f78fca0adeea3ffe834c53bda5fa3a4b54e4716523f46cc52f7c7fff58edc04e"
+      },
+      {
+        "name" : "Iwamoto2010-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "299227",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3132d56f1d6583ff65a6a9367341f891",
+        "sha1sum" : "8365397827f027fb140d0f750ac3d6887221e88b",
+        "sha256sum" : "b0b46a534e9180c479a52ae4dae0e2eb50433cb1847d89fe3ffe4717468d97d0"
+      },
+      {
+        "name" : "Iwamoto2010-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "57613",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e5e98911f450a4e9f8e505608aeef685",
+        "sha1sum" : "705b7fe9b0da1f46a15ac20f609f1ff32a47d259",
+        "sha256sum" : "f4006b9b63fcd42d43056b8149f9b8c53bfaa5a9efa2f23725c0a9b36caa9b49"
+      },
+      {
+        "name" : "Iwamoto2010-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "57613",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6d2843d037ea5213abdc9c20532bb369",
+        "sha1sum" : "faea415ccf54479c0e212bd19aa83abbd8bda336",
+        "sha256sum" : "1d57f9bd490de6cb228e067967ee8f7758cef7fc7d7eb58740331110b7aa1f45"
+      },
+      {
+        "name" : "Iwamoto2010.cps",
+        "description" : "COPASI version 4.27 (Build 217) Iwamoto2010 - Cell cycle reponse to DNA damage_ for Fig.2,3,4 and 6 in the reference publication.",
+        "fileSize" : "561395",
+        "mimeType" : "application/xml",
+        "md5sum" : "bff270e0e2c9e2bf050762c8ada3c65a",
+        "sha1sum" : "c198c793bdd61f6c3eace6b1f8e0eae66c3ad2a6",
+        "sha256sum" : "39f6d0ff3c7f4812cf2459a4b0dbc4c1287cef8cc6402f5db62b4a9e570757bf"
+      },
+      {
+        "name" : "Iwamoto2010.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "43140",
+        "mimeType" : "text/plain",
+        "md5sum" : "3754494651bbc18d0b349cbe46dccb4c",
+        "sha1sum" : "843ebf780cce5f2e4a1ea5ce391219dc296ec0e4",
+        "sha256sum" : "3075364e09d3587b940392acc21c5f53a7c7ed63a5af44f0527cf3ffef79ef44"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "163212",
+        "mimeType" : "image/png",
+        "md5sum" : "79841fdd56cc1f575cdb914a910d8504",
+        "sha1sum" : "c65f28ce092ac70f442c429c34452090b11146dc",
+        "sha256sum" : "bf8dfc40140744662cc8b2522370d762b6d0876a1fb36b6b1ad9fa65cc6b0c7a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "161",
+        "mimeType" : "text/plain",
+        "md5sum" : "efc0bbdc3bce734847bd70cf62c9d49d",
+        "sha1sum" : "416b20244d31c85d2038a5f248f7631c1f63f66b",
+        "sha256sum" : "e91ce97a99b873f65e7165c81509436f0a866c99cdf657bcc2ca25fd24438bf6"
+      },
+      {
+        "name" : "iwamoto2010_Fig3.sedml",
+        "description" : "sed-ml L1V2 Iwamoto2010 - Cell cycle reponse to DNA damage_ for Fig.3 in the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "197945",
+        "mimeType" : "application/xml",
+        "md5sum" : "9970ee5ca850c62ad1185b4947144f1b",
+        "sha1sum" : "7fb2b9d1a3c2baba76c331bba8d286a8830ebd9f",
+        "sha256sum" : "3328ddc957f30ea275e9fa4243331d7714f048a75f5ad5b55d834e5f6f7aeb93"
+      },
+      {
+        "name" : "iwamoto2010_Fig4.sedml",
+        "description" : "sed-ml L1V2 Iwamoto2010 - Cell cycle reponse to DNA damage_ for Fig.4 in the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "196733",
+        "mimeType" : "application/xml",
+        "md5sum" : "8e9773df332a4af673aa7c709bedc414",
+        "sha1sum" : "0cabfd8db3af4d8f484ed71562e8e9767201595b",
+        "sha256sum" : "e30153bce00cf15baaa0464a5109bbea2fb35472acf93da9af1e2dc005a45d45"
+      },
+      {
+        "name" : "iwamoto2010_Fig6.sedml",
+        "description" : "sed-ml L1V2 Iwamoto2010 - Cell cycle reponse to DNA damage_ for Fig.6 in the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "196735",
+        "mimeType" : "application/xml",
+        "md5sum" : "ca9a15ebc3895f8d51524d9e983591af",
+        "sha1sum" : "fcaadcc2aa6076733b9578658d9e5dcb46750d34",
+        "sha256sum" : "549f566bd0ebe739713617305fef2920d720ee57452d6ae9549a24d7c08246a0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1674",
+        "mimeType" : "application/xml",
+        "md5sum" : "70f5a4c025d6a98766484ec2ab53b488",
+        "sha1sum" : "844ac3fba6f5d7f6bab8ca974bfe3cfad134d4e0",
+        "sha256sum" : "564c1757f0465c4cc720b9f51ca727d5b51b2929fa69b90938d6acd9e60edf1e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4112",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5b4937ff92f2395a67caa1333c2d8a97",
+        "sha1sum" : "031a3d445570f676a5c0b6f4a2bdb36a81b0c5e5",
+        "sha256sum" : "665c2bc94288e904c8b1193316b59409251e47046d0f871aa105eda8c042d6a8"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1536240535,
+        "submitter" : "Matthieu MAIRE",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1588009530,
+        "submitter" : "Ahmad Zyoud",
+        "comment" : "Automatically added model identifier BIOMD0000000939"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724293484,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285541,
+  "submissionId" : "MODEL1809060003",
+  "publicationId" : "BIOMD0000000939",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthieu MAIRE",
+        "email" : "matt.maire@free.fr",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Ahmad Zyoud",
+        "email" : "azyoud@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-5937-8564",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0042769",
+      "name" : "DNA damage response, detection of DNA damage",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042769"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1809060003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1809060003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000939",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000939"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21095219",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:21095219"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "21095219",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21095219"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1016/j.biosystems.2010.11.011",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1016/j.biosystems.2010.11.011"
+    }
+  ]
+}

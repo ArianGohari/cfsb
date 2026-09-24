@@ -1,0 +1,330 @@
+{
+  "name" : "Mueller2015 - Hepatocyte proliferation, T160 phosphorylation of CDK2",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Mueller2015 - Hepatocyte proliferation, T160phosphorylation of CDK2</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25771250\" title=\"Access to this publication\">T160-phosphorylated CDK2    defines threshold for HGF-dependent proliferation in primary    hepatocytes.</a>  </div>  <div class=\"bibo:authorList\">Mueller S, Huard J, Waldow K, Huang  X, D'Alessandro LA, Bohl S, Börner K, Grimm D, Klamt S,  Klingmüller U, Schilling M.</div>  <div class=\"bibo:Journal\">Mol. Syst. Biol. 2015; 11(3): 795</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Liver regeneration is a tightly controlled process mainly    achieved by proliferation of usually quiescent hepatocytes. The    specific molecular mechanisms ensuring cell division only in    response to proliferative signals such as hepatocyte growth    factor (HGF) are not fully understood. Here, we combined    quantitative time-resolved analysis of primary mouse hepatocyte    proliferation at the single cell and at the population level    with mathematical modeling. We showed that numerous G1/S    transition components are activated upon hepatocyte isolation    whereas DNA replication only occurs upon additional HGF    stimulation. In response to HGF, Cyclin:CDK complex formation    was increased, p21 rather than p27 was regulated, and Rb    expression was enhanced. Quantification of protein levels at    the restriction point showed an excess of CDK2 over CDK4 and    limiting amounts of the transcription factor E2F-1. Analysis    with our mathematical model revealed that T160 phosphorylation    of CDK2 correlated best with growth factor-dependent    proliferation, which we validated experimentally on both the    population and the single cell level. In conclusion, we    identified CDK2 phosphorylation as a gate-keeping mechanism to    maintain hepatocyte quiescence in the absence of HGF.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000568\">BIOMD0000000568</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25771250",
+    "journal" : "Mol. Syst. Biol. 2015 Jan; 11(1): 795",
+    "title" : "T160-phosphorylated CDK2 defines threshold for HGF-dependent proliferation in primary hepatocytes.",
+    "affiliation" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+    "synopsis" : "Liver regeneration is a tightly controlled process mainly achieved by proliferation of usually quiescent hepatocytes. The specific molecular mechanisms ensuring cell division only in response to proliferative signals such as hepatocyte growth factor (HGF) are not fully understood. Here, we combined quantitative time-resolved analysis of primary mouse hepatocyte proliferation at the single cell and at the population level with mathematical modeling. We showed that numerous G1/S transition components are activated upon hepatocyte isolation whereas DNA replication only occurs upon additional HGF stimulation. In response to HGF, Cyclin:CDK complex formation was increased, p21 rather than p27 was regulated, and Rb expression was enhanced. Quantification of protein levels at the restriction point showed an excess of CDK2 over CDK4 and limiting amounts of the transcription factor E2F-1. Analysis with our mathematical model revealed that T160 phosphorylation of CDK2 correlated best with growth factor-dependent proliferation, which we validated experimentally on both the population and the single cell level. In conclusion, we identified CDK2 phosphorylation as a gate-keeping mechanism to maintain hepatocyte quiescence in the absence of HGF.",
+    "year" : 2015,
+    "link" : "http://identifiers.org/pubmed/25771250",
+    "authors" : [
+      {
+        "name" : "Mueller S"
+      },
+      {
+        "name" : "Huard J"
+      },
+      {
+        "name" : "Waldow K"
+      },
+      {
+        "name" : "Huang X"
+      },
+      {
+        "name" : "D'Alessandro LA"
+      },
+      {
+        "name" : "Bohl S"
+      },
+      {
+        "name" : "Börner K"
+      },
+      {
+        "name" : "Grimm D"
+      },
+      {
+        "name" : "Klamt S"
+      },
+      {
+        "name" : "Klingmüller U"
+      },
+      {
+        "name" : "Schilling M."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000568_url.xml",
+        "description" : "SBML L2V4 representation of Mueller2015 - Hepatocyte proliferation, T160 phosphorylation of CDK2",
+        "fileSize" : "245813",
+        "mimeType" : "application/xml",
+        "md5sum" : "85a92208dc5855a2a5d9fe30b4a6e160",
+        "sha1sum" : "99c05aa90df68764c0fc062920fc6fb868c1320a",
+        "sha256sum" : "d67bf344004e0a5c843bfd3f2b7b2362a05f62d33398857754fe1f07932af8d6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000568-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "86123",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fb85fe6d1da27770e5da0e82d02ed6f1",
+        "sha1sum" : "8c0c08b2c6145f4dfd14413a6472936c56d5aa72",
+        "sha256sum" : "08a28918171d85ae8dd8fa2e3520079e59d98536bd240c562e1cf3dd8f31f3c7"
+      },
+      {
+        "name" : "BIOMD0000000568-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "145913",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f9f72cca52c10456ec21ad7e631c6a68",
+        "sha1sum" : "90f655a4a06b640209642408fd8037d90a0e83b5",
+        "sha256sum" : "df328c8be6af7ace08188195071466eaaa9d1b4ef4a538face698600baae2e63"
+      },
+      {
+        "name" : "BIOMD0000000568-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "42213",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fd7ef0ded4abb6fe209794471e86d3a8",
+        "sha1sum" : "1621dee813ebf79fddd7f613b1f80fbb00db65ed",
+        "sha256sum" : "772a4d0c782b7ec602074d7a451b59f411296308339085d25638b6a4611734c8"
+      },
+      {
+        "name" : "BIOMD0000000568-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "42213",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "640e811e5d78d93bbc9a1bfded331dba",
+        "sha1sum" : "899de083b03861f37fb8db8773981911f002d86f",
+        "sha256sum" : "9dea74e971547f67f0b9518164cdbb2d13ef88ea2204510ba834d81a510e22f4"
+      },
+      {
+        "name" : "BIOMD0000000568.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "42213",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d6954d0e45e75b24629a15ae0703a06c",
+        "sha1sum" : "d1daeb1ddc0dbbce025481d921da479ab1524279",
+        "sha256sum" : "e23863e9acd2316db3d769d1d44e239baabce6d6883e0e20d30470c38396177d"
+      },
+      {
+        "name" : "BIOMD0000000568.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "36862",
+        "mimeType" : "text/plain",
+        "md5sum" : "c848b3a984fcf22146aa131a4b793cc1",
+        "sha1sum" : "3587b866543897eeb96e1b709a9602af1403b67d",
+        "sha256sum" : "ab151d99ca6a7fa935be96c049b1d66439877673b258b4c26f06aa426f4d3af6"
+      },
+      {
+        "name" : "BIOMD0000000568.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "622891",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6a9f891e24ad7ebeb0c578390995df33",
+        "sha1sum" : "9602c94a4414efa1654994cbe4bfdb5c715a87ea",
+        "sha256sum" : "b7d51fd9cbd0cb022813508015f133cc7a1c3755b396e4af43fe7028f0f1caeb"
+      },
+      {
+        "name" : "BIOMD0000000568.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1779851",
+        "mimeType" : "image/png",
+        "md5sum" : "b1e86978c01e59e145e0969e0fd10e08",
+        "sha1sum" : "ae77e3ccf66cbd2f0d312c5123d1456544c9918c",
+        "sha256sum" : "a6ca2a0d5d5d7658a5ebca7088c4315f010b96e5d6e62074c60f194df30d72eb"
+      },
+      {
+        "name" : "BIOMD0000000568.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "215957",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4941b13a0d77360ee607bc6ffc5dedcb",
+        "sha1sum" : "a3bc9686bccddb4b81991774ff26a32f4f637ab3",
+        "sha256sum" : "8b592510a6b7cabb5cfefdf15f6438d41edf0749d25b3505050374191a510cb6"
+      },
+      {
+        "name" : "BIOMD0000000568_PottersWheel.m",
+        "description" : "PottersWheel file of the model, matlab format",
+        "fileSize" : "36226",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "32a5dfa155acd7c2184b3dd6a5d4ac82",
+        "sha1sum" : "b2970cba48b2bd4b22f523c37106e562f95ceac3",
+        "sha256sum" : "a46eb13cef92d021becc971031cff7a6db7e4483a9c21162de191e58a2ba8257"
+      },
+      {
+        "name" : "Mueller2015.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "380731",
+        "mimeType" : "application/xml",
+        "md5sum" : "9610d318e63d64ea4dad687d74735c57",
+        "sha1sum" : "d39a5a2126f19d44788b3cd77d2e7af1230a7c1e",
+        "sha256sum" : "b0cbd2d8ec2252d845865ca9faf929bb262b5df42bb3971a836f458c0c44b69a"
+      },
+      {
+        "name" : "Mueller2015.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "104912",
+        "mimeType" : "application/xml",
+        "md5sum" : "d8aeab85dc19532de3d7c4ec7641c4f0",
+        "sha1sum" : "db84063a1ba5b5b6419a2d931cf5c80112e11ca7",
+        "sha256sum" : "5f5e511be2c07a62fe83a10cc47d73f94c0c85ab0bd2dabe6d9a5bcea8ed8ab0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "20123",
+        "mimeType" : "image/png",
+        "md5sum" : "e680a159cb5123d2904778351e3b96c9",
+        "sha1sum" : "b6e47cee3eaa89119caef2d2063c980ec48bd370",
+        "sha256sum" : "9c0180a07146b8bec1fb4c02a08d4fec6584967005dd368322841557d68a2781"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "568",
+        "mimeType" : "text/plain",
+        "md5sum" : "0d2d34e6cc0ba7a52fb5ebb38a3249fc",
+        "sha1sum" : "01a838ba35524c8929a37e83738aa2264c59b727",
+        "sha256sum" : "c61fa9e958b1ec2f637fc5856f7813e88222415e7fbda1552cc8eee4888bccf7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2024",
+        "mimeType" : "application/xml",
+        "md5sum" : "854c708c6b7c320fff60cc73bf825cbd",
+        "sha1sum" : "7154a4c3d6130caf0c44ad3fb509384e4e550fcd",
+        "sha256sum" : "ea168774a6f57b05e7782b4cd5f385a9414fe39f1b468efed2ac4fbd2ea48883"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5252",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b604485e3386bced98406f2f6fc18228",
+        "sha1sum" : "b427a0f360d9a75a359bf5a312b127e1cd29480a",
+        "sha256sum" : "7df4637c217eb1dc0d704ab4e7a426e4f9f7683e34de276d63a3b4624f581d3b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1423497366,
+        "submitter" : "Marcel Schilling",
+        "comment" : "Original import of cell_cycle_model_hepatocytes_mueller_et_al"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1426866093,
+        "submitter" : "Marcel Schilling",
+        "comment" : "Current version of Mueller2015 - Hepatocyte proliferation, T160 phosphorylation of CDK2"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545414853,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: BIOMD0000000568_PottersWheel.m, Mueller2015.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281777,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285353,
+  "submissionId" : "MODEL1502090000",
+  "publicationId" : "BIOMD0000000568",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Marcel Schilling",
+        "email" : "m.schilling@dkfz.de",
+        "affiliation" : "German Cancer Research Center",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1502090000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1502090000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000568",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000568"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26148348",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26148348"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25771250",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:25771250"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:409",
+      "name" : "liver disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:409"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0072574",
+      "name" : "hepatocyte proliferation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0072574"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

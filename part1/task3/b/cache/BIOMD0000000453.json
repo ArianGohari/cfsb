@@ -1,0 +1,354 @@
+{
+  "name" : "Bidkhori2012 - EGFR signalling in NSCLC",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Bidkhori2012 - EGFR signalling in NSCLC</div>            <div class=\"dc:description\">      <p>The paper describes and compares two models on EGFR signalling between normal and NSCLC cells. Moreover, it is shown that  ERK (MAPK), STAT and Akt factor's activation pattern are different between normal and NSCLA models. This model corresponds to EGFR signalling in NSCLA cells.</p>                <p>Created by The MathWorks, Inc. SimBiology tool, Version 3.3</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23133538\" title=\"Access to this publication\">Modeling of tumor progression in NSCLC and intrinsic resistance to TKI in loss of PTEN expression.</a>                    </div>                <div class=\"bibo:authorList\">Bidkhori G, Moeini A, Masoudi-Nejad A</div>                <div class=\"bibo:Journal\">PloS one [2012, 7(10):e48004]</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>EGFR signaling plays a very important role in NSCLC. It activates Ras/ERK, PI3K/Akt and STAT activation pathways. These are the main pathways for cell proliferation and survival. We have developed two mathematical models to relate to the different EGFR signaling in NSCLC and normal cells in the presence or absence of EGFR and PTEN mutations. The dynamics of downstream signaling pathways vary in the disease state and activation of some factors can be indicative of drug resistance. Our simulation denotes the effect of EGFR mutations and increased expression of certain factors in NSCLC EGFR signaling on each of the three pathways where levels of pERK, pSTAT and pAkt are increased. Over activation of ERK, Akt and STAT3 which are the main cell proliferation and survival factors act as promoting factors for tumor progression in NSCLC. In case of loss of PTEN, Akt activity level is considerably increased. Our simulation results show that in the presence of erlotinib, downstream factors i.e. pAkt, pSTAT3 and pERK are inhibited. However, in case of loss of PTEN expression in the presence of erlotinib, pAkt level would not decrease which demonstrates that these cells are resistant to erlotinib.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1304020001\">MODEL1304020001</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23133538",
+    "journal" : "PloS one",
+    "title" : "Modeling of tumor progression in NSCLC and intrinsic resistance to TKI in loss of PTEN expression.",
+    "affiliation" : "Laboratory of Systems Biology and Bioinformatics, Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran.",
+    "synopsis" : "EGFR signaling plays a very important role in NSCLC. It activates Ras/ERK, PI3K/Akt and STAT activation pathways. These are the main pathways for cell proliferation and survival. We have developed two mathematical models to relate to the different EGFR signaling in NSCLC and normal cells in the presence or absence of EGFR and PTEN mutations. The dynamics of downstream signaling pathways vary in the disease state and activation of some factors can be indicative of drug resistance. Our simulation denotes the effect of EGFR mutations and increased expression of certain factors in NSCLC EGFR signaling on each of the three pathways where levels of pERK, pSTAT and pAkt are increased. Over activation of ERK, Akt and STAT3 which are the main cell proliferation and survival factors act as promoting factors for tumor progression in NSCLC. In case of loss of PTEN, Akt activity level is considerably increased. Our simulation results show that in the presence of erlotinib, downstream factors i.e. pAkt, pSTAT3 and pERK are inhibited. However, in case of loss of PTEN expression in the presence of erlotinib, pAkt level would not decrease which demonstrates that these cells are resistant to erlotinib.",
+    "year" : 2012,
+    "month" : "0",
+    "volume" : "7",
+    "issue" : "10",
+    "pages" : "e48004",
+    "link" : "http://identifiers.org/pubmed/23133538",
+    "authors" : [
+      {
+        "name" : "Gholamreza Bidkhori",
+        "institution" : "Laboratory of Systems Biology and Bioinformatics, Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran."
+      },
+      {
+        "name" : "Ali Moeini"
+      },
+      {
+        "name" : "Ali Masoudi-Nejad",
+        "orcid" : "0000-0003-0659-5183"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000453_url.xml",
+        "description" : "SBML L2V4 representation of Bidkhori2012 - EGFR signalling in NSCLC",
+        "fileSize" : "322588",
+        "mimeType" : "application/xml",
+        "md5sum" : "5281d91f1a3256dfd485b2b6ebf2e2ca",
+        "sha1sum" : "48fbf6728ffe2dd0d590c861228a78f8fab8de23",
+        "sha256sum" : "8dc4d3483ac59249439114241d8811221b4180336f0b3611dc5a85368ee407f2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000453-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "316334",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "52c205fa6a8550b79170a602fe1fc2e7",
+        "sha1sum" : "77d42e67f62a52efdbc665540338861512d28c48",
+        "sha256sum" : "2490ef43d1e6437c7b63db6f4ed9f16a8c1b7ff04106424d3bdc7cfd7992ecd6"
+      },
+      {
+        "name" : "BIOMD0000000453-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "543623",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "962c7b6f4085387646223d3278013331",
+        "sha1sum" : "981364a5f0622e6fe62bac6de138d84cff1e8773",
+        "sha256sum" : "4b9c3d39d934badbebda6c7b14585a206461511409152b9861462315ea351133"
+      },
+      {
+        "name" : "BIOMD0000000453-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "109684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c397ff26d319ae577000383188c8663e",
+        "sha1sum" : "82f2878cc6cfc7529cd14370eee42376c3ea3547",
+        "sha256sum" : "57d7d92c0c96935c5945224a317e9e78d57abddd7507d16ad5202e76ecee3535"
+      },
+      {
+        "name" : "BIOMD0000000453-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "109684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d1f0fa51eb6f819cc0315e286404b491",
+        "sha1sum" : "cd2adccbdc81b4a9949c0bd585846f9b97ec7899",
+        "sha256sum" : "d9b1247f08ad86500c84b697f268afc8e42b6cdfd40a70302f0232afcda47e0a"
+      },
+      {
+        "name" : "BIOMD0000000453.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "109684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d1f0fa51eb6f819cc0315e286404b491",
+        "sha1sum" : "cd2adccbdc81b4a9949c0bd585846f9b97ec7899",
+        "sha256sum" : "d9b1247f08ad86500c84b697f268afc8e42b6cdfd40a70302f0232afcda47e0a"
+      },
+      {
+        "name" : "BIOMD0000000453.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "61911",
+        "mimeType" : "text/plain",
+        "md5sum" : "7e6f0d3ff89d844d997af668f30ac31c",
+        "sha1sum" : "eeacb6881f33541ea48268fb9bef5c21a67d09ba",
+        "sha256sum" : "c5ebba0ea9a50b3166023764ca93f25f71a46b4e76e038d31499f6e7462a8a2c"
+      },
+      {
+        "name" : "BIOMD0000000453.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "1230131",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3a7be576cf18fe7c56cce13bd4867591",
+        "sha1sum" : "61f3e7163a47813c71e31ab0f955ed30080dc94c",
+        "sha256sum" : "436b5ac514e56f5e8d787f9b2361a838172b63b013c885e3552529c045aefd8d"
+      },
+      {
+        "name" : "BIOMD0000000453.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5505070",
+        "mimeType" : "image/png",
+        "md5sum" : "fab753ca85ae550ae5503546c948d03b",
+        "sha1sum" : "de3036a8871ba87e6ba5037d1f2575574c983c4c",
+        "sha256sum" : "e4d4c1285007d671ee08d5f2960965ec881fea1bcd00ff84e96021351e518150"
+      },
+      {
+        "name" : "BIOMD0000000453.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "130679",
+        "mimeType" : "text/plain",
+        "md5sum" : "72e553cf388207c9874ff0362ae00a28",
+        "sha1sum" : "aeeb506e418fdf3bf39eebd6baa3f85e6f1eb199",
+        "sha256sum" : "76459a2ce48ea863900dfbb4eba1b9563d9b26e77e4c2c9d1a6cc8446bbea48c"
+      },
+      {
+        "name" : "BIOMD0000000453.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "663743",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "45a947cb0a1e0152f04d5ebb6951f52f",
+        "sha1sum" : "761151074bfcaf9fa8d45e81d175356841357ada",
+        "sha256sum" : "535222e4f28c688d858fa53ef8436025a3a3dc2cc6e57cf2a47bdbbe40fde98b"
+      },
+      {
+        "name" : "BIOMD0000000453.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "433524",
+        "mimeType" : "application/xml",
+        "md5sum" : "75074593666f2f729d3a1f1103b1620f",
+        "sha1sum" : "80fa9ba7b1ef31a45231d347aec88ea912c27a3e",
+        "sha256sum" : "e1f86c096473ed0b21274bda30e30179c06edc48094ef99fab1af744027eaaff"
+      },
+      {
+        "name" : "BIOMD0000000453_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "197379",
+        "mimeType" : "application/xml",
+        "md5sum" : "9ced618313429d3c18244358c837b2a5",
+        "sha1sum" : "264bfaa3d04b95f0f3ce522098f765623678ba03",
+        "sha256sum" : "2871233fe3e06b69495f2b513b09baa669f6ead9270c6e5b307a84b852c12c14"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "42656",
+        "mimeType" : "image/png",
+        "md5sum" : "a30be62826ac9ed3e7fb6026db77c4f7",
+        "sha1sum" : "3238ffdc0ba0abaf8891a60d67b49304f1f01732",
+        "sha256sum" : "5678e114bc95b99dfbf815b76871ed6e54265f61292319c1719662c974c96098"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "421",
+        "mimeType" : "text/plain",
+        "md5sum" : "3f8bc313b87a4078c66c63e6f319093e",
+        "sha1sum" : "da51517ed3213426cd9de273cabd0ab6df0cb0b6",
+        "sha256sum" : "66ab051d95894220d685357b44633ac747121de404aa8da74df37b294022ea11"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "863f56e3777a6e5e99f2df82bdb9101a",
+        "sha1sum" : "53c9168e1740d73e51ae3a9f4460ad7a69fe4fcc",
+        "sha256sum" : "3ba5f75539c68a1b7c4c42102f8e22e047a3e25a3abb7057ddf6ed6e809ce0fe"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7080",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c84a830c43f2e765e6ea05d83c97d5dc",
+        "sha1sum" : "5ad3a989b2b9475d286a00669e76b727aeda4080",
+        "sha256sum" : "cc9dcd2aea67ce9aa85c2f8d712ee7d15fc8dc10726b67e5cc52e2e338204886"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1364904332,
+        "submitter" : "Gholamreza Bidkhori",
+        "comment" : "Original import of NSCLC EGFR signaling model_ By: Gholamreza Bidkhori"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1413910955,
+        "submitter" : "Gholamreza Bidkhori",
+        "comment" : "Current version of Bidkhori2012 - EGFR signalling in NSCLC"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277517,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285192,
+  "submissionId" : "MODEL1304020001",
+  "publicationId" : "BIOMD0000000453",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Gholamreza Bidkhori",
+        "email" : "bidkhori@ibb.ut.ac.ir",
+        "affiliation" : "university of tehran",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1304020001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1304020001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000453",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000453"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23133538",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23133538"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000049",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000049"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000093",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000093"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000205",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000205"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000094",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000094"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000019",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000019"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16687399",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16687399"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "20459599",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20459599"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000009",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000009"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000048",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000048"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "14751248",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14751248"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:3908",
+      "name" : "non-small cell lung carcinoma",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:3908"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name" : "Sriram2007_CellCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <p xmlns=\"http://www.w3.org/1999/xhtml\">The model reproduces the time profile of species depicted in Figure 12a and 12 b. The authors communicated to the curator that there is a typo in the paper,  the values of kd1 and kd2 are reversed. Model successfully reproduced using MathSBML.</p>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18203579",
+    "journal" : "IET systems biology",
+    "title" : "A minimal mathematical model combining several regulatory cycles from the budding yeast cell cycle.",
+    "affiliation" : "Epigenomics Project, 523, Place des Terrasses de 1' Agora, Tour Evry 2, Genopole, Evry, 91000 France. sridelin@yahoo.co.in",
+    "synopsis" : "A novel topology of regulatory networks abstracted from the budding yeast cell cycle is studied by constructing a simple nonlinear model. A ternary positive feedback loop with only positive regulations is constructed with elements that activates the subsequent element in a clockwise fashion. A ternary negative feedback loop with only negative regulations is constructed with the elements that inhibit the subsequent element in an anticlockwise fashion. Positive feedback loop exhibits bistability, whereas the negative feedback loop exhibits limit cycle oscillations. The novelty of the topology is that the corresponding elements in these two homogeneous feedback loops are linked by the binary positive feedback loops with only positive regulations. This results in the emergence of mixed feedback loops in the network that displays complex behaviour like the coexistence of multiple steady states, relaxation oscillations and chaos. Importantly, the arrangement of the feedback loops brings in the notion of checkpoint in the model. The model also exhibits domino-like behaviour, where the limit cycle oscillations take place in a stepwise fashion. As the aforementioned topology is abstracted from the budding yeast cell cycle, the events that govern the cell cycle are considered for the present study. In budding yeast, the sequential activation of the transcription factors, cyclins and their inhibitors form mixed feedback loops. The transcription factors that involve in the positive regulation in a clockwise orientation generates ternary positive feedback loop, while the cyclins and their inhibitors that involve in the negative regulation in an anticlockwise orientation generates ternary negative feedback loop. The mutual regulation between the corresponding elements in the transcription factors and the cyclins and their inhibitors generates binary positive feedback loops. The bifurcation diagram constructed for the whole system can be related to the different events of the cell cycle in terms of dynamical system theory. The checkpoint mechanism that plays an important role in different phases of the cell cycle are accounted for by silencing appropriate feedback loops in the model.",
+    "year" : 2007,
+    "month" : "11",
+    "volume" : "1",
+    "issue" : "6",
+    "pages" : "326-341",
+    "link" : "http://identifiers.org/pubmed/18203579",
+    "authors" : [
+      {
+        "name" : "K Sriram",
+        "institution" : "Epigenomics Project, 523, Place des Terrasses de 1' Agora, Tour Evry 2, Genopole, Evry, 91000 France. sridelin@yahoo.co.in"
+      },
+      {
+        "name" : "G Bernot"
+      },
+      {
+        "name" : "F Képès"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000181_url.xml",
+        "description" : "SBML L2V3 representation of Sriram2007_CellCycle",
+        "fileSize" : "33551",
+        "mimeType" : "application/xml",
+        "md5sum" : "d15357c4dd176b4daa91579a5f149f5d",
+        "sha1sum" : "87f290e82fe35bda1247deb9788c3fd42220ff08",
+        "sha256sum" : "6157a2908d4476ab20e1eae5b2cc7f730f335069036420c2124c70882da805da"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000181-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19515",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f296a24929294a65d35074fbf14fc074",
+        "sha1sum" : "d60d3c281e49ee6d94b0befb20d7514cbf62c99b",
+        "sha256sum" : "a4e6139dc218cb639db9598256ccb6a8b62c8bf92d628f8f17a3f59cc53faab4"
+      },
+      {
+        "name" : "BIOMD0000000181-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "28130",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4c3fd85c8d0410d5eac9cf7478462c0d",
+        "sha1sum" : "03bce592886d357b09607b86ce60c36c4dee5df7",
+        "sha256sum" : "4d195a8df562aac8fcefb3ebbf9d4ce589eeb2235b4b096e6e29b432d2edf2b5"
+      },
+      {
+        "name" : "BIOMD0000000181-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6826",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1b96de1b038276678698cb58a349a51a",
+        "sha1sum" : "8d8b5592ce57346611d7baf6314702671e4ac1a0",
+        "sha256sum" : "0ec67d7896f7c58aa0305807b902c4eb44fa373550615aec4fe3345c8246b2d8"
+      },
+      {
+        "name" : "BIOMD0000000181-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6826",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ea907a2e067b838080f1b5e6c53d3f60",
+        "sha1sum" : "d23f3dee31c4050358ba5c3cd5cc9088150c53fa",
+        "sha256sum" : "0f0a832a7c7ae4fea633e1701a4df2e2ec7edd9338bf0942645f04d740ae1c05"
+      },
+      {
+        "name" : "BIOMD0000000181.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6826",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ea907a2e067b838080f1b5e6c53d3f60",
+        "sha1sum" : "d23f3dee31c4050358ba5c3cd5cc9088150c53fa",
+        "sha256sum" : "0f0a832a7c7ae4fea633e1701a4df2e2ec7edd9338bf0942645f04d740ae1c05"
+      },
+      {
+        "name" : "BIOMD0000000181.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4089",
+        "mimeType" : "text/plain",
+        "md5sum" : "5f11c39802e814cc77bc26d878c4ee69",
+        "sha1sum" : "e46a4c329671ef6077f167ae65e76d23ca84c796",
+        "sha256sum" : "1edbcd89aad5e2e57b831329b02f56b8f74225820b68664d4cf696ac7f71f63f"
+      },
+      {
+        "name" : "BIOMD0000000181.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "182920",
+        "mimeType" : "application/pdf",
+        "md5sum" : "86a3e65e70f55c219b71f8c5455562c6",
+        "sha1sum" : "2fca37483b1e4bf492318953ab3dd2537d36fc3d",
+        "sha256sum" : "6a641048f6a3bfb1eb59a9a0fa5feb40a94ef407f1b1ce522579ef09cd3845cd"
+      },
+      {
+        "name" : "BIOMD0000000181.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "102636",
+        "mimeType" : "image/png",
+        "md5sum" : "5e3a852351318101b2b0678455ee95fa",
+        "sha1sum" : "78ec49a81e733364a977a3d60d03d62051837217",
+        "sha256sum" : "8bd93893c440001437b50f49d152bc5edbe629847f46b4c15173140d5a19a1e3"
+      },
+      {
+        "name" : "BIOMD0000000181.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "36507",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "8b4a7a6b1d7d6cbc193f816efb951c9d",
+        "sha1sum" : "de056f073bcbbdcc42e0c98cb4b93347f4db343c",
+        "sha256sum" : "ca6c888165729cd5851d3f3aba262d92251b0658a6cd5c5c21f5d02cd3336498"
+      },
+      {
+        "name" : "BIOMD0000000181.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "42551",
+        "mimeType" : "application/xml",
+        "md5sum" : "175a4cca81a07f6811ceb3e2417dc0d8",
+        "sha1sum" : "0113ed78c0215b5249b31bc98ef5f8887f4742b7",
+        "sha256sum" : "20b7c6c6ceb3b010817be2736e7e323a171fbb073185b3a4b0900154941e1e32"
+      },
+      {
+        "name" : "BIOMD0000000181_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "27210",
+        "mimeType" : "application/xml",
+        "md5sum" : "097449aa84f0943bc1700f5ce8d009b1",
+        "sha1sum" : "509c0ec73b6779f51a85760794238f55f96e24a0",
+        "sha256sum" : "9b60b1ce775f296ff41e78e0af527096a943948b063f94c82ec598587453bf7b"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "37697",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "29dbcdecb5a5fa22cf12a3a9b3c40b62",
+        "sha1sum" : "d58b3cc05b9ec2e73d92fd69b1f443330f491ccd",
+        "sha256sum" : "89cf476292b61e0f3576b768a2b9472c18711a036d94c96c0d70f638632c0044"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "96",
+        "mimeType" : "text/plain",
+        "md5sum" : "b726ea811f13e0295b4adda96d76186d",
+        "sha1sum" : "a1de4ffa9fdcccdfdd85a0bfaf10fa9b4497732b",
+        "sha256sum" : "48e118cc9120431a9e40c44bfc18b07120ba6781e3b6cc2f3d47bab1746b3a1a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "d3323b8771e711241ad068af98b6600b",
+        "sha1sum" : "b41b1595ffbcdf2a4ffe4001bca16d3f87f3ab94",
+        "sha256sum" : "2500db6d8927882c0cffdfc8cfa6d77bab4a1b9b8cbb97d01b7f671c2a02e987"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1866",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c0027591966ef430313854dd80d32b49",
+        "sha1sum" : "0bd96d647462afa138276b6538cb5a749bdd463d",
+        "sha256sum" : "026d80d66a42e455e8eca7b406c9afa738e8b7cc0df86e14d8ee5a824d34b1b3"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1218721497,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Sriram2007_CellCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401234445,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Sriram2007_CellCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269581,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284921,
+  "submissionId" : "MODEL8610478473",
+  "publicationId" : "BIOMD0000000181",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8610478473",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8610478473"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000181",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000181"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18203579",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18203579"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000195",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000195"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "sce04111",
+      "name" : "Cell cycle - yeast - Saccharomyces cerevisiae (budding yeast)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/sce04111"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "33154",
+      "name" : "Opisthokonta",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/33154"
+    },
+    {
+      "qualifier" : "bqbiol:isHomologTo",
+      "accession" : "REACT_152",
+      "name" : "Cell Cycle, Mitotic",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_152"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

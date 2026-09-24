@@ -1,0 +1,245 @@
+{
+  "name" : "Graham2013 - Role of osteocytes in targeted bone remodeling",
+  "description" : "Jason M. Graham, Bruce P. Ayati, Sarah A. Holstein & James A. Martin. The role of osteocytes in targeted bone remodeling: a mathematical model. PLoS ONE 8, 5 (2013).<p></p><p></p>Until recently many studies of bone remodeling at the cellular level have focused on the behavior of mature osteoblasts and osteoclasts, and their respective precursor cells, with the role of osteocytes and bone lining cells left largely unexplored. This is particularly true with respect to the mathematical modeling of bone remodeling. However, there is increasing evidence that osteocytes play important roles in the cycle of targeted bone remodeling, in serving as a significant source of RANKL to support osteoclastogenesis, and in secreting the bone formation inhibitor sclerostin. Moreover, there is also increasing interest in sclerostin, an osteocyte-secreted bone formation inhibitor, and its role in regulating local response to changes in the bone microenvironment. Here we develop a cell population model of bone remodeling that includes the role of osteocytes, sclerostin, and allows for the possibility of RANKL expression by osteocyte cell populations. We have aimed to give a simple, yet still tractable, model that remains faithful to the underlying system based on the known literature. This model extends and complements many of the existing mathematical models for bone remodeling, but can be used to explore aspects of the process of bone remodeling that were previously beyond the scope of prior modeling work. Through numerical simulations we demonstrate that our model can be used to explore theoretically many of the qualitative features of the role of osteocytes in bone biology as presented in recent literature.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23717504",
+    "journal" : "PloS one",
+    "title" : "The role of osteocytes in targeted bone remodeling: a mathematical model.",
+    "affiliation" : "Department of Mathematics, University of Scranton, Scranton, Pennsylvania, USA. jason.grahamscranton.edu",
+    "synopsis" : "Until recently many studies of bone remodeling at the cellular level have focused on the behavior of mature osteoblasts and osteoclasts, and their respective precursor cells, with the role of osteocytes and bone lining cells left largely unexplored. This is particularly true with respect to the mathematical modeling of bone remodeling. However, there is increasing evidence that osteocytes play important roles in the cycle of targeted bone remodeling, in serving as a significant source of RANKL to support osteoclastogenesis, and in secreting the bone formation inhibitor sclerostin. Moreover, there is also increasing interest in sclerostin, an osteocyte-secreted bone formation inhibitor, and its role in regulating local response to changes in the bone microenvironment. Here we develop a cell population model of bone remodeling that includes the role of osteocytes, sclerostin, and allows for the possibility of RANKL expression by osteocyte cell populations. We have aimed to give a simple, yet still tractable, model that remains faithful to the underlying system based on the known literature. This model extends and complements many of the existing mathematical models for bone remodeling, but can be used to explore aspects of the process of bone remodeling that were previously beyond the scope of prior modeling work. Through numerical simulations we demonstrate that our model can be used to explore theoretically many of the qualitative features of the role of osteocytes in bone biology as presented in recent literature.",
+    "year" : 2013,
+    "month" : "0",
+    "volume" : "8",
+    "issue" : "5",
+    "pages" : "e63884",
+    "link" : "http://identifiers.org/pubmed/23717504",
+    "authors" : [
+      {
+        "name" : "Jason M Graham",
+        "institution" : "Department of Mathematics, University of Scranton, Scranton, Pennsylvania, USA. jason.grahamscranton.edu"
+      },
+      {
+        "name" : "Bruce P Ayati"
+      },
+      {
+        "name" : "Sarah A Holstein"
+      },
+      {
+        "name" : "James A Martin",
+        "orcid" : "0000-0001-5085-0108"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Model.xml",
+        "description" : "SBML file of the model",
+        "fileSize" : "48468",
+        "mimeType" : "application/xml",
+        "md5sum" : "efae7c0c3e9de915b23d98d9ad0bb828",
+        "sha1sum" : "1f64d57c12fe19f19ed57513826965db31d6456f",
+        "sha256sum" : "24c95044f68ba4ba22a4f30e2958b40357fb58eb6bcebfaa741e004d19986929"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Model-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "15257",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4463c492a9498366200f256a8f2ada53",
+        "sha1sum" : "bf0a8bb15b7d1d54e2989ccad22d05fb6a86f7f1",
+        "sha256sum" : "20b4f657514695f0084b8525a4cffb30d948aa3bead184b1b362b8bb2660bfc2"
+      },
+      {
+        "name" : "Model-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "22839",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2669fab6e66a55d44710ba5654920407",
+        "sha1sum" : "29f869fee1ac62cb12aa1dacda8366a4c3f50702",
+        "sha256sum" : "1e57861eaf8161f4d07a3b96eb6fe5221acc8c6affa23e5b1e0d8e6f008925f8"
+      },
+      {
+        "name" : "Model-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8277",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "06542c1ac5f4591a8b78942469c4578f",
+        "sha1sum" : "28866f160811b8d265e26141b8de2407349922ed",
+        "sha256sum" : "f983aff09bdfdb3fea61733a191a00c945d44dd069362c4da10797618e27817f"
+      },
+      {
+        "name" : "Model-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8277",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4ef148899c4222cf8c9a241be543a79b",
+        "sha1sum" : "8c407711bbf1433cb0f14a21896dc74b87dabee5",
+        "sha256sum" : "bdab3ed28b080b56c94df669f6eb52f19d942610e81ef7f5ec98d5e73f165e24"
+      },
+      {
+        "name" : "Model.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6056",
+        "mimeType" : "text/plain",
+        "md5sum" : "8d9044131c13db6b01ed5cd186edf3ed",
+        "sha1sum" : "003f7455c75099ffcd56ef0b3deff9dc652eca8d",
+        "sha256sum" : "b5384ac6f12f6424200efee3bbc09f721e772f625988ffaec9e3cb3a12dbe54e"
+      },
+      {
+        "name" : "V3 - ANNOTATED.cps",
+        "description" : "Copasi file of the Model",
+        "fileSize" : "88061",
+        "mimeType" : "application/xml",
+        "md5sum" : "76d545509d0eec67f0d908adf022d5a1",
+        "sha1sum" : "77d97f897bd1e13e8a322c8e241918c0a77d7ddf",
+        "sha256sum" : "c38aa46b0fc4a5c18b4eb9c5e22ca6189a454780c002e336ffd9cf5f629a1a49"
+      },
+      {
+        "name" : "V3 - ANNOTATED.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "26163",
+        "mimeType" : "application/xml",
+        "md5sum" : "1fbd0b7cc9b02ab1b2181d72a99f06c1",
+        "sha1sum" : "9e405a5a578b10781b7d99f04a37d3c0551e6a41",
+        "sha256sum" : "52a03ba4452ed9f4be257d20e483d094dfa3fe23a3c7581812fe22ac3ab5bc72"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "53279",
+        "mimeType" : "image/png",
+        "md5sum" : "42b82dcf90b2a1e2d4d233e264ff4491",
+        "sha1sum" : "f840588085b1b7859bd0245d105abae4d53c075e",
+        "sha256sum" : "6ab01a04e93771bb9a75d90b601a07ea9b348e2fa0519700c289130ee1cee084"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "345",
+        "mimeType" : "text/plain",
+        "md5sum" : "f351e8c062711e0bf0760ce95debe9f6",
+        "sha1sum" : "c02eb9ab9d9ae2a0d2d419eb55e9defcfb326e09",
+        "sha256sum" : "fce8a1a64e7fd4fc70b821a4d51b08d2cfbfcda8bdceaacdc8570135fc0dc2e3"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1389",
+        "mimeType" : "application/xml",
+        "md5sum" : "c46f96bc9ad83cc491bb60474c222ad6",
+        "sha1sum" : "9a4804e8d611465132a1d61f40940ca4bc861890",
+        "sha256sum" : "76be2edb3351c7a4c0fcefcefbd659968199ae8c184429da2346d6591754de0d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1456",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "db8f23b04d60d01d5cc21eb96e68706b",
+        "sha1sum" : "82b879c2022d681ed3d85086366532d9aaddb907",
+        "sha256sum" : "26d294202a9a7951303d690763f1ba4828e83ed386ecd7c549aeb922b982da7f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 4,
+        "submitted" : 1542289690,
+        "submitter" : "Sarubini Kananathan",
+        "comment" : "Automatically added model identifier BIOMD0000000721"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724287769,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285425,
+  "submissionId" : "MODEL1811150001",
+  "publicationId" : "BIOMD0000000721",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Sarubini Kananathan",
+        "email" : "skananathan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000721",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000721"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1811150001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1811150001"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23717504",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:23717504"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0046849",
+      "name" : "bone remodeling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0046849"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "23717504",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23717504"
+    }
+  ]
+}

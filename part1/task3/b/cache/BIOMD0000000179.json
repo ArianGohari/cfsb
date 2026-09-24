@@ -1,0 +1,268 @@
+{
+  "name" : "Kim2007_CellularMemory_AsymmetricModel",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Interlinked mutual inhibitory positive feedbacks induce robust cellular memory effects. </strong>        <br />Kim TH, Jung SH, Cho KH       <em>FEBS Lett.</em>2007 Oct; 581(25)       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17892872\">17892872</a>,      <br />        <strong>Abstract:</strong>        <br />Mutual inhibitory positive feedback (MIPF), or double-negative feedback, is a key regulatory motif of cellular memory with the capability of maintaining switched states for transient stimuli. Such MIPFs are found in various biological systems where they are interlinked in many cases despite a single MIPF can still realize such a memory effect. An intriguing question then arises about the advantage of interlinking MIPFs instead of exploiting an isolated single MIPF to realize the memory effect. We have investigated the advantages of interlinked MIPF systems through mathematical modeling and computer simulations. Our results revealed that interlinking MIPFs expands the parameter range of achieving the memory effect, or the memory region, thereby making the system more robust to parameter perturbations. Moreover, the minimal duration and amplitude of an external stimulus required for off-to-on state transition are increased and, as a result, external noises can more effectively be filtered out. Hence, interlinked MIPF systems can realize more robust cellular memories with respect to both parameter perturbations and external noises. Our study suggests that interlinked MIPF systems might be an evolutionary consequence acquired for a more reliable memory effect by enhancing robustness against noisy cellular environments.    </p>      <p>        <b>Note:</b> The model reproduces the simulation result for an asymmetric model as depicted in Fig 3G of the paper. Model successfully tested on MathSBML</p>      <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17892872",
+    "journal" : "FEBS letters",
+    "title" : "Interlinked mutual inhibitory positive feedbacks induce robust cellular memory effects.",
+    "affiliation" : "Interdisciplinary Graduate Program in Genetic Engineering, Seoul National University, Seoul 151-747, Republic of Korea.",
+    "synopsis" : "Mutual inhibitory positive feedback (MIPF), or double-negative feedback, is a key regulatory motif of cellular memory with the capability of maintaining switched states for transient stimuli. Such MIPFs are found in various biological systems where they are interlinked in many cases despite a single MIPF can still realize such a memory effect. An intriguing question then arises about the advantage of interlinking MIPFs instead of exploiting an isolated single MIPF to realize the memory effect. We have investigated the advantages of interlinked MIPF systems through mathematical modeling and computer simulations. Our results revealed that interlinking MIPFs expands the parameter range of achieving the memory effect, or the memory region, thereby making the system more robust to parameter perturbations. Moreover, the minimal duration and amplitude of an external stimulus required for off-to-on state transition are increased and, as a result, external noises can more effectively be filtered out. Hence, interlinked MIPF systems can realize more robust cellular memories with respect to both parameter perturbations and external noises. Our study suggests that interlinked MIPF systems might be an evolutionary consequence acquired for a more reliable memory effect by enhancing robustness against noisy cellular environments.",
+    "year" : 2007,
+    "month" : "10",
+    "volume" : "581",
+    "issue" : "25",
+    "pages" : "4899-4904",
+    "link" : "http://identifiers.org/pubmed/17892872",
+    "authors" : [
+      {
+        "name" : "Tae-Hwan Kim",
+        "institution" : "Interdisciplinary Graduate Program in Genetic Engineering, Seoul National University, Seoul 151-747, Republic of Korea."
+      },
+      {
+        "name" : "Sung Hoon Jung"
+      },
+      {
+        "name" : "Kwang-Hyun Cho"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000179_url.xml",
+        "description" : "SBML L2V3 representation of Kim2007_CellularMemory_AsymmetricModel",
+        "fileSize" : "30270",
+        "mimeType" : "application/xml",
+        "md5sum" : "3599a3f514cb2e163cf62cb4dfaaa540",
+        "sha1sum" : "f5629aaea9aa55e651caa7c8d58e7d8ab9e4e7e9",
+        "sha256sum" : "8bd5033c7eb353ef44cfce33b2711e2ab15ef8a729f69b8962c7be4faf4acd22"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000179-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18297",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "53da190119b93c0a00ba6f8a5d59bae4",
+        "sha1sum" : "6945ad9d6ebefc36b8f8a68e1426533da149f1d7",
+        "sha256sum" : "c757ded216b98387321c42d259794061f5520c2104dbd8d35453d4d7e56603f8"
+      },
+      {
+        "name" : "BIOMD0000000179-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "26598",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "475380edc1b9589d41afba72b27b93a9",
+        "sha1sum" : "390d81a1b6e3609095f9a583177f3fe215060732",
+        "sha256sum" : "7559711b4afe202ef38233db36212706d7136a210ec195aedfb6678b20e01cad"
+      },
+      {
+        "name" : "BIOMD0000000179-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6064",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c761364ecf47f6ccff4a6dd723d3d7ed",
+        "sha1sum" : "a17517aa4a87699a0fa6f043cd5886ea1278e6c0",
+        "sha256sum" : "0cf2a2b8dfffaa2740b6fa06ad9393dcbb64500ee5ead2fabd39b367653dbd3f"
+      },
+      {
+        "name" : "BIOMD0000000179-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6064",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3b280ecb1f5f4e1fbde151394f362c57",
+        "sha1sum" : "607bae20b22568014704898f3e2546cc5e66d4cb",
+        "sha256sum" : "b053d4b225529aa9237662f09d4e935d93b2b2b113ca3621e4203e9a9785fb41"
+      },
+      {
+        "name" : "BIOMD0000000179.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6064",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3b280ecb1f5f4e1fbde151394f362c57",
+        "sha1sum" : "607bae20b22568014704898f3e2546cc5e66d4cb",
+        "sha256sum" : "b053d4b225529aa9237662f09d4e935d93b2b2b113ca3621e4203e9a9785fb41"
+      },
+      {
+        "name" : "BIOMD0000000179.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "189745",
+        "mimeType" : "application/pdf",
+        "md5sum" : "52e2bf4899b57622b42e41f49f08c25d",
+        "sha1sum" : "c0d9b6d3184fd72cf2a39c47e1f1f28d70aeab4d",
+        "sha256sum" : "d4edcfeb8c4a2914d7911b89a6b84af65f33c213084d8f4abab588a2bc0229d5"
+      },
+      {
+        "name" : "BIOMD0000000179.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "60453",
+        "mimeType" : "image/png",
+        "md5sum" : "d2fd1fc7f681a2555ada52c9e873bd83",
+        "sha1sum" : "d257bcce3637bbfa4d08969a71b06f35d2e494ae",
+        "sha256sum" : "96ccfce25ae5867eff7a76f7d5bdc3e2144d726e0467e718ca3071806a524b4b"
+      },
+      {
+        "name" : "BIOMD0000000179.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "30774",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "864abe6fa70a12f292e206b835abecef",
+        "sha1sum" : "75200575d921766671db7d750b58d967e7cbaa89",
+        "sha256sum" : "48798b90d548d54ca1fb410f49b1f066b77ba5d30339b8503044983210eda0ad"
+      },
+      {
+        "name" : "BIOMD0000000179.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "40467",
+        "mimeType" : "application/xml",
+        "md5sum" : "26481d3bce2921d356c0dd6f5213a9f2",
+        "sha1sum" : "dcda14a71645c0664bae5946c24df979b313797d",
+        "sha256sum" : "b77ef865affe8b176349b413f69ed07242864556dff9c06f879ef00c68e07bf3"
+      },
+      {
+        "name" : "BIOMD0000000179_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "24961",
+        "mimeType" : "application/xml",
+        "md5sum" : "5e42dc45b5b01099897c29cc389a1adc",
+        "sha1sum" : "75f5894668d4ecac8f04ba7909afd64e644206a3",
+        "sha256sum" : "ad3e9e88326f1bc9ad7e9d5686c2b95268d6d72156a7c2d9ceb96ce1f9d5f0d5"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "16006",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "4a06a9c607825d369661b9cda3d5e7d9",
+        "sha1sum" : "13c31f394feaf61f7d8fe4d7e0c2697233397340",
+        "sha256sum" : "73067f130f8443c40ad957689dd0060ec314291954d283173eaa6b347ae4b7f5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "112",
+        "mimeType" : "text/plain",
+        "md5sum" : "6814a658ea17a23f6852103c712f4140",
+        "sha1sum" : "5fe49b044853255357925accd28237ab1aac92c0",
+        "sha256sum" : "966feed35ca2630dcf844345de1e44a047d5ecc289cc5183d10d1227293cef2c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1803",
+        "mimeType" : "application/xml",
+        "md5sum" : "2c61ff0620833a9fe5bb2a21f2fe99c5",
+        "sha1sum" : "ad425f642e9d84606a7853d21fe8d6cacdd051e8",
+        "sha256sum" : "4d52c6aab69966d46394a3c31924744b33e5c6c4145fee74d253addf7cc8fe1e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4415",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8e08b65c023173f4e812dd9b9409d536",
+        "sha1sum" : "bc14bd1f3f8c7a4cc4032171d9d41bc1c673ef6f",
+        "sha256sum" : "de6e4d96ceb4eaa1e1859e80e411ee806c3a2602943706bbb87afdeb08ade579"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1218721410,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of TaeHwanKim2007_Cellular_Memory_Asymmetric_Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396834307,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Kim2007_CellularMemory_AsymmetricModel"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269531,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284919,
+  "submissionId" : "MODEL8716051482",
+  "publicationId" : "BIOMD0000000179",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8716051482",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8716051482"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000179",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000179"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17892872",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17892872"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051270",
+      "name" : "regulation of cellular component movement",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051270"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

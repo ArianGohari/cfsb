@@ -1,0 +1,312 @@
+{
+  "name" : "Gould2013 - Temperature Sensitive Circadian Clock",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Gould2011 - Temperature Sensitive CircadianClock</div><div class=\"dc:description\">This model is a temperature sensitiveversion of Pokhilko <i>et al</i>.  2010 (PMID:<a href=\"http://europepmc.org/abstract/MED/20865009\">20865009</a>),which is <a href=\"http://www.ebi.ac.uk/biomodels-main/BIOMD0000000273\">BIOMD0000000273</a>in BioModels.<br /></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/23511208\" title=\"Access to this publication\">Network balance via CRY    signalling controls the Arabidopsis circadian clock over    ambient temperatures.</a>  </div>  <div class=\"bibo:authorList\">Gould PD, Ugarte N, Domijan M, Costa  M, Foreman J, Macgregor D, Rose K, Griffiths J, Millar AJ,  Finkenstädt B, Penfield S, Rand DA, Halliday KJ, Hall  AJ.</div>  <div class=\"bibo:Journal\">Mol. Syst. Biol. 2013; 9: 650</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Circadian clocks exhibit 'temperature compensation', meaning    that they show only small changes in period over a broad    temperature range. Several clock genes have been implicated in    the temperature-dependent control of period in Arabidopsis. We    show that blue light is essential for this, suggesting that the    effects of light and temperature interact or converge upon    common targets in the circadian clock. Our data demonstrate    that two cryptochrome photoreceptors differentially control    circadian period and sustain rhythmicity across the    physiological temperature range. In order to test the    hypothesis that the targets of light regulation are sufficient    to mediate temperature compensation, we constructed a    temperature-compensated clock model by adding passive    temperature effects into only the light-sensitive processes in    the model. Remarkably, this model was not only capable of full    temperature compensation and consistent with mRNA profiles    across a temperature range, but also predicted the    temperature-dependent change in the level of LATE ELONGATED    HYPOCOTYL, a key clock protein. Our analysis provides a    systems-level understanding of period control in the plant    circadian oscillator.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000564\">BIOMD0000000564</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23511208",
+    "journal" : "Molecular systems biology",
+    "title" : "Network balance via CRY signalling controls the Arabidopsis circadian clock over ambient temperatures.",
+    "affiliation" : "Institute of Integrative Biology, University of Liverpool, Liverpool, UK.",
+    "synopsis" : "Circadian clocks exhibit 'temperature compensation', meaning that they show only small changes in period over a broad temperature range. Several clock genes have been implicated in the temperature-dependent control of period in Arabidopsis. We show that blue light is essential for this, suggesting that the effects of light and temperature interact or converge upon common targets in the circadian clock. Our data demonstrate that two cryptochrome photoreceptors differentially control circadian period and sustain rhythmicity across the physiological temperature range. In order to test the hypothesis that the targets of light regulation are sufficient to mediate temperature compensation, we constructed a temperature-compensated clock model by adding passive temperature effects into only the light-sensitive processes in the model. Remarkably, this model was not only capable of full temperature compensation and consistent with mRNA profiles across a temperature range, but also predicted the temperature-dependent change in the level of LATE ELONGATED HYPOCOTYL, a key clock protein. Our analysis provides a systems-level understanding of period control in the plant circadian oscillator.",
+    "year" : 2013,
+    "month" : "0",
+    "volume" : "9",
+    "pages" : "650",
+    "link" : "http://identifiers.org/pubmed/23511208",
+    "authors" : [
+      {
+        "name" : "Peter D Gould",
+        "orcid" : "0000-0002-0709-1190"
+      },
+      {
+        "name" : "Nicolas Ugarte"
+      },
+      {
+        "name" : "Mirela Domijan"
+      },
+      {
+        "name" : "Maria Costa"
+      },
+      {
+        "name" : "Julia Foreman",
+        "orcid" : "0000-0003-4567-2479"
+      },
+      {
+        "name" : "Dana Macgregor",
+        "orcid" : "0000-0003-0543-0408"
+      },
+      {
+        "name" : "Ken Rose"
+      },
+      {
+        "name" : "Jayne Griffiths"
+      },
+      {
+        "name" : "Andrew J Millar",
+        "orcid" : "0000-0003-1756-3654"
+      },
+      {
+        "name" : "Bärbel Finkenstädt"
+      },
+      {
+        "name" : "Steven Penfield"
+      },
+      {
+        "name" : "David A Rand"
+      },
+      {
+        "name" : "Karen J Halliday",
+        "institution" : "SynthSys and School of Biological Sciences, University of Edinburgh, C.H. Waddington Building, Edinburgh EH9 3JD, UK karen.halliday@ed.ac.uk.",
+        "orcid" : "0000-0003-0467-104X"
+      },
+      {
+        "name" : "Anthony J W Hall",
+        "orcid" : "0000-0002-1806-020X"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000564_url.xml",
+        "description" : "SBML L2V4 representation of Gould2013 - Temperature Sensitive Circadian Clock",
+        "fileSize" : "183307",
+        "mimeType" : "application/xml",
+        "md5sum" : "d2f01200d391e0e102cb58e21e2a04fd",
+        "sha1sum" : "806512bd04c0334fc297b155af7d1950299c8f7a",
+        "sha256sum" : "4affacffbccc7b39790c293ac6e61a57884876701f629a5b9abcca9bb14207e4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000564-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "42073",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cf9798b0407b50d60f7e5d5458fd5684",
+        "sha1sum" : "bf5643e32474a54919a1fd63f9c654d4879096d9",
+        "sha256sum" : "04c453ca3c85c1a3f5524198652f52d2e1d03dfa9b0afeb5b9ecf12d629e0299"
+      },
+      {
+        "name" : "BIOMD0000000564-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "61800",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c07dd02da5fd35798106e900bfaa869a",
+        "sha1sum" : "dd9e5b9c0355041ac840abcaf8794f71041a620a",
+        "sha256sum" : "30406688161136af9769e3d426ccc0846f58c8917dbaa38d533759eb7ffee9e1"
+      },
+      {
+        "name" : "BIOMD0000000564-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "23680",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0733058fff7f9b447d0158af21915ddc",
+        "sha1sum" : "f9f0b666743a1e03deb4c62e8acac89e9521d214",
+        "sha256sum" : "c3ea9ed07b69c4ef78febd9cdd174286a4d3e05e8c68f77291a9e4e1796e20fc"
+      },
+      {
+        "name" : "BIOMD0000000564-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "23680",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "37cc60fa4543ec7177bdc8d8dc400e9e",
+        "sha1sum" : "b8502b24dcbe6b32f2383e40ffb94c087110e9af",
+        "sha256sum" : "1f6a4712373667105e8ff796c99f319b33489ea6ac066baf13fc13a38b7ac09e"
+      },
+      {
+        "name" : "BIOMD0000000564.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "23680",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "37cc60fa4543ec7177bdc8d8dc400e9e",
+        "sha1sum" : "b8502b24dcbe6b32f2383e40ffb94c087110e9af",
+        "sha256sum" : "1f6a4712373667105e8ff796c99f319b33489ea6ac066baf13fc13a38b7ac09e"
+      },
+      {
+        "name" : "BIOMD0000000564.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "20489",
+        "mimeType" : "text/plain",
+        "md5sum" : "45bc9e4ae035fc29ea891fd50aba9fb1",
+        "sha1sum" : "776c19ad80c5e127fdcd8b3fcb19ae2e512b6628",
+        "sha256sum" : "e58a8d8008126915c2d2156fa0409f88aabd4706e26777fd507f1357bf334c77"
+      },
+      {
+        "name" : "BIOMD0000000564.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "392024",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0716ec85d58731882854f889dfc84970",
+        "sha1sum" : "e5fc81ff6883da20e6cef274199ec93da4adc009",
+        "sha256sum" : "e96bac991d36da094dc8f03d716c2d5dfb1240cb83faf7531d3b7494b39d4924"
+      },
+      {
+        "name" : "BIOMD0000000564.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "445715",
+        "mimeType" : "image/png",
+        "md5sum" : "b99cc09f354ce3f4a9b6acca91c8f0e7",
+        "sha1sum" : "fc36f69ca9d04240da6dd5e76a9349544978e951",
+        "sha256sum" : "a1adcf828ee21cf622726d85757ae28cb8a9aa2b72022ea11dda7acf9b7aea85"
+      },
+      {
+        "name" : "BIOMD0000000564.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "105668",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "62c9b6ea327c2f04cf6f09ea764b286c",
+        "sha1sum" : "a784102d930dd209125457a5e16cc59a22f198ea",
+        "sha256sum" : "a3982b5bb2bcb1333f0a179320009d8197193b9e08cb1b4260ac1f23c49faa28"
+      },
+      {
+        "name" : "BIOMD0000000564_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "91106",
+        "mimeType" : "application/xml",
+        "md5sum" : "fcc0faf5b5999692f50788ad568bc5d3",
+        "sha1sum" : "3b06bd56048f63be6f812ec0c333dc8995eee7a2",
+        "sha256sum" : "82fedfa0f33b662a3d36e72482e191e60f0e9e0801b97b88d2482041ed860fc1"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "32391",
+        "mimeType" : "image/png",
+        "md5sum" : "cc8f5579a47d2ccde24bb62749b23486",
+        "sha1sum" : "6c54bdecaebbcb97fe047c012272543dbfda7a47",
+        "sha256sum" : "0931efa22e0d3a02f2246a38287933e1383590eb8c25fe49aca175a1a5f221de"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "179",
+        "mimeType" : "text/plain",
+        "md5sum" : "985f09606d10b359243664ff99317910",
+        "sha1sum" : "745dff2841bce61adad1485a2ad2938dfcc832d4",
+        "sha256sum" : "694956204b62353400b68449a154aca7923e9e2e04b7c04a8787adbaf2f7283d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "2f7f49e2b0c412199c1c6e9b39165e79",
+        "sha1sum" : "100b27ac322393f7fdd8e6bfd005c52f5cd36dc0",
+        "sha256sum" : "4ea804d1cab6071d3355cf60d1008ca0798b411dcf4cba5116576be5c24b3b70"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5617",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1a1db16cada1dc8f212ebcbdedd30780",
+        "sha1sum" : "becb7087470e6585fbc612a2aac890247667e82a",
+        "sha256sum" : "d41209ecb32c872c2db17ee45eeb9e46d4b8b8a6d61e57c9880a6cd470acde34"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1412376627,
+        "submitter" : "Andrew J Millar",
+        "comment" : "Original import of Gould2011_TempSensitiveCircClock"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1420726423,
+        "submitter" : "Andrew J Millar",
+        "comment" : "Current version of Gould2013 - Temperature Sensitive Circadian Clock"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724281645,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285348,
+  "submissionId" : "MODEL1410030000",
+  "publicationId" : "BIOMD0000000564",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Andrew J Millar",
+        "email" : "andrew.millar@ed.ac.uk",
+        "affiliation" : "Institute of Molecular Plant Sciences, University of Edinburgh",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1410030000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1410030000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000564",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000564"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23511208",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23511208"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000273",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000273"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007623",
+      "name" : "circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007623"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

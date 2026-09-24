@@ -1,0 +1,333 @@
+{
+  "name" : "Chaouiya2013 - EGF and TNFalpha mediated signalling pathway",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">    <div class=\"dc:title\">Chaouiya2013 - EGF and TNFalpha mediated signalling pathway</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/24321545\" title=\"Access to this publication\">SBML qualitative models: a    model representation format and infrastructure to foster    interactions between qualitative modelling formalisms and    tools.</a>  </div>  <div class=\"bibo:authorList\">Chaouiya C, Bérenguier D,  Keating SM, Naldi A, van Iersel MP, Rodriguez N, Dräger A,  Büchel F, Cokelaer T, Kowal B, Wicks B, Gonçalves E,  Dorier J, Page M, Monteiro PT, von Kamp A, Xenarios I, de Jong H,  Hucka M, Klamt S, Thieffry D, Le Novère N, Saez-Rodriguez J,  Helikar T.</div>  <div class=\"bibo:Journal\">BMC Syst Biol 2013; 7: 135</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>BACKGROUND: Qualitative frameworks, especially those based    on the logical discrete formalism, are increasingly used to    model regulatory and signalling networks. A major advantage of    these frameworks is that they do not require precise    quantitative data, and that they are well-suited for studies of    large networks. While numerous groups have developed specific    computational tools that provide original methods to analyse    qualitative models, a standard format to exchange qualitative    models has been missing. RESULTS: We present the Systems    Biology Markup Language (SBML) Qualitative Models Package    (\"qual\"), an extension of the SBML Level 3 standard designed    for computer representation of qualitative models of biological    networks. We demonstrate the interoperability of models via    SBML qual through the analysis of a specific signalling network    by three independent software tools. Furthermore, the    collective effort to define the SBML qual format paved the way    for the development of LogicalModel, an open-source model    library, which will facilitate the adoption of the format as    well as the collaborative development of algorithms to analyse    qualitative models. CONCLUSIONS: SBML qual allows the exchange    of qualitative models among a number of complementary software    tools. SBML qual has the potential to promote collaborative    work on the development of novel computational approaches, as    well as on the specification and the analysis of comprehensive    qualitative models of regulatory and signalling networks.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000562\">BIOMD0000000562</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24321545",
+    "journal" : "BMC systems biology",
+    "title" : "SBML qualitative models: a model representation format and infrastructure to foster interactions between qualitative modelling formalisms and tools.",
+    "affiliation" : "Instituto Gulbenkian de Ciência, Rua da Quinta Grande 6, 2780-156 Oeiras, Portugal. chaouiya@igc.gulbenkian.pt.",
+    "synopsis" : "<h4>Background</h4>Qualitative frameworks, especially those based on the logical discrete formalism, are increasingly used to model regulatory and signalling networks. A major advantage of these frameworks is that they do not require precise quantitative data, and that they are well-suited for studies of large networks. While numerous groups have developed specific computational tools that provide original methods to analyse qualitative models, a standard format to exchange qualitative models has been missing.<h4>Results</h4>We present the Systems Biology Markup Language (SBML) Qualitative Models Package (\"qual\"), an extension of the SBML Level 3 standard designed for computer representation of qualitative models of biological networks. We demonstrate the interoperability of models via SBML qual through the analysis of a specific signalling network by three independent software tools. Furthermore, the collective effort to define the SBML qual format paved the way for the development of LogicalModel, an open-source model library, which will facilitate the adoption of the format as well as the collaborative development of algorithms to analyse qualitative models.<h4>Conclusions</h4>SBML qual allows the exchange of qualitative models among a number of complementary software tools. SBML qual has the potential to promote collaborative work on the development of novel computational approaches, as well as on the specification and the analysis of comprehensive qualitative models of regulatory and signalling networks.",
+    "year" : 2013,
+    "month" : "12",
+    "volume" : "7",
+    "pages" : "135",
+    "link" : "http://identifiers.org/pubmed/24321545",
+    "authors" : [
+      {
+        "name" : "Claudine Chaouiya",
+        "orcid" : "0000-0003-2350-0756"
+      },
+      {
+        "name" : "Duncan Bérenguier"
+      },
+      {
+        "name" : "Sarah M Keating",
+        "orcid" : "0000-0002-3356-3542"
+      },
+      {
+        "name" : "Aurélien Naldi",
+        "orcid" : "0000-0002-6495-2655"
+      },
+      {
+        "name" : "Martijn P van Iersel",
+        "orcid" : "0000-0002-5877-4338"
+      },
+      {
+        "name" : "Nicolas Rodriguez",
+        "orcid" : "0000-0002-9290-7894"
+      },
+      {
+        "name" : "Andreas Dräger",
+        "institution" : "Martin Luther University Halle-Wittenberg",
+        "orcid" : "0000-0002-1240-5553"
+      },
+      {
+        "name" : "Finja Büchel"
+      },
+      {
+        "name" : "Thomas Cokelaer",
+        "orcid" : "0000-0001-6286-1138"
+      },
+      {
+        "name" : "Bryan Kowal"
+      },
+      {
+        "name" : "Benjamin Wicks"
+      },
+      {
+        "name" : "Emanuel Gonçalves",
+        "orcid" : "0000-0002-9967-5205"
+      },
+      {
+        "name" : "Julien Dorier",
+        "institution" : "Vital-IT group, SIB Swiss Institute of Bioinformatics, Quartier Sorge, Bâtiment Génopode, 1015 Lausanne, Switzerland.",
+        "orcid" : "0000-0002-6717-2451"
+      },
+      {
+        "name" : "Michel Page"
+      },
+      {
+        "name" : "Pedro T Monteiro",
+        "orcid" : "0000-0002-7934-5495"
+      },
+      {
+        "name" : "Axel von Kamp"
+      },
+      {
+        "name" : "Ioannis Xenarios"
+      },
+      {
+        "name" : "Hidde de Jong",
+        "orcid" : "0000-0002-2226-650X"
+      },
+      {
+        "name" : "Michael Hucka",
+        "orcid" : "0000-0001-9105-5960"
+      },
+      {
+        "name" : "Steffen Klamt",
+        "orcid" : "0000-0003-2563-7561"
+      },
+      {
+        "name" : "Denis Thieffry",
+        "institution" : "Department of Biology, Institut de Biologie de l'ENS (IBENS), École Normale Supérieure, CNRS, INSERM, Université PSL, 75005 Paris, France denis.thieffry@ens.psl.eu tlepage@unice.fr.",
+        "orcid" : "0000-0003-0271-1757"
+      },
+      {
+        "name" : "Nicolas Le Novère"
+      },
+      {
+        "name" : "Julio Saez-Rodriguez",
+        "institution" : "Heidelberg University, Faculty of Medicine, Institute of Computational Biomedicine, 69120 Heidelberg, Germany; RWTH Aachen University, Faculty of Medicine, Joint Research Centre for Computational Biomedicine (JRC-COMBINE), 52074 Aachen, Germany.",
+        "orcid" : "0000-0002-8552-8976"
+      },
+      {
+        "name" : "Tomáš Helikar",
+        "institution" : "Department of Biochemistry, University of Nebraska-Lincoln, Lincoln, USA. thelikar2@unl.edu.",
+        "orcid" : "0000-0003-3653-1906"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000562_url.xml",
+        "description" : "SBML L3V1 representation of Chaouiya2013 - EGF and TNFalpha mediated signalling pathway",
+        "fileSize" : "43033",
+        "mimeType" : "application/xml",
+        "md5sum" : "022b0eb052e290670eac8a6c0ad10d1a",
+        "sha1sum" : "33ccc343e43d130bb3f57dc44dc9b17292e974fe",
+        "sha256sum" : "29f773166873fc7441a9241e139adf6a8262a000e8a3eb16cb2b7cb9c425c45d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000561-notebook.ipynb",
+        "description" : "The details for generating the above figures using CellNOptR is described in <a href=\"http://nbviewer.ipython.org/url/www.ebi.ac.uk/biomodels-main/getAdditionalFile/%3Fmid%3DBIOMD0000000562%26fid%3D110\" title=\"nbviewer notebook viewer for this model\">this notebook</a>.",
+        "fileSize" : "194651",
+        "mimeType" : "text/plain",
+        "md5sum" : "103e53f88c582ba6ab5f385785d0f110",
+        "sha1sum" : "547d5406a978e359e1b9fec6ff2b0fd321b70b9f",
+        "sha256sum" : "bb41b8382f9db065a2a8bc83fd79b669ee955683159798646f19b57274962b08"
+      },
+      {
+        "name" : "BIOMD0000000562-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "4079",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d3ab1a763e4f4dbd04f1d41c2f0bbfbd",
+        "sha1sum" : "e13a8bf48ba3eadec16f7a3f658e5b61431f1ceb",
+        "sha256sum" : "8d40b387a032c199da3ae884b8de1a72ce965efc79b90ea7fe1ba3a3225f2d2e"
+      },
+      {
+        "name" : "BIOMD0000000562-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "4175",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b74b8d1303619f0f9b8bcf25e1e58596",
+        "sha1sum" : "640f6ac4c3286638cd3c8d4eab976c40c26323e5",
+        "sha256sum" : "d0a3e11dd97b9756db4e7e0421c058d9c678fde1c397115cf6f5f91ad93f4e28"
+      },
+      {
+        "name" : "BIOMD0000000562.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "111012",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b8db21a7cc953a9011eee567fedb6ae6",
+        "sha1sum" : "d950020c09d5394a94a0632d15cba6ad08e2144d",
+        "sha256sum" : "5af26d8e75f0ee9a1307a045ad8d0f64dd5acc2b8578658b9f14545c0fe1c7b0"
+      },
+      {
+        "name" : "BIOMD0000000562.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "120500",
+        "mimeType" : "image/png",
+        "md5sum" : "30731d78478b602eabef781662fd50b2",
+        "sha1sum" : "5471e050087bf459e295fbb3cae6a6ed4e549da4",
+        "sha256sum" : "1b64d71b5ccfb7dfa79ebe74851b4049781d5c3fdf7787562144c104197d111c"
+      },
+      {
+        "name" : "BIOMD0000000562.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "20354",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "bdda6ca696db6d25e40916bbd177f9a4",
+        "sha1sum" : "edfa2f9fd27bd802596ee4e313b4fb388a748f6c",
+        "sha256sum" : "41c0c31ea69baaee6a59e18d06c316b368c984fb5c74367aeb72835e0d319d32"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28517",
+        "mimeType" : "image/png",
+        "md5sum" : "ae6a50047de9ff61a07a6db3767297f5",
+        "sha1sum" : "23427e0325cd44ab4e8730d1a086a898364fe6dc",
+        "sha256sum" : "7dfa48e5cc85b8d192808be9fc8f0ace8cad59e3f48c2ca13f07cd862a846b8d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "185",
+        "mimeType" : "text/plain",
+        "md5sum" : "4916a9421be5f3e0fb2cdd089102f02d",
+        "sha1sum" : "7d2af425452eeb7e564cb80ab9671d1a13dbbe3c",
+        "sha256sum" : "cda92f4f397e1749e2cb586fcb823bcf8f1bced30b03886ed387c9d75725c63c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1337",
+        "mimeType" : "application/xml",
+        "md5sum" : "c294354c738541e75c7dacb76b516f13",
+        "sha1sum" : "55174b20730490abfd74dbbb967d50c011fcb9af",
+        "sha256sum" : "f97424654582d3008b60af55a108c300f2f6cf3113a9d101cd99c70cc8f5b251"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6058",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "72499d94e9fb088303fa31a1a58e0c09",
+        "sha1sum" : "c27c753bec5fde059eb146c210b0d8dafb964edf",
+        "sha256sum" : "3ccf9c13e3d9c5fa05191c5336a713bad82fb8db0cd7305e1699ab2374966ef5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1416838843,
+        "submitter" : "Thomas Cokelaer",
+        "comment" : "Original import of BIOMD0000000562.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1421838090,
+        "submitter" : "Thomas Cokelaer",
+        "comment" : "Current version of Chaouiya2013 - EGF and TNFalpha mediated signalling pathway"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545414849,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: BIOMD0000000561-notebook.ipynb"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281588,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285345,
+  "submissionId" : "MODEL1411240000",
+  "publicationId" : "BIOMD0000000562",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000030",
+    "name" : "logical model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000030"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Thomas Cokelaer",
+        "email" : "cokelaer@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1411240000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1411240000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000562",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000562"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24321545",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24321545"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0033209",
+      "name" : "tumor necrosis factor-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0033209"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000030",
+      "name" : "Logical model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000030"
+    }
+  ]
+}

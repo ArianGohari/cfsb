@@ -1,0 +1,292 @@
+{
+  "name" : "Rohwer2001_Sucrose",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>          <a href=\"http://www.sbml.org/\" title=\"SBML\">SBML</a>          Level 2 code generated for the JWS Online project by Jacky Snoep using      <a href=\"http://pysces.sourceforge.net/\" title=\"PySCeS\">PySCeS</a>          .      </p>        <p>Run this model online at      <a href=\"http://jjj.biochem.sun.ac.za/\" title=\"JWS Online\">http://jjj.biochem.sun.ac.za</a>          .      </p>      <p>To cite JWS Online please refer to: Olivier, B.G. and Snoep, J.L. (2004)      <a href=\"http://bioinformatics.oupjournals.org/cgi/content/abstract/20/13/2143\" title=\"JWS Online publication (2004)\">Web-based modelling using JWS Online</a>          , Bioinformatics, 20:2143-2144.      </p>    <br />    <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" title=\"BioModels Database terms of use\" target=\"_blank\">terms of use</a>          .      <br />    <br />          To cite BioModels Database, please use      <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" title=\"BioModels Database publication (2006)\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a></p><p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p><p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11513743",
+    "journal" : "The Biochemical journal",
+    "title" : "Analysis of sucrose accumulation in the sugar cane culm on the basis of in vitro kinetic data.",
+    "affiliation" : "Department of Biochemistry, University of Stellenbosch, Private Bag X1, 7602 Matieland, South Africa. jr@maties.sun.ac.za",
+    "synopsis" : "Sucrose accumulation in developing sugar cane (Saccharum officinarum) is accompanied by a continuous synthesis and cleavage of sucrose in the storage tissues. Despite numerous studies, the factors affecting sucrose accumulation are still poorly understood, and no consistent pattern has emerged which pinpoints certain enzyme activities as important controlling steps. Here, we develop an approach based on pathway analysis and kinetic modelling to assess the biochemical control of sucrose accumulation and futile cycling in sugar cane. By using the concept of elementary flux modes, all possible routes of futile cycling of sucrose were enumerated in the metabolic system. The available kinetic data for the pathway enzymes were then collected and assembled in a kinetic model of sucrose accumulation in sugar cane culm tissue. Although no data were fitted, the model agreed well with independent experimental results: in no case was the difference between calculated and measured fluxes and concentrations greater than 2-fold. The model thus validated was then used to assess different enhancement strategies for increasing sucrose accumulation. First, the control coefficient of each enzyme in the system on futile cycling of sucrose was calculated. Secondly, the activities of those enzymes with the numerically largest control coefficients were varied over a 5-fold range to determine the effect on the degree of futile cycling, the conversion efficiency from hexoses into sucrose, and the net sucrose accumulation rate. In view of the modelling results, overexpression of the fructose or glucose transporter or the vacuolar sucrose import protein, as well as reduction of cytosolic neutral invertase levels, appear to be the most promising targets for genetic manipulation. This offers a more directed improvement strategy than cumbersome gene-by-gene manipulation. The kinetic model can be viewed and interrogated on the World Wide Web at http://jjj.biochem.sun.ac.za.",
+    "year" : 2001,
+    "month" : "9",
+    "volume" : "358",
+    "issue" : "Pt 2",
+    "pages" : "437-445",
+    "link" : "http://identifiers.org/pubmed/11513743",
+    "authors" : [
+      {
+        "name" : "J M Rohwer",
+        "institution" : "Department of Biochemistry, University of Stellenbosch, Private Bag X1, 7602 Matieland, South Africa. jr@maties.sun.ac.za"
+      },
+      {
+        "name" : "F C Botha",
+        "orcid" : "0000-0003-1082-6896"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000023_url.xml",
+        "description" : "SBML L2V4 representation of Rohwer2001_Sucrose",
+        "fileSize" : "52851",
+        "mimeType" : "application/xml",
+        "md5sum" : "a02142c2847db03a3d6983a575bde5c7",
+        "sha1sum" : "1b3ce12b6c711a1830c36a55186bc1a844cb32f9",
+        "sha256sum" : "dccd31fe46f4fb06484a9e3b95718aad788692e9abad1dc68fd368d7c8247066"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000023-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "35276",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b3bb8e8d031a0ae715d6830eb2a427bc",
+        "sha1sum" : "44f9e1933d83a1b9b168d4593a7bca8d9112c464",
+        "sha256sum" : "335ee990ed40a2c5bd05d8dabfc7fe1d60b0b1c19e9f746e7dfb3e5e8548c2f0"
+      },
+      {
+        "name" : "BIOMD0000000023-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "48422",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c28ec57b4697dda3d7ebe01fb130d184",
+        "sha1sum" : "74054e81f3f7cd4b5e9ecb2bcc945eaac6800db5",
+        "sha256sum" : "1636317215cab490a8784f271330aa7dd496e008b240bff00f6e6123c3330db0"
+      },
+      {
+        "name" : "BIOMD0000000023-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11896",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d02ec4106abc29096d83e0ce118fab47",
+        "sha1sum" : "881cb594c3c6f270fd3d8ae791aa57cf548a086f",
+        "sha256sum" : "c3ea83436b8cea545275ec4834f77ac0a48832883c6d68e22938289b8e467486"
+      },
+      {
+        "name" : "BIOMD0000000023-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11896",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b9cf3d1e79dfa8203a199bf1d2e29020",
+        "sha1sum" : "360b0d135f73961ff8aaacbd36d4ac7e9a96d3d1",
+        "sha256sum" : "2dc0487db58e9cca5a512b8df7336a41f96b4a1e67c0123a31e1501139ae36d5"
+      },
+      {
+        "name" : "BIOMD0000000023.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "11896",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b9cf3d1e79dfa8203a199bf1d2e29020",
+        "sha1sum" : "360b0d135f73961ff8aaacbd36d4ac7e9a96d3d1",
+        "sha256sum" : "2dc0487db58e9cca5a512b8df7336a41f96b4a1e67c0123a31e1501139ae36d5"
+      },
+      {
+        "name" : "BIOMD0000000023.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8363",
+        "mimeType" : "text/plain",
+        "md5sum" : "b8fa9448c8e9563c807d8fe4120913fb",
+        "sha1sum" : "995f0ebc80d62ad12717b5efb1017b4d1063db28",
+        "sha256sum" : "d43accba8a9eb9b497f2955d88982df1a20ea676cc10e9d962f89e316ec795ba"
+      },
+      {
+        "name" : "BIOMD0000000023.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "198623",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b27c514d1745a2135b8dec1739fb9dc7",
+        "sha1sum" : "71f2b6ef98bc553504f79d5d2a24957566fb52c8",
+        "sha256sum" : "3d26f62c5ab1a60183e9220de76a09bd64eced5823a7488cd24ecced7b6abd91"
+      },
+      {
+        "name" : "BIOMD0000000023.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "101094",
+        "mimeType" : "image/png",
+        "md5sum" : "75dd52db2b159bbfc964a7a8a99ec858",
+        "sha1sum" : "3082cc64d7ed7efb3495299420a6d16c30402362",
+        "sha256sum" : "6fc4bcaf7e920e08130e67e13a29e2d3a2f9e00a86085d0bb4c6633f56d01d29"
+      },
+      {
+        "name" : "BIOMD0000000023.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "10164",
+        "mimeType" : "text/plain",
+        "md5sum" : "5bf53571bff4903818e2865c5fb9a1be",
+        "sha1sum" : "07ab00a290d827849f18090ce8787b178af4016e",
+        "sha256sum" : "231344bd3b91d76da18b74e02d7d53c79abfce71ff9b784b0727e3c3706482d6"
+      },
+      {
+        "name" : "BIOMD0000000023.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "26645",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c38fda7b1a8a7688ea19d3aab7bde3b5",
+        "sha1sum" : "973c98a1586ecdcebfbe625f468416bd335dc977",
+        "sha256sum" : "abc289ae1925608a4a0b391cf6e55c466545bfe85574cab4b9e820d596435439"
+      },
+      {
+        "name" : "BIOMD0000000023.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "56797",
+        "mimeType" : "application/xml",
+        "md5sum" : "55ff489118c0e3908681d9e8a87e9c8a",
+        "sha1sum" : "d3d39ae2d6c5b1d809189faf7c65e4b7101dba1d",
+        "sha256sum" : "1368e1ae35cbdbce5fc7ea5d31d15aea75444949820bd3d359d7f1a9a5965813"
+      },
+      {
+        "name" : "BIOMD0000000023_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "16238",
+        "mimeType" : "application/xml",
+        "md5sum" : "7af190006116cef5dae13311ac37b5d1",
+        "sha1sum" : "7576dc4ce9bbf130b72b531a296dbfdb3bee46f8",
+        "sha256sum" : "1d7536d35aa7dc86922b30aa53d20f4eb480cb83baa3669a2a34bae65f137d51"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19487",
+        "mimeType" : "image/png",
+        "md5sum" : "9335609837ac3c761d725931dbb53a67",
+        "sha1sum" : "c06ea9c53945b86de48e08d6b7922104904c8279",
+        "sha256sum" : "bec9e8e22c389d08ab4529a27f92b9ac8b231e8485e89d432bc75bae6b5ab8d1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "275",
+        "mimeType" : "text/plain",
+        "md5sum" : "185deb9e3548356a5c11210cf8c4a29d",
+        "sha1sum" : "ae145645e23026bf97ab6d69b5c8d8d2827ae54e",
+        "sha256sum" : "5da66a59edf69299c1ff5fb1206392193f171c44d3031c0edf88f220dd04f6fe"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "cae82d73bde93d92675c09e7d2b45d60",
+        "sha1sum" : "2f72bc0cb477a68c4045bf1195c5a1eead2df92b",
+        "sha256sum" : "95627861352b592c332772256de24f9edb8d231f60f949dcd5f4bb362de573aa"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4179",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b414095f35f19eeb676e370dada155aa",
+        "sha1sum" : "235d5fd8b9a00769f072dffe10fd47f3877394c6",
+        "sha256sum" : "7334256a8546fef8557f51c402430dcc88759d741123e928f6d98fb5f72fda29"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126621684,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Rohwer2001_Sucrose"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1337521413,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Rohwer2001_Sucrose"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265302,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284847,
+  "submissionId" : "MODEL6618063111",
+  "publicationId" : "BIOMD0000000023",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6618063111",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6618063111"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000023",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000023"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11513743",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11513743"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4547",
+      "name" : "Saccharum officinarum",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4547"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005986",
+      "name" : "sucrose biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005986"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "map00500",
+      "name" : "Starch and sucrose metabolism",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map00500"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

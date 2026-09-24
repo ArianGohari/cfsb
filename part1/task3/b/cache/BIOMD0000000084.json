@@ -1,0 +1,319 @@
+{
+  "name" : "Hornberg2005_ERKcascade",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p align=\"right\">      <font face=\"Arial, Helvetica, sans-serif\">        <b>          <a href=\"http://www.sbml.org/\">SBML</a>              level 2 code generated for the JWS Online project by Jacky Snoep using          <a href=\"http://pysces.sourceforge.net/\">PySCeS</a>                        <br />              Run this model online at          <a href=\"http://jjj.biochem.sun.ac.za/\">http://jjj.biochem.sun.ac.za</a>                        <br />              To cite JWS Online please refer to: Olivier, B.G. and Snoep, J.L. (2004)          <a href=\"http://bioinformatics.oupjournals.org/cgi/content/abstract/20/13/2143\">Web-based modelling using JWS Online</a>              , Bioinformatics, 20:2143-2144          </b>                    </font>                </p>            <p>      <u>Biomodels Curation</u>          The model reproduces the time series depicted in Fig 2 of the paper. Also, by varying the values of Vmax for the second kinase (k5) the time series of X3P as shown in Fig3 can be reproduced. The model was successfully tested on MathSBML and Jarnac.      </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15634347",
+    "journal" : "The FEBS journal",
+    "title" : "Principles behind the multifarious control of signal transduction. ERK phosphorylation and kinase/phosphatase control.",
+    "affiliation" : "Department of Molecular Cell Physiology, Institute for Molecular Cell Biology, BioCentrum Amsterdam, Vrije Universiteit, Amsterdam, the Netherlands.",
+    "synopsis" : "General and simple principles are identified that govern signal transduction. The effects of kinase and phosphatase inhibition on a MAP kinase pathway are first examined in silico. Quantitative measures for the control of signal amplitude, duration and integral strength are introduced. We then identify and prove new principles, such that total control on signal amplitude and on final signal strength must amount to zero, and total control on signal duration and on integral signal intensity must equal -1. Collectively, kinases control amplitudes more than duration, whereas phosphatases tend to control both. We illustrate and validate these principles experimentally: (a) a kinase inhibitor affects the amplitude of EGF-induced ERK phosphorylation much more than its duration and (b) a phosphatase inhibitor influences both signal duration and signal amplitude, in particular long after EGF administration. Implications for the cellular decision between growth and differentiation are discussed.",
+    "year" : 2005,
+    "month" : "1",
+    "volume" : "272",
+    "issue" : "1",
+    "pages" : "244-258",
+    "link" : "http://identifiers.org/pubmed/15634347",
+    "authors" : [
+      {
+        "name" : "Jorrit J Hornberg",
+        "institution" : "Department of Molecular Cell Physiology, Institute for Molecular Cell Biology, BioCentrum Amsterdam, Vrije Universiteit, Amsterdam, the Netherlands."
+      },
+      {
+        "name" : "Frank J Bruggeman",
+        "orcid" : "0000-0002-0255-4766"
+      },
+      {
+        "name" : "Bernd Binder"
+      },
+      {
+        "name" : "Christian R Geest"
+      },
+      {
+        "name" : "A J Marjolein Bij de Vaate"
+      },
+      {
+        "name" : "Jan Lankelma"
+      },
+      {
+        "name" : "Reinhart Heinrich"
+      },
+      {
+        "name" : "Hans V Westerhoff",
+        "institution" : "Infrastructure for Systems Biology Europe - The Netherlands (ISBE.NL), Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Molecular Cell Biology, VU University Amsterdam, Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Synthetic Systems Biology and Nuclear Organization, Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands. H.V.Westerhoff@VU.NL.Manchester Centre for Integrative Systems Biology, Manchester, UK. H.V.Westerhoff@VU.NL.",
+        "orcid" : "0000-0002-0443-6114"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000084_url.xml",
+        "description" : "SBML L2V1 representation of Hornberg2005_ERKcascade",
+        "fileSize" : "22107",
+        "mimeType" : "application/xml",
+        "md5sum" : "e45502ee754895948b7144e34f1ca245",
+        "sha1sum" : "dc83b466ffcd8183a8e5251aa9985cbb84b6d295",
+        "sha256sum" : "6f40d173598f7fa9949a6b1b107401d2b7dd9a2367f27599162fbd21fa30f8de"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000084-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "17871",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8d09a5de6f8107e953b7b58301ddfcac",
+        "sha1sum" : "bb8f6535213ce277bdef22fac31dd0cb0bc67396",
+        "sha256sum" : "406f23bc47cd1f236097c1d624cb099881ab4bb1fc538652d444fe30016b0b46"
+      },
+      {
+        "name" : "BIOMD0000000084-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "24739",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b1eede45de40c88b6146f7a9e099eac1",
+        "sha1sum" : "68e516bf1f81d0ad6f5e5a81a9c2038efda044b8",
+        "sha256sum" : "fa13698ae4919a37222d3afee6a07b3ac94528f829dbcf0d78b7b1786788b809"
+      },
+      {
+        "name" : "BIOMD0000000084-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5448",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5a2efe672e172d9d49452260622e9038",
+        "sha1sum" : "456a127d00d2ed6990f10c7582d68eda1f7be8d2",
+        "sha256sum" : "e5c9342a2e0ed96a92f2e526a1b50569ce531f58626e2ecdc70965c3349199bd"
+      },
+      {
+        "name" : "BIOMD0000000084-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5448",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0a034801fca5058c9ffbdbb1ec603ff2",
+        "sha1sum" : "536462c9cfe71ee168551fbe407e4643c7c7e804",
+        "sha256sum" : "6cc81abb176d4a790e43767f3ca8823978923a722ac5a55488bf28ca7d9a7d34"
+      },
+      {
+        "name" : "BIOMD0000000084.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5448",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0a034801fca5058c9ffbdbb1ec603ff2",
+        "sha1sum" : "536462c9cfe71ee168551fbe407e4643c7c7e804",
+        "sha256sum" : "6cc81abb176d4a790e43767f3ca8823978923a722ac5a55488bf28ca7d9a7d34"
+      },
+      {
+        "name" : "BIOMD0000000084.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3196",
+        "mimeType" : "text/plain",
+        "md5sum" : "6b6cb2c2e9a2e8cb9699f192df9d5f24",
+        "sha1sum" : "1ca7335a49d2ca3c3fca297666e9d2703686c33c",
+        "sha256sum" : "5b553521d65f4df7d9eea287b65a26324b30f8e14b8969a7db21c9fec7c83300"
+      },
+      {
+        "name" : "BIOMD0000000084.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "172122",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b61d9358ea71694cca9c1f2fc56c9009",
+        "sha1sum" : "a10c0c748092d1ae3320f14eb11d098e162b1c28",
+        "sha256sum" : "1c3ae63657b6ce00324e0f5a4dd4c36dd88c81084a5c30840d8e38e954f5bed1"
+      },
+      {
+        "name" : "BIOMD0000000084.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "40659",
+        "mimeType" : "image/png",
+        "md5sum" : "373c43c16259b497178e29c2d0d7425b",
+        "sha1sum" : "542fccf9daad06520ae8088a6af33ac62bf00818",
+        "sha256sum" : "8aed121629fc1f2762e189a92e5d40393e13730d513414b162db5ab2906e5334"
+      },
+      {
+        "name" : "BIOMD0000000084.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3268",
+        "mimeType" : "text/plain",
+        "md5sum" : "0f388dc38c9d86463f14578f662ff800",
+        "sha1sum" : "b15ded1cae351423c2254115b2001a18b9b41108",
+        "sha256sum" : "63789f4df9565524b7bb6f024b4d4186d5625cf2683c0f0c70f6d97f8a18d957"
+      },
+      {
+        "name" : "BIOMD0000000084.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "22038",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "0b7bdbab7bd479bb95c9106f8d0aaf06",
+        "sha1sum" : "f3bda576fac30ed05dfa9105564993ef2af5616d",
+        "sha256sum" : "bcd87958bc98d9ab35311a7a9d2cc89ff01c74b030c77439ef851d41d183af48"
+      },
+      {
+        "name" : "BIOMD0000000084.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "30910",
+        "mimeType" : "application/xml",
+        "md5sum" : "8ed7a6fcd353e5b1326af1a507fe3bc9",
+        "sha1sum" : "f66c6b215dcaaf1abd0fb16fb140f05c9863cafa",
+        "sha256sum" : "1665c6620d6cebfa4b50d32bd42db3590462cd13f95d33aa9f4dc3324e83d04b"
+      },
+      {
+        "name" : "BIOMD0000000084_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "11293",
+        "mimeType" : "application/xml",
+        "md5sum" : "b61174958aa13231164cbdc0a542b4ac",
+        "sha1sum" : "025f4eccb509413d4da9bc81d325ac3fb0f34df3",
+        "sha256sum" : "ac53de845a390f585e0bc01fdecbbd26115aff8cf6025b1e85fed46eecd3caf8"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17808",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "495a3e53e6b535b0f973169738c6be49",
+        "sha1sum" : "c7b7a190ad0575804bc74229d15a20ea0ed0a1db",
+        "sha256sum" : "7641ef68abd9933069e0345fc60db2857299f47390ce9af344e247d907276724"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "86",
+        "mimeType" : "text/plain",
+        "md5sum" : "90d30508e2fba530d9bb58b8ff5fcd34",
+        "sha1sum" : "92eb6eea0bbcfca57cb7c5a8bae02fb9b0d2b61c",
+        "sha256sum" : "78f0d75facc308fad56c564e3aa06fccc078174c00cc48ba70c48d5dc4994108"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2035",
+        "mimeType" : "application/xml",
+        "md5sum" : "5bfd332fceee0e8bf5d41a6ee67bc006",
+        "sha1sum" : "295e75eea632ddaff1b41d09ace633f1e70ba145",
+        "sha256sum" : "97f1b74c51c9dff9f90a42a24c34a0e85fba0a754b30cd916ac295d323a83523"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2968",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1f6b72b038a0873c21a06a7e128aa3ac",
+        "sha1sum" : "b3d841cd16a03426ae14eb6560e59613cd3fd264",
+        "sha256sum" : "527c456fbeb6f519adb89e015ee74a4f658a183ce0e46cc4f191a31207d23f6c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1165834135,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of hornberg"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1337001335,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Hornberg2005_ERKcascade"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266950,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284870,
+  "submissionId" : "MODEL6623610941",
+  "publicationId" : "BIOMD0000000084",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6623610941",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6623610941"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000084",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000084"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15634347",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15634347"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "rno04010",
+      "name" : "MAPK signaling pathway - Rattus norvegicus (rat)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/rno04010"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

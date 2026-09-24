@@ -1,0 +1,269 @@
+{
+  "name" : "Komarova2003_BoneRemodeling",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Mathematical model predicts a critical role for osteoclast autocrine regulation in the control of bone remodeling.</strong>        <br />Komarova SV, Smith RJ, Dixon SJ, Sims SM, Wahl LM      <em>Bone</em>2003 Aug;33(2):206-15      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/14499354\">14499354</a>,      <br />        <strong>Abstract:</strong>        <br />Bone remodeling occurs asynchronously at multiple sites in the adult skeleton and involves resorption by osteoclasts, followed by formation of new bone by osteoblasts. Disruptions in bone remodeling contribute to the pathogenesis of disorderssuch as osteoporosis, osteoarthritis, and Paget's disease. Interactions among cells of osteoblast and osteoclast lineages are critical in the regulation of bone remodeling. We constructed a mathematical model of autocrine and paracrine interactions among osteoblasts and osteoclasts that allowed us to calculate cell population dynamics and changes in bone mass at a discrete site of bone remodeling. Themodel predicted different modes of dynamic behavior: a single remodeling cycle in response to an external stimulus, a series of internally regulated cycles of bone remodeling, or unstable behavior similar to pathological bone remodeling in Paget's disease. Parametric analysis demonstrated that the mode of dynamic behaviorin the system depends strongly on the regulation of osteoclasts by autocrine factors, such as transforming growth factor beta. Moreover, simulations demonstratedthat nonlinear dynamics of the system may explain the differing effects of immunosuppressants on bone remodeling in vitro and in vivo. In conclusion, the mathematical model revealed that interactions among osteoblasts and osteoclasts result in complex, nonlinear system behavior, which cannot be deduced from studies of each cell type alone. The model will be useful in future studies assessing the impact of cytokines, growth factors, and potential therapies on the overall process ofremodeling in normal bone and in pathological conditions such as osteoporosis and Paget's disease.   </p>        <p>The model reproduces Fig 2A and Fig 2B of the paper. Note that the Y-axis scale is not right, the osteoblast steadystate is approximatley 212 and not 0 as depicted in the figure. Also, there is atypo in the equation for x2_bar which has been corrected here. Model successfully tested on MathSBML.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14499354",
+    "journal" : "Bone",
+    "title" : "Mathematical model predicts a critical role for osteoclast autocrine regulation in the control of bone remodeling.",
+    "affiliation" : "CIHR Group in Skeletal Development and Remodeling, Department of Physiology and Pharmacology, Faculty of Medicine and Dentistry, University of Western Ontario, London, Ontario, Canada N6A 5C1. svetlana.komarova@fmd.uwo.ca",
+    "synopsis" : "Bone remodeling occurs asynchronously at multiple sites in the adult skeleton and involves resorption by osteoclasts, followed by formation of new bone by osteoblasts. Disruptions in bone remodeling contribute to the pathogenesis of disorders such as osteoporosis, osteoarthritis, and Paget's disease. Interactions among cells of osteoblast and osteoclast lineages are critical in the regulation of bone remodeling. We constructed a mathematical model of autocrine and paracrine interactions among osteoblasts and osteoclasts that allowed us to calculate cell population dynamics and changes in bone mass at a discrete site of bone remodeling. The model predicted different modes of dynamic behavior: a single remodeling cycle in response to an external stimulus, a series of internally regulated cycles of bone remodeling, or unstable behavior similar to pathological bone remodeling in Paget's disease. Parametric analysis demonstrated that the mode of dynamic behavior in the system depends strongly on the regulation of osteoclasts by autocrine factors, such as transforming growth factor beta. Moreover, simulations demonstrated that nonlinear dynamics of the system may explain the differing effects of immunosuppressants on bone remodeling in vitro and in vivo. In conclusion, the mathematical model revealed that interactions among osteoblasts and osteoclasts result in complex, nonlinear system behavior, which cannot be deduced from studies of each cell type alone. The model will be useful in future studies assessing the impact of cytokines, growth factors, and potential therapies on the overall process of remodeling in normal bone and in pathological conditions such as osteoporosis and Paget's disease.",
+    "year" : 2003,
+    "month" : "8",
+    "volume" : "33",
+    "issue" : "2",
+    "pages" : "206-215",
+    "link" : "http://identifiers.org/pubmed/14499354",
+    "authors" : [
+      {
+        "name" : "Svetlana V Komarova",
+        "institution" : "CIHR Group in Skeletal Development and Remodeling, Department of Physiology and Pharmacology, Faculty of Medicine and Dentistry, University of Western Ontario, London, Ontario, Canada N6A 5C1. svetlana.komarova@fmd.uwo.ca"
+      },
+      {
+        "name" : "Robert J Smith"
+      },
+      {
+        "name" : "S Jeffrey Dixon",
+        "orcid" : "0000-0001-9162-1686"
+      },
+      {
+        "name" : "Stephen M Sims"
+      },
+      {
+        "name" : "Lindi M Wahl"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000148_url.xml",
+        "description" : "SBML L2V3 representation of Komarova2003_BoneRemodeling",
+        "fileSize" : "21995",
+        "mimeType" : "application/xml",
+        "md5sum" : "170db156926267ccd2683c3d8df98c85",
+        "sha1sum" : "840d56ba36d4b4852af9714bca79c9b02588036c",
+        "sha256sum" : "23e55584e5a0fad33b47538e2b4b53ab0dc83e964fe129f9a43eb41533a0806e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000148-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "10433",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b583e6d5396a375a0e7590d07a95eac9",
+        "sha1sum" : "b4325bb7e22db0c17a08d75010675919f552e21f",
+        "sha256sum" : "36963ab4d7d1d19f79428757e5636adf9553914aa6243ffcb72dcad8548926d4"
+      },
+      {
+        "name" : "BIOMD0000000148-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "13867",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f1c85d446de18345707f259e47c9bed5",
+        "sha1sum" : "c64d9e61e8db4e4eba7943245ec8abe72f2d6dbd",
+        "sha256sum" : "b4997207be53bd8841b83f6367a6a74ff3e3358c72340f87773da452823f300c"
+      },
+      {
+        "name" : "BIOMD0000000148-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5728",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f19354495ae7df7f1bdf1bd4e5f04275",
+        "sha1sum" : "a4c77b636ba0544f10e9a69ff8e4520100e83a5f",
+        "sha256sum" : "d353ca30d765546641b220241b65017eda4f34d63b59a16af7f4d5f0388cbd40"
+      },
+      {
+        "name" : "BIOMD0000000148.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5728",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "31c3bfe06a468c63287e393d2d59aa6d",
+        "sha1sum" : "932922a3fd27fd409e613540f8818a957e9226aa",
+        "sha256sum" : "6eb30f8ec658c3426a04ebe26eab8c1df06cbc815c71c2679ae2ec8081512169"
+      },
+      {
+        "name" : "BIOMD0000000148.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "169233",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9bb61f2ea23cadc65156d273a1dcbde0",
+        "sha1sum" : "5893740a8d129de017453e24393bc300c6149818",
+        "sha256sum" : "9c7dc395d87df6c40b243aecc7bb6d980520a78c09b9bbbed6232dbb64556b43"
+      },
+      {
+        "name" : "BIOMD0000000148.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "65792",
+        "mimeType" : "image/png",
+        "md5sum" : "480d2fe9212c4fa664b5609f301c9e3a",
+        "sha1sum" : "92512523ea57f9ff67add8f00fd85340db762fbe",
+        "sha256sum" : "854214e26dd772df3ef9e0eca77691f8d52faf16a21fc3ad6cafc72be291fec2"
+      },
+      {
+        "name" : "BIOMD0000000148.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "14250",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "16aac326f02a631ea5b33ce14ffacb47",
+        "sha1sum" : "c7bf8514010b91b8ec34ca83e96c3760fd23ee58",
+        "sha256sum" : "4afe6566a01b818ec45ac462556b7333a346ec9d5d2d182372f6d79862426aa6"
+      },
+      {
+        "name" : "BIOMD0000000148_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "16376",
+        "mimeType" : "application/xml",
+        "md5sum" : "7b2c1493a10e01fa2ef31aac4596ca53",
+        "sha1sum" : "a391f47894e38859fa0579ac23e57eda46bcf8b7",
+        "sha256sum" : "163dae46d19470a854e5535f3c19592979c73438bc310f3e8a39e6e734a10a5f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "151",
+        "mimeType" : "text/plain",
+        "md5sum" : "f6f88eeeecf3e0841d2123407ba0a117",
+        "sha1sum" : "dfb34aa02cd056d42e941ec9e4289b7c7549ec6f",
+        "sha256sum" : "8645e5ce591a890a7027b4a96450cdd2bbcf6ee14280f1ec37dddd287a0b79b5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1451",
+        "mimeType" : "application/xml",
+        "md5sum" : "4c40c111c8f0f7d1cad6ff95307c28c8",
+        "sha1sum" : "7f1cbbef4eedddeef48ed7c5e8daf8bdce3b3384",
+        "sha256sum" : "b16bfdac1014b71d2d2754784ad62022937a06633da720a4506d2ea406e9f7b8"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5142",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "58ab7813ed8f135f1ab29867bd2e944e",
+        "sha1sum" : "d259bc41ea7ce5fc895f29a91c55ec2d93f21839",
+        "sha256sum" : "dc267cafafb6907f66eb5fca9feefe1c81dd7d66d3df2d2dfd9024600a5ad8a9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1189069611,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Komarova2003_BoneRemodeling"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412875453,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Komarova2003_BoneRemodeling"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268651,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284902,
+  "submissionId" : "MODEL6029826395",
+  "publicationId" : "BIOMD0000000148",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6029826395",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6029826395"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000148",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000148"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14499354",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14499354"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7711",
+      "name" : "Chordata",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7711"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0046850",
+      "name" : "regulation of bone remodeling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0046850"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:8398",
+      "name" : "osteoarthritis",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:8398"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:5408",
+      "name" : "Paget's disease of bone",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:5408"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:11476",
+      "name" : "osteoporosis",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:11476"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

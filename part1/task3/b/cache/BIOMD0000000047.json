@@ -1,0 +1,292 @@
+{
+  "name" : "Oxhamre2005_Ca_oscillation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model should reproduce the figure 1C of the article (successfully reproduced in MathSBML). If your software does not support the variable \"time\", you can replace the assignmentRule:      <br />          n = n0 * [ exp(-kbN*time) + kappa * (1 - exp(-kbN*time))]      <br />          by      <br />          n = n0 * kappa      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15596518",
+    "journal" : "Biophysical journal",
+    "title" : "A minimal generic model of bacteria-induced intracellular Ca2+ oscillations in epithelial cells.",
+    "affiliation" : "Microbiology and Tumor Biology Center, Karolinska Institute, Stockholm, Sweden.",
+    "synopsis" : "The toxin alpha-hemolysin expressed by uropathogenic Escherichia coli bacteria was recently shown as the first pathophysiologically relevant protein to induce oscillations of the intracellular Ca(2+) concentration in target cells. Here, we propose a generic three-variable kinetic model describing the Ca(2+) oscillations induced in single rat renal epithelial cells by this toxin. Specifically, we take into account the interplay between 1), the cytosolic Ca(2+) concentration; 2), IP(3)-sensitive Ca(2+) channels located in the membrane separating the cytosol and endoplasmic reticulum; and 3), toxin-related activation of production of IP(3) by phospholipase C. With these ingredients, the predicted response of cells exposed to the toxin is in good agreement with the results of experiments.",
+    "year" : 2005,
+    "month" : "4",
+    "volume" : "88",
+    "issue" : "4",
+    "pages" : "2976-2981",
+    "link" : "http://identifiers.org/pubmed/15596518",
+    "authors" : [
+      {
+        "name" : "Camilla Oxhamre",
+        "institution" : "Microbiology and Tumor Biology Center, Karolinska Institute, Stockholm, Sweden."
+      },
+      {
+        "name" : "Agneta Richter-Dahlfors",
+        "orcid" : "0000-0002-5479-7591"
+      },
+      {
+        "name" : "Vladimir P Zhdanov"
+      },
+      {
+        "name" : "Bengt Kasemo"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000047_url.xml",
+        "description" : "SBML L2V1 representation of Oxhamre2005_Ca_oscillation",
+        "fileSize" : "14754",
+        "mimeType" : "application/xml",
+        "md5sum" : "fcf41b6c8dbdbdc7d6ff09a4ae29aa08",
+        "sha1sum" : "15970d4995f1a69c6f8c05ebda265167895ba287",
+        "sha256sum" : "0982b27ae47c7df89c3186029464fee8b660e73035cc70eb6369649b1bcbe676"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000047-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "10072",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "378793ea0472b29fcc511988cf7491de",
+        "sha1sum" : "5b9b563d4a4bbadb5b5448a3d85614fc5abc949f",
+        "sha256sum" : "6ffd4ab0c7f2fe905a21dd09de9e7dd56a9f7c77dfddeed3b3353b3cac3dd1e0"
+      },
+      {
+        "name" : "BIOMD0000000047-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "12680",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "258b9e223aa1eb5d18180a3b8ad75b27",
+        "sha1sum" : "5000864faa81fdbd8fa86410593236703a2f2de8",
+        "sha256sum" : "4c1ae1d685d31ae39afcc6386ab7b54b562e250ab0a528d814ddaaf211f3688c"
+      },
+      {
+        "name" : "BIOMD0000000047-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4583",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "174522d9a1e69ec591297fa7a2c7f930",
+        "sha1sum" : "961d4d9fbf01cdc693fb15a86cf90d6dba83b31a",
+        "sha256sum" : "b0b3a5c70ccc6017806123ad7646517050ecc84e299d914cf51c8c965e060eb3"
+      },
+      {
+        "name" : "BIOMD0000000047-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4583",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "afef5757ed35dff70ef56cebd78b7d7d",
+        "sha1sum" : "72570166ae70a3eb9d0845ca50159264cb22f3a2",
+        "sha256sum" : "4078062a74b8ced224d9e45f602a505a169af9196e8dbc9af3294fa8201a1aa3"
+      },
+      {
+        "name" : "BIOMD0000000047.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4583",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "afef5757ed35dff70ef56cebd78b7d7d",
+        "sha1sum" : "72570166ae70a3eb9d0845ca50159264cb22f3a2",
+        "sha256sum" : "4078062a74b8ced224d9e45f602a505a169af9196e8dbc9af3294fa8201a1aa3"
+      },
+      {
+        "name" : "BIOMD0000000047.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2630",
+        "mimeType" : "text/plain",
+        "md5sum" : "c66eaa8be694e9a920ba10c8260d2707",
+        "sha1sum" : "fb06a78433d5938395d5c99fb755995c83b3c259",
+        "sha256sum" : "425781ef6b8ead064b60d9bdc89b5d9a4d25a95ca2930ae7b2fcaaa3c30d872e"
+      },
+      {
+        "name" : "BIOMD0000000047.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "152377",
+        "mimeType" : "application/pdf",
+        "md5sum" : "84b41b3e21a71bb479211b6eb2b31e85",
+        "sha1sum" : "c6a290245209d6e1b8bedf101c2ad1e3f18dac85",
+        "sha256sum" : "d24ac7a019500b41caca5be9d62a6d2790f84db71b22d8282752fd66f61f8ee7"
+      },
+      {
+        "name" : "BIOMD0000000047.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "12112",
+        "mimeType" : "image/png",
+        "md5sum" : "ee990509ce8ac5ef4dc50ddeb07e7bbb",
+        "sha1sum" : "cbd08c64400b9f8fed06acadce8b570423f9490f",
+        "sha256sum" : "884abf49f9108547be4ac944c4482a8b5c1574f7c6a31367f20a72defac81016"
+      },
+      {
+        "name" : "BIOMD0000000047.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "5855",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "fe3ece35c218feaf8c4dff651272d92c",
+        "sha1sum" : "4171193307e692bdc9d35b392a608a7b501ee241",
+        "sha256sum" : "e64d4d89d800a26699acc4d00a259e85b9876dde1fd63e1b084b7c3d5dee7634"
+      },
+      {
+        "name" : "BIOMD0000000047_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "12079",
+        "mimeType" : "application/xml",
+        "md5sum" : "3c9de1f1d8987fbdaea87f8b841f1ec8",
+        "sha1sum" : "2ec706645aedbf5ff627c7fbd6850dbad4707325",
+        "sha256sum" : "5d44c8e6f7b1a569f89723964a3cd930cd4fc27931a1a978a79037b83c3ae014"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17776",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "6e68d0dd65b846719bb44a1a30d0d863",
+        "sha1sum" : "3af0eb65668cb67c5709ecd25bd855ed2286dd54",
+        "sha256sum" : "29c939ca4ce4b01d27cafdf3fac15181df423f9c1b15a183b386f04611555a31"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "76",
+        "mimeType" : "text/plain",
+        "md5sum" : "5d2dfa3654a688ceedcbc87cbca1cb28",
+        "sha1sum" : "1a49a856cd0be7d62dc33e0f9861be985fecf2ff",
+        "sha256sum" : "59bd322ab8e13d9847b740510f9fadd24fb680ebd7289080bed42b34eb015aa2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1792",
+        "mimeType" : "application/xml",
+        "md5sum" : "8c7e609a346b3dc4caa58d3dbfae2a33",
+        "sha1sum" : "f2a36ab1a4e916f84423925806589f80864e378a",
+        "sha256sum" : "34cb1b68b4052dd08b1d98bc8820030ef72cb0dcc4f26bee75e24de6eec14273"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3716",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "967bb1a15fde183c52d725dc4191e9ff",
+        "sha1sum" : "b13fdede0d65722be784f86753fe17a852f4030a",
+        "sha256sum" : "0fbd8ef9fd59100bd8469f15c4663947914b5a1764ec98e6bf914b0844835406"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126627035,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Oxhamre2005_Ca_oscillation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1395855433,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Oxhamre2005_Ca_oscillation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265925,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284856,
+  "submissionId" : "MODEL6623415355",
+  "publicationId" : "BIOMD0000000047",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6623415355",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6623415355"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000047",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000047"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15596518",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15596518"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11874447",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11874447"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "rno04020",
+      "name" : "Calcium signaling pathway - Rattus norvegicus (rat)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/rno04020"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10114",
+      "name" : "Rattus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10114"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0048016",
+      "name" : "inositol phosphate-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048016"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

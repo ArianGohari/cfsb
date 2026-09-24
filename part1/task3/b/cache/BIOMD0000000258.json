@@ -1,0 +1,299 @@
+{
+  "name" : "Ortega2006 - bistability from double phosphorylation in signal transduction",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Ortega2006 - bistability from doublephosphorylation in signal transduction</div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/16934033\" title=\"Access to this publication\">Bistability from double    phosphorylation in signal transduction. Kinetic and structural    requirements.</a>          </div>          <div class=\"bibo:authorList\">Ortega F, Garcés JL, Mas F,  Kholodenko BN, Cascante M.</div>          <div class=\"bibo:Journal\">FEBS J. 2006 Sep; 273(17):  3915-3926</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>Previous studies have suggested that positive feedback loops    and ultrasensitivity are prerequisites for bistability in    covalent modification cascades. However, it was recently shown    that bistability and hysteresis can also arise solely from    multisite phosphorylation. Here we analytically demonstrate    that double phosphorylation of a protein (or other covalent    modification) generates bistability only if: (a) the two    phosphorylation (or the two dephosphorylation) reactions are    catalyzed by the same enzyme; (b) the kinetics operate at least    partly in the zero-order region; and (c) the ratio of the    catalytic constants of the phosphorylation and    dephosphorylation steps in the first modification cycle is less    than this ratio in the second cycle. We also show that    multisite phosphorylation enlarges the region of kinetic    parameter values in which bistability appears, but does not    generate multistability. In addition, we conclude that a    cascade of phosphorylation/dephosphorylation cycles generates    multiple steady states in the absence of feedback or    feedforward loops. Our results show that bistable behavior in    covalent modification cascades relies not only on the structure    and regulatory pattern of feedback/feedforward loops, but also    on the kinetic characteristics of their component proteins.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000258\">BIOMD0000000258</a>.</p>        <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p>    </div>    <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p>  </div></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16934033",
+    "journal" : "The FEBS journal",
+    "title" : "Bistability from double phosphorylation in signal transduction. Kinetic and structural requirements.",
+    "affiliation" : "Centre for Research in Theoretical Chemistry, Scientific Park of Barcelona, Spain.",
+    "synopsis" : "Previous studies have suggested that positive feedback loops and ultrasensitivity are prerequisites for bistability in covalent modification cascades. However, it was recently shown that bistability and hysteresis can also arise solely from multisite phosphorylation. Here we analytically demonstrate that double phosphorylation of a protein (or other covalent modification) generates bistability only if: (a) the two phosphorylation (or the two dephosphorylation) reactions are catalyzed by the same enzyme; (b) the kinetics operate at least partly in the zero-order region; and (c) the ratio of the catalytic constants of the phosphorylation and dephosphorylation steps in the first modification cycle is less than this ratio in the second cycle. We also show that multisite phosphorylation enlarges the region of kinetic parameter values in which bistability appears, but does not generate multistability. In addition, we conclude that a cascade of phosphorylation/dephosphorylation cycles generates multiple steady states in the absence of feedback or feedforward loops. Our results show that bistable behavior in covalent modification cascades relies not only on the structure and regulatory pattern of feedback/feedforward loops, but also on the kinetic characteristics of their component proteins.",
+    "year" : 2006,
+    "month" : "9",
+    "volume" : "273",
+    "issue" : "17",
+    "pages" : "3915-3926",
+    "link" : "http://identifiers.org/pubmed/16934033",
+    "authors" : [
+      {
+        "name" : "Fernando Ortega",
+        "institution" : "Computational Biology, Discovery Sciences, AstraZeneca, Alderley Park, Macclesfield SK10 4TG, United Kingdom.",
+        "orcid" : "0000-0002-3172-2095"
+      },
+      {
+        "name" : "José L Garcés",
+        "orcid" : "0000-0003-0650-8473"
+      },
+      {
+        "name" : "Francesc Mas",
+        "orcid" : "0000-0002-1362-4002"
+      },
+      {
+        "name" : "Boris N Kholodenko",
+        "orcid" : "0000-0002-9483-4975"
+      },
+      {
+        "name" : "Marta Cascante",
+        "institution" : "Departamento de Bioquímica, Facultad de Química, Universidad de Barcelona, Barcelona E-08028, Spain.",
+        "orcid" : "0000-0002-2062-4633"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000258_url.xml",
+        "description" : "SBML L2V4 representation of Ortega2006 - bistability from double phosphorylation in signal transduction",
+        "fileSize" : "13933",
+        "mimeType" : "application/xml",
+        "md5sum" : "c9ddf019be9dafe52245157081cf267c",
+        "sha1sum" : "9ea0cfa48d84290aeaa2354fbf6c49feb1857e35",
+        "sha256sum" : "37ffe2117e34150b04dc02697caa80c5f1b78cc44a150906a77b7ae893cd41df"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000258-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "8448",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "96bd36694a9afe0975df8fff60a2d300",
+        "sha1sum" : "2041b4a226bb56ae246da75d2917e3239f3c2ed3",
+        "sha256sum" : "259e5ead04a2db62e2143405e659ae8a268c00e11521c95771b0ec4e9d863493"
+      },
+      {
+        "name" : "BIOMD0000000258-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "11839",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "394c7210b82a22cad9156ef6490917de",
+        "sha1sum" : "147980cb9ce345b98367c4dc11730b24b4a77461",
+        "sha256sum" : "104f45ce60969b86d8331ce8983efa1ffefe4a70f608736056f4a7201cb7785f"
+      },
+      {
+        "name" : "BIOMD0000000258-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3912",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2f9b19ddf66e1bc0c0f1ed844ff03dd0",
+        "sha1sum" : "860e8a326beeeb188849806ad6bb293f31e142db",
+        "sha256sum" : "4c0870c6075a2099686ebcfda905bc3526b3e187b0010c428645b84f4aa8b268"
+      },
+      {
+        "name" : "BIOMD0000000258-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3912",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "69c1b83c035183982c3f5cfa02ede0cf",
+        "sha1sum" : "b14ed8befa6ef0663021755d94d725d1e96d1c98",
+        "sha256sum" : "aefcf69f7112135aaaa659488a261b161c7d8129831f34a914102155437ba3d1"
+      },
+      {
+        "name" : "BIOMD0000000258.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3912",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "69c1b83c035183982c3f5cfa02ede0cf",
+        "sha1sum" : "b14ed8befa6ef0663021755d94d725d1e96d1c98",
+        "sha256sum" : "aefcf69f7112135aaaa659488a261b161c7d8129831f34a914102155437ba3d1"
+      },
+      {
+        "name" : "BIOMD0000000258.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2008",
+        "mimeType" : "text/plain",
+        "md5sum" : "71296b855b126b515319dedbbb261846",
+        "sha1sum" : "c438411588c639be23708c61f7d6428851d7c3ef",
+        "sha256sum" : "e967f92598a935be00c817e31dc6f1c0d76ebe35c47424f018ffb554b549f316"
+      },
+      {
+        "name" : "BIOMD0000000258.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "152292",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6f0488c0009740b897535c3b49d75547",
+        "sha1sum" : "8b2f5fba5adf92d62a748256d1db04631a5a03e9",
+        "sha256sum" : "33dd2b0561cec04c96d8eeb3a7d1ed46edf2e089235964f606e010dfc02a600c"
+      },
+      {
+        "name" : "BIOMD0000000258.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "18524",
+        "mimeType" : "image/png",
+        "md5sum" : "491f61310fe7d72f6d21f9fe66b0ef5f",
+        "sha1sum" : "521c16ce67e7ee2e6edb99ca7c26646ca29e54e7",
+        "sha256sum" : "1f4e50cb9923354c860b1e1f57190785bd0f51766bed2f3afc3105e0f4bf725b"
+      },
+      {
+        "name" : "BIOMD0000000258.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1829",
+        "mimeType" : "text/plain",
+        "md5sum" : "329d772d9d615047d5cd8c691f7485c6",
+        "sha1sum" : "2793a546244efeb33f318c35cf1cb57ecc328ae6",
+        "sha256sum" : "cc8f02f5f11d7b356818382972f3221c7e9c57d3d640293af6cde0df1df7eea9"
+      },
+      {
+        "name" : "BIOMD0000000258.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "8799",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "fd3e8429174ddafd377ba47ae0b96a53",
+        "sha1sum" : "2383f8670466295f295db3206836c449c29cc478",
+        "sha256sum" : "696d9f1e107f499fa7c4b600f9ef5c02fb071863077b809e60e30017cf6e40d2"
+      },
+      {
+        "name" : "BIOMD0000000258.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "20671",
+        "mimeType" : "application/xml",
+        "md5sum" : "97bb442039b6f295fb068bae6ae6655e",
+        "sha1sum" : "b84c3d1421be88a375239462d7ba8dcb07f7a104",
+        "sha256sum" : "8ef957a367abbb5cc5eb27545cedd62825781fef74a2e2c6068ab23f7e4071ee"
+      },
+      {
+        "name" : "BIOMD0000000258_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "10614",
+        "mimeType" : "application/xml",
+        "md5sum" : "5de6c687d4f7e2201fedc821d4b67b92",
+        "sha1sum" : "1d65ddb8a8ada8f3fa02612ba672a87acf757375",
+        "sha256sum" : "8bd9e36002d389e78bedef1421e92ce039d31c23efaeef7df7f4f120ccb1829a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "46402",
+        "mimeType" : "image/png",
+        "md5sum" : "082513681ccb4680463eac9c876b6f68",
+        "sha1sum" : "ccac315ce48222895cb9a70988f2cbf1c6d2fa18",
+        "sha256sum" : "a300d81f9c0d888b2a6b06142c1063fdc8b0fce7028a6727e62d91170ca730a5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "130",
+        "mimeType" : "text/plain",
+        "md5sum" : "bb232f8309ed87739fca68271072691e",
+        "sha1sum" : "6f73cbdfc79b31641e47755271a896f9b90db021",
+        "sha256sum" : "90a2b91734137d7fa929fd43b865a5324b2b6b5c7b65464574eebe133e275759"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "1b5f410525e6f33ea03af4159a809f66",
+        "sha1sum" : "08f02a24a3076df6644bf43f6332e54395ca09f5",
+        "sha256sum" : "f4f6f70b85c3c4580a7a89745c8241acc85ed047e8a65844bb601f6e48d3f129"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5145",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "cf26d6338ca8e8f9db0865a6a7e00358",
+        "sha1sum" : "08a19fa2250bb0c26cbd0c81788f27a2a7572773",
+        "sha256sum" : "8d48fb5f292d1d77427724d5071f94dcf1f1972eacc9dd9f210762fc0ef34646"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1281448769,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Ortega2006_bistability_doublePhosphorylation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1432304181,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Ortega2006 - bistability from double phosphorylation in signal transduction"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271767,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284978,
+  "submissionId" : "MODEL1008100000",
+  "publicationId" : "BIOMD0000000258",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1008100000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1008100000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000258",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000258"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16934033",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16934033"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006468",
+      "name" : "protein phosphorylation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006468"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

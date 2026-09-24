@@ -1,0 +1,741 @@
+{
+  "name" : "Chowell2022 - Random Forest model to predict efficacy of immune checkpoint blockade across multiple cancer patient cohorts",
+  "description" : "This is a Random Forest algorithm-based machine learning model called RF16, which incorporates a total of 16 genomic, molecular, demographic, and clinical features to predict the immunotherapy response for a patient. The model assigns a value of 0 for NonResponder and 1 for Responder. Please be aware that the column names in the GitHub code and the downloaded dataset from the publication may vary. Users are advised to make minor adjustments to either the code or the dataset to ensure compatibility. The curated version of the model has modified the column names in the training code to align with the dataset.GitHub repository: https://github.com/CCF-ChanLab/MSK-IMPACT-IO",
+  "format" : {
+    "name" : "Open Neural Network Exchange",
+    "identifier" : "ONNX",
+    "version" : "*"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "34725502",
+    "journal" : "Nature biotechnology",
+    "title" : "Improved prediction of immune checkpoint blockade efficacy across multiple cancer types.",
+    "affiliation" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+    "synopsis" : "Only a fraction of patients with cancer respond to immune checkpoint blockade (ICB) treatment, but current decision-making procedures have limited accuracy. In this study, we developed a machine learning model to predict ICB response by integrating genomic, molecular, demographic and clinical data from a comprehensively curated cohort (MSK-IMPACT) with 1,479 patients treated with ICB across 16 different cancer types. In a retrospective analysis, the model achieved high sensitivity and specificity in predicting clinical response to immunotherapy and predicted both overall survival and progression-free survival in the test data across different cancer types. Our model significantly outperformed predictions based on tumor mutational burden, which was recently approved by the U.S. Food and Drug Administration for this purpose<sup>1</sup>. Additionally, the model provides quantitative assessments of the model features that are most salient for the predictions. We anticipate that this approach will substantially improve clinical decision-making in immunotherapy and inform future interventions.",
+    "year" : 2022,
+    "month" : "4",
+    "volume" : "40",
+    "issue" : "4",
+    "pages" : "499-506",
+    "link" : "http://identifiers.org/pubmed/34725502",
+    "authors" : [
+      {
+        "name" : "Diego Chowell",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA.Department of Oncological Sciences, The Precision Immunology Institute, The Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+      },
+      {
+        "name" : "Seong-Keun Yoo",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA.",
+        "orcid" : "0000-0002-8749-7050"
+      },
+      {
+        "name" : "Cristina Valero",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0003-3397-2888"
+      },
+      {
+        "name" : "Alessandro Pastore",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0002-3621-4807"
+      },
+      {
+        "name" : "Chirag Krishna",
+        "institution" : "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Mark Lee",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Douglas Hoen",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA."
+      },
+      {
+        "name" : "Hongyu Shi",
+        "institution" : "Computational Oncology, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Daniel W Kelly",
+        "institution" : "Information Systems, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Neal Patel",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0002-4352-4723"
+      },
+      {
+        "name" : "Vladimir Makarov",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA."
+      },
+      {
+        "name" : "Xiaoxiao Ma",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA.",
+        "orcid" : "0000-0001-8661-5660"
+      },
+      {
+        "name" : "Lynda Vuong",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Erich Y Sabio",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Kate Weiss",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Fengshen Kuo",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0003-1797-2896"
+      },
+      {
+        "name" : "Tobias L Lenz",
+        "institution" : "Research Unit for Evolutionary Immunogenomics, Department of Biology, Universität Hamburg, Hamburg, Germany.",
+        "orcid" : "0000-0002-7203-0044"
+      },
+      {
+        "name" : "Robert M Samstein",
+        "institution" : "Precision Immunology Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA."
+      },
+      {
+        "name" : "Nadeem Riaz",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0001-9873-5862"
+      },
+      {
+        "name" : "Prasad S Adusumilli",
+        "institution" : "Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0002-1699-2046"
+      },
+      {
+        "name" : "Vinod P Balachandran",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0002-2956-223X"
+      },
+      {
+        "name" : "George Plitas",
+        "institution" : "Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "A Ari Hakimi",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA.Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Omar Abdel-Wahab",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0002-3907-6171"
+      },
+      {
+        "name" : "Alexander N Shoushtari",
+        "institution" : "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Michael A Postow",
+        "institution" : "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Robert J Motzer",
+        "institution" : "Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Marc Ladanyi",
+        "institution" : "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Ahmet Zehir",
+        "institution" : "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0001-5406-4104"
+      },
+      {
+        "name" : "Michael F Berger",
+        "institution" : "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "orcid" : "0000-0003-3882-5000"
+      },
+      {
+        "name" : "Mithat Gönen",
+        "institution" : "Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+      },
+      {
+        "name" : "Luc G T Morris",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA. morrisl@mskcc.org.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA. morrisl@mskcc.org.Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, NY, USA. morrisl@mskcc.org.",
+        "orcid" : "0000-0002-4417-2280"
+      },
+      {
+        "name" : "Nils Weinhold",
+        "institution" : "Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA. weinholn@mskcc.org.Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, New York, NY, USA. weinholn@mskcc.org.",
+        "orcid" : "0000-0003-3290-6192"
+      },
+      {
+        "name" : "Timothy A Chan",
+        "institution" : "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA. chant2@ccf.org.Immunogenomics and Precision Oncology Platform, Memorial Sloan Kettering Cancer Center, New York, NY, USA. chant2@ccf.org.Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA. chant2@ccf.org.Department of Radiation Oncology, Memorial Sloan Kettering Cancer Center, New York, NY, USA. chant2@ccf.org.Weill Cornell School of Medicine, New York, NY, USA. chant2@ccf.org.",
+        "orcid" : "0000-0002-9265-0283"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "RF16.onnx",
+        "description" : "ONNX file of the Random Forest (RF16) trained model. ",
+        "fileSize" : "1889619",
+        "mimeType" : "application/octet-stream",
+        "md5sum" : "1632ec5d372248c610b5e8cf5b857696",
+        "sha1sum" : "50ab0b5c7fd611f520d98307c55adcb6149d22ba",
+        "sha256sum" : "bbe307c7ec2ec8c21c5fa7e99914e95883750eb57a2094f19f208a15195b800d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "ICB_annotation.csv",
+        "description" : "Model annotation in csv format.",
+        "fileSize" : "7042",
+        "mimeType" : "text/plain",
+        "md5sum" : "5b375fbffe6ac873980aa2f083daa7db",
+        "sha1sum" : "cb3e0dfebb47d5b39592e0577f0d879ae4b1948e",
+        "sha256sum" : "28ac2de28d16bad5a76231a95b04b3ff84a147d9611d568ef88ebdf459bc7340"
+      },
+      {
+        "name" : "Reproduced Figures.pdf",
+        "description" : "Comparison between original figures (Fig. 1c, 1d and 2a from manuscript) and reproduced figures. ",
+        "fileSize" : "744781",
+        "mimeType" : "application/pdf",
+        "md5sum" : "3eb03935d601787960bf5ffb7f1bcba2",
+        "sha1sum" : "4e2e32a58928791e7e9af2af0e178647adf6d8e8",
+        "sha256sum" : "7fee0babef27476e0ad85d92fbe58a47a59280299d4ac984d04318cc1642f17f"
+      },
+      {
+        "name" : "Reproduced Metrics.pdf",
+        "description" : "Comparison between original confusion matrix (Fig. 2d-g from manuscript) and reproduced confusion matrix. ",
+        "fileSize" : "65655",
+        "mimeType" : "application/pdf",
+        "md5sum" : "33fcf326114c2d2d42344d79a72179ef",
+        "sha1sum" : "030e007615ec2ea2709c4ddacc47b0f10857ae8f",
+        "sha256sum" : "cc2409b8c4bd75b039aee855fa56475ca14ab0cefef4e79b14a4d5c57b7a5849"
+      },
+      {
+        "name" : "dockerICB_predict.zip",
+        "description" : "Docker file to load the 'RF16.onnx' model and make predictions.",
+        "fileSize" : "541752",
+        "mimeType" : "application/zip",
+        "md5sum" : "f7eb1f756365a9149b2a6def6cecad3a",
+        "sha1sum" : "d9bd9e6bc630f2891d13e97485f478592e6981c7",
+        "sha256sum" : "cd82643be6e902f0810152ea935236fe1c865eb5f264f6a82f32d4c0919ea318"
+      },
+      {
+        "name" : "dockerICB_train.zip",
+        "description" : "Docker file and dependencies to train the RF16 model using train.py script. ",
+        "fileSize" : "311332",
+        "mimeType" : "application/zip",
+        "md5sum" : "b3cac52e44638aad630428f1ac018fcc",
+        "sha1sum" : "e90812e32fd439baac4d51350f9047118141e424",
+        "sha256sum" : "0598bc7b6ac16b9ddfe58844550f5c4297e5e0c00a2581573cc0da499f83bc06"
+      },
+      {
+        "name" : "train.py",
+        "description" : "Python script which loads the dataset to train the RF16 and RF11 model and create text files with prediction probabilities. ",
+        "fileSize" : "3437",
+        "mimeType" : "text/plain",
+        "md5sum" : "57716ab6645dfa6e29b5966d904e11dd",
+        "sha1sum" : "65f5e2364e9d01427733bb450c66e2aa1e2f45fe",
+        "sha256sum" : "59c22268b62caba017317d9f7bc3fde26ef1790e72290c355756aebcef08ed72"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1688048798,
+        "submitter" : "Divyang Deep Tiwari",
+        "comment" : "First submission of the Immune Checkpoint Blockade (ICB) machine learning model."
+      }
+    ]
+  },
+  "firstPublished" : 1683642281,
+  "submissionId" : "MODEL2304250001",
+  "publicationId" : "BIOMD0000001066",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000023",
+    "name" : "computational model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000023"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FAIR-AIML",
+    "Machine Learning Model"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Divyang Deep Tiwari",
+        "email" : "dtiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "34725502",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed/34725502"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001066",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db/BIOMD0000001066"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2304250001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db/MODEL2304250001"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C16676",
+      "name" : "Hemoglobin",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C16676"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C45825",
+      "name" : "Heterozygosity",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C45825"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000150",
+      "name" : "breast cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000150"
+    },
+    {
+      "qualifier" : "bqmodel:hasInput",
+      "accession" : "NCIT_C142508",
+      "name" : "Demographic Data",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C142508"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "EFO_0004925",
+      "name" : "tumor stage",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0004925"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "STATO_0000549",
+      "name" : "random forest procedure",
+      "resource" : "STATO: the statistical methods ontology",
+      "uri" : "http://purl.obolibrary.org/obo/STATO_0000549"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C141271",
+      "name" : "Neutrophil to Lymphocyte Ratio Measurement (NLR)",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C141271"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0003897",
+      "name" : "hepatobiliary carcinoma cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0003897"
+    },
+    {
+      "qualifier" : "bqmodel:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "scikit-learn",
+      "name" : "Scikit-Learn",
+      "resource" : "GitHub repository",
+      "uri" : "https://github.com/scikit-learn"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0003871",
+      "name" : "uterine endometrial cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0003871"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "OBI_0002588",
+      "name" : "supervised machine learning",
+      "resource" : "OBI: Ontology for Biomedical Investigations",
+      "uri" : "http://purl.obolibrary.org/obo/OBI_0002588"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C125201",
+      "name" : "Overall Survival",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C125201"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0003192",
+      "name" : "Renal Cancer Cell Line",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0003192"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C19020",
+      "name" : "Receiver Operator Characteristics",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C19020"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C143250",
+      "name" : "Immune Checkpoint Inhibitor",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C143250"
+    },
+    {
+      "qualifier" : "bqmodel:hasInput",
+      "accession" : "ERO_0100354",
+      "name" : "molecular data",
+      "resource" : "ERO: eagle-i resource ontology",
+      "uri" : "http://purl.obolibrary.org/obo/ERO_0100354"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000584",
+      "name" : "pancreatic cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000584"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000680",
+      "name" : "Kidney Cancer Cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000680"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "OGG_3000001493",
+      "name" : "CTLA4 (cytotoxic T-lymphocyte-associated protein 4)",
+      "resource" : "OGG: Ontology of Genes and Genomes",
+      "uri" : "http://purl.obolibrary.org/obo/OGG_3000001493"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C15262",
+      "name" : "Immunotherapy",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C15262"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C150128",
+      "name" : "Tumor Mutation Burden (TMB)",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C150128"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C106432",
+      "name" : "Pembrolizumab",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C106432"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0001577",
+      "name" : "esophageal cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0001577"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "OBCS_0000059",
+      "name" : "specificity",
+      "resource" : "OBCS: Ontology of Biological and Clinical Statistics",
+      "uri" : "http://purl.obolibrary.org/obo/OBCS_0000059"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "OBCS_0000058",
+      "name" : "sensitivity",
+      "resource" : "OBCS: Ontology of Biological and Clinical Statistics",
+      "uri" : "http://purl.obolibrary.org/obo/OBCS_0000058"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0001615",
+      "name" : "colorectal cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0001615"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0001286",
+      "name" : "Skin Cancer Cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0001286"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C68814",
+      "name" : "Nivolumab",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C68814"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "SWO_0000118",
+      "name" : "Python",
+      "resource" : "Software Ontology (SWO)",
+      "uri" : "http://www.ebi.ac.uk/swo/SWO_0000118"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C16629",
+      "name" : "Genome",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C16629"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000123",
+      "name" : "Bladder",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000123"
+    },
+    {
+      "qualifier" : "bqmodel:hasInput",
+      "accession" : "EFO_0030083",
+      "name" : "clinical data",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0030083"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C106250",
+      "name" : "Atezolizumab",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C106250"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "MSK-IMPACT-IO",
+      "name" : "unknown",
+      "resource" : "GitHub repository",
+      "uri" : "https://github.com/CCF-ChanLab/MSK-IMPACT-IO"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "EFO_0010793",
+      "name" : "programmed death-ligand 1 measurement (PDL1)",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0010793"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C36318",
+      "name" : "Microsatellite Instability (MSI)",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C36318"
+    },
+    {
+      "qualifier" : "bqmodel:hasOutput",
+      "accession" : "EFO_0600023",
+      "name" : "Prediction of Immune Checkpoint Blockade (ICB) response for a patient.",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0600023"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0001023",
+      "name" : "ovary cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0001023"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C156893",
+      "name" : "PD-1 Ligand Inhibitor",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C156893"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "EFO_0004920",
+      "name" : "progression free survival",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0004920"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000498",
+      "name" : "gastric cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000498"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000356",
+      "name" : "breast cancer cell line",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000356"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "STATO_0000416",
+      "name" : "precision",
+      "resource" : "STATO: the statistical methods ontology",
+      "uri" : "http://purl.obolibrary.org/obo/STATO_0000416"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "OBI_0002587",
+      "name" : "machine learning",
+      "resource" : "OBI: Ontology for Biomedical Investigations",
+      "uri" : "http://purl.obolibrary.org/obo/OBI_0002587"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0002058",
+      "name" : "NSCLC Cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0002058"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "unknown",
+      "name" : "unknown",
+      "resource" : "PMID",
+      "uri" : "34725502"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C131060",
+      "name" : "Checkpoint Blockade Immunotherapy",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C131060"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0002423",
+      "name" : "mesothelioma cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0002423"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "112022",
+      "name" : "Response Evaluation Criteria In Solid Tumors (RECIST)",
+      "resource" : "DICOM Controlled Terminology",
+      "uri" : "http://dicom.nema.org/resources/ontology/DCM/112022"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000189",
+      "name" : "small cell lung cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000189"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0005838",
+      "name" : "head and neck cancer cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0005838"
+    },
+    {
+      "qualifier" : "bqmodel:hasInput",
+      "accession" : "EFO_0004600",
+      "name" : "genomic data",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0004600"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000811",
+      "name" : "ovary cancer cell line",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000811"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C15632",
+      "name" : "Chemotherapy",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C15632"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C214",
+      "name" : "Albumin",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C214"
+    },
+    {
+      "qualifier" : "bqmodel:hasDataset",
+      "accession" : "41587_2021_1070_MOESM3_ESM.xlsx",
+      "name" : "unknown",
+      "resource" : "unknown",
+      "uri" : "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-021-01070-8/MediaObjects/41587_2021_1070_MOESM3_ESM.xlsx"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C12520",
+      "name" : "Platelet",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C12520"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "CLO_0008407",
+      "name" : "PDL-1 Cell",
+      "resource" : "CLO: Cell Line Ontology",
+      "uri" : "http://purl.obolibrary.org/obo/CLO_0008407"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "NCIT_C15438",
+      "name" : "Cancer Immunotherapy",
+      "resource" : "NCI Thesaurus OBO Edition",
+      "uri" : "http://purl.obolibrary.org/obo/NCIT_C15438"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0001207",
+      "name" : "Sarcoma Cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0001207"
+    },
+    {
+      "qualifier" : "bqmodel:occursIn",
+      "accession" : "BTO_0000848",
+      "name" : "Melanoma Cell",
+      "resource" : "BTO (BRENDA Tissue Ontology)",
+      "uri" : "http://purl.obolibrary.org/obo/BTO_0000848"
+    },
+    {
+      "qualifier" : "bqmodel:hasProperty",
+      "accession" : "EFO_0004340",
+      "name" : "body mass index (BMI)",
+      "resource" : "Experimental Factor Ontology (EFO)",
+      "uri" : "http://www.ebi.ac.uk/efo/EFO_0004340"
+    }
+  ]
+}

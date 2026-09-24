@@ -1,0 +1,58 @@
+## c) Schlüsselproteine aus Task 1: vorhandene Modelle und ihr Beitrag
+
+Ja, BioModels enthält Modelle mit den Schlüsselproteinen aus Task 1. Die hier geprüften Dateien bilden jedoch überwiegend getrennte Teile des Systems ab. Sie eignen sich als Ausgangspunkt für eine Untersuchung der Uhr–Checkpoint-Kopplung; die direkte PER2–p53–MDM2-Kopplung ist in diesen Dateien nicht implementiert. Die in 3(a) ergänzten Simulationen zeigen die Dynamik der beiden getrennten Bausteine; sie testen keine direkte Kopplung.
+
+### Welche Proteine wurden gesucht?
+
+Im Mittelpunkt von [Task 1](../task1/task1.qmd) stehen PER2, p53 (Gen: TP53) und MDM2. Zur circadianen Rückkopplung gehören außerdem CLOCK/BMAL1 und CRY; PER1 betrifft die dort diskutierte Verbindung zur DNA-Schadensantwort. Dabei ist zwischen einer Erwähnung in der Modellbeschreibung und einer tatsächlich implementierten Spezies zu unterscheiden. Auch ein PER:CRY-Komplex ist keine eigenständige freie PER2-Variable.
+
+Für die Suche wurden die 1.096 bereits in 3(b) gespeicherten kuratierten Modellmetadaten nach diesen Namen und verwandten Begriffen durchsucht. Das ergab 90 Textkandidaten, keine 90 bestätigten Proteinmodelle. Anschließend wurden die zwei vorhandenen Task-1-Dateien und drei ergänzende Uhrmodelle auf Spezies, Reaktionen, kinetische Ausdrücke und Assignment Rules geprüft. Die Auswahl zeigt unterschiedliche Modellierungsansätze; sie ist keine vollständige Bestandsaufnahme aller passenden Modelle.
+
+Drei zusätzliche öffentliche BioModels-Abfragen am 21.09.2026 liefen ohne Kuratierungsfilter: `PER2` lieferte BIOMD0000000170; `(circadian OR CLOCK OR BMAL1 OR PER2) AND (p53 OR TP53 OR MDM2)` sowie `"PER2" AND "p53"` lieferten keine Treffer. Das begrenzt nur das Ergebnis dieser indexabhängigen Suche. Es beweist nicht, dass in BioModels oder anderen Quellen kein gekoppeltes Modell existiert. Suchantworten, URLs, Zeitstempel und Hashes sind [lokal archiviert](c/search_results.json).
+
+### Nachweis in konkreten SBML-Dateien
+
+| Modell | Implementierte Bestandteile | Bedeutung für Task 1 |
+|---|---|---|
+| [Becker-Weimann et al. 2004, BIOMD0000000170](https://www.biomodels.org/BIOMD0000000170) | 7 Spezies, 17 Reaktionen. `y2` und `y3` heißen `PER2_CRY_complex_cytoplasm` und `PER2_CRY_complex_nucleus`. Hinzu kommen Bmal1-mRNA sowie cytoplasmatisches, nukleäres und aktives BMAL1. | Ein reduzierter Uhrbaustein mit Kerntransport. PER2 und CRY sind aggregiert; freies PER2, eine eigene CLOCK-Spezies und p53/MDM2 fehlen. |
+| [Ciliberto et al. 2005, BIOMD0000001006](https://www.biomodels.org/BIOMD0000001006) | 10 Spezies, 21 Reaktionen. p53 und seine Ubiquitinierungszustände, cytoplasmatisches und nukleäres MDM2 sowie DNA-Schaden. p53-Zustände sind mit UniProt P04637, MDM2-Zustände mit Q00987 annotiert. | Ein Checkpoint-Baustein mit p53–MDM2-Rückkopplung. Uhrproteine und PER2–p53-Komplexe fehlen. Sämtliche p53-Spezies sind dem Kernkompartiment zugeordnet; es gibt keinen eigenen cytoplasmatischen p53-Pool. |
+| [Leloup & Goldbeter 2003, BIOMD0000000073](https://www.biomodels.org/BIOMD0000000073) | 16 Spezies, 48 Reaktionen. Explizite PER:CRY-Komplexbildung und Bildung eines inaktiven Komplexes mit dem Clock-Bmal-Zweig. | Detaillierterer Uhrbaustein. Die PER-Spezies trägt mehrere Proteinreferenzen, darunter PER2; separate PER1-/PER2-/PER3-Zustände fehlen. CLOCK ist keine unabhängige dynamische Spezies. |
+| [Hong et al. 2009, BIOMD0000000216](https://www.biomodels.org/BIOMD0000000216) | 6 Spezies, 17 Reaktionen mit abstrahierten Variablen `CP`, `CP2`, `TF` und `IC`. `2 CP → CP2` beschreibt Dimerisierung. | Verwandter Ansatz zur DNA-Schadensantwort der Uhr. Der Publikationsabstract behandelt Chk2-abhängigen PER-Abbau; die SBML-Datei enthält aber keine eigene Chk2-, p53- oder MDM2-Spezies. `CP2` bedeutet Dimer, nicht PER2. |
+| [Almeida et al., Publikation 2020, BIOMD0000000839](https://www.biomodels.org/BIOMD0000000839) | 8 Spezies, 20 Reaktionen. Unter anderem BMAL1, CRY, PER und PERCRY mit expliziter Assoziation und Dissoziation. | Weiterer Uhrbaustein mit PER:CRY-Bindung, jedoch generischem PER statt separatem PER2. Kein p53-/MDM2-Zweig. |
+
+Die vollständigen [Spezies](c/species.tsv) und [Reaktionen einschließlich kinetischer MathML](c/reactions.tsv) sind exportiert. Modellnamen und Annotationen wurden nicht pauschal als fehlerfreie Proteinidentifizierung behandelt. So bleibt eine generische PER-Spezies auch bei mehreren UniProt-Verweisen eine aggregierte Variable.
+
+Zwei konkrete Mechanismen zeigen, dass hier mehr als Modellnamen geprüft wurde:
+
+- In BIOMD0000000170 transportiert `per2_cry_nuclear_import` den PER2/CRY-Zustand `y2` nach `y3`. Die Bildung von `y2` ist dagegen eine zusammengefasste Synthesereaktion mit mRNA als Modifikator, keine Bindung freier PER2- und CRY-Proteine. Regulatorische Einflüsse auf die Transkription werden teilweise über Assignment Rules vermittelt.
+- In BIOMD0000001006 hängt `p53_ubiquitination_1` kinetisch von p53 und nukleärem MDM2 ab; eine zweite Ubiquitinierungsreaktion bildet `p53_ub_ub`. Die MDM2-Produktion hängt von `p53_total` ab. Ein expliziter p53:MDM2-Bindungskomplex ist dafür nicht implementiert. `p53 = p53_total - p53_ub - p53_ub_ub` ist eine algebraische Zuweisung, keine zusätzliche unabhängige ODE.
+
+### Was tragen die Modelle zu den Hypothesen bei?
+
+| Aussage aus Task 1 | Beitrag der geprüften Modelle | Was für eine direkte Prüfung fehlt |
+|---|---|---|
+| PER2 schützt p53 vor MDM2-vermittelter Ubiquitinierung (Gotoh 2014). | Ciliberto beschreibt den MDM2-abhängigen p53-Ubiquitinierungszweig; die Uhrmodelle stellen PER-haltige Zustände bereit. | Freies PER2, PER2–p53-Assoziation und eine unterscheidbare Ubiquitinierung von freiem und gebundenem p53. Die getrennten Modelle testen den Schutzmechanismus nicht. |
+| Stabilisierung und Transkriptionsaktivität von p53 sind verschieden (Gotoh 2015). | Der Checkpoint-Baustein kann als Ausgangspunkt für die p53-Zustandsbeschreibung dienen. | Ein stabiler, PER2-gebundener inaktiver Vorrat, seine Freisetzung sowie getrennte Aktivität bzw. Zielgenantwort. Ein höherer p53-Gesamtwert allein wäre kein Aktivierungsnachweis. |
+| PER2 stabilisiert p53, obwohl Gesamtlysat und Cytoplasma gegenphasige Verläufe zeigen können (Zou 2020). | Das Uhrmodell enthält Kerntransport und kann einen circadianen Eingang für ein erweitertes Modell liefern. | Getrennte nukleäre und cytoplasmatische p53-Pools mit PER2-abhängigem Transport und Abbau. Der nukleäre p53-Pool in Ciliberto reicht für diesen Phasenvergleich nicht aus. |
+| MDM2 fördert PER2-Abbau und verändert die circadiane Periode (Liu 2018). | MDM2 ist im Checkpoint-Modell, PER-haltige Zustände sind in den Uhrmodellen vorhanden. | Eine MDM2-abhängige PER2-Abbaureaktion und die Rückwirkung auf die Uhr. Die unveränderte Uhr hat in 3(a) eine berechnete Periode von etwa 23,843 h; ein MDM2-Effekt wurde nicht simuliert. |
+| DNA-Schaden kann die Uhr verändern; PER1-/Checkpoint-Effekte sind kontextabhängig. | Hong behandelt eine verwandte Verbindung zwischen Schadensantwort und Clock-Protein-Abbau. | Eine passende experimentelle Parametrisierung und Zellkontextprüfung. Das abstrahierte Modell entscheidet nicht über die in Task 1 diskutierte Reproduzierbarkeit konkreter PER1-Experimente. |
+| Zeitverzögerte Kopplung kann Stabilität und Oszillationen verändern (Wang 2022); daraus ergibt sich Interesse an Chronotherapie. | Die getrennten Feedbackmodule liefern mögliche Ausgangsstrukturen. | Das konkrete gekoppelte Verzögerungsmodell und dessen Analyse. Eine klinische Behandlungsempfehlung benötigt zusätzlich Wirkstoff-, Expositions- und Validierungsdaten. |
+
+Damit können die Modelle helfen, die Hypothesen als prüfbare Varianten zu formulieren. Beispielsweise ließe sich bei einem erweiterten Modell mit und ohne PER2-Schutz vergleichen, ob p53-Halbwertszeit und kompartimentspezifische Phasen gemeinsam zu den Daten passen. Ein solcher Vergleich wurde hier nicht ausgeführt. Das bloße Hinzufügen des vermuteten Mechanismus und ein passender Verlauf würden ihn außerdem noch nicht gegenüber alternativen Mechanismen bestätigen.
+
+Ein direktes Zusammenfügen der Dateien wäre fachlich unzureichend. Aggregierte PER:CRY-Zustände müssten für PER2-spezifische Bindungsreaktionen aufgelöst werden, ohne vorhandene Synthese- oder Abbauraten doppelt zu zählen. Einheiten, Zeitmaßstäbe und Zellkontexte wären abzugleichen. Die Modelle 170, 73 und 216 sind als Mammalia annotiert, Modell 1006 als Homo sapiens; für 839 wurde keine explizite Modell-Taxonannotation gefunden. Diese Angaben garantieren keine Übertragbarkeit auf die in Task 1 untersuchten humanen Tumorzelllinien.
+
+Die Arbeit für 3(c) belegt somit vorhandene Modellbestandteile und konkrete Lücken. Die numerische Ergänzung in 3(a) reproduziert qualitative Basiseigenschaften zweier BioModels-Dateien. Sie bestätigt weder die Kopplung experimentell noch prüft sie ein gekoppeltes PER2-p53-Modell.
+
+### Reproduktion
+
+Vom Projektwurzelverzeichnis aus, ohne neue Netzwerkanfragen:
+
+```sh
+python3 part1/task3/c/inspect_models.py
+python3 part1/task3/c/check_outputs.py
+```
+
+Die Prüfung umfasst Quellhashes, archivierte Antwortdaten, referenzierte Spezies, ausgewählte Reaktionsnachweise und bytegleiche Neuerzeugung der sechs Ergebnisdateien. Sie ersetzt keine Simulation und keine vollständige libSBML-Konsistenzprüfung der drei zusätzlich geladenen Modelle. Für die beiden ursprünglichen Dateien gilt die Prüfung aus 3(a).
+
+Der [Detailbericht](c/models_report.md) dokumentiert Auswahl und API-Abrufe. Weitere Nachweise: [Modelldaten und Regeln](c/models.json), [Textkandidaten](c/metadata_candidates.tsv), [Quellhashes](c/inputs.json) und [Prüfskript](c/check_outputs.py). Die biologischen Aussagen beziehen sich auf die in [Task 1](../task1/task1.qmd) ausgewerteten Arbeiten; die hier neu geprüfte Evidenz betrifft die gespeicherten SBML-Implementierungen.

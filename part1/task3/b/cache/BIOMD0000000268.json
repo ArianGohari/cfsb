@@ -1,0 +1,313 @@
+{
+  "name" : "Reed2008_Glutathione_Metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the model described in the article:<br />        <strong>A mathematical model of glutathione metabolism.</strong>        <br />Michael C Reed, Rachel L Thomas, Jovana Pavisic, S. Jill James, Cornelia M Ulrich and H. Frederik Nijhout, <em>Theor Biol Med Model</em> 2008,5:8; PubmedID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18442411\">18442411</a> ; DOI:<a href=\"http://dx.doi.org/10.1186/1742-4682-5-8\">10.1186/1742-4682-5-8</a>;<br />Abstract:<br />BACKGROUND: Glutathione (GSH) plays an important role in anti-oxidant defense and detoxification reactions. It is primarily synthesized in the liver by the transsulfuration pathway and exported to provide precursors for in situ GSH synthesis by other tissues. Deficits in glutathione have been implicated in aging and a host of diseases including Alzheimer's disease, Parkinson's disease, cardiovascular disease, cancer, Down syndrome and autism.<br />APPROACH: We explore the properties of glutathione metabolism in the liver by experimenting with a mathematical model of one-carbon metabolism, the transsulfuration pathway, and glutathione synthesis, transport, and breakdown. The model is based on known properties of the enzymes and the regulation of those enzymes by oxidative stress. We explore the half-life of glutathione, the regulation of glutathione synthesis, and its sensitivity to fluctuations in amino acid input. We use the model to simulate the metabolic profiles previously observed in Down syndrome and autism and compare the model results to clinical data.<br />CONCLUSION: We show that the glutathione pools in hepatic cells and in the blood are quite insensitive to fluctuations in amino acid input and offer an explanation based on model predictions. In contrast, we show that hepatic glutathione pools are highly sensitive to the level of oxidative stress. The model shows that overexpression of genes on chromosome 21 and an increase in oxidative stress can explain the metabolic profile of Down syndrome. The model also correctly simulates the metabolic profile of autism when oxidative stress is substantially increased and the adenosine concentration is raised. Finally, we discuss how individual variation arises and its consequences for one-carbon and glutathione metabolism.\t</p>      <table border=\"0\" cellpadding=\"2\" cellspacing=\"0\">        <thead>          <tr>            <th align=\"left\" bgcolor=\"#eeeeee\" valign=\"middle\"> parameter</th>            <th align=\"left\" bgcolor=\"#eeeeee\" valign=\"middle\">orig. article </th>            <th align=\"center\" bgcolor=\"#eeeeee\" valign=\"middle\"> this model</th>          </tr>        </thead>        <tbody>          <tr>            <td>Vm_CBS </td>            <td>700000 </td>            <td>420000 </td>          </tr>          <tr>            <td>Vm_GNMT </td>            <td>245 </td>            <td>260 </td>          </tr>          <tr>            <td>K_sam_GNMT</td>            <td>32 </td>            <td>63 </td>          </tr>          <tr>            <td>Vr_MTD(mito)</td>            <td>600000 </td>            <td>595000 </td>          </tr>          <tr>            <td>V_CBS</td>            <td>kinetic law</td>            <td>rearranged</td>          </tr>          <tr>            <td>V_bmetc</td>            <td>913</td>            <td>913.4</td>          </tr>          <tr>            <td>Vm_GR</td>            <td>8925</td>            <td>892.5</td>          </tr>        </tbody>      </table>      <p>This version of the model contains a feeding rhythm as used in figure 5 of the original article. Four parameters,  <em>breakfast</em>, <em>lunch</em>      <em>dinner</em> and <em>fasting</em>, describe the relative level of amino acids, described by the parameter <em>aa_input</em> or <em>Aminoacid_input</em>, in the blood. To remove the daily feeding rhythm, either set the parameters for meals and fasting to 1 (or for figure 3 to 0.333), or remove the assignment rule for the <em>Aminoacid_input</em>. For the steady state evaluations for figure 6, the mealtime parameters were set to one, which, while making Copasi complain about explicit time dependency, still gives valid results. </p>    <p>This version of the model differs slightly from the version described in the supplement, in which contains some typos. It was corrected using the version of <a href=\"http://jjj.mib.ac.uk/\">JWS-online</a>, created using the original matlab files, thankfully provided by the articles authors. Many thanks to Jacky Snoep for his help and support.</p>  <p />  <p>In the SBML version of the model the volumes of the mitochondrion, the cytoplasm and the cell were all set to one to obtain the same equations as described in the supplemental materials of the article. The total folate is equally split between the cytosol and the mitochondrion and divided by 3/4 for the cytosol and 1/4 for the mitochondrion, respectively. To obtain an SBML model in which the volumes of the compartments, <em>cytosol</em> and <em>mito</em>, are used, the model needs to be altered as follows:<br />  <ul>    <li>for the initial distribution of folate the terms 3/4 and 1/4 have to be replaced by volumes of cytosol and mitochondria respectively</li>    <li>in the transport reactions between mitochondrion and cytosol the stoichiometry of the mitochondrial reactants has to be set from 3 to 1 and in the first part of the according rate laws the factor <em>mito/3</em> should simply be replaced with <em>mito</em>.</li>  <li>the stoichiometries of <em>src</em> and <em>dmg</em> have to be changed to <em>cell/mito</em> for mitchondrial and <em>cell/cytosol</em> for cytosolic reactions involving these two species (for the relative volumes used in the article this would be 4 for mitochondrial reactions and 1.33333 for cytosolic ones).</li></ul>While the concentrations stay the same after these alteration, the reaction fluxes change by a factor of <em>cytosol</em> and <em>mito</em> for cytosolic and mitchondrial reactions, respectively. </p><p> Originally created by libAntimony v1.3 (using libSBML 3.4.1) </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18442411",
+    "journal" : "Theoretical biology & medical modelling",
+    "title" : "A mathematical model of glutathione metabolism.",
+    "affiliation" : "Department of Mathematics, Duke University, Durham, NC 27708, USA. reed@math.duke.edu",
+    "synopsis" : "<h4>Background</h4>Glutathione (GSH) plays an important role in anti-oxidant defense and detoxification reactions. It is primarily synthesized in the liver by the transsulfuration pathway and exported to provide precursors for in situ GSH synthesis by other tissues. Deficits in glutathione have been implicated in aging and a host of diseases including Alzheimer's disease, Parkinson's disease, cardiovascular disease, cancer, Down syndrome and autism.<h4>Approach</h4>We explore the properties of glutathione metabolism in the liver by experimenting with a mathematical model of one-carbon metabolism, the transsulfuration pathway, and glutathione synthesis, transport, and breakdown. The model is based on known properties of the enzymes and the regulation of those enzymes by oxidative stress. We explore the half-life of glutathione, the regulation of glutathione synthesis, and its sensitivity to fluctuations in amino acid input. We use the model to simulate the metabolic profiles previously observed in Down syndrome and autism and compare the model results to clinical data.<h4>Conclusion</h4>We show that the glutathione pools in hepatic cells and in the blood are quite insensitive to fluctuations in amino acid input and offer an explanation based on model predictions. In contrast, we show that hepatic glutathione pools are highly sensitive to the level of oxidative stress. The model shows that overexpression of genes on chromosome 21 and an increase in oxidative stress can explain the metabolic profile of Down syndrome. The model also correctly simulates the metabolic profile of autism when oxidative stress is substantially increased and the adenosine concentration is raised. Finally, we discuss how individual variation arises and its consequences for one-carbon and glutathione metabolism.",
+    "year" : 2008,
+    "month" : "4",
+    "volume" : "5",
+    "pages" : "8",
+    "link" : "http://identifiers.org/pubmed/18442411",
+    "authors" : [
+      {
+        "name" : "Michael C Reed",
+        "institution" : "Department of Mathematics, Duke University, Durham, NC 27708, USA. reed@math.duke.edu"
+      },
+      {
+        "name" : "Rachel L Thomas"
+      },
+      {
+        "name" : "Jovana Pavisic"
+      },
+      {
+        "name" : "S Jill James"
+      },
+      {
+        "name" : "Cornelia M Ulrich"
+      },
+      {
+        "name" : "H Frederik Nijhout"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000268_url.xml",
+        "description" : "SBML L2V4 representation of Reed2008_Glutathione_Metabolism",
+        "fileSize" : "147170",
+        "mimeType" : "application/xml",
+        "md5sum" : "3d6fb9191c09ffbe29964f98f08b5392",
+        "sha1sum" : "9a75011b2f69c5ff5607cf985471b000be8b6e6d",
+        "sha256sum" : "578c7b5c3910d742c59d2c652849d6d048889565ad97691cbac89ee3f371ea97"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000268-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "109874",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8bf26253fad755401444df2471aee9fc",
+        "sha1sum" : "34e165f9c7bdabc86242b5c7db3079090d56d173",
+        "sha256sum" : "ad2dbaf2adede605b718cb49184749aa5eba214661705975c1f7ffa761e7ab7d"
+      },
+      {
+        "name" : "BIOMD0000000268-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "169909",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7ddb353fc481437428a3cff872ff6b44",
+        "sha1sum" : "205cd31363df6cf253bf768583de44eee16aca34",
+        "sha256sum" : "8e4feec26bb4cc9528952abc6d3f899cabf729e2643c08db46f8a97c63892903"
+      },
+      {
+        "name" : "BIOMD0000000268-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "35141",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "57a0c673a778bbae5c82a8e1ba1470ba",
+        "sha1sum" : "ba95c89eea5858926217abe9445a9c45aff18002",
+        "sha256sum" : "2571f22cb023d7c0f4b2bd05970cf9a3572d35792edde78057bd43f597d6f5f8"
+      },
+      {
+        "name" : "BIOMD0000000268-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "35141",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "27240c367a35e972e277edf817a31d0c",
+        "sha1sum" : "a2f3e1e857a39dece1e42a9cd98e0499603ae745",
+        "sha256sum" : "d488fe2594695f5f4577ea18f2eac35525a2423703f32526b36a904bab3a351d"
+      },
+      {
+        "name" : "BIOMD0000000268.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "35141",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "27240c367a35e972e277edf817a31d0c",
+        "sha1sum" : "a2f3e1e857a39dece1e42a9cd98e0499603ae745",
+        "sha256sum" : "d488fe2594695f5f4577ea18f2eac35525a2423703f32526b36a904bab3a351d"
+      },
+      {
+        "name" : "BIOMD0000000268.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "745040",
+        "mimeType" : "image/png",
+        "md5sum" : "e917378fc5273b5e486aa87a281ab17b",
+        "sha1sum" : "62b0e25f7b90f79f1345f3c27379838217ba4c62",
+        "sha256sum" : "2377fe723104e1442af15820cbb0aa5259d240005668141fe9b846c34af4c5c0"
+      },
+      {
+        "name" : "BIOMD0000000268.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "131176",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "d74445ecac11bdd0f86e0a8294fa1938",
+        "sha1sum" : "62725904071f6644418b7cb73efb102d1d5b0f8f",
+        "sha256sum" : "9b9130f4b00a06418d4eb0a2eff801aaf99f4dc8cb25200798407cf739522b8f"
+      },
+      {
+        "name" : "BIOMD0000000268_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "148616",
+        "mimeType" : "application/xml",
+        "md5sum" : "db3cc26bc79e91c2638734f348d96075",
+        "sha1sum" : "d25bfb70a4ced1a3b30f5d795b8fca51c6304076",
+        "sha256sum" : "3262f8498c235b2b1d107c364f3c3a876dbf5e8bdd5852096ac8d1bd69382b51"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "43444",
+        "mimeType" : "image/png",
+        "md5sum" : "968f643a266faaf9d94c2203dd4f3e66",
+        "sha1sum" : "131529a5ed2f729fd3d3b0929057c5ab09e91bc9",
+        "sha256sum" : "f5d31f3ef5ff18dc1c31a62260360b7588c6fe736cc0eb3455f07f1c0f73a4d5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "215",
+        "mimeType" : "text/plain",
+        "md5sum" : "be856bd1f83f1a32f6f94f9e9d08e15b",
+        "sha1sum" : "7e683d91384e0ba379ca5a5b0bfa56e237ed4f47",
+        "sha256sum" : "7d62dcdd21e59eaac7a4685c2c250c6bd38f9fd91bd4c24f7e966357bd086f78"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1563",
+        "mimeType" : "application/xml",
+        "md5sum" : "c9c2d2c0801d29b3dc93d13e50a0e4a6",
+        "sha1sum" : "cab538e91ed9a484d4c598c7743c2c4daa1d5893",
+        "sha256sum" : "157fed007dce99fa45c92182152e1bde004750d01970da94341ee776e990f5e6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "8612",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "033f18fe4feb37801592736b869ae578",
+        "sha1sum" : "9cb173919530398c089d2805fafc7fc36eedbe28",
+        "sha256sum" : "6a126eb1794e647036ff4701125bbc201fe91eae3deaed44e7bcfb957e19c2b6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1279640035,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Reed2008_Glutathione_Metabolism"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135869,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Reed2008_Glutathione_Metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272025,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284986,
+  "submissionId" : "MODEL1007200001",
+  "publicationId" : "BIOMD0000000268",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1007200001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1007200001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000268",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000268"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18442411",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18442411"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1007200000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1007200000"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "BTO:0000575",
+      "name" : "hepatocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000575"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006749",
+      "name" : "glutathione metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006749"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:162",
+      "name" : "cancer",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:162"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:14250",
+      "name" : "Down syndrome",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14250"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1287",
+      "name" : "cardiovascular system disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1287"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:12849",
+      "name" : "autistic disorder",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:12849"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

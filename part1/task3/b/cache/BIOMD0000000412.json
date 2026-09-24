@@ -1,0 +1,277 @@
+{
+  "name" : "Pokhilko2012_CircClock_RepressilatorFeedbackloop",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> The clock gene circuit in Arabidopsis includes a repressilator with additional feedback loops</strong>        <br />Pokhilko A, Fernández AP, Edwards KD, Southern MM, Halliday KJ, Millar AJ.      <em>Mol Syst Biol.</em>2012 Mar 6;8:574.       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22395476\">22395476</a>,      <br />        <strong>Abstract:</strong>        <br />Circadian clocks synchronise biological processes with the day/night cycle, using molecular mechanisms that include interlocked, transcriptional feedback loops. Recent experiments identified the evening complex (EC) as a repressor that can be essential for gene expression rhythms in plants. Integrating the EC components in this role significantly alters our mechanistic, mathematical model of the clock gene circuit. Negative autoregulation of the EC genes constitutes the clock's evening loop, replacing the hypothetical component Y. The EC explains our earlier conjecture that the morning gene PSEUDO-RESPONSE REGULATOR 9 was repressed by an evening gene, previously identified with TIMING OF CAB EXPRESSION1 (TOC1). Our computational analysis suggests that TOC1 is a repressor of the morning genes LATE ELONGATED HYPOCOTYL and CIRCADIAN CLOCK ASSOCIATED1 rather than an activator as first conceived. This removes the necessity for the unknown component X (or TOC1mod) from previous clock models. As well as matching timeseries and phase-response data, the model provides a new conceptual framework for the plant clock that includes a three-component repressilator circuit in its complex structure.   </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22395476",
+    "journal" : "Molecular systems biology",
+    "title" : "The clock gene circuit in Arabidopsis includes a repressilator with additional feedback loops.",
+    "affiliation" : "School of Biological Sciences, University of Edinburgh, Edinburgh, UK.",
+    "synopsis" : "Circadian clocks synchronise biological processes with the day/night cycle, using molecular mechanisms that include interlocked, transcriptional feedback loops. Recent experiments identified the evening complex (EC) as a repressor that can be essential for gene expression rhythms in plants. Integrating the EC components in this role significantly alters our mechanistic, mathematical model of the clock gene circuit. Negative autoregulation of the EC genes constitutes the clock's evening loop, replacing the hypothetical component Y. The EC explains our earlier conjecture that the morning gene Pseudo-Response Regulator 9 was repressed by an evening gene, previously identified with Timing Of CAB Expression1 (TOC1). Our computational analysis suggests that TOC1 is a repressor of the morning genes Late Elongated Hypocotyl and Circadian Clock Associated1 rather than an activator as first conceived. This removes the necessity for the unknown component X (or TOC1mod) from previous clock models. As well as matching timeseries and phase-response data, the model provides a new conceptual framework for the plant clock that includes a three-component repressilator circuit in its complex structure.",
+    "year" : 2012,
+    "month" : "3",
+    "volume" : "8",
+    "pages" : "574",
+    "link" : "http://identifiers.org/pubmed/22395476",
+    "authors" : [
+      {
+        "name" : "Alexandra Pokhilko",
+        "institution" : "School of Biological Sciences, University of Edinburgh, Edinburgh, UK."
+      },
+      {
+        "name" : "Aurora Piñas Fernández"
+      },
+      {
+        "name" : "Kieron D Edwards",
+        "orcid" : "0000-0002-7202-4082"
+      },
+      {
+        "name" : "Megan M Southern"
+      },
+      {
+        "name" : "Karen J Halliday",
+        "institution" : "SynthSys and School of Biological Sciences, University of Edinburgh, C.H. Waddington Building, Edinburgh EH9 3JD, UK karen.halliday@ed.ac.uk.",
+        "orcid" : "0000-0003-0467-104X"
+      },
+      {
+        "name" : "Andrew J Millar",
+        "orcid" : "0000-0003-1756-3654"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000412_url.xml",
+        "description" : "SBML L2V4 representation of Pokhilko2012_CircClock_RepressilatorFeedbackloop",
+        "fileSize" : "540474",
+        "mimeType" : "application/xml",
+        "md5sum" : "29317c8cbc0d54dcc6d92809831bf553",
+        "sha1sum" : "a81c0a2a17db58603d8b3ce5939b8608c419fcd8",
+        "sha256sum" : "93982b72ce6c90adec5ae6276c5e7ff749765495b6eb98a7f34f5981bd090d39"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000412-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "81228",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "16b6738070e8916263297407aaee99e3",
+        "sha1sum" : "8aa6fd439139e099d403e3bf8adbfb8638d2d020",
+        "sha256sum" : "ae4376992f7599585e94ec3ab09e88c03021a860ce7a44f45b6d5345e1799286"
+      },
+      {
+        "name" : "BIOMD0000000412-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "134729",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9737c193a46c8c29638209d77d94148a",
+        "sha1sum" : "154762aecf4e00b97c3b83b6ec190762dc7bca72",
+        "sha256sum" : "948be9ab3f07ed650f3e291c30918225406856471bb20581378073ee4f473f45"
+      },
+      {
+        "name" : "BIOMD0000000412-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "40749",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f102411e4822c377da5c3a349f5c53f2",
+        "sha1sum" : "0319049d89e1fa6a84d5978398cc0930a60ab3b1",
+        "sha256sum" : "8bcbf764999a1bd63d64a59e2d3403c9612712d3be7149aecc408a93e2053558"
+      },
+      {
+        "name" : "BIOMD0000000412-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "40749",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b6b63d3c4d6c039779548dc7b99ed5f2",
+        "sha1sum" : "82f234b812b1bf5a870de5da12602780d7b8b708",
+        "sha256sum" : "4cd4df5f477147f213da87c8e243e70a864083cbca7aaa2c453f1693877646e9"
+      },
+      {
+        "name" : "BIOMD0000000412.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "40749",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b6b63d3c4d6c039779548dc7b99ed5f2",
+        "sha1sum" : "82f234b812b1bf5a870de5da12602780d7b8b708",
+        "sha256sum" : "4cd4df5f477147f213da87c8e243e70a864083cbca7aaa2c453f1693877646e9"
+      },
+      {
+        "name" : "BIOMD0000000412.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "34553",
+        "mimeType" : "text/plain",
+        "md5sum" : "25cece4b44764840919c56fefa9ee604",
+        "sha1sum" : "a6339f9d95347996d01ddb922fd390bc9be61048",
+        "sha256sum" : "96a35e9343df3f7aca43db0925d63281f9cbce05cc78e07bc20de9641d824b1d"
+      },
+      {
+        "name" : "BIOMD0000000412.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "741944",
+        "mimeType" : "image/png",
+        "md5sum" : "20af1494fd0eb52e4b5a9a2975a662f2",
+        "sha1sum" : "4c914246361180bf2b0948e59d91eb1f0e0c623a",
+        "sha256sum" : "b3acb76cc07ad163c6a7c68e692e8a26c8ff54687b44bb472f44026d7db7c384"
+      },
+      {
+        "name" : "BIOMD0000000412.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "161904",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "929b8140108aba42b7a7c2fea8e90d7f",
+        "sha1sum" : "b1ecc525fe4216f06a13689bd876bb5cacb9238e",
+        "sha256sum" : "b387bd8d98b59a2c5172ed077d9c5b0c230cc97293bad9b6234e297781a1cf5c"
+      },
+      {
+        "name" : "BIOMD0000000412_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "143164",
+        "mimeType" : "application/xml",
+        "md5sum" : "e792060684ac3899f4c3d47d346d3721",
+        "sha1sum" : "a0cf09f251a6de3aae3efccefe9c866d1e66e8a3",
+        "sha256sum" : "ceaf24ca39f983e2ddd3d07888432b613c330cb1bd8efdbb37708aeadd314b83"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "35101",
+        "mimeType" : "image/png",
+        "md5sum" : "c931f0720ac3e5519c4f6b1996cdc332",
+        "sha1sum" : "363f0d1f2e757b1b57b961c09d1b6320236d072b",
+        "sha256sum" : "e98b5ad01025a9e6b28f921096325d56b21a4129a303dc9f37340c3f06e043f3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "212",
+        "mimeType" : "text/plain",
+        "md5sum" : "6f786a0e0bd3faff1ba3c326c5fc3071",
+        "sha1sum" : "5171357620fbb852d017d66619e347c17cc0c750",
+        "sha256sum" : "7d30ac4eeb14e92ac520ee2bc715d13d59c0ae4f91e97da44a0774abe84765d0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1674",
+        "mimeType" : "application/xml",
+        "md5sum" : "694899df35a7340699ecec817149cb0d",
+        "sha1sum" : "084a5ef2ed41c52bc6398fdf920d8be1b10e7c36",
+        "sha256sum" : "e885ed3c56299fcd3164bcb72a51ce14cecb8da1690d683e87c02d25fb207265"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3596",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "352fbf2ecf426f8b1f12a12b9d36c52d",
+        "sha1sum" : "744a8634c3d3fe503919311afe2b122265ec69a8",
+        "sha256sum" : "fd85bc4ae965adc7e0bc9501cc7a5338af2ec6290ac3e48a7cc8ca387fc0be54"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1316527966,
+        "submitter" : "Alexandra Pokhilko",
+        "comment" : "Original import of Alex"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1437504772,
+        "submitter" : "Alexandra Pokhilko",
+        "comment" : "Current version of Pokhilko2012_CircClock_RepressilatorFeedbackloop"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275994,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285140,
+  "submissionId" : "MODEL1109200000",
+  "publicationId" : "BIOMD0000000412",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Alexandra Pokhilko",
+        "email" : "apokhilk@staffmail.ed.ac.uk",
+        "affiliation" : "Edinburgh University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1109200000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1109200000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000412",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000412"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22395476",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22395476"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000273",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000273"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "name" : "Ray2013 - Meiotic initiation in S. cerevisiae",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Ray2013 - Meiotic initiation in S. cerevisiae</div>        <div class=\"dc:description\">          <p>A mathematical representation of early meiotic events, particularly feedback mechanisms at the system level and phosphorylation of signalling molecules for regulating protein activities, is described here</p>        </div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/23631506\" title=\"Access to this publication\">Dynamic modeling of yeast meiotic initiation.</a>          </div>          <div class=\"bibo:authorList\">Ray D, Su Y, Ye P.</div>          <div class=\"bibo:Journal\">BMC Syst Biol. 2013 May 1;7:37</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>              <b>BACKGROUND:</b>              Meiosis is the sexual reproduction process common to eukaryotes. The diploid yeast Saccharomyces cerevisiae undergoes meiosis in sporulation medium to form four haploid spores. Initiation of the process is tightly controlled by intricate networks of positive and negative feedback loops. Intriguingly, expression of early meiotic proteins occurs within a narrow time window. Further, sporulation efficiency is strikingly different for yeast strains with distinct mutations or genetic backgrounds. To investigate signal transduction pathways that regulate transient protein expression and sporulation efficiency, we develop a mathematical model using ordinary differential equations. The model describes early meiotic events, particularly feedback mechanisms at the system level and phosphorylation of signaling molecules for regulating protein activities.          </p>            <p>              <b>RESULTS:</b>              The mathematical model is capable of simulating the orderly and transient dynamics of meiotic proteins including Ime1, the master regulator of meiotic initiation, and Ime2, a kinase encoded by an early gene. The model is validated by quantitative sporulation phenotypes of single-gene knockouts. Thus, we can use the model to make novel predictions on the cooperation between proteins in the signaling pathway. Virtual perturbations on feedback loops suggest that both positive and negative feedback loops are required to terminate expression of early meiotic proteins. Bifurcation analyses on feedback loops indicate that multiple feedback loops are coordinated to modulate sporulation efficiency. In particular, positive auto-regulation of Ime2 produces a bistable system with a normal meiotic state and a more efficient meiotic state.          </p>            <p>              <b>CONCLUSIONS:</b>              By systematically scanning through feedback loops in the mathematical model, we demonstrate that, in yeast, the decisions to terminate protein expression and to sporulate at different efficiencies stem from feedback signals toward the master regulator Ime1 and the early meiotic protein Ime2. We argue that the architecture of meiotic initiation pathway generates a robust mechanism that assures a rapid and complete transition into meiosis. This type of systems-level regulation is a commonly used mechanism controlling developmental programs in yeast and other organisms. Our mathematical model uncovers key regulations that can be manipulated to enhance sporulation efficiency, an important first step in the development of new strategies for producing gametes with high quality and quantity.          </p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000626\">BIOMD0000000626</a>            .        </p>        <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>    </div>    <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>  </div></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23631506",
+    "journal" : "BMC systems biology",
+    "title" : "Dynamic modeling of yeast meiotic initiation.",
+    "affiliation" : "School of Molecular Biosciences, Washington State University, PO Box 647520, Pullman, WA 99164, USA.",
+    "synopsis" : "<h4>Background</h4>Meiosis is the sexual reproduction process common to eukaryotes. The diploid yeast Saccharomyces cerevisiae undergoes meiosis in sporulation medium to form four haploid spores. Initiation of the process is tightly controlled by intricate networks of positive and negative feedback loops. Intriguingly, expression of early meiotic proteins occurs within a narrow time window. Further, sporulation efficiency is strikingly different for yeast strains with distinct mutations or genetic backgrounds. To investigate signal transduction pathways that regulate transient protein expression and sporulation efficiency, we develop a mathematical model using ordinary differential equations. The model describes early meiotic events, particularly feedback mechanisms at the system level and phosphorylation of signaling molecules for regulating protein activities.<h4>Results</h4>The mathematical model is capable of simulating the orderly and transient dynamics of meiotic proteins including Ime1, the master regulator of meiotic initiation, and Ime2, a kinase encoded by an early gene. The model is validated by quantitative sporulation phenotypes of single-gene knockouts. Thus, we can use the model to make novel predictions on the cooperation between proteins in the signaling pathway. Virtual perturbations on feedback loops suggest that both positive and negative feedback loops are required to terminate expression of early meiotic proteins. Bifurcation analyses on feedback loops indicate that multiple feedback loops are coordinated to modulate sporulation efficiency. In particular, positive auto-regulation of Ime2 produces a bistable system with a normal meiotic state and a more efficient meiotic state.<h4>Conclusions</h4>By systematically scanning through feedback loops in the mathematical model, we demonstrate that, in yeast, the decisions to terminate protein expression and to sporulate at different efficiencies stem from feedback signals toward the master regulator Ime1 and the early meiotic protein Ime2. We argue that the architecture of meiotic initiation pathway generates a robust mechanism that assures a rapid and complete transition into meiosis. This type of systems-level regulation is a commonly used mechanism controlling developmental programs in yeast and other organisms. Our mathematical model uncovers key regulations that can be manipulated to enhance sporulation efficiency, an important first step in the development of new strategies for producing gametes with high quality and quantity.",
+    "year" : 2013,
+    "month" : "5",
+    "volume" : "7",
+    "pages" : "37",
+    "link" : "http://identifiers.org/pubmed/23631506",
+    "authors" : [
+      {
+        "name" : "Debjit Ray",
+        "institution" : "United States of America ; Biological Systems Engineering, Washington State University, Pullman, Washington, United States of America.",
+        "orcid" : "0000-0002-7192-9859"
+      },
+      {
+        "name" : "Yongchun Su"
+      },
+      {
+        "name" : "Ping Ye"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000626_url.xml",
+        "description" : "SBML L2V4 representation of Ray2013 - Meiotic initiation in S. cerevisiae",
+        "fileSize" : "60665",
+        "mimeType" : "application/xml",
+        "md5sum" : "c60d7f158c75b79abf6f24dd3e879f52",
+        "sha1sum" : "f633c2a71b08bb5d3212643218c2b25923a8342b",
+        "sha256sum" : "d0ddd8a6a3b5191f6bdce5275bc7ca8610bddc82ba74e9f6be6059b0e360f330"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000626-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "11697",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ec9ea55ecde66b81a96737f22249f7b1",
+        "sha1sum" : "eb291da0df16aec6f13cfdae0b9da9154d0a8e61",
+        "sha256sum" : "51376d9dde1797cea83b4fabc38239024476c6e2df849e153b3d9212b6e0db93"
+      },
+      {
+        "name" : "BIOMD0000000626-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "15135",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "01c7dad17b95cfee4ce1342be91083f8",
+        "sha1sum" : "d5acfc95de9607c3698b54d7e1c706493bb9e10b",
+        "sha256sum" : "b3c16e9688b82e0b45be7e8405ac71b47745261e7f0b7144d3e3e56f8331ed19"
+      },
+      {
+        "name" : "BIOMD0000000626-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6760",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bcff7a7b6930f4a694bb2d074807dd38",
+        "sha1sum" : "6e31a0085245d0401f43ea68bb2fc2ba00d94384",
+        "sha256sum" : "06bb6cd3282bd5b2367261d0675bab0cb4c606467dc48825a0f17ef7959849e6"
+      },
+      {
+        "name" : "BIOMD0000000626-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6760",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9cf65c7fa8510c98f3e7b2449cb1e12b",
+        "sha1sum" : "ce1992d6ce117bdf7417c74563cf8ab5d57275de",
+        "sha256sum" : "05fd600e2a233d5d60b8b7ea00607f4924954c6b8c96f7588c40e4ec6666b56b"
+      },
+      {
+        "name" : "BIOMD0000000626.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6760",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9cf65c7fa8510c98f3e7b2449cb1e12b",
+        "sha1sum" : "ce1992d6ce117bdf7417c74563cf8ab5d57275de",
+        "sha256sum" : "05fd600e2a233d5d60b8b7ea00607f4924954c6b8c96f7588c40e4ec6666b56b"
+      },
+      {
+        "name" : "BIOMD0000000626.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4586",
+        "mimeType" : "text/plain",
+        "md5sum" : "ce03436dbb0d90ea9ce655eb2394b60a",
+        "sha1sum" : "94b82ec88662be4d2fe7ec3159443951a8fc6fb5",
+        "sha256sum" : "1a14e3447abcdda5577574945d58ff635137585a63c532171e4e65c129c3778b"
+      },
+      {
+        "name" : "BIOMD0000000626.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "187749",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d346145b63e708cd22ebcde69612718e",
+        "sha1sum" : "6860c976dcf7292aaf90444dd4012da117f3d86b",
+        "sha256sum" : "78603925eb68acf783d625276dfc6d1b0f093dde7acdde90bb82740ce6e84d84"
+      },
+      {
+        "name" : "BIOMD0000000626.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "42675",
+        "mimeType" : "image/png",
+        "md5sum" : "d2dccc4561d529b72eec5194452a1181",
+        "sha1sum" : "99abd07a3d57b19e2022c92ef741668728fe3d3e",
+        "sha256sum" : "543fb6231ddd7f7c139f7e7147d2c03f896f15676d3d4b733b8ca7b1437d7fde"
+      },
+      {
+        "name" : "BIOMD0000000626.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "17059",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "227965b21cdf5c2b405d87ff580ca1e3",
+        "sha1sum" : "2b7a1d0b4f683cb9aeb6f22428e49c6fdb7817eb",
+        "sha256sum" : "56e94d347deab9137d2eecfe5b346cc697e61145fd8634e3ac9f2f4bf5580498"
+      },
+      {
+        "name" : "BIOMD0000000626.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "69134",
+        "mimeType" : "application/xml",
+        "md5sum" : "6b8ce8c2d448699ec37d6cb7aa92dfd4",
+        "sha1sum" : "242bf86c5fe85504d033f428a213bf3009b35994",
+        "sha256sum" : "2ae8cdffff2f3ecc8873ce21f5153ba5f77499b900a41add5e0c1ce4573eeac2"
+      },
+      {
+        "name" : "BIOMD0000000626_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "9307",
+        "mimeType" : "application/xml",
+        "md5sum" : "65b1c2083165b581452ee76977f5f41e",
+        "sha1sum" : "6e7ef8df7cf68a33d7d9dd8da17301b1df63f840",
+        "sha256sum" : "6fec6935f36e3a14ce017c9351d2b0524e9d0d4d99ebe5ef13510f0e12e3b37e"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "108158",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "518b0c1dc20f4f94efcb3a1244fff768",
+        "sha1sum" : "e37b6614e93d5d20552b9d54eae87e1b023ddbaa",
+        "sha256sum" : "d2c4479ff4a999c386bbbca9f62778de46ca66945b375338944a757d2acc5544"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "152",
+        "mimeType" : "text/plain",
+        "md5sum" : "df98f52132172df43f715a26993fb392",
+        "sha1sum" : "3e3396c19cc6d2be2ea4da6a5ccebdce3f91bd64",
+        "sha256sum" : "0bc7061d17c6703e2a22abc6b46773e19e9ec1516c2a01c962042a673fbc6efd"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "cda1e97f9b80420b8d2ebae604714683",
+        "sha1sum" : "d9d43c080bb4239d2d853309d7fd38c5886c91b7",
+        "sha256sum" : "0bd4dad8e1fe12f886b2edb4dc5c5f291c956849a2b839bdeb18b8bf0f9e8690"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6434",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ebe83e88593b2415dc6124a9245c399d",
+        "sha1sum" : "17f4124bdcac4d938f6d8c13f128deb69dd7d601",
+        "sha256sum" : "7b20812a7da824b21edd4e53e9f8327c01b795a0e852e8de444498d3bc298f7c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1362591032,
+        "submitter" : "Debjit Ray",
+        "comment" : "Original import of meiosis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1497374549,
+        "submitter" : "Debjit Ray",
+        "comment" : "Current version of Ray2013 - Meiotic initiation in S. cerevisiae"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724284547,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285394,
+  "submissionId" : "MODEL1303060000",
+  "publicationId" : "BIOMD0000000626",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Debjit Ray",
+        "email" : "debjit_ray@wsu.edu",
+        "affiliation" : "Washington State University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1303060000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1303060000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000626",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000626"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23631506",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23631506"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0040020",
+      "name" : "regulation of meiotic nuclear division",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0040020"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051321",
+      "name" : "meiotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051321"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "ECO:0000362",
+      "name" : "evidence based on computational logical inference",
+      "resource" : "Evidence Code Ontology",
+      "uri" : "http://identifiers.org/eco/ECO:0000362"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

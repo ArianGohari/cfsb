@@ -1,0 +1,79 @@
+#### Numerische Reproduktion zweier SBML-Modelle {#sbml-simulation}
+
+Am 24.09.2026 wurden die beiden Modelle mit ihren **unveränderten SBML-Anfangswerten, Parametern und Regeln** numerisch integriert. Das Uhrmodell zeigt nach dem Einschwingen eine Periode von 23,843 h. Das p53/MDM2-Modell zeigt im betrachteten Intervall zwei Pulse und einen Rückgang der DNA-Schadensvariable. Die Dateien sind keine neu gekoppelten Modelle; insbesondere wurde keine PER2-p53-Kante ergänzt.
+
+##### Fixierte Eingaben und Solver
+
+Verwendet werden Kopien der BioModels-Downloads vom 21.09.2026 aus 3(a), beide laut archivierter Modellhistorie Revision 3. Der [Eingangsmanifest](simulation/inputs/manifest.json) fixiert sie durch SHA-256 und dokumentiert zusätzlich am 24.09.2026 abgerufene Kurationsnotizen, Bilder und SED-ML-Dateien. Die Originaldateien bleiben unverändert. BioModels-Kurationsdateien sind eigenständige Quellen; ihre Veröffentlichung ersetzt keine eigene Simulationsprüfung.
+
+Die neue Umgebung in `simulation/.venv` verwendet Python 3.12.8, libRoadRunner 2.10.0 und python-libSBML 5.21.2. [pyproject.toml](simulation/pyproject.toml) und [uv.lock](simulation/uv.lock) fixieren die Pakete. libRoadRunner übersetzt das SBML einschließlich Assignment Rules und Events in ausführbare Modellgleichungen. Als Integrator wurde CVODE mit steifer BDF-Methode verwendet. Die Solverbibliothek und ihre SBML-Unterstützung sind in [Welsh et al. (2023)](https://doi.org/10.1093/bioinformatics/btac770) beschrieben.
+
+Die numerischen Einstellungen sind relative Toleranz `1e-9`, absolute Toleranz `1e-12` und höchstens 100.000 interne Schritte je Integrationsabschnitt. Ein Kontrolllauf verwendet `1e-11` beziehungsweise `1e-14`. Ausgabezeitpunkte sind keine fest vorgegebenen internen Integrationsschritte. Bei allen Läufen werden dieselben biologischen Parameter verwendet; die veränderten Toleranzen sind Solveroptionen.
+
+| Modell | Ausgegebenes Intervall | Ausgabeabstand | Spalteninhalt |
+|---|---|---|---|
+| BIOMD0000000170 | 0 bis 720 h | 0,05 h, 14.401 Zeilen | Alle sieben Spezies, drei Assignment-Rule-Größen und Zeit |
+| BIOMD0000001006 | 0 bis 1.200 SBML-Zeiteinheiten | 0,1, 12.001 Zeilen | Alle zehn Spezies einschließlich zugewiesener/boundary-Größen, `step`, `ModelValue_6`, `kd2_0` und Zeit |
+
+720 h sind eine Auswerteentscheidung, um Einschwingen und anschließende Perioden zu trennen. Das Intervall bis 1.200 beim p53-Modell entspricht der abgerufenen SED-ML-Datei; die Ausgabe ist hier feiner. Die Uhr-SED-ML ist ausdrücklich eine automatisch erzeugte Vorlage mit nur zehn Zeiteinheiten. Sie wurde nicht mit einer vollständigen circadianen Reproduktion gleichgesetzt. Die Simulation liest direkt das SBML; ein allgemeiner SED-ML-Executor wurde nicht implementiert.
+
+##### Semantik- und Einheitenprüfung
+
+[Uhr-Semantik](simulation/results-20260924/BIOMD0000000170_semantics.json) und [p53-Semantik](simulation/results-20260924/BIOMD0000001006_semantics.json) enthalten alle Anfangswerte, Parameter, Regeln, Funktionsdefinitionen und Ereignisse in lesbarer Form. Kein Modell besitzt Rate Rules oder algebraische Regeln. Die vorhandenen Assignment Rules werden während der Integration ausgewertet; sie sind keine zusätzlichen unabhängigen Zustandsvariablen.
+
+Beim p53-Modell sind drei Details entscheidend:
+
+1. `ModelValue_6 = vratio` ist eine Initial Assignment. Der effektive Startwert ist 15 und wird bei der Berechnung von `MDM2_total` verwendet.
+2. `p53 = p53_total - p53_ub - p53_ub_ub` ist eine Assignment Rule. Der freie p53-Wert wird aus den integrierten Größen berechnet.
+3. Das Einschalt-Ereignis hat den Trigger `time > 10`, eine **Verzögerung von 2** und setzt danach `step = 1`. Die Wirkung beginnt somit bei etwa t = 12. Das zweite Ereignis hat den Trigger `time > 20`, keine Verzögerung und setzt `step = 0`. `IR = ampl * step` folgt als Zuweisung. Die Tests prüfen Werte beidseits der Schaltzeiten und vermeiden die numerische Mehrdeutigkeit genau am strikten Grenzwert.
+
+Die zusätzlich archivierte [Autoren-XPP-Datei](simulation/inputs/BIOMD0000001006_p53-Mdm2.ode) beschreibt den IR-Puls dagegen über `heav(t-ton)*heav(toff-t)` mit `ton=10` und `toff=20`, ohne diese zweistufige Ereignisverzögerung. Simuliert wurde ausdrücklich die kuratierte SBML-Fassung; eine vollständige Gleichheit aller verfügbaren Implementierungen wird nicht behauptet.
+
+Die SBML-Einheit `time` ist im Uhrmodell als 3.600 Sekunden, also eine Stunde, definiert. Im p53-Modell ist sie als Sekunde definiert. Die p53-Achse bleibt deshalb eine **SBML-Zeitachse**; sie wird nicht ohne weiteren Abgleich als physiologische Minuten- oder Stundenachse interpretiert. Entsprechend werden die formal deklarierten mol/l-Werte als Modellkonzentrationen bezeichnet, nicht als validierte intrazelluläre Absolutkonzentrationen.
+
+libSBML findet weiterhin keine Errors/Fatals, aber dieselben Warnungen wie in 3(a): eine 99505 beim Uhrmodell sowie 30 Meldungen 99505 und 27 Meldungen 80701 beim p53-Modell. Fehlende Parametereinheiten wurden nicht ergänzt. Ein erfolgreicher numerischer Lauf löst diese unvollständige Einheitenprüfung nicht auf.
+
+##### Uhrmodell: Periode und Kurvenform
+
+![Eigene Simulation des unveränderten Uhrmodells. Oben Einschwingen und anschließende Oszillationen; unten das Zeitfenster 100 bis 150 h zum qualitativen Vergleich mit der BioModels-Kuration.](simulation/results-20260924/clock.svg)
+
+Die Periode wird aus `y1` (Per2/Cry-mRNA) bestimmt. Maxima werden mit `scipy.signal.find_peaks`, Mindestprominenz 0,05 Modellkonzentrationseinheiten, identifiziert. Nur Maxima ab 240 h gehen in die Periodenschätzung ein. Eine Parabel durch das Maximum und seine beiden benachbarten Ausgabezeitpunkte verfeinert die Peakzeit. Die Prominenz und das Einschwingfenster sind Auswerteeinstellungen, keine Modellparameter.
+
+20 ausgewählte Maxima liefern 19 Periodenabstände mit Mittelwert **23,84268 h** und Standardabweichung 0,00030 h. Die geringe Streuung beschreibt nur die simulierten Periodenabstände einschließlich verbleibender Einschwing- und Diskretisierungseffekte; sie ist kein biologisches Konfidenzintervall. Becker-Weimann et al. berichten 23,8 h für ihren Parametersatz. Beide Werte stimmen auf eine Nachkommastelle überein. Die Differenz von 0,04268 h wird ausgewiesen, ohne eine exakte numerische Reproduktion aller Paperdaten zu behaupten. [Becker-Weimann et al. (2004)](https://doi.org/10.1529/biophysj.104.040824)
+
+Die [BioModels-Kurationsnotiz](simulation/inputs/BIOMD0000000170_curation_notes.txt) ordnet ihr [Kurationsbild](simulation/inputs/BIOMD0000000170_curation_image.jpeg) Fig. 3A zu. Reihenfolge, Phasenlage und Form der dargestellten Kurven wurden visuell mit dem eigenen 100-bis-150-h-Fenster verglichen und stimmen qualitativ überein. Das Bild wurde nicht digitalisiert; daraus wird kein numerischer Bildfehler abgeleitet.
+
+##### p53/MDM2: Ereignisse und transiente Pulse
+
+![Eigene Simulation des unveränderten p53/MDM2-Modells. Die Zeitachse verwendet die SBML-Zeiteinheit, formal Sekunden. Der Abbauparameter rechts unten hat im SBML kein units-Attribut.](simulation/results-20260924/p53_mdm2.svg)
+
+Mit derselben Peakmethode werden zwei p53-Gesamtmaxima bei t = **200,364** und **681,287** SBML-Zeiteinheiten gefunden. Die nächstliegenden gespeicherten Maximalwerte sind 1,46563 und 1,43410. Die DNA-Schadensvariable steigt bis 1,43627 und beträgt bei t = 1.200 noch 0,03044; p53 gesamt liegt dann bei 0,07809 gegenüber dem Anfangswert 0,07118. Das Ende des gewählten Zeitfensters ist damit kein exakt nachgewiesener stationärer Zustand.
+
+Das [BioModels-Kurationsbild](simulation/inputs/BIOMD0000001006_curation_image.png) zeigt ebenfalls zwei Pulse mit entsprechender Größenordnung, verzögerten MDM2-Verläufen und abnehmender DNA-Schadensvariable. Der Vergleich ist qualitativ. Die Kurationsnotiz nennt Fig. 2A-C und COPASI 4.30; der hier verwendete Solver ist CVODE. Der Befund ist außerdem mit der publizierten Modellidee vereinbar, nach DNA-Schaden vorübergehende p53-Oszillationen zu erzeugen. Er überprüft keine experimentelle Dosis-Wirkungs-Kurve oder Bifurkation und belegt für sich keinen stabilen Grenzzyklus. [Ciliberto et al. (2005), BioModels-Eintrag und Publikationsabstract](https://www.ebi.ac.uk/biomodels/BIOMD0000001006)
+
+##### Numerische Kontrolle und reproduzierbare Dateien
+
+Als skalierter Vergleichsfehler wird für jede Ausgabespalte die absolute Differenz durch den größten absoluten Kontrollwert dieser Spalte geteilt; der Nenner ist mindestens `1e-12`. Berichtet wird das Maximum über Spalten und Zeitpunkte. Die vorgegebene Akzeptanzgrenze ist `1e-5`. Diese Prüfung bewertet numerische Stabilität, keine biologische Messgenauigkeit.
+
+| Prüfung | Uhrmodell | p53/MDM2 |
+|---|---:|---:|
+| Maximaler absoluter Unterschied bei strengeren CVODE-Toleranzen | 4,509 × 10^-6^ | 4,931 × 10^-6^ |
+| Maximaler skalierter Unterschied | 3,279 × 10^-6^ | 3,745 × 10^-6^ |
+| Frischer Wiederholungslauf in derselben Umgebung | Bitgleiche Zeitreihen | Bitgleiche Zeitreihen |
+| Endliche Werte; Spezies nicht negativ bis Toleranz 10^-10^ | Bestanden | Bestanden |
+| Assignment Rules und Ereignis-/Anfangszuweisungstests | Bestanden | Bestanden |
+
+Für die Uhr wurde zusätzlich mit SciPy DOP853 integriert (`rtol=1e-10`, `atol=1e-12`). Der maximale skalierte Unterschied zu CVODE beträgt 2,162 × 10^-6^. DOP853 ist ein anderer numerischer Integrator, verwendet hier aber dieselbe von RoadRunner aus SBML kompilierte rechte Seite. Der Vergleich ist deshalb keine unabhängige Prüfung des SBML-Parsers. Ein zweiter Integrator für das ereignisbehaftete p53-Modell wurde nicht implementiert.
+
+[validation.json](simulation/results-20260924/validation.json) enthält alle Zahlen, Solveroptionen, Paketversionen und Einzelprüfungen. Die vollständigen Zeitreihen stehen als [Uhr-CSV](simulation/results-20260924/BIOMD0000000170_timeseries.csv) und [p53-CSV](simulation/results-20260924/BIOMD0000001006_timeseries.csv) bereit; Kontrollläufe und der DOP853-Verlauf liegen im selben Ergebnisordner. [simulate.py](simulation/simulate.py) erzeugt daraus SVG und PNG, [test_simulation.py](simulation/test_simulation.py) prüft Quellenidentität und SBML-Semantik. Es gibt keine nachträgliche Glättung oder Begrenzung negativer Zustandswerte.
+
+Vom Projektwurzelverzeichnis aus:
+
+```bash
+uv sync --project part1/task3/simulation --locked --python 3.12 --no-build
+uv run --project part1/task3/simulation --locked python part1/task3/simulation/simulate.py
+uv run --project part1/task3/simulation --locked python -m unittest discover -s part1/task3/simulation -p 'test_*.py' -v
+python3 part1/task3/simulation/render_standalone.py
+```
+
+Die letzte Zeile rendert `task3.html` isoliert innerhalb von `task3/`, damit das übergeordnete Quarto-Buch unverändert bleibt. [Abschlussbericht](simulation/REPORT.md) und [Prüfkommandos](simulation/results-20260924/final-checks.json) dokumentieren die abschließenden Exitcodes. Die Installation benötigt Paketnetzwerkzugriff; Reproduktion, Semantikprüfung und Rendern lesen anschließend die archivierten Eingaben.

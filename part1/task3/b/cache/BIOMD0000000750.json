@@ -1,0 +1,251 @@
+{
+  "name" : "Lolas2016 - tumour-induced neoneurogenesis and perineural tumour growth",
+  "description" : "The paper describes a model of tumour-induced neoneurogenesis and perineural tumour growth. Created by COPASI 4.25 (Build 207) This model is described in the article: Tumour-induced neoneurogenesis and perineural tumour growth: a mathematical approachGeorgios Lolas, Arianna Bianchi and Konstantinos N. SyrigosScientific Reports 6:20684Abstract:It is well-known that tumours induce the formation of a lymphatic and a blood vasculature around themselves. A similar but far less studied process occurs in relation to the nervous system and is referred to as neoneurogenesis. The relationship between tumour progression and the nervous system is still poorly understood and is likely to involve a multitude of factors. It is therefore relevant to study tumour-nerve interactions through mathematical modelling: this may reveal the most significant factors of the plethora of interacting elements regulating neoneurogenesis. The present work is a first attempt to model the neurobiological aspect of cancer development through a system of differential equations. The model confirms the experimental observations that a tumour is able to promote nerve formation/elongation around itself, and that high levels of nerve growth factor and axon guidance molecules are recorded in the presence of a tumour. Our results also reflect the observation that high stress levels (represented by higher norepinephrine release by sympathetic nerves) contribute to tumour development and spread, indicating a mutually beneficial relationship between tumour cells and neurons. The model predictions suggest novel therapeutic strategies, aimed at blocking the stress effects on tumour growth and dissemination.To cite BioModels Database, please use: BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models . To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to CC0 Public Domain Dedication for more information.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26861829",
+    "journal" : "Scientific reports",
+    "title" : "Tumour-induced neoneurogenesis and perineural tumour growth: a mathematical approach.",
+    "affiliation" : "Center for Information Services and High Performance Computing, Q1 Technische Universität Dresden, 01062 Dresden, Germany.",
+    "synopsis" : "It is well-known that tumours induce the formation of a lymphatic and a blood vasculature around themselves. A similar but far less studied process occurs in relation to the nervous system and is referred to as neoneurogenesis. The relationship between tumour progression and the nervous system is still poorly understood and is likely to involve a multitude of factors. It is therefore relevant to study tumour-nerve interactions through mathematical modelling: this may reveal the most significant factors of the plethora of interacting elements regulating neoneurogenesis. The present work is a first attempt to model the neurobiological aspect of cancer development through a system of differential equations. The model confirms the experimental observations that a tumour is able to promote nerve formation/elongation around itself, and that high levels of nerve growth factor and axon guidance molecules are recorded in the presence of a tumour. Our results also reflect the observation that high stress levels (represented by higher norepinephrine release by sympathetic nerves) contribute to tumour development and spread, indicating a mutually beneficial relationship between tumour cells and neurons. The model predictions suggest novel therapeutic strategies, aimed at blocking the stress effects on tumour growth and dissemination.",
+    "year" : 2016,
+    "month" : "2",
+    "volume" : "6",
+    "pages" : "20684",
+    "link" : "http://identifiers.org/pubmed/26861829",
+    "authors" : [
+      {
+        "name" : "Georgios Lolas",
+        "institution" : "Center for Information Services and High Performance Computing, Q1 Technische Universität Dresden, 01062 Dresden, Germany.Oncology Unit, 3rd Department of Internal Medicine, Sotiria General Hospital, Athens School of Medicine, Athens, Greece."
+      },
+      {
+        "name" : "Arianna Bianchi",
+        "institution" : "Department of Mathematics and Maxwell Institute for Mathematical Sciences, Heriot-Watt University, Edinburgh, Scotland, EH14 4AS, UK."
+      },
+      {
+        "name" : "Konstantinos N Syrigos",
+        "institution" : "Oncology Unit, 3rd Department of Internal Medicine, Sotiria General Hospital, Athens School of Medicine, Athens, Greece."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Lolas2016.xml",
+        "description" : "SBML L3V1 representation of the tumour-neuroneogenesis model",
+        "fileSize" : "161199",
+        "mimeType" : "application/xml",
+        "md5sum" : "9e914fc01758ea728c89433979637521",
+        "sha1sum" : "f4fa7d2f901224e47a9f54bb0de65502fa19d364",
+        "sha256sum" : "80571eedcb71dbb5dc9b32b148653f9feac00add5747a3c923ecba1b4a20c6e6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Lolas2016-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "27057",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5102ca02f3f6d3b43707a5c296328fcf",
+        "sha1sum" : "aae18e1e7ccdba461cf4053fb07fb47c03f14d2e",
+        "sha256sum" : "5575c1562f9261ec285cbea0b58c648857248f05fda0bff34d4770a0aa105e8b"
+      },
+      {
+        "name" : "Lolas2016-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "40212",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d29be57f0fcffa7e1fb074bccd434424",
+        "sha1sum" : "804e3a3cd648e274039f1cd181f9238f61d53722",
+        "sha256sum" : "b6ea750743ab1c8780ccc3b5f04f4f1adac2e1b28db1075f7d35a851f1f84245"
+      },
+      {
+        "name" : "Lolas2016-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11741",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ba5b2b2a68e2dd630defe232fb3c3e6d",
+        "sha1sum" : "9cef16a65487201e9e2c3584ac10322412fd978f",
+        "sha256sum" : "ac49ed544e68a08e4d2d4e850e4ee21662f8a117a7181710403f688802a89455"
+      },
+      {
+        "name" : "Lolas2016-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11741",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "945dd3cb0aa1c52e9a2d1d07fb857ce8",
+        "sha1sum" : "a7f6e1faf7f3cdff0fc1b42c1d2cfc5bbfda51d2",
+        "sha256sum" : "7aa861dab4fd3591b8f020f6fe2064c1b2abd8c8e9bc797957d4d4fb82350b51"
+      },
+      {
+        "name" : "Lolas2016.cps",
+        "description" : "CPS file of the model in COPASI",
+        "fileSize" : "174580",
+        "mimeType" : "application/xml",
+        "md5sum" : "92396a774cd15c41fe6d0316d9c29cac",
+        "sha1sum" : "3682ccc81747405b86b35349165e510138a0e4ca",
+        "sha256sum" : "6233ab94888612b0afcbcbf07f55c2fc4e99c071078e473360971dc249eb02a9"
+      },
+      {
+        "name" : "Lolas2016.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8553",
+        "mimeType" : "text/plain",
+        "md5sum" : "5dbee01a132977ad7b0d41473f0b0ba8",
+        "sha1sum" : "f6f5dbd27e1f2cfa41ab1da3e11132a33feffbb8",
+        "sha256sum" : "fddd82ce610f53d7c0e2c9f12f4a3f54612d402ce33d852eb6b89b85490af5e3"
+      },
+      {
+        "name" : "Lolas2016.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "43186",
+        "mimeType" : "application/xml",
+        "md5sum" : "2459e0721f3a8b5972919e54f38d380d",
+        "sha1sum" : "d8cd38e1641c3b21dd250d0e2fd65dfc3cc1a799",
+        "sha256sum" : "c3abb4a0ebae2723f9bfd972a6bc69f4ec727b54eb18297a2942e88e7d4df385"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17153",
+        "mimeType" : "image/png",
+        "md5sum" : "d7afdd04c054db3cc12372df994fdef3",
+        "sha1sum" : "f38d9535ac8c6b565611acbe79eb221bd6dff37c",
+        "sha256sum" : "566d839d245489b05ad6f4ec67ec39a389d9ad7ea6418a3b297758e38129c78d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "216",
+        "mimeType" : "text/plain",
+        "md5sum" : "9fb4f5e9fae816115cfa0c39e56b1830",
+        "sha1sum" : "a90bc678f59b04846120e954eb0830d7ca312dd5",
+        "sha256sum" : "803bfd8c5cd9862ebab3d802611a1bfa052134aa68bc7395be97d5b78fa4a6c8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1403",
+        "mimeType" : "application/xml",
+        "md5sum" : "323f524a21d130634080ac6210542a3a",
+        "sha1sum" : "e0fa088d3fa56e6eda5935bebe08b93171a37035",
+        "sha256sum" : "0af5fa1e491d8e8973da92f6621306381b39f447434f72eee72568d5437290f1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3723",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fbed71f8b81dc7ce5c1aa88f38e83816",
+        "sha1sum" : "e10cbf54185d49837c692fe7fe427676412ee570",
+        "sha256sum" : "6182db42d288d0601cb8cd46f5034a23efd2f13e67bc5a175742f06d986057b4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1563279931,
+        "submitter" : "Jinghao Men",
+        "comment" : "Automatically added model identifier BIOMD0000000750"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724288760,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285441,
+  "submissionId" : "MODEL1907160001",
+  "publicationId" : "BIOMD0000000750",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Jinghao Men",
+        "email" : "jm2187@cam.ac.uk",
+        "affiliation" : "University of Cambridge",
+        "orcid" : "0000-0003-4781-8144",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aah",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26861829",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26861829"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000750",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000750"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1907160001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1907160001"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0022008",
+      "name" : "neurogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0022008"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "C19365",
+      "name" : "Host-Tumor Interaction",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C19365"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "C48260",
+      "name" : "Perineural Invasion",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C48260"
+    }
+  ]
+}

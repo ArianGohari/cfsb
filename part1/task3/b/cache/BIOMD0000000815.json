@@ -1,0 +1,250 @@
+{
+  "name" : "Chrobak2011 - A mathematical model of induced cancer-adaptive immune system competition",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model describing competition between an artificially induced tumor and the adaptive immune system based on the use of an autonomous system of ordinary differential equations.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1142/S0218339011004111",
+    "journal" : "Journal of Biological Systems",
+    "title" : "A mathematical model of induced cancer-adaptive immune system competition",
+    "affiliation" : "Department of Mathematics, University of Castilla-La Mancha, Avda. Camilo José Cela 3, 13071 Ciudad Real, Spain",
+    "synopsis" : "We present a model of competition between an artificially induced tumor and the adaptive immune system based on the use of an autonomous system of ordinary differential equations (ODE). The aim of this work is to reproduce experimental results which find two possible outcomes depending on the initial quantities of the tumor and the adaptive immune cells. The ODE system is positively invariant and its solutions are bounded. The linear stability analysis of the fixed points of the model yields two groups of solutions depending on the initial conditions. In the first one, the immune system wins against the tumor cells, so the cancer disappears (elimination). In the second one, the cancer keeps on growing (escape). These results are coherent with experimental results which show these two possibilities, so the model reproduces the macroscopic behavior of the experiments. From the model some conclusions on the underlying competitive behavior can be derived.",
+    "year" : 2011,
+    "month" : "9",
+    "volume" : "19",
+    "issue" : "3",
+    "pages" : "521-532",
+    "link" : "http://identifiers.org/doi/10.1142/S0218339011004111",
+    "authors" : [
+      {
+        "name" : "Chrobak, J.M.",
+        "institution" : "Department of Mathematics, University of Castilla-La Mancha, Avda. Camilo José Cela 3, 13071 Ciudad Real, Spain"
+      },
+      {
+        "name" : "Herrero, H.",
+        "institution" : "Department of Mathematics, University of Castilla-La Mancha, Avda. Camilo José Cela 3, 13071 Ciudad Real, Spain"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Chrobak2011.xml",
+        "description" : "SBML L2V4 Representation of Chrobak2011 - A mathematical model of induced cancer-adaptive immune system competition",
+        "fileSize" : "34942",
+        "mimeType" : "application/xml",
+        "md5sum" : "86e9548a3b2b776cc17b73820da21b67",
+        "sha1sum" : "33c9d74e9b9140f6bd4ad5ff8d9960ced8563686",
+        "sha256sum" : "d8ccd9cbf8d01ad46e73afbf3fbaa48ee09ccce954c5f0a13a3916dda54fc002"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Chrobak2011-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "10519",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ac00a5f7914f7659342575e4d7f25fc2",
+        "sha1sum" : "b811894da7fb36e189fe9f9d686b188785926aa4",
+        "sha256sum" : "537b2a2fca4f90a31d89a0e6662dbe6ee64cf5623577ca2a3daed594920b1b08"
+      },
+      {
+        "name" : "Chrobak2011-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "13843",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fc98fdd15bad97681a81e8e2aeb3f6a9",
+        "sha1sum" : "5dbfb082f78d1011b3239f171bfc4f93d7ad8d06",
+        "sha256sum" : "379c92052707f37df874dc69965d0f2e1514a19a57b4499c2f5254f6e5f0c1e6"
+      },
+      {
+        "name" : "Chrobak2011-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4695",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9b0624a670052dde89d2a0248575df51",
+        "sha1sum" : "a11496138ec3279d4a3afce5f85918cde2217a9b",
+        "sha256sum" : "f827f327f7561d6a270713f94e4d11cdfdd45db33d8f7a9deedf7e825697a314"
+      },
+      {
+        "name" : "Chrobak2011-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4695",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1452b32be8c43cd4a49d7c1c699f5b69",
+        "sha1sum" : "edd8f15b116366a375b8b6264279df3174050b48",
+        "sha256sum" : "ad55d78b1dfd1349d6a9a2d74bdc97df0e86ffe9701fc80dd0548b7b1d4eaacf"
+      },
+      {
+        "name" : "Chrobak2011.cps",
+        "description" : "COPASI file of Chrobak2011 - A mathematical model of induced cancer-adaptive immune system competition",
+        "fileSize" : "53414",
+        "mimeType" : "application/xml",
+        "md5sum" : "14f1a66b99ca49fa3e6150c9e13681a7",
+        "sha1sum" : "d626e05ce9c710ca5bbdd2d91e04cfe52b68c9b2",
+        "sha256sum" : "b23c1337044819ee3167688e1b3d37c18334f0616d4659838eeb2bdf7dd455d6"
+      },
+      {
+        "name" : "Chrobak2011.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3180",
+        "mimeType" : "text/plain",
+        "md5sum" : "1b7b9bfc86467a6a8a72449e3c9d65e8",
+        "sha1sum" : "3a1b4baa65229be46cd338303db1466560a9751d",
+        "sha256sum" : "952164050f08b83eef0ec1ca38c84a658431b37a988ca1b4ff5fa831bb537c0f"
+      },
+      {
+        "name" : "Chrobak2011.sedml",
+        "description" : "SED-ML file of Chrobak2011 - A mathematical model of induced cancer-adaptive immune system competition (additionally CRBM-validated and adjusted).",
+        "fileSize" : "10564",
+        "mimeType" : "application/xml",
+        "md5sum" : "685659cc96d777f1b4756e0a2584d2fb",
+        "sha1sum" : "37c3a01b4c9c3b1a1dd3c50d90be0b6f368c0507",
+        "sha256sum" : "a418ca059f8bf38f12d0951f4bc0c805752eeadd4e681b82f8f3915ff3cd24d4"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "10253",
+        "mimeType" : "image/png",
+        "md5sum" : "e8ce17d5fa6700da5083b811d1d15274",
+        "sha1sum" : "ad8ebea96b4bcf5a88edea052a785463a8524a8d",
+        "sha256sum" : "b68000988cf16065e18ba91fdd34b1fa95464a3f09a54402c4e5f6b40218ae6f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "200",
+        "mimeType" : "text/plain",
+        "md5sum" : "bb7d7cd2637e5106df9354fd4a5e37d1",
+        "sha1sum" : "732916e7885e63ec9c1ae12c9a04f3442e6c708f",
+        "sha256sum" : "bc1f8bf06fdaf713582352fc194ebcb4062c9590d08082e373442ceacbedc554"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1419",
+        "mimeType" : "application/xml",
+        "md5sum" : "6134b8caeba3c10f05d4ad65cfa3596b",
+        "sha1sum" : "bc98471ad8366c706fc7bc813f8def5efb086510",
+        "sha256sum" : "986cbe7e22e3332d7b242eb0cacc778e810800bfa08f143ca8c882395c10e6fc"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1817",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d5dbdc499cfe8de5c7ccce2bb7b36c5b",
+        "sha1sum" : "7ec1806c54f11a11e9cfe598bdf25029c5b62d4f",
+        "sha256sum" : "3a6f00d6ab49c0f302bd815224f3ae276d6ca4af697b7923e4bcd99461f0f35f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1568730344,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000815"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724290235,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285506,
+  "submissionId" : "MODEL1909170003",
+  "publicationId" : "BIOMD0000000815",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002418",
+      "name" : "immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002418"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C36294",
+      "name" : "Neoplastic Growth or Spread",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C36294"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1142/S0218339011004111",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1142/S0218339011004111"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909170003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909170003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000815",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000815"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0035212",
+      "name" : "cell competition in a multicellular organism",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0035212"
+    }
+  ]
+}

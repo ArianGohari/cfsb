@@ -1,0 +1,307 @@
+{
+  "name" : "Liebal2012 - B.subtilis post-transcriptional instability model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Liebal2012 - B.subtilis post-transcription instability model</div>            <div class=\"dc:description\">      <p>An important transcription factor of B.subsilis is sigma        <sup>B</sup>            . Liebal et al. (2012) have performed experiments in B.subtilis wild type and mutant straits to test and validate a mathematical model of the dynamics of sigma        <sup>B</sup>            activity. The following three models were constructed and their ability to fit the experimental data were tested. 1) Transcription inhibition model (MODEL1212180000), 2) sigma        <sup>B</sup>            proteolysis model (MODEL1302080000) and 3) Post-transcriptional instability model (MODEL1302080001). This model corresponds to the post-transcription instability model (MODEL1302080001).        </p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/22511268\" title=\"Access to this publication\">Proteolysis of beta-galactosidase following SigmaB activation in Bacillus subtilis.</a>                    </div>                <div class=\"bibo:authorList\">Liebal UW, Sappa PK, Millat T, Steil L, Homuth G, Völker U, Wolkenhauer O.</div>                <div class=\"bibo:Journal\">2012 Jun;8(6):1806-14.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>In Bacillus subtilis the σ(B) mediated general stress response provides protection against various environmental and energy related stress conditions. To better understand the general stress response, we need to explore the mechanism by which the components interact. Here, we performed experiments in B. subtilis wild type and mutant strains to test and validate a mathematical model of the dynamics of σ(B) activity. In the mutant strain BSA115, σ(B) transcription is inducible by the addition of IPTG and negative control of σ(B) activity by the anti-sigma factor RsbW is absent. In contrast to our expectations of a continuous β-galactosidase activity from a ctc::lacZ fusion, we observed a transient activity in the mutant. To explain this experimental finding, we constructed mathematical models reflecting different hypotheses regarding the regulation of σ(B) and β-galactosidase dynamics. Only the model assuming instability of either ctc::lacZ mRNA or β-galactosidase protein is able to reproduce the experiments in silico. Subsequent Northern blot experiments revealed stable high-level ctc::lacZ mRNA concentrations after the induction of the σ(B) response. Therefore, we conclude that protein instability following σ(B) activation is the most likely explanation for the experimental observations. Our results thus support the idea that B. subtilis increases the cytoplasmic proteolytic degradation to adapt the proteome in face of environmental challenges following activation of the general stress response. The findings also have practical implications for the analysis of stress response dynamics using lacZ reporter gene fusions, a frequently used strategy for the σ(B) response.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>Figure 3a of the reference article has been reproduced. beta-galactosidase (lacz in model) activity at different concentrations of IPTG (100M, 200M and 1000M) has been reproduced. SED-ML (Simulation Experiment Description Markup Language) file is available for this model (see curation tab).</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1302080001\">MODEL1302080001</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22511268",
+    "journal" : "Molecular bioSystems",
+    "title" : "Proteolysis of beta-galactosidase following SigmaB activation in Bacillus subtilis.",
+    "affiliation" : "Department of Systems Biology & Bioinformatics, University of Rostock, Rostock, Germany. ulf.liebal@uni-rostock.de",
+    "synopsis" : "In Bacillus subtilis the σ(B) mediated general stress response provides protection against various environmental and energy related stress conditions. To better understand the general stress response, we need to explore the mechanism by which the components interact. Here, we performed experiments in B. subtilis wild type and mutant strains to test and validate a mathematical model of the dynamics of σ(B) activity. In the mutant strain BSA115, σ(B) transcription is inducible by the addition of IPTG and negative control of σ(B) activity by the anti-sigma factor RsbW is absent. In contrast to our expectations of a continuous β-galactosidase activity from a ctc::lacZ fusion, we observed a transient activity in the mutant. To explain this experimental finding, we constructed mathematical models reflecting different hypotheses regarding the regulation of σ(B) and β-galactosidase dynamics. Only the model assuming instability of either ctc::lacZ mRNA or β-galactosidase protein is able to reproduce the experiments in silico. Subsequent Northern blot experiments revealed stable high-level ctc::lacZ mRNA concentrations after the induction of the σ(B) response. Therefore, we conclude that protein instability following σ(B) activation is the most likely explanation for the experimental observations. Our results thus support the idea that B. subtilis increases the cytoplasmic proteolytic degradation to adapt the proteome in face of environmental challenges following activation of the general stress response. The findings also have practical implications for the analysis of stress response dynamics using lacZ reporter gene fusions, a frequently used strategy for the σ(B) response.",
+    "year" : 2012,
+    "month" : "6",
+    "volume" : "8",
+    "issue" : "6",
+    "pages" : "1806-1814",
+    "link" : "http://identifiers.org/pubmed/22511268",
+    "authors" : [
+      {
+        "name" : "Ulf W Liebal",
+        "institution" : "Department of Systems Biology & Bioinformatics, University of Rostock, Rostock, Germany. ulf.liebal@uni-rostock.de",
+        "orcid" : "0000-0001-5172-7339"
+      },
+      {
+        "name" : "Praveen K Sappa"
+      },
+      {
+        "name" : "Thomas Millat",
+        "orcid" : "0000-0002-5023-4142"
+      },
+      {
+        "name" : "Leif Steil",
+        "orcid" : "0000-0002-0733-8421"
+      },
+      {
+        "name" : "Georg Homuth"
+      },
+      {
+        "name" : "Uwe Völker",
+        "orcid" : "0000-0002-5689-3448"
+      },
+      {
+        "name" : "Olaf Wolkenhauer",
+        "orcid" : "0000-0001-6105-2937"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000459_url.xml",
+        "description" : "SBML L2V4 representation of Liebal2012 - B.subtilis post-transcriptional instability model",
+        "fileSize" : "18653",
+        "mimeType" : "application/xml",
+        "md5sum" : "493006a5982d6b0b94da9fda43ad54f3",
+        "sha1sum" : "3a4123ad82a29973f7482e3d2c3d1f921bca8163",
+        "sha256sum" : "44e69d928288493b76ad7c36a0ec1c0b1c401ac2b312b9f159b3025378322857"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000459-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "9536",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e9929345fe9adb00cb39cb1cacfb6121",
+        "sha1sum" : "57ac892dbb6531180ec9fd1c4829e5a20cbba284",
+        "sha256sum" : "afd68eda75c4c36a84cd4f72e0c1dd221b8c2449b023e3a7d563ab608155e807"
+      },
+      {
+        "name" : "BIOMD0000000459-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "12243",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b0c36a16f4df9b0ae568476c7ac1ed17",
+        "sha1sum" : "fa721e30e98a09a9bd3c237b846776e3cd7ec146",
+        "sha256sum" : "6af441087483b3e7b8f664cf4cc370c7b0261b059322c44ee154136d0a7a2f29"
+      },
+      {
+        "name" : "BIOMD0000000459-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3579",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d7416acefad38f8f85add41acf31c62c",
+        "sha1sum" : "3a239d8dc8bc76a66bcbdc7fa820b3be13174fc3",
+        "sha256sum" : "0de359d880542f814600de84d941f9425e93dcce2065562c6001bc77c8fd0539"
+      },
+      {
+        "name" : "BIOMD0000000459-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3579",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "053a74d3d363eb74419c3f757364e5b6",
+        "sha1sum" : "5a94f5176ef1e42e110b71b0e2eedbfe24dab5d5",
+        "sha256sum" : "247cd749387222073751c6efe6ef084ae54bc87a7b4c231897b2ce4c30ccfc08"
+      },
+      {
+        "name" : "BIOMD0000000459.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3579",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "053a74d3d363eb74419c3f757364e5b6",
+        "sha1sum" : "5a94f5176ef1e42e110b71b0e2eedbfe24dab5d5",
+        "sha256sum" : "247cd749387222073751c6efe6ef084ae54bc87a7b4c231897b2ce4c30ccfc08"
+      },
+      {
+        "name" : "BIOMD0000000459.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1796",
+        "mimeType" : "text/plain",
+        "md5sum" : "7c21c6c8c47006d9f4040aceb6863d2d",
+        "sha1sum" : "ae466f26c05433f7b4b18e0291912975e4f2e28e",
+        "sha256sum" : "fb882553dfba6d51da72864cd65ec15d5fb71532804fe4ad5738eeed255b5c33"
+      },
+      {
+        "name" : "BIOMD0000000459.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "150472",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d4970e12ec5c0b5116d0a0925def7853",
+        "sha1sum" : "f27cd576718971c130e6b08ae3355340e3c9cd7e",
+        "sha256sum" : "b358caab210a6d1f5f330bdcc6d89fa8be275b91aceada488f5cf3a97346e660"
+      },
+      {
+        "name" : "BIOMD0000000459.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "39314",
+        "mimeType" : "image/png",
+        "md5sum" : "1649b604b9b32f5b876d8b9cf0fa3939",
+        "sha1sum" : "49888eeae91bdd0d030ebc8831e72b09179b7257",
+        "sha256sum" : "011125fe341e43f2e4d8d6a9983f777b88e411371f94fd7cfcd4d18a46336df9"
+      },
+      {
+        "name" : "BIOMD0000000459.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1433",
+        "mimeType" : "text/plain",
+        "md5sum" : "ceaec8c99de8378a6f7be6185f8ceef7",
+        "sha1sum" : "77024584a6444e31b8a7ac642b8735248f4c501d",
+        "sha256sum" : "1bc042bf940b67174beb65fe830a778f50671884162d8e4c2dd187b550ec9643"
+      },
+      {
+        "name" : "BIOMD0000000459.sedml",
+        "description" : "This SED-ML file can be used to reproduce the curation result (for example, figure 3c of the reference publication). (Additionally CRBM-validated and adjusted.)",
+        "fileSize" : "26035",
+        "mimeType" : "application/xml",
+        "md5sum" : "32060f2f51d2a2aa5e83dfc14e775d05",
+        "sha1sum" : "f5884db87b152c8c149a0ba3c449df351b9d4374",
+        "sha256sum" : "134138a24c113af25244ff5308db8086afe2f9499184d3d869509fddf8d8b512"
+      },
+      {
+        "name" : "BIOMD0000000459.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "10795",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "880431eb4127f4b1b7ea5659da7690a0",
+        "sha1sum" : "a9295d39f7931542336e472415ebd2a698cc896b",
+        "sha256sum" : "efb5c331e067e30a310acf42f38c79970d5e8247d6a46b04ccd819a0e6b46eaa"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "29577",
+        "mimeType" : "image/png",
+        "md5sum" : "3b33725637b2f31b4499aed10510d450",
+        "sha1sum" : "143a156ecd8d12aeb316ca1748352c67c85fa2d1",
+        "sha256sum" : "acb1deeb71285c6ac9670ed6d2a2be3a42a8d9d82549eef9ab1e8e29e8254825"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "247",
+        "mimeType" : "text/plain",
+        "md5sum" : "70f913a47dc8492265c16a1043f2e50f",
+        "sha1sum" : "5b5bd1eeb36c83edd70f21932b2371403525845e",
+        "sha256sum" : "d435e2ed07483552bd60674131e45269519dab2937f3cc9742a216f84941730a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1907",
+        "mimeType" : "application/xml",
+        "md5sum" : "e100075e3bddb223aa9631b7b59fb67d",
+        "sha1sum" : "733edeca96116a93391d821d352866df40fc8782",
+        "sha256sum" : "233a85a985101c0d685e107a9a01d4d365357354c00d4d871733a389fdca266b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6616",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "28a26d553cfb08f3cd87e40447a87958",
+        "sha1sum" : "82d95b72599abe68a47924e1f1ff3909af982397",
+        "sha256sum" : "a9e359105b724da37050df03bd3eac1ee7e60f3486c1873bffc6a2b8df0d6df0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1360328676,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Liebal2012 - B.subtilis post-transcriptional instability model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396629868,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Liebal2012 - B.subtilis post-transcriptional instability model"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545412580,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: BIOMD0000000459-SEDML.xml"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724277698,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285199,
+  "submissionId" : "MODEL1302080001",
+  "publicationId" : "BIOMD0000000459",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1302080001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1302080001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000459",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000459"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22511268",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22511268"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0030162",
+      "name" : "regulation of proteolysis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030162"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "1423",
+      "name" : "Bacillus subtilis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/1423"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

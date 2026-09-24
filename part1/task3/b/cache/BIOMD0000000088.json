@@ -1,0 +1,304 @@
+{
+  "name" : "Maeda2006_MyosinPhosphorylation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces Fig 2B, D, F, and 2H. The dynamics correspond to a stimulus of 1 U/ml of thrombin which is equal to 0.01 uM. Phosphorylated MLC is the sum of pMLC (s359) and ppMLC (s360). A slight discrepancy in peak values of species between the figure in the paper and simulation result might be due to different initial conditions in the two sets.  The model was successfully tested on MathSBML. It is possible to simulate the model on other software that do not support \"Events\" at this time by removing the \"listOfEvents\" and substituting a value of 0.01 for thrombin (s2). This does not change the model very much. With the latter format, the model was also successfully tested on Copasi.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16923126",
+    "journal" : "Genes to cells : devoted to molecular & cellular mechanisms",
+    "title" : "Ca2+ -independent phospholipase A2-dependent sustained Rho-kinase activation exhibits all-or-none response.",
+    "affiliation" : "Undergraduate Program for Bioinformatics and Systems Biology, Graduate School of Information Science and Technology, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan.",
+    "synopsis" : "Sustained contraction of cells depends on sustained Rho-associated kinase (Rho-kinase) activation. We developed a computational model of the Rho-kinase pathway to understand the systems characteristics. Thrombin-dependent in vivo transient responses of Rho activation and Ca2+ increase could be reproduced in silico. Low and high thrombin stimulation induced transient and sustained phosphorylation, respectively, of myosin light chain (MLC) and myosin phosphatase targeting subunit 1 (MYPT1) in vivo. The transient phosphorylation of MLC and MYPT1 could be reproduced in silico, but their sustained phosphorylation could not. This discrepancy between in vivo and in silico in the sustained responses downstream of Rho-kinase indicates that a missing pathway(s) may be responsible for the sustained Rho-kinase activation. We found, experimentally, that the sustained phosphorylation of MLC and MYPT1 exhibit all-or-none responses. Bromoenol lactone, a specific inhibitor of Ca2+ -independent phospholipase A2 (iPLA2), inhibited sustained phosphorylation of MLC and MYPT1, which indicates that sustained Rho-kinase activation requires iPLA2 activity. Thus, the systems analysis of the Rho-kinase pathway identified a novel iPLA2-dependent mechanism of the sustained Rho-kinase activation, which exhibits an all-or-none response.",
+    "year" : 2006,
+    "month" : "9",
+    "volume" : "11",
+    "issue" : "9",
+    "pages" : "1071-1083",
+    "link" : "http://identifiers.org/pubmed/16923126",
+    "authors" : [
+      {
+        "name" : "Akio Maeda",
+        "institution" : "Undergraduate Program for Bioinformatics and Systems Biology, Graduate School of Information Science and Technology, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+      },
+      {
+        "name" : "Yu-ichi Ozaki"
+      },
+      {
+        "name" : "Sudhir Sivakumaran",
+        "orcid" : "0000-0002-8586-0469"
+      },
+      {
+        "name" : "Tetsuro Akiyama"
+      },
+      {
+        "name" : "Hidetoshi Urakubo",
+        "orcid" : "0000-0002-1816-0040"
+      },
+      {
+        "name" : "Ayako Usami"
+      },
+      {
+        "name" : "Miharu Sato"
+      },
+      {
+        "name" : "Kozo Kaibuchi"
+      },
+      {
+        "name" : "Shinya Kuroda",
+        "institution" : "Department of Biological Sciences, Graduate School of Science, University of Tokyo, Hongo 7-3-1, Bunkyo-ku, Tokyo 113-0033, Japan; Department of Computational Biology, Graduate School of Frontier Sciences, University of Tokyo, Hongo 7-3-1, Bunkyo-ku, Tokyo 113-0033, Japan; CREST, Japan Science and Technology Corporation, Bunkyo-ku, Tokyo 113-0033, Japan. Electronic address: skuroda@bs.s.u-tokyo.ac.jp.",
+        "orcid" : "0000-0001-5059-8299"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000088_url.xml",
+        "description" : "SBML L2V1 representation of Maeda2006_MyosinPhosphorylation",
+        "fileSize" : "248006",
+        "mimeType" : "application/xml",
+        "md5sum" : "c3ac3d52876af254a58e2781e5be6c55",
+        "sha1sum" : "cbd7f7416960239b556a3eac9328dd09bf2692a4",
+        "sha256sum" : "fa773593737899e0bc609b266ceb9467d0068c14324b31b9f7802c788670a8ba"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000088-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "209290",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "489aab36bda96abe55a7bbd199dd3a82",
+        "sha1sum" : "331086b2c95ad53b9398b94f3cecd6030cefc579",
+        "sha256sum" : "aa4a99a0d435e4c66a6b142ea7a1defb45d447d61cabc6ad751382407ef06361"
+      },
+      {
+        "name" : "BIOMD0000000088-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "343575",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7bc712e5c87f55daf9d022c1c607ae8f",
+        "sha1sum" : "22392b61c85b5180b712a4a2e10b5776a1703684",
+        "sha256sum" : "3caa96e44b432a5d2d29927c408792c758cfb5b4b7b956c72d5d921887e0517e"
+      },
+      {
+        "name" : "BIOMD0000000088-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "53082",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "613ed0bda0ca9125fbdc228d368579a2",
+        "sha1sum" : "6953ac3f2cc2a485ead5507298b27b7875490dfc",
+        "sha256sum" : "c73ab0ef102639d92df975697e8cda04d45b01fb1c35ac54c74ba16cccf1a494"
+      },
+      {
+        "name" : "BIOMD0000000088.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "53082",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "671c5a900c81ef6c92594f78e181a1f5",
+        "sha1sum" : "133dd06fc4d825407cf2639bdc0464d63f02a5f3",
+        "sha256sum" : "193c22398c012007fbaec16e7ea4b953e29099c37ca678307bbf8f6234f0bb08"
+      },
+      {
+        "name" : "BIOMD0000000088.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "40945",
+        "mimeType" : "text/plain",
+        "md5sum" : "e6f5c78b76771d9562a6c2fd06b61735",
+        "sha1sum" : "3e7fd3d9815d7c18b4114679a2cfbacd9d0de2e4",
+        "sha256sum" : "76211238690fb475bb3c970bf334baa084251f7aa13b3ffba420a4cad1e70e1b"
+      },
+      {
+        "name" : "BIOMD0000000088.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "738420",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c33406c9fe409075b8dc16e426e86df9",
+        "sha1sum" : "c0d9e0c9a94a20089f2a899683a8d0182fdd4e48",
+        "sha256sum" : "c03df46142fdb35bd5483b43e6193ebf92e44b1d1afa38e7bfe5d9f76d0db672"
+      },
+      {
+        "name" : "BIOMD0000000088.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2073502",
+        "mimeType" : "image/png",
+        "md5sum" : "977e347f3fc41565d9bd55c4dcb1a2be",
+        "sha1sum" : "a27e37901a48802b005fa27bfc57635803096ce8",
+        "sha256sum" : "9b6750da3ac2f09d19c97b91b93b3424ad6c6bc522891789b9b429c559e7e4fc"
+      },
+      {
+        "name" : "BIOMD0000000088.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "285263",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a28e01ffef93fd4923442310ba12c164",
+        "sha1sum" : "c40972947c776f6ff3a23ed22bd4328eccd467f9",
+        "sha256sum" : "8c78411a79969f446bbb3e6426f0f678c4259a67ee7fc0244ff9dd3cbfb6fc4e"
+      },
+      {
+        "name" : "BIOMD0000000088.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "329974",
+        "mimeType" : "application/xml",
+        "md5sum" : "7f90af1c14de869ed028c297eb9ecd7b",
+        "sha1sum" : "fb78fc7577f7f0fe443f0a4116d831c440fb04d1",
+        "sha256sum" : "d422782d851c33f6ce6dc9b20cf4f51931e089071c2a77052b7561e9afbdb7d6"
+      },
+      {
+        "name" : "BIOMD0000000088_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "127387",
+        "mimeType" : "application/xml",
+        "md5sum" : "89f32e75aaa910eee952f62a1a1608ce",
+        "sha1sum" : "d2550c5ce8e83af7f6b97d728b30334008bcf9db",
+        "sha256sum" : "0f3ecff5ffcee1999b402e1e51b46645caf081a938d3abf7c7202b2446dce7ce"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36557",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "e7c1ab75c3b7242638cf1f9fa59e6491",
+        "sha1sum" : "0a69e6155ffbebdcb515c8a1012b6238b44af2d1",
+        "sha256sum" : "dbf766f05e3232104d496bedde7fb7c6965e29bc242dce41e45e236b352c14b1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "91",
+        "mimeType" : "text/plain",
+        "md5sum" : "349d5777e368d00d87406c42ef97d3e9",
+        "sha1sum" : "5c1d73496a6b6e68e81e8a99c63de56773370c8b",
+        "sha256sum" : "88c076c65d16eb17bbf396d3c41012d438c7b56fd38752c2687c55eb724b29a0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1795",
+        "mimeType" : "application/xml",
+        "md5sum" : "c9d540393e3113f48345fbb28c076c27",
+        "sha1sum" : "8c4221f0ee95cc7bf57cccc0e9c3065ce3211a26",
+        "sha256sum" : "998cb1e746c6e5c6b3dfda5ff4d1df795576d6dd2c77ee5ecb2e90f443b939ee"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3607",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ca775dcd9f86f4d415c6d791a91f5e0e",
+        "sha1sum" : "17d8c6a5be5a595b5d9b55bdce66d159df90adc9",
+        "sha256sum" : "e80eef9cb0382125aa70b57e2dc91dca3601f1b1bcc98903dd9c6f1491edbac6"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1170028672,
+        "submitter" : "Yu-ichi Ozaki",
+        "comment" : "Original import of BIOMD0000000088.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460133376,
+        "submitter" : "Yu-ichi Ozaki",
+        "comment" : "Current version of Maeda2006_MyosinPhosphorylation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267081,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284872,
+  "submissionId" : "MODEL7944007619",
+  "publicationId" : "BIOMD0000000088",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Yu-ichi Ozaki",
+        "email" : "oza@bi.s.u-tokyo.ac.jp",
+        "affiliation" : "Department of Biophysics and Biochemistry, Graduate School of Science, University of Tokyo",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7944007619",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7944007619"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000088",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000088"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16923126",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16923126"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04810",
+      "name" : "Regulation of actin cytoskeleton - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04810"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0035023",
+      "name" : "regulation of Rho protein signal transduction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0035023"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0030036",
+      "name" : "actin cytoskeleton organization",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030036"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "name" : "Martins2013 - True and apparent inhibition of amyloid fribril formation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Martins2013 - True and apparent inhibition ofamyloid fribril formation</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/23232498\" title=\"Access to this publication\">True and apparent inhibition    of amyloid fibril formation.</a>  </div>  <div class=\"bibo:authorList\">Martins PM.</div>  <div class=\"bibo:Journal\">Prion 2013 Mar-Apr; 7(2): 136-139</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>A possible therapeutic strategy for amyloid diseases    involves the use of small molecule compounds to inhibit protein    assembly into insoluble aggregates. According to the recently    proposed Crystallization-Like Model, the kinetics of amyloid    fibrillization can be retarded by decreasing the frequency of    new fibril formation or by decreasing the elongation rate of    existing fibrils. To the compounds that affect the nucleation    and/or the growth steps we call true inhibitors. An apparent    inhibition mechanism may however result from the alteration of    thermodynamic properties such as the solubility of the    amyloidogenic protein. Apparent inhibitors markedly influence    protein aggregation kinetics measured in vitro, yet they are    likely to lead to disappointing results when tested in vivo.    This is because cells and tissues media are in general much    more buffered against small variations in composition than the    solutions prepared in lab. Here we show how to discriminate    between true and apparent inhibition mechanisms from    experimental data on protein aggregation kinetics. The goal is    to be able to identify false positives much earlier during the    drug development process.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000561\">BIOMD0000000561</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23232498",
+    "journal" : "Prion",
+    "title" : "True and apparent inhibition of amyloid fibril formation.",
+    "affiliation" : "ICBAS, Instituto de Ciências Biomédicas Abel Salazar, Universidade do Porto, Porto, Portugal. pmmartins@icbas.up.pt",
+    "synopsis" : "A possible therapeutic strategy for amyloid diseases involves the use of small molecule compounds to inhibit protein assembly into insoluble aggregates. According to the recently proposed Crystallization-Like Model, the kinetics of amyloid fibrillization can be retarded by decreasing the frequency of new fibril formation or by decreasing the elongation rate of existing fibrils. To the compounds that affect the nucleation and/or the growth steps we call true inhibitors. An apparent inhibition mechanism may however result from the alteration of thermodynamic properties such as the solubility of the amyloidogenic protein. Apparent inhibitors markedly influence protein aggregation kinetics measured in vitro, yet they are likely to lead to disappointing results when tested in vivo. This is because cells and tissues media are in general much more buffered against small variations in composition than the solutions prepared in lab. Here we show how to discriminate between true and apparent inhibition mechanisms from experimental data on protein aggregation kinetics. The goal is to be able to identify false positives much earlier during the drug development process.",
+    "year" : 2013,
+    "month" : "0",
+    "volume" : "7",
+    "issue" : "2",
+    "pages" : "136-139",
+    "link" : "http://identifiers.org/pubmed/23232498",
+    "authors" : [
+      {
+        "name" : "Pedro M Martins",
+        "orcid" : "0000-0002-6908-1828"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000561_url.xml",
+        "description" : "SBML L2V4 representation of Martins2013 - True and apparent inhibition of amyloid fribril formation",
+        "fileSize" : "15302",
+        "mimeType" : "application/xml",
+        "md5sum" : "d51fc4385e7e12c9871b7c931d24ef78",
+        "sha1sum" : "929652ba38cb3a16f368a064523e2733247c4242",
+        "sha256sum" : "58d6ef1062966fa8a658c6778f9c0f56f4806923810d160b44a4e0d53bf4c1c6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000561-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5544",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0dd7830060fa5ac7e2ee92251c8588da",
+        "sha1sum" : "345d4912d2ea5b9e76a8ee9add667d24dbe833d2",
+        "sha256sum" : "bed81c6ab655ddc414524195514ade4539be16814cd4f196228b275616fa44e6"
+      },
+      {
+        "name" : "BIOMD0000000561-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "5740",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ed02f36a89acdc779ab4a572a31a8aa7",
+        "sha1sum" : "876b4bd09e8fade02b3b23aef63b849630f54dfe",
+        "sha256sum" : "54fe0b966058d4075ededd75afb0c3dbe4d4a95d49dbbb20cb47f4e0e6eeb70a"
+      },
+      {
+        "name" : "BIOMD0000000561-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3198",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b34ae2eece28507fcf626d77633ef45b",
+        "sha1sum" : "c0c4983aaa7114dceb488aaa69f49be2b85ac38b",
+        "sha256sum" : "af23378216cbbd5f834a7ac862bc7ee602020a1319cc911236070bdd7f31e995"
+      },
+      {
+        "name" : "BIOMD0000000561-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3198",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "03f31c7fe1f72e15d84a78839e41d3a9",
+        "sha1sum" : "d1543abf5804430bb91278710194d9602269b165",
+        "sha256sum" : "8c2f1d6f71a9c8b7a045f0137de5764e138f7c5a3d1eb834e287d61cc1d2a7b6"
+      },
+      {
+        "name" : "BIOMD0000000561.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3198",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "03f31c7fe1f72e15d84a78839e41d3a9",
+        "sha1sum" : "d1543abf5804430bb91278710194d9602269b165",
+        "sha256sum" : "8c2f1d6f71a9c8b7a045f0137de5764e138f7c5a3d1eb834e287d61cc1d2a7b6"
+      },
+      {
+        "name" : "BIOMD0000000561.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1582",
+        "mimeType" : "text/plain",
+        "md5sum" : "de8af1c5d8e9731b7960d04e44971bcb",
+        "sha1sum" : "e0409a72195c7f7c47875db67dc4d7f50c945780",
+        "sha256sum" : "106c16b85c6e2f54497aa12543428c23a472ec2214e19142e74e647e5d5a16ea"
+      },
+      {
+        "name" : "BIOMD0000000561.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "127868",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7082f0eeeb5c78746846822d52700c6d",
+        "sha1sum" : "854d4a60d23988ac3255b58bac726e32ab29aba5",
+        "sha256sum" : "2ef998e3783c1e44aba74804979372ee3b990d8d6e1a0e273cad993ff50d9909"
+      },
+      {
+        "name" : "BIOMD0000000561.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "Martins2013.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "31061",
+        "mimeType" : "application/xml",
+        "md5sum" : "7f55c8f2500da88b6b28f43a40017ce6",
+        "sha1sum" : "4a62a9b28d988d8c02a3906a364e7c25fe83752f",
+        "sha256sum" : "530fb4876b8c1a1224c8c090afced70b4b344de36b1ee88b6f3cb6ea48ca6fef"
+      },
+      {
+        "name" : "Martins2013.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "7990",
+        "mimeType" : "application/xml",
+        "md5sum" : "4eba050f72ed8bef915a991b0513e418",
+        "sha1sum" : "416e91ae33d12ff2d678d33437a2b6a23a4f3c0f",
+        "sha256sum" : "07a7a74e98eb62cf96818a45792bfcdc065f4f29da8a6caa3836d350e0658aaf"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13593",
+        "mimeType" : "image/png",
+        "md5sum" : "3d615d545ea7b13a6e461c8472e86677",
+        "sha1sum" : "e470dfa5538ece80266f7977b18fcd5b55e1a68c",
+        "sha256sum" : "bc7e71ece9e64ff8ffbe840567f1f45d199b39179a339b174b01037b68ac1f55"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "751",
+        "mimeType" : "text/plain",
+        "md5sum" : "65a5b24741d8b250a125ed82a3b087e7",
+        "sha1sum" : "aff90c7cecf78f3b7d088bff16e3aac3d26c7039",
+        "sha256sum" : "c3a731693ad385aa0442e59ccce3f2c25f293bc09cbe2136080ea1a9e22a2de9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1789",
+        "mimeType" : "application/xml",
+        "md5sum" : "b57881e1723ef00916c3e17adef794c5",
+        "sha1sum" : "1e2b4c1ccbafc9a1c4799b2209a4ed549f0ff667",
+        "sha256sum" : "0c54330ce75b096af685715701ba994a62b2d45d2d54a3aebb4564e6de41f35c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4561",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d0d6c2beeacb26bf2ad933d5f99ea144",
+        "sha1sum" : "0ed936bf2d0bec51b8d5481b294b46b8b7f3ec66",
+        "sha256sum" : "841e82b626aaa06435851d6f53263b2fd54549b200635c0eca8ae1b0970d68dd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1418311709,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Original import of Martins2013 - True and apparent inhibition of amyloid fribril formation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460141540,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Current version of Martins2013 - True and apparent inhibition of amyloid fribril formation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545414787,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Martins2013.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281568,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285343,
+  "submissionId" : "MODEL1412110000",
+  "publicationId" : "BIOMD0000000561",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Audald Lloret i Villas",
+        "email" : "lloret@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:1990000",
+      "name" : "amyloid fibril formation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1990000"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1412110000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1412110000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000561",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000561"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23232498",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23232498"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000531",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000531"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:649",
+      "name" : "prion disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:649"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

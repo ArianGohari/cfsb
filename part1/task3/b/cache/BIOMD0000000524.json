@@ -1,0 +1,299 @@
+{
+  "name" : "Kallenberger2014 - CD95L induced apoptosis initiated by caspase-8, wild-type HeLa cells (cis/trans variant)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Kallenberger2014 - CD95L induced apoptosis initiated by caspase-8, wild-type HeLa cells (cis/trans variant)</div>            <div class=\"dc:description\">      <p>The paper describes a new approach that combines single cell and population data in the same model. The model consists of a large number of single cell models, which are fitted to single cell data. Simultaneously, ensemble averages are fitted to population data. It is assumed that the kinetics in each cell can be described with the same kinetic parameters. Therefore, cell-to-cell variability is explained by variable initial protein concentrations.</p>                <p>There are four variants of the model (with [CD95L]=500ng/ml = 16.6nM), i) cistrans (in CD95-HeLa cells) [        <a href=\"http://identifiers.org/biomodels.db/MODEL1403050000\">MODEL1403050000</a>            ], ii) cistrans (in wild-type HeLa cells) [        <a href=\"http://identifiers.org/biomodels.db/MODEL1403050001\">MODEL1403050001</a>            ], iii) cistrans-cistrans (in CD95-HeLa cells) [        <a href=\"http://identifiers.org/biomodels.db/MODEL1403050002\">MODEL1403050002</a>            ], and iv) cistrans-cistrans (in wild-type HeLa cells) [        <a href=\"http://identifiers.org/biomodels.db/MODEL1403050003\">MODEL1403050003</a>            ].        </p>                <p>These model contain the equations for one \"average cell\" with median initial concentrations for CD95, FADD, p55, BID, PrNES_mCherry and PrER_mGFP. By integrating the model, it should be possible to obtain trajectories for PrER_mGFP, PrNES_mCherry, p43 and p18 similar as in Figure 4A (CD95-HeLa cells) and Figure 4B (wild-type HeLa cells).</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/doi/10.1126/scisignal.2004738\" title=\"Access to this publication\">Intra- and Interdimeric Caspase-8 Self-Cleavage Controls Strength and Timing of CD95-Induced Apoptosis</a>                    </div>                <div class=\"bibo:authorList\">Stefan M. Kallenberger, Joël Beaudouin, Juliane Claus, Carmen Fischer, Peter K. Sorger, Stefan Legewie, and Roland Eils</div>                <div class=\"bibo:Journal\">11 March 2014: Vol. 7, Issue 316, p. ra23</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>Apoptosis in response to the ligand CD95L (also known as Fas ligand) is initiated by caspase-8, which is activated by dimerization and self-cleavage at death-inducing signaling complexes (DISCs). Previous work indicated that the degree of substrate cleavage by caspase-8 determines whether a cell dies or survives in response to a death stimulus. To determine how a death ligand stimulus is effectively translated into caspase-8 activity, we assessed this activity over time in single cells with compartmentalized probes that are cleaved by caspase-8 and used multiscale modeling to simultaneously describe single-cell and population data with an ensemble of single-cell models. We derived and experimentally validated a minimal model in which cleavage of caspase-8 in the enzymatic domain occurs in an interdimeric manner through interaction between DISCs, whereas prodomain cleavage sites are cleaved in an intradimeric manner within DISCs. Modeling indicated that sustained membrane-bound caspase-8 activity is followed by transient cytosolic activity, which can be interpreted as a molecular timer mechanism reflected by a limited lifetime of active caspase-8. The activation of caspase-8 by combined intra- and interdimeric cleavage ensures weak signaling at low concentrations of CD95L and strongly accelerated activation at higher ligand concentrations, thereby contributing to precise control of apoptosis.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000524\">BIOMD0000000524</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24619646",
+    "journal" : "Science signaling",
+    "title" : "Intra- and interdimeric caspase-8 self-cleavage controls strength and timing of CD95-induced apoptosis.",
+    "affiliation" : "1Department for Bioinformatics and Functional Genomics, Division of Theoretical Bioinformatics, German Cancer Research Center (DKFZ), Institute for Pharmacy and Molecular Biotechnology (IPMB) and BioQuant, Heidelberg University, Heidelberg 69120, Germany.",
+    "synopsis" : "Apoptosis in response to the ligand CD95L (also known as Fas ligand) is initiated by caspase-8, which is activated by dimerization and self-cleavage at death-inducing signaling complexes (DISCs). Previous work indicated that the degree of substrate cleavage by caspase-8 determines whether a cell dies or survives in response to a death stimulus. To determine how a death ligand stimulus is effectively translated into caspase-8 activity, we assessed this activity over time in single cells with compartmentalized probes that are cleaved by caspase-8 and used multiscale modeling to simultaneously describe single-cell and population data with an ensemble of single-cell models. We derived and experimentally validated a minimal model in which cleavage of caspase-8 in the enzymatic domain occurs in an interdimeric manner through interaction between DISCs, whereas prodomain cleavage sites are cleaved in an intradimeric manner within DISCs. Modeling indicated that sustained membrane-bound caspase-8 activity is followed by transient cytosolic activity, which can be interpreted as a molecular timer mechanism reflected by a limited lifetime of active caspase-8. The activation of caspase-8 by combined intra- and interdimeric cleavage ensures weak signaling at low concentrations of CD95L and strongly accelerated activation at higher ligand concentrations, thereby contributing to precise control of apoptosis.",
+    "year" : 2014,
+    "month" : "3",
+    "volume" : "7",
+    "issue" : "316",
+    "pages" : "ra23",
+    "link" : "http://identifiers.org/pubmed/24619646",
+    "authors" : [
+      {
+        "name" : "Stefan M Kallenberger",
+        "institution" : "1Department for Bioinformatics and Functional Genomics, Division of Theoretical Bioinformatics, German Cancer Research Center (DKFZ), Institute for Pharmacy and Molecular Biotechnology (IPMB) and BioQuant, Heidelberg University, Heidelberg 69120, Germany."
+      },
+      {
+        "name" : "Joël Beaudouin"
+      },
+      {
+        "name" : "Juliane Claus"
+      },
+      {
+        "name" : "Carmen Fischer"
+      },
+      {
+        "name" : "Peter K Sorger",
+        "orcid" : "0000-0002-3364-1838"
+      },
+      {
+        "name" : "Stefan Legewie",
+        "orcid" : "0000-0003-4111-0567"
+      },
+      {
+        "name" : "Roland Eils",
+        "orcid" : "0000-0002-0034-4036"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000524_url.xml",
+        "description" : "SBML L2V4 representation of Kallenberger2014 - CD95L induced apoptosis initiated by caspase-8, wild-type HeLa cells (cis/trans variant)",
+        "fileSize" : "39820",
+        "mimeType" : "application/xml",
+        "md5sum" : "f31ee6268d7bfd8185c577265be4e5e1",
+        "sha1sum" : "b58bbb515c348e76d27d3845e761068f27fd3e01",
+        "sha256sum" : "a4718567b13c907b5369a7bf1ace0903ce39b540d0265d997f8bdd7036b1e790"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000524-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "29080",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0ccf2e5ad86f9de358b8a59d45baced7",
+        "sha1sum" : "c87b747e26dcebcc8e2cbfe0f547302b6fd121a0",
+        "sha256sum" : "ec8e515b1e7f566c706dc0f791dc797e5421867d03389239630242c896493904"
+      },
+      {
+        "name" : "BIOMD0000000524-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "44255",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b3146a53465a8aa6bdc47b524d7a7d63",
+        "sha1sum" : "cbc959f08f213559b575f976777cfde1505240c5",
+        "sha256sum" : "76dd032077b70577c308a980a2ef2a7f6873911f2a31d4c36247453469c9888a"
+      },
+      {
+        "name" : "BIOMD0000000524-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8110",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "eb0961863710714a325584ace88d5688",
+        "sha1sum" : "530409ce9dc891bcd2989d8150f9fd223981523e",
+        "sha256sum" : "13cd066d6f7071bd2b9d3772c9b171a7d91f36b76d2fd8d2ba8cd898ff944f1b"
+      },
+      {
+        "name" : "BIOMD0000000524.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "8110",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "caa6373d0deead9656777aecfd159e95",
+        "sha1sum" : "1f653a2ea8740bde2dcbfda212d3af49d8501c2d",
+        "sha256sum" : "51b66856b59ba2e940103bad86525f5977fcf49b0e69fc8adbf67973270f99eb"
+      },
+      {
+        "name" : "BIOMD0000000524.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5564",
+        "mimeType" : "text/plain",
+        "md5sum" : "7f52b0824e75bac70dba43d16a918740",
+        "sha1sum" : "6c441865ca814b49525a9e1cd4f51c7737d98d36",
+        "sha256sum" : "83289eecabf40f0cfe330a17d568bccb6c35a651dcd6864f76e56bb83f85c715"
+      },
+      {
+        "name" : "BIOMD0000000524.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "222725",
+        "mimeType" : "application/pdf",
+        "md5sum" : "392dbbfa203d5e47df3f1713edd0b65e",
+        "sha1sum" : "2248dd4c9c7335fe8e801df31048763f0fd1c9b9",
+        "sha256sum" : "63adf9cdfdc9213379951c3026c77543f3f3037cef239fbafb0db74cd7939ff8"
+      },
+      {
+        "name" : "BIOMD0000000524.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "257658",
+        "mimeType" : "image/png",
+        "md5sum" : "735b2f3061571eebf00d4b04d1eba07c",
+        "sha1sum" : "4ef198f887661ca45f278d4271ee9905f905e71f",
+        "sha256sum" : "a533a7363505d381ec0428500600def3f1763028a73cb18bade00860c89bbf78"
+      },
+      {
+        "name" : "BIOMD0000000524.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5685",
+        "mimeType" : "text/plain",
+        "md5sum" : "d0d3e58ee4f88a404f3106da4e7c1e09",
+        "sha1sum" : "dd9aaefffce4b6442723f28ad59f37c4eaa261bd",
+        "sha256sum" : "47b75959fddca1d2b24780de06e78bad509fc6d1cbab11d189b6318516f96378"
+      },
+      {
+        "name" : "BIOMD0000000524.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "47006",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2135903ca9af55d839ee7edfeaf0cd22",
+        "sha1sum" : "18f7d3a164755263232e68c64cb610e33f56b250",
+        "sha256sum" : "68bd299e877c2e046ae610d2ca02a419d6f566edbb6f0de7c6bd65c01f5a3f85"
+      },
+      {
+        "name" : "BIOMD0000000524.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "54736",
+        "mimeType" : "application/xml",
+        "md5sum" : "97572a76432872a704561b1240d8fc43",
+        "sha1sum" : "f07449390e5ba21e9cf1dd505a9e2c3a0e82b427",
+        "sha256sum" : "0344a6438313c955a2ba07e9b50664832d57fdc441d0ee74c533dd694c865a38"
+      },
+      {
+        "name" : "BIOMD0000000524_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "27720",
+        "mimeType" : "application/xml",
+        "md5sum" : "c7e3aafb4aec70c4c88f29200fe24cf5",
+        "sha1sum" : "48dba69839454f0834f1c6daa9bbe16bc21dd382",
+        "sha256sum" : "dd1ff3d201059459307b863b7b0e3dadb9a9d620912fb30316624fdce285a3a0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "22860",
+        "mimeType" : "image/png",
+        "md5sum" : "f9b4d7a7cd0389a0b5e50a8b52130868",
+        "sha1sum" : "f139053bf2abcb631cf7806fdb8d725809271d40",
+        "sha256sum" : "a01431b63bfd1fb3801c5fe5760ab273361041030aeff58619ada540fb355447"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "595",
+        "mimeType" : "text/plain",
+        "md5sum" : "dd33a7f6bc440cc6e4b1e84fae7dbbe0",
+        "sha1sum" : "7c4452e5f4b441fcb94602995e0833a25ed6d263",
+        "sha256sum" : "277db2a623c8d3fbd9a49885e36beffbd6288d0245cec3150f87b97ba9638e98"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "be0a013d5052a2cf6d3d934dadb9b8a1",
+        "sha1sum" : "3c5c60ec2702f15ff1d4c3ef28240bfa6bc86b60",
+        "sha256sum" : "181473b54054daaffd14c1bb430f6b1bd31cf6110d5a649dc955f59da99f6172"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7018",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9803dd35e8823d01b4636b029881afed",
+        "sha1sum" : "eb53b8c37b209f18a043689c7a906f983bdeb79b",
+        "sha256sum" : "9d9c586117d021795f1a399637c13b3ea5ce3b0c964542104573b84fd856b63f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1394044227,
+        "submitter" : "Stefan Kallenberger",
+        "comment" : "Original import of Kallenberger2014_Caspase8_cis_trans_HeLawt"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424867831,
+        "submitter" : "Stefan Kallenberger",
+        "comment" : "Current version of Kallenberger2014 - CD95L induced apoptosis initiated by caspase-8, wild-type HeLa cells (cis/trans variant)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724280248,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285286,
+  "submissionId" : "MODEL1403050001",
+  "publicationId" : "BIOMD0000000524",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Stefan Kallenberger",
+        "email" : "s.kallenberger@dkfz.de",
+        "affiliation" : "German Cancer Research Center",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24619646",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24619646"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000567",
+      "name" : "HeLa cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006915",
+      "name" : "apoptotic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006915"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1403050001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1403050001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000524",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000524"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

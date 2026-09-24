@@ -1,0 +1,279 @@
+{
+  "name" : "Sarma2012 - Interaction topologies of MAPK cascade (M4_K2_PSEQ)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Sarma2012 - Interaction topologies of MAPK cascade (M4_K2_PSEQ)</div>            <div class=\"dc:description\">      <p>The paper presents the various interaction topologies between the kinases and phosphatases of MAPK cascade. They are represented as M1, M2, M3 and M4. The kinases of the cascades are MKKK, MKK and MK, and Phos1, Phos2 and Phos3 are phosphatases of the system. All three kinases in a M1 type network have specific phosphatases Phos1, Phos2 and Phos3 for the dephosphorylation process. In a M2 type system, kinases MKKK and MKK are dephosphorylated by Phos1 and MK is dephosphorylated by Phos2. The architecture of system like M3 is such that MKKK gets dephosphorylated by Phos1, whereas Phos2 dephosphorylates both MKK and MK. Finally, the MAPK cascade exhibiting more complex design of interaction such as M4 is such that MKKK and MKK are dephosphorylated by Phos1 whereas MKK and MK are dephosphorylated by Phos2. In addition, as it is plausible that the kinases can sequester their respective phosphatases by binding to them, this is considered in the design of the systems (PSEQ-sequestrated system; USEQ-Unsequestrated system). The robustness of different interaction designs of the systems is checked, considering both MichaelisMenten type kinetics (K1) and elementary mass action kinetics (K2). In the living systems, the MAPK cascade transmit both short and long duration signals where short duration signals trigger proliferation and long duration signals trigger cell differentiation. These signal variants are considered to interpret the systems behaviour. It is also tested how the robustness and signal response behaviour of K2 models are affected when K2 assumes quasi steady state (QSS). The combinations of the above variants resulted in 40 models (MODEL1204280001-MODEL1204280040). All these 40 models are available from        <a href=\"http://www.ebi.ac.uk/biomodels\">BioModels Database</a>            .        </p>                <p>Models that correspond to type M4 with mass-action kinetics K2, in four condition 1) USEQ [        <a href=\"http://identifiers.org/biomodels.db/MODEL1204280020\">MODEL1204280020</a>            - M4_K2_USEQ], 2) PSEQ [        <a href=\"http://identifiers.org/biomodels.db/MODEL1204280024\">MODEL1204280024</a>            - M4_K2_PSEQ], 3) QSS_USEQ [        <a href=\"http://identifiers.org/biomodels.db/MODEL1204280036\">MODEL1204280036</a>            - M4_K2_QSS_USEQ] and 4) QSS_PSEQ [        <a href=\"http://identifiers.org/biomodels.db/MODEL1204280040\">MODEL1204280040</a>            - M4_K2_QSS_PSEQ] are available from the curated branch. The remaining 36 models can be accessed from the non-curated branch.        </p>                <p>This model [        <a href=\"http://identifiers.org/biomodels.db/MODEL1204280024\">MODEL1204280024</a>            - M4_K2_PSEQ] correspond to type M4 with mass-action kinetics K2, in PSEQ (sequestrated ) condition.            .        </p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/22748295\" title=\"Access to this publication\">Different designs of kinase-phosphatase interactions and phosphatase sequestration shapes the robustness and signal flow in the MAPK cascade.</a>                    </div>                <div class=\"bibo:authorList\">Sarma U, Ghosh I.</div>                <div class=\"bibo:Journal\">BMC Syst Biol. 2012 Jul 2;6(1):82.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>BACKGROUND: The three layer mitogen activated protein kinase (MAPK) signaling cascade exhibits different designs of interactions between its kinases and phosphatases. While the sequential interactions between the three kinases of the cascade are tightly preserved, the phosphatases of the cascade, such as MKP3 and PP2A, exhibit relatively diverse interactions with their substrate kinases. Additionally, the kinases of the MAPK cascade can also sequester their phosphatases. Thus, each topologically distinct interaction design of kinases and phosphatases could exhibit unique signal processing characteristics, and the presence of phosphatase sequestration may lead to further fine tuning of the propagated signal.</p>                    <p>RESULTS: We have built four models of the MAPK cascade, each model with identical kinase-kinase interactions but unique kinases-phosphatases interactions. Our simulations unravelled that MAPK cascade's robustness to external perturbations is a function of nature of interaction between its kinases and phosphatases. The cascade's output robustness was enhanced when phosphatases were sequestrated by their target kinases. We uncovered a novel implicit/hidden negative feedback loop from the phosphatase MKP3 to its upstream kinase Raf-1, in a cascade resembling the B cell MAPK cascade. Notably, strength of the feedback loop was reciprocal to the strength of phosphatases' sequestration and stronger sequestration abolished the feedback loop completely. An experimental method to verify the presence of the feedback loop is also proposed. We further showed, when the models were activated by transient signal, memory (total time taken by the cascade output to reach its unstimulated level after removal of signal) of a cascade was determined by the specific designs of interaction among its kinases and phosphatases.</p>                    <p>CONCLUSIONS: Differences in interaction designs among the kinases and phosphatases can differentially shape the robustness and signal response behaviour of the MAPK cascade and phosphatase sequestration dramatically enhances the robustness to perturbations in each of the cascade. An implicit negative feedback loop was uncovered from our analysis and we found that strength of the negative feedback loop is reciprocally related to the strength of phosphatase sequestration. Duration of output phosphorylation in response to a transient signal was also found to be determined by the individual cascade's kinase-phosphatase interaction design.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL1204280024\">MODEL1204280024</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22748295",
+    "journal" : "BMC systems biology",
+    "title" : "Different designs of kinase-phosphatase interactions and phosphatase sequestration shapes the robustness and signal flow in the MAPK cascade.",
+    "affiliation" : "National Centre for Cell Science, Ganeshkhind, Pune-7, India. uddipans@gmail.com",
+    "synopsis" : "<h4>Background</h4>The three layer mitogen activated protein kinase (MAPK) signaling cascade exhibits different designs of interactions between its kinases and phosphatases. While the sequential interactions between the three kinases of the cascade are tightly preserved, the phosphatases of the cascade, such as MKP3 and PP2A, exhibit relatively diverse interactions with their substrate kinases. Additionally, the kinases of the MAPK cascade can also sequester their phosphatases. Thus, each topologically distinct interaction design of kinases and phosphatases could exhibit unique signal processing characteristics, and the presence of phosphatase sequestration may lead to further fine tuning of the propagated signal.<h4>Results</h4>We have built four architecturally distinct types of models of the MAPK cascade, each model with identical kinase-kinase interactions but unique kinases-phosphatases interactions. Our simulations unravelled that MAPK cascade's robustness to external perturbations is a function of nature of interaction between its kinases and phosphatases. The cascade's output robustness was enhanced when phosphatases were sequestrated by their target kinases. We uncovered a novel implicit/hidden negative feedback loop from the phosphatase MKP3 to its upstream kinase Raf-1, in a cascade resembling the B cell MAPK cascade. Notably, strength of the feedback loop was reciprocal to the strength of phosphatases' sequestration and stronger sequestration abolished the feedback loop completely. An experimental method to verify the presence of the feedback loop is also proposed. We further showed, when the models were activated by transient signal, memory (total time taken by the cascade output to reach its unstimulated level after removal of signal) of a cascade was determined by the specific designs of interaction among its kinases and phosphatases.<h4>Conclusions</h4>Differences in interaction designs among the kinases and phosphatases can differentially shape the robustness and signal response behaviour of the MAPK cascade and phosphatase sequestration dramatically enhances the robustness to perturbations in each of the cascade. An implicit negative feedback loop was uncovered from our analysis and we found that strength of the negative feedback loop is reciprocally related to the strength of phosphatase sequestration. Duration of output phosphorylation in response to a transient signal was also found to be determined by the individual cascade's kinase-phosphatase interaction design.",
+    "year" : 2012,
+    "month" : "7",
+    "volume" : "6",
+    "pages" : "82",
+    "link" : "http://identifiers.org/pubmed/22748295",
+    "authors" : [
+      {
+        "name" : "Uddipan Sarma",
+        "institution" : "National Centre for Cell Science, Ganeshkhind, Pune-7, India. uddipans@gmail.com"
+      },
+      {
+        "name" : "Indira Ghosh"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000431_url.xml",
+        "description" : "SBML L2V4 representation of Sarma2012 - Interaction topologies of MAPK cascade (M4_K2_PSEQ)",
+        "fileSize" : "105418",
+        "mimeType" : "application/xml",
+        "md5sum" : "339473eaa857e1f5d4c7c860c3764682",
+        "sha1sum" : "acd6243f99bc09708d97880e1cb587b44bc843bd",
+        "sha256sum" : "6129816223fabedfe9b04275acf315f2e411094b9dee811faa02526c581186cb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000431-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "60001",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c6a629ca9687b3ba1a59b759a3a5eec",
+        "sha1sum" : "682acf607d0a2c16041ef52673588fd1aef32507",
+        "sha256sum" : "f8c8bd58b7dd793dd09d2685d49e1ad173ccd0e43becc31d43653225b016b171"
+      },
+      {
+        "name" : "BIOMD0000000431-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "98139",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "60ab6c00aef7edf92884ba88dd5c0e35",
+        "sha1sum" : "706dbd64b0b294f4e64ed55f452fb5bcdaa34b44",
+        "sha256sum" : "da4fc9f1e88d5770529af2e5039aba5ef0a3e8a912e7fceb9b2fe8c2cd54ee51"
+      },
+      {
+        "name" : "BIOMD0000000431-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "15864",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b31c6a7c34ff49b9afa167a7235ffa98",
+        "sha1sum" : "b77afcf2eb24b12d815b8a9c646eedac45237f61",
+        "sha256sum" : "742a64ee0fc68428857c81741be3a13a8b93f16f49388f89601c2a7d0e2a4e57"
+      },
+      {
+        "name" : "BIOMD0000000431-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "15864",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ded72ea3c411b15db2cc731c03cac987",
+        "sha1sum" : "5a46670bc32498abf5e30fc81616d2e299d87831",
+        "sha256sum" : "d0a1e4e4a0db281f87fdfd34683e7db747d85036cf548a4701be898580ae3c18"
+      },
+      {
+        "name" : "BIOMD0000000431.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "15864",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ded72ea3c411b15db2cc731c03cac987",
+        "sha1sum" : "5a46670bc32498abf5e30fc81616d2e299d87831",
+        "sha256sum" : "d0a1e4e4a0db281f87fdfd34683e7db747d85036cf548a4701be898580ae3c18"
+      },
+      {
+        "name" : "BIOMD0000000431.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11992",
+        "mimeType" : "text/plain",
+        "md5sum" : "5989091d329ba3d3df32737901d52253",
+        "sha1sum" : "5ac0764428b08b9b95e647e830f67c5fe2464f43",
+        "sha256sum" : "be8d612dc59efa638f8e200f7d447179595cf64fd00404934446c80d800496cc"
+      },
+      {
+        "name" : "BIOMD0000000431.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "327850",
+        "mimeType" : "application/pdf",
+        "md5sum" : "339647f1d6680b16d98865e579f62e16",
+        "sha1sum" : "867bfb1fdf77db65867e9ce1732bf9d6b1bef5fa",
+        "sha256sum" : "ef1044fa8008deb5fe8688670e536c7f6e522450a327326952a772ad247e93f3"
+      },
+      {
+        "name" : "BIOMD0000000431.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "762323",
+        "mimeType" : "image/png",
+        "md5sum" : "924917d76252a41fcd4a9cc1799dd858",
+        "sha1sum" : "290c18ee465da27532d443345987e71fe49e6e8e",
+        "sha256sum" : "9340723e2de55a83a7523116671f71bc52dc704e47f57044b89d27e6bb33b032"
+      },
+      {
+        "name" : "BIOMD0000000431.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "111971",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "94162acdd4f5b084f5a4ddd2cc717ad9",
+        "sha1sum" : "5474b49f6e553e00fe59ca18dacd172335a9ecd6",
+        "sha256sum" : "f8b612898372a7d8e0a646b3e9bae88cb21f12b99eb4a1aa727bee711260b318"
+      },
+      {
+        "name" : "BIOMD0000000431.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "163998",
+        "mimeType" : "application/xml",
+        "md5sum" : "0f50972c75a035d7879a0996ee4fae0c",
+        "sha1sum" : "065b8541aace9cbcc5c4ee3941be6c16ce70a92b",
+        "sha256sum" : "92ec7b4fe70cf4458ca6c3d8bf020de158a3c30815e153210389437e0e1799fc"
+      },
+      {
+        "name" : "BIOMD0000000431_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "37408",
+        "mimeType" : "application/xml",
+        "md5sum" : "08651b9bbe3c912d94a6e679704ad1f5",
+        "sha1sum" : "33dd2feed73971266c6b0889b911328b15f0b3fa",
+        "sha256sum" : "be699e44e2f683ad0d91f9df9e82ede23d403bd4146a3613dc056e3dbcfb5879"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12394",
+        "mimeType" : "image/png",
+        "md5sum" : "4043f732cf77cfe86efd3222100a5c99",
+        "sha1sum" : "51020a3d2f8848b1080e93906328ac7e40c0c00f",
+        "sha256sum" : "d2600130f3f01b661cdb0ee1510cb21c0d6356b02be6bf2fbaeeec230d98591a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "252",
+        "mimeType" : "text/plain",
+        "md5sum" : "3510d7f74b065a47ada023dab18233ed",
+        "sha1sum" : "e533a017700ad9e9d5e1fa1df78a7fdc552f3505",
+        "sha256sum" : "116e6bd8a97d381c342c7daab24d3185656d56ea8b44ec9cf0a9491dde10c1b1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "90a876d673ea565ad4e5a72bfcbbda80",
+        "sha1sum" : "380d6139049f5344ce09bfe4a615ceb08bb834ac",
+        "sha256sum" : "4ab30bb93f42496267c372b6daecd413e7805d2101e18e978b0a485b5e976bde"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "9959",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3caacc16833c7faa333f0d2f0de01c3c",
+        "sha1sum" : "74ca075a34e4764094ce2f67c0291264fdf19ee6",
+        "sha256sum" : "7939953204c0aedb86997912d549b66992439c696ff7d2d2e603405f8873f638"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1335593120,
+        "submitter" : "Uddipan Sarma",
+        "comment" : "Original import of New Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401477624,
+        "submitter" : "Uddipan Sarma",
+        "comment" : "Current version of Sarma2012 - Interaction topologies of MAPK cascade (M4_K2_PSEQ)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724276792,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285164,
+  "submissionId" : "MODEL1204280024",
+  "publicationId" : "BIOMD0000000431",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Uddipan Sarma",
+        "email" : "uddipans@gmail.com",
+        "affiliation" : "National Centre for Cell Science",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22748295",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22748295"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "19897477",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/19897477"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1204280024",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1204280024"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000431",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000431"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "name" : "Tyson2003_Substrate_Depletion_Osc",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is an SBML implementation the model of the substrate depletion oscillator (figure 2c) described in the article:<br />        <b>Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell.</b>        <br />Tyson JJ, Chen KC, Novak B. <em>Curr Opin Cell Biol.</em> 2003 Apr;15(2):221-31. PubmedID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12648679\">12648679</a>; DOI:<a href=\"http://dx.doi.org/10.1016/S0955-0674(03)00017-6\">10.1016/S0955-0674(03)00017-6</a>;<br /></p>        <p>Abstract:<br />The physiological responses of cells to external and internal stimuli are governed by genes and proteins interacting in complex networks whose dynamical properties are impossible to understand by intuitive reasoning alone. Recent advances by theoretical biologists have demonstrated that molecular regulatory networks can be accurately modeled in mathematical terms. These models shed light on the design principles of biological control systems and make predictions that have been verified experimentally.</p>        <p> Originally created by libAntimony v1.4 (using libSBML 3.4.1) </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12648679",
+    "journal" : "Current opinion in cell biology",
+    "title" : "Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell.",
+    "affiliation" : "Department of Biology, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061, USA. tyson@vt.edu",
+    "synopsis" : "The physiological responses of cells to external and internal stimuli are governed by genes and proteins interacting in complex networks whose dynamical properties are impossible to understand by intuitive reasoning alone. Recent advances by theoretical biologists have demonstrated that molecular regulatory networks can be accurately modeled in mathematical terms. These models shed light on the design principles of biological control systems and make predictions that have been verified experimentally.",
+    "year" : 2003,
+    "month" : "4",
+    "volume" : "15",
+    "issue" : "2",
+    "pages" : "221-231",
+    "link" : "http://identifiers.org/pubmed/12648679",
+    "authors" : [
+      {
+        "name" : "John J Tyson"
+      },
+      {
+        "name" : "Katherine C Chen"
+      },
+      {
+        "name" : "Bela Novak",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000307_url.xml",
+        "description" : "SBML L2V4 representation of Tyson2003_Substrate_Depletion_Osc",
+        "fileSize" : "20384",
+        "mimeType" : "application/xml",
+        "md5sum" : "deda180acc0efb6631b5b28e9edc7458",
+        "sha1sum" : "049879063679e691fa129ba3cfa0acf90fae5037",
+        "sha256sum" : "d220ea5ee868827591c87ca1a184ab179b4fa47599a3ac0975a155ab39118adf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000307-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "10273",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4df6c5e800235eac6de2f19253c3a42f",
+        "sha1sum" : "5992f134ab9f1d3462c24d8f427801de3839ea6b",
+        "sha256sum" : "4d36a8fb43a5196ecf1db9a04f2c7e7c37ff2fec9b4c10fc1d1f921f27660c00"
+      },
+      {
+        "name" : "BIOMD0000000307-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "13831",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ad53cccad21034b57e6a7776e91ef42b",
+        "sha1sum" : "1edee876105a3dbb616af8ff1cb084848761a459",
+        "sha256sum" : "a2d46186dcf66ed3a1b4ac102caf6e1f4808895f3ec7e9b69a706f36d725bc44"
+      },
+      {
+        "name" : "BIOMD0000000307-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dcd9cc599f61ea4225880aa23d5a6fab",
+        "sha1sum" : "376492d12375661f4395af5f8d753dfcb1b3e67f",
+        "sha256sum" : "eddee567c1d197424c9c1340fedfbb0b02dad92ad7caf13e2568f624c7f756c6"
+      },
+      {
+        "name" : "BIOMD0000000307-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dafa919f342f3d1db6a4f40cf589532f",
+        "sha1sum" : "8d64d7c8dc90e4e7221b24a520338be524271825",
+        "sha256sum" : "350d5e6c428d70e8c2e44796e477e4e495a112fa351a6cac2259bd6f4ed55d99"
+      },
+      {
+        "name" : "BIOMD0000000307.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dafa919f342f3d1db6a4f40cf589532f",
+        "sha1sum" : "8d64d7c8dc90e4e7221b24a520338be524271825",
+        "sha256sum" : "350d5e6c428d70e8c2e44796e477e4e495a112fa351a6cac2259bd6f4ed55d99"
+      },
+      {
+        "name" : "BIOMD0000000307.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2468",
+        "mimeType" : "text/plain",
+        "md5sum" : "6296244591507dbd98550be7b55c2da9",
+        "sha1sum" : "2a27579eb19d4b6935135405a89671339f95bd96",
+        "sha256sum" : "e8ad38311b8b42716402889ad8011e2d2448f2861ee8fe808f22708838478d0e"
+      },
+      {
+        "name" : "BIOMD0000000307.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "172032",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d3145b3ec3c40cd0ba875d3dc084c5af",
+        "sha1sum" : "feca742950340ca4581017d830cd03366a1823b0",
+        "sha256sum" : "f03c860d9ecb31d90d6192073c9a8c3258f48a20c85475e7bf5be6876a8ec8c2"
+      },
+      {
+        "name" : "BIOMD0000000307.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "26937",
+        "mimeType" : "image/png",
+        "md5sum" : "5919cf0901d9e0fe0601abf65393b349",
+        "sha1sum" : "b80772b332c8a7336cf5885b17b95c5d275e06fe",
+        "sha256sum" : "b29d93d8f6736a604c863253af0890ac2f9f03e7889cf89d2838097465b3faf1"
+      },
+      {
+        "name" : "BIOMD0000000307.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "11109",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "60bd69ea73f3144c8b23d4efef65965d",
+        "sha1sum" : "43b60b4b2468410dac3879b2396f5b69fe2f678f",
+        "sha256sum" : "e5ca009a46a41270e79d587c815b8f13921a111b4a36e89303c56fad90895a3f"
+      },
+      {
+        "name" : "BIOMD0000000307.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "22321",
+        "mimeType" : "application/xml",
+        "md5sum" : "30c352d9cc9a005576871ce16fe15ce8",
+        "sha1sum" : "a97834774f7d99597c93aaa6a72539ee9831e039",
+        "sha256sum" : "4571161c07f39818ce7d1dc7545d1e91f6946a47fea3ce7d6b1a9cac889a689d"
+      },
+      {
+        "name" : "BIOMD0000000307_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "13212",
+        "mimeType" : "application/xml",
+        "md5sum" : "1776e910258bb59cfc782608a4a4aa78",
+        "sha1sum" : "e123e8c522b695390ce3972f5e9e7a454cfc6155",
+        "sha256sum" : "eb1affc6cfa61badbe3d60881baf7e2ac5a73971fa870d18bd630171914b2967"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "54307",
+        "mimeType" : "image/png",
+        "md5sum" : "a25fb87507b5a1807cb185a50b427b15",
+        "sha1sum" : "24a9398f4dfcf3b2170638581b7f6374dff1eb9e",
+        "sha256sum" : "4d96732beee814b27a028fc6180a830587f6311468c57ce4b2b0b1c6a2388da3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "358",
+        "mimeType" : "text/plain",
+        "md5sum" : "bec529d200bd25c5647e05c1197b40aa",
+        "sha1sum" : "a2e6fbbd9d3a7e7cd1e29fee2743e4962bdfdf89",
+        "sha256sum" : "662328fa0738cd883a96b8607dbc7d14e4915713657d1b338b380fe81a839a09"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "685c2fd9902c2bc195f42cc1a01f8905",
+        "sha1sum" : "76a4a2e9c18a581d4f830c7d84bfea748da3d69f",
+        "sha256sum" : "8f09b1547b71ad65356b003dffb1f5fb2fe0a25a5e190c310ef1997a1a52b082"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3788",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6aa13930ecd90d49d9533312fc589e66",
+        "sha1sum" : "9e2784e5242485af85778033409d06a40b4e359d",
+        "sha256sum" : "8b2ea0a5660778c1b44d3a2cb1ad9c1c642a4c69594c8ec3fa123075cb76c113"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1297308674,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Tyson2003_Substrate_Depletion_Osc"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396818073,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Tyson2003_Substrate_Depletion_Osc"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273142,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285022,
+  "submissionId" : "MODEL1102100006",
+  "publicationId" : "BIOMD0000000307",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1102100006",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1102100006"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000307",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000307"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12648679",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12648679"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051098",
+      "name" : "regulation of binding",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051098"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

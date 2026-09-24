@@ -1,0 +1,245 @@
+{
+  "name" : "Sammut2022 - Multi-omic machine learning model to predict pathological complete response for breast cancer neoadjuvant therapy",
+  "description" : "In this publication, researchers investigated the intricate relationship between breast cancers and their microenvironment, specifically focusing on predicting treatment responses using multi-omic machine learning model. They collected diverse data types including clinical, genomic, transcriptomic, and digital pathology profiles from pre-treatment biopsies of breast tumors. Leveraging this comprehensive multi-omic dataset, the team developed ensemble machine learning models using different algorithms (Logistic Regression, SVM and Random Forest). These predictive models identifies patients likely to achieve a pathological complete response (pCR) to therapy, showcasing their potential to enhance treatment selection. Please note that the authors also have an interactive dashboard to apply the fully-integrated NAT response model on new (or any desired) data. The user can find its link in their GitHub repository: https://github.com/micrisor/NAT-MLFor more information and clarification, please refer to the ReadMe_NAT-ML document in the files section.",
+  "format" : {
+    "name" : "Other",
+    "identifier" : "UNKNOWN",
+    "version" : "*"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "34875674",
+    "journal" : "Nature",
+    "title" : "Multi-omic machine learning predictor of breast cancer therapy response.",
+    "affiliation" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK.",
+    "synopsis" : "Breast cancers are complex ecosystems of malignant cells and the tumour microenvironment<sup>1</sup>. The composition of these tumour ecosystems and interactions within them contribute to responses to cytotoxic therapy<sup>2</sup>. Efforts to build response predictors have not incorporated this knowledge. We collected clinical, digital pathology, genomic and transcriptomic profiles of pre-treatment biopsies of breast tumours from 168 patients treated with chemotherapy with or without HER2 (encoded by ERBB2)-targeted therapy before surgery. Pathology end points (complete response or residual disease) at surgery<sup>3</sup> were then correlated with multi-omic features in these diagnostic biopsies. Here we show that response to treatment is modulated by the pre-treated tumour ecosystem, and its multi-omics landscape can be integrated in predictive models using machine learning. The degree of residual disease following therapy is monotonically associated with pre-therapy features, including tumour mutational and copy number landscapes, tumour proliferation, immune infiltration and T cell dysfunction and exclusion. Combining these features into a multi-omic machine learning model predicted a pathological complete response in an external validation cohort (75 patients) with an area under the curve of 0.87. In conclusion, response to therapy is determined by the baseline characteristics of the totality of the tumour ecosystem captured through data integration and machine learning. This approach could be used to develop predictors for other cancers.",
+    "year" : 2022,
+    "month" : "1",
+    "volume" : "601",
+    "issue" : "7894",
+    "pages" : "623-629",
+    "link" : "http://identifiers.org/pubmed/34875674",
+    "authors" : [
+      {
+        "name" : "Stephen-John Sammut",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK.Department of Oncology, University of Cambridge, Cambridge, UK.CRUK Cambridge Centre, Cambridge Experimental Cancer Medicine Centre (ECMC) and NIHR Cambridge Biomedical Research Centre, University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK.",
+        "orcid" : "0000-0003-4472-904X"
+      },
+      {
+        "name" : "Mireia Crispin-Ortuzar",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK."
+      },
+      {
+        "name" : "Suet-Feung Chin",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK.",
+        "orcid" : "0000-0001-5697-1082"
+      },
+      {
+        "name" : "Elena Provenzano",
+        "institution" : "CRUK Cambridge Centre, Cambridge Experimental Cancer Medicine Centre (ECMC) and NIHR Cambridge Biomedical Research Centre, University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK.",
+        "orcid" : "0000-0003-3345-3965"
+      },
+      {
+        "name" : "Helen A Bardwell",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK."
+      },
+      {
+        "name" : "Wenxin Ma",
+        "institution" : "School of Clinical Medicine, University of Cambridge, Cambridge, UK."
+      },
+      {
+        "name" : "Wei Cope",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK."
+      },
+      {
+        "name" : "Ali Dariush",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK.Institute of Astronomy, University of Cambridge, Cambridge, UK."
+      },
+      {
+        "name" : "Sarah-Jane Dawson",
+        "institution" : "Peter MacCallum Cancer Centre, Melbourne, Victoria, Australia.Centre of Cancer Research and Sir Peter MacCallum Department of Oncology, University of Melbourne, Melbourne, Victoria, Australia.",
+        "orcid" : "0000-0002-8276-0374"
+      },
+      {
+        "name" : "Jean E Abraham",
+        "institution" : "Department of Oncology, University of Cambridge, Cambridge, UK.CRUK Cambridge Centre, Cambridge Experimental Cancer Medicine Centre (ECMC) and NIHR Cambridge Biomedical Research Centre, University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK."
+      },
+      {
+        "name" : "Janet Dunn",
+        "institution" : "Warwick Clinical Trials Unit, University of Warwick, Coventry, UK.",
+        "orcid" : "0000-0001-7313-4446"
+      },
+      {
+        "name" : "Louise Hiller",
+        "institution" : "Warwick Clinical Trials Unit, University of Warwick, Coventry, UK.",
+        "orcid" : "0000-0001-8538-9163"
+      },
+      {
+        "name" : "Jeremy Thomas",
+        "institution" : "Edinburgh Cancer Research Centre, Western General Hospital, Edinburgh, UK.Q2 Laboratory Solutions, Livingston, UK.",
+        "orcid" : "0000-0002-4652-610X"
+      },
+      {
+        "name" : "David A Cameron",
+        "institution" : "Edinburgh Cancer Research Centre, Western General Hospital, Edinburgh, UK.",
+        "orcid" : "0000-0002-2717-7979"
+      },
+      {
+        "name" : "John M S Bartlett",
+        "institution" : "Edinburgh Cancer Research Centre, Western General Hospital, Edinburgh, UK.Ontario Institute for Cancer Research, Toronto, Ontario, Canada.Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, Canada."
+      },
+      {
+        "name" : "Larry Hayward",
+        "institution" : "Edinburgh Cancer Research Centre, Western General Hospital, Edinburgh, UK."
+      },
+      {
+        "name" : "Paul D Pharoah",
+        "institution" : "CRUK Cambridge Centre, Cambridge Experimental Cancer Medicine Centre (ECMC) and NIHR Cambridge Biomedical Research Centre, University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK.Strangeways Research Laboratory, University of Cambridge, Cambridge, UK.",
+        "orcid" : "0000-0001-8494-732X"
+      },
+      {
+        "name" : "Florian Markowetz",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK.",
+        "orcid" : "0000-0002-2784-5308"
+      },
+      {
+        "name" : "Oscar M Rueda",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK.MRC Biostatistics Unit, University of Cambridge, Cambridge, UK.",
+        "orcid" : "0000-0003-0008-4884"
+      },
+      {
+        "name" : "Helena M Earl",
+        "institution" : "Department of Oncology, University of Cambridge, Cambridge, UK.CRUK Cambridge Centre, Cambridge Experimental Cancer Medicine Centre (ECMC) and NIHR Cambridge Biomedical Research Centre, University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK.",
+        "orcid" : "0000-0003-1549-8094"
+      },
+      {
+        "name" : "Carlos Caldas",
+        "institution" : "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Cambridge, UK. carlos.caldas@cruk.cam.ac.uk.Department of Oncology, University of Cambridge, Cambridge, UK. carlos.caldas@cruk.cam.ac.uk.CRUK Cambridge Centre, Cambridge Experimental Cancer Medicine Centre (ECMC) and NIHR Cambridge Biomedical Research Centre, University of Cambridge and Cambridge University Hospitals NHS Foundation Trust, Cambridge, UK. carlos.caldas@cruk.cam.ac.uk.",
+        "orcid" : "0000-0003-3547-1489"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "reproduced_trained_models.zip",
+        "description" : "A subset of trained models which is later used in the validation process.",
+        "fileSize" : "87786133",
+        "mimeType" : "application/zip",
+        "md5sum" : "81e98cac9882741e9dcbaf75a021a565",
+        "sha1sum" : "6b8925f958c3ccf67a9606e4c5e03d48da9aadee",
+        "sha256sum" : "5b4e1ae5ebc715ebe2e32fc9e7105773985e3b91ce2ce69958d61debb423b2f5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "NAT-ML_annotation.csv",
+        "description" : "Model annotation file in csv format for the NAT-ML model.",
+        "fileSize" : "4766",
+        "mimeType" : "text/plain",
+        "md5sum" : "ad0687b4f387fd551f74d53c07a7ea28",
+        "sha1sum" : "cc6f4b663e8038b04993d65c1fcf8eab33c61b09",
+        "sha256sum" : "82f8029e45b752ddaeec0da9e5667208e5740c59844a8bf38043b24c0783ee31"
+      },
+      {
+        "name" : "NATML_reproduced_figures.pdf",
+        "description" : "Reproduced figures corresponding to the Fig. 4c and Fig. 4d in the manuscript.",
+        "fileSize" : "91025",
+        "mimeType" : "application/pdf",
+        "md5sum" : "104fcf9cebb010c176712de4a2e7a9ad",
+        "sha1sum" : "1fb57afada5c453a1255dac08a1eda7e7fe7e93f",
+        "sha256sum" : "fde8443d981f5709b2703c5e062c0cc687b34643c9fdc6744039b5364826c955"
+      },
+      {
+        "name" : "ReadMe_NAT-ML.rtf",
+        "description" : "A ReadMe file to provide further comments and clarification regarding the training and validation process of the NAT-ML model",
+        "fileSize" : "7071",
+        "mimeType" : "application/rtf",
+        "md5sum" : "bb441c0b060af71b01d5a1d372c39be2",
+        "sha1sum" : "2e5c470a2e920e29c1b9dd2697d9573194af896b",
+        "sha256sum" : "40ebbbc59b736742ea01112066d5049a1c9d058eee9163f3c190a3ea4e467317"
+      },
+      {
+        "name" : "reproduced_validation_results.zip",
+        "description" : "Reproduced validation results.",
+        "fileSize" : "62068972",
+        "mimeType" : "application/zip",
+        "md5sum" : "8dae4732282dc3f6494e3a915810e32d",
+        "sha1sum" : "7cf4eb2b87e8e0fea65f62860156a49b59a8dd16",
+        "sha256sum" : "dee4ba71142295845a034c4afa4a66f776254a55baca0ff0152817b5e3e6e0f5"
+      },
+      {
+        "name" : "training_files.zip",
+        "description" : "This folder contains all the necessary code files, datasets, and singularity container image that is required to train the NAT-ML models.",
+        "fileSize" : "487063429",
+        "mimeType" : "application/zip",
+        "md5sum" : "3f5c7468ca112ee2749f233f7c9f2dd9",
+        "sha1sum" : "76b958a48329688086dd957638a07d6229c7fd70",
+        "sha256sum" : "93f3a2ad1ef93a0bfb9861ef3d8fa8ff5502cfd4801d2f267e0925ce69891a30"
+      },
+      {
+        "name" : "validation_files.zip",
+        "description" : "This folder contains all the necessary code files and datasets that is required to generate validation results using the trained models provided in the submission.",
+        "fileSize" : "71539",
+        "mimeType" : "application/zip",
+        "md5sum" : "e951bc53cc787d18edd53310577ddd45",
+        "sha1sum" : "7bb6eee9d0c212535a4676b363980e0b2ddaec49",
+        "sha256sum" : "52dd582f352fab100f63be9008d8e83d8193d96f2186382470e59d2730126574"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1692985275,
+        "submitter" : "Divyang Deep Tiwari",
+        "comment" : "Import of Sammut2022 - Multi-omic machine learning model to predict pathological complete response for breast cancer neoadjuvant therapy"
+      }
+    ]
+  },
+  "firstPublished" : 1693205906,
+  "submissionId" : "MODEL2308250001",
+  "publicationId" : "BIOMD0000001075",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000023",
+    "name" : "computational model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000023"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FAIR-AIML",
+    "Machine Learning Model"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Divyang Deep Tiwari",
+        "email" : "dtiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "34875674",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:34875674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001075",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001075"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2308250001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2308250001"
+    }
+  ]
+}

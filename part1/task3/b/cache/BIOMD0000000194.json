@@ -1,0 +1,295 @@
+{
+  "name" : "Ibrahim2008_Cdc20_Sequestring_Template_Model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <i>Biophysical Chemistry 134 (2008) 93-100</i>            <h1>Mad2 binding is not sufficient for complete Cdc20 sequestering in mitotic transition control (an      <i>in silico</i>          study)      </h1>            <br />        Bashar Ibrahim, Peter Dittrich, Stephan Diekmann, Eberhard Schmitt    <br />            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use      <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18295960",
+    "journal" : "Biophysical chemistry",
+    "title" : "Mad2 binding is not sufficient for complete Cdc20 sequestering in mitotic transition control (an in silico study).",
+    "affiliation" : "Bio Systems Analysis Group, Institute of Computer Science, Friedrich-Schiller-University Jena, Ernst-Abbe-Platz 1-4, D-07743 Jena, Germany.",
+    "synopsis" : "For successful mitosis, metaphase has to be arrested until all centromeres are properly attached. The onset of anaphase, which is initiated by activating the APC, is controlled by the spindle assembly checkpoint (M)SAC. Mad2, which is a constitutive member of the (M)SAC, is supposed to inhibit the activity of the APC by sequestering away its co-activator Cdc20. Mad1 recruits Mad2 to unattached kinetochores and is compulsory for the establishment of the Mad2 and Cdc20 complexes. Recently, based on results from in vivo and in vitro studies, two biochemical models were proposed: the Template and the Exchange model. Here, we derive a mathematical description to compare the dynamical behaviour of the two models. Our simulation analysis supports the Template model. Using experimentally determined values for the model parameters, the Cdc20 concentration is reduced down to only about half. Thus, although the Template model displays good metaphase-to-anaphase switching behaviour, it is not able to completely describe (M)SAC regulation. This situation is neither improved by amplification nor by p31(comet) inhibition. We speculate that either additional reaction partners are required for total inhibition of Cdc20 or an extended mechanism has to be introduced for (M)SAC regulation.",
+    "year" : 2008,
+    "month" : "4",
+    "volume" : "134",
+    "issue" : "1-2",
+    "pages" : "93-100",
+    "link" : "http://identifiers.org/pubmed/18295960",
+    "authors" : [
+      {
+        "name" : "Bashar Ibrahim",
+        "institution" : "Department of Bioinformatics, Matthias Schleiden Institute, Friedrich Schiller University Jena, Ernst-Abbe-Platz 2, 07743 Jena, Germany.Centre for Applied Mathematics and Bioinformatics, Gulf University for Science and Technology, Hawally 32093, Kuwait.Department of Mathematics and Natural Sciences, Gulf University for Science and Technology, Hawally 32093, Kuwait.",
+        "orcid" : "0000-0001-7773-0122"
+      },
+      {
+        "name" : "Peter Dittrich"
+      },
+      {
+        "name" : "Stephan Diekmann"
+      },
+      {
+        "name" : "Eberhard Schmitt"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000194_url.xml",
+        "description" : "SBML L2V3 representation of Ibrahim2008_Cdc20_Sequestring_Template_Model",
+        "fileSize" : "16346",
+        "mimeType" : "application/xml",
+        "md5sum" : "c3b3745c6f8dfb3a8585a731c9376477",
+        "sha1sum" : "ed723cff7c4849d77b2ac4d75567bbdd744a5652",
+        "sha256sum" : "c0cb7159aceb0d9a4dff243c3ecdbc1f5c2482d02568e77b9312f3afec0b7701"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000194-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "11821",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d587d44545c1732e0839ff17a5928032",
+        "sha1sum" : "20c4f7c48f66c90d08ff4d90ba7f70142be9d601",
+        "sha256sum" : "3a8cad05e6df52de439c7768698a1997e43671444dd135012bf99c2e6c850dfc"
+      },
+      {
+        "name" : "BIOMD0000000194-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "16443",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6c7769fec19477c48a1cd2552df66ab2",
+        "sha1sum" : "d44160e88029c8644a7138aa38f0d9a48e7bcf0b",
+        "sha256sum" : "fe7a9265f594b96224eced6f6eb0863080e45b21e893761ab5a1dfceaffb8f6d"
+      },
+      {
+        "name" : "BIOMD0000000194-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4096",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "593a8fcef7292db116553941769f8143",
+        "sha1sum" : "c429dd293a35c9c030c9fc6e40140a36df661ac0",
+        "sha256sum" : "0577a01a59608b36724f49ee24689aef0bf4e77ccfe9b200a1e88ef09538f5e0"
+      },
+      {
+        "name" : "BIOMD0000000194-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4096",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8bb8f3e46338d2704cc5446b18df6494",
+        "sha1sum" : "5dfc6734305d4aa9d1a4d82fa489d12c1bef7348",
+        "sha256sum" : "f97a1b12a3a15b0dc8aab6ff37801ffe0369ed3c60f9860f56c0b0f703639cbb"
+      },
+      {
+        "name" : "BIOMD0000000194.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4096",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8bb8f3e46338d2704cc5446b18df6494",
+        "sha1sum" : "5dfc6734305d4aa9d1a4d82fa489d12c1bef7348",
+        "sha256sum" : "f97a1b12a3a15b0dc8aab6ff37801ffe0369ed3c60f9860f56c0b0f703639cbb"
+      },
+      {
+        "name" : "BIOMD0000000194.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2349",
+        "mimeType" : "text/plain",
+        "md5sum" : "41e69c8c36da35206c7894328d5faf44",
+        "sha1sum" : "77379b998e7521bfa8e1715f41af291294342afb",
+        "sha256sum" : "f0f57396a2bd7da5d6ac0a619c04365371ebd3836b88480e5884071ca38beb90"
+      },
+      {
+        "name" : "BIOMD0000000194.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "171230",
+        "mimeType" : "application/pdf",
+        "md5sum" : "03a3e32c4868dee77bc10fa04dcafdd5",
+        "sha1sum" : "e75e2460c57a385f0d662dbf96a9712f38256bcf",
+        "sha256sum" : "64bdb2ea5c45f1a1572c97b0f873ad5be9184d2d220778b9c9be508c2dee1d03"
+      },
+      {
+        "name" : "BIOMD0000000194.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "28337",
+        "mimeType" : "image/png",
+        "md5sum" : "4a68709175d8344401b50b30b7404d33",
+        "sha1sum" : "686a600ed95eab11a05324db7477b4270e9136d3",
+        "sha256sum" : "86d3a0df85c42727fa32b1ebda013abd3a7f2134bb326b522cd3db68d01c2beb"
+      },
+      {
+        "name" : "BIOMD0000000194.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "10547",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e4789a78ea4cfa658ca3ce7cd71d8723",
+        "sha1sum" : "02500988f9e906bffb152c4031fa92c9f411889c",
+        "sha256sum" : "2032bec3725943c215f25a14c2639f9f714abdbd4e67cc75f24a81f8f65a53b4"
+      },
+      {
+        "name" : "BIOMD0000000194.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "25931",
+        "mimeType" : "application/xml",
+        "md5sum" : "85685d4c6f6bf8770d6b89b423e72907",
+        "sha1sum" : "fa819dd4f2b4a7cfd3d5a8bd2d2ac0a232301c3b",
+        "sha256sum" : "594fb928fabe9e0e9da2316488b856d990fa18288bcdb5e17aca49ea9f960777"
+      },
+      {
+        "name" : "BIOMD0000000194_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "10934",
+        "mimeType" : "application/xml",
+        "md5sum" : "75b461f03e06dd1317e4cfa2ea57c658",
+        "sha1sum" : "05efc5e0b3072f08a258e6e91eecb2c8637dedd6",
+        "sha256sum" : "9f3a3be2f091269ecb6a17409817b335badef344c9bf832a723960b0b92e78c2"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8453",
+        "mimeType" : "image/png",
+        "md5sum" : "51aedb1040d24864f150d195d129c022",
+        "sha1sum" : "b57b62226001a27e24715b8b71aea46e67e7be53",
+        "sha256sum" : "af4db89fa502b159412a00fa5a64028d9d4648e1763c1bb6227fa0c331eb550c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "85",
+        "mimeType" : "text/plain",
+        "md5sum" : "58ced6849ae98dea09d08b53120c86d1",
+        "sha1sum" : "29f128bedb146cfae406825382e9c1699ab3a934",
+        "sha256sum" : "1f5567183fc7c84c55d399b2fc76d77c02219e466ac77f112f07ad7d034fe5f9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "6f904d1d66004eefb95c5baacb996082",
+        "sha1sum" : "4887082a734cd2c613dda5b575493b4fa90d7d4d",
+        "sha256sum" : "d1b56c954bcc7365e89b0947a84f9c20dfc9964406fa230fbae2ce7c80ab11de"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3057",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1ac729585d1f6b7d2407432b6f7c652f",
+        "sha1sum" : "0d00d4554af9a2bf88a9b966c0647a1fcf60755d",
+        "sha256sum" : "fcd687ff1d1f156767eda3de3085b7904872e26f868cea1afd7f02f9660fefff"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1221845554,
+        "submitter" : "Bashar Ibrahim",
+        "comment" : "Original import of Template Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1253729390,
+        "submitter" : "Bashar Ibrahim",
+        "comment" : "Current version of Ibrahim2008_Cdc20_Sequestring_Template_Model"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269926,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284929,
+  "submissionId" : "MODEL1667525941",
+  "publicationId" : "BIOMD0000000194",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Bashar Ibrahim",
+        "email" : "b.ibrahim@dkfz.de",
+        "affiliation" : "German Cancer Research Center, Heidelberg",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_2137.2",
+      "name" : "Mitotic Spindle Checkpoint",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_2137.2"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007094",
+      "name" : "mitotic spindle assembly checkpoint",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007094"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04110",
+      "name" : "Cell cycle - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04110"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1667525941",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1667525941"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000194",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000194"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18295960",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18295960"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

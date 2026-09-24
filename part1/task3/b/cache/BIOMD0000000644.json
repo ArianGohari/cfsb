@@ -1,0 +1,319 @@
+{
+  "name" : "Musante2017 - Switching behaviour of PP2A inhibition by ARPP-16 - mutual inhibitions and PKA inhibits MAST3",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Musante2017 - Switching behaviour of PP2Ainhibition by ARPP-16 - mutual inhibitions and PKA inhibitsMAST3</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/28613156\" title=\"Access to this publication\">Reciprocal regulation of    ARPP-16 by PKA and MAST3 kinases provides a cAMP-regulated    switch in protein phosphatase 2A inhibition.</a>  </div>  <div class=\"bibo:authorList\">Musante V, Li L, Kanyo J, Lam TT,  Colangelo CM, Cheng SK, Brody AH, Greengard P, Le Novère N,  Nairn AC.</div>  <div class=\"bibo:Journal\">Elife 2017 Jun; 6:</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>ARPP-16, ARPP-19, and ENSA are inhibitors of protein    phosphatase PP2A. ARPP-19 and ENSA phosphorylated by Greatwall    kinase inhibit PP2A during mitosis. ARPP-16 is expressed in    striatal neurons where basal phosphorylation by MAST3 kinase    inhibits PP2A and regulates key components of striatal    signaling. The ARPP-16/19 proteins were discovered as    substrates for PKA, but the function of PKA phosphorylation is    unknown. We find that phosphorylation by PKA or MAST3 mutually    suppresses the ability of the other kinase to act on ARPP-16.    Phosphorylation by PKA also acts to prevent inhibition of PP2A    by ARPP-16 phosphorylated by MAST3. Moreover, PKA    phosphorylates MAST3 at multiple sites resulting in its    inhibition. Mathematical modeling highlights the role of these    three regulatory interactions to create a switch-like response    to cAMP. Together, the results suggest a complex antagonistic    interplay between the control of ARPP-16 by MAST3 and PKA that    creates a mechanism whereby cAMP mediates PP2A    disinhibition.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000644\">BIOMD0000000644</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.7554/eLife.24998",
+    "journal" : "eLIFE",
+    "title" : "Reciprocal regulation of ARPP-16 by PKA and MAST-3 kinases provides a cAMP-regulated switch in protein phosphatase 2A inhibition",
+    "affiliation" : "Yale University School of Medicine, United States; Babraham Institute, United Kingdom; Yale University School Medicine, United States; The Rockefeller University, United States",
+    "synopsis" : "ARPP-16, ARPP-19, and ENSA are inhibitors of protein phosphatase PP2A. ARPP-19 and ENSA phosphorylated by Greatwall kinase inhibit PP2A during mitosis. ARPP-16 is expressed in striatal neurons where basal phosphorylation by MAST3 kinase inhibits PP2A and regulates key components of striatal signaling. The ARPP-16/19 proteins were discovered as substrates for PKA, but the function of PKA phosphorylation is unknown. We find that phosphorylation by PKA or MAST3 mutually suppresses the ability of the other kinase to act on ARPP-16. Phosphorylation by PKA also acts to prevent inhibition of PP2A by ARPP-16 phosphorylated by MAST3. Moreover, PKA phosphorylates MAST3 at multiple sites resulting in its inhibition. Mathematical modeling highlights the role of these three regulatory interactions to create a switch-like response to cAMP. Together the results suggest a complex antagonistic interplay between the control of ARPP-16 by MAST3 and PKA that creates a mechanism whereby cAMP mediates PP2A disinhibition.",
+    "year" : 2017,
+    "month" : "9",
+    "link" : "http://identifiers.org/doi/10.7554/eLife.24998",
+    "authors" : [
+      {
+        "name" : "Veronica Musante"
+      },
+      {
+        "name" : "Lu Li"
+      },
+      {
+        "name" : "Jean Kanyo"
+      },
+      {
+        "name" : "Tukiet T Lam"
+      },
+      {
+        "name" : "Christopher M Colangelo"
+      },
+      {
+        "name" : "Shuk Kei Cheng"
+      },
+      {
+        "name" : "Harrison Brody"
+      },
+      {
+        "name" : "Paul Greengard"
+      },
+      {
+        "name" : "Nicolas Le Novère",
+        "institution" : "The Babraham Institute"
+      },
+      {
+        "name" : "Angus C Nairn"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000644_url.xml",
+        "description" : "SBML L3V1 representation of Musante2017 - Switching behaviour of PP2A inhibition by ARPP-16 - mutual inhibitions and PKA inhibits MAST3",
+        "fileSize" : "57343",
+        "mimeType" : "application/xml",
+        "md5sum" : "59a7ff3cd898d386785307a1204a2280",
+        "sha1sum" : "2568c3d4121759f4fca7830066d7272d5be9641b",
+        "sha256sum" : "1ba7df04b3125b49912ade3fc470b0c8034e8ec814b2e34b2f1b24bb6ca449c0"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "ARPP-16_Layer1and2_mutualInhibitions_PKAinhibitsMAST3.cps",
+        "description" : "COPASI file that reproduces green line from Figure3-supplementary figure 1",
+        "fileSize" : "71798",
+        "mimeType" : "application/xml",
+        "md5sum" : "1c40e0b77313b8a07cf19d7f2ee37b29",
+        "sha1sum" : "fb2d233030dacfc1cca73a030d499f207184cc8c",
+        "sha256sum" : "681770b8824474c4577e7b149633326f0406195c58ebbb0561ab4af39b12efc2"
+      },
+      {
+        "name" : "ARPP-16_Layer1and2_mutualInhibitions_PKAinhibitsMAST3.sedml",
+        "description" : "SED-ML file that reproduces green line from Figure3-supplementary figure 1 (additionally CRBM-validated and adjusted).",
+        "fileSize" : "62864",
+        "mimeType" : "application/xml",
+        "md5sum" : "f0758e428019f1fb5cd65828148a57f6",
+        "sha1sum" : "86c7ba5f8a9393e4d5b4d7091a064de0867a8e38",
+        "sha256sum" : "215171d094a632a1130eea792c2a782d4fb99a95ed8084189b7ca9d3e8ae6b7d"
+      },
+      {
+        "name" : "BIOMD0000000644-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5116",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "71ee6f00af835fff90efec2ef7852254",
+        "sha1sum" : "f9d53dcf46405e625ca07d9e53514c3da9901273",
+        "sha256sum" : "61ffcd20d01e944117e17f1762dbb9113ec5eac84e896a98f46c18ac4877320b"
+      },
+      {
+        "name" : "BIOMD0000000644-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "5790",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d5548452e095d0b135b63fbaa19f8508",
+        "sha1sum" : "37515b05df85ffdae17c09baa33aa7a733758335",
+        "sha256sum" : "abc348bb050d5e809c072040a1f88ae68180af062b2584d2750310188ba684d2"
+      },
+      {
+        "name" : "BIOMD0000000644-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8675",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ada708b3c6f5468ddf792e746dc8152a",
+        "sha1sum" : "f929ba3510d0f889578a07a040dd827b7f795e26",
+        "sha256sum" : "40f32fcfd633791f280b216ff375d6b02e88fc76750c28c27f6e03c95e3f4f2f"
+      },
+      {
+        "name" : "BIOMD0000000644-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8675",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f4ccc80be9998fcaa86b569fb8cf27c2",
+        "sha1sum" : "89372df55681b6c08ff1a3a946033fddd29c6cfd",
+        "sha256sum" : "a9a7c1f5cbfd00024f57d88bf6f865532efd31e8d35a9559ad672a76a61d8c20"
+      },
+      {
+        "name" : "BIOMD0000000644.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "8675",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f4ccc80be9998fcaa86b569fb8cf27c2",
+        "sha1sum" : "89372df55681b6c08ff1a3a946033fddd29c6cfd",
+        "sha256sum" : "a9a7c1f5cbfd00024f57d88bf6f865532efd31e8d35a9559ad672a76a61d8c20"
+      },
+      {
+        "name" : "BIOMD0000000644.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6232",
+        "mimeType" : "text/plain",
+        "md5sum" : "49210d2e8fd0157c1ac857c5a646e535",
+        "sha1sum" : "e57336c6848f4b47a9fa539a2840386e83ed7e17",
+        "sha256sum" : "7e81174d76c4dd94e57f6f3506fd2616aa26db48fe89dff9ac7320a8fdc5cd20"
+      },
+      {
+        "name" : "BIOMD0000000644.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000644.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "a09cf39d95ab605db52198b969d9b4cb",
+        "sha1sum" : "b6049e3c848043ece8a8c9432788bb02a75b3d39",
+        "sha256sum" : "73ec6f7fb4375b98f8244ca4b6b8151a2840d492531a6bab6987da8fa6c40ecb"
+      },
+      {
+        "name" : "BIOMD0000000644.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36053",
+        "mimeType" : "image/png",
+        "md5sum" : "e70582df258350c9cfeea069a5d18ee5",
+        "sha1sum" : "5ba9b4580489e040b36038fbd84fa3c242635385",
+        "sha256sum" : "5f0b6d0e6ee14ad79d822b0fafeb1b2d372db1a4b7fc6db77ae820072c9dae2c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "92",
+        "mimeType" : "text/plain",
+        "md5sum" : "511e8afed8af7bd6a65639cb3297f45a",
+        "sha1sum" : "5dde00a8c4c9a4e697f8b47dccd553066f40e392",
+        "sha256sum" : "33c00fc37a9c02bc73469443bb5a8bdcd1f44a2cbee8a91cb7daa521a2169166"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1988",
+        "mimeType" : "application/xml",
+        "md5sum" : "c8643d795793a27b8a836ce143e2d95f",
+        "sha1sum" : "a583d07f3df9331c81a82854295836949714861f",
+        "sha256sum" : "d85ee618ac72c824b5e7a6382fe89af2b6f7b6b2fb69982763b303860552fcd0"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4993",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "48d94d1d6f9b42049db44ab75380208a",
+        "sha1sum" : "e1d678b59d6716ac19c490727bf47a0db8c76797",
+        "sha256sum" : "2af87d8fc2eca9a44e04b740398bb42e9fdd07f6f3d91b705664bfbb928b2f09"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1499001741,
+        "submitter" : "Lu Li",
+        "comment" : "Original import of Switching behaviour of PP2A inhibition by ARPP-16 - mutual inhibitions plus PKA inhibits MAST3"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1501079223,
+        "submitter" : "Lu Li",
+        "comment" : "Current version of Musante2017 - Switching behaviour of PP2A inhibition by ARPP-16 - mutual inhibitions and PKA inhibits MAST3"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1507288234,
+        "submitter" : "Lu Li",
+        "comment" : "Model curated and republished"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1545416697,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: ARPP-16_Layer1and2_mutualInhibitions_PKAinhibitsMAST3.cps, ARPP-16_Layer1and2_mutualInhibitions_PKAinhibitsMAST3.sedml"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724285254,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285397,
+  "submissionId" : "MODEL1707020001",
+  "publicationId" : "BIOMD0000000644",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Lu Li",
+        "email" : "Lu.Li@babraham.ac.uk",
+        "affiliation" : "The Babraham Institute",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BTO:0002181",
+      "name" : "HEK-293T cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0002181"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.7554/eLife.24998",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.7554/eLife.24998"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "28613156",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/28613156"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10095",
+      "name" : "Mus sp.",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10095"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1707020001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1707020001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000644",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000644"
+    }
+  ]
+}

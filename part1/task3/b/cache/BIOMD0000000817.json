@@ -1,0 +1,360 @@
+{
+  "name" : "Gevertz2018 - cancer treatment with oncolytic viruses and dendritic cell injections minimal model",
+  "description" : "The model is based on 'Developing a Minimally Structured Mathematical Model of Cancer Treatment with Oncolytic Viruses and Dendritic Cell Injections', PMID:30510594. Author:Jana L.Gevertz and Joanna R.Wares. This model describes the minimal model described in section 2.1. Built by COPASI 4.24( Build 197)Abstract:Mathematical models of biological systems must strike a balance between being sufficiently complex to capture important biological features, while being simple enough that they remain tractable through analysis or simulation. In this work, we rigorously explore how to balance these competing interests when modeling murine melanoma treatment with oncolytic viruses and dendritic cell injections. Previously, we developed a system of six ordinary differential equations containing fourteen parameters that well describes experimental data on the efficacy of these treatments. Here, we explore whether this previously developed model is the minimal model needed to accurately describe the data. Using a variety of techniques, including sensitivity analyses and a parameter sloppiness analysis, we find that our model can be reduced by one variable and three parameters and still give excellent fits to the data. We also argue that our model is not too simple to capture the dynamics of the data, and that the original and minimal models make similar predictions about the efficacy and robustness of protocols not considered in experiments. Reducing the model to its minimal form allows us to increase the tractability of the system in the face of parametric uncertainty.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30510594",
+    "journal" : "Computational and mathematical methods in medicine",
+    "title" : "Developing a Minimally Structured Mathematical Model of Cancer Treatment with Oncolytic Viruses and Dendritic Cell Injections.",
+    "affiliation" : "Department of Mathematics & Statistics, The College of New Jersey, Ewing, New Jersey, USA.",
+    "synopsis" : "Mathematical models of biological systems must strike a balance between being sufficiently complex to capture important biological features, while being simple enough that they remain tractable through analysis or simulation. In this work, we rigorously explore how to balance these competing interests when modeling murine melanoma treatment with oncolytic viruses and dendritic cell injections. Previously, we developed a system of six ordinary differential equations containing fourteen parameters that well describes experimental data on the efficacy of these treatments. Here, we explore whether this previously developed model is the minimal model needed to accurately describe the data. Using a variety of techniques, including sensitivity analyses and a parameter sloppiness analysis, we find that our model can be reduced by one variable and three parameters and still give excellent fits to the data. We also argue that our model is not too simple to capture the dynamics of the data, and that the original and minimal models make similar predictions about the efficacy and robustness of protocols not considered in experiments. Reducing the model to its minimal form allows us to increase the tractability of the system in the face of parametric uncertainty.",
+    "year" : 2018,
+    "month" : "0",
+    "volume" : "2018",
+    "pages" : "8760371",
+    "link" : "http://identifiers.org/pubmed/30510594",
+    "authors" : [
+      {
+        "name" : "Jana L Gevertz",
+        "institution" : "Department of Mathematics & Statistics, The College of New Jersey, Ewing, New Jersey, USA.",
+        "orcid" : "0000-0002-5577-1676"
+      },
+      {
+        "name" : "Joanna R Wares",
+        "institution" : "Department of Mathematics and Computer Science, University of Richmond, Richmond, Virginia, USA."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "model.xml",
+        "description" : "SBML L2V4 file for the model",
+        "fileSize" : "93754",
+        "mimeType" : "application/xml",
+        "md5sum" : "bf5574a3ba746db92bfad798fa9cc1e7",
+        "sha1sum" : "81fd50522ce0c6591ecf32a85adf55563298347b",
+        "sha256sum" : "6b8f522392f5e78addd77f46240b8d8036d88221b08f98684271099a9c38d272"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "4b.png",
+        "description" : "Reproduced figure 4(b)",
+        "fileSize" : "8621",
+        "mimeType" : "image/png",
+        "md5sum" : "8fd94ac5c483dd1e537919e52f7723da",
+        "sha1sum" : "a9cd0f4ee2891867c47f314235650633d900877c",
+        "sha256sum" : "dbacd067faa5e499811b76f914090f7884ef7bb1dda16a336bee0258d75b9eea"
+      },
+      {
+        "name" : "OV25-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "18698",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ed5eedfe00b86757dc8d4d0bcc14583e",
+        "sha1sum" : "81879ce8bbfdff265ea7190849378af0f1044084",
+        "sha256sum" : "ff207035fc0d01c4862554ec2a3f6afac76686e411e98d17c5d517d009776305"
+      },
+      {
+        "name" : "OV25-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "27759",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ed809bb494b9fe52324a3c11af3e2163",
+        "sha1sum" : "24c18d699da9cfe587190797921ef72eb630bc22",
+        "sha256sum" : "ea3219ca7c2613e71adb927785a57389f8b8ec76e74bd83999e237c5aff1fd4f"
+      },
+      {
+        "name" : "OV25-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8717",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9d06b0513e9cad84b36fb69974d523af",
+        "sha1sum" : "bc7076c575ccc2b51c250bb2cad6f77397936ee8",
+        "sha256sum" : "3476659c676118c0a0885559f6b96b2a4f8fb18eda261d8e0bbdd3664189c84a"
+      },
+      {
+        "name" : "OV25.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7336",
+        "mimeType" : "text/plain",
+        "md5sum" : "e42338584127395c49e2aeddb231228d",
+        "sha1sum" : "da2cb01a3cff5e8004add1fc62289afe2400bbbf",
+        "sha256sum" : "c410ca298fe2c123218c228d908bfcc4776acf1ea77c6e14df53c7799c9a749f"
+      },
+      {
+        "name" : "OV25.xml",
+        "description" : "SBML L2V4 file for the model with OV=2.5x10^9",
+        "fileSize" : "89460",
+        "mimeType" : "application/xml",
+        "md5sum" : "0c0bb4dddf0ff7513c95a06c36e79ed7",
+        "sha1sum" : "81bcfb3dd271700d39a1d3d185f07e21933ae89e",
+        "sha256sum" : "721c0971f46a5765592bcc2669caa33978a035680594b925fe271dfc9538f310"
+      },
+      {
+        "name" : "OV5-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "18698",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ed5eedfe00b86757dc8d4d0bcc14583e",
+        "sha1sum" : "81879ce8bbfdff265ea7190849378af0f1044084",
+        "sha256sum" : "ff207035fc0d01c4862554ec2a3f6afac76686e411e98d17c5d517d009776305"
+      },
+      {
+        "name" : "OV5-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "27759",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b9c5ff5b8e732c597f1b9933e25d8c31",
+        "sha1sum" : "83a682b1080ab98d6c88e161b2f1d321484bee90",
+        "sha256sum" : "c7a4c7d64c276c8751c616ba305fb0fdcdaadad0e9f0b5bc3a9add0034914d63"
+      },
+      {
+        "name" : "OV5-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8717",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8626a3225a2d4ecf84079b3dd6c67e4a",
+        "sha1sum" : "044bb2c461ac3d8360b89ca78521c16b3559b0d3",
+        "sha256sum" : "c40000aa5952c94a1c6f9bfa4cb00f97c244b3eb04032933d9ddb784ff2dd47f"
+      },
+      {
+        "name" : "OV5.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7336",
+        "mimeType" : "text/plain",
+        "md5sum" : "b74a949d8ed25ec65cc989690637131b",
+        "sha1sum" : "b44f6f2ae9c58cd090bfebd6d04367354cdbab40",
+        "sha256sum" : "4b9bd5506d565ed31216818bc12050713417757948f640475f5eb1fbbb5b82d7"
+      },
+      {
+        "name" : "OV5.xml",
+        "description" : "SBML L2V4 file for the model with OV=5x10^9",
+        "fileSize" : "89458",
+        "mimeType" : "application/xml",
+        "md5sum" : "0d7f49c31b65a848c8e37977a80621c0",
+        "sha1sum" : "4d77448eec8144c4220441cc776a8a030b864224",
+        "sha256sum" : "85ea7177afb4e8df186cb985839d456da9e9d58c7d203df46efb15aece17e6ee"
+      },
+      {
+        "name" : "OVDC.cps",
+        "description" : "COPASI 4.24 (Build 197) file for the model with OV and DC treatment",
+        "fileSize" : "101578",
+        "mimeType" : "application/xml",
+        "md5sum" : "7382eb42437dc8353a7a4788e2da2e51",
+        "sha1sum" : "34a7aefb6cf302732309f49301e45700429f3476",
+        "sha256sum" : "3aa962fab89564a7dfa97ab042d408f28c0f608221c76e6fe60c3859f5dc2dfa"
+      },
+      {
+        "name" : "OVDC.sedml",
+        "description" : "Sedml L1V2 file producing figure 4b with OV and DC treatment (additionally CRBM-validated and adjusted).",
+        "fileSize" : "25327",
+        "mimeType" : "application/xml",
+        "md5sum" : "9ceaa659e4e845d40e3e19d618b85f69",
+        "sha1sum" : "32430c46150682b20912de67cddc9e407bbe6a89",
+        "sha256sum" : "8d79ada693705a391632d5faef1d7b59544ead9eb76d66f63f41a6722f22fce4"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8621",
+        "mimeType" : "image/png",
+        "md5sum" : "8fd94ac5c483dd1e537919e52f7723da",
+        "sha1sum" : "a9cd0f4ee2891867c47f314235650633d900877c",
+        "sha256sum" : "dbacd067faa5e499811b76f914090f7884ef7bb1dda16a336bee0258d75b9eea"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "341",
+        "mimeType" : "text/plain",
+        "md5sum" : "c4ef6bd73b2b5aaa08726b2d9d3e1c32",
+        "sha1sum" : "a54baeea68dd285188ae470e9028a7d4f4104c84",
+        "sha256sum" : "f5b85751eb2c39bd3d76a63818dc200f1f9c099b8519f453b3f31a27d2ed071b"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2454",
+        "mimeType" : "application/xml",
+        "md5sum" : "491d8891023add66c7583639a854423c",
+        "sha1sum" : "544f3aba5d4a5f1af011077e116fc10cc513b9df",
+        "sha256sum" : "4588aa7aca2c68be195068f5237c788327eb944219bb42cea62af858da35c8b6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3478",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "aead76a8e8391905c3f96922730cfb5e",
+        "sha1sum" : "7742867495ca55e2d6f0e6d5b96b183de5d6ac49",
+        "sha256sum" : "ba25d8dd7e70b993b59825f6b6957ca79d28396658a0a2f952ea0d14d68cd430"
+      },
+      {
+        "name" : "model-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "20224",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "506d214c56de77e388cc2f8ef8425dff",
+        "sha1sum" : "0bdcbf625628de0ca42c73bf1e3a43a0d2bf031b",
+        "sha256sum" : "298af12eb720c1cf26b3e2f222fa66bae96f751b8570b88d8c607e1b1561b89e"
+      },
+      {
+        "name" : "model-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "29311",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1866d6af3a219f4cf1d53d3736a7e0cc",
+        "sha1sum" : "423c6299ad19f51042f83e0fd890100b7a4f60af",
+        "sha256sum" : "319598edf53fc8259a5ddc8eab4991a9d1ff99f1d0785be69d801d0ccca68863"
+      },
+      {
+        "name" : "model-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9212",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8e4c76727c25dd412ec467befa27a537",
+        "sha1sum" : "499949939bfaa314a8dc4d35b1ee409bacd7c1c5",
+        "sha256sum" : "4b01bb1ec30927194286a025b9cbe269528ebd65d011d90aed98ba914fc5f8ff"
+      },
+      {
+        "name" : "model.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7916",
+        "mimeType" : "text/plain",
+        "md5sum" : "6cd8a251e7bf74645e444086c76a876a",
+        "sha1sum" : "dedcda83f9726b110f2d3feb5ad86f7dfb535063",
+        "sha256sum" : "b2b7debb4d4d190ed7f8af70305e04128d333e732f3be1874a5c17fb744cf6d4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1568816114,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Automatically added model identifier BIOMD0000000817"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724290307,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285506,
+  "submissionId" : "MODEL1909180002",
+  "publicationId" : "BIOMD0000000817",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Szeyi Ng",
+        "email" : "sng@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C62713",
+      "name" : "Oncolytic Virus Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C62713"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000756",
+      "name" : "melanoma",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000756"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "0000311",
+      "name" : "cancer",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0000311"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000817",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000817"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909180002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909180002"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30510594",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:30510594"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1909",
+      "name" : "melanoma",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1909"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "BTO:0002014",
+      "name" : "B16-F10 cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0002014"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "30510594",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30510594"
+    }
+  ]
+}

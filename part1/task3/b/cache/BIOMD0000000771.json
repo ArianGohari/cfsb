@@ -1,0 +1,256 @@
+{
+  "name" : "Bajzer2008 - Modeling of cancer virotherapy with recombinant measles viruses",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This model describes the interactions between tumor cells and virus particles, with particular reference to virus-induced syncytium formation and ultimately death of tumor cells. Dynamics of infected cells, and production of new virus particules by infected cells, is also included.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18316099",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Modeling of cancer virotherapy with recombinant measles viruses.",
+    "affiliation" : "Biomathematics Resource and Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine, Guggenheim 1611b, Rochester, MN 55905, USA. bajzer@mayo.edu",
+    "synopsis" : "The Edmonston vaccine strain of measles virus has potent and selective activity against a wide range of tumors. Tumor cells infected by this virus or genetically modified strains express viral proteins that allow them to fuse with neighboring cells to form syncytia that ultimately die. Moreover, infected cells may produce new virus particles that proceed to infect additional tumor cells. We present a model of tumor and virus interactions based on established biology and with proper accounting of the free virus population. The range of model parameters is estimated by fitting to available experimental data. The stability of equilibrium states corresponding to complete tumor eradication, therapy failure and partial tumor reduction is discussed. We use numerical simulations to explore conditions for which the model predicts successful therapy and tumor eradication. The model exhibits damped, as well as stable oscillations in a range of parameter values. These oscillatory states are organized by a Hopf bifurcation.",
+    "year" : 2008,
+    "month" : "5",
+    "volume" : "252",
+    "issue" : "1",
+    "pages" : "109-122",
+    "link" : "http://identifiers.org/pubmed/18316099",
+    "authors" : [
+      {
+        "name" : "Zeljko Bajzer",
+        "institution" : "Biomathematics Resource and Department of Biochemistry and Molecular Biology, Mayo Clinic College of Medicine, Guggenheim 1611b, Rochester, MN 55905, USA. bajzer@mayo.edu"
+      },
+      {
+        "name" : "Thomas Carr"
+      },
+      {
+        "name" : "Kresimir Josić"
+      },
+      {
+        "name" : "Stephen J Russell"
+      },
+      {
+        "name" : "David Dingli"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Bazjer2008.xml",
+        "description" : "SBML L2V4 Representation of Bajzer2008 - Modeling of cancer virotherapy with recombinant measles viruses",
+        "fileSize" : "33024",
+        "mimeType" : "application/xml",
+        "md5sum" : "60f35690aeddf9733e8f1d1142a6f0bc",
+        "sha1sum" : "c608039c23a019d23045664077ae2071eeeccab4",
+        "sha256sum" : "e150bfdb1c215ca2ba82100e675e98f169ca9495c874cc92cbe54755f63f9d10"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Bazjer2008-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "11672",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "29741823941e185d0215c4e2e3f94891",
+        "sha1sum" : "6eec5cd73403719a99107f36451190e4103d3c37",
+        "sha256sum" : "241335fd9212fb881e917a004a3c5e47330122a7449da05619c9afb7fd63c161"
+      },
+      {
+        "name" : "Bazjer2008-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "15922",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ea219b454edc651767631d254e10b443",
+        "sha1sum" : "41f14201d5d8fd7277eb2dc284b2ef0e1481629e",
+        "sha256sum" : "c8eeea0fcbdd073cf55ab1715615a63e434fdeea8f020db10407489c5f4233ee"
+      },
+      {
+        "name" : "Bazjer2008-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4884",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "87602cbbb59a9b487b19ae0f583c491d",
+        "sha1sum" : "267e29db66f2e1beaea63d076d1b1e25775610dd",
+        "sha256sum" : "26683507eedd217f1ed8993f97e87519930fa2db5fed849b7c2d431ad9e4f893"
+      },
+      {
+        "name" : "Bazjer2008-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4884",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c9a00378be2edd7a025a1549930f3465",
+        "sha1sum" : "c5c34bd0f98a98acf88a04bc9c34cc9f70c8cc06",
+        "sha256sum" : "5861f2d24f96490964ab0baa129447c22712e219cd41135c47f4d31d9f9cc222"
+      },
+      {
+        "name" : "Bazjer2008.cps",
+        "description" : "COPASI file of Bajzer2008 - Modeling of cancer virotherapy with recombinant measles viruses",
+        "fileSize" : "55539",
+        "mimeType" : "application/xml",
+        "md5sum" : "c61fef94c1032096a1825dc6da46bd6e",
+        "sha1sum" : "fca399e7adb7fdd78ed05b8e41eebdd91d826b17",
+        "sha256sum" : "7902231b063d5c0bb1fe2701d6b27e2987b236135c837c6cd5eb9217cda8de9e"
+      },
+      {
+        "name" : "Bazjer2008.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3077",
+        "mimeType" : "text/plain",
+        "md5sum" : "2bdda3ee19d321c75ee5145afd67221b",
+        "sha1sum" : "84d82c6c7e45ea989614cecc89061d1398af0f1d",
+        "sha256sum" : "5168bfce35a651b03587a9474d794d48e742c97a42a6ef733280a5cfdf1bb32b"
+      },
+      {
+        "name" : "Bazjer2008.sedml",
+        "description" : "SED-ML file of Bajzer2008 - Modeling of cancer virotherapy with recombinant measles viruses (additionally CRBM-validated and adjusted).",
+        "fileSize" : "12182",
+        "mimeType" : "application/xml",
+        "md5sum" : "f48e5c69bcf8f99c2bb0b58251157ccc",
+        "sha1sum" : "19e69d5414a5528607ad53d78a8a2e56b8af7d05",
+        "sha256sum" : "de08578064152006cb7d3673dc6080a3b1b99ea4c6822e659dd6e37b00078b78"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "9814",
+        "mimeType" : "image/png",
+        "md5sum" : "35f3cbe122a4626cbb73ccdd52086a63",
+        "sha1sum" : "9cd8829361daf18cca744950cbdf5850bc5f0679",
+        "sha256sum" : "d7f12da34b0c84a6299871d0284442ca5a66327e7ba10a08e68ee8cca43078d9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "213",
+        "mimeType" : "text/plain",
+        "md5sum" : "1079e34bef556208450aa98aa2d31b46",
+        "sha1sum" : "8c7741b23e0a31d49e57976fedf4c1b5cc77dff9",
+        "sha256sum" : "c153d72f3b76ad41af0ba0ac5c2585e55ff0bb15370c211d7eac3432085a3974"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "a88defcac24c28c14b19d913f39abf9e",
+        "sha1sum" : "6420c7c756d3682be57663c89aadd60d5fd9c4aa",
+        "sha256sum" : "b115c8f9030f3b1125568affb86592673ee56f4719628f1e4f3423a487eddbcd"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2382",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b7080cd596e49c7de62013a41c5fb169",
+        "sha1sum" : "d67a1cca7f7b4a44e97a568c56d13b11aae85d94",
+        "sha256sum" : "451852de145d14acc4ca84b46c18a5ee348ca9a28aa102912fcfab4b3946fda0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1564587611,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000771"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1633089102,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Automatically added model identifier BIOMD0000000771"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724289285,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285454,
+  "submissionId" : "MODEL1907310005",
+  "publicationId" : "BIOMD0000000771",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      },
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18316099",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18316099"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11309314",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11309314"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000771",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000771"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1907310005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1907310005"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C62713",
+      "name" : "Oncolytic Virus Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C62713"
+    }
+  ]
+}

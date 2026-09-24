@@ -1,0 +1,256 @@
+{
+  "name" : "Burbano2023 - HGFsignaling_in_FattyLiverDisease",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">     <p>Chronic liver diseases are worldwide on the rise. Due to the rapidly increasing incidence, in particular in Western countries, non-alcoholic fatty liver disease (NAFLD) is gaining importance. As the disease progresses it can develop into hepatocellular carcinoma. Lipid accumulation in hepatocytes has been identified as the characteristic structural change in NAFLD development, but the molecular mechanisms responsible for disease development remained unresolved. Here, we uncover a strong downregulation of the PI3K-AKT pathway and an upregulation of the MAPK pathway in primary hepatocytes from a preclinical model fed with a Western diet (WD). Dynamic pathway modeling of hepatocyte growth factor (HGF) signal transduction combined with global proteomics identifies that an elevated basal MET phosphorylation rate is the main driver of altered signaling leading to increased proliferation of WD-hepatocytes. Model-adaptation to patient-derived hepatocytes reveals a patient-specific variability in basal MET phosphorylation, which correlates with the outcome of patients after liver surgery. Thus, dysregulated basal MET phosphorylation could be an indicator for the health status of the liver and thereby inform on the risk of a patient to suffer from liver failure after surgery.</p>  </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1038/s44320-023-00007-4",
+    "journal" : "Molecular systems biology",
+    "title" : "Basal MET phosphorylation is an indicator of hepatocyte dysregulation in liver disease.",
+    "affiliation" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.\nInstitute of Physics, University of Freiburg, Freiburg, Germany\nLiver Systems Medicine against Cancer (LiSyM-Krebs), Heidelberg, Germany",
+    "synopsis" : "Chronic liver diseases are worldwide on the rise. Due to the rapidly increasing incidence, in particular in Western countries, metabolic dysfunction-associated steatotic liver disease (MASLD) is gaining importance as the disease can develop into hepatocellular carcinoma. Lipid accumulation in hepatocytes has been identified as the characteristic structural change in MASLD development, but molecular mechanisms responsible for disease progression remained unresolved. Here, we uncover in primary hepatocytes from a preclinical model fed with a Western diet (WD) an increased basal MET phosphorylation and a strong downregulation of the PI3K-AKT pathway. Dynamic pathway modeling of hepatocyte growth factor (HGF) signal transduction combined with global proteomics identifies that an elevated basal MET phosphorylation rate is the main driver of altered signaling leading to increased proliferation of WD-hepatocytes. Model-adaptation to patient-derived hepatocytes reveal patient-specific variability in basal MET phosphorylation, which correlates with patient outcome after liver surgery. Thus, dysregulated basal MET phosphorylation could be an indicator for the health status of the liver and thereby inform on the risk of a patient to suffer from liver failure after surgery.",
+    "year" : 2024,
+    "month" : "1",
+    "link" : "http://identifiers.org/doi/10.1038/s44320-023-00007-4",
+    "authors" : [
+      {
+        "name" : "Sebastian Burbano de Lara",
+        "orcid" : "0000-0002-5364-2686"
+      },
+      {
+        "name" : "Svenja Kemmer",
+        "institution" : "Institute of Physics, University of Freiburg, 79104 Freiburg, Germany.FDM-Freiburg Center for Data Analysis and Modeling, University of Freiburg, 79104 Freiburg, Germany.",
+        "orcid" : "0000-0001-7708-0545"
+      },
+      {
+        "name" : "Ina Biermayer"
+      },
+      {
+        "name" : "Svenja Feiler"
+      },
+      {
+        "name" : "Artyom Vlasov"
+      },
+      {
+        "name" : "Lorenza A D'Alessandro"
+      },
+      {
+        "name" : "Barbara Helm"
+      },
+      {
+        "name" : "Christina Mölders"
+      },
+      {
+        "name" : "Yannik Dieter",
+        "orcid" : "0009-0004-2599-7879"
+      },
+      {
+        "name" : "Ahmed Ghallab",
+        "orcid" : "0000-0003-0695-3403"
+      },
+      {
+        "name" : "Jan G Hengstler"
+      },
+      {
+        "name" : "Rennert C",
+        "institution" : "Rudolf-Schönheimer-Institute of Biochemistry, Faculty of Medicine, Leipzig University, Leipzig 04103, Germany; Department of Hepatobiliary Surgery and Visceral Transplantation, University Hospital, Leipzig University, Leipzig 04103, Germany.",
+        "orcid" : "0000-0001-8753-8441"
+      },
+      {
+        "name" : "Madlen Matz-Soja"
+      },
+      {
+        "name" : "Christina Götz",
+        "orcid" : "0000-0002-8060-1599"
+      },
+      {
+        "name" : "Georg Damm"
+      },
+      {
+        "name" : "Katrin Hoffmann"
+      },
+      {
+        "name" : "Daniel Seehofer"
+      },
+      {
+        "name" : "Thomas Berg"
+      },
+      {
+        "name" : "Schilling M",
+        "institution" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "orcid" : "0000-0002-9517-5166"
+      },
+      {
+        "name" : "Timmer J",
+        "institution" : "Institute of Physics, University of Freiburg, 79104 Freiburg, Germany.FDM-Freiburg Center for Data Analysis and Modeling, University of Freiburg, 79104 Freiburg, Germany.Signalling Research Centres BIOSS and CIBSS, University of Freiburg, 79104 Freiburg, Germany.",
+        "orcid" : "0000-0003-4517-1383"
+      },
+      {
+        "name" : "Klingmüller U",
+        "institution" : "Division Systems Biology of Signal Transduction, German Cancer Research Center (DKFZ), Heidelberg, Germany.",
+        "orcid" : "0000-0001-9845-3099"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "model_Burbano2023.xml",
+        "description" : "SBML L2V4 representation of the HGFsignaling model in non-alcoholic fatty liver disease (NAFLD)",
+        "fileSize" : "57966",
+        "mimeType" : "application/xml",
+        "md5sum" : "cf69cc885fdc6b607f7ea41ee81ae5f5",
+        "sha1sum" : "1cacd81f6cc5210030d3029651a5a330bb7d2d6b",
+        "sha256sum" : "80c49b94ae22a442fa8bb14d1f1a127958e6b7b8cc89d801fa5e36ea5cc40ffa"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "PEtab_Burbano2023_Human.zip",
+        "description" : "PEtab files for the HGF signaling model calibrated on patient data (c.f. https://petab.readthedocs.io)",
+        "fileSize" : "28548",
+        "mimeType" : "application/zip",
+        "md5sum" : "a44f04d06e1e63d2964dd0cee962ee35",
+        "sha1sum" : "0575f08b567034c54d079d1ecaecc1b7e40c71fc",
+        "sha256sum" : "17caf6174fec9f69c75a9da588043d9dfe40a6c8c7510b78aaa932bb5f4634a9"
+      },
+      {
+        "name" : "PEtab_Burbano2023_Mouse.zip",
+        "description" : "PEtab files for the HGF signaling model calibrated on Western diet mouse data (c.f. https://petab.readthedocs.io)",
+        "fileSize" : "19382",
+        "mimeType" : "application/zip",
+        "md5sum" : "9757983ed8aa48550df1597572758600",
+        "sha1sum" : "f7be3f8878e575f98b1832e2be304b0ba481192e",
+        "sha256sum" : "237d063b41ecb812635ae282ffbcd6c5191ce3211adec49c870a02b766b561b5"
+      },
+      {
+        "name" : "model_Burbano2023_HGFsignaling_in_NAFLD-Mice.cps",
+        "description" : "COPASI file reproducing figure 3D",
+        "fileSize" : "748588",
+        "mimeType" : "application/xml",
+        "md5sum" : "fa1e5ace14e823a1fce2413560546e42",
+        "sha1sum" : "91bc53be9cd4ef71df7d692d9d12b30c8c4ad857",
+        "sha256sum" : "f16dda070ff3fa5c6d20d1692d4e142ad5ef5866761d52d109f2e25778894aeb"
+      },
+      {
+        "name" : "model_Burbano2023_HGFsignaling_in_NAFLD-SDMice_40HGF.xml",
+        "description" : "SBML file for NAFLD standard diet mice with 40ng/ml HGF",
+        "fileSize" : "61913",
+        "mimeType" : "application/xml",
+        "md5sum" : "605d1c8cc29d33365088cc7b85b1b4b8",
+        "sha1sum" : "c053696ef94bc632e0080d4cd581251c2bb6631f",
+        "sha256sum" : "9aa8c3e054b109910aeb842b8745217f7a4979ecae3b304be4ec0589c5910879"
+      },
+      {
+        "name" : "model_Burbano2023_HGFsignaling_in_NAFLD-SDMice_woHGF.xml",
+        "description" : "SBML file for NAFLD standard diet mice without HGF",
+        "fileSize" : "61912",
+        "mimeType" : "application/xml",
+        "md5sum" : "7b3d657dee4199e7ebb929346b38d635",
+        "sha1sum" : "022c0ffd5507b8c08398c7677678e5e17b63e46a",
+        "sha256sum" : "403296e974e30558e1b1f4e903a4f096547cc821e556cd0d263bc4e5b1545fe4"
+      },
+      {
+        "name" : "model_Burbano2023_HGFsignaling_in_NAFLD-WDMice_40HGF.xml",
+        "description" : "SBML file for NAFLD Western diet mice with 40ng/ml HGF",
+        "fileSize" : "61913",
+        "mimeType" : "application/xml",
+        "md5sum" : "abbe081049384a94af46dbaea28be4b6",
+        "sha1sum" : "d73cf5da4907d702676db9c83b96adf0027db4c4",
+        "sha256sum" : "eddb3f07249cb57383bdf4cf6239a9c34f35b9c8a3aaf9faf5c47330443e04f3"
+      },
+      {
+        "name" : "model_Burbano2023_HGFsignaling_in_NAFLD-WDMice_woHGF.xml",
+        "description" : "SBML file for NAFLD Western diet mice without HGF",
+        "fileSize" : "61912",
+        "mimeType" : "application/xml",
+        "md5sum" : "e39fa42c7f0debc55f20f64cdbcfac7c",
+        "sha1sum" : "a07b0ab233890065d01d66bcaf2303c1303d5134",
+        "sha256sum" : "dffd79e0e89e137de70efedac9b7c0927895b29d09709ee305dcb92ee071629c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1705355181,
+        "submitter" : "Svenja Kemmer",
+        "comment" : "add publication again"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1742826060,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000001102"
+      }
+    ]
+  },
+  "firstPublished" : 1742826126,
+  "submissionId" : "MODEL2306280002",
+  "publicationId" : "BIOMD0000001102",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Svenja Kemmer",
+        "email" : "svenja.kemmer@fdm.uni-freiburg.de",
+        "affiliation" : "Institute of Physics, University of Freiburg, 79104 Freiburg, Germany.FDM-Freiburg Center for Data Analysis and Modeling, University of Freiburg, 79104 Freiburg, Germany.",
+        "orcid" : "0000-0001-7708-0545",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "38216754",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed:38216754"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1038/s44320-023-00007-4",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi:10.1038/s44320-023-00007-4"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2306280002",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2306280002"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001102",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001102"
+    }
+  ]
+}

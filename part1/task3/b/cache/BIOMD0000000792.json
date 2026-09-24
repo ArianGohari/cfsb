@@ -1,0 +1,249 @@
+{
+  "name" : "Hu2019 - Modeling Pancreatic Cancer Dynamics with Immunotherapy",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model of pancreatic cancer that includes descriptions of pancreatic cancer cells, pancreatic stellate cells, effector cells and tumor-promoting and tumor-suppressing cytokines to investigate the effects of immunotherapies on patient survival.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30843136",
+    "journal" : "Bulletin of mathematical biology",
+    "title" : "Modeling Pancreatic Cancer Dynamics with Immunotherapy.",
+    "affiliation" : "Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX, 79409-1042, USA.",
+    "synopsis" : "We develop a mathematical model of pancreatic cancer that includes pancreatic cancer cells, pancreatic stellate cells, effector cells and tumor-promoting and tumor-suppressing cytokines to investigate the effects of immunotherapies on patient survival. The model is first validated using the survival data of two clinical trials. Local sensitivity analysis of the parameters indicates there exists a critical activation rate of pro-tumor cytokines beyond which the cancer can be eradicated if four adoptive transfers of immune cells are applied. Optimal control theory is explored as a potential tool for searching the best adoptive cellular immunotherapies. Combined immunotherapies between adoptive ex vivo expanded immune cells and TGF-[Formula: see text] inhibition by siRNA treatments are investigated. This study concludes that mono-immunotherapy is unlikely to control the pancreatic cancer and combined immunotherapies between anti-TGF-[Formula: see text] and adoptive transfers of immune cells can prolong patient survival. We show through numerical explorations that how these two types of immunotherapies are scheduled is important to survival. Applying TGF-[Formula: see text] inhibition first followed by adoptive immune cell transfers can yield better survival outcomes.",
+    "year" : 2019,
+    "month" : "6",
+    "volume" : "81",
+    "issue" : "6",
+    "pages" : "1885-1915",
+    "link" : "http://identifiers.org/pubmed/30843136",
+    "authors" : [
+      {
+        "name" : "Xiaochuan Hu",
+        "institution" : "Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX, 79409-1042, USA.Department of Mathematics and Statistics, University of the Incarnate Word, San Antonio, TX, 78209, USA."
+      },
+      {
+        "name" : "Guoyi Ke",
+        "institution" : "Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX, 79409-1042, USA.Department of Mathematics and Physical Sciences, Louisiana State University of Alexandria, Alexandria, LA, 71302, USA."
+      },
+      {
+        "name" : "Sophia R-J Jang",
+        "institution" : "Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX, 79409-1042, USA. sophia.jang@ttu.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Hu2019.xml",
+        "description" : "SBML L2V4 Representation of Hu2019 - Modeling Pancreatic Cancer Dynamics with Immunotherapy",
+        "fileSize" : "57418",
+        "mimeType" : "application/xml",
+        "md5sum" : "34ded89e2a7d2201b85e0b57a506cd55",
+        "sha1sum" : "a396fdfeb1d7bd1adf254a03cfa014a7c12374a4",
+        "sha256sum" : "8effeaa30a693a9e5c248833185d54a4374095cad21e305b444b97813b4704eb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Hu2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "18845",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "99c6e4dbe19ddba1ba2c42a97a004d63",
+        "sha1sum" : "da068afc761dd119a9c27fcdff016f42aecef2ef",
+        "sha256sum" : "9f039b7e00c0c6b05c7b1002b5db95308255bd4a686505159908f66d9cbc8675"
+      },
+      {
+        "name" : "Hu2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "27000",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "36ef884dc81077e830dfcdafd162e96e",
+        "sha1sum" : "bc78cd4efe596398ef92b1d1b0b3d393a38b7ced",
+        "sha256sum" : "062785dd87997abdd534920fa59b4d936caffcec67a0b41dae6ecc2939ad0541"
+      },
+      {
+        "name" : "Hu2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7972",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fc7201e549c142842856ae9959f2c67f",
+        "sha1sum" : "c739635ceb993e8cfbda5f093a579d987bb5ed71",
+        "sha256sum" : "c3db1afcf8c2933d0605169ed7a71463509075bad01f11158aeb86bd9c35024a"
+      },
+      {
+        "name" : "Hu2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7972",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "273f082470ad963361b1fec37bd0b5c2",
+        "sha1sum" : "c437036735f7521191fbfed459b69933da0b2f4b",
+        "sha256sum" : "75985ec7b2597bf8e9444a85353b63e334889af9727e3a93686465fb4519d1b0"
+      },
+      {
+        "name" : "Hu2019.cps",
+        "description" : "COPASI file of Hu2019 - Modeling Pancreatic Cancer Dynamics with Immunotherapy",
+        "fileSize" : "95840",
+        "mimeType" : "application/xml",
+        "md5sum" : "b572339a446be76ba6bfd9f791a90767",
+        "sha1sum" : "25d17fdf8688717b2653ed81470d7007ef4587ab",
+        "sha256sum" : "1d45a809731026efa03e2eb2a7e0dc45ec64ea7c6758c833cd2c254e1cff3224"
+      },
+      {
+        "name" : "Hu2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6338",
+        "mimeType" : "text/plain",
+        "md5sum" : "1e7ddd24ee61f10f251c45db4c03fc80",
+        "sha1sum" : "12ce44ac70842705387f8c7d76754de30daef7ab",
+        "sha256sum" : "c72c3bc66ee2e403d95ee9344a956cd7af83c71f7c8cc17e54414c038af96ed5"
+      },
+      {
+        "name" : "Hu2019.sedml",
+        "description" : "SED-ML file of Hu2019 - Modeling Pancreatic Cancer Dynamics with Immunotherapy (additionally CRBM-validated and adjusted).",
+        "fileSize" : "27670",
+        "mimeType" : "application/xml",
+        "md5sum" : "e072e59c4ad6a37989362203593738c1",
+        "sha1sum" : "a7c3739c6cab74d5827de98b4ad6b41b389f5f44",
+        "sha256sum" : "20e7c3d1bdbb7e431355e09a3c69c130c810598734adaed74094023c3c36a4eb"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8824",
+        "mimeType" : "image/png",
+        "md5sum" : "7645c2f26a8a69547c5de290107b3e64",
+        "sha1sum" : "55157744112a24245cb0c891d222895fe2eb6c0c",
+        "sha256sum" : "8a37d1778be4eabc262743e54b3556270b5ab0b39de25de8041e1dcf430e9e77"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "209",
+        "mimeType" : "text/plain",
+        "md5sum" : "a1e9d7bf598d3612549b5f544201deaf",
+        "sha1sum" : "42ba33f2cd04fde92edc01adf95ca5b66c738204",
+        "sha256sum" : "2a811d7decd1a219838a088b565fb7d8ca61de27c9557f0886a07df734f9529e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1379",
+        "mimeType" : "application/xml",
+        "md5sum" : "799a0c482d3e7f08b28953a08628cf25",
+        "sha1sum" : "abfc39ad1abf2722bfbd764d610be94a1a4578c3",
+        "sha256sum" : "cf2eb0a0beeb9a2270752a9467e25087a8dbc85d5038b2775cd9397dcfaccdbf"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2352",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "afa4b68dcecb05bee806598d4764ebc8",
+        "sha1sum" : "f12b3839f6c001ed56d6d4b6c14cff932217f721",
+        "sha256sum" : "20ffb5a2bae4605d19ec739383df9b244b082ce2a369e64a2a3d9d07c0cf7ffc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1565703811,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000792"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1633426178,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Automatically added model identifier BIOMD0000000792"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724289711,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285468,
+  "submissionId" : "MODEL1908130001",
+  "publicationId" : "BIOMD0000000792",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002418",
+      "name" : "immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002418"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30843136",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30843136"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10.1142/S021833901750005X",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1142/S021833901750005X"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000792",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000792"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908130001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908130001"
+    }
+  ]
+}

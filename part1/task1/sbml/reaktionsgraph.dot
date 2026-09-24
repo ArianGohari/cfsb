@@ -1,0 +1,51 @@
+digraph CircadianClock {
+  graph [rankdir=LR, bgcolor="white", fontname="Helvetica", fontsize=16, labelloc=t, label="Circadianer Oszillator · Reaktionsgraph\nDurchgezogen: Reaktionen · gestrichelt: Einfluss auf die Bildung der Zielspezies\n∅: Quelle/Senke, keine Spezies · Startkonzentrationen in nM", nodesep=0.6, ranksep=1.2];
+  node [shape=ellipse, style=filled, fontname="Helvetica", fontsize=12];
+  edge [fontname="Helvetica", fontsize=10, color="#475569", arrowsize=0.7];
+
+  subgraph cluster_cytoplasm {
+    label="Cytoplasma"; color="#93c5fd"; style=rounded;
+    node [fillcolor="#dbeafe"];
+    y1 [label="y1: Per2/Cry-mRNA\n0.2 nM"];
+    y2 [label="y2: PER2/CRY\n0 nM"];
+    y4 [label="y4: Bmal1-mRNA\n0.8 nM"];
+    y5 [label="y5: BMAL1\n1 nM"];
+    source_c [label="∅", shape=circle, fillcolor="#f1f5f9"];
+    sink_c [label="∅", shape=circle, fillcolor="#f1f5f9"];
+  }
+  subgraph cluster_nucleus {
+    label="Zellkern"; color="#c4b5fd"; style=rounded;
+    node [fillcolor="#ede9fe"];
+    y3 [label="y3: PER2/CRY\n1.1 nM"];
+    y6 [label="y6: BMAL1\n1 nM"];
+    y7 [label="y7: BMAL1 aktiv\n1.05 nM"];
+    sink_n [label="∅", shape=circle, fillcolor="#f1f5f9"];
+  }
+
+  // Exactly one solid edge per SBML reaction; mRNAs are not consumed in protein synthesis.
+  source_c -> y1 [id="per2_cry_transcription", label="Per2/Cry-Transkription"];
+  y1 -> sink_c [id="per2_cry_mRNA_degradation", label="mRNA-Abbau"];
+  source_c -> y2 [id="per2_cry_complex_formation", label="PER2/CRY-Bildung"];
+  y2 -> sink_c [id="cytoplasmic_per2_cry_complex_degradation", label="Komplex-Abbau"];
+  y2 -> y3 [id="per2_cry_nuclear_import", label="Kernimport"];
+  y3 -> y2 [id="per2_cry_nuclear_export", label="Kernexport"];
+  y3 -> sink_n [id="nuclear_per2_cry_complex_degradation", label="Komplex-Abbau"];
+  source_c -> y4 [id="Bmal1_transcription", label="Bmal1-Transkription"];
+  y4 -> sink_c [id="Bmal1_mRNA_degradation", label="mRNA-Abbau"];
+  source_c -> y5 [id="BMAL1_translation", label="BMAL1-Translation"];
+  y5 -> sink_c [id="cytoplasmic_BMAL1_degradation", label="Protein-Abbau"];
+  y5 -> y6 [id="BMAL1_nuclear_import", label="Kernimport"];
+  y6 -> y5 [id="BMAL1_nuclear_export", label="Kernexport"];
+  y6 -> sink_n [id="nuclear_BMAL1_degradation", label="Protein-Abbau"];
+  y6 -> y7 [id="BMAL1_activation", label="Aktivierung"];
+  y7 -> y6 [id="BMAL1_deactivation", label="Deaktivierung"];
+  y7 -> sink_n [id="Active_BMAL1_degradation", label="Protein-Abbau"];
+
+  // These edges summarize kinetic influences, not material conversion.
+  edge [style=dashed, color="#15803d", fontcolor="#15803d", constraint=false];
+  y1 -> y2 [label="+ Bildung"];
+  y4 -> y5 [label="+ Translation"];
+  y7 -> y1 [label="+ Transkription"];
+  y3 -> y4 [label="+ Transkription"];
+  y3 -> y1 [label="− Transkription", color="#b91c1c", fontcolor="#b91c1c", arrowhead=tee];
+}

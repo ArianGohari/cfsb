@@ -1,0 +1,309 @@
+{
+  "name" : "Kollarovic2016 - Cell fate decision at G1-S transition",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Kollarovic2016 - Cell fate decision at G1-Stransition</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/26830321\" title=\"Access to this publication\">To senesce or not to    senesce: how primary human fibroblasts decide their cell fate    after DNA damage.</a>  </div>  <div class=\"bibo:authorList\">Kollarovic G, Studencka M, Ivanova  L, Lauenstein C, Heinze K, Lapytsko A, Talemi SR, Figueiredo AS,  Schaber J.</div>  <div class=\"bibo:Journal\">Aging (Albany NY) 2016 Jan;</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Excessive DNA damage can induce an irreversible cell cycle    arrest, called senescence, which is generally perceived as an    important tumour-suppressor mechanism. However, it is unclear    how cells decide whether to senesce or not after DNA damage. By    combining experimental data with a parameterized mathematical    model we elucidate this cell fate decision at the G1-S    transition. Our model provides a quantitative and conceptually    new understanding of how human fibroblasts decide whether DNA    damage is beyond repair and senesce. Model and data imply that    the G1-S transition is regulated by a bistable hysteresis    switch with respect to Cdk2 activity, which in turn is    controlled by the Cdk2/p21 ratio rather than cyclin abundance.    We experimentally confirm the resulting predictions that to    induce senescence i) in healthy cells both high initial and    elevated background DNA damage are necessary and sufficient,    and ii) in already damaged cells much lower additional DNA    damage is sufficient. Our study provides a mechanistic    explanation of a) how noise in protein abundances allows cells    to overcome the G1-S arrest even with substantial DNA damage,    potentially leading to neoplasia, and b) how accumulating DNA    damage with age increasingly sensitizes cells for    senescence.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000632\">BIOMD0000000632</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26830321",
+    "journal" : "Aging",
+    "title" : "To senesce or not to senesce: how primary human fibroblasts decide their cell fate after DNA damage.",
+    "affiliation" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany.",
+    "synopsis" : "Excessive DNA damage can induce an irreversible cell cycle arrest, called senescence, which is generally perceived as an important tumour-suppressor mechanism. However, it is unclear how cells decide whether to senesce or not after DNA damage. By combining experimental data with a parameterized mathematical model we elucidate this cell fate decision at the G1-S transition. Our model provides a quantitative and conceptually new understanding of how human fibroblasts decide whether DNA damage is beyond repair and senesce. Model and data imply that the G1-S transition is regulated by a bistable hysteresis switch with respect to Cdk2 activity, which in turn is controlled by the Cdk2/p21 ratio rather than cyclin abundance. We experimentally confirm the resulting predictions that to induce senescence i) in healthy cells both high initial and elevated background DNA damage are necessary and sufficient, and ii) in already damaged cells much lower additional DNA damage is sufficient. Our study provides a mechanistic explanation of a) how noise in protein abundances allows cells to overcome the G1-S arrest even with substantial DNA damage, potentially leading to neoplasia, and b) how accumulating DNA damage with age increasingly sensitizes cells for senescence.",
+    "year" : 2016,
+    "month" : "1",
+    "volume" : "8",
+    "issue" : "1",
+    "pages" : "158-177",
+    "link" : "http://identifiers.org/pubmed/26830321",
+    "authors" : [
+      {
+        "name" : "Gabriel Kollarovic",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany.Cancer Research Institute, Slovak Academy of Sciences, Bratislava, Slovakia.",
+        "orcid" : "0000-0002-3159-7781"
+      },
+      {
+        "name" : "Maja Studencka",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Lyubomira Ivanova",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Claudia Lauenstein",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Kristina Heinze",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Anastasiya Lapytsko",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Soheil Rastgou Talemi",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Ana Sofia Figueiredo",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      },
+      {
+        "name" : "Jörg Schaber",
+        "institution" : "Institute for Experimental Internal Medicine, Medical Faculty, Otto-von-Guericke University, Magdeburg, Germany."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000632_url.xml",
+        "description" : "SBML L2V4 representation of Kollarovic2016 - Cell fate decision at G1-S transition",
+        "fileSize" : "108011",
+        "mimeType" : "application/xml",
+        "md5sum" : "3956b5a01cb392f3ed1904e908c031ad",
+        "sha1sum" : "9ec4e0fb9c9fcadfffd025c0a4b0777516bb64d7",
+        "sha256sum" : "7321b1ab6a24347946a24b43cbc55f9342a95852cfd3381fa49882e83379c962"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000632-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "20652",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a988d17e325b990faa0cff1ee27fce9d",
+        "sha1sum" : "45673586e30631b795dc782782b535ca1249b75f",
+        "sha256sum" : "471f0e574b521b0fc0f6b7fbd77ef963ca7b2d5165a648f2bce248e170684095"
+      },
+      {
+        "name" : "BIOMD0000000632-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "29860",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bb13f00c8ddbc903ad814fe45a4c7896",
+        "sha1sum" : "a30a8353ee239d346e03b63426bc6d78f93e99c3",
+        "sha256sum" : "4fec668ec262c3532b78766870a3826e34a72b062baa3c3fc0b558bbe1c0e3bb"
+      },
+      {
+        "name" : "BIOMD0000000632-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10457",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a7c1ced42ee611872a0a78ce55cf7af9",
+        "sha1sum" : "f3c576f22f2887371b891ffcd8aabc9bf5fab92f",
+        "sha256sum" : "8467eab89bc067cd353b02cc652b7ce0d1474047ae28ac5f47da804d1af44bd4"
+      },
+      {
+        "name" : "BIOMD0000000632-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10457",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bc2aff4381fa8c0dbca0018c32d1412d",
+        "sha1sum" : "a0c91c9f43e9cff3cfb158a5257efaff8206e4e5",
+        "sha256sum" : "7993b7d911fe0cc9bd0c7b072faf0bb19e41b1e7797af688f5483b634440094c"
+      },
+      {
+        "name" : "BIOMD0000000632.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10457",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bc2aff4381fa8c0dbca0018c32d1412d",
+        "sha1sum" : "a0c91c9f43e9cff3cfb158a5257efaff8206e4e5",
+        "sha256sum" : "7993b7d911fe0cc9bd0c7b072faf0bb19e41b1e7797af688f5483b634440094c"
+      },
+      {
+        "name" : "BIOMD0000000632.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8567",
+        "mimeType" : "text/plain",
+        "md5sum" : "b0937b23c237f92f8c2eceea442683a2",
+        "sha1sum" : "b554f7f70e7ddb525c9834afa583ad3937a7bdd4",
+        "sha256sum" : "559c2af8ce8e61516827660ee20229eab6434f37c9644a73ce994c309ad3c717"
+      },
+      {
+        "name" : "BIOMD0000000632.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "106581",
+        "mimeType" : "image/png",
+        "md5sum" : "dc7d7cd07e9eeb10116f2d3dc7a23286",
+        "sha1sum" : "3c8a7f2772c05008073c2e9b9621fca49fa11557",
+        "sha256sum" : "f8e918ddfc57b80da67f0da8aea05db97aade554453cbd113f40ddcbd9cc57f6"
+      },
+      {
+        "name" : "BIOMD0000000632.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "34043",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ce470f3568039893616724bf26277533",
+        "sha1sum" : "b23ae3b83c43a34748d9ba976373e15ee907331c",
+        "sha256sum" : "de406b62864840cb3d77d470e5bd776e9927c0c089a2b39b972ebe5fd17c8e05"
+      },
+      {
+        "name" : "BIOMD0000000632.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "127308",
+        "mimeType" : "application/xml",
+        "md5sum" : "c1ca474997c766ebcbb80f27d1845eda",
+        "sha1sum" : "49069c3247e383e7b6619b80f5ef5dd64cd934c5",
+        "sha256sum" : "ede848c56acc84110a0b59981b632a8ae4969b6f8c6fcad942b6bbeab9d0ada0"
+      },
+      {
+        "name" : "BIOMD0000000632_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "37490",
+        "mimeType" : "application/xml",
+        "md5sum" : "d5fe2f869b7a8fc9f1e0f474517fc14f",
+        "sha1sum" : "e521606b5eec3a0b1d9d224247762b8a494528ac",
+        "sha256sum" : "3c49a37550c22b1b78b28edd14f3bb0bac2d92cd8214d386d8211f8f05d1ec92"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "48902",
+        "mimeType" : "image/png",
+        "md5sum" : "6b9e3e9c46c24690c0d56e12a38d48b4",
+        "sha1sum" : "a78bd1de964f496183fc64b83d3677b99ad2295e",
+        "sha256sum" : "c61bf1c6b70c8c8e04ca03c60d104a8ba6c3c81e4cb1018d8ec3936763bb4581"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "58",
+        "mimeType" : "text/plain",
+        "md5sum" : "42e3b8ee0ba90e085361ec975a5efb0f",
+        "sha1sum" : "6bfa04192f7297d6edad99d5b8d44fe53446c478",
+        "sha256sum" : "06b15964cacd3a0a14221a6edcb5dfe0f10eafb0c547e5e46abb162edf75fdfc"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1796",
+        "mimeType" : "application/xml",
+        "md5sum" : "4a60ac7a4e0af358fb6ce7417a035591",
+        "sha1sum" : "3a4f098901c211d3676cdfe434aea50226241092",
+        "sha256sum" : "e3eae3fe5abec729436f973c9f543946f80f1acedcac77c4b0f2f6f7e4df1f05"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5199",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fb7a59d58c18a124a5ec9dda1c1ce20f",
+        "sha1sum" : "9077e9ee89f478ba342500dfe7968e25bcf420c7",
+        "sha256sum" : "15cd8e648db19b458c23cf7c5eeacbec4d712b791c0b0d7c5d9b085610159380"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1431081905,
+        "submitter" : "Joerg Schaber",
+        "comment" : "Original import of New Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1491913808,
+        "submitter" : "Joerg Schaber",
+        "comment" : "Current version of Kollarovic2016 - Cell fate decision at G1-S transition"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724284808,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285395,
+  "submissionId" : "MODEL1505080000",
+  "publicationId" : "BIOMD0000000632",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Joerg Schaber",
+        "email" : "schaber@med.ovgu.de",
+        "affiliation" : "OvGU",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1505080000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1505080000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000632",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000632"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26830321",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26830321"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0007050",
+      "name" : "cell cycle arrest",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007050"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006281",
+      "name" : "DNA repair",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006281"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000452",
+      "name" : "fibroblast",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000452"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "GO:2000772",
+      "name" : "regulation of cellular senescence",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:2000772"
+    }
+  ]
+}

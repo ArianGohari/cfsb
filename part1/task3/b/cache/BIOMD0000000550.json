@@ -1,0 +1,298 @@
+{
+  "name" : "Baker2013 - Cytokine Mediated Inflammation in Rheumatoid Arthritis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Baker2013 - Cytokine Mediated Inflammation inRheumatoid Arthritis</div><div class=\"dc:description\">This model by Baker M. 2013, describesthe interaction between pro and anti-inflammatory cytokinesignalling in rheumatoid arthritis.<br /><br />Using two ordinary differential equations, the first model <a href=\"http://www.ebi.ac.uk/biomodels-main/anno-model-view.do?mid=BIOMD0000000550\">[BIOMD0000000550]</a>analyses bifurcation and describes different pathological states byaltering inflammatory regulation parameters.<br />The second model <a href=\"http://www.ebi.ac.uk/biomodels-main/anno-model-view.do?mid=BIOMD0000000549\">[BIOMD0000000549]</a>includes the effect that ageing has on pro-inflammatory signalling,allowing for time-dependant properties and disease progression tobe observed. The author also describes potential dosing forreversal of the disease state.<br /><br/></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/23002057\" title=\"Access to this publication\">Mathematical modelling of    cytokine-mediated inflammation in rheumatoid arthritis.</a>  </div>  <div class=\"bibo:authorList\">Baker M, Denman-Johnson S, Brook BS,  Gaywood I, Owen MR.</div>  <div class=\"bibo:Journal\">Math Med Biol 2013 Dec; 30(4):  311-337</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Rheumatoid arthritis (RA) is a chronic inflammatory disease    preferentially affecting the joints and leading, if untreated,    to progressive joint damage and disability. Cytokines, a group    of small inducible proteins, which act as intercellular    messengers, are key regulators of the inflammation that    characterizes RA. They can be classified into pro-inflammatory    and anti-inflammatory groups. Numerous cytokines have been    implicated in the regulation of RA with complex up and down    regulatory interactions. This paper considers a two-variable    model for the interactions between pro-inflammatory and    anti-inflammatory cytokines, and demonstrates that mathematical    modelling may be used to investigate the involvement of    cytokines in the disease process. The model displays a range of    possible behaviours, such as bistability and oscillations,    which are strongly reminiscent of the behaviour of RA e.g.    genetic susceptibility and remitting-relapsing disease. We also    show that the dose regimen as well as the dose level are    important factors in RA treatments.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000550\">BIOMD0000000550</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23002057",
+    "journal" : "Mathematical medicine and biology : a journal of the IMA",
+    "title" : "Mathematical modelling of cytokine-mediated inflammation in rheumatoid arthritis.",
+    "affiliation" : "Centre for Mathematical Medicine and Biology, School of Mathematical Sciences, University of Nottingham, Nottingham NG7 2RD, UK.",
+    "synopsis" : "Rheumatoid arthritis (RA) is a chronic inflammatory disease preferentially affecting the joints and leading, if untreated, to progressive joint damage and disability. Cytokines, a group of small inducible proteins, which act as intercellular messengers, are key regulators of the inflammation that characterizes RA. They can be classified into pro-inflammatory and anti-inflammatory groups. Numerous cytokines have been implicated in the regulation of RA with complex up and down regulatory interactions. This paper considers a two-variable model for the interactions between pro-inflammatory and anti-inflammatory cytokines, and demonstrates that mathematical modelling may be used to investigate the involvement of cytokines in the disease process. The model displays a range of possible behaviours, such as bistability and oscillations, which are strongly reminiscent of the behaviour of RA e.g. genetic susceptibility and remitting-relapsing disease. We also show that the dose regimen as well as the dose level are important factors in RA treatments.",
+    "year" : 2013,
+    "month" : "12",
+    "volume" : "30",
+    "issue" : "4",
+    "pages" : "311-337",
+    "link" : "http://identifiers.org/pubmed/23002057",
+    "authors" : [
+      {
+        "name" : "Michelle Baker",
+        "institution" : "School of Computer Science, University of Nottingham, Nottingham, UK. michelle.baker@nottingham.ac.uk.",
+        "orcid" : "0000-0002-8926-7689"
+      },
+      {
+        "name" : "Sarah Denman-Johnson"
+      },
+      {
+        "name" : "Bindi S Brook"
+      },
+      {
+        "name" : "Ian Gaywood"
+      },
+      {
+        "name" : "Markus R Owen",
+        "institution" : "School of Mathematical Sciences and Centre for Mathematical Medicine and Biology, University of Nottingham, Nottingham, UK.",
+        "orcid" : "0000-0002-3028-9138"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000550_url.xml",
+        "description" : "SBML L2V4 representation of Baker2013 - Cytokine Mediated Inflammation in Rheumatoid Arthritis",
+        "fileSize" : "18732",
+        "mimeType" : "application/xml",
+        "md5sum" : "ea7fb399388d13f5eaad125b6d02a4fc",
+        "sha1sum" : "785c61b38695528e8347dfa87fcea92fa231b67e",
+        "sha256sum" : "0c5e8135222e394c52b0f8afa4fcb99f19b3c342e39e0b6fe7b238f980b83ebb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000550-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5739",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8fc9f57f0da6619c30068271ba4543c7",
+        "sha1sum" : "20b6e73b249abfe73855c8db1dd44e50931b7dfa",
+        "sha256sum" : "a248e7b056a02a9a4a4c7c2d3f516eaf126c0df6143d2dd13b436bbafade86d2"
+      },
+      {
+        "name" : "BIOMD0000000550-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "6023",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c63efb9acfbedb5b342b01a94f0435f2",
+        "sha1sum" : "aebbef1be8d864ad6ecbac7aa5f7c555a33c0274",
+        "sha256sum" : "a38262d6acb37056ead9cd9b593bd2540be06bd7cbea320da3baf51bd66309b1"
+      },
+      {
+        "name" : "BIOMD0000000550-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3317",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3aec0df58be616b66f7499bb30bcfa4e",
+        "sha1sum" : "7bd3a4d607e5defbebd946ae72ad615012980be0",
+        "sha256sum" : "c04defb656de694468d4e87e77774df785b7e4a7931c34dc76ff384b16a2fc93"
+      },
+      {
+        "name" : "BIOMD0000000550-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3317",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "68d9fca207a5f908bfa60420877fc8e3",
+        "sha1sum" : "bdafb51d7c6149266e8ebb76c3d5d2f351163f99",
+        "sha256sum" : "cd720eb67002b53a19d6cc6ac71cf54c271b32b08b33d59062a5c8912501f056"
+      },
+      {
+        "name" : "BIOMD0000000550.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3317",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "68d9fca207a5f908bfa60420877fc8e3",
+        "sha1sum" : "bdafb51d7c6149266e8ebb76c3d5d2f351163f99",
+        "sha256sum" : "cd720eb67002b53a19d6cc6ac71cf54c271b32b08b33d59062a5c8912501f056"
+      },
+      {
+        "name" : "BIOMD0000000550.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "1542",
+        "mimeType" : "text/plain",
+        "md5sum" : "f9bc02fa76c098cbaefd178b4bd119d6",
+        "sha1sum" : "3c1f3a6dfc8b79fbfb39f2f0e9bf5bf2ad7cd27c",
+        "sha256sum" : "f1097bbd6d67873b5a2205b08e0095a3fe22b4f693c7dd0e66f59f122d813d85"
+      },
+      {
+        "name" : "BIOMD0000000550.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "135829",
+        "mimeType" : "application/pdf",
+        "md5sum" : "093a3c7b557251cd7df832db998fc5ee",
+        "sha1sum" : "1255f751b6e0e55bbcf9caa397fc641f1f3b8d82",
+        "sha256sum" : "64e89b8c3ac99bce8be108734da31fea2046da39efd3def314e69d5726a28806"
+      },
+      {
+        "name" : "BIOMD0000000550.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000550.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "BIOMD0000000550_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "6471",
+        "mimeType" : "application/xml",
+        "md5sum" : "e4151d849db985fa83eb1380dbde828c",
+        "sha1sum" : "d6c5869c448644235791083edda9bba6d00394e4",
+        "sha256sum" : "5388bf0f0069aedb0a59ca583ed7c1dca025046ed846957e4c12f2f02f0f3a38"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "14620",
+        "mimeType" : "image/png",
+        "md5sum" : "d32f22c38ba3333a721dba967d7d5f2d",
+        "sha1sum" : "2129a273c866f5aa6007e7910546cb0894b427ce",
+        "sha256sum" : "abec362785f3917c0d5ea596b147473cab39371bbaafe63558c813f698cf2951"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "298",
+        "mimeType" : "text/plain",
+        "md5sum" : "04b20b932af0f6ebe85e2b9b5caaca5f",
+        "sha1sum" : "c3cbb94ca3b34dd36fc363cd0a9b731ccb65e92e",
+        "sha256sum" : "59da7457fadb084aa996ca93c61434c902c012d620545e3b16b3d250f0f01ed9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "3ca9c911ce7f4fc5dfd52349aefafcb1",
+        "sha1sum" : "8110399ca76db95b605e6f8a1e4c09592b26ce6b",
+        "sha256sum" : "cdf17913e5b7baba238ce891cc2ddd62f6052ab9fbe5439983112af33b298b6c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5691",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5204abb602b639301fe79360b3e31137",
+        "sha1sum" : "1d0ec8ff60032283d7ac4aab6fe7b77d976f1765",
+        "sha256sum" : "1e0390f3cdd7688166720ee07a78bf56b62663c6ff0339489c12351e2cff0cab"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1411651534,
+        "submitter" : "Vincent Knight-Schrijver",
+        "comment" : "Original import of Baker2013 - Cytokine Mediated Inflammation in Rheumatoid Arthritis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495110899,
+        "submitter" : "Vincent Knight-Schrijver",
+        "comment" : "Current version of Baker2013 - Cytokine Mediated Inflammation in Rheumatoid Arthritis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724281223,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285327,
+  "submissionId" : "MODEL1409250000",
+  "publicationId" : "BIOMD0000000550",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vincent Knight-Schrijver",
+        "email" : "vknight@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019221",
+      "name" : "cytokine-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019221"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23002057",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23002057"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:7148",
+      "name" : "rheumatoid arthritis",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:7148"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_75790",
+      "name" : "Cytokine Signaling in Immune system",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_75790"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0050727",
+      "name" : "regulation of inflammatory response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0050727"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1409250000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1409250000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000550",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000550"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

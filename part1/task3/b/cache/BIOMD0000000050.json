@@ -1,0 +1,283 @@
+{
+  "name" : "Martins2003_AmadoriDegradation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Kinetic modelling of Amadori N-(1-deoxy-D-fructos-1-yl)-glycine degradation pathways. Part II--kinetic analysis. </strong>        <br />Martins SI, Van Boekel MA.       <em>Carbohydr Res</em>2003 Jul;338(16):1665-78.       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12873422\">12873422</a>,      <br />        <strong>Abstract:</strong>        <br />A kinetic model for N-(1-deoxy-Image -fructos-1-yl)-glycine (DFG) thermal decomposition was proposed. Two temperatures (100 and 120 °C) and two pHs (5.5 and 6.8) were studied. The measured responses were DFG, 3-deoxyosone, 1-deoxyosone, methylglyoxal, acetic acid, formic acid, glucose, fructose, mannose and melanoidins. For each system the model parameters, the rate constants, were estimated by non-linear regression, via multiresponse modelling. The determinant criterion was used as the statistical fit criterion. Model discrimination was performed by both chemical insight and statistical tests (Posterior Probability and Akaike criterion). Kinetic analysis showed that at lower pH DFG 1,2-enolization is favoured whereas with increasing pH 2,3-enolization becomes a more relevant degradation pathway. The lower amount observed of 1-DG is related with its high reactivity. It was shown that acetic acid, a main degradation product from DFG, was mainly formed through 1-DG degradation. Also from the estimated parameters 3-DG was found to be the main precursor in carbohydrate fragments formation, responsible for colour formation. Some indication was given that as the reaction proceeded other compounds besides DFG become reactants themselves with the formation among others of methylglyoxal. The multiresponse kinetic analysis was shown to be both helpful in deriving relevant kinetic parameters as well as in obtaining insight into the reaction mechanism.   </p>      <p>Model was intially tested in Jarnac.</p>      <p> The model was recently updated on 9th July 2010. The reference publication has reported two models M1 and M2, where the parameter values are given for conditions A) 100<sup>o</sup>C, pH5.5, B) 120<sup>o</sup>C, pH5.5, C) 100<sup>o</sup>C, pH6.8 and D) 120<sup>o</sup>C, pH6.8. </p>    <p> This model corresponds to the model M2 with condition 100<sup>o</sup>C, pH6.8 </p>  <p> The model reproduces Figure 6 of the reference publication. The curation figure was recently added</p>  <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a></p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12873422",
+    "journal" : "Carbohydrate research",
+    "title" : "Kinetic modelling of Amadori N-(1-deoxy-D-fructos-1-yl)-glycine degradation pathways. Part II--kinetic analysis.",
+    "affiliation" : "Department of Agrotechnology and Food Sciences, Product Design and Quality Management Group, Wageningen University, P.O. Box 8129, 6700 EV, Wageningen, The Netherlands.",
+    "synopsis" : "A kinetic model for N-(1-deoxy-D-fructos-1-yl)-glycine (DFG) thermal decomposition was proposed. Two temperatures (100 and 120 degrees C) and two pHs (5.5 and 6.8) were studied. The measured responses were DFG, 3-deoxyosone, 1-deoxyosone, methylglyoxal, acetic acid, formic acid, glucose, fructose, mannose and melanoidins. For each system the model parameters, the rate constants, were estimated by non-linear regression, via multiresponse modelling. The determinant criterion was used as the statistical fit criterion. Model discrimination was performed by both chemical insight and statistical tests (Posterior Probability and Akaike criterion). Kinetic analysis showed that at lower pH DFG 1,2-enolization is favoured whereas with increasing pH 2,3-enolization becomes a more relevant degradation pathway. The lower amount observed of 1-DG is related with its high reactivity. It was shown that acetic acid, a main degradation product from DFG, was mainly formed through 1-DG degradation. Also from the estimated parameters 3-DG was found to be the main precursor in carbohydrate fragments formation, responsible for colour formation. Some indication was given that as the reaction proceeded other compounds besides DFG become reactants themselves with the formation among others of methylglyoxal. The multiresponse kinetic analysis was shown to be both helpful in deriving relevant kinetic parameters as well as in obtaining insight into the reaction mechanism.",
+    "year" : 2003,
+    "month" : "7",
+    "volume" : "338",
+    "issue" : "16",
+    "pages" : "1665-1678",
+    "link" : "http://identifiers.org/pubmed/12873422",
+    "authors" : [
+      {
+        "name" : "Sara I F S Martins",
+        "institution" : "Department of Agrotechnology and Food Sciences, Product Design and Quality Management Group, Wageningen University, P.O. Box 8129, 6700 EV, Wageningen, The Netherlands."
+      },
+      {
+        "name" : "Martinus A J S Van Boekel"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000050_url.xml",
+        "description" : "SBML L2V4 representation of Martins2003_AmadoriDegradation",
+        "fileSize" : "25527",
+        "mimeType" : "application/xml",
+        "md5sum" : "f67e88b857ea97b1480fe2a09b7f0e39",
+        "sha1sum" : "cd1371afa074f3ba6311ad5867bfa79852ffd701",
+        "sha256sum" : "4846396a6621661b5faa775f7f7b48aefe36c3396bb2da41aeb96f3319d084ad"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000050-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "27352",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "49722b097c26faca73fe89df5a678fc9",
+        "sha1sum" : "090a2e8f9cc1b594dfa8d964ee36e0278ca8f8e1",
+        "sha256sum" : "d55d86ea2fef36a703ff216639d320061c6415c5f0f15c0f59f6129a093f0e31"
+      },
+      {
+        "name" : "BIOMD0000000050-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "43538",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9b8d903db842e738d559800975072b5b",
+        "sha1sum" : "f1190553f2ce6c20941764ccb4f482f2388d7a36",
+        "sha256sum" : "b844b7bbb86bf74574895ca4495ed0a63162740ff2df5b0ce115ffa8843d5a97"
+      },
+      {
+        "name" : "BIOMD0000000050-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6954",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "555aca0794168aaf8b06e93cdb8baa99",
+        "sha1sum" : "2e9b996e5035ddb69cd36defdc8bf9324de10d4a",
+        "sha256sum" : "e50c364efa34997ec4472377c3c7e115e60af8cc30528d02c4520c5dd1adf42b"
+      },
+      {
+        "name" : "BIOMD0000000050-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6954",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "605894741a355120d2aafa0896665317",
+        "sha1sum" : "7a99ce308672557b1838c8073004ff141cd63ca9",
+        "sha256sum" : "8ff0a2c63751c664dc80c2a0b2d22ca1ba8130bba41a0e4668193c1ccfa5a17b"
+      },
+      {
+        "name" : "BIOMD0000000050.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6954",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "605894741a355120d2aafa0896665317",
+        "sha1sum" : "7a99ce308672557b1838c8073004ff141cd63ca9",
+        "sha256sum" : "8ff0a2c63751c664dc80c2a0b2d22ca1ba8130bba41a0e4668193c1ccfa5a17b"
+      },
+      {
+        "name" : "BIOMD0000000050.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4224",
+        "mimeType" : "text/plain",
+        "md5sum" : "16491aad08217f003be15958bc7e796f",
+        "sha1sum" : "3eee84648d4e3c383f77ca756c9ef3167ca262a9",
+        "sha256sum" : "63b654c37820b915c1b8f878da66d6a69d3cb5a7f50509e4f9869e2d79d9dac6"
+      },
+      {
+        "name" : "BIOMD0000000050.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "211426",
+        "mimeType" : "application/pdf",
+        "md5sum" : "001f001002cd8d2de6163b36ce837792",
+        "sha1sum" : "f1f126ae0cc1cde644cf7e620e37a8958aacaa9c",
+        "sha256sum" : "a85c28fc4f7fbf7dc718b5ca2c4b7482d8f0f15c801ce986af63d31efa3a6d8c"
+      },
+      {
+        "name" : "BIOMD0000000050.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "71443",
+        "mimeType" : "image/png",
+        "md5sum" : "4256e7ee54bb3b9b30d534d43bb2cd54",
+        "sha1sum" : "43d73118de658aef258c326ae9d1fd1caa10ab5d",
+        "sha256sum" : "4b7b429ce3f1eeae22f88769bf10eea3e6dbc314279e140d6ffcc46214497aca"
+      },
+      {
+        "name" : "BIOMD0000000050.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "4271",
+        "mimeType" : "text/plain",
+        "md5sum" : "baab2d50dc2730b9ba745c11eed36336",
+        "sha1sum" : "0130225f744edb64004df4d7443d8ca51a9e2fd6",
+        "sha256sum" : "f90eb599e94022cb36a13287b648eb330d2cc9abfc8e47b303904e80594f784d"
+      },
+      {
+        "name" : "BIOMD0000000050.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "31924",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "07dcafa942b62ae72b78a0efc01fb974",
+        "sha1sum" : "9fef4a960fa435cb45de2710746266dac0281cbd",
+        "sha256sum" : "9a00153865ab8bbc7c005e660d3da6f65fb862ea9ef6b5fafc347c7291536071"
+      },
+      {
+        "name" : "BIOMD0000000050.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "39602",
+        "mimeType" : "application/xml",
+        "md5sum" : "2a96bb57193a0854ba6ab651d11a6765",
+        "sha1sum" : "e7c3138036a61ee72839f9bfe39e978488abd690",
+        "sha256sum" : "469fc265a454e52e78b83659e9ec19137b3440d81f41160e253dc490502d074e"
+      },
+      {
+        "name" : "BIOMD0000000050_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "19121",
+        "mimeType" : "application/xml",
+        "md5sum" : "658ea1a8580ca748cba9af4bab3b238b",
+        "sha1sum" : "4f3b47f900c94f4cdcb033ae1efad2ce18da4b79",
+        "sha256sum" : "afd72823eb2a03768408a7341e9e53d340ee1ae600629f53c651154dbd33e7a0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "32895",
+        "mimeType" : "image/png",
+        "md5sum" : "750be0466c65c6d30996e94ed5a768ea",
+        "sha1sum" : "7d313a69a1042c77c1672f7195ca479a522b1171",
+        "sha256sum" : "e294b505f00e1a7fa3427c1188fbc94feb749f63b18e30b2ef8229f6e6abb651"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "191",
+        "mimeType" : "text/plain",
+        "md5sum" : "e73d67c207e2e22a64bb83b95c2faeb7",
+        "sha1sum" : "1a84c932743dad51309e83cfbc44b0d232ce96d3",
+        "sha256sum" : "6dc700c9f2125cde20b44b6ad2c133be0f33a785b35b0603267f457a92fb1d86"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "6ed3d9d8820625a34cfa2ffd24225b46",
+        "sha1sum" : "ea6ef7d629f9b8eb7409055a3fe7c527cb20fb1b",
+        "sha256sum" : "f1e02582ca65c1eef60e19699e6bf2bd0ceedbc5de61cb0d807db5539eeea3f7"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5326",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "14388c76ebadee9ccb0b15f4caf6b26d",
+        "sha1sum" : "730aae52c7449e2d8dc60c7bf8c4bf4b7a156eab",
+        "sha256sum" : "462594ff41c1543aa7668e61403eb78fc87859d20d1eef34d0b6c384c41fb872"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1137607736,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of BIOMD0000000050.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396618110,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Martins2003_AmadoriDegradation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266023,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284857,
+  "submissionId" : "MODEL7981660691",
+  "publicationId" : "BIOMD0000000050",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7981660691",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7981660691"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000050",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000050"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12873422",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12873422"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:1901575",
+      "name" : "organic substance catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1901575"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

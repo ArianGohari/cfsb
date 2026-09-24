@@ -1,0 +1,301 @@
+{
+  "name" : "Smallbone2013 - E.coli metabolic model with linlog rate law",
+  "description" : "Kieran Smallbone & Pedro Mendes. Large-Scale Metabolic Models: From Reconstruction to Differential Equations. Industrial Biotechnology 9, 4 (2013).<p></p><p></p>Genome-scale kinetic models of metabolism are important for rational design of the metabolic engineering required for industrial biotechnology applications. They allow one to predict the alterations needed to optimize the flux or yield of the compounds of interest, while keeping the other functions of the host organism to a minimal, but essential, level. We define a pipeline for the generation of genome-scale kinetic models from reconstruction data. To build such a model, inputs of all concentrations, fluxes, rate laws, and kinetic parameters are required. However, we propose typical estimates for these numbers when experimental data are not available. While little data are required to produce the model, the pipeline ensures consistency with any known flux or concentration data, or any kinetic constants. We apply the method to create genome-scale models of Escherichia coli and Saccharomyces cerevisiae. We go on to show how these may be used to expand a detailed model of yeast glycolysis to the genome level.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1089/ind.2013.0003",
+    "journal" : "Industrial Biotechnology",
+    "title" : "Large-Scale Metabolic Models: From Reconstruction to Differential Equations",
+    "affiliation" : "Manchester Centre for Integrative Systems Biology and School of Computer Science, University of Manchester, Manchester Institute of Biotechnology, Manchester, UK",
+    "synopsis" : "Genome-scale kinetic models of metabolism are important for rational design of the metabolic engineering required for industrial biotechnology applications. They allow one to predict the alterations needed to optimize the flux or yield of the compounds of interest, while keeping the other functions of the host organism to a minimal, but essential, level. We define a pipeline for the generation of genome-scale kinetic models from reconstruction data. To build such a model, inputs of all concentrations, fluxes, rate laws, and kinetic parameters are required. However, we propose typical estimates for these numbers when experimental data are not available. While little data are required to produce the model, the pipeline ensures consistency with any known flux or concentration data, or any kinetic constants. We apply the method to create genome-scale models of Escherichia coli and Saccharomyces cerevisiae. We go on to show how these may be used to expand a detailed model of yeast glycolysis to the genome level.",
+    "year" : 2013,
+    "link" : "http://identifiers.org/doi/10.1089/ind.2013.0003",
+    "authors" : [
+      {
+        "name" : "Messiha HL"
+      },
+      {
+        "name" : "Kent E"
+      },
+      {
+        "name" : "Malys N"
+      },
+      {
+        "name" : "Carroll KM"
+      },
+      {
+        "name" : "Mendes P"
+      },
+      {
+        "name" : "Smallbone K."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000469_url.xml",
+        "description" : "SBML L2V4 representation of Smallbone2013 - E.coli metabolic model with linlog rate law",
+        "fileSize" : "2338174",
+        "mimeType" : "application/xml",
+        "md5sum" : "d33645d3142b3db02cf909acea37d741",
+        "sha1sum" : "55a2435d8f82014b4526628da4d4f7c4dc65c0fe",
+        "sha256sum" : "329e606961c13501952be4cd784a54b907dcf90f4bbadd24bcbae23582c5ef2c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000469-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "1437544",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fdff2451d70398d224e9ff71dcde5b54",
+        "sha1sum" : "e2598879f7de760e1c5d1e18d0bacc18cdc2e9e2",
+        "sha256sum" : "6ee54fa4f00535ee3d96ab25ff6213bb9a962c40cc1646163270d46c4ee580de"
+      },
+      {
+        "name" : "BIOMD0000000469-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "2117012",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c9358d56682ac13c31443cc44e5a5e75",
+        "sha1sum" : "a019a86fae132c02871bc95456ed008d241bd264",
+        "sha256sum" : "8b3f7cd4de1634500e1002b965ce69584cf6037d78c3b96db48ca53363e3fc1e"
+      },
+      {
+        "name" : "BIOMD0000000469-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "500012",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f3d18ef9d5971a3f9c89e6b5c1b342df",
+        "sha1sum" : "846755a6ce9a9f7eaab75577454a375041e1b4b6",
+        "sha256sum" : "d2877c96405cf55ba7dbe0024e7efee6f671cb261ca18e5cf94e2ef55d704d8b"
+      },
+      {
+        "name" : "BIOMD0000000469-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "500012",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "faed0a1d30c0dceaf171930b5a660096",
+        "sha1sum" : "1fcbfac35b884c0eb689cdd4195aa214597a247b",
+        "sha256sum" : "1e61c16d48afd61ffba8a07066d4c4df4acf6acc2d237dc53ea9c2d438145feb"
+      },
+      {
+        "name" : "BIOMD0000000469.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "500012",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "faed0a1d30c0dceaf171930b5a660096",
+        "sha1sum" : "1fcbfac35b884c0eb689cdd4195aa214597a247b",
+        "sha256sum" : "1e61c16d48afd61ffba8a07066d4c4df4acf6acc2d237dc53ea9c2d438145feb"
+      },
+      {
+        "name" : "BIOMD0000000469.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "400045",
+        "mimeType" : "text/plain",
+        "md5sum" : "2e063f3418120b276e4e4e7a18c1f6b0",
+        "sha1sum" : "ac2c6bff263b901c635df4a60d9f079d23c4bdd7",
+        "sha256sum" : "0f8a205e5bcda364fadcf0bd400b2cb813d2021fde39513e3c1aa4e110add496"
+      },
+      {
+        "name" : "BIOMD0000000469.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "4259023",
+        "mimeType" : "application/pdf",
+        "md5sum" : "04083ae767ec081807d2cfa63d2326d5",
+        "sha1sum" : "22afc26d682d3046576840f7b7222f1b0d0602d7",
+        "sha256sum" : "71c810f63e8fa223f5fcc84c4226ac7ae19fb25dffd358320a73edb1b3730028"
+      },
+      {
+        "name" : "BIOMD0000000469.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4328",
+        "mimeType" : "image/png",
+        "md5sum" : "81d994e161e608211e54f3b88628ba10",
+        "sha1sum" : "2eb1c19f2746daea7ec9f483fd6d13541d71e2cd",
+        "sha256sum" : "5177e89f3c778429d69859aa4db6576c53bff2fb12ed66b8dec949c8014d6d71"
+      },
+      {
+        "name" : "BIOMD0000000469.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "872",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "cd11595021bdaa6fc0c9a729f2228a1b",
+        "sha1sum" : "b774da1f42cf746f4e369eafb847d643689df783",
+        "sha256sum" : "f437176ed676281de0fba9c08fca9f696e4570b5a205a84734ee7b52ea573f1b"
+      },
+      {
+        "name" : "BIOMD0000000469_url.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "956420",
+        "mimeType" : "application/xml",
+        "md5sum" : "f20155cb32c5f083be0970a818fa71d5",
+        "sha1sum" : "584f5d2fbee3b1669c66fed1d4d02248c2ad13c5",
+        "sha256sum" : "1fa7e46bc7f0a51975af6fba3260fd0c3fa67b05c780888dad90ea6906e2a2b8"
+      },
+      {
+        "name" : "MODEL1302140001_20130819142027.cps",
+        "description" : "Copasi file with the inclusion of an assignment rule for energy charge. \r\nEnergy charge = (ATP+ADP/2)/(ATP+ADP+AMP).",
+        "fileSize" : "3458178",
+        "mimeType" : "application/xml",
+        "md5sum" : "a8fcd022dd573606313249911e87624f",
+        "sha1sum" : "7449415a81ff13d3219d0351a20e14dbbecf29b6",
+        "sha256sum" : "f3c48b3a4d98332d4c42ac4c473a3794dc7964ded4da778952ec01584b56e219"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "14308",
+        "mimeType" : "image/png",
+        "md5sum" : "100685fa73efb73189674ab9d20aad1b",
+        "sha1sum" : "980e60892d1f294b7617ec29982c69864deb3f30",
+        "sha256sum" : "9fb6be0c1e61bc366f29bf4f0fb84d304d9501de85f9b2a637de5e314746e236"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "340",
+        "mimeType" : "text/plain",
+        "md5sum" : "9e7ba1524774ee3e1fe3273f865f9088",
+        "sha1sum" : "2d5f7a3efeb92b61412d76d4ac421019a018f1fc",
+        "sha256sum" : "a127034be6e37fb3fd4a800e118284702684011a24b90d5922c1c93f3ae67d43"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1926",
+        "mimeType" : "application/xml",
+        "md5sum" : "bff6da1a047f4893f7498ae2c0496004",
+        "sha1sum" : "2ba555fcd04c2aeb3a58f09d3d8800f119cb1812",
+        "sha256sum" : "275d438d74d4ea414c652708246f784d40a994782b52f3c3ba5e476eac2a1670"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1586",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f4f53973dca1c0d84fb32038adc5f868",
+        "sha1sum" : "2abca89d83908cef795cc8425015ed1f76fbb584",
+        "sha256sum" : "416f4db946a7a0a31b51eac1d61f272ed0012bbd0e412d9b773cef3d422e2108"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1360839175,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Original import of E.coli with linlog rate law"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396627481,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Current version of Smallbone2013 - E.coli metabolic model with linlog rate law"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545412803,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: MODEL1302140001_20130819142027.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724278100,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285210,
+  "submissionId" : "MODEL1302140001",
+  "publicationId" : "BIOMD0000000469",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Kieran Smallbone",
+        "email" : "kieran.smallbone@ncl.ac.uk",
+        "affiliation" : "Human Nutrition Research Centre, Newcastle University, Newcastle upon Tyne, UK.",
+        "orcid" : "0000-0003-2815-7045",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1302140001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1302140001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000469",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000469"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1089/ind.2013.0003",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1089/ind.2013.0003"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0008152",
+      "name" : "metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008152"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:1901576",
+      "name" : "organic substance biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:1901576"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

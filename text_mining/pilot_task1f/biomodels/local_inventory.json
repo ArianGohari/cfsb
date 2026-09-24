@@ -1,0 +1,1576 @@
+[
+  {
+    "path": "part1/task1/sbml/BIOMD0000000170_url.xml",
+    "sha256": "f6f1bd3faf8223d8a32314e7422263568e88b1f662b9d2ee9f7e0300960d6328",
+    "sbml": {
+      "level": "2",
+      "metaid": "metaid_0000001",
+      "version": "1"
+    },
+    "model": {
+      "id": "Weimann2004_CircadianOscillator",
+      "metaid": "metaid_0000002",
+      "name": "Weimann2004_CircadianOscillator"
+    },
+    "model_resources": [
+      "http://identifiers.org/biomodels.db/BIOMD0000000170",
+      "http://identifiers.org/biomodels.db/MODEL8378813456",
+      "http://identifiers.org/go/GO:0007623",
+      "http://identifiers.org/kegg.pathway/hsa04710",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/15347590",
+      "http://identifiers.org/taxonomy/40674"
+    ],
+    "compartments": [
+      {
+        "id": "Nucleus",
+        "metaid": "metaid_0000030",
+        "name": "Nucleus",
+        "size": "1"
+      },
+      {
+        "id": "Cytoplasm",
+        "metaid": "metaid_0000031",
+        "name": "Cytoplasm",
+        "size": "1"
+      }
+    ],
+    "species": [
+      {
+        "compartment": "Cytoplasm",
+        "id": "y1",
+        "initialConcentration": "0.2",
+        "metaid": "metaid_0000033",
+        "name": "Per2 or Cry mRNA",
+        "resources": [
+          "http://identifiers.org/chebi/CHEBI:33699",
+          "http://identifiers.org/kegg.compound/C00046",
+          "http://identifiers.org/uniprot/O15055",
+          "http://identifiers.org/uniprot/Q16526"
+        ]
+      },
+      {
+        "compartment": "Cytoplasm",
+        "id": "y2",
+        "initialConcentration": "0",
+        "metaid": "metaid_0000034",
+        "name": "PER2_CRY_complex_cytoplasm",
+        "resources": [
+          "http://identifiers.org/uniprot/O15055",
+          "http://identifiers.org/uniprot/Q16526"
+        ]
+      },
+      {
+        "compartment": "Nucleus",
+        "id": "y3",
+        "initialConcentration": "1.1",
+        "metaid": "metaid_0000035",
+        "name": "PER2_CRY_complex_nucleus",
+        "resources": [
+          "http://identifiers.org/uniprot/O15055",
+          "http://identifiers.org/uniprot/Q16526"
+        ]
+      },
+      {
+        "compartment": "Cytoplasm",
+        "id": "y4",
+        "initialConcentration": "0.8",
+        "metaid": "metaid_0000036",
+        "name": "Bmal1 mRNA",
+        "resources": [
+          "http://identifiers.org/chebi/CHEBI:33699",
+          "http://identifiers.org/kegg.compound/C00046",
+          "http://identifiers.org/uniprot/Q8IUT4"
+        ]
+      },
+      {
+        "compartment": "Cytoplasm",
+        "id": "y5",
+        "initialConcentration": "1",
+        "metaid": "metaid_0000037",
+        "name": "BMAL1_cytoplasm",
+        "resources": [
+          "http://identifiers.org/uniprot/Q8IUT4"
+        ]
+      },
+      {
+        "compartment": "Nucleus",
+        "id": "y6",
+        "initialConcentration": "1",
+        "metaid": "metaid_0000038",
+        "name": "BMAL1_nucleus",
+        "resources": [
+          "http://identifiers.org/uniprot/Q8IUT4"
+        ]
+      },
+      {
+        "compartment": "Nucleus",
+        "id": "y7",
+        "initialConcentration": "1.05",
+        "metaid": "metaid_0000039",
+        "name": "Active BMAL1",
+        "resources": [
+          "http://identifiers.org/uniprot/Q8IUT4"
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "id": "per2_cry_transcription",
+        "metaid": "metaid_0000044",
+        "name": "per2_cry_transcription",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "metaid": "_748662",
+            "species": "y1"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748674\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> trans_per2_cry </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "trans_per2_cry"
+        ]
+      },
+      {
+        "id": "per2_cry_mRNA_degradation",
+        "metaid": "metaid_0000045",
+        "name": "per2_cry_mRNA_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748686",
+            "species": "y1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748698\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k1d </ns1:ci>\n              <ns1:ci> y1 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k1d",
+          "y1"
+        ]
+      },
+      {
+        "id": "per2_cry_complex_formation",
+        "metaid": "metaid_0000046",
+        "name": "per2_cry_complex_formation",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "metaid": "_748710",
+            "species": "y2"
+          }
+        ],
+        "modifiers": [
+          {
+            "metaid": "_748722",
+            "species": "y1"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748734\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k2b </ns1:ci>\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> y1 </ns1:ci>\n                <ns1:ci> q </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k2b",
+          "y1",
+          "q"
+        ]
+      },
+      {
+        "id": "cytoplasmic_per2_cry_complex_degradation",
+        "metaid": "metaid_0000047",
+        "name": "cytoplasmic_per2_cry_complex_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748747",
+            "species": "y2"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748759\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k2d </ns1:ci>\n              <ns1:ci> y2 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k2d",
+          "y2"
+        ]
+      },
+      {
+        "id": "per2_cry_nuclear_import",
+        "metaid": "metaid_0000048",
+        "name": "per2_cry_nuclear_import",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748771",
+            "species": "y2"
+          }
+        ],
+        "products": [
+          {
+            "metaid": "_748784",
+            "species": "y3"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748796\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k2t </ns1:ci>\n              <ns1:ci> y2 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k2t",
+          "y2"
+        ]
+      },
+      {
+        "id": "per2_cry_nuclear_export",
+        "metaid": "metaid_0000049",
+        "name": "per2_cry_nuclear_export",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748808",
+            "species": "y3"
+          }
+        ],
+        "products": [
+          {
+            "metaid": "_748820",
+            "species": "y2"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748832\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k3t </ns1:ci>\n              <ns1:ci> y3 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k3t",
+          "y3"
+        ]
+      },
+      {
+        "id": "nuclear_per2_cry_complex_degradation",
+        "metaid": "metaid_0000050",
+        "name": "nuclear_per2_cry_complex_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748844",
+            "species": "y3"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748856\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k3d </ns1:ci>\n              <ns1:ci> y3 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k3d",
+          "y3"
+        ]
+      },
+      {
+        "id": "Bmal1_transcription",
+        "metaid": "metaid_0000051",
+        "name": "Bmal1_transcription",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "metaid": "_748868",
+            "species": "y4"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748880\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> trans_Bmal1 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "trans_Bmal1"
+        ]
+      },
+      {
+        "id": "Bmal1_mRNA_degradation",
+        "metaid": "metaid_0000052",
+        "name": "Bmal1_mRNA_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748892",
+            "species": "y4"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748904\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k4d </ns1:ci>\n              <ns1:ci> y4 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k4d",
+          "y4"
+        ]
+      },
+      {
+        "id": "BMAL1_translation",
+        "metaid": "metaid_0000053",
+        "name": "BMAL1_translation",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "metaid": "_748916",
+            "species": "y5"
+          }
+        ],
+        "modifiers": [
+          {
+            "metaid": "_748928",
+            "species": "y4"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748940\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k5b </ns1:ci>\n              <ns1:ci> y4 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k5b",
+          "y4"
+        ]
+      },
+      {
+        "id": "cytoplasmic_BMAL1_degradation",
+        "metaid": "metaid_0000054",
+        "name": "cytoplasmic_BMAL1_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748952",
+            "species": "y5"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_748964\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k5d </ns1:ci>\n              <ns1:ci> y5 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k5d",
+          "y5"
+        ]
+      },
+      {
+        "id": "BMAL1_nuclear_import",
+        "metaid": "metaid_0000055",
+        "name": "BMAL1_nuclear_import",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_748976",
+            "species": "y5"
+          }
+        ],
+        "products": [
+          {
+            "metaid": "_748988",
+            "species": "y6"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_749001\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cytoplasm </ns1:ci>\n              <ns1:ci> k5t </ns1:ci>\n              <ns1:ci> y5 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cytoplasm",
+          "k5t",
+          "y5"
+        ]
+      },
+      {
+        "id": "BMAL1_nuclear_export",
+        "metaid": "metaid_0000056",
+        "name": "BMAL1_nuclear_export",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_749013",
+            "species": "y6"
+          }
+        ],
+        "products": [
+          {
+            "metaid": "_749025",
+            "species": "y5"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_749037\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k6t </ns1:ci>\n              <ns1:ci> y6 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k6t",
+          "y6"
+        ]
+      },
+      {
+        "id": "nuclear_BMAL1_degradation",
+        "metaid": "metaid_0000057",
+        "name": "nuclear_BMAL1_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_749049",
+            "species": "y6"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_749062\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k6d </ns1:ci>\n              <ns1:ci> y6 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k6d",
+          "y6"
+        ]
+      },
+      {
+        "id": "BMAL1_activation",
+        "metaid": "metaid_0000058",
+        "name": "BMAL1_activation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_749074",
+            "species": "y6"
+          }
+        ],
+        "products": [
+          {
+            "metaid": "_749086",
+            "species": "y7"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_749098\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k6a </ns1:ci>\n              <ns1:ci> y6 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k6a",
+          "y6"
+        ]
+      },
+      {
+        "id": "BMAL1_deactivation",
+        "metaid": "metaid_0000059",
+        "name": "BMAL1_deactivation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_749110",
+            "species": "y7"
+          }
+        ],
+        "products": [
+          {
+            "metaid": "_749122",
+            "species": "y6"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_749134\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k7a </ns1:ci>\n              <ns1:ci> y7 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k7a",
+          "y7"
+        ]
+      },
+      {
+        "id": "Active_BMAL1_degradation",
+        "metaid": "metaid_0000060",
+        "name": "Active_BMAL1_degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "metaid": "_749146",
+            "species": "y7"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"_749159\">\n          <ns1:math>          \n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nucleus </ns1:ci>\n              <ns1:ci> k7d </ns1:ci>\n              <ns1:ci> y7 </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n                </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nucleus",
+          "k7d",
+          "y7"
+        ]
+      }
+    ],
+    "rules_xml": [
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"metaid_0000041\" variable=\"trans_per2_cry\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:divide />\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> v1b </ns1:ci>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> y7 </ns1:ci>\n                <ns1:ci> c </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:plus />\n              <ns1:apply>\n                <ns1:times />\n                <ns1:ci> k1b </ns1:ci>\n                <ns1:apply>\n                  <ns1:plus />\n                  <ns1:cn type=\"integer\"> 1 </ns1:cn>\n                  <ns1:apply>\n                    <ns1:power />\n                    <ns1:apply>\n                      <ns1:divide />\n                      <ns1:ci> y3 </ns1:ci>\n                      <ns1:ci> k1i </ns1:ci>\n                    </ns1:apply>\n                    <ns1:ci> hill_coeff </ns1:ci>\n                  </ns1:apply>\n                </ns1:apply>\n              </ns1:apply>\n              <ns1:ci> y7 </ns1:ci>\n              <ns1:ci> c </ns1:ci>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n      ",
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"metaid_0000042\" variable=\"trans_Bmal1\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:divide />\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> v4b </ns1:ci>\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> y3 </ns1:ci>\n                <ns1:ci> r </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:plus />\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> k4b </ns1:ci>\n                <ns1:ci> r </ns1:ci>\n              </ns1:apply>\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> y3 </ns1:ci>\n                <ns1:ci> r </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n      ",
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" metaid=\"metaid_0000043\" variable=\"y5_y6_y7\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> y5 </ns1:ci>\n            <ns1:ci> y6 </ns1:ci>\n            <ns1:ci> y7 </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n    "
+    ],
+    "events_xml": [],
+    "parameters": [
+      {
+        "constant": "false",
+        "id": "trans_per2_cry",
+        "metaid": "metaid_0000003",
+        "units": "nM_per_hour",
+        "value": "0"
+      },
+      {
+        "id": "v1b",
+        "metaid": "metaid_0000004",
+        "units": "nM_per_hour",
+        "value": "9"
+      },
+      {
+        "id": "c",
+        "metaid": "metaid_0000005",
+        "units": "nM",
+        "value": "0.01"
+      },
+      {
+        "id": "k1b",
+        "metaid": "metaid_0000006",
+        "units": "nM",
+        "value": "1"
+      },
+      {
+        "id": "k1i",
+        "metaid": "metaid_0000007",
+        "units": "nM",
+        "value": "0.56"
+      },
+      {
+        "id": "hill_coeff",
+        "metaid": "metaid_0000008",
+        "units": "dimensionless",
+        "value": "8"
+      },
+      {
+        "constant": "false",
+        "id": "trans_Bmal1",
+        "metaid": "metaid_0000009",
+        "units": "nM_per_hour",
+        "value": "0"
+      },
+      {
+        "id": "v4b",
+        "metaid": "metaid_0000010",
+        "units": "nM_per_hour",
+        "value": "3.6"
+      },
+      {
+        "id": "r",
+        "metaid": "metaid_0000011",
+        "units": "dimensionless",
+        "value": "3"
+      },
+      {
+        "id": "k4b",
+        "metaid": "metaid_0000012",
+        "units": "nM",
+        "value": "2.16"
+      },
+      {
+        "constant": "false",
+        "id": "y5_y6_y7",
+        "metaid": "metaid_0000013",
+        "units": "nM",
+        "value": "3.05"
+      },
+      {
+        "id": "k1d",
+        "metaid": "metaid_0000014",
+        "units": "time_inverse",
+        "value": "0.12"
+      },
+      {
+        "id": "k2b",
+        "metaid": "metaid_0000015",
+        "units": "nM_inv_hr_inv",
+        "value": "0.3"
+      },
+      {
+        "id": "q",
+        "metaid": "metaid_0000016",
+        "units": "dimensionless",
+        "value": "2"
+      },
+      {
+        "id": "k2d",
+        "metaid": "metaid_0000017",
+        "units": "time_inverse",
+        "value": "0.05"
+      },
+      {
+        "id": "k2t",
+        "metaid": "metaid_0000018",
+        "units": "time_inverse",
+        "value": "0.24"
+      },
+      {
+        "id": "k3t",
+        "metaid": "metaid_0000019",
+        "units": "time_inverse",
+        "value": "0.02"
+      },
+      {
+        "id": "k3d",
+        "metaid": "metaid_0000020",
+        "units": "time_inverse",
+        "value": "0.12"
+      },
+      {
+        "id": "k4d",
+        "metaid": "metaid_0000021",
+        "units": "time_inverse",
+        "value": "0.75"
+      },
+      {
+        "id": "k5b",
+        "metaid": "metaid_0000022",
+        "units": "time_inverse",
+        "value": "0.24"
+      },
+      {
+        "id": "k5d",
+        "metaid": "metaid_0000023",
+        "units": "time_inverse",
+        "value": "0.06"
+      },
+      {
+        "id": "k5t",
+        "metaid": "metaid_0000024",
+        "units": "time_inverse",
+        "value": "0.45"
+      },
+      {
+        "id": "k6t",
+        "metaid": "metaid_0000025",
+        "units": "time_inverse",
+        "value": "0.06"
+      },
+      {
+        "id": "k6d",
+        "metaid": "metaid_0000026",
+        "units": "time_inverse",
+        "value": "0.12"
+      },
+      {
+        "id": "k6a",
+        "metaid": "metaid_0000027",
+        "units": "time_inverse",
+        "value": "0.09"
+      },
+      {
+        "id": "k7a",
+        "metaid": "metaid_0000028",
+        "units": "time_inverse",
+        "value": "0.003"
+      },
+      {
+        "id": "k7d",
+        "metaid": "metaid_0000029",
+        "units": "time_inverse",
+        "value": "0.09"
+      }
+    ],
+    "initial_assignments_xml": [],
+    "function_definitions_xml": []
+  },
+  {
+    "path": "part1/task1/sbml/Ciliberto2005.xml",
+    "sha256": "c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389",
+    "sbml": {
+      "level": "2",
+      "version": "4"
+    },
+    "model": {
+      "metaid": "COPASI0",
+      "id": "Ciliberto2005___Steady_states_and_oscillations_in_the_p53_Mdm2_network",
+      "name": "Ciliberto2005 - Steady states and oscillations in the p53/Mdm2 network"
+    },
+    "model_resources": [
+      "http://identifiers.org/biomodels.db/BIOMD0000001006",
+      "http://identifiers.org/biomodels.db/MODEL2104140001",
+      "http://identifiers.org/bto/BTO:0000414",
+      "http://identifiers.org/go/GO:0042769",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/15725723",
+      "http://identifiers.org/pw/PW:0000718",
+      "http://identifiers.org/taxonomy/9606",
+      "urn:miriam:bto:BTO:0000414",
+      "urn:miriam:go:GO:0042769",
+      "urn:miriam:mamo:MAMO_0000046",
+      "urn:miriam:pubmed:15725723",
+      "urn:miriam:pw:PW:0000718",
+      "urn:miriam:taxonomy:9606"
+    ],
+    "compartments": [
+      {
+        "metaid": "COPASI1",
+        "id": "Cyt",
+        "name": "Cyt",
+        "spatialDimensions": "3",
+        "size": "1",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI2",
+        "id": "Nuc",
+        "name": "Nuc",
+        "spatialDimensions": "3",
+        "size": "1",
+        "constant": "true"
+      }
+    ],
+    "species": [
+      {
+        "metaid": "COPASI3",
+        "id": "DNA_damage",
+        "name": "DNA_damage",
+        "compartment": "Nuc",
+        "initialConcentration": "0",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/ncit/C16507",
+          "urn:miriam:ncit:C16507"
+        ]
+      },
+      {
+        "metaid": "COPASI4",
+        "id": "IR",
+        "name": "IR",
+        "compartment": "Nuc",
+        "initialConcentration": "0",
+        "boundaryCondition": "true",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/obi/OBI_0302889",
+          "urn:miriam:obi:OBI_0302889"
+        ]
+      },
+      {
+        "metaid": "COPASI5",
+        "id": "p53_total",
+        "name": "p53_total",
+        "compartment": "Nuc",
+        "initialConcentration": "0.07118",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/uniprot/P04637",
+          "urn:miriam:uniprot:P04637"
+        ]
+      },
+      {
+        "metaid": "COPASI6",
+        "id": "p53_ub",
+        "name": "p53_ub",
+        "compartment": "Nuc",
+        "initialConcentration": "0.02456",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/pr/PR:000037077",
+          "http://identifiers.org/uniprot/P04637",
+          "urn:miriam:pr:PR:000037077",
+          "urn:miriam:uniprot:P04637"
+        ]
+      },
+      {
+        "metaid": "COPASI7",
+        "id": "p53_ub_ub",
+        "name": "p53_ub_ub",
+        "compartment": "Nuc",
+        "initialConcentration": "0.006826",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/pr/PR:000037077",
+          "http://identifiers.org/uniprot/P04637",
+          "urn:miriam:pr:PR:000037077",
+          "urn:miriam:uniprot:P04637"
+        ]
+      },
+      {
+        "metaid": "COPASI8",
+        "id": "Mdm2_cyt",
+        "name": "Mdm2_cyt",
+        "compartment": "Cyt",
+        "initialConcentration": "0.1161",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/uniprot/Q00987",
+          "urn:miriam:uniprot:Q00987"
+        ]
+      },
+      {
+        "metaid": "COPASI9",
+        "id": "Mdm2_p_cyt",
+        "name": "Mdm2_p_cyt",
+        "compartment": "Cyt",
+        "initialConcentration": "0.01187",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/bao/0002007",
+          "http://identifiers.org/uniprot/Q00987",
+          "urn:miriam:bao:0002007",
+          "urn:miriam:uniprot:Q00987"
+        ]
+      },
+      {
+        "metaid": "COPASI10",
+        "id": "Mdm2_p_nuc",
+        "name": "Mdm2_p_nuc",
+        "compartment": "Nuc",
+        "initialConcentration": "0.331800000000002",
+        "boundaryCondition": "false",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/bao/0002007",
+          "http://identifiers.org/uniprot/Q00987",
+          "urn:miriam:bao:0002007",
+          "urn:miriam:uniprot:Q00987"
+        ]
+      },
+      {
+        "metaid": "COPASI11",
+        "id": "p53",
+        "name": "p53",
+        "compartment": "Nuc",
+        "initialConcentration": "0.039794",
+        "boundaryCondition": "true",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/uniprot/P04637",
+          "urn:miriam:uniprot:P04637"
+        ]
+      },
+      {
+        "metaid": "COPASI12",
+        "id": "MDM2_total",
+        "name": "MDM2_total",
+        "compartment": "Cyt",
+        "initialConcentration": "0.150090000000001",
+        "boundaryCondition": "true",
+        "constant": "false",
+        "resources": [
+          "http://identifiers.org/uniprot/Q00987",
+          "urn:miriam:uniprot:Q00987"
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "metaid": "COPASI41",
+        "id": "DNA_Damage",
+        "name": "DNA Damage",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "species": "DNA_damage",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "IR"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F2_Damage </ns1:ci>\n                <ns1:ci> kDNA </ns1:ci>\n                <ns1:ci> IR </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F2_Damage",
+          "kDNA",
+          "IR"
+        ]
+      },
+      {
+        "metaid": "COPASI42",
+        "id": "DNA_Repair",
+        "name": "DNA Repair",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "DNA_damage",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [
+          {
+            "species": "p53_total"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F3_Repair </ns1:ci>\n                <ns1:ci> kdDNA </ns1:ci>\n                <ns1:ci> p53_total </ns1:ci>\n                <ns1:ci> DNA_damage </ns1:ci>\n                <ns1:ci> Jdna </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F3_Repair",
+          "kdDNA",
+          "p53_total",
+          "DNA_damage",
+          "Jdna"
+        ]
+      },
+      {
+        "metaid": "COPASI43",
+        "id": "p53_total_production",
+        "name": "p53 total production",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "species": "p53_total",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> Constant_flux__irreversible </ns1:ci>\n                <ns1:ci> ks53 </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "Constant_flux__irreversible",
+          "ks53"
+        ]
+      },
+      {
+        "metaid": "COPASI44",
+        "id": "p53_total_degradation",
+        "name": "p53 total degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_total",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:ci> kd53 </ns1:ci>\n              <ns1:ci> p53_total </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "kd53",
+          "p53_total"
+        ]
+      },
+      {
+        "metaid": "COPASI45",
+        "id": "p53_ubiquitination_1",
+        "name": "p53 ubiquitination 1",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "species": "p53_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "Mdm2_p_nuc"
+          },
+          {
+            "species": "p53"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F1___ubiquitination1 </ns1:ci>\n                <ns1:ci> Kf </ns1:ci>\n                <ns1:ci> Mdm2_p_nuc </ns1:ci>\n                <ns1:ci> p53 </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F1___ubiquitination1",
+          "Kf",
+          "Mdm2_p_nuc",
+          "p53"
+        ]
+      },
+      {
+        "metaid": "COPASI46",
+        "id": "p53_ubiquitination_2",
+        "name": "p53 ubiquitination 2",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [
+          {
+            "species": "p53_ub_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "Mdm2_p_nuc"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F8_ubiquitination2 </ns1:ci>\n                <ns1:ci> Kf </ns1:ci>\n                <ns1:ci> Mdm2_p_nuc </ns1:ci>\n                <ns1:ci> p53_ub </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F8_ubiquitination2",
+          "Kf",
+          "Mdm2_p_nuc",
+          "p53_ub"
+        ]
+      },
+      {
+        "metaid": "COPASI47",
+        "id": "p53_ub_degradation",
+        "name": "p53_ub degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:ci> kd53 </ns1:ci>\n              <ns1:ci> p53_ub </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "kd53",
+          "p53_ub"
+        ]
+      },
+      {
+        "metaid": "COPASI48",
+        "id": "p53_ub_ub_degradation",
+        "name": "p53_ub_ub degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_ub_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F9__p53_ub_ub_deg </ns1:ci>\n                <ns1:ci> kd53 </ns1:ci>\n                <ns1:ci> kd53_0 </ns1:ci>\n                <ns1:ci> p53_ub_ub </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F9__p53_ub_ub_deg",
+          "kd53",
+          "kd53_0",
+          "p53_ub_ub"
+        ]
+      },
+      {
+        "metaid": "COPASI49",
+        "id": "p53_deubiquitination_1",
+        "name": "p53 deubiquitination 1",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:ci> Kr </ns1:ci>\n              <ns1:ci> p53_ub </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "Kr",
+          "p53_ub"
+        ]
+      },
+      {
+        "metaid": "COPASI50",
+        "id": "p53_deubiquitination_2",
+        "name": "p53 deubiquitination 2",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_ub_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [
+          {
+            "species": "p53_ub",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:ci> Kr </ns1:ci>\n              <ns1:ci> p53_ub_ub </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "Kr",
+          "p53_ub_ub"
+        ]
+      },
+      {
+        "metaid": "COPASI51",
+        "id": "Mdm2_cyt_production",
+        "name": "Mdm2_cyt production",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "species": "Mdm2_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "p53_total"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:ci> F10___mdm2cyt_synthesis </ns1:ci>\n              <ns1:ci> ks2 </ns1:ci>\n              <ns1:ci> ks2_0 </ns1:ci>\n              <ns1:ci> p53_total </ns1:ci>\n              <ns1:ci> m </ns1:ci>\n              <ns1:ci> Js </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "F10___mdm2cyt_synthesis",
+          "ks2",
+          "ks2_0",
+          "p53_total",
+          "m",
+          "Js"
+        ]
+      },
+      {
+        "metaid": "COPASI52",
+        "id": "Mdm2_cyt_phosphorylation",
+        "name": "Mdm2_cyt phosphorylation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [
+          {
+            "species": "Mdm2_p_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "p53_total"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:ci> F4___mdm2_phos </ns1:ci>\n              <ns1:ci> p53_total </ns1:ci>\n              <ns1:ci> Jph </ns1:ci>\n              <ns1:ci> kph </ns1:ci>\n              <ns1:ci> Mdm2_cyt </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "F4___mdm2_phos",
+          "p53_total",
+          "Jph",
+          "kph",
+          "Mdm2_cyt"
+        ]
+      },
+      {
+        "metaid": "COPASI53",
+        "id": "Mdm2_cyt_degradation",
+        "name": "Mdm2_cyt degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cyt </ns1:ci>\n              <ns1:ci> kd2 </ns1:ci>\n              <ns1:ci> Mdm2_cyt </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cyt",
+          "kd2",
+          "Mdm2_cyt"
+        ]
+      },
+      {
+        "metaid": "COPASI54",
+        "id": "Mdm2_p_cyt_degradation",
+        "name": "Mdm2_p_cyt degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_p_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cyt </ns1:ci>\n              <ns1:ci> kd2 </ns1:ci>\n              <ns1:ci> Mdm2_p_cyt </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cyt",
+          "kd2",
+          "Mdm2_p_cyt"
+        ]
+      },
+      {
+        "metaid": "COPASI55",
+        "id": "Mdm2_p_nuc_translocation_out",
+        "name": "Mdm2_p_nuc translocation out",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_p_nuc",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F11___translocation1 </ns1:ci>\n                <ns1:ci> vratio </ns1:ci>\n                <ns1:ci> kout </ns1:ci>\n                <ns1:ci> Mdm2_p_nuc </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F11___translocation1",
+          "vratio",
+          "kout",
+          "Mdm2_p_nuc"
+        ]
+      },
+      {
+        "metaid": "COPASI56",
+        "id": "Mdm2_p_cyt_dephosphorylation",
+        "name": "Mdm2_p_cyt dephosphorylation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_p_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [
+          {
+            "species": "Mdm2_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cyt </ns1:ci>\n              <ns1:ci> kdeph </ns1:ci>\n              <ns1:ci> Mdm2_p_cyt </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cyt",
+          "kdeph",
+          "Mdm2_p_cyt"
+        ]
+      },
+      {
+        "metaid": "COPASI57",
+        "id": "Mdm2_p_cyt_translocation_out",
+        "name": "Mdm2_p_cyt translocation out",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_p_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Cyt </ns1:ci>\n              <ns1:ci> kin </ns1:ci>\n              <ns1:ci> Mdm2_p_cyt </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Cyt",
+          "kin",
+          "Mdm2_p_cyt"
+        ]
+      },
+      {
+        "metaid": "COPASI58",
+        "id": "Mdm2_p_nuc_degradation",
+        "name": "Mdm2_p_nuc degradation",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "Mdm2_p_nuc",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:ci> kd2_0 </ns1:ci>\n              <ns1:ci> Mdm2_p_nuc </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "kd2_0",
+          "Mdm2_p_nuc"
+        ]
+      },
+      {
+        "metaid": "COPASI59",
+        "id": "p53_total_degradation_2",
+        "name": "p53 total degradation 2",
+        "reversible": "false",
+        "reactants": [
+          {
+            "species": "p53_total",
+            "stoichiometry": "1"
+          }
+        ],
+        "products": [],
+        "modifiers": [
+          {
+            "species": "p53_ub_ub"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> Nuc </ns1:ci>\n              <ns1:apply>\n                <ns1:ci> F7___indirect </ns1:ci>\n                <ns1:ci> kd53_0 </ns1:ci>\n                <ns1:ci> p53_ub_ub </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "Nuc",
+          "F7___indirect",
+          "kd53_0",
+          "p53_ub_ub"
+        ]
+      },
+      {
+        "metaid": "COPASI60",
+        "id": "Mdm2_p_cyt_translocation_in",
+        "name": "Mdm2_p_cyt translocation in",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "species": "Mdm2_p_cyt",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "Mdm2_p_nuc"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:ci> F2_Damage </ns1:ci>\n              <ns1:ci> kout </ns1:ci>\n              <ns1:ci> Mdm2_p_nuc </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "F2_Damage",
+          "kout",
+          "Mdm2_p_nuc"
+        ]
+      },
+      {
+        "metaid": "COPASI61",
+        "id": "Mdm2_p_nuc_translocation_in",
+        "name": "Mdm2_p_nuc translocation in",
+        "reversible": "false",
+        "reactants": [],
+        "products": [
+          {
+            "species": "Mdm2_p_nuc",
+            "stoichiometry": "1"
+          }
+        ],
+        "modifiers": [
+          {
+            "species": "Mdm2_p_cyt"
+          }
+        ],
+        "kinetic_law_xml": "<ns0:kineticLaw xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n          <ns1:math>\n            <ns1:apply>\n              <ns1:ci> F12__translocation2 </ns1:ci>\n              <ns1:ci> vratio </ns1:ci>\n              <ns1:ci> kin </ns1:ci>\n              <ns1:ci> Mdm2_p_cyt </ns1:ci>\n            </ns1:apply>\n          </ns1:math>\n        </ns0:kineticLaw>\n      ",
+        "math_identifiers": [
+          "F12__translocation2",
+          "vratio",
+          "kin",
+          "Mdm2_p_cyt"
+        ]
+      }
+    ],
+    "rules_xml": [
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" variable=\"kd2_0\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> kd2 </ns1:ci>\n            <ns1:apply>\n              <ns1:divide />\n              <ns1:apply>\n                <ns1:times />\n                <ns1:ci> kd2_ </ns1:ci>\n                <ns1:ci> DNA_damage </ns1:ci>\n              </ns1:apply>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> Jdam </ns1:ci>\n                <ns1:ci> DNA_damage </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n      ",
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" variable=\"IR\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:times />\n            <ns1:ci> ampl </ns1:ci>\n            <ns1:ci> step </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n      ",
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" variable=\"p53\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:minus />\n            <ns1:apply>\n              <ns1:minus />\n              <ns1:ci> p53_total </ns1:ci>\n              <ns1:ci> p53_ub </ns1:ci>\n            </ns1:apply>\n            <ns1:ci> p53_ub_ub </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n      ",
+      "<ns0:assignmentRule xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" variable=\"MDM2_total\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> Mdm2_cyt </ns1:ci>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:apply>\n                <ns1:divide />\n                <ns1:cn> 1 </ns1:cn>\n                <ns1:ci> ModelValue_6 </ns1:ci>\n              </ns1:apply>\n              <ns1:ci> Mdm2_p_nuc </ns1:ci>\n            </ns1:apply>\n            <ns1:ci> Mdm2_p_cyt </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n    "
+    ],
+    "events_xml": [
+      "<ns0:event xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI39\" id=\"event\" name=\"event\" useValuesFromTriggerTime=\"false\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI39\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T12:14:22Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns0:trigger>\n          <ns4:math>\n            <ns4:apply>\n              <ns4:gt />\n              <ns4:csymbol encoding=\"text\" definitionURL=\"http://www.sbml.org/sbml/symbols/time\"> time </ns4:csymbol>\n              <ns4:cn> 10 </ns4:cn>\n            </ns4:apply>\n          </ns4:math>\n        </ns0:trigger>\n        <ns0:delay>\n          <ns4:math>\n            <ns4:cn> 2 </ns4:cn>\n          </ns4:math>\n        </ns0:delay>\n        <ns0:listOfEventAssignments>\n          <ns0:eventAssignment variable=\"step\">\n            <ns4:math>\n              <ns4:cn> 1 </ns4:cn>\n            </ns4:math>\n          </ns0:eventAssignment>\n        </ns0:listOfEventAssignments>\n      </ns0:event>\n      ",
+      "<ns0:event xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI40\" id=\"event_1\" name=\"event_1\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI40\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T12:34:42Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns0:trigger>\n          <ns4:math>\n            <ns4:apply>\n              <ns4:gt />\n              <ns4:csymbol encoding=\"text\" definitionURL=\"http://www.sbml.org/sbml/symbols/time\"> time </ns4:csymbol>\n              <ns4:cn> 20 </ns4:cn>\n            </ns4:apply>\n          </ns4:math>\n        </ns0:trigger>\n        <ns0:listOfEventAssignments>\n          <ns0:eventAssignment variable=\"step\">\n            <ns4:math>\n              <ns4:cn> 0 </ns4:cn>\n            </ns4:math>\n          </ns0:eventAssignment>\n        </ns0:listOfEventAssignments>\n      </ns0:event>\n    "
+    ],
+    "parameters": [
+      {
+        "metaid": "COPASI13",
+        "id": "Kf",
+        "name": "Kf",
+        "value": "8.8",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI14",
+        "id": "Kr",
+        "name": "Kr",
+        "value": "2.5",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI15",
+        "id": "ks53",
+        "name": "ks53",
+        "value": "0.055",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI16",
+        "id": "kDNA",
+        "name": "kDNA",
+        "value": "0.18",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI17",
+        "id": "kdDNA",
+        "name": "kdDNA",
+        "value": "0.017",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI18",
+        "id": "Jdna",
+        "name": "Jdna",
+        "value": "1",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI19",
+        "id": "vratio",
+        "name": "vratio",
+        "value": "15",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI20",
+        "id": "kd53",
+        "name": "kd53'",
+        "value": "0.0055",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI21",
+        "id": "ks2",
+        "name": "ks2'",
+        "value": "0.0015",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI22",
+        "id": "ks2_0",
+        "name": "ks2",
+        "value": "0.006",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI23",
+        "id": "kd2",
+        "name": "kd2'",
+        "value": "0.01",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI24",
+        "id": "kd2_",
+        "name": "kd2''",
+        "value": "0.01",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI25",
+        "id": "kph",
+        "name": "kph",
+        "value": "0.05",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI26",
+        "id": "kdeph",
+        "name": "kdeph",
+        "value": "6",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI27",
+        "id": "kin",
+        "name": "kin",
+        "value": "14",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI28",
+        "id": "kout",
+        "name": "kout",
+        "value": "0.5",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI29",
+        "id": "kd53_0",
+        "name": "kd53",
+        "value": "8",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI30",
+        "id": "m",
+        "name": "m",
+        "value": "3",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI31",
+        "id": "Js",
+        "name": "Js",
+        "value": "1.2",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI32",
+        "id": "Jdam",
+        "name": "Jdam",
+        "value": "0.2",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI33",
+        "id": "Jph",
+        "name": "Jph",
+        "value": "0.01",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI34",
+        "id": "ampl",
+        "name": "ampl",
+        "value": "1",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI35",
+        "id": "step",
+        "name": "step",
+        "value": "0",
+        "constant": "false"
+      },
+      {
+        "metaid": "COPASI36",
+        "id": "t_on",
+        "name": "t_on",
+        "value": "10",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI37",
+        "id": "t_off",
+        "name": "t_off",
+        "value": "20",
+        "constant": "true"
+      },
+      {
+        "metaid": "COPASI38",
+        "id": "kd2_0",
+        "name": "kd2",
+        "value": "0.01",
+        "constant": "false"
+      },
+      {
+        "id": "ModelValue_6",
+        "name": "Initial for vratio",
+        "value": "15"
+      }
+    ],
+    "initial_assignments_xml": [
+      "<ns0:initialAssignment xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\" symbol=\"ModelValue_6\">\n        <ns1:math>\n          <ns1:ci> vratio </ns1:ci>\n        </ns1:math>\n      </ns0:initialAssignment>\n    "
+    ],
+    "function_definitions_xml": [
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI62\" id=\"Constant_flux__irreversible\" name=\"Constant flux (irreversible)\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI62\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-03-31T14:09:22Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> v </ns4:ci>\n            </ns4:bvar>\n            <ns4:ci> v </ns4:ci>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI63\" id=\"F11___translocation1\" name=\"F11 - translocation1\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI63\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T13:34:51Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> Vratio </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> S </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> Vratio </ns4:ci>\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> S </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI64\" id=\"F9__p53_ub_ub_deg\" name=\"F9- p53 ub ub deg\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI64\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T13:13:09Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> k1 </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> k2 </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> s </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:apply>\n                <ns4:plus />\n                <ns4:ci> k1 </ns4:ci>\n                <ns4:ci> k2 </ns4:ci>\n              </ns4:apply>\n              <ns4:ci> s </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI65\" id=\"F7___indirect\" name=\"F7 - indirect\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI65\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T13:02:54Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> M </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> M </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI66\" id=\"F1___ubiquitination1\" name=\"F1 - ubiquitination1\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI66\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-03-31T14:49:53Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> E </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> S </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> E </ns4:ci>\n              <ns4:ci> S </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI67\" id=\"F2_Damage\" name=\"F2-Damage\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI67\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-03-31T14:57:01Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> M </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> M </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI68\" id=\"F3_Repair\" name=\"F3-Repair\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI68\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-03-31T14:58:55Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> p53 </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> S </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> Jdna </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> p53 </ns4:ci>\n              <ns4:apply>\n                <ns4:divide />\n                <ns4:ci> S </ns4:ci>\n                <ns4:apply>\n                  <ns4:plus />\n                  <ns4:ci> Jdna </ns4:ci>\n                  <ns4:ci> S </ns4:ci>\n                </ns4:apply>\n              </ns4:apply>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI69\" id=\"F4___mdm2_phos\" name=\"F4 - mdm2 phos\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI69\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-07T16:25:35Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> p53t </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> Jph </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> kph </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> S </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:apply>\n                <ns4:divide />\n                <ns4:ci> kph </ns4:ci>\n                <ns4:apply>\n                  <ns4:plus />\n                  <ns4:ci> Jph </ns4:ci>\n                  <ns4:ci> p53t </ns4:ci>\n                </ns4:apply>\n              </ns4:apply>\n              <ns4:ci> S </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI70\" id=\"F8_ubiquitination2\" name=\"F8-ubiquitination2\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI70\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T13:08:21Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> M </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> S </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> M </ns4:ci>\n              <ns4:ci> S </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI71\" id=\"F10___mdm2cyt_synthesis\" name=\"F10 - mdm2cyt synthesis\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI71\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T13:16:25Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> p1 </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> p2 </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> p53tot </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> m </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> Js </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:plus />\n              <ns4:ci> p1 </ns4:ci>\n              <ns4:apply>\n                <ns4:divide />\n                <ns4:apply>\n                  <ns4:times />\n                  <ns4:ci> p2 </ns4:ci>\n                  <ns4:apply>\n                    <ns4:power />\n                    <ns4:ci> p53tot </ns4:ci>\n                    <ns4:ci> m </ns4:ci>\n                  </ns4:apply>\n                </ns4:apply>\n                <ns4:apply>\n                  <ns4:plus />\n                  <ns4:apply>\n                    <ns4:power />\n                    <ns4:ci> Js </ns4:ci>\n                    <ns4:ci> m </ns4:ci>\n                  </ns4:apply>\n                  <ns4:apply>\n                    <ns4:power />\n                    <ns4:ci> p53tot </ns4:ci>\n                    <ns4:ci> m </ns4:ci>\n                  </ns4:apply>\n                </ns4:apply>\n              </ns4:apply>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n      ",
+      "<ns0:functionDefinition xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.copasi.org/static/sbml\" xmlns:ns3=\"http://purl.org/dc/terms/\" xmlns:ns4=\"http://www.w3.org/1998/Math/MathML\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" metaid=\"COPASI72\" id=\"F12__translocation2\" name=\"F12- translocation2\">\n        <ns0:annotation>\n          <ns1:COPASI>\n            <rdf:RDF>\n              <rdf:Description rdf:about=\"#COPASI72\">\n                <ns3:created>\n                  <rdf:Description>\n                    <ns3:W3CDTF>2021-04-14T13:35:50Z</ns3:W3CDTF>\n                  </rdf:Description>\n                </ns3:created>\n              </rdf:Description>\n            </rdf:RDF>\n          </ns1:COPASI>\n        </ns0:annotation>\n        <ns4:math>\n          <ns4:lambda>\n            <ns4:bvar>\n              <ns4:ci> Vratio </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> k </ns4:ci>\n            </ns4:bvar>\n            <ns4:bvar>\n              <ns4:ci> M </ns4:ci>\n            </ns4:bvar>\n            <ns4:apply>\n              <ns4:times />\n              <ns4:ci> Vratio </ns4:ci>\n              <ns4:ci> k </ns4:ci>\n              <ns4:ci> M </ns4:ci>\n            </ns4:apply>\n          </ns4:lambda>\n        </ns4:math>\n      </ns0:functionDefinition>\n    "
+    ]
+  }
+]

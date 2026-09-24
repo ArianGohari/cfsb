@@ -1,0 +1,301 @@
+{
+  "name" : "Ibrahim2008 - Mitotic Spindle Assembly Checkpoint - Convey variant",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Ibrahim2008 - Mitotic Spindle Assembly Checkpoint - Convey variant</div>            <div class=\"dc:description\">      <p>The Mitotic Spindle Assembly Checkpoint ((M)SAC) is an evolutionary conserved mechanism. This model incorporates the perspectives of three central control pathways, namely Mad1/Mad2 induced Cdc20 sequestering based on the Template Model, MCC formation, and APC inhibition. MCC:APC dissociation is described by two alternatives models, namely the \"Dissociation\" and the \"Convey\" model variants. Both these model are available in BioModels Database. This model corresponds to the \"Convey\" variant.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/18253502\" title=\"Access to this publication\">In-silico modeling of the mitotic spindle assembly checkpoint.</a>                    </div>                <div class=\"bibo:authorList\">Ibrahim B, Diekmann S, Schmitt E, Dittrich P</div>                <div class=\"bibo:Journal\">PLoS One. 2008 Feb 6;3(2):e1555.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>BACKGROUND: The Mitotic Spindle Assembly Checkpoint ((M)SAC) is an evolutionary conserved mechanism that ensures the correct segregation of chromosomes by restraining cell cycle progression from entering anaphase until all chromosomes have made proper bipolar attachments to the mitotic spindle. Its malfunction can lead to cancer.</p>                    <p>PRINCIPLE FINDINGS: We have constructed and validated for the human (M)SAC mechanism an in silico dynamical model, integrating 11 proteins and complexes. The model incorporates the perspectives of three central control pathways, namely Mad1/Mad2 induced Cdc20 sequestering based on the Template Model, MCC formation, and APC inhibition. Originating from the biochemical reactions for the underlying molecular processes, non-linear ordinary differential equations for the concentrations of 11 proteins and complexes of the (M)SAC are derived. Most of the kinetic constants are taken from literature, the remaining four unknown parameters are derived by an evolutionary optimization procedure for an objective function describing the dynamics of the APC:Cdc20 complex. MCC:APC dissociation is described by two alternatives, namely the \"Dissociation\" and the \"Convey\" model variants. The attachment of the kinetochore to microtubuli is simulated by a switching parameter silencing those reactions which are stopped by the attachment. For both, the Dissociation and the Convey variants, we compare two different scenarios concerning the microtubule attachment dependent control of the dissociation reaction. Our model is validated by simulation of ten perturbation experiments.</p>                    <p>CONCLUSION: Only in the controlled case, our models show (M)SAC behaviour at meta- to anaphase transition in agreement with experimental observations. Our simulations revealed that for (M)SAC activation, Cdc20 is not fully sequestered; instead APC is inhibited by MCC binding.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>This model describes the controlled dissociation variant of the mitotic spindle assembly checkpoint. If the tool you use has problems with events, you can uncomment the assignment rules for u and u_prime and comment out the list of events.</p>                </div>            <div class=\"bm:modification\">      <p>In accordance with the authors due to typos in the original publication some initial conditions and parameters were slightly changed in the model:        <table cellspacing=\"10\">          <tr>            <th />                            <th>article</th>                            <th>model</th>                            </tr>                        <tr>            <td align=\"left\">              <i>[O-Mad2]</i>                                </td>                            <td align=\"right\">1.5e-7 M</td>                            <td align=\"right\">1.3e-7 M</td>                            </tr>                        <tr>            <td align=\"left\">              <i>[BubR1:Bub3]</i>                                </td>                            <td align=\"right\">1.30e-7 M</td>                            <td align=\"right\">1.27e-7 M</td>                            </tr>                        <tr>            <td align=\"left\">              <i>k                <sub>-4</sub>                                    </i>                                </td>                            <td align=\"right\">0.01 M              <sup>-1</sup>                  s              <sup>-1</sup>                                </td>                            <td align=\"right\">0.02 M              <sup>-1</sup>                  s              <sup>-1</sup>                                </td>                            </tr>                        <tr>            <td align=\"left\">              <i>k                <sub>-5</sub>                                    </i>                                </td>                            <td align=\"right\">0.1 M              <sup>-1</sup>                  s              <sup>-1</sup>                                </td>                            <td align=\"right\">0.2 M              <sup>-1</sup>                  s              <sup>-1</sup>                                </td>                            </tr>                        </table>                    </p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL6655578762\">MODEL6655578762</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18253502",
+    "journal" : "PloS one",
+    "title" : "In-silico modeling of the mitotic spindle assembly checkpoint.",
+    "affiliation" : "Bio System Analysis Group, Institute of Computer Science, Friedrich-Schiller-University Jena, Jena, Germany.",
+    "synopsis" : "<h4>Background</h4>The Mitotic Spindle Assembly Checkpoint ((M)SAC) is an evolutionary conserved mechanism that ensures the correct segregation of chromosomes by restraining cell cycle progression from entering anaphase until all chromosomes have made proper bipolar attachments to the mitotic spindle. Its malfunction can lead to cancer.<h4>Principle findings</h4>We have constructed and validated for the human (M)SAC mechanism an in silico dynamical model, integrating 11 proteins and complexes. The model incorporates the perspectives of three central control pathways, namely Mad1/Mad2 induced Cdc20 sequestering based on the Template Model, MCC formation, and APC inhibition. Originating from the biochemical reactions for the underlying molecular processes, non-linear ordinary differential equations for the concentrations of 11 proteins and complexes of the (M)SAC are derived. Most of the kinetic constants are taken from literature, the remaining four unknown parameters are derived by an evolutionary optimization procedure for an objective function describing the dynamics of the APC:Cdc20 complex. MCC:APC dissociation is described by two alternatives, namely the \"Dissociation\" and the \"Convey\" model variants. The attachment of the kinetochore to microtubuli is simulated by a switching parameter silencing those reactions which are stopped by the attachment. For both, the Dissociation and the Convey variants, we compare two different scenarios concerning the microtubule attachment dependent control of the dissociation reaction. Our model is validated by simulation of ten perturbation experiments.<h4>Conclusion</h4>Only in the controlled case, our models show (M)SAC behaviour at meta- to anaphase transition in agreement with experimental observations. Our simulations revealed that for (M)SAC activation, Cdc20 is not fully sequestered; instead APC is inhibited by MCC binding.",
+    "year" : 2008,
+    "month" : "2",
+    "volume" : "3",
+    "issue" : "2",
+    "pages" : "e1555",
+    "link" : "http://identifiers.org/pubmed/18253502",
+    "authors" : [
+      {
+        "name" : "Bashar Ibrahim",
+        "institution" : "Department of Bioinformatics, Matthias Schleiden Institute, Friedrich Schiller University Jena, Ernst-Abbe-Platz 2, 07743 Jena, Germany.Centre for Applied Mathematics and Bioinformatics, Gulf University for Science and Technology, Hawally 32093, Kuwait.Department of Mathematics and Natural Sciences, Gulf University for Science and Technology, Hawally 32093, Kuwait.",
+        "orcid" : "0000-0001-7773-0122"
+      },
+      {
+        "name" : "Stephan Diekmann"
+      },
+      {
+        "name" : "Eberhard Schmitt"
+      },
+      {
+        "name" : "Peter Dittrich"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000187_url.xml",
+        "description" : "SBML L2V3 representation of Ibrahim2008 - Mitotic Spindle Assembly Checkpoint - Convey variant",
+        "fileSize" : "38198",
+        "mimeType" : "application/xml",
+        "md5sum" : "87fae820af877a8f697df2c0814f813f",
+        "sha1sum" : "bc261db4d5b1783c281200cb63648e0ad55197c6",
+        "sha256sum" : "935c4603c563495d702f7d80dcfeff1b862596d36101804720d5a141f1ff8faf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000187-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "31696",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "51002625fd2306d7a66d3315e09dd8a7",
+        "sha1sum" : "8a845612404cb9e7a9c19de47f0de04cdacba945",
+        "sha256sum" : "e8c0fcba6025ab494ed9a3da4843eea145054dbf68bbeb6cea9a30dc62407810"
+      },
+      {
+        "name" : "BIOMD0000000187-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "44434",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f56c07924b7ce994f610341419baff90",
+        "sha1sum" : "bedae1fe046cbcd6901301ced18b812bfcf4ed8e",
+        "sha256sum" : "ab542212ca9ea00d2c09e4435ec7794da169c13050d68f208aff69789fd2f594"
+      },
+      {
+        "name" : "BIOMD0000000187-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6659",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ba3008324016032e6c5055914fe3fa28",
+        "sha1sum" : "ba154d572327e343723c4d91d5702090aa5c3fe5",
+        "sha256sum" : "7b982818d158136171c3692f37375604f6c34574a7fda41720ef4b2b6e3ca64b"
+      },
+      {
+        "name" : "BIOMD0000000187-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6659",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "34f10da2e95717b62e520ef8ef08b184",
+        "sha1sum" : "f93ef316fd732c86203df9642fda6b694044a9ab",
+        "sha256sum" : "2be13e19dda64996cd37178b965ef866ed308c78dd9f2cc3f02928202a8c6795"
+      },
+      {
+        "name" : "BIOMD0000000187.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6659",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "34f10da2e95717b62e520ef8ef08b184",
+        "sha1sum" : "f93ef316fd732c86203df9642fda6b694044a9ab",
+        "sha256sum" : "2be13e19dda64996cd37178b965ef866ed308c78dd9f2cc3f02928202a8c6795"
+      },
+      {
+        "name" : "BIOMD0000000187.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4480",
+        "mimeType" : "text/plain",
+        "md5sum" : "5260ffa6a61ca175cd65dbd0780b307e",
+        "sha1sum" : "1263bdb49f6019cf8ab4269c386a577a492c9d72",
+        "sha256sum" : "3c8062c3d60ce302570f0037b922ddcda6e0b23268cbe88a209be671ae2fa9ba"
+      },
+      {
+        "name" : "BIOMD0000000187.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "192076",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7067a2a209c5336ab2a3322ad0ac4e8d",
+        "sha1sum" : "e31375d659d6f62a020a1bc1ff8b7931f1bf9cae",
+        "sha256sum" : "66fe46ae8782c7e05736247e18497e554536781b9f80396c9f464bf58b63c4b2"
+      },
+      {
+        "name" : "BIOMD0000000187.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "83249",
+        "mimeType" : "image/png",
+        "md5sum" : "75ce2f999bcc4522a61235a7a9b631a5",
+        "sha1sum" : "a0d8afe48088b299aebc0a1024f5b4c80f28b43d",
+        "sha256sum" : "fae4168d1354c64ede57fcd9b7f3dae0bcb3d4fb2c7924b87cd944261e0b44b0"
+      },
+      {
+        "name" : "BIOMD0000000187.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "27657",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b53cb6b95eaeb2d2c6b29b835abd344e",
+        "sha1sum" : "6166c2f52f7d8ce8bfb94de26b14344a72e82f8d",
+        "sha256sum" : "c5750e17cd3a2a9e8a65e7bb93dad7445ab98c115c40512e7b4745062bc53882"
+      },
+      {
+        "name" : "BIOMD0000000187.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "63622",
+        "mimeType" : "application/xml",
+        "md5sum" : "34a524fb08fa7aa50cdf6bd3de118311",
+        "sha1sum" : "ac7ad7595da2aca5e839417f5cf0ff4efbb1d998",
+        "sha256sum" : "c421cf4c57ebe48c7b0389cfb9e7262ba395fafd3f4e407dae603070ee7334ef"
+      },
+      {
+        "name" : "BIOMD0000000187_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "22907",
+        "mimeType" : "application/xml",
+        "md5sum" : "96039b069f4283382fd922da8011446a",
+        "sha1sum" : "99476349d9bb2b4aea964a2a6a02e579da74350f",
+        "sha256sum" : "c349aebe017390c4560b3ac4039bd0e143045293d5d31f83bd2d65209f4f58b3"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12902",
+        "mimeType" : "image/png",
+        "md5sum" : "7ec0030dde276318133f5c193baa8af1",
+        "sha1sum" : "e2c7337277b86cdf075328b0427c5dd48d5de185",
+        "sha256sum" : "af26b2ffa430de94d6c724b2adecc874a8fa5f76e3335cb798e951b3a2fdd186"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "124",
+        "mimeType" : "text/plain",
+        "md5sum" : "857be3f94b72ce621b41cb5be8507edf",
+        "sha1sum" : "2fa32a0d09adafe2f7bf68bbdd01781121d835dc",
+        "sha256sum" : "f098aabe12a63ab4d4a77259fa5e0d1705f94da54cac69766da71570c84bd996"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "1645db504764cda63941e1fca53a26a4",
+        "sha1sum" : "ceba2563573c13ff63b5f15cdbc7143f3e21a699",
+        "sha256sum" : "a425bb31b8e7547e2df64f6be83e7d02dbf1c8105b4560a9bf7b801e3d4785d4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "8999",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b980b09f48c34294a2fa823738d1e180",
+        "sha1sum" : "c0c118836ebcb0b86f6c9d2e793de7d17a92a10a",
+        "sha256sum" : "222e4d0f472b53efd6406b519a05db50fe941b0d2dac238f4cb53f24aa04e0c1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1220460581,
+        "submitter" : "Bashar Ibrahim",
+        "comment" : "Original import of Mitotic Spindle Assembly Checkpoint (convey, controlled)"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401810610,
+        "submitter" : "Bashar Ibrahim",
+        "comment" : "Current version of Ibrahim2008 - Mitotic Spindle Assembly Checkpoint - Convey variant"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269747,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284924,
+  "submissionId" : "MODEL6655578762",
+  "publicationId" : "BIOMD0000000187",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Bashar Ibrahim",
+        "email" : "b.ibrahim@dkfz.de",
+        "affiliation" : "German Cancer Research Center, Heidelberg",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18253502",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18253502"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "15694304",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15694304"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_2137.2",
+      "name" : "Mitotic Spindle Checkpoint",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_2137.2"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007094",
+      "name" : "mitotic spindle assembly checkpoint",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007094"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04110",
+      "name" : "Cell cycle - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04110"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6655578762",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6655578762"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000187",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000187"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

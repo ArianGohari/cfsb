@@ -1,0 +1,293 @@
+{
+  "name" : "Schoeberl2002 - EGF MAPK",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">\t<div class=\"dc:title\">\t  Schoeberl2002 - EGF MAPK\t</div>\t<div class=\"dc:description\">\t <p>Computational model that offers an integrated quantitative, dynamic, and topological representation of intracellular signal networks, based on known components of epidermal growth factor (EGF) receptor signal pathways.</p>\t</div>\t<div class=\"dc:provenance\">\t <p>The initial model was constructed by Ken Lau from the <a href=\"http://web.mit.edu/dllaz/egf_pap/\">MATLAB source code</a>.</p>\t</div>\t<div class=\"dc:bibliographicCitation\">\t <p>This model is described in the article:</p>\t <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/11923843\" title=\"Access to this publication\">Computational modeling of the dynamics of the MAP kinase cascade activated by surface and internalized EGF receptors.</a></div>\t <div class=\"bibo:authorList\">Schoeberl B, Eichler-Jonsson C, Gilles ED, Müller G</div>\t <div class=\"bibo:Journal\">Nat. Biotechnol. 2002 Apr; 20(4): 370-375</div>\t <p>Abstract:</p>\t <div class=\"bibo:abstract\">  \t   <p>We present a computational model that offers an integrated quantitative, dynamic, and topological representation of intracellular signal networks, based on known components of epidermal growth factor (EGF) receptor signal pathways. The model provides insight into signal-response relationships between the binding of EGF to its receptor at the cell surface and the activation of downstream proteins in the signaling cascade. It shows that EGF-induced responses are remarkably stable over a 100-fold range of ligand concentration and that the critical parameter in determining signal efficacy is the initial velocity of receptor activation. The predictions of the model agree well with experimental analysis of the effect of EGF on two downstream responses, phosphorylation of ERK-1/2 and expression of the target gene, c-fos.</p>\t </div>\t</div>\t<div class=\"bm:curation\">\t <p>This model does <b>not</b> exactly reproduce the results given in the original publication. It has, though, the same reaction graph and gives very similar time courses for the conditions depicted in the article.</p>\t</div>\t<div class=\"bm:modification\">         <p>Several corrections were applied to the parameters described in the paper's supplementary materials. Some parameter names were replaced by the corresponding identical ones: k(r)26 by k(r)18, k(r)27 by k(r)19, k(r)30 by k(r)20, k(r)38 by k(r)24, k(r)39 by k(r)37, k(r)46 by k(r)44, k51 by k49, k(r)54 by k(r)52 and k62 by k62. In particular the parameter values described in the column \"remark\" of supplementary table 1 override the values explicitely written in the numerical columns:</p>        <table>          <tr>            <th>name</th>            <th>in suppl. value used</th>            <th>in model value used</th>            <th>remarks</th>          </tr>          <tr>            <td>kr16</td>            <td>0.055</td>            <td>0.275</td>            <td />          </tr>          <tr>            <td>k30</td>            <td>7.9e6</td>            <td>2.1e6</td>            <td>as k20</td>          </tr>          <tr>            <td>kr30</td>            <td>0.3</td>            <td>0.4</td>            <td>as kr24</td>          </tr>          <tr>            <td>k38</td>            <td>3e7</td>            <td>1e7</td>            <td>as k20</td>          </tr>          <tr>            <td>kr38</td>            <td>0.055</td>            <td>0.55</td>            <td>as kr24</td>          </tr>          <tr>            <td>k52</td>            <td>1.1e5</td>            <td>5.34e7</td>            <td />          </tr>        </table>        <p>k5 was used for v116, v119, v122 and v125 in addition of v107, v110 and v113 as listed in the legend of supplementary figure 2. k5 is calculated using th eformula from the matlab file not given in the supplements.</p>        <p>All rate constants were rescaled to minutes (k[min] = 60*k[sec]) and all second order rate constants additionally to molecules/cell with a cell volume of 1 picolitre (k[molecs/cell] = k[M]/(Vc*Na), with Vc=1e-12 l and Na = 6e23).</p>        <p>The association constant of internalized EGF was rescaled to molecules/endosome using an endosomal volume of 4.3 al (= 4.3*10 <sup>-18</sup> litre).</p>        <p>The extracellular EGF concentration was converted to molecules per picolitre with a MW of 6045 Da.</p>        <table>          <tr>            <th>[ng/ml]</th>            <th>[numb/pl]</th>          </tr>          <tr>            <td>50</td>            <td>4962</td>          </tr>          <tr>            <td>0.5</td>            <td>49.6</td>          </tr>          <tr>            <td>0.125</td>            <td>12.4</td>          </tr>        </table>       <p>With the initial conditions given in the paper, the results could not be reproduced at all. Therefore the initial conditions used in the MATLAB file were adopted for SHC (1.01 * 10 <sup>5</sup> instead of 1.01 * 10      <sup>6</sup> ) and Ras_GDP. (7.2 * 10 <sup>4</sup> instead of 1.14 * 10 <sup>7</sup> )</p>\t</div>\t<div class=\"dc:publisher\">\t <p>This model is hosted on <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a> and identified by: <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000019\">BIOMD0000000019</a>.</p>\t <p>To cite BioModels Database, please use: <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>.</p>\t</div>\t<div class=\"dc:license\">\t   <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a> for more information.</p>\t</div>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11923843",
+    "journal" : "Nature biotechnology",
+    "title" : "Computational modeling of the dynamics of the MAP kinase cascade activated by surface and internalized EGF receptors.",
+    "affiliation" : "Max Planck Institute for Dynamics of Complex Technical Systems, Leipziger Str. 44, D-39120 Magdeburg, Germany.",
+    "synopsis" : "We present a computational model that offers an integrated quantitative, dynamic, and topological representation of intracellular signal networks, based on known components of epidermal growth factor (EGF) receptor signal pathways. The model provides insight into signal-response relationships between the binding of EGF to its receptor at the cell surface and the activation of downstream proteins in the signaling cascade. It shows that EGF-induced responses are remarkably stable over a 100-fold range of ligand concentration and that the critical parameter in determining signal efficacy is the initial velocity of receptor activation. The predictions of the model agree well with experimental analysis of the effect of EGF on two downstream responses, phosphorylation of ERK-1/2 and expression of the target gene, c-fos.",
+    "year" : 2002,
+    "month" : "4",
+    "volume" : "20",
+    "issue" : "4",
+    "pages" : "370-375",
+    "link" : "http://identifiers.org/pubmed/11923843",
+    "authors" : [
+      {
+        "name" : "Birgit Schoeberl",
+        "institution" : "Max Planck Institute for Dynamics of Complex Technical Systems, Leipziger Str. 44, D-39120 Magdeburg, Germany."
+      },
+      {
+        "name" : "Claudia Eichler-Jonsson"
+      },
+      {
+        "name" : "Ernst Dieter Gilles"
+      },
+      {
+        "name" : "Gertraud Müller"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000019_url.xml",
+        "description" : "SBML L2V4 representation of Schoeberl2002 - EGF MAPK",
+        "fileSize" : "153594",
+        "mimeType" : "application/xml",
+        "md5sum" : "8b5ba943a61f52948dba09b3e0fb6f69",
+        "sha1sum" : "58b561acc323ab60fa8dda80a9074b29c5e2fa0c",
+        "sha256sum" : "541c2a16196dfcd0649df14cff51fb80fc4157bad041c562b17679552baeff48"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "172057",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9b9e75e532673483feb28b4afb153b5f",
+        "sha1sum" : "25cf8d115462a24b4cc9912f7878175a2d2c878f",
+        "sha256sum" : "f224afea93725b8081f98f7fac5e41b6e41036aae37c05d4aa56470f53977820"
+      },
+      {
+        "name" : "BIOMD0000000019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "309716",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "50bbb2155e9284a30e94ea21ef3ac177",
+        "sha1sum" : "f6bd23b18798bca989f5757ed24ef5618c5769be",
+        "sha256sum" : "e1f44f1896c00671b63d227c6f2dce843f670634b033c85d33f0bc9857088e18"
+      },
+      {
+        "name" : "BIOMD0000000019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "39251",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "502bb74aeb20c84df8aaaf83d2292a49",
+        "sha1sum" : "adafd7c8fb3e644b032088bcbfba7d0b836378a8",
+        "sha256sum" : "8be6c11d50590bae775e27c9d03c74789a743adca346eb1c5dfb7afda736bbad"
+      },
+      {
+        "name" : "BIOMD0000000019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "39251",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "64b691cafd893bd77b57075187845ea9",
+        "sha1sum" : "be80216f0683b2e468b0c133b6821029fd43ae04",
+        "sha256sum" : "8bb7328bd26aa5be885098cb27cee086132ad6ea77e9c96a94eca15994abf85c"
+      },
+      {
+        "name" : "BIOMD0000000019.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "39251",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "64b691cafd893bd77b57075187845ea9",
+        "sha1sum" : "be80216f0683b2e468b0c133b6821029fd43ae04",
+        "sha256sum" : "8bb7328bd26aa5be885098cb27cee086132ad6ea77e9c96a94eca15994abf85c"
+      },
+      {
+        "name" : "BIOMD0000000019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "30044",
+        "mimeType" : "text/plain",
+        "md5sum" : "4c67294923e663d75ba19883015dc78f",
+        "sha1sum" : "a434223ced3edb93cd0a8596ccb09ea2d980e129",
+        "sha256sum" : "41626534b2d12492e74c3d7d7357531413c79bf6b7652bdd205a2f481122dcf7"
+      },
+      {
+        "name" : "BIOMD0000000019.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "703409",
+        "mimeType" : "application/pdf",
+        "md5sum" : "a38386c618c9b860ab319d102d6d8297",
+        "sha1sum" : "6218b22951989c1abae8854a149c3950450c6435",
+        "sha256sum" : "91459bc9ccdfb02c03f9d4a9f9f5f933690cc5b6c7c9fcb6d51671e1edecdf7e"
+      },
+      {
+        "name" : "BIOMD0000000019.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2981166",
+        "mimeType" : "image/png",
+        "md5sum" : "9dd8dd1b5ae3078fc74c7c511e9ab205",
+        "sha1sum" : "c0830f390a07ebf0199b5d3360de0345a72cf309",
+        "sha256sum" : "6ee93ba2cb38bd5baffdb09052ca8ff30282d6190565b41ea7c3df565ac07686"
+      },
+      {
+        "name" : "BIOMD0000000019.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "299712",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "3aa4825b81f81afcfccff1db5b542ef8",
+        "sha1sum" : "d988c2d156199aa8ca945c8b04e49c895b2aabff",
+        "sha256sum" : "84c02fcd1ad7b1acacd1b319e44b40209ef408ef6b60a03755904bc9723a75fb"
+      },
+      {
+        "name" : "BIOMD0000000019_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "174204",
+        "mimeType" : "application/xml",
+        "md5sum" : "6537eb9471f3bfee2b7cce9020817e3a",
+        "sha1sum" : "4cc43b53990a8ca9c44f45960993eb908b268bee",
+        "sha256sum" : "ff87e050b596111ef6847fd3f0c1ddf47c8695a70002413edb8bd5cbcf51d49f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13304",
+        "mimeType" : "image/png",
+        "md5sum" : "1618d2e3a93e9b464d611a3b85c348a1",
+        "sha1sum" : "ad82267826d3e82c0f91695299b3643e6949542b",
+        "sha256sum" : "8b0589cc1debdc543980287406a2618f39631ac748885e46bb0a32ba3e066fe5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "78",
+        "mimeType" : "text/plain",
+        "md5sum" : "2d13a22d393d65d32473dae0fa99d4fd",
+        "sha1sum" : "a7a50c882eadb207c0f5dd68698c9ba7fb462a0a",
+        "sha256sum" : "6aa9cb5ec23a3123762c32ad53f5954213800370b23148487b1f3be86002fc4a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "394efd1ad9c1953a4952dadbe459baa5",
+        "sha1sum" : "7680a98eef79a1c92f5e8a7842898d64ca3a5c55",
+        "sha256sum" : "d1df044ba149f79de20c54f78f82b4f2d997e506646fd668c7c51588cf95e14a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "8850",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c4ae53034567c08026877fc6901df6fa",
+        "sha1sum" : "388c695a5d6913ab898e5135bc1721ff7795295b",
+        "sha256sum" : "3a681fd48197b6af9069b7b1571f1322ab726095cde1aaa478893edfb22d8dc1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126621154,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of BIOMD0000000019.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460129510,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Schoeberl2002 - EGF MAPK"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265194,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284846,
+  "submissionId" : "MODEL6617455076",
+  "publicationId" : "BIOMD0000000019",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6617455076",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6617455076"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000019",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000019"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11923843",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11923843"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_9417.3",
+      "name" : "Signaling by EGFR",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_9417.3"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0007265",
+      "name" : "Ras protein signal transduction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007265"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "GO:0000165",
+      "name" : "MAPK cascade",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

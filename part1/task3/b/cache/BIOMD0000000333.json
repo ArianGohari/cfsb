@@ -1,0 +1,299 @@
+{
+  "name" : "Bungay2006_FollicularFluid",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Modelling thrombin generation in human ovarian follicular fluid      </strong>        <br />Bungay Sharene D., Gentry Patricia A., Gentry Rodney D.      <em>Bulletin of Mathematical Biology</em>Volume 68, Issue 8, 12 July 2006, Pages 2283-302      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16838084\">16838084</a>,      <br />        <strong>Abstract:</strong>        <br />A mathematical model is constructed to study thrombin production in human ovarian follicular fluid. The model results show that the amount of thrombin that can be produced in ovarian follicular fluid is much lower than that in blood plasma, failing to reach the level required for fibrin formation, and thereby supporting the hypothesis that in follicular fluid thrombin functions to initiate cellular activities via intracellular signalling receptors. It is also concluded that the absence of the amplification pathway to thrombin production in follicular fluid is a major factor in restricting the amount of thrombin that can be produced. Titration of the initial concentrations of the various reactants in the model lead to predictions for the amount of tissue factor and phospholipid that is required to maintain thrombin production in the follicle, as well as to the conclusion that tissue factor pathway inhibitor has little effect on the time that thrombin generation is sustained. Numerical experiments to determine the effect of factor V, which is at a much reduced level in follicular fluid compared to plasma, and thrombomodulin, illustrate the importance for further experimental work to determine values for several parameters that have yet to be reported in the literature.      </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16838084",
+    "journal" : "Bulletin of mathematical biology",
+    "title" : "Modelling thrombin generation in human ovarian follicular fluid.",
+    "affiliation" : "Department of Applied Mathematics, University of Waterloo, Waterloo, Ontario, Canada N2L 3G1. sharene@cs.mun.ca",
+    "synopsis" : "A mathematical model is constructed to study thrombin production in human ovarian follicular fluid. The model results show that the amount of thrombin that can be produced in ovarian follicular fluid is much lower than that in blood plasma, failing to reach the level required for fibrin formation, and thereby supporting the hypothesis that in follicular fluid thrombin functions to initiate cellular activities via intracellular signalling receptors. It is also concluded that the absence of the amplification pathway to thrombin production in follicular fluid is a major factor in restricting the amount of thrombin that can be produced. Titration of the initial concentrations of the various reactants in the model lead to predictions for the amount of tissue factor and phospholipid that is required to maintain thrombin production in the follicle, as well as to the conclusion that tissue factor pathway inhibitor has little effect on the time that thrombin generation is sustained. Numerical experiments to determine the effect of factor V, which is at a much reduced level in follicular fluid compared to plasma, and thrombomodulin, illustrate the importance for further experimental work to determine values for several parameters that have yet to be reported in the literature.",
+    "year" : 2006,
+    "month" : "11",
+    "volume" : "68",
+    "issue" : "8",
+    "pages" : "2283-2302",
+    "link" : "http://identifiers.org/pubmed/16838084",
+    "authors" : [
+      {
+        "name" : "Sharene D Bungay",
+        "institution" : "Department of Applied Mathematics, University of Waterloo, Waterloo, Ontario, Canada N2L 3G1. sharene@cs.mun.ca"
+      },
+      {
+        "name" : "Patricia A Gentry"
+      },
+      {
+        "name" : "Rodney D Gentry"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000333_url.xml",
+        "description" : "SBML L2V4 representation of Bungay2006_FollicularFluid",
+        "fileSize" : "109132",
+        "mimeType" : "application/xml",
+        "md5sum" : "e90b52a747f8d12542841f7a5c9695ca",
+        "sha1sum" : "cb78bcea3ad012f83add4add1632a6e3e8bc943c",
+        "sha256sum" : "c354036733a3c1836ff1400a9884b448159d59354d89ed9fa36bd5c9b3325000"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000333-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "81842",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f6f2d86b4738b4385736ea5bf3092096",
+        "sha1sum" : "f0ed64dde31c255851ed7200f81bf7e5981e3ade",
+        "sha256sum" : "884a7fa2f08af37ae6e06329933e6e4840a645a0b75663e9b8d2ba4f68384a7a"
+      },
+      {
+        "name" : "BIOMD0000000333-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "139815",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c759877386a1b6585a46175a48e6ee6d",
+        "sha1sum" : "04bd47989b3be810cc0e18514e96195c05beb580",
+        "sha256sum" : "3bd1b1218125e9dcc340abffc42146aaef86419711db512f98775c0f78bfdb14"
+      },
+      {
+        "name" : "BIOMD0000000333-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "22884",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7d7f104bff2f83a3ddad7fcf87adde05",
+        "sha1sum" : "2df40e3b45831606dcfc1aa1a8cc82125e098a33",
+        "sha256sum" : "dc2180f1ef9a7d8455dc1c79976e7761da7e51325b02ca90f993ef3b0a551416"
+      },
+      {
+        "name" : "BIOMD0000000333-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "22884",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e309084caa87a331b8f7122fd9e2d383",
+        "sha1sum" : "0d977db5be15a351d83d5aaf0a1958676791b565",
+        "sha256sum" : "96f2d47ba373667033f4d69c773372099f51ab68f03443dc4e4a0322a0a2a60c"
+      },
+      {
+        "name" : "BIOMD0000000333.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "22884",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e309084caa87a331b8f7122fd9e2d383",
+        "sha1sum" : "0d977db5be15a351d83d5aaf0a1958676791b565",
+        "sha256sum" : "96f2d47ba373667033f4d69c773372099f51ab68f03443dc4e4a0322a0a2a60c"
+      },
+      {
+        "name" : "BIOMD0000000333.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "17994",
+        "mimeType" : "text/plain",
+        "md5sum" : "77faa940722fd873db7e6c7558d7829b",
+        "sha1sum" : "b3fcb013348b143f095d8464f0887eb7b8db0e79",
+        "sha256sum" : "a61d861ffa3177e48308a957c76dedc942c620df62c8706e3bde1c5ba5a989e1"
+      },
+      {
+        "name" : "BIOMD0000000333.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "379964",
+        "mimeType" : "application/pdf",
+        "md5sum" : "fe64e5d7834a7ef8b85a1421e93a5dbb",
+        "sha1sum" : "2e11f57505e1da4ed98bddeddf5e5368a79102bd",
+        "sha256sum" : "7f90f0e24263bcbeac29f5401315f23de59b1e2114cdcf16f1e52c3ff39db1cf"
+      },
+      {
+        "name" : "BIOMD0000000333.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "524552",
+        "mimeType" : "image/png",
+        "md5sum" : "faa6d1fdd5b61bf0235a1c2e5c291160",
+        "sha1sum" : "d8dad8963031ce2de23f74be64cbbc4ae90c6393",
+        "sha256sum" : "7627b7208dad99ef6fccd9a1cf670d77910db619d6d7e0e64a27602395221e19"
+      },
+      {
+        "name" : "BIOMD0000000333.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "20531",
+        "mimeType" : "text/plain",
+        "md5sum" : "eb1b906658c95e6f356e90129ed28db7",
+        "sha1sum" : "421fff31a8b4dcb51ed00d8a194944dc968327be",
+        "sha256sum" : "9f0dbb81ec0d1da2998211564d1ebc796e42c2844b8360c013df478b9fc46fae"
+      },
+      {
+        "name" : "BIOMD0000000333.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "99952",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e7f122a77a4533f268027861b9c4a8e6",
+        "sha1sum" : "3dab251994f63882e3d3c20fc71921ac2d060163",
+        "sha256sum" : "85f0459f53b4927ebccbee0c401c9fef4c700c46dd9cd4c40cf32f3c5d015086"
+      },
+      {
+        "name" : "BIOMD0000000333.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "165220",
+        "mimeType" : "application/xml",
+        "md5sum" : "d66019ede1830e832cbb8464d246fa2b",
+        "sha1sum" : "82ff1e15b44911f68102eaf39a7136a6d2ab9f19",
+        "sha256sum" : "aa47064d30e6cf754fb385952ead20fc6f07ed86ceffc02c7984f1e1a74a5cdd"
+      },
+      {
+        "name" : "BIOMD0000000333_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "98878",
+        "mimeType" : "application/xml",
+        "md5sum" : "111f8eaca6f46479dd4d82940537fe8a",
+        "sha1sum" : "e783c21906ae1e987e348e6a815ce46b34de4b89",
+        "sha256sum" : "78ff71d2feb7c69cdd1a5c41cfce2559733ed97dec94b8577ed12e553d44cfd0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "32925",
+        "mimeType" : "image/png",
+        "md5sum" : "45265464adac38433132a8fa1b21bee3",
+        "sha1sum" : "7c87c41351a92c7a2bad39ce320dae776e0691e2",
+        "sha256sum" : "e33cda9354c3f3544da64a6b76cc86bfa2444e89f17a67b8475f2e447e5c2faf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "444",
+        "mimeType" : "text/plain",
+        "md5sum" : "1be5ec0dfb35b6c7066c489759747986",
+        "sha1sum" : "92a4315e25f768d57101c3b7eab082a1d0274d8f",
+        "sha256sum" : "e96e402f3bf761fe87673f6841a99e6b9040cee3d9484175d5299fdb0d08a361"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "02886c9fb821263a622c70ab4d8ccab8",
+        "sha1sum" : "eebc23245b65e89b6cd2605567d57d63d61152af",
+        "sha256sum" : "7e84a88e7e504e41bdf44e10cc3bfecc7b65ef645c3c41e3ba86dc74069d475e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3577",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5087fe1e6fc5bdde3340b62c103e7674",
+        "sha1sum" : "436497f71b890eeba63a8b4ac07ee4fa45ddf919",
+        "sha256sum" : "8849f76a0d75f32639cd0d0babc96764e8ebe609d4659585e19d41bab46c0c13"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1304959533,
+        "submitter" : "Michael Schubert",
+        "comment" : "Original import of Bungay2006_FollicularFluid"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401287141,
+        "submitter" : "Michael Schubert",
+        "comment" : "Current version of Bungay2006_FollicularFluid"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273820,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285049,
+  "submissionId" : "MODEL1105090000",
+  "publicationId" : "BIOMD0000000333",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Michael Schubert",
+        "email" : "schubert@ebi.ac.uk",
+        "affiliation" : "EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1105090000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1105090000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000333",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000333"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16838084",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16838084"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000334",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000334"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0004383",
+      "name" : "follicular fluid",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0004383"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

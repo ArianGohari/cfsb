@@ -1,0 +1,259 @@
+{
+  "name" : "Precup2012 - Mathematical modeling of cell dynamics after allogeneic bone marrow transplantation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a basic mathematical model describing the dynamics of three cell lines (normal host cells, leukemic host cells and donor cells) after allogeneic stem cell transplantation.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1142/S1793524511001684",
+    "journal" : "International Journal of Biomathematics",
+    "title" : "Mathematical modeling of cell dynamics after allogeneic bone marrow transplantation",
+    "affiliation" : "Department of Applied Mathematics, BabeBolyai University, Cluj 400084, Romania",
+    "synopsis" : "In this paper a basic mathematical model is introduced to describe the dynamics of three cell lines after allogeneic stem cell transplantation: normal host cells, leukemic host cells and donor cells. Their evolution is one of competitive type and depends upon kinetic and cellcell interaction parameters. Numerical simulations prove that the evolution can ultimately lead either to the normal hematopoietic state achieved by the expansion of the donor cells and the elimination of the host cells, or to the leukemic hematopoietic state characterized by the proliferation of the cancer line and the suppression of the other cell lines. One state or the other is reached depending on cellcell interactions (anti-host, anti-leukemia and anti-graft effects) and initial cell concentrations at transplantation. The model also provides a theoretical basis for the control of post-transplant evolution aimed at the achievement of normal hematopoiesis.",
+    "year" : 2012,
+    "month" : "3",
+    "volume" : "5",
+    "issue" : "2",
+    "link" : "http://identifiers.org/doi/10.1142/S1793524511001684",
+    "authors" : [
+      {
+        "name" : "Precup, R.",
+        "institution" : "Department of Applied Mathematics, BabeBolyai University, Cluj 400084, Romania"
+      },
+      {
+        "name" : "Arghirescu, S.",
+        "institution" : "Department of Hematology, Victor Babe University of Medicine and Pharmacy, Timioara 300041, Romania"
+      },
+      {
+        "name" : "Cucuianu, A.",
+        "institution" : "Department of Hematology, Iuliu Haieganu University of Medicine and Pharmacy, Cluj 400012, Romania"
+      },
+      {
+        "name" : "Erban, M.",
+        "institution" : "Department of Hematology, Victor Babe University of Medicine and Pharmacy, Timioara 300041, Romania"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Precup2012.xml",
+        "description" : "SBML L2V4 Representation of Precup2012 - Mathematical modeling of cell dynamics after allogeneic bone marrow transplantation",
+        "fileSize" : "32756",
+        "mimeType" : "application/xml",
+        "md5sum" : "7e25b1c6abb9097de44684fa2216ff96",
+        "sha1sum" : "0c978353c6c6a2d155a18c17679d5e0a95fc4eef",
+        "sha256sum" : "e30e4a6d1d7a196483928870e8bb3611b2fb5be0d83bd1fb357ddbb1d7a6d58e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Precup2012-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "10233",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ff853dfd4f752fdfdc38dba886ed24c1",
+        "sha1sum" : "dadf1e03afe3e9222a75fe0804b8e9b0360ea7fd",
+        "sha256sum" : "b54b286b87530bb7675454cd583765c92c56e7314f088bf717dd184a7f75dbf3"
+      },
+      {
+        "name" : "Precup2012-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "13418",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "46581f8461dd3dafd686eeb8a8e46733",
+        "sha1sum" : "3197052db34888a0591ed8df5668eba95cdbd947",
+        "sha256sum" : "91ff57da10339780b0906fb198294a9d7a510ef09a3bf471e5410a5fd1e22529"
+      },
+      {
+        "name" : "Precup2012-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5083",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6ddeaf50819627e80e362993cd263642",
+        "sha1sum" : "1716b124a7ce5828f387ef6987b1510829c8d666",
+        "sha256sum" : "266a74ecc5d55e603c5ebb8fc5b74b7349068d3ea1caf3f82d3c147edaa48ca6"
+      },
+      {
+        "name" : "Precup2012-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5083",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cf40e08526b8b453a5660e2fade03abd",
+        "sha1sum" : "359a2bde4551a7ff18c80e9434d11fc5e17fca2b",
+        "sha256sum" : "0a2eea1f80a870090ff6dc46778c034f4adc9d356c29a58d52673522e1dd1b98"
+      },
+      {
+        "name" : "Precup2012.cps",
+        "description" : "COPASI file of Precup2012 - Mathematical modeling of cell dynamics after allogeneic bone marrow transplantation",
+        "fileSize" : "62875",
+        "mimeType" : "application/xml",
+        "md5sum" : "c43c6905d98979e40ac6b848395b3ad5",
+        "sha1sum" : "bd7ed9709959885544ffb6c0b207f80afe17695d",
+        "sha256sum" : "f73808bca25f03e8f547cbefbf3999e74960ad89812dac12742a560bf473f97a"
+      },
+      {
+        "name" : "Precup2012.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3084",
+        "mimeType" : "text/plain",
+        "md5sum" : "d82577dd1738a0d7c8ccba9fe439ea40",
+        "sha1sum" : "893278c09544bb81d41f0db85e7b3321f92fd8b5",
+        "sha256sum" : "07274b64b5555fd6802c972b62632547023ae64a9073260a954a038055d6db34"
+      },
+      {
+        "name" : "Precup2012.sedml",
+        "description" : "SED-ML file of Precup2012 - Mathematical modeling of cell dynamics after allogeneic bone marrow transplantation (additionally CRBM-validated and adjusted). (additionally CRBM-validated and adjusted).",
+        "fileSize" : "13085",
+        "mimeType" : "application/xml",
+        "md5sum" : "0aee471b3d8b0d63c3b3b78c17a64e73",
+        "sha1sum" : "9e306b8cfb908872b6428631857eac353c65f16a",
+        "sha256sum" : "467ae34cf99d9f903558314c7add56bf92fac1d53bc8d73cc9953edf46c29ce3"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12509",
+        "mimeType" : "image/png",
+        "md5sum" : "fb2b03db3fb64f0f681fe44fce3e2e20",
+        "sha1sum" : "a7c2f65a3bce013e917294e2e0fe73c2aedadaa7",
+        "sha256sum" : "3fe43cc0d84ede78a0fa7acc9f55f18c69b64438bdf5c77844599788576badcc"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "222",
+        "mimeType" : "text/plain",
+        "md5sum" : "efd1bd3a286e56041dae59f5ccbe3adc",
+        "sha1sum" : "1411c85873f3c8bb97a4970772f51477ab46029c",
+        "sha256sum" : "5a787099696cd34cc00b4a4a8c92f058f519af5ce842170f157e4a68257cce8e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "d53b9bbf58f356256517a449c1a01aef",
+        "sha1sum" : "9a1fea15c3501754bccd155720e179174563c85d",
+        "sha256sum" : "82bf5c380d73d19c8807eb3a6634bb6045959e7be5bd1636d5cf27b223f60274"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2385",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a43cd60e0bc76b51716922d14930496e",
+        "sha1sum" : "ebb1f52331f5ab12512015f03bcc370c5bf14dbc",
+        "sha256sum" : "43c0a7f64527f37532bacb7dcaf1159b8b8a82826e5646b62170ab3c0b84cee0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1566231718,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000800"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1633082584,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Automatically added model identifier BIOMD0000000800"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1735840617,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285473,
+  "submissionId" : "MODEL1908190003",
+  "publicationId" : "BIOMD0000000800",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      },
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1142/S1793524511001684",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1142/S1793524511001684"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10.1080/17486700902973751",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1080/17486700902973751"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000800",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000800"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908190003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908190003"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C46089",
+      "name" : "Allogeneic Hematopoietic Stem Cell Transplantation",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/NCIT:C46089"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C3161",
+      "name" : "Leukemia",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C3161"
+    }
+  ]
+}

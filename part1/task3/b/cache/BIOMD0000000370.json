@@ -1,0 +1,284 @@
+{
+  "name" : "Vinod2011_MitoticExit",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>Computational modelling of mitotic exit in budding yeast: the role of separase and Cdc14 endocycles</strong>                <br />          Vinod PK, Freire P, Rattani A, Ciliberto A, Uhlmann F, Novak B.      <em>J R Soc Interface.</em>          2011 Aug 7;8(61):1128-41. Epub 2011 Feb 2.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21288956\">21288956</a>          ,      <br />                <strong>Abstract:</strong>                <br />          The operating principles of complex regulatory networks are best understood with the help of mathematical modelling rather than by intuitive reasoning. Hereby, we study the dynamics of the mitotic exit (ME) control system in budding yeast by further developing the Queralt's model. A comprehensive systems view of the network regulating ME is provided based on classical experiments in the literature. In this picture, Cdc20-APC is a critical node controlling both cyclin (Clb2 and Clb5) and phosphatase (Cdc14) branches of the regulatory network. On the basis of experimental situations ranging from single to quintuple mutants, the kinetic parameters of the network are estimated. Numerical analysis of the model quantifies the dependence of ME control on the proteolytic and non-proteolytic functions of separase. We show that the requirement of the non-proteolytic function of separase for ME depends on cyclin-dependent kinase activity. The model is also used for the systematic analysis of the recently discovered Cdc14 endocycles. The significance of Cdc14 endocycles in eukaryotic cell cycle control is discussed as well.      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21288956",
+    "journal" : "Journal of the Royal Society, Interface",
+    "title" : "Computational modelling of mitotic exit in budding yeast: the role of separase and Cdc14 endocycles.",
+    "affiliation" : "Department of Biochemistry, Oxford Centre for Integrative Systems Biology, University of Oxford, South Parks Road, Oxford OX1 3QU, UK.",
+    "synopsis" : "The operating principles of complex regulatory networks are best understood with the help of mathematical modelling rather than by intuitive reasoning. Hereby, we study the dynamics of the mitotic exit (ME) control system in budding yeast by further developing the Queralt's model. A comprehensive systems view of the network regulating ME is provided based on classical experiments in the literature. In this picture, Cdc20-APC is a critical node controlling both cyclin (Clb2 and Clb5) and phosphatase (Cdc14) branches of the regulatory network. On the basis of experimental situations ranging from single to quintuple mutants, the kinetic parameters of the network are estimated. Numerical analysis of the model quantifies the dependence of ME control on the proteolytic and non-proteolytic functions of separase. We show that the requirement of the non-proteolytic function of separase for ME depends on cyclin-dependent kinase activity. The model is also used for the systematic analysis of the recently discovered Cdc14 endocycles. The significance of Cdc14 endocycles in eukaryotic cell cycle control is discussed as well.",
+    "year" : 2011,
+    "month" : "8",
+    "volume" : "8",
+    "issue" : "61",
+    "pages" : "1128-1141",
+    "link" : "http://identifiers.org/pubmed/21288956",
+    "authors" : [
+      {
+        "name" : "Vinod PK",
+        "institution" : "Center for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India.",
+        "orcid" : "0000-0003-2968-498X"
+      },
+      {
+        "name" : "Paula Freire"
+      },
+      {
+        "name" : "Ahmed Rattani"
+      },
+      {
+        "name" : "Andrea Ciliberto"
+      },
+      {
+        "name" : "Frank Uhlmann",
+        "orcid" : "0000-0002-3527-6619"
+      },
+      {
+        "name" : "Béla Novák",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000370_url.xml",
+        "description" : "SBML L2V4 representation of Vinod2011_MitoticExit",
+        "fileSize" : "71235",
+        "mimeType" : "application/xml",
+        "md5sum" : "522ac57a5ce35fa0b9b4b8e7e53cd05b",
+        "sha1sum" : "08a9a3959fb9affc8222b3018392ef22a4de538e",
+        "sha256sum" : "24b39a68c18f0dce21a84e7b8814aa5750c84317ceb4de64ce2448641ce301bf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000370-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "14443",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "74266727a0bbc21198dcd60dc6811708",
+        "sha1sum" : "a6154b0425f20f550d47216aa58c5a6171607a39",
+        "sha256sum" : "b7675e4bce50eacd18ca18f302a246cc78570507efe7b8064ee53b7437a68137"
+      },
+      {
+        "name" : "BIOMD0000000370-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "17661",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3da2b52a4339fdc7af7f99c8ef54da7f",
+        "sha1sum" : "94cab85671e3800910776bbdc023db9efef5dc07",
+        "sha256sum" : "710ae9da5734d1af67086dbd4c09c1abbe87c5fcb0a743911fdcca656e4fd2eb"
+      },
+      {
+        "name" : "BIOMD0000000370-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "19997",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a7c4d1f4bd0aef8b488088ec783c73df",
+        "sha1sum" : "34333557ebd7fa5fb90d4738e5220e4b7ca2cf27",
+        "sha256sum" : "438027c303991860f80745a2e14a21e473a612faf9f69b94da37ab37f58ac3c7"
+      },
+      {
+        "name" : "BIOMD0000000370.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "19997",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a9179946bc3a301219d096c41fe89059",
+        "sha1sum" : "34e297cc359129006fa125def3a826252a24d211",
+        "sha256sum" : "5f79da1495f62121e826e79087b27afdd43d09e20e91f8b291f5df60a9bbec19"
+      },
+      {
+        "name" : "BIOMD0000000370.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "15596",
+        "mimeType" : "text/plain",
+        "md5sum" : "078797b11bd34851a703337700ecd064",
+        "sha1sum" : "6a5214abbb3c863a7e993928bf3aaeccb2e16683",
+        "sha256sum" : "5c73170d585220793de33a900a73c53013dab674081e3531869cc1a6b2fa4f91"
+      },
+      {
+        "name" : "BIOMD0000000370.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "213627",
+        "mimeType" : "application/pdf",
+        "md5sum" : "46b05885f13a62a45a99ef570782708d",
+        "sha1sum" : "91a50344c300092eaf80ced7fe223f0751277b32",
+        "sha256sum" : "f9ee6911fe94f1f363afe16a268b5e89ca758ea462d39bf021e35101a294b830"
+      },
+      {
+        "name" : "BIOMD0000000370.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000370.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000370_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "78653",
+        "mimeType" : "application/xml",
+        "md5sum" : "621865d5c3bd386bd6f7d42e0f826a73",
+        "sha1sum" : "98117edc1f9e5772743e1853d9cba8caa3733002",
+        "sha256sum" : "881c52f57b4f9e297b54b603718839da8508b7a95132de8f5fedd369e0967002"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "77827",
+        "mimeType" : "image/png",
+        "md5sum" : "f5ea2f0fa7f2cae67ff6d61a3201d9c0",
+        "sha1sum" : "8b54fe5a2b1f90b3e0448d814e4bfd35b8c9289f",
+        "sha256sum" : "f40694cadfbdaea0da0c7eb469c170e5359a6d8eb1027b08d44d1a62df41255f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "116",
+        "mimeType" : "text/plain",
+        "md5sum" : "a50f17086acd6e741a2f96f3f28cf6d2",
+        "sha1sum" : "5e5e8f5fb0d17c4f030ed3261a7413d767658e08",
+        "sha256sum" : "de939d8d12a80a837c9e967607e51d1e376b21de7c254de3b5af23492dd278c9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1671",
+        "mimeType" : "application/xml",
+        "md5sum" : "a81a676b3f09ab50771ba322559de6ba",
+        "sha1sum" : "dcd1e2743d7b7e4adef61e7ce711ee4e6723cdba",
+        "sha256sum" : "7051c994fecd1eacebcca4fc7e04c880008538a2d40c98e0e15c82ce3c95ce11"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4378",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "888dbe01553f80d40d4090d0aa5511db",
+        "sha1sum" : "0da3bb70d24b7478d06950f753e8199f13c01a20",
+        "sha256sum" : "66668f710fc8983eb885ca8b52418eb83b925458e463dedec6bd1f8b9de2b59a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1320337535,
+        "submitter" : "Bela Novak",
+        "comment" : "Original import of mitoticexit_2011"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1331210041,
+        "submitter" : "Bela Novak",
+        "comment" : "Current version of Vinod2011_MitoticExit"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274875,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285090,
+  "submissionId" : "MODEL1111030000",
+  "publicationId" : "BIOMD0000000370",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Bela Novak",
+        "email" : "bela.novak@bioch.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000278",
+      "name" : "mitotic cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000278"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1111030000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1111030000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000370",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000370"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21288956",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21288956"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000409",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000409"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "CCO:P0000038",
+      "resource" : "Cell Cycle Ontology",
+      "uri" : "http://identifiers.org/cco/CCO:P0000038"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

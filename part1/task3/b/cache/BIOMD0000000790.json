@@ -1,0 +1,232 @@
+{
+  "name" : "Alvarez2019 - A nonlinear mathematical model of cell-mediated immune response for tumor phenotypic heterogeneity",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a non-linear mathematical model of cancer immunosurveillance that takes into account intratumoral phenotypic heterogeneity, such as differential expression of cell surface receptors and growth factors, according to cell-mediated immune responses. The model describes phenomena that have also been observed in vivo, such as tumor dormancy, cancer immunoediting, and a strong sensitivity to initial conditions.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30930063",
+    "journal" : "Journal of theoretical biology",
+    "title" : "A nonlinear mathematical model of cell-mediated immune response for tumor phenotypic heterogeneity.",
+    "affiliation" : "Centro de Ciências Naturais e Humanas, UFABC, Santo André, 09210-170, SP, Brazil. Electronic address: robinson.alvarez@usp.br.",
+    "synopsis" : "Human cancers display intra-tumor heterogeneity in many phenotypic features, such as expression of cell surface receptors, growth, and angiogenic, proliferative, and immunogenic factors, which represent obstacles to a successful immune response. In this paper, we propose a nonlinear mathematical model of cancer immunosurveillance that takes into account some of these features based on cell-mediated immune responses. The model describes phenomena that are seen in vivo, such as tumor dormancy, robustness, immunoselection over tumor heterogeneity (also called \"cancer immunoediting\") and strong sensitivity to initial conditions in the composition of tumor microenvironment. The results framework has as common element the tumor as an attractor for abnormal cells. Bifurcation analysis give us as tumor attractors fixed-points, limit cycles and chaotic attractors, the latter emerging from period-doubling cascade displaying Feigenbaum's universality. Finally, we simulated both elimination and escape tumor scenarios by means of a stochastic version of the model according to the Doob-Gillespie algorithm.",
+    "year" : 2019,
+    "month" : "6",
+    "volume" : "471",
+    "pages" : "42-50",
+    "link" : "http://identifiers.org/pubmed/30930063",
+    "authors" : [
+      {
+        "name" : "Robinson F Alvarez",
+        "institution" : "Centro de Ciências Naturais e Humanas, UFABC, Santo André, 09210-170, SP, Brazil. Electronic address: robinson.alvarez@usp.br."
+      },
+      {
+        "name" : "José A M Barbuto",
+        "institution" : "Departamento de Imunologia, Universidade de São Paulo, São Paulo, 05508-000, SP, Brazil. Electronic address: jbarbuto@icb.usp.br."
+      },
+      {
+        "name" : "Roberto Venegeroles",
+        "institution" : "Centro de Matemática, Computação e Cognição, UFABC, Santo André, 09210-170, SP, Brazil. Electronic address: roberto.venegeroles@ufabc.edu.br."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Alvarez2019.xml",
+        "description" : "SBML L2V4 Representation of Alvarez2019 - A nonlinear mathematical model of cell-mediated immune response for tumor phenotypic heterogeneity",
+        "fileSize" : "65150",
+        "mimeType" : "application/xml",
+        "md5sum" : "8cfa5ecb29dcec0c2bf363557dd3b1a4",
+        "sha1sum" : "7fb040d2d6fcb2a70b088db75b99f74787b64ff4",
+        "sha256sum" : "48ac2e4009914bfafa473a9d7dfbb31cb96ae3564bd9539720307bba83b9d0f8"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Alvarez2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "17265",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c458720a72d905f7dfc825eee3f34edf",
+        "sha1sum" : "7e8673d77143596082ec8750c8ae4c0029dbec09",
+        "sha256sum" : "a6defa4a3cf7a4c6d04120bf04679173a922162f495b44170abc3e58cb878001"
+      },
+      {
+        "name" : "Alvarez2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "24466",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "de182645de037aef2001b40c20c839de",
+        "sha1sum" : "bf91ec45d27880fb99fc01cb28cb3d2ec8ef73ed",
+        "sha256sum" : "55074c9fedc5185b8543663616429779b9247af13c4551a2b544fb267361a246"
+      },
+      {
+        "name" : "Alvarez2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7663",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b60bee9e293998b43f800d281bcad2f1",
+        "sha1sum" : "163163790555815f4f4b50d78e3a7718aa725786",
+        "sha256sum" : "c9ae403de7a3a48663ceaf05cd47a27aac1f1f519ed20cecf6840641d4311464"
+      },
+      {
+        "name" : "Alvarez2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7663",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "81a80055087f046c956f3113d75b0094",
+        "sha1sum" : "9f66f90b867f17b864587213b7d39e8e9294093a",
+        "sha256sum" : "dad3ca6dc2431cda3fe6b9c3d2d9dc70612e80158e548f28567c0b5d9ea780af"
+      },
+      {
+        "name" : "Alvarez2019.cps",
+        "description" : "COPASI file of Alvarez2019 - A nonlinear mathematical model of cell-mediated immune response for tumor phenotypic heterogeneity",
+        "fileSize" : "124344",
+        "mimeType" : "application/xml",
+        "md5sum" : "65959ca885190e4b0a3ffb22019a5d39",
+        "sha1sum" : "07bed2c5cf57e31cd99a22cf75a7919b44a61814",
+        "sha256sum" : "bfe1de5887dfe0ad715b043757979434f24eb5b652ac60f9a66925a7647e21b7"
+      },
+      {
+        "name" : "Alvarez2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5989",
+        "mimeType" : "text/plain",
+        "md5sum" : "8a2ff2ed8111ed9bb346b1b8837eb3e9",
+        "sha1sum" : "67edac16625a74fd169caa97854488d5b7b35d12",
+        "sha256sum" : "fa71e7601bba8d20baac1bfa62c7c0b9013983c99a90d4c2d533731de7b57fe2"
+      },
+      {
+        "name" : "Alvarez2019.sedml",
+        "description" : "SED-ML file of Alvarez2019 - A nonlinear mathematical model of cell-mediated immune response for tumor phenotypic heterogeneity (additionally CRBM-validated and adjusted).",
+        "fileSize" : "21855",
+        "mimeType" : "application/xml",
+        "md5sum" : "f16f17ae3b2c18d00c5008556b9ea93b",
+        "sha1sum" : "d86f454f13eb50546bbebbc317e67e80c7878596",
+        "sha256sum" : "0b3c39efa18daf6cf7dcb38054df6865edff46bf70b587a690e195bc5fb46304"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11010",
+        "mimeType" : "image/png",
+        "md5sum" : "25619aab46433df064580e5c9c27c2b5",
+        "sha1sum" : "31cf8b289ee8365c3a1514d4f114027a21038502",
+        "sha256sum" : "75241697603b72cc4efc4a73873266f6817071d9fc75fe3a1ed34f1143f19135"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "205",
+        "mimeType" : "text/plain",
+        "md5sum" : "e968d5f716332e38116f7f72e49788f2",
+        "sha1sum" : "67c1c28e5811bdbf6da555c1fda6a678fa76720f",
+        "sha256sum" : "f39291c658263a84dc37df7a21cb7e265fd1422882e04952e85d7d2413c7439a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1419",
+        "mimeType" : "application/xml",
+        "md5sum" : "ed51792d90501cde093850330d102dc7",
+        "sha1sum" : "5836925599e91475fe7bda26eb1b309d9e9ae179",
+        "sha256sum" : "f523b767995816ba9355cfe1dc4253a1b5340f0c52e3a3a81c44903d7dc11d98"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2113",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2437fd84b88189eb6635012f1aedc2da",
+        "sha1sum" : "f7d8d927a143ddc8a2fa980e59a639371efda7cf",
+        "sha256sum" : "02c80d4aeba12a829211db962514b69be9ac8947095edf12d38fc931e882ead2"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1565626723,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000790"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724289671,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285466,
+  "submissionId" : "MODEL1908120003",
+  "publicationId" : "BIOMD0000000790",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002418",
+      "name" : "immune response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002418"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30930063",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30930063"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000790",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000790"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908120003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908120003"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "name" : "Jenner2019 - Oncolytic virotherapy for tumours following a Gompertz growth law",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model using a Gompertz growth law to describe the in vivo dynamics of a cancer under treatment with an oncolytic virus.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31400344",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Oncolytic virotherapy for tumours following a Gompertz growth law.",
+    "affiliation" : "School of Mathematics and Statistics, University of Sydney, Sydney, NSW, Australia. Electronic address: a.jenner@maths.usyd.edu.au.",
+    "synopsis" : "Oncolytic viruses are genetically engineered to treat growing tumours and represent a very promising therapeutic strategy. Using a Gompertz growth law, we discuss a model that captures the in vivo dynamics of a cancer under treatment with an oncolytic virus. With the aid of local stability analysis and bifurcation plots, the typical interactions between virus and tumour are investigated. The system shows a singular equilibrium and a number of nonlinear behaviours that have interesting biological consequences, such as long-period oscillations and bistable states where two different outcomes can occur depending on the initial conditions. Complete tumour eradication appears to be possible only for parameter combinations where viral characteristics match well with the tumour growth rate. Interestingly, the model shows that therapies with a high initial injection or involving a highly effective virus do not universally result in successful strategies for eradication. Further, the use of additional, \"boosting\" injection schedules does not always lead to complete eradication. Our framework, instead, suggests that low viral loads can be in some cases more effective than high loads, and that a less resilient virus can help avoid high amplitude oscillations between tumours and virus. Finally, the model points to a number of interesting findings regarding the role of oscillations and bistable states between a tumour and an oncolytic virus. Strategies for the elimination of such fluctuations depend strongly on the initial viral load and the combination of parameters describing the features of the tumour and virus.",
+    "year" : 2019,
+    "month" : "11",
+    "volume" : "480",
+    "pages" : "129-140",
+    "link" : "http://identifiers.org/pubmed/31400344",
+    "authors" : [
+      {
+        "name" : "Adrianne L Jenner",
+        "institution" : "School of Mathematics and Statistics, The University of Sydney, Sydney, NSW, 2006, Australia.",
+        "orcid" : "0000-0001-9103-7092"
+      },
+      {
+        "name" : "Peter S Kim",
+        "institution" : "School of Mathematics and Statistics, University of Sydney, Sydney, NSW, Australia.",
+        "orcid" : "0000-0002-1492-4744"
+      },
+      {
+        "name" : "Federico Frascoli",
+        "institution" : "Department of Mathematics, Swinburne University of Technology, VIC, Australia. Electronic address: ffrascoli@swin.edu.au.",
+        "orcid" : "0000-0003-4159-6229"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Jenner2019.xml",
+        "description" : "SBML L2V4 Representation of Jenner2019 - Oncolytic virotherapy for tumours following a Gompertz growth law",
+        "fileSize" : "21058",
+        "mimeType" : "application/xml",
+        "md5sum" : "e5d40ec05997742ed697c85843b32b66",
+        "sha1sum" : "5ab1a75db8884a5b1bf5374251d7349028167b89",
+        "sha256sum" : "8d5cd8be68f641dac3b6c11e58e112c6010b4bb82c333c146632ee61fd8bc1fb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Jenner2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "9617",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7ba57274326371fd55ed88d1bade6d64",
+        "sha1sum" : "7c48fda9dcf03146510b9ef6127c9121f8fdda24",
+        "sha256sum" : "758f9870fb74155b52039fd520e7d63c58131abca43bec23e11a4385617e9b47"
+      },
+      {
+        "name" : "Jenner2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "12579",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1a4fc570195f2c77010fcdf56d0bca92",
+        "sha1sum" : "5b49f7e1aaf68f79a6afd8ea5882b7613b35675f",
+        "sha256sum" : "6726f9f3a1df3224157596c1f4633e781ebbae54af920e3289a448a185deff45"
+      },
+      {
+        "name" : "Jenner2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3974",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5b9036015538cc79c3a4505c7c2fc26b",
+        "sha1sum" : "3faa429228595a755034cc35bfe6f1704ee56ff2",
+        "sha256sum" : "8499afe509c66aca8a90125892eee9b1c8fa65e96a5436c7d51f45dc7af2b661"
+      },
+      {
+        "name" : "Jenner2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3974",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "21974ec452424baa5ac37aaf4f513c6e",
+        "sha1sum" : "e8a8ab1321cd4af82830c8bd6a685033f9db6f42",
+        "sha256sum" : "592bd365723206bdbf140e3e8ed46db6c745eb10532453c7a1941e22181516e9"
+      },
+      {
+        "name" : "Jenner2019.cps",
+        "description" : "COPASI file of Jenner2019 - Oncolytic virotherapy for tumours following a Gompertz growth law",
+        "fileSize" : "44908",
+        "mimeType" : "application/xml",
+        "md5sum" : "c397ba416dff451579b9fd7bf1712339",
+        "sha1sum" : "f7d92a3c4a47f9d4d63fcaba7c70fb219ac1170b",
+        "sha256sum" : "ef30c2d4ffaa51efc65560d2b968a86e936070f5b9e7d1ea2a28260bfe4a0240"
+      },
+      {
+        "name" : "Jenner2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2114",
+        "mimeType" : "text/plain",
+        "md5sum" : "4ce21165d6f8e01c10025cf8418674dc",
+        "sha1sum" : "ccb2a509a5e2b78baffa28e2a5683f54838804b2",
+        "sha256sum" : "fc9b7ed5c2f0d4245339695c90ad947a5c31e28ac6112543d320ef0be26a7406"
+      },
+      {
+        "name" : "Jenner2019.sedml",
+        "description" : "SED-ML file of Jenner2019 - Oncolytic virotherapy for tumours following a Gompertz growth law (additionally CRBM-validated and adjusted).",
+        "fileSize" : "8938",
+        "mimeType" : "application/xml",
+        "md5sum" : "7642b78fb6072f64fb298825774e2ef5",
+        "sha1sum" : "8ce74a3c660ff996b04e4b9252bcc364fb399227",
+        "sha256sum" : "5b2c1c87839e2e163f5efedf8278808845ad8aa872e36496893159e865c51337"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "10106",
+        "mimeType" : "image/png",
+        "md5sum" : "69563d7dcfb7cd956a92e663276503d7",
+        "sha1sum" : "f86f70d298a9c6777312db40433874b35bef9262",
+        "sha256sum" : "defb0fafc4104d651ea35347b623b11b39edbdcfc9ab9b2ad596824146ac5ae6"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "779b1745538b71a1697e36ee86a6401d",
+        "sha1sum" : "ab930ab87f1c7faf7b0933cb59398cedd7f62bbb",
+        "sha256sum" : "fd4fb123ea4a022d28d16fd5957435933d0f4216ec72470da8e5e31a15f033b0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "f503d02fd7925cb59089af010f1eb5f9",
+        "sha1sum" : "d8b9ea449290f7f63d4a4cb0303d53c276cb660e",
+        "sha256sum" : "ea4540c87413cd7255412c6cc87a80f168bd4f23c7cc7763f1449e2f8e9afa67"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2367",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d4c575dc69a5601e2b73c88d0296aada",
+        "sha1sum" : "9f71a0e22705b43377aa2a30b67b0f02d9ebb27d",
+        "sha256sum" : "7d6fae10ce4a1c8dd6264b39bee042d679566629053182aaa18f04e5c2732c3f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1573557523,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000850"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1633464112,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Automatically added model identifier BIOMD0000000850"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724291224,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285511,
+  "submissionId" : "MODEL1911120002",
+  "publicationId" : "BIOMD0000000850",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C62713",
+      "name" : "Oncolytic Virus Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C62713"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31400344",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/31400344"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "29644518",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29644518"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000850",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000850"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911120002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911120002"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name" : "Thomsen1989_AdenylateCyclase",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <html xmlns=\"http://www.w3.org/1999/xhtml\">        <head>      <meta content=\"1\" name=\"qrichtext\" />                </head>            <body style=\"font-size:13pt;font-family:Helvetica\">      <p>This model reproduces figure 5 and figure 4(B)of the paper, with Kinh represented by [G-GTP]. We arbitrarily chosed to set the initial concentration of D to 31 micorMolar based on legend of figure 4. [R] was not given anywhere in the paper and was chosen to calibrate the sigmoid response to an increased [GTP]. THe figure 5 in the model was successfully simulated on COPASI 4.0 ,the figure 4(B) was sucessfully simulated on both COPASI and SBML_odeSolver.</p>                <p>There are two curves for Kinh in the absence and presence of NaCl in the figure obtained from simulations of the model using parameters of set C and set D.Here in the model the initial value given is from set D.The parameters in set C :k7=0.5, k10=1.0,k5=0.1,the others are the same with set D.</p>                </body>            </html>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "2574993",
+    "journal" : "Biochemistry",
+    "title" : "Rapid kinetics of alpha 2-adrenergic inhibition of adenylate cyclase. Evidence for a distal rate-limiting step.",
+    "affiliation" : "Department of Pharmacology, University of Michigan, Ann Arbor 48109-0626.",
+    "synopsis" : "Activation and inhibition of adenylate cyclase in the presence of GTP, the natural guanine nucleotide regulator, are too fast to study by standard biochemical methods. In order to identify the rate-limiting steps in adenylate cyclase regulation, we measured the kinetics of stimulation and inhibition of the enzyme on a subsecond to second time scale using a novel rapid-mix quench technique. Even using our rapid-mix quench method, activation by PGE1 and forskolin was instantaneous (cAMP accumulation was linear between 0.5 and 30 s). In contrast, we found a lag period of 1.2-10 s for epinephrine-mediated inhibition. The length of the lag depended on the concentration of GTP and monovalent cations present. In the absence of NaCl, the rate constant for the onset of inhibition (kinh) increased only slightly with GTP concentration saturating at a value of 0.16 s-1 (t1/2 4.3 s) at 1 microM GTP. In the presence of 100 mM NaCl, kinh was strongly dependent on GTP concentration, reaching a maximum value of 0.57 s-1 (t1/2 1.2 s) at 100 microM GTP. Thus, activation of both Gi and Gs in intact platelet membranes is much faster (t1/2 less than 5 s) than previously reported for reconstituted systems. Also, the strong dependence of the rate of adenylate cyclase inhibition on GTP concentration implies that the rate-limiting step in inhibition is distal to GTP binding. The effect of NaCl to increase the maximal rate of inhibition is specific for sodium since KCl has no effect on kinh.(ABSTRACT TRUNCATED AT 250 WORDS)",
+    "year" : 1989,
+    "month" : "10",
+    "volume" : "28",
+    "issue" : "22",
+    "pages" : "8778-8786",
+    "link" : "http://identifiers.org/pubmed/2574993",
+    "authors" : [
+      {
+        "name" : "W J Thomsen",
+        "institution" : "Department of Pharmacology, University of Michigan, Ann Arbor 48109-0626."
+      },
+      {
+        "name" : "R R Neubig",
+        "orcid" : "0000-0003-0501-0008"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000080_url.xml",
+        "description" : "SBML L2V1 representation of Thomsen1989_AdenylateCyclase",
+        "fileSize" : "23370",
+        "mimeType" : "application/xml",
+        "md5sum" : "7684bee2d72bdc592d4923d6b4a8ce2c",
+        "sha1sum" : "2e7433b727efcb4e8deba6cc3bac8c81cf334cbf",
+        "sha256sum" : "d35619118542f2d3592560b1f5f0f73d274ebc15251a5eed6a891013fa949f7b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000080-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18900",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8c2fd27dc1a099208636684494fa68a8",
+        "sha1sum" : "5746e0458c653228347941557e17eca19a221da5",
+        "sha256sum" : "b8e7bca07175a27a8395761cc88cf8fff5ab32ee4574e1ae1129e2cfe0a3fa51"
+      },
+      {
+        "name" : "BIOMD0000000080-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "26962",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ead80dbd67848915f0884970969c0648",
+        "sha1sum" : "8ac4cb2f9e8af5bcc25dbb95346954dcc162dd64",
+        "sha256sum" : "e2204d38b6b8e0a4a981edebc77451debecbfc17d4e0ffe0d0f2527c40675400"
+      },
+      {
+        "name" : "BIOMD0000000080-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5632",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3caa8ac132530943fe9eb90429ec4134",
+        "sha1sum" : "001f7bcd8eb32e1aa30a8bf2e07d8d11ed7f4faa",
+        "sha256sum" : "299544705bdfe23e5198fb825fa10816b4349c35c8c02755829880c44d1043c3"
+      },
+      {
+        "name" : "BIOMD0000000080-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5632",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9fa2365b36a1924f127ee08bd809b8b8",
+        "sha1sum" : "c2a9dfbed9624e05e23db6b7697aa41f9b3dd4c5",
+        "sha256sum" : "0bcc4b4a300dc2cefb6b53bbbfbc718cbe111c78f0b7a11a52dbef6141138041"
+      },
+      {
+        "name" : "BIOMD0000000080.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5632",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9fa2365b36a1924f127ee08bd809b8b8",
+        "sha1sum" : "c2a9dfbed9624e05e23db6b7697aa41f9b3dd4c5",
+        "sha256sum" : "0bcc4b4a300dc2cefb6b53bbbfbc718cbe111c78f0b7a11a52dbef6141138041"
+      },
+      {
+        "name" : "BIOMD0000000080.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3238",
+        "mimeType" : "text/plain",
+        "md5sum" : "2a94c6001988656923ff1da3c7fa491c",
+        "sha1sum" : "35a38bd7ca05c9b537265793df2854f311656512",
+        "sha256sum" : "80f31549b10ce7258b3de3de398ab95a6fb868f70da4e1fb6e36462f16159352"
+      },
+      {
+        "name" : "BIOMD0000000080.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "164306",
+        "mimeType" : "application/pdf",
+        "md5sum" : "887cb8c7299f3fb2284424d5d3d41ac0",
+        "sha1sum" : "0460869553d0cf4a0aeb9cdcbed1140e3d62e57d",
+        "sha256sum" : "f4161f4e5550fd351a6bc0ef949f2156634cd0ef0a6e468bd417f1f2efe2a1d0"
+      },
+      {
+        "name" : "BIOMD0000000080.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "43294",
+        "mimeType" : "image/png",
+        "md5sum" : "165e84dd53c35caa47c4ba7386679005",
+        "sha1sum" : "02c6c7ed2347ec39554308c13defb5db376f479a",
+        "sha256sum" : "2a307c55ad25ff71d634238c51799bede26c98c810958ba879af461cc61869b4"
+      },
+      {
+        "name" : "BIOMD0000000080.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3736",
+        "mimeType" : "text/plain",
+        "md5sum" : "96bdc63b80185a349b3ff99ed313bbf5",
+        "sha1sum" : "697294be3a273d33d8a8cd8ffeb934734d9c2c20",
+        "sha256sum" : "d3688dd696bd400b4861c75b3fe598f119af2bf652c8669c3a2df6f17fb6faba"
+      },
+      {
+        "name" : "BIOMD0000000080.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "17820",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "334cf66487d713cd4e581f90f847ace3",
+        "sha1sum" : "b7ec69a558d528f4f1d9cc416dc0c593e9db2bf4",
+        "sha256sum" : "be9f2189391df949768100ca196d28261bb041ad26269f44245cfe0164b57a8e"
+      },
+      {
+        "name" : "BIOMD0000000080.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "37517",
+        "mimeType" : "application/xml",
+        "md5sum" : "d408780ecdbe34467535ba4ddbb9fd19",
+        "sha1sum" : "0000e2460575d19abe922b78e46c6030bae7903f",
+        "sha256sum" : "c51422c314244eae337c144f6bd470f9fc8c04a6c5b9d209d11548bf492240cc"
+      },
+      {
+        "name" : "BIOMD0000000080_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "12028",
+        "mimeType" : "application/xml",
+        "md5sum" : "1514abe77ca27cb661be962df6b11f19",
+        "sha1sum" : "c1e64c79db6b042a5fc76755719e1c0b42dceef9",
+        "sha256sum" : "906a740b0271bea117d687abd63a2d01c701e30fe39ee2bbc4e666cf9e035ef6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36303",
+        "mimeType" : "image/png",
+        "md5sum" : "96048b489b0b0a72ae26eee1b02181ee",
+        "sha1sum" : "3becf78e1ef1a2f36b033e5e1ffdc791ed5c3806",
+        "sha256sum" : "b3dc2c895c8fabacfd07c8bf5a23a9631db98ceac8d7e3d34629d9e08b4690c6"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "36",
+        "mimeType" : "text/plain",
+        "md5sum" : "b01b46adcb9f20647f7d7d73e71a7710",
+        "sha1sum" : "172b1cea3ee47761411506c8340816d4d701d5b0",
+        "sha256sum" : "e1cc8e55a94b5c75fa8986e18bf2af3d220d00b4168e2da006c6187c9d645fd9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "c0af93c13ab075925d4d78dc9e74c6f3",
+        "sha1sum" : "c848a13ba017ec8ee40347d0eb2d0fb35b57ac00",
+        "sha256sum" : "90267e1c597dd94dfa162d069fca13e486be6da37af21202bac592ee55b21be5"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2760",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "81815572ecee99876ea749aeae2e8f4c",
+        "sha1sum" : "4617c6cf76df15aa1064b8068bd180ac60039f3a",
+        "sha256sum" : "4e5a8c23083f7b01913db7b6ae27b59b9941e686e8a0bc4578e6eb7d6803f7c5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1164647076,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Thomsen1989_AdenylateCyclase"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392240579,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Thomsen1989_AdenylateCyclase"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266842,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284868,
+  "submissionId" : "MODEL1173806337",
+  "publicationId" : "BIOMD0000000080",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1173806337",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1173806337"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000080",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000080"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "2574993",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/2574993"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000082",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000082"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007194",
+      "name" : "negative regulation of adenylate cyclase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007194"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0031684",
+      "name" : "heterotrimeric G-protein complex cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0031684"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

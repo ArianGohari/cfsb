@@ -1,0 +1,280 @@
+{
+  "name" : "Schmierer_2008_Smad_Tgfb",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <html xmlns=\"http://www.w3.org/1999/xhtml\">        <head />        <body>          <p> This sbml file describes the RECI model from:                                                              <br />\t  \"Mathematical modeling identifies Smad nucleocytoplasmic shuttling as a dynamic signal-interpreting system\" by Bernhard Schmierer, Alexander L. Tournier, Paul A. Bates and Caroline S. Hill, Proc Natl Acad Sci U S A. 2008 May 6;105(18):6608-13.                                                              <br />\t  All parameter and species names are as in Figure S3 of the original publication. The original model was done in copasi.                                                              <br />SB-431542 addition to a concentration of 10000 nM is set at 2700 sec. The initial concentration of SB, the time point of addition and the final concentration can be set by altering the parameters                                                               <b>SB_0</b>,                                                               <b>t_SB</b> and                                                               <b>SB_end</b>.                                                              <br />  This model file has been used to reproduce Figures 2D and 5A from the research paper using SBMLodesolver. To get the results for the figures, sum the corresponding concentrations:                                                              <br />fig 2D: nuclear EGFP-Smad2 = G_n + pG_n + G2_n + G4_n + 2* GG_n                                                              <br />fig 5A (either n or c for nucleus or cytosol):                                                              <br />monomeric Smad2 = S2_n/c + G_n/c                                                              <br />monomeric P-Smad2 = pS2_n/c + pG_n/c                                                              <br />Smad2/Smad4 complexes = S24_n/c + G4_n/c                                                              <br />Smad2/Smad2 complexes = S22_n/c + G2_n/c + GG_n/c                                                              <br /></p>          <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.                              <br />For more information see the                               <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.                              <br />To cite BioModels Database, please use                               <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\"> Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>        </p>      </body>    </html>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18443295",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Mathematical modeling identifies Smad nucleocytoplasmic shuttling as a dynamic signal-interpreting system.",
+    "affiliation" : "Developmental Signalling Laboratory and Biomolecular Modelling Laboratory, Cancer Research UK London Research Institute, 44 Lincoln's Inn Fields, London WC2A 3PX, United Kingdom.",
+    "synopsis" : "TGF-beta-induced Smad signal transduction from the membrane into the nucleus is not linear and unidirectional, but rather a dynamic network that couples Smad phosphorylation and dephosphorylation through continuous nucleocytoplasmic shuttling of Smads. To understand the quantitative behavior of this network, we have developed a tightly constrained computational model, exploiting the interplay between mathematical modeling and experimental strategies. The model simultaneously reproduces four distinct datasets with excellent accuracy and provides mechanistic insights into how the network operates. We use the model to make predictions about the outcome of fluorescence recovery after photobleaching experiments and the behavior of a functionally impaired Smad2 mutant, which we then verify experimentally. Successful model performance strongly supports the hypothesis of a dynamic maintenance of Smad nuclear accumulation during active signaling. The presented work establishes Smad nucleocytoplasmic shuttling as a dynamic network that flexibly transmits quantitative features of the extracellular TGF-beta signal, such as its duration and intensity, into the nucleus.",
+    "year" : 2008,
+    "month" : "5",
+    "volume" : "105",
+    "issue" : "18",
+    "pages" : "6608-6613",
+    "link" : "http://identifiers.org/pubmed/18443295",
+    "authors" : [
+      {
+        "name" : "Bernhard Schmierer",
+        "orcid" : "0000-0002-9082-7022"
+      },
+      {
+        "name" : "Alexander L Tournier"
+      },
+      {
+        "name" : "Paul A Bates",
+        "orcid" : "0000-0003-0621-0925"
+      },
+      {
+        "name" : "Caroline S Hill",
+        "orcid" : "0000-0002-8632-0480"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000173_url.xml",
+        "description" : "SBML L2V1 representation of Schmierer_2008_Smad_Tgfb",
+        "fileSize" : "66961",
+        "mimeType" : "application/xml",
+        "md5sum" : "fa40bbc923fca7c8a8dc44c14d7b31b2",
+        "sha1sum" : "9ec7e060e0ac00642f9ecff7eaac4427da42d55c",
+        "sha256sum" : "0e956dd9ac94cc82c0cb5488d8058f14f35eeaeb9f186a09b577d13f5b886cdf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000173-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "51187",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0afb9861beaabea18f85e9465d9a1a8a",
+        "sha1sum" : "f9dc921882125b0cf9b934b78a195c440a9426d9",
+        "sha256sum" : "ecc3aa37f80e9212a5d8f360cf8fe879c87325b7a2b37ed4823b9010044f44de"
+      },
+      {
+        "name" : "BIOMD0000000173-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "82225",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "aeea4e04dbaee2dfc548bfcc899bb423",
+        "sha1sum" : "8468d0d11c80d10cab0f2b16bc4574281adae35e",
+        "sha256sum" : "1bcf96e3dfb5b8ea61ff37a4ef46c92be248b1150c2381686f23e2b9dc48dae5"
+      },
+      {
+        "name" : "BIOMD0000000173-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "13307",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c0211e1e6ccf812ed86b87a77b1ecac1",
+        "sha1sum" : "1dc81df8247271c2d100ef8201a34f5ccb6f6054",
+        "sha256sum" : "6ad157ab98cb24981fca37db778d969deb3152842b9eb3240ddbd694bc1d63ab"
+      },
+      {
+        "name" : "BIOMD0000000173-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "13307",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "26bda2a9ed9b2864e25f8a93932b01d5",
+        "sha1sum" : "259a1ae6f6b2b01ff1cd350fe3e5fc3b13c24b38",
+        "sha256sum" : "e8fbf74d10ea2d6878975db5e112b96cde774a04d8960f2b7471ef29495378d3"
+      },
+      {
+        "name" : "BIOMD0000000173.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "13307",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "26bda2a9ed9b2864e25f8a93932b01d5",
+        "sha1sum" : "259a1ae6f6b2b01ff1cd350fe3e5fc3b13c24b38",
+        "sha256sum" : "e8fbf74d10ea2d6878975db5e112b96cde774a04d8960f2b7471ef29495378d3"
+      },
+      {
+        "name" : "BIOMD0000000173.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9849",
+        "mimeType" : "text/plain",
+        "md5sum" : "ca9cd78334e636f9e55c65a9f20b31a2",
+        "sha1sum" : "280d2456b24062cc629faf1a64af44bcb5cab180",
+        "sha256sum" : "323b7f32021c891b662f26455df57d96936e81dc5139cb39f873fa8bf70f0298"
+      },
+      {
+        "name" : "BIOMD0000000173.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "274948",
+        "mimeType" : "application/pdf",
+        "md5sum" : "e08a3b778d715eba03e72e82a7457e36",
+        "sha1sum" : "dd52fad6766e80aa38c92d0c5132315db6ae0c6a",
+        "sha256sum" : "5462b7ec763173e82c44f782a4d8cc634ad29eb6b50da9dbb475ea214b4d2ee1"
+      },
+      {
+        "name" : "BIOMD0000000173.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "202128",
+        "mimeType" : "image/png",
+        "md5sum" : "56ffb654fdb9189339e2b5b4d3da6a8f",
+        "sha1sum" : "875f3fedd1bf89dc9a05c2fdd1114b1282ea6ede",
+        "sha256sum" : "fed2439db3aa2e429dcfea482ae477d9d2f87fe6cb22a39f6e68fc47a2681ca6"
+      },
+      {
+        "name" : "BIOMD0000000173.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "65805",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "108de6e48ca5d129191715fbedd3081e",
+        "sha1sum" : "0827b3ad51c73de26f7b3a1eb9052a1a42d03ef6",
+        "sha256sum" : "0ad1ffc6f0ec0adc01925c903ab83b01573ad9a66613812959da8ea213f8bdfc"
+      },
+      {
+        "name" : "BIOMD0000000173_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "42737",
+        "mimeType" : "application/xml",
+        "md5sum" : "d629f956f8baebc6a7c0bd4dee8ce421",
+        "sha1sum" : "1a6b94d2f6cac98b6e155ba59152ae71f2e1ca49",
+        "sha256sum" : "a6fbff5db0772918c8cdea4ea76419d1948d876169215258a6dbe378f307b98c"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "10930",
+        "mimeType" : "image/png",
+        "md5sum" : "577e4ffd1a01ba1ac5cecabc6c9918e0",
+        "sha1sum" : "3089051b7e50f8e15384dba6945a8ef129b3dfef",
+        "sha256sum" : "8cfd7f5e959df3562b2501f0f894bc242aa3e5c014985815ea51161428502889"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "206",
+        "mimeType" : "text/plain",
+        "md5sum" : "a2b74b00cd7a34c6497e01ec0c8276a9",
+        "sha1sum" : "8ede8a0f19164f3ac3562c796d9d2457d7ea5acf",
+        "sha256sum" : "8c4479485bffdc687d78d15859c4ee780b25ca1266997a1b7dd624200ad30689"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "295222a4c16bfe0bf9da6888767abf4c",
+        "sha1sum" : "778945a427eb10b093338ec47913eb291d996118",
+        "sha256sum" : "d4387b9d76f3bcac9c928a59399848c6df3f03bff0b29f7110b48feec80969d9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5250",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "973f95a102b85f9a147ba315470d8bd5",
+        "sha1sum" : "1cc46164ca39036d40741612097dbc75656297df",
+        "sha256sum" : "d147a07f28b580cc22148cd0e5e83b9130c3a91d3660b661682349b708552ebd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1212572417,
+        "submitter" : "Bernhard Schmierer",
+        "comment" : "Original import of SmadNucleocytoplasmicDynamics_Schmierer_PNAS_2008"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460133586,
+        "submitter" : "Bernhard Schmierer",
+        "comment" : "Current version of Schmierer_2008_Smad_Tgfb"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269358,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284916,
+  "submissionId" : "MODEL0451870146",
+  "publicationId" : "BIOMD0000000173",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Bernhard Schmierer",
+        "email" : "Bernhard.Schmierer@ymail.com",
+        "affiliation" : "Developmental Signalling Lab, Cancer Research UK London Research Institute",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007179",
+      "name" : "transforming growth factor beta receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007179"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0451870146",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0451870146"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000173",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000173"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18443295",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18443295"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "hsa04350",
+      "name" : "TGF-beta signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04350"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

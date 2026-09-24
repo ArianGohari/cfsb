@@ -1,0 +1,276 @@
+{
+  "name" : "McAuley2012 - Whole-body Cholesterol Metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">McAuley2012 - Whole-body Cholesterol Metabolism</div>            <div class=\"dc:description\">      <p>Lipid metabolism has a key role to play in human longevity and healthy aging. A whole-body mathematical model of cholesterol metabolism that explores the changes in both the rate of intestinal cholesterol absorption and the hepatic rate of clearance of LDL-C from the plasma, has been presented here. The model showed that of these two mechanisms, changes to the rate of LDL-C removal from the plasma with age had the most significant effect on cholesterol metabolism.</p>                </div>            <div class=\"dc:provenance\">      <p>The original SBML model file was generated using MathSBML 2.5.1.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23046614\" title=\"Access to this publication\">A whole-body mathematical model of cholesterol metabolism and its age-associated dysregulation.</a>                    </div>                <div class=\"bibo:authorList\">Mc Auley MM, Wilkinson DJ, Jones JJ, Kirkwood TT.</div>                <div class=\"bibo:Journal\">BMC Syst Biol. 2012 Oct 10;6(1):130.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>BACKGROUND: Global demographic changes have stimulated marked interest in the process of ageing. There has been, and will continue to be, an unrelenting rise in the number of the oldest old ( &gt;85 years of age). Together with an ageing population there comes an increase in the prevalence of age related disease. Of the diseases of ageing, cardiovascular disease (CVD) has by far the highest prevalence. It is regarded that a finely tuned lipid profile may help to prevent CVD as there is a long established relationship between alterations to lipid metabolism and CVD risk. In fact elevated plasma cholesterol, particularly Low Density Lipoprotein Cholesterol (LDL-C) has consistently stood out as a risk factor for having a cardiovascular event. Moreover it is widely acknowledged that LDL-C may rise with age in both sexes in a wide variety of groups. The aim of this work was to use a whole-body mathematical model to investigate why LDL-C rises with age, and to test the hypothesis that mechanistic changes to cholesterol absorption and LDL-C removal from the plasma are responsible for the rise. The whole-body mechanistic nature of the model differs from previous models of cholesterol metabolism which have either focused on intracellular cholesterol homeostasis or have concentrated on an isolated area of lipoprotein dynamics. The model integrates both current and previously published data relating to molecular biology, physiology, ageing and nutrition in an integrated fashion.</p>                    <p>RESULTS: The model was used to test the hypothesis that alterations to the rate of cholesterol absorption and changes to the rate of removal of LDL-C from the plasma are integral to understanding why LDL-C rises with age. The model demonstrates that increasing the rate of intestinal cholesterol absorption from 50% to 80% by age 65 years can result in an increase of LDL-C by as much as 34mg/dL in a hypothetical male subject. The model also shows that decreasing the rate of hepatic clearance of LDL-C gradually to 50% by age 65 years can result in an increase of LDL-C by as much as 116mg/dL.</p>                    <p>CONCLUSIONS: Our model clearly demonstrates that of the two putative mechanisms that have been implicated in the dysregulation of cholesterol metabolism with age, alterations to the removal rate of plasma LDL-C has the most significant impact on cholesterol metabolism and small changes to the number of hepatic LDL receptors can result in a significant rise in LDL-C. This first whole-body systems based model of cholesterol balance could potentially be used as a tool to further improve our understanding of whole-body cholesterol metabolism and its dysregulation with age. Furthermore, given further fine tuning the model may help to investigate potential dietary and lifestyle regimes that have the potential to mitigate the effects aging has on cholesterol metabolism.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL1206010000\">MODEL1206010000</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23046614",
+    "journal" : "BMC systems biology",
+    "title" : "A whole-body mathematical model of cholesterol metabolism and its age-associated dysregulation.",
+    "affiliation" : "Campus for Ageing and Vitality, Newcastle University, Henry Wellcome Biogerontology Building, Newcastle upon Tyne NE4 5PL, United Kingdom. mcaulem@hope.ac.uk",
+    "synopsis" : "<h4>Background</h4>Global demographic changes have stimulated marked interest in the process of aging. There has been, and will continue to be, an unrelenting rise in the number of the oldest old ( >85 years of age). Together with an ageing population there comes an increase in the prevalence of age related disease. Of the diseases of ageing, cardiovascular disease (CVD) has by far the highest prevalence. It is regarded that a finely tuned lipid profile may help to prevent CVD as there is a long established relationship between alterations to lipid metabolism and CVD risk. In fact elevated plasma cholesterol, particularly Low Density Lipoprotein Cholesterol (LDL-C) has consistently stood out as a risk factor for having a cardiovascular event. Moreover it is widely acknowledged that LDL-C may rise with age in both sexes in a wide variety of groups. The aim of this work was to use a whole-body mathematical model to investigate why LDL-C rises with age, and to test the hypothesis that mechanistic changes to cholesterol absorption and LDL-C removal from the plasma are responsible for the rise. The whole-body mechanistic nature of the model differs from previous models of cholesterol metabolism which have either focused on intracellular cholesterol homeostasis or have concentrated on an isolated area of lipoprotein dynamics. The model integrates both current and previously published data relating to molecular biology, physiology, ageing and nutrition in an integrated fashion.<h4>Results</h4>The model was used to test the hypothesis that alterations to the rate of cholesterol absorption and changes to the rate of removal of LDL-C from the plasma are integral to understanding why LDL-C rises with age. The model demonstrates that increasing the rate of intestinal cholesterol absorption from 50% to 80% by age 65 years can result in an increase of LDL-C by as much as 34 mg/dL in a hypothetical male subject. The model also shows that decreasing the rate of hepatic clearance of LDL-C gradually to 50% by age 65 years can result in an increase of LDL-C by as much as 116 mg/dL.<h4>Conclusions</h4>Our model clearly demonstrates that of the two putative mechanisms that have been implicated in the dysregulation of cholesterol metabolism with age, alterations to the removal rate of plasma LDL-C has the most significant impact on cholesterol metabolism and small changes to the number of hepatic LDL receptors can result in a significant rise in LDL-C. This first whole-body systems based model of cholesterol balance could potentially be used as a tool to further improve our understanding of whole-body cholesterol metabolism and its dysregulation with age. Furthermore, given further fine tuning the model may help to investigate potential dietary and lifestyle regimes that have the potential to mitigate the effects aging has on cholesterol metabolism.",
+    "year" : 2012,
+    "month" : "10",
+    "volume" : "6",
+    "pages" : "130",
+    "link" : "http://identifiers.org/pubmed/23046614",
+    "authors" : [
+      {
+        "name" : "Mark T Mc Auley",
+        "institution" : "Campus for Ageing and Vitality, Newcastle University, Henry Wellcome Biogerontology Building, Newcastle upon Tyne NE4 5PL, United Kingdom. mcaulem@hope.ac.uk"
+      },
+      {
+        "name" : "Darren J Wilkinson",
+        "orcid" : "0000-0003-0736-802X"
+      },
+      {
+        "name" : "Janette J L Jones"
+      },
+      {
+        "name" : "Thomas B L Kirkwood"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000434_url.xml",
+        "description" : "SBML L2V4 representation of McAuley2012 - Whole-body Cholesterol Metabolism",
+        "fileSize" : "138474",
+        "mimeType" : "application/xml",
+        "md5sum" : "838c41a5283ee9256f24d25f7438f145",
+        "sha1sum" : "3807895b8b391b9474b5b6bacab3c0ea089f02eb",
+        "sha256sum" : "6301c83483a77935daa0f3a4e52ec4c087c3fc258f58fcc6db61b2fc6fdf5036"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000434-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "59116",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "707c40e819cdc1539c286d4405d3caf4",
+        "sha1sum" : "8ddd520a4b9bc59f5d9bf052108a07e95a33020a",
+        "sha256sum" : "df7ec5d413936571e42b952cd04d1905ba641b38a578a98daafa2ddb2030e5c1"
+      },
+      {
+        "name" : "BIOMD0000000434-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "93301",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "230a5750558ef7f3282b15a0b332d501",
+        "sha1sum" : "137bc4189710d6967faa5036aeecfd88020f67e1",
+        "sha256sum" : "b97c0bec079e08b54ab506264b608061ad1b6f5d1d6c9bba388fe526fa4d22e5"
+      },
+      {
+        "name" : "BIOMD0000000434-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "18684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5d74f6051039017144c4bdf548122080",
+        "sha1sum" : "f7bd49b93b26c2d9a860f6f52da1032a470a761f",
+        "sha256sum" : "1eea0291b53e03fc8d1ab949c6d5b4e3eb957d373fe48a5444f40b993ee3d61b"
+      },
+      {
+        "name" : "BIOMD0000000434.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "18684",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c535936f1bb10e48cd23400efdc62830",
+        "sha1sum" : "ee967bd82fa49668a7bd01761b4273799a314e90",
+        "sha256sum" : "8fe64b573be79a1e18d3e4ef52187d2989f009df6bddce1512bef0699bd8c27a"
+      },
+      {
+        "name" : "BIOMD0000000434.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "16458",
+        "mimeType" : "text/plain",
+        "md5sum" : "98f25ba9d72640e2b33c7a89de234691",
+        "sha1sum" : "ffbca95bb0c96954f8de1e936f566c6e37e55c90",
+        "sha256sum" : "e1d174b3c6d9b8fa683421de866f450fa8ec0c025d2cec8d0901aeea6d3270e0"
+      },
+      {
+        "name" : "BIOMD0000000434.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "386525",
+        "mimeType" : "application/pdf",
+        "md5sum" : "6c5d15ae47c3a329e5bb4c58cddb6842",
+        "sha1sum" : "f8b12453188cebfe648f590f6eb725952bbf608d",
+        "sha256sum" : "4ab79a90058cff4200e7828ed752e3d37bb9da7772131d0fff5546b8848e334e"
+      },
+      {
+        "name" : "BIOMD0000000434.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "613830",
+        "mimeType" : "image/png",
+        "md5sum" : "79c660c5a323f42fd3287f3186fcd039",
+        "sha1sum" : "72b342d23839d5a0601bfdb63f78124a58a9cc72",
+        "sha256sum" : "50992ac0730e97316406fbd6b94f840c33d4cf644218a2deb677ee430e434a72"
+      },
+      {
+        "name" : "BIOMD0000000434.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "123363",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ca443de14f6ea1aaee06dae317e8c348",
+        "sha1sum" : "92cf6364cede964b1cb2dd8d8975f1dea439d91f",
+        "sha256sum" : "8c243ff5a1cfb5e04091fc9564fd0e7be91fbb28364f4b584090eae43227628a"
+      },
+      {
+        "name" : "BIOMD0000000434_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "48409",
+        "mimeType" : "application/xml",
+        "md5sum" : "55a386f2fdd8d1f791009786c796e550",
+        "sha1sum" : "3e5250b0bfd7c8a7690f8c302d0c713b47ab0802",
+        "sha256sum" : "346540240e4a8dc34d652e2dffc255e75d0ba157ee2b5ff827bfe04c31c8a9c9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21722",
+        "mimeType" : "image/png",
+        "md5sum" : "33b07142906addaca404c08ed52cd5ac",
+        "sha1sum" : "75ac2c2f09e40a4c2da536517bd3e044f030a77f",
+        "sha256sum" : "5a60630051e0715229ace14602b2aca931a717e54f5f689e2d11073353e0d45b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "495",
+        "mimeType" : "text/plain",
+        "md5sum" : "5397a28c30febec25eac4e58c4330c40",
+        "sha1sum" : "ba530ebbbcef733feb2974b816795e48ecc84ce9",
+        "sha256sum" : "eccedc20b64cd4b7a9a455f512b743c58f4c1d44c70b1932160d7ec4664a7045"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1671",
+        "mimeType" : "application/xml",
+        "md5sum" : "ed84c28537309f14274c6cef51215f73",
+        "sha1sum" : "7e20ad554ecef56c6e818794a8596814aa39b507",
+        "sha256sum" : "070a36c9f2b4a175f2b665c8ed5f62ce5fedc6e4d95ef6f5b6f0c9be315b1025"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7325",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3adccafd34a6078bb668b4f27d29778f",
+        "sha1sum" : "52513b4cee005e382066e594c3f04ab219f04156",
+        "sha256sum" : "f35dcb00ed004a32fa13e65ea7b715b3daea58660dfa72239a9bd6f957f65bf5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1338555992,
+        "submitter" : "Mark Mc Auley",
+        "comment" : "Original import of WholeBodyCholesterolMetabolism"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412873065,
+        "submitter" : "Mark Mc Auley",
+        "comment" : "Current version of McAuley2012 - Whole-body Cholesterol Metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724276872,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285168,
+  "submissionId" : "MODEL1206010000",
+  "publicationId" : "BIOMD0000000434",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mark Mc Auley",
+        "email" : "mcaulem@hope.ac.uk",
+        "affiliation" : "Liverpool Hope University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1206010000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1206010000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000434",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000434"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23046614",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23046614"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0008203",
+      "name" : "cholesterol metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008203"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007571",
+      "name" : "age-dependent general metabolic decline",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007571"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:14502",
+      "name" : "cholesterol ester storage disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14502"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

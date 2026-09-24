@@ -1,0 +1,523 @@
+[
+  {
+    "model": "BIOMD0000000170",
+    "name": "Weimann2004_CircadianOscillator",
+    "species": 7,
+    "reactions": 17,
+    "rules": 3,
+    "annotations": [
+      "http://identifiers.org/biomodels.db/BIOMD0000000170",
+      "http://identifiers.org/biomodels.db/MODEL8378813456",
+      "http://identifiers.org/go/GO:0007623",
+      "http://identifiers.org/kegg.pathway/hsa04710",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/15347590",
+      "http://identifiers.org/taxonomy/40674"
+    ],
+    "rule_mathml": "<ns0:listOfRules xmlns:ns0=\"http://www.sbml.org/sbml/level2\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n      <ns0:assignmentRule metaid=\"metaid_0000041\" variable=\"trans_per2_cry\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:divide />\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> v1b </ns1:ci>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> y7 </ns1:ci>\n                <ns1:ci> c </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:plus />\n              <ns1:apply>\n                <ns1:times />\n                <ns1:ci> k1b </ns1:ci>\n                <ns1:apply>\n                  <ns1:plus />\n                  <ns1:cn type=\"integer\"> 1 </ns1:cn>\n                  <ns1:apply>\n                    <ns1:power />\n                    <ns1:apply>\n                      <ns1:divide />\n                      <ns1:ci> y3 </ns1:ci>\n                      <ns1:ci> k1i </ns1:ci>\n                    </ns1:apply>\n                    <ns1:ci> hill_coeff </ns1:ci>\n                  </ns1:apply>\n                </ns1:apply>\n              </ns1:apply>\n              <ns1:ci> y7 </ns1:ci>\n              <ns1:ci> c </ns1:ci>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n      <ns0:assignmentRule metaid=\"metaid_0000042\" variable=\"trans_Bmal1\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:divide />\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> v4b </ns1:ci>\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> y3 </ns1:ci>\n                <ns1:ci> r </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:plus />\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> k4b </ns1:ci>\n                <ns1:ci> r </ns1:ci>\n              </ns1:apply>\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> y3 </ns1:ci>\n                <ns1:ci> r </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n      <ns0:assignmentRule metaid=\"metaid_0000043\" variable=\"y5_y6_y7\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> y5 </ns1:ci>\n            <ns1:ci> y6 </ns1:ci>\n            <ns1:ci> y7 </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n    </ns0:listOfRules>\n    ",
+    "assignment_variables": [
+      "trans_per2_cry",
+      "trans_Bmal1",
+      "y5_y6_y7"
+    ],
+    "source": "part1/task1/sbml/BIOMD0000000170_url.xml",
+    "sha256": "f6f1bd3faf8223d8a32314e7422263568e88b1f662b9d2ee9f7e0300960d6328",
+    "metadata_hash_matches": false,
+    "metadata_hash_matches_without_trailing_newline": true,
+    "publication": {
+      "type": "PubMed ID",
+      "accession": "15347590",
+      "journal": "Biophysical journal",
+      "title": "Modeling feedback loops of the Mammalian circadian oscillator.",
+      "affiliation": "Institute for Theoretical Biology, and Laboratory of Chronobiology--Institute of Medical Immunology (Charité), Humboldt-University Berlin, 10115 Berlin, Germany.",
+      "synopsis": "The suprachiasmatic nucleus governs daily variations of physiology and behavior in mammals. Within single neurons, interlocked transcriptional/translational feedback loops generate circadian rhythms on the molecular level. We present a mathematical model that reflects the essential features of the mammalian circadian oscillator to characterize the differential roles of negative and positive feedback loops. The oscillations that are obtained have a 24-h period and are robust toward parameter variations even when the positive feedback is replaced by a constantly expressed activator. This demonstrates the crucial role of the negative feedback for rhythm generation. Moreover, it explains the rhythmic phenotype of Rev-erbalpha-/- mutant mice, where a positive feedback is missing. The interplay of negative and positive feedback reveals a complex dynamics. In particular, the model explains the unexpected rescue of circadian oscillations in Per2Brdm1/Cry2-/- double-mutant mice (Per2Brdm1 single-mutant mice are arrhythmic). Here, a decrease of positive feedback strength associated with mutating the Per2 gene is compensated by the Cry2-/- mutation that simultaneously decreases the negative feedback strength. Finally, this model leads us to a testable prediction of a molecular and behavioral phenotype: circadian oscillations should be rescued when arrhythmic Per2Brdm1 mutant mice are crossed with Rev- erbalpha -/- mutant mice.",
+      "year": 2004,
+      "month": "11",
+      "volume": "87",
+      "issue": "5",
+      "pages": "3023-3034",
+      "link": "http://identifiers.org/pubmed/15347590",
+      "authors": [
+        {
+          "name": "Sabine Becker-Weimann",
+          "institution": "Institute for Theoretical Biology, and Laboratory of Chronobiology--Institute of Medical Immunology (Charité), Humboldt-University Berlin, 10115 Berlin, Germany."
+        },
+        {
+          "name": "Jana Wolf",
+          "institution": "Mathematical Modelling of Cellular Processes, Max Delbrück Center for Molecular Medicine, Berlin, Germany.",
+          "orcid": "0000-0003-3254-5868"
+        },
+        {
+          "name": "Hanspeter Herzel"
+        },
+        {
+          "name": "Achim Kramer",
+          "orcid": "0000-0001-9671-6078"
+        }
+      ]
+    },
+    "api_annotations": [
+      {
+        "qualifier": "bqbiol:hasTaxon",
+        "accession": "40674",
+        "name": "Mammalia",
+        "resource": "Taxonomy",
+        "uri": "http://identifiers.org/taxonomy/40674"
+      },
+      {
+        "qualifier": "bqbiol:is",
+        "accession": "GO:0007623",
+        "name": "circadian rhythm",
+        "resource": "Gene Ontology",
+        "uri": "http://identifiers.org/go/GO:0007623"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "MODEL8378813456",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/MODEL8378813456"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "BIOMD0000000170",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/BIOMD0000000170"
+      },
+      {
+        "qualifier": "bqmodel:isDescribedBy",
+        "accession": "15347590",
+        "resource": "PubMed",
+        "uri": "http://identifiers.org/pubmed/15347590"
+      },
+      {
+        "qualifier": "bqbiol:isPartOf",
+        "accession": "hsa04710",
+        "name": "Circadian rhythm - Homo sapiens (human)",
+        "resource": "KEGG Pathway",
+        "uri": "http://identifiers.org/kegg.pathway/hsa04710"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "MAMO_0000046",
+        "name": "Ordinary differential equation model",
+        "resource": "Mathematical Modelling Ontology",
+        "uri": "http://identifiers.org/mamo/MAMO_0000046"
+      }
+    ]
+  },
+  {
+    "model": "BIOMD0000001006",
+    "name": "Ciliberto2005 - Steady states and oscillations in the p53/Mdm2 network",
+    "species": 10,
+    "reactions": 21,
+    "rules": 4,
+    "annotations": [
+      "http://identifiers.org/biomodels.db/BIOMD0000001006",
+      "http://identifiers.org/biomodels.db/MODEL2104140001",
+      "http://identifiers.org/bto/BTO:0000414",
+      "http://identifiers.org/go/GO:0042769",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/15725723",
+      "http://identifiers.org/pw/PW:0000718",
+      "http://identifiers.org/taxonomy/9606",
+      "urn:miriam:bto:BTO:0000414",
+      "urn:miriam:go:GO:0042769",
+      "urn:miriam:mamo:MAMO_0000046",
+      "urn:miriam:pubmed:15725723",
+      "urn:miriam:pw:PW:0000718",
+      "urn:miriam:taxonomy:9606"
+    ],
+    "rule_mathml": "<ns0:listOfRules xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n      <ns0:assignmentRule variable=\"kd2_0\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> kd2 </ns1:ci>\n            <ns1:apply>\n              <ns1:divide />\n              <ns1:apply>\n                <ns1:times />\n                <ns1:ci> kd2_ </ns1:ci>\n                <ns1:ci> DNA_damage </ns1:ci>\n              </ns1:apply>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> Jdam </ns1:ci>\n                <ns1:ci> DNA_damage </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n      <ns0:assignmentRule variable=\"IR\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:times />\n            <ns1:ci> ampl </ns1:ci>\n            <ns1:ci> step </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n      <ns0:assignmentRule variable=\"p53\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:minus />\n            <ns1:apply>\n              <ns1:minus />\n              <ns1:ci> p53_total </ns1:ci>\n              <ns1:ci> p53_ub </ns1:ci>\n            </ns1:apply>\n            <ns1:ci> p53_ub_ub </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n      <ns0:assignmentRule variable=\"MDM2_total\">\n        <ns1:math>\n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> Mdm2_cyt </ns1:ci>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:apply>\n                <ns1:divide />\n                <ns1:cn> 1 </ns1:cn>\n                <ns1:ci> ModelValue_6 </ns1:ci>\n              </ns1:apply>\n              <ns1:ci> Mdm2_p_nuc </ns1:ci>\n            </ns1:apply>\n            <ns1:ci> Mdm2_p_cyt </ns1:ci>\n          </ns1:apply>\n        </ns1:math>\n      </ns0:assignmentRule>\n    </ns0:listOfRules>\n    ",
+    "assignment_variables": [
+      "kd2_0",
+      "IR",
+      "p53",
+      "MDM2_total"
+    ],
+    "source": "part1/task1/sbml/Ciliberto2005.xml",
+    "sha256": "c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389",
+    "metadata_hash_matches": true,
+    "metadata_hash_matches_without_trailing_newline": false,
+    "publication": {
+      "type": "PubMed ID",
+      "accession": "15725723",
+      "journal": "Cell cycle (Georgetown, Tex.)",
+      "title": "Steady states and oscillations in the p53/Mdm2 network.",
+      "affiliation": "Molecular Network Dynamics Research Group of Hungarian Academy of Sciences, Budapest University of Technology and Economics, Budapest, Hungary.",
+      "synopsis": "p53 is activated in response to events compromising the genetic integrity of a cell. Recent data show that p53 activity does not increase steadily with genetic damage but rather fluctuates in an oscillatory fashion. Theoretical studies suggest that oscillations can arise from a combination of positive and negative feedbacks or from a long negative feedback loop alone. Both negative and positive feedbacks are present in the p53/Mdm2 network, but it is not known what roles they play in the oscillatory response to DNA damage. We developed a mathematical model of p53 oscillations based on positive and negative feedbacks in the p53/Mdm2 network. According to the model, the system reacts to DNA damage by moving from a stable steady state into a region of stable limit cycles. Oscillations in the model are born with large amplitude, which guarantees an all-or-none response to damage. As p53 oscillates, damage is repaired and the system moves back to a stable steady state with low p53 activity. The model reproduces experimental data in quantitative detail. We suggest new experiments for dissecting the contributions of negative and positive feedbacks to the generation of oscillations.",
+      "year": 2005,
+      "month": "3",
+      "volume": "4",
+      "issue": "3",
+      "pages": "488-493",
+      "link": "http://identifiers.org/pubmed/15725723",
+      "authors": [
+        {
+          "name": "Andrea Ciliberto",
+          "institution": "Molecular Network Dynamics Research Group of Hungarian Academy of Sciences, Budapest University of Technology and Economics, Budapest, Hungary."
+        },
+        {
+          "name": "Béla Novak",
+          "institution": "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+          "orcid": "0000-0002-6961-1366"
+        },
+        {
+          "name": "John J Tyson",
+          "orcid": "0000-0001-7560-6013"
+        }
+      ]
+    },
+    "api_annotations": [
+      {
+        "qualifier": "bqbiol:hasTaxon",
+        "accession": "9606",
+        "name": "Homo sapiens",
+        "resource": "Taxonomy",
+        "uri": "http://identifiers.org/taxonomy/9606"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "MAMO_0000046",
+        "name": "Ordinary differential equation model",
+        "resource": "Mathematical Modelling Ontology",
+        "uri": "http://identifiers.org/mamo/MAMO_0000046"
+      },
+      {
+        "qualifier": "bqmodel:isDescribedBy",
+        "accession": "15725723",
+        "resource": "PubMed",
+        "uri": "http://identifiers.org/pubmed/15725723"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "MODEL2104140001",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/MODEL2104140001"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "BIOMD0000001006",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/BIOMD0000001006"
+      },
+      {
+        "qualifier": "bqbiol:occursIn",
+        "accession": "BTO:0000414",
+        "name": "epithelial cell",
+        "resource": "Brenda Tissue Ontology",
+        "uri": "http://identifiers.org/bto/BTO:0000414"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "PW:0000718",
+        "resource": "Pathway Ontology",
+        "uri": "http://identifiers.org/pw/PW:0000718"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "GO:0042769",
+        "name": "DNA damage response, detection of DNA damage",
+        "resource": "Gene Ontology",
+        "uri": "http://identifiers.org/go/GO:0042769"
+      }
+    ]
+  },
+  {
+    "model": "BIOMD0000000073",
+    "name": "Leloup2003_CircClock_DD",
+    "species": 16,
+    "reactions": 48,
+    "rules": 0,
+    "annotations": [
+      "http://identifiers.org/biomodels.db/BIOMD0000000021",
+      "http://identifiers.org/biomodels.db/BIOMD0000000073",
+      "http://identifiers.org/biomodels.db/MODEL1109528188",
+      "http://identifiers.org/go/GO:0042752",
+      "http://identifiers.org/kegg.pathway/hsa04710",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/12775757",
+      "http://identifiers.org/taxonomy/40674"
+    ],
+    "rule_mathml": "",
+    "assignment_variables": [],
+    "source": "part1/task3/c/cache/BIOMD0000000073.xml",
+    "sha256": "55947af04f7b113b5f2f1059c13484662d797b155ecf3deb782c19164004c375",
+    "metadata_hash_matches": true,
+    "metadata_hash_matches_without_trailing_newline": true,
+    "publication": {
+      "type": "PubMed ID",
+      "accession": "12775757",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "title": "Toward a detailed computational model for the mammalian circadian clock.",
+      "affiliation": "Unité de Chronobiologie Théorique, Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C. P. 231, B-1050 Brussels, Belgium.",
+      "synopsis": "We present a computational model for the mammalian circadian clock based on the intertwined positive and negative regulatory loops involving the Per, Cry, Bmal1, Clock, and Rev-Erb alpha genes. In agreement with experimental observations, the model can give rise to sustained circadian oscillations in continuous darkness, characterized by an antiphase relationship between Per/Cry/Rev-Erbalpha and Bmal1 mRNAs. Sustained oscillations correspond to the rhythms autonomously generated by suprachiasmatic nuclei. For other parameter values, damped oscillations can also be obtained in the model. These oscillations, which transform into sustained oscillations when coupled to a periodic signal, correspond to rhythms produced by peripheral tissues. When incorporating the light-induced expression of the Per gene, the model accounts for entrainment of the oscillations by light-dark cycles. Simulations show that the phase of the oscillations can then vary by several hours with relatively minor changes in parameter values. Such a lability of the phase could account for physiological disorders related to circadian rhythms in humans, such as advanced or delayed sleep phase syndrome, whereas the lack of entrainment by light-dark cycles can be related to the non-24h sleep-wake syndrome. The model uncovers the possible existence of multiple sources of oscillatory behavior. Thus, in conditions where the indirect negative autoregulation of Per and Cry expression is inoperative, the model indicates the possibility that sustained oscillations might still arise from the negative autoregulation of Bmal1 expression.",
+      "year": 2003,
+      "month": "6",
+      "volume": "100",
+      "issue": "12",
+      "pages": "7051-7056",
+      "link": "http://identifiers.org/pubmed/12775757",
+      "authors": [
+        {
+          "name": "Jean-Christophe Leloup",
+          "institution": "Unité de Chronobiologie Théorique, Faculté des Sciences, Université Libre de Bruxelles, Campus Plaine, C. P. 231, B-1050 Brussels, Belgium.",
+          "orcid": "0000-0002-5488-9381"
+        },
+        {
+          "name": "Albert Goldbeter"
+        }
+      ]
+    },
+    "api_annotations": [
+      {
+        "qualifier": "bqbiol:isVersionOf",
+        "accession": "GO:0042752",
+        "name": "regulation of circadian rhythm",
+        "resource": "Gene Ontology",
+        "uri": "http://identifiers.org/go/GO:0042752"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "MODEL1109528188",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/MODEL1109528188"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "BIOMD0000000073",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/BIOMD0000000073"
+      },
+      {
+        "qualifier": "bqmodel:isDescribedBy",
+        "accession": "12775757",
+        "resource": "PubMed",
+        "uri": "http://identifiers.org/pubmed/12775757"
+      },
+      {
+        "qualifier": "bqmodel:isDerivedFrom",
+        "accession": "BIOMD0000000021",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/BIOMD0000000021"
+      },
+      {
+        "qualifier": "bqbiol:hasTaxon",
+        "accession": "40674",
+        "name": "Mammalia",
+        "resource": "Taxonomy",
+        "uri": "http://identifiers.org/taxonomy/40674"
+      },
+      {
+        "qualifier": "bqbiol:hasVersion",
+        "accession": "hsa04710",
+        "name": "Circadian rhythm - Homo sapiens (human)",
+        "resource": "KEGG Pathway",
+        "uri": "http://identifiers.org/kegg.pathway/hsa04710"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "MAMO_0000046",
+        "name": "Ordinary differential equation model",
+        "resource": "Mathematical Modelling Ontology",
+        "uri": "http://identifiers.org/mamo/MAMO_0000046"
+      }
+    ]
+  },
+  {
+    "model": "BIOMD0000000216",
+    "name": "Hong2009_CircadianClock",
+    "species": 6,
+    "reactions": 17,
+    "rules": 1,
+    "annotations": [
+      "http://identifiers.org/biomodels.db/BIOMD0000000216",
+      "http://identifiers.org/biomodels.db/MODEL7984093336",
+      "http://identifiers.org/go/GO:0042752",
+      "http://identifiers.org/kegg.pathway/map04710",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/18057329",
+      "http://identifiers.org/pubmed/19424508",
+      "http://identifiers.org/taxonomy/40674"
+    ],
+    "rule_mathml": "<ns0:listOfRules xmlns:ns0=\"http://www.sbml.org/sbml/level2/version3\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n      <ns0:assignmentRule metaid=\"metaid_0000050\" variable=\"CPtot\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:plus />\n            <ns1:ci> CP </ns1:ci>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:cn type=\"integer\"> 2 </ns1:cn>\n              <ns1:ci> CP2 </ns1:ci>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:times />\n              <ns1:cn type=\"integer\"> 2 </ns1:cn>\n              <ns1:ci> IC </ns1:ci>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n    </ns0:listOfRules>\n    ",
+    "assignment_variables": [
+      "CPtot"
+    ],
+    "source": "part1/task3/c/cache/BIOMD0000000216.xml",
+    "sha256": "bd260da535479513921b62bae582074e37b102745db5df7345e28e759d91d883",
+    "metadata_hash_matches": true,
+    "metadata_hash_matches_without_trailing_newline": true,
+    "publication": {
+      "type": "PubMed ID",
+      "accession": "19424508",
+      "journal": "PLoS computational biology",
+      "title": "Minimum criteria for DNA damage-induced phase advances in circadian rhythms.",
+      "affiliation": "Department of Genetics, Dartmouth Medical School, Hanover, New Hampshire, USA.",
+      "synopsis": "Robust oscillatory behaviors are common features of circadian and cell cycle rhythms. These cyclic processes, however, behave distinctively in terms of their periods and phases in response to external influences such as light, temperature, nutrients, etc. Nevertheless, several links have been found between these two oscillators. Cell division cycles gated by the circadian clock have been observed since the late 1950s. On the other hand, ionizing radiation (IR) treatments cause cells to undergo a DNA damage response, which leads to phase shifts (mostly advances) in circadian rhythms. Circadian gating of the cell cycle can be attributed to the cell cycle inhibitor kinase Wee1 (which is regulated by the heterodimeric circadian clock transcription factor, BMAL1/CLK), and possibly in conjunction with other cell cycle components that are known to be regulated by the circadian clock (i.e., c-Myc and cyclin D1). It has also been shown that DNA damage-induced activation of the cell cycle regulator, Chk2, leads to phosphorylation and destruction of a circadian clock component (i.e., PER1 in Mus or FRQ in Neurospora crassa). However, the molecular mechanism underlying how DNA damage causes predominantly phase advances in the circadian clock remains unknown. In order to address this question, we employ mathematical modeling to simulate different phase response curves (PRCs) from either dexamethasone (Dex) or IR treatment experiments. Dex is known to synchronize circadian rhythms in cell culture and may generate both phase advances and delays. We observe unique phase responses with minimum delays of the circadian clock upon DNA damage when two criteria are met: (1) existence of an autocatalytic positive feedback mechanism in addition to the time-delayed negative feedback loop in the clock system and (2) Chk2-dependent phosphorylation and degradation of PERs that are not bound to BMAL1/CLK.",
+      "year": 2009,
+      "month": "5",
+      "volume": "5",
+      "issue": "5",
+      "pages": "e1000384",
+      "link": "http://identifiers.org/pubmed/19424508",
+      "authors": [
+        {
+          "name": "Christian I Hong",
+          "institution": "Department of Genetics, Dartmouth Medical School, Hanover, New Hampshire, USA."
+        },
+        {
+          "name": "Judit Zámborszky",
+          "orcid": "0000-0002-7661-3554"
+        },
+        {
+          "name": "Attila Csikász-Nagy",
+          "orcid": "0000-0002-2919-5601"
+        }
+      ]
+    },
+    "api_annotations": [
+      {
+        "qualifier": "bqbiol:isVersionOf",
+        "accession": "GO:0042752",
+        "name": "regulation of circadian rhythm",
+        "resource": "Gene Ontology",
+        "uri": "http://identifiers.org/go/GO:0042752"
+      },
+      {
+        "qualifier": "bqbiol:hasTaxon",
+        "accession": "40674",
+        "name": "Mammalia",
+        "resource": "Taxonomy",
+        "uri": "http://identifiers.org/taxonomy/40674"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "MODEL7984093336",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/MODEL7984093336"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "BIOMD0000000216",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/BIOMD0000000216"
+      },
+      {
+        "qualifier": "bqmodel:isDescribedBy",
+        "accession": "19424508",
+        "resource": "PubMed",
+        "uri": "http://identifiers.org/pubmed/19424508"
+      },
+      {
+        "qualifier": "bqmodel:isDerivedFrom",
+        "accession": "18057329",
+        "resource": "PubMed",
+        "uri": "http://identifiers.org/pubmed/18057329"
+      },
+      {
+        "qualifier": "bqbiol:isVersionOf",
+        "accession": "map04710",
+        "name": "Circadian rhythm",
+        "resource": "KEGG Pathway",
+        "uri": "http://identifiers.org/kegg.pathway/map04710"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "MAMO_0000046",
+        "name": "Ordinary differential equation model",
+        "resource": "Mathematical Modelling Ontology",
+        "uri": "http://identifiers.org/mamo/MAMO_0000046"
+      }
+    ]
+  },
+  {
+    "model": "BIOMD0000000839",
+    "name": "Almeida2019 - Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs",
+    "species": 8,
+    "reactions": 20,
+    "rules": 3,
+    "annotations": [
+      "http://identifiers.org/biomodels.db/BIOMD0000000839",
+      "http://identifiers.org/biomodels.db/MODEL1910290001",
+      "http://identifiers.org/go/GO:0007623",
+      "http://identifiers.org/mamo/MAMO_0000046",
+      "http://identifiers.org/pubmed/31539528",
+      "urn:miriam:go:GO:0007623",
+      "urn:miriam:mamo:MAMO_0000046",
+      "urn:miriam:pubmed:31539528"
+    ],
+    "rule_mathml": "<ns0:listOfRules xmlns:ns0=\"http://www.sbml.org/sbml/level2/version4\" xmlns:ns1=\"http://www.w3.org/1998/Math/MathML\">\n      <ns0:assignmentRule variable=\"D_box\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:times />\n            <ns1:ci> ModelValue_6 </ns1:ci>\n            <ns1:apply>\n              <ns1:divide />\n              <ns1:ci> DBP </ns1:ci>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> DBP </ns1:ci>\n                <ns1:ci> k_D </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:divide />\n              <ns1:ci> ModelValue_8 </ns1:ci>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> ModelValue_8 </ns1:ci>\n                <ns1:ci> E4BP4 </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n      <ns0:assignmentRule variable=\"E_box\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:divide />\n            <ns1:apply>\n              <ns1:times />\n              <ns1:ci> ModelValue_3 </ns1:ci>\n              <ns1:ci> BMAL1 </ns1:ci>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:plus />\n              <ns1:ci> BMAL1 </ns1:ci>\n              <ns1:ci> ModelValue_4 </ns1:ci>\n              <ns1:apply>\n                <ns1:times />\n                <ns1:ci> ModelValue_5 </ns1:ci>\n                <ns1:ci> BMAL1 </ns1:ci>\n                <ns1:ci> CRY </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n      <ns0:assignmentRule variable=\"R_box\">\n        <ns1:math>        \n          <ns1:apply>\n            <ns1:times />\n            <ns1:ci> ModelValue_0 </ns1:ci>\n            <ns1:apply>\n              <ns1:divide />\n              <ns1:ci> ROR </ns1:ci>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:ci> ROR </ns1:ci>\n                <ns1:ci> ModelValue_1 </ns1:ci>\n              </ns1:apply>\n            </ns1:apply>\n            <ns1:apply>\n              <ns1:divide />\n              <ns1:apply>\n                <ns1:power />\n                <ns1:ci> ModelValue_2 </ns1:ci>\n                <ns1:cn> 2 </ns1:cn>\n              </ns1:apply>\n              <ns1:apply>\n                <ns1:plus />\n                <ns1:apply>\n                  <ns1:power />\n                  <ns1:ci> ModelValue_2 </ns1:ci>\n                  <ns1:cn> 2 </ns1:cn>\n                </ns1:apply>\n                <ns1:apply>\n                  <ns1:power />\n                  <ns1:ci> REV </ns1:ci>\n                  <ns1:cn> 2 </ns1:cn>\n                </ns1:apply>\n              </ns1:apply>\n            </ns1:apply>\n          </ns1:apply>\n        </ns1:math>\n            </ns0:assignmentRule>\n    </ns0:listOfRules>\n    ",
+    "assignment_variables": [
+      "D_box",
+      "E_box",
+      "R_box"
+    ],
+    "source": "part1/task3/c/cache/BIOMD0000000839.xml",
+    "sha256": "d07347fca1dd3e3beb5aa9c1f4709a7b940befbf4080a08f7a8d1e05bc295365",
+    "metadata_hash_matches": true,
+    "metadata_hash_matches_without_trailing_newline": true,
+    "publication": {
+      "type": "PubMed ID",
+      "accession": "31539528",
+      "journal": "Journal of theoretical biology",
+      "title": "Transcription-based circadian mechanism controls the duration of molecular clock states in response to signaling inputs.",
+      "affiliation": "1600 Université Côte d'Azur, Inria, INRA, CNRS, UPMC Univ Paris 06, Biocore team, Sophia Antipolis, France; Université Côte d'Azur, CNRS, INSERM, iBV, France. Electronic address: sofia.figueiredo-almeida@inria.fr.",
+      "synopsis": "The molecular oscillator of the mammalian circadian clock consists in a dynamical network of genes and proteins whose main regulatory mechanisms occur at the transcriptional level. From a dynamical point of view, the mechanisms leading to an oscillatory solution with an orderly protein peak expression and a clear day/night phase distinction remain unclear. Our goal is to identify the essential interactions needed to generate phase opposition between the activating CLOCK:BMAL1 and the repressing PER:CRY complexes and to better distinguish these two main clock molecular phases relating to rest/activity and fast/feeding cycles. To do this, we develop a transcription-based mathematical model centered on linear combinations of the clock controlled elements (CCEs): E-box, R-box and D-box. Each CCE is responsive to activators and repressors. After model calibration with single-cell data, we explore entrainment and period tuning via interplay with metabolism. Variation of the PER degradation rate γ<sub>p</sub>, relating to the tau mutation, results in asymmetric changes in the duration of the different clock molecular phases. Time spent at the state of high PER/PER:CRY decreases with γ<sub>p</sub>, while time spent at the state of high BMAL1 and CRY1, both proteins with activity in promoting insulin sensitivity, remains constant. This result suggests a possible mechanism behind the altered metabolism of tau mutation animals. Furthermore, we expose the clock system to two regulatory inputs, one relating to the fast/feeding cycle and the other to the light-dependent synchronization signaling. We observe the phase difference between these signals to also affect the relative duration of molecular clock states. Simulated circadian misalignment, known to correlate with insulin resistance, leads to decreased duration of BMAL1 expression. Our results reveal a possible mechanism for clock-controlled metabolic homeostasis, whereby the circadian clock controls the relative duration of different molecular (and metabolic) states in response to signaling inputs.",
+      "year": 2020,
+      "month": "1",
+      "volume": "484",
+      "pages": "110015",
+      "link": "http://identifiers.org/pubmed/31539528",
+      "authors": [
+        {
+          "name": "Sofia Almeida",
+          "institution": "1600 Université Côte d'Azur, Inria, INRA, CNRS, UPMC Univ Paris 06, Biocore team, Sophia Antipolis, France; Université Côte d'Azur, CNRS, INSERM, iBV, France. Electronic address: sofia.figueiredo-almeida@inria.fr.",
+          "orcid": "0000-0002-7547-8784"
+        },
+        {
+          "name": "Madalena Chaves",
+          "institution": "1600 Université Côte d'Azur, Inria, INRA, CNRS, UPMC Univ Paris 06, Biocore team, Sophia Antipolis, France. Electronic address: http://www-sop.inria.fr/members/Madalena.Chaves/."
+        },
+        {
+          "name": "Franck Delaunay",
+          "institution": "Université Côte d'Azur, CNRS, INSERM, iBV, France. Electronic address: http://www.ibv.unice.fr/research-team/delaunay/.",
+          "orcid": "0000-0003-4927-1701"
+        }
+      ]
+    },
+    "api_annotations": [
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "MAMO_0000046",
+        "name": "Ordinary differential equation model",
+        "resource": "Mathematical Modelling Ontology",
+        "uri": "http://identifiers.org/mamo/MAMO_0000046"
+      },
+      {
+        "qualifier": "bqmodel:isDescribedBy",
+        "accession": "31539528",
+        "resource": "PubMed",
+        "uri": "http://identifiers.org/pubmed/31539528"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "MODEL1910290001",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/MODEL1910290001"
+      },
+      {
+        "qualifier": "bqmodel:is",
+        "accession": "BIOMD0000000839",
+        "resource": "BioModels Database",
+        "uri": "http://identifiers.org/biomodels.db/BIOMD0000000839"
+      },
+      {
+        "qualifier": "bqbiol:hasProperty",
+        "accession": "GO:0007623",
+        "name": "circadian rhythm",
+        "resource": "Gene Ontology",
+        "uri": "http://identifiers.org/go/GO:0007623"
+      }
+    ]
+  }
+]

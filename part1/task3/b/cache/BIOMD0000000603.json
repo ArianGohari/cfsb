@@ -1,0 +1,354 @@
+{
+  "name" : "PetelenzKuehn_osmoadaptation_WT",
+  "description" : "Jörg Schaber & Edda Klipp. Short-term volume and turgor regulation in yeast. Essays in Biochemistry 45 (2008).<p></p><p></p>We provide an integrated dynamic view on a eukaryotic osmolyte system, linking signaling with regulation of gene expression, metabolic control and growth. Adaptation to osmotic changes enables cells to adjust cellular activity and turgor pressure to an altered environment. The yeast Saccharomyces cerevisiae adapts to hyperosmotic stress by activating the HOG signaling cascade, which controls glycerol accumulation. The Hog1 kinase stimulates transcription of genes encoding enzymes required for glycerol production (Gpd1, Gpp2) and glycerol import (Stl1) and activates a regulatory enzyme in glycolysis (Pfk26/27). In addition, glycerol outflow is prevented by closure of the Fps1 glycerol facilitator. In order to better understand the contributions to glycerol accumulation of these different mechanisms and how redox and energy metabolism as well as biomass production are maintained under such conditions we collected an extensive dataset. Over a period of 180 min after hyperosmotic shock we monitored in wild type and different mutant cells the concentrations of key metabolites and proteins relevant for osmoadaptation. The dataset was used to parameterize an ODE model that reproduces the generated data very well. A detailed computational analysis using time-dependent response coefficients showed that Pfk26/27 contributes to rerouting glycolytic flux towards lower glycolysis. The transient growth arrest following hyperosmotic shock further adds to redirecting almost all glycolytic flux from biomass towards glycerol production. Osmoadaptation is robust to loss of individual adaptation pathways because of the existence and upregulation of alternative routes of glycerol accumulation. For instance, the Stl1 glycerol importer contributes to glycerol accumulation in a mutant with diminished glycerol production capacity. In addition, our observations suggest a role for trehalose accumulation in osmoadaptation and that Hog1 probably directly contributes to the regulation of the Fps1 glycerol facilitator. Taken together, we elucidated how different metabolic adaptation mechanisms cooperate and provide hypotheses for further experimental studies.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23762021",
+    "journal" : "PLoS computational biology",
+    "title" : "Quantitative analysis of glycerol accumulation, glycolysis and growth under hyper osmotic stress.",
+    "affiliation" : "Department of Chemistry and Molecular Biology/Microbiology, University of Gothenburg, Göteborg, Sweden.",
+    "synopsis" : "We provide an integrated dynamic view on a eukaryotic osmolyte system, linking signaling with regulation of gene expression, metabolic control and growth. Adaptation to osmotic changes enables cells to adjust cellular activity and turgor pressure to an altered environment. The yeast Saccharomyces cerevisiae adapts to hyperosmotic stress by activating the HOG signaling cascade, which controls glycerol accumulation. The Hog1 kinase stimulates transcription of genes encoding enzymes required for glycerol production (Gpd1, Gpp2) and glycerol import (Stl1) and activates a regulatory enzyme in glycolysis (Pfk26/27). In addition, glycerol outflow is prevented by closure of the Fps1 glycerol facilitator. In order to better understand the contributions to glycerol accumulation of these different mechanisms and how redox and energy metabolism as well as biomass production are maintained under such conditions we collected an extensive dataset. Over a period of 180 min after hyperosmotic shock we monitored in wild type and different mutant cells the concentrations of key metabolites and proteins relevant for osmoadaptation. The dataset was used to parameterize an ODE model that reproduces the generated data very well. A detailed computational analysis using time-dependent response coefficients showed that Pfk26/27 contributes to rerouting glycolytic flux towards lower glycolysis. The transient growth arrest following hyperosmotic shock further adds to redirecting almost all glycolytic flux from biomass towards glycerol production. Osmoadaptation is robust to loss of individual adaptation pathways because of the existence and upregulation of alternative routes of glycerol accumulation. For instance, the Stl1 glycerol importer contributes to glycerol accumulation in a mutant with diminished glycerol production capacity. In addition, our observations suggest a role for trehalose accumulation in osmoadaptation and that Hog1 probably directly contributes to the regulation of the Fps1 glycerol facilitator. Taken together, we elucidated how different metabolic adaptation mechanisms cooperate and provide hypotheses for further experimental studies.",
+    "year" : 2013,
+    "month" : "0",
+    "volume" : "9",
+    "issue" : "6",
+    "pages" : "e1003084",
+    "link" : "http://identifiers.org/pubmed/23762021",
+    "authors" : [
+      {
+        "name" : "Elzbieta Petelenz-Kurdziel",
+        "institution" : "Department of Chemistry and Molecular Biology/Microbiology, University of Gothenburg, Göteborg, Sweden."
+      },
+      {
+        "name" : "Clemens Kuehn"
+      },
+      {
+        "name" : "Bodil Nordlander"
+      },
+      {
+        "name" : "Dagmara Klein"
+      },
+      {
+        "name" : "Kuk-Ki Hong"
+      },
+      {
+        "name" : "Therese Jacobson"
+      },
+      {
+        "name" : "Peter Dahl"
+      },
+      {
+        "name" : "Jörg Schaber",
+        "institution" : "Max Planck Institute for Molecular Genetics, Berlin, Germany.",
+        "orcid" : "0000-0001-6971-2530"
+      },
+      {
+        "name" : "Jens Nielsen",
+        "institution" : "Chalmers University of Technology, Gothenburg, Sweden.",
+        "orcid" : "0000-0002-9955-6003"
+      },
+      {
+        "name" : "Stefan Hohmann",
+        "orcid" : "0000-0002-0809-1985"
+      },
+      {
+        "name" : "Edda Klipp"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000603_url.xml",
+        "description" : "SBML L2V4 representation of PetelenzKuehn_osmoadaptation_WT",
+        "fileSize" : "278042",
+        "mimeType" : "application/xml",
+        "md5sum" : "70d33520c8c0cd3c963632d8286a64c6",
+        "sha1sum" : "4376d0beff39a57578891c5d2c33f0917eb052f7",
+        "sha256sum" : "ad3b5a7fe77272997273e077c95095fe1e8972e055599c8ae9ba01f8a38e3def"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000603-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "71003",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "20b957ef121a1dfbe4fab14e3a5bb99c",
+        "sha1sum" : "b00ed47bcc177437e46d4734a369ac062156aeab",
+        "sha256sum" : "4ec67a7928da8c5239bde09cf5d185ef43d5174c720b7ee10f69d7c679639285"
+      },
+      {
+        "name" : "BIOMD0000000603-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "108598",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c092da26aa3a1fdfa7ffc74d54367d38",
+        "sha1sum" : "156ea0cba02f0c599744421b8e323e680cefdf5e",
+        "sha256sum" : "e529f0f7a86a6c243895b2493bb67c7ec03dbe50e21902164e0dbbe1566119b1"
+      },
+      {
+        "name" : "BIOMD0000000603-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "35707",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "97ee229bd3c1657c18da9ae27145815e",
+        "sha1sum" : "81a6aaf0d4c7c7c2402cc73e6a4f57352683a129",
+        "sha256sum" : "a196328bef5fc56654a927f2b1c145c3476da7d8c043934e168eeea32873c636"
+      },
+      {
+        "name" : "BIOMD0000000603-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "35707",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "541c3b492c09e463fbb70e03187dceaa",
+        "sha1sum" : "4e2bcf6ef650cfc21243437bc63ec0669749adbd",
+        "sha256sum" : "af5cd9b48fc676da50266fbcb5dfee0a1a6533a80bf904cb6f54e9942aaf4146"
+      },
+      {
+        "name" : "BIOMD0000000603.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "35707",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "541c3b492c09e463fbb70e03187dceaa",
+        "sha1sum" : "4e2bcf6ef650cfc21243437bc63ec0669749adbd",
+        "sha256sum" : "af5cd9b48fc676da50266fbcb5dfee0a1a6533a80bf904cb6f54e9942aaf4146"
+      },
+      {
+        "name" : "BIOMD0000000603.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "33496",
+        "mimeType" : "text/plain",
+        "md5sum" : "ae71de4d098cf7952efbdf286efc8642",
+        "sha1sum" : "cac0bed0fad50d7f6fd164fc90c87ee5d30a1fa9",
+        "sha256sum" : "ce3de50fa84a660cc3fa3ecc57aad5426a481ba13c445ef5bf0217105f179ac1"
+      },
+      {
+        "name" : "BIOMD0000000603.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "597889",
+        "mimeType" : "image/png",
+        "md5sum" : "3aac123e43d7a127d2b6c6e2892d3300",
+        "sha1sum" : "2a56a07629ba34259c8e7bef31ede0a22bd6efd6",
+        "sha256sum" : "100f1a73bde73694f8280a28bc704cb9fc49dae5daac101101349d69ab21f0da"
+      },
+      {
+        "name" : "BIOMD0000000603.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "122198",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e2f8361e88449bef6ba15a27f007c71f",
+        "sha1sum" : "443c31971742e25e2d58b181f207bc418a7c8c8e",
+        "sha256sum" : "0e0c5df3b19e879d458a28c7dd43146348c19a9bc4f3180bb925eeeeb145325a"
+      },
+      {
+        "name" : "MODEL1204190000.cps",
+        "description" : "COPASI file with simulation settings for MODEL1204190000",
+        "fileSize" : "357222",
+        "mimeType" : "application/xml",
+        "md5sum" : "a431cedd6f11122aa2666e1c1c02d981",
+        "sha1sum" : "751c72faf6c2d0b5595655cfe4b78407173cfa44",
+        "sha256sum" : "cf8a98f58e8a8d99a705098e1bc16af3671e3e81dab18733cd65ef251f72ada1"
+      },
+      {
+        "name" : "MODEL1204190000.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "114979",
+        "mimeType" : "application/xml",
+        "md5sum" : "be4ed30ae3e2e85f9f12c5985f6e93f3",
+        "sha1sum" : "2f8f1cac5d7e09c90362ff2a91d52746f243d598",
+        "sha256sum" : "3f463d1a25d4661c6318e68a95afb6e035750471eee9e0288a2735b5e046259a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "15757",
+        "mimeType" : "image/png",
+        "md5sum" : "a953d906412b1410df4d587b7201f1c3",
+        "sha1sum" : "733b20c657fba0101aebd3a421f0466c34b5e63e",
+        "sha256sum" : "dc1b716dca5406d91175ce497db3ee80bdbf9cb632a7b7b48d54fdaa471fcc32"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "150",
+        "mimeType" : "text/plain",
+        "md5sum" : "b5e59a4d7a3d00d386b355f8783adf0a",
+        "sha1sum" : "8830df95c14b36c4c8a8c61c437c8ce6de8de630",
+        "sha256sum" : "2636b586d9772d8ae58ebffddb97efec68a1bb5034a607e5a4768fb91bf56048"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1791",
+        "mimeType" : "application/xml",
+        "md5sum" : "ae6e60a5b864c22f45685c4c5c631e40",
+        "sha1sum" : "1f59b4f66ce132b42b8c7b4756678c54f6477186",
+        "sha256sum" : "424304491622f096c085dfcd92bc872d966b9bbc30ceb3557042fbb2cd0ffef3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4166",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2fd7bf58e73a5da008d853e1dde8386a",
+        "sha1sum" : "8d23a60781bfa03c011dcff36ca261c989857aa3",
+        "sha256sum" : "7a31849897f2a8d8bbd4a49a096fdb54d1c8581a8ed971cecf22caf5434afa8d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1334851249,
+        "submitter" : "Clemens Kühn",
+        "comment" : "Original import of PetelenzKuehn_osmoadaptation_WT"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1461077622,
+        "submitter" : "Clemens Kühn",
+        "comment" : "Current version of PetelenzKuehn_osmoadaptation_WT"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416208,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: MODEL1204190000.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724283753,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285390,
+  "submissionId" : "MODEL1204190000",
+  "publicationId" : "BIOMD0000000603",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Clemens Kühn",
+        "email" : "clemenskuehn@posteo.de",
+        "affiliation" : "Humboldt University Berlin",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1204190000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1204190000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000603",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000603"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23762021",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23762021"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16025103",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16025103"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "20563574",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20563574"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "18793130",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18793130"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10951190",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10951190"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006973",
+      "name" : "intracellular accumulation of glycerol",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006973"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0061621",
+      "name" : "canonical glycolysis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0061621"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0071470",
+      "name" : "cellular response to osmotic stress",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0071470"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006970",
+      "name" : "response to osmotic stress",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006970"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

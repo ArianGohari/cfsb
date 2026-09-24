@@ -1,0 +1,293 @@
+{
+  "name" : "Panteleev2002_TFPImechanism_schmema3",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11985578",
+    "journal" : "European journal of biochemistry",
+    "title" : "Tissue factor pathway inhibitor: a possible mechanism of action.",
+    "affiliation" : "National Research Center for Hematology, Russian Academy of Medical Sciences, Moscow, Russia.",
+    "synopsis" : "We have analyzed several mathematical models that describe inhibition of the factor VIIa-tissue factor complex (VIIa-TF) by tissue factor pathway inhibitor (TFPI). At the core of these models is a common mechanism of TFPI action suggesting that only the Xa-TFPI complex is the inhibitor of the extrinsic tenase activity. However, the model based on this hypothesis could not explain well all the available experimental data. Here, we show that a good quantitative description of all experimental data could be achieved in a model that contains two more assumptions. The first assumption is based on the hypothesis originally proposed by Baugh et al. [Baugh, R.J., Broze, G.J. Jr & Krishnaswamy, S. (1998) J. Biol. Chem. 273, 4378-4386], which suggests that TFPI could inhibit the enzyme-product complex Xa-VIIa-TF. The second assumption proposes an interaction between the X-VIIa-TF complex and the factor Xa-TFPI complex. Experiments to test these hypotheses are suggested.",
+    "year" : 2002,
+    "month" : "4",
+    "volume" : "269",
+    "issue" : "8",
+    "pages" : "2016-2031",
+    "link" : "http://identifiers.org/pubmed/11985578",
+    "authors" : [
+      {
+        "name" : "Mikhail A Panteleev",
+        "orcid" : "0000-0002-8128-7757"
+      },
+      {
+        "name" : "Veronica I Zarnitsina",
+        "orcid" : "0000-0003-3096-3695"
+      },
+      {
+        "name" : "Fazoil I Ataullakhanov"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000359_url.xml",
+        "description" : "SBML L2V4 representation of Panteleev2002_TFPImechanism_schmema3",
+        "fileSize" : "20942",
+        "mimeType" : "application/xml",
+        "md5sum" : "b43159101c01f647c12b47a21c224754",
+        "sha1sum" : "b381f13df761ad364991fe7686071d35512efa18",
+        "sha256sum" : "1c0916e2eca57690a6e7d559817549582a07ff2e4ffd8f505d944414dc2fc0a2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000359-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "17712",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d218348698210cb3ebfcc25b9238779b",
+        "sha1sum" : "3221654743533d6140eb033d5118d3199d40bf80",
+        "sha256sum" : "f02d681cbf0375a335ca9bc5e8cab3f8b6c2c15aea066975340bdded426a3374"
+      },
+      {
+        "name" : "BIOMD0000000359-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "28336",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "27f19c5c8673cbe9153046ba29c2af72",
+        "sha1sum" : "da4badc3754ff11aadcd27095ca0185132a28498",
+        "sha256sum" : "7b3f42394f8d19712755821b885c6d4099828ec6de6e2d4b47017019b98e5d22"
+      },
+      {
+        "name" : "BIOMD0000000359-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6525",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7f1b2cd50124fae7c7443ac8a267f362",
+        "sha1sum" : "1d83972697fd8945d6bab445a809d302c6f182cd",
+        "sha256sum" : "749a99ede925381b40b7ca92f0590092ee39edd554f5e3bb181e1b5a5ccf4b41"
+      },
+      {
+        "name" : "BIOMD0000000359-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6525",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "90c11cda000ce0c953f860802ece51be",
+        "sha1sum" : "3374ac019583a294b848f90c3efc6afc14dbc0c2",
+        "sha256sum" : "1493e791444067f6ecfd80486dc2d50e3bef3b00548b3e62d584d99142587e26"
+      },
+      {
+        "name" : "BIOMD0000000359.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6525",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "90c11cda000ce0c953f860802ece51be",
+        "sha1sum" : "3374ac019583a294b848f90c3efc6afc14dbc0c2",
+        "sha256sum" : "1493e791444067f6ecfd80486dc2d50e3bef3b00548b3e62d584d99142587e26"
+      },
+      {
+        "name" : "BIOMD0000000359.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4149",
+        "mimeType" : "text/plain",
+        "md5sum" : "46bb66346ab3a331070b6584336d3aa6",
+        "sha1sum" : "4e6d777a2d08fa426d6c490a76af486710eefdff",
+        "sha256sum" : "9fb3eae5703df13d05369526fe9a56acf34f7d027455dabd010298bb29487dc5"
+      },
+      {
+        "name" : "BIOMD0000000359.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "187598",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f8097153c135fad949b4d9a8719eb09e",
+        "sha1sum" : "465df14002a30de690bd01a799b50a5247493e94",
+        "sha256sum" : "ec8e55c0a4050adabd244df785e701d0cb9bad427a1ec8fc0474880f34debf37"
+      },
+      {
+        "name" : "BIOMD0000000359.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "49854",
+        "mimeType" : "image/png",
+        "md5sum" : "af95750da499b7b23de850adbb995720",
+        "sha1sum" : "7e2b110b7699fd66841bf81c5e972aa3ba327dac",
+        "sha256sum" : "d97e18ace1ebf63c2af0b443a39b6ad0cd12cb96f84882262ec48fad58a80739"
+      },
+      {
+        "name" : "BIOMD0000000359.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "4895",
+        "mimeType" : "text/plain",
+        "md5sum" : "5782016ac563f3354c0f039a5e802c53",
+        "sha1sum" : "71f81a56559b65b130e9801fc94c0bff519a36a7",
+        "sha256sum" : "8fcda69a8129edfa6d7465cdc5bebb6772cbac2961c927f24e3c1fd27cc110f6"
+      },
+      {
+        "name" : "BIOMD0000000359.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "24596",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "a469a66e0f8ba9aca4e8f74fb474b70f",
+        "sha1sum" : "7fbee74457ab122f5e17d71ce75a99be2edaff58",
+        "sha256sum" : "42246810443407887758bd5e94236843b9913627ca5189385c74e91614909977"
+      },
+      {
+        "name" : "BIOMD0000000359.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "31598",
+        "mimeType" : "application/xml",
+        "md5sum" : "dd285e6c0969449c454fb9cd3b255079",
+        "sha1sum" : "8e9d0174fc4b22465f1586a3028ea5356ba22590",
+        "sha256sum" : "5bfc9c98e93d79bc7e3e0a050805b37e50a43bc1963877d995497f4a525ecd8d"
+      },
+      {
+        "name" : "BIOMD0000000359_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "12878",
+        "mimeType" : "application/xml",
+        "md5sum" : "fba99fb6be0d647fb3545bc993ff5338",
+        "sha1sum" : "267cfda017291580b5146e7832791330c321a169",
+        "sha256sum" : "b81e9d4bbaaeca37015a813a0d9a020b742f83414d7730ecea453e2a70785dff"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "54895",
+        "mimeType" : "image/png",
+        "md5sum" : "d3a1d4b55136ff24a66e8015612eb822",
+        "sha1sum" : "fa53e033066207f053871f15d955354103021cdc",
+        "sha256sum" : "d4a9fa0feda36220d0fdf54ba195899b0fcbc189457c4e679c89d49b7c091474"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "105",
+        "mimeType" : "text/plain",
+        "md5sum" : "806da87ff02a5a23d8eae9fd321c7a06",
+        "sha1sum" : "a8439fe6142d6addf9fbe5c5ef54dfc0f0feb72c",
+        "sha256sum" : "3669e045c65014fb3b7b643d7023c76cb41d5f3ab05779dbd3ea4b4fceb63cb6"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "97aa48fb85de2ceca52fe095113c4e8e",
+        "sha1sum" : "f0fffe06618e161b148625e1a9c667e2d2954b8c",
+        "sha256sum" : "5413c3ed11e9bb646801c796e315e2f510d39800854a2fe448c8e32a6bc2c14c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3060",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d559c44a717eb2b23a0300c42cb88d88",
+        "sha1sum" : "b8031d4c53dac321a09dd8a1fb3b9a1c355cbf25",
+        "sha256sum" : "13b8b2ab0fa5cce503ae32ee1b47f4dbded36c70a93cb4c219d16facfe13bc95"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1314378987,
+        "submitter" : "Michael Schubert",
+        "comment" : "Original import of Panteleev2002_TFPImechanism_schmema3"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412877926,
+        "submitter" : "Michael Schubert",
+        "comment" : "Current version of Panteleev2002_TFPImechanism_schmema3"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274589,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285077,
+  "submissionId" : "MODEL1108260008",
+  "publicationId" : "BIOMD0000000359",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Michael Schubert",
+        "email" : "schubert@ebi.ac.uk",
+        "affiliation" : "EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108260008",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108260008"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000359",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000359"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11985578",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11985578"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9468488",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9468488"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

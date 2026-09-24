@@ -1,0 +1,21 @@
+{
+  "scope": "history/fulltext und Erhalt bestehender history-Artefakte; keine globale Baseline; offline",
+  "commands": [
+    {
+      "command": "python3 text_mining/pilot_task1d/history/fulltext/test_fulltext.py",
+      "started_at_utc": "2026-09-20T14:52:02.908568+00:00",
+      "finished_at_utc": "2026-09-20T14:52:02.995081+00:00",
+      "exit_code": 0,
+      "stdout": "PASS: 12 Requests, 4 protokollierte HTTP-403-Blockaden; Rohdatenhashes, UTC, Suchparameter; 10 Referenztreffer; Originalvolltext PMID 10695987; 15 wörtliche Belege; Lesefassung und Reportlinks; 21 frühere history-Artefakte unverändert; Budgetschutz ohne Netzverkehr. Keine globale Baseline geprüft.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 text_mining/pilot_task1d/history/test_pilot.py",
+      "started_at_utc": "2026-09-20T14:52:02.995352+00:00",
+      "finished_at_utc": "2026-09-20T14:52:03.045440+00:00",
+      "exit_code": 0,
+      "stdout": "PASS: Syntax; Limit-/Leertreffer-/Netzfehler-/HTTP-Fehlerpfade; kein Retry; Überschreibschutz; archivierter Erstversuch; Änderung vor Abruf; Reportlinks und Zitate\n",
+      "stderr": ""
+    }
+  ]
+}

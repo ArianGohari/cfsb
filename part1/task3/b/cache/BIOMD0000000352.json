@@ -1,0 +1,352 @@
+{
+  "name" : "Vernoux2011_AuxinSignaling_AuxinFluctuating",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>The auxin signalling network translates dynamic input into robust patterning at the shoot apex.</strong>                <br />          Vernoux T, Brunoud G, Farcot E, Morin V, Van den Daele H, Legrand J, Oliva M, Das P, Larrieu A, Wells D, Guédon Y, Armitage L, Picard F, Guyomarc'h S, Cellier C, Parry G, Koumproglou R, Doonan JH, Estelle M, Godin C, Kepinski S, Bennett M, De Veylder L, Traas J.      <em>Mol Syst Biol.</em>          2011 Jul 5;7:508.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21734647\">21734647</a>          ,      <br />                <strong>Abstract:</strong>                <br />          The plant hormone auxin is thought to provide positional information for patterning during development. It is still unclear, however, precisely how auxin is distributed across tissues and how the hormone is sensed in space and time. The control of gene expression in response to auxin involves a complex network of over 50 potentially interacting transcriptional activators and repressors, the auxin response factors (ARFs) and Aux/IAAs. Here, we perform a large-scale analysis of the Aux/IAA-ARF pathway in the shoot apex of Arabidopsis, where dynamic auxin-based patterning controls organogenesis. A comprehensive expression map and full interactome uncovered an unexpectedly simple distribution and structure of this pathway in the shoot apex. A mathematical model of the Aux/IAA-ARF network predicted a strong buffering capacity along with spatial differences in auxin sensitivity. We then tested and confirmed these predictions using a novel auxin signalling sensor that reports input into the signalling pathway, in conjunction with the published DR5 transcriptional output reporter. Our results provide evidence that the auxin signalling network is essential to create robust patterns at the shoot apex.      <p>        <b>Note:</b>                    </p>                <p>Figure 4 of the supplementary material of the reference article has been reproduced here. In this model, the fluctuations of auxin level is represented using sinux function. Time evolution of the variables AUX/IAA (I) and mRNA (R) are plotted, under the influence of fluctuations of auxin level. pi_A is varied between 0 and 2 by steps of 0.1.</p>                </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21734647",
+    "journal" : "Molecular systems biology",
+    "title" : "The auxin signalling network translates dynamic input into robust patterning at the shoot apex.",
+    "affiliation" : "Laboratoire de Reproduction et Développement des Plantes, CNRS, INRA, ENS Lyon, UCBL, Université de Lyon, Lyon, France. teva.vernoux@ens-lyon.fr",
+    "synopsis" : "The plant hormone auxin is thought to provide positional information for patterning during development. It is still unclear, however, precisely how auxin is distributed across tissues and how the hormone is sensed in space and time. The control of gene expression in response to auxin involves a complex network of over 50 potentially interacting transcriptional activators and repressors, the auxin response factors (ARFs) and Aux/IAAs. Here, we perform a large-scale analysis of the Aux/IAA-ARF pathway in the shoot apex of Arabidopsis, where dynamic auxin-based patterning controls organogenesis. A comprehensive expression map and full interactome uncovered an unexpectedly simple distribution and structure of this pathway in the shoot apex. A mathematical model of the Aux/IAA-ARF network predicted a strong buffering capacity along with spatial differences in auxin sensitivity. We then tested and confirmed these predictions using a novel auxin signalling sensor that reports input into the signalling pathway, in conjunction with the published DR5 transcriptional output reporter. Our results provide evidence that the auxin signalling network is essential to create robust patterns at the shoot apex.",
+    "year" : 2011,
+    "month" : "7",
+    "volume" : "7",
+    "pages" : "508",
+    "link" : "http://identifiers.org/pubmed/21734647",
+    "authors" : [
+      {
+        "name" : "Teva Vernoux",
+        "institution" : "Laboratoire de Reproduction et Développement des Plantes, CNRS, INRA, ENS Lyon, UCBL, Université de Lyon, Lyon, France. teva.vernoux@ens-lyon.fr",
+        "orcid" : "0000-0002-8257-4088"
+      },
+      {
+        "name" : "Géraldine Brunoud"
+      },
+      {
+        "name" : "Etienne Farcot",
+        "orcid" : "0000-0002-0742-3028"
+      },
+      {
+        "name" : "Valérie Morin"
+      },
+      {
+        "name" : "Hilde Van den Daele",
+        "orcid" : "0000-0002-4271-6694"
+      },
+      {
+        "name" : "Jonathan Legrand"
+      },
+      {
+        "name" : "Marina Oliva",
+        "orcid" : "0000-0001-8096-6857"
+      },
+      {
+        "name" : "Pradeep Das"
+      },
+      {
+        "name" : "Antoine Larrieu",
+        "orcid" : "0000-0002-9024-5348"
+      },
+      {
+        "name" : "Darren Wells",
+        "orcid" : "0000-0002-4246-4909"
+      },
+      {
+        "name" : "Yann Guédon"
+      },
+      {
+        "name" : "Lynne Armitage"
+      },
+      {
+        "name" : "Franck Picard",
+        "orcid" : "0000-0001-8084-5481"
+      },
+      {
+        "name" : "Soazig Guyomarc'h",
+        "orcid" : "0000-0001-9327-4737"
+      },
+      {
+        "name" : "Coralie Cellier"
+      },
+      {
+        "name" : "Geraint Parry"
+      },
+      {
+        "name" : "Rachil Koumproglou"
+      },
+      {
+        "name" : "John H Doonan",
+        "orcid" : "0000-0001-6027-1919"
+      },
+      {
+        "name" : "Mark Estelle"
+      },
+      {
+        "name" : "Christophe Godin"
+      },
+      {
+        "name" : "Stefan Kepinski",
+        "orcid" : "0000-0001-9819-5034"
+      },
+      {
+        "name" : "Malcolm J Bennett",
+        "orcid" : "0000-0003-0475-390X"
+      },
+      {
+        "name" : "Lieven De Veylder",
+        "orcid" : "0000-0003-1150-4426"
+      },
+      {
+        "name" : "Jan Traas"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000352_url.xml",
+        "description" : "SBML L2V4 representation of Vernoux2011_AuxinSignaling_AuxinFluctuating",
+        "fileSize" : "33365",
+        "mimeType" : "application/xml",
+        "md5sum" : "8758d63e201179dedd55be7759f4f906",
+        "sha1sum" : "54b2a317af79f05d955f1a4a6e320162a6d8c065",
+        "sha256sum" : "67bb3353e25ede4575db139f7eb805f65c10a98ad6c4962922c4439040e31ab5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000352-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "17945",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d1210037ad964c377e1e65492d724400",
+        "sha1sum" : "7ac4160377d041b7cc7c3dfa785d4086bd8e0a34",
+        "sha256sum" : "5153bf8264ce88c1b194508069fb86f751e0c1d952ffae79fafdbd8cf48cc975"
+      },
+      {
+        "name" : "BIOMD0000000352-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "26735",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e3b6fcb840327c6304feaae49b69c2e2",
+        "sha1sum" : "853c626eaa115ee58fe76c61aff19ed23a224dfc",
+        "sha256sum" : "ba63c882b60131a75f3a421bce62359943d05be58732500430fd062344f7fcbc"
+      },
+      {
+        "name" : "BIOMD0000000352-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6980",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "45f6f2b59c77f0b17af4772248b60d9a",
+        "sha1sum" : "d5df90d74874f2f09f48b608875704139d041e8b",
+        "sha256sum" : "9d5c20ab8c78d18e0e69fac86139c87ba35bc533178d1605e27bb2ee9fd45085"
+      },
+      {
+        "name" : "BIOMD0000000352-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6980",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0272f69e7915834be2b59f0f354aafbb",
+        "sha1sum" : "40270d64bb488ec7de295a4daba51d1597f332f1",
+        "sha256sum" : "3d0d17f5d9ec8e4692d293c08538d4ed36443d2f9afcce0b0fb74187f329c45d"
+      },
+      {
+        "name" : "BIOMD0000000352.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6980",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0272f69e7915834be2b59f0f354aafbb",
+        "sha1sum" : "40270d64bb488ec7de295a4daba51d1597f332f1",
+        "sha256sum" : "3d0d17f5d9ec8e4692d293c08538d4ed36443d2f9afcce0b0fb74187f329c45d"
+      },
+      {
+        "name" : "BIOMD0000000352.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4660",
+        "mimeType" : "text/plain",
+        "md5sum" : "6bd9d7107d9188fab91712584e41dcf3",
+        "sha1sum" : "931543d7232dc6720bb5a889d2c205ebb5f319ff",
+        "sha256sum" : "e5a487e26b106e729f36736279a17fcd59826e6e0249e7d3705c0a0665e172d8"
+      },
+      {
+        "name" : "BIOMD0000000352.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "198633",
+        "mimeType" : "application/pdf",
+        "md5sum" : "e9c8d033b1f0a122af9784ed3e7748a0",
+        "sha1sum" : "6d8b162e1cdd0b1e955ed008569a267c4c943817",
+        "sha256sum" : "897b524c9dde0708eecf39249362b239d3d62b634036d26ba69445ee0653b5ad"
+      },
+      {
+        "name" : "BIOMD0000000352.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "85980",
+        "mimeType" : "image/png",
+        "md5sum" : "ab171d713a2c49b75ca13218d4816df1",
+        "sha1sum" : "995733e68b375edd1962d91c4c490d8dc75f37e9",
+        "sha256sum" : "b9621b5675a24eab50f6b17fd8906ec78b72bac97d47f469b33edf57a4b80fe0"
+      },
+      {
+        "name" : "BIOMD0000000352.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "28724",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "cd051de3f39b9dac21678bb25c1fc054",
+        "sha1sum" : "d58666666a1710e6f473357773c560538e6063ea",
+        "sha256sum" : "7ff6c8118811627142256df580fa49dc8ef86152fdd8743850878cbf365a1447"
+      },
+      {
+        "name" : "BIOMD0000000352.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "40415",
+        "mimeType" : "application/xml",
+        "md5sum" : "de08b1962f72604ce625d14d22e7b947",
+        "sha1sum" : "407924817e90a68f6f6ec2ce6ce77dc5952131a2",
+        "sha256sum" : "24c6657891d26cf25a56ef355228b3b067fc780b98b2af9c0afcabe557a48f29"
+      },
+      {
+        "name" : "BIOMD0000000352_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "24250",
+        "mimeType" : "application/xml",
+        "md5sum" : "23a84bd1edc27481daa7e1e8949a8dc6",
+        "sha1sum" : "e0122628567e75d8785e9a0960ac7c68e6e261d0",
+        "sha256sum" : "09139285e4c38ba6521d25d06908a8b8b9c4ed254dff26667e862f09cf07e52a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "45951",
+        "mimeType" : "image/png",
+        "md5sum" : "d7421fbe00c8ca0ea9e0553557da41cf",
+        "sha1sum" : "0c79fa9818c519dafff7e755382ce9692f83b1a6",
+        "sha256sum" : "77fe2e1850cf17207bdc466a0d80a04892b3521683115756c503b08e6979bee9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "473",
+        "mimeType" : "text/plain",
+        "md5sum" : "25ea58a4339a42f25cc1bd1758b7b080",
+        "sha1sum" : "aa6b5e270db4ba03902b847753d33db5f9056229",
+        "sha256sum" : "f1f5f5784103d1cde35768e838d1600da740c90c7ad19841a4ce9a06fa624372"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "fe3457686c1615c648bad56aba18c74d",
+        "sha1sum" : "a24379f98a5aea9c38593e0658ff00138ec261e7",
+        "sha256sum" : "79c023de572f60f3fe4dea331c76e1de84614b29cb57af863e97d4c416a7c8b2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5318",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b3f66247a8426f2a67f6eab1d260b8a2",
+        "sha1sum" : "aaa7673ede04b6fc9764805c8d17e1e6f5964cf1",
+        "sha256sum" : "0c642fd8e73ee66a4e5431fb993e2f0d6d88112542b92e214d3d178ecef8a444"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1313083392,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Vernoux2011_AuxinSignaling_AuxinFluctuating"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1314112702,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Vernoux2011_AuxinSignaling_AuxinFluctuating"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274402,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285070,
+  "submissionId" : "MODEL1108110000",
+  "publicationId" : "BIOMD0000000352",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3701",
+      "name" : "Arabidopsis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3701"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21734647",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21734647"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009734",
+      "name" : "auxin-activated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009734"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108110000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108110000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000352",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000352"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

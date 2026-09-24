@@ -1,0 +1,276 @@
+{
+  "name" : "DallaMan2007_MealModel_GlucoseInsulinSystem",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Meal simulation model of the glucose-insulin system.</strong>        <br />Dalla Man C, Rizza RA, Cobelli C.<em>IEEE Trans Biomed Eng.</em>2007 Oct;54(10):1740-9.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17926672\"> 17926672</a>,      <br />        <strong>Abstract:</strong>        <br />A simulation model of the glucose-insulin system in the postprandial state can be useful in several circumstances, including testing of glucose sensors, insulin infusion algorithms and decision support systems for diabetes. Here, we present a new simulation model in normal humans that describes the physiological events that occur after a meal, by employing the quantitative knowledge that has become available in recent years. Model parameters were set to fit the mean data of a large normal subject database that underwent a triple tracer meal protocol which provided quasi-model-independent estimates of major glucose and insulin fluxes, e.g., meal rate of appearance, endogenous glucose production, utilization of glucose, insulin secretion. By decomposing the system into subsystems, we have developed parametric models of each subsystem by using a forcing function strategy. Model results are shown in describing both a single meal and normal daily life (breakfast, lunch, dinner) in normal. The same strategy is also applied on a smaller database for extending the model to type 2 diabetes   </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17926672",
+    "journal" : "IEEE transactions on bio-medical engineering",
+    "title" : "Meal simulation model of the glucose-insulin system.",
+    "affiliation" : "Department of Information Engineering, University of Padova, I-35131 Padova, Italy.",
+    "synopsis" : "A simulation model of the glucose-insulin system in the postprandial state can be useful in several circumstances, including testing of glucose sensors, insulin infusion algorithms and decision support systems for diabetes. Here, we present a new simulation model in normal humans that describes the physiological events that occur after a meal, by employing the quantitative knowledge that has become available in recent years. Model parameters were set to fit the mean data of a large normal subject database that underwent a triple tracer meal protocol which provided quasi-model-independent estimates of major glucose and insulin fluxes, e.g., meal rate of appearance, endogenous glucose production, utilization of glucose, insulin secretion. By decomposing the system into subsystems, we have developed parametric models of each subsystem by using a forcing function strategy. Model results are shown in describing both a single meal and normal daily life (breakfast, lunch, dinner) in normal. The same strategy is also applied on a smaller database for extending the model to type 2 diabetes.",
+    "year" : 2007,
+    "month" : "10",
+    "volume" : "54",
+    "issue" : "10",
+    "pages" : "1740-1749",
+    "link" : "http://identifiers.org/pubmed/17926672",
+    "authors" : [
+      {
+        "name" : "Chiara Dalla Man",
+        "institution" : "Department of Information Engineering, University of Padova, I-35131 Padova, Italy.",
+        "orcid" : "0000-0002-4908-0596"
+      },
+      {
+        "name" : "Robert A Rizza"
+      },
+      {
+        "name" : "Claudio Cobelli"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000379_url.xml",
+        "description" : "SBML L2V4 representation of DallaMan2007_MealModel_GlucoseInsulinSystem",
+        "fileSize" : "32469",
+        "mimeType" : "application/xml",
+        "md5sum" : "d0e59a611ac8b9a0cf02f3592c825c93",
+        "sha1sum" : "b315ae7303c3259ec8cf854ad259fe94deac51a0",
+        "sha256sum" : "89001a3eb4a00c298e59ffa95bc97d49c5bdbe9a65e60063c8d81163012528a6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000379-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5675",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c89740de222af8c1929e128f58d5e864",
+        "sha1sum" : "c7db8bc22c3dde48edf4f2a00844a34d45a6d598",
+        "sha256sum" : "d9155fffb24b50f1179b4447c2c3b85bab81b3ac5ce69c369d859d1e0091b909"
+      },
+      {
+        "name" : "BIOMD0000000379-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "6928",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "df76c5dd2d97bb7769e5a3d71c0502a0",
+        "sha1sum" : "0182307a27388a210bed79b0ab5999b445c5e690",
+        "sha256sum" : "ded6c45bf35d8a8d6e1d9a3e91cbb882a4b8687ee2b6f551a716443607a850ac"
+      },
+      {
+        "name" : "BIOMD0000000379-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10163",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6f524762cf2428cdbcb9ba12273d6287",
+        "sha1sum" : "0ca2693c1a279a3e97d122e308462a31a237ace2",
+        "sha256sum" : "df555dfde6bf00f6c32a6333fe2c15bdb7e68830fb187378d0cd5b05ab9c7e5f"
+      },
+      {
+        "name" : "BIOMD0000000379-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10163",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d916ce573cd1d326687077abe3e55732",
+        "sha1sum" : "36fa71c4ebbc6fd53b4767ae17bad4fb067259bd",
+        "sha256sum" : "568c6c3e02a18662d65c403f51611a1b3e08cbdb48a412f9eb9ead7df7138151"
+      },
+      {
+        "name" : "BIOMD0000000379.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10163",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d916ce573cd1d326687077abe3e55732",
+        "sha1sum" : "36fa71c4ebbc6fd53b4767ae17bad4fb067259bd",
+        "sha256sum" : "568c6c3e02a18662d65c403f51611a1b3e08cbdb48a412f9eb9ead7df7138151"
+      },
+      {
+        "name" : "BIOMD0000000379.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7185",
+        "mimeType" : "text/plain",
+        "md5sum" : "0ec9da69e4f8530969af89275f91ea86",
+        "sha1sum" : "b5d487694627257b664a0025703a9f9e972e5716",
+        "sha256sum" : "38e1334bbeee568f910353a83bca9177757e5085509a9d95103e5322b05741dc"
+      },
+      {
+        "name" : "BIOMD0000000379.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "173994",
+        "mimeType" : "application/pdf",
+        "md5sum" : "982aae4572c27a6272b08923a177432e",
+        "sha1sum" : "7db0cb2518e58f0b74281458ae1b40e1945d489b",
+        "sha256sum" : "5c491858b3bcfb6d8059c498a47d10f9b6e58d2924ba0cff840007dc1782c688"
+      },
+      {
+        "name" : "BIOMD0000000379.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000379.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000379_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "38363",
+        "mimeType" : "application/xml",
+        "md5sum" : "dca31b4f1759c2594be1dcdf17527a3c",
+        "sha1sum" : "db5e06bab091474cca7daac9e7b24fc52cb67caa",
+        "sha256sum" : "6f9d54732d76972eac52fb454e62b4d1650158f95bfbec07c84c8f570b3062a8"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "124047",
+        "mimeType" : "image/png",
+        "md5sum" : "a99a35d49971a1bdbd1f2c767cfadcc0",
+        "sha1sum" : "25073e235301a1e35691fcec65e1f58a5d753040",
+        "sha256sum" : "c65c7a12baa82aa972c532d51d0e2595a53f419993d86f2739b736ed1cb7e972"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "263",
+        "mimeType" : "text/plain",
+        "md5sum" : "004a9dc1900ce735a2dde094472bfe7f",
+        "sha1sum" : "ff9478795bd2d5198d6721f370cc9fb67a43e2d0",
+        "sha256sum" : "2183f0a40194ce90dad85739f1943c931cb3f14c9d40ad711e7d519860fb4e0a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "9fc13822e3567869c917b4aa5c71b72c",
+        "sha1sum" : "f163f6b7e6c9a9d0ed6c2d6f00993bf1591a25b9",
+        "sha256sum" : "c5195954b63775f097b2647d509ff292de7ad10e51ecb9f2b07659c0a868c759"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4034",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6662c1266565338f82677853ce1bbb82",
+        "sha1sum" : "0f084a3ed629d987c61279f99419a7c7499b560a",
+        "sha256sum" : "cbc81cc8c92c3845caa3fabc5a41be67267493db90d57d3e8630e78b01072bfd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1317659604,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Original import of DallaMan2007_MealModel_GlucoseInsulinSystem"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138971,
+        "submitter" : "Ishan Ajmera",
+        "comment" : "Current version of DallaMan2007_MealModel_GlucoseInsulinSystem"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275103,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285100,
+  "submissionId" : "MODEL1110030000",
+  "publicationId" : "BIOMD0000000379",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ishan Ajmera",
+        "email" : "ajmera@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:9351",
+      "name" : "diabetes mellitus",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:9351"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0061178",
+      "name" : "regulation of insulin secretion involved in cellular response to glucose stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0061178"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1110030000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1110030000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000379",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000379"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17926672",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17926672"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

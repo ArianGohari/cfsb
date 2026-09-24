@@ -1,0 +1,288 @@
+{
+  "name" : "Somogyi1990_CaOscillations_SingleCaSpike",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>Another model from      <i>Hormone induced Calcium Oscillations in Liver Cells Can Be Explained by a Simply One Pool Model.</i>          Anatomy of a single Ca2+ spike. Figure4A has been simulated by COPASI4.0.20(development). However, the simulated figure is slightly different from the paper, single spike of Ca2+ is around \"6\" time arbitrary units instead \"9\" time arbitrary units displayed in the paper.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "1904060",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "Hormone-induced calcium oscillations in liver cells can be explained by a simple one pool model.",
+    "affiliation" : "Pharmakologisches Institut, Universität Bern, Switzerland.",
+    "synopsis" : "Hormone-induced oscillations of the free intracellular calcium concentration are thought to be relevant for frequency encoding of hormone signals. In liver cells, such Ca2+ oscillations occur in response to stimulation by hormones acting via phosphoinositide breakdown. This observation may be explained by cooperative, positive feedback of Ca2+ on its own release from one inositol 1,4,5-trisphosphate-sensitive pool, obviating oscillations of inositol 1,4,5-trisphosphate. The kinetic rate laws of the associated model have a mathematical structure reminiscent of the Brusselator, a hypothetical chemical model involving a rather improbable trimolecular reaction step, thus giving a realistic biological interpretation to this hallmark of dissipative structures. We propose that calmodulin is involved in mediating this cooperativity and positive feedback, as suggested by the presented experiments. For one, hormone-induced calcium oscillations can be inhibited by the (nonphenothiazine) calmodulin antagonists calmidazolium or CGS 9343 B. Alternatively, in cells overstimulated by hormone, as characterized by a non-oscillatory elevated Ca2+ concentration, these antagonists could again restore sustained calcium oscillations. The experimental observations, including modulation of the oscillations by extracellular calcium, were in qualitative agreement with the predictions of our mathematical model.",
+    "year" : 1991,
+    "month" : "6",
+    "volume" : "266",
+    "issue" : "17",
+    "pages" : "11068-11077",
+    "link" : "http://identifiers.org/pubmed/1904060",
+    "authors" : [
+      {
+        "name" : "R Somogyi",
+        "institution" : "Pharmakologisches Institut, Universität Bern, Switzerland."
+      },
+      {
+        "name" : "J W Stucki"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000115_url.xml",
+        "description" : "SBML L2V1 representation of Somogyi1990_CaOscillations_SingleCaSpike",
+        "fileSize" : "14770",
+        "mimeType" : "application/xml",
+        "md5sum" : "ad93ce0e90410da1bdd1c13d79a2fc1e",
+        "sha1sum" : "00d56d0ecc84bb2d93f76f1000bebb5ebce67435",
+        "sha256sum" : "2c44ee9da4972f7e8030cb3f16b194151ff12217e67fa2366b2987f22edb246a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000115-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "13401",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5248fe54c84b7d293a75d4bd84bd24b4",
+        "sha1sum" : "77890af576b2bac874e9e7ebe6c4e4562a85ab24",
+        "sha256sum" : "912e4d39cd5f0f1c4513c52e41d161ee155148e9a5c35c85ad33fd490ed47d26"
+      },
+      {
+        "name" : "BIOMD0000000115-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "17135",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3e393fcfcbed4c821e285f810b17356b",
+        "sha1sum" : "6de869265fb61fd07ddb1b9fe8b0ede1ad5913aa",
+        "sha256sum" : "698e45ffac34068578424bcd2ec187c685bab3631bb1fb3b1b383b679886d9d8"
+      },
+      {
+        "name" : "BIOMD0000000115-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4230",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4bd127c2a95ac8403cdc16bb654f0578",
+        "sha1sum" : "90da29f2301560ee0d8741f37a80b62879c32822",
+        "sha256sum" : "c7ee693422f1a22640520612a51a3c7fc480f3ea07699dec6ae26681da2de942"
+      },
+      {
+        "name" : "BIOMD0000000115-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4230",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b945bf502ecdd784415807ad56fab360",
+        "sha1sum" : "fcf0516a12d13879e58bb8a4cb514ae1f3156710",
+        "sha256sum" : "b028467d35cb078eab3aa5e6e9ef764948e59ca21b52ab3b5ebd456e8d0477e3"
+      },
+      {
+        "name" : "BIOMD0000000115.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4230",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b945bf502ecdd784415807ad56fab360",
+        "sha1sum" : "fcf0516a12d13879e58bb8a4cb514ae1f3156710",
+        "sha256sum" : "b028467d35cb078eab3aa5e6e9ef764948e59ca21b52ab3b5ebd456e8d0477e3"
+      },
+      {
+        "name" : "BIOMD0000000115.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2235",
+        "mimeType" : "text/plain",
+        "md5sum" : "2cfec9fbd8880fd9d6e05c3579562a93",
+        "sha1sum" : "a65d0b04952273ebea830f5f1db9e5036a5c4ba4",
+        "sha256sum" : "23d08c8370b95f7617786c9aa4729656fdf808c0ca2ef6b807e29541b842eab2"
+      },
+      {
+        "name" : "BIOMD0000000115.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "155862",
+        "mimeType" : "application/pdf",
+        "md5sum" : "e9307d61bf5af5fa7ec28c1c582593e7",
+        "sha1sum" : "7e8fa69bd45d460b2827235eb575e2d764033a8b",
+        "sha256sum" : "27d1c5646c18daf362551f37c64eebcfc096a60f835e8a98e60ef1162367b94c"
+      },
+      {
+        "name" : "BIOMD0000000115.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "16026",
+        "mimeType" : "image/png",
+        "md5sum" : "6ffd90381af5a230120e67255ef1bf48",
+        "sha1sum" : "1f1faf344cd73fd63555a3aacb74257260553ac8",
+        "sha256sum" : "a3da4b5d4e624008ba94cdac6baada5c9f6c828f91126c81842e647c0be83d7a"
+      },
+      {
+        "name" : "BIOMD0000000115.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "1635",
+        "mimeType" : "text/plain",
+        "md5sum" : "2942e91072748115467e77fb8a691eda",
+        "sha1sum" : "c55395200679d0bcd3d969d4efcb32bdc25ae380",
+        "sha256sum" : "e8847a7dd3fa5398d93b8a9e401f138e02ef95582d21d1de3a8caec5981d3f3c"
+      },
+      {
+        "name" : "BIOMD0000000115.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "9351",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "adf83ae8900a1d5a72d75a06776faae2",
+        "sha1sum" : "b7b26f2340bdf7e869dc10581618e57d13903b1e",
+        "sha256sum" : "364dca086160aa96258102c249b76a904f27dc925137c92af9c4ac33b7fd3618"
+      },
+      {
+        "name" : "BIOMD0000000115_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "11405",
+        "mimeType" : "application/xml",
+        "md5sum" : "6a086982723d2513489ec34ae85be805",
+        "sha1sum" : "3056087f7e039b361d8ce0c35128bbbbb6370032",
+        "sha256sum" : "a75e94b5e886451368126b4840bc3b8acfe68af9e9593612dd5d218136b509fa"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "30204",
+        "mimeType" : "image/png",
+        "md5sum" : "0044a29eb214d45c32e60c1290d09549",
+        "sha1sum" : "27cf55d2806d05c77ba495c2ed08434150d5e0f9",
+        "sha256sum" : "daaa4c9280413928905f5f3a4caa3d79adcf87f09e8c259aeb5c1fc454d18baa"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "59",
+        "mimeType" : "text/plain",
+        "md5sum" : "04547d38c68f50cf3b9feb49035347e8",
+        "sha1sum" : "6fa46d2292e8c8a7dd071b8bbf04de4e62825e5e",
+        "sha256sum" : "0d22b58d3e70d36c3aebc0ce9f4de9f1a2aeb8daa89fc16e16b398f0f97a1038"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "2853884354498e4f27cbbc1831382512",
+        "sha1sum" : "97fce924b84cec84d72263db73dc38a27e749505",
+        "sha256sum" : "0760228b8cccf160e2e338de3fc47021b52ed68b6078611573aa7c09c4712175"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3356",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "af3cc52e3006397f225d0f6ebb66a4e2",
+        "sha1sum" : "2a65baeeebd28df43b0ac145a1d55dd3e675f3cd",
+        "sha256sum" : "7754b3ae3ea0d3c843130b60b07229dada548b51ee5abda403e073b767649fbd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1181080926,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Somogyi1990_CaOscillations_SingleCaSpike"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396825361,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Somogyi1990_CaOscillations_SingleCaSpike"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267827,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284885,
+  "submissionId" : "MODEL8910960676",
+  "publicationId" : "BIOMD0000000115",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10114",
+      "name" : "Rattus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10114"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "1904060",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/1904060"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051924",
+      "name" : "regulation of calcium ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051924"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009755",
+      "name" : "hormone-mediated signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009755"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8910960676",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8910960676"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000115",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000115"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

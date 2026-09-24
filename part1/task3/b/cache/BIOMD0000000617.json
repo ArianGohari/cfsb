@@ -1,0 +1,278 @@
+{
+  "name" : "Walsh2014 - Inhibition kinetics of DAPT on APP Cleavage",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Walsh2014 - Inhibition kinetics of DAPT onAPP Cleavage</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25374788\" title=\"Access to this publication\">Are improper kinetic models    hampering drug development?</a>  </div>  <div class=\"bibo:authorList\">Walsh R.</div>  <div class=\"bibo:Journal\">PeerJ 2014; 2: e649</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Reproducibility of biological data is a significant problem    in research today. One potential contributor to this, which has    received little attention, is the over complication of enzyme    kinetic inhibition models. The over complication of inhibitory    models stems from the common use of the inhibitory term (1 +    [I]/Ki ), an equilibrium binding term that does not distinguish    between inhibitor binding and inhibitory effect. Since its    initial appearance in the literature, around a century ago, the    perceived mechanistic methods used in its production have    spurred countless inhibitory equations. These equations are    overly complex and are seldom compared to each other, which has    destroyed their usefulness resulting in the proliferation and    regulatory acceptance of simpler models such as IC50s for drug    characterization. However, empirical analysis of inhibitory    data recognizing the clear distinctions between inhibitor    binding and inhibitory effect can produce simple logical    inhibition models. In contrast to the common divergent practice    of generating new inhibitory models for every inhibitory    situation that presents itself. The empirical approach to    inhibition modeling presented here is broadly applicable    allowing easy comparison and rational analysis of drug    interactions. To demonstrate this, a simple kinetic model of    DAPT, a compound that both activates and inhibits ?-secretase    is examined using excel. The empirical kinetic method described    here provides an improved way of probing disease mechanisms,    expanding the investigation of possible therapeutic    interventions.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000617\">BIOMD0000000617</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25374788",
+    "journal" : "PeerJ",
+    "title" : "Are improper kinetic models hampering drug development?",
+    "affiliation" : "Department of Chemistry, Carleton University , Ottawa, ON , Canada.",
+    "synopsis" : "Reproducibility of biological data is a significant problem in research today. One potential contributor to this, which has received little attention, is the over complication of enzyme kinetic inhibition models. The over complication of inhibitory models stems from the common use of the inhibitory term (1 + [I]/Ki ), an equilibrium binding term that does not distinguish between inhibitor binding and inhibitory effect. Since its initial appearance in the literature, around a century ago, the perceived mechanistic methods used in its production have spurred countless inhibitory equations. These equations are overly complex and are seldom compared to each other, which has destroyed their usefulness resulting in the proliferation and regulatory acceptance of simpler models such as IC50s for drug characterization. However, empirical analysis of inhibitory data recognizing the clear distinctions between inhibitor binding and inhibitory effect can produce simple logical inhibition models. In contrast to the common divergent practice of generating new inhibitory models for every inhibitory situation that presents itself. The empirical approach to inhibition modeling presented here is broadly applicable allowing easy comparison and rational analysis of drug interactions. To demonstrate this, a simple kinetic model of DAPT, a compound that both activates and inhibits γ-secretase is examined using excel. The empirical kinetic method described here provides an improved way of probing disease mechanisms, expanding the investigation of possible therapeutic interventions.",
+    "year" : 2014,
+    "month" : "0",
+    "volume" : "2",
+    "pages" : "e649",
+    "link" : "http://identifiers.org/pubmed/25374788",
+    "authors" : [
+      {
+        "name" : "Ryan Walsh",
+        "institution" : "Department of Chemistry, Carleton University , Ottawa, ON , Canada.",
+        "orcid" : "0000-0002-3794-4721"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000617_url.xml",
+        "description" : "SBML L3V1 representation of Walsh2014 - Inhibition kinetics of DAPT on APP Cleavage",
+        "fileSize" : "54092",
+        "mimeType" : "application/xml",
+        "md5sum" : "5e24d239ec756422691e83bc8ca71131",
+        "sha1sum" : "7495fa8242016d2f19f1456bf5132c2ed0a17cf8",
+        "sha256sum" : "feea2e06a8b6bf801c962c30a2940705fd68addaab8cee9209c0fc4d48f4bd2b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000617-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6756",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2c982c6d3843783519b98fcce772a18c",
+        "sha1sum" : "7d92303a8b81c751738b3cc059eeb40755cebcb2",
+        "sha256sum" : "dbd31bf648b1ef724cf74ef2e82579b36fba69e2dc054b5da4356e40423d19e9"
+      },
+      {
+        "name" : "BIOMD0000000617-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "8580",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "12af9e47b31b7f5cb5697f06eea59c49",
+        "sha1sum" : "40bd89cdf1349f7b2a222794aea583ea722ad84a",
+        "sha256sum" : "e80576b77950205d815c57bbaaaa7cebfc6f3c395de3aa16c29e0a0a47eebea4"
+      },
+      {
+        "name" : "BIOMD0000000617-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6447",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ab79c786c934f23e0dd40eb50b369eaf",
+        "sha1sum" : "55299c247c9657ebefc736ace71b8d46bea0d06a",
+        "sha256sum" : "2b906ea02c422f668feb146e8ab0668d260261d3de5ac8e7cdbd59fc7fc6db38"
+      },
+      {
+        "name" : "BIOMD0000000617-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6447",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3905c226364cf1a2e827c2fd949cb0f5",
+        "sha1sum" : "327637dcffbca76b3a6a8661b147fff07c599dad",
+        "sha256sum" : "368f6f2fbd4b31750fd74794e84d5637195dd3bcaa42b15061011200fadaebb0"
+      },
+      {
+        "name" : "BIOMD0000000617.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6447",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3905c226364cf1a2e827c2fd949cb0f5",
+        "sha1sum" : "327637dcffbca76b3a6a8661b147fff07c599dad",
+        "sha256sum" : "368f6f2fbd4b31750fd74794e84d5637195dd3bcaa42b15061011200fadaebb0"
+      },
+      {
+        "name" : "BIOMD0000000617.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4006",
+        "mimeType" : "text/plain",
+        "md5sum" : "08eff25bd7dded33c32ec7c2a507425c",
+        "sha1sum" : "7909e826aa9b47db20ef726b814393ec02cb8f4f",
+        "sha256sum" : "a5cf8c9a7888f9c4f8646cde394727fa1ea0302676e1d6feed34b64072cc74ec"
+      },
+      {
+        "name" : "BIOMD0000000617.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "158650",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c03f8ad868aba509f0bf3bf281d63fe7",
+        "sha1sum" : "79fa15af07e90f1fa0d8fc4badcebbcb792d88cb",
+        "sha256sum" : "136431ccfde41dd95134974eea1abec6c4632a739b351be5c34cc3a4f67e8253"
+      },
+      {
+        "name" : "BIOMD0000000617.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "9772",
+        "mimeType" : "image/png",
+        "md5sum" : "5104e7517746d81b8c717a0bbfcc9060",
+        "sha1sum" : "f26a4c370f08e0ac2b2a78cdadb974cb1f6e4181",
+        "sha256sum" : "cf58a2c9f69ab0b96abb730b4b2a30a7cebd7b5ed767bf81680c7141f9b92e14"
+      },
+      {
+        "name" : "BIOMD0000000617.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "a09cf39d95ab605db52198b969d9b4cb",
+        "sha1sum" : "b6049e3c848043ece8a8c9432788bb02a75b3d39",
+        "sha256sum" : "73ec6f7fb4375b98f8244ca4b6b8151a2840d492531a6bab6987da8fa6c40ecb"
+      },
+      {
+        "name" : "BIOMD0000000617.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "6515",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "57f8837a14db94df8e0a4ca82e796abb",
+        "sha1sum" : "5cda3efa9ed086cb4f45ba3a70788dade3260d22",
+        "sha256sum" : "7606d002a4fee3e04c29982e7a8aaff493330db6e393e51e1125073170c2c63b"
+      },
+      {
+        "name" : "BIOMD0000000617_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "18264",
+        "mimeType" : "application/xml",
+        "md5sum" : "59e59e2746b951ca9416c6936dcddc0f",
+        "sha1sum" : "15cbe2606e629acd9270df825007b6f6a70b184b",
+        "sha256sum" : "d4890925f0985213c727186cba1cac85d370b0fc58bab6adc58b73107ef4b1d5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8884",
+        "mimeType" : "image/png",
+        "md5sum" : "033376c60948ff63170f3314d8abd54a",
+        "sha1sum" : "46bcc9c3dbc89621fd9b421bdc18e9768de433fc",
+        "sha256sum" : "c4cbadfce11fbc539eef2635d06520b1dd7d696300b302e9eda54cba62e37ff4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "312",
+        "mimeType" : "text/plain",
+        "md5sum" : "b9aec319da07d13a5991eaa79696e5b7",
+        "sha1sum" : "554179570ee11e1b5fbd1be663ebc762505d8a89",
+        "sha256sum" : "f5af9070658c486f07591e5e5e682e9ca0d65c1f22bd0d61ac89dfc4238a20a1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "f526086a69248b98191cc462f3075146",
+        "sha1sum" : "40f48aea8617f69383aa0032ba22556434baeedf",
+        "sha256sum" : "ba5ad9eb2b8027ee4db4b7b722df489cde030057c17248226741e4722575cd2e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5110",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "60add8381aed355124bdf41d1e7461e2",
+        "sha1sum" : "4adae84bf9c819b9f6b460538add1ed870db681c",
+        "sha256sum" : "4d03aec0029d70ab60b1a0c1b58b400f890a6264bc0e130cdf58745e1adff6a1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1473696212,
+        "submitter" : "Thawfeek Varusai",
+        "comment" : "Original import of Walsh2014 - Inhibition kinetics of DAPT on APP Cleavage"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1476117568,
+        "submitter" : "Thawfeek Varusai",
+        "comment" : "Current version of Walsh2014 - Inhibition kinetics of DAPT on APP Cleavage"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724284245,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285392,
+  "submissionId" : "MODEL1609120000",
+  "publicationId" : "BIOMD0000000617",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Thawfeek Varusai",
+        "email" : "tvarusai@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1609120000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1609120000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000617",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000617"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25374788",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25374788"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042987",
+      "name" : "amyloid precursor protein catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042987"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

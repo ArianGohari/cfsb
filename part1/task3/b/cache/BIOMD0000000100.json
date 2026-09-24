@@ -1,0 +1,308 @@
+{
+  "name" : "Rozi2003_GlycogenPhosphorylase_Activation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces the temporal evolution of Glycogen phosphorylase for a vale of Vm5=30 as depicted in Fig 1a of the paper. The model makes use of calcium oscillations from the Borghans model to stimulate the activation of glycogen phosphorylase. Hence, this is a simple extension of the Borghans model. The model was succesfully tested on MathSBML and Jarnac.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" class=\"external\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14556891",
+    "journal" : "Biophysical chemistry",
+    "title" : "A theoretical study of effects of cytosolic Ca2+ oscillations on activation of glycogen phosphorylase.",
+    "affiliation" : "Department of Physics, Central China Normal University, Wuhan 430079, Hubei, PR China.",
+    "synopsis" : "Taking into account the Ca(2+)-stimulated degradation of inositol 1,4,5-trisphosphate (IP(3)) by a 3-kinase, we have theoretically explored the effects of both simple and complex Ca(2+) oscillations on the regulation of a phosphorylation-dephosphorylation cycle process involved in glycogen degradation by glycogen phosphorylase a-form, respectively. For the case of simple Ca(2+) oscillations, the roles of cytosolic Ca(2+) oscillations in the regulation of active phosphorylase depend upon the maximum rate of IP(3) degradation by the 3-kinase, V(M5). In particular, the smaller the values of V(M5) are, the lower the effective Ca(2+) threshold for the activation of glycogen phosphorylase will be. For the case of complex Ca(2+) oscillations, the average level of fraction of active phosphorylase is nearly independent from the level of stimulation increasing in the bursting oscillatory domain. Both simple and complex Ca(2+) oscillations can contribute to increase the efficiency and specificity of cellular signalling, and some theoretical results of activation of glycogen phosphorylase regulated by Ca(2+) oscillations are close to the experimental results for gene expression in lymphocytes.",
+    "year" : 2003,
+    "month" : "12",
+    "volume" : "106",
+    "issue" : "3",
+    "pages" : "193-202",
+    "link" : "http://identifiers.org/pubmed/14556891",
+    "authors" : [
+      {
+        "name" : "Anvar Rozi",
+        "institution" : "Department of Physics, Central China Normal University, Wuhan 430079, Hubei, PR China."
+      },
+      {
+        "name" : "Ya Jia",
+        "orcid" : "0000-0002-2818-9074"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000100_url.xml",
+        "description" : "SBML L2V1 representation of Rozi2003_GlycogenPhosphorylase_Activation",
+        "fileSize" : "31196",
+        "mimeType" : "application/xml",
+        "md5sum" : "ea084cd038788254b2789e47886df4e8",
+        "sha1sum" : "6dc1f0072f7c0519af59f8ab3d5f5815a2c3cc58",
+        "sha256sum" : "e6e362d5bb6d8978bc1c5cdc6602f18c4971d56b72fa920ea3375a7e2deb40f2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000100-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19551",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fbfa2f1c3b583e0ff0b100351a682af3",
+        "sha1sum" : "5ec7a590c7c0366affbc2fa63bc17fc6e6c5d6e5",
+        "sha256sum" : "1c6c5435df363db13b5f9f94cf77df704658f847efa68ee0bcd6dbc28cb5afbf"
+      },
+      {
+        "name" : "BIOMD0000000100-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "26113",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5d9f5d4b769b35ffbb9437d0e4367f69",
+        "sha1sum" : "06d22313933775cdcadae72c21fe26417754aed1",
+        "sha256sum" : "2835997b85d2a2aa3765db06b03b69b0ef1dccff2d012a6597c44a1cf80b2f15"
+      },
+      {
+        "name" : "BIOMD0000000100-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7058",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "830c4b49cfc29fb3baee390973ef81fa",
+        "sha1sum" : "3e0072e8460aa3417c5284037256785b5e2a1dac",
+        "sha256sum" : "c7c2134dcd7f02d46f6e779712c19ddb60ff8a3920772246291d9a4224303540"
+      },
+      {
+        "name" : "BIOMD0000000100-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7058",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "86f1f12eda50815004ad3ac9611ec73f",
+        "sha1sum" : "af9b0b8e0dfb5f9709ef0a968e378653f483566a",
+        "sha256sum" : "ba8395e83389a88bb85de390e49c34dabc041cd512232b565d368fa0513529bd"
+      },
+      {
+        "name" : "BIOMD0000000100.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7058",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "86f1f12eda50815004ad3ac9611ec73f",
+        "sha1sum" : "af9b0b8e0dfb5f9709ef0a968e378653f483566a",
+        "sha256sum" : "ba8395e83389a88bb85de390e49c34dabc041cd512232b565d368fa0513529bd"
+      },
+      {
+        "name" : "BIOMD0000000100.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4627",
+        "mimeType" : "text/plain",
+        "md5sum" : "b44efed25389b01153207bccbe4d8ad3",
+        "sha1sum" : "e968e7f3406a919df30c31648f66a6ef9f0f8342",
+        "sha256sum" : "60ed9167904a7d90782782d3d18e64ee454e1a26abf4243d0af14850871f9158"
+      },
+      {
+        "name" : "BIOMD0000000100.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "179690",
+        "mimeType" : "application/pdf",
+        "md5sum" : "023abdc92297b5665ff12565777312a7",
+        "sha1sum" : "42e44715ff88a1b55952019a40c2ddf7c5825e22",
+        "sha256sum" : "1d4208323fa76bf91e64236a446126084b41d832ecbc1c8b3bef9a65701c8856"
+      },
+      {
+        "name" : "BIOMD0000000100.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "70380",
+        "mimeType" : "image/png",
+        "md5sum" : "1ef1dcc45d8a0ddea92643e2aa2845ad",
+        "sha1sum" : "89c9ea4083d8061d92e35c9bf6df8476c3cdafda",
+        "sha256sum" : "3cbe9bce03268eccd53c060da0f1ab0fbe975abf05fdda71aa8c1fb48c24160c"
+      },
+      {
+        "name" : "BIOMD0000000100.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "19958",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f51ab0bab6fcd611d902db24894e7821",
+        "sha1sum" : "2956b9e40f630f6529b31006c71831326f906a87",
+        "sha256sum" : "9317803ac3acae9ee4633ce18be196d653fe9287f5864abcd0f159d34880b2d9"
+      },
+      {
+        "name" : "BIOMD0000000100.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "36992",
+        "mimeType" : "application/xml",
+        "md5sum" : "63e3b264f2463dceaf82c74cbfeae416",
+        "sha1sum" : "47d468dc9b8b39a57126c17041b03303bd62f6b3",
+        "sha256sum" : "4686d9f685bc9a2f4553e3e35ac73456254811debff7fd27b45552abef339d53"
+      },
+      {
+        "name" : "BIOMD0000000100_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "26141",
+        "mimeType" : "application/xml",
+        "md5sum" : "ff43190b4fb4dbe78e040d58f4df0dd3",
+        "sha1sum" : "9224a301b7179ce912b324e10fcd9d7c6c12dece",
+        "sha256sum" : "82380b319a4ea3dc9954931936c287d0af48c20c9a69633cee04f8a035bec205"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13914",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "09fa5e04d6d87408356dee35e7de7428",
+        "sha1sum" : "ade91f7a8c043691c6b4f8701d47af96a42ac162",
+        "sha256sum" : "fee04131c19dc2018a2e49a13308fc66a4a4c62a690ab298cf0c5f12541d0d2f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "104",
+        "mimeType" : "text/plain",
+        "md5sum" : "457faa8356ee74b9f590e953a8d2c5f7",
+        "sha1sum" : "8e8c5e21b46584dd3c60cbdb01cb857671b72d57",
+        "sha256sum" : "a0f12968e52594ea8c71b0b157f5172080c12aa4eea18acd5728d9f934386400"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "ee9243add3ac33607d7db3a3e73e5442",
+        "sha1sum" : "8549d2d3660671bea363409dfe00a4db4731c56a",
+        "sha256sum" : "0a9f5661539f7b7e9a38f41a5c54153f91a5f882230db3f4e9aa02fc15f99561"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4227",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f6d3514972ac531cb5d58882daa4e0cd",
+        "sha1sum" : "4891194c799c6032cea2e0a8eb3b908d9dc544e7",
+        "sha256sum" : "b5fd377a95ac4b23f08fbeb1ac19cb45d518d78689cc35e2e013ca3fd7990e12"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1174604088,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Rozi2003_GlycogenPhosphorylase_Activation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1400957519,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Rozi2003_GlycogenPhosphorylase_Activation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267415,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284878,
+  "submissionId" : "MODEL4589754842",
+  "publicationId" : "BIOMD0000000100",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0048016",
+      "name" : "inositol phosphate-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048016"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4589754842",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4589754842"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000100",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000100"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14556891",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14556891"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11093832",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11093832"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "17883229",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17883229"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0008607",
+      "name" : "phosphorylase kinase regulator activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008607"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa04020",
+      "name" : "Calcium signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04020"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+digraph GraphSchema {
+  rankdir=LR;
+  graph [label="Aufgabe 1(g): Graphdatenmodell\nPK = eindeutige ID; ? = optional\nKardinalitaeten gelten fuer den veroeffentlichten Graphen", labelloc=t, nodesep=0.6, ranksep=0.9];
+  node [shape=record, fontname="Helvetica", fontsize=11];
+  edge [fontname="Helvetica", fontsize=10];
+
+  paper [label="{Paper|paper_id : string (PK)\lpmid : string?\ldoi : string?\ltitle : string\lpublication_date : date?\lsource_ref : string\l}"];
+  document [label="{Document|document_id : string (PK)\lkind : abstract / fulltext\ltext : string\ltext_sha256 : string\lsource_ref : string\l}"];
+  evidence [label="{Evidence|evidence_id : string (PK)\lstart : int\lend : int\lquote : string\lsubject_start : int\lsubject_end : int\lobject_start : int\lobject_end : int\lsection : string?\lsource_locator : string?\lstance : string\lattribution : string\lexperimental_method : string?\lvalidation_status : string\lextractor_id : string\lscore : float?\l}"];
+  relation [label="{Relation|relation_id : string (PK)\lpredicate : string\lspecies_id : string?\lcell_line_id : string?\lcondition : string?\lcompartment : string?\l}"];
+  entity [label="{Entity|entity_id : string (PK)\lkind : string\lname : string\ltaxon_id : string?\l}"];
+
+  paper -> document [label="HAS_DOCUMENT\nPaper: 0..n Documents\nDocument: genau 1 Paper"];
+  document -> evidence [label="HAS_EVIDENCE\nDocument: 0..n Evidences\nEvidence: genau 1 Document"];
+  evidence -> relation [label="ASSESSES\nEvidence: genau 1 Relation\nRelation: 1..n auto_pass Evidences"];
+  entity -> relation [label="SUBJECT_OF\nEntity: 0..n Relationen\nRelation: genau 1 Subjekt"];
+  relation -> entity [label="OBJECT\nRelation: genau 1 Objekt\nEntity: 0..n Relationen"];
+}

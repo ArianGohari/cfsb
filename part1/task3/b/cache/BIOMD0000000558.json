@@ -1,0 +1,310 @@
+{
+  "name" : "Cloutier2012 - Feedback motif for Parkinson's disease",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Cloutier2012 - Feedback motif for Parkinson'sdisease</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/22757587\" title=\"Access to this publication\">Feedback motif for the    pathogenesis of Parkinson's disease.</a>  </div>  <div class=\"bibo:authorList\">Cloutier M, Middleton R, Wellstead  P.</div>  <div class=\"bibo:Journal\">IET Syst Biol 2012 Jun; 6(3):  86-93</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Previous article on the integrative modelling of Parkinson's    disease (PD) described a mathematical model with properties    suggesting that PD pathogenesis is associated with a    feedback-induced biochemical bistability. In this article, the    authors show that the dynamics of the mathematical model can be    extracted and distilled into an equivalent two-state feedback    motif whose stability properties are controlled by    multi-factorial combinations of risk factors and genetic    mutations associated with PD. Based on this finding, the    authors propose a principle for PD pathogenesis in the form of    the switch-like transition of a bistable feedback process from    'healthy' homeostatic levels of reactive oxygen species and the    protein ?-synuclein, to an alternative 'disease' state in which    concentrations of both molecules are stable at the damagingly    high-levels associated with PD. The bistability is analysed    using the rate curves and steady-state response characteristics    of the feedback motif. In particular, the authors show how a    bifurcation in the feedback motif marks the pathogenic moment    at which the 'healthy' state is lost and the 'disease' state is    initiated. Further analysis shows how known risks (such as:    age, toxins and genetic predisposition) modify the stability    characteristics of the feedback motif in a way that is    compatible with known features of PD, and which explain    properties such as: multi-factorial causality, variability in    susceptibility and severity, multi-timescale progression and    the special cases of familial Parkinson's and Parkinsonian    symptoms induced purely by toxic stress.</p>  </div></div><div class=\"bm:curation\">Stress of 2.6 obtained by optimization(parameter S1) was imposed between days 10 and 150 in order toreproduce the Figure.</div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000558\">BIOMD0000000558</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22757587",
+    "journal" : "IET systems biology",
+    "title" : "Feedback motif for the pathogenesis of Parkinson's disease.",
+    "affiliation" : "GERAD and Department of Chemical Engineering, École Polytechnique de Montréal, Montréal, QC, Canada H3T 1J4. mathieu.cloutier@gerad.ca",
+    "synopsis" : "Previous article on the integrative modelling of Parkinson's disease (PD) described a mathematical model with properties suggesting that PD pathogenesis is associated with a feedback-induced biochemical bistability. In this article, the authors show that the dynamics of the mathematical model can be extracted and distilled into an equivalent two-state feedback motif whose stability properties are controlled by multi-factorial combinations of risk factors and genetic mutations associated with PD. Based on this finding, the authors propose a principle for PD pathogenesis in the form of the switch-like transition of a bistable feedback process from 'healthy' homeostatic levels of reactive oxygen species and the protein α-synuclein, to an alternative 'disease' state in which concentrations of both molecules are stable at the damagingly high-levels associated with PD. The bistability is analysed using the rate curves and steady-state response characteristics of the feedback motif. In particular, the authors show how a bifurcation in the feedback motif marks the pathogenic moment at which the 'healthy' state is lost and the 'disease' state is initiated. Further analysis shows how known risks (such as: age, toxins and genetic predisposition) modify the stability characteristics of the feedback motif in a way that is compatible with known features of PD, and which explain properties such as: multi-factorial causality, variability in susceptibility and severity, multi-timescale progression and the special cases of familial Parkinson's and Parkinsonian symptoms induced purely by toxic stress.",
+    "year" : 2012,
+    "month" : "6",
+    "volume" : "6",
+    "issue" : "3",
+    "pages" : "86-93",
+    "link" : "http://identifiers.org/pubmed/22757587",
+    "authors" : [
+      {
+        "name" : "M Cloutier",
+        "institution" : "GERAD and Department of Chemical Engineering, École Polytechnique de Montréal, Montréal, QC, Canada H3T 1J4. mathieu.cloutier@gerad.ca"
+      },
+      {
+        "name" : "R Middleton",
+        "orcid" : "0000-0001-9885-8803"
+      },
+      {
+        "name" : "P Wellstead"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000558_url.xml",
+        "description" : "SBML L2V4 representation of Cloutier2012 - Feedback motif for Parkinson\\s disease",
+        "fileSize" : "27867",
+        "mimeType" : "application/xml",
+        "md5sum" : "a376c20933052c5915537b0deafd9ad8",
+        "sha1sum" : "ed6a372b8fa41812837ccbfc886c818d767605bb",
+        "sha256sum" : "da19cf3405d9310c87d1c8e1d8d9bf5a18edd661a3af6533638eea8c527863fb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000558-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "8159",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "971fe90c7502f036f97be29bc0aa6750",
+        "sha1sum" : "ea16c0e3fd8b13671106447684c9c964830d27a7",
+        "sha256sum" : "282d76d4c5d74d60ff9632f2f650c80a81fe9214c4db6b728bd5d4fdcf3b3e80"
+      },
+      {
+        "name" : "BIOMD0000000558-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "10219",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "78494939a219d334e570bfc141c72276",
+        "sha1sum" : "5a02b1fa5797f93844132867779b41fa3fff140e",
+        "sha256sum" : "81239dffa5a5c6f93a48713613fa15deb73a996fd4623060c9346dcf1d83880d"
+      },
+      {
+        "name" : "BIOMD0000000558-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3918",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6c6c3bd5f4446d2db17b039f1886f042",
+        "sha1sum" : "0c245f2c15f035fa868ad2cb9571994b5b55cc12",
+        "sha256sum" : "92579d57bc33137fdbd973091ce3efcade8c1a9663f28be9cd4ebb4042bff89b"
+      },
+      {
+        "name" : "BIOMD0000000558-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3918",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a51ababed71c4255b756e663823d74d8",
+        "sha1sum" : "7cc859f82ed566299e06e524147189137e78ae22",
+        "sha256sum" : "d38482a99574c370ebae347efadee98c69945b3ff28c36d506027e0971690f10"
+      },
+      {
+        "name" : "BIOMD0000000558.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3918",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a51ababed71c4255b756e663823d74d8",
+        "sha1sum" : "7cc859f82ed566299e06e524147189137e78ae22",
+        "sha256sum" : "d38482a99574c370ebae347efadee98c69945b3ff28c36d506027e0971690f10"
+      },
+      {
+        "name" : "BIOMD0000000558.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "162378",
+        "mimeType" : "application/pdf",
+        "md5sum" : "079e783fdd395e223ae79753448c2a85",
+        "sha1sum" : "022403dfe574b34e9bc65b12aa29df19872d4ffc",
+        "sha256sum" : "ea58bbbce7c69a119b3f267967634f0c69d414351b83310cc94581f810116538"
+      },
+      {
+        "name" : "BIOMD0000000558.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "24121",
+        "mimeType" : "image/png",
+        "md5sum" : "540c9f4d3ab417a983b9fb92135e3882",
+        "sha1sum" : "196c2c9c141c4fe68bc5391c42df7734c4b029f0",
+        "sha256sum" : "f2d52451a487bd457adf54479c1ab231ac5c6dcfd0ac8a9caaa352008579de98"
+      },
+      {
+        "name" : "BIOMD0000000558.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "10871",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2c469c90361b250f469a71571e3ff9bc",
+        "sha1sum" : "8032861a1d30e1d1daf5453478e8ece4f9e8081c",
+        "sha256sum" : "534a0272f8bf51b90f0f4dc48761c62918a14eb8b0b63bdbacbd8f250744cb36"
+      },
+      {
+        "name" : "BIOMD0000000558.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "28546",
+        "mimeType" : "application/xml",
+        "md5sum" : "76808c674d0384145425de8b8423a132",
+        "sha1sum" : "7a118f10e9577760d9b80f1dc81ca439ffcecde3",
+        "sha256sum" : "14bb5932ffe796b86c88e555e0099ca972b3d7defa39c97b5c3fabe1d16494ba"
+      },
+      {
+        "name" : "Cloutier2012.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "46577",
+        "mimeType" : "application/xml",
+        "md5sum" : "368828f2d27b9a061bc34a750567465f",
+        "sha1sum" : "42bd7d782a7e65f65ac769eeccf5d77ad4270a98",
+        "sha256sum" : "bd9deadc8cee9018bdd480d612d374fe0f8a25ae9ab377c1bdd60ecac1d7f9e9"
+      },
+      {
+        "name" : "Cloutier2012.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "10105",
+        "mimeType" : "application/xml",
+        "md5sum" : "fef55886a88b1ce7f64e3efe721bdad2",
+        "sha1sum" : "8347a1d38f5869f4fbcb34a0bef143b44bb680f3",
+        "sha256sum" : "ee980435a1997ca9ca69e14fc57fda46fc1d04194cd418793bff81c839f9114d"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "9316",
+        "mimeType" : "image/png",
+        "md5sum" : "52836b453aa2fadd739647f34c6abcb1",
+        "sha1sum" : "97ec76f258767f86eba579689141f9d77205d0fa",
+        "sha256sum" : "310b41b4bff47c1ecca4f6e0354d909cd504a11e5f4c94e738bc93c66c367e05"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "607",
+        "mimeType" : "text/plain",
+        "md5sum" : "de9f6aba83f28e3edff79efdf6de89a3",
+        "sha1sum" : "3b3e96a41a81182be7bd9ddac2285eb08485e81f",
+        "sha256sum" : "5be59f345b5df0798884f16f289ae29a07941ed0edb7f9b115cda2eaff440e56"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "f31327d25989f4d7441adca4499e6190",
+        "sha1sum" : "2ea203bb6b52be444932505c28abe292eb6bef54",
+        "sha256sum" : "f6bacc1a3aa4fb1350ded8640ffbf1581e49f0d94cde0345d18242d9c9cfe7e2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6051",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c6ed4ff932d15070673549b9ba429016",
+        "sha1sum" : "aaa7be5c728d01d3719ec6430861460d85eca6e1",
+        "sha256sum" : "b293b96388e82988a2de54549003827b7754581a93079da2073489c6f2edd3ca"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1414675081,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Original import of Cloutier2012 - Feedback motif for Parkinson's disease"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1429268885,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Current version of Cloutier2012 - Feedback motif for Parkinson's disease"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545414689,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Cloutier2012.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281444,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285339,
+  "submissionId" : "MODEL1410300000",
+  "publicationId" : "BIOMD0000000558",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Audald Lloret i Villas",
+        "email" : "lloret@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0070841",
+      "name" : "inclusion body assembly",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070841"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1410300000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1410300000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000558",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000558"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22757587",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22757587"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "22757585",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22757585"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000302",
+      "name" : "response to reactive oxygen species",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000302"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

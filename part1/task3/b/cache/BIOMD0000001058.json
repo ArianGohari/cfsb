@@ -1,0 +1,224 @@
+{
+  "name" : "Novak2022 - Mitotic kinase oscillation",
+  "description" : "Bela Novak & John J. Tyson. Mitotic kinase oscillation governs the latching of cell cycle switches. Current Biology 32, 12 (2022).<p></p><p></p>In 1996, Kim Nasmyth1 proposed that the eukaryotic cell cycle is an alternating sequence of transitions from G1 to S-G2-M and back again. These two phases correlate to high activity of cyclin-dependent kinases (CDKs) that trigger S-G2-M events and CDK antagonists that stabilize G1 phase. We associated these “alternative phases” with the coexistence of two stable steady states of the biochemical reactions among CDKs and their antagonists. Transitions between these steady states (G1-to-S and M-to-G1) are driven by “helper” proteins. The fact that the transitions are irreversible is guaranteed by a “latching” property of the molecular switches, as we have argued in previous publications. Here, we show that if the latch is broken, then the biochemical reactions can swing back-and-forth across the transitions; either G1-S-G1-S … (periodic DNA replication without mitosis or cell division) or M-(G1)-M-(G1) … (periodic Cdc14 release, without fully exiting mitosis). Using mathematical modeling of the molecular control circuit in budding yeast, we provide a fresh account of aberrant cell cycles in mutant strains: endoreplication in the clb1-5Δ strain and periodic release and resequestration of Cdc14 (an “exit” phosphatase) in the CLB2kdΔ strain.7,8 In our opinion, these “endocycles” are not autonomous oscillatory modules that must be entrained by the CDK oscillator but rather inadvertent and deleterious oscillations that are normally suppressed by the CDK latching-gate mechanism.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1016/j.cub.2022.04.016",
+    "journal" : "Current biology : CB",
+    "title" : "Mitotic kinase oscillation governs the latching of cell cycle switches.",
+    "affiliation" : "Department of Biochemistry, University of Oxford, South Parks Road, Oxford OX1 3QU, UK. Electronic address: bela.novak@bioch.ox.ac.uk.",
+    "synopsis" : "In 1996, Kim Nasmyth1 proposed that the eukaryotic cell cycle is an alternating sequence of transitions from G1 to S-G2-M and back again. These two phases correlate to high activity of cyclin-dependent kinases (CDKs) that trigger S-G2-M events and CDK antagonists that stabilize G1 phase. We associated these \"alternative phases\" with the coexistence of two stable steady states of the biochemical reactions among CDKs and their antagonists.2,3 Transitions between these steady states (G1-to-S and M-to-G1) are driven by \"helper\" proteins. The fact that the transitions are irreversible is guaranteed by a \"latching\" property of the molecular switches, as we have argued in previous publications.4,5 Here, we show that if the latch is broken, then the biochemical reactions can swing back-and-forth across the transitions; either G1-S-G1-S … (periodic DNA replication without mitosis or cell division) or M-(G1)-M-(G1) … (periodic Cdc14 release, without fully exiting mitosis). Using mathematical modeling of the molecular control circuit in budding yeast, we provide a fresh account of aberrant cell cycles in mutant strains: endoreplication in the clb1-5Δ strain6 and periodic release and resequestration of Cdc14 (an \"exit\" phosphatase) in the CLB2kdΔ strain.7,8 In our opinion, these \"endocycles\" are not autonomous oscillatory modules that must be entrained by the CDK oscillator6,7 but rather inadvertent and deleterious oscillations that are normally suppressed by the CDK latching-gate mechanism.8.",
+    "year" : 2022,
+    "month" : "4",
+    "pages" : "S0960-9822(22)00585-1",
+    "link" : "http://identifiers.org/doi/10.1016/j.cub.2022.04.016",
+    "authors" : [
+      {
+        "name" : "Novak B"
+      },
+      {
+        "name" : "Tyson JJ"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Novak2022.xml",
+        "description" : "SBML L2V4 representation of Novak2022 - Mitotic kinase oscillation",
+        "fileSize" : "128732",
+        "mimeType" : "application/xml",
+        "md5sum" : "e98dc874655e20290a375fe43f808eeb",
+        "sha1sum" : "d19168e21dbc12cc626516243791f8422a94414e",
+        "sha256sum" : "28c13e7dc459b447c227c883c17dafd1c2befdf78b455ca027a62b0bf9c69769"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Novak2022-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "25840",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "29e7716fad5b454a900fab6a44d6bd99",
+        "sha1sum" : "22662ae71b88090e8dd6f82ad5d3a600638e04d5",
+        "sha256sum" : "40bbbc56bd8681dccdde65109fcd3ea002953ce9062f104792dbe4cdb82d9b7f"
+      },
+      {
+        "name" : "Novak2022-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "38294",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c87223db9625defcc7f0ab74db6bf543",
+        "sha1sum" : "c5b85c3cd148d89cf68adaa88021ae01f3512b38",
+        "sha256sum" : "c66c6bf220796bde73c8c77ab5e3623f4c732f0e4481a40d03ed30022a0fb056"
+      },
+      {
+        "name" : "Novak2022-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14133",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cdb6d54998062fe1bf89f491ae2cfd92",
+        "sha1sum" : "88927056d16ac3bd15c8cad56b9ae1b0d9fb6b3f",
+        "sha256sum" : "90650325c8f9d7332aba67f0174caa41f7f79cdc20a825eb3d06adae826e903a"
+      },
+      {
+        "name" : "Novak2022-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14133",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "49f3c84cca2cb89d492da5badb0f77a7",
+        "sha1sum" : "6d400b3811b6ca0016aa1ce5cb2d5423a53f30c8",
+        "sha256sum" : "ff03e94bc6c667d5ab3483490e2dcddd56d524e629eb91a0e21352d96fd2b972"
+      },
+      {
+        "name" : "Novak2022.cps",
+        "description" : "Copasi representation of Novak2022 - Mitotic kinase oscillation",
+        "fileSize" : "152947",
+        "mimeType" : "application/xml",
+        "md5sum" : "cdb33a6dbe0f9bdd10c8bfe0e215b2f6",
+        "sha1sum" : "4e9dae86f1e5554db9118875e78515339e1cb56b",
+        "sha256sum" : "19bc4662720fa53aba9731422463046a6ebd4d1e29e17af63647bbaa4b043216"
+      },
+      {
+        "name" : "Novak2022.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11150",
+        "mimeType" : "text/plain",
+        "md5sum" : "6030f777d07c7d2baceb073c45052cc1",
+        "sha1sum" : "05ecb6978aa2dab9c8a5fc55e0ea5a8bc614854c",
+        "sha256sum" : "e6913010b1dd57618e01e4ab2d175c119bfa09e96bf0a5702a64c442604b14eb"
+      },
+      {
+        "name" : "Novak2022.sedml",
+        "description" : "SED-ML representation of Novak2022 - Mitotic kinase oscillation (additionally CRBM-validated and adjusted).",
+        "fileSize" : "48009",
+        "mimeType" : "application/xml",
+        "md5sum" : "95662694c5114fd21dc74a2bb8969b13",
+        "sha1sum" : "a4a3e6cd5c33d1491648696494316fa0d34b45f6",
+        "sha256sum" : "3894181a3cf2facd61771d710f22198ee0ee810a97f315a399001a7e12a2b419"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1184",
+        "mimeType" : "application/xml",
+        "md5sum" : "46565aa246024fe570ef2a41f34dd2dc",
+        "sha1sum" : "c7cd831da5922f55a67f23a4f44cb4b819716726",
+        "sha256sum" : "69e3cdcf0171992e2e04535091447cca63ad17ec79fa1aa853e08c4a854c276b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1265",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b2eff69c83faf6ce59479c0a44644917",
+        "sha1sum" : "3195e705bcc39f6852aa73469a84961d8ea85439",
+        "sha256sum" : "484dcf602032b6a648858e0fd44353711c1a29d8435603bae01c806722325463"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1652974914,
+        "submitter" : "Mikal Daou",
+        "comment" : "Automatically added model identifier BIOMD0000001058"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724296979,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285622,
+  "submissionId" : "MODEL2205190001",
+  "publicationId" : "BIOMD0000001058",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Mikal Daou",
+        "email" : "mdaou@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001058",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001058"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2205190001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2205190001"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1016/j.cub.2022.04.016",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1016/j.cub.2022.04.016"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "GO:0005737",
+      "name" : "cytoplasm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005737"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1016/j.cub.2022.04.016",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1016/j.cub.2022.04.016"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0055047",
+      "name" : "generative cell mitosis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0055047"
+    }
+  ]
+}

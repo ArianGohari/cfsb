@@ -1,0 +1,300 @@
+{
+  "name" : "Proctor2006_telomere",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>      <br />      <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17015293",
+    "journal" : "Journal of the Royal Society, Interface",
+    "title" : "Modelling the checkpoint response to telomere uncapping in budding yeast.",
+    "affiliation" : "Institute for Ageing and Health, and School of Clinical Medical Sciences-Gerontology, Centre for Integrated Systems Biology of Ageing and Nutrition, Newcastle University, Newcastle upon Tyne NE4 6BE, UK. c.j.proctor@ncl.ac.uk",
+    "synopsis" : "One of the DNA damage-response mechanisms in budding yeast is temporary cell-cycle arrest while DNA repair takes place. The DNA damage response requires the coordinated interaction between DNA repair and checkpoint pathways. Telomeres of budding yeast are capped by the Cdc13 complex. In the temperature-sensitive cdc13-1 strain, telomeres are unprotected over a specific temperature range leading to activation of the DNA damage response and subsequently cell-cycle arrest. Inactivation of cdc13-1 results in the generation of long regions of single-stranded DNA (ssDNA) and is affected by the activity of various checkpoint proteins and nucleases. This paper describes a mathematical model of how uncapped telomeres in budding yeast initiate the checkpoint pathway leading to cell-cycle arrest. The model was encoded in the Systems Biology Markup Language (SBML) and simulated using the stochastic simulation system Biology of Ageing e-Science Integration and Simulation (BASIS). Each simulation follows the time course of one mother cell keeping track of the number of cell divisions, the level of activity of each of the checkpoint proteins, the activity of nucleases and the amount of ssDNA generated. The model can be used to carry out a variety of in silico experiments in which different genes are knocked out and the results of simulation are compared to experimental data. Possible extensions to the model are also discussed.",
+    "year" : 2007,
+    "month" : "2",
+    "volume" : "4",
+    "issue" : "12",
+    "pages" : "73-90",
+    "link" : "http://identifiers.org/pubmed/17015293",
+    "authors" : [
+      {
+        "name" : "C J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "D A Lydall"
+      },
+      {
+        "name" : "R J Boys"
+      },
+      {
+        "name" : "C S Gillespie",
+        "orcid" : "0000-0003-1787-0275"
+      },
+      {
+        "name" : "Daryl P Shanley",
+        "orcid" : "0000-0003-3096-6386"
+      },
+      {
+        "name" : "Darren J Wilkinson",
+        "orcid" : "0000-0003-0736-802X"
+      },
+      {
+        "name" : "T B L Kirkwood"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000087_url.xml",
+        "description" : "SBML L2V1 representation of Proctor2006_telomere",
+        "fileSize" : "109232",
+        "mimeType" : "application/xml",
+        "md5sum" : "697328aebf1cd2bf96025515a3155765",
+        "sha1sum" : "64337c4723aefb3bd8cce810e10f7d0e0c8702f8",
+        "sha256sum" : "ce2b446c7572f0ad5cd1dc28397502ce52749ee25b3506bd4a63b7f72cd7e708"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000087-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "112094",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e7b45f0d6fab1e767c13249402458fe0",
+        "sha1sum" : "d210706e77148bf35cf6b597a22bd00ea120779b",
+        "sha256sum" : "50298943ece4b6cd217f411c1c7c3c57dda73db4df7ec5185a4884bfb9ebf0e2"
+      },
+      {
+        "name" : "BIOMD0000000087-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "190210",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3aa59c0f0afae86ab9af9685cc9ca796",
+        "sha1sum" : "3de09d87acb64d761c620aa661e3537669a78c8e",
+        "sha256sum" : "1c7bc1e8848cf5d0d6b3d0cdf14db28d9e65a0d42fa1018b1d53117f2388f7b5"
+      },
+      {
+        "name" : "BIOMD0000000087-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "25227",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "76b658aa25fb644e04aa52035ec61725",
+        "sha1sum" : "5cd8dcf1c9ee6ea25bf07a16aad245e59661b726",
+        "sha256sum" : "2c93b20317465fc83ec8ab4c7bcb90a350b4fa248f4b79d7febb180fcf50a310"
+      },
+      {
+        "name" : "BIOMD0000000087-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "25227",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "64deb77047df31fdc2c85f76e95dcaa9",
+        "sha1sum" : "55fcb9a7f83dc6fc183e9200a1ff6858388a8a0e",
+        "sha256sum" : "9250690a0e38a59297a8edbaf306fa7853ae81dbf78010769ab9b406da664180"
+      },
+      {
+        "name" : "BIOMD0000000087.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "25227",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "64deb77047df31fdc2c85f76e95dcaa9",
+        "sha1sum" : "55fcb9a7f83dc6fc183e9200a1ff6858388a8a0e",
+        "sha256sum" : "9250690a0e38a59297a8edbaf306fa7853ae81dbf78010769ab9b406da664180"
+      },
+      {
+        "name" : "BIOMD0000000087.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "19020",
+        "mimeType" : "text/plain",
+        "md5sum" : "00283032e035b9aa1e0b4a167ff20c42",
+        "sha1sum" : "725041c1a04ab23f7e8e29e251ce7b3193f2424b",
+        "sha256sum" : "0e440a85368a03978e47e68c4dcd5972ec50f5a2614df7c28c8ed7f2e23dcf5e"
+      },
+      {
+        "name" : "BIOMD0000000087.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "406226",
+        "mimeType" : "application/pdf",
+        "md5sum" : "84dba9d11163ba811d7af9a2c732e6dc",
+        "sha1sum" : "77f71550235f024f7d703ee65b3dbeed5d34b8ee",
+        "sha256sum" : "4374d0480600e979b1104b870e2e9711a82410a1f790ec21471aa8b2805abd0a"
+      },
+      {
+        "name" : "BIOMD0000000087.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "665340",
+        "mimeType" : "image/png",
+        "md5sum" : "5a1527bc271cb9284e1546caa4ba43c4",
+        "sha1sum" : "7e6522e9aefbbf43c608891c5fb093da1d981c92",
+        "sha256sum" : "3222644db6432ede97235e711917dc226a15cee0c4b7ddcab9e5009c38ff9a30"
+      },
+      {
+        "name" : "BIOMD0000000087.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "131952",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ffc8b0d91ea91518c63bd96b260765d8",
+        "sha1sum" : "6e8f20661b0402d308b048acab827f51d1b1255b",
+        "sha256sum" : "3cedc7148d76f60a9c5a960e516b68494888883c8706125677b13aaab36a75ff"
+      },
+      {
+        "name" : "BIOMD0000000087.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "148450",
+        "mimeType" : "application/xml",
+        "md5sum" : "57afd98a50d2f98f658aafa456024430",
+        "sha1sum" : "5f05b0d7383ad8a93835a4234dea63b7c428c1ae",
+        "sha256sum" : "77c3678c1582cb11a89eac9cda55ada7162ed131038dc0e1f78798b3b5ea3db6"
+      },
+      {
+        "name" : "BIOMD0000000087_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "64924",
+        "mimeType" : "application/xml",
+        "md5sum" : "f20af68152cad362859b7197ebda41ad",
+        "sha1sum" : "133b997654095f21c475d0800686c911c25233ea",
+        "sha256sum" : "778d560840f5212ce6e622eacdb45322b24caee44086e2e4253c2b38173833eb"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "22185",
+        "mimeType" : "image/png",
+        "md5sum" : "875ba68c1c2d5dfe28286ae5d55a8607",
+        "sha1sum" : "66487f4ad50bfa6eaf9abaee45ad43da85cf22eb",
+        "sha256sum" : "3cbbe475145945c3c3a277bfc663ec8e3b056d2f61914ffc99bd533fa1970152"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "69",
+        "mimeType" : "text/plain",
+        "md5sum" : "d82106ec2f6e9b6a846fa531b989eefb",
+        "sha1sum" : "0059e0179a496b2e22b73a6bf18fbb7c50d46995",
+        "sha256sum" : "88c0d989c65a16d54bf8181e20cc68d79e58427032ecc872e611de4ead33ede7"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "f838716c5b46ee86d53294d7e1feeb97",
+        "sha1sum" : "f06d680943d4240b1a2cd4f907da93262939d948",
+        "sha256sum" : "557cec9c200add760b3abb1f2a5917adcfc83ee1dcc179cbc44327b2ebf1d793"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2884",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ea2571514eb969063236674f5e55fa57",
+        "sha1sum" : "f12ac6f78b19dae3c243c8f024edfcc7e0230319",
+        "sha256sum" : "91379836e56adbb295ec3d26b74ed47ec6b20541c2f8052d6330db4ea41617dc"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1165855922,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of Proctor2006_YeastCheckpointWT2"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341502805,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Proctor2006_telomere"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267038,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284872,
+  "submissionId" : "MODEL8679489165",
+  "publicationId" : "BIOMD0000000087",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL8679489165",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL8679489165"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000087",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000087"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17015293",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17015293"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "sce04111",
+      "name" : "Cell cycle - yeast - Saccharomyces cerevisiae (budding yeast)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/sce04111"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000075",
+      "name" : "cell cycle checkpoint",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000075"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

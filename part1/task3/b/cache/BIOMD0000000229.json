@@ -1,0 +1,304 @@
+{
+  "name" : "Ma2002_cAMP_oscillations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Quantifying robustness of biochemical network models.</strong>        <br />Ma L, Iglesias PA.      <em>BMC Bioinformatics.</em>2002 Dec 13;3:38.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12482327\">12482327</a>,      <br />        <strong>Abstract:</strong>        <br />BACKGROUND: Robustness of mathematical models of biochemical networks is important for validation purposes and can be used as a means of selecting between different competing models. Tools for quantifying parametric robustness are needed. RESULTS: Two techniques for describing quantitatively the robustness of an oscillatory model were presented and contrasted. Single-parameter bifurcation analysis was used to evaluate the stability robustness of the limit cycle oscillation as well as the frequency and amplitude of oscillations. A tool from control engineering--the structural singular value (SSV)--was used to quantify robust stability of the limit cycle. Using SSV analysis, we find very poor robustness when the model's parameters are allowed to vary. CONCLUSION: The results show the usefulness of incorporating SSV analysis to single parameter sensitivity analysis to quantify robustness.   </p>        <br />        <p> This model is originally proposed by Laub and Loomis (1998).[Laub MT, Loomis WF (1998). A molecular network that produces spontaneous oscillations in excitable cells of Dictyostelium.  Mol Biol Cell. 9(12):3521-32. PubMED: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12482327\">12482327</a>.<br />The parameters used in this model (Ma and Iglesias, 2002), are different from that used in the original model (Laub and Loomis, 1998), because of the typographical errors in the original paper. The parameters used in the model presented by Ma and Iglesias, are obtained directly from the authors of original publication (Laub and Loomis, 1998). These parameters are also used in the website for the Laub-Loomis model, <a href=\"http://www-biology.ucsd.edu/labs/loomis/network/laubloomis.html\">http://www-biology.ucsd.edu/labs/loomis/network/laubloomis.html</a>.  <br />By using this model, Kim et al., 2006 [Kim J, Bates DG, Postlethwaite I, Ma L, Iglesias PA. (2006) Robustness analysis of biochemical network models. Syst Biol (Stevenage). 153(3):96-104. PubMED: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16984084\">16984084</a>], validate and extend the analysis approach proposed by Ma and Iglesias (2002), by showing how hybrid optimisation can be used to compute worst-case parameter combinations in the model.</p>        <br />        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12482327",
+    "journal" : "BMC bioinformatics",
+    "title" : "Quantifying robustness of biochemical network models.",
+    "affiliation" : "Department of Electrical and Computer Engineering, The Johns Hopkins University, Baltimore, MD USA. lma@jhu.edu",
+    "synopsis" : "<h4>Background</h4>Robustness of mathematical models of biochemical networks is important for validation purposes and can be used as a means of selecting between different competing models. Tools for quantifying parametric robustness are needed.<h4>Results</h4>Two techniques for describing quantitatively the robustness of an oscillatory model were presented and contrasted. Single-parameter bifurcation analysis was used to evaluate the stability robustness of the limit cycle oscillation as well as the frequency and amplitude of oscillations. A tool from control engineering--the structural singular value (SSV)--was used to quantify robust stability of the limit cycle. Using SSV analysis, we find very poor robustness when the model's parameters are allowed to vary.<h4>Conclusion</h4>The results show the usefulness of incorporating SSV analysis to single parameter sensitivity analysis to quantify robustness.",
+    "year" : 2002,
+    "month" : "12",
+    "volume" : "3",
+    "pages" : "38",
+    "link" : "http://identifiers.org/pubmed/12482327",
+    "authors" : [
+      {
+        "name" : "Lan Ma",
+        "institution" : "Department of Electrical and Computer Engineering, The Johns Hopkins University, Baltimore, MD USA. lma@jhu.edu"
+      },
+      {
+        "name" : "Pablo A Iglesias",
+        "orcid" : "0000-0002-0840-155X"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000229_url.xml",
+        "description" : "SBML L2V4 representation of Ma2002_cAMP_oscillations",
+        "fileSize" : "26209",
+        "mimeType" : "application/xml",
+        "md5sum" : "c3d9e5ebd10504d8ffefc4f5e5c56589",
+        "sha1sum" : "f082023ddf04298a1740be12b510f568023e2d98",
+        "sha256sum" : "40ea81aef2913fe870ef2dbcdc134f466b2f3f4e4b03f9189fd0907c2b4d7f1b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000229-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18152",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1deef4bb9c6f0af2960a7c4d0589e9e9",
+        "sha1sum" : "569fb8df5a16e2b90c007db4e38f6867a7e4f1c3",
+        "sha256sum" : "fd9b9517155af5cb64609058828ae27c9d88ce1c763c061863f868208c76675c"
+      },
+      {
+        "name" : "BIOMD0000000229-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "24839",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c572e14c2e4833ed385da25761942e75",
+        "sha1sum" : "7226619877d3118db13d5ff2c29afeddee310e9f",
+        "sha256sum" : "bab6cc06f9d9f85c639335143dfda50c8f88cb0c59d4bf2bd84eb5ac59014b2d"
+      },
+      {
+        "name" : "BIOMD0000000229-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5284",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "241b16ac3fba03d1ea6bc98ecf715545",
+        "sha1sum" : "ddb4f83116059686a2e6d51d53c3f8a2dd34bd53",
+        "sha256sum" : "0f12c10c2b22d5bfe2bd1f476cf462dd952b56ef650117e5c4e7dd76876a15c7"
+      },
+      {
+        "name" : "BIOMD0000000229-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5284",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2787cfc0c8f8bf37e9597e02c028752f",
+        "sha1sum" : "477fbaf4e44c6b094c3983cf2c2eddb9ef2ae1d1",
+        "sha256sum" : "c719d5e6868027f24405c91b8728c21c6b054eea312344fe1d53eb4622c561ea"
+      },
+      {
+        "name" : "BIOMD0000000229.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5284",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2787cfc0c8f8bf37e9597e02c028752f",
+        "sha1sum" : "477fbaf4e44c6b094c3983cf2c2eddb9ef2ae1d1",
+        "sha256sum" : "c719d5e6868027f24405c91b8728c21c6b054eea312344fe1d53eb4622c561ea"
+      },
+      {
+        "name" : "BIOMD0000000229.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3241",
+        "mimeType" : "text/plain",
+        "md5sum" : "048b9ae762b592f3a72e27bac610422e",
+        "sha1sum" : "28b7b46962509cf1ced0903a30a46b82c8004605",
+        "sha256sum" : "b0b2ae41d7fcad81d578f0ce92b2b7072f7cfccd5a6e5289f4e8b7518674e811"
+      },
+      {
+        "name" : "BIOMD0000000229.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "190290",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d1e5075f7a2472ab9fbc3942a4f8f0fb",
+        "sha1sum" : "ced2a60e30ee61d272b2f37c47831c8569d2c168",
+        "sha256sum" : "bfa773a004ce352f940532e153e0e23cb36a2717b45269a5201e451106a5ad24"
+      },
+      {
+        "name" : "BIOMD0000000229.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "76612",
+        "mimeType" : "image/png",
+        "md5sum" : "76a61d4938af16ebfb66ef9e5f98d07a",
+        "sha1sum" : "7fc51c86b25badf7e7066506d17174c69584f283",
+        "sha256sum" : "4cab3d24cda65f2e92216204e12ba16b035ddc0ddf84bb8b6f4dd795d2945d07"
+      },
+      {
+        "name" : "BIOMD0000000229.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "2261",
+        "mimeType" : "text/plain",
+        "md5sum" : "b668f2e9991cd981abac60983d325a23",
+        "sha1sum" : "edbc2ff9b6d7883ae7c8ccd3174cd4f337343642",
+        "sha256sum" : "2b48fbd6432a36e91c9e00eb818e3b77fc26fdcbe106fe1f6ee7e608dc2bdb9c"
+      },
+      {
+        "name" : "BIOMD0000000229.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "31951",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "fc948e265dd1a4cb5e9d3d87e2bbfcec",
+        "sha1sum" : "bd5c02d7bf3c95bbd45052a6458522595e24f04a",
+        "sha256sum" : "443749e72578ff2d5838dc0fd09aa346e11b01a38e69178f7e2acf4cf5b34b72"
+      },
+      {
+        "name" : "BIOMD0000000229.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "42394",
+        "mimeType" : "application/xml",
+        "md5sum" : "d47f8e48f95210375bcbdb474eb762d1",
+        "sha1sum" : "f31e2ea16f9e5b8034aa8c969c55b34cfc348a90",
+        "sha256sum" : "e859b119e9325de2ac533e6485aad7c23cd4c3117eac9149063ea1ede517b9f8"
+      },
+      {
+        "name" : "BIOMD0000000229_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "20572",
+        "mimeType" : "application/xml",
+        "md5sum" : "53f22ff84ecda83c9d7c6c9e00a96f7d",
+        "sha1sum" : "6aed786a6e2a24a65e1852d76542fb5466c0b342",
+        "sha256sum" : "6c9c08b0920e248e7ca476378453ec48f8e03e594a6b5ff99f34ee4fdf301611"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "80129",
+        "mimeType" : "image/png",
+        "md5sum" : "b075c0e378a14daeb952509ebee64cfb",
+        "sha1sum" : "e79f438d91d7c783ef7d9f8f4f95162a813458d4",
+        "sha256sum" : "3198deebc4816841eb59d1116c7729c2d543eebc069c600917709f9db5280de0"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "8898f5070b9ba96534d30eddb95fff65",
+        "sha1sum" : "3f1bab1de18494f3a3a77ea935fef5ac3e37d254",
+        "sha256sum" : "70171894393120bcb1d3b5e3ab81c3498adc210d42a4138789c0951dec54b96a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "5889ebd17908413d14c063ce55d1b915",
+        "sha1sum" : "69e1a44f630d9618f75411fa2a1b8f81a2708009",
+        "sha256sum" : "96765c77e0cdeb7ab5996e24f7209a3d0241d4a7a66281e767a1d06300a679d8"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5245",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2f2462de0a5b179610dad92326e82d28",
+        "sha1sum" : "8777fd4f3f63f91a4d985545688f15ebcecb3d22",
+        "sha256sum" : "c267162b01f6fc177ccc3fce58a95ab13f6899b3f22ea0cc9eb6bd333137d06f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1250613960,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Ma2202_cAMP_oscillations"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135002,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Ma2002_cAMP_oscillations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270926,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284954,
+  "submissionId" : "MODEL0606755064",
+  "publicationId" : "BIOMD0000000229",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0606755064",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0606755064"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000229",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000229"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12482327",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12482327"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000099",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000099"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "44689",
+      "name" : "Dictyostelium discoideum",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/44689"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019933",
+      "name" : "cAMP-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019933"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006935",
+      "name" : "chemotaxis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006935"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "xcc02030",
+      "name" : "Bacterial chemotaxis - Xanthomonas campestris pv. campestris ATCC 33913",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/xcc02030"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

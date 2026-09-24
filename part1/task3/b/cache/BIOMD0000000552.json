@@ -1,0 +1,316 @@
+{
+  "name" : "Ehrenstein2000 - Positive-Feedback model for the loss of acetylcholine in Alzheimer's disease",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Ehrenstein2000 - Positive-Feedback model forthe loss of acetylcholine in Alzheimer's disease</div><div class=\"dc:description\">Curated model derived from<h1 style=\"font-family: helvetica, 'trebuchet MS', arial, sans-serif;\">BIOMD0000000553</h1></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/10863547\" title=\"Access to this publication\">A positive-feedback model    for the loss of acetylcholine in Alzheimer's disease.</a>  </div>  <div class=\"bibo:authorList\">Ehrenstein G, Galdzicki Z, Lange  GD.</div>  <div class=\"bibo:Journal\">Ann. N. Y. Acad. Sci. 2000; 899:  283-291</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>We describe a two-component positive-feedback system that    could account for the large reduction of acetylcholine that is    characteristic of patients with Alzheimer's disease (AD). One    component is beta-amyloid-induced apoptosis of cholinergic    cells, leading to a decrease in acetylcholine. The other    component is an increase in the concentration of beta-amyloid    in response to a decrease in acetylcholine. We describe each    mechanism with a differential equation, and then solve the two    equations numerically. The solution provides a description of    the time course of the reduction of acetylcholine in AD    patients that is consistent with epidemiological data. This    model may also provide an explanation for the significant, but    lesser, decrease of other neurotransmitters that is    characteristic of AD.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000552\">BIOMD0000000552</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "10863547",
+    "journal" : "Annals of the New York Academy of Sciences",
+    "title" : "A positive-feedback model for the loss of acetylcholine in Alzheimer's disease.",
+    "affiliation" : "Biophysics Section, National Institute of Neurological Disorders and Stroke, Bethesda, Maryland 20892, USA. gerry@helix.nih.gov",
+    "synopsis" : "We describe a two-component positive-feedback system that could account for the large reduction of acetylcholine that is characteristic of patients with Alzheimer's disease (AD). One component is beta-amyloid-induced apoptosis of cholinergic cells, leading to a decrease in acetylcholine. The other component is an increase in the concentration of beta-amyloid in response to a decrease in acetylcholine. We describe each mechanism with a differential equation, and then solve the two equations numerically. The solution provides a description of the time course of the reduction of acetylcholine in AD patients that is consistent with epidemiological data. This model may also provide an explanation for the significant, but lesser, decrease of other neurotransmitters that is characteristic of AD.",
+    "year" : 2000,
+    "month" : "0",
+    "volume" : "899",
+    "pages" : "283-291",
+    "link" : "http://identifiers.org/pubmed/10863547",
+    "authors" : [
+      {
+        "name" : "G Ehrenstein",
+        "institution" : "Biophysics Section, National Institute of Neurological Disorders and Stroke, Bethesda, Maryland 20892, USA. gerry@helix.nih.gov"
+      },
+      {
+        "name" : "Z Galdzicki"
+      },
+      {
+        "name" : "G D Lange"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000552_url.xml",
+        "description" : "SBML L2V4 representation of Ehrenstein2000 - Positive-Feedback model for the loss of acetylcholine in Alzheimer\\s disease",
+        "fileSize" : "24968",
+        "mimeType" : "application/xml",
+        "md5sum" : "1aa0921e1923390532682ab4a4f609d3",
+        "sha1sum" : "f2f0cd042844254410bf99bae1199a30bef7a5dd",
+        "sha256sum" : "5ea2a27a3cba8896de0bd9cccb573d9c2a8c047fac17aad3efd8fdfb0ab761af"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000552-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "8858",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "106e6c64d50dd1a521875cbe5d7a7a28",
+        "sha1sum" : "739bfcd299c9064b8381bbf3ac272307fcc01f16",
+        "sha256sum" : "ebcdf171b1e66b431d9f4f159f623082a7bca5c858e1cbdc1b846797313fe760"
+      },
+      {
+        "name" : "BIOMD0000000552-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "11390",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6e0c0534cd52289ea8fe0f475ca04580",
+        "sha1sum" : "331c8962462fa8ac5660b222515d24ba14b6a197",
+        "sha256sum" : "682999a2193fba28b9d8e08f029708ef9a7b341556ea8e92c229cd0396be0631"
+      },
+      {
+        "name" : "BIOMD0000000552-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4229",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "aa051c31d2ae3b3a31299ac2dfcb25be",
+        "sha1sum" : "32e6dc30b242de4a304e7287dc58748d6a36dada",
+        "sha256sum" : "7c316f591a8d9a4a398ccc597ca3c4d7d4dbfb76c125cf3955a1a8dfbf32f26f"
+      },
+      {
+        "name" : "BIOMD0000000552-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4229",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "26621bb1476f96379bc9b7c2a504fd1d",
+        "sha1sum" : "280d8e923f893c27ee99ca7332bba4b350eda417",
+        "sha256sum" : "a380ada360924b7cfdaf0f02a394232f595a067d9391cacbc4f963ae7d056713"
+      },
+      {
+        "name" : "BIOMD0000000552.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4229",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "26621bb1476f96379bc9b7c2a504fd1d",
+        "sha1sum" : "280d8e923f893c27ee99ca7332bba4b350eda417",
+        "sha256sum" : "a380ada360924b7cfdaf0f02a394232f595a067d9391cacbc4f963ae7d056713"
+      },
+      {
+        "name" : "BIOMD0000000552.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2555",
+        "mimeType" : "text/plain",
+        "md5sum" : "267c74ca705bd2b3b84ae478880e5222",
+        "sha1sum" : "5d62c30ba76aa4719d17bb02af178c62af6003aa",
+        "sha256sum" : "a1e7c9df0b48f6e795409c0efbe6f000a9a37ef0bbb86a84dc60e88dfc740aa5"
+      },
+      {
+        "name" : "BIOMD0000000552.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "159019",
+        "mimeType" : "application/pdf",
+        "md5sum" : "a0af36389eed531324df39f2d95b36c9",
+        "sha1sum" : "9130a0591d5c0ec55590ec97b91311e3f6c75bde",
+        "sha256sum" : "9bda8d36a08ffba2b4e65450cb7af0c6d2b97176b5e66c1512c85e85693130c5"
+      },
+      {
+        "name" : "BIOMD0000000552.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "26616",
+        "mimeType" : "image/png",
+        "md5sum" : "66e721e8a368c748b6121e6cf9c043fc",
+        "sha1sum" : "29142dac757cc0b17622220a1c2e1dcd41a4fcd9",
+        "sha256sum" : "34177f6ad40324643f46e993f433310b527f5c7fea4f49d6ab3ad1fd89ab64a6"
+      },
+      {
+        "name" : "BIOMD0000000552.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "13407",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "9ce740517bb092e072014e6b3547eb4f",
+        "sha1sum" : "8e567ae259af3bc319cd18805063a18252d4401e",
+        "sha256sum" : "53cebc3167e364f059d231fe17edc82bc18050cabd90a6d2f32dc94bf06342e1"
+      },
+      {
+        "name" : "BIOMD0000000552.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "29781",
+        "mimeType" : "application/xml",
+        "md5sum" : "9286d436049847b7c8535f351369ce06",
+        "sha1sum" : "dc9e51824f5085323862ed074f8af93cc7ee36e4",
+        "sha256sum" : "044af1c314cf98330ea8e74c98373ecde80bc6358729fc464340e07bc27fde04"
+      },
+      {
+        "name" : "Ehrenstein2000.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "40635",
+        "mimeType" : "application/xml",
+        "md5sum" : "e555183147408f5b737a20e99dcc3792",
+        "sha1sum" : "c0bb235d29a7ef12529d9dd74415f82ecd9a9839",
+        "sha256sum" : "2b25836744d0e1e723e2f1bace7a78fd68f7c09554f7fd30e7d0c202b035df76"
+      },
+      {
+        "name" : "Ehrenstein2000.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "9105",
+        "mimeType" : "application/xml",
+        "md5sum" : "673fb00ccc2c0adf6c9e618c3fc90085",
+        "sha1sum" : "502df217f50996a587ba6e29fc3162e287f9627d",
+        "sha256sum" : "1ae0cfbcab9d217d4a2b3cd1b3d3a39191796159dcd16684571aa3f95c2c9ee0"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21034",
+        "mimeType" : "image/png",
+        "md5sum" : "86e3a7706b0ba9804ed9b690c0de4c98",
+        "sha1sum" : "67617fde5d51fbc549f4b0c8c5162f9e365cdeb8",
+        "sha256sum" : "485c2c4484f25f9c84331faaf2858958979d93de7cf4e95bf35dbb662e4a47a8"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "329",
+        "mimeType" : "text/plain",
+        "md5sum" : "5a195bc734416765d0f915b4bbdff876",
+        "sha1sum" : "2add0c239fc886659b382fa849859e43924b907d",
+        "sha256sum" : "573a8771c936b340881fea4b003760dc6e888f9ad4a157754219d6109247b7f0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2027",
+        "mimeType" : "application/xml",
+        "md5sum" : "1add59dffdaefbddb4cd7fb52c67200c",
+        "sha1sum" : "053dbcbdb2ca49e5ca9a6dbd93e3d6c66976d5cd",
+        "sha256sum" : "71f12c4a7c60b5c2c63b9ae0adca414b80528e28ba06178414f700af5a54dfdb"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5270",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c48d2299b1a76564da8a709584f06c9b",
+        "sha1sum" : "5d86c9804ee337af6e1c7a003a64be2e2ff30a87",
+        "sha256sum" : "6ff64adb1df7f9324ff0c2c447d24751d890ab9e70e12870207bc5a6968d1926"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1413811884,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Original import of Ehrenstein2000 - Positive-Feedback model for the loss of acetylcholine in Alzheimer's disease"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1418396594,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Current version of Ehrenstein2000 - Positive-Feedback model for the loss of acetylcholine in Alzheimer's disease"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545413780,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Ehrenstein2000.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281277,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285331,
+  "submissionId" : "MODEL1410200001",
+  "publicationId" : "BIOMD0000000552",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Audald Lloret i Villas",
+        "email" : "lloret@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1410200001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1410200001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000552",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000552"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10863547",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10863547"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000553",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000553"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9284295",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9284295"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0008292",
+      "name" : "acetylcholine biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008292"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

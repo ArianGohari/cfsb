@@ -1,0 +1,276 @@
+{
+  "name" : "Smallbone2013 - Serine biosynthesis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Smallbone2013 - Serine biosynthesis</div>            <div class=\"dc:description\">      <p>Kinetic modelling of metabolic pathways in application to Serine biosynthesis.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23417802\" title=\"Access to this publication\">Kinetic Modeling of Metabolic Pathways: Application to Serine Biosynthesis</a>                    </div>                <div class=\"bibo:authorList\">Kieran Smallbone, Natalie J. Stanford</div>                <div class=\"bibo:Journal\">Methods in Molecular Biology. 2013; 985:113-121</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>In this chapter, we describe the steps needed to create a kinetic model of a metabolic pathway using kinetic data from both experimental measurements and literature review. Our methodology is presented by using the example of serine biosynthesis in E. coli.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>As there are no plots to be reproduced as curation figure, table 6 and 7 that corresponds to steady state concentration of metabolite and steady state fluxes of reactions has been reproduced.</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000458\">BIOMD0000000458</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23417802",
+    "journal" : "Methods in molecular biology (Clifton, N.J.)",
+    "title" : "Kinetic modeling of metabolic pathways: application to serine biosynthesis.",
+    "affiliation" : "Manchester Centre for Integrative Systems Biology, University of Manchester, Manchester, UK. kieran.smallbone@manchester.ac.uk",
+    "synopsis" : "In this chapter, we describe the steps needed to create a kinetic model of a metabolic pathway using kinetic data from both experimental measurements and literature review. Our methodology is presented by using the example of serine biosynthesis in E. coli.",
+    "year" : 2013,
+    "month" : "0",
+    "volume" : "985",
+    "pages" : "113-121",
+    "link" : "http://identifiers.org/pubmed/23417802",
+    "authors" : [
+      {
+        "name" : "Kieran Smallbone",
+        "institution" : "Manchester Centre for Integrative Systems Biology, University of Manchester, Manchester, UK.",
+        "orcid" : "0000-0003-2815-7045"
+      },
+      {
+        "name" : "Natalie J Stanford",
+        "orcid" : "0000-0003-4958-0184"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000458_url.xml",
+        "description" : "SBML L2V4 representation of Smallbone2013 - Serine biosynthesis",
+        "fileSize" : "20010",
+        "mimeType" : "application/xml",
+        "md5sum" : "a78cf42cbc6ee068e97e38d124e5e4bc",
+        "sha1sum" : "3713cddda430eeb405e982ae981e0f7bcbe88652",
+        "sha256sum" : "cac986642387434506dbdef2b9a0799b0d1ba2ac177cfb43334de2f69397495b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000458-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "11221",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7c9327584c3d3eb3678c4d266f71809a",
+        "sha1sum" : "2a2b622e7e8c317ce637205d1963ce19ec840abf",
+        "sha256sum" : "9458e5b8faa373d17e2539f305462dbbd222813835e3c9c56b9e0d75535c496f"
+      },
+      {
+        "name" : "BIOMD0000000458-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "14357",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8b81baf52a4e94a44d38e233b600c833",
+        "sha1sum" : "dd04c25c8575b493681a663b1a062f124eb7d5f1",
+        "sha256sum" : "81abb361c803a4b9bc0a1acedebb601085b558f2814ff952dd2da33ffbb492f9"
+      },
+      {
+        "name" : "BIOMD0000000458-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4435",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cfb0b6ca4e76842be5b8f8d8d0c00564",
+        "sha1sum" : "cb7f8ee511aee984fa7d7a825ab36b5a230768ea",
+        "sha256sum" : "782b59716f7550823a5b2b8832464492b0ac50ece534ad875b1a8619e4512fdf"
+      },
+      {
+        "name" : "BIOMD0000000458-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4435",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "43f860b074e41cda74c30aa6ad4078c9",
+        "sha1sum" : "e9fea7b7e4530fb2f9742feff927f68bb246b32a",
+        "sha256sum" : "566ad3921fe53575b198d1037e481e2f6902888f44ddb510cd59fcb36321ba0e"
+      },
+      {
+        "name" : "BIOMD0000000458.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4435",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "43f860b074e41cda74c30aa6ad4078c9",
+        "sha1sum" : "e9fea7b7e4530fb2f9742feff927f68bb246b32a",
+        "sha256sum" : "566ad3921fe53575b198d1037e481e2f6902888f44ddb510cd59fcb36321ba0e"
+      },
+      {
+        "name" : "BIOMD0000000458.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2325",
+        "mimeType" : "text/plain",
+        "md5sum" : "f0710c13bd15c1b375099bd955e724f7",
+        "sha1sum" : "349211f66485f9105d90d8963aeb3e19b8f2068f",
+        "sha256sum" : "bb9f8f52ef46906b01032d5b3dd617586df1f00ac8be5bd977f4f834f685121e"
+      },
+      {
+        "name" : "BIOMD0000000458.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "157164",
+        "mimeType" : "application/pdf",
+        "md5sum" : "0e13d46c7ea3f0a71fb80878896db720",
+        "sha1sum" : "7fbc908802023049cb4d6640eb29b4d50dcf38b4",
+        "sha256sum" : "3d68d38f8c4b37f0a2581019ab8a8209d2d242c3b6afc70c13c0c86ff9a0b446"
+      },
+      {
+        "name" : "BIOMD0000000458.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "73651",
+        "mimeType" : "image/png",
+        "md5sum" : "61fc5fefc2907ac39db64bdc2a5c192a",
+        "sha1sum" : "0918fb5936c5de37320efbdd9188cd78b04e850f",
+        "sha256sum" : "a608b12c1a1c6161fcfea023444c38589f217ebc2f6ccc79a958384caf4191f0"
+      },
+      {
+        "name" : "BIOMD0000000458.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "14370",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "492aaf7e7296adc4910eba6a274cea48",
+        "sha1sum" : "1196d5c8fc7433d1cf2c6954f2e29f88f080055e",
+        "sha256sum" : "facc9957d7a23dcd6a55bc61fb7b6b0d19eef6f102367cc4ba07bb186e6aa5cd"
+      },
+      {
+        "name" : "BIOMD0000000458.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "25515",
+        "mimeType" : "application/xml",
+        "md5sum" : "29628d4746b4e943430b244d8aa37339",
+        "sha1sum" : "edde946c89737091a8cab53db66e93f610f1a9c4",
+        "sha256sum" : "accebc80a8ce669b48d4537691121e61412727c0bd3c306b8f4af6b45f64439b"
+      },
+      {
+        "name" : "BIOMD0000000458_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "8296",
+        "mimeType" : "application/xml",
+        "md5sum" : "dc227663ad107c7ce18f163b1f5590ab",
+        "sha1sum" : "3d9479e2c52d03f90dc28fa9f52cd2dd72d05fdf",
+        "sha256sum" : "531d2f15c106302a0e64ad659425c095dc2266b22925a4d696dff222e111cea4"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "75497",
+        "mimeType" : "image/png",
+        "md5sum" : "3508282c7f62d384ba88001b80d539d3",
+        "sha1sum" : "9a28c4531f866f43a52bfb5ee89a7ab2bb571932",
+        "sha256sum" : "d70e7457ae225aa1b4b0dc8b1cb7105d5359be2e4dac7a160c4048eaf255309c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "209",
+        "mimeType" : "text/plain",
+        "md5sum" : "ac2f07edadacd0427414a20a72f3ae88",
+        "sha1sum" : "004587082feec0fb34e500a613a72973b2e8fe62",
+        "sha256sum" : "8795dc4d480a33eb4d9a5a0fbb9f8c515711d634a4b702a5243d9a36865103cc"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "fdd68fcc49bcf7b152669294250a7521",
+        "sha1sum" : "c327afe41a57f5b3c0193e1b5b02a76e800891a3",
+        "sha256sum" : "7646915c778d044f3bbdf549f72e2bf0fb497a74b12affca29a5ceee20d5ca3e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4310",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f349a68d1e1f4f3edde846c2162a961a",
+        "sha1sum" : "e21ed65b50681ddec82a150bcc692ea7391d4be1",
+        "sha256sum" : "371cb5ca325a09ea9f699d6fbfdfb5f0d85e4b96da79aac8f8d4d9ac5fe68a34"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1332327794,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Original import of serine"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1370876182,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Current version of Smallbone2013 - Serine biosynthesis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277669,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285198,
+  "submissionId" : "MODEL1203210000",
+  "publicationId" : "BIOMD0000000458",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kieran Smallbone",
+        "email" : "kieran.smallbone@ncl.ac.uk",
+        "affiliation" : "Human Nutrition Research Centre, Newcastle University, Newcastle upon Tyne, UK.",
+        "orcid" : "0000-0003-2815-7045",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1203210000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1203210000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000458",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000458"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23417802",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23417802"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006564",
+      "name" : "L-serine biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006564"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

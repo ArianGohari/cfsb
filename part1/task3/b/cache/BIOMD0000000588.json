@@ -1,0 +1,331 @@
+{
+  "name" : "Benson2013 - Identification of key drug targets in nerve growth factor pathway",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">    <div class=\"dc:title\">Benson2013 - Identification of key drug targets in nerve growth factor pathway</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/24427523\" title=\"Access to this publication\">    Systems pharmacology of the nerve growth factor pathway: use of a systems biology model for the identification of key drug targets using sensitivity analysis and the integration of physiology and pharmacology. </a>  </div>  <div class=\"bibo:authorList\">Benson N, Matsuura T, Smirnov S, Demin O, Jones HM, Dua P, van der Graaf PH.   </div>  <div class=\"bibo:Journal\">Interface Focus 2013 Apr; 3(2): 20120071   </div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>    The nerve growth factor (NGF) pathway is of great interest as a potential source of drug targets, for example in the management of certain types of pain. However, selecting targets from this pathway either by intuition or by non-contextual measures is likely to be challenging. An alternative approach is to construct a mathematical model of the system and via sensitivity analysis rank order the targets in the known pathway, with respect to an endpoint such as the diphosphorylated extracellular signal-regulated kinase concentration in the nucleus. Using the published literature, a model was created and, via sensitivity analysis, it was concluded that, after NGF itself, tropomyosin receptor kinase A (TrkA) was one of the most sensitive druggable targets. This initial model was subsequently used to develop a further model incorporating physiological and pharmacological parameters. This allowed the exploration of the characteristics required for a successful hypothetical TrkA inhibitor. Using these systems models, we were able to identify candidates for the optimal drug targets in the known pathway. These conclusions were consistent with clinical and human genetic data. We also found that incorporating appropriate physiological context was essential to drawing accurate conclusions about important parameters such as the drug dose required to give pathway inhibition. Furthermore, the importance of the concentration of key reactants such as TrkA kinase means that appropriate contextual data are required before clear conclusions can be drawn. Such models could be of great utility in selecting optimal targets and in the clinical evaluation of novel drugs. </p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000588\">BIOMD0000000588</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24427523",
+    "journal" : "Interface focus",
+    "title" : "Systems pharmacology of the nerve growth factor pathway: use of a systems biology model for the identification of key drug targets using sensitivity analysis and the integration of physiology and pharmacology.",
+    "affiliation" : "Xenologiq Ltd, Unit 7 , Denne Hill Business Park, Canterbury CT4 6HD , UK ; Department of Pharmacokinetics, Dynamics and Metabolism , Pfizer Worldwide R&D , Boston, MA , USA.",
+    "synopsis" : "The nerve growth factor (NGF) pathway is of great interest as a potential source of drug targets, for example in the management of certain types of pain. However, selecting targets from this pathway either by intuition or by non-contextual measures is likely to be challenging. An alternative approach is to construct a mathematical model of the system and via sensitivity analysis rank order the targets in the known pathway, with respect to an endpoint such as the diphosphorylated extracellular signal-regulated kinase concentration in the nucleus. Using the published literature, a model was created and, via sensitivity analysis, it was concluded that, after NGF itself, tropomyosin receptor kinase A (TrkA) was one of the most sensitive druggable targets. This initial model was subsequently used to develop a further model incorporating physiological and pharmacological parameters. This allowed the exploration of the characteristics required for a successful hypothetical TrkA inhibitor. Using these systems models, we were able to identify candidates for the optimal drug targets in the known pathway. These conclusions were consistent with clinical and human genetic data. We also found that incorporating appropriate physiological context was essential to drawing accurate conclusions about important parameters such as the drug dose required to give pathway inhibition. Furthermore, the importance of the concentration of key reactants such as TrkA kinase means that appropriate contextual data are required before clear conclusions can be drawn. Such models could be of great utility in selecting optimal targets and in the clinical evaluation of novel drugs.",
+    "year" : 2013,
+    "month" : "4",
+    "volume" : "3",
+    "issue" : "2",
+    "pages" : "20120071",
+    "link" : "http://identifiers.org/pubmed/24427523",
+    "authors" : [
+      {
+        "name" : "Neil Benson",
+        "institution" : "Xenologiq Ltd, Unit 7 , Denne Hill Business Park, Canterbury CT4 6HD , UK ; Department of Pharmacokinetics, Dynamics and Metabolism , Pfizer Worldwide R&D , Boston, MA , USA."
+      },
+      {
+        "name" : "Tomomi Matsuura",
+        "institution" : "Department of Pharmacokinetics, Dynamics and Metabolism , Pfizer Worldwide R&D , Boston, MA , USA ; Astellas , 21 Miyukigaoka, Tsukuba, Ibaraki 305-8585 , Japan."
+      },
+      {
+        "name" : "Sergey Smirnov",
+        "institution" : "Institute for Systems Biology SPb, Leninskie Gory 1/75G, Moscow 119992 , Russia."
+      },
+      {
+        "name" : "Oleg Demin",
+        "institution" : "Institute for Systems Biology SPb, Leninskie Gory 1/75G, Moscow 119992 , Russia."
+      },
+      {
+        "name" : "Hannah M Jones",
+        "institution" : "Department of Pharmacokinetics, Dynamics and Metabolism , Pfizer Worldwide R&D , Boston, MA , USA."
+      },
+      {
+        "name" : "Pinky Dua",
+        "institution" : "Pharmatherapeutics Clinical Pharmacology, Pfizer Neusentis , The Portway Building, Granta Park, Cambridge CB21 6GS , UK ; Neusentis, Pfizer Global Clinical Pharmacology , The Portway Building, Granta Park, Cambridge CB21 6GS , UK."
+      },
+      {
+        "name" : "Piet H van der Graaf",
+        "institution" : "Department of Pharmacokinetics, Dynamics and Metabolism , Pfizer Worldwide R&D , Boston, MA , USA ; Neusentis, Pfizer Global Clinical Pharmacology , The Portway Building, Granta Park, Cambridge CB21 6GS , UK ; Leiden Academic Centre for Drug Research (LACDR) , Leiden RA 2300 , The Netherlands."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000588_url.xml",
+        "description" : "SBML L2V4 representation of Benson2013 - Identification of key drug targets in nerve growth factor pathway",
+        "fileSize" : "265235",
+        "mimeType" : "application/xml",
+        "md5sum" : "42e6e401864e3ea2bb466f6d0cc28bf2",
+        "sha1sum" : "64bda302264b1a87af951e08a808e3fcfc1031bc",
+        "sha256sum" : "b2fe0698476512720d3470a4a51a8f0b26a1db9e72f3615c8123de2fd48888f5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000588-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "237622",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4d2e53c62ff77e6cacb23f33df1465ff",
+        "sha1sum" : "cd3fd3341559daf3c412fcd2be48346343af33ac",
+        "sha256sum" : "3f66892364a50c6deb8b39b16db812872eb107b37548b84f2b369f1b5c9b456c"
+      },
+      {
+        "name" : "BIOMD0000000588-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "411354",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fb4de856c6bef294f92b316bc7839f11",
+        "sha1sum" : "bd701f420483808950f339a4651a3841fd50113a",
+        "sha256sum" : "d0397684cdcdaf058a16c8877feb3d74b50731e41590cf4218095b70ac07476e"
+      },
+      {
+        "name" : "BIOMD0000000588-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "62822",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d90e85e9f70ae338a5f6f4e5e78b1bc0",
+        "sha1sum" : "7f5e02be9a48ef24a159b262dab3b87c8f5bdb42",
+        "sha256sum" : "5ac627687aaa2527ea41004871f89cc2a79e5cfe22e67a79d785c7c5f766bc1f"
+      },
+      {
+        "name" : "BIOMD0000000588-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "62822",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2938666eccabb08d4e41277324e22736",
+        "sha1sum" : "17181b66630ff99cedf5a3e1ea9b280ff9dd74cf",
+        "sha256sum" : "030bca1499e71eee40706518fc97628a7ce30b7d91ebb6b6f2344250186ab780"
+      },
+      {
+        "name" : "BIOMD0000000588.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "62822",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2938666eccabb08d4e41277324e22736",
+        "sha1sum" : "17181b66630ff99cedf5a3e1ea9b280ff9dd74cf",
+        "sha256sum" : "030bca1499e71eee40706518fc97628a7ce30b7d91ebb6b6f2344250186ab780"
+      },
+      {
+        "name" : "BIOMD0000000588.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "48516",
+        "mimeType" : "text/plain",
+        "md5sum" : "31613f310c142f65741ebef1444fd290",
+        "sha1sum" : "98b72512ead47b53cc939f568c1289b547f44fe1",
+        "sha256sum" : "02290b88b3f5ab2b3cdfe6d8880f35705596e43e2c2b2cf8ca411658fe9e16be"
+      },
+      {
+        "name" : "BIOMD0000000588.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "1072726",
+        "mimeType" : "application/pdf",
+        "md5sum" : "dc374da36c4687dc39a9ad4bb26ef9b6",
+        "sha1sum" : "bd7b7afd4569a2288e6f5ea58a103629f82accf3",
+        "sha256sum" : "533b65f3b29be9ba7620a3ec3486b74750502bd936ec90cc4f8d7ab81567fa8a"
+      },
+      {
+        "name" : "BIOMD0000000588.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "7394454",
+        "mimeType" : "image/png",
+        "md5sum" : "170f0be26e916407f14e32c9e9b314a3",
+        "sha1sum" : "d93505d2735425833d21bb3f71f925cecd2d40ca",
+        "sha256sum" : "cb7b6f5a9ea4703a615f051f926e8945358c8ab681fcddae33bf2004d2368b23"
+      },
+      {
+        "name" : "BIOMD0000000588.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "503128",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b45b800688ec117c34c63ee4c7ad5ab7",
+        "sha1sum" : "fbe01da5ad90b9be18ab2d7b806d3c3e3299630a",
+        "sha256sum" : "87c01f9c59ea69a2275e695344b6651a58972ac7e251659c2236684660ac72ed"
+      },
+      {
+        "name" : "BIOMD0000000588_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "256141",
+        "mimeType" : "application/xml",
+        "md5sum" : "efd55c93de119bce733f833b861f8bcd",
+        "sha1sum" : "a9249e6ddfd742609a959ab693f40e187e1afcb3",
+        "sha256sum" : "a111d8b9a448d395c4ebadfd3707c1ad1a760dde12068cf9c1c22beba1d0508f"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "16059",
+        "mimeType" : "image/png",
+        "md5sum" : "360b4e8628636ebec918a57f8bb7b289",
+        "sha1sum" : "7453cf8166c249060443789e5efdc0f328222361",
+        "sha256sum" : "a937c723a87989ba826353e87f97fa5a90baa0128eaaab5763b33644b306f6e9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "440",
+        "mimeType" : "text/plain",
+        "md5sum" : "934c9c0209426fff2a457c0b579e374c",
+        "sha1sum" : "41830d7f995f5ffb020ad55117efd84907b7e4e9",
+        "sha256sum" : "574940d8f1caf9e559646df58c098cd552868e234c7b4a3868e8f9ab12d2a4c0"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "548c920037d35517eae6d4ac8533ae35",
+        "sha1sum" : "8e33c99c3585a08c5d48e2a3c0273ab5d49f0098",
+        "sha256sum" : "53594030d1e529e536ad2b61eb0d5bae0c861f6e3e3aaa8a59887662934464b2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6373",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "db92e037be2fc15857b078ade1661b3c",
+        "sha1sum" : "4720ce774da27ffa56479f40090175a82dca7984",
+        "sha256sum" : "e90d0c5a11a11d2a66b25670bf9520ae5466eaaeaa43516082a62626ccfcc793"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1454077229,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Systems_pharm_NGF_Sasa_Fuj_Inter_focus_26_09_12corr"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1485960664,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Benson2013 - Identification of key drug targets in nerve growth factor pathway"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1530614586,
+        "submitter" : "administrator",
+        "comment" : "make model name in the file consistent with the database"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724282656,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285365,
+  "submissionId" : "MODEL1601290000",
+  "publicationId" : "BIOMD0000000588",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1601290000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1601290000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000588",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000588"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24427523",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24427523"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "16418172",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16418172"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000049",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000049"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051387",
+      "name" : "negative regulation of neurotrophin TRK receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051387"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0038180",
+      "name" : "nerve growth factor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0038180"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "EFO:EFO:0003843",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "urn:miriam:efo:EFO%3A0003843"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10114",
+      "name" : "Rattus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10114"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0001009",
+      "name" : "PC-12 cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0001009"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

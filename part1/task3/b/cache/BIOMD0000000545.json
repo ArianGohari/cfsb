@@ -1,0 +1,299 @@
+{
+  "name" : "Ouyang2014 - photomorphogenic UV-B signalling network",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Ouyang2014 - photomorphogenic UV-B signallingnetwork</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/25049395\" title=\"Access to this publication\">Coordinated photomorphogenic    UV-B signaling network captured by mathematical modeling.</a>  </div>  <div class=\"bibo:authorList\">Ouyang X, Huang X, Jin X, Chen Z,  Yang P, Ge H, Li S, Deng XW.</div>  <div class=\"bibo:Journal\">Proc. Natl. Acad. Sci. U.S.A. 2014 Aug;  111(31): 11539-11544</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Long-wavelength and low-fluence UV-B light is an    informational signal known to induce photomorphogenic    development in plants. Using the model plant Arabidopsis    thaliana, a variety of factors involved in UV-B-specific    signaling have been experimentally characterized over the past    decade, including the UV-B light receptor UV resistance locus    8; the positive regulators constitutive photomorphogenesis 1    and elongated hypocotyl 5; and the negative regulators cullin4,    repressor of UV-B photomorphogenesis 1 (RUP1), and RUP2.    Individual genetic and molecular studies have revealed that    these proteins function in either positive or negative    regulatory capacities for the sufficient and balanced    transduction of photomorphogenic UV-B signal. Less is known,    however, regarding how these signaling events are    systematically linked. In our study, we use a systems biology    approach to investigate the dynamic behaviors and correlations    of multiple signaling components involved in Arabidopsis    UV-B-induced photomorphogenesis. We define a mathematical    representation of photomorphogenic UV-B signaling at a temporal    scale. Supplemented with experimental validation, our    computational modeling demonstrates the functional interaction    that occurs among different protein complexes in early and    prolonged response to photomorphogenic UV-B.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000545\">BIOMD0000000545</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25049395",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Coordinated photomorphogenic UV-B signaling network captured by mathematical modeling.",
+    "affiliation" : "Peking-Yale Joint Center for Plant Molecular Genetics and Agro-Biotechnology, State Key Laboratory of Protein and Plant Gene Research, Peking-Tsinghua Center for Life Sciences, College of Life Sciences, Peking University, Beijing 100871, China;Rice Research Institute, Sichuan Agricultural University, Chengdu, Sichuan 611130, China;",
+    "synopsis" : "Long-wavelength and low-fluence UV-B light is an informational signal known to induce photomorphogenic development in plants. Using the model plant Arabidopsis thaliana, a variety of factors involved in UV-B-specific signaling have been experimentally characterized over the past decade, including the UV-B light receptor UV resistance locus 8; the positive regulators constitutive photomorphogenesis 1 and elongated hypocotyl 5; and the negative regulators cullin4, repressor of UV-B photomorphogenesis 1 (RUP1), and RUP2. Individual genetic and molecular studies have revealed that these proteins function in either positive or negative regulatory capacities for the sufficient and balanced transduction of photomorphogenic UV-B signal. Less is known, however, regarding how these signaling events are systematically linked. In our study, we use a systems biology approach to investigate the dynamic behaviors and correlations of multiple signaling components involved in Arabidopsis UV-B-induced photomorphogenesis. We define a mathematical representation of photomorphogenic UV-B signaling at a temporal scale. Supplemented with experimental validation, our computational modeling demonstrates the functional interaction that occurs among different protein complexes in early and prolonged response to photomorphogenic UV-B.",
+    "year" : 2014,
+    "month" : "8",
+    "volume" : "111",
+    "issue" : "31",
+    "pages" : "11539-11544",
+    "link" : "http://identifiers.org/pubmed/25049395",
+    "authors" : [
+      {
+        "name" : "Xinhao Ouyang",
+        "institution" : "Peking-Yale Joint Center for Plant Molecular Genetics and Agro-Biotechnology, State Key Laboratory of Protein and Plant Gene Research, Peking-Tsinghua Center for Life Sciences, College of Life Sciences, Peking University, Beijing 100871, China;Rice Research Institute, Sichuan Agricultural University, Chengdu, Sichuan 611130, China;"
+      },
+      {
+        "name" : "Xi Huang",
+        "institution" : "Peking-Yale Joint Center for Plant Molecular Genetics and Agro-Biotechnology, State Key Laboratory of Protein and Plant Gene Research, Peking-Tsinghua Center for Life Sciences, College of Life Sciences, Peking University, Beijing 100871, China;"
+      },
+      {
+        "name" : "Xiao Jin",
+        "institution" : "Beijing International Center for Mathematical Research, Peking University, Beijing 100871, China;"
+      },
+      {
+        "name" : "Zheng Chen",
+        "institution" : "Department of Computer Science and Engineering, Washington University in St. Louis, St. Louis, MO 63105; and."
+      },
+      {
+        "name" : "Panyu Yang",
+        "institution" : "Peking-Yale Joint Center for Plant Molecular Genetics and Agro-Biotechnology, State Key Laboratory of Protein and Plant Gene Research, Peking-Tsinghua Center for Life Sciences, College of Life Sciences, Peking University, Beijing 100871, China;"
+      },
+      {
+        "name" : "Hao Ge",
+        "institution" : "Beijing International Center for Mathematical Research, Peking University, Beijing 100871, China;"
+      },
+      {
+        "name" : "Shigui Li",
+        "institution" : "Rice Research Institute, Sichuan Agricultural University, Chengdu, Sichuan 611130, China;"
+      },
+      {
+        "name" : "Xing Wang Deng",
+        "institution" : "Peking-Yale Joint Center for Plant Molecular Genetics and Agro-Biotechnology, State Key Laboratory of Protein and Plant Gene Research, Peking-Tsinghua Center for Life Sciences, College of Life Sciences, Peking University, Beijing 100871, China;Department of Molecular, Cellular, and Developmental Biology, Yale University, New Haven, CT 06520-8104 xingwang.deng@yale.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000545_url.xml",
+        "description" : "SBML L2V4 representation of Ouyang2014 - photomorphogenic UV-B signalling network",
+        "fileSize" : "34472",
+        "mimeType" : "application/xml",
+        "md5sum" : "7d6430f0b5fe0fa9a92a8046a77f255c",
+        "sha1sum" : "ef180a040b1c280f7336a5477200be8edad5981f",
+        "sha256sum" : "c57247385ec41a9194263311c8ea688e95d27bd6268879fcb0e1c5c7554b84f5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000545-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "20962",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c9ffa2ece4abac3c02f8d5578079e63f",
+        "sha1sum" : "a2d90b5d0cb287b2ecfefb0b964391bd730234d0",
+        "sha256sum" : "7d4ba3014887f4aa6ef8ab765f351fb743ba7edafeb03926a9519e90b160cbcb"
+      },
+      {
+        "name" : "BIOMD0000000545-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "30972",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d26d9cd3b598d8520a1e8c801e45c538",
+        "sha1sum" : "df36d7248e1d2e13464e80cc94a8855f547492f4",
+        "sha256sum" : "5ae4f584c3a57f4b5a9d41ab675976174c3dc3193ceff03a4ee4b7e3df3f7082"
+      },
+      {
+        "name" : "BIOMD0000000545-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6818",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "927b8d785991266180a22c12ede6f0b1",
+        "sha1sum" : "5558f48ad4be2549f9a866c8279544f399644bfc",
+        "sha256sum" : "206a07903f3ee20369c5aaf0c095eb0fc57d1c60ecf6d8f607696132a07d2b47"
+      },
+      {
+        "name" : "BIOMD0000000545.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6085",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1a2f8d206fe50c164a34bb952d4275d5",
+        "sha1sum" : "36addc90ade4377fce11e1e8bad0f458e938a7aa",
+        "sha256sum" : "7d38ae7e814a7b7a94121a3100783f8c98a2f24280ccb55e5a8a42b8ebb30990"
+      },
+      {
+        "name" : "BIOMD0000000545.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4678",
+        "mimeType" : "text/plain",
+        "md5sum" : "a1af5a6bcd6c6ec1f34bebe03d184966",
+        "sha1sum" : "708a28ed6c53f990f0d948ee0a46197bb37f3f7c",
+        "sha256sum" : "006f73bd4ec4304020058d7705395ab3f88cd8b01e32772402dc933f01cbf955"
+      },
+      {
+        "name" : "BIOMD0000000545.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "201277",
+        "mimeType" : "application/pdf",
+        "md5sum" : "584f3a36a7b25829decfd18ad5e7a5a6",
+        "sha1sum" : "82e4a011325dabb271c3a52edce7a07437dfffc9",
+        "sha256sum" : "4820a6c405dd5d9e3adad514a278dfb7d7de432366c6819dbf247b5b8f27afe7"
+      },
+      {
+        "name" : "BIOMD0000000545.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "187070",
+        "mimeType" : "image/png",
+        "md5sum" : "cc295a84ddb876b19db3650438eb698b",
+        "sha1sum" : "77f3c5952331e200897f8adde21c8d2c8492e3eb",
+        "sha256sum" : "814b9645faf8a1e47bf0bc5bbe80475f7cad4cec7b8c2cc8b4a0ea50717d5434"
+      },
+      {
+        "name" : "BIOMD0000000545.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "4280",
+        "mimeType" : "text/plain",
+        "md5sum" : "813b073513607f7a1bde3736a7e6dc1a",
+        "sha1sum" : "4cd12fc36069376cfea8463dbb74a9e1cf08119a",
+        "sha256sum" : "3c1584997611220ec282935dcaf758799b416f58e5118b7e815ae1d6286d8778"
+      },
+      {
+        "name" : "BIOMD0000000545.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "34049",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "73d0c06d8039406430be3063940d502f",
+        "sha1sum" : "def677742a271930c4249433ed23f81b93f908ab",
+        "sha256sum" : "a1f24bfb98c4d01528f9711fff48ae3199da2159a09b41bf2a69dc67cc5d8544"
+      },
+      {
+        "name" : "BIOMD0000000545.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "44186",
+        "mimeType" : "application/xml",
+        "md5sum" : "b1d4ffe63d03b9314d2b51d7ef7508bb",
+        "sha1sum" : "a3a0f1e830560ad631c339ea9a093b954c841905",
+        "sha256sum" : "160dfea9e25f9c3c009c0ea1f32b3e33972a6af11cbf61015ae878ab3c6341e6"
+      },
+      {
+        "name" : "BIOMD0000000545_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "28673",
+        "mimeType" : "application/xml",
+        "md5sum" : "905386c80a6e4dc90f228aafaeb2b1d2",
+        "sha1sum" : "025ceb4ba926b259d319e474d8a6ae9cb4a12e16",
+        "sha256sum" : "e69e7b73c68431e887348822f284cd8c088b465a2feb1d4dc82a7e46338ef73a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "8047",
+        "mimeType" : "image/png",
+        "md5sum" : "70a84857f9e3193705df7181a7283f4e",
+        "sha1sum" : "6edaab8d53eba8f5c5ec8bfffd898b40a80c1de2",
+        "sha256sum" : "b376e75f517dc8ef19fd417393b10c213401debf06475c07bcf79e8ed781f55a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "347",
+        "mimeType" : "text/plain",
+        "md5sum" : "114e8853918093901cdbf16c7e96ee0b",
+        "sha1sum" : "75bb9252abf1fa24314eba7eb0caedfc1f230909",
+        "sha256sum" : "83ee5c816764c456b86550226388d7de3359579caf6f845fe66f9926c39d136a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "8883da9bb15b840779ad9dc699a47ce9",
+        "sha1sum" : "20568924139f8afa86d4b58e2339d1d44dbb9a9a",
+        "sha256sum" : "7fe9352e4cb7719b1af4fdc9eef4534b48c1f1ae6b896e27a25834fec200799a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5166",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "228570b76faf9f5e0828b29267fe15ef",
+        "sha1sum" : "c9daefce4bbedc2a0d6783f7b912113763b192b7",
+        "sha256sum" : "ee1b1fa8dd1e77b50c18917c950d193740634e685c1d4e33da770845b47be92c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1406123676,
+        "submitter" : "Xinhao Ouyang",
+        "comment" : "Original import of A_for_SBML"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1410363872,
+        "submitter" : "Xinhao Ouyang",
+        "comment" : "Current version of Ouyang2014 - photomorphogenic UV-B signalling network"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724281105,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285319,
+  "submissionId" : "MODEL1407230000",
+  "publicationId" : "BIOMD0000000545",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Xinhao Ouyang",
+        "email" : "oyxh1983@126.com",
+        "affiliation" : "Pkeing University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1407230000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1407230000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000545",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000545"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "25049395",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/25049395"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009640",
+      "name" : "photomorphogenesis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009640"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

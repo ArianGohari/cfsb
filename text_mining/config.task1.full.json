@@ -1,0 +1,2111 @@
+{
+  "offline": false,
+  "search": {
+    "source": "europepmc",
+    "queries": [
+      "((TITLE_ABS:(circadian OR \"biological clock\" OR \"clock gene\" OR PER2 OR PERIOD2 OR BMAL1 OR ARNTL OR CRY1 OR CRY2 OR NR1D1) AND TITLE_ABS:(cancer OR tumor OR tumour OR neoplasm OR checkpoint OR p53 OR TP53 OR MDM2 OR \"DNA damage\" OR \"cell cycle\")) OR (EXT_ID:(32372973 OR 25103245 OR 25411341 OR 27699644 OR 30425162 OR 33232245) AND SRC:MED)) AND FIRST_PDATE:[0001-01-01 TO 2026-09-21]"
+    ],
+    "max_records": 100000,
+    "page_size": 1000,
+    "mode": "task1_rules_full_search"
+  },
+  "network": {
+    "timeout": 30,
+    "max_attempts": 2
+  },
+  "seeds": [
+    {
+      "id": "33232245",
+      "source": "MED",
+      "pmid": "33232245",
+      "doi": "10.1109/tcbb.2020.3040368",
+      "title": "Circadian Rhythm Regulated by Tumor Suppressor p53 and Time Delay in Unstressed Cells.",
+      "authorString": "Wang C, Liu H, Miao Z, Zhou J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang C",
+            "lastName": "Wang",
+            "firstName": "Conghua",
+            "initials": "C"
+          },
+          {
+            "fullName": "Liu H",
+            "lastName": "Liu",
+            "firstName": "Haihong",
+            "initials": "H"
+          },
+          {
+            "fullName": "Miao Z",
+            "lastName": "Miao",
+            "firstName": "Zhonghua",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Zhou J",
+            "lastName": "Zhou",
+            "firstName": "Jin",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7563-9720"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2666-7933"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "19",
+        "journalIssueId": 3368658,
+        "dateOfPublication": "2022 May-Jun",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2022,
+        "journal": {
+          "medlineAbbreviation": "IEEE/ACM Trans Comput Biol Bioinform",
+          "title": "IEEE/ACM transactions on computational biology and bioinformatics",
+          "essn": "1557-9964",
+          "issn": "1545-5963",
+          "isoabbreviation": "IEEE/ACM Trans Comput Biol Bioinform",
+          "nlmid": "101196755"
+        },
+        "printPublicationDate": "2022-05-01"
+      },
+      "pubYear": "2022",
+      "pageInfo": "1523-1530",
+      "abstractText": "Circadian function and p53 network are interconnected on the molecular level, but the dynamics induced by the interaction between the circadian factor Per2 and the tumor suppressor p53 remains poorly understood. Here, we constructed an integrative model composed of a circadian clock module and a p53-Mdm2 feedback module to study the dynamics of p53-Per2 network in unstressed cells. As expected, the model can accurately predict the circadian rhythm, which is consistent with diverse experimental observations. In addition, using a combination of theoretical analysis and numerical simulation, the results demonstrated that p53 expression enhances the phase advance of circadian rhythm and reduces the robustness of circadian rhythm. Furthermore, the time delay required for the transcription and translation of Per2 protein induces oscillations by undergoing a supercritical Hopf bifurcation, and improves the robustness of circadian rhythm. In summary, this work shows that the p53-Per2 interaction and the time delay are two essential factors for circadian functions.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "12062027",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "51875331",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Circadian Rhythm",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Computer Simulation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Suppressor Protein p53",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Period Circadian Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Circadian Clocks"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Tumor Suppressor Protein p53",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Period Circadian Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1109/TCBB.2020.3040368"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2022-06-08",
+      "dateOfCreation": "2020-11-24",
+      "dateOfRevision": "2022-06-08",
+      "electronicPublicationDate": "2022-06-03",
+      "firstPublicationDate": "2022-05-01",
+      "firstIndexDate": "2020-11-25",
+      "hasEvaluations": "N",
+      "paper_id": "PMID:33232245",
+      "pmcid": "",
+      "abstract": "Circadian function and p53 network are interconnected on the molecular level, but the dynamics induced by the interaction between the circadian factor Per2 and the tumor suppressor p53 remains poorly understood. Here, we constructed an integrative model composed of a circadian clock module and a p53-Mdm2 feedback module to study the dynamics of p53-Per2 network in unstressed cells. As expected, the model can accurately predict the circadian rhythm, which is consistent with diverse experimental observations. In addition, using a combination of theoretical analysis and numerical simulation, the results demonstrated that p53 expression enhances the phase advance of circadian rhythm and reduces the robustness of circadian rhythm. Furthermore, the time delay required for the transcription and translation of Per2 protein induces oscillations by undergoing a supercritical Hopf bifurcation, and improves the robustness of circadian rhythm. In summary, this work shows that the p53-Per2 interaction and the time delay are two essential factors for circadian functions.",
+      "publication_date": "2022-05-01",
+      "license": "Licensed local PDF; no redistribution or remote LLM upload permission established",
+      "allow_remote_llm": false,
+      "metadata_source_ref": "text_mining/data/task1-seeds-20260921/raw/ca2327a83f51ade8a5e830396f04c479cf76c13badd7a07e80300c2d8bed6791/f10c1f6bfccfff1b15c757df3d0500eba3a7a9c553c0d112c99f3c38cd85b074.json",
+      "fulltext_path": "data/task1-inputs-20260921/wang_2022_p53_time_delay.txt"
+    },
+    {
+      "id": "32372973",
+      "source": "MED",
+      "pmid": "32372973",
+      "pmcid": "PMC7176909",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7176909"
+        ]
+      },
+      "doi": "10.3389/fphys.2020.00327",
+      "title": "A Systems Biology Approach Identifies Hidden Regulatory Connections Between the Circadian and Cell-Cycle Checkpoints.",
+      "authorString": "Zou X, Kim DW, Gotoh T, Liu J, Kim JK, Finkielstein CV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zou X",
+            "lastName": "Zou",
+            "firstName": "Xianlin",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6310-294X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Fralin Life Sciences Institute, Virginia Tech, Blacksburg, VA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim DW",
+            "lastName": "Kim",
+            "firstName": "Dae Wook",
+            "initials": "DW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mathematical Sciences, Korea Advanced Institute of Science and Technology, Daejeon, South Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gotoh T",
+            "lastName": "Gotoh",
+            "firstName": "Tetsuya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Fralin Life Sciences Institute, Virginia Tech, Blacksburg, VA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jingjing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Fralin Life Sciences Institute, Virginia Tech, Blacksburg, VA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim JK",
+            "lastName": "Kim",
+            "firstName": "Jae Kyoung",
+            "initials": "JK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mathematical Sciences, Korea Advanced Institute of Science and Technology, Daejeon, South Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finkielstein CV",
+            "lastName": "Finkielstein",
+            "firstName": "Carla V",
+            "initials": "CV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Fralin Life Sciences Institute, Virginia Tech, Blacksburg, VA, United States."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6310-294X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "11",
+        "journalIssueId": 2911854,
+        "dateOfPublication": "2020 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2020,
+        "journal": {
+          "medlineAbbreviation": "Front Physiol",
+          "title": "Frontiers in physiology",
+          "essn": "1664-042X",
+          "issn": "1664-042X",
+          "isoabbreviation": "Front Physiol",
+          "nlmid": "101549006"
+        },
+        "printPublicationDate": "2020-01-01"
+      },
+      "pubYear": "2020",
+      "pageInfo": "327",
+      "abstractText": "Circadian rhythms form a self-sustaining, endogenous, time-keeping system that allows organisms to anticipate daily environmental changes. The core of the clock network consists of interlocking transcriptional-translational feedback loops that ensures that metabolic, behavioral, and physiological processes run on a 24 h timescale. The hierarchical nature of the clock manifests itself in multiple points of control on the daily cell division cycle, which relies on synthesis, degradation, and post-translational modification for progression. This relationship is particularly important for understanding the role of clock components in sensing stress conditions and triggering checkpoint signals that stop cell cycle progression. A case in point is the interplay among the circadian factor PERIOD2 (PER2), the tumor suppressor p53, and the oncogenic mouse double minute-2 homolog protein (MDM2), which is the p53's negative regulator. Under unstressed conditions, PER2 and p53 form a stable complex in the cytosol and, along with MDM2, a trimeric complex in the nucleus. Association of PER2 to the C-terminus end of p53 prevents MDM2-mediated ubiquitylation and degradation of p53 as well as p53's transcriptional activation. Remarkably, when not bound to p53, PER2 acts as substrate for the E3-ligase activity of MDM2; thus, PER2 is degraded in a phosphorylation-independent fashion. Unexpectedly, the phase relationship between PER2 and p53 are opposite; however, a systematic modeling approach, inferred from the oscillatory time course data of PER2 and p53, aided in identifying additional regulatory scenarios that explained, <i>a priori</i>, seemingly conflicting experimental data. Therefore, we advocate for a combined experimental/mathematical approach to elucidating multilevel regulatory cellular processes.",
+      "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Fralin Life Sciences Institute, Virginia Tech, Blacksburg, VA, United States.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "p53",
+          "Tumor suppressor",
+          "Circadian rhythms",
+          "Mathematical Modeling",
+          "Systematic approach",
+          "Checkpoint Signaling",
+          "Clock Genes"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.frontiersin.org/articles/10.3389/fphys.2020.00327/pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fphys.2020.00327"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7176909"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7176909?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 15,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2020-05-07",
+      "dateOfRevision": "2020-09-28",
+      "electronicPublicationDate": "2020-04-16",
+      "firstPublicationDate": "2020-04-16",
+      "firstIndexDate": "2020-05-12",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N",
+      "paper_id": "PMID:32372973",
+      "abstract": "Circadian rhythms form a self-sustaining, endogenous, time-keeping system that allows organisms to anticipate daily environmental changes. The core of the clock network consists of interlocking transcriptional-translational feedback loops that ensures that metabolic, behavioral, and physiological processes run on a 24 h timescale. The hierarchical nature of the clock manifests itself in multiple points of control on the daily cell division cycle, which relies on synthesis, degradation, and post-translational modification for progression. This relationship is particularly important for understanding the role of clock components in sensing stress conditions and triggering checkpoint signals that stop cell cycle progression. A case in point is the interplay among the circadian factor PERIOD2 (PER2), the tumor suppressor p53, and the oncogenic mouse double minute-2 homolog protein (MDM2), which is the p53's negative regulator. Under unstressed conditions, PER2 and p53 form a stable complex in the cytosol and, along with MDM2, a trimeric complex in the nucleus. Association of PER2 to the C-terminus end of p53 prevents MDM2-mediated ubiquitylation and degradation of p53 as well as p53's transcriptional activation. Remarkably, when not bound to p53, PER2 acts as substrate for the E3-ligase activity of MDM2; thus, PER2 is degraded in a phosphorylation-independent fashion. Unexpectedly, the phase relationship between PER2 and p53 are opposite; however, a systematic modeling approach, inferred from the oscillatory time course data of PER2 and p53, aided in identifying additional regulatory scenarios that explained, <i>a priori</i>, seemingly conflicting experimental data. Therefore, we advocate for a combined experimental/mathematical approach to elucidating multilevel regulatory cellular processes.",
+      "publication_date": "2020-04-16",
+      "allow_remote_llm": false,
+      "metadata_source_ref": "text_mining/data/task1-seeds-20260921/raw/ca2327a83f51ade8a5e830396f04c479cf76c13badd7a07e80300c2d8bed6791/f10c1f6bfccfff1b15c757df3d0500eba3a7a9c553c0d112c99f3c38cd85b074.json",
+      "fulltext_path": "../part1/task1/sources/markdown/zou_2020_circadian_cell_cycle_checkpoints/zou_2020_circadian_cell_cycle_checkpoints.md"
+    },
+    {
+      "id": "30425162",
+      "source": "MED",
+      "pmid": "30425162",
+      "doi": "10.1126/scisignal.aau0715",
+      "title": "Distinct control of PERIOD2 degradation and circadian rhythms by the oncoprotein and ubiquitin ligase MDM2.",
+      "authorString": "Liu J, Zou X, Gotoh T, Brown AM, Jiang L, Wisdom EL, Kim JK, Finkielstein CV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "JingJing",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8184-8382"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zou X",
+            "lastName": "Zou",
+            "firstName": "Xianlin",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6310-294X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gotoh T",
+            "lastName": "Gotoh",
+            "firstName": "Tetsuya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown AM",
+            "lastName": "Brown",
+            "firstName": "Anne M",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research and Informatics, University Libraries, Virginia Tech, Blacksburg, VA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang L",
+            "lastName": "Jiang",
+            "firstName": "Liang",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6503-0740"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wisdom EL",
+            "lastName": "Wisdom",
+            "firstName": "Esther L",
+            "initials": "EL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2802-0401"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim JK",
+            "lastName": "Kim",
+            "firstName": "Jae Kyoung",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7842-2172"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mathematical Sciences, Korea Advanced Institute of Science and Technology, Daejeon, South Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finkielstein CV",
+            "lastName": "Finkielstein",
+            "firstName": "Carla V",
+            "initials": "CV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8417-4643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA. finkielc@vt.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7842-2172"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6310-294X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6503-0740"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8184-8382"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8417-4643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2802-0401"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "556",
+        "volume": "11",
+        "journalIssueId": 2749208,
+        "dateOfPublication": "2018 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Sci Signal",
+          "title": "Science signaling",
+          "essn": "1937-9145",
+          "issn": "1945-0877",
+          "isoabbreviation": "Sci Signal",
+          "nlmid": "101465400"
+        },
+        "printPublicationDate": "2018-11-01"
+      },
+      "pubYear": "2018",
+      "pageInfo": "eaau0715",
+      "abstractText": "The circadian clock relies on posttranslational modifications to set the timing for degradation of core regulatory components, which drives clock progression. Ubiquitin-modifying enzymes that target clock components for degradation mainly recognize phosphorylated substrates. Degradation of the circadian clock component PERIOD 2 (PER2) is mediated by its phospho-specific recognition by β-transducin repeat-containing proteins (β-TrCPs), which are F-box-containing proteins that function as substrate recognition subunits of the SCF<sup>β-TRCP</sup> ubiquitin ligase complex. However, this mode of regulating PER2 stability falls short of explaining the persistent oscillatory phenotypes reported in biological systems lacking functional elements of the phospho-dependent PER2 degradation machinery. We identified PER2 as a previously uncharacterized substrate for the ubiquitin ligase mouse double minute 2 homolog (MDM2) and found that MDM2 targeted PER2 for degradation in a manner independent of PER2 phosphorylation. Deregulation of MDM2 plays a major role in oncogenesis by contributing to the accumulation of genomic and epigenomic alterations that favor tumor development. MDM2-mediated PER2 turnover was important for defining the circadian period length in mammalian cells, a finding that emphasizes the connection between the circadian clock and cancer. Our results not only broaden the range of specific substrates of MDM2 beyond the cell cycle to include circadian components but also identify a previously unknown regulator of the clock as a druggable node that is often found to be deregulated during tumorigenesis.",
+      "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, Virginia Tech, Blacksburg, VA, USA.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Science Foundation",
+            "grantId": "MCB-1517298",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Research Foundation of Korea",
+            "grantId": "N01160447",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "HCT116 Cells"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Neoplasms",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ubiquitin-Protein Ligases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Lysine",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA, Complementary",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Protein Processing, Post-Translational"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phosphorylation"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Circadian Rhythm"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Suppressor Protein p53",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proto-Oncogene Proteins c-mdm2",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ubiquitination"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Period Circadian Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "PER2 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "DNA, Complementary",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Tumor Suppressor Protein p53",
+            "registryNumber": "0"
+          },
+          {
+            "name": "TP53 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Period Circadian Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Lysine",
+            "registryNumber": "K3Z4F929H6"
+          },
+          {
+            "name": "Ubiquitin-Protein Ligases",
+            "registryNumber": "EC 2.3.2.27"
+          },
+          {
+            "name": "Proto-Oncogene Proteins c-mdm2",
+            "registryNumber": "EC 2.3.2.27"
+          },
+          {
+            "name": "MDM2 protein, human",
+            "registryNumber": "EC 2.3.2.27"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1126/scisignal.aau0715"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR17159",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 42,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2019-12-16",
+      "dateOfCreation": "2018-11-15",
+      "dateOfRevision": "2019-12-17",
+      "electronicPublicationDate": "2018-11-13",
+      "firstPublicationDate": "2018-11-13",
+      "firstIndexDate": "2018-11-15",
+      "hasEvaluations": "N",
+      "paper_id": "PMID:30425162",
+      "pmcid": "",
+      "abstract": "The circadian clock relies on posttranslational modifications to set the timing for degradation of core regulatory components, which drives clock progression. Ubiquitin-modifying enzymes that target clock components for degradation mainly recognize phosphorylated substrates. Degradation of the circadian clock component PERIOD 2 (PER2) is mediated by its phospho-specific recognition by β-transducin repeat-containing proteins (β-TrCPs), which are F-box-containing proteins that function as substrate recognition subunits of the SCF<sup>β-TRCP</sup> ubiquitin ligase complex. However, this mode of regulating PER2 stability falls short of explaining the persistent oscillatory phenotypes reported in biological systems lacking functional elements of the phospho-dependent PER2 degradation machinery. We identified PER2 as a previously uncharacterized substrate for the ubiquitin ligase mouse double minute 2 homolog (MDM2) and found that MDM2 targeted PER2 for degradation in a manner independent of PER2 phosphorylation. Deregulation of MDM2 plays a major role in oncogenesis by contributing to the accumulation of genomic and epigenomic alterations that favor tumor development. MDM2-mediated PER2 turnover was important for defining the circadian period length in mammalian cells, a finding that emphasizes the connection between the circadian clock and cancer. Our results not only broaden the range of specific substrates of MDM2 beyond the cell cycle to include circadian components but also identify a previously unknown regulator of the clock as a druggable node that is often found to be deregulated during tumorigenesis.",
+      "publication_date": "2018-11-13",
+      "license": "",
+      "allow_remote_llm": false,
+      "metadata_source_ref": "text_mining/data/task1-seeds-20260921/raw/ca2327a83f51ade8a5e830396f04c479cf76c13badd7a07e80300c2d8bed6791/f10c1f6bfccfff1b15c757df3d0500eba3a7a9c553c0d112c99f3c38cd85b074.json",
+      "fulltext_path": "../part1/task1/sources/markdown/liu_2018_period2_mdm2/liu_2018_period2_mdm2.md"
+    },
+    {
+      "id": "27699644",
+      "source": "MED",
+      "pmid": "27699644",
+      "pmcid": "PMC5082589",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5082589"
+        ]
+      },
+      "doi": "10.1007/s40265-016-0646-4",
+      "title": "Chronotherapy: Intuitive, Sound, Founded…But Not Broadly Applied.",
+      "authorString": "Selfridge JM, Gotoh T, Schiffhauer S, Liu J, Stauffer PE, Li A, Capelluto DG, Finkielstein CV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Selfridge JM",
+            "lastName": "Selfridge",
+            "firstName": "Julia M",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Virginia Tech Carilion School of Medicine and Research Institute, 2 Riverside Circle, Roanoke, VA, 24016, USA."
+                },
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gotoh T",
+            "lastName": "Gotoh",
+            "firstName": "Tetsuya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schiffhauer S",
+            "lastName": "Schiffhauer",
+            "firstName": "Samuel",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "JingJing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stauffer PE",
+            "lastName": "Stauffer",
+            "firstName": "Philip E",
+            "initials": "PE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0329-5839"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li A",
+            "lastName": "Li",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Virginia Tech Carilion School of Medicine and Research Institute, 2 Riverside Circle, Roanoke, VA, 24016, USA."
+                },
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Capelluto DG",
+            "lastName": "Capelluto",
+            "firstName": "Daniel G S",
+            "initials": "DG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Domains Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA."
+                },
+                {
+                  "affiliation": "Center for Soft Matter and Biological Physics, Virginia Tech, Blacksburg, VA, 24061, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finkielstein CV",
+            "lastName": "Finkielstein",
+            "firstName": "Carla V",
+            "initials": "CV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8417-4643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Virginia Tech Carilion School of Medicine and Research Institute, 2 Riverside Circle, Roanoke, VA, 24016, USA. finkielc@vt.edu."
+                },
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Biocomplexity Institute, 1015 Life Science Circle, Virginia Tech, Blacksburg, VA, 24061, USA. finkielc@vt.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8417-4643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0329-5839"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "16",
+        "volume": "76",
+        "journalIssueId": 2482854,
+        "dateOfPublication": "2016 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "Drugs",
+          "title": "Drugs",
+          "essn": "1179-1950",
+          "issn": "0012-6667",
+          "isoabbreviation": "Drugs",
+          "nlmid": "7600076"
+        },
+        "printPublicationDate": "2016-10-01"
+      },
+      "pubYear": "2016",
+      "pageInfo": "1507-1521",
+      "abstractText": "Circadian rhythms are a collection of endogenously driven biochemical, physiological, and behavioral processes that oscillate in a 24-h cycle and can be entrained by external cues. Circadian clock molecules are responsible for the expression of regulatory components that modulate, among others, the cell's metabolism and energy consumption. In clinical practice, the regulation of clock mechanisms is relevant to biotransformation of therapeutics. Accordingly, xenobiotic metabolism and detoxification, the two processes that directly influence drug effectiveness and toxicity, are direct manifestations of the daily oscillations of the cellular and biochemical processes taking place within the gastrointestinal, hepatic/biliary, and renal/urologic systems. Consequently, the impact of circadian timing should be factored in when developing therapeutic regimens aimed at achieving maximum efficacy, minimum toxicity, and decreased adverse effects in a patient. However, and despite a strong mechanistic foundation, only 0.16 % of ongoing clinical trials worldwide exploit the concept of 'time-of-day' administration to develop safer and more effective therapies. In this article, we (1) emphasize points of control at which circadian biology intersects critical processes governing treatment interventions; (2) explore the extent to which chronotherapeutics are incorporated into clinical trials; (3) recognize roadblocks; and (4) recommend approaches to precipitate the integration of chronobiological concepts into clinical practice.",
+      "affiliation": "Virginia Tech Carilion School of Medicine and Research Institute, 2 Riverside Circle, Roanoke, VA, 24016, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Fralin Life Science Institute, Virginia Polytechnic Institute and State University",
+            "orderIn": 0
+          },
+          {
+            "agency": "Division of Molecular and Cellular Biosciences",
+            "grantId": "MCB-1517298",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chronotherapy"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Circadian Rhythm",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Inactivation, Metabolic",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://link.springer.com/content/pdf/10.1007%2Fs40265-016-0646-4.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s40265-016-0646-4"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5082589"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5082589?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 60,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "nct",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2017-03-23",
+      "dateOfCreation": "2016-10-05",
+      "dateOfRevision": "2022-04-09",
+      "firstPublicationDate": "2016-10-01",
+      "firstIndexDate": "2016-10-06",
+      "fullTextReceivedDate": "2020-07-11",
+      "hasEvaluations": "N",
+      "paper_id": "PMID:27699644",
+      "abstract": "Circadian rhythms are a collection of endogenously driven biochemical, physiological, and behavioral processes that oscillate in a 24-h cycle and can be entrained by external cues. Circadian clock molecules are responsible for the expression of regulatory components that modulate, among others, the cell's metabolism and energy consumption. In clinical practice, the regulation of clock mechanisms is relevant to biotransformation of therapeutics. Accordingly, xenobiotic metabolism and detoxification, the two processes that directly influence drug effectiveness and toxicity, are direct manifestations of the daily oscillations of the cellular and biochemical processes taking place within the gastrointestinal, hepatic/biliary, and renal/urologic systems. Consequently, the impact of circadian timing should be factored in when developing therapeutic regimens aimed at achieving maximum efficacy, minimum toxicity, and decreased adverse effects in a patient. However, and despite a strong mechanistic foundation, only 0.16 % of ongoing clinical trials worldwide exploit the concept of 'time-of-day' administration to develop safer and more effective therapies. In this article, we (1) emphasize points of control at which circadian biology intersects critical processes governing treatment interventions; (2) explore the extent to which chronotherapeutics are incorporated into clinical trials; (3) recognize roadblocks; and (4) recommend approaches to precipitate the integration of chronobiological concepts into clinical practice.",
+      "publication_date": "2016-10-01",
+      "allow_remote_llm": false,
+      "metadata_source_ref": "text_mining/data/task1-seeds-20260921/raw/ca2327a83f51ade8a5e830396f04c479cf76c13badd7a07e80300c2d8bed6791/f10c1f6bfccfff1b15c757df3d0500eba3a7a9c553c0d112c99f3c38cd85b074.json",
+      "fulltext_path": "../part1/task1/sources/markdown/selfridge_2016_chronotherapy/selfridge_2016_chronotherapy.md"
+    },
+    {
+      "id": "25411341",
+      "source": "MED",
+      "pmid": "25411341",
+      "pmcid": "PMC4294682",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4294682"
+        ]
+      },
+      "doi": "10.1091/mbc.e14-05-0994",
+      "title": "Association of the circadian factor Period 2 to p53 influences p53's function in DNA-damage signaling.",
+      "authorString": "Gotoh T, Vila-Caballer M, Liu J, Schiffhauer S, Finkielstein CV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gotoh T",
+            "lastName": "Gotoh",
+            "firstName": "Tetsuya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vila-Caballer M",
+            "lastName": "Vila-Caballer",
+            "firstName": "Marian",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0827-2265"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jingjing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schiffhauer S",
+            "lastName": "Schiffhauer",
+            "firstName": "Samuel",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finkielstein CV",
+            "lastName": "Finkielstein",
+            "firstName": "Carla V",
+            "initials": "CV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8417-4643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061 finkielc@vt.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8417-4643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0827-2265"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "26",
+        "journalIssueId": 2243330,
+        "dateOfPublication": "2015 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "Mol Biol Cell",
+          "title": "Molecular biology of the cell",
+          "essn": "1939-4586",
+          "issn": "1059-1524",
+          "isoabbreviation": "Mol Biol Cell",
+          "nlmid": "9201390"
+        },
+        "printPublicationDate": "2015-01-01"
+      },
+      "pubYear": "2015",
+      "pageInfo": "359-372",
+      "abstractText": "Circadian period proteins influence cell division and death by associating with checkpoint components, although their mode of regulation has not been firmly established. hPer2 forms a trimeric complex with hp53 and its negative regulator Mdm2. In unstressed cells, this association leads to increased hp53 stability by blocking Mdm2-dependent ubiquitination and transcription of hp53 target genes. Because of the relevance of hp53 in checkpoint signaling, we hypothesize that hPer2 association with hp53 acts as a regulatory module that influences hp53's downstream response to genotoxic stress. Unlike the trimeric complex, whose distribution was confined to the nuclear compartment, hPer2/hp53 was identified in both cytosol and nucleus. At the transcriptional level, a reporter containing the hp21(WAF1/CIP1) promoter, a target of hp53, remained inactive in cells expressing a stable form of the hPer2/hp53 complex even when treated with γ-radiation. Finally, we established that hPer2 directly acts on the hp53 node, as checkpoint components upstream of hp53 remained active in response to DNA damage. Quantitative transcriptional analyses of hp53 target genes demonstrated that unbound hp53 was absolutely required for activation of the DNA-damage response. Our results provide evidence of the mode by which the circadian tumor suppressor hPer2 modulates hp53 signaling in response to genotoxic stress.",
+      "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Line, Tumor"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "HCT116 Cells"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Nucleus",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytosol",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "DNA Damage"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Microscopy, Fluorescence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Immunoblotting"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Signal Transduction",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Gene Expression Regulation, Neoplastic"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Protein Binding"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Models, Genetic"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Suppressor Protein p53",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cyclin-Dependent Kinase Inhibitor p21",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Period Circadian Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "cyclin-dependent kinase Inhibitor p21",
+            "registryNumber": "0"
+          },
+          {
+            "name": "PER2 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Tumor Suppressor Protein p53",
+            "registryNumber": "0"
+          },
+          {
+            "name": "CDKN1A protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "TP53 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Period Circadian Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1091/mbc.E14-05-0994"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4294682"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4294682?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 66,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2015-10-02",
+      "dateOfCreation": "2014-11-21",
+      "dateOfRevision": "2018-11-13",
+      "electronicPublicationDate": "2014-11-19",
+      "firstPublicationDate": "2014-11-19",
+      "firstIndexDate": "2014-11-21",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N",
+      "paper_id": "PMID:25411341",
+      "abstract": "Circadian period proteins influence cell division and death by associating with checkpoint components, although their mode of regulation has not been firmly established. hPer2 forms a trimeric complex with hp53 and its negative regulator Mdm2. In unstressed cells, this association leads to increased hp53 stability by blocking Mdm2-dependent ubiquitination and transcription of hp53 target genes. Because of the relevance of hp53 in checkpoint signaling, we hypothesize that hPer2 association with hp53 acts as a regulatory module that influences hp53's downstream response to genotoxic stress. Unlike the trimeric complex, whose distribution was confined to the nuclear compartment, hPer2/hp53 was identified in both cytosol and nucleus. At the transcriptional level, a reporter containing the hp21(WAF1/CIP1) promoter, a target of hp53, remained inactive in cells expressing a stable form of the hPer2/hp53 complex even when treated with γ-radiation. Finally, we established that hPer2 directly acts on the hp53 node, as checkpoint components upstream of hp53 remained active in response to DNA damage. Quantitative transcriptional analyses of hp53 target genes demonstrated that unbound hp53 was absolutely required for activation of the DNA-damage response. Our results provide evidence of the mode by which the circadian tumor suppressor hPer2 modulates hp53 signaling in response to genotoxic stress.",
+      "publication_date": "2014-11-19",
+      "license": "",
+      "allow_remote_llm": false,
+      "metadata_source_ref": "text_mining/data/task1-seeds-20260921/raw/ca2327a83f51ade8a5e830396f04c479cf76c13badd7a07e80300c2d8bed6791/f10c1f6bfccfff1b15c757df3d0500eba3a7a9c553c0d112c99f3c38cd85b074.json",
+      "fulltext_path": "../part1/task1/sources/markdown/gotoh_2015_period2_p53_dna_damage/gotoh_2015_period2_p53_dna_damage.md"
+    },
+    {
+      "id": "25103245",
+      "source": "MED",
+      "pmid": "25103245",
+      "pmcid": "PMC4230596",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4230596"
+        ]
+      },
+      "doi": "10.1091/mbc.e14-05-0993",
+      "title": "The circadian factor Period 2 modulates p53 stability and transcriptional activity in unstressed cells.",
+      "authorString": "Gotoh T, Vila-Caballer M, Santos CS, Liu J, Yang J, Finkielstein CV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gotoh T",
+            "lastName": "Gotoh",
+            "firstName": "Tetsuya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vila-Caballer M",
+            "lastName": "Vila-Caballer",
+            "firstName": "Marian",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0827-2265"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santos CS",
+            "lastName": "Santos",
+            "firstName": "Carlo S",
+            "initials": "CS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jingjing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang J",
+            "lastName": "Yang",
+            "firstName": "Jianhua",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finkielstein CV",
+            "lastName": "Finkielstein",
+            "firstName": "Carla V",
+            "initials": "CV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8417-4643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061 finkielc@vt.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8417-4643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0827-2265"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "issue": "19",
+        "volume": "25",
+        "journalIssueId": 2205619,
+        "dateOfPublication": "2014 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2014,
+        "journal": {
+          "medlineAbbreviation": "Mol Biol Cell",
+          "title": "Molecular biology of the cell",
+          "essn": "1939-4586",
+          "issn": "1059-1524",
+          "isoabbreviation": "Mol Biol Cell",
+          "nlmid": "9201390"
+        },
+        "printPublicationDate": "2014-10-01"
+      },
+      "pubYear": "2014",
+      "pageInfo": "3081-3093",
+      "abstractText": "Human Period 2 (hPer2) is a transcriptional regulator at the core of the circadian clock mechanism that is responsible for generating the negative feedback loop that sustains the clock. Its relevance to human disease is underlined by alterations in its function that affect numerous biochemical and physiological processes. When absent, it results in the development of various cancers and an increase in the cell's susceptibility to genotoxic stress. Thus we sought to define a yet-uncharacterized checkpoint node in which circadian components integrate environmental stress signals to the DNA-damage response. We found that hPer2 binds the C-terminal half of human p53 (hp53) and forms a stable trimeric complex with hp53's negative regulator, Mdm2. We determined that hPer2 binding to hp53 prevents Mdm2 from being ubiquitinated and targeting hp53 by the proteasome. Down-regulation of hPer2 expression directly affects hp53 levels, whereas its overexpression influences both hp53 protein stability and transcription of targeted genes. Overall our findings place hPer2 directly at the heart of the hp53-mediated response by ensuring that basal levels of hp53 are available to precondition the cell when a rapid, hp53-mediated, transcriptional response is needed.",
+      "affiliation": "Integrated Cellular Responses Laboratory, Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "HCT116 Cells"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA Damage"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Multiprotein Complexes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Exoribonucleases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "14-3-3 Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Cycle Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nuclear Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA Repair"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Transcription, Genetic"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Protein Binding"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Circadian Rhythm",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Suppressor Protein p53",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cyclin-Dependent Kinase Inhibitor p21",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proto-Oncogene Proteins c-mdm2",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ubiquitination"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Transcriptional Activation",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Period Circadian Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Circadian Clocks",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biomarkers, Tumor",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "GADD45 Proteins"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "cyclin-dependent kinase Inhibitor p21",
+            "registryNumber": "0"
+          },
+          {
+            "name": "SFN protein, human",
+            "registryNumber": "EC 3.1.-"
+          },
+          {
+            "name": "PER2 protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "GADD45A protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Nuclear Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Multiprotein Complexes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Exoribonucleases",
+            "registryNumber": "EC 3.1.-"
+          },
+          {
+            "name": "14-3-3 Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Cell Cycle Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Tumor Suppressor Protein p53",
+            "registryNumber": "0"
+          },
+          {
+            "name": "CDKN1A protein, human",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Period Circadian Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Biomarkers, Tumor",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Proto-Oncogene Proteins c-mdm2",
+            "registryNumber": "EC 2.3.2.27"
+          },
+          {
+            "name": "MDM2 protein, human",
+            "registryNumber": "EC 2.3.2.27"
+          },
+          {
+            "name": "GADD45 Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1091/mbc.E14-05-0993"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4230596"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4230596?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 98,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2015-06-10",
+      "dateOfCreation": "2014-08-09",
+      "dateOfRevision": "2026-01-28",
+      "electronicPublicationDate": "2014-08-07",
+      "firstPublicationDate": "2014-08-07",
+      "firstIndexDate": "2014-08-09",
+      "fullTextReceivedDate": "2020-07-11",
+      "hasEvaluations": "N",
+      "paper_id": "PMID:25103245",
+      "abstract": "Human Period 2 (hPer2) is a transcriptional regulator at the core of the circadian clock mechanism that is responsible for generating the negative feedback loop that sustains the clock. Its relevance to human disease is underlined by alterations in its function that affect numerous biochemical and physiological processes. When absent, it results in the development of various cancers and an increase in the cell's susceptibility to genotoxic stress. Thus we sought to define a yet-uncharacterized checkpoint node in which circadian components integrate environmental stress signals to the DNA-damage response. We found that hPer2 binds the C-terminal half of human p53 (hp53) and forms a stable trimeric complex with hp53's negative regulator, Mdm2. We determined that hPer2 binding to hp53 prevents Mdm2 from being ubiquitinated and targeting hp53 by the proteasome. Down-regulation of hPer2 expression directly affects hp53 levels, whereas its overexpression influences both hp53 protein stability and transcription of targeted genes. Overall our findings place hPer2 directly at the heart of the hp53-mediated response by ensuring that basal levels of hp53 are available to precondition the cell when a rapid, hp53-mediated, transcriptional response is needed.",
+      "publication_date": "2014-08-07",
+      "license": "",
+      "allow_remote_llm": false,
+      "metadata_source_ref": "text_mining/data/task1-seeds-20260921/raw/ca2327a83f51ade8a5e830396f04c479cf76c13badd7a07e80300c2d8bed6791/f10c1f6bfccfff1b15c757df3d0500eba3a7a9c553c0d112c99f3c38cd85b074.json",
+      "fulltext_path": "../part1/task1/sources/markdown/gotoh_2014_period2_p53_stability/gotoh_2014_period2_p53_stability.md"
+    }
+  ],
+  "annotations": {},
+  "pubtator": true,
+  "protein_normalization": true,
+  "max_protein_lookups": 10000,
+  "processing_mode": "rules",
+  "graph": {
+    "max_nodes": null
+  },
+  "run_scope": {
+    "task": "Task 1 Circadian clocks and cancer; text mining 1(g)",
+    "search_cutoff": "2026-09-21",
+    "database": "Europe PMC",
+    "preflight_hits": 5986,
+    "search_limit_is_safety_cap": true,
+    "scientific_validation": "not_evaluated",
+    "protocol_status": "unregistered exploratory run",
+    "local_texts": "Five existing Marker conversions; Wang pdftotext -layout, no external upload"
+  }
+}

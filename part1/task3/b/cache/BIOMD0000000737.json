@@ -1,0 +1,321 @@
+{
+  "name" : "Mouse Iron Distribution - Deficient iron diet (No Tracer)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <h1>Mouse Iron Distribution Dynamics</h1>        <p>Dynamic model of iron distribution in mice.  This model includes only normal iron with the parameters that fit the data from Lopes <i>et al.</i> 2010 for mice fed a deficient iron diet. </p>        <p>This model does not include the radioiron tracer species. It is appropriate to study the properties in conditions where no tracers are used (for example for steady state analysis).</p>        <hr />      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "28521769",
+    "journal" : "BMC systems biology",
+    "title" : "Modeling the dynamics of mouse iron body distribution: hepcidin is necessary but not sufficient.",
+    "affiliation" : "Center for Quantitative Medicine and Department of Cell Biology, UConn Health, Farmington, CT, 06030, USA.",
+    "synopsis" : "<h4>Background</h4>Iron is an essential element of most living organisms but is a dangerous substance when poorly liganded in solution. The hormone hepcidin regulates the export of iron from tissues to the plasma contributing to iron homeostasis and also restricting its availability to infectious agents. Disruption of iron regulation in mammals leads to disorders such as anemia and hemochromatosis, and contributes to the etiology of several other diseases such as cancer and neurodegenerative diseases. Here we test the hypothesis that hepcidin alone is able to regulate iron distribution in different dietary regimes in the mouse using a computational model of iron distribution calibrated with radioiron tracer data.<h4>Results</h4>A model was developed and calibrated to the data from adequate iron diet, which was able to simulate the iron distribution under a low iron diet. However simulation of high iron diet shows considerable deviations from the experimental data. Namely the model predicts more iron in red blood cells and less iron in the liver than what was observed in experiments.<h4>Conclusions</h4>These results suggest that hepcidin alone is not sufficient to regulate iron homeostasis in high iron conditions and that other factors are important. The model was able to simulate anemia when hepcidin was increased but was unable to simulate hemochromatosis when hepcidin was suppressed, suggesting that in high iron conditions additional regulatory interactions are important.",
+    "year" : 2017,
+    "month" : "5",
+    "volume" : "11",
+    "issue" : "1",
+    "pages" : "57",
+    "link" : "http://identifiers.org/pubmed/28521769",
+    "authors" : [
+      {
+        "name" : "Jignesh H Parmar",
+        "institution" : "Center for Quantitative Medicine and Department of Cell Biology, UConn Health, Farmington, CT, 06030, USA."
+      },
+      {
+        "name" : "Grey Davis",
+        "institution" : "Center for Quantitative Medicine and Department of Cell Biology, UConn Health, Farmington, CT, 06030, USA."
+      },
+      {
+        "name" : "Hope Shevchuk",
+        "institution" : "Center for Quantitative Medicine and Department of Cell Biology, UConn Health, Farmington, CT, 06030, USA."
+      },
+      {
+        "name" : "Pedro Mendes",
+        "institution" : "Center for Quantitative Medicine and Department of Cell Biology, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America.",
+        "orcid" : "0000-0001-6507-9168"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Parmar2017_Deficient_NoTracer.xml",
+        "description" : "SBML L2V4 representation of Parmar2017 - Mouse Iron Distribution - Deficient iron diet (No Tracer)",
+        "fileSize" : "110057",
+        "mimeType" : "application/xml",
+        "md5sum" : "855476278659c7f4559427b9c8849e52",
+        "sha1sum" : "2732a8bb1b520c7ffdaf2555cdf7786b9f83df01",
+        "sha256sum" : "de7b1fd4f1c4ad3e83c3055cb11da2ebc1e88150fb8efc54bb9a2924ea525ce7"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL1605030004-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "32497",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a03dc3f0b660e6d56bcf95a1b1bbd152",
+        "sha1sum" : "593643054e9b478ca8543a920deb8bedd4e42bc7",
+        "sha256sum" : "ebd87550e12dc739479d688f51f867c5780e8866115c31b515301df4310c0dbf"
+      },
+      {
+        "name" : "MODEL1605030004-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "54235",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "63e236d34bbc9575cd2cb9b4c15fa0b6",
+        "sha1sum" : "7edb632b58d138dffe093c8fb1e4f63d5e5e12d8",
+        "sha256sum" : "d9dd633b5198bcba6532b01aba23d969f262a030b7ebcd2cd9e9ee6fb4a83a52"
+      },
+      {
+        "name" : "MODEL1605030004.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14222",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cc5c36157ba237812bdd94f148ff72e7",
+        "sha1sum" : "ea7b826fe3086e2f5b7287e7521326cf0115b52f",
+        "sha256sum" : "d9b742b072a0e93b7a87973331cde99995ef1191f0cd99516cc88e80b46b94db"
+      },
+      {
+        "name" : "MODEL1605030004.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "153921",
+        "mimeType" : "image/png",
+        "md5sum" : "78b73a1abb0b92c9602f473eec898673",
+        "sha1sum" : "23be4ecf275549b3e804fc9c5fcf7aee5d7e2898",
+        "sha256sum" : "fdc613c8a66cf3b498b4021db0a090cd136d1237d9f1740701eaeb36cd87d8ce"
+      },
+      {
+        "name" : "MODEL1605030004.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "47735",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6751b18ad8c7635046d732c9eaa8f497",
+        "sha1sum" : "b412ac05c22b3afc3a5a5cbd3dbcaa82daa32a32",
+        "sha256sum" : "e2b045a5d3f3b5aa9ad82670f9c1eaeb169559e45cdd5022d7df6d0b3c9cdd0b"
+      },
+      {
+        "name" : "MODEL1605030004_urn.xml",
+        "description" : "Auto-generated SBML file with URNs",
+        "fileSize" : "102799",
+        "mimeType" : "application/xml",
+        "md5sum" : "79f9179c2b888d3f8121b3efcfbad834",
+        "sha1sum" : "ddf849a329c6cfa6f530edd56b017455994e0fcb",
+        "sha256sum" : "b6d4e69ccde110647828a88076bf1cd4db453d2d06a4fd6f7970c14dec447c60"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "36347",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9e735a127079e8cff22710f1ae7db57a",
+        "sha1sum" : "8c19a795df18a902f5b67ec092d957a29dab35ec",
+        "sha256sum" : "06792ebc49e5d5aca9596831861177068d15ca332cfbf39bf8fed976cccf71b9"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "57974",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5f1984337422491041812f8d22f4cb51",
+        "sha1sum" : "62f176d2f5b4fef65ac39f300dd7c73641f06837",
+        "sha256sum" : "6b7a0aa1847a4200625165187d58f1fcbc142ce93d325196ea1b24990c697af9"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14335",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "186281dd395daf357b7de66701923102",
+        "sha1sum" : "ea14c8067c2ad8478d6885331186434f54b61163",
+        "sha256sum" : "4000e5d30b0330a15e115f012b857c4e9c63cbf9fb6f3a1d44bee7f7bb2c4957"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14335",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a5d3d96c68cce57c7631371c73f9d1d9",
+        "sha1sum" : "c13552a0e2d4996ec12b851cf148a9d24890294d",
+        "sha256sum" : "e733538fab59e4e3ce0fb0597fd6eebf9700ec9660d33930206302d625a90825"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer.cps",
+        "description" : "COPASI 4.24 (build196) file depicting Deficient Table 3 results",
+        "fileSize" : "170377",
+        "mimeType" : "application/xml",
+        "md5sum" : "cb64be18cb2e72fea8416e43ab81cac6",
+        "sha1sum" : "6886392b9f359651745b7c5c30255a545167679c",
+        "sha256sum" : "526162fd237909a71978b6b538109f28b393e436a1bb752e43818f05e9a21e1a"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10616",
+        "mimeType" : "text/plain",
+        "md5sum" : "e45af5bdce3af533712a19f36cc581d8",
+        "sha1sum" : "b9c5715c855ab61b5bcf282d88ca7c801b5c381b",
+        "sha256sum" : "733fb7ba2042487f38afa7971eaf3bc5f4cb9d427ce178eef69ae07c83b8a2f9"
+      },
+      {
+        "name" : "Parmar2017_Deficient_NoTracer.sedml",
+        "description" : "SEDML file (additionally CRBM-validated and adjusted).",
+        "fileSize" : "44413",
+        "mimeType" : "application/xml",
+        "md5sum" : "9e107198f79633cb15d664c97df2a506",
+        "sha1sum" : "f3f1eac12220c79ba70c91c2a2e9c76e0bb38a01",
+        "sha256sum" : "b428d1cacc90a4ea10d83cc62398bd2a0c4914d270982211b4040c53d48ba766"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "94981",
+        "mimeType" : "image/png",
+        "md5sum" : "c6478a59e465a6a5004b3deee0f739ce",
+        "sha1sum" : "ebf51e046019dcfe1677b23db1e9f8a7bbd305e7",
+        "sha256sum" : "4e71b56b3fc3f69eed33f3e740265c7ba04dc60ae723c9fba8419212038db955"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "365",
+        "mimeType" : "text/plain",
+        "md5sum" : "2b783c7a248d7aaf906414114ab7aabe",
+        "sha1sum" : "1f6441f7a6ee4385173132b39cefba829b22d22e",
+        "sha256sum" : "251d705d593c8285ef9c4d183c2dd4eb95cfc9d66618001273f1038f876b5e69"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2279",
+        "mimeType" : "application/xml",
+        "md5sum" : "33326029ae561992721b691b4f5e14b8",
+        "sha1sum" : "db59700344467f1338f255f80913b881c34923ba",
+        "sha256sum" : "47ca95c683c88b52b9f866f2d4160516d96e48351c9787d5174b013464d8f146"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2343",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7af46d8a6dc35d14a7fbe62d2fec5ee9",
+        "sha1sum" : "6d1efe80834d6d65ab2887bf6f8baea76bdc0a72",
+        "sha256sum" : "536c41b31b5be3b1dec6b3563513202bdc5fbaee173b90c2394b55bddf8f0089"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1462308572,
+        "submitter" : "Pedro Mendes",
+        "comment" : "Original import of Mouse Iron Distribution - Deficient iron diet"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495211279,
+        "submitter" : "Pedro Mendes",
+        "comment" : "Current version of Parmar2017 - Mouse Iron Distribution - Deficient iron diet"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1551717948,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000737"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724288324,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285433,
+  "submissionId" : "MODEL1605030004",
+  "publicationId" : "BIOMD0000000737",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Pedro Mendes",
+        "email" : "pmendes@uchc.edu",
+        "affiliation" : "UConn Health",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "28521769",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:28521769"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20704761",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20704761"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0055072",
+      "name" : "iron ion homeostasis",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0055072"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000737",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000737"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1605030004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1605030004"
+    }
+  ]
+}

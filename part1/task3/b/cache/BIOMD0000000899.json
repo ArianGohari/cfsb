@@ -1,0 +1,187 @@
+{
+  "name" : "Ota2015 - Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs (GDI integrated)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a ordinary differential equation mathematical model describing the Rho GTPase cycle in which Rho GDP-dissociation inhibitors (RhoGDIs) inhibit the regulatory activities of guanine nucleotide exchange factors (GEFs) and GTPase-activating proteins (GAPs) by interacting with them directly as well as by sequestering the Rho GTPases. The model was constructed with the intent of analyzing the role of RhoGDIs in Rho GTPase signaling.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "25628036",
+    "journal" : "BMC systems biology",
+    "title" : "Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs.",
+    "affiliation" : "Division of Tumor Biology, Department of Life Science, Medical Research Institute, Kanazawa Medical University, Uchinada 920-0293, Ishikawa, Japan. takahide@kanazawa-med.ac.jp.",
+    "synopsis" : "<h4>Background</h4>Rho GTPases function as molecular switches in many different signaling pathways and control a wide range of cellular processes. Rho GDP-dissociation inhibitors (RhoGDIs) regulate Rho GTPase signaling and can function as both negative and positive regulators. The role of RhoGDIs as negative regulators of Rho GTPase signaling has been extensively investigated; however, little is known about how RhoGDIs act as positive regulators. Furthermore, it is unclear how this opposing role of GDIs influences the Rho GTPase cycle. We constructed ordinary differential equation models of the Rho GTPase cycle in which RhoGDIs inhibit the regulatory activities of guanine nucleotide exchange factors (GEFs) and GTPase-activating proteins (GAPs) by interacting with them directly as well as by sequestering the Rho GTPases. Using this model, we analyzed the role of RhoGDIs in Rho GTPase signaling.<h4>Results</h4>The model constructed in this study showed that the functions of GEFs and GAPs are integrated into Rho GTPase signaling through the interactions of these regulators with GDIs, and that the negative role of GDIs is to suppress the overall Rho activity by inhibiting GEFs. Furthermore, the positive role of GDIs is to sustain Rho activation by inhibiting GAPs under certain conditions. The interconversion between transient and sustained Rho activation occurs mainly through changes in the affinities of GDIs to GAPs and the concentrations of GAPs.<h4>Conclusions</h4>RhoGDIs positively regulate Rho GTPase signaling primarily by interacting with GAPs and may participate in the switching between transient and sustained signals of the Rho GTPases. These findings enhance our understanding of the physiological roles of RhoGDIs and Rho GTPase signaling.",
+    "year" : 2015,
+    "month" : "1",
+    "volume" : "9",
+    "pages" : "3",
+    "link" : "http://identifiers.org/pubmed/25628036",
+    "authors" : [
+      {
+        "name" : "Takahide Ota",
+        "institution" : "Division of Tumor Biology, Department of Life Science, Medical Research Institute, Kanazawa Medical University, Uchinada 920-0293, Ishikawa, Japan. takahide@kanazawa-med.ac.jp."
+      },
+      {
+        "name" : "Masayo Maeda"
+      },
+      {
+        "name" : "Mayumi Okamoto"
+      },
+      {
+        "name" : "Masaaki Tatsuka"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Ota2015_GDI-integrated.xml",
+        "description" : "SBML L2V4 Representation of Ota2015 - Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs (GDI integrated)",
+        "fileSize" : "169834",
+        "mimeType" : "application/xml",
+        "md5sum" : "728602b889ecd34b2b0ee31384f9207b",
+        "sha1sum" : "9f2994fba2f22a0de8a383cb8affb74da53f282a",
+        "sha256sum" : "a111b56f1cea7fc230c334982040a4d573404e2fe64d6f72e5e3220b912e1718"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Ota2015_GDI-integrated-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "17427",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "dbe9a9d4d3c1fb0792e49520941aff84",
+        "sha1sum" : "5272c0fa2b1c1f6942d48a7388a3dad452582d3b",
+        "sha256sum" : "8dc7298584bff41766a7e9df599ca740587862419b7787b0ea171228c3e206c5"
+      },
+      {
+        "name" : "Ota2015_GDI-integrated-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "25989",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bd2c0a66c3a99fd058cc7c33021cee8c",
+        "sha1sum" : "40e689bcc08df58271cf833a70ca4058ae55305f",
+        "sha256sum" : "c19459062386073f8796f5e502819db3d95be9d0951162af6cf6de69a4b13d30"
+      },
+      {
+        "name" : "Ota2015_GDI-integrated-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7512",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e90d15a0d8d51258eccbdae42077dfbc",
+        "sha1sum" : "39b4aa4a793b8f5e545b441269cda406317aa6a5",
+        "sha256sum" : "21c6096d5a1d307848cbdcd7b6247c5b20b9ca5cabb258b9d38e05f0650196d5"
+      },
+      {
+        "name" : "Ota2015_GDI-integrated.cps",
+        "description" : "COPASI file of Ota2015 - Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs (GDI integrated)",
+        "fileSize" : "151961",
+        "mimeType" : "application/xml",
+        "md5sum" : "c96836d89c331df8d14852d3f2a64176",
+        "sha1sum" : "560977a31398a9f62862992ee43e0856fc87e59d",
+        "sha256sum" : "7408985a8e04bae09094bbdaee26a10d6a78886d299ef6e088e0d9124ccf96c2"
+      },
+      {
+        "name" : "Ota2015_GDI-integrated.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5230",
+        "mimeType" : "text/plain",
+        "md5sum" : "021455ec8cb1a951ecffad207914cf4f",
+        "sha1sum" : "94ab5fe72c1af9136dcd6e5c97a815a9e038be44",
+        "sha256sum" : "159198fbfa4072fefbe30fd79954e6fc8917f011dfe3310570ecc1c738245179"
+      },
+      {
+        "name" : "Ota2015_GDI-integrated.sedml",
+        "description" : "SED-ML file of Ota2015 - Positive regulation of Rho GTPase activity by RhoGDIs as a result of their direct interaction with GAPs (GDI integrated) (additionally CRBM-validated and adjusted).",
+        "fileSize" : "13265",
+        "mimeType" : "application/xml",
+        "md5sum" : "a886b1bd758850ca81b48505a7053759",
+        "sha1sum" : "8000375c0ca985d67f038826e85e00f70e0cda68",
+        "sha256sum" : "75e34ac9ac0382215c1886517a0826194902c83f3478b8ab241dd2244b861be5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13908",
+        "mimeType" : "image/png",
+        "md5sum" : "8e82dae58b7b7d40a0e5dc205e18da27",
+        "sha1sum" : "cd388c327ad79a511389b707b6031296b9917824",
+        "sha256sum" : "472f9989b5ae3105b60cc6cdd458576bdd8e823b4b3e66e5dce1eece42246338"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "127",
+        "mimeType" : "text/plain",
+        "md5sum" : "657f9293fa5beb737d5cb799f2dc8763",
+        "sha1sum" : "9ea125fb01d8392eb789209ac734d201fe8cbe56",
+        "sha256sum" : "886d68a9c77d022aeff52b918de13a23fc784a8d08536c4a95d8ead2f0a38022"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1381",
+        "mimeType" : "application/xml",
+        "md5sum" : "e09b7e4af2ed2e9f838dfe41ae54e185",
+        "sha1sum" : "d87ba907f8ee472f5a3d7ba84de43f3bcef4f171",
+        "sha256sum" : "42dd09d0df146af0957e2ce693fd2e76b377eae9531c0795b2bcc279cd99cc0a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2130",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8b708b212c1df8d9f163faecd7a3586a",
+        "sha1sum" : "52508c62548abc0dbc83795bf4763f7ec6cea0cc",
+        "sha256sum" : "4eac6a0a47437157ffda5b10635b85c871e212b1b238c1fecda166a794932c4a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1576582793,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000899"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724292445,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285527,
+  "submissionId" : "MODEL1912170003",
+  "publicationId" : "BIOMD0000000899",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai"
+}

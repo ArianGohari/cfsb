@@ -1,0 +1,301 @@
+{
+  "name" : "Adams2012 - Locke2006 Circadian Rhythm model refined with Input Signal Light Function",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>As per BIO0000000089.xml but including a functional light.</p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22855577",
+    "journal" : "Journal of biological rhythms",
+    "title" : "The Input Signal Step Function (ISSF), a standard method to encode input signals in SBML models with software support, applied to circadian clock models.",
+    "synopsis" : "Time-dependent light input is an important feature of computational models of the circadian clock. However, publicly available models encoded in standard representations such as the Systems Biology Markup Language (SBML) either do not encode this input or use different mechanisms to do so, which hinders reproducibility of published results as well as model reuse. The authors describe here a numerically continuous function suitable for use in SBML for models of circadian rhythms forced by periodic light-dark cycles. The Input Signal Step Function (ISSF) is broadly applicable to encoding experimental manipulations, such as drug treatments, temperature changes, or inducible transgene expression, which may be transient, periodic, or mixed. It is highly configurable and is able to reproduce a wide range of waveforms. The authors have implemented this function in SBML and demonstrated its ability to modify the behavior of publicly available models to accurately reproduce published results. The implementation of ISSF allows standard simulation software to reproduce specialized circadian protocols, such as the phase-response curve. To facilitate the reuse of this function in public models, the authors have developed software to configure its behavior without any specialist knowledge of SBML. A community-standard approach to represent the inputs that entrain circadian clock models could particularly facilitate research in chronobiology.",
+    "year" : 2012,
+    "month" : "8",
+    "volume" : "27",
+    "issue" : "4",
+    "pages" : "328-332",
+    "link" : "http://identifiers.org/pubmed/22855577",
+    "authors" : [
+      {
+        "name" : "R R Adams",
+        "institution" : "SynthSys, University of Edinburgh, Edinburgh, UK",
+        "orcid" : "0000-0003-1501-0941"
+      },
+      {
+        "name" : "N Tsorman",
+        "institution" : "SynthSys, University of Edinburgh, Edinburgh, UK"
+      },
+      {
+        "name" : "K Stratford",
+        "institution" : "Edinburgh Parallel Computing Centre, University of Edinburgh, Edinburgh, UK"
+      },
+      {
+        "name" : "O E Akman",
+        "institution" : "Centre for Systems, Dynamics and Control, School of Engineering, Computing and Mathematics, University of Exeter, UK"
+      },
+      {
+        "name" : "S Gilmore",
+        "institution" : "SynthSys, University of Edinburgh, Edinburgh, UK"
+      },
+      {
+        "name" : "Juty N",
+        "orcid" : "0000-0002-2036-8350"
+      },
+      {
+        "name" : "N Le Novère",
+        "institution" : "Department of Computational Neurobiology, European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+      },
+      {
+        "name" : "A J Millar",
+        "institution" : "Department of Computational Neurobiology, European Molecular Biology Laboratory, European Bioinformatics Institute, Hinxton, UK"
+      },
+      {
+        "name" : "A J Millar",
+        "institution" : "SynthSys, University of Edinburgh, Edinburgh, UK"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000476_url.xml",
+        "description" : "SBML L2V4 representation of Adams2012 - Locke2006 Circadian Rhythm model refined with Input Signal Light Function",
+        "fileSize" : "91180",
+        "mimeType" : "application/xml",
+        "md5sum" : "ac1504da827ab8ebf578b20b6e73d0df",
+        "sha1sum" : "fc032f52fe96609ec76f2de8c1f0e8475974a3a1",
+        "sha256sum" : "b0a9e5c1278ff0474fa2628c0edd2b5e62232759c6c4b0981482cb814744a9a1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000476-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "39045",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "36821d929aecf30496445f200c4dd6db",
+        "sha1sum" : "964971fdcd8b06e85189093205ad1aab2cd7f2a4",
+        "sha256sum" : "7ad01c8b06ddec5a030aa04667b4035e43df58b8520ef5759ec098f96469925a"
+      },
+      {
+        "name" : "BIOMD0000000476-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "59631",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "39ee4770c78a34ebba4b8a987ecb1138",
+        "sha1sum" : "ce1e2c489222d823446ad06e6ec7fb23da1d4bb8",
+        "sha256sum" : "05a769fd910e01ea4aa94ea8846ef8360984c804987fb86bbf2690b9b63dd981"
+      },
+      {
+        "name" : "BIOMD0000000476-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "18262",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "78d5308c1fee5ebd1abcc80bdd8fd144",
+        "sha1sum" : "6740067fe5ac40ff1dcb289aa010e9288e4da40a",
+        "sha256sum" : "1e8dbf76888c358ceb8a4b3094e52628bdc3f1b00596002d7365b8c1556032ff"
+      },
+      {
+        "name" : "BIOMD0000000476-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "18262",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bed4897f97c65bf676dd79011f3b8450",
+        "sha1sum" : "79edefdc4dd3c458759da33d54d6024ef2257b38",
+        "sha256sum" : "2653196fe70c25caf1b8e1df9a6f829de92fd313e2d38f78db5429b3daf223ae"
+      },
+      {
+        "name" : "BIOMD0000000476.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "18262",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bed4897f97c65bf676dd79011f3b8450",
+        "sha1sum" : "79edefdc4dd3c458759da33d54d6024ef2257b38",
+        "sha256sum" : "2653196fe70c25caf1b8e1df9a6f829de92fd313e2d38f78db5429b3daf223ae"
+      },
+      {
+        "name" : "BIOMD0000000476.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "14022",
+        "mimeType" : "text/plain",
+        "md5sum" : "b6da1d48a12490c45971cfecbbbd1f72",
+        "sha1sum" : "54bfbe972a3acfa089acb26ff1515448524a2c8a",
+        "sha256sum" : "ed8f5ffc02fe0fb520f96980df5d55b77910759bd758d7a56a3ad994822e3d2f"
+      },
+      {
+        "name" : "BIOMD0000000476.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "379615",
+        "mimeType" : "image/png",
+        "md5sum" : "fa19c570b4cde471f91125119db06e0f",
+        "sha1sum" : "97a619a46700f400961e12c54418ccb96e90ccba",
+        "sha256sum" : "e6de129c93261c301463776bbaf151d72e9fa97370184b3715352939a04cf921"
+      },
+      {
+        "name" : "BIOMD0000000476.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "103472",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "42e8461cbd68293c1ddb58ae1d969a56",
+        "sha1sum" : "f670e40a1ed27d1c0bbf415b10cf89a49e5d4e9a",
+        "sha256sum" : "761a611e68efb31771c73fbbd1b3e3337a45b8da638baf10e3a71db1981a23a6"
+      },
+      {
+        "name" : "BIOMD0000000476.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "93492",
+        "mimeType" : "application/xml",
+        "md5sum" : "12817e8b3e044f3474869f25f10aed1f",
+        "sha1sum" : "0d9d53d609e6cdcdc289675fdafedba3d8638bc5",
+        "sha256sum" : "16a9b4bf8a594db54d106763a63abcda6db7b8f36452d06344de2babadb25423"
+      },
+      {
+        "name" : "BIOMD0000000476_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "73100",
+        "mimeType" : "application/xml",
+        "md5sum" : "bfc20c08e11f79d2a66f0b50cf99edb5",
+        "sha1sum" : "ab7b3286c3b6a7677217537febef0e8cd0878002",
+        "sha256sum" : "458f0dbfb4bdf72018485fed9bdacda30861a6865f65eaae2f0bef5d59d4a4ab"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21342",
+        "mimeType" : "image/png",
+        "md5sum" : "4f8c804a4d8457b978d4717a42652755",
+        "sha1sum" : "9c58247b0e247c2c6701fdeab2a48b6f5a1e5af2",
+        "sha256sum" : "973983ff41d13645c387c1848c16cd5c0b5a1766d884eed6d06ab3a96abb1d4a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "133",
+        "mimeType" : "text/plain",
+        "md5sum" : "b418dddc507a2acdcc810d021e54ce69",
+        "sha1sum" : "719d3cc8393522866bf6d6d3f03402947940fed0",
+        "sha256sum" : "77c28921c28276f29970999e793ce077de6694f1d6104a242e71adda85895f7a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1796",
+        "mimeType" : "application/xml",
+        "md5sum" : "7e4f38d0f8e983b96d564c5e78bbf429",
+        "sha1sum" : "adcdfb3036f61645a14819260e39a85dbb0b1764",
+        "sha256sum" : "49fb8e8d87ed8677957c0b727e32934c8c65955fd726dd34b73e5ce33975e11f"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2060",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f5d3b0bdcd6adbd73f54ab410231cb54",
+        "sha1sum" : "49f708091d8a2df0e90965ac818e0598f26f1163",
+        "sha256sum" : "2b66678324ed008d8f2b964a1e7c7ebc0eed7bd5c4522f10904eadfc906741ef"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1263394879,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Locke2006ks_tanh"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424871265,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Adams2012 - Locke2006 Circadian Rhythm model refined with Input Signal Light Function"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724278551,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285218,
+  "submissionId" : "MODEL1001130000",
+  "publicationId" : "BIOMD0000000476",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1001130000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1001130000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000476",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000476"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22855577",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22855577"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000089",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000089"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

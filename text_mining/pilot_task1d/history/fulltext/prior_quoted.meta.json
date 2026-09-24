@@ -1,0 +1,27 @@
+{
+  "id": "prior_quoted",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=20&cursorMark=%2A&query=DOI%3A%2210.1016%2FS0304-3835%2899%2900320-1%22+OR+DOI%3A%2210.1097%2F00001648-200101000-00013%22+OR+TITLE%3A%22Importance+of+cell+kinetics+rhythmicity+for+control+of+cell+proliferation+and+carcinogenesis+in+rat+liver%22+OR+DOI%3A%2210.1093%2Fjnci%2F94.9.690%22+OR+DOI%3A%2210.1093%2Fcarcin%2Fbgi075%22+OR+DOI%3A%2210.1016%2FS0002-9440%2810%2964135-1%22+OR+DOI%3A%2210.1016%2FS0002-9440%2810%2965306-0%22+OR+DOI%3A%2210.1016%2F0016-5085%2891%2990019-H%22+OR+DOI%3A%2210.1002%2Far.1091200408%22+OR+DOI%3A%2210.1074%2Fjbc.M107499200%22+OR+DOI%3A%2210.1073%2Fpnas.0502610102%22",
+  "purpose": "Requests 9 und 10: HTTP 200, hitCount 0 trotz Crossref-Identitäten. Unquotierte Klammern in DOI können die Query-Syntax stören. Nulltreffer werden nicht als Abwesenheit älterer Literatur interpretiert.",
+  "method": "GET",
+  "requested_at_utc": "2026-09-20T14:43:22.869072+00:00",
+  "ordinal": 11,
+  "plan_sha256": "1c88909b3c8c999e64c1dd36ef5a6583e4d23859326aa04e65bcefe302a37e6d",
+  "http_status": 200,
+  "headers": {
+    "vary": "accept-encoding",
+    "Content-Type": "application/json;charset=UTF-8",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "Date": "Sun, 20 Sep 2026 14:43:23 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "JSESSIONID=53C50CCC7E19C03F62CD5F801CEF4FD2; Path=/europepmc/webservices/rest; Secure; HttpOnly"
+  },
+  "status": "received",
+  "finished_at_utc": "2026-09-20T14:43:23.241566+00:00",
+  "raw_ref": "raw/prior_quoted.body",
+  "sha256": "7f875dd43269e761f9f6c2d3c5a2ea80e16cc4fd834f39c98594f03ed9d4b5e4",
+  "bytes": 58859,
+  "pdf_magic": false,
+  "hitCount": 10,
+  "retrieved_records": 10
+}

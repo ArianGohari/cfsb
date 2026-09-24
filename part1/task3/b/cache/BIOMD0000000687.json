@@ -1,0 +1,317 @@
+{
+  "name" : "Wodarz2007 - Cytomegalovirus infection model with cytotoxic T lymphocyte response",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>Dynamics of killer T cell inflation in viral infections.</strong>        <br />          Wodarz D, Sierro S, Klenerman P.      <em>J R Soc Interface</em>          2007 Jun 22;4(14):533-43      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17251133\">17251133</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Upon acute viral infection, a typical cytotoxic T lymphocyte (CTL) response ischaracterized by a phase of expansion and contraction after which it settles ata relatively stable memory level. Recently, experimental data from mice infectedwith murine cytomegalovirus (MCMV) showed different and unusual dynamics. Afteracute infection had resolved, some antigen specific CTL started to expand overtime despite the fact that no replicative virus was detectable. This phenomenonhas been termed as \"CTL memory inflation\". In order to examine the dynamics ofthis system further, we developed a mathematical model analysing the impact ofinnate and adaptive immune responses. According to this model, a potentiallyimportant contributor to CTL inflation is competition between the specific CTLresponse and an innate natural killer (NK) cell response. Inflation occurs mostreadily if the NK cell response is more efficient than the CTL at reducing virusload during acute infection, but thereafter maintains a chronic virus load whichis sufficient to induce CTL proliferation. The model further suggests thatweaker NK cell mediated protection can correlate with more pronounced CTLinflation dynamics over time. We present experimental data from mice infectedwith MCMV which are consistent with the theoretical predictions. This modelprovides valuable information and may help to explain the inflation of CMVspecific CD8+T cells seen in humans as they age.      </p>        <p>This model was taken from the      <a href=\"http://www.cellml.org/models\">CellML repository</a>          and automatically converted to SBML.      <br />          The original model was:      <a href=\"http://models.cellml.org/exposure/61368ae57b0bdf4cfbcc0701fd3a35c2\">          <strong>Wodarz D, Sierro S, Klenerman P. (2007) - version=1.0</strong>        </a>        <br />          The original CellML model was created by:      <br />        <strong>Catherine Lloyd</strong>        <br />          c.lloyd@auckland.ac.nz      <br />          The University of Auckland      <br /></p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.      <br />          To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17251133",
+    "journal" : "Journal of the Royal Society, Interface",
+    "title" : "Dynamics of killer T cell inflation in viral infections.",
+    "affiliation" : "Department of Ecology and Evolutionary Biology, University of California, Irvine, CA 92697, USA. dwodarz@uci.edu",
+    "synopsis" : "Upon acute viral infection, a typical cytotoxic T lymphocyte (CTL) response is characterized by a phase of expansion and contraction after which it settles at a relatively stable memory level. Recently, experimental data from mice infected with murine cytomegalovirus (MCMV) showed different and unusual dynamics. After acute infection had resolved, some antigen specific CTL started to expand over time despite the fact that no replicative virus was detectable. This phenomenon has been termed as \"CTL memory inflation\". In order to examine the dynamics of this system further, we developed a mathematical model analysing the impact of innate and adaptive immune responses. According to this model, a potentially important contributor to CTL inflation is competition between the specific CTL response and an innate natural killer (NK) cell response. Inflation occurs most readily if the NK cell response is more efficient than the CTL at reducing virus load during acute infection, but thereafter maintains a chronic virus load which is sufficient to induce CTL proliferation. The model further suggests that weaker NK cell mediated protection can correlate with more pronounced CTL inflation dynamics over time. We present experimental data from mice infected with MCMV which are consistent with the theoretical predictions. This model provides valuable information and may help to explain the inflation of CMV specific CD8+T cells seen in humans as they age.",
+    "year" : 2007,
+    "month" : "6",
+    "volume" : "4",
+    "issue" : "14",
+    "pages" : "533-543",
+    "link" : "http://identifiers.org/pubmed/17251133",
+    "authors" : [
+      {
+        "name" : "Dominik Wodarz",
+        "institution" : "Department of Ecology and Evolutionary Biology, University of California, Irvine, CA 92697, USA. dwodarz@uci.edu"
+      },
+      {
+        "name" : "Sophie Sierro"
+      },
+      {
+        "name" : "Paul Klenerman",
+        "orcid" : "0000-0003-4307-9161"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000687_url.xml",
+        "description" : "SBML L2V4 representation of Wodarz2007 - Cytomegalovirus infection model with cytotoxic T lymphocyte response",
+        "fileSize" : "101202",
+        "mimeType" : "application/xml",
+        "md5sum" : "178b80d87d90a383d43152e4a97d1d2e",
+        "sha1sum" : "5ba248b0ae3bce9951395aabf381225e6e71a1ac",
+        "sha256sum" : "6894f5dbf257e96aa83ffe1f022013f386fb88c85f70efa750f00169d847ef34"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000687-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "33224",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bfab0dde83d6ae2e61dda44a7b408c94",
+        "sha1sum" : "8b82bcd8b85ce8a033df7e5bb5ab2fdaf847fa18",
+        "sha256sum" : "7ea05ae58ba9d25442dbe5afac19d13b94b6c8d6aafe065a018329667ed88009"
+      },
+      {
+        "name" : "BIOMD0000000687-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "52930",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a603a0cbfc0e4e38f49ec33dc185f656",
+        "sha1sum" : "208e3e5ee664eb65718da121b254947148cd294a",
+        "sha256sum" : "18cb4dbf29747ad9f37d9ec4c263ed52ebfb1ad90f57345f7ac46a9b4fe03e08"
+      },
+      {
+        "name" : "BIOMD0000000687-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11277",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e718e1286bf8e1b146ab8f2da5b15955",
+        "sha1sum" : "cd336a6d04c113671217e6654371405e433aab08",
+        "sha256sum" : "47ddb09b58ff9a9c78d8214a5e6e4fd44737b2e94112a6e39091c187a590f92d"
+      },
+      {
+        "name" : "BIOMD0000000687.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "11277",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2a634ade70f25a7d52d5d1d103a50e1c",
+        "sha1sum" : "e4240f4adfb3a5512b6c821ec6c39471640c37dd",
+        "sha256sum" : "394f5f20640da1a7d87e662f9ca709f780dfea3dbccf485e3101079cb73cdf18"
+      },
+      {
+        "name" : "BIOMD0000000687.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7674",
+        "mimeType" : "text/plain",
+        "md5sum" : "672299c3f3a29ed117c7c48ee607014b",
+        "sha1sum" : "2018ebadcf73933c7bda37ebf810ae7cb075cab3",
+        "sha256sum" : "c77e69d2520de57125741e2c8405a5f5b89a24f900c5e3fd2ae6dafe000b847f"
+      },
+      {
+        "name" : "BIOMD0000000687.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "209805",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1c5b280afe5ed637f9a531c9d127512a",
+        "sha1sum" : "38656eed154e5450f5a6cd211ad6afc495acb652",
+        "sha256sum" : "fc1d30ffc2bb3e1236dcdeb603422b052ba4993d1a8bc7156f53e288261a3791"
+      },
+      {
+        "name" : "BIOMD0000000687.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "75943",
+        "mimeType" : "image/png",
+        "md5sum" : "ca845a2ff51a01c0b7f965feed8ccb16",
+        "sha1sum" : "04682449b559dab3a227ee3295bbfcd8d38e27c6",
+        "sha256sum" : "128855eee29a9da0d12e38c7f74740b8983a0c49861772c9c4d10c0a1f586fd4"
+      },
+      {
+        "name" : "BIOMD0000000687.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "54870",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e8e77b2d48560b32d542bd207920dfdc",
+        "sha1sum" : "1b5b3f5e8c43eb505c07af62065a89b7c82a3597",
+        "sha256sum" : "d4046ddde4cdb295123c3379731e1f90ff04e83651142ad160fdb9f61fc5732c"
+      },
+      {
+        "name" : "BIOMD0000000687.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "135831",
+        "mimeType" : "application/xml",
+        "md5sum" : "6f314f11957e1edd92df90438d0b7202",
+        "sha1sum" : "a57df0cf9c452ed799ffdaa85bd2c79612fb7baf",
+        "sha256sum" : "ee015a9bfc95333e368d52e03995745d599ccaf0fb3a9ca66d63a92022b577b8"
+      },
+      {
+        "name" : "MODEL1006230052.cps",
+        "description" : "Curated and annotated COPASI file.",
+        "fileSize" : "119025",
+        "mimeType" : "application/xml",
+        "md5sum" : "b55accd564ff230d763c4bbbaec0800a",
+        "sha1sum" : "98e92e52962b7d2d18d6e3de30dec3a856789f05",
+        "sha256sum" : "59df661324f641e371fa0e294ce3d8fd62034b9a67a28fafa89661c8f74b921a"
+      },
+      {
+        "name" : "MODEL1006230052.sedml",
+        "description" : "SED-ML file for figure 2a of the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "34181",
+        "mimeType" : "application/xml",
+        "md5sum" : "83f9c5fa7b0da320826c122dd8b42965",
+        "sha1sum" : "59cff168fe77bc401c50e7d4f925ea66b0b36826",
+        "sha256sum" : "1f8dfabb04f014f16f8eddfb7ba3ffdbed84aec2e8884eb1a6e50decb079b618"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17846",
+        "mimeType" : "image/png",
+        "md5sum" : "26b2e24717eb047cadb2b18741f4b3ea",
+        "sha1sum" : "8a21b461789d7bde0a74dd99ac02630dbffa6655",
+        "sha256sum" : "761870109e1fada6483d5938494e4fb727915f74ecb7e87b22db29d8d8acef7b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "136",
+        "mimeType" : "text/plain",
+        "md5sum" : "d201c2d18846722dd6f754a6557e91d2",
+        "sha1sum" : "d0834fd599b7b17db67c1a3093dceee717b5fae6",
+        "sha256sum" : "8f2f26b2630b2dc6154c99d2d36a531208f31b3023f86b72ab4382d42a3ce3e3"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1910",
+        "mimeType" : "application/xml",
+        "md5sum" : "cde5fc58fe61e9cf6f1e7005f0292664",
+        "sha1sum" : "a2aadc3981e76c9590e6e71e77273a565208f92d",
+        "sha256sum" : "36ebab0759ef184b481481ce91470d1f12bbc0daa0ac63532bf7671e3d582d72"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6158",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1a7ea1cb1cd267fe055decf60b7e32b7",
+        "sha1sum" : "9ef60bfce9ce70d425eb56e7daa3b2e538dd134d",
+        "sha256sum" : "6e8c22dbfcf2b0b6f8d1bbe19c845065f7c275e5f90cc3176cccb10efcc125ae"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287934,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Wodarz2007_CTLinflation_ModelB"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277475424,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Wodarz2007_CTLinflation_ModelB"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1521018446,
+        "submitter" : "administrator",
+        "comment" : "Model name updated using online editor."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724286597,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285410,
+  "submissionId" : "MODEL1006230052",
+  "publicationId" : "BIOMD0000000687",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230052",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230052"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000687",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000687"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17251133",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17251133"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10.1093/intimm/dxh303",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1093/intimm/dxh303"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "BTO:0000289",
+      "name" : "cytotoxic T-lymphocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000289"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009615",
+      "name" : "response to virus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009615"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10088",
+      "name" : "Mus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10088"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "0001062",
+      "name" : "cytomegalovirus infection",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0001062"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "17251133",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17251133"
+    }
+  ]
+}

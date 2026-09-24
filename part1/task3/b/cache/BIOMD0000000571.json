@@ -1,0 +1,307 @@
+{
+  "name" : "Nishio2008 - Design of the phosphotransferase system for enhanced glucose uptake in E. coli.",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Nishio2008 - Design of the phosphotransferasesystem for enhanced glucose uptake in E. coli.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/18197177\" title=\"Access to this publication\">Computer-aided rational    design of the phosphotransferase system for enhanced glucose    uptake in Escherichia coli.</a>  </div>  <div class=\"bibo:authorList\">Nishio Y, Usuda Y, Matsui K, Kurata  H.</div>  <div class=\"bibo:Journal\">Mol. Syst. Biol. 2008; 4: 160</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>The phosphotransferase system (PTS) is the sugar    transportation machinery that is widely distributed in    prokaryotes and is critical for enhanced production of useful    metabolites. To increase the glucose uptake rate, we propose a    rational strategy for designing the molecular architecture of    the Escherichia coli glucose PTS by using a computer-aided    design (CAD) system and verified the simulated results with    biological experiments. CAD supports construction of a    biochemical map, mathematical modeling, simulation, and system    analysis. Assuming that the PTS aims at controlling the glucose    uptake rate, the PTS was decomposed into hierarchical modules,    functional and flux modules, and the effect of changes in gene    expression on the glucose uptake rate was simulated to make a    rational strategy of how the gene regulatory network is    engineered. Such design and analysis predicted that the mlc    knockout mutant with ptsI gene overexpression would greatly    increase the specific glucose uptake rate. By using biological    experiments, we validated the prediction and the presented    strategy, thereby enhancing the specific glucose uptake    rate.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000571\">BIOMD0000000571</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18197177",
+    "journal" : "Molecular systems biology",
+    "title" : "Computer-aided rational design of the phosphotransferase system for enhanced glucose uptake in Escherichia coli.",
+    "affiliation" : "Fermentation and Biotechnology Laboratories, Ajinomoto Co. Inc., Kawasaki, Japan. yousuke_nishio@ajinomoto.com",
+    "synopsis" : "The phosphotransferase system (PTS) is the sugar transportation machinery that is widely distributed in prokaryotes and is critical for enhanced production of useful metabolites. To increase the glucose uptake rate, we propose a rational strategy for designing the molecular architecture of the Escherichia coli glucose PTS by using a computer-aided design (CAD) system and verified the simulated results with biological experiments. CAD supports construction of a biochemical map, mathematical modeling, simulation, and system analysis. Assuming that the PTS aims at controlling the glucose uptake rate, the PTS was decomposed into hierarchical modules, functional and flux modules, and the effect of changes in gene expression on the glucose uptake rate was simulated to make a rational strategy of how the gene regulatory network is engineered. Such design and analysis predicted that the mlc knockout mutant with ptsI gene overexpression would greatly increase the specific glucose uptake rate. By using biological experiments, we validated the prediction and the presented strategy, thereby enhancing the specific glucose uptake rate.",
+    "year" : 2008,
+    "month" : "0",
+    "volume" : "4",
+    "pages" : "160",
+    "link" : "http://identifiers.org/pubmed/18197177",
+    "authors" : [
+      {
+        "name" : "Yousuke Nishio",
+        "institution" : "Fermentation and Biotechnology Laboratories, Ajinomoto Co. Inc., Kawasaki, Japan. yousuke_nishio@ajinomoto.com"
+      },
+      {
+        "name" : "Yoshihiro Usuda"
+      },
+      {
+        "name" : "Kazuhiko Matsui"
+      },
+      {
+        "name" : "Hiroyuki Kurata"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000571_url.xml",
+        "description" : "SBML L2V4 representation of Nishio2008 - Design of the phosphotransferase system for enhanced glucose uptake in E. coli.",
+        "fileSize" : "194237",
+        "mimeType" : "application/xml",
+        "md5sum" : "135de626c339e3ff4129b227773c3f58",
+        "sha1sum" : "13a9ae8ff97b70453e490a9f276a2fa8d489bc47",
+        "sha256sum" : "cfc8264e0d8453d6b4b02f8cdaf7eca50f33d42889b87f97bc243d72e799030b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000571-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "142356",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "534597830869cb41bdb5c05220061857",
+        "sha1sum" : "76f52540e93912dada0130d4f67ba625a5c5a30b",
+        "sha256sum" : "0aca5c7223e77a1e6cc88d2a6506501588ba3312f02e3b0d51c710605496efbd"
+      },
+      {
+        "name" : "BIOMD0000000571-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "241202",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c8cc29bffbde12a78c19564525016070",
+        "sha1sum" : "70fb79e461a3168f8bd1fb7d72e0582a31244493",
+        "sha256sum" : "d1d8418a040b2090a39c5370f36b092d574a71610d611a9ccd3ceb85db61735e"
+      },
+      {
+        "name" : "BIOMD0000000571-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "48137",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "25ffd92252d3d113e70a1464198ef42a",
+        "sha1sum" : "44f88653038f37baaf010899067d6122e05f3447",
+        "sha256sum" : "0efd91b8c78cad65a4c194da022f0dce2ae1e24e9a425ee791dbccad20feaa5c"
+      },
+      {
+        "name" : "BIOMD0000000571-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "48137",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "27006db5138b04a4e1daaf1df35f6d67",
+        "sha1sum" : "261c7e9337a860a704464b408a6eefaf96ed8322",
+        "sha256sum" : "3a3d7506985ed54d44a4b5c61a5bdc4bac2fd2bc2e878308a85b8922d319fd05"
+      },
+      {
+        "name" : "BIOMD0000000571.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "48137",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "27006db5138b04a4e1daaf1df35f6d67",
+        "sha1sum" : "261c7e9337a860a704464b408a6eefaf96ed8322",
+        "sha256sum" : "3a3d7506985ed54d44a4b5c61a5bdc4bac2fd2bc2e878308a85b8922d319fd05"
+      },
+      {
+        "name" : "BIOMD0000000571.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "32749",
+        "mimeType" : "text/plain",
+        "md5sum" : "06f48d1481c5c2a5a199a921dbec49ed",
+        "sha1sum" : "a5d4d195c78199ef09bcbf6332fb0404fed6c3b3",
+        "sha256sum" : "69aa993cd781b61aa62784385a6d7bbab264bbed5ad7976a8e1fba89735f9299"
+      },
+      {
+        "name" : "BIOMD0000000571.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "753164",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c4bf6e2c498d9f636c25501f1b2b2be0",
+        "sha1sum" : "0ab546b1fe02ceeda920d282351481e159dc071a",
+        "sha256sum" : "cee62b6b9d2e98c8fb0722eb2b45a569d3fc412a6aa302f4ce59298ef08dac03"
+      },
+      {
+        "name" : "BIOMD0000000571.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2731796",
+        "mimeType" : "image/png",
+        "md5sum" : "61fe625bf07a8456090cf625e03825c1",
+        "sha1sum" : "57cc089dc9d24f9b010fea1dfdbfcc7fd88d3490",
+        "sha256sum" : "e5183329dc8ff85df9fd19bb4db781d346b866999f8bb67014952f6f840960f1"
+      },
+      {
+        "name" : "BIOMD0000000571.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "369735",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ec5a73abf81c1eb307d85e522e294f29",
+        "sha1sum" : "1046d33665b396571061f22839895d93e6f31e31",
+        "sha256sum" : "800f9963e9631f16a60411d85980c5a70e193d19283c36c321ff3a6507d527c8"
+      },
+      {
+        "name" : "BIOMD0000000571.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "242428",
+        "mimeType" : "application/xml",
+        "md5sum" : "7475592d67de9c9b2b19273c1f67f721",
+        "sha1sum" : "fd856089b3d542d83aed203a2e4ed38fa44a8001",
+        "sha256sum" : "40bf40781e67c33a54dad06f2f19e950cc973a2ce710f0d5459a1346098e6f06"
+      },
+      {
+        "name" : "Nishio2008.cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "314283",
+        "mimeType" : "application/xml",
+        "md5sum" : "88a383166ab7a3b95e661699d4ee8181",
+        "sha1sum" : "69de1938e59aea89da68b37632a5262025049c98",
+        "sha256sum" : "20519fe15067417079fef35389eb5376127c034daf80077f62f692a18cfd6f54"
+      },
+      {
+        "name" : "Nishio2008.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "116868",
+        "mimeType" : "application/xml",
+        "md5sum" : "d8de1a25e38d0d079b6c3436b16add3c",
+        "sha1sum" : "7f096d685188b0a0c609f91451d1e6321c797f10",
+        "sha256sum" : "8389887262df818216aadd3f894a334700663a31193b70bf6cb56adce40ef387"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "7596",
+        "mimeType" : "image/png",
+        "md5sum" : "1a187ca12c853064c6fab8a1c523336f",
+        "sha1sum" : "0d7bc93919230acd7b1cf2f998e01b527305f6da",
+        "sha256sum" : "748d61c4eb0cdd079f9a76976202e953c1a32e1827a646455be740eb73b67914"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "385",
+        "mimeType" : "text/plain",
+        "md5sum" : "28948c7120ed48b56542831888257284",
+        "sha1sum" : "20f17f8f7db569ebe582153ba70bbf4f0d2658ab",
+        "sha256sum" : "f2ca47fb9c71f5b51dddd0cb19dd41b9b63d586bccaf1844b57c11f68e06f96c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2019",
+        "mimeType" : "application/xml",
+        "md5sum" : "576b22094a366a83936bc465eaf82e41",
+        "sha1sum" : "892bb2cfa71408a59777b567b950eafbe8b29d53",
+        "sha256sum" : "e644867f7a9a4a245cc12b73e7c103913a7f09ac28d64bf3ae82f16714e00de6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4966",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bb9ed8e8484859e0113d8a770e8e42a0",
+        "sha1sum" : "4fec7ae80f7730a30e23c97b810e6bd6ea7dfb7c",
+        "sha256sum" : "261dcb735e7bc25268d5cfcac8f7ce80d63be3d22bf9e7c349ce5530a36b98e9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1422612822,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Original import of BIOMD0000000571.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1427472486,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Current version of Nishio2008 - Design of the phosphotransferase system for enhanced glucose uptake in E. coli."
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545415883,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Nishio2008.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724281894,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285357,
+  "submissionId" : "MODEL1501300000",
+  "publicationId" : "BIOMD0000000571",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Kieran Smallbone",
+        "email" : "kieran.smallbone@ncl.ac.uk",
+        "affiliation" : "Human Nutrition Research Centre, Newcastle University, Newcastle upon Tyne, UK.",
+        "orcid" : "0000-0003-2815-7045",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1501300000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1501300000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000571",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000571"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18197177",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18197177"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000051",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000051"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "83333",
+      "name" : "Escherichia coli (strain K12)",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/83333"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0008982",
+      "name" : "protein-N(PI)-phosphohistidine-sugar phosphotransferase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008982"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

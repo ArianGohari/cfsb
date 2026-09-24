@@ -1,0 +1,301 @@
+{
+  "name" : "Roblitz2013 - Menstrual Cycle following GnRH analogue administration",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Roblitz2013 - Menstrual Cycle following GnRH analogue administration</div>            <div class=\"dc:description\">      <p>The model describes the menstrual cycle feedback mechanisms. GnRH, FSH, LH, E2, P4, inbibins A and B, and follicular development are modelled. The model predicts hormonal changes following GnRH analogue administration. Simulation results agree with measurements of hormone blood concentrations. The model gives insight into mechanisms underlying gonadotropin supression.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23206386\" title=\"Access to this publication\">A mathematical model of the human menstrual cycle for the administration of GnRH analogues.</a>                    </div>                <div class=\"bibo:authorList\">Röblitz S, Stötzel C, Deuflhard P, Jones HM, Azulay DO, van der Graaf PH, Martin SW.</div>                <div class=\"bibo:Journal\">J. Theor. Biol. 2013 Mar; 321: 8-27</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>The paper presents a differential equation model for the feedback mechanisms between gonadotropin-releasing hormone (GnRH), follicle-stimulating hormone (FSH), luteinizing hormone (LH), development of follicles and corpus luteum, and the production of estradiol (E2), progesterone (P4), inhibin A (IhA), and inhibin B (IhB) during the female menstrual cycle. Compared to earlier human cycle models, there are three important differences: The model presented here (a) does not involve any delay equations, (b) is based on a deterministic modeling of the GnRH pulse pattern, and (c) contains less differential equations and less parameters. These differences allow for a faster simulation and parameter identification. The focus is on modeling GnRH-receptor binding, in particular, by inclusion of a pharmacokinetic/pharmacodynamic (PK/PD) model for a GnRH agonist, Nafarelin, and a GnRH antagonist, Cetrorelix, into the menstrual cycle model. The final mathematical model describes the hormone profiles (LH, FSH, P4, E2) throughout the menstrual cycle of 12 healthy women. It correctly predicts hormonal changes following single and multiple dose administration of Nafarelin or Cetrorelix at different stages in the cycle.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000494\">BIOMD0000000494</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23206386",
+    "journal" : "Journal of theoretical biology",
+    "title" : "A mathematical model of the human menstrual cycle for the administration of GnRH analogues.",
+    "affiliation" : "Computational Systems Biology Group, Zuse Institute Berlin (ZIB), Berlin, Germany. susanna.roeblitz@zib.de",
+    "synopsis" : "The paper presents a differential equation model for the feedback mechanisms between gonadotropin-releasing hormone (GnRH), follicle-stimulating hormone (FSH), luteinizing hormone (LH), development of follicles and corpus luteum, and the production of estradiol (E2), progesterone (P4), inhibin A (IhA), and inhibin B (IhB) during the female menstrual cycle. Compared to earlier human cycle models, there are three important differences: The model presented here (a) does not involve any delay equations, (b) is based on a deterministic modeling of the GnRH pulse pattern, and (c) contains less differential equations and less parameters. These differences allow for a faster simulation and parameter identification. The focus is on modeling GnRH-receptor binding, in particular, by inclusion of a pharmacokinetic/pharmacodynamic (PK/PD) model for a GnRH agonist, Nafarelin, and a GnRH antagonist, Cetrorelix, into the menstrual cycle model. The final mathematical model describes the hormone profiles (LH, FSH, P4, E2) throughout the menstrual cycle of 12 healthy women. It correctly predicts hormonal changes following single and multiple dose administration of Nafarelin or Cetrorelix at different stages in the cycle.",
+    "year" : 2013,
+    "month" : "3",
+    "volume" : "321",
+    "pages" : "8-27",
+    "link" : "http://identifiers.org/pubmed/23206386",
+    "authors" : [
+      {
+        "name" : "Susanna Röblitz",
+        "institution" : "Zuse Institute Berlin, Berlin 14195, Germany.",
+        "orcid" : "0000-0002-2735-0030"
+      },
+      {
+        "name" : "Claudia Stötzel"
+      },
+      {
+        "name" : "Peter Deuflhard"
+      },
+      {
+        "name" : "Hannah M Jones"
+      },
+      {
+        "name" : "David-Olivier Azulay"
+      },
+      {
+        "name" : "Piet H van der Graaf"
+      },
+      {
+        "name" : "Steven W Martin"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000494_url.xml",
+        "description" : "SBML L2V4 representation of Roblitz2013 - Menstrual Cycle following GnRH analogue administration",
+        "fileSize" : "449771",
+        "mimeType" : "application/xml",
+        "md5sum" : "fe655e5145202080b548df791d921b6b",
+        "sha1sum" : "01b64c185da895dca54de80236044dd97413ccf6",
+        "sha256sum" : "7eb01f255157c04ff346d8df279283b5735bee751f9167c31948d3fbfeaf81fe"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000494-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "101575",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "15fff3f0c0422dd125c1b2ee4ec6397b",
+        "sha1sum" : "d61e5157edba5d0bc9f1d8ebe0014a9f280cc803",
+        "sha256sum" : "d9e4d75d6f3dfa7a2a28fa027d8460e8bbc2ae1075151328697ef03fe568aae2"
+      },
+      {
+        "name" : "BIOMD0000000494-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "168588",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "878b503dd73e156c43484c7d6260d942",
+        "sha1sum" : "69c28e0d3dc6af8e8918ea78297cdbededcb785e",
+        "sha256sum" : "9389b2152bbe14e34ca80622780d1f21b6e8f51511586caf1e2f1ca80b622de5"
+      },
+      {
+        "name" : "BIOMD0000000494-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "44082",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e79d7a07b99a8f1bb388069dee44abb2",
+        "sha1sum" : "b60a11f6c76ec79f8fa8d00943dc6499c2f456d6",
+        "sha256sum" : "a99b03ed00e15afd2b30a4c5d07271155f94ca8226331903498f157b8f630c1b"
+      },
+      {
+        "name" : "BIOMD0000000494-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "44082",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b269fe7d3d61e8e561195891b2a66447",
+        "sha1sum" : "2b479712d66a9e5e0a53f2fe645318fb3e3fd919",
+        "sha256sum" : "c6b0a55c2e464533d8fda2b4c4789ab8a32e40b78981797af6348e5fc7c27c7e"
+      },
+      {
+        "name" : "BIOMD0000000494.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "44082",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b269fe7d3d61e8e561195891b2a66447",
+        "sha1sum" : "2b479712d66a9e5e0a53f2fe645318fb3e3fd919",
+        "sha256sum" : "c6b0a55c2e464533d8fda2b4c4789ab8a32e40b78981797af6348e5fc7c27c7e"
+      },
+      {
+        "name" : "BIOMD0000000494.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "39777",
+        "mimeType" : "text/plain",
+        "md5sum" : "bdd13c8c2d4fa9597279cda365866e02",
+        "sha1sum" : "ad046ed5653136a5f27e1a8cbb0383e61ba2dc97",
+        "sha256sum" : "78cce980ec57c2c196f7a3c5449f679b0c207190f9e1021a1caf77ddeff32cbd"
+      },
+      {
+        "name" : "BIOMD0000000494.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "689439",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9a5742866fcbc812db3c82229d98a182",
+        "sha1sum" : "53f092b1d94d9bafd416e7d2bee112511b2e3367",
+        "sha256sum" : "b0dfd97a90a9b1aa205906950a358692444004e6246f6e5d9e22c0cfd7432c58"
+      },
+      {
+        "name" : "BIOMD0000000494.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "2024088",
+        "mimeType" : "image/png",
+        "md5sum" : "b246a6daab1b1877bf6f5d5ad9524a03",
+        "sha1sum" : "5be13adcc3b9cfd0c61c423a24fdb5a7a0d1b8d7",
+        "sha256sum" : "6b9061df7a47d0bd17ab13cbf8f56896931a7b30df623ab2ad513f86d2f104b2"
+      },
+      {
+        "name" : "BIOMD0000000494.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "233260",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "942a88ee0b27910365cf2650f29dc4a2",
+        "sha1sum" : "c7d5b593b6b2aa7ff6bb85bc9f599032aa04f1d7",
+        "sha256sum" : "65bdc56bf3b78d9c982bb94e8c5705435928aac184c911dd6abe0c3ccd538654"
+      },
+      {
+        "name" : "BIOMD0000000494_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "161659",
+        "mimeType" : "application/xml",
+        "md5sum" : "0847ee49d7e17cad404bac4e646e5e26",
+        "sha1sum" : "44736744a431603b8a0c590f13a86b5f4bcc9da6",
+        "sha256sum" : "80d56d9ab69ac76ef43b4c858a48f28a2d0d603422c29a1d1d455d64ac7a3d96"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "23205",
+        "mimeType" : "image/png",
+        "md5sum" : "d32b12893fb2bb7e7403440bdb6987c7",
+        "sha1sum" : "2875ecc02ffeac138373a6f789ce74d4670c9e99",
+        "sha256sum" : "95153979e8461f1e22cd8e0ab563dbc041764cc660d22eaf7687d7adb4d8eadf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "210",
+        "mimeType" : "text/plain",
+        "md5sum" : "45cd2320be54f236f04ea70abe8315f7",
+        "sha1sum" : "50a4e088d80d1862ce54aa951584f5f2b888fb4f",
+        "sha256sum" : "2fd1916b68b807fcf6878d8b831961b6b063d56cf80298b197d9b00384910d20"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "563f5b6520f43e1f82e60f5c5a809912",
+        "sha1sum" : "2dc9696ddcd8933df2849f296d834e4b899cf752",
+        "sha256sum" : "45046b398d9c7a9a5c964a01ccde1ca8109616fe7142c1c0f952a68d3d9a0856"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5513",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "996906841978cec5e8659e823cc8f348",
+        "sha1sum" : "eaf39fc9f3c30b7c57397ac5b59c66e7730bb5c7",
+        "sha256sum" : "b5e16aa42c1e91119a16b37cd6e9d683a19d4a43f03f1cb173ba762e1f6209d4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1385115546,
+        "submitter" : "Susanna Röblitz",
+        "comment" : "Original import of NoName"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412944348,
+        "submitter" : "Susanna Röblitz",
+        "comment" : "Current version of Roblitz2013 - Menstrual Cycle following GnRH analogue administration"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724279183,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285242,
+  "submissionId" : "MODEL1311220000",
+  "publicationId" : "BIOMD0000000494",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Susanna Röblitz",
+        "email" : "susanna.roeblitz@zib.de",
+        "affiliation" : "Zuse Institute Berlin",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1311220000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1311220000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000494",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000494"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23206386",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23206386"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0097210",
+      "name" : "response to gonadotropin-releasing hormone",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0097210"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042698",
+      "name" : "ovulation cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042698"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "0001265",
+      "name" : "female",
+      "resource" : "Experimental Factor Ontology",
+      "uri" : "http://identifiers.org/efo/0001265"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1100",
+      "name" : "ovarian disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1100"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

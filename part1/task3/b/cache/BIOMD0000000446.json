@@ -1,0 +1,261 @@
+{
+  "name" : "Erguler2013 - Unfolded protein stress response",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Erguler2013 - Unfolded protein stress response</div>            <div class=\"dc:description\">      <p>The model investigates the mechanism by which UPR (unfolded protein response) outcome switches between survival and death.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/23433609\" title=\"Access to this publication\">A mathematical model of the unfolded protein stress response reveals the decision mechanism for recovery, adaptation and apoptosis.</a>                    </div>                <div class=\"bibo:authorList\">Erguler K, Pieri M, Deltas C.</div>                <div class=\"bibo:Journal\">BMC Syst Biol. 2013 Feb 21;7(1):16.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>BACKGROUND: The unfolded protein response (UPR) is a major signalling cascade acting in the quality control ofprotein folding in the endoplasmic reticulum (ER). The cascade is known to play an accessory rolein a range of genetic and environmental disorders including neurodegenerative and cardiovasculardiseases, diabetes and kidney diseases. The three major receptors of the ER stress involved withthe UPR, i.e. IRE1a, PERK and ATF6, signal through a complex web of pathways to convey anappropriate response. The emerging behaviour ranges from adaptive to maladaptive depending on theseverity of unfolded protein accumulation in the ER; however, the decision mechanism for the switchand its timing have so far been poorly understood.</p>                    <p>RESULTS:Here, we propose a mechanism by which the UPR outcome switches between survival and death.We compose a mathematical model integrating the three signalling branches, and perform a comprehensivebifurcation analysis to investigate possible responses to stimuli. The analysis reveals threedistinct states of behaviour, low, high and intermediate activity, associated with stress adaptation, tolerance,and the initiation of apoptosis. The decision to adapt or destruct can, therefore, be understoodas a dynamic process where the balance between the stress and the folding capacity of the ER playsa pivotal role in managing the delivery of the most appropriate response. The model demonstratesfor the first time that the UPR is capable of generating oscillations in translation attenuation and theapoptotic signals, and this is supplemented with a Bayesian sensitivity analysis identifying a set ofparameters controlling this behaviour.</p>                    <p>CONCLUSIONS:This work contributes largely to the understanding of one of the most ubiquitous signalling pathwaysinvolved in protein folding quality control in the metazoan ER. The insights gained have direct consequenceson the management of many UPR-related diseases, revealing, in addition, an extended listof candidate disease modifiers. Demonstration of stress adaptation sheds light to how preconditioningmight be beneficial in manifesting the UPR outcome to prevent untimely apoptosis, and paves the wayto novel approaches for the treatment of many UPR-related conditions.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>In the paper, PERKA refers to the amount of phosphorylated PERK monomer. However, it refers to the active complex in the model. The complex with the model parameterization is formed of 4 monomers (n=4). So, the value of PERKA should be multiplied by 4, in order to generate the figures in the paper (eg. Figure 12).</p>                <p>An additional parameter (tmr=10)) is used in the model. This parameter is not mentioned in the paper. The model values of kf(=10) and kr(=1) are not consistent with that of the paper (kf=100, kr=10, in the paper). However, this is corrected by the introduction of \"tmr\" in the model, which is multiplied with kf and kr to get the resulting values.</p>                </div>            <div class=\"bm:modification\">      <p>The term \"tmr\" was missing in the kinetic laws of the reactions reu7 and reu8, in the original model. This has been corrected as per the author's request.</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1302180000\">MODEL1302180000</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23433609",
+    "journal" : "BMC systems biology",
+    "title" : "A mathematical model of the unfolded protein stress response reveals the decision mechanism for recovery, adaptation and apoptosis.",
+    "affiliation" : "Molecular Medicine Research Center and Laboratory of Molecular and Medical Genetics, Department of Biological Sciences, University of Cyprus, Kallipoleos 75, 1678 Nicosia, Cyprus. erguler.kamil@ucy.ac.cy",
+    "synopsis" : "<h4>Background</h4>The unfolded protein response (UPR) is a major signalling cascade acting in the quality control of protein folding in the endoplasmic reticulum (ER). The cascade is known to play an accessory role in a range of genetic and environmental disorders including neurodegenerative and cardiovascular diseases, diabetes and kidney diseases. The three major receptors of the ER stress involved with the UPR, i.e. IRE1 α, PERK and ATF6, signal through a complex web of pathways to convey an appropriate response. The emerging behaviour ranges from adaptive to maladaptive depending on the severity of unfolded protein accumulation in the ER; however, the decision mechanism for the switch and its timing have so far been poorly understood.<h4>Results</h4>Here, we propose a mechanism by which the UPR outcome switches between survival and death. We compose a mathematical model integrating the three signalling branches, and perform a comprehensive bifurcation analysis to investigate possible responses to stimuli. The analysis reveals three distinct states of behaviour, low, high and intermediate activity, associated with stress adaptation, tolerance, and the initiation of apoptosis. The decision to adapt or destruct can, therefore, be understood as a dynamic process where the balance between the stress and the folding capacity of the ER plays a pivotal role in managing the delivery of the most appropriate response. The model demonstrates for the first time that the UPR is capable of generating oscillations in translation attenuation and the apoptotic signals, and this is supplemented with a Bayesian sensitivity analysis identifying a set of parameters controlling this behaviour.<h4>Conclusions</h4>This work contributes largely to the understanding of one of the most ubiquitous signalling pathways involved in protein folding quality control in the metazoan ER. The insights gained have direct consequences on the management of many UPR-related diseases, revealing, in addition, an extended list of candidate disease modifiers. Demonstration of stress adaptation sheds light to how preconditioning might be beneficial in manifesting the UPR outcome to prevent untimely apoptosis, and paves the way to novel approaches for the treatment of many UPR-related conditions.",
+    "year" : 2013,
+    "month" : "2",
+    "volume" : "7",
+    "pages" : "16",
+    "link" : "http://identifiers.org/pubmed/23433609",
+    "authors" : [
+      {
+        "name" : "Kamil Erguler",
+        "institution" : "Molecular Medicine Research Center and Laboratory of Molecular and Medical Genetics, Department of Biological Sciences, University of Cyprus, Kallipoleos 75, 1678 Nicosia, Cyprus. erguler.kamil@ucy.ac.cy",
+        "orcid" : "0000-0002-2674-592X"
+      },
+      {
+        "name" : "Myrtani Pieri",
+        "orcid" : "0000-0002-8883-4434"
+      },
+      {
+        "name" : "Constantinos Deltas",
+        "orcid" : "0000-0001-5549-9169"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000446_url.xml",
+        "description" : "SBML L2V4 representation of Erguler2013 - Unfolded protein stress response",
+        "fileSize" : "87316",
+        "mimeType" : "application/xml",
+        "md5sum" : "7d74846f9212077044f2401d7ba0d20c",
+        "sha1sum" : "2c78d68188e6df8d066fc134043258b0852536ec",
+        "sha256sum" : "bf8ade38739755283e77241fd2643924c3e07c263369561b7bf8753a41bce84a"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000446-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "46547",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5d87c7155c53cb4987b73cdad71c7541",
+        "sha1sum" : "ba28dc64a21a092c7a62ef4997c6a80aab7f07d7",
+        "sha256sum" : "b21e6c87482519c057c611f04df05401068f81108d61dcf6a81d6a0d8315ce74"
+      },
+      {
+        "name" : "BIOMD0000000446-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "77147",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a7425435a8c9fa2acf81a72e63097ac1",
+        "sha1sum" : "a81ffee63ec58f11bbde1a1fd9cf1f170e4b37be",
+        "sha256sum" : "9d8d0b2c2749d247b95bb67c6369f7b1c73f39fa83da9604996215cffa2d245c"
+      },
+      {
+        "name" : "BIOMD0000000446-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "19217",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c2820ec5a27b843e84db1041c7da33fd",
+        "sha1sum" : "ac2f30aada418c3abb321f7e9ab5f0a175c1465f",
+        "sha256sum" : "4db2486490feb769e6875d56f6220dc6524f020a99080e45ae9ff42213a674ed"
+      },
+      {
+        "name" : "BIOMD0000000446.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "18526",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3c20c75025f3b8e7d057bf36b027efdd",
+        "sha1sum" : "ff443f9843713e8d4bccd9d6eb833da4b29604a9",
+        "sha256sum" : "880e7e3febc1ee1c0cad0687793adc3cbe0c80e563f0f50c43910d2bad54f306"
+      },
+      {
+        "name" : "BIOMD0000000446.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "15671",
+        "mimeType" : "text/plain",
+        "md5sum" : "de2c1ce8f65009ac0223d6102e98922c",
+        "sha1sum" : "3beeae7f4d80da7bc7400c7bac63feb66eac4524",
+        "sha256sum" : "3571867f25182f2b2d0ae75c0740b3852650d3bc18f2847220bc40766aa48fdd"
+      },
+      {
+        "name" : "BIOMD0000000446.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "251671",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c4875f0b41e049e2abe96c180a175ced",
+        "sha1sum" : "f134f4f47c67fad951527ca639921c935a4bd8ae",
+        "sha256sum" : "6145ba8237920af3ff9fdb414701586a4bc7432fac0a62f9dcf7c8e751cdfa6f"
+      },
+      {
+        "name" : "BIOMD0000000446.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "412805",
+        "mimeType" : "image/png",
+        "md5sum" : "045f9898e181e12d5a0847e430f3595d",
+        "sha1sum" : "8ac5d2c9e41e3590bdc4dffc2c84bb57612c6ba3",
+        "sha256sum" : "1f5281d32643a0d6127b22284e59220053fd28396ec38cad8f5fb946e27b07c8"
+      },
+      {
+        "name" : "BIOMD0000000446.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "138142",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "eee0dc38c32f90cc55998af0981608f6",
+        "sha1sum" : "6910f9a85d8c735d9332ad2ac466b9ba9e1eb104",
+        "sha256sum" : "b22173f18b75e2af82708b98881afd0f71aaa1f2484d3eb8b9a65186d4a441b4"
+      },
+      {
+        "name" : "BIOMD0000000446_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "100749",
+        "mimeType" : "application/xml",
+        "md5sum" : "0274e4e31de91dbf9ff68a06cda7c118",
+        "sha1sum" : "b1a2c5ba14949ffe631595c535f75bcf269d1d22",
+        "sha256sum" : "625c53fc6dbf77115a615ef0131e4e2321646f0367ada46bbfffe5fc39467fab"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "87057",
+        "mimeType" : "image/png",
+        "md5sum" : "e75cddd375578bdf45d4d510598f21bf",
+        "sha1sum" : "7a2f110d7f950a4ca3dff886f583fc154ea8cee7",
+        "sha256sum" : "8e64931196cae10a07147fb0507a8c8ff325a78994bd20775e512c8230a0ebcf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "368",
+        "mimeType" : "text/plain",
+        "md5sum" : "64dbc7a0f83ab84fd228acac44385b8f",
+        "sha1sum" : "ea3f62d1b404ca055c02e9ceba5583f505e17852",
+        "sha256sum" : "d6987693a0ac9641695e76275e651b9d4849581b418c8759072d5907147362bb"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1671",
+        "mimeType" : "application/xml",
+        "md5sum" : "b46248f3f87753ccde901371561a96ef",
+        "sha1sum" : "ee5b07824e20427c19eff37132aff34112b5d3b5",
+        "sha256sum" : "f5b6dc941150104996049f17ae126e2b82e0e20d189bb691c89273f053efd2d9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7339",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c7c977e71373f694d8c28b26965d6faf",
+        "sha1sum" : "0bcec020a4054e9499a71f670d4f0781c455e848",
+        "sha256sum" : "56716c8854ce843f8fd4a49587474b8a4f7efaa8b8f0b7ce6e7cd73340937b21"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1361181960,
+        "submitter" : "Kamil Erguler",
+        "comment" : "Original import of UPR_model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1369051607,
+        "submitter" : "Kamil Erguler",
+        "comment" : "Current version of Erguler2013 - Unfolded protein stress response"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277220,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285184,
+  "submissionId" : "MODEL1302180000",
+  "publicationId" : "BIOMD0000000446",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kamil Erguler",
+        "email" : "erguler.kamil@ucy.ac.cy",
+        "affiliation" : "University of Cyprus",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1302180000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1302180000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000446",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000446"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23433609",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23433609"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0030968",
+      "name" : "endoplasmic reticulum unfolded protein response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030968"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

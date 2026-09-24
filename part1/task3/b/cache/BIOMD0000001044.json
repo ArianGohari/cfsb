@@ -1,0 +1,370 @@
+{
+  "name" : "Csikasz-Nagy2006 - Mammalian Cell Cycle model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from the      <a href=\"http://www.itb.cnr.it/cellcycle/\">Cell Cycle Database</a>          . It is described in:      <br />        <b>Analysis of a generic model of eukaryotic cell-cycle regulation.</b>        <em>Csikász-Nagy A , Battogtokh D , Chen KC , Novák B , Tyson JJ</em>          Biophys. J. [2006 Jun],90(12 ):4361-79      <br />          PMID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16581849\">16581849</a>        <br />          Abstract:      <br />          We propose a protein interaction network for the regulation of DNA synthesis and mitosis that emphasizes the universality of the regulatory system among eukaryotic cells. The idiosyncrasies of cell cycle regulation in particular organisms can be attributed, we claim, to specific settings of rate constants in the dynamic network of chemical reactions. The values of these rate constants are determined ultimately by the genetic makeup of an organism. To support these claims, we convert the reaction mechanism into a set of governing kinetic equations and provide parameter values (specific to budding yeast, fission yeast, frog eggs, and mammalian cells) that account for many curious features of cell cycle regulation in these organisms. Using one-parameter bifurcation diagrams, we show how overall cell growth drives progression through the cell cycle, how cell-size homeostasis can be achieved by two different strategies, and how mutations remodel bifurcation diagrams and create unusual cell-division phenotypes. The relation between gene dosage and phenotype can be summarized compactly in two-parameter bifurcation diagrams. Our approach provides a theoretical framework in which to understand both the universality and particularity of cell cycle regulation, and to construct, in modular fashion, increasingly complex models of the networks controlling cell growth and division.      </p>        <br />        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>        <br />        <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" class=\"external\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16581849",
+    "journal" : "Biophysical journal",
+    "title" : "Analysis of a generic model of eukaryotic cell-cycle regulation.",
+    "affiliation" : "Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, Virginia 24061-0406, USA.",
+    "synopsis" : "We propose a protein interaction network for the regulation of DNA synthesis and mitosis that emphasizes the universality of the regulatory system among eukaryotic cells. The idiosyncrasies of cell cycle regulation in particular organisms can be attributed, we claim, to specific settings of rate constants in the dynamic network of chemical reactions. The values of these rate constants are determined ultimately by the genetic makeup of an organism. To support these claims, we convert the reaction mechanism into a set of governing kinetic equations and provide parameter values (specific to budding yeast, fission yeast, frog eggs, and mammalian cells) that account for many curious features of cell cycle regulation in these organisms. Using one-parameter bifurcation diagrams, we show how overall cell growth drives progression through the cell cycle, how cell-size homeostasis can be achieved by two different strategies, and how mutations remodel bifurcation diagrams and create unusual cell-division phenotypes. The relation between gene dosage and phenotype can be summarized compactly in two-parameter bifurcation diagrams. Our approach provides a theoretical framework in which to understand both the universality and particularity of cell cycle regulation, and to construct, in modular fashion, increasingly complex models of the networks controlling cell growth and division.",
+    "year" : 2006,
+    "month" : "6",
+    "volume" : "90",
+    "issue" : "12",
+    "pages" : "4361-4379",
+    "link" : "http://identifiers.org/pubmed/16581849",
+    "authors" : [
+      {
+        "name" : "Attila Csikász-Nagy",
+        "orcid" : "0000-0002-2919-5601"
+      },
+      {
+        "name" : "Dorjsuren Battogtokh"
+      },
+      {
+        "name" : "Katherine C Chen"
+      },
+      {
+        "name" : "Béla Novák",
+        "institution" : "Department of Biochemistry, University of Oxford, Oxford, United Kingdom.",
+        "orcid" : "0000-0002-6961-1366"
+      },
+      {
+        "name" : "John J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Csikasz-Nagy2006.xml",
+        "description" : "SBML L2V4 file of the curated model",
+        "fileSize" : "408283",
+        "mimeType" : "application/xml",
+        "md5sum" : "df71bf25951a59c4e494b1337f5b8f00",
+        "sha1sum" : "c10b600f956af23c73ea367687e9413d9f3785b7",
+        "sha256sum" : "c58d85dd8b9859612602043957ccf9088558ef983963320aa0b386ee54f974e2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Csikasz-Nagy2006-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "51533",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7fa424ee6ec9767c987831cb1e765a94",
+        "sha1sum" : "27cadb78ad9883b4a997d8bc3022a454f802aac4",
+        "sha256sum" : "dc71b5f01a0e86bc26b0d4a06f840453dc286966efd11ed7f5c97f89f1643159"
+      },
+      {
+        "name" : "Csikasz-Nagy2006-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "87974",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "18d80ffca55ba9733f290dbf922fe414",
+        "sha1sum" : "79072376ef5057c623f3d1b97f02d9a0426c2daa",
+        "sha256sum" : "815d66ddc8946fcd4824a534c69cf722f21cfce04478cd7021c5e8e5be3aa6e6"
+      },
+      {
+        "name" : "Csikasz-Nagy2006-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "30048",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d2f2c99ee560c4a27d3755ecc446f699",
+        "sha1sum" : "4fb768d678bafcf21fb02b166474df5364a3101c",
+        "sha256sum" : "c58271c8d205ac42bce095eb276fae878e10922934f6687a3ef50debbad72ce2"
+      },
+      {
+        "name" : "Csikasz-Nagy2006.cps",
+        "description" : "COPASI 4.34(build251) file of the curated model",
+        "fileSize" : "450038",
+        "mimeType" : "application/xml",
+        "md5sum" : "00f5806565d8e7bb7c1377b1fb1c4126",
+        "sha1sum" : "7d91519c7ce9f9f82f865b334485a755bec9b109",
+        "sha256sum" : "9113d64c111b20a69dcf399c564ee7692a99d3ebb9df65f26ce98f30bd911fa7"
+      },
+      {
+        "name" : "Csikasz-Nagy2006.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25654",
+        "mimeType" : "text/plain",
+        "md5sum" : "afaf3be3ae46a92eb8cbec94135488ad",
+        "sha1sum" : "f2366edc47d79df8bbe675b57ddc190a777d1bff",
+        "sha256sum" : "0b340a949cd89a78f833c34fa0a95ce59c95e4f988c5c3a338e6c5685be65faa"
+      },
+      {
+        "name" : "Csikasz-Nagy2006.sedml",
+        "description" : "SEDML file of the curated model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "189525",
+        "mimeType" : "application/xml",
+        "md5sum" : "d84abe4e0f2c6269b03f973b5c83d35f",
+        "sha1sum" : "42ea4e59265fdc008a027f8dd550da56c548adfa",
+        "sha256sum" : "17f9b5c7536906605dfa8c3b2d6990b4773cc602a08b233aa21119e3c1474fd2"
+      },
+      {
+        "name" : "MODEL3897771820-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "41197",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a658720dbe694bb25d64b049cde97595",
+        "sha1sum" : "00d672e04f78c647dae57d5cf04195dc187d4c0a",
+        "sha256sum" : "98c0ad86e9a68da70c3053ef801f963d95114d95d577b6af308928f5aea5e9fb"
+      },
+      {
+        "name" : "MODEL3897771820-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "75816",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "580af2bb94d40f67b2f0c03bbb049ba6",
+        "sha1sum" : "bf9022ba79b8f090df90c0122d861bd371d79770",
+        "sha256sum" : "c2294ff0b0015d9e1f4b55cfd9b9601690daacd5ed73b648e05b3054bd7df058"
+      },
+      {
+        "name" : "MODEL3897771820-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "23567",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "31af9e779c1964a304e2166d00833215",
+        "sha1sum" : "172e287428309296059cd70c28ad0561d20f655d",
+        "sha256sum" : "7d92075de44f2385538254adb1cc3cb7c576fbf536245c4f181b450ddb971d1a"
+      },
+      {
+        "name" : "MODEL3897771820-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "23567",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0d919c34494991056163ae135e4fcb3a",
+        "sha1sum" : "457f9c06905b1a350650be0bd5190b96fd15faef",
+        "sha256sum" : "e6dd67e6bfac59c22a96e43f9983cc53a0da61f86c78e91b524c529f0eaa0902"
+      },
+      {
+        "name" : "MODEL3897771820.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "23350",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4dfdaee378188dafdeecb844601fe92c",
+        "sha1sum" : "f0cd686a8d82808b636b80936ee223b77c705d42",
+        "sha256sum" : "d965b85cab02f2c3dfb06715c5092d494f6b4da6927e9cb0e4b62efed45225ed"
+      },
+      {
+        "name" : "MODEL3897771820.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "18853",
+        "mimeType" : "text/plain",
+        "md5sum" : "83eaa3564d9b5b23a84a6711d79dce7b",
+        "sha1sum" : "c7d42541a1e577d8bd3eda6cd473abd04e81003e",
+        "sha256sum" : "5898a5b925a6ce35e621553910a6c1b5c713d2d817eb3c652a256053631ee667"
+      },
+      {
+        "name" : "MODEL3897771820.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "350201",
+        "mimeType" : "application/pdf",
+        "md5sum" : "eb9299339460a02be9f028397102e408",
+        "sha1sum" : "b84d51581804bbcbf9d5ef2d5cb2f843b940c526",
+        "sha256sum" : "a1bd98b8c8f480ffe639c5fa3cdd4a48d725d390b157452227f489e9cda45c55"
+      },
+      {
+        "name" : "MODEL3897771820.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "334761",
+        "mimeType" : "image/png",
+        "md5sum" : "f56af1f66478cd516c33d3112d448c6a",
+        "sha1sum" : "4460d992f05cd731eec06ff03ba449d37820494f",
+        "sha256sum" : "e3df40ffa888dbf31ab9dcff70a1028510facfb8afb330f94a96de8e84fa4b24"
+      },
+      {
+        "name" : "MODEL3897771820.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "83206",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "612013ac5ef00ba99fba4777e8d3256a",
+        "sha1sum" : "8e607533cd852dcf73e3c16c53e6c497a272d345",
+        "sha256sum" : "e7741391443987a9a85c7f8ec141e1fa1e611e583495526175f8755dfaf91321"
+      },
+      {
+        "name" : "MODEL3897771820.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "90445",
+        "mimeType" : "application/xml",
+        "md5sum" : "4395caf21d489d83f599384356e78637",
+        "sha1sum" : "8b37f89ef772d42edb349f10bf05400cad6b5ed3",
+        "sha256sum" : "3dfd07e578a9d2491938915fa5284ca97dfac254e2e395f3827fec608802e0be"
+      },
+      {
+        "name" : "MODEL3897771820_url.xml",
+        "description" : "SBML L2V1 representation of Csikasz-Nagy2006_Cell_Cycle - author submitted",
+        "fileSize" : "77326",
+        "mimeType" : "application/xml",
+        "md5sum" : "81b009007d540ed60650aa0f349672ab",
+        "sha1sum" : "76fd2e307fd20b34f99a17342c4562ac23083167",
+        "sha256sum" : "350619c868f86e456f381a7d1acf68a1df0bc06cacdde4f2b5bcab8cdfe12a01"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "25141",
+        "mimeType" : "image/png",
+        "md5sum" : "680272d1ea6d1e620eb1900f462e9d41",
+        "sha1sum" : "16ecd8f8af58baa99e0792726e669220644a29ee",
+        "sha256sum" : "b06e5ec21358da007c114e1c3efc30886a8426a5baf6fffcdbaad3fb4f9a5f7a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "473",
+        "mimeType" : "text/plain",
+        "md5sum" : "0e916f6b26242a16e63239d8415fcd17",
+        "sha1sum" : "fe1379bc178d6587e6a7a95ab54e8c91784dfaa9",
+        "sha256sum" : "98ebadfb7d70b7cf0367c1ae4e70a37bbc9fc083b31e9952a0765435372e1350"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2642",
+        "mimeType" : "application/xml",
+        "md5sum" : "801d44226282aa74069bab62aaf9fde6",
+        "sha1sum" : "87d735d35cc141d690562a5f7a193d0d67be8246",
+        "sha256sum" : "469e6a3bcb69aa7c2b5d1912380ac79eacb5517fd403e4d07b8b5335c5ebc783"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4856",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a43f135f0d412a7968c59630c105e7e6",
+        "sha1sum" : "38c96afd3e38aca5c618d5a8c6e6d4c153cbe1f4",
+        "sha256sum" : "629784603893f36233a9dd83e19cf4ac68e96ba26804462ba17d1ce05193760a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1227886479,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of New Mechanism"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1342787984,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Csikasz-Nagy2006_Cell_Cycle"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1637598982,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000001044"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724296182,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285619,
+  "submissionId" : "MODEL3897771820",
+  "publicationId" : "BIOMD0000001044",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "TransQST"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      },
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0007049",
+      "name" : "cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007049"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "C12958",
+      "name" : "Mammalian Cell",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C12958"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16581849",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16581849"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL3897771820",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL3897771820"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001044",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001044"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "R-HSA-1640170",
+      "name" : "Cell Cycle",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/R-HSA-1640170"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "name" : "Lu2019 - Genome scale metabolic model for Saccharomyces cerevisiae - yeastGEM8.5.0",
+  "description" : "yeast-GEM: The consensus genome-scale metabolic model of Saccharomyces cerevisiae. Further curations of this model will be tracked in the GitHub repository:https://github.com/SysBioChalmers/yeast-GEM For you use yeast-GEM, please cite the yeast8 paper: Lu, H. et al. A consensus S. cerevisiae metabolic model Yeast8 and its ecosystem for comprehensively probing cellular metabolism. Nature Communications 10, 3586 (2019). <a href=\"https://doi.org/10.1038/s41467-019-11581-3\" target=\"blank\">https://doi.org/10.1038/s41467-019-11581-3</a>. The FROG analysis was performed with the yeastGEM_rich_medium.mat, which is a rich medium setup.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "31395883",
+    "journal" : "Nature communications",
+    "title" : "A consensus S. cerevisiae metabolic model Yeast8 and its ecosystem for comprehensively probing cellular metabolism.",
+    "affiliation" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+    "synopsis" : "Genome-scale metabolic models (GEMs) represent extensive knowledgebases that provide a platform for model simulations and integrative analysis of omics data. This study introduces Yeast8 and an associated ecosystem of models that represent a comprehensive computational resource for performing simulations of the metabolism of Saccharomyces cerevisiae--an important model organism and widely used cell-factory. Yeast8 tracks community development with version control, setting a standard for how GEMs can be continuously updated in a simple and reproducible way. We use Yeast8 to develop the derived models panYeast8 and coreYeast8, which in turn enable the reconstruction of GEMs for 1,011 different yeast strains. Through integration with enzyme constraints (ecYeast8) and protein 3D structures (proYeast8<sup>DB</sup>), Yeast8 further facilitates the exploration of yeast metabolism at a multi-scale level, enabling prediction of how single nucleotide variations translate to phenotypic traits.",
+    "year" : 2019,
+    "month" : "8",
+    "volume" : "10",
+    "issue" : "1",
+    "pages" : "3586",
+    "link" : "http://identifiers.org/pubmed/31395883",
+    "authors" : [
+      {
+        "name" : "Hongzhong Lu",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden."
+      },
+      {
+        "name" : "Feiran Li",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden."
+      },
+      {
+        "name" : "Benjamín J Sánchez",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0001-6093-4110"
+      },
+      {
+        "name" : "Zhengming Zhu",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.School of Biotechnology, Jiangnan University, 1800 Lihu Road, 214122, Wuxi, Jiangsu, China."
+      },
+      {
+        "name" : "Gang Li",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0001-6778-2842"
+      },
+      {
+        "name" : "Iván Domenzain",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0002-5322-2040"
+      },
+      {
+        "name" : "Simonas Marcišauskas",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0003-0770-6383"
+      },
+      {
+        "name" : "Petre Mihail Anton",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0002-7753-9042"
+      },
+      {
+        "name" : "Dimitra Lappa",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0001-6336-2680"
+      },
+      {
+        "name" : "Christian Lieven",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, DK-2800 Kgs, Lyngby, Denmark.",
+        "orcid" : "0000-0001-5377-4091"
+      },
+      {
+        "name" : "Moritz Emanuel Beber",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, DK-2800 Kgs, Lyngby, Denmark.",
+        "orcid" : "0000-0003-2406-1978"
+      },
+      {
+        "name" : "Nikolaus Sonnenschein",
+        "institution" : "The Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, DK-2800 Kgs, Lyngby, Denmark.",
+        "orcid" : "0000-0002-7581-4936"
+      },
+      {
+        "name" : "Eduard J Kerkhoven",
+        "institution" : "Department of Biology and Biological Engineering, Chalmers University of Technology, Kemivägen 10, SE412 96, Gothenburg, Sweden.",
+        "orcid" : "0000-0002-3593-5792"
+      },
+      {
+        "name" : "Jens Nielsen",
+        "institution" : "Chalmers University of Technology, Gothenburg, Sweden.",
+        "orcid" : "0000-0002-9955-6003"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "yeast-GEM.xml",
+        "description" : "SBML L3V1 annotated representation Genome scale metabolic model YeastGEM 8.5.0 for Saccharomyces cerevisiae",
+        "fileSize" : "12099129",
+        "mimeType" : "application/xml",
+        "md5sum" : "a005e9f6d66e92f517df1a81ec33a20e",
+        "sha1sum" : "013ec056f60c155d698a1864c2dec5d9494ffe25",
+        "sha256sum" : "f000f50b714964f3bb17e54f2f04abcc342e214f83a3fe7f42663f45782a1259"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Description_miniFROG_yeastGEM.xlsx",
+        "description" : "miniFROG description for YeastGEM in rich medium setup",
+        "fileSize" : "25363",
+        "mimeType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "md5sum" : "2b11d718b62ca0811a67b5c000ac6bde",
+        "sha1sum" : "6aea4a4c09c21f794a463ae4dcbc778fd05b5151",
+        "sha256sum" : "678ea13c82bf1f0d2d561104810cfc22e3b14601ccfec35bbf2735aa58addf8b"
+      },
+      {
+        "name" : "FROG_Report_YeastGEM_rich_medium.zip",
+        "description" : "FROG report for YeastGEM in rich medium setup",
+        "fileSize" : "44221",
+        "mimeType" : "application/zip",
+        "md5sum" : "87853c21cb163d20c8ac0efc0802a76c",
+        "sha1sum" : "176e62e815127e212f102ac6deb271919e2545d7",
+        "sha256sum" : "81d2e8ad84eccf71fd125eae194dbf822de1ee371e4f47a746d476aaa5bd4875"
+      },
+      {
+        "name" : "Yeast_GEM_rich.mat",
+        "description" : "Genome scale metabolic model YeastGEM 8.5.0 for Saccharomyces cerevisiae in rich medium setup",
+        "fileSize" : "697350",
+        "mimeType" : "application/x-matlab-data",
+        "md5sum" : "e9c0ccf8b5312d4fa7a44e24f40efe86",
+        "sha1sum" : "496dc156bcc02020cb18b51ff1e373f6ceadbad2",
+        "sha256sum" : "04bc03c856c3b5432dfaff701fef9ea1fd1c73d3a1802c2d7ad48acc0484ec21"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1018",
+        "mimeType" : "application/xml",
+        "md5sum" : "1b7766f76e5672f7ca90338f23994f31",
+        "sha1sum" : "9a640ef5f357f8357d53299df48f7640bb065197",
+        "sha256sum" : "52ad5507fbcc849457f150b157f106b2e249f5514f0cada7cd18792554ba709a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2311",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d41435a88ab57641a68f5b04984a4f51",
+        "sha1sum" : "7bf01ead34345ba5ab883af68f5815fedccdbe20",
+        "sha256sum" : "d8e01029a9e11dba9f042617a537a78e1befa3ebe8562a1c40a32dbd0a0fdfab"
+      },
+      {
+        "name" : "yeast-GEM-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "9959246",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8eee0fc87d0a3e2ab9ef866c0b919a51",
+        "sha1sum" : "58f04d17e499b00c8af8f50c2fce25be681587bb",
+        "sha256sum" : "53474a33726095e6310daaca8ab2226e96f76be8740115d7a37e0f5abcebba0c"
+      },
+      {
+        "name" : "yeast-GEM-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "17034906",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a12f1fd50b4f50a89515ef9df78ce42e",
+        "sha1sum" : "19d9a4ba89cf0f8441b035f40658487036e29585",
+        "sha256sum" : "8e038801b55642fe29b4148b2671f6b61b90fa921911cc67a4db62f1e42d8469"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1651160030,
+        "submitter" : "feiran",
+        "comment" : "Import of Lu2019 - Genome scale metabolic model for Saccharomyces cerevisiae - yeastGEM8.5.0"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1660310797,
+        "submitter" : "Mikal Daou",
+        "comment" : "added annotations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1660311858,
+        "submitter" : "Mikal Daou",
+        "comment" : "Automatically added model identifier BIOMD0000001063"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1700674171,
+        "submitter" : "Dr Tung Nguyen",
+        "comment" : "Corrected an odd taxonomical number and improved the model's short description."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724297187,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285623,
+  "submissionId" : "MODEL2204280003",
+  "publicationId" : "BIOMD0000001063",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000040",
+    "name" : "metabolic network",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000040"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "FROG"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Dr Tung Nguyen",
+        "email" : "tung@dtih.org",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2876-6046",
+        "external" : false
+      },
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "feiran",
+        "email" : "feiranl@chalmers.se",
+        "affiliation" : "Chalmers University",
+        "external" : false
+      },
+      {
+        "name" : "Mikal Daou",
+        "email" : "mdaou@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2204280003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2204280003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001063",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000001063"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "31395883",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:31395883"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1038/s41467-019-11581-3",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1038/s41467-019-11581-3"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000040",
+      "name" : "metabolic network",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000040"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C14286",
+      "name" : "Yeast",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C14286"
+    }
+  ]
+}

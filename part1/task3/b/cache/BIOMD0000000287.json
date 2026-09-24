@@ -1,0 +1,336 @@
+{
+  "name" : "Passos2010_DNAdamage_CellularSenescence",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>\t This is the model described in: <b>Feedback between p21 and reactive oxygen production is necessary for cell senescence.</b>        <br />       \tPassos JF, Nelson G, Wang C, Richter T, Simillion C, Proctor CJ, Miwa S, Olijslagers S, Hallinan J, Wipat A, Saretzki G, Rudolph KL, Kirkwood TB, von Zglinicki T. ;<em>Mol Sys Biol</em>2010;6:347. Epub 2010 Feb 16.  PMID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20160708\">20160708</a> doi:<a href=\"http://dx.doi.org/10.1038/msb.2010.5\">10.1038/msb.2010.5</a>;         <br />        <b>Abstract:</b>        <br />\t Cellular senescence--the permanent arrest of cycling in normally proliferating cells such as fibroblasts--contributes both to age-related loss of mammalian tissue homeostasis and acts as a tumour suppressor mechanism. The pathways leading to establishment of senescence are proving to be more complex than was previously envisaged. Combining in-silico interactome analysis and functional target gene inhibition, stochastic modelling and live cell microscopy, we show here that there exists a dynamic feedback loop that is triggered by a DNA damage response (DDR) and, which after a delay of several days, locks the cell into an actively maintained state of 'deep' cellular senescence. The essential feature of the loop is that long-term activation of the checkpoint gene CDKN1A (p21) induces mitochondrial dysfunction and production of reactive oxygen species (ROS) through serial signalling through GADD45-MAPK14(p38MAPK)-GRB2-TGFBR2-TGFbeta. These ROS in turn replenish short-lived DNA damage foci and maintain an ongoing DDR. We show that this loop is both necessary and sufficient for the stability of growth arrest during the establishment of the senescent phenotype. \t</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2010 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20160708",
+    "journal" : "Molecular systems biology",
+    "title" : "Feedback between p21 and reactive oxygen production is necessary for cell senescence.",
+    "affiliation" : "Ageing Research Laboratories, Institute for Ageing and Health, Newcastle University, Newcastle upon Tyne, UK.",
+    "synopsis" : "Cellular senescence--the permanent arrest of cycling in normally proliferating cells such as fibroblasts--contributes both to age-related loss of mammalian tissue homeostasis and acts as a tumour suppressor mechanism. The pathways leading to establishment of senescence are proving to be more complex than was previously envisaged. Combining in-silico interactome analysis and functional target gene inhibition, stochastic modelling and live cell microscopy, we show here that there exists a dynamic feedback loop that is triggered by a DNA damage response (DDR) and, which after a delay of several days, locks the cell into an actively maintained state of 'deep' cellular senescence. The essential feature of the loop is that long-term activation of the checkpoint gene CDKN1A (p21) induces mitochondrial dysfunction and production of reactive oxygen species (ROS) through serial signalling through GADD45-MAPK14(p38MAPK)-GRB2-TGFBR2-TGFbeta. These ROS in turn replenish short-lived DNA damage foci and maintain an ongoing DDR. We show that this loop is both necessary and sufficient for the stability of growth arrest during the establishment of the senescent phenotype.",
+    "year" : 2010,
+    "month" : "0",
+    "volume" : "6",
+    "pages" : "347",
+    "link" : "http://identifiers.org/pubmed/20160708",
+    "authors" : [
+      {
+        "name" : "João F Passos",
+        "institution" : "Ageing Research Laboratories, Institute for Ageing, Newcastle University, Newcastle upon Tyne, UK Jeanne.Perez@inserm.fr Gavin.Richardson@ncl.ac.uk Passos.Joao@mayo.edu.Institute for Cell and Molecular Biosciences, Newcastle University, Newcastle upon Tyne, UK.Department of Physiology and Biomedical Engineering, Mayo Clinic, Rochester, MN, USA.",
+        "orcid" : "0000-0001-8765-1890"
+      },
+      {
+        "name" : "Glyn Nelson",
+        "orcid" : "0000-0002-1895-4772"
+      },
+      {
+        "name" : "Chunfang Wang"
+      },
+      {
+        "name" : "Torsten Richter"
+      },
+      {
+        "name" : "Cedric Simillion",
+        "orcid" : "0000-0002-2026-6741"
+      },
+      {
+        "name" : "Carole J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "Satomi Miwa",
+        "orcid" : "0000-0002-1239-1198"
+      },
+      {
+        "name" : "Sharon Olijslagers"
+      },
+      {
+        "name" : "Jennifer Hallinan"
+      },
+      {
+        "name" : "Anil Wipat",
+        "orcid" : "0000-0001-7310-4191"
+      },
+      {
+        "name" : "Gabriele Saretzki",
+        "orcid" : "0000-0003-2100-8223"
+      },
+      {
+        "name" : "Karl Lenhard Rudolph",
+        "orcid" : "0000-0002-4839-2862"
+      },
+      {
+        "name" : "Tom B L Kirkwood"
+      },
+      {
+        "name" : "Thomas von Zglinicki",
+        "orcid" : "0000-0002-5939-0248"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000287_url.xml",
+        "description" : "SBML L2V4 representation of Passos2010_DNAdamage_CellularSenescence",
+        "fileSize" : "69540",
+        "mimeType" : "application/xml",
+        "md5sum" : "8fe2d382a3a44fc13d2292ef3d04aab5",
+        "sha1sum" : "65c5fdc7cfab7779660a5a58ed5aa407c0d133bb",
+        "sha256sum" : "ed9bfcdf1c6f4d3d2ed447f7301a5ecf33cb7981f00d1ffccbff4316cecf5a83"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000287-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "62262",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a70db62e5da806d5a60b24b42b00c1fa",
+        "sha1sum" : "419d949c1a2cefc56737cbc5cabd1409ee33a45a",
+        "sha256sum" : "5be2a15c296e05f4d91de7db3f08ebf947164bd189ba8ca020f37d5ffc642d74"
+      },
+      {
+        "name" : "BIOMD0000000287-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "104880",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6e75630397cfa74ee519fec1dc28c621",
+        "sha1sum" : "41b1920aa86be5de94608d12c6f83313e57bb13c",
+        "sha256sum" : "f0b4ae48999c5448699df446dd6eaf5c8e4e5369eb54eeabb68be0b22df54fcd"
+      },
+      {
+        "name" : "BIOMD0000000287-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14384",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "50a422bd05941a8b3c25b0c26263ee47",
+        "sha1sum" : "adba0a4d95d87ddfb521ed071424b471cc3df845",
+        "sha256sum" : "1c6106ad2f436338951b14b41e3ab292841bf47a0d3015c08cb0a05334eb9f51"
+      },
+      {
+        "name" : "BIOMD0000000287.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14384",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "68ca3742dee7bae7f02ae3414c0c51e8",
+        "sha1sum" : "08632ba2907a3269ac6b422bc5525f70b9b17086",
+        "sha256sum" : "516dfaf3f039516e3cce2d371f7479c869686520688886a5abdc7c54bf18a50c"
+      },
+      {
+        "name" : "BIOMD0000000287.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10584",
+        "mimeType" : "text/plain",
+        "md5sum" : "6ac681d9081bbea2bb218d789c8fd6d6",
+        "sha1sum" : "0ef0a210038a94877276cc5812973506bd2df2a0",
+        "sha256sum" : "02b2b16a684f017dd707a52018f3e7ae68a27e1d675fb2260117c34564a8d232"
+      },
+      {
+        "name" : "BIOMD0000000287.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "299706",
+        "mimeType" : "application/pdf",
+        "md5sum" : "743e56e18b46746c77703812a7b6936e",
+        "sha1sum" : "837d97fb71850c57df74323c3cd42dced8444c63",
+        "sha256sum" : "2c5f853595d68e36fc79bcbed75d16d8f5e4e5ea82141748132877ad321b6db7"
+      },
+      {
+        "name" : "BIOMD0000000287.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "302538",
+        "mimeType" : "image/png",
+        "md5sum" : "196b484ac5af9e784eba414458e6acd7",
+        "sha1sum" : "63253d917b055a6330aa537392183c2233aa35b4",
+        "sha256sum" : "0bb9b6801f3bd91e33030489b05d76387dac0f2c0f65736d93b00ca4fc4f5a2a"
+      },
+      {
+        "name" : "BIOMD0000000287.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "90999",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "3cfc67e08e625150fcf37b229dd75f6b",
+        "sha1sum" : "32c9918e3c9f2dccb1e883d9e49177e9ca53ffb7",
+        "sha256sum" : "880577ae1ebae2bbb8e17df8f950304754a462c2a754dd3150aab7d835281d78"
+      },
+      {
+        "name" : "BIOMD0000000287.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "92095",
+        "mimeType" : "application/xml",
+        "md5sum" : "4bf37fa05a7212c1ff24d15a695793b4",
+        "sha1sum" : "0fbad621db01e43d4e6fd67e6df0cab7a5f9eaae",
+        "sha256sum" : "103a3dc2e72629c617bc689710e8343777ead59946406ed79b9381b16ff6de74"
+      },
+      {
+        "name" : "BIOMD0000000287_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "58625",
+        "mimeType" : "application/xml",
+        "md5sum" : "de587bff3b0c488e16fd92d8071e3edb",
+        "sha1sum" : "49b1193337872d09a838a29bb405ae884d0626c0",
+        "sha256sum" : "a0713d0bbaacea1f33b45b8190e40c3e6e6732332c9681ee59e4a18edd5324f2"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "50718",
+        "mimeType" : "image/png",
+        "md5sum" : "204f21267413c213e2facacaf4fc4fc7",
+        "sha1sum" : "557df43b5095b4e146a7ba22f3db4f669503cf8e",
+        "sha256sum" : "b4a6624859640ffdcb18579888eef0457f467652c1b5124740d9458549bc406c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "466",
+        "mimeType" : "text/plain",
+        "md5sum" : "7e43003a2efef861b648b63a3f695ff9",
+        "sha1sum" : "e0b21c6ec3eca57d2e29e83bb9a6a6ec2b889022",
+        "sha256sum" : "3abfded0ba09969e939aa3e87b13bb3c9252a051643f683a767ec0fffaf20596"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "52a0523c2d42f69a0043e34a8ef4a62a",
+        "sha1sum" : "e4e3bb6e72314f3cb24dd9a748667667dd9cf619",
+        "sha256sum" : "68735f8b4601b200121d936121edc9c9d3e632d5e6827787520ff46e4c3d4ff7"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4560",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9fef95e6c8a9a6dfa618efb68694c510",
+        "sha1sum" : "eff79c22cd94b36e58d87c86344f53c5732cf769",
+        "sha256sum" : "c1d3ebcb2fbad52fa104b86ec8cbe6c46538fc81c0c9f7057f3ef01f810a6d81"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1235989624,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of BIOMD0000000287.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401833442,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Passos2010_DNAdamage_CellularSenescence"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272616,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285003,
+  "submissionId" : "MODEL5989624192",
+  "publicationId" : "BIOMD0000000287",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5989624192",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5989624192"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000287",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000287"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20160708",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20160708"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000188",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000188"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000189",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000189"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "ko05200",
+      "name" : "Pathways in cancer",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/ko05200"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0090398",
+      "name" : "cellular senescence",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0090398"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006974",
+      "name" : "cellular response to DNA damage stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006974"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Offline-Verifikation, keine weiteren API-Requests",
+  "commands": [
+    {
+      "command": "python3 text_mining/pilot_task1d/history/pilot.py export",
+      "started_at_utc": "2026-09-20T14:05:19.471719+00:00",
+      "finished_at_utc": "2026-09-20T14:05:19.498429+00:00",
+      "exit_code": 0,
+      "stdout": "Export: 6 Records\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 text_mining/pilot_task1d/history/pilot.py check",
+      "started_at_utc": "2026-09-20T14:05:19.498611+00:00",
+      "finished_at_utc": "2026-09-20T14:05:19.543842+00:00",
+      "exit_code": 0,
+      "stdout": "PASS: 4 Zielarbeiten; Requests, UTC, Hashes, Limits, CSV, Abstractzitate, Report-DOIs; alle 89 vorhandenen Dateien unverändert; keine neuen Dateien außerhalb history/\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 text_mining/pilot_task1d/history/test_pilot.py",
+      "started_at_utc": "2026-09-20T14:05:19.544075+00:00",
+      "finished_at_utc": "2026-09-20T14:05:19.593068+00:00",
+      "exit_code": 0,
+      "stdout": "PASS: Syntax; Limit-/Leertreffer-/Netzfehler-/HTTP-Fehlerpfade; kein Retry; Überschreibschutz; archivierter Erstversuch; Änderung vor Abruf; Reportlinks und Zitate\n",
+      "stderr": ""
+    }
+  ]
+}

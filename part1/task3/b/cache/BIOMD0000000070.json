@@ -1,0 +1,310 @@
+{
+  "name" : "Holzhutter2004_Erythrocyte_Metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"left\">          <font face=\"Arial, Helvetica, sans-serif\">            <b>              <a href=\"http://www.sbml.org/\">SBML</a> level 2 code generated for the JWS Online project by Jacky Snoep using <a href=\"http://pysces.sourceforge.net/\">PySCeS</a>              <br />Run this model online at <a href=\"http://jjj.biochem.sun.ac.za/\">http://jjj.biochem.sun.ac.za</a>              <br />To cite JWS Online please refer to: Olivier, B.G. and Snoep, J.L. (2004) <a href=\"http://bioinformatics.oupjournals.org/cgi/content/abstract/20/13/2143\">Web-based modelling using JWS Online</a>, Bioinformatics, 20:2143-2144 </b>          </font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p align=\"right\">          <font color=\"#FFFFFF\">.</font>        </p>        <p>          <u>Biomodels Curation</u>The model simulates the flux values as given for \"kinetic model\" in Table 1 of the paper. The model was successfully tested on Jarnac.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15233787",
+    "journal" : "European journal of biochemistry",
+    "title" : "The principle of flux minimization and its application to estimate stationary fluxes in metabolic networks.",
+    "affiliation" : "Humboldt-University Berlin, Medical School (Charité), Institute of Biochemistry, Berlin, Germany. hermann-georg.holzhuetter@charite.de",
+    "synopsis" : "Cellular functions are ultimately linked to metabolic fluxes brought about by thousands of chemical reactions and transport processes. The synthesis of the underlying enzymes and membrane transporters causes the cell a certain 'effort' of energy and external resources. Considering that those cells should have had a selection advantage during natural evolution that enabled them to fulfil vital functions (such as growth, defence against toxic compounds, repair of DNA alterations, etc.) with minimal effort, one may postulate the principle of flux minimization, as follows: given the available external substrates and given a set of functionally important 'target' fluxes required to accomplish a specific pattern of cellular functions, the stationary metabolic fluxes have to become a minimum. To convert this principle into a mathematical method enabling the prediction of stationary metabolic fluxes, the total flux in the network is measured by a weighted linear combination of all individual fluxes whereby the thermodynamic equilibrium constants are used as weighting factors, i.e. the more the thermodynamic equilibrium lies on the right-hand side of the reaction, the larger the weighting factor for the backward reaction. A linear programming technique is applied to minimize the total flux at fixed values of the target fluxes and under the constraint of flux balance (= steady-state conditions) with respect to all metabolites. The theoretical concept is applied to two metabolic schemes: the energy and redox metabolism of erythrocytes, and the central metabolism of Methylobacterium extorquens AM1. The flux rates predicted by the flux-minimization method exhibit significant correlations with flux rates obtained by either kinetic modelling or direct experimental determination. Larger deviations occur for segments of the network composed of redundant branches where the flux-minimization method always attributes the total flux to the thermodynamically most favourable branch. Nevertheless, compared with existing methods of structural modelling, the principle of flux minimization appears to be a promising theoretical approach to assess stationary flux rates in metabolic systems in cases where a detailed kinetic model is not yet available.",
+    "year" : 2004,
+    "month" : "7",
+    "volume" : "271",
+    "issue" : "14",
+    "pages" : "2905-2922",
+    "link" : "http://identifiers.org/pubmed/15233787",
+    "authors" : [
+      {
+        "name" : "Hermann-Georg Holzhütter",
+        "orcid" : "0000-0002-5054-6023"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000070_url.xml",
+        "description" : "SBML L2V1 representation of Holzhutter2004_Erythrocyte_Metabolism",
+        "fileSize" : "166006",
+        "mimeType" : "application/xml",
+        "md5sum" : "05dadb19d2d1d0c9a626f987a0fb409d",
+        "sha1sum" : "8555eaaea1cd87bee5dc22bf611c61c66602e4ad",
+        "sha256sum" : "e7c75807c9fb400701117f80393a8a5f60d407bab3dd9b809ae6f2d7216eee18"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000070-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "115848",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "633fda5c7d52ba46f684a215369932b4",
+        "sha1sum" : "9acd1d188fe4534430683648640a322f82f3108b",
+        "sha256sum" : "d21aad29a9181e1c63cacf27430c3b984a36efbb58a3d6772ca00367ccdafcc4"
+      },
+      {
+        "name" : "BIOMD0000000070-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "166326",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0e9f6815ab6dd0e1d64da1db22f89c3d",
+        "sha1sum" : "8e8fbc96ffcc2c698e1e2a0cfdbfcdf7dfdf162e",
+        "sha256sum" : "f8ad41a7e0c1276973eb0d5f15aa7359559e3c0a0c514deeb406e482439cf40c"
+      },
+      {
+        "name" : "BIOMD0000000070-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "35821",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a756d6f208c37e666061c478aad2b820",
+        "sha1sum" : "daa19878dff50bd494520fbc5f210e46f5d2f32e",
+        "sha256sum" : "d5312c74b60c5e0453fd2ff80f3ec601a6512694a313b30cca69976c9570f7eb"
+      },
+      {
+        "name" : "BIOMD0000000070-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "35821",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a5b3e4eff11aa783bcd1513068604bc7",
+        "sha1sum" : "6fcf6f31f97075dff342198437b60cccc2674fe8",
+        "sha256sum" : "9814c56b2b3de567ce586dcc6e3d96a5d6cccb08d0d933839c8a4be71174570e"
+      },
+      {
+        "name" : "BIOMD0000000070.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "35821",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a5b3e4eff11aa783bcd1513068604bc7",
+        "sha1sum" : "6fcf6f31f97075dff342198437b60cccc2674fe8",
+        "sha256sum" : "9814c56b2b3de567ce586dcc6e3d96a5d6cccb08d0d933839c8a4be71174570e"
+      },
+      {
+        "name" : "BIOMD0000000070.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "26647",
+        "mimeType" : "text/plain",
+        "md5sum" : "9c36687e0e8102501b78c82bb18a5fc4",
+        "sha1sum" : "d9f61e3fe0786cc3aec108bb6ec71b91e1953938",
+        "sha256sum" : "08e4491a6c7b249a451be0e78138aee2a9eaeae5039fdaca74d9594d04138048"
+      },
+      {
+        "name" : "BIOMD0000000070.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "384668",
+        "mimeType" : "application/pdf",
+        "md5sum" : "43daa1f9c61aa726b8ee2de58c86bd95",
+        "sha1sum" : "6a46d8ff94d8cb25a6eb05c6853f9a1643cacc4d",
+        "sha256sum" : "b61c386b9dbcea3017ab2b41e2f2d9553f6bd1209cc1aee467d4a576cfa63e22"
+      },
+      {
+        "name" : "BIOMD0000000070.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "834373",
+        "mimeType" : "image/png",
+        "md5sum" : "e326d706e34e6aa603be09c0db890892",
+        "sha1sum" : "e28fb912c9c1f20cc4fe60db36d72251d637abea",
+        "sha256sum" : "cb8f48ef6c64be8abf42c06b99ae92b65e949262c29d02b8e6f4eded9e130936"
+      },
+      {
+        "name" : "BIOMD0000000070.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "101860",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "df20cf4df2689b2c6ef579613f15929b",
+        "sha1sum" : "2cc980e18110bc01dfc8176cc3f854076b7ed7b8",
+        "sha256sum" : "b1dea7343b8824a203804fd8e4175734e5b7b9c4e6829298214f668f6101e7d3"
+      },
+      {
+        "name" : "BIOMD0000000070.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "182011",
+        "mimeType" : "application/xml",
+        "md5sum" : "d641788a20e53c87fe112116fa62ec59",
+        "sha1sum" : "bfe0020f85bb81d8664cad9b81e94c05f6c5d544",
+        "sha256sum" : "6c93ba8ba2e8f9993624829fcde7029c6f6eb18a0f7b34840a53f5495f5ca6a1"
+      },
+      {
+        "name" : "BIOMD0000000070_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "51751",
+        "mimeType" : "application/xml",
+        "md5sum" : "1bc221e9df4607c4d00664d86fdf94c0",
+        "sha1sum" : "b37361898c9b6e04db84ac62110e0d14c598c071",
+        "sha256sum" : "e6e0f666359133a8c99f0f8d1d3b0b783babb35a2b21678e1969d39de3601ba1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1693",
+        "mimeType" : "application/xml",
+        "md5sum" : "85269dd7ebf8c5f77a094e98b73db2e4",
+        "sha1sum" : "618988ae5a30c3d40b7b8af9f6e8b29e1079aee0",
+        "sha256sum" : "1c5c4b215f2bab0a040a410c8deea5e082224f051f7dca69fa52a8caa2bbaa09"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3463",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2e6cfa647f8fd2fc834ed949a70a13ca",
+        "sha1sum" : "f8f4a92b1a9146c7db5bf816ecddb7a4dc8721d8",
+        "sha256sum" : "5c1bc96faa360702dd1c674801f005dc5a12114dcc21c3e7a56abbf3a5e8471c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1158951661,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of holzhutter"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460132963,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Holzhutter2004_Erythrocyte_Metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266573,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284864,
+  "submissionId" : "MODEL6624180840",
+  "publicationId" : "BIOMD0000000070",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6624180840",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6624180840"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000070",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000070"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15233787",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15233787"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006749",
+      "name" : "glutathione metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006749"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0006098",
+      "name" : "pentose-phosphate shunt",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006098"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa00030",
+      "name" : "Pentose phosphate pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa00030"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa00010",
+      "name" : "Glycolysis / Gluconeogenesis - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa00010"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa00480",
+      "name" : "Glutathione metabolism - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa00480"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "REACT_1383",
+      "name" : "Glycolysis",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_1383"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "REACT_2220",
+      "name" : "glutathione (oxidized) + NADPH + H+ => 2 glutathione (reduced) + NADP+",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_2220"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "REACT_1859",
+      "name" : "Pentose phosphate pathway (hexose monophosphate shunt)",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_1859"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

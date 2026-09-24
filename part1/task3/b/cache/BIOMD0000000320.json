@@ -1,0 +1,277 @@
+{
+  "name" : "Grange2001 - PK interaction of L-dopa and benserazide",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Grange2001 - PK interaction of L-dopa and benserazide</div>            <div class=\"dc:description\">      <p>A pharmacokinetics of L-dopa in rats after administration of L-dopa alone (BIOMD0000000321) or L-dopa combined with a peripheral AADC (amino-acid-decarboxylase) inhibitor (this model: BIOMD0000000320) has been studied using noncompartmental analysis.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/11587490\" title=\"Access to this publication\">A pharmacokinetic model to predict the PK interaction of L-dopa and benserazide in rats.</a>                    </div>                <div class=\"bibo:authorList\">Grange S, Holford NH, Guentert TW</div>                <div class=\"bibo:Journal\">Pharmaceutical Research [2001, 18(8):1174-1184]</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>          <b>PURPOSE:</b>              To study the PK interaction of L-dopa/benserazide in rats. METHODS: Male rats received a single oral dose of 80 mg/kg L-dopa or 20 mg/kg benserazide or 80/20 mg/kg L-dopa/benserazide. Based on plasma concentrations the kinetics of L-dopa, 3-O-methyldopa (3-OMD), benserazide, and its metabolite Ro 04-5127 were characterized by noncompartmental analysis and a compartmental model where total L-dopa clearance was the sum of the clearances mediated by amino-acid-decarboxylase (AADC), catechol-O-methyltransferase and other enzymes. In the model Ro 04-5127 inhibited competitively the L-dopa clearance by AADC.          </p>                    <p>          <b>RESULTS:</b>              The coadministration of L-dopa/benserazide resulted in a major increase in systemic exposure to L-dopa and 3-OMD and a decrease in L-dopa clearance. The compartmental model allowed an adequate description of the observed L-dopa and 3-OMD concentrations in the absence and presence of benserazide. It had an advantage over noncompartmental analysis because it could describe the temporal change of inhibition and recovery of AADC.          </p>                    <p>          <b>CONCLUSIONS:</b>              Our study is the first investigation where the kinetics of benserazide and Ro 04-5127 have been described by a compartmental model. The L-dopa/benserazide model allowed a mechanism-based view of the L-dopa/benserazide interaction and supports the hypothesis that Ro 04-5127 is the primary active metabolite of benserazide.          </p>                    </div>                </div>            <div class=\"bm:curation\">      <p>The volumes and variables in this model are taken for a rat with 0.25 kg. The inital dose for L_Dopa (L_Dopa_per_kg_rat) and Benserazide (Benserazide_per_kg_rat) are to be given in umole per kg. 80 mg/kg L-Dopa correspond to 404 umol/kg, 20 mg/kg benserazide to 78 umol/kg. To change the model to a different mass of rat the compartment volumes, and the parameters rat_body_mass and Q have to changed accordingly.</p>                <p>The model has three species (A-dopa, A_B, A_M) whose initial concentrations are calculated from a        <i>listOfInitialAssignments</i>            . While running for the first time the time-course (24hrs) for this model in COPASI (up to version 4.6, Build 33), the resulting graph displays only straight lines for all the species. Any subsequent runs should provide proper plots (i.e. without making any change to the model, just by clicking the \"run\" button again).        </p>                <p>The above issue is caused by some initial assignments which are not calculated when COPASI imports the file. This issue should not be present in newer releases of COPASI.</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL0910130001\">MODEL0910130001</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11587490",
+    "journal" : "Pharmaceutical research",
+    "title" : "A pharmacokinetic model to predict the PK interaction of L-dopa and benserazide in rats.",
+    "affiliation" : "PRNS Non-Clinical Drug Safety, F. Hoffmann-La Roche Ltd, Basel, Switzerland. susan.grange@roche.com",
+    "synopsis" : "<h4>Purpose</h4>To study the PK interaction of L-dopa/benserazide in rats.<h4>Methods</h4>Male rats received a single oral dose of 80 mg/kg L-dopa or 20 mg/kg benserazide or 80/20 mg/kg L-dopa/benserazide. Based on plasma concentrations the kinetics of L-dopa, 3-O-methyldopa (3-OMD), benserazide, and its metabolite Ro 04-5127 were characterized by noncompartmental analysis and a compartmental model where total L-dopa clearance was the sum of the clearances mediated by amino-acid-decarboxylase (AADC), catechol-O-methyltransferase and other enzymes. In the model Ro 04-5127 inhibited competitively the L-dopa clearance by AADC.<h4>Results</h4>The coadministration of L-dopa/benserazide resulted in a major increase in systemic exposure to L-dopa and 3-OMD and a decrease in L-dopa clearance. The compartmental model allowed an adequate description of the observed L-dopa and 3-OMD concentrations in the absence and presence of benserazide. It had an advantage over noncompartmental analysis because it could describe the temporal change of inhibition and recovery of AADC.<h4>Conclusions</h4>Our study is the first investigation where the kinetics of benserazide and Ro 04-5127 have been described by a compartmental model. The L-dopa/benserazide model allowed a mechanism-based view of the L-dopa/benserazide interaction and supports the hypothesis that Ro 04-5127 is the primary active metabolite of benserazide.",
+    "year" : 2001,
+    "month" : "8",
+    "volume" : "18",
+    "issue" : "8",
+    "pages" : "1174-1184",
+    "link" : "http://identifiers.org/pubmed/11587490",
+    "authors" : [
+      {
+        "name" : "S Grange",
+        "institution" : "PRNS Non-Clinical Drug Safety, F. Hoffmann-La Roche Ltd, Basel, Switzerland. susan.grange@roche.com"
+      },
+      {
+        "name" : "N H Holford",
+        "institution" : "University of Auckland",
+        "orcid" : "0000-0002-4031-2514"
+      },
+      {
+        "name" : "T W Guentert"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000320_url.xml",
+        "description" : "SBML L2V4 representation of Grange2001 - PK interaction of L-dopa and benserazide",
+        "fileSize" : "44226",
+        "mimeType" : "application/xml",
+        "md5sum" : "1066fb7405ae3cb05e49093c7700fd80",
+        "sha1sum" : "55e379d802a2719c4868869268c0fc30033535d6",
+        "sha256sum" : "4a3e9064a61b63001841d6d8f0d1bc69534b959e6daba93c2dd4304872decd5f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000320-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "23866",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "43c6f5120c902ad5749547b54bd15c49",
+        "sha1sum" : "26739a8b2b4d0be6a80cc0a59f81c2839ee336d8",
+        "sha256sum" : "2ddd2588828c12741d906c41038c3493556bb4c8628281a52f313666d085c0d9"
+      },
+      {
+        "name" : "BIOMD0000000320-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "34360",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2cc9c6a4ac72955224a46edb8b7a7738",
+        "sha1sum" : "4821a0090c82ea6d741fc245a4c03ad68d57e267",
+        "sha256sum" : "7d97024709f72d0fd92f8a4da683266f359614a7b1457a5fd5009d1b7f3110bc"
+      },
+      {
+        "name" : "BIOMD0000000320-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9191",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a62d4e751a43f40ee18e7d45cac5285b",
+        "sha1sum" : "8b513e7a186461f9cf2e1811fa84816deb764905",
+        "sha256sum" : "064828adb686f49d8d7fcc7195eff5ed3a35b84e096b3ab68d8348b7b73cc5e6"
+      },
+      {
+        "name" : "BIOMD0000000320-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9191",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5a27a2f2c9a5c88175dcdbfe15705cad",
+        "sha1sum" : "8352b9b48a2d9e5d6fa437e45afaa764dc134f01",
+        "sha256sum" : "e93d95ca1b901a359b76ffe104e6a8b7fd25879d7adf03ef935fb1a153250447"
+      },
+      {
+        "name" : "BIOMD0000000320.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9191",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5a27a2f2c9a5c88175dcdbfe15705cad",
+        "sha1sum" : "8352b9b48a2d9e5d6fa437e45afaa764dc134f01",
+        "sha256sum" : "e93d95ca1b901a359b76ffe104e6a8b7fd25879d7adf03ef935fb1a153250447"
+      },
+      {
+        "name" : "BIOMD0000000320.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6899",
+        "mimeType" : "text/plain",
+        "md5sum" : "b2d435d3bb14c64d3e07a9e8ee76a247",
+        "sha1sum" : "a01f7522b12f101cff1cb1fa46d103bbe7940541",
+        "sha256sum" : "96c72f3beefd5a6c5def75426b19c4436b928dd0f9a7a80539f2b36e6655703a"
+      },
+      {
+        "name" : "BIOMD0000000320.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "222170",
+        "mimeType" : "application/pdf",
+        "md5sum" : "ca312df1d0bcc241f8bd924b42aef150",
+        "sha1sum" : "74cd13662cde7aa08d0421bfea681b6712eb0246",
+        "sha256sum" : "07aef9bd9218455c79f892111824db2a0f61708d5985088c68ae15a7b8e05f4e"
+      },
+      {
+        "name" : "BIOMD0000000320.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "43229",
+        "mimeType" : "image/png",
+        "md5sum" : "a380a53e3f4568113e54bfc97de35481",
+        "sha1sum" : "e9b19d2412102d5a42121b0f68a1d8b2723b035a",
+        "sha256sum" : "4b0b6edc612347ff86f7c588be7ca70f03dadc1132274b271a56611f80a009ad"
+      },
+      {
+        "name" : "BIOMD0000000320.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "26078",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "9a8a5ec77f47ce705d8905f3fd7e4d8d",
+        "sha1sum" : "b039a7c6fb3c898f60b128e9e074a6c84bf83ff4",
+        "sha256sum" : "cb3561abc306c593818cfa08bfe51f3b1bf0af8ebdd58820695be64b8e51abf1"
+      },
+      {
+        "name" : "BIOMD0000000320_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "35501",
+        "mimeType" : "application/xml",
+        "md5sum" : "6cf7c0d08b671d51958dea77d81ee1d9",
+        "sha1sum" : "cc7bca15f2548e690c05762de2c2175d08b4ddba",
+        "sha256sum" : "0aeb8aa48278ce2b7c7515bab10f0dff007cde76c3aad8b758dca66896ebc2b9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "40921",
+        "mimeType" : "image/png",
+        "md5sum" : "4991417bdba6db601345308814650d75",
+        "sha1sum" : "ddd36ee821e349e6d0b73d111abee674017a89de",
+        "sha256sum" : "a5e8ac19b816526cf2b1465af7192103df0dd0ca7c0837c0ef9456d454ef8b44"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "568",
+        "mimeType" : "text/plain",
+        "md5sum" : "aaa85a8743e0096a245fd7b990af852c",
+        "sha1sum" : "0ef1014c2b33066dde9cf7a8cd936eb7e5fffcfd",
+        "sha256sum" : "34b325e48c0156505f587ee5c4f8c6e0ef7acdfbf91af9ac416ee9f8f5d225da"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "70bed66cc73750d780edf8aec3e641a2",
+        "sha1sum" : "2850a0a7ee58ec40119eaf593b4d662cf92c9598",
+        "sha256sum" : "87db21b9c5e896a7e7aaacab98e1a8263e25a3663c2aa59c892e4054400d383d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6949",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f0e6eaeb6a31e5773506316441d449f7",
+        "sha1sum" : "600037eb302d9d408ebc3f7889d548b4398667e3",
+        "sha256sum" : "880c250d5d8b2b9afc18eb55b147947fb9b2f12c248b098efaefb154159a5c5a"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1256838051,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Grange2001_L_Dopa_comp_model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1495110713,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Grange2001 - PK interaction of L-dopa and benserazide"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273467,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285035,
+  "submissionId" : "MODEL0910130001",
+  "publicationId" : "BIOMD0000000320",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10116",
+      "name" : "Rattus norvegicus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10116"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL0910130001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL0910130001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000320",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000320"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11587490",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11587490"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051583",
+      "name" : "dopamine uptake involved in synaptic transmission",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051583"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

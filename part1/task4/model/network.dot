@@ -1,0 +1,15 @@
+digraph Evidence {
+  rankdir=LR;
+  graph [bgcolor="white", pad="0.25"];
+  node [shape=box, style="rounded,filled", fillcolor="#eff4f8", color="#526477", fontname="Helvetica"];
+  edge [color="#687889", fontname="Helvetica", fontsize=10];
+  "R-HSA-913531" [label="Humanes Interferon-Signalmodul"];
+  "T4:CACO2_PROTEOME" [label="Caco-2-Proteomikkontrast"];
+  "T4:CALU3_PROTEOME" [label="Calu-3-Proteomikkontrast"];
+  "T4:CACO2_TRANSCRIPT" [label="Caco-2-Transkriptmessung"];
+  "T4:IFN_FUNCTIONAL_GROUP" [label="IFN-bezogene Funktionsgruppe"];
+  "R-HSA-913531" -> "T4:IFN_FUNCTIONAL_GROUP" [label="T4E01: interpretation framework", style=dashed];
+  "T4:CACO2_PROTEOME" -> "T4:IFN_FUNCTIONAL_GROUP" [label="T4E02: observed altered members", style=dashed];
+  "T4:CALU3_PROTEOME" -> "T4:IFN_FUNCTIONAL_GROUP" [label="T4E03: observed altered members", style=dashed];
+  "T4:CACO2_TRANSCRIPT" -> "T4:IFN_FUNCTIONAL_GROUP" [label="T4E04: supports functional interpretation", style=dashed];
+}

@@ -1,0 +1,337 @@
+{
+  "name" : "Nielsen1998_Glycolysis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model was automatically converted from model BIOMD0000000042 by using      <a href=\"http://sbml.org/Software/libSBML\" target=\"_blank\">libSBML</a>          .      </p>      <p>According to the      <a href=\"http://www.ebi.ac.uk/biomodels//legal.html\">BioModels Database terms of use</a>          , this generated model is not related with model      <a href=\"http://www.ebi.ac.uk/biomodels/models-main/anno/BIOMD0000000042/BIOMD0000000042.xml\">BIOMD0000000042</a>          any more.      </p>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17029704",
+    "journal" : "Biophysical chemistry",
+    "title" : "Sustained oscillations in glycolysis: an experimental and theoretical study of chaotic and complex periodic behavior and of quenching of simple oscillations.",
+    "affiliation" : "Department of Chemistry and CATS, H.C. Ørsted Institute, University of Copenhagen, Universitetsparken 5, DK-2100 Copenhagen, Denmark.",
+    "synopsis" : "We report sustained oscillations in glycolysis conducted in an open system (a continuous-flow, stirred tank reactor; CSTR) with inflow of yeast extract as well as glucose. Depending on the operating conditions, we observe simple or complex periodic oscillations or chaos. We report the response of the system to instantaneous additions of small amounts of several substrates as functions of the amount added and the phase of the addition. We simulate oscillations and perturbations by a kinetic model based on the mechanism of glycolysis in a CSTR. We find that the response to particular perturbations forms an efficient tool for elucidating the mechanism of biochemical oscillations.",
+    "year" : 1998,
+    "month" : "5",
+    "volume" : "72",
+    "issue" : "1-2",
+    "pages" : "49-62",
+    "link" : "http://identifiers.org/pubmed/17029704",
+    "authors" : [
+      {
+        "name" : "K Nielsen",
+        "institution" : "Department of Chemistry and CATS, H.C. Ørsted Institute, University of Copenhagen, Universitetsparken 5, DK-2100 Copenhagen, Denmark."
+      },
+      {
+        "name" : "P G Sørensen"
+      },
+      {
+        "name" : "F Hynne"
+      },
+      {
+        "name" : "H G Busse"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000042_url.xml",
+        "description" : "SBML L2V4 representation of Nielsen1998_Glycolysis",
+        "fileSize" : "46989",
+        "mimeType" : "application/xml",
+        "md5sum" : "7262e820e7be75e10b9d6df15174a665",
+        "sha1sum" : "32354189a66f8bf33163f1c818287fcd0595cdd3",
+        "sha256sum" : "3c7946ce1e76401eca4d1b878d435083bf12cf6b16eee6b10316f2aa935109f9"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000042-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "54803",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e102ffd196c5ffcf05a61422c86259fe",
+        "sha1sum" : "42878bc14eb95763e6048c9c90300ab79e884daf",
+        "sha256sum" : "8f2f576e9e5cd8e7ce53e75e16f9fb48d593d9b98048d0da7a1c68924c8de99c"
+      },
+      {
+        "name" : "BIOMD0000000042-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "75318",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2c1b0203086e8fc84fe6d726bcad475d",
+        "sha1sum" : "515bc66c3c79fa418ecffcedf8b148237950b9f0",
+        "sha256sum" : "a89384b86e3616e1332bc2050908c97871804adb913141d78f69b4edeb360bf8"
+      },
+      {
+        "name" : "BIOMD0000000042-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10027",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "eb48700e718c6f2050bb1177cdc5ade2",
+        "sha1sum" : "cf871819e004cd949dd8c7e81bccf751f21c40e3",
+        "sha256sum" : "b973a3278aebb07f8b41f234503bc5d064f12340cd5426c1b3b2e50a970ac519"
+      },
+      {
+        "name" : "BIOMD0000000042-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10027",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "327ae23b6e09e5ae8b0c098cbc044169",
+        "sha1sum" : "998df0467d3a892198f47101cc5d80f487981591",
+        "sha256sum" : "06fafe14189155e692793dceb4ff9a03a39c77d7fb27cd4aaff8756b7ce44585"
+      },
+      {
+        "name" : "BIOMD0000000042.cps",
+        "description" : "COPASI file to reproduce figure 9d",
+        "fileSize" : "87807",
+        "mimeType" : "application/xml",
+        "md5sum" : "01843a1870e0b0ea33e926639f5aef91",
+        "sha1sum" : "8b97790251a87b8bd341ef1c3e78625b523edbbc",
+        "sha256sum" : "fc0ce2ad952b98922dcd237ca2299c4cd18071bf8589f168e3a9c61a1ae2f030"
+      },
+      {
+        "name" : "BIOMD0000000042.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "10027",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "327ae23b6e09e5ae8b0c098cbc044169",
+        "sha1sum" : "998df0467d3a892198f47101cc5d80f487981591",
+        "sha256sum" : "06fafe14189155e692793dceb4ff9a03a39c77d7fb27cd4aaff8756b7ce44585"
+      },
+      {
+        "name" : "BIOMD0000000042.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6706",
+        "mimeType" : "text/plain",
+        "md5sum" : "0ce9348dce065163c746faf000a9eb51",
+        "sha1sum" : "c9f8de3c9d72108f7e4709849bf9e7f312b3d693",
+        "sha256sum" : "4762b32818e67d1c6b8f3a553025787d4ce04c1d25838de25006bff7503cb259"
+      },
+      {
+        "name" : "BIOMD0000000042.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "226385",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7dc2182ba1b13a634f1aa82053fa68f2",
+        "sha1sum" : "4596091212e631d555f76d7312d3abeb1960909b",
+        "sha256sum" : "6f9c770fa72139fea3c74df390979eb15673fd82e17f5764449cab0f5d2a4dd8"
+      },
+      {
+        "name" : "BIOMD0000000042.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "116922",
+        "mimeType" : "image/png",
+        "md5sum" : "64d022a8b3e4dc569161613421f3a38b",
+        "sha1sum" : "31e271301a89c2b48fedf1f6d9be0e90a08bf4c9",
+        "sha256sum" : "175005e81afb919fb7d831aa5fd1ad554d93f7671f3eadb4d010e91825a41c3e"
+      },
+      {
+        "name" : "BIOMD0000000042.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "7630",
+        "mimeType" : "text/plain",
+        "md5sum" : "2840218b1aaf2583375704981611dfa7",
+        "sha1sum" : "46c1441ea694477afae385f331c730d30727be16",
+        "sha256sum" : "204840635d771baf99125cf0da4ea7d568ca372dde04491b49e2233bc62c0298"
+      },
+      {
+        "name" : "BIOMD0000000042.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "35818",
+        "mimeType" : "application/xml",
+        "md5sum" : "38a64711a8011f1f94abe256b3a7f392",
+        "sha1sum" : "6a7cb716e78f51db8c043f170517a50d87bb2bca",
+        "sha256sum" : "535ca0bf6c9c01bda7b0b7babfbace1358f5fb9586a60b2da41364bd19f95c28"
+      },
+      {
+        "name" : "BIOMD0000000042.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "46679",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "664260b683bc862317cca072cbe21955",
+        "sha1sum" : "127c6b7ba5c11685545c1a30683c4c37319fb709",
+        "sha256sum" : "ecce453e43f761ff9499644f3b7c55a556e0c000d3d92409ae764dbbf6eb20e8"
+      },
+      {
+        "name" : "BIOMD0000000042.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "74534",
+        "mimeType" : "application/xml",
+        "md5sum" : "6bdcd651d6a7bc4758491e7b100f7e3e",
+        "sha1sum" : "98bdb3bde41cf6db7c7c380069d87faf3b40a602",
+        "sha256sum" : "dad3be2a5075d11acf923210bb686495f970b09fc7a28a498c0ca60698a16ceb"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21974",
+        "mimeType" : "image/png",
+        "md5sum" : "5eb9ff6e6f3825af3388d043d428aa20",
+        "sha1sum" : "9a97421166d95a4cc00015b1c51649b470892f42",
+        "sha256sum" : "7d71615192aa64cc68aa77929ac8d00b4b4b3e96948976126be8097944b47e35"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "62",
+        "mimeType" : "text/plain",
+        "md5sum" : "ffc2c44afd760818b1805779e9dc93d6",
+        "sha1sum" : "4a74cbb85fba7d672c344483daaa7350b20421e5",
+        "sha256sum" : "ce92b4a47e626c9b925cce5057ee1dd5fb89e2fe5f0d4d5bced01ab247646fac"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2150",
+        "mimeType" : "application/xml",
+        "md5sum" : "6a99f09f3afa2f454fc4e9904ee23efd",
+        "sha1sum" : "e0e3ecfe383ac60a5dc6b9086cb9df7972b8c309",
+        "sha256sum" : "4096e4426afb5a2afbcb3a757fef37dad9726206dc7fce22c6b176d6dc5441e9"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3522",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "43a3ed36a3bd0901de07a784b0b673a0",
+        "sha1sum" : "3e7c4560317e7f07c8dbdf6f4d4229c3e2987b81",
+        "sha256sum" : "a420bbcf86a3f8bed0e5789cc6b2a0104b4ed58e8468e32d8f141ba34d2773f8"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126626191,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of Nielsen1998_Glycolysis"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460132465,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of Nielsen1998_Glycolysis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545411369,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: BIOMD0000000042.cps"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724265796,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284855,
+  "submissionId" : "MODEL6622455387",
+  "publicationId" : "BIOMD0000000042",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6622455387",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6622455387"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000042",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000042"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17029704",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17029704"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "6454892",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/6454892"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "8061224",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8061224"
+    },
+    {
+      "qualifier" : "bqbiol:isHomologTo",
+      "accession" : "REACT_1383",
+      "name" : "Glycolysis",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_1383"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "sce00010",
+      "name" : "Glycolysis / Gluconeogenesis - Saccharomyces cerevisiae (budding yeast)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/sce00010"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006096",
+      "name" : "glycolytic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006096"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

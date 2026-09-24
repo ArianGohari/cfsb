@@ -1,0 +1,299 @@
+{
+  "name" : "Thiaville2016 - Wild type folate pathway model with proposed PanB reaction",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Thiaville2016 - Wild type folate pathwaymodel with proposed PanB reaction</div><div class=\"dc:description\">This is a wild type E. coli model, andis one amongst the three models described in the paper. The othertwo models are MODEL1602280002 (wild type with PanB overexpression) and MODEL1602280003 (wild type with PanB overexpression and THF regulation). </div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/27065985\" title=\"Access to this publication\">Experimental and Metabolic    Modeling Evidence for a Folate-Cleaving Side-Activity of    Ketopantoate Hydroxymethyltransferase (PanB).</a>  </div>  <div class=\"bibo:authorList\">Thiaville JJ, Frelin O,  García-Salinas C, Harrison K, Hasnain G, Horenstein NA,  Díaz de la Garza RI, Henry CS, Hanson AD, de  Crécy-Lagard V.</div>  <div class=\"bibo:Journal\">Front Microbiol 2016; 7: 431</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Tetrahydrofolate (THF) and its one-carbon derivatives,    collectively termed folates, are essential cofactors, but are    inherently unstable. While it is clear that chemical oxidation    can cleave folates or damage their pterin precursors, very    little is known about enzymatic damage to these molecules or    about whether the folate biosynthesis pathway responds    adaptively to damage to its end-products. The presence of a    duplication of the gene encoding the folate biosynthesis enzyme    6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase (FolK) in    many sequenced bacterial genomes combined with a strong    chromosomal clustering of the folK gene with panB, encoding the    5,10-methylene-THF-dependent enzyme ketopantoate    hydroxymethyltransferase, led us to infer that PanB has a side    activity that cleaves 5,10-methylene-THF, yielding a pterin    product that is recycled by FolK. Genetic and metabolic    analyses of Escherichia coli strains showed that overexpression    of PanB leads to accumulation of the likely folate cleavage    product 6-hydroxymethylpterin and other pterins in cells and    medium, and-unexpectedly-to a 46% increase in total folate    content. In silico modeling of the folate biosynthesis pathway    showed that these observations are consistent with the in vivo    cleavage of 5,10-methylene-THF by a side-activity of PanB, with    FolK-mediated recycling of the pterin cleavage product, and    with regulation of folate biosynthesis by folates or their    damage products.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000639\">BIOMD0000000639</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "27065985",
+    "journal" : "Frontiers in microbiology",
+    "title" : "Experimental and Metabolic Modeling Evidence for a Folate-Cleaving Side-Activity of Ketopantoate Hydroxymethyltransferase (PanB).",
+    "affiliation" : "Department of Microbiology and Cell Science, University of Florida Gainesville, FL, USA.",
+    "synopsis" : "Tetrahydrofolate (THF) and its one-carbon derivatives, collectively termed folates, are essential cofactors, but are inherently unstable. While it is clear that chemical oxidation can cleave folates or damage their pterin precursors, very little is known about enzymatic damage to these molecules or about whether the folate biosynthesis pathway responds adaptively to damage to its end-products. The presence of a duplication of the gene encoding the folate biosynthesis enzyme 6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase (FolK) in many sequenced bacterial genomes combined with a strong chromosomal clustering of the folK gene with panB, encoding the 5,10-methylene-THF-dependent enzyme ketopantoate hydroxymethyltransferase, led us to infer that PanB has a side activity that cleaves 5,10-methylene-THF, yielding a pterin product that is recycled by FolK. Genetic and metabolic analyses of Escherichia coli strains showed that overexpression of PanB leads to accumulation of the likely folate cleavage product 6-hydroxymethylpterin and other pterins in cells and medium, and-unexpectedly-to a 46% increase in total folate content. In silico modeling of the folate biosynthesis pathway showed that these observations are consistent with the in vivo cleavage of 5,10-methylene-THF by a side-activity of PanB, with FolK-mediated recycling of the pterin cleavage product, and with regulation of folate biosynthesis by folates or their damage products.",
+    "year" : 2016,
+    "month" : "0",
+    "volume" : "7",
+    "pages" : "431",
+    "link" : "http://identifiers.org/pubmed/27065985",
+    "authors" : [
+      {
+        "name" : "Jennifer J Thiaville",
+        "institution" : "Department of Microbiology and Cell Science, University of Florida Gainesville, FL, USA."
+      },
+      {
+        "name" : "Océane Frelin",
+        "institution" : "Horticultural Sciences Department, University of Florida Gainesville, FL, USA."
+      },
+      {
+        "name" : "Carolina García-Salinas",
+        "institution" : "Tecnológico de Monterrey Campus Monterrey, Monterrey, Mexico."
+      },
+      {
+        "name" : "Katherine Harrison",
+        "institution" : "Department of Microbiology and Cell Science, University of Florida Gainesville, FL, USA."
+      },
+      {
+        "name" : "Ghulam Hasnain",
+        "institution" : "Horticultural Sciences Department, University of Florida Gainesville, FL, USA."
+      },
+      {
+        "name" : "Nicole A Horenstein",
+        "institution" : "Department of Chemistry, University of Florida Gainesville, FL, USA."
+      },
+      {
+        "name" : "Rocio I Díaz de la Garza",
+        "institution" : "Tecnológico de Monterrey Campus Monterrey, Monterrey, Mexico.",
+        "orcid" : "0000-0002-0006-5694"
+      },
+      {
+        "name" : "Christopher S Henry",
+        "institution" : "Mathematics and Computer Science Division, Argonne National LaboratoryArgonne, IL, USA; Computation Institute, The University of ChicagoChicago, IL, USA."
+      },
+      {
+        "name" : "Andrew D Hanson",
+        "institution" : "Horticultural Sciences Department, University of Florida Gainesville, FL, USA."
+      },
+      {
+        "name" : "Valérie de Crécy-Lagard",
+        "institution" : "Department of Microbiology and Cell Science, University of FloridaGainesville, FL, USA; Genetics Institute, University of FloridaGainesville, FL, USA.",
+        "orcid" : "0000-0002-9955-3785"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000639_url.xml",
+        "description" : "SBML L2V4 representation of Thiaville2016 - Wild type folate pathway model with proposed PanB reaction",
+        "fileSize" : "42506",
+        "mimeType" : "application/xml",
+        "md5sum" : "90e2cd416fa56a567e13c5819c33d343",
+        "sha1sum" : "00959951cda6fec8ccb7cfd973b58ef0008561b9",
+        "sha256sum" : "a969e991434670fb34fedf298494a0508e9839179fe94906802497381884a5d6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000639-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "17942",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "fa274a6f94416a91fb56db6ab3114a11",
+        "sha1sum" : "bd53f3ae2c0166837c4d313c68610471b08e8c96",
+        "sha256sum" : "92f0dd3684ca69bf8bb6c3bf008f88e63d9020252d9983459d78621368d4a5b4"
+      },
+      {
+        "name" : "BIOMD0000000639-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "30729",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b70971f7163f50163bc81c06f4999f42",
+        "sha1sum" : "a33a81c289a17e776c1ae0746419e87ea777e6af",
+        "sha256sum" : "87c41288995e22d97228ebddfe65bbfc1da7efe8b1e34bed3824be5bdf89d769"
+      },
+      {
+        "name" : "BIOMD0000000639-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6597",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2c62a3166b34deb5ea1c111ee465c663",
+        "sha1sum" : "d40b49e752fedb49333cf0cdcb1334fa112adb8d",
+        "sha256sum" : "9150b9ca1f42357f1956b2cf49a76913c1d043aa6b60ca0b0466d7ab62cdab9e"
+      },
+      {
+        "name" : "BIOMD0000000639-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6597",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1880ffbd6748cb24498f137d93891042",
+        "sha1sum" : "5226f8f230de3ba3256c3669e03ffc7b4758d45e",
+        "sha256sum" : "bc249b32ae292de2cec4365eb11790d55ee52d20af481363eec911380409bf3e"
+      },
+      {
+        "name" : "BIOMD0000000639.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6597",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1880ffbd6748cb24498f137d93891042",
+        "sha1sum" : "5226f8f230de3ba3256c3669e03ffc7b4758d45e",
+        "sha256sum" : "bc249b32ae292de2cec4365eb11790d55ee52d20af481363eec911380409bf3e"
+      },
+      {
+        "name" : "BIOMD0000000639.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4606",
+        "mimeType" : "text/plain",
+        "md5sum" : "18ed2c29a2fb28a0ce1d7ea2cca4925b",
+        "sha1sum" : "fe2c854a9db4d3563d9519a29096325b90975a59",
+        "sha256sum" : "02ba66a1c0fa0d96acc168858e4b5a89db979a945524c328aeeff40a7f56a069"
+      },
+      {
+        "name" : "BIOMD0000000639.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "91476",
+        "mimeType" : "image/png",
+        "md5sum" : "05081f560f88545538e89c9789bc0349",
+        "sha1sum" : "51b7e17686b2c2ce61035d4a9437ec869498cb41",
+        "sha256sum" : "4b50dfee1d0263fb1d82fa9c2b20c9644c8350b1a3910a88ee14ae3912770871"
+      },
+      {
+        "name" : "BIOMD0000000639.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "24525",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "da2c9e008894deee7db1392182021f29",
+        "sha1sum" : "5f8d7f8edf69a9809c9b5b6132f32c91bbc2cdbb",
+        "sha256sum" : "366fdb92428ebe73cda91d172f37ae9e97da310bc13bed91bfa651a5a9e2ead2"
+      },
+      {
+        "name" : "BIOMD0000000639.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "70171",
+        "mimeType" : "application/xml",
+        "md5sum" : "9e3334c23c4c96af98987b3a69de6bd7",
+        "sha1sum" : "7dae809fd9666855b4f6244a3a118c71d0937857",
+        "sha256sum" : "d7c128a6b72fb6ca80b936be74ee9a26df7ed66e0ab70c6a3aef7e3da74b189a"
+      },
+      {
+        "name" : "BIOMD0000000639_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "19112",
+        "mimeType" : "application/xml",
+        "md5sum" : "22fbbe1cf5a3ce1b776c768edefaa2f0",
+        "sha1sum" : "3067b208cce9cfcfec70340cb8d214e15aa0b5d3",
+        "sha256sum" : "c267bbec624c5c75a34e743939a314fc153a28cb27229ad919d4b45c5fc8252c"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "361553",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "fb8db6f9624c7ae7e3d482c86bccb519",
+        "sha1sum" : "b9cad8a7b17e136f91a7a172efc53363e8a2964c",
+        "sha256sum" : "a0e7a2493f48410df26b58e7711c4aa5fb32a00826a13f76fe31d362c6443281"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "404",
+        "mimeType" : "text/plain",
+        "md5sum" : "5cafc34b0430fbc5ed4e5421edd629ab",
+        "sha1sum" : "04cf40cb10b69b54e51b66bee8e99b25e82ab6df",
+        "sha256sum" : "de0d703184559607482c8eea63e939f789cca3be2e818f2d93f64a86c56a348c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1798",
+        "mimeType" : "application/xml",
+        "md5sum" : "237ba2fcf1a043e7d26c7d883052862f",
+        "sha1sum" : "d06458463b6ec28ce2c6eef3b71ac5a6ad2fe51a",
+        "sha256sum" : "41df33cbc7d16765941228c6472aa65eeab3c355b237dc66109e66bcd7df6ee6"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5767",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "80eeff07c8089e30b28845a402168193",
+        "sha1sum" : "e4fe529d40105c038579228bedb19a36ba68ae48",
+        "sha256sum" : "928c26788cb7f7a3c5fac71a1dcec088d0c805d6d9ccc4457d7600d35244c52b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1456695691,
+        "submitter" : "Christopher Henry",
+        "comment" : "Original import of Henry2016 Wild type folate pathway model with proposed PanB reaction"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1496338987,
+        "submitter" : "Christopher Henry",
+        "comment" : "Current version of Thiaville2016 - Wild type folate pathway model with proposed PanB reaction"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724285096,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285396,
+  "submissionId" : "MODEL1602280001",
+  "publicationId" : "BIOMD0000000639",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Christopher Henry",
+        "email" : "chenry@mcs.anl.gov",
+        "affiliation" : "University of Chicago",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1602280001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1602280001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000639",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000639"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "27065985",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/27065985"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "562",
+      "name" : "Escherichia coli",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/562"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0046656",
+      "name" : "folic acid biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0046656"
+    }
+  ]
+}

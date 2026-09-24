@@ -1,0 +1,207 @@
+---
+title: "Aufgabe 4: Caco-2 als Modellsystem für die Interpretation von Proteomik"
+lang: de
+format:
+  html:
+    toc: true
+    embed-resources: false
+execute:
+  enabled: false
+---
+
+## Fragestellung und Ergebnis
+
+Aufgabe 4 verlangt Informationen und ein Systemmodell zur Interpretation von COVID-19-/SARS-CoV-2-Proteomik in der humanen Kolonepithel-Karzinomzelllinie Caco-2. Allgemeines Wissen über menschliche Zellen soll dabei von Caco-2-spezifischer Evidenz unterschieden werden.
+
+Als Ergebnis wird hier ein **quellenbasiertes, konzeptionelles Modell der Wirtszellantwort** mit einer Evidenztabelle bereitgestellt. Die Proteomikstudie von Saccon et al. (2021) bildet das Anwendungsbeispiel. Ihr Vergleich verschiedener Zelllinien zeigt eine gemeinsame Interferon-bezogene Antwort, aber deutliche Unterschiede im Umfang der gemessenen Proteinveränderungen. Deshalb eignet sich ein allgemeines menschliches Pathway-Netz als Interpretationsrahmen; seine Kanten dürfen nicht sämtlich als in Caco-2 experimentell bestätigt gelten.
+
+Die Zahlen im biologischen Ergebnisteil sind publizierte Ergebnisse, keine eigene Neuberechnung der Proteomik. Eigene Arbeiten umfassen die dokumentierte Literaturakquisition, die technische Text-Mining-Prüfung und die hier vorgenommene, LLM-unterstützte Zusammenstellung des Modells. Ein dynamisches Modell und eine vollständige systematische Literaturübersicht wurden nicht erstellt.
+
+## 1. Was bildet Caco-2 ab?
+
+Caco-2 ist eine humane Tumorzelllinie aus einem Kolon-Adenokarzinom. Cellosaurus führt sie unter **RRID:CVCL_0025**, das Cell Model Passport unter `SIDM00891`; der zugehörige DepMap-Identifier ist `ACH-000003` [1, 2]. Diese Kennungen erlauben, Datenquellen trotz unterschiedlicher Schreibweisen wie Caco2 oder CACO-2 zusammenzuführen. Abgeleitete Subklone dürfen dabei nicht automatisch mit der Elternlinie gleichgesetzt werden.
+
+Caco-2 wird als Modell intestinaler Epithelfunktionen eingesetzt. Die Verwendung als Darmbarrieremodell bedeutet jedoch nicht, dass die Zelllinie gesundes Darmgewebe vollständig repräsentiert. Tumorherkunft, Differenzierungszustand und fehlende Gewebeumgebung begrenzen die Übertragbarkeit. Ein Beispiel ist die gegenüber physiologischen Verhältnissen teilweise erhöhte transepitheliale elektrische Resistenz; auch die Expression einzelner Junction-Proteine allein belegt noch keine funktionell gleichwertige Barriere [3].
+
+Für die Interpretation eines Proteoms ergeben sich folgende Grenzen:
+
+- Eine Caco-2-Monokultur enthält nicht die Zelltypvielfalt, Immunzellen und räumliche Organisation menschlichen Darmgewebes.
+- Ein Proteinbefund beschreibt den untersuchten Zellzustand. Er ist nicht ohne Weiteres auf andere Subklone, Differenzierungszustände oder Studien übertragbar.
+- Änderungen der Gesamtproteinabundanz belegen weder eine entsprechende Änderung der Enzymaktivität noch eine bestimmte Lokalisation oder Phosphorylierung.
+- Fehlender massenspektrometrischer Nachweis ist kein sicherer Nachweis biologischer Abwesenheit.
+
+## 2. Ressourcen und ihr Beitrag zum Systemmodell
+
+| Ressource | Beitrag | Was daraus nicht folgt |
+|---|---|---|
+| Cellosaurus und Cell Model Passports [1, 2] | Zelllinienidentität, Herkunft, alternative Kennungen und Verknüpfung von Datensätzen | Kein experimenteller Nachweis einer Signalkante in einer konkreten Probe |
+| Reactome, Interferon Signaling, `R-HSA-913531` [4] | Kuratiertes menschliches Pathway-Wissen als biologischer Interpretationsrahmen | Keine Caco-2-spezifische Aktivierung sämtlicher enthaltenen Reaktionen |
+| Saccon et al., PMID33898942 [5] | Publizierter Zelllinienvergleich mit Proteomik und ergänzenden Messungen | Keine allgemeine Eigenschaft aller Darmzellen oder aller Krankheitsverläufe |
+| ProteomeXchange/PRIDE, `PXD023760` [5] | In der Publikation angegebener Zugang zu Roh-MS- und Suchdateien | Ein erfolgreicher Metadatenabruf bedeutet keinen vollständigen Rohdatendownload |
+| Supplemente über Europe PMC [5] | Prozessierte und unprozessierte Proteomiktabellen, lokal bytegleich gesichert | Ohne Prüfung von Tabellenköpfen, Kontrasten und Kennungen keine unmittelbar auswertbare Ergebnismatrix |
+| Eigene regelbasierte Text-Mining-Pipeline | Mit Quelltext verknüpfte Kandidatenaussagen und technisches Auswahlprotokoll | Kein validiertes regulatorisches Netzwerk und keine unabhängige biologische Bestätigung |
+
+Das Modell verwendet Reactome auf Modulebene. Es wurde kein vollständiger, versionsfixierter Reactome-Kantenexport importiert. Die nachfolgende Beziehungstabelle ist eine eigene quellengestützte Abstraktion, kein unveränderter Datenbankexport.
+
+## 3. Auswahl der Proteomikstudie und Datenbestand
+
+### 3.1 Geeignete Vergleichsstudie
+
+Saccon et al. (2021), *Cell-type-resolved quantitative proteomics map of interferon response against SARS-CoV-2*, untersuchen Veränderungen der Proteinabundanz in Caco-2 und weiteren Zelllinien mittels TMT-basierter quantitativer Massenspektrometrie [5]. Für Aufgabe 4 ist die Studie besonders geeignet, weil sie Messungen im Zielmodell mit einem Zelllinienvergleich verbindet. Verglichen werden jeweils die behandelte und die zugehörige Mock-Kontrollgruppe innerhalb einer Zelllinie. Die zentrale Proteomikauswertung bezieht sich auf einen gemeinsamen Beobachtungszeitpunkt, nicht auf eine vollständige Zeitreihe.
+
+Die Ausarbeitung betrachtet ausschließlich die Interpretation publizierter Wirtsantworten. Aus dem Vergleich werden keine Empfehlungen zur Veränderung von Infektionsbedingungen oder zur Steigerung viraler Eigenschaften abgeleitet.
+
+### 3.2 Welche Daten sind belegt?
+
+Die Publikation nennt `PXD023760` als ProteomeXchange-Zugang und führt folgende Supplementtabellen auf [5, Abschnitt *Data and code availability* und Supplementverzeichnis]:
+
+| Tabellen | Laut Publikation enthaltener Datentyp | Bedeutung für Aufgabe 4 |
+|---|---|---|
+| S4 und S5 | Peptid- bzw. Proteingruppenabundanzen für 293FT und Huh7 | Vergleichsmaterial, nicht Caco-2 |
+| S6 und S7 | Peptid- bzw. Proteingruppenabundanzen für Calu-3 und Caco-2 | Gemeinsame Ausgangstabellen für diese beiden Zelllinien |
+| S8 und S9 | Normalisierte Proteinabundanzen für 293FT bzw. Huh7 | Zellliniengetrennte Vergleichsdaten |
+| S10 und S11 | Normalisierte Proteinabundanzen für Calu-3 bzw. Caco-2 | S11 ist laut Tabellenüberschrift die Caco-2-Tabelle |
+
+Im Projekt liegen `data/mmc1.pdf` und `data/mmc2.xlsx` bis `data/mmc9.xlsx`. Das Offline-Quellenaudit vom 23.09.2026 bestätigt: Alle neun Dateien sind bytegleich mit den Mitgliedern des archivierten Europe-PMC-Supplementdownloads. Alle acht XLSX-Container bestehen die CRC-Prüfung. Die Zuordnung zu den Supplementtabellen ist durch die Medienverweise im archivierten Artikel-XML belegt:
+
+| Lokale Datei | Label im Artikel | Blattname im XLSX-Container |
+|---|---|---|
+| `mmc1.pdf` | Document S1, einschließlich S1–S3 | PDF |
+| `mmc2.xlsx` | Table S4 | `PeptideGroups` |
+| `mmc3.xlsx` | Table S5 | `Proteins` |
+| `mmc4.xlsx` | Table S6 | `PeptideGroups` |
+| `mmc5.xlsx` | Table S7 | `Proteins` |
+| `mmc6.xlsx` | Table S8 | `293FT_norm_file` |
+| `mmc7.xlsx` | Table S9 | `Huh7_norm_file` |
+| `mmc8.xlsx` | Table S10 | `Calu3_norm_file` |
+| `mmc9.xlsx` | Table S11 | `Caco2_norm_file` |
+
+`pride_response.json` dokumentiert einen HTTP-200-Metadatenabruf für `PXD023760`; dieser Zugang steht auch im Datenverfügbarkeitsabschnitt des Artikels. Der PRIDE-Projekttitel weicht vom Publikationstitel ab, und DOI-Feld sowie Referenzliste im archivierten PRIDE-Datensatz sind leer. Die Zuordnung beruht daher auf dem expliziten Zugang im Artikel. Der archivierte Mendeley-API-Abruf endete dagegen mit **HTTP 404**. Die lokalen Supplemente stammen aus Europe PMC; der Mendeley-Abruf belegt keinen erfolgreichen Datendownload.
+
+Prüfbericht, Dateihashes und Kandidatenregister stehen unter [Quellen- und Dateiaudit](audits/source-audit-20260923/REPORT.md). Die Prüfung umfasst Dateiprovenienz und Containerstruktur. **Numerische Tabelleninhalte, Probenspalten und Kontrastdefinitionen bleiben ungeprüft.** Ein vollständiger Download der Roh-MS-Dateien wird nicht behauptet.
+
+Der lokale Volltext enthält im Supplementbeschreibungstext zu S10/S11 die abweichenden Bezeichnungen "Calu2" und "Caco3", während die jeweiligen Überschriften Calu-3 und Caco2 nennen. Die nun geprüften Blattnamen passen zu den Überschriften. Das klärt die Dateizuordnung; die Probenspalten wurden damit noch nicht geprüft.
+
+### 3.3 Publizierte Befunde, nicht eigene Neuberechnung
+
+| Befund aus Saccon et al. [5] | Einordnung |
+|---|---|
+| 177 signifikant veränderte Proteine in Caco-2 gegenüber 6.462 in Calu-3 | Unterschied im Umfang der innerhalb der Zelllinie detektierten Veränderungen; kein direkter statistischer Test des Unterschieds zwischen Zelllinien |
+| 132 gemeinsam signifikant veränderte Proteine in Caco-2 und Calu-3 | Überlappung der Befundmengen; allein noch keine gemeinsame Änderungsrichtung |
+| Von diesen 132 sind 44 in beiden Linien erhöht und 44 in beiden erniedrigt | 88 gleichgerichtete Veränderungen; die Schnittmenge darf nicht insgesamt als gleichgerichtet beschrieben werden |
+| Unter 131 in Caco-2 detektierten Proteinen der untersuchten IFN-bezogenen Pathways sind 27 verändert: 25 erhöht, zwei erniedrigt | Publizierter pathwaybezogener Teilbefund, nicht 27 von sämtlichen menschlichen Interferonproteinen |
+| Der entsprechende Calu-3-Teilbefund umfasst 105 veränderte von 129 detektierten Proteinen | Gemeinsamer funktioneller Bezug bei unterschiedlichem Umfang |
+| Ergänzende Transkriptmessungen zeigen Veränderungen ausgewählter IFN-bezogener Gene in Caco-2 und Calu-3 | Andere Messebene als Proteinabundanz; nicht als zusätzliche MS-Proteinmessungen zählen |
+
+Die Zahlen stehen im publizierten Ergebnisteil zu Abbildung 3 und 4. Die Pathway-Heatmaps werden dort mit LIMMA und FDR < 0,05 beschrieben. Ohne Nachrechnung lassen sich weder Sensitivität gegenüber Vorverarbeitung noch vollständige statistische Reproduzierbarkeit beurteilen.
+
+**Interpretation:** Die Daten stützen eine Interferon-bezogene Wirtsantwort in dem untersuchten Caco-2-Kontext. Der größere Umfang veränderter Proteine in Calu-3 beweist weder eine allgemein stärkere Antwort dieser Zelllinie noch einen ausschließlich durch den Gewebeursprung verursachten Unterschied. Baseline-Proteom, Messabdeckung, Varianz und weitere Studienbedingungen sind mögliche Mitursachen. "Signifikant in Caco-2, nicht signifikant in einer anderen Linie" ist außerdem kein Ersatz für einen statistischen Interaktionstest.
+
+## 4. Ein kleines Systemmodell zur Interpretation
+
+### 4.1 Modellumfang und Darstellung
+
+Diese Bearbeitung liefert ein statisches, qualitatives Wirtsantwortmodell als begrenzte Teilantwort auf den geforderten Netzwerkanteil. Es ordnet Messungen biologischen Modulen zu und vermeidet den Eindruck, aus Gesamtproteinabundanzen ließen sich alle molekularen Reaktionen rekonstruieren.
+
+```{mermaid}
+flowchart LR
+  H["Allgemeines menschliches Wissen: Interferon-Signalwege"] -->|"biologischer Interpretationsrahmen"| M["Wirtsantwort-Modul"]
+  P["Caco-2: publizierte Proteinabundanzänderungen"] -.->|"Beobachtungsebene"| M
+  T["Caco-2: ergänzende Transkriptbefunde"] -.->|"separate Messebene"| M
+  C["Andere Zelllinien: separat berichtete Kontraste"] -.->|"Vergleich, keine Kontextübernahme"| M
+  M -->|"erlaubt"| I["Einordnung betroffener Funktionen"]
+  M -->|"belegt nicht"| N["vollständige Aktivität oder Kausalität aller Signalkanten"]
+```
+
+Die Pfeile der Abbildung kennzeichnen Wissens- und Evidenzbezüge, keine einzelnen Proteininteraktionen. Der biologische Kern besteht aus dem allgemeinen menschlichen Interferon-Signalmodul; die Caco-2-Daten werden diesem als Beobachtungen zugeordnet.
+
+Das abgegrenzte Modell steht zusätzlich als [JSON](model/network.json), [Knoten-TSV](model/nodes.tsv), [Kanten-TSV](model/edges.tsv) und [SVG](model/network.svg) bereit. Der Export enthält fünf Knoten und vier Beziehungskanten. Jede Kante hat eine Quellen-URL, einen Zellkontext, einen Relationstyp und eine explizite Grenze. Die Kanten kodieren nur Beobachtungs- und Interpretationsbezüge; sie sind keine molekularen Reaktionen. Damit lässt sich die Evidenz zusammen mit weiteren Daten abfragen, ohne eine nicht belegte Signaltopologie vorzutäuschen.
+
+### 4.2 Quellenbasierte Beziehungstabelle
+
+| Ausgang | Beziehung | Ziel | Evidenz und Geltungsbereich |
+|---|---|---|---|
+| Interferon-Signalübertragung | vermittelt zelluläre Signalweitergabe | Transkriptionelle Wirtsantwort | Allgemeines menschliches Pathway-Wissen, Reactome [4]; stark aggregierte Beziehung, keine direkte Bindungskante |
+| Transkriptionelle Wirtsantwort | kann zur Veränderung beitragen | Proteinabundanzmuster | Konzeptionelle Beziehung; Transkription allein erklärt Proteinabundanzen nicht vollständig |
+| Caco-2-Proteomikkontrast | zeigt veränderte Mitglieder | IFN-bezogene Pathway-Gruppe | Publizierte Proteomik [5], kontextspezifisch; 27 veränderte von 131 detektierten Proteinen in der betrachteten Gruppe |
+| Calu-3-Proteomikkontrast | zeigt veränderte Mitglieder | IFN-bezogene Pathway-Gruppe | Separater publizierter Zellkontext [5]; nicht auf Caco-2 umetikettieren |
+| Ergänzende Caco-2-Transkriptmessungen | stützen die funktionelle Einordnung | IFN-bezogene Wirtsantwort | Publizierte orthogonale Messebene [5]; kein Nachweis jeder Protein- oder Signalkante |
+
+Damit enthält das Modell drei verschiedene Beziehungstypen: biologisches Vorwissen, konzeptionelle Zusammenhänge und Messzuordnungen. Nur die erste Zeile ist unmittelbar aus der allgemeinen Pathwaybeschreibung abstrahiert. Keine Zeile wird als neu entdeckte molekulare Interaktion ausgegeben.
+
+Für einen späteren maschinenlesbaren Ausbau müssten Knoten zusätzlich stabile Kennungen, Entitätstyp und Kompartiment erhalten. Jede Kante benötigt Quelle, Relationstyp, Spezies, Zellkontext und Evidenzart. Komplexe, Gene und Proteine sind getrennte Entitätstypen; ein Gensymbol allein identifiziert keine konkrete Proteinform.
+
+### 4.3 Was ist tatsächlich Caco-2-spezifisch?
+
+"In Caco-2 beobachtet" und "ausschließlich für Caco-2 charakteristisch" sind unterschiedliche Aussagen. Die publizierten Caco-2-Proteomikbefunde sind **kontextspezifisch belegt**. Die Interferon-Signalwege selbst sind allgemeines menschliches Wissen. Ähnliche funktionelle Befunde in Calu-3 belegen keine Caco-2-spezifische Pathway-Topologie.
+
+Die Quellen erlauben hier ein annotiertes Funktionsmodell, jedoch kein vollständig experimentell belegtes Caco-2-Interaktom. Auch die unveränderte Topologie eines Referenznetzes kann mit unterschiedlichen Proteinabundanzen einhergehen. Topologie, Abundanz und Aktivität sind daher getrennt zu behandeln.
+
+## 5. Was liefert die automatische Netzwerkerstellung?
+
+Der neue technische Vergleichslauf liegt unter `../../text_mining/data/runs/task4-rules-002-offline-fixes/`; die Baseline ist `task4-rules-001`.
+
+| Technisch geprüfter Umfang | Ergebnis |
+|---|---:|
+| Lokale Papers mit Volltext | 29 |
+| Vom automatischen Screening eingeschlossen / unklar | 11 / 18 |
+| Im Text verankerte Entitätsnennungen | 1.946 |
+| Entitäten in den vollständigen Tabellen | 199 |
+| Akzeptierte Aussagen mit `assertion_pass` | 2 |
+| Neue Aussagen gegenüber dem alten Lauf | 0 |
+| Cachemisses / LLM-Aufrufe im neuen Lauf | 0 / 0 |
+
+Die beiden Aussagen sind zelllinienbezogene Abundanzaussagen, keine Proteininteraktionen. Ihre Attribution bleibt unbekannt. Deshalb ist der automatische Graph keine alternative Rekonstruktion des biologischen Modells aus Abschnitt 4. Die 199 Entitäten der vollständigen Tabellen dürfen außerdem nicht mit den drei Entitäten im gefilterten Hauptgraph gleichgesetzt werden.
+
+Die regelbasierte Pipeline selbst verwendet kein generatives LLM. Die Ausarbeitung und unabhängigen Prüfaufträge wurden dagegen LLM-unterstützt erstellt. Bestandene Softwaretests und zurückgelesene Exporte belegen technische Konsistenz; die wissenschaftliche Vollständigkeit bleibt im Run als `incomplete=true` gekennzeichnet. Die beiden jüngsten Codekorrekturen verbesserten synthetische Regressionstests, veränderten aber die Ergebnisse dieses Korpus nicht.
+
+## 6. Rechercheprovenienz und PRISMA-Grenzen
+
+Am 21.09.2026 wurden eine thematische und drei gezielte Titelabfragen in Europe PMC durchgeführt. Die unveränderten Suchausdrücke sind:
+
+```text
+(TITLE_ABS:"Caco-2" OR TITLE_ABS:Caco2) AND (TITLE_ABS:"SARS-CoV-2" OR TITLE_ABS:COVID-19) AND (TITLE_ABS:proteomics OR TITLE_ABS:proteomic OR TITLE_ABS:proteome)
+TITLE:"Proteomics of SARS-CoV-2-infected host cells reveals therapy targets"
+TITLE:"Tropism of SARS-CoV-2"
+TITLE:"Proteomic Profiling of Protease-Primed"
+```
+
+| Akquisitionsschritt | Anzahl |
+|---|---:|
+| Treffer-Vorkommen in den vier Suchabfragen | 54 (14 + 1 + 38 + 1) |
+| Datensatz ohne interne Pipeline-ID | 1 |
+| Laufübergreifende ID-Dubletten | 2 |
+| Eindeutige Datensätze mit interner Pipeline-ID | 51 |
+| Lokal beschaffte Volltextdokumente | 29 |
+| Nicht beschafft: fehlende PMC-Kennung | 17 |
+| Nicht beschafft: OA-Status nicht bestätigt | 3 |
+| Nicht beschafft: HTTP-500-Fehler | 2 |
+
+Belegt ist dies in `search.json`, `search_targeted.json`, `retrieval.json` und `retrieval_targeted.json`; das Offline-Audit vom 23.09.2026 hat die Zählung erneut berechnet. Der Datensatz ohne interne `paper_id` besitzt die Quellkennung `PMC:PMC8108313`. Er war also nicht generell kennungslos, sondern wurde von der damaligen Pipeline nicht übernommen. Die Zahl 51 beschreibt die intern verarbeiteten IDs; der zusätzliche Quelltreffer bleibt im Suchregister erhalten. Er wurde hier weder nachbeschafft noch einer Publikationsversion zugeordnet.
+
+Die Zählung führt Kennungsdubletten zusammen; eine vollständige Zusammenführung von Preprint- und Publikationsversionen zu Studien ist damit nicht belegt. Das vorhandene `acquire.py` enthält nur die erste Suchabfrage, die anderen drei sind in den archivierten Antworten dokumentiert. Alle 29 lokalen Volltexte stimmen bytegenau mit den gespeicherten Retrievaltexten und deren SHA-256-Hashes überein.
+
+Diese Zahlen beschreiben eine **PRISMA-orientiert dokumentierte Pilot-Recherche**, keine abgeschlossene systematische Review. Zugriffshindernisse sind keine fachlichen Ausschlussgründe. Ebenso sind elf automatisch eingeschlossene Dokumente nicht elf abschließend eingeschlossene Studien einer Literaturübersicht. Das Kandidaten- und Zugriffsregister dokumentiert alle 54 Suchvorkommen und die 51 intern verarbeiteten Datensätze. Die breite Titelabfrage zum Tropismus ist für die konkrete Proteomikfrage wenig spezifisch und kann die Zusammensetzung des Korpus verzerren.
+
+Für die eng gefasste Fallstudienauswahl wurde anschließend ein [Titel-/Abstract-Screening](model/screening.tsv) dokumentiert. Einschlusskriterium war ein publizierter, vergleichender quantitativer Caco-2-Wirtsproteomkontrast. Von den 51 intern identifizierten Datensätzen wurde einer als Fallstudie eingeschlossen; ein Caco-2-Referenzproteom dient nur als Hintergrund. Ein Saccon-Preprint wird wegen gleicher Autorengruppe und sehr ähnlichem Abstract als möglicherweise verwandte Vorversion geführt und nicht als unabhängige Replikation gezählt. Die übrigen 48 Datensätze wurden für diese enge Auswahl anhand von Titel und Abstract nicht ausgewählt. Der zusätzliche Treffer mit PMC-Quellkennung, aber ohne interne Pipeline-ID, hat keine fachliche Entscheidung erhalten. Damit sind alle 54 Suchvorkommen in der Tabelle oder als ID-Dubletten erklärbar. Die 48 Entscheidungen ersetzen keine Volltextprüfung und behaupten keine generelle Irrelevanz der Arbeiten für COVID-19 oder Caco-2.
+
+Dieses Screening und das Beobachtungsnetz wurden LLM-unterstützt kuratiert. Eine unabhängige menschliche Zweitsichtung, Risiko-von-Bias-Bewertung und gemessene Screening-Genauigkeit fehlen. Die Zuordnung ist daher eine begründete Projektentscheidung, kein Goldstandard und keine abgeschlossene PRISMA-Review.
+
+Cellosaurus, Cell Model Passports, Reactome und die ergänzende Barrierepublikation wurden für diese Ausarbeitung zusätzlich nachgeschlagen (22.09.2026). Diese orientierende Ressourcenergänzung ist nicht in die historischen 54 Treffer eingerechnet. Die Auswahl von Saccon et al. ist eine begründete Fallstudienauswahl, keine Rangfolge aller verfügbaren Datensätze.
+
+## 7. Schlussfolgerung und Grenzen der Bearbeitung
+
+Caco-2 ist für Aufgabe 4 als definiertes intestinales Tumorzellmodell brauchbar. Die publizierte Proteomik erlaubt die Einordnung einer Interferon-bezogenen Wirtsantwort und einen Vergleich mit anderen Zelllinien. Allgemeine menschliche Pathways liefern dafür den Interpretationsrahmen; die Evidenz für Caco-2 betrifft die gemessenen Veränderungen im konkreten Studienkontext.
+
+Das Ergebnis dieser Bearbeitung ist ein **statisches, quellenbasiertes Funktions- und Evidenzmodell**. Es eignet sich zur transparenten Zuordnung publizierter Omics-Befunde. Es ist kein vollständiges molekulares Netzwerk, keine quantitative Neuauswertung und kein validiertes dynamisches Modell. Für eine Simulation fehlen hier ausreichend geprüfte zustands- und zeitabhängige Messungen sowie identifizierte Parameter. Eine Simulation würde diese Lücken nicht schließen.
+
+Die XLSX-Zuordnung und lokale Dateiintegrität wurden im Quellenaudit geprüft. Offen bleiben Probenspalten, Protein-Gruppenkennungen und Kontrastdefinitionen. Pathwaytests müssten die tatsächlich messbare Proteinmenge als Hintergrund berücksichtigen und Mehrfachtests korrigieren. Solche Tests wurden in dieser Bearbeitung nicht nachgerechnet; es werden daher keine eigenen Fold Changes, p-Werte oder Anreicherungen berichtet.
+
+## Quellen
+
+1. Cellosaurus: *Caco-2 (CVCL_0025)*. [Zelllinieneintrag](https://www.cellosaurus.org/CVCL_0025). Abgerufen am 22.09.2026.
+2. Wellcome Sanger Institute: *Caco-2, Cell Model Passports, SIDM00891*. [Modelleintrag](https://cellmodelpassports.sanger.ac.uk/passports/SIDM00891). Abgerufen am 22.09.2026.
+3. Lopez-Escalera S, Wellejus A (2022): *Evaluation of Caco-2 and human intestinal epithelial cells as in vitro models of colonic and small intestinal integrity*. [Volltext, PMC9304606](https://pmc.ncbi.nlm.nih.gov/articles/PMC9304606/).
+4. Reactome: *Interferon Signaling*, Homo sapiens, `R-HSA-913531`. [Pathwayeintrag](https://reactome.org/content/detail/R-HSA-913531). Abgerufen am 22.09.2026. Allgemeines menschliches Vorwissen, kein Caco-2-spezifischer Kantenexport.
+5. Saccon E et al. (2021): *Cell-type-resolved quantitative proteomics map of interferon response against SARS-CoV-2*. iScience 24(5), 102420. [DOI: 10.1016/j.isci.2021.102420](https://doi.org/10.1016/j.isci.2021.102420), PMID33898942. Lokaler Text: `corpus/PMID_33898942.txt`, insbesondere Abschnitte zur Proteomik, Abbildungen 3–5, Studiengrenzen und Datenverfügbarkeit.
+6. Saccon E (2021): *Cell type resolved quantitative proteomics map of interferon response against SARS-CoV-2*. Mendeley Data. [DOI: 10.17632/tjr7cfhwm7](https://doi.org/10.17632/tjr7cfhwm7). Datensatzhinweis im Artikel; der archivierte Mendeley-API-Abruf ergab HTTP 404. Die hier geprüften lokalen Supplemente stammen aus Europe PMC.

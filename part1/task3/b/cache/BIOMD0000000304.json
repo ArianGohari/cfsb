@@ -1,0 +1,304 @@
+{
+  "name" : "Plant1981_BurstingNerveCells",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Bifurcation and resonance in a model for bursting nerve cells.</strong>        <br />Plant RE      <em>J Math Biol</em>1981 Jan; 11(1): 15-32       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7252375\">7252375</a>,      <br />        <strong>Abstract:</strong>        <br />In this paper we consider a model for the phenomenon of bursting in nerve cells. Experimental evidence indicates that this phenomenon is due to the interaction of multiple conductances with very different kinetics, and the model incorporates this evidence. As a parameter is varied the model undergoes a transition between two oscillatory waveforms; a corresponding transition is observed experimentally. After establishing the periodicity of the subcritical oscillatory solution, the nature of the transition is studied. It is found to be a resonance bifurcation, with the solution branching at the critical point to another periodic solution of the same period. Using this result a comparison is made between the model and experimental observations. The model is found to predict and allow an interpretation of these observations.   </p>        <p>Also, look at<a href=\"http://www.scholarpedia.org/article/Plant_model\">http://www.scholarpedia.org/article/Plant_model</a>      </p>      <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>    </p>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "7252375",
+    "journal" : "Journal of mathematical biology",
+    "title" : "Bifurcation and resonance in a model for bursting nerve cells.",
+    "synopsis" : "In this paper we consider a model for the phenomenon of bursting in nerve cells. Experimental evidence indicates that this phenomenon is due to the interaction of multiple conductances with very different kinetics, and the model incorporates this evidence. As a parameter is varied the model undergoes a transition between two oscillatory waveforms; a corresponding transition is observed experimentally. After establishing the periodicity of the subcritical oscillatory solution, the nature of the transition is studied. It is found to be a resonance bifurcation, with the solution branching at the critical point to another periodic solution of the same period. Using this result a comparison is made between the model and experimental observations. The model is found to predict and allow an interpretation of these observations.",
+    "year" : 1981,
+    "month" : "1",
+    "volume" : "11",
+    "issue" : "1",
+    "pages" : "15-32",
+    "link" : "http://identifiers.org/pubmed/7252375",
+    "authors" : [
+      {
+        "name" : "R E Plant"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000304_url.xml",
+        "description" : "SBML L2V4 representation of Plant1981_BurstingNerveCells",
+        "fileSize" : "23478",
+        "mimeType" : "application/xml",
+        "md5sum" : "cf530a11fa1b9802dacb88582aa3dba5",
+        "sha1sum" : "55e5fdd2ee8babd0b045e65fe948e8e6198f8070",
+        "sha256sum" : "7f92b8eb20aedcea7b99d57fbe19df174bfdb7629b63aa9d5f4b694f5e66edde"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000304-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "7118",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e70e085daa87feb272ab59b60cf8d336",
+        "sha1sum" : "9c902bd73103204dfd0760243bc5c346527de420",
+        "sha256sum" : "6a59c3b412a2a19cb5ca09ad8f2026ee39ad9d89bc4a859264d1de686df68a1a"
+      },
+      {
+        "name" : "BIOMD0000000304-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "7687",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "28f063f2d8198cfb990fccbc42150ad6",
+        "sha1sum" : "f4c726358aa90dc3ac5c823986e9a57335f9d31d",
+        "sha256sum" : "e5c19f601aad65425a10ca1edb68c9745a3a0bb596e2aa05547cf780509f2dcd"
+      },
+      {
+        "name" : "BIOMD0000000304-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7201",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "33db0bb446d89d840c1918b499d756e6",
+        "sha1sum" : "24e89e42037363f6da2fbf51482c8ec5aec1eed4",
+        "sha256sum" : "85a067e38e7b20185baa8c31b30693b69568e12cc1ecb4c498da5d30df8a2e4a"
+      },
+      {
+        "name" : "BIOMD0000000304-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7201",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2b8c5aae2a6214ef652a268978006cd3",
+        "sha1sum" : "674bb309bb511a07aae78a7c533b56784d8d3262",
+        "sha256sum" : "fab7f94d99811b781bcb4d95ec1d496bd33ce5c2e261ae77fc4529b36cec8b1c"
+      },
+      {
+        "name" : "BIOMD0000000304.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7201",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2b8c5aae2a6214ef652a268978006cd3",
+        "sha1sum" : "674bb309bb511a07aae78a7c533b56784d8d3262",
+        "sha256sum" : "fab7f94d99811b781bcb4d95ec1d496bd33ce5c2e261ae77fc4529b36cec8b1c"
+      },
+      {
+        "name" : "BIOMD0000000304.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5256",
+        "mimeType" : "text/plain",
+        "md5sum" : "043bdfb545013b313697c2408baa4710",
+        "sha1sum" : "c77537467e60deccd8690bb4d3e3bc5d2370ef80",
+        "sha256sum" : "a333fd5219eb66b07cddfb601bed9bea7d3a2ba5419db75d7d6167334a961a9c"
+      },
+      {
+        "name" : "BIOMD0000000304.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "158802",
+        "mimeType" : "application/pdf",
+        "md5sum" : "cea18d81a0d93bd0aec9694d68ff2a31",
+        "sha1sum" : "953f8712675f3550b4d67491486035502d794509",
+        "sha256sum" : "95b3e9aa0ad2aa32879bca4127bcb52c7a7d795b36419a60fcef5bf8616d0880"
+      },
+      {
+        "name" : "BIOMD0000000304.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000304.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "4134",
+        "mimeType" : "text/plain",
+        "md5sum" : "e4dadde7c2256844842569891a74ca0c",
+        "sha1sum" : "fe0570441082a1bf85782da056e161c96f9aced2",
+        "sha256sum" : "d694353cac3ab1e9d543564e82d72a2b06a3cc3158c1ba028b2d06d29f475be1"
+      },
+      {
+        "name" : "BIOMD0000000304.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000304_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "22724",
+        "mimeType" : "application/xml",
+        "md5sum" : "678e0530f5696cbdb4e5fbe0c7afe952",
+        "sha1sum" : "d2370e0bcce4c1955399a0d256808f19b0ffcb28",
+        "sha256sum" : "7cfe7161da72d70797a05c2ff9c7759892b3bed011ca9ecad9e49454ec83dee6"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "36582",
+        "mimeType" : "image/png",
+        "md5sum" : "e5dea5417670fba2b475f0d529f99d42",
+        "sha1sum" : "7744adaf7641e9370dbd75fd28b2c36e9ccf0baf",
+        "sha256sum" : "86b45e3b3c5d84b0c157eed36ac62115583faf1e9d9ce2e2c0aee51365b42323"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "253",
+        "mimeType" : "text/plain",
+        "md5sum" : "2f2b67be06f2d706eca711c963b1c3f1",
+        "sha1sum" : "630d66412489d9426318e9d9f69b8bb9ca5f3cd4",
+        "sha256sum" : "3178d8482855eeee099442685e17379e6634b6aecc444be7155169b1972eb0f3"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "06de7fbf38f10982ceb9c6048667e360",
+        "sha1sum" : "a7f9a0b1a02a9daf5de22afa9f1a542acc62e1de",
+        "sha256sum" : "c83c1660b0d556d305d7a4c3cfb1aa469fb823fc5a833696b77db6e03879f885"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3867",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7a75d70de646d164cc97bf9ea30ab866",
+        "sha1sum" : "43748b063cd1bd0d1323d249f795e046c7bab070",
+        "sha256sum" : "4c2c2fe217e931c759deb0c25d4655bf12f8d42be2714a7d437772aec9c935b9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1159641012,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of BIOMD0000000304.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396393959,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Plant1981_BurstingNerveCells"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273071,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285019,
+  "submissionId" : "MODEL6762427183",
+  "publicationId" : "BIOMD0000000304",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019228",
+      "name" : "neuronal action potential",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019228"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6762427183",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6762427183"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000304",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000304"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "7252375",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/7252375"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "BTO:0000938",
+      "name" : "neuron",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000938"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "6499",
+      "name" : "Aplysia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/6499"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "BTO:0000022",
+      "name" : "abdominal ganglion",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000022"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006814",
+      "name" : "sodium ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006814"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006816",
+      "name" : "calcium ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006816"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006813",
+      "name" : "potassium ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006813"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

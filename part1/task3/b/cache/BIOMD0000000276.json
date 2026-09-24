@@ -1,0 +1,283 @@
+{
+  "name" : "Shrestha2010_HypoCalcemia_PTHresponse",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> A mathematical model of parathyroid hormone response to acute changes in plasma ionized calcium concentration in humans.</strong>        <br />Shrestha RP, Hollot CV, Chipkin SR, Schmitt CP, Chait Y.      <em>Math Biosci.</em>2010 Jul;226(1):46-57.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20406649\">20406649</a>,      <br />        <strong>Abstract:</strong>        <br />A complex bio-mechanism, commonly referred to as calcium homeostasis, regulates plasma ionized calcium (Ca(2+)) concentration in the human body within a narrow range which is crucial for maintaining normal physiology and metabolism. Taking a step towards creating a complete mathematical model of calcium homeostasis, we focus on the short-term dynamics of calcium homeostasis and consider the response of the parathyroid glands to acute changes in plasma Ca(2+) concentration. We review available models, discuss their limitations, then present a two-pool, linear, time-varying model to describe the dynamics of this calcium homeostasis subsystem, the Ca-PTH axis. We propose that plasma PTH concentration and plasma Ca(2+) concentration bear an asymmetric reverse sigmoid relation. The parameters of our model are successfully estimated based on clinical data corresponding to three healthy subjects that have undergone induced hypocalcemic clamp tests. In the first validation of this kind, with parameters estimated separately for each subject we test the model's ability to predict the same subject's induced hypercalcemic clamp test responses. Our results demonstrate that a two-pool, linear, time-varying model with an asymmetric reverse sigmoid relation characterizes the short-term dynamics of the Ca-PTH axis.   </p>        <p> The model corresponds to hypocalcemic clamp test explained in the paper and parameter values used in the model are that of \"subject 1\". In order to obtain the plots corresponding to \"subject 2\" and \"subject 3\" the following parameters to be changed: lambda_1, lambda_2, m1, m2, R, beta, x1_n, x2_n, x2_min, x2_max, Ca0, Ca1, t0 and alpha. </p>        <table border=\"0\" cellpadding=\"2\" cellspacing=\"0\">          <thead>            <tr>              <th align=\"left\" bgcolor=\"#eeeeee\" valign=\"middle\"> parameter</th>              <th align=\"right\" bgcolor=\"#eeeeee\" valign=\"middle\">Subject 1 </th>              <th align=\"right\" bgcolor=\"#eeeeee\" valign=\"middle\"> Subject 2</th>              <th align=\"right\" bgcolor=\"#eeeeee\" valign=\"middle\"> Subject 3</th>            </tr>          </thead>          <tbody>            <tr>              <td>lambda_1 </td>              <td>0.0125 </td>              <td>0.0122 </td>              <td>0.0269 </td>            </tr>            <tr>              <td>lambda_2 </td>              <td>0.5595 </td>              <td>0.4642 </td>              <td>0.4935 </td>            </tr>            <tr>              <td>m1 </td>              <td>112.5200 </td>              <td>150.0000 </td>              <td>90.8570 </td>            </tr>            <tr>              <td>m2 </td>              <td>15.0000 </td>              <td>15.0000 </td>              <td>15.0000 </td>            </tr>            <tr>              <td>R </td>              <td>1.2162 </td>              <td>1.1627 </td>              <td>1.1889 </td>            </tr>            <tr>              <td>beta </td>              <td>10e+06 </td>              <td>10e+06 </td>              <td>10e+06 </td>            </tr>            <tr>              <td>x1_n </td>              <td>490.7800 </td>              <td>452.8200 </td>              <td>298.8200 </td>            </tr>            <tr>              <td>x2_n </td>              <td>6.6290 </td>              <td>9.5894 </td>              <td>5.4600 </td>            </tr>            <tr>              <td>x2_min </td>              <td>0.6697 </td>              <td>1.4813 </td>              <td>0.8287 </td>            </tr>            <tr>              <td>x2_max </td>              <td>14.0430 </td>              <td>17.8710 </td>              <td>15.1990</td>            </tr>            <tr>              <td>Ca0 </td>              <td>1.2550 </td>              <td>1.2369 </td>              <td>1.2475 </td>            </tr>            <tr>              <td>Ca1 </td>              <td>0.1817 </td>              <td>0.2211 </td>              <td>0.1985 </td>            </tr>            <tr>              <td>t0 </td>              <td>575 </td>              <td>577 </td>              <td>575 </td>            </tr>            <tr>              <td>alpha </td>              <td>0.0442 </td>              <td>0.0488 </td>              <td>0.0472 </td>            </tr>          </tbody>        </table>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2010 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "20406649",
+    "journal" : "Mathematical biosciences",
+    "title" : "A mathematical model of parathyroid hormone response to acute changes in plasma ionized calcium concentration in humans.",
+    "affiliation" : "Department of Mechanical and Industrial Engineering, University of Massachusetts, Amherst, MA 01003, USA.",
+    "synopsis" : "A complex bio-mechanism, commonly referred to as calcium homeostasis, regulates plasma ionized calcium (Ca(2+)) concentration in the human body within a narrow range which is crucial for maintaining normal physiology and metabolism. Taking a step towards creating a complete mathematical model of calcium homeostasis, we focus on the short-term dynamics of calcium homeostasis and consider the response of the parathyroid glands to acute changes in plasma Ca(2+) concentration. We review available models, discuss their limitations, then present a two-pool, linear, time-varying model to describe the dynamics of this calcium homeostasis subsystem, the Ca-PTH axis. We propose that plasma PTH concentration and plasma Ca(2+) concentration bear an asymmetric reverse sigmoid relation. The parameters of our model are successfully estimated based on clinical data corresponding to three healthy subjects that have undergone induced hypocalcemic clamp tests. In the first validation of this kind, with parameters estimated separately for each subject we test the model's ability to predict the same subject's induced hypercalcemic clamp test responses. Our results demonstrate that a two-pool, linear, time-varying model with an asymmetric reverse sigmoid relation characterizes the short-term dynamics of the Ca-PTH axis.",
+    "year" : 2010,
+    "month" : "7",
+    "volume" : "226",
+    "issue" : "1",
+    "pages" : "46-57",
+    "link" : "http://identifiers.org/pubmed/20406649",
+    "authors" : [
+      {
+        "name" : "Rajiv P Shrestha",
+        "institution" : "Department of Mechanical and Industrial Engineering, University of Massachusetts, Amherst, MA 01003, USA."
+      },
+      {
+        "name" : "Christopher V Hollot"
+      },
+      {
+        "name" : "Stuart R Chipkin",
+        "orcid" : "0000-0003-2114-9480"
+      },
+      {
+        "name" : "Claus P Schmitt"
+      },
+      {
+        "name" : "Yossi Chait"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000276_url.xml",
+        "description" : "SBML L2V4 representation of Shrestha2010_HypoCalcemia_PTHresponse",
+        "fileSize" : "23184",
+        "mimeType" : "application/xml",
+        "md5sum" : "ea22e475e6704888230592ac4371f1ae",
+        "sha1sum" : "b347f3f12227eb2f0485b3622dd3304453dcf310",
+        "sha256sum" : "88c8a73b891561fd734f1d58ebdf25993b32f37c64eea4e24bb9b338e71c2031"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000276-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5897",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "12481fbc134614cc5b6ad6484cff6cf2",
+        "sha1sum" : "f37cbe10213c1639155af7dbf1948400588bc890",
+        "sha256sum" : "1954de580f4284e51ebad996c23e8c7aa95fecd1fffe907394734d592975ed6c"
+      },
+      {
+        "name" : "BIOMD0000000276-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "6311",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "57486c87641fd9f52a218d539635e807",
+        "sha1sum" : "572dbcdbf055c2b67fae684277ee506f8ebd925e",
+        "sha256sum" : "5263b3d877fdf3e2d44488c4b457242cbccbabeb976c20f60f29837889ccaab7"
+      },
+      {
+        "name" : "BIOMD0000000276-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5280",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a6c6553aff9f98839e24865592bb5462",
+        "sha1sum" : "b671d3ae5175d6907dc014556c8b5967f7539d93",
+        "sha256sum" : "81c1c4583b4d09ee729e4fefe3dbdb44214762e06f8623b3dff1034328743b4c"
+      },
+      {
+        "name" : "BIOMD0000000276-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5280",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cafd63d124f7df7e6df0d9c78ca38ff7",
+        "sha1sum" : "54884691ef8a434765afb6fa16dcdb629e829773",
+        "sha256sum" : "7ad4ba66e54a9507fe226ea37fd4d174f50c1bcceb804e57c6f7e15e7ce3fb34"
+      },
+      {
+        "name" : "BIOMD0000000276.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5280",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cafd63d124f7df7e6df0d9c78ca38ff7",
+        "sha1sum" : "54884691ef8a434765afb6fa16dcdb629e829773",
+        "sha256sum" : "7ad4ba66e54a9507fe226ea37fd4d174f50c1bcceb804e57c6f7e15e7ce3fb34"
+      },
+      {
+        "name" : "BIOMD0000000276.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3301",
+        "mimeType" : "text/plain",
+        "md5sum" : "8c8f9fc9029ea869461b92b4b9b2196e",
+        "sha1sum" : "1b7d3546820858a3eefdf70d5e4278bb39e69a61",
+        "sha256sum" : "f16864175953e7cd097c9ccbaf5813f6d1086465c9a68a24b97dc3e403eb4f69"
+      },
+      {
+        "name" : "BIOMD0000000276.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "153442",
+        "mimeType" : "application/pdf",
+        "md5sum" : "611702570f864dad0bf7f5c6d6b477ce",
+        "sha1sum" : "52fa4f878831e6539903a532b68ff95b5cda4b60",
+        "sha256sum" : "b7d84cc6b4bb7bcd129ff980fbbdc4ab451632e3cfe4d5e4c1c72b93960d7319"
+      },
+      {
+        "name" : "BIOMD0000000276.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000276.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000276_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "15263",
+        "mimeType" : "application/xml",
+        "md5sum" : "3e6be1f5eb897b903277c874f989bf78",
+        "sha1sum" : "ad3fa1bda51105321050c53c816aa3bd582e6153",
+        "sha256sum" : "d3a7f54f93c6070c1bcd28345e8aabaa77033119f04f26a4b624f9b1c007a6b3"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "56761",
+        "mimeType" : "image/png",
+        "md5sum" : "377cf02029be4fa08b72e7d22d2de44c",
+        "sha1sum" : "cae904b351239f6f5af23d2553f57aab223afec6",
+        "sha256sum" : "c341d79b62fd43be040c7713ef785705f22950c1823310ba1e0e0550599a1a4a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "693",
+        "mimeType" : "text/plain",
+        "md5sum" : "2e7272282612120135b00dd04f424fe9",
+        "sha1sum" : "d91edf8f5e1f0389f9e99e9f37eb8e293b3d2383",
+        "sha256sum" : "e017f982bce3f143f11844d06535edc322c99c05f3c0a99796e56420eddd26c9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "67ce23e3b66c8f6bc447c28c8169b3ec",
+        "sha1sum" : "e3d06d404a585807cd45199d4610b8e4769e60cb",
+        "sha256sum" : "c4a0521ec17178627dbee005237c60d6942b72cdc0adcf313d0c78615e38bdf5"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "8111",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "28ab8bf04ee1c4b06446db96b1543c66",
+        "sha1sum" : "bdce780d6205b45d05370c5e7195e24dd8118e81",
+        "sha256sum" : "452c3ee3204afa945ad5d97809f1fadf70d4fe72cfbf5df193a1f3324dfb31a0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1290003324,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Original import of Shrestha2010_HypoCalcemia_PTHresponse"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412874939,
+        "submitter" : "Vijayalakshmi Chelliah",
+        "comment" : "Current version of Shrestha2010_HypoCalcemia_PTHresponse"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724272223,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284993,
+  "submissionId" : "MODEL1011170001",
+  "publicationId" : "BIOMD0000000276",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Vijayalakshmi Chelliah",
+        "email" : "viji@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-2618-283X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1011170001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1011170001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000276",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000276"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "20406649",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/20406649"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0071107",
+      "name" : "response to parathyroid hormone",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0071107"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10575",
+      "name" : "calcium metabolism disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10575"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

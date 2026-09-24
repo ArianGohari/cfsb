@@ -1,0 +1,286 @@
+{
+  "name" : "Yi2003_GproteinCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The paper describes both wild-type and mutant cells of G protein cycle by using different values of G protein deactivation. We chosed the wild-type, k=0.11 s-1.</p>            <p>The unit of the concentration for the proteins are numbers of molecules per cell.</p>            <p>Figure5(A) was reproduced with COPASI 4.0 (Build 18) and SBML_odeSolver. Figure5(B) was reproduced with COPASI 4.0 (Build 18).</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12960402",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "A quantitative characterization of the yeast heterotrimeric G protein cycle.",
+    "affiliation" : "Systems Biology Group, Exploratory Research for Advanced Technology Kitano Symbiotic Systems Project, Japan Science and Technology Corporation, Shibuya, Tokyo, Japan.",
+    "synopsis" : "The yeast mating response is one of the best understood heterotrimeric G protein signaling pathways. Yet, most descriptions of this system have been qualitative. We have quantitatively characterized the heterotrimeric G protein cycle in yeast based on direct in vivo measurements. We used fluorescence resonance energy transfer to monitor the association state of cyan fluorescent protein (CFP)-Galpha and Gbetagamma-yellow fluorescent protein (YFP), and we found that receptor-mediated G protein activation produced a loss of fluorescence resonance energy transfer. Quantitative time course and dose-response data were obtained for both wild-type and mutant cells possessing an altered pheromone response. These results paint a quantitative portrait of how regulators such as Sst2p and the C-terminal tail of alpha-factor receptor modulate the kinetics and sensitivity of G protein signaling. We have explored critical features of the dynamics including the rapid rise and subsequent decline of active G proteins during the early response, and the relationship between the G protein activation dose-response curve and the downstream dose-response curves for cell-cycle arrest and transcriptional induction. Fitting the data to a mathematical model produced estimates of the in vivo rates of heterotrimeric G protein activation and deactivation in yeast.",
+    "year" : 2003,
+    "month" : "9",
+    "volume" : "100",
+    "issue" : "19",
+    "pages" : "10764-10769",
+    "link" : "http://identifiers.org/pubmed/12960402",
+    "authors" : [
+      {
+        "name" : "Tau-Mu Yi",
+        "institution" : "Systems Biology Group, Exploratory Research for Advanced Technology Kitano Symbiotic Systems Project, Japan Science and Technology Corporation, Shibuya, Tokyo, Japan."
+      },
+      {
+        "name" : "Hiroaki Kitano"
+      },
+      {
+        "name" : "Melvin I Simon"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000072_url.xml",
+        "description" : "SBML L2V1 representation of Yi2003_GproteinCycle",
+        "fileSize" : "18731",
+        "mimeType" : "application/xml",
+        "md5sum" : "3f479cbd76bf179d95d998c7336a9591",
+        "sha1sum" : "40d3c15ed69fb996bb14ce6c26129eb296db596a",
+        "sha256sum" : "5fd05263a93c84c27722b4a01d377c0f16cfac35f6f52842dc1763a33fb8b2e6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000072-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "18751",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "09c1df1a3b8aad641011c47ce24b835b",
+        "sha1sum" : "c0b7e606a2cfec2fb1175ee6814874e6a7492081",
+        "sha256sum" : "b4acb0b8b8c6baa32cf45cdac4cc04c3bae1f024db729860e99c4dba25439086"
+      },
+      {
+        "name" : "BIOMD0000000072-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "25687",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6207965e4617b539d74e8deb6cad8cdf",
+        "sha1sum" : "f4180cc2451fb2ed52fa91f24df1ec06c9b6c82e",
+        "sha256sum" : "b37b516ec46842f6a08a9e645e694748682b2ececfdc341335d403e0471706bf"
+      },
+      {
+        "name" : "BIOMD0000000072-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5083",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5071350fb8d3aacf6bba664369fa91d7",
+        "sha1sum" : "bf124066302edb5b26bd90b43d9465bb5db5204c",
+        "sha256sum" : "72540dbcbd89a4a18ace4a98dd75822b2e520702afbd8fe1cc627af07e33d59e"
+      },
+      {
+        "name" : "BIOMD0000000072-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5083",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "84337a3458b1f9559777d0447148f92d",
+        "sha1sum" : "f05e8963b2b07ad85ac68aa5cd5122951f7596ce",
+        "sha256sum" : "be6998862b202dd58978207c5cdc1a71bdc74d2da1cc3b07ec3517600cf5eee9"
+      },
+      {
+        "name" : "BIOMD0000000072.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5083",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "84337a3458b1f9559777d0447148f92d",
+        "sha1sum" : "f05e8963b2b07ad85ac68aa5cd5122951f7596ce",
+        "sha256sum" : "be6998862b202dd58978207c5cdc1a71bdc74d2da1cc3b07ec3517600cf5eee9"
+      },
+      {
+        "name" : "BIOMD0000000072.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2821",
+        "mimeType" : "text/plain",
+        "md5sum" : "de557e44de0e389e66863cc815970b32",
+        "sha1sum" : "1bc39f39d681756acb87de4e253fb7c526f50ab7",
+        "sha256sum" : "4296c64f17faa52184d82b0074e5e6f525fa6b8e20e2a17069ce916951cef9ab"
+      },
+      {
+        "name" : "BIOMD0000000072.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "161446",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7a0ded29a239190a1ee86517a946904e",
+        "sha1sum" : "f236b6da0970a71d8790eaaf211e1eaa11751956",
+        "sha256sum" : "5ffaf4b883a0d1476de823ae3ef71bffac7171801df3d5b31c44518dee8b7402"
+      },
+      {
+        "name" : "BIOMD0000000072.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "46297",
+        "mimeType" : "image/png",
+        "md5sum" : "6e5d437dcf0373348168cd2d8ce09328",
+        "sha1sum" : "ae2dde6fc53a815c2879a41f0b4fed212d3c1e05",
+        "sha256sum" : "04a5e886160eb149c994165db2a49cd69f3c2804ef338ef403a30a1559f37fb4"
+      },
+      {
+        "name" : "BIOMD0000000072.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "2779",
+        "mimeType" : "text/plain",
+        "md5sum" : "cac7c3d8c7bccd6e041307bc890057d1",
+        "sha1sum" : "0fa9e1f5c4a05d757b2a501a5cf86b05ffaf5213",
+        "sha256sum" : "92a03f0b30489f1fe23347343d2299c2d572db0e11365eb6aba6412e863f0da0"
+      },
+      {
+        "name" : "BIOMD0000000072.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "17578",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "eb8660bb320243c743b688d39431163d",
+        "sha1sum" : "4a49040f1b6cb333a010a5f23ceec0e4bc97ccbb",
+        "sha256sum" : "1dd0cef6c36ddea3e9a84f4ad1b6a1d509c78c7748d06cf52a5406e4208ccf1a"
+      },
+      {
+        "name" : "BIOMD0000000072.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "30305",
+        "mimeType" : "application/xml",
+        "md5sum" : "1ffd7b6a8baecec4fe3d3a1cd323e237",
+        "sha1sum" : "211f547ae4e4c2187f814b20907c5b807640e8c5",
+        "sha256sum" : "1797fe519ea576bda2b87176aa87aba0f6459a84921db23021bc8844bdc1dfa1"
+      },
+      {
+        "name" : "BIOMD0000000072_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "10464",
+        "mimeType" : "application/xml",
+        "md5sum" : "2aa3883b266d304f7b999f4a0d6e819f",
+        "sha1sum" : "806c719fa28de38265e807b27585c96d7143e392",
+        "sha256sum" : "557fb4cb7f7473c6820d395f16817c086b664dda21727c9a810d94b25f4fde31"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13700",
+        "mimeType" : "image/png",
+        "md5sum" : "bc6cfbd80042e1816c013344333938c9",
+        "sha1sum" : "39a567926b69a74238388ef9578425d40686d84a",
+        "sha256sum" : "642f82812139891ff3864ce7357dae9da139ed3e002b934fd5a50e9bce0b34a1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "44",
+        "mimeType" : "text/plain",
+        "md5sum" : "a4fdafe6aff370ac9ee857becf859290",
+        "sha1sum" : "4266ece7d475a79b3e4bbe58ad99cbd5a1bc8baf",
+        "sha256sum" : "1460a9d4fd799710d1845937f35b8d111a83395e22c3e7796294b1114c9e3325"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "3ffc7988255bf3d810bbc0c1fa3c06d2",
+        "sha1sum" : "af46d012979d6f0c86c5d0ccfe443057a370e210",
+        "sha256sum" : "c88ee3249fb04d04822462284fa06dab0356268fd0d136f74e533d2d1868a74d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3303",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2a3eb3775980d8b819d906bd97fa4de9",
+        "sha1sum" : "781d6ef1a6dbe2afdfae3f72954a0e1d7f7621ed",
+        "sha256sum" : "245b63d5f07030712b43ae5a2326e2f75f47020aa89ee7d3507a5ab1ebf703a5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1161101556,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Yeast Heterotrimeric G protein Cycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424809559,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Yi2003_GproteinCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266628,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284865,
+  "submissionId" : "MODEL9468910329",
+  "publicationId" : "BIOMD0000000072",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL9468910329",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL9468910329"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000072",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000072"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12960402",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12960402"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0031684",
+      "name" : "heterotrimeric G-protein complex cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0031684"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

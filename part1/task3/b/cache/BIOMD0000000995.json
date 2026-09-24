@@ -1,0 +1,355 @@
+{
+  "name" : "Strasen2018 - TGFb SMAD Signalling - Restimulation with 5pM TGFb at 8hr",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Restimulation with 5pM TGFβ at 8 hrs, shown in Figure 4F  </pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29371237",
+    "journal" : "Molecular systems biology",
+    "title" : "Cell-specific responses to the cytokine TGFb are determined by variability in protein levels.",
+    "affiliation" : "Berlin Institute for Medical Systems Biology, Max Delbrueck Center in the Helmholtz Association, Berlin, Germany.",
+    "synopsis" : "The cytokine TGFb provides important information during embryonic development, adult tissue homeostasis, and regeneration. Alterations in the cellular response to TGFb are involved in severe human diseases. To understand how cells encode the extracellular input and transmit its information to elicit appropriate responses, we acquired quantitative time-resolved measurements of pathway activation at the single-cell level. We established dynamic time warping to quantitatively compare signaling dynamics of thousands of individual cells and described heterogeneous single-cell responses by mathematical modeling. Our combined experimental and theoretical study revealed that the response to a given dose of TGFb is determined cell specifically by the levels of defined signaling proteins. This heterogeneity in signaling protein expression leads to decomposition of cells into classes with qualitatively distinct signaling dynamics and phenotypic outcome. Negative feedback regulators promote heterogeneous signaling, as a SMAD7 knock-out specifically affected the signal duration in a subpopulation of cells. Taken together, we propose a quantitative framework that allows predicting and testing sources of cellular signaling heterogeneity.",
+    "year" : 2018,
+    "month" : "1",
+    "volume" : "14",
+    "issue" : "1",
+    "pages" : "e7733",
+    "link" : "http://identifiers.org/pubmed/29371237",
+    "authors" : [
+      {
+        "name" : "Strasen J"
+      },
+      {
+        "name" : "Sarma U"
+      },
+      {
+        "name" : "Jentsch M"
+      },
+      {
+        "name" : "Bohn S"
+      },
+      {
+        "name" : "Sheng C"
+      },
+      {
+        "name" : "Horbelt D"
+      },
+      {
+        "name" : "Knaus P"
+      },
+      {
+        "name" : "Legewie S",
+        "orcid" : "0000-0003-4111-0567"
+      },
+      {
+        "name" : "Loewer A",
+        "institution" : "Systems Biology of the Stress Response, Department of Biology, Technische Universität Darmstadt, Darmstadt, Germany.Signaling Dynamics in Single Cells, Berlin Institute for Medical Systems Biology, Max Delbrueck Center for Molecular Medicine, Berlin, Germany.",
+        "orcid" : "0000-0002-8819-3040"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "MODEL1712050004.xml",
+        "description" : "SBML L2V4 file for the curated model",
+        "fileSize" : "289430",
+        "mimeType" : "application/xml",
+        "md5sum" : "11822d1bcf0073cccfd808372cf81378",
+        "sha1sum" : "97e10e5f2347cac757450bff4be0acd2ff208056",
+        "sha256sum" : "3882893201642ad8e68fbd4148ede955952e513b595b7fffb14eb8be9b4b769e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "MODEL1712050004-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "84616",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5dad6e8bb2a82412e03237d2d6e5fd63",
+        "sha1sum" : "ce5c0b80f92185f7bfd7b94d9d99fda3891fa59c",
+        "sha256sum" : "492b15b377db51d628fd6020f6d85dc24cd88ebccc0834446e44132b997cde49"
+      },
+      {
+        "name" : "MODEL1712050004-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "143239",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "49f57982d49fc1763dd976250d0938ec",
+        "sha1sum" : "6698accc4fa7a3c95193b69a7079273bbaca5f71",
+        "sha256sum" : "9fd4e43a5ea700fe00dc18b23a02ca2d60c3cbf729a53b3b909aee86014db433"
+      },
+      {
+        "name" : "MODEL1712050004-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "30169",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c7adebe1cbb703a172b29d814cdbf853",
+        "sha1sum" : "dacf065d68a2691a0652475954ee278963301a5f",
+        "sha256sum" : "1e6b21ca8fc229fc29e072041b85ebb5057cd1bd93840a6b8af49de75ae27694"
+      },
+      {
+        "name" : "MODEL1712050004-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "30169",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "02314a91cd83308e0eb7d3e3f326f482",
+        "sha1sum" : "5f60f9524252646dedf4cecbb5b60cf019c566cb",
+        "sha256sum" : "61d31fb4b4cd361265461342ae0d2529fc1a04bbfa7612a94d3f7575cb293b2d"
+      },
+      {
+        "name" : "MODEL1712050004.cps",
+        "description" : "COPASI 4.29(build229) file for the curated model",
+        "fileSize" : "322424",
+        "mimeType" : "application/xml",
+        "md5sum" : "bb61343a940e10d3b2145a1a725bf194",
+        "sha1sum" : "690cd8c4b348e4c495bd28660dd2cf618209ab88",
+        "sha256sum" : "699b5263ab84b4f713b239da8e57fbe9d90175088938954b5e7397c6d030d56d"
+      },
+      {
+        "name" : "MODEL1712050004.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25624",
+        "mimeType" : "text/plain",
+        "md5sum" : "41b0dffe89a5f2269500fcbd6a8ac532",
+        "sha1sum" : "fbdb9f0dce307887d6cddaebead7a6826876a256",
+        "sha256sum" : "9a85612ed73efa9a2f5409c5236afaba9f2a65549dba3ab4e2089b557e02517f"
+      },
+      {
+        "name" : "MODEL1712050004.sedml",
+        "description" : "SEDML file for the curated model (additionally CRBM-validated and adjusted).",
+        "fileSize" : "80808",
+        "mimeType" : "application/xml",
+        "md5sum" : "be50195302efeb7f6f414bd36c8e1b92",
+        "sha1sum" : "44041f4c94bcd924b0e32100f192833c3da47767",
+        "sha256sum" : "c8e991be0bd55258b57e811a70cfa34ab633c21a34b025abd7926cd6aeab15bf"
+      },
+      {
+        "name" : "Restimulation_5pM_8HR-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "65509",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f2a113964553caef8153a25d7ecf938d",
+        "sha1sum" : "b5ef3eb7148b69ab7191b2225768607d3ba1b179",
+        "sha256sum" : "73e7bcd3f0310a4c396c3183d155705c13e8ba38706500621fac50f51d9496fd"
+      },
+      {
+        "name" : "Restimulation_5pM_8HR-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "121709",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "519a9bfadd17aff56466f8510028f268",
+        "sha1sum" : "719687470d88baae823e0da95f0cf198009c9781",
+        "sha256sum" : "f6f914b59d0cf60978f1250c45877e6719d3c040f7863aa705eb385bae39dc71"
+      },
+      {
+        "name" : "Restimulation_5pM_8HR-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "29898",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e9c15225dc85ccad49849ceb2c4c9823",
+        "sha1sum" : "254b18922038fdb5c8570bbce415abf509938bfa",
+        "sha256sum" : "58d813a63fd9615e58c5bb0375aa2ebc13e3562ac97114204769148052a19860"
+      },
+      {
+        "name" : "Restimulation_5pM_8HR-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "29898",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "613ba7b962a42bd1276d1eab0bd08622",
+        "sha1sum" : "cd1466e072a72a6ee53b50f9eb74dd430513a8b9",
+        "sha256sum" : "db80ecffe0e849eed680cd3a152f8454941dbc259dedc0ec147047ef69e5d0e2"
+      },
+      {
+        "name" : "Restimulation_5pM_8HR.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25353",
+        "mimeType" : "text/plain",
+        "md5sum" : "bc842fae50ade74f758e28bc036f7f42",
+        "sha1sum" : "1a94a342d932ddb4e8a8d8db70075a649e5ce8a5",
+        "sha256sum" : "8797ade178fc64e83a8eef7a3294250036165ef007cd1f3c0ed5e4ced378cd36"
+      },
+      {
+        "name" : "Restimulation_5pM_8HR.xml",
+        "description" : "original file- SBML L2V4 representation of Strasen2018 – TGFβ SMAD Signalling – Restimulation with 5pM TGFβ at 8hr",
+        "fileSize" : "113664",
+        "mimeType" : "application/xml",
+        "md5sum" : "5c577be9e58a1e8859a98c4f9849e77b",
+        "sha1sum" : "73aaf02e29e620b7eab6c61eab1ac156c0fa6318",
+        "sha256sum" : "8e5dc746073587fe24d00212efad0b74daed9e2bdd02030173adb6403d5d1b19"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19250",
+        "mimeType" : "image/png",
+        "md5sum" : "03adf31110b203e01b093e67d2dc7b56",
+        "sha1sum" : "438620f01c8e9351e577de0732a49b76eda71e7a",
+        "sha256sum" : "bc0281087255497d99c0e163a813580be5c3b2600c23bb4d9cb21e5812ed24e4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "128",
+        "mimeType" : "text/plain",
+        "md5sum" : "e2c8448086d181b21b1f7a799fbd2f05",
+        "sha1sum" : "3bd9cd64d73295dbf9a2877d11fb677deea702eb",
+        "sha256sum" : "7b0dd5994ff8d2781845944bcf30a8b3b03de01e508614a85162a6671142d229"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2212",
+        "mimeType" : "application/xml",
+        "md5sum" : "37830d5c6e1e16092b6177be337a2e57",
+        "sha1sum" : "de38c9c1a018b69615eaddfc00d7e3ed922ca3a0",
+        "sha256sum" : "c24e12312d2ba03fe8db61caebf59b5abe1bb4ab104d4b37e22c09cb63e446b4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1812",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e91aaf2f9d3a64ef5447b5eb21c021a9",
+        "sha1sum" : "b33b375ce4464b7b6ce4075f2af44c1e3ecfae84",
+        "sha256sum" : "54e11977ed8fa72bc82a664afc66040979907bbf2d90c43f6efa26f0d6aa3b18"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1516949129,
+        "submitter" : "Uddipan Sarma",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1523377080,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 7,
+        "submitted" : 1614181184,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000995"
+      },
+      {
+        "version" : 8,
+        "submitted" : 1724294750,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285556,
+  "submissionId" : "MODEL1712050004",
+  "publicationId" : "BIOMD0000000995",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Uddipan Sarma",
+        "email" : "udi.tgfb.2015@gmail.com",
+        "affiliation" : "UCB – Inspired by patients",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29371237",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29371237"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0001211",
+      "name" : "breast epithelial cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0001211"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0007179",
+      "name" : "transforming growth factor beta receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007179"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0038105",
+      "name" : "sequestering of TGFbeta from receptor via TGFbeta binding",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0038105"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000995",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000995"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1712050004",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1712050004"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MODEL1712050001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1712050001"
+    }
+  ]
+}

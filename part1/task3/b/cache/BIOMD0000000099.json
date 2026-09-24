@@ -1,0 +1,284 @@
+{
+  "name" : "Laub1998_SpontaneousOscillations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is model according to the paper \"A Molecular Network That Produces Spontaneous Oscillations in Excitalbe Cells of Dictyostelium. Figure 3 has been reproduced by Copasi 4.0.20(development) \". However four of the parameters have been changed , see details in notes.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "9843585",
+    "journal" : "Molecular biology of the cell",
+    "title" : "A molecular network that produces spontaneous oscillations in excitable cells of Dictyostelium.",
+    "affiliation" : "Center for Molecular Genetics, Department of Biology, University of California, San Diego, La Jolla, California 92093, USA.",
+    "synopsis" : "A network of interacting proteins has been found that can account for the spontaneous oscillations in adenylyl cyclase activity that are observed in homogenous populations of Dictyostelium cells 4 h after the initiation of development. Previous biochemical assays have shown that when extracellular adenosine 3',5'-cyclic monophosphate (cAMP) binds to the surface receptor CAR1, adenylyl cyclase and the MAP kinase ERK2 are transiently activated. A rise in the internal concentration of cAMP activates protein kinase A such that it inhibits ERK2 and leads to a loss-of-ligand binding by CAR1. ERK2 phosphorylates the cAMP phosphodiesterase REG A that reduces the internal concentration of cAMP. A secreted phosphodiesterase reduces external cAMP concentrations between pulses. Numerical solutions to a series of nonlinear differential equations describing these activities faithfully account for the observed periodic changes in cAMP. The activity of each of the components is necessary for the network to generate oscillatory behavior; however, the model is robust in that 25-fold changes in the kinetic constants linking the activities have only minor effects on the predicted frequency. Moreover, constant high levels of external cAMP lead to attenuation, whereas a brief pulse of cAMP can advance or delay the phase such that interacting cells become entrained.",
+    "year" : 1998,
+    "month" : "12",
+    "volume" : "9",
+    "issue" : "12",
+    "pages" : "3521-3532",
+    "link" : "http://identifiers.org/pubmed/9843585",
+    "authors" : [
+      {
+        "name" : "M T Laub",
+        "institution" : "Center for Molecular Genetics, Department of Biology, University of California, San Diego, La Jolla, California 92093, USA.",
+        "orcid" : "0000-0002-8288-7607"
+      },
+      {
+        "name" : "W F Loomis"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000099_url.xml",
+        "description" : "SBML L2V1 representation of Laub1998_SpontaneousOscillations",
+        "fileSize" : "27690",
+        "mimeType" : "application/xml",
+        "md5sum" : "1eff08b884bdbe88616ecc8559219a3a",
+        "sha1sum" : "b0fae7ac3d6ee31cc9cf81b32faf1c478e34c533",
+        "sha256sum" : "9bf5e987b7dbc8f9da147cb37cb58d98302e42858abd178a0d7f9d86e3f2489d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000099-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "22070",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "17cdeb568b631409820aed74440e78cc",
+        "sha1sum" : "b10f8f9ba5c3dbd935d63988d216a8ad1fa5c06a",
+        "sha256sum" : "d4d8bc4ee44b9e6a4967d90c47ebf1439b43e30a492acda28bf1b7ba6e0c0d05"
+      },
+      {
+        "name" : "BIOMD0000000099-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "29359",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d39bcae3e136b7522329dae294edaad8",
+        "sha1sum" : "60d9cea36823ee12559a589a51a720224b224bb8",
+        "sha256sum" : "c3d872e32ebf780c412fe7e722d46a5aaf7b3c74f5ec7a5ae71519094d9724ec"
+      },
+      {
+        "name" : "BIOMD0000000099-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6446",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "17341585f5f8c37f4b421f214377807e",
+        "sha1sum" : "d1c5fd58038d0c4f002ce83af2e699e672175273",
+        "sha256sum" : "84f6eec96cbb3e9d3fe996af5a5169b5b728b334269f0c55bc8b9f1daf7d37ed"
+      },
+      {
+        "name" : "BIOMD0000000099-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6446",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ca01a91db2d5813252a9c22bb97bfa6d",
+        "sha1sum" : "e6289de267ed12da1b67c084954eb5ab22c0278e",
+        "sha256sum" : "3fe30832e6c958349224feef398668f317565e169722a80e85d2e7c2a9ed9132"
+      },
+      {
+        "name" : "BIOMD0000000099.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6446",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ca01a91db2d5813252a9c22bb97bfa6d",
+        "sha1sum" : "e6289de267ed12da1b67c084954eb5ab22c0278e",
+        "sha256sum" : "3fe30832e6c958349224feef398668f317565e169722a80e85d2e7c2a9ed9132"
+      },
+      {
+        "name" : "BIOMD0000000099.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4200",
+        "mimeType" : "text/plain",
+        "md5sum" : "43083ef592349cccd1801c710d5310ea",
+        "sha1sum" : "b8159a56666aa5fe0b8999b9cb7e5292cd773f1c",
+        "sha256sum" : "fdc839af172f7de83b25bca2a4a84f5ab39561bed6b773b5286960b91b359c94"
+      },
+      {
+        "name" : "BIOMD0000000099.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "183417",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7ed8fd1a0b8c4df94aa23e203f82998a",
+        "sha1sum" : "bc271e5f1e7fddf40e23d44e3e5f8ab92a40ad1b",
+        "sha256sum" : "a071302668a3d52f9ebbc91a6a21ba36a6600349382cc697109c34b53d9c0d90"
+      },
+      {
+        "name" : "BIOMD0000000099.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "86841",
+        "mimeType" : "image/png",
+        "md5sum" : "4a9c1de054b9ea7a1282ab2f47ae7697",
+        "sha1sum" : "b540fcd2e4ffa022b6ff25d5d009d9b162cc253b",
+        "sha256sum" : "f5eab2dbebd22fe1655ffb5f227fc1af12ea782fb1f4180c0dfa61be196b62c9"
+      },
+      {
+        "name" : "BIOMD0000000099.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3269",
+        "mimeType" : "text/plain",
+        "md5sum" : "b72bb8fccf054a789e15bf0b0dfac37c",
+        "sha1sum" : "8d039b8e393e27f472d4ac160e8930f139b488b8",
+        "sha256sum" : "c85c711a9b32f54ed1e25082b9363960de77867e69b81ca0cb2ff2b95dae7252"
+      },
+      {
+        "name" : "BIOMD0000000099.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "34205",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "6a0d6ccc0dcf359d9c9641129a2dc017",
+        "sha1sum" : "313e3e0e0288d4d7262a56d6989107690e640bd2",
+        "sha256sum" : "36bd2abf1b447b8c19aad61ce3fb08adfc48558c0811c197269dc392ed89bc13"
+      },
+      {
+        "name" : "BIOMD0000000099.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "39814",
+        "mimeType" : "application/xml",
+        "md5sum" : "99373ca6140e5017c20a4169221292b8",
+        "sha1sum" : "defc271f8e0159881af7d507f242dc3256fb3bcc",
+        "sha256sum" : "ed6e228e7485bd0f2675a330a50a937b2292ff2e07ec497fb98b08e87f60d337"
+      },
+      {
+        "name" : "BIOMD0000000099_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "23126",
+        "mimeType" : "application/xml",
+        "md5sum" : "0449e5f693c0402acb3cd8767f55d02d",
+        "sha1sum" : "13526dc6b65648ba272c094b685af4becf3e7906",
+        "sha256sum" : "03bd8e6e26f4f4dbf7ec26746570b9164b5946b2c52a15eabfe8d3feec464959"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "48350",
+        "mimeType" : "image/png",
+        "md5sum" : "051007eed5b070def138780235208c65",
+        "sha1sum" : "8629d6a59e9d5528ead6e51fe5abf3c6e9587f55",
+        "sha256sum" : "cec45209e8f0a72a37527ffa90037aa6e154d98c3d6149d4e6b17ff0b967e923"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "66",
+        "mimeType" : "text/plain",
+        "md5sum" : "782db365b8dbb09a818cc24093e35046",
+        "sha1sum" : "98de9da9a0c7ed7b24d94468d46a1367ef8f7c68",
+        "sha256sum" : "39d50690a30617f018fc3d433e053162ab7278d5575cfe84774a8222ae3db22c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "2d04180c6dd7bbbe209c70809589e5fb",
+        "sha1sum" : "ee28d6d4d28c27c5bb71462e614039bc3fa99391",
+        "sha256sum" : "2a85f3ef553f49830e594d92b1e55973d6ae57f43e64d328291843fcff639c2d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3184",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4dd2127082edde41924ab2c01870dd70",
+        "sha1sum" : "55711811396968a03ded2dc6ba008115869a33db",
+        "sha256sum" : "671dad1556acd247c868fe4bc3e3fc73e4622a2dff2be6be2a61bcc309d5fc06"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1174521151,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Laub1998_SpontaneousOscillations"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424867701,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Laub1998_SpontaneousOscillations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267389,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284878,
+  "submissionId" : "MODEL4515710981",
+  "publicationId" : "BIOMD0000000099",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4515710981",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4515710981"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000099",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000099"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "9843585",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9843585"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "5782",
+      "name" : "Dictyostelium",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/5782"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019933",
+      "name" : "cAMP-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019933"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

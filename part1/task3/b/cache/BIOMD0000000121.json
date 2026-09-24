@@ -1,0 +1,317 @@
+{
+  "name" : "Clancy2001_Kchannel",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is according to the paper      <i>Cellular consequences of HEGR mutations in the long QT syndrome: precursors to sudden cardiac death.</i>          The author used Markovian model of cardiac Ikr in the paper.  Figure4B in the paper has been reproduced using CellDesigner3.5.1. The cell is depolarized to the indicated test potential for 250ms (from 50ms to 300ms) from a holding potential of -40mV and then repolarized to -40mV. Change the value for vtest from -30,-20,-10,0,10,20,30,40 for each simulation in order to produce the different cureve in the paper.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11334834",
+    "journal" : "Cardiovascular research",
+    "title" : "Cellular consequences of HERG mutations in the long QT syndrome: precursors to sudden cardiac death.",
+    "affiliation" : "Cardiac Bioelectricity Research and Training Center, Department of Physiology and Biophysics, 509 Wickenden Building, Case Western Reserve University, Cleveland, Ohio 44106-7207, USA.",
+    "synopsis" : "<h4>Background</h4>A variety of mutations in HERG, the major subunit of the rapidly activating component of the cardiac delayed rectifier I(Kr), have been found to underlie the congenital Long-QT syndrome, LQT2. LQT2 may give rise to severe arrhythmogenic phenotypes leading to sudden cardiac death.<h4>Objective</h4>We attempt to elucidate the mechanisms by which heterogeneous LQT2 genotypes can lead to prolongation of the action potential duration (APD) and consequently the QT interval on the ECG.<h4>Methods</h4>We develop Markovian models of wild-type (WT) and mutant I(Kr) channels and incorporate these models into a comprehensive model of the cardiac ventricular cell.<h4>Results</h4>Using this virtual transgenic cell model, we describe the effects of HERG mutations on the cardiac ventricular action potential (AP) and provide insight into the mechanism by which each defect results in a net loss of repolarizing current and prolongation of APD.<h4>Conclusions</h4>This study demonstrates which mutations can prolong APD sufficiently to generate early afterdepolarizations (EADs), which may trigger life-threatening arrhythmias. The severity of the phenotype is shown to depend on the specific kinetic changes and how they affect I(Kr) during the time course of the action potential. Clarifying how defects in HERG can lead to impaired cellular electrophysiology can improve our understanding of the link between channel structure and cellular function.",
+    "year" : 2001,
+    "month" : "5",
+    "volume" : "50",
+    "issue" : "2",
+    "pages" : "301-313",
+    "link" : "http://identifiers.org/pubmed/11334834",
+    "authors" : [
+      {
+        "name" : "C E Clancy",
+        "institution" : "Cardiac Bioelectricity Research and Training Center, Department of Physiology and Biophysics, 509 Wickenden Building, Case Western Reserve University, Cleveland, Ohio 44106-7207, USA."
+      },
+      {
+        "name" : "Y Rudy"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000121_url.xml",
+        "description" : "SBML L2V1 representation of Clancy2001_Kchannel",
+        "fileSize" : "28003",
+        "mimeType" : "application/xml",
+        "md5sum" : "c4c7f73436113b543ca50bfad13817a0",
+        "sha1sum" : "8511218229efa3fbd79a869374db7ab74f9ef8ab",
+        "sha256sum" : "c64ef169d440bfbe19f6c17d16ac1949f3ad9003c4b39d8167f32f7630d73374"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000121-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "13688",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f5f1b5fe4f35be48b617d586a74e449f",
+        "sha1sum" : "9bad2055c05ba2481507469b24f12b29581f12b9",
+        "sha256sum" : "2f7473015a1422a7d5b1bfd649df0c2a78d3b719555e0998816aa20cf94eb6d8"
+      },
+      {
+        "name" : "BIOMD0000000121-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "18561",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "75c078edea28c422de0958974e9baf03",
+        "sha1sum" : "eb5b20341f6866ea59685e6785725396e3145cb2",
+        "sha256sum" : "8e57d355b107a90bd4f741d018b22d9126dc14bc70708e0e4180d5cac7b6f424"
+      },
+      {
+        "name" : "BIOMD0000000121-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6580",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "9796c8d92f7a3e5b3a5777546425ec8b",
+        "sha1sum" : "9422be4d483a01433355f55dc4cc3ef3daa27ad1",
+        "sha256sum" : "14c4af5d1d5b7336f410e4027724bd59f7a703268be84c2ae08ac26ca11a9f42"
+      },
+      {
+        "name" : "BIOMD0000000121-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6580",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "616c5ce946fa1d55e12fff5909d35779",
+        "sha1sum" : "a6970993a6b45534fb7587db742a40ea83b93f80",
+        "sha256sum" : "3918354189ccf58d3c21259cf3255f98686a419063ead21c303b74ea0dd2c8af"
+      },
+      {
+        "name" : "BIOMD0000000121.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6580",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "616c5ce946fa1d55e12fff5909d35779",
+        "sha1sum" : "a6970993a6b45534fb7587db742a40ea83b93f80",
+        "sha256sum" : "3918354189ccf58d3c21259cf3255f98686a419063ead21c303b74ea0dd2c8af"
+      },
+      {
+        "name" : "BIOMD0000000121.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "173396",
+        "mimeType" : "application/pdf",
+        "md5sum" : "e3c61feacacf88996c35dcb1e635f357",
+        "sha1sum" : "45c95575a185d8fbc6776c3f6b92b615fd0a3122",
+        "sha256sum" : "3eded8812dc2562d09a29ddc1840def1858e1aef4c22afa50e688b428cb1d430"
+      },
+      {
+        "name" : "BIOMD0000000121.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "17690",
+        "mimeType" : "image/png",
+        "md5sum" : "089cd300d79209b770e194728533b685",
+        "sha1sum" : "91caebf3d4ddc104fcdfc18c231899de45b8ec17",
+        "sha256sum" : "8b7e3d574f1585e1a7d9fa8a239784584fde43f73008cf64169a4690d76fe5b3"
+      },
+      {
+        "name" : "BIOMD0000000121.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "11592",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "9edd8ea8ce44a6685eb35914c33b3be7",
+        "sha1sum" : "1f23cd9fc02bbe8b3c256800e19f31a80b34be68",
+        "sha256sum" : "27c506ea309ac40cae44b73da134f478280bba9510ce5d48f4dca9ccb4af3ab8"
+      },
+      {
+        "name" : "BIOMD0000000121.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "29143",
+        "mimeType" : "application/xml",
+        "md5sum" : "842b37f0fefb75b8398f3ecb9e091a74",
+        "sha1sum" : "eaed0b6436e33607eeb1d27c4c58f673d3352c20",
+        "sha256sum" : "82d675e8a9d3ad6c0595c7842e03fbed2f8d94317af12d6a63e129da7905fb97"
+      },
+      {
+        "name" : "BIOMD0000000121_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "18218",
+        "mimeType" : "application/xml",
+        "md5sum" : "65f8e19932cd6032f851dca5bfd8ad9d",
+        "sha1sum" : "15d859bb716da20a50943c9911d913581516b304",
+        "sha256sum" : "2f198ea2a4a0f8329db3e7282a969124e6d90a979004a0a64e4b9ca38f18038b"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "48477",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "273f8c94b012347378d9a03889de5967",
+        "sha1sum" : "ce32d4cee3f90b438f7f35c5c71ae44eb8c31df5",
+        "sha256sum" : "3e035f58b493257bb622eced0d91ccd8a4db6f4c1feb5e5a7bdb47602562c25b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "50",
+        "mimeType" : "text/plain",
+        "md5sum" : "164f6da05475652daea8be1ab4ebd7b4",
+        "sha1sum" : "a8080aa6c8be8cd4596e0d08d6726f6a716cfe9e",
+        "sha256sum" : "4ea331bb369d0144d0f779e4c3324a06c56972e595d036aa4d5ab067bc2c84f4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1803",
+        "mimeType" : "application/xml",
+        "md5sum" : "03465cf80767f36a1ea7e855d87c129f",
+        "sha1sum" : "a2b71746c436f98e1c6d8842ef2aa16eba22c635",
+        "sha256sum" : "1e7843ec569ba12a0871d6b7cf76d8d17bda0cf5d7450149ac9d545458a2bd0d"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5488",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f861397cda0c93d24fd5ae5bd6c7197c",
+        "sha1sum" : "4d0c4cb80a97dfca92129f064f302c929ce67527",
+        "sha256sum" : "8f6b2f4a22acc8e963000a0d7456b0c25a093ab24b19606edb7d6c43ca46d9ad"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1183626879,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Clancy2001_Kchannel"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1493321874,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Clancy2001_Kchannel"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267976,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284887,
+  "submissionId" : "MODEL2898180293",
+  "publicationId" : "BIOMD0000000121",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2898180293",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2898180293"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000121",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000121"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11334834",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11334834"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "7788872",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/7788872"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "7514509",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/7514509"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10318671",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10318671"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10448858",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/10448858"
+    },
+    {
+      "qualifier" : "bqbiol:isHomologTo",
+      "accession" : "152427",
+      "name" : "potassium voltage-gated channel subfamily H member 2",
+      "resource" : "OMIM",
+      "uri" : "http://identifiers.org/mim/152427"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10141",
+      "name" : "Cavia porcellus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10141"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005251",
+      "name" : "delayed rectifier potassium channel activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005251"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0003015",
+      "name" : "heart process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0003015"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0043266",
+      "name" : "regulation of potassium ion transport",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0043266"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:0050434",
+      "name" : "Andersen-Tawil syndrome",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:0050434"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

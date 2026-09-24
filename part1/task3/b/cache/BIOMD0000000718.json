@@ -1,0 +1,245 @@
+{
+  "name" : "Li2008 - Caulobacter Cell Cycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This a model from the article:      <br />        <strong>A Quantitative Study of the Division Cycle of Caulobacter crescentus Stalked Cells.</strong>        <br />          Shenghua Li, Paul Brazhnik, Bruno Sobral, John J. Tyson      <em>PLoS Comput Biol</em>          2008 Jan 25:4(1): e9      <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18225942\">18225942</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Progression of a cell through the division cycle is tightly controlled at different steps to ensure the integrity of genomereplication and partitioning to daughter cells. From published experimental evidence, we propose a molecularmechanism for control of the cell division cycle in Caulobacter crescentus. The mechanism, which is based on thesynthesis and degradation of three ‘‘master regulator’’ proteins (CtrA, GcrA, and DnaA), is converted into a quantitativemodel, in order to study the temporal dynamics of these and other cell cycle proteins. The model accounts forimportant details of the physiology, biochemistry, and genetics of cell cycle control in stalked C. crescentus cell. Itreproduces protein time courses in wild-type cells, mimics correctly the phenotypes of many mutant strains, andpredicts the phenotypes of currently uncharacterized mutants. Since many of the proteins involved in regulating thecell cycle of C. crescentus are conserved among many genera of a-proteobacteria, the proposed mechanism may beapplicable to other species of importance in agriculture and medicine.      </p>        <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not..      <br />        <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a></p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18225942",
+    "journal" : "PLoS computational biology",
+    "title" : "A quantitative study of the division cycle of Caulobacter crescentus stalked cells.",
+    "affiliation" : "Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America.",
+    "synopsis" : "Progression of a cell through the division cycle is tightly controlled at different steps to ensure the integrity of genome replication and partitioning to daughter cells. From published experimental evidence, we propose a molecular mechanism for control of the cell division cycle in Caulobacter crescentus. The mechanism, which is based on the synthesis and degradation of three \"master regulator\" proteins (CtrA, GcrA, and DnaA), is converted into a quantitative model, in order to study the temporal dynamics of these and other cell cycle proteins. The model accounts for important details of the physiology, biochemistry, and genetics of cell cycle control in stalked C. crescentus cell. It reproduces protein time courses in wild-type cells, mimics correctly the phenotypes of many mutant strains, and predicts the phenotypes of currently uncharacterized mutants. Since many of the proteins involved in regulating the cell cycle of C. crescentus are conserved among many genera of alpha-proteobacteria, the proposed mechanism may be applicable to other species of importance in agriculture and medicine.",
+    "year" : 2008,
+    "month" : "1",
+    "volume" : "4",
+    "issue" : "1",
+    "pages" : "e9",
+    "link" : "http://identifiers.org/pubmed/18225942",
+    "authors" : [
+      {
+        "name" : "Shenghua Li",
+        "institution" : "Department of Biological Sciences, Virginia Polytechnic Institute and State University, Blacksburg, Virginia, United States of America."
+      },
+      {
+        "name" : "Paul Brazhnik"
+      },
+      {
+        "name" : "Bruno Sobral",
+        "orcid" : "0000-0003-3908-577X"
+      },
+      {
+        "name" : "John J Tyson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Li2008.xml",
+        "description" : "SBML lvl2 file containing the model",
+        "fileSize" : "175897",
+        "mimeType" : "application/xml",
+        "md5sum" : "3188ce6c763364ed48c1de1296324115",
+        "sha1sum" : "a1fa7c915cd06c6606534018249f26e722878970",
+        "sha256sum" : "a8dcb3c647c07a989f0e0e7edd6d02ad0b50ff23cdd1ee32d95b1325d7be55ae"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Li2008-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "28726",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "afc316c8887a61ef759db87491967d71",
+        "sha1sum" : "8cd987a7daf7b529e97eaa689d8d4df8e6283a53",
+        "sha256sum" : "6fb14ead8a9e5ff7f2a1ea745c31d9439b2dbbebc351722c3c8a92ff4597767d"
+      },
+      {
+        "name" : "Li2008-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "44501",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "42bfc9f566dbf4410eb1a50c04fa166f",
+        "sha1sum" : "8db1c7d14b07fc84a8aef1238b270773f5600bbe",
+        "sha256sum" : "920bdf9f38c903234862cdd6380ae3ca927ec9d40f492bcca192ec6cc219ac0b"
+      },
+      {
+        "name" : "Li2008-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "15874",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "880c49ead50731f649a96191b21515e5",
+        "sha1sum" : "a6459a17657ccd2e9622e41fcd6605f498a281b5",
+        "sha256sum" : "ac59714effe99ce7b0d8d2579bf8dffcff5e80421c92d101f2167ec5c6fa7818"
+      },
+      {
+        "name" : "Li2008-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "15874",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "85d2963d2a06d180c613d287a1ab9098",
+        "sha1sum" : "ec9d06deda539c11cd95626bdc128d6330a9ae93",
+        "sha256sum" : "b949642ed6dd70909df87e72357417c9c46cdb8de6a3996f3b1efabc28f15bbc"
+      },
+      {
+        "name" : "Li2008.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12818",
+        "mimeType" : "text/plain",
+        "md5sum" : "0b73b6c90864ae1046ed10ae920b117a",
+        "sha1sum" : "68010d28289d0246e70b27c39499ca0e34d0dec1",
+        "sha256sum" : "cfc5a80e69b4a3ed554b45827bdb08bbf04dc21f9cba150e41d1b822d780e41b"
+      },
+      {
+        "name" : "Li2008_reactions.cps",
+        "description" : "copasi file to generate figure 4",
+        "fileSize" : "215604",
+        "mimeType" : "application/xml",
+        "md5sum" : "dae167c779c859a1e53c1c0a3c30fdb4",
+        "sha1sum" : "1cced227f3ce36d7daeed1d40f5799b2f7e99681",
+        "sha256sum" : "c2175f0510934d671ca6643b1c7401d85c5aae3815cf6e1412c18571a381581a"
+      },
+      {
+        "name" : "Li2008_reactions.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "56840",
+        "mimeType" : "application/xml",
+        "md5sum" : "8020164d99f30e7542c6b53703c973a0",
+        "sha1sum" : "bb2513a94d7849aefbdcec7620ac00271549dd66",
+        "sha256sum" : "29c813a0126ce38ac7d67f02ba3dd2167a7ec1f58619f08746f034c9da5aa292"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "379144",
+        "mimeType" : "image/png",
+        "md5sum" : "3f260c93494feb4b016da9f2a35655f4",
+        "sha1sum" : "db812958e5c9e3b1e47d88d7aa4a30bcbc2b1ad4",
+        "sha256sum" : "61ec1cf2d4e0b09387bbd10a9a3e5b01fe292e3fd839230a835ee929e2882d1e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "250",
+        "mimeType" : "text/plain",
+        "md5sum" : "86d06eef47c0d1bd9595b3d4037c1fde",
+        "sha1sum" : "2241ffb2e337a5df47bbc3fd2340467a3df67809",
+        "sha256sum" : "3e406a36a61382a4e75be9c3b090ffc82115a27ebd0a37d03a93b6c6c74251d2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1399",
+        "mimeType" : "application/xml",
+        "md5sum" : "f57873c7cf35b5a0df65bba159c37d6d",
+        "sha1sum" : "297609aa487b8753b90d14b013b5661840c1bb4b",
+        "sha256sum" : "53b63c1018dd5f75ad63782e5700b77338f29c7000594b6ecf50d9c577a3e867"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4532",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "21a5a3f68f49a285653d3e1dd8f7c748",
+        "sha1sum" : "012e62baae6630f6045ce8166a2d99d38aa35933",
+        "sha256sum" : "acb8849953688ebf356ab8004b5ebac053a450b3d4323921899e82fc802d5086"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1541596982,
+        "submitter" : "Ashley Xavier",
+        "comment" : "Automatically added model identifier BIOMD0000000718"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724287687,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285424,
+  "submissionId" : "MODEL1811070001",
+  "publicationId" : "BIOMD0000000718",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Ashley Xavier",
+        "email" : "ashleythomasxavier@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0001-5372-3024",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1811070001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1811070001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000718",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000718"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18225942",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:18225942"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "155892",
+      "name" : "Caulobacter vibrioides",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/155892"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "18225942",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18225942"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1371/journal.pcbi.0040009",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1371/journal.pcbi.0040009"
+    }
+  ]
+}

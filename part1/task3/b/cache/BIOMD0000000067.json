@@ -1,0 +1,298 @@
+{
+  "name" : "Fung2005_Metabolic_Oscillator",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <h1>A Synthetic Gene-Metabolic Oscillator</h1>        <b>Reference:</b>        <a href=\"http://www.nature.com/nature/journal/v435/n7038/abs/nature03508.html\">          <i>Fung et al; Nature (2005) 435:118-122</i>        </a>        <br />        <table border=\"0\" cellpadding=\"2\" cellspacing=\"0\">          <thead>            <tr>              <th align=\"left\" bgcolor=\"#eeeeee\" valign=\"middle\">Name of kinetic law</th>              <th align=\"left\" bgcolor=\"#eeeeee\" valign=\"middle\">Reaction</th>            </tr>          </thead>          <tbody>            <tr>              <td>Glycolytic flux, V_gly:</td>              <td>nil -&gt; AcCoA;</td>            </tr>            <tr>              <td>Flux to TCA cycle/ETOH, V_TCA:</td>              <td>AcCoA -&gt; TCA/EtOH;</td>            </tr>            <tr>              <td>HOAc ex/import,reversible,  V_out:</td>              <td>HOAc -&gt; HOAc_E</td>            </tr>            <tr>              <td>V_Pta:</td>              <td>AcCoA + Pi -&gt; AcP + CoA</td>            </tr>            <tr>              <td>reversible, V_Ack:</td>              <td>AcP + ADP -&gt; OAc + ATP</td>            </tr>            <tr>              <td>V_Acs:</td>              <td>OAC + ATP -&gt; AcCoA +PPi</td>            </tr>            <tr>              <td>Acetic acid-base equillibrium, reversible, V_Ace:</td>              <td>OAC + H -&gt; HOAc</td>            </tr>            <tr>              <td>Expression of LacI, R_LacI:</td>              <td>nil -&gt; LacI</td>            </tr>            <tr>              <td>Expression of Acs, R_Acs:</td>              <td>nil -&gt; Acs</td>            </tr>            <tr>              <td>Expression of Pta, R_Pta:</td>              <td>nil -&gt; Pta</td>            </tr>            <tr>              <td>LacI degradation, R_dLacI:</td>              <td>LacI -&gt; nil</td>            </tr>            <tr>              <td>Acs degradation, R_dAcs:</td>              <td>Acs -&gt; nil</td>            </tr>            <tr>              <td>Pta degradation, R_dPta:</td>              <td>Pta -&gt; nil</td>            </tr>          </tbody>        </table>        <p>For this model the differential equation for V_Ace was changed from:      <br />          C*(AcP*H-K_eq*OAC) with C = 100 in the supplemental material      <br />          to C*(OAc*H-K_eq*HOAc) with C = 100, as in      <a href=\"http://www.pnas.org/cgi/content/abstract/101/8/2299\">          <i>Bulter et. al; PNAS(2004),101,2299-2304</i>        </a>          , and a value for K_eq of 5*10^-4 after communication with the authors.      </p>      <p>        <font size=\"2\">translated to SBML by:        <br />            Lukas Endler(luen at tbi.univie.ac.at), Christoph Flamm (xtof at tbi.univie.ac.at)        </font>    </p>    <p>      <u>Biomodels Curation</u>          The model reproduces 3a of the paper for glycolytic flux Vgly = 0.5. The authors have agreed that the values on Y-axis are marked wrong and hence there is a discrepancy between  model simulation results and the figure. Also, note that the values of concentration and time are in dimensionless units. The model was successfully tested on MathSBML and Jarnac.      </p>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15875027",
+    "journal" : "Nature",
+    "title" : "A synthetic gene-metabolic oscillator.",
+    "affiliation" : "Department of Chemical Engineering, University of California-Los Angeles, Los Angeles, California 90095, USA.",
+    "synopsis" : "Autonomous oscillations found in gene expression and metabolic, cardiac and neuronal systems have attracted significant attention both because of their obvious biological roles and their intriguing dynamics. In addition, de novo designed oscillators have been demonstrated, using components that are not part of the natural oscillators. Such oscillators are useful in testing the design principles and in exploring potential applications not limited by natural cellular behaviour. To achieve transcriptional and metabolic integration characteristic of natural oscillators, here we designed and constructed a synthetic circuit in Escherichia coli K12, using glycolytic flux to generate oscillation through the signalling metabolite acetyl phosphate. If two metabolite pools are interconverted by two enzymes that are placed under the transcriptional control of acetyl phosphate, the system oscillates when the glycolytic rate exceeds a critical value. We used bifurcation analysis to identify the boundaries of oscillation, and verified these experimentally. This work demonstrates the possibility of using metabolic flux as a control factor in system-wide oscillation, as well as the predictability of a de novo gene-metabolic circuit designed using nonlinear dynamic analysis.",
+    "year" : 2005,
+    "month" : "5",
+    "volume" : "435",
+    "issue" : "7038",
+    "pages" : "118-122",
+    "link" : "http://identifiers.org/pubmed/15875027",
+    "authors" : [
+      {
+        "name" : "Eileen Fung",
+        "institution" : "Department of Chemical Engineering, University of California-Los Angeles, Los Angeles, California 90095, USA.",
+        "orcid" : "0009-0004-5853-4280"
+      },
+      {
+        "name" : "Wilson W Wong"
+      },
+      {
+        "name" : "Jason K Suen"
+      },
+      {
+        "name" : "Thomas Bulter",
+        "orcid" : "0000-0002-7968-5844"
+      },
+      {
+        "name" : "Sun-gu Lee"
+      },
+      {
+        "name" : "James C Liao",
+        "orcid" : "0000-0002-4580-7276"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000067_url.xml",
+        "description" : "SBML L2V1 representation of Fung2005_Metabolic_Oscillator",
+        "fileSize" : "30449",
+        "mimeType" : "application/xml",
+        "md5sum" : "7b919c571f8796f1fd0719d4674e2517",
+        "sha1sum" : "18db2053c3f63424447cb59540ff1a52d2150d5e",
+        "sha256sum" : "0589f9784088d09b419807d5cf6448ee01b44e8a19e41e9102560fc23271ea10"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000067-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "21664",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "941974b4060c2e62fb340ccfa1cfa765",
+        "sha1sum" : "6605ad19dcfe6d1490305a5547b7b90dc9abd023",
+        "sha256sum" : "1b6457e92a3f6f256c5ea774a37ebd3058f1fbf3b6bb7fa8f1949b7e8ec2dfd1"
+      },
+      {
+        "name" : "BIOMD0000000067-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "30139",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "830fd2f38fedf8d33602f153c56d257d",
+        "sha1sum" : "ac3ec1bb03009797a98cc27cf96189bec3827525",
+        "sha256sum" : "67b4eaf7ceff01e9b9829a87f6e6276f2729836acbadb7042e6e68294de96c31"
+      },
+      {
+        "name" : "BIOMD0000000067-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7012",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7123b5512c73596315496f022d502495",
+        "sha1sum" : "3b82c0b3828e46337d977d082149a0886b188b2b",
+        "sha256sum" : "60c6918bbde50862c33353c5360bf463e26b017c7ce1d9df7b190fa5da95959b"
+      },
+      {
+        "name" : "BIOMD0000000067-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7012",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "24888f1399ce97b0186e3a2d3ebcf238",
+        "sha1sum" : "4e433f146da84582a7fac6cc68f8949e2dae0435",
+        "sha256sum" : "c41d039ba599d98749cb14141be1c183337657cf4737cf5df8d43d6fcf2757c1"
+      },
+      {
+        "name" : "BIOMD0000000067.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7012",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "24888f1399ce97b0186e3a2d3ebcf238",
+        "sha1sum" : "4e433f146da84582a7fac6cc68f8949e2dae0435",
+        "sha256sum" : "c41d039ba599d98749cb14141be1c183337657cf4737cf5df8d43d6fcf2757c1"
+      },
+      {
+        "name" : "BIOMD0000000067.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4599",
+        "mimeType" : "text/plain",
+        "md5sum" : "18f26d42a7e345b2f5e7c506782e7682",
+        "sha1sum" : "40a7d8bef43b4a09e8ebb08b3372749aa4c2e131",
+        "sha256sum" : "d5ad055fc4c1682cacda43b4d441d53604bc37632ad09f9812a912f068595df5"
+      },
+      {
+        "name" : "BIOMD0000000067.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "193325",
+        "mimeType" : "application/pdf",
+        "md5sum" : "cc7e3e52039e935c1712e273b56890d7",
+        "sha1sum" : "29d99ce63ac27f31af9c45b48e92ef9372793a77",
+        "sha256sum" : "a396fba0a0f35259caa18de39a38ed52a6931e1a587906314cccf66c4a17faae"
+      },
+      {
+        "name" : "BIOMD0000000067.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "62515",
+        "mimeType" : "image/png",
+        "md5sum" : "af1ec8217deb9f4a5d9d0376ba5b7d61",
+        "sha1sum" : "7ee34d0299e7a6bd550b49c348b8cef25f1ff8a7",
+        "sha256sum" : "adcc29872a88feee693c644eeeb279a064bcb4503cebea37f5f3ab80f1f09c2d"
+      },
+      {
+        "name" : "BIOMD0000000067.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3433",
+        "mimeType" : "text/plain",
+        "md5sum" : "03373c2f329496cfc004c7766ecb393d",
+        "sha1sum" : "896303acda9a28ec089f511a2c6aaa592f97e304",
+        "sha256sum" : "cb2b9588b0bca3cfc1aea2f399d9a931d913228261fe6420ce0a32e9389770ba"
+      },
+      {
+        "name" : "BIOMD0000000067.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "25102",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "51e29b627bb508a071461bc4b2d29c87",
+        "sha1sum" : "0ca527aae7325689f18e59005fcd46f7a3f71617",
+        "sha256sum" : "36327c605d190dfcf102bfbe792efaa7d12e9cc6e29a30011696361769298faf"
+      },
+      {
+        "name" : "BIOMD0000000067.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "45047",
+        "mimeType" : "application/xml",
+        "md5sum" : "a4b7ea2334b09ea9501ec647fbd6028d",
+        "sha1sum" : "7a9d162ab634cf0e5bb0d5ab0db343f9ed7382af",
+        "sha256sum" : "81151b13a300cc42aa809d7d2cf38f477e7afdedc40b7125f361650e5ef6ebe3"
+      },
+      {
+        "name" : "BIOMD0000000067_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "24550",
+        "mimeType" : "application/xml",
+        "md5sum" : "d313fb6aa5a05449d50e67d79d1c2ff8",
+        "sha1sum" : "677183f1aab0586e5f5a278f550c5ee73850f4b7",
+        "sha256sum" : "777cb42359f95caa1028207605aff89f2a233c9eb132f723a50060ef5ab30dda"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "45061",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "98b0c5c4b4ece56a5bc245bef44cbb67",
+        "sha1sum" : "a24eb27bb8c1c0aad26ca2c94d654e78baacb3b1",
+        "sha256sum" : "220ed20f1b71f01051b5c33fde54a6df72cc97afd72ca3eac406689e71cd46f5"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "253",
+        "mimeType" : "text/plain",
+        "md5sum" : "b6014109890c943323203b89d89fc760",
+        "sha1sum" : "38e0f28b973e486ac5dc2a16f4381934047bd9f9",
+        "sha256sum" : "cee76dd9e886942d5ede8efb58e0a37f30da68b984ffe3e3a52caff95030cc25"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2035",
+        "mimeType" : "application/xml",
+        "md5sum" : "69609e5233fd9a9eccadd5e7a361814f",
+        "sha1sum" : "212b75d50f2133a97cb0d7f971abc28adb627760",
+        "sha256sum" : "baf786dafcb1494925256cb93c95cef307eac7de990673b129198bfb97f5f875"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5231",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "97c12797c42cbbbf1ce77da0bbe8ae1a",
+        "sha1sum" : "aaedac6d842e799d6b5b974f852bbefda086e393",
+        "sha256sum" : "c58289bc7c86dd5686e5027154eed7ae52bdbeef2c13d5814134dfb8e06ee21b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1157044770,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of BIOMD0000000067.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1337167240,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Fung2005_Metabolic_Oscillator"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724266489,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284863,
+  "submissionId" : "MODEL6624231052",
+  "publicationId" : "BIOMD0000000067",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "83333",
+      "name" : "Escherichia coli (strain K12)",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/83333"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6624231052",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6624231052"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000067",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000067"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15875027",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15875027"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0045990",
+      "name" : "carbon catabolite regulation of transcription",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0045990"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

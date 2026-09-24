@@ -1,0 +1,282 @@
+{
+  "name" : "Chickarmane2006 - Stem cell switch reversible",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Chickarmane2006 - Stem cell switch reversible</div>            <div class=\"dc:description\">      <p>Kinetic modeling approach of the transcriptional dynamics of the embryonic stem cell switch.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/16978048\" title=\"Access to this publication\">Transcriptional dynamics of the embryonic stem cell switch.</a>                    </div>                <div class=\"bibo:authorList\">Chickarmane V, Troein C, Nuber UA, Sauro HM, Peterson C</div>                <div class=\"bibo:Journal\">PLoS Computational Biology. 2006; 2(9):e123</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>Recent ChIP experiments of human and mouse embryonic stem cells have elucidated the architecture of the transcriptional regulatory circuitry responsible for cell determination, which involves the transcription factors OCT4, SOX2, and NANOG. In addition to regulating each other through feedback loops, these genes also regulate downstream target genes involved in the maintenance and differentiation of embryonic stem cells. A search for the OCT4-SOX2-NANOG network motif in other species reveals that it is unique to mammals. With a kinetic modeling approach, we ascribe function to the observed OCT4-SOX2-NANOG network by making plausible assumptions about the interactions between the transcription factors at the gene promoter binding sites and RNA polymerase (RNAP), at each of the three genes as well as at the target genes. We identify a bistable switch in the network, which arises due to several positive feedback loops, and is switched on/off by input environmental signals. The switch stabilizes the expression levels of the three genes, and through their regulatory roles on the downstream target genes, leads to a binary decision: when OCT4, SOX2, and NANOG are expressed and the switch is on, the self-renewal genes are on and the differentiation genes are off. The opposite holds when the switch is off. The model is extremely robust to parameter changes. In addition to providing a self-consistent picture of the transcriptional circuit, the model generates several predictions. Increasing the binding strength of NANOG to OCT4 and SOX2, or increasing its basal transcriptional rate, leads to an irreversible bistable switch: the switch remains on even when the activating signal is removed. Hence, the stem cell can be manipulated to be self-renewing without the requirement of input signals. We also suggest tests that could discriminate between a variety of feedforward regulation architectures of the target genes by OCT4, SOX2, and NANOG.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identified by:        <a href=\"http://identifiers.org/biomodels.db/MODEL7957907314\">MODEL7957907314</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16978048",
+    "journal" : "PLoS computational biology",
+    "title" : "Transcriptional dynamics of the embryonic stem cell switch.",
+    "affiliation" : "Keck Graduate Institute, Claremont, California, United States of America.",
+    "synopsis" : "Recent ChIP experiments of human and mouse embryonic stem cells have elucidated the architecture of the transcriptional regulatory circuitry responsible for cell determination, which involves the transcription factors OCT4, SOX2, and NANOG. In addition to regulating each other through feedback loops, these genes also regulate downstream target genes involved in the maintenance and differentiation of embryonic stem cells. A search for the OCT4-SOX2-NANOG network motif in other species reveals that it is unique to mammals. With a kinetic modeling approach, we ascribe function to the observed OCT4-SOX2-NANOG network by making plausible assumptions about the interactions between the transcription factors at the gene promoter binding sites and RNA polymerase (RNAP), at each of the three genes as well as at the target genes. We identify a bistable switch in the network, which arises due to several positive feedback loops, and is switched on/off by input environmental signals. The switch stabilizes the expression levels of the three genes, and through their regulatory roles on the downstream target genes, leads to a binary decision: when OCT4, SOX2, and NANOG are expressed and the switch is on, the self-renewal genes are on and the differentiation genes are off. The opposite holds when the switch is off. The model is extremely robust to parameter changes. In addition to providing a self-consistent picture of the transcriptional circuit, the model generates several predictions. Increasing the binding strength of NANOG to OCT4 and SOX2, or increasing its basal transcriptional rate, leads to an irreversible bistable switch: the switch remains on even when the activating signal is removed. Hence, the stem cell can be manipulated to be self-renewing without the requirement of input signals. We also suggest tests that could discriminate between a variety of feedforward regulation architectures of the target genes by OCT4, SOX2, and NANOG.",
+    "year" : 2006,
+    "month" : "9",
+    "volume" : "2",
+    "issue" : "9",
+    "pages" : "e123",
+    "link" : "http://identifiers.org/pubmed/16978048",
+    "authors" : [
+      {
+        "name" : "Vijay Chickarmane",
+        "institution" : "Keck Graduate Institute, Claremont, California, United States of America."
+      },
+      {
+        "name" : "Carl Troein"
+      },
+      {
+        "name" : "Ulrike A Nuber"
+      },
+      {
+        "name" : "Herbert M Sauro",
+        "orcid" : "0000-0002-3659-6817"
+      },
+      {
+        "name" : "Carsten Peterson"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000203_url.xml",
+        "description" : "SBML L2V3 representation of Chickarmane2006 - Stem cell switch reversible",
+        "fileSize" : "33654",
+        "mimeType" : "application/xml",
+        "md5sum" : "6a6661ab497fef994319b6c0b51b41e8",
+        "sha1sum" : "228e5dd91c687264e398d8b8bafca33c710ba6e3",
+        "sha256sum" : "1a6b8afba805b78e72f3b825626f4b10d1ce3cd92e3feab1d29781822ec2d4cf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000203-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19920",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "498d3047e129a88b1ebc35da627c34d5",
+        "sha1sum" : "753ef2ace9487e692056c358573de3667bb32f25",
+        "sha256sum" : "10eb006cc90b54bf6de4f5a79c20d1a995fa4f1ce78239edc17ff1797dd2d31c"
+      },
+      {
+        "name" : "BIOMD0000000203-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "29614",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "161c54de7ce25dba669e9a4165ae4783",
+        "sha1sum" : "bd3b3fb1ef9cf8e13ac5f5b07e2ba9d7c743c84c",
+        "sha256sum" : "90661e6e25fff1f8ca80a985786b483bc6e4a76ee579df4db586188c04d6cddf"
+      },
+      {
+        "name" : "BIOMD0000000203-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7793",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "41e4f24518aac6498a607be73efee9a6",
+        "sha1sum" : "84fcd80ac61e71879af5344244159554ea6eb5af",
+        "sha256sum" : "966532e74bf3d89962b283889f0b9394845618643d479865199972bb9084c36e"
+      },
+      {
+        "name" : "BIOMD0000000203-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7793",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "254d3d3c51e636263d134e020eebc2e0",
+        "sha1sum" : "8dfdf3b2ae1ed52e8f68f1f987c92ccb267cb623",
+        "sha256sum" : "dc37ade9e8c305e1eaef87efaa4d5fe1a28ef902258ae8e0d6557c40816883aa"
+      },
+      {
+        "name" : "BIOMD0000000203.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7793",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "254d3d3c51e636263d134e020eebc2e0",
+        "sha1sum" : "8dfdf3b2ae1ed52e8f68f1f987c92ccb267cb623",
+        "sha256sum" : "dc37ade9e8c305e1eaef87efaa4d5fe1a28ef902258ae8e0d6557c40816883aa"
+      },
+      {
+        "name" : "BIOMD0000000203.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5711",
+        "mimeType" : "text/plain",
+        "md5sum" : "d2bdecad5e49f7ad6aee7d598a8c3477",
+        "sha1sum" : "690789c56701634e82de91a5679177ce8557f6df",
+        "sha256sum" : "2836c77ae3593dfbca86d20eb0571ba755f651528612bb1c709fd90ec1af0de7"
+      },
+      {
+        "name" : "BIOMD0000000203.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "184403",
+        "mimeType" : "application/pdf",
+        "md5sum" : "03b12ac8fb7342d743f0a2aef8e2a8fc",
+        "sha1sum" : "2b74eb26920d341b82f87f383fdf3949f6f5b864",
+        "sha256sum" : "b67748fba2c1e9c05f9bcff7a739cf0313e2f26581c4afd9c71a7c8525e5e288"
+      },
+      {
+        "name" : "BIOMD0000000203.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "96395",
+        "mimeType" : "image/png",
+        "md5sum" : "b0fefcd51bf65ac558ae56b59304640a",
+        "sha1sum" : "376ccc87e090b09173edbe311c9db036b975fc99",
+        "sha256sum" : "e5f8337231103f63553d78b069b5705868369300ef1b1c77fd93b9f1d08a0a12"
+      },
+      {
+        "name" : "BIOMD0000000203.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "28336",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4ba59840bc4d191a34dc6b5d5451d97a",
+        "sha1sum" : "6adcd30ba366b5c2e620d2e64aa2796c096aebc5",
+        "sha256sum" : "32b20e2b58c44f089a46279e84fb0a9bffe6b178f023ae1eb4fbd50560072e1b"
+      },
+      {
+        "name" : "BIOMD0000000203_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "31106",
+        "mimeType" : "application/xml",
+        "md5sum" : "f6f93d11e2c3ec0036390869c740a69c",
+        "sha1sum" : "d1d78064027c949fd3053583c0336f4208fcb679",
+        "sha256sum" : "eb6445139665e37a9941817611c3cded94d9502677cb5b71ef5447e3bc6f7a08"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11219",
+        "mimeType" : "image/png",
+        "md5sum" : "ad4d188b3503d7b87d2fc86c5c891b8f",
+        "sha1sum" : "e5105728cc6697e21cd0143b631eec0feb882f4d",
+        "sha256sum" : "2d73a1fb393dbed84b05c0cbceb1f121b20f94e72887eba3ff7aa77db6493b4e"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "245",
+        "mimeType" : "text/plain",
+        "md5sum" : "cb7bda344038798a78350323a12f5d9a",
+        "sha1sum" : "52721f9aa74b901f6254542450bdd874961a19fb",
+        "sha256sum" : "5fb79a6b2f9cc08a8c671dda1554e36faf032292585c6e81809bd5e46cf1231f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "7073567cf131c5ceeb14924ecbc7edfa",
+        "sha1sum" : "ea8e130efa9c65a832a64464a650d12237c1dc72",
+        "sha256sum" : "ba6a1963b5123049ee395f9bb5568c2b10f800a6f464ad69c59aa9f6c285dcc4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5775",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "387df7a867fb78eef9ebf61fa1432f91",
+        "sha1sum" : "99a0165b612b99df1466a07f8bcb3281bcc61819",
+        "sha256sum" : "73d60465bfb30f05d2c9855a71a28e72fdcdb1cd802060f57381921271cd2ccd"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1227630917,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of BIOMD0000000203.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1370455173,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Chickarmane2006 - Stem cell switch reversible"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724270182,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284935,
+  "submissionId" : "MODEL7957907314",
+  "publicationId" : "BIOMD0000000203",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7957907314",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7957907314"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000203",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000203"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16978048",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16978048"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0048863",
+      "name" : "stem cell differentiation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048863"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

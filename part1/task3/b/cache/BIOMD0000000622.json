@@ -1,0 +1,320 @@
+{
+  "name" : "NguyenLK2011 - Ubiquitination dynamics in Ring1B/Bmi1 system",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">NguyenLK2011 - Ubiquitination dynamics inRing1B-Bmi1 system</div><div class=\"dc:description\">This theoretical model investigates thedynamics of Ring1B/Bmi1 ubiquitination to identify bistableswitch-like and oscillatory behaviour in thesystem. Michaelis-Menten (MM) equations are used to formulatethe model. However, the authors show that the dynamics persist evenfor Mass-Action kinetics. This SBML file is the MM version of themodel.</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a title=\"Access to this publication\" href=\"http://identifiers.org/pubmed/22194680\">Switches,    excitable responses and oscillations in the Ring1B/Bmi1    ubiquitination system.</a>  </div>  <div class=\"bibo:authorList\">Nguyen LK, Muñoz-García J,  Maccario H, Ciechanover A, Kolch W, Kholodenko BN.</div>  <div class=\"bibo:Journal\">PLoS Comput. Biol. 2011 Dec; 7(12):  e1002317</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>In an active, self-ubiquitinated state, the Ring1B ligase    monoubiquitinates histone H2A playing a critical role in    Polycomb-mediated gene silencing. Following ubiquitination by    external ligases, Ring1B is targeted for proteosomal    degradation. Using biochemical data and computational modeling,    we show that the Ring1B ligase can exhibit abrupt switches,    overshoot transitions and self-perpetuating oscillations    between its distinct ubiquitination and activity states. These    different Ring1B states display canonical or multiply branched,    atypical polyubiquitin chains and involve association with the    Polycomb-group protein Bmi1. Bistable switches and oscillations    may lead to all-or-none histone H2A monoubiquitination rates    and result in discrete periods of gene (in)activity. Switches,    overshoots and oscillations in Ring1B catalytic activity and    proteosomal degradation are controlled by the abundances of    Bmi1 and Ring1B, and the activities and abundances of external    ligases and deubiquitinases, such as E6-AP and USP7.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000622\">BIOMD0000000622</a>.</p>  <p>To cite BioModels Database, please use:   <a title=\"Latest BioModels Database publication\" href=\"http://identifiers.org/pubmed/20587024\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\" href=\"http://creativecommons.org/publicdomain/zero/1.0/\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22194680",
+    "journal" : "PLoS computational biology",
+    "title" : "Switches, excitable responses and oscillations in the Ring1B/Bmi1 ubiquitination system.",
+    "affiliation" : "Systems Biology Ireland, University College Dublin, Belfield, Dublin, Ireland.",
+    "synopsis" : "In an active, self-ubiquitinated state, the Ring1B ligase monoubiquitinates histone H2A playing a critical role in Polycomb-mediated gene silencing. Following ubiquitination by external ligases, Ring1B is targeted for proteosomal degradation. Using biochemical data and computational modeling, we show that the Ring1B ligase can exhibit abrupt switches, overshoot transitions and self-perpetuating oscillations between its distinct ubiquitination and activity states. These different Ring1B states display canonical or multiply branched, atypical polyubiquitin chains and involve association with the Polycomb-group protein Bmi1. Bistable switches and oscillations may lead to all-or-none histone H2A monoubiquitination rates and result in discrete periods of gene (in)activity. Switches, overshoots and oscillations in Ring1B catalytic activity and proteosomal degradation are controlled by the abundances of Bmi1 and Ring1B, and the activities and abundances of external ligases and deubiquitinases, such as E6-AP and USP7.",
+    "year" : 2011,
+    "month" : "12",
+    "volume" : "7",
+    "issue" : "12",
+    "pages" : "e1002317",
+    "link" : "http://identifiers.org/pubmed/22194680",
+    "authors" : [
+      {
+        "name" : "Lan K Nguyen",
+        "institution" : "Department of Biochemistry and Molecular Biology, School of Biomedical Sciences, Monash University, Clayton, Victoria, 3800, Australia. lan.k.nguyen@monash.edu.Biomedicine Discovery Institute, Monash University, Clayton, Victoria, 3800, Australia. lan.k.nguyen@monash.edu.",
+        "orcid" : "0000-0003-4040-7705"
+      },
+      {
+        "name" : "Javier Muñoz-García",
+        "orcid" : "0000-0002-7594-9507"
+      },
+      {
+        "name" : "Helene Maccario"
+      },
+      {
+        "name" : "Aaron Ciechanover",
+        "orcid" : "0000-0001-9184-8944"
+      },
+      {
+        "name" : "Walter Kolch",
+        "institution" : "1] Systems Biology Ireland, University College Dublin, Dublin 4, Ireland [2] Conway Institute of Biomolecular & Biomedical Research, University College Dublin, Dublin 4, Ireland [3] School of Medicine and Medical Sciences, University College Dublin, Dublin 4, Ireland [4].",
+        "orcid" : "0000-0001-5777-5016"
+      },
+      {
+        "name" : "Boris N Kholodenko",
+        "orcid" : "0000-0002-9483-4975"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000622_url.xml",
+        "description" : "SBML L2V4 representation of NguyenLK2011 - Ubiquitination dynamics in Ring1B/Bmi1 system",
+        "fileSize" : "60987",
+        "mimeType" : "application/xml",
+        "md5sum" : "07ef46b772ef8dd8b60dbec5110c3135",
+        "sha1sum" : "829e83d1a27d4a061f347dcb5b47b0bb0b5b2447",
+        "sha256sum" : "0126389ac4ce208e07e8673ef9fec7f37e6ed805bcc8ba218b3eaf340c95f180"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000622-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "22107",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b4e7aa78e71816feb154a057a4b313f4",
+        "sha1sum" : "e1b67978aeb2e4b023f1a99d03e6f7a1281278ae",
+        "sha256sum" : "22fb5ef7eca9e7317cac59a6dabd62670faff20dcb4b38aef00efd906dba566a"
+      },
+      {
+        "name" : "BIOMD0000000622-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "35680",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3c15f52c78c19bbd61cbd0fa7435685b",
+        "sha1sum" : "4569975d7143a00a75625d4230174680d1acd5ed",
+        "sha256sum" : "ad7db8d5d91c827b9f4e1c3701677a52cdec28204eebf5b86da2ac962d1c24b0"
+      },
+      {
+        "name" : "BIOMD0000000622-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7927",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3c91c134b45b05b20e6260b8cc5f1add",
+        "sha1sum" : "1b47bd222559596c730e0ebf406aaea443ad5b49",
+        "sha256sum" : "68e7f91679c33020c3deefd959006be27422a95abb988b6e98ba9658ed82e7dc"
+      },
+      {
+        "name" : "BIOMD0000000622-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "7927",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f6d4f6a04a0a4a1eb6643cae4cd0ef49",
+        "sha1sum" : "bf710fc8b26120d4e2cd4ebdff110f72e2339117",
+        "sha256sum" : "2abbe3a1a22a76669bd4358ff87841c06987f2aaf9888c13df9dc1f9a7b71f68"
+      },
+      {
+        "name" : "BIOMD0000000622.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7927",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f6d4f6a04a0a4a1eb6643cae4cd0ef49",
+        "sha1sum" : "bf710fc8b26120d4e2cd4ebdff110f72e2339117",
+        "sha256sum" : "2abbe3a1a22a76669bd4358ff87841c06987f2aaf9888c13df9dc1f9a7b71f68"
+      },
+      {
+        "name" : "BIOMD0000000622.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5660",
+        "mimeType" : "text/plain",
+        "md5sum" : "66259fad92fc4820ffa074742407dbcc",
+        "sha1sum" : "3ed618bbeda58d080904f415cd566f935fffec15",
+        "sha256sum" : "b7b74c229f76e0c442b0419443aaef96e20842eeb5980eb4c804afedb4e79020"
+      },
+      {
+        "name" : "BIOMD0000000622.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "223641",
+        "mimeType" : "application/pdf",
+        "md5sum" : "ed90598dbe72a3390046420c607d4756",
+        "sha1sum" : "b4429917bce697e1914ca7a2d21e9b3f7d42f4dd",
+        "sha256sum" : "4a1fc04553f6ca42af6b8ad693ad5d600b127734ae972d48505f99866205289b"
+      },
+      {
+        "name" : "BIOMD0000000622.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "95062",
+        "mimeType" : "image/png",
+        "md5sum" : "a88dbe1119bbfbe88da995136147be64",
+        "sha1sum" : "74d335d4fd24c6a85fb0989825011b7c9d76596e",
+        "sha256sum" : "3872c9cd55a7acd838b65c2f7701dee42f245be739f7c92558e4b0484c971945"
+      },
+      {
+        "name" : "BIOMD0000000622.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "36008",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "942fcbf9a7a9654e71f025160836d3e6",
+        "sha1sum" : "f3ed36cbc1bfe6a64440c0d47aa040e6114d1868",
+        "sha256sum" : "6c9ec6e62d5d2e8859b01563c435d7faef750523e9509f2d59e779f0d66803d6"
+      },
+      {
+        "name" : "BIOMD0000000622.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "87154",
+        "mimeType" : "application/xml",
+        "md5sum" : "f08c45dd1684473dcf92d9bbfdbf7989",
+        "sha1sum" : "ea10e40444df45e5e48abff06ef7a3882a51f0b3",
+        "sha256sum" : "44118a1995f9899b330b90c7f9ea8338fb86ffefe5c47b207140401e5671a128"
+      },
+      {
+        "name" : "LanKN2011_Final.cps",
+        "description" : "Time course of the model when the initial conditions have high levels of free Bmil",
+        "fileSize" : "85269",
+        "mimeType" : "application/xml",
+        "md5sum" : "f8a4fd798202078891cd76912637d9bb",
+        "sha1sum" : "4693105d360a80d6a3739f3a99a381d9d950681e",
+        "sha256sum" : "c80275f2260b8b9b116dca1a32c2a33b211309181eaa336383eb556c76d6e75d"
+      },
+      {
+        "name" : "NguyenLK2011_High_Free_Bmi1_Levels.sedml",
+        "description" : "Time course of the model when the initial conditions have high levels of free Bmil (additionally CRBM-validated and adjusted).",
+        "fileSize" : "18434",
+        "mimeType" : "application/xml",
+        "md5sum" : "239e99f16603e95c650229b8cc744504",
+        "sha1sum" : "538dc73e9f1c5cee82cf24719dc502bc1dbc76e2",
+        "sha256sum" : "618a50743123f431fcc39029a6d367826e1c09dc9b3a330df659c8f937ec2697"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21765",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "70885fdd1456bf94c7633d1e76ebb2ec",
+        "sha1sum" : "54cf948820998e10a2c038fe4ef06f88bc4c3a55",
+        "sha256sum" : "8bfc0d88d1e86e4324aa0a409f24d2fc0393ee035db3de2e72976edffd89d187"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "559",
+        "mimeType" : "text/plain",
+        "md5sum" : "9be9a7eb46d7a5799476764af0668300",
+        "sha1sum" : "25843552e14526aa44d422519fea2cdd95cdd4a5",
+        "sha256sum" : "fe627c2887488c862071e3e3a55ea90b39704912613b0d2ad515763a6b88f189"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2050",
+        "mimeType" : "application/xml",
+        "md5sum" : "4bfbc89d131cb012825f762e985de139",
+        "sha1sum" : "7b48dcb3137989ede42f0a69e82f3085a565c3a7",
+        "sha256sum" : "faab487dbe0799fd844546302aeec4f1e10d1f6df6d3944d9020f7b8c38757ab"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5102",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "43a9564d9ad8bde485d79aa7184dc77e",
+        "sha1sum" : "5099342d777ea309c881a33604ea39e05041c5b0",
+        "sha256sum" : "40fd7ff7bc4e4d8b44961b90323c847c8689b07b17b90283dbc77f869a1ce2be"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1479315630,
+        "submitter" : "Thawfeek Varusai",
+        "comment" : "Original import of New Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1498230941,
+        "submitter" : "Thawfeek Varusai",
+        "comment" : "Current version of NguyenLK2011 - Ubiquitination dynamics in Ring1B/Bmi1 system"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545416397,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: LanKN2011_2.cps, LanKN2011_Final.cps, NguyenLK2011_High_Free_Bmi1_Levels.sedml, NguyenLK2011_High_Free_Bmi1ubd_Levels.sedml"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724284406,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285393,
+  "submissionId" : "MODEL1611160000",
+  "publicationId" : "BIOMD0000000622",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Thawfeek Varusai",
+        "email" : "tvarusai@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0030163",
+      "name" : "protein catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030163"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1611160000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1611160000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000622",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000622"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22194680",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22194680"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0016567",
+      "name" : "protein ubiquitination",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0016567"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

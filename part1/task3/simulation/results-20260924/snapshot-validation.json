@@ -1,0 +1,171 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "b/census.py",
+        "--offline"
+      ],
+      "cwd": "part1/task3",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "b/verify_api.py",
+        "--offline"
+      ],
+      "cwd": "part1/task3",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "b",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "cwd": "part1/task3",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--locked",
+        "python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "cwd": "part1/task3/a",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "part1/task3/c/check_outputs.py"
+      ],
+      "cwd": ".",
+      "returncode": 0
+    }
+  ],
+  "byte_identical_outputs": true,
+  "output_hashes": {
+    "part1/task3/b/model_pathway_pairs.csv": "45801577065ca91639a9c88d3b8d1bb9e128ef3704b09b1400fdfa2518ff26bd",
+    "part1/task3/b/model_ranking.csv": "3622231d152da7ceb1f75bfa370408c105bf80c88f11f031dc1d7328e18c6f5d",
+    "part1/task3/b/snapshot.json": "4210e5d9f9ee45a9b7318adab2d3e164b3f02451f7eea0548d87e4c3bba5b858",
+    "part1/task3/b/reactome_models.svg": "0ba2233ccba0576ce8b63ff80ae50e53e8d7c02f34c8c0a0919ffcce6eefdfc0",
+    "part1/task3/b/pathway_ranking.csv": "132d067c05beee99d86b4b2d623e337d3ea0c432fc37972ebd412042fd837b06",
+    "part1/task3/b/reactome_pathways.svg": "e6f0a361ff2f9664854bb5a9f252812cac025cbac595b5072ce9092c244c2b8a",
+    "part1/task3/b/pw_models.svg": "a6ed67a5105f442b131bbb5fc479296ceca860925651c0c730f630f4b5b0621b",
+    "part1/task3/b/panther.pathway_models.svg": "4e8f938776c46dbb2c5772f1fd3bbacf299c7227747c7331558b880340594780",
+    "part1/task3/b/panther.pathway_pathways.svg": "c6a7b472e4ed12bb29d04643bf4ba7b6ce52e5f59036e6e266e72b9d3542f7a0",
+    "part1/task3/b/kegg.pathway_models.svg": "a9a9a91fe11139be549ea9927a45a2e00f37a1e8f4a011f01a848dba365b51d3",
+    "part1/task3/b/pw_pathways.svg": "1497aa08a4c878223a56b933382a0667d5c4804e0f77cf68f482ea4a1bdb66ed",
+    "part1/task3/b/kegg.pathway_pathways.svg": "d1b5bce6f4bb04b018d5743804f3cd630b44066b159918f91cf76ab46e533c8c",
+    "part1/task3/b/inventory.csv": "1ae5372c5baa4ab1ae8fb437bc30e072af2dea6037a61122b6bda0abe04a4094"
+  },
+  "archived_files": 2316,
+  "snapshot": {
+    "started_utc": "2026-09-21T15:40:19.373906+00:00",
+    "query": "*:* AND curationstatus:\"Manually curated\"",
+    "scope": "All taxa and topics; individual manually curated entries",
+    "annotation_source": "API modelLevelAnnotations; principal SBML model.annotation if absent",
+    "ended_utc": "2026-09-21T15:52:57.642743+00:00",
+    "enumeration_stable": true,
+    "model_count": 1096,
+    "id_sha256": "5b0c5c679b91d6618a6c1311ce997d5a22b1d93d1e3c2295edd9de646bf033ab",
+    "formats": {
+      "SBML": 1075,
+      "Open Neural Network Exchange": 7,
+      "Other": 4,
+      "COMBINE archive": 9,
+      "MATLAB (Octave)": 1
+    },
+    "statuses": {
+      "no_pathway_annotations": 859,
+      "pathway_annotations": 237
+    },
+    "pair_counts": {
+      "kegg.pathway": 201,
+      "reactome": 108,
+      "panther.pathway": 4,
+      "pw": 33
+    },
+    "annotation_resources": {
+      "PubMed": 1394,
+      "Taxonomy": 1074,
+      "Gene Ontology": 1365,
+      "BioModels Database": 2546,
+      "Mathematical Modelling Ontology": 1101,
+      "Reactome": 108,
+      "KEGG Pathway": 202,
+      "Human Disease Ontology": 193,
+      "DOI": 192,
+      "Brenda Tissue Ontology": 194,
+      "OMIM": 5,
+      "Cell Type Ontology": 16,
+      "FMA": 9,
+      "unknown": 2,
+      "NARCIS": 1,
+      "Cell Cycle Ontology": 2,
+      "PANTHER Pathway": 4,
+      "Pathway Ontology": 33,
+      "": 68,
+      "Experimental Factor Ontology": 74,
+      "BRENDA": 1,
+      "Systems Biology Ontology": 4,
+      "Evidence Code Ontology": 1,
+      "BioAssay Ontology": 2,
+      "NCIt": 284,
+      "TEDDY": 8,
+      "KEGG Drug": 11,
+      "ChEBI": 26,
+      "Human Phenotype Ontology": 3,
+      "Enzyme Nomenclature": 2,
+      "KEGG Orthology": 1,
+      "ModelDB": 2,
+      "OMIT": 7,
+      "UniProt Knowledgebase": 1,
+      "Mammalian Phenotype Ontology": 1,
+      "Protein Ontology": 4,
+      "ISBN": 1,
+      "VariO": 2,
+      "Environment Ontology": 2,
+      "Ontology for Biomedical Investigations": 1,
+      "KEGG Compound": 1,
+      "Infectious Disease Ontology": 5,
+      "\nHuman Disease Ontology": 25,
+      "Mathematical Association of America": 1,
+      "BioModels": 1,
+      "NCI Thesaurus OBO Edition": 46,
+      "BTO (BRENDA Tissue Ontology)": 23,
+      "Experimental Factor Ontology (EFO)": 14,
+      "STATO: the statistical methods ontology": 5,
+      "GitHub repository": 6,
+      "OBI: Ontology for Biomedical Investigations": 5,
+      "ERO: eagle-i resource ontology": 1,
+      "OGG: Ontology of Genes and Genomes": 2,
+      "OBCS: Ontology of Biological and Clinical Statistics": 4,
+      "Software Ontology (SWO)": 2,
+      "PMID": 1,
+      "DICOM Controlled Terminology": 3,
+      "CLO: Cell Line Ontology": 2,
+      "Semanticscience Integrated Ontology": 1,
+      "Non-Coding RNA Ontology": 1,
+      "Gene Ontology (GO)": 5,
+      "EDAM Ontology": 1,
+      "GENO Ontology": 1,
+      "Ontology of Biological and Clinical Statistics": 1,
+      "Ontology of Genetic Susceptibility Factor": 1,
+      "NCIT(NCI Thesaurus)": 6
+    },
+    "offline_replay_supported": true
+  }
+}

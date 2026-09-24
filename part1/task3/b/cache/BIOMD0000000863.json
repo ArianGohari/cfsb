@@ -1,0 +1,266 @@
+{
+  "name" : "Kosinsky2018 - Radiation and PD-(L)1 treatment combinations",
+  "description" : "This is a quantitative systems pharmacology (QSP) model that describes key elements of the cancer immunity cycle and the tumor microenvironment, tumor growth, as well as dose-exposure-target modulation features. The model describes the synergistic kinetic effects underlying immune cell interactions as linked to tumor size modulation under immunotherapeutic and radiological treatments.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29486799",
+    "journal" : "Journal for immunotherapy of cancer",
+    "title" : "Radiation and PD-(L)1 treatment combinations: immune response and dose optimization via a predictive systems model.",
+    "affiliation" : "M&S Decisions, Moscow, Russian Federation.",
+    "synopsis" : "<h4>Background</h4>Numerous oncology combination therapies involving modulators of the cancer immune cycle are being developed, yet quantitative simulation models predictive of outcome are lacking. We here present a model-based analysis of tumor size dynamics and immune markers, which integrates experimental data from multiple studies and provides a validated simulation framework predictive of biomarkers and anti-tumor response rates, for untested dosing sequences and schedules of combined radiation (RT) and anti PD-(L)1 therapies.<h4>Methods</h4>A quantitative systems pharmacology model, which includes key elements of the cancer immunity cycle and the tumor microenvironment, tumor growth, as well as dose-exposure-target modulation features, was developed to reproduce experimental data of CT26 tumor size dynamics upon administration of RT and/or a pharmacological IO treatment such as an anti-PD-L1 agent. Variability in individual tumor size dynamics was taken into account using a mixed-effects model at the level of tumor-infiltrating T cell influx.<h4>Results</h4>The model allowed for a detailed quantitative understanding of the synergistic kinetic effects underlying immune cell interactions as linked to tumor size modulation, under these treatments. The model showed that the ability of T cells to infiltrate tumor tissue is a primary determinant of variability in individual tumor size dynamics and tumor response. The model was further used as an in silico evaluation tool to quantitatively predict, prospectively, untested treatment combination schedules and sequences. We demonstrate that anti-PD-L1 administration prior to, or concurrently with RT reveal further synergistic effects, which, according to the model, may materialize due to more favorable dynamics between RT-induced immuno-modulation and reduced immuno-suppression of T cells through anti-PD-L1.<h4>Conclusions</h4>This study provides quantitative mechanistic explanations of the links between RT and anti-tumor immune responses, and describes how optimized combinations and schedules of immunomodulation and radiation may tip the immune balance in favor of the host, sufficiently to lead to tumor shrinkage or rejection.",
+    "year" : 2018,
+    "month" : "2",
+    "volume" : "6",
+    "issue" : "1",
+    "pages" : "17",
+    "link" : "http://identifiers.org/pubmed/29486799",
+    "authors" : [
+      {
+        "name" : "Yuri Kosinsky",
+        "institution" : "M&S Decisions, Moscow, Russian Federation."
+      },
+      {
+        "name" : "Simon J Dovedi",
+        "institution" : "Oncology Research, MedImmune, Cambridge, UK."
+      },
+      {
+        "name" : "Kirill Peskov",
+        "institution" : "M&S Decisions, Moscow, Russian Federation.",
+        "orcid" : "0000-0003-0678-5729"
+      },
+      {
+        "name" : "Veronika Voronova",
+        "institution" : "M&S Decisions, Moscow, Russian Federation."
+      },
+      {
+        "name" : "Lulu Chu",
+        "institution" : "Early Clinical Development, IMED Biotech Unit, AstraZeneca, 35 Gatehouse Drive, Waltham, MA, 02451, USA."
+      },
+      {
+        "name" : "Helen Tomkinson",
+        "institution" : "Early Clinical Development, IMED Biotech Unit, AstraZeneca, Cambridge, UK."
+      },
+      {
+        "name" : "Nidal Al-Huniti",
+        "institution" : "Early Clinical Development, IMED Biotech Unit, AstraZeneca, 35 Gatehouse Drive, Waltham, MA, 02451, USA."
+      },
+      {
+        "name" : "Donald R Stanski",
+        "institution" : "Early Clinical Development, IMED Biotech Unit, AstraZeneca, Gaithersburg, MD, USA."
+      },
+      {
+        "name" : "Gabriel Helmlinger",
+        "institution" : "Early Clinical Development, IMED Biotech Unit, AstraZeneca, 35 Gatehouse Drive, Waltham, MA, 02451, USA. gabriel.helmlinger@astrazeneca.com.",
+        "orcid" : "0000-0003-4925-2463"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Kosinsky2018.xml",
+        "description" : "SBML L2V4 Representation of Kosinsky2018 - Radiation and PD-(L)1 treatment combinations",
+        "fileSize" : "93886",
+        "mimeType" : "application/xml",
+        "md5sum" : "04b819bd8a4dd5812d77a29a2d381bef",
+        "sha1sum" : "89f677255c217445053e5d8c4bd8336d8da2ba36",
+        "sha256sum" : "2b8422b235c0ef7178f39fe0564cf56f5efa6279d505d6c43be4d00cafd50b9b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Kosinsky2018-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "17831",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "89a9f709c45a4c3dc70df173d3b6abd1",
+        "sha1sum" : "0458359153802527667a062d5d896b14cfc6224c",
+        "sha256sum" : "7d611ef8c07e73388ee9c5d5100f151940c5593d851e84815447355f8c411551"
+      },
+      {
+        "name" : "Kosinsky2018-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "25390",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f16fc80d64631805d8a7c6be42c01241",
+        "sha1sum" : "a3e7293e2b46b46ec43b7adf5837ceb561351dde",
+        "sha256sum" : "c541804110574ccf9015a6e3dd06d890f72dc3f69e4e9d16ee19978dc606f0c7"
+      },
+      {
+        "name" : "Kosinsky2018-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b88c7221f8386f5c34df062cee559a45",
+        "sha1sum" : "90a7b1a1bd154078bc8b4ba16bfa7917e081f9eb",
+        "sha256sum" : "2cbe233571629332364dccae6806415b36f3ec880dbe6108bd2408209867dc95"
+      },
+      {
+        "name" : "Kosinsky2018-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4847e1c5a66c7a37ad5c990b9c929b63",
+        "sha1sum" : "0dc9e02879f4796eba43d2d43cae251b60af8a86",
+        "sha256sum" : "ea458e2a93f182c207e2dfc11b4e897336fcf3636be49032768fa6fa1402d026"
+      },
+      {
+        "name" : "Kosinsky2018.cps",
+        "description" : "COPASI file of Kosinsky2018 - Radiation and PD-(L)1 treatment combinations",
+        "fileSize" : "114251",
+        "mimeType" : "application/xml",
+        "md5sum" : "458a523173c89bb71d25d2bf0d02d87d",
+        "sha1sum" : "9204c9b4c17cc2775766c1bf1dbb86c0cb34a1da",
+        "sha256sum" : "a46f2558a9b8d948a7cbbdaa5e51272bfcdc910d9cc35f78fc3384060b5ce566"
+      },
+      {
+        "name" : "Kosinsky2018.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7033",
+        "mimeType" : "text/plain",
+        "md5sum" : "e3f17e63ec9dc98461ab6ec02fa1cc6a",
+        "sha1sum" : "9545377a90056f801400127e3d63e7b00dd1e3f5",
+        "sha256sum" : "bfae42ebc316b5710d49f6e3e4103dbcc368475fd6af872e55522c901d3a27ad"
+      },
+      {
+        "name" : "Kosinsky2018.sedml",
+        "description" : "SED-ML file of Kosinsky2018 - Radiation and PD-(L)1 treatment combinations (additionally CRBM-validated and adjusted).",
+        "fileSize" : "27720",
+        "mimeType" : "application/xml",
+        "md5sum" : "9a456af1f6678ef29774dad806e5eeda",
+        "sha1sum" : "4d0aa1870bbdaba8c97f8d34ee857271ee7cebf2",
+        "sha256sum" : "ec6be8fe5af961eacc41dac43f16007797792a8fcb42da6f4d063ecf26d0aead"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "103215",
+        "mimeType" : "image/png",
+        "md5sum" : "c7a4a3ce613959c56d63e735d8591d7e",
+        "sha1sum" : "7061af6c89782dd5956dd5e05a507ad9f1af3420",
+        "sha256sum" : "d3051272dda346b0612c4f656226af7e26e1797d211d8c59b64b75a28e7754c4"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "165",
+        "mimeType" : "text/plain",
+        "md5sum" : "d2c8b464339b399288b4e4627ff2b255",
+        "sha1sum" : "b58721e7731c6c6185d83156f1956edcd154778b",
+        "sha256sum" : "ebfc02a44ae0a33d55027405fdc85fcada53007a891c7213eda5377e5b579d5f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1427",
+        "mimeType" : "application/xml",
+        "md5sum" : "604ca84388f15db29dcaaf14b1ab0b5c",
+        "sha1sum" : "cd06794aa90e35b0ee799aa441a303d542992b22",
+        "sha256sum" : "063ca5637015098c9c9e80cdbe518b7ef5f15f8d366a85a51c39ff93ae3525bd"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2204",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1cd3f10bc202a7fbc13bd07fc1f88817",
+        "sha1sum" : "c7da95d91a7429a2698b8cafaafcc70e0824f203",
+        "sha256sum" : "82df123410412cf363b1fea87c5ef6e1a42f3b0c5cf0575efe7d29c428a60589"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 3,
+        "submitted" : 1573741305,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000863"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724291543,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285514,
+  "submissionId" : "MODEL1911140003",
+  "publicationId" : "BIOMD0000000863",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29486799",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29486799"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1911140003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1911140003"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000863",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000863"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "NCIT:C15313",
+      "name" : "Radiation Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15313"
+    }
+  ]
+}

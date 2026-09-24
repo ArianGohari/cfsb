@@ -1,0 +1,438 @@
+{
+  "name" : "Proctor2011_ProteinHomeostasis_NormalCondition",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Modelling the Role of the Hsp70/Hsp90 System in the Maintenance of Protein Homeostasis</strong>        <br />Proctor CJ,  Lorimer IAJ      <em>PLoS ONE</em>2011; 6(7): e22038.      <a href=\"http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0022038\">doi:10.1371/journal.pone.0022038</a>,      <br />        <strong>Abstract:</strong>        <br />Neurodegeneration is an age-related disorder which is characterised by the accumulation of aggregated protein and neuronal cell death. There are many different neurodegenerative diseases which are classified according to the specific proteins involved and the regions of the brain which are affected. Despite individual differences, there are common mechanisms at the sub-cellular level leading to loss of protein homeostasis. The two central systems in protein homeostasis are the chaperone system, which promotes correct protein folding, and the cellular proteolytic system, which degrades misfolded or damaged proteins. Since these systems and their interactions are very complex, we use mathematical modelling to aid understanding of the processes involved. The model developed in this study focuses on the role of Hsp70 (IPR00103) and Hsp90 (IPR001404) chaperones in preventing both protein aggregation and cell death. Simulations were performed under three different conditions: no stress; transient stress due to an increase in reactive oxygen species; and high stress due to sustained increases in reactive oxygen species. The model predicts that protein homeostasis can be maintained during short periods of stress. However, under long periods of stress, the chaperone system becomes overwhelmed and the probability of cell death pathways being activated increases. Simulations were also run in which cell death mediated by the JNK (P45983) and p38 (Q16539) pathways was inhibited. The model predicts that inhibiting either or both of these pathways may delay cell death but does not stop the aggregation process and that eventually cells die due to aggregated protein inhibiting proteasomal function. This problem can be overcome if the sequestration of aggregated protein into inclusion bodies is enhanced. This model predicts responses to reactive oxygen species-mediated stress that are consistent with currently available experimental data. The model can be used to assess specific interventions to reduce cell death due to impaired protein homeostasis.   </p>        <p>          <b>Note:</b>        </p>        <p> Simulations were performed under three different conditions: 1) normal condition (no stress), 2) moderate stress due to an increase in reactive oxygen species (ROS) i.e. ROS levels were increased by a factor of 4 at time=4hours for a period of 1 hour (not 2 hours as mentioned in the figure 5 legend of the reference publication. This is a typo in the paper and is clarified by the author) and 3) high stress due to sustained increase in reactive oxygen species (ROS) (here ROS increases with time).</p>        <p> The model that corresponds to the normal condition is submitted as a main model in the BioModels Database. The other two models, that corresponds to the moderate stress conditions and high stress conditions are available in SBML format as supporting files [go to Curation tab].</p>        <p> Supplementary figures S3 (normal condition), S4 (moderate stress condition) and S6 (high stress condition) are reproduced here. </p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21779370",
+    "journal" : "PloS one",
+    "title" : "Modelling the role of the Hsp70/Hsp90 system in the maintenance of protein homeostasis.",
+    "affiliation" : "Centre for Integrated Systems Biology of Ageing and Nutrition, Institute for Ageing and Health, Newcastle University, Newcastle upon Tyne, United Kingdom. c.j.proctor@ncl.ac.uk",
+    "synopsis" : "Neurodegeneration is an age-related disorder which is characterised by the accumulation of aggregated protein and neuronal cell death. There are many different neurodegenerative diseases which are classified according to the specific proteins involved and the regions of the brain which are affected. Despite individual differences, there are common mechanisms at the sub-cellular level leading to loss of protein homeostasis. The two central systems in protein homeostasis are the chaperone system, which promotes correct protein folding, and the cellular proteolytic system, which degrades misfolded or damaged proteins. Since these systems and their interactions are very complex, we use mathematical modelling to aid understanding of the processes involved. The model developed in this study focuses on the role of Hsp70 (IPR00103) and Hsp90 (IPR001404) chaperones in preventing both protein aggregation and cell death. Simulations were performed under three different conditions: no stress; transient stress due to an increase in reactive oxygen species; and high stress due to sustained increases in reactive oxygen species. The model predicts that protein homeostasis can be maintained during short periods of stress. However, under long periods of stress, the chaperone system becomes overwhelmed and the probability of cell death pathways being activated increases. Simulations were also run in which cell death mediated by the JNK (P45983) and p38 (Q16539) pathways was inhibited. The model predicts that inhibiting either or both of these pathways may delay cell death but does not stop the aggregation process and that eventually cells die due to aggregated protein inhibiting proteasomal function. This problem can be overcome if the sequestration of aggregated protein into inclusion bodies is enhanced. This model predicts responses to reactive oxygen species-mediated stress that are consistent with currently available experimental data. The model can be used to assess specific interventions to reduce cell death due to impaired protein homeostasis.",
+    "year" : 2011,
+    "month" : "0",
+    "volume" : "6",
+    "issue" : "7",
+    "pages" : "e22038",
+    "link" : "http://identifiers.org/pubmed/21779370",
+    "authors" : [
+      {
+        "name" : "Carole J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "Ian A J Lorimer"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000344_url.xml",
+        "description" : "SBML L2V4 representation of Proctor2011_ProteinHomeostasis_NormalCondition",
+        "fileSize" : "151858",
+        "mimeType" : "application/xml",
+        "md5sum" : "49d7e5680324c833c0ade845ca33807d",
+        "sha1sum" : "177dfa1f3c0bdee5a1a17129fa77715b02d64f15",
+        "sha256sum" : "01772436f6c29ae0195f8be3e6b2a976a6b340c49aac27ebbeeac27eb3238c1e"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000344-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "154574",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "99b134dd723770113d2b4f0bd26deb90",
+        "sha1sum" : "28d7d824aebbd6fe06d7191f4370a1f523e09966",
+        "sha256sum" : "ee1f269923474354657145f9f1fa99e1362176b6e39328695ba6b5139401b25c"
+      },
+      {
+        "name" : "BIOMD0000000344-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "272722",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "be06cf5a6a1daf011ebd38afac7deef3",
+        "sha1sum" : "b4ab2d817531e812c271156b318a1cff0cac5da1",
+        "sha256sum" : "37812944b85adcfe143ea730a73eb919f92d93d7cc619ff5fe169bbec8a2b9cf"
+      },
+      {
+        "name" : "BIOMD0000000344-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "33607",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "32f554827ba60eb971fb39875172d2a8",
+        "sha1sum" : "43766f9fac9055e1efb6acdae678d920e7f08602",
+        "sha256sum" : "2ef21b518d7e1b994a645004c9b1265f196e1023faa24b4e835804ed9b0caedf"
+      },
+      {
+        "name" : "BIOMD0000000344-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "33607",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "971ff52b3be545e12017f921dfd02938",
+        "sha1sum" : "1fab054f8b2e5fea8bf1fc0c199163d4f3f2dd5d",
+        "sha256sum" : "888e767da4af186816ee23faa94611191788ce3ef9d3941d53ba30947cb5ec08"
+      },
+      {
+        "name" : "BIOMD0000000344.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "33607",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "971ff52b3be545e12017f921dfd02938",
+        "sha1sum" : "1fab054f8b2e5fea8bf1fc0c199163d4f3f2dd5d",
+        "sha256sum" : "888e767da4af186816ee23faa94611191788ce3ef9d3941d53ba30947cb5ec08"
+      },
+      {
+        "name" : "BIOMD0000000344.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25384",
+        "mimeType" : "text/plain",
+        "md5sum" : "7a09214be4bc9c35f3c2949cfcc85496",
+        "sha1sum" : "0c1e3702cd4cef736982bd97fbbcd6d8c20082a4",
+        "sha256sum" : "5ef8d800f9072fc7f2bef7f4b305dccaf63ac054cfeee64815ca52f248bcdeb2"
+      },
+      {
+        "name" : "BIOMD0000000344.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "518946",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9c73ee15f0172276f33fd8f331ea3336",
+        "sha1sum" : "fe30026728c047fa858124d7ef9e720caa3aa592",
+        "sha256sum" : "a8a13502c07e6eaba43e7b5825c0c56a26f918724df04577b6edbc7ad59426eb"
+      },
+      {
+        "name" : "BIOMD0000000344.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "1817115",
+        "mimeType" : "image/png",
+        "md5sum" : "dbfeda1df99739c2d0bd41ea66a906b2",
+        "sha1sum" : "69c57db1e4911f0ac11dd16b97259b765ecb42d9",
+        "sha256sum" : "da203827929bb3e31994b46cefe8547e9c622fe073793ea064c92ae8ee492e54"
+      },
+      {
+        "name" : "BIOMD0000000344.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "222751",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "419bd7db1d36a28974962428dc868630",
+        "sha1sum" : "d5ea1116255126dda16128d4690053f6a120dcca",
+        "sha256sum" : "06be8ec7aaa90c49e067ef06e65404daa4a958c59c7b2682667a10bc83ac47a9"
+      },
+      {
+        "name" : "BIOMD0000000344_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "124311",
+        "mimeType" : "application/xml",
+        "md5sum" : "852361f6aba9b4c8ddecab20adfc6577",
+        "sha1sum" : "eb96bc3a8f0aa162309aef386eaaeb006b8bfa74",
+        "sha256sum" : "d7c74370a635870d393fa1f6b41ff46ace1486ae5d0c4e358bdeb285ff75c629"
+      },
+      {
+        "name" : "MODEL1005280000_highstress-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "127058",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a3add5eed2595598573265b258479dff",
+        "sha1sum" : "9f7167121eb1a1931ec1cbf1d8328839d0a3dcf8",
+        "sha256sum" : "d6538f9d8f797146ef66eef8dbddb8605e964ca9d2d919c7216dafdc1fec6920"
+      },
+      {
+        "name" : "MODEL1005280000_highstress-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "241146",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6b8545913d2d5ee91a00ec5a5387b6f6",
+        "sha1sum" : "d376f7e682b2de79b8e146ae044a455625dd1bda",
+        "sha256sum" : "3e065462a501d7493486f8a29148ab0caf26dbc619c8b987b13e2a3ab0b28436"
+      },
+      {
+        "name" : "MODEL1005280000_highstress-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "33376",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "48f673de3218e44c003d040ceb4c5132",
+        "sha1sum" : "36d242fa498eb2c7fc4746beeca276ea0347ecec",
+        "sha256sum" : "93b9b9e3ee2d509be1ba559684b1e090dc83d32481b605a284edabc8700565cb"
+      },
+      {
+        "name" : "MODEL1005280000_highstress-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "33376",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "785598034209f97e14a3356d25ef5d2c",
+        "sha1sum" : "033d9d626572c3982d71088685cfe070b6d708e7",
+        "sha256sum" : "f4b806e525e904304352747b03e1ce3c88ded8710249cbbedf5c4e8a4e610c2a"
+      },
+      {
+        "name" : "MODEL1005280000_highstress.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "25150",
+        "mimeType" : "text/plain",
+        "md5sum" : "f0ea6728794d11ed799643bb24cd4f0d",
+        "sha1sum" : "0126eab2db94b1c75d81e0a93fd53a8d23b0099b",
+        "sha256sum" : "2a13d547ce93f979def152518e82ad2ab05e3e3035be5879f0e23149b170f305"
+      },
+      {
+        "name" : "MODEL1005280000_highstress.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "124332",
+        "mimeType" : "application/xml",
+        "md5sum" : "5d695d1e1e0334a113977f622c4f545c",
+        "sha1sum" : "bec732a838549636ec9d117fc8d5b504f0d935ec",
+        "sha256sum" : "54a1233a4b6773f6fbb41efb6efe1ed451aa06f132fa67082a3aa51bcdee6c5d"
+      },
+      {
+        "name" : "MODEL1005280000_highstress.xml",
+        "description" : "To obtain this plot, constant rate of ROS production should be replaced with a rate that increases linearly with time. This is done by including a time variable in the rate law.",
+        "fileSize" : "71629",
+        "mimeType" : "application/xml",
+        "md5sum" : "5c1f6bdabb5fd1e39d3f6ff4b5cbf02b",
+        "sha1sum" : "bdf3d4dcbb459b633ca44526834b9e4af6a365a1",
+        "sha256sum" : "fda1bee50b987c7824c1a955049f6887f69a8e03bf31172f06be1b5318751b67"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "127058",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a3add5eed2595598573265b258479dff",
+        "sha1sum" : "9f7167121eb1a1931ec1cbf1d8328839d0a3dcf8",
+        "sha256sum" : "d6538f9d8f797146ef66eef8dbddb8605e964ca9d2d919c7216dafdc1fec6920"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "241146",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6b8545913d2d5ee91a00ec5a5387b6f6",
+        "sha1sum" : "d376f7e682b2de79b8e146ae044a455625dd1bda",
+        "sha256sum" : "3e065462a501d7493486f8a29148ab0caf26dbc619c8b987b13e2a3ab0b28436"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "32830",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "42b177257cd5f0f0c6f9ce0cc9e919a2",
+        "sha1sum" : "2c7fee955621232af90de0232e042401ca8a6e54",
+        "sha256sum" : "eb0ac87c841e1699020179a6973eec9467fd7f655d1718261583537befbcc59d"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "32830",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0342185b18d1bd4e513fa255080c70bb",
+        "sha1sum" : "9914dfe0fe6a82a463346895e195d2c91cb4c2f6",
+        "sha256sum" : "e145c64a9d674adc2bf5c95c11254850d397708efbba2917a6b731cfd1f87408"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "24993",
+        "mimeType" : "text/plain",
+        "md5sum" : "e39c02d02a032df47a39b829bb4a4ade",
+        "sha1sum" : "2ed42082ebdd5045edf1a4fb3d278b5e3c68286a",
+        "sha256sum" : "656b8bd1c6f4375008ba678925310b07d75451eacbd17d2d1d9241cbb951f83d"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "124344",
+        "mimeType" : "application/xml",
+        "md5sum" : "e0f31b2a645aa31c3f0447ded94025f4",
+        "sha1sum" : "21379fd3ab0cc7c48027ffd54b39ba2abc8f3202",
+        "sha256sum" : "8539ffe1e55cc37e4ab9dc31bc5e5f4c506f977d9d49b30f464097d3dee96f6d"
+      },
+      {
+        "name" : "MODEL1005280000_moderatestress.xml",
+        "description" : "To obtain this plot, ROS levels should be increased by a factor of 4 at time = 4 hours for a period of 1 hour.",
+        "fileSize" : "72191",
+        "mimeType" : "application/xml",
+        "md5sum" : "422e1ae77d75dcd5dd26dc9d614626fd",
+        "sha1sum" : "3718f8634da3924bfb5555ee312147fd734dbb4f",
+        "sha256sum" : "e67549ee8c4d34aca32fad29e2c7033d045092a20412f404c2ae083be65124cb"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "52223",
+        "mimeType" : "image/png",
+        "md5sum" : "a724ece699261d84a0c2faf40d605edc",
+        "sha1sum" : "888b4e25478f20b5af9fa81772e72970eccc7318",
+        "sha256sum" : "55f3ba6989fddc078fbf09668c30adcd47420f79fae8f7720a000a852592ceac"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "848",
+        "mimeType" : "text/plain",
+        "md5sum" : "c0c792784f265f044d9f73a29622b5f0",
+        "sha1sum" : "46041b60b8463b1158d1652d31edd67a91d26057",
+        "sha256sum" : "e446640eba88d59ded02f0d7da097cc8a58a38aed5fd15e158f5b60735620836"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "3670",
+        "mimeType" : "application/xml",
+        "md5sum" : "534c4db0b776bf170327451554e1df2c",
+        "sha1sum" : "75840dddb27464014bf762034afa25b2d95d9748",
+        "sha256sum" : "f4fcd8b6cd36ab990c99078662e9ece969a2177784c928c8b257d17daee85a93"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5380",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9b0188a7419a05fbf8628bea858c7952",
+        "sha1sum" : "e80ecb9e353aeac646de1a14fd3d29fe0f4d7137",
+        "sha256sum" : "d6754a06aa370d6e386052d32d8c613beb16426b49928013ce88cb5ef40c6e7e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1275047133,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of BIOMD0000000344.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138512,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Proctor2011_ProteinHomeostasis_NormalCondition"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545412447,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: MODEL1005280000_moderatestress.xml, MODEL1005280000_highstress.xml"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724274190,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285061,
+  "submissionId" : "MODEL1005280000",
+  "publicationId" : "BIOMD0000000344",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1005280000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1005280000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000344",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000344"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21779370",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21779370"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000091",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000091"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051085",
+      "name" : "chaperone mediated protein folding requiring cofactor",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051085"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006915",
+      "name" : "apoptotic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006915"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0003773",
+      "name" : "obsolete heat shock protein activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0003773"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0070841",
+      "name" : "inclusion body assembly",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070841"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7711",
+      "name" : "Chordata",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7711"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1289",
+      "name" : "neurodegenerative disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1289"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

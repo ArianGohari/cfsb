@@ -1,0 +1,283 @@
+{
+  "name" : "Cao2008 - Network of a toggle switch",
+  "description" : "Youfang Cao & Jie Liang. Optimal enumeration of state space of finitely buffered stochastic molecular networks and exact computation of steady state landscape probability. BMC Systems Biology 2 (2008).<p></p><p></p>Stochasticity plays important roles in many molecular networks when molecular concentrations are in the range of 0.1 muM to 10nM (about 100 to 10 copies in a cell). The chemical master equation provides a fundamental framework for studying these networks, and the time-varying landscape probability distribution over the full microstates, i.e., the combination of copy numbers of molecular species, provide a full characterization of the network dynamics. A complete characterization of the space of the microstates is a prerequisite for obtaining the full landscape probability distribution of a network. However, there are neither closed-form solutions nor algorithms fully describing all microstates for a given molecular network.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18373871",
+    "journal" : "BMC systems biology",
+    "title" : "Optimal enumeration of state space of finitely buffered stochastic molecular networks and exact computation of steady state landscape probability.",
+    "affiliation" : "Shanghai Center for Systems Biomedicine (SCSB), Shanghai Jiao Tong University, Shanghai, 200240, China. yfcao@sjtu.edu.cn",
+    "synopsis" : "<h4>Background</h4>Stochasticity plays important roles in many molecular networks when molecular concentrations are in the range of 0.1 muM to 10nM (about 100 to 10 copies in a cell). The chemical master equation provides a fundamental framework for studying these networks, and the time-varying landscape probability distribution over the full microstates, i.e., the combination of copy numbers of molecular species, provide a full characterization of the network dynamics. A complete characterization of the space of the microstates is a prerequisite for obtaining the full landscape probability distribution of a network. However, there are neither closed-form solutions nor algorithms fully describing all microstates for a given molecular network.<h4>Results</h4>We have developed an algorithm that can exhaustively enumerate the microstates of a molecular network of small copy numbers under the condition that the net gain in newly synthesized molecules is smaller than a predefined limit. We also describe a simple method for computing the exact mean or steady state landscape probability distribution over microstates. We show how the full landscape probability for the gene networks of the self-regulating gene and the toggle-switch in the steady state can be fully characterized. We also give an example using the MAPK cascade network. Data and server will be available at URL: http://scsb.sjtu.edu.cn/statespace.<h4>Conclusion</h4>Our algorithm works for networks of small copy numbers buffered with a finite copy number of net molecules that can be synthesized, regardless of the reaction stoichiometry, and is optimal in both storage and time complexity. The algorithm can also be used to calculate the rates of all transitions between microstates from given reactions and reaction rates. The buffer size is limited by the available memory or disk storage. Our algorithm is applicable to a class of biological networks when the copy numbers of molecules are small and the network is closed, or the network is open but the net gain in newly synthesized molecules does not exceed a predefined buffer capacity. For these networks, our method allows full stochastic characterization of the mean landscape probability distribution, and the steady state when it exists.",
+    "year" : 2008,
+    "month" : "3",
+    "volume" : "2",
+    "pages" : "30",
+    "link" : "http://identifiers.org/pubmed/18373871",
+    "authors" : [
+      {
+        "name" : "Youfang Cao",
+        "institution" : "Ministry of Education Key Laboratory of Systems Biomedicine, Shanghai Center for Systems Biomedicine, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "orcid" : "0000-0002-5880-0006"
+      },
+      {
+        "name" : "Jie Liang"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000483_url.xml",
+        "description" : "SBML L2V4 representation of Cao2008 - Network of a toggle switch",
+        "fileSize" : "20997",
+        "mimeType" : "application/xml",
+        "md5sum" : "d239a995cb79d874d87a22d8c518b428",
+        "sha1sum" : "fefacf21c94c860b93f4aa67e2222236c7c34fb8",
+        "sha256sum" : "50f2d7cf4cd14c4c1953ef8ae07a3efe35cea2af7e84baf5ab35ad188fa23406"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000483-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "17100",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "91e0d896b3bb39a02521d22a6326ca21",
+        "sha1sum" : "4b07adaaacc7b4de3cdb803d0f45861c2bc070f0",
+        "sha256sum" : "985dce05a4dbe459dadfd17d8ef9aa75929b1018aeced96f63aec652db9586b8"
+      },
+      {
+        "name" : "BIOMD0000000483-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "25706",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0a1f890676ac5cb067887dff14a0a76b",
+        "sha1sum" : "902944970287a8793e70cb8dde67169298483a59",
+        "sha256sum" : "e0e758b6213f6614c090124c72336e3693b866c6e865d6c924f2468748a621ed"
+      },
+      {
+        "name" : "BIOMD0000000483-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4773",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "990e4c2f6ee5e0368ccc6efcc38d7d45",
+        "sha1sum" : "219dd7e8efa0faf2fbdee82d393e5b1d1761a918",
+        "sha256sum" : "652b07985af7f677ffbee7a8d78ca2c2f255dc3ece78d01a057f1331773d6b33"
+      },
+      {
+        "name" : "BIOMD0000000483-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4773",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a7c5a89e292a8f40f0b7fd247efa30c5",
+        "sha1sum" : "557495ac98c3a552977ea2569db9c701ec3b92a9",
+        "sha256sum" : "a205d1356426a52efe7a0628ab996effa748b739699ba15bcf8b9f6b2182ca95"
+      },
+      {
+        "name" : "BIOMD0000000483.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "4773",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a7c5a89e292a8f40f0b7fd247efa30c5",
+        "sha1sum" : "557495ac98c3a552977ea2569db9c701ec3b92a9",
+        "sha256sum" : "a205d1356426a52efe7a0628ab996effa748b739699ba15bcf8b9f6b2182ca95"
+      },
+      {
+        "name" : "BIOMD0000000483.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2676",
+        "mimeType" : "text/plain",
+        "md5sum" : "9d75edf45b31229f4476923d4a91bb7b",
+        "sha1sum" : "437afdbdd59ea10ecb661394ff9827ae4fa8007f",
+        "sha256sum" : "f144dbfa018917c156b4cf7a8c45975d69445d0b3774f956cec1f88c4df5e5be"
+      },
+      {
+        "name" : "BIOMD0000000483.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "173049",
+        "mimeType" : "application/pdf",
+        "md5sum" : "969b189ef1b25bc5b449f429847cc5c5",
+        "sha1sum" : "9e7bfa7f663f61d83b03a053863f00584786f716",
+        "sha256sum" : "12b2aa9b78e4c22e26df871ae16d259391997180bbde5a12297104512be163d7"
+      },
+      {
+        "name" : "BIOMD0000000483.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "85535",
+        "mimeType" : "image/png",
+        "md5sum" : "c88c4432a5713076e7946c8cb4f3cd2a",
+        "sha1sum" : "f94e9808ddc2628f82c7cb809c375fbd97159f79",
+        "sha256sum" : "397fa24d430291ca865a235e6ee20958bbfc1c64daadeea766bc8761b176cce7"
+      },
+      {
+        "name" : "BIOMD0000000483.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "2762",
+        "mimeType" : "text/plain",
+        "md5sum" : "335101bc9c125cae0c89c07437b55671",
+        "sha1sum" : "c5a5df95917dd82637769b2c172505324b26c3f8",
+        "sha256sum" : "c29168d8c14dcfae210845518b93d54021c16ae6ee430a4ea75323a344fe810f"
+      },
+      {
+        "name" : "BIOMD0000000483.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "23824",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "d6b3d5dcdb31562e53839eb60da8e12b",
+        "sha1sum" : "f2f89b4352b2c6f4a8cd543a7f4c33c86f9bccac",
+        "sha256sum" : "3dd214a99ea26fdddb3e03ce76cfc060b9685d6047854b13cc7e76f7ce65de31"
+      },
+      {
+        "name" : "BIOMD0000000483.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "28822",
+        "mimeType" : "application/xml",
+        "md5sum" : "7ad55ad5f942406f5029c8e6e4dbb840",
+        "sha1sum" : "e85da17374a5b60b926d2a14d96cdc30a769dd66",
+        "sha256sum" : "a33c0967f603e41cec0ad441744969a8806df23e4d327985ea5a07a586c84081"
+      },
+      {
+        "name" : "BIOMD0000000483_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "15256",
+        "mimeType" : "application/xml",
+        "md5sum" : "f2620af84d79e48716e695e08d62f226",
+        "sha1sum" : "71ca71cc31e840aa50bb3311c265399f9d1c2d37",
+        "sha256sum" : "6075b5485f9e32f8c0d5fd3621fca3e6469019acb307c9f09a2f9ed1eebd4613"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "6442",
+        "mimeType" : "image/png",
+        "md5sum" : "627f9fe1cb8a7ab0b83c6aa59b025075",
+        "sha1sum" : "11fa3b94eda0d46f709c7960979f4f5d224bd0fa",
+        "sha256sum" : "6fddfb0135c9d4803c71eccc09207a0142c92dddf3ba7ee0e7238d26a5690de2"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "237",
+        "mimeType" : "text/plain",
+        "md5sum" : "8f4fe087541dcc1fe1f893a17ded8abb",
+        "sha1sum" : "b70c1b31ac4ea7ab2f64e0cc09efd37a4ccdf0d4",
+        "sha256sum" : "33e723c5615a3e55fcdd58fd370acbd5c09e1b6b118479308b13d9442ce8167b"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "41398cce7d65d8037f0f62882bd8c92c",
+        "sha1sum" : "a2918755f0853f6b854f7e780f06b948bd58573e",
+        "sha256sum" : "2db919967de1ace0cbd2c279d55d4405462615ba450e9fceb369df169145ae1c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1711",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "50bd8567e70eb2b285cab4f838e7a68a",
+        "sha1sum" : "3e1f463effc0e924448ede41852ed17d825e0e13",
+        "sha256sum" : "ccd8c7ac978952c994f1194502baf6dd39b7626eefec386ac03c08d8948a3647"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1375997663,
+        "submitter" : "Youfang Cao",
+        "comment" : "Original import of BIOMD0000000483.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424809305,
+        "submitter" : "Youfang Cao",
+        "comment" : "Current version of Cao2008 - Network of a toggle switch"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724278775,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285226,
+  "submissionId" : "MODEL1308080008",
+  "publicationId" : "BIOMD0000000483",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Youfang Cao",
+        "email" : "youfang@uic.edu",
+        "affiliation" : "University of Illinois at Chicago",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1308080008",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1308080008"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000483",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000483"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18373871",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18373871"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0010468",
+      "name" : "regulation of gene expression",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0010468"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

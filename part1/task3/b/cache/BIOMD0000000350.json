@@ -1,0 +1,291 @@
+{
+  "name" : "Troein2011_ClockCircuit_OstreococcusTauri",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This model is from the article:      <br />        <strong> Multiple light inputs to a simple clock circuit allow complex biological rhythms</strong>        <br />Troein C, Corellou F, Dixon LE, van Ooijen G, O'Neill JS, Bouget FY, Millar AJ.      <em>Plant J.</em>2011 Apr;66(2):375-85.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21219507\">21219507</a>,      <br />        <strong>Abstract:</strong>        <br />Circadian clocks are biological timekeepers that allow living cells to time their activity in anticipation of predictable environmental changes. Detailed understanding of the circadian network of higher plants, such as Arabidopsis thaliana, is hampered by the high number of partially redundant genes. However, the picoeukaryotic alga Ostreococcus tauri, which was recently shown to possess a small number of non-redundant clock genes, presents an attractive alternative target for detailed modelling of circadian clocks in the green lineage. Based on extensive time-series data from in vivo reporter gene assays, we developed a model of the Ostreococcus clock as a feedback loop between the genes TOC1 and CCA1. The model reproduces the dynamics of the transcriptional and translational reporters over a range of photoperiods. Surprisingly, the model is also able to predict the transient behaviour of the clock when the light conditions are altered. Despite the apparent simplicity of the clock circuit, it displays considerable complexity in its response to changing light conditions. Systematic screening of the effects of altered day length revealed a complex relationship between phase and photoperiod, which is also captured by the model. The complex light response is shown to stem from circadian gating of light-dependent mechanisms. This study provides insights into the contributions of light inputs to the Ostreococcus clock. The model suggests that a high number of light-dependent reactions are important for flexible timing in a circadian clock with only one feedback loop.   </p>        <p>          <b>Note: Two-gene model of the Ostreococcus circadian clock</b>        </p>        <p dir=\"ltr\">This is a model of the circadian clock of Ostreococcus tauri, with a negative feedback loop between TOC1 and CCA1 (a.k.a. LHY) and multiple light inputs. It was used and described in Troein et al., Plant Journal (2011).</p>        <p dir=\"ltr\">The model incorporates luciferase reporters, and in this SBML model the four different versions of the model for transcriptional and translational reporter lines (pTOC1::LUC, pCCA1::LUC, TOC1-LUC and CCA1-LUC) are all accessible by setting one of the rep_X parameters to 1 and the others to 0. You can also set all four to 0 to only simulate the non-reporter core of the system.</p>        <p dir=\"ltr\">Input to the system should be provided by modifying the \"light\" function. An implementation of LD 12:12 is provided as an example, but the model was also used with more complicated light regimes that vary between data sets and are not convenient to express directly in SBML.</p>        <p dir=\"ltr\">The functions \"ox_cca1\" and \"ox_toc1\" can be altered to add overexpression of CCA1 and TOC1. Setting either to <span style=\"font-style:italic\">x</span> gives additional, constitutive transcription at <span style=\"font-style:italic\">x</span> times the maximal (and typically not realizable) transcription rate of the native gene. The overexpression mutant fits in Figure 7 of Troein et al. (2011) used ox_cca1 = 0.115 and oc_toc1 = 0.0584, respectively. </p>        <p dir=\"ltr\">The functions \"copies_toc1\" and \"copies_cca1\" are normally 1 but can be lowered to simulate knockdown experiments. The functions \"transcription\", \"translation\" and \"proteasome\" can be modified to simulate the effects of altering the overall rate of transcription, translation and protein degradation.</p>        <p dir=\"ltr\">The parameters were fitted specifically to data from transgenic reporter lines TOC8, pTOC3, LHY7 and pLHY7 (Corellou et al., Plant Cell 2009). Parameters that begin with \"effcopies\" describe the effective number of copies of CCA1 or TOC1 in the respective translational fusion lines, with anything above 1 due to the fusion proteins.</p>        <p dir=\"ltr\">For the model fitting, the initial values were fitted to the data in the various time courses. The initial values given here correspond to the limit cycle of the system in LD 12:12. The system converges to the limit cycle in just a few days under most light conditions, so these initial values are biologically meaningful.</p>        <p dir=\"ltr\">The species cca1luc_c and cca1luc_n have been merged into cca1luc (which corresponds to the observable luminescence signal), because Copasi refused to run the system otherwise. For TOC1-LUC, the predicted output signal is the sum of toc1luc_1 and toc1luc_2.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21219507",
+    "journal" : "The Plant journal : for cell and molecular biology",
+    "title" : "Multiple light inputs to a simple clock circuit allow complex biological rhythms.",
+    "affiliation" : "School of Biological Sciences, University of Edinburgh and Centre for Systems Biology at Edinburgh, Edinburgh EH93JD, UK.",
+    "synopsis" : "Circadian clocks are biological timekeepers that allow living cells to time their activity in anticipation of predictable environmental changes. Detailed understanding of the circadian network of higher plants, such as Arabidopsis thaliana, is hampered by the high number of partially redundant genes. However, the picoeukaryotic alga Ostreococcus tauri, which was recently shown to possess a small number of non-redundant clock genes, presents an attractive alternative target for detailed modelling of circadian clocks in the green lineage. Based on extensive time-series data from in vivo reporter gene assays, we developed a model of the Ostreococcus clock as a feedback loop between the genes TOC1 and CCA1. The model reproduces the dynamics of the transcriptional and translational reporters over a range of photoperiods. Surprisingly, the model is also able to predict the transient behaviour of the clock when the light conditions are altered. Despite the apparent simplicity of the clock circuit, it displays considerable complexity in its response to changing light conditions. Systematic screening of the effects of altered day length revealed a complex relationship between phase and photoperiod, which is also captured by the model. The complex light response is shown to stem from circadian gating of light-dependent mechanisms. This study provides insights into the contributions of light inputs to the Ostreococcus clock. The model suggests that a high number of light-dependent reactions are important for flexible timing in a circadian clock with only one feedback loop.",
+    "year" : 2011,
+    "month" : "4",
+    "volume" : "66",
+    "issue" : "2",
+    "pages" : "375-385",
+    "link" : "http://identifiers.org/pubmed/21219507",
+    "authors" : [
+      {
+        "name" : "Carl Troein",
+        "institution" : "School of Biological Sciences, University of Edinburgh and Centre for Systems Biology at Edinburgh, Edinburgh EH93JD, UK."
+      },
+      {
+        "name" : "Florence Corellou",
+        "orcid" : "0000-0001-8026-2120"
+      },
+      {
+        "name" : "Laura E Dixon"
+      },
+      {
+        "name" : "Gerben van Ooijen",
+        "orcid" : "0000-0001-7967-0637"
+      },
+      {
+        "name" : "John S O'Neill",
+        "orcid" : "0000-0003-2204-6096"
+      },
+      {
+        "name" : "François-Yves Bouget"
+      },
+      {
+        "name" : "Andrew J Millar",
+        "orcid" : "0000-0003-1756-3654"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000350_url.xml",
+        "description" : "SBML L2V4 representation of Troein2011_ClockCircuit_OstreococcusTauri",
+        "fileSize" : "121517",
+        "mimeType" : "application/xml",
+        "md5sum" : "e5c6ea8bacd13c4ad8bf5af416565df6",
+        "sha1sum" : "17e3053bee0a8cb64a1b483bf217eb85584f8f11",
+        "sha256sum" : "94249454a8471072988e7a1c635e0373dbb7bac66953bbe8ab8ea6f796b413db"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000350-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "29986",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f896bb56dc2f561f4b083ea49f457eef",
+        "sha1sum" : "be472dc1e78420af4a56e3eb0fe227510e9c8ec1",
+        "sha256sum" : "e2017d504b221192c79dc875b18f249ad01858e6f9b24d348da7b92332b10c39"
+      },
+      {
+        "name" : "BIOMD0000000350-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "47310",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3e14cc6e7382034aaf144882aed4936b",
+        "sha1sum" : "2d059ff808c4f37934b0e386072531882aca7d89",
+        "sha256sum" : "f08648820cfc18377a92051a5ea483bf9e789212a17e895308c12970fd751e97"
+      },
+      {
+        "name" : "BIOMD0000000350-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "15650",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0e8fcb2c16bc77c75294fb06b42f0885",
+        "sha1sum" : "09ea1ae3e6f79921741ce926a58856b76dedcadc",
+        "sha256sum" : "27585ea5fbeffcc8c43bec97c2c2dc8f684677429f4e062cabec66320fa9230c"
+      },
+      {
+        "name" : "BIOMD0000000350.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "15650",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c32cf9ee78c0ffa1c146eb9ef8337d10",
+        "sha1sum" : "52441eba9c9c897361d4b35deb292ed0258e7ee3",
+        "sha256sum" : "732dc1453652a511b030e33f33901c7db97c610bb4be9389af05cfb7993b389d"
+      },
+      {
+        "name" : "BIOMD0000000350.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "13089",
+        "mimeType" : "text/plain",
+        "md5sum" : "70b9c229b6f0f32fa7eb7ec7963f965d",
+        "sha1sum" : "952c054c0937d98e97bdf3ff9777014f5674a14d",
+        "sha256sum" : "3f86f44d3f059ea56f5998ba5bfae87bfc1bd44a2a77b27a5734f9f8b1125632"
+      },
+      {
+        "name" : "BIOMD0000000350.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "299119",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d79600e605b89e4fb5c1054d2df632c5",
+        "sha1sum" : "03f0dd3b06f14aa4f34bdc4cad84d9aa1e5979f4",
+        "sha256sum" : "4a6b0bbb384b41a2c66b202d671ad83f316729c962f385718cb672f311e1becc"
+      },
+      {
+        "name" : "BIOMD0000000350.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "117684",
+        "mimeType" : "image/png",
+        "md5sum" : "6731129e5b7ab406174ce265dd0e88d2",
+        "sha1sum" : "d1852b9842f2dedcac9dccfc9a1b0a89843e1229",
+        "sha256sum" : "d890d1f3e19988b341435a6a14fbe9c19fcfd0b01c8f93ded3f4967db21d0542"
+      },
+      {
+        "name" : "BIOMD0000000350.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "58411",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2d0b1cbbce5be4fc79ce395dd9d22c13",
+        "sha1sum" : "5467714a00baf8827c4b8fc3fb516f55e7dc687a",
+        "sha256sum" : "c4aa5a60595f274f2e2b9cb92e55c9d438e46d502675b3bb46c116204c3db321"
+      },
+      {
+        "name" : "BIOMD0000000350.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "126718",
+        "mimeType" : "application/xml",
+        "md5sum" : "faaa01af403faeda032da17f7c584726",
+        "sha1sum" : "6e410a0b0571cc760d9be762b2823235b3f3c522",
+        "sha256sum" : "6e07d156f6b19f4bddf96a434c709241f061118ab8b5255daa38d3b5fe59a96f"
+      },
+      {
+        "name" : "BIOMD0000000350_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "44175",
+        "mimeType" : "application/xml",
+        "md5sum" : "8263d6960491630105f784acc458e485",
+        "sha1sum" : "9b5f759025081439892d70309da22741bd4e97e3",
+        "sha256sum" : "58f53ab4327b913ff511528c6ae1bf5a93dc2a096bb32011412561f8d248c15a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "61857",
+        "mimeType" : "image/png",
+        "md5sum" : "5c4820304fae920a4e95ae51bb18b17f",
+        "sha1sum" : "f0cc935e5d805b93cb5f3e25377d15f6867329ee",
+        "sha256sum" : "01adb1fec14bd97caa4b08fa4c9de0a80cc88957984331c057cf8f8b8efca236"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "652",
+        "mimeType" : "text/plain",
+        "md5sum" : "5fdd1076a4006310fd32019e7bd5070a",
+        "sha1sum" : "9847edc96433fc93b8786f4c57982d08829a8486",
+        "sha256sum" : "5e6b6bfc018b02bdfaa0b7cc11fa9854d2ef99aa0aec5c026971693606317ce8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "04f9c18e7ca94a6a4a18340cb579bae2",
+        "sha1sum" : "8827663e4da8bf7f1eb945b868dc03a8a8973609",
+        "sha256sum" : "0d170d7f7d4f7d9f989a8100892f8d644d0312689ec09e47b4945cdf95e28320"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7811",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2d7eae32424acfdd6426d57d40ccbd72",
+        "sha1sum" : "50af0a2d610c03fcf443d094c492a3750f4f5e75",
+        "sha256sum" : "e3f698289473dd00b23873a00cac578c7ac6d08d53a61e9b775dfa3775bbd19f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1311409534,
+        "submitter" : "Andrew J Millar",
+        "comment" : "Original import of BIOMD0000000350.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138539,
+        "submitter" : "Andrew J Millar",
+        "comment" : "Current version of Troein2011_ClockCircuit_OstreococcusTauri"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274349,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285067,
+  "submissionId" : "MODEL1107230000",
+  "publicationId" : "BIOMD0000000350",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Andrew J Millar",
+        "email" : "andrew.millar@ed.ac.uk",
+        "affiliation" : "Institute of Molecular Plant Sciences, University of Edinburgh",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1107230000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1107230000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000350",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000350"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21219507",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21219507"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "map04710",
+      "name" : "Circadian rhythm",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/map04710"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "70448",
+      "name" : "Ostreococcus tauri",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/70448"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

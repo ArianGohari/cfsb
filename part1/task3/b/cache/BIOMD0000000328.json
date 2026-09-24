@@ -1,0 +1,317 @@
+{
+  "name" : "Bucher2011_Atorvastatin_Metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is the model of atorvastatin metabolism in hepaitc cells described in the article:<br />        <strong>A systems biology approach to dynamic modeling and inter-subject variability of statin pharmacokinetics in human hepatocytes</strong>        <br />Joachim Bucher , Stephan Riedmaier , Anke Schnabel , Katrin Marcus , Gabriele Vacun , Thomas S Weiss , Wolfgang E Thasler , Andreas K Nussler , Ulrich M Zanger  and Matthias Reuss. BMC Systems Biology 2011, 5:66. DOI:<a href=\"http://dx.doi.org/10.1186/1752-0509-5-66\">10.1186/1752-0509-5-66</a>      </p>      <p>Abstract:<br />Background:<br />The individual character of pharmacokinetics is of great importance in the risk assessment of new drug leads in pharmacological research. Amongst others, it is severely influenced by the properties and inter-individual variability of the enzymes and transporters of the drug detoxification system of the liver. Predicting individual drug biotransformation capacity requires quantitative and detailed models.<br />Results:<br />In this contribution we present the de novo deterministic modeling of atorvastatin biotransformation based on comprehensive published knowledge on involved metabolic and transport pathways as well as physicochemical properties. The model was evaluated in primary human hepatocytes and parameter identifiability analysis was performed under multiple experimental constraints. Dynamic simulations of atorvastatin biotransformation considering the inter-individual variability of the two major involved enzymes CYP3A4 and UGT1A3 based on quantitative protein expression data in a large human liver bank (n=150) highlighted the variability in the individual biotransformation profiles and therefore also points to the individuality of pharmacokinetics.<br />Conclusions:<br />A dynamic model for the biotransformation of atorvastatin has been developed using quantitative metabolite measurements in primary human hepatocytes. The model comprises kinetics for transport processes and metabolic enzymes as well as population liver expression data allowing us to assess the impact of inter-individual variability of concentrations of key proteins. Application of computational tools for parameter sensitivity analysis enabled us to considerably improve the validity of the model and to create a consistent framework for precise computer-aided simulations in toxicology.</p>      <p>The model is parameterized for patient 1 and reproduces the time courses in figure 2 of the article.</p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21548957",
+    "journal" : "BMC systems biology",
+    "title" : "A systems biology approach to dynamic modeling and inter-subject variability of statin pharmacokinetics in human hepatocytes.",
+    "affiliation" : "Institute of Biochemical Engineering, Allmandring, and Center Systems Biology, Nobelstraße, University of Stuttgart, Germany.",
+    "synopsis" : "<h4>Background</h4>The individual character of pharmacokinetics is of great importance in the risk assessment of new drug leads in pharmacological research. Amongst others, it is severely influenced by the properties and inter-individual variability of the enzymes and transporters of the drug detoxification system of the liver. Predicting individual drug biotransformation capacity requires quantitative and detailed models.<h4>Results</h4>In this contribution we present the de novo deterministic modeling of atorvastatin biotransformation based on comprehensive published knowledge on involved metabolic and transport pathways as well as physicochemical properties. The model was evaluated on primary human hepatocytes and parameter identifiability analysis was performed under multiple experimental constraints. Dynamic simulations of atorvastatin biotransformation considering the inter-individual variability of the two major involved enzymes CYP3A4 and UGT1A3 based on quantitative protein expression data in a large human liver bank (n = 150) highlighted the variability in the individual biotransformation profiles and therefore also points to the individuality of pharmacokinetics.<h4>Conclusions</h4>A dynamic model for the biotransformation of atorvastatin has been developed using quantitative metabolite measurements in primary human hepatocytes. The model comprises kinetics for transport processes and metabolic enzymes as well as population liver expression data allowing us to assess the impact of inter-individual variability of concentrations of key proteins. Application of computational tools for parameter sensitivity analysis enabled us to considerably improve the validity of the model and to create a consistent framework for precise computer-aided simulations in toxicology.",
+    "year" : 2011,
+    "month" : "5",
+    "volume" : "5",
+    "pages" : "66",
+    "link" : "http://identifiers.org/pubmed/21548957",
+    "authors" : [
+      {
+        "name" : "Joachim Bucher",
+        "institution" : "Institute of Biochemical Engineering, Allmandring, and Center Systems Biology, Nobelstraße, University of Stuttgart, Germany."
+      },
+      {
+        "name" : "Stephan Riedmaier"
+      },
+      {
+        "name" : "Anke Schnabel"
+      },
+      {
+        "name" : "Katrin Marcus"
+      },
+      {
+        "name" : "Gabriele Vacun"
+      },
+      {
+        "name" : "Thomas S Weiss",
+        "orcid" : "0000-0003-0336-0581"
+      },
+      {
+        "name" : "Wolfgang E Thasler"
+      },
+      {
+        "name" : "Andreas K Nüssler"
+      },
+      {
+        "name" : "Ulrich M Zanger"
+      },
+      {
+        "name" : "Matthias Reuss"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000328_url.xml",
+        "description" : "SBML L2V4 representation of Bucher2011_Atorvastatin_Metabolism",
+        "fileSize" : "128316",
+        "mimeType" : "application/xml",
+        "md5sum" : "67f74e210bb94b5b07f419b7494a3255",
+        "sha1sum" : "9898ca2e9218f2f9b69a51d8b818abf0d6ff3664",
+        "sha256sum" : "e8567bee48fef5b68567a67f90969cef203e359092e307a6f1b69674ae9699a0"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000328-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "37340",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "30bed267bf69f45deff4aa34143ee01e",
+        "sha1sum" : "d93c7901ee7fec4f646c64766ebe0d9b5f71bb19",
+        "sha256sum" : "514536e23e8affeb56a9d726c7ce0bd9069c7bcf9857c41ac93be7975d6e3e98"
+      },
+      {
+        "name" : "BIOMD0000000328-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "63097",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8dfb12f38ee614beed52b1dd42d3778d",
+        "sha1sum" : "c2885d1c189597f8dfffd73949a1b729ed58f3c7",
+        "sha256sum" : "3126c56adfea37c3623bd2b71caab39930934fe1e6d05fe349cda3993379c903"
+      },
+      {
+        "name" : "BIOMD0000000328-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "12769",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fa52dacb51bd67b20c8cb21a9a92cc3a",
+        "sha1sum" : "89628b4dc4f7982fdc37cbeb24fb800d8116ee7d",
+        "sha256sum" : "cd15265d266dade34d47b38bdb714eb3ccb6288622921a2febf17908dd52a429"
+      },
+      {
+        "name" : "BIOMD0000000328-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "12769",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bb4bcee7e132af957168bc2e680fa9ea",
+        "sha1sum" : "3ff02a6a79bcd60b7085a28b4327e6168da8ffba",
+        "sha256sum" : "0ad0ce8462cc1aa958c7611c2866ccdbbcfca6d7aa0d6629c6334b3b51528290"
+      },
+      {
+        "name" : "BIOMD0000000328.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "12769",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bb4bcee7e132af957168bc2e680fa9ea",
+        "sha1sum" : "3ff02a6a79bcd60b7085a28b4327e6168da8ffba",
+        "sha256sum" : "0ad0ce8462cc1aa958c7611c2866ccdbbcfca6d7aa0d6629c6334b3b51528290"
+      },
+      {
+        "name" : "BIOMD0000000328.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9106",
+        "mimeType" : "text/plain",
+        "md5sum" : "24a250abe9878de1f054d0a967ca5c8d",
+        "sha1sum" : "6323a4e3d98ad90c11d2d35a48e8a7e72e90719c",
+        "sha256sum" : "b1f03cdea51014cbbf0ae34fefda6a223c06b4c06f5591ec9c711f0c7f7762e0"
+      },
+      {
+        "name" : "BIOMD0000000328.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "269291",
+        "mimeType" : "application/pdf",
+        "md5sum" : "16e747aed57eb2051000f43414d7a998",
+        "sha1sum" : "dc7a8373183d9cff0ad91dbcdae55046abb97e47",
+        "sha256sum" : "3533579e5a160a7b6aa881f5af03801ea5aef2ffd95e61d9689ec2898c924ace"
+      },
+      {
+        "name" : "BIOMD0000000328.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "173890",
+        "mimeType" : "image/png",
+        "md5sum" : "ce4a701f98f75ec7d28ceb4f1beacc1f",
+        "sha1sum" : "52a4b110134d76cb1ca112d58c39466863e25677",
+        "sha256sum" : "0f5493dc90a77602bbdca9b8af13188ef4f1995da2ea41d834b940dab254a0c3"
+      },
+      {
+        "name" : "BIOMD0000000328.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "58839",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f1f8c2dcc87caa6ef88024ef72ed6c19",
+        "sha1sum" : "33f8a9d332afd0caa56e4e8d40ef561d4130cae8",
+        "sha256sum" : "c43dae4b94fe819b1ebab20c3487acfe8cd2dcfa1ed482452ede97f8695479cf"
+      },
+      {
+        "name" : "BIOMD0000000328_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "48267",
+        "mimeType" : "application/xml",
+        "md5sum" : "a11bfa96b44d8e959af20ccf1cedc9f1",
+        "sha1sum" : "da82d932a647bd966b5b5ffea841b456b7c96d97",
+        "sha256sum" : "8fa1754f5b1fbf9a6ec51647195fa0e64d7835929885523cb628d9a9647cd166"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "72014",
+        "mimeType" : "image/png",
+        "md5sum" : "43c33e1e222f33c062410364a989ffd4",
+        "sha1sum" : "48388f3730445fa2a1631d0e30038844f571a703",
+        "sha256sum" : "8402e392523e59767bedbb7c900a2bbe55864cdb9cc6a720d7f96f306e155fcc"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "94",
+        "mimeType" : "text/plain",
+        "md5sum" : "4c1ffe739e4ded2725a87db508c10cd9",
+        "sha1sum" : "de280c2cb7a099341f5afee6f08a7bff6d842444",
+        "sha256sum" : "9e8c83698336e40cfc5989acd826688a8f299d788dd8086b14ff988bc7118578"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "999ac5099a4a633f5ae2b4e04bb0d41a",
+        "sha1sum" : "688fad67e017934749d248acafb5dcb82d2f6ae1",
+        "sha256sum" : "c7ee0fc49fcbf1a93040581b118227b303254796a393cea38d951ff31e9f4168"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4585",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b4acb0f2a30336aa51e1bf69324997cb",
+        "sha1sum" : "742ec929a3db8133948c84f929de5633c39454a5",
+        "sha256sum" : "bab63cbdf719c3d529ee370143ff9e6151fee4170fa9fc5f33744900efed4e72"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1300642471,
+        "submitter" : "Joachim Bucher",
+        "comment" : "Original import of BIOMD0000000328.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460138425,
+        "submitter" : "Joachim Bucher",
+        "comment" : "Current version of Bucher2011_Atorvastatin_Metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724273675,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285043,
+  "submissionId" : "MODEL1103200000",
+  "publicationId" : "BIOMD0000000328",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Joachim Bucher",
+        "email" : "bucher@ibvt.uni-stuttgart.de",
+        "affiliation" : "Institute of Biochemical Engineering, University of Stuttgart, Stuttgart, Germany",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1103200000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1103200000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000328",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000328"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21548957",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21548957"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000575",
+      "name" : "hepatocyte",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000575"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0036273",
+      "name" : "response to statin",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0036273"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006707",
+      "name" : "cholesterol catabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006707"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:114",
+      "name" : "heart disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:114"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1461",
+      "name" : "cholesterol embolism",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1461"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

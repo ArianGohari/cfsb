@@ -1,0 +1,280 @@
+{
+  "name" : "Bornheimer2004_GTPaseCycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is according to the paper      <i>Computational modeling reveals how interplay between components of a GTPase-cycle module regulates signal transduction</i>          by Bornheimer et al 2004.The figure 3 is reproduced by Copasi 4.0.19 (development) .It is three-dimensional logarithmic plots show the output of simulations of Z and v at various concentrations of R and GAP.      </p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15520372",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Computational modeling reveals how interplay between components of a GTPase-cycle module regulates signal transduction.",
+    "affiliation" : "Departments of Chemistry and Biochemistry, Cellular and Molecular Medicine, and Bioengineering and San Diego Supercomputer Center, University of California at San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA.",
+    "synopsis" : "Heterotrimeric G protein signaling is regulated by signaling modules composed of heterotrimeric G proteins, active G protein-coupled receptors (Rs), which activate G proteins, and GTPase-activating proteins (GAPs), which deactivate G proteins. We term these modules GTPase-cycle modules. The local concentrations of these proteins are spatially regulated between plasma membrane microdomains and between the plasma membrane and cytosol, but no data or models are available that quantitatively explain the effect of such regulation on signaling. We present a computational model of the GTPase-cycle module that predicts that the interplay of local G protein, R, and GAP concentrations gives rise to 16 distinct signaling regimes and numerous intermediate signaling phenomena. The regimes suggest alternative modes of the GTPase-cycle module that occur based on defined local concentrations of the component proteins. In one mode, signaling occurs while G protein and receptor are unclustered and GAP eliminates signaling; in another, G protein and receptor are clustered and GAP can rapidly modulate signaling but does not eliminate it. Experimental data from multiple GTPase-cycle modules is interpreted in light of these predictions. The latter mode explains previously paradoxical data in which GAP does not alter maximal current amplitude of G protein-activated ion channels, but hastens signaling. The predictions indicate how variations in local concentrations of the component proteins create GTPase-cycle modules with distinctive phenotypes. They provide a quantitative framework for investigating how regulation of local concentrations of components of the GTPase-cycle module affects signaling.",
+    "year" : 2004,
+    "month" : "11",
+    "volume" : "101",
+    "issue" : "45",
+    "pages" : "15899-15904",
+    "link" : "http://identifiers.org/pubmed/15520372",
+    "authors" : [
+      {
+        "name" : "Scott J Bornheimer",
+        "institution" : "Departments of Chemistry and Biochemistry, Cellular and Molecular Medicine, and Bioengineering and San Diego Supercomputer Center, University of California at San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA."
+      },
+      {
+        "name" : "Mano R Maurya"
+      },
+      {
+        "name" : "Marilyn Gist Farquhar"
+      },
+      {
+        "name" : "Shankar Subramaniam"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000086_url.xml",
+        "description" : "SBML L2V1 representation of Bornheimer2004_GTPaseCycle",
+        "fileSize" : "61830",
+        "mimeType" : "application/xml",
+        "md5sum" : "b2f0a805c47905b3ea104a7a9f3f8beb",
+        "sha1sum" : "3cc9ae9ffacd5f7f9923f998d9fb603bf7b38a67",
+        "sha256sum" : "190a032d46d5a1f0be3c88b598d2437ba5715798cbdb6d9dd050dd2898ff14a4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000086-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "48874",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "01993abdcfba3dc883af0e609ccc5473",
+        "sha1sum" : "f5f006865c5e4c460414fe59b07bfa70d103af38",
+        "sha256sum" : "d4f4af6c5cb1f74863b8a439ebd0d1d44f36517cbf862075b10cf7ae1333147d"
+      },
+      {
+        "name" : "BIOMD0000000086-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "80580",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9d714b87af78f69e7ec58aa9df56a023",
+        "sha1sum" : "05dd3ba9e78e929748a3e105ce888936db72fb4f",
+        "sha256sum" : "8df63fd36781e8d8d5f0591bbb854ea342b0d5e72475c1457f72bfdd2adb4996"
+      },
+      {
+        "name" : "BIOMD0000000086-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14835",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b8ec97daea89d748d840ad001e8e417c",
+        "sha1sum" : "41f760281362a6dbcbb86d009f4d2c5e0a5476e0",
+        "sha256sum" : "1a4d89f2c7eddbefceaf97c732b5add86f3ee8c0aa2a0ae415d5c8c9a624b26c"
+      },
+      {
+        "name" : "BIOMD0000000086-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14835",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cfc34040a8805fefbbf0baaa7a11c6e9",
+        "sha1sum" : "6de14925562d338cb68ddb8d01d0f211287f0e6c",
+        "sha256sum" : "2fc1f54a0cfb354c5800221730c7de8b99e5b4ef348333d04c5cefb54ae51733"
+      },
+      {
+        "name" : "BIOMD0000000086.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14835",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cfc34040a8805fefbbf0baaa7a11c6e9",
+        "sha1sum" : "6de14925562d338cb68ddb8d01d0f211287f0e6c",
+        "sha256sum" : "2fc1f54a0cfb354c5800221730c7de8b99e5b4ef348333d04c5cefb54ae51733"
+      },
+      {
+        "name" : "BIOMD0000000086.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11078",
+        "mimeType" : "text/plain",
+        "md5sum" : "209cffc9121a86cd6a4e37de9651f473",
+        "sha1sum" : "8335da24ba554249adfb9e32573d2944d9701d1b",
+        "sha256sum" : "23b56a7562167c8b5d09ce20a91fdae38a0b68fc95c0f06ebb1ae23ef68b773f"
+      },
+      {
+        "name" : "BIOMD0000000086.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "266311",
+        "mimeType" : "application/pdf",
+        "md5sum" : "47d221718d4dad89a4b3a9c3d42a0e5d",
+        "sha1sum" : "9a699caf8f7c2de88c0197f34c1b947fec163707",
+        "sha256sum" : "df0dfcf20750fe1e2e47c98aba4ceef0b5e8fed4a3ab6d13f71cee2ae156ca9e"
+      },
+      {
+        "name" : "BIOMD0000000086.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "304781",
+        "mimeType" : "image/png",
+        "md5sum" : "2c0eaa4dc0a6ecc689088337f071aa3a",
+        "sha1sum" : "423dadce35fc6d704453eb3f4ea9c7be9717b0a4",
+        "sha256sum" : "e74ab4f102beab3b03f9e6ca5b928b062a3515b8a3085937fd0565499db99258"
+      },
+      {
+        "name" : "BIOMD0000000086.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "64286",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "25a347fe8394c9949505ec60fc7f761e",
+        "sha1sum" : "4d9814f50f9c3ee99868e8fe4626d7b257827653",
+        "sha256sum" : "7e70284e98e5723b0e1488317ef27146a155f1bfd4664d8cb4d154a45f41ea29"
+      },
+      {
+        "name" : "BIOMD0000000086.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "85046",
+        "mimeType" : "application/xml",
+        "md5sum" : "a582d68e0c8ad8a45f17cce33b45fb50",
+        "sha1sum" : "d0ce73649daf3f9fa9d91990cb47c35aa320513b",
+        "sha256sum" : "a8488b8eb81729eb644f04e36174b1c96c7ab9ded765a4fa00b1c078783950ae"
+      },
+      {
+        "name" : "BIOMD0000000086_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "28563",
+        "mimeType" : "application/xml",
+        "md5sum" : "349ab57d90ea6cf9c1c28f1bb861cb6f",
+        "sha1sum" : "69cf297adbc669e92775abc568772ba2ae4f947b",
+        "sha256sum" : "561c2c53352309d30d05e1c2641dce9fb348fe367c39c77d0e57d2f68c9f6684"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "34349",
+        "mimeType" : "image/png",
+        "md5sum" : "4876c11a0fe300bf3b9cc3133da8e11d",
+        "sha1sum" : "ea861edaba3c8f4c67acdb253b84e0ffdc9db0d6",
+        "sha256sum" : "68efd2d67c146aa08b2087e1a45295c7b69ce6a509bf75ebbf847046d52fe95b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "71",
+        "mimeType" : "text/plain",
+        "md5sum" : "9b6e83b404866c5e720aab0773159f88",
+        "sha1sum" : "112a4bfc4591c444407cc9b645ca0880af94509a",
+        "sha256sum" : "5e221dbaf2ebdbf99fb72f44d75f26e3a0a0150956bced32dec9a0c840564194"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "fcce742f4bde336aee30efde7dec4bf6",
+        "sha1sum" : "755f452a3943edcdce610bc091edd7a7e610d215",
+        "sha256sum" : "c13a69f8e05827a2d549f90e365324e59057e57e7b678d31a08ec9e20c0044b1"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3417",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c77f0e6704e4f1aed57744449bd7f7c",
+        "sha1sum" : "ef5c2b3c528e5ac7ee3a449ba1a2892267576514",
+        "sha256sum" : "bcf78dfb14f81b432b0ce4483e15caab999670e94b2f2e171442f0d3af4fec85"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1165852326,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Bornheimer2004_GTPaseCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341503392,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Bornheimer2004_GTPaseCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267008,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284871,
+  "submissionId" : "MODEL4822989369",
+  "publicationId" : "BIOMD0000000086",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0008277",
+      "name" : "regulation of G-protein coupled receptor protein signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008277"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4822989369",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4822989369"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000086",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000086"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15520372",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15520372"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

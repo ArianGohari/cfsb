@@ -1,0 +1,332 @@
+{
+  "name" : "Leber2016 - Expanded model of Tfh-Tfr differentiation - Helicobacter pylori infection",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Leber2016 - Expanded model of Tfh-Tfrdifferentiation - Helicobacter pylori infection</div><div class=\"dc:description\">  <br /></div><div class=\"dc:provenance\">The parameters used in the model wereobtained from experiments conducted by the authors, previouspublications [ <a href=\"http://identifiers.org/pubmed/19628815\">1</a>, <a href=\"http://identifiers.org/pubmed/24590764\">2</a>, <a href=\"http://identifiers.org/pubmed/19631565\">3</a>] andparameter optimisation carried out in the paper using particleswarm and genetic algorithms. </div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/26947272\" title=\"Access to this publication\">Bistability analyses of CD4+    T follicular helper and regulatory cells during Helicobacter    pylori infection.</a>  </div>  <div class=\"bibo:authorList\">Leber A, Abedi V, Hontecillas R,  Viladomiu M, Hoops S, Ciupe S, Caughman J, Andrew T,  Bassaganya-Riera J.</div>  <div class=\"bibo:Journal\">J. Theor. Biol. 2016 Jun; 398:  74-84</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>T follicular helper (Tfh) cells are a highly plastic subset    of CD4+ T cells specialized in providing B cell help and    promoting inflammatory and effector responses during infectious    and immune-mediate diseases. Helicobacter pylori is the    dominant member of the gastric microbiota and exerts both    beneficial and harmful effects on the host. Chronic    inflammation in the context of H. pylori has been linked to an    upregulation in T helper (Th)1 and Th17 CD4+ T cell phenotypes,    controlled in part by the cytokine, interleukin-21. This study    investigates the differentiation and regulation of Tfh cells,    major producers of IL-21, in the immune response to H. pylori    challenge. To better understand the conditions influencing the    promotion and inhibition of a chronically elevated Tfh    population, we used top-down and bottom-up approaches to    develop computational models of Tfh and T follicular regulatory    (Tfr) cell differentiation. Stability analysis was used to    characterize the presence of two bi-stable steady states in the    calibrated Tfh/Tfr models. Stochastic simulation was used to    illustrate the ability of the parameter set to dictate two    distinct behavioral patterns. Furthermore, sensitivity analysis    helped identify the importance of various parameters on the    establishment of Tfh and Tfr cell populations. The core network    model was expanded into a more comprehensive and predictive    model by including cytokine production and signaling pathways.    From the expanded network, the interaction between TGFB-Induced    Factor Homeobox 1 (Tgif1) and the retinoid X receptor (RXR) was    displayed to exert control over the determination of the Tfh    response. Model simulations predict that Tgif1 and RXR    respectively induce and curtail Tfh responses. This    computational hypothesis was validated experimentally by    assaying Tgif1, RXR and Tfh in stomachs of mice infected with    H. pylori.</p>  </div></div><div class=\"bm:curation\">The impulse of RXR as shown in the paper(figure 7C) can be implemented by creating an event in the curatedSBML file.<br /></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000625\">BIOMD0000000625</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "26947272",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Bistability analyses of CD4+ T follicular helper and regulatory cells during Helicobacter pylori infection.",
+    "affiliation" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA.",
+    "synopsis" : "T follicular helper (Tfh) cells are a highly plastic subset of CD4+ T cells specialized in providing B cell help and promoting inflammatory and effector responses during infectious and immune-mediate diseases. Helicobacter pylori is the dominant member of the gastric microbiota and exerts both beneficial and harmful effects on the host. Chronic inflammation in the context of H. pylori has been linked to an upregulation in T helper (Th)1 and Th17 CD4+ T cell phenotypes, controlled in part by the cytokine, interleukin-21. This study investigates the differentiation and regulation of Tfh cells, major producers of IL-21, in the immune response to H. pylori challenge. To better understand the conditions influencing the promotion and inhibition of a chronically elevated Tfh population, we used top-down and bottom-up approaches to develop computational models of Tfh and T follicular regulatory (Tfr) cell differentiation. Stability analysis was used to characterize the presence of two bi-stable steady states in the calibrated Tfh/Tfr models. Stochastic simulation was used to illustrate the ability of the parameter set to dictate two distinct behavioral patterns. Furthermore, sensitivity analysis helped identify the importance of various parameters on the establishment of Tfh and Tfr cell populations. The core network model was expanded into a more comprehensive and predictive model by including cytokine production and signaling pathways. From the expanded network, the interaction between TGFB-Induced Factor Homeobox 1 (Tgif1) and the retinoid X receptor (RXR) was displayed to exert control over the determination of the Tfh response. Model simulations predict that Tgif1 and RXR respectively induce and curtail Tfh responses. This computational hypothesis was validated experimentally by assaying Tgif1, RXR and Tfh in stomachs of mice infected with H. pylori.",
+    "year" : 2016,
+    "month" : "6",
+    "volume" : "398",
+    "pages" : "74-84",
+    "link" : "http://identifiers.org/pubmed/26947272",
+    "authors" : [
+      {
+        "name" : "Andrew Leber",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA."
+      },
+      {
+        "name" : "Vida Abedi",
+        "institution" : "Center for Modeling Immunity to Enteric Pathogens, Virginia Bioinformatics Institute at Virginia Tech, Blacksburg, VA, United States of America; Nutritional Immunology and Molecular Medicine Laboratory, Virginia Bioinformatics Institute at Virginia Tech, Blacksburg, VA, United States of America.",
+        "orcid" : "0000-0001-7689-933X"
+      },
+      {
+        "name" : "Raquel Hontecillas",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA."
+      },
+      {
+        "name" : "Monica Viladomiu",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA."
+      },
+      {
+        "name" : "Stefan Hoops",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA.",
+        "orcid" : "0000-0001-8503-8371"
+      },
+      {
+        "name" : "Stanca Ciupe",
+        "institution" : "Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Department of Mathematics, Virginia Tech, Blacksburg, VA, USA."
+      },
+      {
+        "name" : "John Caughman",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA."
+      },
+      {
+        "name" : "Tricity Andrew",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA."
+      },
+      {
+        "name" : "Josep Bassaganya-Riera",
+        "institution" : "Nutritional Immunology and Molecular Medicine Laboratory, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA; Center for Modeling Immunity to Enteric Pathogens, Biocomplexity Institute of Virginia Tech, Blacksburg, VA, USA. Electronic address: jbassaga@vt.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000625_url.xml",
+        "description" : "SBML L2V4 representation of Leber2016 - Expanded model of Tfh-Tfr differentiation - Helicobacter pylori infection",
+        "fileSize" : "163488",
+        "mimeType" : "application/xml",
+        "md5sum" : "9dd8b0ec80d04eb8d6b18eb4ba62743c",
+        "sha1sum" : "f56526c2fb70b77646b000ddfaf12ca63eeb86c6",
+        "sha256sum" : "ae4750f7c43b676d6b21cfd705d94bf1493691272c5000a9680910966981fe53"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000625-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "40412",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e4b85bcd65a2de083303ae21e8679ebb",
+        "sha1sum" : "842fa11d8d503ecfe01eb947ebc73ba1fbccc534",
+        "sha256sum" : "a1a8153733f1430ad9e11fa06ee242668145ef16cf0c76683fd2030850204f85"
+      },
+      {
+        "name" : "BIOMD0000000625-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "61196",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "487c405500e81218607f2d2d26d85cab",
+        "sha1sum" : "5ab18a27026607bc603db4dcdcc7e068e110d041",
+        "sha256sum" : "4ef3a6602356848ecc51d7775f1db5fd060d5280b4d0d78c1816d5d21cbb6640"
+      },
+      {
+        "name" : "BIOMD0000000625-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "17575",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "95f3555ef2e4743842eeba65f8df4727",
+        "sha1sum" : "03749c94bec02c11335ad775104c25edd15beb0a",
+        "sha256sum" : "256ae210d20f47e4e010a2716cfd554a21434ff8abb837c55ebfffa73827bdc5"
+      },
+      {
+        "name" : "BIOMD0000000625-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "17575",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "125366520c4b6fcd6fc8c6b905845c7a",
+        "sha1sum" : "634654252a724cc81fe7cabd96f20feee7f41db2",
+        "sha256sum" : "2c846954f6fb7b5f5eac006383f74340902346755ac166e15810738e1b46c6e2"
+      },
+      {
+        "name" : "BIOMD0000000625.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "17575",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "125366520c4b6fcd6fc8c6b905845c7a",
+        "sha1sum" : "634654252a724cc81fe7cabd96f20feee7f41db2",
+        "sha256sum" : "2c846954f6fb7b5f5eac006383f74340902346755ac166e15810738e1b46c6e2"
+      },
+      {
+        "name" : "BIOMD0000000625.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "13114",
+        "mimeType" : "text/plain",
+        "md5sum" : "9253827d8c42a833ffda0c329ae64e29",
+        "sha1sum" : "97a96a37ee26d25be6da3fb1f867495f35974d73",
+        "sha256sum" : "6152651640b633035f632743f3a9639a5878da3014beeea675d4c0d466c68d6d"
+      },
+      {
+        "name" : "BIOMD0000000625.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "320246",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1f2a2fb8fabf2853be1c33a77c876790",
+        "sha1sum" : "f9b922ae6d693e8db6a6a22cc08a9149ccd16c08",
+        "sha256sum" : "6d80a28d45b68dc6640789ccdc81d2dcaa1cdfc9111089e02c0c140de76e5479"
+      },
+      {
+        "name" : "BIOMD0000000625.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "198739",
+        "mimeType" : "image/png",
+        "md5sum" : "3431d5ed4fb321da0542303c9b699edc",
+        "sha1sum" : "b7065c2fa0d3da3908c4c4ae1d8fedcbda5fe449",
+        "sha256sum" : "ba6853503371aa0f24339620ed78da45c5e439442efaeb50686f4bbcc593721a"
+      },
+      {
+        "name" : "BIOMD0000000625.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "82330",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "1713adbd49d3a84117575128a8013bdc",
+        "sha1sum" : "cac08ded5643e0cf0b1bf4fd650bd4d058c3a684",
+        "sha256sum" : "877a65e7eff066804a634f069e30202e072ad07644786e16ce8af82c7c253c87"
+      },
+      {
+        "name" : "BIOMD0000000625.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "186631",
+        "mimeType" : "application/xml",
+        "md5sum" : "629f9e9631f808f95f72830dd2c0e6f4",
+        "sha1sum" : "c1c2ef9dbfec4d2c3b0b380991f842bc8f89b13c",
+        "sha256sum" : "cf0c9ac0a74ff812843e3a8051c5531b044b5b10fb297047090119075f5c0408"
+      },
+      {
+        "name" : "BIOMD0000000625_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "36771",
+        "mimeType" : "application/xml",
+        "md5sum" : "243ad7af6b2ab6d3c3b5b2c73021251c",
+        "sha1sum" : "48dbd2287cbd4faf9bcb193ab9b19595f08d8d7e",
+        "sha256sum" : "94d0f72cf51cc69d19eb2304e39901195976ebc68094db969fd8cda4d527c2ad"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "277688",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "4600ca6ed68527ec0dfc96f7e675f676",
+        "sha1sum" : "959c639deb1db002456a0cfce315ed39255f5b5d",
+        "sha256sum" : "b29639cae934f6d4a4aeaba951c5bf63aac8c957b7c9fb0727d67f712f5a7ecb"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "260",
+        "mimeType" : "text/plain",
+        "md5sum" : "9a8fa14ddd3526351d7b7ff414fa0fa0",
+        "sha1sum" : "c8543b44aba97439268b67f179ed2c883d39a453",
+        "sha256sum" : "3f99c7e487cfccc3728a4179029b8491d1720ee05ce4f9bfa4d75c4a2c49a0b8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "4a7a6c975a82a9906d22998f4fde8ed2",
+        "sha1sum" : "a3864b74af04078feadd152cc6f90f3c630d18af",
+        "sha256sum" : "bbdee6ae1ddaed3480af44b40e5565272fd383f2d39197b81dd2e2eadd931642"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6494",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c2c2ca14e5e909d135e43eeb188d321c",
+        "sha1sum" : "7ad8db1ea8f17948c6ac6ad44de456c47d625b07",
+        "sha256sum" : "320ee6f3e01721f8b14d3d43eccb1b53a9a498ae6c9ac61261daf90a50af5fa5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1456849289,
+        "submitter" : "Andrew Leber",
+        "comment" : "Original import of Expanded model of Tfh-Tfr differentiation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1497644421,
+        "submitter" : "Andrew Leber",
+        "comment" : "Current version of Leber2016 - Expanded model of Tfh-Tfr differentiation - Helicobacter pylori infection"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724284514,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285393,
+  "submissionId" : "MODEL1603010000",
+  "publicationId" : "BIOMD0000000625",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Andrew Leber",
+        "email" : "ajleber@vbi.vt.edu",
+        "affiliation" : "Virginia Tech",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1603010000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1603010000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000625",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000625"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "26947272",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/26947272"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0044419",
+      "name" : "interspecies interaction between organisms",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0044419"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0005568",
+      "name" : "gastrointestinal mucosa",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0005568"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "210",
+      "name" : "Helicobacter pylori",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/210"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:1724",
+      "name" : "duodenal ulcer",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:1724"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:750",
+      "name" : "peptic ulcer disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:750"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

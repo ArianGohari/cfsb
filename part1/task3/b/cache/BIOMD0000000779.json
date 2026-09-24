@@ -1,0 +1,260 @@
+{
+  "name" : "dePillis2009 - Mathematical model creation for cancer chemo-immunotherapy",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is an updated version of a previous model that described the dynamics of cancer treatment, with descriptions of tumour cell numbers, specific and non-specific immune cells (NK, CD8+ T cells and other lymphocytes) with inclusion of chemo- and immunotherapy. This model incorporates new data to provide an improved and more comprehensive model, with specific emphasis on better descriptions of IL-2 dynamics.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1080/17486700802216301",
+    "journal" : "Computational and Mathematical Methods in Medicine",
+    "title" : "Mathematical model creation for cancer chemo-immunotherapy",
+    "affiliation" : "Department of Mathematics, Harvey Mudd College, Claremont, CA, United States",
+    "synopsis" : "One of the most challenging tasks in constructing a mathematical model of cancer treatment is the calculation of biological parameters from empirical data. This task becomes increasingly difficult if a model involves several cell populations and treatment modalities. A sophisticated model constructed by de Pillis et al., Mixed immunotherapy and chemotherapy of tumours: Modelling, applications and biological interpretations, J. Theor. Biol. 238 (2006), pp. 841-862; involves tumour cells, specific and non-specific immune cells (natural killer (NK) cells, CD8+T cells and other lymphocytes) and employs chemotherapy and two types of immunotherapy (IL-2 supplementation and CD8+T-cell infusion) as treatment modalities. Despite the overall success of the aforementioned model, the problem of illustrating the effects of IL-2 on a growing tumour remains open. In this paper, we update the model of de Pillis et al. and then carefully identify appropriate values for the parameters of the new model according to recent empirical data. We determine new NK and tumour antigen-activated CD8+T-cell count equilibrium values; we complete IL-2 dynamics; and we modify the model in de Pillis et al. to allow for endogenous IL-2 production, IL-2-stimulated NK cell proliferation and IL-2-dependent CD8+T-cell self-regulations. Finally, we show that the potential patient-specific efficacy of immunotherapy may be dependent on experimentally determinable parameters.",
+    "year" : 2009,
+    "month" : "9",
+    "volume" : "10",
+    "issue" : "3",
+    "pages" : "165-184",
+    "link" : "http://identifiers.org/doi/10.1080/17486700802216301",
+    "authors" : [
+      {
+        "name" : "de Pillis, L.",
+        "institution" : "Department of Mathematics, Harvey Mudd College, Claremont, CA, United States"
+      },
+      {
+        "name" : "Fister, K.R.",
+        "institution" : "Department of Mathematics, Murray State University, Murray, KY, United States"
+      },
+      {
+        "name" : "Gu, W.",
+        "institution" : "Department of Mathematics, Harvey Mudd College, Claremont, CA, United States"
+      },
+      {
+        "name" : "Collins, C.",
+        "institution" : "Murray State University, Murray, KY, United States"
+      },
+      {
+        "name" : "Daub, M.",
+        "institution" : "Williams College, Williamstown, MA, United States"
+      },
+      {
+        "name" : "Gross, D.",
+        "institution" : "Harvey Mudd College, Claremont, CA, United States"
+      },
+      {
+        "name" : "Moore, J.",
+        "institution" : "Harvey Mudd College, Claremont, CA, United States"
+      },
+      {
+        "name" : "Preskill, B.",
+        "institution" : "Harvey Mudd College, Claremont, CA, United States"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "dePillis2009.xml",
+        "description" : "SBML L2V4 Representation of dePillis2009 - Mathematical model creation for cancer chemo-immunotherapy",
+        "fileSize" : "106509",
+        "mimeType" : "application/xml",
+        "md5sum" : "0d0b772943eff4557d4a50c0b2edab78",
+        "sha1sum" : "122a92e244fba15c7b3ec7c52dee7284e356de4d",
+        "sha256sum" : "d526964ee1e9bdfd8cc3a2319f268e721eeb3cafca60931a7e7c18e2b494741b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "10646",
+        "mimeType" : "image/png",
+        "md5sum" : "ef7013734cb72987b4da60d145826f93",
+        "sha1sum" : "39b0b64f938a006dfacea6fef4f39df89f429a29",
+        "sha256sum" : "1b05d3dc5fe4a6b61098da0a1a19944feb35d7c379354f19e8b68f9673dab13a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "124",
+        "mimeType" : "text/plain",
+        "md5sum" : "fea572f87c4d02149fa4017a71c0e2ad",
+        "sha1sum" : "aaabfb7f6cda3246d951fcb1f983365661a1ebee",
+        "sha256sum" : "03b51ae7baef50802dc5972cbc94321837c1f0b527d817f7e56ec30c2b62bcf5"
+      },
+      {
+        "name" : "dePillis2009-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "29574",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c6b43d58263913ce0980879856c1f44a",
+        "sha1sum" : "48a1658502542d391ccec48ffcffcd583762973a",
+        "sha256sum" : "e9b677dfd4c014c5264ba1747b116e951d956f66c26d1c06355ff4afe0d9a8be"
+      },
+      {
+        "name" : "dePillis2009-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "44002",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f44e3f6daee99df2b6218d83277c1f87",
+        "sha1sum" : "eb1b97b38d991ecaf24941ad9ddddace2779fa8f",
+        "sha256sum" : "5ceefa767750fc82d5fb69f5122a3bcdcabdab5a7ca9f2f904c0e3a1d7890a50"
+      },
+      {
+        "name" : "dePillis2009-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "13749",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c5b9e093086695248f11a2d4d9313a7f",
+        "sha1sum" : "05dfc3411602fe6cf2d8bf057297b7d7dff066a5",
+        "sha256sum" : "18c5eca6e1583ef38ebd6de14a528cb1a1dbea61402738c23d8e406f7ec3ccbf"
+      },
+      {
+        "name" : "dePillis2009-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "13749",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "05a6ce49bd8f14d56893beef6ea1d6d2",
+        "sha1sum" : "e705e8f3ed1b5ddb5486920ae55c303a6dd17709",
+        "sha256sum" : "a6eb2a085f9efbf53639f5c3d2cf0ea635c50415eddaaaa00e55d55ed1c394c1"
+      },
+      {
+        "name" : "dePillis2009.cps",
+        "description" : "COPASI file of dePillis2009 - Mathematical model creation for cancer chemo-immunotherapy",
+        "fileSize" : "155348",
+        "mimeType" : "application/xml",
+        "md5sum" : "56fd3fc5471b6cdfb4a5bd2672895322",
+        "sha1sum" : "87c8e5c10094d275b066ea097296de89d3d6617a",
+        "sha256sum" : "d2f1eec4c6eb2c41db07f71d1465288006e2a91417e4a1a2bc99128a9ce19c30"
+      },
+      {
+        "name" : "dePillis2009.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11715",
+        "mimeType" : "text/plain",
+        "md5sum" : "1d128a77962e893ce6967e837745dc8c",
+        "sha1sum" : "53908d0ef3beddeead97b2d6fe24598902e283af",
+        "sha256sum" : "d0b4f2c4d5e059b27e878369273540baf7c5e9ab583c96f890dfd5306a0b8ca9"
+      },
+      {
+        "name" : "dePillis2009.sedml",
+        "description" : "SED-ML file of dePillis2009 - Mathematical model creation for cancer chemo-immunotherapy (additionally CRBM-validated and adjusted). (additionally CRBM-validated and adjusted).",
+        "fileSize" : "45110",
+        "mimeType" : "application/xml",
+        "md5sum" : "fe1c3906d5594f6026d96de6d3f45081",
+        "sha1sum" : "9420ed15733db4fd3fb812e24cbdd0dafb366789",
+        "sha256sum" : "165ca80f44e82c290dedfd2c6805c8557b23652ed3995a748d36d854e8508d65"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1427",
+        "mimeType" : "application/xml",
+        "md5sum" : "6bdb9c6dbab26aef6ba9673b9c9d2bca",
+        "sha1sum" : "ff79941cbe4fa4297031a18e0fe490baa5672c9f",
+        "sha256sum" : "18738371663bc0cdff72e321551df2935c29bb3dfbb954957234eb5fbe00e624"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2113",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9fd73d9cc3e5cf4071687c0c0b81a648",
+        "sha1sum" : "cbf4a8d26fac7d7d2b3eb4c7813cfc2ab68dc84a",
+        "sha256sum" : "1638bd00ae6a59b4ef77c38e69e11cb57603449e00a232bb5387c1d3584c16c3"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1565018925,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000779"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1735840565,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285459,
+  "submissionId" : "MODEL1908050002",
+  "publicationId" : "BIOMD0000000779",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15543",
+      "name" : "Interleukin Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15543"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1080/17486700802216301",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1080/17486700802216301"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908050002",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908050002"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000779",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000779"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15632",
+      "name" : "Chemotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15632"
+    }
+  ]
+}

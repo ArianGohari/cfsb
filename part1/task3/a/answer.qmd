@@ -1,0 +1,89 @@
+### (a) SBML installieren und BioModels praktisch nutzen
+
+SBML ist das Austauschformat; installiert wird hier die Python-Bibliothek libSBML zum Lesen und Prüfen der Modelle. Zusätzlich zum BioModels-Zugriff wurden beide archivierten Modelle am 24.09.2026 mit libRoadRunner numerisch simuliert. Die separate Solverumgebung und Ergebnisse stehen im Abschnitt [Numerische Reproduktion](#sbml-simulation).
+
+#### Installation und Wiederholung
+
+Die isolierte uv-Umgebung liegt in `part1/task3/a/.venv`. [pyproject.toml](a/pyproject.toml) und [uv.lock](a/uv.lock) fixieren `python-libsbml==5.21.2`; der Interpreter ist auf Python 3.14 beschränkt. Beim Lauf am 21.09.2026 wurden Python 3.14.6 und libSBML 5.21.2 unter macOS/ARM64 tatsächlich importiert. [PyPI](https://pypi.org/project/python-libsbml/5.21.2/#files) bot ein passendes `cp314`-Wheel für `macosx_11_0_arm64`. Ein Wechsel auf das ebenfalls vorhandene Python 3.12 war deshalb nicht nötig. `--no-build` verhindert einen unbemerkten Quellcode-Build. Es gab keine globale Paketinstallation.
+
+Vom Projektwurzelverzeichnis aus:
+
+```bash
+cd part1/task3/a
+uv sync --locked --python 3.14 --no-build
+uv run --locked python -c 'import sys,libsbml; print(sys.version); print(libsbml.__file__); print(libsbml.getLibSBMLDottedVersion())'
+uv run --locked python sbml_demo.py validate
+uv run --locked python -m unittest -v
+uv run --locked python sbml_demo.py fetch
+```
+
+[Das Skript](a/sbml_demo.py) liest standardmäßig die beiden vorhandenen Dateien aus `part1/task1/sbml/`, ohne sie zu verändern. `validate` schreibt [validation.json](a/validation.json) neu. Eigene Eingaben sind möglich: `uv run --locked python sbml_demo.py validate DATEI.xml --output bericht.json`. Die erste Installation braucht Paket-/Interpreterzugriff; danach benötigen die lokale Prüfung und die Tests keinen BioModels-Zugriff. `fetch` braucht Internet und legt bei jedem Aufruf einen neuen UTC-benannten Unterordner in `a/data/` an. Alte Abrufe bleiben erhalten.
+
+#### Prüfung der vorhandenen Modelle
+
+`libsbml.readSBMLFromString()` liest die unveränderten UTF-8-Dateiinhalte. Danach läuft `SBMLDocument.checkConsistency()` mit den Standardprüfungen einschließlich Einheitenprüfung. Das Protokoll trennt Einlesediagnosen von Konsistenzdiagnosen und nennt Schweregrad, Kategorie, Fehlernummer, Zeile und vollständige Meldung. Die Zahl aus `checkConsistency()` umfasst auch Warnungen; sie ist keine reine Fehlerzahl.
+
+| Merkmal | Weimann2004 | Ciliberto2005 |
+|:--|--:|--:|
+| BioModels-ID | BIOMD0000000170 | BIOMD0000001006 |
+| SBML Level/Version | 2/1 | 2/4 |
+| Kompartimente | 2 | 2 |
+| Spezies | 7 | 10 |
+| Reaktionen | 17 | 21 |
+| Globale / lokale Parameter | 27 / 0 | 27 / 0 |
+| Regeln, ausschließlich Assignment Rules | 3 | 4 |
+| Rate Rules / algebraische Regeln | 0 / 0 | 0 / 0 |
+| Events | 0 | 2 |
+| Initial Assignments | 0 | 1 |
+| Funktionsdefinitionen | 0 | 11 |
+| Einheitendefinitionen | 6 | 5 |
+| Constraints | 0 | 0 |
+| Einlesediagnosen | 0 | 0 |
+| Errors / Fatals insgesamt | 0 / 0 | 0 / 0 |
+| Warnungen aus `checkConsistency()` | 1 | 57 |
+
+Weimann hat eine Warnung 99505: Die Einheiten einer Assignment Rule lassen sich wegen nicht vollständig bestimmbarer Einheiten in ihrem mathematischen Ausdruck nicht vollständig prüfen. Bei Ciliberto gibt es 30 solche Warnungen und 27 Meldungen 80701 zu globalen Parametern ohne `units`-Attribut. Das sind keine nachgewiesenen Dimensionsfehler. Eine vollständig bestätigte Einheitenkonsistenz lässt sich daraus aber auch nicht ableiten. Die Originale wurden nicht durch ergänzte oder geratene Einheiten verändert.
+
+Exit 0 bedeutet hier: Ein Modell wurde gelesen und libSBML meldet weder Error noch Fatal. Warnungen bleiben sichtbar. Ein ungültiges Test-XML erzeugt Exit 1. Die Bestandsaufnahme und die formale Prüfung belegen weder biologische Richtigkeit noch die Reproduktion publizierter Simulationen.
+
+#### BioModels-Zugriff und Dateivergleich
+
+Die Annotationen der Originale nennen [BIOMD0000000170](https://www.ebi.ac.uk/biomodels/BIOMD0000000170) für den circadianen Oszillator und [BIOMD0000001006](https://www.ebi.ac.uk/biomodels/BIOMD0000001006) für das p53/Mdm2-Modell. Für beide Records wurden diese öffentlichen Endpunkte tatsächlich abgefragt:
+
+```text
+https://www.ebi.ac.uk/biomodels/<ID>?format=json
+https://www.ebi.ac.uk/biomodels/model/files/<ID>?format=json
+https://www.ebi.ac.uk/biomodels/model/download/<ID>?filename=<Dateiname>
+```
+
+Die Downloadnamen stammen aus `main` der Dateiliste, nicht aus einer geratenen URL. Im gespeicherten Lauf waren das `BIOMD0000000170_url.xml` und `Ciliberto2005.xml`. Die Metadaten bestätigen die Modellnamen und PubMed-IDs 15347590 beziehungsweise 15725723.
+
+Am 21.09.2026 zwischen 15:32:14 und 15:32:19 UTC lieferten alle sechs Anfragen HTTP 200; `fetch` endete mit Exit 0. Der [Abrufbericht](a/data/20260921T153214070366Z/summary.json) enthält für jede Anfrage URL, lokale UTC-Anfrage-/Abschlusszeit, HTTP-Status, Antwortheader einschließlich Serverdatum, Bytezahl und SHA-256. Die `.raw`-Dateien enthalten die unveränderten Antwortkörper, benachbarte `.raw.json`-Dateien ihre Abrufdaten. HTTP-Fehlerkörper werden ebenfalls gespeichert; Netzwerkfehler erhalten `status: null` und eine Fehlermeldung. Ein fehlgeschlagener Abruf oder eine fehlerhafte heruntergeladene SBML-Datei führt zu Exit 1.
+
+Die aktuellen SBML-Dateien liegen getrennt als [Weimann-Download](a/data/20260921T153214070366Z/BIOMD0000000170_current_0.xml) und [Ciliberto-Download](a/data/20260921T153214070366Z/BIOMD0000001006_current_0.xml). Beide haben dieselben Inventarzahlen und Warnungszahlen wie die Originale. Der [Bytevergleich](a/data/20260921T153214070366Z/comparison.json) klärt die Hash-Abweichung des circadianen Modells:
+
+- Weimann: Das Original hat 32.694 Bytes, der Download 32.693. Das Original ist exakt der Download plus ein abschließendes LF-Byte (`0x0a`). Es gibt bei diesem Vergleich keine weitere Inhaltsänderung.
+- Ciliberto: Beide Dateien haben 105.846 Bytes und sind bytegleich.
+
+SHA-256 der vorhandenen Dateien:
+
+```text
+BIOMD0000000170_url.xml
+f6f1bd3faf8223d8a32314e7422263568e88b1f662b9d2ee9f7e0300960d6328
+Ciliberto2005.xml
+c412f691fb6dad00ebb96148ebdc52148b1f47949ad1dd139a0ea99c6ec6b389
+```
+
+SHA-256 des aktuellen Weimann-Downloads:
+
+```text
+ec4a5b68041d448cf34b82af4fc26a3b2e5c68b57b04b29a2cd28ad557bd7898
+```
+
+Diese Aussagen beziehen sich auf den gespeicherten Abruf, nicht auf alle früheren oder künftigen BioModels-Versionen. Die dokumentierte Laufzeit liegt nach dem Abgabetermin im Aufgabenblatt; sie wird nicht als Abruf im Juli ausgegeben.
+
+#### Ausgeführte Checks
+
+[verification.log](a/verification.log) dokumentiert Installation/Import, Originalvalidierung, `python -m unittest -v` und `python -m py_compile sbml_demo.py test_sbml_demo.py`, jeweils mit Exit 0. Die fünf Tests prüfen Original-Hashes und Inventare einschließlich Warnungszahlen, die gespeicherten HTTP-Antworten und Download-Hashes, ungültiges XML samt CLI-Exit 1 sowie die Speicherung von HTTP- und Netzwerkfehlern. Die echten Netzwerkanfragen sind im separaten Abrufbericht belegt; die Tests wiederholen sie nicht.
+
+<!-- Einbindung durch part1/task3/task3.qmd: {{< include a/answer.qmd >}}. Alle lokalen Links sind absichtlich relativ zu dieser Eltern-Datei (a/...), nicht zu answer.qmd. -->

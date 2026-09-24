@@ -1,0 +1,567 @@
+<html>
+<head>
+<title>Welcome to ConsensusPathDB!</title>
+<link rel="stylesheet" type="text/css" href="css/sheet.css">
+<style type="text/css">
+ a:link,a:visited { color:#005500; text-decoration:none;}
+ a:focus,a:hover,a:active { color:#00ad00; text-decoration:none;}
+</style>
+<script type="text/javascript">
+function Set_Cookie( name, value, expires, path, domain, secure ) 
+{
+  // set time, it's in milliseconds
+  var today = new Date();
+  today.setTime( today.getTime() );
+  if ( expires )
+  {
+    expires = expires * 1000 * 60 * 60 * 24;
+  }
+  var expires_date = new Date( today.getTime() + (expires) );
+
+  document.cookie = name + "=" +escape( value ) +
+  ( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) + 
+  ( ( path ) ? ";path=" + path : "" ) + 
+  ( ( domain ) ? ";domain=" + domain : "" ) +
+  ( ( secure ) ? ";secure" : "" );
+}
+
+function Get_Cookie( name ) {	
+  var start = document.cookie.indexOf( name + "=" );
+  var len = start + name.length + 1;
+  if ( ( !start ) && ( name != document.cookie.substring( 0, name.length ) ) )
+  {
+    return null;
+  }
+  if ( start == -1 ) return null;
+  var end = document.cookie.indexOf( ";", len );
+  if ( end == -1 ) end = document.cookie.length;
+  return unescape( document.cookie.substring( len, end ) );
+}
+
+function Delete_Cookie( name, path, domain ) {
+  if ( Get_Cookie( name ) ) document.cookie = name + "=" +
+  ( ( path ) ? ";path=" + path : "") +
+  ( ( domain ) ? ";domain=" + domain : "" ) +
+  ";expires=Thu, 01-Jan-1970 00:00:01 GMT";
+}
+
+function writediv(text,id)
+{	
+	var x = document.getElementById(id);
+	x.innerHTML = '';
+	x.innerHTML = text;
+
+}
+
+function speciesLinks() {
+    var s = document.getElementById("species_short").innerHTML;
+    a = document.getElementById("sp_"+s);
+    a.style.setProperty("color", "red", "important");
+    a.style.setProperty("text-decoration", "underline", "important");
+}
+
+</script>
+</head>
+<body style="background-color:#f8ffff;font-family:Arial,sans-serif;" align="center" onload="speciesLinks()">
+<div id="species_short" style="visibility:hidden">human</div>
+<p align="center"><image src="images/cpdblogo.png" height="30px"></image></p>
+<div align="center" style="font-weight:bold;">
+<a id="sp_human" href="http://cpdb.molgen.mpg.de/CPDB" target="_top">human</a>&nbsp;&nbsp;&nbsp;
+<a id="sp_yeast" href="http://cpdb.molgen.mpg.de/YCPDB" target="_top">yeast</a>&nbsp;&nbsp;&nbsp;
+<a id="sp_mouse" href="http://cpdb.molgen.mpg.de/MCPDB" target="_top">mouse</a>
+</div>
+<br><br>
+<div style="font-size:12px;" align="center">Release <b>35</b>
+     (<span>05.06.2021</span>)<br>
+ <div style="font-size:12px;color:red;" align="center">
+ </div>
+</div>
+<br><br>
+
+<table border="0" style="width:100%">
+<colgroup><col width="15px"><col width="*"><col width="15px"><col width="230px"><col width="10px"></colgroup>
+<tr>
+<td></td>
+<td valign="top">
+<p align="justify" style="font-size:18px;">
+<b><font color="#00ff00">C</font>onsensus<font color="orange">P</font>ath<font color="#ff0000">D</font><font color="#8889ff">B</font></b>-<b>human</b>
+integrates interaction networks in <i>Homo sapiens</i> including <b>binary and complex protein-protein</b>, <b>genetic</b>, <b>metabolic</b>, <b>signaling</b>, <b>gene regulatory</b> and <b>drug-target</b> interactions, as well as biochemical pathways. Data
+originate from currently <b>31</b> public resources for interactions (listed below) and interactions that we have curated from the literature. The interaction data are integrated in a complementary manner (avoiding redundancies), resulting in a seamless interaction network containing different types of interactions.
+</p>
+<!--span style="font-size:18px;">References:</span -->
+
+<div style="font-size:11pt;">
+<table border="0" style="width:100%" cellspacing="5">
+<tr>
+<td>
+<a target="_blank" href="http://www.nature.com/nprot/journal/v11/n11/index.html">
+<img src="CPDB/images/natProtCover.gif"></a>
+</td>
+<td>
+Literature:<br>
+<a target="_blank" href="http://www.nature.com/nprot/journal/v11/n11/index.html">Herwig, R. <i>et al.</i>. Analyzing and interpreting genome data at the network level with ConsensusPathDB. (2016) Nature Protocols 11, 1889-1907.</a> <br>
+<a target="_blank" href="http://nar.oxfordjournals.org/content/41/D1/D793">Kamburov, A. <i>et al</i>. (2013) The ConsensusPathDB interaction database: 2013 update. <i>Nucleic Acids Res.</i></a><!-- 39:D712-717.</a> --> <br>
+<a target="_blank" href="http://nar.oxfordjournals.org/content/39/suppl_1/D712.long">Kamburov, A. <i>et al</i>. (2011) ConsensusPathDB: toward a more complete picture of cell biology. <i>Nucleic Acids Res.</i></a><!-- 39:D712-717.</a> --> <br>
+<a target="_blank" href="http://nar.oxfordjournals.org/cgi/content/full/gkn698">Kamburov, A. <i>et al</i>. (2009) ConsensusPathDB--a database for integrating human interaction networks. <i>Nucleic Acids Res.</i></a><!-- 37:D623-628.</a> --> <br>
+<a target="_blank" href="http://bioinformatics.oxfordjournals.org/content/26/21/2796.full">Pentchev, K. <i>et al</i>. (2010) Evidence mining and novelty assessment of protein-protein interactions with the ConsensusPathDB plugin for Cytoscape. <i>Bioinformatics</i></a><br> <!-- 26:2796-2797. <br> -->
+</td>
+</tr>
+</table></div>
+</td>
+
+<td></td>
+    
+<td valign="top">
+    <div style="border:2px solid green;border-radius:10px 10px 10px 10px;background-color:f0f8f8;">
+<table align="center" border="0" cellspacing="4" style="font-size:12px;">
+    <tr><td colspan="2" style="font-size:14px; font-weight:bold;">Current statistics:<br><br></td></tr>
+<tr><td><b>unique physical entities:</b></td><td align="right"><span style="font-weight:bold;">200,499</span></td></tr>
+<tr><td><b>unique interactions:</b></td><td align="right"><span style="font-weight:bold;">859,848</span></td></tr>
+<tr><td>&nbsp;&nbsp; gene regulations:</td><td align="right"><span>18,912</span></td></tr>
+<tr><td>&nbsp;&nbsp; protein interactions:</td><td align="right"><span>616,304</span></td></tr>
+<tr><td>&nbsp;&nbsp; genetic interactions:</td><td align="right"><span>7,936</span></td></tr>
+<tr><td>&nbsp;&nbsp; biochemical reactions:</td><td align="right"><span>25,046</span></td></tr>
+<tr><td>&nbsp;&nbsp; drug-target interactions:</td><td align="right"><span>191,650</span></td></tr>
+<tr><td><b>pathways:</b></td><td align="right"><span style="font-weight:bold;">5,578</span></td></tr>
+</table>
+</div>
+
+</td>
+<td></td>
+</tr>
+</table>
+
+<br>
+<br><br>
+<table align="center" border="0" cellspacing="4" style="font-weight:bold;">
+ <tr><th colspan="8" align="left"><h3>Integrated databases:</h3></th></tr>
+ <tr>
+  <td></td>
+  <td>name</td>
+  <!--td>version</td-->
+  <th>protein<br>interactions</th>
+  <th>signaling<br>reactions</th>
+  <th>metabolic<br>reactions</th>
+  <th>gene<br>regulations</th>
+  <th>genetic<br>interactions</th>
+  <th>drug-target<br>interactions</th>
+  <th>biochemical <br>pathways</th>
+ </tr>
+ 
+  <tr>
+    <td align="center"><a target="_blank" href="https://academic.oup.com/nar/article/29/1/242/1116175"><img height="35px" src="images/bind.jpg"></a></td>
+    <td><a target="_blank" href="https://academic.oup.com/nar/article/29/1/242/1116175">BIND</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://www.liebertpub.com/doi/abs/10.1089/152791601750294344?journalCode=bsi"><img height="35px" src="images/biocarta.gif"></a></td>
+    <td><a target="_blank" href="https://www.liebertpub.com/doi/abs/10.1089/152791601750294344?journalCode=bsi">BioCarta</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.thebiogrid.org/"><img height="35px" src="images/biogrid.png"></a></td>
+    <td><a target="_blank" href="http://www.thebiogrid.org/">Biogrid</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://mips.helmholtz-muenchen.de/genre/proj/corum"><img height="35px" src="images/mips.png"></a></td>
+    <td><a target="_blank" href="http://mips.helmholtz-muenchen.de/genre/proj/corum">CORUM</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://www.ebi.ac.uk/chembl/"><img height="35px" src="images/chembl.png"></a></td>
+    <td><a target="_blank" href="https://www.ebi.ac.uk/chembl/">Chembl</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://dip.doe-mbi.ucla.edu"><img height="35px" src="images/dip_logo.png"></a></td>
+    <td><a target="_blank" href="http://dip.doe-mbi.ucla.edu">DIP</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://www.embopress.org/doi/full/10.1038/msb4100177"><img height="35px" src="images/ehmn.png"></a></td>
+    <td><a target="_blank" href="https://www.embopress.org/doi/full/10.1038/msb4100177">EHMN</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.hprd.org"><img height="35px" src="images/hprd.png"></a></td>
+    <td><a target="_blank" href="http://www.hprd.org">HPRD</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://humancyc.org/"><img height="35px" src="images/biocyc.png"></a></td>
+    <td><a target="_blank" href="http://humancyc.org/">HumanCyc</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://preview.academic.oup.com/database/article/doi/10.1093/database/bar052/469742"><img height="35px" src="images/inoh.png"></a></td>
+    <td><a target="_blank" href="https://preview.academic.oup.com/database/article/doi/10.1093/database/bar052/469742">INOH</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://www.innatedb.com/index.jsp"><img height="35px" src="images/innatedb.png"></a></td>
+    <td><a target="_blank" href="https://www.innatedb.com/index.jsp">InnateDB</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.ebi.ac.uk/intact/"><img height="35px" src="images/intact-logo.gif"></a></td>
+    <td><a target="_blank" href="http://www.ebi.ac.uk/intact/">IntAct</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.genome.jp/kegg"><img height="35px" src="images/kegg128.gif"></a></td>
+    <td><a target="_blank" href="http://www.genome.jp/kegg">KEGG</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://mint.bio.uniroma2.it"><img height="35px" src="images/mint_small.gif"></a></td>
+    <td><a target="_blank" href="http://mint.bio.uniroma2.it">MINT</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://mips.helmholtz-muenchen.de/proj/ppi/"><img height="35px" src="images/mips.png"></a></td>
+    <td><a target="_blank" href="http://mips.helmholtz-muenchen.de/proj/ppi/">MIPS-MPPI</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://matrixdb.univ-lyon1.fr/"><img height="35px" src="images/matrixdb.png"></a></td>
+    <td><a target="_blank" href="http://matrixdb.univ-lyon1.fr/">MatrixDB</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.netpath.org"><img height="35px" src="images/netpath.png"></a></td>
+    <td><a target="_blank" href="http://www.netpath.org">NetPath</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.rcsb.org/pdb"><img height="35px" src="images/pdb.png"></a></td>
+    <td><a target="_blank" href="http://www.rcsb.org/pdb">PDB</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://academic.oup.com/bioinformatics/article/21/6/827/199577"><img height="35px" src="images/pdzbase.png"></a></td>
+    <td><a target="_blank" href="https://academic.oup.com/bioinformatics/article/21/6/827/199577">PDZBase</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://academic.oup.com/nar/article/37/suppl_1/D674/1002223"><img height="35px" src="images/pid.png"></a></td>
+    <td><a target="_blank" href="https://academic.oup.com/nar/article/37/suppl_1/D674/1002223">PID</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://academic.oup.com/nar/article/37/suppl_1/D647/1011112"><img height="35px" src="images/pig.png"></a></td>
+    <td><a target="_blank" href="https://academic.oup.com/nar/article/37/suppl_1/D647/1011112">PIG</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://academic.oup.com/bioinformatics/article/20/9/1413/195584"><img height="35px" src="images/pindb.png"></a></td>
+    <td><a target="_blank" href="https://academic.oup.com/bioinformatics/article/20/9/1413/195584">PINdb</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.pharmgkb.org/"><img height="35px" src="images/pharmgkb.png"></a></td>
+    <td><a target="_blank" href="http://www.pharmgkb.org/">PharmGKB</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="https://academic.oup.com/bioinformatics/article/24/16/i14/201617"><img height="35px" src="images/phosphopoint.png"></a></td>
+    <td><a target="_blank" href="https://academic.oup.com/bioinformatics/article/24/16/i14/201617">PhosphoPOINT</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.phosphosite.org/"><img height="35px" src="images/phosphositeplus.png"></a></td>
+    <td><a target="_blank" href="http://www.phosphosite.org/">PhosphoSitePlus</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://reactome.org"><img height="35px" src="images/reactome.png"></a></td>
+    <td><a target="_blank" href="http://reactome.org">Reactome</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.smpdb.ca/"><img height="35px" src="images/smpdb.png"></a></td>
+    <td><a target="_blank" href="http://www.smpdb.ca/">SMPDB</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://signalink.org/"><img height="35px" src="images/signalink.png"></a></td>
+    <td><a target="_blank" href="http://signalink.org/">Signalink</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.cs.tau.ac.il/~spike/"><img height="35px" src="images/spike.png"></a></td>
+    <td><a target="_blank" href="http://www.cs.tau.ac.il/~spike/">Spike</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://db.idrblab.net/ttd/"><img height="35px" src="images/ttd.jpg"></a></td>
+    <td><a target="_blank" href="http://db.idrblab.net/ttd/">TTD</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.wikipathways.org/index.php/WikiPathways"><img height="35px" src="images/wikipathways.png"></a></td>
+    <td><a target="_blank" href="http://www.wikipathways.org/index.php/WikiPathways">Wikipathways</a></td>
+    <!--td tal:content="item/version"></td-->
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/no.png"></td>
+    <td align="center"><img src="images/yes.png"></td>
+  </tr> 
+  <tr><td colspan="10"><hr style="height:2px;background-color:#000000;"></td></tr>
+  <tr>
+   <td align="center"><img src="CPDB/images/cpdblogo.png" height="30px"></td>
+   <td style="color:#005500;">ConsensusPathDB</td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+    <td align="center"><img src="CPDB/images/yes_large.png" height="28px"></td>
+  </tr>
+</table>
+
+<br>
+<noscript><br><br><div><img src="images/warning.gif" width="30" alt="WARNING"><font style="font-family:Arial,sans-serif; font-size:20px; color:#FF0000;">&nbsp;&nbsp;Please enable JavaScript (and make sure Cookies are enabled too) in order to use the ConsensusPathDB web interface.</font></div></noscript>
+<div id="cookiecheck" style="font-family:Arial,sans-serif; font-size:20px; color:#FF0000;"></div>
+<script type="text/javascript">
+Set_Cookie( 'test', 'none', '', '/', '', '' );
+if ( !( Get_Cookie( 'test' ) ) )
+{
+	writediv('<br><br><img src="images/warning.gif" width="30" alt="WARNING">&nbsp;&nbsp;Please enable Cookies in order to use this web service.','cookiecheck');
+	Delete_Cookie('test', '/', '');
+}
+</script>
+<br><br><br>
+<font style="font-family:Arial,sans-serif;font-size:10px;color:#888888">
+<b><u>Licensing information:</u></b>
+<br>
+The use of ConsensusPathDB is free for academic users. 
+Commercial users should contact Dr. Ralf Herwig ( herwig [at]
+molgen.mpg.de ). 
+Interaction data from ConsensusPathDB is available under the license terms of
+each of the contributing databases listed above.
+<br>
+<b><u>Disclaimer:</u></b>
+<br>
+Although best efforts are always applied, the developers of ConsensusPathDB do not assume any legal responsibility for correctness or usefulness of the information in ConsensusPathDB. 
+<br>
+<b><u>Acknowledgements:</u></b>
+<br>
+ConsensusPathDB is developed and maintained by the Bioinformatics group of the Computational Molecular Biology Department at the Max-Planck-Institute for Molecular Genetics in Berlin, Germany. The work was supported by the German Federal Ministry of Education and Research (BMBF) with the grant SafetyNet (No. 161L0242A), the European Commission under its Horizon 2020 Framework program with the grant PHINDaccess (No. 811034), and by the Max Planck Society within its International Research School program (IMPRS-CBSC).
+</font>
+</body>
+</html>

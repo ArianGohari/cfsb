@@ -1,0 +1,127 @@
+{
+  "name" : "Mohr2022 - Rabbit Purkinje Cardiac Electrophysiology",
+  "description" : "we performed a comparative benchmark and investigated a variety of mathematical cardiac AP models, including a newly developed minimalistic model specifically tailored to the AP of rabbit Purkinje cells, for their ability to substitute experiments. The simulated changes in AP duration (dAPD90) at increasing drug concentrations were compared to experimental results from 588 internal Purkinje fiber studies covering 555 different drugs with diverse modes of action. Using our minimalistic model, 80% of the Purkinje experiments could be quantitatively reproduced.",
+  "format" : {
+    "name" : "Other",
+    "identifier" : "UNKNOWN",
+    "version" : "*"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1016/j.vascn.2022.107172",
+    "journal" : "Journal of pharmacological and toxicological methods",
+    "title" : "Accurate in silico simulation of the rabbit Purkinje fiber electrophysiological assay to facilitate early pharmaceutical cardiosafety assessment: Dream or reality?",
+    "affiliation" : "Sanofi",
+    "synopsis" : "As a branch of quantitative systems toxicology, in silico simulations are of growing attractiveness to guide preclinical cardiosafety risk assessments. Traditionally, a cascade of in vitro/in vivo assays has been applied in pharmaceutical research to screen out molecules at risk for cardiac side effects and prevent subsequent risk for patients. Drug cardiosafety assessments typically employ early mechanistic, hazard-oriented in silico/in vitro assays for compound inhibition of cardiac ion channels, followed by induced pluripotent stem cells (iPSCs) or tissue-based models such as the rabbit Purkinje fiber assay, which includes the major mechanisms contributing to action potential (AP) genesis. Additionally, multiscale simulation techniques based on mathematical models have become available, which are performed in silico 'at the heart' of compound triage to substitute Purkinje tests and increase translatability through mechanistic interpretability. To adhere to the 3R principle and reduce animal experiments, we performed a comparative benchmark and investigated a variety of mathematical cardiac AP models, including a newly developed minimalistic model specifically tailored to the AP of rabbit Purkinje cells, for their ability to substitute experiments. The simulated changes in AP duration (dAPD90) at increasing drug concentrations were compared to experimental results from 588 internal Purkinje fiber studies covering 555 different drugs with diverse modes of action. Using our minimalistic model, 80% of the Purkinje experiments could be quantitatively reproduced. This result allows for significant saving of experimental effort in early research and justifies the embedding of electrophysiological simulations into the DMTA (Design, Make, Test, Analyze) cycle in pharmaceutical compound optimization.",
+    "year" : 2022,
+    "month" : "4",
+    "pages" : "107172",
+    "link" : "http://identifiers.org/doi/10.1016/j.vascn.2022.107172",
+    "authors" : [
+      {
+        "name" : "Marcel Mohr",
+        "institution" : "Sanofi",
+        "orcid" : "0000-0001-6553-8651"
+      },
+      {
+        "name" : "Chambard JM"
+      },
+      {
+        "name" : "Ballet V"
+      },
+      {
+        "name" : "Schmidt F"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "RabbitPurkinjeAPModel.cellml",
+        "description" : "Rabbit Purkinje AP model CellML",
+        "fileSize" : "92770",
+        "mimeType" : "application/xml",
+        "md5sum" : "848eaa3a296ee9019044d9a798c8db3c",
+        "sha1sum" : "0ec519df79308468cb48bdb137e08ccc31992aab",
+        "sha256sum" : "77348f568e5417aad765132da0533580c3e2175940bbefba797b0f7241a8405f"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BioModelsMetadata-MODEL2204250001.csv",
+        "description" : "Model annotation file",
+        "fileSize" : "882",
+        "mimeType" : "text/plain",
+        "md5sum" : "6ed9654c7a2a0a7a93674db3490f1f1b",
+        "sha1sum" : "bc83cb82ae99019fde8627ab5babbe65a8452004",
+        "sha256sum" : "2ae2dc1b5eeca793ad39a38c4f2a132056fbfb1b124601c2d6a785802f0a69cf"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1650903294,
+        "submitter" : "Marcel Mohr",
+        "comment" : "Import of Mohr2022 - Rabbit Purkinje Cardiac Electrophysiology"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1741091381,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Updated model annotation file and model description"
+      }
+    ]
+  },
+  "firstPublished" : 1742825933,
+  "submissionId" : "MODEL2204250001",
+  "publicationId" : "BIOMD0000001100",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "AnnotationCurator" : [
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Marcel Mohr",
+        "email" : "marcel.mohr@sanofi.com",
+        "affiliation" : "Sanofi",
+        "orcid" : "0000-0001-6553-8651",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaj",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1016/j.vascn.2022.107172",
+      "resource" : "DOI",
+      "uri" : "https://identifiers.org/doi:10.1016/j.vascn.2022.107172"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2204250001",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:MODEL2204250001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000001100",
+      "resource" : "BioModels Database",
+      "uri" : "https://identifiers.org/biomodels.db:BIOMD0000001100"
+    }
+  ]
+}

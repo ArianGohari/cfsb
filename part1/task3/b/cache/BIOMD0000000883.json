@@ -1,0 +1,366 @@
+{
+  "name" : "Giani2019 - Computational modeling to predict MAP3K8 effects as mediator of resistance to vemurafenib in thyroid cancer stem cells",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Computational modeling to predict MAP3K8 effects as mediator of resistance to vemurafenib in thyroid cancer stem cells</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "30481266",
+    "journal" : "Bioinformatics (Oxford, England)",
+    "title" : "Computational modeling reveals MAP3K8 as mediator of resistance to vemurafenib in thyroid cancer stem cells.",
+    "affiliation" : "Endocrinology Unit, Department of Clinical and Molecular BioMedicine, Garibaldi-Nesima Medical Center.",
+    "synopsis" : "<h4>Motivation</h4>Val600Glu (V600E) mutation is the most common BRAF mutation detected in thyroid cancer. Hence, recent research efforts have been performed trying to explore several inhibitors of the V600E mutation-containing BRAF kinase as potential therapeutic options in thyroid cancer refractory to standard interventions. Among them, vemurafenib is a selective BRAF inhibitor approved by Food and Drug Administration for clinical practice. Unfortunately, vemurafenib often displays limited efficacy in poorly differentiated and anaplastic thyroid carcinomas probably because of intrinsic and/or acquired resistance mechanisms. In this view, cancer stem cells (CSCs) may represent a possible mechanism of resistance to vemurafenib, due to their self-renewal and chemo resistance properties.<h4>Results</h4>We present a computational framework to suggest new potential targets to overcome drug resistance. It has been validated with an in vitro model based upon a spheroid-forming method able to isolate thyroid CSCs that may mimic resistance to vemurafenib. Indeed, vemurafenib did not inhibit cell proliferation of BRAF V600E thyroid CSCs, but rather stimulated cell proliferation along with a paradoxical over-activation of ERK and AKT pathways. The computational model identified a fundamental role of mitogen-activated protein kinase 8 (MAP3K8), a serine/threonine kinase expressed in thyroid CSCs, in mediating this drug resistance. To confirm model prediction, we set a suitable in vitro experiment revealing that the treatment with MAP3K8 inhibitor restored the effect of vemurafenib in terms of both DNA fragmentation and poly (ADP-ribose) polymerase cleavage (apoptosis) in thyroid CSCs. Moreover, MAP3K8 expression levels may be a useful marker to predict the response to vemurafenib.<h4>Availability and implementation</h4>The model is available in GitHub repository visiting the following URL: https://github.com/francescopappalardo/MAP3K8-Thyroid-Spheres-V-3.0.<h4>Supplementary information</h4>Supplementary data are available at Bioinformatics online.",
+    "year" : 2019,
+    "month" : "7",
+    "volume" : "35",
+    "issue" : "13",
+    "pages" : "2267-2275",
+    "link" : "http://identifiers.org/pubmed/30481266",
+    "authors" : [
+      {
+        "name" : "Fiorenza Gianì",
+        "institution" : "Endocrinology Unit, Department of Clinical and Molecular BioMedicine, Garibaldi-Nesima Medical Center.",
+        "orcid" : "0000-0002-1901-8230"
+      },
+      {
+        "name" : "Giulia Russo",
+        "institution" : "Department of Drug Sciences, University of Catania, 95125, Catania, Italy.",
+        "orcid" : "0000-0001-6616-7856"
+      },
+      {
+        "name" : "Marzio Pennisi",
+        "orcid" : "0000-0003-0231-7653"
+      },
+      {
+        "name" : "Laura Sciacca",
+        "institution" : "Endocrinology Unit, Department of Clinical and Molecular BioMedicine, Garibaldi-Nesima Medical Center."
+      },
+      {
+        "name" : "Francesco Frasca",
+        "institution" : "Endocrinology Unit, Department of Clinical and Molecular BioMedicine, Garibaldi-Nesima Medical Center.",
+        "orcid" : "0000-0002-5556-3201"
+      },
+      {
+        "name" : "Francesco Pappalardo",
+        "institution" : "Department of Drug Sciences, University of Catania, 95125, Catania, Italy.",
+        "orcid" : "0000-0003-1668-3320"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Giani2019.xml",
+        "description" : "SBML L2V4 model file for Giani2019",
+        "fileSize" : "356813",
+        "mimeType" : "application/xml",
+        "md5sum" : "95f598a61054f26c5465c78b36e41c48",
+        "sha1sum" : "9d9a8abcd7d50906d4fa3778cd2ea2a494b8eb2e",
+        "sha256sum" : "35b5ab00bc415d139fae910a5477fbaa6a2f3c36347a0dd7b1de86068d7dcea6"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Giani2019-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "138838",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ded1f7b73ee3582e25ac1fed354f614a",
+        "sha1sum" : "357b50b045245a9f9fc9ff93faebfe62c422da73",
+        "sha256sum" : "8c40450a8f30098c2c5950ef671a8c0d6b091bb91c9ed3a946352c0a95f34219"
+      },
+      {
+        "name" : "Giani2019-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "232770",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ea5241e8ca0c7204b1bb549617a01efb",
+        "sha1sum" : "687041b17c65495e17cb9b81009f9530ff95bbed",
+        "sha256sum" : "d6d569c3d281d17518efe64ebc13efbcb626b84a6f74cb7c1ec0945e6488cf59"
+      },
+      {
+        "name" : "Giani2019-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "52670",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0fdbc0394c2fa2e71fa73197cc47abb9",
+        "sha1sum" : "49d02d6121eaaff327f5733643fc9993faf69aee",
+        "sha256sum" : "bac85e796685b3f22ebbeb9e1a19d3f35e5fa37676bd17cb1e38d2b0284e614d"
+      },
+      {
+        "name" : "Giani2019-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "52670",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "a2947c6ab49a4cb10595a8fc4e79c7df",
+        "sha1sum" : "8f857e965de1c9c77c347222199011ca1cb1c500",
+        "sha256sum" : "1e9878ae137132f5c0946432e8f9f027863a1ebd8197578bc6a5b5e841dd7032"
+      },
+      {
+        "name" : "Giani2019.cps",
+        "description" : "COPASI 4.27(Build217) file for Giani2019",
+        "fileSize" : "388826",
+        "mimeType" : "application/xml",
+        "md5sum" : "6c4b703f2f57831a5b92071acdea5332",
+        "sha1sum" : "c2f8827fcda15507959140adf567a5f620918970",
+        "sha256sum" : "0b828446309586b616119b683b41a3d9093f738abf2b729fcffdbd51cc40648a"
+      },
+      {
+        "name" : "Giani2019.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "36748",
+        "mimeType" : "text/plain",
+        "md5sum" : "c7989bb9be38db44042c51f65f54ccc1",
+        "sha1sum" : "48ceb81f91d51c09db0234fdd30abdbb3ba8f533",
+        "sha256sum" : "6ac7e1d196131fcc7b61d1ec8b8030aa4cda0c483d3044d335c0e52c82ea1f51"
+      },
+      {
+        "name" : "Giani2019.sedml",
+        "description" : "SEDML file for Giani2019 (additionally CRBM-validated and adjusted).",
+        "fileSize" : "102449",
+        "mimeType" : "application/xml",
+        "md5sum" : "52c4f2c76e9f712047b606dbf61d51d5",
+        "sha1sum" : "8d10c60e12595dec581d643c42650b4b15278408",
+        "sha256sum" : "cf09cfa5c61d90383c4a798d00be6a58b5bcf24610c79f2bdd44a073a4e9c0b6"
+      },
+      {
+        "name" : "MAP3K8_Thyroid_Spheres_V3.4.cps",
+        "description" : "Originally submitted Copasi file for model simulation",
+        "fileSize" : "339181",
+        "mimeType" : "application/xml",
+        "md5sum" : "1e7544be1f9217790687908af3226eba",
+        "sha1sum" : "9df11460eaf152274a428cd83ebefb3beaac213c",
+        "sha256sum" : "64c8f8db53bf5f5a65edbdc46bb3235c877674964f5dbcee38ad57f26e4703f4"
+      },
+      {
+        "name" : "MAP3K8_Thyroid_Spheres_V3.4.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "102450",
+        "mimeType" : "application/xml",
+        "md5sum" : "8ff480c9499adef48085820dc25466ee",
+        "sha1sum" : "2198bb5c9d088471c60456d6e0b9c420c41cb8f3",
+        "sha256sum" : "5507aecb55d55d30d4f634dc6ef23abe1ed2f2455723c9b85627375798ae53ba"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "157802",
+        "mimeType" : "image/png",
+        "md5sum" : "b143a873c9e6391045da2a69f0604bce",
+        "sha1sum" : "3f39b33e23bd80da5be867f793895361972faa37",
+        "sha256sum" : "ed93f9ec3da9004a7b7b76dcbd9bbea107e89b709afd54228767463b3add71e9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "138",
+        "mimeType" : "text/plain",
+        "md5sum" : "2e608b18c36011c0f2cdcc004d62d885",
+        "sha1sum" : "bcf3dd625de8c9bdfc0ee997513a67367b27ffe4",
+        "sha256sum" : "4c194d1312c96739bbffe42eea211e5e0a0b381d0fc68069c2298f497e5b61b9"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1672",
+        "mimeType" : "application/xml",
+        "md5sum" : "e09de35e0edbee97fd40f40de88ec22e",
+        "sha1sum" : "32d2d9b7a0a7f7b7102ebdccbc896457e28c9d38",
+        "sha256sum" : "58e4b4810e559a5726904b60df497ca631ce6631f9a3e3d75b72152efa519a00"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1863",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2674acbc5767e1f916c557a6e1b0bb86",
+        "sha1sum" : "a29672845b115f05e2ed028dcb50087b93179e8c",
+        "sha256sum" : "c87048d27d3f192a4c553324856a0181d4b2d652343a7d350ce3a43dc5fbb16d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 7,
+        "submitted" : 1557333000,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 9,
+        "submitted" : 1575637910,
+        "submitter" : "Krishna Kumar Tiwari",
+        "comment" : "Automatically added model identifier BIOMD0000000883"
+      },
+      {
+        "version" : 10,
+        "submitted" : 1724292078,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285521,
+  "submissionId" : "MODEL1902140001",
+  "publicationId" : "BIOMD0000000883",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Francesco Pappalardo",
+        "email" : "francesco.pappalardo@unict.it",
+        "affiliation" : "University of Catania",
+        "external" : false
+      },
+      {
+        "name" : "Krishna Kumar Tiwari",
+        "email" : "ktiwari@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-3699-0937",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "GO:0035690",
+      "name" : "cellular response to xenobiotic stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0035690"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BTO:0001610",
+      "name" : "thyroid cancer cell line",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0001610"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "MODEL1902140001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1902140001"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "NCIT:C15632",
+      "name" : "Chemotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/NCIT:C15632"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "30481266",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/30481266"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "MODEL1902140001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1902140001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000883",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000883"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1902140001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1902140001"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0001610",
+      "name" : "thyroid cancer cell line",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0001610"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C15632",
+      "name" : "Chemotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/NCIT:C15632"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0035690",
+      "name" : "cellular response to xenobiotic stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0035690"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0007173",
+      "name" : "epidermal growth factor receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007173"
+    }
+  ]
+}

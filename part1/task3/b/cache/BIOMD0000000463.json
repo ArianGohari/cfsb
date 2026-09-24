@@ -1,0 +1,313 @@
+{
+  "name" : "Heldt2012 - Influenza Virus Replication",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level3/version1/core\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Heldt2012 - Influenza Virus Replication</div>            <div class=\"dc:description\">      <p>The model describes the life cycle of influenza A virus in a mammalian cell including the following steps: attachment of parental virions to the cell membrane, receptor-mediated endocytosis, fusion of the virus envelope with the endosomal membrane, nuclear import of vRNPs, viral transcription and replication, translation of the structural viral proteins, nuclear export of progeny vRNPs and budding of new virions. It also explicitly accounts for the stabilization of cRNA by viral polymerases and NP and the inhibition of vRNP activity by M1 protein binding. In short, the model focuses on the molecular mechanism that controls viral transcription and replication.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/22593159\" title=\"Access to this publication\">Modeling the intracellular dynamics of influenza virus replication to understand the control of viral RNA synthesis.</a>                    </div>                <div class=\"bibo:authorList\">Heldt FS, Frensing T, Reichl U.</div>                <div class=\"bibo:Journal\">J Virol.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>Influenza viruses transcribe and replicate their negative-sense RNA genome inside the nucleus of host cells via three viral RNA species. In the course of an infection, these RNAs show distinct dynamics, suggesting that differential regulation takes place. To investigate this regulation in a systematic way, we developed a mathematical model of influenza virus infection at the level of a single mammalian cell. It accounts for key steps of the viral life cycle, from virus entry to progeny virion release, while focusing in particular on the molecular mechanisms that control viral transcription and replication. We therefore explicitly consider the nuclear export of viral genome copies (vRNPs) and a recent hypothesis proposing that replicative intermediates (cRNA) are stabilized by the viral polymerase complex and the nucleoprotein (NP). Together, both mechanisms allow the model to capture a variety of published data sets at an unprecedented level of detail. Our findings provide theoretical support for an early regulation of replication by cRNA stabilization. However, they also suggest that the matrix protein 1 (M1) controls viral RNA levels in the late phase of infection as part of its role during the nuclear export of viral genome copies. Moreover, simulations show an accumulation of viral proteins and RNA toward the end of infection, indicating that transport processes or budding limits virion release. Thus, our mathematical model provides an ideal platform for a systematic and quantitative evaluation of influenza virus replication and its complex regulation.</p>                    </div>                </div>            <div class=\"bm:curation\">      <p>With the current parameter set, the model reproduces an infection at a multiplicity of infection (MOI) of 10. Figure 2A of the paper is reproduced here, with parameters kDegRnp and kSynP changed to zeros.</p>                <p>Initial conditions and parameter changes that were used to obtain specific figures in the article can be found in Table A2.</p>                </div>            <div class=\"bm:modification\">      <p>The model has the correct value for kAttLo as 4.55e-04. The value of this parameter mentioned as 4.55e-02 in Table 1 of the paper is incorrect. This is checked with the author.</p>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/MODEL1307270000\">MODEL1307270000</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22593159",
+    "journal" : "Journal of virology",
+    "title" : "Modeling the intracellular dynamics of influenza virus replication to understand the control of viral RNA synthesis.",
+    "affiliation" : "Bioprocess Engineering Group, Max Planck Institute for Dynamics of Complex Technical Systems, Magdeburg, Germany. heldt@mpi-magdeburg.mpg.de",
+    "synopsis" : "Influenza viruses transcribe and replicate their negative-sense RNA genome inside the nucleus of host cells via three viral RNA species. In the course of an infection, these RNAs show distinct dynamics, suggesting that differential regulation takes place. To investigate this regulation in a systematic way, we developed a mathematical model of influenza virus infection at the level of a single mammalian cell. It accounts for key steps of the viral life cycle, from virus entry to progeny virion release, while focusing in particular on the molecular mechanisms that control viral transcription and replication. We therefore explicitly consider the nuclear export of viral genome copies (vRNPs) and a recent hypothesis proposing that replicative intermediates (cRNA) are stabilized by the viral polymerase complex and the nucleoprotein (NP). Together, both mechanisms allow the model to capture a variety of published data sets at an unprecedented level of detail. Our findings provide theoretical support for an early regulation of replication by cRNA stabilization. However, they also suggest that the matrix protein 1 (M1) controls viral RNA levels in the late phase of infection as part of its role during the nuclear export of viral genome copies. Moreover, simulations show an accumulation of viral proteins and RNA toward the end of infection, indicating that transport processes or budding limits virion release. Thus, our mathematical model provides an ideal platform for a systematic and quantitative evaluation of influenza virus replication and its complex regulation.",
+    "year" : 2012,
+    "month" : "8",
+    "volume" : "86",
+    "issue" : "15",
+    "pages" : "7806-7817",
+    "link" : "http://identifiers.org/pubmed/22593159",
+    "authors" : [
+      {
+        "name" : "Frank S Heldt",
+        "institution" : "Department of Biochemistry, University of Oxford, OX1 3QU Oxford, United Kingdom; stefan.heldt@bioch.ox.ac.uk bela.novak@bioch.ox.ac.uk.",
+        "orcid" : "0000-0002-9276-5013"
+      },
+      {
+        "name" : "Timo Frensing"
+      },
+      {
+        "name" : "Udo Reichl",
+        "orcid" : "0000-0001-6538-1332"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000463_url.xml",
+        "description" : "SBML L3V1 representation of Heldt2012 - Influenza Virus Replication",
+        "fileSize" : "209333",
+        "mimeType" : "application/xml",
+        "md5sum" : "50fa9acfe10aa5d9183a52d5365dfb59",
+        "sha1sum" : "1edb0a851ec74993b1abb0b1b63bbbf54d3eb415",
+        "sha256sum" : "b0d88ddc767139cad57544c0eb8c1c2de23949661dbe8769e54fb456d03bd68b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000463-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "83953",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c0c6edc33c424125124d7818d923b437",
+        "sha1sum" : "58005c51e0956863089ddfd6c5daa3516fdf5291",
+        "sha256sum" : "8e4eaaac7cf85b7b1f1fa60130dc49af285f3052f064bc75fdffbfb5964aaba5"
+      },
+      {
+        "name" : "BIOMD0000000463-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "141360",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "02bdb858b10d08abba83959943d4310e",
+        "sha1sum" : "9aa588fe0b7b00acf7f4478ceede7773b4fc1a5b",
+        "sha256sum" : "b883f7aa647e53a507ab1a876749fb395fa370d85e99b0f7d1e6a77b6811a392"
+      },
+      {
+        "name" : "BIOMD0000000463-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "25709",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6bea0919594ae88992e73c23deb8d6f8",
+        "sha1sum" : "c1d69791c78e8315f7d436f282db622eb3e10226",
+        "sha256sum" : "692d25831514033f03fc65a0ae43ea91a3b86a6e44c28338b15d65ec9fbce9fc"
+      },
+      {
+        "name" : "BIOMD0000000463-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "25709",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2f836a7e9cea0a269e73a86e281679f5",
+        "sha1sum" : "dab979ab4538ee1603d7586b45ba99cd07561c93",
+        "sha256sum" : "f1fcd4a02300af19de2857d9e8bdfa445c53ec09d5380ce033b5eb70bd359049"
+      },
+      {
+        "name" : "BIOMD0000000463.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "25709",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2f836a7e9cea0a269e73a86e281679f5",
+        "sha1sum" : "dab979ab4538ee1603d7586b45ba99cd07561c93",
+        "sha256sum" : "f1fcd4a02300af19de2857d9e8bdfa445c53ec09d5380ce033b5eb70bd359049"
+      },
+      {
+        "name" : "BIOMD0000000463.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "21220",
+        "mimeType" : "text/plain",
+        "md5sum" : "e61928a5d04b897fc804fafc350b099d",
+        "sha1sum" : "efc4883c1e52b38a7e998cc0b65110a7b6295e62",
+        "sha256sum" : "130f04e5218e689cbc80ad9455f00683a373249665b5fa028c83eab7d2e472a4"
+      },
+      {
+        "name" : "BIOMD0000000463.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "440717",
+        "mimeType" : "application/pdf",
+        "md5sum" : "1c26326995c72061036c5f7409a39625",
+        "sha1sum" : "ced11de83235f4561c126cb62335ff6e7238cb10",
+        "sha256sum" : "199f9f080cfa34ebc5643ec47ddfe72053a38526f2264860ef9c7bb53dbf31eb"
+      },
+      {
+        "name" : "BIOMD0000000463.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "776235",
+        "mimeType" : "image/png",
+        "md5sum" : "d99ee969b064c11bd26fd1205baf796a",
+        "sha1sum" : "85f529175064994cbd96f3c279ed2a56a876eb9b",
+        "sha256sum" : "dd8181da7e2bc9a07ebe6a0261583fd8bc52b14d27b2d2fac38e3dc960436463"
+      },
+      {
+        "name" : "BIOMD0000000463.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "407",
+        "mimeType" : "text/plain",
+        "md5sum" : "a09cf39d95ab605db52198b969d9b4cb",
+        "sha1sum" : "b6049e3c848043ece8a8c9432788bb02a75b3d39",
+        "sha256sum" : "73ec6f7fb4375b98f8244ca4b6b8151a2840d492531a6bab6987da8fa6c40ecb"
+      },
+      {
+        "name" : "BIOMD0000000463.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "164945",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "2b00fc42f9c5bfb154fa32ba1d203e98",
+        "sha1sum" : "1f04965d2282b18b29450080e32893c7d2b0bea3",
+        "sha256sum" : "7c1900f11adb451ef5bd12237ae790fc17b4fca2eaf1f6d359fb30dfa98dd438"
+      },
+      {
+        "name" : "BIOMD0000000463_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "84139",
+        "mimeType" : "application/xml",
+        "md5sum" : "1aa317e36e011b1e822258768055ba6a",
+        "sha1sum" : "ae85fd94a489d9374368ad7255d4f426d620bf32",
+        "sha256sum" : "1c4fa35bc423af28ddf5b673c1ef9d1713951bf3f13d2cc076ee54ae5fc6727b"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28336",
+        "mimeType" : "image/png",
+        "md5sum" : "512ccd52c20527fef0086d0b10bf3951",
+        "sha1sum" : "e12328d6f872afe2f3d859e875c600153a35433d",
+        "sha256sum" : "790b88ba255211b83ca06981831bcbe8a79656eecc758479eb18b6bfc919d358"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "347",
+        "mimeType" : "text/plain",
+        "md5sum" : "92ae42f9467d20a1f08b176fbb930ba7",
+        "sha1sum" : "8259a30db5cd62bab87b5408dcd0ce43aaa0963e",
+        "sha256sum" : "f8b9f029ea28b7f5b2244fabe86d77e69f7d4ec52bee9911ac2150131c8e9b12"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1911",
+        "mimeType" : "application/xml",
+        "md5sum" : "3ceb91796cf911c10b0ecad72ae0c377",
+        "sha1sum" : "ed6bdf54eff263b117fcf229043bc92a63ba8b1d",
+        "sha256sum" : "23def1f416626376b400b8eef357b884fc3339545d45584850256fc287684b0b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7274",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7ee7214b346e379fe13722d530423e58",
+        "sha1sum" : "c5a73f8d4cb9f6a9606e51adab1c9d6ba68f3547",
+        "sha256sum" : "24b402564f220589059f072f7e77416184ceb7b881041769461626b5f13bf5d1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1374940082,
+        "submitter" : "Frank Stefan Heldt",
+        "comment" : "Original import of Heldt2012_InfluenzaVirusReplication"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460140474,
+        "submitter" : "Frank Stefan Heldt",
+        "comment" : "Current version of Heldt2012 - Influenza Virus Replication"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277823,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285203,
+  "submissionId" : "MODEL1307270000",
+  "publicationId" : "BIOMD0000000463",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Frank Stefan Heldt",
+        "email" : "heldt@mpi-magdeburg.mpg.de",
+        "affiliation" : "Bioprocess Engineering Group, Max Planck Institute for Dynamics of Complex Technical Systems, Magdeburg, Germany",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1307270000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1307270000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000463",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000463"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22593159",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22593159"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9894006",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9894006"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:8469",
+      "name" : "influenza",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:8469"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0046718",
+      "name" : "viral entry into host cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0046718"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019058",
+      "name" : "viral life cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019058"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009814",
+      "name" : "defense response, incompatible interaction",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009814"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "11320",
+      "name" : "Influenza A virus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/11320"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

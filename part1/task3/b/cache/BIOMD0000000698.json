@@ -1,0 +1,308 @@
+{
+  "name" : "Reed2004 - Methionine Cycle",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Reed2004 - Methionine Cycle</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/14637052\" title=\"Access to this publication\">A mathematical model of the    methionine cycle.</a>  </div>  <div class=\"bibo:authorList\">Reed MC, Nijhout HF, Sparks R,  Ulrich CM.</div>  <div class=\"bibo:Journal\">J. Theor. Biol. 2004 Jan; 226(1):  33-43</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Building on the work of Martinov et al. (2000), a    mathematical model is developed for the methionine cycle. A    large amount of information is available about the enzymes that    catalyse individual reaction steps in the cycle, from    methionine to S-adenosylmethionine to S-adenosylhomocysteine to    homocysteine, and the removal of mass from the cycle by the    conversion of homocysteine to cystathionine. Nevertheless, the    behavior of the cycle is very complicated since many substrates    alter the activities of the enzymes in the reactions that    produce them, and some can also alter the activities of other    enzymes in the cycle. The model consists of four differential    equations, based on known reaction kinetics, that can be solved    to give the time course of the concentrations of the four main    substrates in the cycle under various circumstances. We show    that the behavior of the model in response to genetic    abnormalities and dietary deficiencies is similar to the    changes seen in a wide variety of experimental studies. We    conduct computational \"experiments\" that give understanding of    the regulatory behavior of the methionine cycle under normal    conditions and the behavior in the presence of genetic    variation and dietary deficiencies.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000698\">BIOMD0000000698</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "14637052",
+    "journal" : "Journal of theoretical biology",
+    "title" : "A mathematical model of the methionine cycle.",
+    "affiliation" : "Department of Mathematics, Duke University, Durham, NC 27708, USA. reed@math.duke.edu",
+    "synopsis" : "Building on the work of Martinov et al. (2000), a mathematical model is developed for the methionine cycle. A large amount of information is available about the enzymes that catalyse individual reaction steps in the cycle, from methionine to S-adenosylmethionine to S-adenosylhomocysteine to homocysteine, and the removal of mass from the cycle by the conversion of homocysteine to cystathionine. Nevertheless, the behavior of the cycle is very complicated since many substrates alter the activities of the enzymes in the reactions that produce them, and some can also alter the activities of other enzymes in the cycle. The model consists of four differential equations, based on known reaction kinetics, that can be solved to give the time course of the concentrations of the four main substrates in the cycle under various circumstances. We show that the behavior of the model in response to genetic abnormalities and dietary deficiencies is similar to the changes seen in a wide variety of experimental studies. We conduct computational \"experiments\" that give understanding of the regulatory behavior of the methionine cycle under normal conditions and the behavior in the presence of genetic variation and dietary deficiencies.",
+    "year" : 2004,
+    "month" : "1",
+    "volume" : "226",
+    "issue" : "1",
+    "pages" : "33-43",
+    "link" : "http://identifiers.org/pubmed/14637052",
+    "authors" : [
+      {
+        "name" : "Michael C Reed",
+        "institution" : "Department of Mathematics, Duke University, Durham, NC 27708, USA. reed@math.duke.edu"
+      },
+      {
+        "name" : "H Frederik Nijhout"
+      },
+      {
+        "name" : "Rachel Sparks"
+      },
+      {
+        "name" : "Cornelia M Ulrich"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000698_url.xml",
+        "description" : "SBML L2V4 representation of Reed2004 - Methionine Cycle",
+        "fileSize" : "65462",
+        "mimeType" : "application/xml",
+        "md5sum" : "295bf0ca9c43692d32a25c5f894f6e0f",
+        "sha1sum" : "45d9a666f3b543f0075c151792d1001b3e098fcc",
+        "sha256sum" : "680dc639b9eb48666fa36cb30b2d88335ed817ed950e83f7686ec63e13f79780"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000698-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "20409",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ee451e9ff1c3ca7660c1a960bc8b9e78",
+        "sha1sum" : "854223e13ae924c4c241b8fc9e54efc0139dac0c",
+        "sha256sum" : "16b39b2286e8a7d6bf76f010faf1f1a5805c7db4c9b91a6caf2187d07f779e65"
+      },
+      {
+        "name" : "BIOMD0000000698-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "28848",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "29967dd0051a468b08b26849056a32fc",
+        "sha1sum" : "16a92ec0e6539683f89c004b2cc2ca72b9a7511c",
+        "sha256sum" : "ee913a9c249ef964c50997ef1c0f05b55e5c4196e46a0e89e6a358e3235d1421"
+      },
+      {
+        "name" : "BIOMD0000000698-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8269",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "adcf8e34b7a0bc5520ddf19d83251ad8",
+        "sha1sum" : "faef85c6ceaa051a4959bdf3b32670657f5b4fa0",
+        "sha256sum" : "e39e3a0cbde01bcfb997ed77b97e0b3cc435695af195ce8b59e53ec2c5c7974c"
+      },
+      {
+        "name" : "BIOMD0000000698-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "8269",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "bc01692f08b6859909adb1347340ef0a",
+        "sha1sum" : "a9e9fc6209d577cab273affa170ffac6fe61e56c",
+        "sha256sum" : "9bc764fb56563312a2880c2659e18ded45208e161f29e4333cb5c2d683fecabb"
+      },
+      {
+        "name" : "BIOMD0000000698.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "8271",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7078040537432ab8c0e117472607f052",
+        "sha1sum" : "5dde2505b0f8e0357bc138a722e23ebfff692d65",
+        "sha256sum" : "8fb88ba98291e86ef30226adbcf63de0b02b564934172787456a53937f96744a"
+      },
+      {
+        "name" : "BIOMD0000000698.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6705",
+        "mimeType" : "text/plain",
+        "md5sum" : "2352a26f0c4e8b777462d460dcc9506b",
+        "sha1sum" : "7654af8eced590c398cad19b0f8a66287e632e86",
+        "sha256sum" : "1fda63b4443d8638b508bffa5132a5ecbeea39538de3f49285b994c65f86e1fb"
+      },
+      {
+        "name" : "BIOMD0000000698.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "190877",
+        "mimeType" : "application/pdf",
+        "md5sum" : "a980714c9bf11777d3e4667708aa52f6",
+        "sha1sum" : "8e6a9576099039b5085f5023120cb170345a6f88",
+        "sha256sum" : "8ab66c669f65c296c14147981f1192648de2e26d4496ff7c414f2140f5881929"
+      },
+      {
+        "name" : "BIOMD0000000698.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "55920",
+        "mimeType" : "image/png",
+        "md5sum" : "beafedfd0abd203b328eb389e53f51df",
+        "sha1sum" : "2dd8887a472250b0eb55c8dd4333ca4bb8bb9ee5",
+        "sha256sum" : "cd8abecd337bcbd0b6abee605eb99f73c993aca940e3af1665bd2e71ece0417b"
+      },
+      {
+        "name" : "BIOMD0000000698.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "19439",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "606ae7414890e62fdfea432b52057779",
+        "sha1sum" : "7169fb47f1257a2d50707e474d611ce8d1bf3d7c",
+        "sha256sum" : "4e2c1ee36613da0ba9d6f1b48c762c31719890feda28d1bf5e73dd2d58ac6b6c"
+      },
+      {
+        "name" : "BIOMD0000000698.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "68719",
+        "mimeType" : "application/xml",
+        "md5sum" : "a64c9e97ba43121f99bdb2be0748336d",
+        "sha1sum" : "7995d3bcc17b9bea402db8c9cd3f689add8740c2",
+        "sha256sum" : "de84b99a5ff2342457e4390e5c63a3a68b82330c52f0c68c1054283376203775"
+      },
+      {
+        "name" : "MODEL1006230091.cps",
+        "description" : "Curated and annotated model COPASI file",
+        "fileSize" : "84849",
+        "mimeType" : "application/xml",
+        "md5sum" : "f2b51bb11e05547b9fa1d84aefb64b4d",
+        "sha1sum" : "d5fc87847db21d7e93c6fbb577b5da3775d3c60c",
+        "sha256sum" : "8c4db06f9fade9bf29b97e8130350f3650916571aac288cfc8e443a42fcd6162"
+      },
+      {
+        "name" : "MODEL1006230091.sedml",
+        "description" : "SED-ML file for figure 4. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "23494",
+        "mimeType" : "application/xml",
+        "md5sum" : "86d092e3f45c6847989e5478856af18c",
+        "sha1sum" : "00887fb6c7ba9759e6140347762f32ea75421f68",
+        "sha256sum" : "4dd9c2de74732760b3cb8ed1b18bb5a7e79f2dfcc82c04ad37c00ce74464620b"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "23214",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "c9aaaa20bee8d44ed5161a4fefac2e96",
+        "sha1sum" : "51b7506911451dc2a9c15c3eef75b850a57f8ada",
+        "sha256sum" : "c29c15b42c9df9f6915c4188dc3a9a1814e337fe138d3c56097e612104207437"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "151",
+        "mimeType" : "text/plain",
+        "md5sum" : "aa680c2019ec36812f873b2dabf22a6b",
+        "sha1sum" : "466668d2d46070954f43dfb88e13eb37e7321b9c",
+        "sha256sum" : "60bb7da97a2380aabdd9f80ff6a9432ef615ad3395473eb527dd4e2f3074d1fc"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2031",
+        "mimeType" : "application/xml",
+        "md5sum" : "52482b04308d9fe957bcb8a94b60a84d",
+        "sha1sum" : "9e53637cd22ca3990a292b5b8f46eaa0b4f54b9f",
+        "sha256sum" : "e2892920415e84a0c5b6bb248ec2bbe06283cb2fb152414ef4eb379b5b05f0fb"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4663",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "837e82702b458316a93a95c12f118fe9",
+        "sha1sum" : "eec21d1c06ae9e217971037e892f239caf21ce13",
+        "sha256sum" : "d0cfb22af93b3c98d3a54872127ac5b14c7bbae50a71975b73549dd7e79a0e12"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287954,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Reed2004_MethionineCycle"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277477118,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Reed2004_MethionineCycle"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1525858592,
+        "submitter" : "administrator",
+        "comment" : "Notes updated using online editor."
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724286954,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285414,
+  "submissionId" : "MODEL1006230091",
+  "publicationId" : "BIOMD0000000698",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230091",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230091"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "14637052",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14637052"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000698",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000698"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0033528",
+      "name" : "S-methylmethionine cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0033528"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "14637052",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/14637052"
+    }
+  ]
+}

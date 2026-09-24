@@ -1,0 +1,307 @@
+{
+  "name" : "Besozzi2012 - Oscillatory regimes in the Ras/cAMP/PKA pathway in S.cerevisiae",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Besozzi2012 - Oscillatory regimes in the Ras/cAMP/PKA pathway in S.cerevisiae</div>            <div class=\"dc:description\">      <p>Mechanistic model of the Ras/cAMP/PKA in yeast S.cerevisiae. The Ras/cAMP/PKA pathway plays a major role in the regulation of metabolism, stress resistance and cell cycle progress and is tightly regulated by multiple feedback loops, exerted by the protein kinase A (PKA). This model investigates the dynamics of the second messenger cAMP on Ras/cAMP/PKA pathway, to determine the effects of the feedback mechanisms on establising stable oscillatory regimes.</p>                <p>The model has been defined according to the stochastic formulation of chemical kinetics        <a href=\"http://identifiers.org/doi/10.1021/j100540a008\">[Gillespie DT, 1977]</a>            , which requires to specify the set of molecular species occurring in the pathway and their respective interactions, formally described as a set of biochemical reactions.        </p>                <p>The volume considered for this system is 30fL; this value can be used to convert the model into the deterministic formulation.</p>                </div>            <div class=\"dc:bibliographicCitation\">      <p>This model is described in the article:</p>                <div class=\"bibo:title\">        <a href=\"http://identifiers.org/pubmed/22818197\" title=\"Access to this publication\">The role of feedback control mechanisms on the establishment of oscillatory regimes in the Ras/cAMP/PKA pathway in S. cerevisiae.</a>                    </div>                <div class=\"bibo:authorList\">Besozzi D, Cazzaniga P, Pescini D, Mauri G, Colombo S, Martegani E.</div>                <div class=\"bibo:Journal\">EURASIP J Bioinform Syst Biol. 2012 Jul 20;2012(1):10.</div>                <p>Abstract:</p>                <div class=\"bibo:abstract\">        <p>In the yeast Saccharomyces cerevisiae, the Ras/cAMP/PKA pathway is involved in the regulation of cell growth and proliferation in response to nutritional sensing and stress conditions. The pathway is tightly regulated by multiple feedback loops, exerted by the protein kinase A (PKA) on a few pivotal components of the pathway. In this article, we investigate the dynamics of the second messenger cAMP by performing stochastic simulations and parameter sweep analysis of a mechanistic model of the Ras/cAMP/PKA pathway, to determine the effects that the modulation of these feedback mechanisms has on the establishment of stable oscillatory regimes. In particular, we start by studying the role of phosphodiesterases, the enzymes that catalyze the degradation of cAMP, which represent the major negative feedback in this pathway. Then, we show the results on cAMP oscillations when perturbing the amount of protein Cdc25 coupled with the alteration of the intracellular ratio of the guanine nucleotides (GTP/GDP), which are known to regulate the switch of the GTPase Ras protein. This multi-level regulation of the amplitude and frequency of oscillations in the Ras/cAMP/PKA pathway might act as a fine tuning mechanism for the downstream targets of PKA, as also recently evidenced by some experimental investigations on the nucleocytoplasmic shuttling of the transcription factor Msn2 in yeast cells.</p>                    </div>                </div>            <div class=\"dc:publisher\">      <p>This model is hosted on        <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>            and identifiedby:        <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000478\">BIOMD0000000478</a>            .        </p>                <p>To cite BioModels Database, please use:        <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resourcefor published quantitative kinetic models</a>            .        </p>                </div>            <div class=\"dc:license\">      <p>To the extent possible under law, all copyright and related orneighbouring rights to this encoded model have been dedicated to the publicdomain worldwide. Please refer to        <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public DomainDedication</a>            for more information.        </p>                </div>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22818197",
+    "journal" : "EURASIP journal on bioinformatics & systems biology",
+    "title" : "The role of feedback control mechanisms on the establishment of oscillatory regimes in the Ras/cAMP/PKA pathway in S. cerevisiae.",
+    "affiliation" : "Università degli Studi di Milano, Dipartimento di Informatica, Via Comelico 39, 20135 Milano, Italy. besozzi@di.unimi.it.",
+    "synopsis" : ": In the yeast Saccharomyces cerevisiae, the Ras/cAMP/PKA pathway is involved in the regulation of cell growth and proliferation in response to nutritional sensing and stress conditions. The pathway is tightly regulated by multiple feedback loops, exerted by the protein kinase A (PKA) on a few pivotal components of the pathway. In this article, we investigate the dynamics of the second messenger cAMP by performing stochastic simulations and parameter sweep analysis of a mechanistic model of the Ras/cAMP/PKA pathway, to determine the effects that the modulation of these feedback mechanisms has on the establishment of stable oscillatory regimes. In particular, we start by studying the role of phosphodiesterases, the enzymes that catalyze the degradation of cAMP, which represent the major negative feedback in this pathway. Then, we show the results on cAMP oscillations when perturbing the amount of protein Cdc25 coupled with the alteration of the intracellular ratio of the guanine nucleotides (GTP/GDP), which are known to regulate the switch of the GTPase Ras protein. This multi-level regulation of the amplitude and frequency of oscillations in the Ras/cAMP/PKA pathway might act as a fine tuning mechanism for the downstream targets of PKA, as also recently evidenced by some experimental investigations on the nucleocytoplasmic shuttling of the transcription factor Msn2 in yeast cells.",
+    "year" : 2012,
+    "month" : "7",
+    "volume" : "2012",
+    "issue" : "1",
+    "pages" : "10",
+    "link" : "http://identifiers.org/pubmed/22818197",
+    "authors" : [
+      {
+        "name" : "Daniela Besozzi",
+        "orcid" : "0000-0001-5532-3059"
+      },
+      {
+        "name" : "Paolo Cazzaniga"
+      },
+      {
+        "name" : "Dario Pescini",
+        "orcid" : "0000-0002-3090-4823"
+      },
+      {
+        "name" : "Giancarlo Mauri",
+        "orcid" : "0000-0003-3520-4022"
+      },
+      {
+        "name" : "Sonia Colombo",
+        "orcid" : "0000-0001-5104-508X"
+      },
+      {
+        "name" : "Enzo Martegani",
+        "orcid" : "0000-0001-9196-4224"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000478_url.xml",
+        "description" : "SBML L2V4 representation of Besozzi2012 - Oscillatory regimes in the Ras/cAMP/PKA pathway in S.cerevisiae",
+        "fileSize" : "81205",
+        "mimeType" : "application/xml",
+        "md5sum" : "4c481a7534aff69488fa2eeefdf2ef57",
+        "sha1sum" : "c9c32a6d48bd267493707e191415eab03840aea7",
+        "sha256sum" : "51afdeeac691994e9411c49f2e40442adcf021a8d01a69c37cdb6f2e3c118f4b"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000478-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "76095",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bb109c3380eb4fd7ce84a3f755437f60",
+        "sha1sum" : "67f491506957ecaefe62d011cc60d51766959d87",
+        "sha256sum" : "e4798bf12a1f412afea63183a96f38cfdbc19dc8739a3ee9cc3b57f0648b6095"
+      },
+      {
+        "name" : "BIOMD0000000478-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "126227",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "86317c64ddf5738a27a0a774a3b998f3",
+        "sha1sum" : "038c1def939e0cc18f8f4458f14d6aabef804c46",
+        "sha256sum" : "8bfa915de2091dc71db23ab29e6387e9fe4acc63d635f5d62608f514b52f30e8"
+      },
+      {
+        "name" : "BIOMD0000000478-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "14252",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6403573102643ce67da0341ff3f22baa",
+        "sha1sum" : "4d8e352a391af32c110783e7450a4e23311355e4",
+        "sha256sum" : "82f222cb82c9dc109c853469a4f89cce7fde4593e506edefc64afcbc2a1a68b5"
+      },
+      {
+        "name" : "BIOMD0000000478-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "14252",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0243f0f1e2b645add219c58222836736",
+        "sha1sum" : "3f6bb3af8586758bee6da260ba9ace8e210f63de",
+        "sha256sum" : "47f3ad1e8ae61611a5a2b817fbae924af6b63c391a16ec74a0e59e6e9931cb5d"
+      },
+      {
+        "name" : "BIOMD0000000478.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "14252",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0243f0f1e2b645add219c58222836736",
+        "sha1sum" : "3f6bb3af8586758bee6da260ba9ace8e210f63de",
+        "sha256sum" : "47f3ad1e8ae61611a5a2b817fbae924af6b63c391a16ec74a0e59e6e9931cb5d"
+      },
+      {
+        "name" : "BIOMD0000000478.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "10757",
+        "mimeType" : "text/plain",
+        "md5sum" : "88dbb60720c556ff544d8cf79b2447ca",
+        "sha1sum" : "eab5248281e2c4578367f196a871a9d375bae5cb",
+        "sha256sum" : "cfbd8319c78975230a9b442d3315475115772e479f14a8cd0638717e8a8e0786"
+      },
+      {
+        "name" : "BIOMD0000000478.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "360562",
+        "mimeType" : "application/pdf",
+        "md5sum" : "42fe22cfc4f2be2ff76842e3387ca7a5",
+        "sha1sum" : "00668c8b6abaf0a6a8e183e6a843927c4e9a24dd",
+        "sha256sum" : "eac3e432e1072b39404bc3c3fd9e9c10ee4b564e3ceb18aee0186edc8628c4fc"
+      },
+      {
+        "name" : "BIOMD0000000478.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "987875",
+        "mimeType" : "image/png",
+        "md5sum" : "bfd83a07793a76a9464ef179f04645f6",
+        "sha1sum" : "701fd1401e6ed2737d2a62698459331ec680eca4",
+        "sha256sum" : "706b3f995a5ec6a1a6189c0e6675485045280251e446186db52acb15ee0ad9d8"
+      },
+      {
+        "name" : "BIOMD0000000478.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "139638",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "8fd0e17d1666813941c8707553b63410",
+        "sha1sum" : "b091b58fe7c6eb313cb4cc9992d5befc1ebad5e7",
+        "sha256sum" : "04305ac9a0879904a53f352748f84ee1550472d1d80cc32153181cb7569293f9"
+      },
+      {
+        "name" : "BIOMD0000000478_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "63180",
+        "mimeType" : "application/xml",
+        "md5sum" : "7951ea5b988c838e6b06eb9fe45e8067",
+        "sha1sum" : "1435213bb27dbe0341ed0dbcfd9b656627544039",
+        "sha256sum" : "aa94f0706acb7fb0137e8378bc86507b4e827ebd25f98b79fbe8a0e7f2e0f449"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "128058",
+        "mimeType" : "image/png",
+        "md5sum" : "01f7d0006edd0e381f7e7099b361b638",
+        "sha1sum" : "524dba7a8eb7979b9281d9138dce0749ad4fdcc8",
+        "sha256sum" : "300cf8e2bf7bf70bd57e349eaed15b74f5cab8bf361ef6c8297d5453c803ad11"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "486",
+        "mimeType" : "text/plain",
+        "md5sum" : "fedb90a17de0ff3145be3b450939e797",
+        "sha1sum" : "822e3c0fceba7a750dc7ece3f7be15ba598be95b",
+        "sha256sum" : "573abc55bebeff01334d7e5414de1e1860759c6e4b9107fafac0aaacbc36c1b2"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "d31f4eb750ff9c5cd565911fefd30604",
+        "sha1sum" : "1d326e4072889fb041da5cb8bda79edf191baf38",
+        "sha256sum" : "9add45192b5be1171de5ea86d489bedab9e87b02da16a9a9ef2d008af2539221"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7753",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6c9335d50f58f8728f47fb45f677746e",
+        "sha1sum" : "c6ad89dfdbea6d73898dff4e345ac7dd78ae8879",
+        "sha256sum" : "47a8233a29c2681f1e89e6a6f950d31d01b07406219ff403bc6bb2e5f75567be"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1378482735,
+        "submitter" : "Paolo Cazzaniga",
+        "comment" : "Original import of Pescini2012_Ras/cAMP/PKA_stochastic"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1394465907,
+        "submitter" : "Paolo Cazzaniga",
+        "comment" : "Current version of Besozzi2012 - Oscillatory regimes in the Ras/cAMP/PKA pathway in S.cerevisiae"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724278619,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285220,
+  "submissionId" : "MODEL1309060000",
+  "publicationId" : "BIOMD0000000478",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Paolo Cazzaniga",
+        "email" : "paolo.cazzaniga@unibg.it",
+        "affiliation" : "University of Bergamo",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1309060000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1309060000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000478",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000478"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22818197",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22818197"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "21741466",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21741466"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "18023904",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18023904"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0010737",
+      "name" : "protein kinase A signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0010737"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "PW:0000543",
+      "name" : "protein kinase A (PKA) signaling pathway",
+      "resource" : "Pathway Ontology",
+      "uri" : "http://identifiers.org/pw/PW:0000543"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0019933",
+      "name" : "cAMP-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019933"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

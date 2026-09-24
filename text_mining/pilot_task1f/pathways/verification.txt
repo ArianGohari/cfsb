@@ -1,0 +1,65 @@
+REQUEST 01: 2026-09-20T16:03:16.427115+00:00 .. 2026-09-20T16:03:18.801798+00:00 HTTP=200 curl=0 https://rest.kegg.jp/get/hsa04710 raw=request_01.body
+REQUEST 02: 2026-09-20T16:03:18.802670+00:00 .. 2026-09-20T16:03:20.862610+00:00 HTTP=200 curl=0 https://rest.kegg.jp/get/hsa04115 raw=request_02.body
+REQUEST 03: 2026-09-20T16:03:20.863470+00:00 .. 2026-09-20T16:03:22.555681+00:00 HTTP=200 curl=0 https://rest.kegg.jp/get/hsa04710/kgml raw=request_03.body
+REQUEST 04: 2026-09-20T16:03:22.556618+00:00 .. 2026-09-20T16:03:24.433052+00:00 HTTP=200 curl=0 https://rest.kegg.jp/get/hsa04115/kgml raw=request_04.body
+REQUEST 05: 2026-09-20T16:03:24.433686+00:00 .. 2026-09-20T16:03:24.493214+00:00 HTTP=0 curl=7 https://cpdb.molgen.mpg.de/CPDB raw=request_05.body
+REQUEST 06: 2026-09-20T16:03:24.493656+00:00 .. 2026-09-20T16:03:24.533076+00:00 HTTP=0 curl=7 https://cpdb.molgen.mpg.de/ raw=request_06.body
+REQUEST 07: 2026-09-20T16:03:46.863943+00:00 .. 2026-09-20T16:03:48.550352+00:00 HTTP=200 curl=0 https://rest.kegg.jp/get/hsa:406+hsa:8864+hsa:7157+hsa:4193+hsa:9575 raw=request_07.body
+REQUEST 08: 2026-09-20T16:03:48.551503+00:00 .. 2026-09-20T16:03:48.621886+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB raw=request_08.body
+REQUEST 09: 2026-09-20T16:03:48.622506+00:00 .. 2026-09-20T16:03:50.510923+00:00 HTTP=200 curl=0 https://www.kegg.jp/kegg/xml/docs/ raw=request_09.body
+REQUEST 10: 2026-09-20T16:03:50.511733+00:00 .. 2026-09-20T16:03:51.077416+00:00 HTTP=200 curl=0 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=ConsensusPathDB%5BTitle%5D&retmode=json&retmax=10 raw=request_10.body
+REQUEST 11: 2026-09-20T16:04:22.630056+00:00 .. 2026-09-20T16:04:22.697685+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/llFrame raw=request_11.body
+REQUEST 12: 2026-09-20T16:04:22.698211+00:00 .. 2026-09-20T16:04:22.851919+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/rlFrame raw=request_12.body
+REQUEST 13: 2026-09-20T16:04:22.852561+00:00 .. 2026-09-20T16:04:23.615733+00:00 HTTP=200 curl=0 https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34850110,23143270&retmode=xml raw=request_13.body
+REQUEST 14: 2026-09-20T16:04:39.093022+00:00 .. 2026-09-20T16:04:39.164826+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/search_page raw=request_14.body
+REQUEST 15: 2026-09-20T16:08:41.611279+00:00 .. 2026-09-20T16:08:42.645124+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/search?nameacc=name&keywords=circadian&searchspace=Pathway raw=request_15.body
+REQUEST 16: 2026-09-20T16:08:42.645793+00:00 .. 2026-09-20T16:08:44.456907+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/search?nameacc=name&keywords=p53&searchspace=Pathway raw=request_16.body
+REQUEST 17: 2026-09-20T16:09:04.866391+00:00 .. 2026-09-20T16:09:06.714423+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/search?nameacc=name&keywords=PER2&searchspace=PhysicalEntity raw=request_17.body
+REQUEST 18: 2026-09-20T16:09:06.715170+00:00 .. 2026-09-20T16:09:06.789399+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/getInteractionsOfObjs?objtype=p&objs%3Alist=186064&checknames=%5B%5D&exp=0 raw=request_18.body
+REQUEST 19: 2026-09-20T16:09:06.790030+00:00 .. 2026-09-20T16:09:06.862002+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/getInteractionsOfObjs?objtype=p&objs%3Alist=186056&checknames=%5B%5D&exp=0 raw=request_19.body
+REQUEST 20: 2026-09-20T16:09:32.241103+00:00 .. 2026-09-20T16:09:33.881415+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/getInteractionsOfObjs?objtype=e&objs%3Alist=147176&checknames=%5B%5D&exp=0 raw=request_20.body
+REQUEST 21: 2026-09-20T16:09:33.882480+00:00 .. 2026-09-20T16:09:34.013256+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/getInteractionsOfObjs?objtype=p&objs%3Alist=147321&checknames=%5B%5D&exp=0 raw=request_21.body
+REQUEST 22: 2026-09-20T16:10:24.606909+00:00 .. 2026-09-20T16:10:31.247456+00:00 HTTP=200 curl=0 http://cpdb.molgen.mpg.de/CPDB/search?nameacc=name&keywords=TP53%0AMDM2%0AARNTL%0ABMAL1%0ACLOCK&searchspace=PhysicalEntity raw=request_22.body
+hsa04710 unique genes= 34 entries= 48 relations= 26
+presence: {'PER2': True, 'TP53': False, 'MDM2': False, 'ARNTL/BMAL1': True, 'CLOCK': True}
+Uhr: Gruppe 86 -> PER1/2/3-Knoten 16, PPrel ohne subtype; keine eindeutige Einzelgenkante.
+PATHWAY REFERENCE hsa04710 27990019 10.1038/nrg.2016.150
+PATHWAY REFERENCE hsa04710 32226546 10.7150/thno.43834
+PATHWAY REFERENCE hsa04710 12015613 10.1038/417329a
+PATHWAY REFERENCE hsa04710 12397359 10.1038/nature01123
+PATHWAY REFERENCE hsa04710 12724733 10.1038/nrc1072
+PATHWAY REFERENCE hsa04710 12507418 10.1016/S0092-8674(02)01225-4
+PATHWAY REFERENCE hsa04710 18802415 10.1038/nrg2430
+hsa04115 unique genes= 75 entries= 74 relations= 69
+presence: {'PER2': False, 'TP53': True, 'MDM2': True, 'ARNTL/BMAL1': False, 'CLOCK': False}
+Eindeutige Zielgen-Relationen: [('50', '49', 'hsa:7157', 'hsa:4193', 'PPrel', ['activation']), ('50', '51', 'hsa:7157', 'hsa:4193', 'GErel', ['expression'])]
+PATHWAY REFERENCE hsa04115 16557269 10.1038/sj.cdd.4401910
+PATHWAY REFERENCE hsa04115 15838523 10.1038/sj.onc.1208615
+PATHWAY REFERENCE hsa04115 11747320 10.1054/bjoc.2001.2128
+PATHWAY REFERENCE hsa04115 11313928 10.1038/sj.onc.1204252
+PATHWAY REFERENCE hsa04115 15116721 10.1016/j.tips.2004.02.009
+PATHWAY REFERENCE hsa04115 12505356 10.1016/S0300-483X(02)00460-2
+PATHWAY REFERENCE hsa04115 10714958 10.1016/S1040-8428(99)00051-7
+PATHWAY REFERENCE hsa04115 16697662 10.1016/j.semcancer.2006.03.002
+PATHWAY REFERENCE hsa04115 16915296 10.1038/nrc1954
+PATHWAY REFERENCE hsa04115 17409411 10.1158/0008-5472.CAN-06-4149
+PATHWAY REFERENCE hsa04115 26037915 10.1158/2159-8290.CD-15-0484
+PATHWAY REFERENCE hsa04115 19584092 10.1242/jcs.049940
+PATHWAY REFERENCE hsa04115 19240372 10.4103/1477-3163.45389
+PATHWAY REFERENCE hsa04115 12135761 10.1016/S0014-5793(02)03049-1
+PATHWAY REFERENCE hsa04115 26646590 10.18632/oncotarget.6478
+PASS: Geneintrag bestätigt ARNTL/BMAL1; Schnittmenge beider Genlisten leer.
+CPDB PUBLICATION: 34850110 ConsensusPathDB 2022: molecular interactions update as a resource for network biology. [('pubmed', '34850110'), ('pmc', 'PMC8728246'), ('doi', '10.1093/nar/gkab1128'), ('pii', '6439672')]
+ABSTRACT: Molecular interactions are key drivers of biological function. Providing interaction resources to the research community is important since they allow functional interpretation and network-based analysis of molecular data. ConsensusPathDB (http://consensuspathdb.org) is a meta-database combining interactions of diverse types from 31 public resources for humans, 16 for mice and 14 for yeasts. Using ConsensusPathDB, researchers commonly evaluate lists of genes, proteins and metabolites against sets of molecular interactions defined by pathways, Gene Ontology and network neighborhoods and retrieve complex molecular neighborhoods formed by heterogeneous interaction types. Furthermore, the integrated protein-protein interaction network is used as a basis for propagation methods. Here, we present the 2022 update of ConsensusPathDB, highlighting content growth, additional functionality and improved database stability. For example, the number of human molecular interactions increased to 859 848 connecting 200 499 unique physical entities such as genes/proteins, metabolites and drugs. Furthermore, we integrated regulatory datasets in the form of transcription factor-, microRNA- and enhancer-gene target interactions, thus providing novel functionality in the context of overrepresentation and enrichment analyses. We specifically emphasize the use of the integrated protein-protein interaction network as a scaffold for network inferences, present topological characteristics of the network and discuss strengths and shortcomings of such approaches.
+CPDB PUBLICATION: 23143270 The ConsensusPathDB interaction database: 2013 update. [('pubmed', '23143270'), ('pmc', 'PMC3531102'), ('doi', '10.1093/nar/gks1055'), ('pii', 'gks1055')]
+ABSTRACT: Knowledge of the various interactions between molecules in the cell is crucial for understanding cellular processes in health and disease. Currently available interaction databases, being largely complementary to each other, must be integrated to obtain a comprehensive global map of the different types of interactions. We have previously reported the development of an integrative interaction database called ConsensusPathDB (http://ConsensusPathDB.org) that aims to fulfill this task. In this update article, we report its significant progress in terms of interaction content and web interface tools. ConsensusPathDB has grown mainly due to the integration of 12 further databases; it now contains 215 541 unique interactions and 4601 pathways from overall 30 databases. Binary protein interactions are scored with our confidence assessment tool, IntScore. The ConsensusPathDB web interface allows users to take advantage of these integrated interaction and pathway data in different contexts. Recent developments include pathway analysis of metabolite lists, visualization of functional gene/metabolite sets as overlap graphs, gene set analysis based on protein complexes and induced network modules analysis that connects a list of genes through various interaction types. To facilitate the interactive, visual interpretation of interaction and pathway data, we have re-implemented the graph visualization feature of ConsensusPathDB using the Cytoscape.js library.
+CPDB TARGET: 147176 ['PER2']
+CPDB TARGET: 8712 ['TP53']
+CPDB TARGET: 14013 ['MDM2']
+CPDB TARGET: 10181 ['ARNTL', 'BMAL1']
+CPDB TARGET: 10197 ['CLOCK']
+CPDB PHYSICAL INTERACTION: Physical interaction of PER2 gene; TP53 ['2649126', '2649135', '2649138', '2649141', '3025362', '3025365'] source=Biogrid; no direction inferred
+CPDB PHYSICAL INTERACTION: Physical interaction of MDM2 Gene; PER2 gene ['2649147', '3523915', '3523918', '3523921', '4069781'] source=Biogrid; no direction inferred
+PASS: 22 Abrufversuche = ursprüngliche 14 + genehmigte 8; Amendment vor Request 15, ursprüngliches Log unverändert.
+PASS: alle Body-Hashes, UTC, Status; CPDB-Suchtreffer, Quellen-IDs und physische PER2–TP53/PER2–MDM2-Annotationen geprüft.
+Offline: keine Remote-Requests, keine Simulation, kein SBML-Modell abgerufen.

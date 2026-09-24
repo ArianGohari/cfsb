@@ -1,0 +1,296 @@
+{
+  "name" : "Proctor2008 - p53/Mdm2 circuit - p53 stabilisation by ATM",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Proctor2008 - p53/Mdm2 circuit - p53 stabilisation by ATM</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/18706112\" title=\"Access to this publication\">Explaining oscillations and    variability in the p53-Mdm2 system.</a>  </div>  <div class=\"bibo:authorList\">Proctor CJ, Gray DA.</div>  <div class=\"bibo:Journal\">BMC Syst Biol 2008; 2: 75</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>BACKGROUND: In individual living cells p53 has been found to    be expressed in a series of discrete pulses after DNA damage.    Its negative regulator Mdm2 also demonstrates oscillatory    behaviour. Attempts have been made recently to explain this    behaviour by mathematical models but these have not addressed    explicit molecular mechanisms. We describe two stochastic    mechanistic models of the p53/Mdm2 circuit and show that    sustained oscillations result directly from the key biological    features, without assuming complicated mathematical functions    or requiring more than one feedback loop. Each model examines a    different mechanism for providing a negative feedback loop    which results in p53 activation after DNA damage. The first    model (ARF model) looks at the mechanism of p14ARF which    sequesters Mdm2 and leads to stabilisation of p53. The second    model (ATM model) examines the mechanism of ATM activation    which leads to phosphorylation of both p53 and Mdm2 and    increased degradation of Mdm2, which again results in p53    stabilisation. The models can readily be modified as further    information becomes available, and linked to other models of    cellular ageing. RESULTS: The ARF model is robust to changes in    its parameters and predicts undamped oscillations after DNA    damage so long as the signal persists. It also predicts that if    there is a gradual accumulation of DNA damage, such as may    occur in ageing, oscillations break out once a threshold level    of damage is acquired. The ATM model requires an additional    step for p53 synthesis for sustained oscillations to develop.    The ATM model shows much more variability in the oscillatory    behaviour and this variability is observed over a wide range of    parameter values. This may account for the large variability    seen in the experimental data which so far has examined ARF    negative cells. CONCLUSION: The models predict more regular    oscillations if ARF is present and suggest the need for further    experiments in ARF positive cells to test these predictions.    Our work illustrates the importance of systems biology    approaches to understanding the complex role of p53 in both    ageing and cancer.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000188\">BIOMD0000000188</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "18706112",
+    "journal" : "BMC systems biology",
+    "title" : "Explaining oscillations and variability in the p53-Mdm2 system.",
+    "affiliation" : "Centre for Integrated Systems Biology of Ageing and Nutrition, Institute for Ageing and Health, Newcastle University, Newcastle upon Tyne, UK. c.j.proctor@ncl.ac.uk",
+    "synopsis" : "<h4>Background</h4>In individual living cells p53 has been found to be expressed in a series of discrete pulses after DNA damage. Its negative regulator Mdm2 also demonstrates oscillatory behaviour. Attempts have been made recently to explain this behaviour by mathematical models but these have not addressed explicit molecular mechanisms. We describe two stochastic mechanistic models of the p53/Mdm2 circuit and show that sustained oscillations result directly from the key biological features, without assuming complicated mathematical functions or requiring more than one feedback loop. Each model examines a different mechanism for providing a negative feedback loop which results in p53 activation after DNA damage. The first model (ARF model) looks at the mechanism of p14ARF which sequesters Mdm2 and leads to stabilisation of p53. The second model (ATM model) examines the mechanism of ATM activation which leads to phosphorylation of both p53 and Mdm2 and increased degradation of Mdm2, which again results in p53 stabilisation. The models can readily be modified as further information becomes available, and linked to other models of cellular ageing.<h4>Results</h4>The ARF model is robust to changes in its parameters and predicts undamped oscillations after DNA damage so long as the signal persists. It also predicts that if there is a gradual accumulation of DNA damage, such as may occur in ageing, oscillations break out once a threshold level of damage is acquired. The ATM model requires an additional step for p53 synthesis for sustained oscillations to develop. The ATM model shows much more variability in the oscillatory behaviour and this variability is observed over a wide range of parameter values. This may account for the large variability seen in the experimental data which so far has examined ARF negative cells.<h4>Conclusion</h4>The models predict more regular oscillations if ARF is present and suggest the need for further experiments in ARF positive cells to test these predictions. Our work illustrates the importance of systems biology approaches to understanding the complex role of p53 in both ageing and cancer.",
+    "year" : 2008,
+    "month" : "8",
+    "volume" : "2",
+    "pages" : "75",
+    "link" : "http://identifiers.org/pubmed/18706112",
+    "authors" : [
+      {
+        "name" : "Carole J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "Douglas A Gray",
+        "orcid" : "0000-0002-8634-4984"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000188_url.xml",
+        "description" : "SBML L2V4 representation of Proctor2008 - p53/Mdm2 circuit - p53 stabilisation by ATM",
+        "fileSize" : "45092",
+        "mimeType" : "application/xml",
+        "md5sum" : "43f7b8804fd27fdebcc8a77fe156e7e6",
+        "sha1sum" : "625fd3ae43aea1b466c01ef53adada9a1b3ffeb9",
+        "sha256sum" : "4af35d1769b5600ecad47161121223beb720359b20f3095969aaaa035f38eb69"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000188-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "41555",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "31970a2d769f0fb885c07d515e5389ff",
+        "sha1sum" : "1154599a73bf8ecd606c78ef8ea930e105c9cc48",
+        "sha256sum" : "3def6b204a0a9b622d1cf33e497f6bed75108bd872a2f53c0f303b8fd9b2b3d3"
+      },
+      {
+        "name" : "BIOMD0000000188-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "68218",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b23a37e80a00a9e3e9e2191b13db9e1c",
+        "sha1sum" : "527f47bbc27e3e827d4bbbd5be6d2519f01e3f18",
+        "sha256sum" : "84f24cd0b7b0e53c2442bc5b9c2d03964d7a0353305c21f887940cff3e62a07c"
+      },
+      {
+        "name" : "BIOMD0000000188-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9986",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "63747a210a6ab74ceaca44838e96c296",
+        "sha1sum" : "b9fedc8a93d838bc98c8265dd54da45102a6fba0",
+        "sha256sum" : "a9d1848e7c26d8fc656863d459f76d0219cc91298af4811f4397eeebc4b21b9c"
+      },
+      {
+        "name" : "BIOMD0000000188-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9986",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e75b7cefae7ff4db9b4c8bead9e7bd30",
+        "sha1sum" : "4b8aa96e51bc13dd66839dfe54573d12ba730044",
+        "sha256sum" : "59f43473fecc7ab5046139bcbab2e806b268b8afe96dbb216cb8ae2ad3b6710a"
+      },
+      {
+        "name" : "BIOMD0000000188.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9986",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e75b7cefae7ff4db9b4c8bead9e7bd30",
+        "sha1sum" : "4b8aa96e51bc13dd66839dfe54573d12ba730044",
+        "sha256sum" : "59f43473fecc7ab5046139bcbab2e806b268b8afe96dbb216cb8ae2ad3b6710a"
+      },
+      {
+        "name" : "BIOMD0000000188.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7101",
+        "mimeType" : "text/plain",
+        "md5sum" : "bf3d992f45311bc6320f000225375a00",
+        "sha1sum" : "1aac6ce1db43c6e4b95da3800e8c49fb29f32612",
+        "sha256sum" : "c3d412e6f8ce7c6fa60b11c9c13fddb14c25f5693cccdf58377b00d3ea4d2de0"
+      },
+      {
+        "name" : "BIOMD0000000188.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "235096",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f241f7abe9ea1fb61caa47e1b554b89f",
+        "sha1sum" : "5736f8d0fc105a05c2ddbe8b0718891c2e3c9faa",
+        "sha256sum" : "24f25fe0550faeae77fdc9a46746a6ea8ef7761f2cf3ebd6f8cd097b219d7608"
+      },
+      {
+        "name" : "BIOMD0000000188.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "185417",
+        "mimeType" : "image/png",
+        "md5sum" : "5ef3b9fb0c5f55aa25569a2bf52a4ae9",
+        "sha1sum" : "2c89899c11e5db5cd114ac5de2fde6046d61cb1c",
+        "sha256sum" : "6a470b0e9d88fb9ed8c871fd0f4aaedb3b0c4e6fe7704bf8cd09dab4b2851c54"
+      },
+      {
+        "name" : "BIOMD0000000188.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "52943",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "82cde1edb721b06d8d04875f7e4f3f09",
+        "sha1sum" : "09396a0d3e962dc4f13688cb2a38d42734890d5e",
+        "sha256sum" : "d90d6eae75ba258bcae3bcc4aec6cf48aef744acc8ff1782a839264c15bc05aa"
+      },
+      {
+        "name" : "BIOMD0000000188.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "71374",
+        "mimeType" : "application/xml",
+        "md5sum" : "88e7b73d8ba0f94f7167c169d74428b9",
+        "sha1sum" : "78239cc55f3f018a9246c3a8eb7c46c03cffc48f",
+        "sha256sum" : "da2bd371f3b230bff55b68c6205d826258bf2f026b3d96bf182bb10431fb2d5a"
+      },
+      {
+        "name" : "BIOMD0000000188_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "38636",
+        "mimeType" : "application/xml",
+        "md5sum" : "34279f7c239c2bd43c62b8a21c756242",
+        "sha1sum" : "07c2a87ffb0b1fc97471683326797a97972aee54",
+        "sha256sum" : "5925c75ff0e7704cc92dea5a1e6f649d4d1b5fa6f1f1e1701ca65b60f0c03724"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "10946",
+        "mimeType" : "image/png",
+        "md5sum" : "c111b2bb72f295bea11ed42cbd89769e",
+        "sha1sum" : "8fc9d9530017df8eea43b6827092fa4d07e05653",
+        "sha256sum" : "254826adb817c3dd6285502b55bb43611f5b26a9149ab246965efb6c71216e86"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "214",
+        "mimeType" : "text/plain",
+        "md5sum" : "7dd4b740938fdebb2a8540344ec4eec4",
+        "sha1sum" : "d7350f053aafda473866e8c5aa91a64d182725b8",
+        "sha256sum" : "d08d0f1c754f280f68351489f2f102c4e9845741f3e5ef3191c27809a7519e8f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "db9112447da2b15c31e0bcfe0af690c1",
+        "sha1sum" : "16eca5639b746e0612c623b84118efeb28fd0845",
+        "sha256sum" : "f164156ebbab33dccaeb2d5e8d946b20472fe69f8f9da35b69c1193617f7268e"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5795",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9dd24325b098ab66b638f58168d381bb",
+        "sha1sum" : "07ca1e4a35e3e03f600fa3c20d1da6b2943fa877",
+        "sha256sum" : "f0dfa274d61564cf082ecf6ba38729196e978077d677047e46a68fb48a829500"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1220627620,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of BIOMD0000000188.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460133798,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Proctor2008 - p53/Mdm2 circuit - p53 stabilisation by ATM"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269774,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284925,
+  "submissionId" : "MODEL5836973167",
+  "publicationId" : "BIOMD0000000188",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5836973167",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5836973167"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000188",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000188"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "18706112",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/18706112"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "REACT_85",
+      "name" : "p53-Dependent G1/S DNA damage checkpoint",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_85"
+    },
+    {
+      "qualifier" : "bqbiol:isPartOf",
+      "accession" : "hsa04115",
+      "name" : "p53 signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04115"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_309",
+      "name" : "Stabilization of p53",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_309"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0043516",
+      "name" : "regulation of DNA damage response, signal transduction by p53 class mediator",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0043516"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

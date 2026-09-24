@@ -1,0 +1,253 @@
+{
+  "name" : "Frascoli2014 - A dynamical model of tumour immunotherapy",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a coupled ordinary differential equation model of tumour-immune dynamics, accounting for biological and clinical factors which regulate the interaction rates of cytotoxic T lymphocytes on the surface of the tumour mass.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24759513",
+    "journal" : "Mathematical biosciences",
+    "title" : "A dynamical model of tumour immunotherapy.",
+    "affiliation" : "Department of Mathematics, Swinburne University of Technology, VIC, Australia. Electronic address: ffrascoli@swin.edu.au.",
+    "synopsis" : "A coupled ordinary differential equation model of tumour-immune dynamics is presented and analysed. The model accounts for biological and clinical factors which regulate the interaction rates of cytotoxic T lymphocytes on the surface of the tumour mass. A phase plane analysis demonstrates that competition between tumour cells and lymphocytes can result in tumour eradication, perpetual oscillations, or unbounded solutions. To investigate the dependence of the dynamic behaviour on model parameters, the equations are solved analytically and conditions for unbounded versus bounded solutions are discussed. An analytic characterisation of the basin of attraction for oscillatory orbits is given. It is also shown that the tumour shape, characterised by a surface area to volume scaling factor, influences the size of the basin, with significant consequences for therapy design. The findings reveal that the tumour volume must surpass a threshold size that depends on lymphocyte parameters for the cancer to be completely eliminated. A semi-analytic procedure to calculate oscillation periods and determine their sensitivity to model parameters is also presented. Numerical results show that the period of oscillations exhibits notable nonlinear dependence on biologically relevant conditions.",
+    "year" : 2014,
+    "month" : "7",
+    "volume" : "253",
+    "pages" : "50-62",
+    "link" : "http://identifiers.org/pubmed/24759513",
+    "authors" : [
+      {
+        "name" : "Federico Frascoli",
+        "institution" : "Department of Mathematics, Swinburne University of Technology, VIC, Australia. Electronic address: ffrascoli@swin.edu.au.",
+        "orcid" : "0000-0003-4159-6229"
+      },
+      {
+        "name" : "Peter S Kim",
+        "institution" : "School of Mathematics and Statistics, University of Sydney, Sydney, NSW, Australia.",
+        "orcid" : "0000-0002-1492-4744"
+      },
+      {
+        "name" : "Barry D Hughes",
+        "institution" : "Department of Mathematics and Statistics, The University of Melbourne, VIC, Australia.",
+        "orcid" : "0000-0003-3594-4303"
+      },
+      {
+        "name" : "Kerry A Landman",
+        "institution" : "Department of Mathematics and Statistics, The University of Melbourne, VIC, Australia."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Frascoli2014.xml",
+        "description" : "SBML L2V4 Representation of Frascoli2014 - A dynamical model of tumour immunotherapy",
+        "fileSize" : "26921",
+        "mimeType" : "application/xml",
+        "md5sum" : "2c740a4cbf26ff4c01f0d565cdb0a8f0",
+        "sha1sum" : "b2e98e6fb8253c453997a3521489a38c0a8c09cb",
+        "sha256sum" : "9b3acbe9e3b0a9bc62ca86b0b8c680a03b89f6ef546c54f5e1ac03db5f20cd51"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Frascoli2014-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "9465",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d5c9d4a435275c575dd1ca9a2139a435",
+        "sha1sum" : "4ab283bef6fd45bb929424a8707726bbb802afa2",
+        "sha256sum" : "8f582f8311f35d09426515ab9faaa551bc6a641f9ba78a24f67968a74016142f"
+      },
+      {
+        "name" : "Frascoli2014-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "12155",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e56ad0ca6e1d894923087a9da7ed61c2",
+        "sha1sum" : "518de09f3c5dafd3fe3340ec76162511300465d7",
+        "sha256sum" : "4f4b6e69d64161880153ca4cdc9cab9cb4ba6f60626266aa5722a96c750a781e"
+      },
+      {
+        "name" : "Frascoli2014-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "4103",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ea54dd3a8dd94258527768c59cdd5c62",
+        "sha1sum" : "beb412e47758d584983c278120ef9e90df7b611d",
+        "sha256sum" : "ba841e87e9723cc1c03c2a1c5e77bb5f408dbf728c4b1b350fa6bb2d74975c44"
+      },
+      {
+        "name" : "Frascoli2014-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "4103",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "eb2885b333afaf725ae0f02d37f9978a",
+        "sha1sum" : "a13a8d4eba63e9932f25a3dc924b369ffe69de86",
+        "sha256sum" : "02535d516f6180d82d6fb0d5cd7847a0b492d2bdecd4369bc9a433d943b0559e"
+      },
+      {
+        "name" : "Frascoli2014.cps",
+        "description" : "COPASI file of Frascoli2014 - A dynamical model of tumour immunotherapy",
+        "fileSize" : "49639",
+        "mimeType" : "application/xml",
+        "md5sum" : "14976ec869ce98932ece828c2cd3342e",
+        "sha1sum" : "bbd675cff52e7fa462aa0da7d0ac0ac5cd87efd6",
+        "sha256sum" : "df47a649831b23961a683ce2395742f5ea16ebf73fbb63470da39606fbc7e3e3"
+      },
+      {
+        "name" : "Frascoli2014.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2663",
+        "mimeType" : "text/plain",
+        "md5sum" : "cd6b4d0e9562d2b5025d96b6e1d9f93e",
+        "sha1sum" : "bb6fdbcf9a4dfbcf8dc35122f3d9d2a3f1291ff1",
+        "sha256sum" : "b75ea281f172e4a9ddf9b2a96230fb0a4e1b146e78a2751efe3e72e4d81b79d9"
+      },
+      {
+        "name" : "Frascoli2014.sedml",
+        "description" : "SED-ML file of Frascoli2014 - A dynamical model of tumour immunotherapy (additionally CRBM-validated and adjusted).",
+        "fileSize" : "9650",
+        "mimeType" : "application/xml",
+        "md5sum" : "0ba351e0b5e30e638383d6e4dd67f2c4",
+        "sha1sum" : "9f5f296a05cb710e60bab7a11f4fd756d61bfc78",
+        "sha256sum" : "fd2c26b7bd1d9824e0d9c013b5c4ccaff45aa3571b94df26c480a8686ae1b368"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "19967",
+        "mimeType" : "image/png",
+        "md5sum" : "62725646c93d009904e7dcf0013a3e5d",
+        "sha1sum" : "bf941a7e1dbcf3c25a022a21902fb01009c77a8c",
+        "sha256sum" : "e227bda74ee67aefd316bbca468f714bbd02ca11d3dd554fb63efe557583a46f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "126",
+        "mimeType" : "text/plain",
+        "md5sum" : "3852856a1e77ab5f3fb56f55e56b910a",
+        "sha1sum" : "4e38b7ecc70199dd3d0d3b1b635930791e517132",
+        "sha256sum" : "f14081a44c76f52221ceb561ab0b8d79c023fe9fb985ba3a4d5dc5bdd70eee0e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1427",
+        "mimeType" : "application/xml",
+        "md5sum" : "1f4f331d571b7bf51c816d78cccca718",
+        "sha1sum" : "9499ea17a70e4a5a0e86f93d846418686270e905",
+        "sha256sum" : "472587d61367ecd0a6fd13a888eb083316a95d072b7b76a124e65e0ca7960cb5"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1809",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bcd2982162c1535304f77f2b07adbf0f",
+        "sha1sum" : "3e7bc8153c9738cdc8e15e981ed0bbae5938e048",
+        "sha256sum" : "43922ec95040a9a94cd4614eca084b4de96a8ddb077a2046eae385fd84ffa8cf"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1565605288,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000787"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724289609,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285464,
+  "submissionId" : "MODEL1908120001",
+  "publicationId" : "BIOMD0000000787",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24759513",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24759513"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000787",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000787"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1908120001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1908120001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002347",
+      "name" : "response to tumor cell",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002347"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0001913",
+      "name" : "T cell mediated cytotoxicity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0001913"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "GO:0002419",
+      "name" : "T cell mediated cytotoxicity directed against tumor cell target",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002419"
+    }
+  ]
+}

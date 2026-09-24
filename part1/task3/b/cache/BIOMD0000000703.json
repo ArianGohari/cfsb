@@ -1,0 +1,300 @@
+{
+  "name" : "Diedrichs2018 - A data-entrained computational model for testing the regulatory logic of the vertebrate unfolded protein response",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">A data-entrained computational model fortesting the regulatory logic of the vertebrate unfolded proteinresponse</div>        <div class=\"dc:bibliographicCitation\">          <p>This model is described in the article:</p>          <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/29668363\" title=\"Access to this publication\">A data-entrained    computational model for testing the regulatory logic of the    vertebrate unfolded protein response.</a>          </div>          <div class=\"bibo:authorList\">Diedrichs DR, Gomez JA, Huang CS,  Rutkowski DT, Curtu R.</div>          <div class=\"bibo:Journal\">Mol. Biol. Cell 2018 Apr; :  mbcE17090565</div>          <p>Abstract:</p>          <div class=\"bibo:abstract\">            <p>The vertebrate unfolded protein response (UPR) is    characterized by multiple interacting nodes among its three    pathways, yet the logic underlying this regulatory complexity    is unclear. To begin to address this issue, we created a    computational model of the vertebrate UPR that was entrained    upon and then validated against experimental data. As part of    this validation, the model successfully predicted the    phenotypes of cells with lesions in UPR signaling, including a    surprising and previously unreported differential role for the    eIF2? phosphatase GADD34 in exacerbating severe stress but    ameliorating mild stress. We then used the model to test the    functional importance of a feed-forward circuit within the    PERK/CHOP axis, and of cross-regulatory control of BiP and CHOP    expression. We found that the wiring structure of the UPR    appears to balance the ability of the response to remain    sensitive to ER stress yet also to be rapidly deactivated by    improved protein folding conditions. This model should serve as    a valuable resource for further exploring the regulatory logic    of the UPR.</p>          </div>        </div>        <div class=\"dc:publisher\">          <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/MODEL1803300000\">MODEL1803300000</a>.</p>          <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p>        </div>        <div class=\"dc:license\">          <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p>        </div>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29668363",
+    "journal" : "Molecular biology of the cell",
+    "title" : "A data-entrained computational model for testing the regulatory logic of the vertebrate unfolded protein response.",
+    "affiliation" : "Department of Mathematics, College of Liberal Arts and Sciences, University of Iowa, Iowa City, IA 52242.",
+    "synopsis" : "The vertebrate unfolded protein response (UPR) is characterized by multiple interacting nodes among its three pathways, yet the logic underlying this regulatory complexity is unclear. To begin to address this issue, we created a computational model of the vertebrate UPR that was entrained upon and then validated against experimental data. As part of this validation, the model successfully predicted the phenotypes of cells with lesions in UPR signaling, including a surprising and previously unreported differential role for the eIF2α phosphatase GADD34 in exacerbating severe stress but ameliorating mild stress. We then used the model to test the functional importance of a feedforward circuit within the PERK/CHOP axis and of cross-regulatory control of BiP and CHOP expression. We found that the wiring structure of the UPR appears to balance the ability of the response to remain sensitive to endoplasmic reticulum stress and to be deactivated rapidly by improved protein-folding conditions. This model should serve as a valuable resource for further exploring the regulatory logic of the UPR.",
+    "year" : 2018,
+    "month" : "6",
+    "volume" : "29",
+    "issue" : "12",
+    "pages" : "1502-1517",
+    "link" : "http://identifiers.org/pubmed/29668363",
+    "authors" : [
+      {
+        "name" : "Danilo R Diedrichs",
+        "institution" : "Department of Mathematics, College of Liberal Arts and Sciences, University of Iowa, Iowa City, IA 52242.",
+        "orcid" : "0000-0003-3831-0146"
+      },
+      {
+        "name" : "Javier A Gomez",
+        "institution" : "Department of Anatomy and Cell Biology, University of Iowa, Iowa City, IA 52242."
+      },
+      {
+        "name" : "Chun-Sing Huang",
+        "institution" : "Department of Anatomy and Cell Biology, University of Iowa, Iowa City, IA 52242."
+      },
+      {
+        "name" : "D Thomas Rutkowski",
+        "institution" : "Department of Anatomy and Cell Biology, University of Iowa, Iowa City, IA 52242.Department of Internal Medicine, Carver College of Medicine, University of Iowa, Iowa City, IA 52242.",
+        "orcid" : "0000-0001-6586-4449"
+      },
+      {
+        "name" : "Rodica Curtu",
+        "institution" : "Department of Mathematics, College of Liberal Arts and Sciences, University of Iowa, Iowa City, IA 52242."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000703_url.xml",
+        "description" : "SBML L2V4 representation of Diedrichs2018 - A data-entrained computational model for testing the regulatory logic of the vertebrate unfolded protein response",
+        "fileSize" : "138948",
+        "mimeType" : "application/xml",
+        "md5sum" : "50cf4d3edbf68ec3fed1b136b4623326",
+        "sha1sum" : "dc463db0e270b8f1feab63ceb0b0faa056695557",
+        "sha256sum" : "61e56c5e0b1bf26ca7ec4e99f9df8fa9a249f9b9bc996d1773b4a697eff7b1d1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000703-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "21186",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "da71749cf04bfec5372b7da7ccaa3e03",
+        "sha1sum" : "5a0e5460c0a31d495961b9ceec3864b3092155ed",
+        "sha256sum" : "6ff5d28f9b393b645c13db6b4c24cd674ab5797411ab5a9b736edb7de542f324"
+      },
+      {
+        "name" : "BIOMD0000000703-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "31625",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8798eaba110a8b29cf64b3403149da05",
+        "sha1sum" : "4193defbad84001cc59bd081d7bd9fb84693398f",
+        "sha256sum" : "d05224810816432c208e480f54133156c655d24f6d66e0461c81d53818d3a9cd"
+      },
+      {
+        "name" : "BIOMD0000000703-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16654",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dce57432b357232a4d0637b2eb8c8290",
+        "sha1sum" : "75e677b23d585f709fa1f8caa64cf5285f2096fb",
+        "sha256sum" : "fe3976a880c5539ee2501b958b29185c5feaa5694ee039b265f850005442ed50"
+      },
+      {
+        "name" : "BIOMD0000000703-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16654",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7a6a2f0f2d4d0bc22fd42f41be82a590",
+        "sha1sum" : "0dcb7508c7203cb77414c3aed33bca6c8c617989",
+        "sha256sum" : "ed76bf5419ea0ae6263149b7d84dc31dd1646808812b1dcd62574e3fb818eecb"
+      },
+      {
+        "name" : "BIOMD0000000703.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16662",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e2a3fba8a07a6e800c59113468c6ba34",
+        "sha1sum" : "b88a199931145ae299566113cd35dd35fed3a6b1",
+        "sha256sum" : "f53fd9bba84d895f91f25aff1c6a236e67d428d27639b8fe7a9ae4f82c49be67"
+      },
+      {
+        "name" : "BIOMD0000000703.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12974",
+        "mimeType" : "text/plain",
+        "md5sum" : "9238368e9e6f5e63f0a116df732f6e54",
+        "sha1sum" : "e6e4d7135e1395ef1a711532e275cc85d3d26e50",
+        "sha256sum" : "cd808a97081fd713ee8e7719fb1f1e87a0ea38e97cdd7927af5747b7b1bad96f"
+      },
+      {
+        "name" : "BIOMD0000000703.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "114963",
+        "mimeType" : "image/png",
+        "md5sum" : "6f78bb3d803185c08a4d472728b4448a",
+        "sha1sum" : "e3bd7bf0cba528f52dc4005906e886a672ac8389",
+        "sha256sum" : "70c70160ea8407cbb9772eef6a0468fd5a5f9002ab1b8da9e4dbf7f1c3dbfa13"
+      },
+      {
+        "name" : "BIOMD0000000703.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "48199",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4816aff3eb371e2ecf82149727089a5a",
+        "sha1sum" : "5de9abf4f6578e22d258972a24ab5ada36340f53",
+        "sha256sum" : "3bf45a9a366af1b5d9a48fad53852f0f6c11a282f25e94578e647172af34dcf7"
+      },
+      {
+        "name" : "Diedrichs2018.cps",
+        "description" : "Curated and annotated COPASI file",
+        "fileSize" : "236069",
+        "mimeType" : "application/xml",
+        "md5sum" : "5db22d03b12ca201a110a2045dcd706b",
+        "sha1sum" : "58be3476c2086fa267d5d53f0ef1d99b9c64f565",
+        "sha256sum" : "4aba014f50140dade5400b6bc81a429e1b2fc000c45eee547ebb2111be0ea1b0"
+      },
+      {
+        "name" : "Diedrichs2018.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "42126",
+        "mimeType" : "application/xml",
+        "md5sum" : "38db976f7c2b5b199f664181f951f882",
+        "sha1sum" : "6272dbbf47ee73df5c3da33d35b4a02855ef31a4",
+        "sha256sum" : "e356dcdc52d3057efd5265cd9d3354a9c6de2459068a850349e1039519966659"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "29486",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "1548c417e014972abca570f63bd42f83",
+        "sha1sum" : "4cd3d2925fb52615ef09d43494e3fdd8a111c55f",
+        "sha256sum" : "ae7c28d91b5e2bb4439787a4320f1b506217184577dcd8a21aa3cca089a849d6"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "545",
+        "mimeType" : "text/plain",
+        "md5sum" : "401421266c94e0b25b16251bfb1ee4df",
+        "sha1sum" : "b6847875ee9655e2ba83702cfe5bdf2daa293ca8",
+        "sha256sum" : "8131c6f2c20f5c16e6a516b7496f76cef8b56599892335be599dd648928b278f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1789",
+        "mimeType" : "application/xml",
+        "md5sum" : "89c7ef4e0ec83d6e4c80760e0d51c950",
+        "sha1sum" : "0ef6602502e23e71764f0752a5994159c81c026c",
+        "sha256sum" : "07323d9e9d893f0feb213c55bcb4694eacd85e94a4d98594a07f840938f61096"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4821",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4c358d0084dfd7f7cfe7131b89a854e0",
+        "sha1sum" : "71a444a041652be8c0206b138acf148bc0a9067d",
+        "sha256sum" : "0aeddab0bbc140d1e66094225b1b80098c36319ef3a1eba4f11f8f034b6af101"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1522453126,
+        "submitter" : "Danilo R. Diedrichs",
+        "comment" : "Original import of BIOMD0000000703"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1527183664,
+        "submitter" : "Danilo R. Diedrichs",
+        "comment" : "Current version of  BIOMD0000000703"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724287168,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285416,
+  "submissionId" : "MODEL1803300000",
+  "publicationId" : "BIOMD0000000703",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Danilo R. Diedrichs",
+        "email" : "danilo.diedrichs@wheaton.edu",
+        "affiliation" : "Wheaton College",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1803300000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1803300000"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29668363",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29668363"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000703",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000703"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "R-HSA-381130",
+      "name" : "unfolded protein [endoplasmic reticulum lumen]",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/R-HSA-381130"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006986",
+      "name" : "response to unfolded protein",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006986"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "R-HSA-381119",
+      "name" : "Unfolded Protein Response (UPR)",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/R-HSA-381119"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "GO:0005783",
+      "name" : "endoplasmic reticulum",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005783"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "29668363",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29668363"
+    }
+  ]
+}

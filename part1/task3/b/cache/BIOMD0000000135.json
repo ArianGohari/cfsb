@@ -1,0 +1,253 @@
+{
+  "name" : "Izhikevich2004_SpikingNeurons_subthresholdOscillations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong> Which model to use for cortical spiking neurons?</strong>        <br />Izhikevich EM.      <em>IEEE Trans Neural Netw.</em>2004 Sep;15(5):1063-70.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/15484883\">15484883</a>,      <br />        <strong>Abstract:</strong>        <br />We discuss the biological plausibility and computational efficiency of some of the most useful models of spiking and bursting neurons. We compare their applicability to large-scale simulations of cortical neural networks.   </p>        <p>The model is according to the paper<i>Which Model to Use for Cortical Spiking Neurons?</i> Figure1(J) subthreshold oscillations has been reproduced by MathSBML. The ODE and the parameters values are taken  from the a paper <i>Simple Model of Spiking Neurons</i>The original format of the models are encoded in the MATLAB format existed in the ModelDB with Accession number 39948  <p>Figure1 are the simulation results of the same model with different choices of parameters and different stimulus function or events.a=0.05; b=0.26; c=-60;  d=0; V=-62;  u=b*V;</p>      </p>      <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2010 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>    </p>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15484883",
+    "journal" : "IEEE transactions on neural networks",
+    "title" : "Which model to use for cortical spiking neurons?",
+    "affiliation" : "The Neurosciences Institute, San Diego, CA 92121, USA. Eugene.Izhikevich@nsi.edu",
+    "synopsis" : "We discuss the biological plausibility and computational efficiency of some of the most useful models of spiking and bursting neurons. We compare their applicability to large-scale simulations of cortical neural networks.",
+    "year" : 2004,
+    "month" : "9",
+    "volume" : "15",
+    "issue" : "5",
+    "pages" : "1063-1070",
+    "link" : "http://identifiers.org/pubmed/15484883",
+    "authors" : [
+      {
+        "name" : "Eugene M Izhikevich",
+        "institution" : "The Neurosciences Institute, San Diego, CA 92121, USA. Eugene.Izhikevich@nsi.edu"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000135_url.xml",
+        "description" : "SBML L2V4 representation of Izhikevich2004_SpikingNeurons_subthresholdOscillations",
+        "fileSize" : "9709",
+        "mimeType" : "application/xml",
+        "md5sum" : "c7ba48f1d9c7106d4a0bef32980c5cdd",
+        "sha1sum" : "da03139d0fd5e49ba66012f11d5d8b1408191105",
+        "sha256sum" : "0f3d807596d705bf35f6c38e25d9a2ff193afb9c210f921bf0d1c10c979fb5c4"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000135-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3714",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4935885923af0183af41c917e06a0c9e",
+        "sha1sum" : "f19fc4283be51a052de364a7dfde01b22dfc5eab",
+        "sha256sum" : "9c5ee393a412db4b8723cd1e587614871f929499ae9d0f3be0ae34f5de6e4c8d"
+      },
+      {
+        "name" : "BIOMD0000000135-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "3811",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "76638132cf5155f369bf2324fd680ef1",
+        "sha1sum" : "2e38fafd0ecdb339c9ace22f44683b7ee46cf0a2",
+        "sha256sum" : "1d97be5335a207d228a77efd3d13b9fc1e842f6de95244d9a69e0e1ce03d2ae4"
+      },
+      {
+        "name" : "BIOMD0000000135-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "3420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6e6e705283bf60e3a52eb485b5db3611",
+        "sha1sum" : "42d96cf3f5ae25befd8ac77c39cf464e862e91bf",
+        "sha256sum" : "20c9d07afd3f5c13099f313b79b16b285b71581ff07886b5601b34ad666e36ad"
+      },
+      {
+        "name" : "BIOMD0000000135-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "3420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "11444eea69dc1e5b1e16ab8604be3b44",
+        "sha1sum" : "9070e79cb020a9fab67cdc95a895308d43259887",
+        "sha256sum" : "c4b8325e87ee82c5ef69b8211abb4394e6369031db1e3daa79f90eb993dfdb0c"
+      },
+      {
+        "name" : "BIOMD0000000135.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "3420",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "11444eea69dc1e5b1e16ab8604be3b44",
+        "sha1sum" : "9070e79cb020a9fab67cdc95a895308d43259887",
+        "sha256sum" : "c4b8325e87ee82c5ef69b8211abb4394e6369031db1e3daa79f90eb993dfdb0c"
+      },
+      {
+        "name" : "BIOMD0000000135.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "135456",
+        "mimeType" : "application/pdf",
+        "md5sum" : "d3cbeb8070bede8f7578cfbb0661a202",
+        "sha1sum" : "e6e2503077fcc15cb40a34d356233f9120bb0575",
+        "sha256sum" : "737fb3e91f14e700a1e20091cb15b5a778ca3e475fe98a4727f9091bd0941715"
+      },
+      {
+        "name" : "BIOMD0000000135.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000135.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000135_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "7376",
+        "mimeType" : "application/xml",
+        "md5sum" : "e4d04b977937e720c28e460c23c9ba9f",
+        "sha1sum" : "3fc4207fc9da08e42e9cf07f47d5615a9a7d60bb",
+        "sha256sum" : "e5ace5ce03efb801fc7816b41e5b09656a7808128aa537e83558734ad906a14a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13811",
+        "mimeType" : "image/png",
+        "md5sum" : "f0a0b28b2b734c2fc8a6c5a44be7db7e",
+        "sha1sum" : "4dc2ed0584d7a0430dea9d9bb47842ecc62cf37b",
+        "sha256sum" : "431618cd605bc0c39af55e2946d4902886bb82dc022f6bc555175f4d980ff4b3"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "76",
+        "mimeType" : "text/plain",
+        "md5sum" : "a3acb234607eb1659870b20b459c815a",
+        "sha1sum" : "58fd1c3e60cdd3125e115f9dbc81f6f17d836f0f",
+        "sha256sum" : "86baeb39c1ecbeb9e51db4bbbad760b30b262ddf6a0ba4dc973b0c8a0f66c62f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1679",
+        "mimeType" : "application/xml",
+        "md5sum" : "450122b9b7d17e6393cd9633d2d1957e",
+        "sha1sum" : "4f2eda3eda1c7c672e3295d358029337abfa94c7",
+        "sha256sum" : "a674fe94700fb0030331d274b9061f6e5903e8e217bd91e51d57e6aac5061e49"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3833",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ce6f73e4a55c211dc6a6b7dbcc9e5e09",
+        "sha1sum" : "765a58be23f85879706ab630f3e928d016d33079",
+        "sha256sum" : "68b2ed7e6e1b1beb91bc27618a8a6ca3af11a0385690b5e35180790c9aa40111"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1186562004,
+        "submitter" : "Enuo He",
+        "comment" : "Original import of Izhikevich2004_SpikingNeurons_subthresholdOscillations"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424863061,
+        "submitter" : "Enuo He",
+        "comment" : "Current version of Izhikevich2004_SpikingNeurons_subthresholdOscillations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268303,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284894,
+  "submissionId" : "MODEL5570544795",
+  "publicationId" : "BIOMD0000000135",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Enuo He",
+        "email" : "enuo.he@wolfson.ox.ac.uk",
+        "affiliation" : "University of Oxford",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019228",
+      "name" : "neuronal action potential",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019228"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15484883",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15484883"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5570544795",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5570544795"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000135",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000135"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

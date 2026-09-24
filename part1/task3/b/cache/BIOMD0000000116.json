@@ -1,0 +1,298 @@
+{
+  "name" : "McClean2007_CrossTalk",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model encoded according to the paper      <i>Cross-talk and decision making in MAP kinase pathways.</i>          Supplementary Figure 2 has been reproduced by COPASI4.0.20 (development) using parameter scan method. You probably need to uncheck \"always use initial conditions\" in copasi when you simulate for the second run in order to get the figure. S1 scale from 0 to 12. Keep in mind that the y axis is the fractions of  excited X3 and Y3, meaning that X3P and Y3P are normalized by total concentration X3T and Y3T.      </p>            <p>The results from modeling the pathway in Supplementary Figure1a, including both activation and inhibition. According to the paper, the value of ka and kd should in the orange region (ka belongs [0,1], kd belongs [1,10]) so assigned ka=0, kd=1.</p>            <p>The author made the simplifying assumption that the interactions between the pathways are symmetric. Thus the k12xy=k12yx=ka, k33xy=k33yx=kd.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17259986",
+    "journal" : "Nature genetics",
+    "title" : "Cross-talk and decision making in MAP kinase pathways.",
+    "affiliation" : "FAS Center for Systems Biology, Harvard University, Cambridge, Massachusetts 02138, USA.",
+    "synopsis" : "Cells must respond specifically to different environmental stimuli in order to survive. The signal transduction pathways involved in sensing these stimuli often share the same or homologous proteins. Despite potential cross-wiring, cells show specificity of response. We show, through modeling, that the physiological response of such pathways exposed to simultaneous and temporally ordered inputs can demonstrate system-level mechanisms by which pathways achieve specificity. We apply these results to the hyperosmolar and pheromone mitogen-activated protein (MAP) kinase pathways in the yeast Saccharomyces cerevisiae. These two pathways specifically sense osmolar and pheromone signals, despite sharing a MAPKKK, Ste11, and having homologous MAPKs (Fus3 and Hog1). We show that in a single cell, the pathways are bistable over a range of inputs, and the cell responds to only one stimulus even when exposed to both. Our results imply that these pathways achieve specificity by filtering out spurious cross-talk through mutual inhibition. The variability between cells allows for heterogeneity of the decisions.",
+    "year" : 2007,
+    "month" : "3",
+    "volume" : "39",
+    "issue" : "3",
+    "pages" : "409-414",
+    "link" : "http://identifiers.org/pubmed/17259986",
+    "authors" : [
+      {
+        "name" : "Megan N McClean",
+        "institution" : "FAS Center for Systems Biology, Harvard University, Cambridge, Massachusetts 02138, USA.",
+        "orcid" : "0000-0002-1141-4802"
+      },
+      {
+        "name" : "Areez Mody"
+      },
+      {
+        "name" : "James R Broach",
+        "orcid" : "0000-0003-1197-0312"
+      },
+      {
+        "name" : "Sharad Ramanathan"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000116_url.xml",
+        "description" : "SBML L2V1 representation of McClean2007_CrossTalk",
+        "fileSize" : "26156",
+        "mimeType" : "application/xml",
+        "md5sum" : "f0fac73628af66e7d930c2e410089878",
+        "sha1sum" : "4d1a3cf07f87640db3e17b6e91b9c997afe1c707",
+        "sha256sum" : "918bf3943e65d713dbe61cf16b7ba864c196ad7b3306459f307d53107098a071"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000116-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "19468",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "48cabbaec6221e1b1edd628c88e2ec93",
+        "sha1sum" : "24b600bee145a033b034980ca7205f3e4e7652cf",
+        "sha256sum" : "3546072031424bcd85595a8b15657eca46923b0c9adf9dc0b67f6a9aa35db41a"
+      },
+      {
+        "name" : "BIOMD0000000116-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "27145",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "965baea91dd7e886c8fed9498214fb60",
+        "sha1sum" : "e3e9df43a5569b8653eb3047579fe88e2916fd72",
+        "sha256sum" : "ea1e314be337aa14a997d5c073a5381bb4c042964101f1542b99c58015a4449c"
+      },
+      {
+        "name" : "BIOMD0000000116-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6859",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "19bf018a4709d0bb8fa6330b9b07c140",
+        "sha1sum" : "ef71bd970df4c46c538742774915d5af96af8690",
+        "sha256sum" : "da5235ce20a96035a70f7828b187b8c34791b968f31bd01e3a6c9691c281fa79"
+      },
+      {
+        "name" : "BIOMD0000000116-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6859",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "466fb58411e27586fc22744a5e7c57c2",
+        "sha1sum" : "03244b63121c724f0956e612db293204c1b91e5f",
+        "sha256sum" : "e5ffc282edf38fbf6a9c7e7a8c14fbc3530f0e5f481b53d223db6dc33ce07de0"
+      },
+      {
+        "name" : "BIOMD0000000116.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6859",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "466fb58411e27586fc22744a5e7c57c2",
+        "sha1sum" : "03244b63121c724f0956e612db293204c1b91e5f",
+        "sha256sum" : "e5ffc282edf38fbf6a9c7e7a8c14fbc3530f0e5f481b53d223db6dc33ce07de0"
+      },
+      {
+        "name" : "BIOMD0000000116.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4575",
+        "mimeType" : "text/plain",
+        "md5sum" : "36c0493bc410381880b29555f017fda2",
+        "sha1sum" : "e2337c8b010e4331652c9024f0e77812f529a3ce",
+        "sha256sum" : "3b71d52337cb99dae8b5e3610a19ca2f925378ee4ef6099a943a51eac42e1a5c"
+      },
+      {
+        "name" : "BIOMD0000000116.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "175810",
+        "mimeType" : "application/pdf",
+        "md5sum" : "85c7e336af471e9e518fc290deed55fc",
+        "sha1sum" : "4ecf8597e403cb8ad81fb803421ef3293d003062",
+        "sha256sum" : "22757d4e185f242ccf60eccc896dbb9526c5acb5c407b9fdeec3ed48fdbc2f3e"
+      },
+      {
+        "name" : "BIOMD0000000116.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "31425",
+        "mimeType" : "image/png",
+        "md5sum" : "445d25822683c66d224d09260677c6a2",
+        "sha1sum" : "076e733174711ea154f82a0e01d0f75fe39991e1",
+        "sha256sum" : "6eab037459b9f3717045e92579b202d720dd7814797c40e6f3bae1f5309a918e"
+      },
+      {
+        "name" : "BIOMD0000000116.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "4122",
+        "mimeType" : "text/plain",
+        "md5sum" : "bb6169c17f642f2d9e20663ecc35fdbd",
+        "sha1sum" : "5119e6808a3f067d10ef11a6acf7c8dc0b37a6b8",
+        "sha256sum" : "01866f101f174dde20aa190ddd47ac1cf874f2c2e7927026f60e86e9249a7506"
+      },
+      {
+        "name" : "BIOMD0000000116.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "22515",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "0785fcd6728f3c7f3269f5cc821be096",
+        "sha1sum" : "72b05531f8067805674af7caea10e9258ebf8cb9",
+        "sha256sum" : "4733b22e951b8df4b24c824a9ab9f77b4cdb9459cdff2cf69efee8beb61a4235"
+      },
+      {
+        "name" : "BIOMD0000000116.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "37371",
+        "mimeType" : "application/xml",
+        "md5sum" : "565c9dabd45420216ca11faf09da21d3",
+        "sha1sum" : "c726a31308541c4ae4934277b067bfa6056037cf",
+        "sha256sum" : "c97443dd2bb0a477251bf8b633f0c1d433fa27d87318a59adeceaf9ec9de0869"
+      },
+      {
+        "name" : "BIOMD0000000116_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "22999",
+        "mimeType" : "application/xml",
+        "md5sum" : "c06a6846b9028f1de25112c503b241d3",
+        "sha1sum" : "02598f39208230841966674cc1f180841a0d36f6",
+        "sha256sum" : "7b62ec81e60f6fc6313fce1a6301b54d398f32e9d2321f89374955e61f10fca1"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "33489",
+        "mimeType" : "image/png",
+        "md5sum" : "44aad744ba727b73d7d179b96b8b521a",
+        "sha1sum" : "0ecbd11c57d54d2b61b5ca945c8c9f7675389d12",
+        "sha256sum" : "b9bbdd397eb220ab5dd98b632fca55cfb0d4f2f92729315e91d4b384af2ddbe9"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "260",
+        "mimeType" : "text/plain",
+        "md5sum" : "fc2094f40856663a41c8cb49b2da2a42",
+        "sha1sum" : "9189dd5e17be55d46501fa43f596dbc99658f0a4",
+        "sha256sum" : "13aa1668d9ae8a71a0461684ac8c7818d1282d97d5f163732fc3cfeda3b16510"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "6116e3bc4ef17f6c2fe78562c4745cff",
+        "sha1sum" : "8f15cffeb3053a00ee3897ea90649e2c07c0acc7",
+        "sha256sum" : "72da88f3f20013b1f7363daa84ffc4a682304f22d45bd9e82fc74323f0b8b885"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3814",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7db076a5f86b8a1558f5ace055ee398c",
+        "sha1sum" : "b7985b7bcb0a66f8a757e336ed51cd6941cd409b",
+        "sha256sum" : "b8ea3166212be7322ff438140519059c9a21b178842b0132d1e4960406c567b1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1181081166,
+        "submitter" : "Christian Waltermann",
+        "comment" : "Original import of OriginalMcClean"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341509546,
+        "submitter" : "Christian Waltermann",
+        "comment" : "Current version of McClean2007_CrossTalk"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267853,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284885,
+  "submissionId" : "MODEL7321452458",
+  "publicationId" : "BIOMD0000000116",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Christian Waltermann",
+        "email" : "christian.waltermann@molgen.mpg.de",
+        "affiliation" : "Max Planck Institute For Molecular Genetics",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL7321452458",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL7321452458"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000116",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000116"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17259986",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17259986"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0000161",
+      "name" : "MAPK cascade involved in osmosensory signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0000161"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019236",
+      "name" : "response to pheromone",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019236"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

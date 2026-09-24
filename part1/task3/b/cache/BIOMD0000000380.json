@@ -1,0 +1,277 @@
+{
+  "name" : "Smallbone2011_TrehaloseBiosynthesis",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />                <strong>Building a Kinetic Model of Trehalose Biosynthesis in Saccharomyces cerevisiae.</strong>                <br />          Smallbone K, Malys N, Messiha HL, Wishart JA, Simeonidis E.      <em>Methods Enzymol.</em>          2011;500:355-70.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21943906\">21943906</a>          ,      <br />                <strong>Abstract:</strong>                <br />          In this chapter, we describe the steps needed to create a kinetic model of a metabolic pathway based on kinetic data from experimental measurements and literature review. Our methodology is presented by utilizing the example of trehalose metabolism in yeast. The biology of the trehalose cycle is briefly reviewed and discussed.      </p>            <p>This SBML model is made available under the Creative Commons Attribution-Share Alike 3.0 Unported Licence (see      <a href=\"http://www.creativecommons.org\">www.creativecommons.org</a>          ).      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2012 The BioModels.net Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21943906",
+    "journal" : "Methods in enzymology",
+    "title" : "Building a kinetic model of trehalose biosynthesis in Saccharomyces cerevisiae.",
+    "affiliation" : "Manchester Centre for Integrative Systems Biology, The University of Manchester, Manchester, United Kingdom.",
+    "synopsis" : "In this chapter, we describe the steps needed to create a kinetic model of a metabolic pathway based on kinetic data from experimental measurements and literature review. Our methodology is presented by utilizing the example of trehalose metabolism in yeast. The biology of the trehalose cycle is briefly reviewed and discussed.",
+    "year" : 2011,
+    "month" : "0",
+    "volume" : "500",
+    "pages" : "355-370",
+    "link" : "http://identifiers.org/pubmed/21943906",
+    "authors" : [
+      {
+        "name" : "Kieran Smallbone",
+        "institution" : "Manchester Centre for Integrative Systems Biology, University of Manchester, Manchester, UK.",
+        "orcid" : "0000-0003-2815-7045"
+      },
+      {
+        "name" : "Naglis Malys",
+        "orcid" : "0000-0002-5010-310X"
+      },
+      {
+        "name" : "Hanan L Messiha"
+      },
+      {
+        "name" : "Jill A Wishart"
+      },
+      {
+        "name" : "Evangelos Simeonidis",
+        "orcid" : "0000-0001-6153-4493"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000380_url.xml",
+        "description" : "SBML L2V4 representation of Smallbone2011_TrehaloseBiosynthesis",
+        "fileSize" : "52168",
+        "mimeType" : "application/xml",
+        "md5sum" : "e3951dfc0d22560cb60195fa52938f17",
+        "sha1sum" : "1abe1ce1388c7007cf399c24deddadfe90c8b778",
+        "sha256sum" : "3606e063dafbf9ed9c83996aab0520a8540e17e2476beaa7505f6fb20ee1e8b2"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000380-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "24470",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "74cea002a26d1f8de2774388267a714e",
+        "sha1sum" : "39f40fe988fbfeb36f47d4241419d710e1ab9244",
+        "sha256sum" : "8a322425f9b40cabea34b215ae5539287bb300dc3b6987f8fa4dad6cc007ef74"
+      },
+      {
+        "name" : "BIOMD0000000380-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "36147",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b0de1eac0ed414d5794502c2e797fb5d",
+        "sha1sum" : "25d729f8d40d961a46974880971ee4feb3993d2b",
+        "sha256sum" : "95e60c765b8f432922b7b127ee375f3c1d739a06e2dbb26669e38c9016697f0e"
+      },
+      {
+        "name" : "BIOMD0000000380-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11941",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cf52a5ed9374637638110d28bff87b76",
+        "sha1sum" : "763f413a293d9f016ec09dac1b475f3b828af0c3",
+        "sha256sum" : "8d2e3b3f7fb69d89ab41cb70ece1b15de5415f3b045d4dc817c9d9aa5a3a7416"
+      },
+      {
+        "name" : "BIOMD0000000380-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "11941",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "15d9433d7f7a1f3bd0fd4b416e169d0d",
+        "sha1sum" : "688f1090ba2bf77337baf59931d42bf317177b4f",
+        "sha256sum" : "86e3122ce4f57fddf3ccb6a0986273e0c84ea0829e00e0d8cce6a66dcb43f425"
+      },
+      {
+        "name" : "BIOMD0000000380.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "11933",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "8a7e2c7d5ae0b5228efbf41b6b996b25",
+        "sha1sum" : "47850af12aa13b5dae1de7f318a3aca32316e1e1",
+        "sha256sum" : "acdfcd2d66b0691be5e5a4ab04bda86b38b45b8eda912825bae288f891d7b422"
+      },
+      {
+        "name" : "BIOMD0000000380.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "204368",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7680452384745a6d6d460d8b882e27a7",
+        "sha1sum" : "cc11a54b883913ee66a5d955160ba01cf5b136c3",
+        "sha256sum" : "62add4116171bc4da449382bea7eda2a9813d69989169ab5d0910a34a498b4b1"
+      },
+      {
+        "name" : "BIOMD0000000380.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "113260",
+        "mimeType" : "image/png",
+        "md5sum" : "daf6ba1a76710c563a3b26a88cf8dc35",
+        "sha1sum" : "d876cc399d087ffda97b833d9d72a3fa75cf3192",
+        "sha256sum" : "9beab4139daa15472b8aa483dcfdf7b2f54fc30da1484138aad8d843358cd3dd"
+      },
+      {
+        "name" : "BIOMD0000000380.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "22357",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e220cf33ffb00c17e383d28539ed4105",
+        "sha1sum" : "7e09bc53b6235634d494db2f7c56c4375d4edf28",
+        "sha256sum" : "f5c228a82f669cd6f5d9ce66370becee35c6665d7c282fb983d7d29c4522bf54"
+      },
+      {
+        "name" : "BIOMD0000000380.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "58997",
+        "mimeType" : "application/xml",
+        "md5sum" : "5753f0f5a3e08faa914bc49939a8e576",
+        "sha1sum" : "23396fb792f8eb6acb29d5bc6e565ea1304f350d",
+        "sha256sum" : "259df9f15ae3af92df4a4326af46fcd12a36e8bf9bc6a5487dcb1e89f5084f98"
+      },
+      {
+        "name" : "BIOMD0000000380_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "23835",
+        "mimeType" : "application/xml",
+        "md5sum" : "3a5edc863ab03064ef54ffe393aff14a",
+        "sha1sum" : "7f34a3822b78e347e3cea7a3171af074f0297fcc",
+        "sha256sum" : "b9a82a428c8b1c3aa565a5ff56e50835862a70b87c3191171e355d885912c6ce"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "46597",
+        "mimeType" : "image/png",
+        "md5sum" : "1b161c38282ad999ef4be9938fc83ab6",
+        "sha1sum" : "23bbb94f1c90dc97483e76550d78969a5f77a7a1",
+        "sha256sum" : "f42e1a13fab19bec0d116154145e5d54b080e403c20bbc056f540bfa623da3e6"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "390",
+        "mimeType" : "text/plain",
+        "md5sum" : "15ff7ed39c5c800a6d3be603b4b05598",
+        "sha1sum" : "785569b8cc1649d175ad83bbf2e15149d7b26435",
+        "sha256sum" : "0c4fe85b48a0dad6bdadd72e095e3026250cc77d30d60e5de97ae63faacea24f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1801",
+        "mimeType" : "application/xml",
+        "md5sum" : "01c244fbc5a4c394ee5ebc3cab7ddef1",
+        "sha1sum" : "91fe2ba840e5aa99a3e7a3957e859fee2c046d16",
+        "sha256sum" : "5e149bcbf3ed8ba477919bddb46f0f2a6f3a24e55e45adedd1eb5bd5d5a64ce4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3708",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "278f5ca4b0945b1279d08008c252f121",
+        "sha1sum" : "f843177d34a6389f2308d9446588ec8ca562f8b1",
+        "sha256sum" : "0cc08ffd05628e1a27848e416667a4eaece70be238838cc87e60a955edf4672d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1285934467,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Original import of trehalose"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1337183331,
+        "submitter" : "Kieran Smallbone",
+        "comment" : "Current version of Smallbone2011_TrehaloseBiosynthesis"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275130,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285101,
+  "submissionId" : "MODEL1010010000",
+  "publicationId" : "BIOMD0000000380",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Kieran Smallbone",
+        "email" : "kieran.smallbone@ncl.ac.uk",
+        "affiliation" : "Human Nutrition Research Centre, Newcastle University, Newcastle upon Tyne, UK.",
+        "orcid" : "0000-0003-2815-7045",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1010010000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1010010000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000380",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000380"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21943906",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21943906"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "4932",
+      "name" : "Saccharomyces cerevisiae",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/4932"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005992",
+      "name" : "trehalose biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005992"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "name" : "Ruan2017 - Transmission dynamics and control of rabies in China",
+  "description" : "Shigui Ruan. Modeling the transmission dynamics and control of rabies in China. Mathematical Biosciences 286 (2017).<p></p><p></p>Human rabies was first recorded in ancient China in about 556 BC and is still one of the major public-health problems in China. From 1950 to 2015, 130,494 human rabies cases were reported in Mainland China with an average of 1977 cases per year. It is estimated that 95% of these human rabies cases are due to dog bites. The purpose of this article is to provide a review about the models, results, and simulations that we have obtained recently on studying the transmission of rabies in China. We first construct a basic susceptible, exposed, infectious, and recovered (SEIR) type model for the spread of rabies virus among dogs and from dogs to humans and use the model to simulate the human rabies data in China from 1996 to 2010. Then we modify the basic model by including both domestic and stray dogs and apply the model to simulate the human rabies data from Guangdong Province, China. To study the seasonality of rabies, in Section 4 we further propose a SEIR model with periodic transmission rates and employ the model to simulate the monthly data of human rabies cases reported by the Chinese Ministry of Health from January 2004 to December 2010. To understand the spatial spread of rabies, in Section 5 we add diffusion to the dog population in the basic SEIR model to obtain a reaction-diffusion equation model and determine the minimum wave speed connecting the disease-free equilibrium to the endemic equilibrium. Finally, in order to investigate how the movement of dogs affects the geographically inter-provincial spread of rabies in Mainland China, in Section 6 we propose a multi-patch model to describe the transmission dynamics of rabies between dogs and humans and use the two-patch submodel to investigate the rabies virus clades lineages and to simulate the human rabies data from Guizhou and Guangxi, Hebei and Fujian, and Sichuan and Shaanxi, respectively. Some discussions are provided in Section 7.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "28188732",
+    "journal" : "Mathematical biosciences",
+    "title" : "Modeling the transmission dynamics and control of rabies in China.",
+    "affiliation" : "Department of Mathematics, University of Miami, Coral Gables, FL 33146, USA. Electronic address: ruan@math.miami.edu.",
+    "synopsis" : "Human rabies was first recorded in ancient China in about 556 BC and is still one of the major public-health problems in China. From 1950 to 2015, 130,494 human rabies cases were reported in Mainland China with an average of 1977 cases per year. It is estimated that 95% of these human rabies cases are due to dog bites. The purpose of this article is to provide a review about the models, results, and simulations that we have obtained recently on studying the transmission of rabies in China. We first construct a basic susceptible, exposed, infectious, and recovered (SEIR) type model for the spread of rabies virus among dogs and from dogs to humans and use the model to simulate the human rabies data in China from 1996 to 2010. Then we modify the basic model by including both domestic and stray dogs and apply the model to simulate the human rabies data from Guangdong Province, China. To study the seasonality of rabies, in Section 4 we further propose a SEIR model with periodic transmission rates and employ the model to simulate the monthly data of human rabies cases reported by the Chinese Ministry of Health from January 2004 to December 2010. To understand the spatial spread of rabies, in Section 5 we add diffusion to the dog population in the basic SEIR model to obtain a reaction-diffusion equation model and determine the minimum wave speed connecting the disease-free equilibrium to the endemic equilibrium. Finally, in order to investigate how the movement of dogs affects the geographically inter-provincial spread of rabies in Mainland China, in Section 6 we propose a multi-patch model to describe the transmission dynamics of rabies between dogs and humans and use the two-patch submodel to investigate the rabies virus clades lineages and to simulate the human rabies data from Guizhou and Guangxi, Hebei and Fujian, and Sichuan and Shaanxi, respectively. Some discussions are provided in Section 7.",
+    "year" : 2017,
+    "month" : "4",
+    "volume" : "286",
+    "pages" : "65-93",
+    "link" : "http://identifiers.org/pubmed/28188732",
+    "authors" : [
+      {
+        "name" : "Shigui Ruan",
+        "institution" : "Department of Mathematics, University of Miami, Coral Gables, FL 33146, USA. Electronic address: ruan@math.miami.edu."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Model.xml",
+        "description" : "SBML L2V4 representation of Ruan2017 - Transmission dynamics and control of rabies in China",
+        "fileSize" : "66195",
+        "mimeType" : "application/xml",
+        "md5sum" : "8cb4fdd519f23dcfb716cd6b0fc548c4",
+        "sha1sum" : "e339bd2d796d9f93961aa11e82e3d160f34d5d4f",
+        "sha256sum" : "acd879be217a1d53565520eb9b51d9164600a67a50dc06b4adfc8ddd7d9123fb"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Model-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "24313",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f9dfd07f0fe2cc0264212509eafa8c4a",
+        "sha1sum" : "56b207502eb5b13d4b918fe3a3081ec3328af530",
+        "sha256sum" : "82d49876213093c49692d9b44c0b3c7cb819901a1e42e5dddb596c6d219242fd"
+      },
+      {
+        "name" : "Model-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "40126",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7738732fe55f87859498a89c461bee8d",
+        "sha1sum" : "0157d2ccf6c175d7b2b29365640aee37b63cce60",
+        "sha256sum" : "9a4fd6320aa9408ddaf09b88f0ff406cfa74bf13c3f67da2b7d7602871520e0b"
+      },
+      {
+        "name" : "Model-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9386",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "886f47063915009bee603c800294adc3",
+        "sha1sum" : "2ca3f84320719d3ec58ec90c256dac4e272913ba",
+        "sha256sum" : "2d8d092e77050e0cef3b00e7e799d9616b4c79c68df1e78a10cef512e0fe7067"
+      },
+      {
+        "name" : "Model-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9386",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "10b0797459c4651b79b091afaa1e3362",
+        "sha1sum" : "c7e683e600422e1e7dd917ab89e40741de855f5b",
+        "sha256sum" : "8c49a675a6439caafaa893ee70611febd5b77c4ee13ba002bb5084184edab2e6"
+      },
+      {
+        "name" : "Model.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6973",
+        "mimeType" : "text/plain",
+        "md5sum" : "ee836d7d4ead78483fa82cd1ac7378dc",
+        "sha1sum" : "8ec0b509943cbf8b6bf6e1e90b18c7af5a6fccbd",
+        "sha256sum" : "f073a47bfe4ba5f4261c3d1d84fd7a9067d19a5d66495345af1a937cb5694704"
+      },
+      {
+        "name" : "Modelling the transmission dynamics and control of rabies in china REACTIONS.cps",
+        "description" : "Copasi file for the model. Figure produced is similar to publication.",
+        "fileSize" : "94280",
+        "mimeType" : "application/xml",
+        "md5sum" : "d94d8c12c6a3d106414f277a5af7581e",
+        "sha1sum" : "ac3f756de8f5a9d947b0c700238c7ae823036d11",
+        "sha256sum" : "1df9193ac11f2d0cbc10ba03537e3ba05cb674914785fc493aada553fa03e209"
+      },
+      {
+        "name" : "Modelling the transmission dynamics and control of rabies in china REACTIONS.sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "28994",
+        "mimeType" : "application/xml",
+        "md5sum" : "44d7c86b364a3b7d227539a5679a3f9f",
+        "sha1sum" : "0f303a7797be6ac80bfe3079ecf15da582e1fd49",
+        "sha256sum" : "44574e3a2bd1dd7e84847f90ab7f5b95330a6ed1bb21375a5fbd50ba8abd37e9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "28166",
+        "mimeType" : "image/png",
+        "md5sum" : "5746568e5d2651cfcad81f76b6e65c70",
+        "sha1sum" : "caddce1cdd0bd5e0fd2c711f671faccc98dda686",
+        "sha256sum" : "b7279c683119b5765bdfab51bff258cbeff1cc3ce45cacd7a3bef57022a2fe96"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "338",
+        "mimeType" : "text/plain",
+        "md5sum" : "93cc7c0f305e21f71a3fcc0171af99a1",
+        "sha1sum" : "a470a4aade868437f7212a09c401c2a4b7023d0d",
+        "sha256sum" : "672b5a7e401e552cba31797fafa7853cc45cb54bf0153049243ea3141fbdd789"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1513",
+        "mimeType" : "application/xml",
+        "md5sum" : "15b2c9ace030b88d8e914e52888cbbc1",
+        "sha1sum" : "80cd6f52653e061c22f21fd50d2372fbbcb5b8a3",
+        "sha256sum" : "40c8c1c7bff7884be00f0c97bec7de7634366a6d9395f5cf9efc56e4f876132b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1393",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "990846af05c37bdfca444fb38806d64b",
+        "sha1sum" : "261bf76a5919a87bd5d64db3b43b6affdd1e4242",
+        "sha256sum" : "2094890c46b13b8c3197a5fc3808db8a33982f10d164bc860dfed4caedb95796"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 4,
+        "submitted" : 1535474307,
+        "submitter" : "Sarubini Kananathan",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 6,
+        "submitted" : 1544092502,
+        "submitter" : "Sarubini Kananathan",
+        "comment" : "Automatically added model identifier BIOMD0000000726"
+      },
+      {
+        "version" : 7,
+        "submitted" : 1724287937,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285428,
+  "submissionId" : "MODEL1808280012",
+  "publicationId" : "BIOMD0000000726",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Sarubini Kananathan",
+        "email" : "skananathan@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9615",
+      "name" : "Canis lupus familiaris",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9615"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1808280012",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1808280012"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000726",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000726"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "28188732",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:28188732"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C28182",
+      "name" : "Rabies",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C28182"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "11292",
+      "name" : "Rabies lyssavirus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/11292"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "28188732",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/28188732"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name" : "Sivakumar2011 - Hedgehog Signaling Pathway",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">\t<div class=\"dc:title\">\t  Sivakumar2011 - Hedgehog Signaling Pathway\t</div>\t<div class=\"dc:description\">\t <p>This is the current model for the Hedgehog signaling pathway. The best data for mechanism of signaling has been worked out in Drosophila, so this model is based largely on Drosophila data. Hedgehog target genes vary from tissue to tissue, so the identities of individual target genes have not been listed. The main difference between the Drosophila and mammalian Hedgehog signaling pathways is the fact that there are three mammalian homologs of Cubitus interruptus, Gli1 Gli2 and Gli3. Some or all of the mammalian homologs may be proteolytically processed, but the data are controversial. There are two mammalian Ptc genes and three mammalian Hedgehog genes as well. The pathway for Sonic Hedgehog appears to be most similar to the Drosophila hedgehog pathway.</p>         <p>References:</p>         <ul>          <li>              <a href=\"http://identifiers.org/pubmed/11731473\">Hedgehog signaling in animal development: paradigms and principles.</a></li>          <li>              <a href=\"http://identifiers.org/pubmed/11861165\">Sonic hedgehog in the nervous system: functions, modifications and mechanisms.</a></li>          <li>              <a href=\"http://identifiers.org/pubmed/12200154\">Hedgehog signal transduction: recent findings.</a></li>          <li>              <a href=\"http://identifiers.org/pubmed/14738752\">Hedgehog signaling: Costal-2 bridges the transduction gap.</a></li>         </ul>\t</div>\t<div class=\"dc:bibliographicCitation\">\t <p>This model is described in the article:</p>\t <div class=\"bibo:title\">            <a href=\"http://identifiers.org/pubmed/21978399\" title=\"Access to this publication\">A systems biology approach to model neural stem cell regulation by notch, shh, wnt, and EGF signaling pathways.</a></div>\t <div class=\"bibo:authorList\">Sivakumar KC, Dhanesh SB, Shobana S, James J, Mundayoor S.</div>\t <div class=\"bibo:Journal\">Omics: a Journal of Integrative Biology. 2011; 15(10):729-737</div>\t <p>Abstract:</p>\t <div class=\"bibo:abstract\">  \t   <p>The Notch, Sonic Hedgehog (Shh), Wnt, and EGF pathways have long been known to influence cell fate specification in the developing nervous system. Here we attempted to evaluate the contemporary knowledge about neural stem cell differentiation promoted by various drug-based regulations through a systems biology approach. Our model showed the phenomenon of DAPT-mediated antagonism of Enhancer of split [E(spl)] genes and enhancement of Shh target genes by a SAG agonist that were effectively demonstrated computationally and were consistent with experimental studies. However, in the case of model simulation of Wnt and EGF pathways, the model network did not supply any concurrent results with experimental data despite the fact that drugs were added at the appropriate positions. This paves insight into the potential of crosstalks between pathways considered in our study. Therefore, we manually developed a map of signaling crosstalk, which included the species connected by representatives from Notch, Shh, Wnt, and EGF pathways and highlighted the regulation of a single target gene, Hes-1, based on drug-induced simulations. These simulations provided results that matched with experimental studies. Therefore, these signaling crosstalk models complement as a tool toward the discovery of novel regulatory processes involved in neural stem cell maintenance, proliferation, and differentiation during mammalian central nervous system development. To our knowledge, this is the first report of a simple crosstalk map that highlights the differential regulation of neural stem cell differentiation and underscores the flow of positive and negative regulatory signals modulated by drugs.</p>\t </div>\t</div>\t<div class=\"dc:publisher\">\t <p>This model is hosted on <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a> and identified by: <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000395\">BIOMD0000000395</a>.</p>\t <p>To cite BioModels Database, please use: <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models</a>.</p>\t</div>\t<div class=\"dc:license\">\t   <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0 Public Domain Dedication</a> for more information.</p>\t</div>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21978399",
+    "journal" : "Omics : a journal of integrative biology",
+    "title" : "A systems biology approach to model neural stem cell regulation by notch, shh, wnt, and EGF signaling pathways.",
+    "affiliation" : "Bioinformatics Facility, Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala, India.",
+    "synopsis" : "The Notch, Sonic Hedgehog (Shh), Wnt, and EGF pathways have long been known to influence cell fate specification in the developing nervous system. Here we attempted to evaluate the contemporary knowledge about neural stem cell differentiation promoted by various drug-based regulations through a systems biology approach. Our model showed the phenomenon of DAPT-mediated antagonism of Enhancer of split [E(spl)] genes and enhancement of Shh target genes by a SAG agonist that were effectively demonstrated computationally and were consistent with experimental studies. However, in the case of model simulation of Wnt and EGF pathways, the model network did not supply any concurrent results with experimental data despite the fact that drugs were added at the appropriate positions. This paves insight into the potential of crosstalks between pathways considered in our study. Therefore, we manually developed a map of signaling crosstalk, which included the species connected by representatives from Notch, Shh, Wnt, and EGF pathways and highlighted the regulation of a single target gene, Hes-1, based on drug-induced simulations. These simulations provided results that matched with experimental studies. Therefore, these signaling crosstalk models complement as a tool toward the discovery of novel regulatory processes involved in neural stem cell maintenance, proliferation, and differentiation during mammalian central nervous system development. To our knowledge, this is the first report of a simple crosstalk map that highlights the differential regulation of neural stem cell differentiation and underscores the flow of positive and negative regulatory signals modulated by drugs.",
+    "year" : 2011,
+    "month" : "10",
+    "volume" : "15",
+    "issue" : "10",
+    "pages" : "729-737",
+    "link" : "http://identifiers.org/pubmed/21978399",
+    "authors" : [
+      {
+        "name" : "Krishnankutty Chandrika Sivakumar",
+        "institution" : "Bioinformatics Facility, Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala, India."
+      },
+      {
+        "name" : "Sivadasan Bindu Dhanesh"
+      },
+      {
+        "name" : "Sekar Shobana"
+      },
+      {
+        "name" : "Jackson James",
+        "orcid" : "0000-0002-7038-2687"
+      },
+      {
+        "name" : "Sathish Mundayoor"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000395_url.xml",
+        "description" : "SBML L2V1 representation of Sivakumar2011 - Hedgehog Signaling Pathway",
+        "fileSize" : "164246",
+        "mimeType" : "application/xml",
+        "md5sum" : "efe0fb2ec76625dfbd253d9a3fd8271e",
+        "sha1sum" : "e5cf6a04a191db1635802829c8a4275da7d5521d",
+        "sha256sum" : "e2efcbe5d9787d0696b691eb823bf70b32b56a97f14eb7201a0448c4d3327998"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000395-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "24350",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "bfb7f31bb2c4ed8fb0d4e9ed699ae5ec",
+        "sha1sum" : "0df6f5ed78faa57e2040762e7d76b4429a52a431",
+        "sha256sum" : "62bf8b9331952d7245c6b85ccbc64f38e643f3b461f344245e0e26aad398ef85"
+      },
+      {
+        "name" : "BIOMD0000000395-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "38718",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "dc137170cb50f26b655932c211f60e02",
+        "sha1sum" : "9110def2f9466449ade31d4c7d262bc25890a232",
+        "sha256sum" : "bb8d1c0391d009cd5512c002e69f79630a91ab042cda95ce9ba09b6a602a42f1"
+      },
+      {
+        "name" : "BIOMD0000000395-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9764",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1bbcf270c82d7f4b4e12842c6ac39730",
+        "sha1sum" : "cf599bb9b4e53af0f74e9955cd807960f823dcd0",
+        "sha256sum" : "e3903ec9e5b0c8633b5eae8261f741900d688b305c7ed6d00f353563774e1097"
+      },
+      {
+        "name" : "BIOMD0000000395.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9764",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "36f9f9ca0d1cc271a564cbee5e76a392",
+        "sha1sum" : "e4566c023110ede1cce49eb4a85e73c9b7d873af",
+        "sha256sum" : "3e2e7db4b135ec838594e6d5d1e4758ad07df49418c79e0898d0207e904b45a6"
+      },
+      {
+        "name" : "BIOMD0000000395.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7065",
+        "mimeType" : "text/plain",
+        "md5sum" : "4bb13dc087f96a5cdd01b076ddc651bc",
+        "sha1sum" : "14afef39cc48642fff87eb03d4218ed55c6e38c5",
+        "sha256sum" : "92498e5c9fc6306cf0092f397a42b7b898c41ae9689d6b484474c57bcb6380bc"
+      },
+      {
+        "name" : "BIOMD0000000395.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "214963",
+        "mimeType" : "application/pdf",
+        "md5sum" : "8748e75d9aae405e31a4df89e128106a",
+        "sha1sum" : "67473d43c2db8810363ff791aa0549779285854b",
+        "sha256sum" : "4dce60cded753812ef6795fa1cf80bddded9ba43529702d8014d6c5dd45ad1f7"
+      },
+      {
+        "name" : "BIOMD0000000395.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "195894",
+        "mimeType" : "image/png",
+        "md5sum" : "eb48970316bf0fc1d512a07cb3ea3efd",
+        "sha1sum" : "81ac9724e8f523c65e63bfffd3de043985cc20f9",
+        "sha256sum" : "d2940bd13256db0c42f901903008b4d4cc803d4853b0086eb1a694197d9ff0ee"
+      },
+      {
+        "name" : "BIOMD0000000395.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "7070",
+        "mimeType" : "text/plain",
+        "md5sum" : "e6291cb6832aa7e8aeb0aa019c1cd700",
+        "sha1sum" : "a89fe5f9cac8ca282ab0d03f7654ca7215feecf3",
+        "sha256sum" : "08d85f386023ba6ed161ae435745f830fa9abbf48ebe3d6a4e260763114c6822"
+      },
+      {
+        "name" : "BIOMD0000000395.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "36569",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "ede474ef8b8ff09e011c8b56a37e0e16",
+        "sha1sum" : "6a6d40e467d1c9985f6aff11aef39a12115c3261",
+        "sha256sum" : "d03e1ee306cc97418343314214cbf2b8de30332cdf24464c10dfa889f85eae41"
+      },
+      {
+        "name" : "BIOMD0000000395.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "70874",
+        "mimeType" : "application/xml",
+        "md5sum" : "c86621befb76f1488653517e9921d467",
+        "sha1sum" : "c7d5218940a66ac694b3978d7110bdc3aa3670a4",
+        "sha256sum" : "8339772c16eadf7f16314582ee80e52fff155a0391e539f8d7d5af8af47d5a8f"
+      },
+      {
+        "name" : "BIOMD0000000395_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "38071",
+        "mimeType" : "application/xml",
+        "md5sum" : "08778a0d75247dc28cb1a08d0234dafd",
+        "sha1sum" : "b198a5a2a654317da3352d267bc8f31199f8ecc0",
+        "sha256sum" : "83fb932d9b1cc430c3e69ecaefb91993e8bcc87db9fb2d5156ff0eb0000144cb"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "22428",
+        "mimeType" : "image/png",
+        "md5sum" : "113a91cbc40c018a928cfd00a92ff887",
+        "sha1sum" : "9d31c4a5872ea4d6b804e777948e99559040ee20",
+        "sha256sum" : "8ad6f974bc07319e4eb4850da1c413dbb8add14867ebd686f3b2cbb68a309a9f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "118",
+        "mimeType" : "text/plain",
+        "md5sum" : "f0db3d0d0f68fcc418c048516145d675",
+        "sha1sum" : "24b035530229e3a8dfba81ec18cf6f40c3a24ee3",
+        "sha256sum" : "4b715cd74c615413c44420fbfc690741339d37854ed74b9f251b524a39f9f247"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "8d41923bf7c425b3de7db7c4ae0b7448",
+        "sha1sum" : "dbccaab785d9208d7c84ced7e4d4b401172ca8d1",
+        "sha256sum" : "697846505cb122a1a56ac0a3dd638de3506d6c902260f4bcce5bd8adc1bf40ee"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "7053",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6b78346f91ecc11b0f59616e75665eec",
+        "sha1sum" : "b7f2b28e56cd748d81b88b10aea7b6eddcefa787",
+        "sha256sum" : "54ec21333033b4eb0d1d5c44c917483cf852d1d5882055e9923d355b006c38d3"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1296103151,
+        "submitter" : "KC Sivakumar",
+        "comment" : "Original import of BIOMD0000000395.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460139361,
+        "submitter" : "KC Sivakumar",
+        "comment" : "Current version of Sivakumar2011 - Hedgehog Signaling Pathway"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724275513,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285119,
+  "submissionId" : "MODEL1101270001",
+  "publicationId" : "BIOMD0000000395",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "KC Sivakumar",
+        "email" : "sivakumar.kc@gmail.com",
+        "affiliation" : "Rajiv Gandhi Centre for Biotechnology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1101270001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1101270001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000395",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000395"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21978399",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21978399"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "P00025",
+      "resource" : "PANTHER Pathway",
+      "uri" : "http://identifiers.org/panther.pathway/P00025"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007224",
+      "name" : "smoothened signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007224"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "CL:0000047",
+      "name" : "neuronal stem cell",
+      "resource" : "Cell Type Ontology",
+      "uri" : "http://identifiers.org/cl/CL:0000047"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

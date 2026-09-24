@@ -1,0 +1,292 @@
+{
+  "name" : "Vilar2006_TGFbeta",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces Fig 5A of the paper. The ligand concentration is increased from 3E-5 to 0.01 at time t=2500 to ensure that the system  reaches steady state. Hence, the time t=0 of the paper corresponds to t=2500 in the model. The peak value of the active ligand receptor complex is off by a value of 1.25, the authors have stated that this discrepancy is due to the fact that the figure in the paper corresponds to a slightly different parameter set. The model was successfully tested on MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16446785",
+    "journal" : "PLoS computational biology",
+    "title" : "Signal processing in the TGF-beta superfamily ligand-receptor network.",
+    "affiliation" : "Integrative Biological Modeling Laboratory, Computational Biology Program, Memorial Sloan-Kettering Cancer Center, New York, New York, United States of America. vilar@cbio.mskcc.org",
+    "synopsis" : "The TGF-beta pathway plays a central role in tissue homeostasis and morphogenesis. It transduces a variety of extracellular signals into intracellular transcriptional responses that control a plethora of cellular processes, including cell growth, apoptosis, and differentiation. We use computational modeling to show that coupling of signaling with receptor trafficking results in a highly versatile signal-processing unit, able to sense by itself absolute levels of ligand, temporal changes in ligand concentration, and ratios of multiple ligands. This coupling controls whether the response of the receptor module is transient or permanent and whether or not different signaling channels behave independently of each other. Our computational approach unifies seemingly disparate experimental observations and suggests specific changes in receptor trafficking patterns that can lead to phenotypes that favor tumor progression.",
+    "year" : 2006,
+    "month" : "1",
+    "volume" : "2",
+    "issue" : "1",
+    "pages" : "e3",
+    "link" : "http://identifiers.org/pubmed/16446785",
+    "authors" : [
+      {
+        "name" : "Jose M G Vilar",
+        "institution" : "Integrative Biological Modeling Laboratory, Computational Biology Program, Memorial Sloan-Kettering Cancer Center, New York, New York, United States of America. vilar@cbio.mskcc.org",
+        "orcid" : "0000-0003-4037-0746"
+      },
+      {
+        "name" : "Ronald Jansen"
+      },
+      {
+        "name" : "Chris Sander"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000101_url.xml",
+        "description" : "SBML L2V1 representation of Vilar2006_TGFbeta",
+        "fileSize" : "25071",
+        "mimeType" : "application/xml",
+        "md5sum" : "74559ece1b17fde37ec354f0717d0358",
+        "sha1sum" : "4f3949e7105f68cc347e11c5df6d7d5890e83155",
+        "sha256sum" : "9489f0b239f1fd07386b312a9ac691d1c4e1999f1c1a9928fe5045ee7495aad1"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000101-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "20156",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f319e0dc2f95cc841502364b16978d98",
+        "sha1sum" : "d5c8b60781ad4cfa75b19dce9f5ef68a829d7ba6",
+        "sha256sum" : "37f3e96db5e9e7bf2f29097079ac7906b0e83a4cd5d03e6ea9585f5964b5a60d"
+      },
+      {
+        "name" : "BIOMD0000000101-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "30103",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ff4f66af3566e8aac60e3da4c40e2821",
+        "sha1sum" : "a39430cec65bac76ae3828a53e9cc44e86c1aa33",
+        "sha256sum" : "6c7ba2fd1f6e5feda2a6e0d4a4bc5a6cba116d74c39efa252e9a9c76608b4d8f"
+      },
+      {
+        "name" : "BIOMD0000000101-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5397",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "5c58829262396de56c2adbf264ae91bd",
+        "sha1sum" : "d1b127d7a17233976aa20df04ec6f2764c58ded3",
+        "sha256sum" : "a282d32069b8f986ac9808778564dcccf0492cc9a73fe98f5f8db9721a0127d8"
+      },
+      {
+        "name" : "BIOMD0000000101-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5397",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fbc5c70c53408250c41d1fb29fa537cd",
+        "sha1sum" : "ce4eaeedca1e28aabd499a979f3ff9542c35f4ad",
+        "sha256sum" : "7b14ba3bce532112cbfeb27b28e9242dd04c43696f1a1c23159b8a350f13ad84"
+      },
+      {
+        "name" : "BIOMD0000000101.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5397",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "fbc5c70c53408250c41d1fb29fa537cd",
+        "sha1sum" : "ce4eaeedca1e28aabd499a979f3ff9542c35f4ad",
+        "sha256sum" : "7b14ba3bce532112cbfeb27b28e9242dd04c43696f1a1c23159b8a350f13ad84"
+      },
+      {
+        "name" : "BIOMD0000000101.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3403",
+        "mimeType" : "text/plain",
+        "md5sum" : "954c9be2c78fcdd304fcb2cf0c4b77dd",
+        "sha1sum" : "9ab979b2c7d4437505309a2b3ab1b8d86d94e758",
+        "sha256sum" : "cdc81683c5b388cc1cb41f8e3d9ecfaa82fab0a33f8e3991e39b7092917e767f"
+      },
+      {
+        "name" : "BIOMD0000000101.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "179832",
+        "mimeType" : "application/pdf",
+        "md5sum" : "74819e9204bf3cfcd7ddc48150b41616",
+        "sha1sum" : "db7137f7be02813bf490e497246d195b3669b8a9",
+        "sha256sum" : "b455248df556fb8cfc3940f9fee0cd0eae03f76e1d4958453e8bc7d6581dfddd"
+      },
+      {
+        "name" : "BIOMD0000000101.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "60332",
+        "mimeType" : "image/png",
+        "md5sum" : "8a2cf9feb56a745f6a876e5dba182be8",
+        "sha1sum" : "ae306bec7906ab51dcf03dba17540173190d474a",
+        "sha256sum" : "0f9686a509ee7b32a28270ff40cefc6141657adfe62c33ab44f58fa9923de006"
+      },
+      {
+        "name" : "BIOMD0000000101.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "24623",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "4c800e74c108d5a24f3912e4c629371c",
+        "sha1sum" : "4aac6de5dab0d2f0745131e8e5c9597db0dbfdaa",
+        "sha256sum" : "0ae38a1279d4f7dfb5c1134bb7aa6bb77af113d02ef1c0cdc9fae63e48bad610"
+      },
+      {
+        "name" : "BIOMD0000000101.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "38067",
+        "mimeType" : "application/xml",
+        "md5sum" : "b93cecf9836213911ffb41798e20bb38",
+        "sha1sum" : "9375ddefd9ae9e36d8bab272189f48105bc0cc1b",
+        "sha256sum" : "fa4f2693faea3edfdee853bb5c6fbb6b42279caa96ee3236c9012e908f676e77"
+      },
+      {
+        "name" : "BIOMD0000000101_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "17619",
+        "mimeType" : "application/xml",
+        "md5sum" : "e21621384e1f1e7b10e8c831944b11a9",
+        "sha1sum" : "45fef31b41da5dd9c4b4e11a642d74c94bed43fa",
+        "sha256sum" : "cefa34dd4914699e6a3f533b0f0b3780ada84f6143de47c2050216c0602732e2"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "13753",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "ea0f0ae6949d0f23d9f087537dd9645f",
+        "sha1sum" : "939ed448f8aed45622383e74d1526b7cc24b7181",
+        "sha256sum" : "561295c989ff71b53221f0fe9a4998b0a11c75edfe54cb5b17995991e8fcd1a1"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "81",
+        "mimeType" : "text/plain",
+        "md5sum" : "65fb88059b2853927d00a151123a8d87",
+        "sha1sum" : "7e5a8b287ea3973c04cfebe1331c080926ca58cc",
+        "sha256sum" : "5c3cdc241efc49ef5f69f03570f06a4d5276b754b30cf186dda36a04e95ff2e3"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1914",
+        "mimeType" : "application/xml",
+        "md5sum" : "d786cc30613a3bea4e6bcaac494b8473",
+        "sha1sum" : "ac111552f36d40f5a4f5cfeb1d0696644ecf5337",
+        "sha256sum" : "675c801ee60a9b4bb0d50a7d66c1ff13da29a8e271b0a90a23c960b3792c7f27"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3212",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4bc894a5c59f9c5618fcbdfa627e2cac",
+        "sha1sum" : "61b9d32e1a3376c2d0cec972a6123ae5c69f2be4",
+        "sha256sum" : "3be0746a717b7152c3259c9a5e0be6f2edbbce2881dae05c8d4903d48450de62"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1174604111,
+        "submitter" : "Katja Wegner",
+        "comment" : "Original import of New Model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1341503152,
+        "submitter" : "Katja Wegner",
+        "comment" : "Current version of Vilar2006_TGFbeta"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267440,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284878,
+  "submissionId" : "MODEL4023382414",
+  "publicationId" : "BIOMD0000000101",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Katja Wegner",
+        "email" : "k.wegner@herts.ac.uk",
+        "affiliation" : "University of Hertfordshire",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4023382414",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4023382414"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000101",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000101"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16446785",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16446785"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "REACT_6844.3",
+      "name" : "Signaling by TGF-beta Receptor Complex",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_6844.3"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007179",
+      "name" : "transforming growth factor beta receptor signaling pathway",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007179"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa04350",
+      "name" : "TGF-beta signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04350"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

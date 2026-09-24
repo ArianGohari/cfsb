@@ -1,0 +1,234 @@
+{
+  "name" : "Kronik2008 - Improving alloreactive CTL immunotherapy for malignant gliomas using a simulation model of their interactive dynamics",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This mathematical model describes interactions between glioma tumors and the immune system that may occur following direct intra-tumoral administration of ex-vivo activated alloreactive cytotoxic-T-lymphocytes (aCTLs) as part of adoptive immunotherapy. The model includes descriptions of aCTL, neoplastic cells, MHC class I and II molecules, TGF-beta and IFN-gamma.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17823798",
+    "journal" : "Cancer immunology, immunotherapy : CII",
+    "title" : "Improving alloreactive CTL immunotherapy for malignant gliomas using a simulation model of their interactive dynamics.",
+    "affiliation" : "Institute for Medical BioMathematics (IMBM), 10 Hate'ena St., PO Box 282, Bene Ataroth 60991, Israel. natalie@imbm.org",
+    "synopsis" : "Glioblastoma (GBM), a highly aggressive (WHO grade IV) primary brain tumor, is refractory to traditional treatments, such as surgery, radiation or chemotherapy. This study aims at aiding in the design of more efficacious GBM therapies. We constructed a mathematical model for glioma and the immune system interactions, that may ensue upon direct intra-tumoral administration of ex vivo activated alloreactive cytotoxic-T-lymphocytes (aCTL). Our model encompasses considerations of the interactive dynamics of aCTL, tumor cells, major histocompatibility complex (MHC) class I and MHC class II molecules, as well as cytokines, such as TGF-beta and IFN-gamma, which dampen or increase the pro-inflammatory environment, respectively. Computer simulations were used for model verification and for retrieving putative treatment scenarios. The mathematical model successfully retrieved clinical trial results of efficacious aCTL immunotherapy for recurrent anaplastic oligodendroglioma and anaplastic astrocytoma (WHO grade III). It predicted that cellular adoptive immunotherapy failed in GBM because the administered dose was 20-fold lower than required for therapeutic efficacy. Model analysis suggests that GBM may be eradicated by new dose-intensive strategies, e.g., 3 x 10(8) aCTL every 4 days for small tumor burden, or 2 x 10(9) aCTL, infused every 5 days for larger tumor burden. Further analysis pinpoints crucial bio-markers relating to tumor growth rate, tumor size, and tumor sensitivity to the immune system, whose estimation enables regimen personalization. We propose that adoptive cellular immunotherapy was prematurely abandoned. It may prove efficacious for GBM, if dose intensity is augmented, as prescribed by the mathematical model. Re-initiation of clinical trials, using calculated individualized regimens for grade III-IV malignant glioma, is suggested.",
+    "year" : 2008,
+    "month" : "3",
+    "volume" : "57",
+    "issue" : "3",
+    "pages" : "425-439",
+    "link" : "http://identifiers.org/pubmed/17823798",
+    "authors" : [
+      {
+        "name" : "Natalie Kronik",
+        "institution" : "Institute for Medical BioMathematics (IMBM), 10 Hate'ena St., PO Box 282, Bene Ataroth 60991, Israel. natalie@imbm.org"
+      },
+      {
+        "name" : "Yuri Kogan"
+      },
+      {
+        "name" : "Vladimir Vainstein"
+      },
+      {
+        "name" : "Zvia Agur"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Kronik2008.xml",
+        "description" : "SBML L2V4 Representation of Kronik2008 - Improving alloreactive CTL immunotherapy for malignant gliomas using a simulation model of their interactive dynamics",
+        "fileSize" : "101459",
+        "mimeType" : "application/xml",
+        "md5sum" : "5d13c9cfc6281f329aa15d2ff1aaea85",
+        "sha1sum" : "47d76cd350d0051a17effa7558bf76bdd0dd7a76",
+        "sha256sum" : "23d27c75205481978e6bee69bed4ef94c0eb51c2da1a08efc796d8f92ec500be"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Kronik2008-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "18064",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f3a6d8e03f9459193e83fc79c4ee602a",
+        "sha1sum" : "bc24b841663eed60c8f959bbacaf0b4991957f56",
+        "sha256sum" : "8230306b2fe133ddde71979df0033444d2b7bb4fb2119ea825b555195725124b"
+      },
+      {
+        "name" : "Kronik2008-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "25864",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ca375461b1d6db380144698be4df3dc0",
+        "sha1sum" : "bec0319f55a8a683b948298b527c3a1d5715b25a",
+        "sha256sum" : "c821a44b851beab057b10218c05ba5ae5b3be99dd60f187a314c620fd34c8f11"
+      },
+      {
+        "name" : "Kronik2008-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10667",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3dac5beb0f5ee7c8e7a573ef4adafc5a",
+        "sha1sum" : "68e0fe9693617c9052724b34d497f4fa142522ce",
+        "sha256sum" : "56a7ad0be9836d0c9a9d452ba450b31053437b129a941907fe42767d6ced7531"
+      },
+      {
+        "name" : "Kronik2008-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10667",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3041dff2962440e9c8962344f2c00fcc",
+        "sha1sum" : "12c1e29d6e8c866441c1d3488ee04bba28673e43",
+        "sha256sum" : "2db80f0012241367d59f5326073acda05b39211d30c24e915f6abb71c1be9448"
+      },
+      {
+        "name" : "Kronik2008.cps",
+        "description" : "COPASI file of Kronik2008 - Improving alloreactive CTL immunotherapy for malignant gliomas using a simulation model of their interactive dynamics",
+        "fileSize" : "120201",
+        "mimeType" : "application/xml",
+        "md5sum" : "0b259d265d9f02af93266c520f67fc45",
+        "sha1sum" : "8485212e344af1e143d0385152782452ace4019f",
+        "sha256sum" : "64c9994f8c907cad269b1d7e827333d128f720460805aa01bfeb90296c79480c"
+      },
+      {
+        "name" : "Kronik2008.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "9558",
+        "mimeType" : "text/plain",
+        "md5sum" : "9d4ca600d779e8b509c41a8e0719a7f6",
+        "sha1sum" : "81c2c617594cf9b867783fd97b77bdffa9ce0af6",
+        "sha256sum" : "f4277b422907f27eaa87570bbabbc0961b852d752966919364e047d4bbd17e58"
+      },
+      {
+        "name" : "Kronik2008.sedml",
+        "description" : "SED-ML file of Kronik2008 - Improving alloreactive CTL immunotherapy for malignant gliomas using a simulation model of their interactive dynamics (additionally CRBM-validated and adjusted).",
+        "fileSize" : "34495",
+        "mimeType" : "application/xml",
+        "md5sum" : "94783f26a83d3285ec1f989e439bd855",
+        "sha1sum" : "86a33eb31f4dc629c465c2b73d28b5f634caa39a",
+        "sha256sum" : "26586d84156ad717c39669d21706d2fc60ba1b04debc69280f3177f460086de5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11190",
+        "mimeType" : "image/png",
+        "md5sum" : "8750a653a3c3a03c685e149aeff187f9",
+        "sha1sum" : "62cd199b268606902944afc66c4952027884574d",
+        "sha256sum" : "4e206263baa89b7cbb2d1201ec629d9af27909c2c3d9b8ff290ab7a78966c02a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "286",
+        "mimeType" : "text/plain",
+        "md5sum" : "ae8da628b15a4abe43389653fffd90db",
+        "sha1sum" : "e900eac40630b26ced0a0da5717e8b961a0c27ba",
+        "sha256sum" : "5834176ec4cac568a0f198fa178767ff2e76949260cbcab127acf755925eabda"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1411",
+        "mimeType" : "application/xml",
+        "md5sum" : "5faa9b6f1d5f6a7d5b0261b843d6a5cd",
+        "sha1sum" : "ab45a6fbd40b2b0dd08edd0861ddfadff4cbd7f1",
+        "sha256sum" : "a07307b02d5a06332ace8ffde68e631b01b8860195ae5484e839c0bcfb8aad5b"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2100",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "30f1f5710d3db36c7e40fcb667da5a6f",
+        "sha1sum" : "da8214f6fc5f3a556a59fec54581a5e6334daee2",
+        "sha256sum" : "27cb7562e1a5a0b2bfac9d05de522b06a93ba4eba5a0390083c30b8ddba64db4"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1568020102,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000808"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724290072,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285505,
+  "submissionId" : "MODEL1909090001",
+  "publicationId" : "BIOMD0000000808",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C15351",
+      "name" : "Adoptive Immunotherapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C15351"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17823798",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17823798"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000808",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000808"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909090001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909090001"
+    }
+  ]
+}

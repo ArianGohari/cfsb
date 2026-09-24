@@ -1,0 +1,378 @@
+{
+  "name" : "Steckmann2012 - Amyloid beta-protein fibrillogenesis (kinetics of secondary structure conversion)",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Steckmann2012 - Amyloid beta-proteinfibrillogenesis (kinetics of secondary structure conversion)</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/22586726\" title=\"Access to this publication\">Kinetics of peptide    secondary structure conversion during amyloid ?-protein    fibrillogenesis.</a>  </div>  <div class=\"bibo:authorList\">Steckmann T, Awan Z, Gerstman BS,  Chapagain PP.</div>  <div class=\"bibo:Journal\">J. Theor. Biol. 2012 May; 301:  95-102</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Amyloid fibrils are a common component in many debilitating    human neurological diseases such as Alzheimer's (AD),    Parkinson's, and Creutzfeldt-Jakob, and in animal diseases such    as BSE. The role of fibrillar ?? proteins in AD has stimulated    interest in the kinetics of ?? fibril formation. Kinetic models    that include reaction pathways and rate parameters for the    various stages of the process can be helpful towards    understanding the dynamics on a molecular level. Based upon    experimental data, we have developed a mathematical model for    the reaction pathways and determined rate parameters for    peptide secondary structural conversion and aggregation during    the entire fibrillogenesis process from random coil to mature    fibrils, including the molecular species that accelerate the    conversions. The model and the rate parameters include    different molecular structural stages in the nucleation and    polymerization processes and the numerical solutions yield    graphs of concentrations of different molecular species versus    time that are in close agreement with experimental results. The    model also allows for the calculation of the time-dependent    increase in aggregate size. The calculated results agree well    with experimental results, and allow differences in    experimental conditions to be included in the calculations. The    specific steps of the model and the rate constants that are    determined by fitting to experimental data provide insight on    the molecular species involved in the fibril formation    process.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000533\">BIOMD0000000533</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22586726",
+    "journal" : "Journal of theoretical biology",
+    "title" : "Kinetics of peptide secondary structure conversion during amyloid β-protein fibrillogenesis.",
+    "affiliation" : "Theoretical and Computational Biophysics Group, Department of Physics, Florida International University, Miami, FL 33199, USA.",
+    "synopsis" : "Amyloid fibrils are a common component in many debilitating human neurological diseases such as Alzheimer's (AD), Parkinson's, and Creutzfeldt-Jakob, and in animal diseases such as BSE. The role of fibrillar Αβ proteins in AD has stimulated interest in the kinetics of Αβ fibril formation. Kinetic models that include reaction pathways and rate parameters for the various stages of the process can be helpful towards understanding the dynamics on a molecular level. Based upon experimental data, we have developed a mathematical model for the reaction pathways and determined rate parameters for peptide secondary structural conversion and aggregation during the entire fibrillogenesis process from random coil to mature fibrils, including the molecular species that accelerate the conversions. The model and the rate parameters include different molecular structural stages in the nucleation and polymerization processes and the numerical solutions yield graphs of concentrations of different molecular species versus time that are in close agreement with experimental results. The model also allows for the calculation of the time-dependent increase in aggregate size. The calculated results agree well with experimental results, and allow differences in experimental conditions to be included in the calculations. The specific steps of the model and the rate constants that are determined by fitting to experimental data provide insight on the molecular species involved in the fibril formation process.",
+    "year" : 2012,
+    "month" : "5",
+    "volume" : "301",
+    "pages" : "95-102",
+    "link" : "http://identifiers.org/pubmed/22586726",
+    "authors" : [
+      {
+        "name" : "Timothy Steckmann",
+        "institution" : "Theoretical and Computational Biophysics Group, Department of Physics, Florida International University, Miami, FL 33199, USA."
+      },
+      {
+        "name" : "Zubair Awan"
+      },
+      {
+        "name" : "Bernard S Gerstman"
+      },
+      {
+        "name" : "Prem P Chapagain",
+        "orcid" : "0000-0002-0999-4975"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000533_url.xml",
+        "description" : "SBML L2V4 representation of Steckmann2012 - Amyloid beta-protein fibrillogenesis (kinetics of secondary structure conversion)",
+        "fileSize" : "28465",
+        "mimeType" : "application/xml",
+        "md5sum" : "1f9a145ab2ffacf3d8272cf8813871b1",
+        "sha1sum" : "8e748506ece0ec67dbd5b23c5a97926d736802ba",
+        "sha256sum" : "d40df044d24c9e2839a3e0bdf5ae3fded13e2a450c17a22b1109fc2c52be0425"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000533-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "5944",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b4f815a82f7d831866ab8452a3e78d51",
+        "sha1sum" : "ca48c1a5705e84ad923afde97262c2cd8696d7b1",
+        "sha256sum" : "5c70c51d8c2100f642534f36300afd0d2b3f217457a5e4b7253152e8c7c522c8"
+      },
+      {
+        "name" : "BIOMD0000000533-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "7099",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "4c37ded3961ea49c802d597779e91eec",
+        "sha1sum" : "59e518f42b40907fc8dc59af6afe627cdc6baf3d",
+        "sha256sum" : "5af6cff7a2827a1962d434b27071aaf22929f3b287c3887093fcabc002e3bbfe"
+      },
+      {
+        "name" : "BIOMD0000000533-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5179",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "ecf778b9398230f76f835d0aeca7ae8e",
+        "sha1sum" : "3dbe95e3eb70e2c083d835b45b034c517a16c163",
+        "sha256sum" : "ea1d1eeddbb7246cb963976574d1bb80a39c438568003bae17e8010154895b7e"
+      },
+      {
+        "name" : "BIOMD0000000533-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5179",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0d2c6b92ce664fd2c6a7dce715172a9a",
+        "sha1sum" : "b252bb3d4764cf8a60cfd1ac383eb0fdcfacfbd7",
+        "sha256sum" : "e33baf6de84aa234dc2c18457909df03548300828675605ee0d464d8f07add79"
+      },
+      {
+        "name" : "BIOMD0000000533.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5179",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0d2c6b92ce664fd2c6a7dce715172a9a",
+        "sha1sum" : "b252bb3d4764cf8a60cfd1ac383eb0fdcfacfbd7",
+        "sha256sum" : "e33baf6de84aa234dc2c18457909df03548300828675605ee0d464d8f07add79"
+      },
+      {
+        "name" : "BIOMD0000000533.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2606",
+        "mimeType" : "text/plain",
+        "md5sum" : "7031d4fd6bbb55f11456cb79812a01ee",
+        "sha1sum" : "1824daa40044667b1db7f5918b2857ee1a984b3d",
+        "sha256sum" : "df841b94c2e555d1885909a28e863612f8e4e0a817d5d3427dfd198ccdd4a669"
+      },
+      {
+        "name" : "BIOMD0000000533.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "145589",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b6ca8da18cabcb197e8918aafbdee499",
+        "sha1sum" : "42007222d404dd8d5c89fa7e39458066b45eac23",
+        "sha256sum" : "674e93bf981a79c98e7cf39b9ef09ae41a95cb93cf7dfb5c41f6eaf3909d9770"
+      },
+      {
+        "name" : "BIOMD0000000533.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000533.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "Steckmann2012 (F3).cps",
+        "description" : "Copasi file of the model",
+        "fileSize" : "39298",
+        "mimeType" : "application/xml",
+        "md5sum" : "f0888cc8437925d79468a71c2d040927",
+        "sha1sum" : "9f023026e404c31cb883ae8b5b0472c556493d62",
+        "sha256sum" : "31dce4993439eefb1e2708dca2d5ffb055a0ff3c6292974fba231afedca4fa7c"
+      },
+      {
+        "name" : "Steckmann2012 (F3).sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "12002",
+        "mimeType" : "application/xml",
+        "md5sum" : "cc693d50bbb30c7ae418b47f0a31dc08",
+        "sha1sum" : "6daa5bee131d66b199e8ab93afa037c5be6cfc40",
+        "sha256sum" : "3a935b5a324c1f21eff4f24eacabf6b2fcd7aaf394d7974f5ab7197d7cee0b2e"
+      },
+      {
+        "name" : "Steckmann2012 (F4)-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "1612",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ea6208ec5575df26b5c917d8b819d4bf",
+        "sha1sum" : "46b9107d45eeecbfb1523f29f75bf5c4631ee66c",
+        "sha256sum" : "68c74c284a79a8648bde294c4278f4b4f01540cd064d7d71f0b49eed1e0cb241"
+      },
+      {
+        "name" : "Steckmann2012 (F4)-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "2867",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b815e27052209d78f24e73a98c68ab30",
+        "sha1sum" : "e50e3ff71c0eb29aa2f6c356c652218034f276f5",
+        "sha256sum" : "acba5ad50fb3ddf7e26c0d985792b69696de8cd1f15b6baa6891ad92321b8e59"
+      },
+      {
+        "name" : "Steckmann2012 (F4)-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5416",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3f593bae9cdb622d73a3b32baf29ee6b",
+        "sha1sum" : "c317fb55b6a8bfdc31b3467d10448af0e67a8c00",
+        "sha256sum" : "7a9bd0ce6dc46ae1286f638ce73e9d11cbfb739ace5a97e3ae54a67864166712"
+      },
+      {
+        "name" : "Steckmann2012 (F4)-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5416",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "844675fa60351af09e92345b886e090b",
+        "sha1sum" : "1f12d34bd47aa8d51e41e9c4d4d811e48a824daf",
+        "sha256sum" : "4c2680f25106a7482a433d590c508d3c2844250b8d5febe3c85f56d591689dcc"
+      },
+      {
+        "name" : "Steckmann2012 (F4).cps",
+        "description" : "Copasi file for simulation of Figure 4 of the model",
+        "fileSize" : "41869",
+        "mimeType" : "application/xml",
+        "md5sum" : "a85dd5b5edf52e2b087609a4509fa1f0",
+        "sha1sum" : "29697763c43fb5df565d8b0c152d8ff525addb17",
+        "sha256sum" : "1cc261389adbca1d8867f28a328415ccffe226b0e26741b307fec86a340431e6"
+      },
+      {
+        "name" : "Steckmann2012 (F4).ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2616",
+        "mimeType" : "text/plain",
+        "md5sum" : "1a6da70a2795dea371281b7e54337472",
+        "sha1sum" : "d87b631fdd9b692ad3ec0e31d06a35887dd41678",
+        "sha256sum" : "058b09f613aa88a9931c8221777bb34fce7ac21d57ec57613869e85613ab9f6f"
+      },
+      {
+        "name" : "Steckmann2012 (F4).sedml",
+        "description" : "CRBM-processed SED-ML file, based on original COPASI save file export.",
+        "fileSize" : "12977",
+        "mimeType" : "application/xml",
+        "md5sum" : "a94fdb021526a16b371459fee71e9787",
+        "sha1sum" : "bf10b90f5d7524b641ca640a5e169cc5e9cd1ad1",
+        "sha256sum" : "bc46845139de0c9342c8f3509f9f2040561d7830da73c44405e19e1f5d0aeb53"
+      },
+      {
+        "name" : "Steckmann2012 (F4).xml",
+        "description" : "SBML file of the model reproducing Figure 4. The mathematical model proposed by the authors fits with experimental data from \"Walsh et al. (1990 - Amyloid beta-protein fibrillogenesis. Structure and biological activity of protofibrillar intermediates\".\r\n\r\nThe simulation was done using Copasi v4.12 (Build 81). The Copasi file of the model with simulation settings can be downloaded from the below link.",
+        "fileSize" : "20274",
+        "mimeType" : "application/xml",
+        "md5sum" : "cdd30bbb023373f19158002ffd57c85a",
+        "sha1sum" : "0ff05824fb9de2ecc2d19e113a62a1623ba9a0d8",
+        "sha256sum" : "0de0e8d19fd45424eb3b0ac17e018e64b15ba18eb4aa1b605c3a813e59001127"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17226",
+        "mimeType" : "image/png",
+        "md5sum" : "5cafc06f65c86865b596307324861c54",
+        "sha1sum" : "14c98d129357f4faafb2a9ecffae2a816ee0daf9",
+        "sha256sum" : "ab9d216b4789f59686275fa4b6eb1d44eab544d5f16c84e449c5c86c2d82e527"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "476",
+        "mimeType" : "text/plain",
+        "md5sum" : "8872cfb71a11801d48ad2fc80f1ab677",
+        "sha1sum" : "c0ae22a190fae823631c4b6c7125ff3626b86749",
+        "sha256sum" : "e6009f2148145d744aada2048b4918d3283e18e38504be7425efaa1072750247"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2907",
+        "mimeType" : "application/xml",
+        "md5sum" : "b8083b1912feb1b4cfac13c0e24685fc",
+        "sha1sum" : "cbda01b22ddd1d272ea6b717d29ab74936d3f80c",
+        "sha256sum" : "5ee0975e502cc25863cd79749392a51c52baeaabc0c37c084e76ca2e9aec50cc"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5368",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "2ab3675e62e0c042afdb51fe04249bc5",
+        "sha1sum" : "a0ab2ca0f2ca47a46ab0526bbca8b5c55d142418",
+        "sha256sum" : "1db75cc0b1e8bb04a4565a3904fd9d2f08490f1ea7613b786c9412a4940bacaa"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1406727187,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Original import of Steckmann2012 - Amyloid beta-protein fibrillogenesis (kinetics of secondary structure conversion)"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1411568184,
+        "submitter" : "Audald Lloret i Villas",
+        "comment" : "Current version of Steckmann2012 - Amyloid beta-protein fibrillogenesis (kinetics of secondary structure conversion)"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1545413232,
+        "submitter" : "administrator",
+        "comment" : "Include the additional files provided by the submitter in the original submission: Steckmann2012 (F3).cps, Steckmann2012 (F4).cps, Steckmann2012 (F4).xml"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724280555,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285300,
+  "submissionId" : "MODEL1407300001",
+  "publicationId" : "BIOMD0000000533",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Audald Lloret i Villas",
+        "email" : "lloret@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0070841",
+      "name" : "inclusion body assembly",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0070841"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1407300001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1407300001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000533",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000533"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22586726",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22586726"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0034205",
+      "name" : "amyloid-beta formation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0034205"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

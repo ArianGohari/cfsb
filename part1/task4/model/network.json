@@ -1,0 +1,82 @@
+{
+  "scope": "published observations plus general interpretation framework",
+  "review_method": "LLM-assisted bounded curation",
+  "nodes": [
+    {
+      "id": "R-HSA-913531",
+      "label": "Humanes Interferon-Signalmodul",
+      "kind": "curated_pathway",
+      "taxon": 9606
+    },
+    {
+      "id": "T4:CACO2_PROTEOME",
+      "label": "Caco-2-Proteomikkontrast",
+      "kind": "published_observation",
+      "taxon": 9606
+    },
+    {
+      "id": "T4:CALU3_PROTEOME",
+      "label": "Calu-3-Proteomikkontrast",
+      "kind": "published_observation",
+      "taxon": 9606
+    },
+    {
+      "id": "T4:CACO2_TRANSCRIPT",
+      "label": "Caco-2-Transkriptmessung",
+      "kind": "published_observation",
+      "taxon": 9606
+    },
+    {
+      "id": "T4:IFN_FUNCTIONAL_GROUP",
+      "label": "IFN-bezogene Funktionsgruppe",
+      "kind": "functional_group",
+      "taxon": 9606
+    }
+  ],
+  "edges": [
+    {
+      "id": "T4E01",
+      "source": "R-HSA-913531",
+      "target": "T4:IFN_FUNCTIONAL_GROUP",
+      "relation": "interpretation_framework",
+      "evidence": "curated_human_pathway",
+      "reference": "https://reactome.org/content/detail/R-HSA-913531",
+      "context": "human_general",
+      "sign": "not_applicable",
+      "limit": "Keine Caco-2-spezifische Reaktion oder Aktivität belegt."
+    },
+    {
+      "id": "T4E02",
+      "source": "T4:CACO2_PROTEOME",
+      "target": "T4:IFN_FUNCTIONAL_GROUP",
+      "relation": "observed_altered_members",
+      "evidence": "published_proteomics",
+      "reference": "https://doi.org/10.1016/j.isci.2021.102420",
+      "context": "Caco-2; within-cell-line comparison",
+      "sign": "mixed",
+      "limit": "27/131 detektierte Mitglieder verändert; 25 erhöht, 2 erniedrigt. Keine Kausalkante."
+    },
+    {
+      "id": "T4E03",
+      "source": "T4:CALU3_PROTEOME",
+      "target": "T4:IFN_FUNCTIONAL_GROUP",
+      "relation": "observed_altered_members",
+      "evidence": "published_proteomics",
+      "reference": "https://doi.org/10.1016/j.isci.2021.102420",
+      "context": "Calu-3; within-cell-line comparison",
+      "sign": "mixed",
+      "limit": "105/129 detektierte Mitglieder verändert. Separater Zelllinienkontext."
+    },
+    {
+      "id": "T4E04",
+      "source": "T4:CACO2_TRANSCRIPT",
+      "target": "T4:IFN_FUNCTIONAL_GROUP",
+      "relation": "supports_functional_interpretation",
+      "evidence": "published_targeted_transcript_measurement",
+      "reference": "https://doi.org/10.1016/j.isci.2021.102420",
+      "context": "Caco-2; selected transcripts",
+      "sign": "not_applicable",
+      "limit": "Transkriptmessung ist keine Proteinmessung und validiert keine einzelne Signalkante."
+    }
+  ]
+}

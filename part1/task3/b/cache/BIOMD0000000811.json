@@ -1,0 +1,262 @@
+{
+  "name" : "He2017 - A mathematical model of pancreatic cancer with two kinds of treatments",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a mathematical model of pancreatic cancer which includes descriptions of regulatory T cell activity and inhibition therapy. Descriptions of cytokine induced killer immunotherapy are also included.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1142/S021833901750005X",
+    "journal" : "Journal of Biological Systems",
+    "title" : "A mathematical model of pancreatic cancer with two kinds of treatments",
+    "affiliation" : "Department of Mathematics, Zhejiang International Studies University, HangZhou, 310012, China",
+    "synopsis" : "In this paper, we investigate a mathematical model of pancreatic cancer, which extends the existing pancreatic cancer models with regulatory T cells (Tregs) and Treg inhibitory therapy. The model consists of tumor-immune interaction and immune suppression from Tregs. In the absence of treatments, we first characterize the system dynamics by locating equilibrium points and determining stability properties. Next, cytokine induced killer (CIK) immunotherapy is incorporated. Numerical simulations of prognostic results illustrate that the median overall survival associated with treatment can be prolonged approximately from 7 to 13 months, which is consistent with the clinical data. Furthermore, we consider cyclophosphamide (CTX) therapy as well as the combined therapy with CIK and CTX. Intensive simulation results suggest that both CTX therapy and the combined CIK/CTX therapy can reduce the number of Tregs and increase the overall survival (OS), but Tregs and tumor cells will gradually rise to equilibrium state as long as therapies are ceased.",
+    "year" : 2017,
+    "month" : "3",
+    "volume" : "25",
+    "issue" : "1",
+    "pages" : "83-104",
+    "link" : "http://identifiers.org/doi/10.1142/S021833901750005X",
+    "authors" : [
+      {
+        "name" : "He, D.-H.",
+        "institution" : "Department of Mathematics, Zhejiang International Studies University, HangZhou, 310012, China"
+      },
+      {
+        "name" : "Xu, J.-X.",
+        "institution" : "Department of Electrical and Computer Engineering, National University of Singapore, Singapore, 117576, Singapore"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "He2017.xml",
+        "description" : "SBML L2V4 Representation of He2017 - A mathematical model of pancreatic cancer with two kinds of treatments",
+        "fileSize" : "117278",
+        "mimeType" : "application/xml",
+        "md5sum" : "745b279c3afb3232a4e2685b1097501e",
+        "sha1sum" : "9effe1898193b55ab2ae0d57ec27bcd83db8010a",
+        "sha256sum" : "82d763af548854b377fb9a38452da27cc41b6b2c3f426825acc432a9992df318"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "He2017-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "30412",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "241a39e9de0d54d1fdca4f697e40a931",
+        "sha1sum" : "87cc8f787116ac807def6819ba54a2b450ceb69c",
+        "sha256sum" : "da12b9c7c94a0fe3c20687e659c4c0fe3706c32bcf99f7e286f475a42498b160"
+      },
+      {
+        "name" : "He2017-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "45873",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "04f458fb9862e2b9e8144dace515f961",
+        "sha1sum" : "99d820b0b62f609ca47ca7b85d0ab224f7d686e6",
+        "sha256sum" : "4f60b2ef2790a65ce71d6b4a2598a0d0bb0cd723b9e675d4f98fa6ee48d8dda2"
+      },
+      {
+        "name" : "He2017-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "15479",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e3065d4fd68efe65aff6592644d2f382",
+        "sha1sum" : "78d5a8539873814ab64ccf39247759bb466af83f",
+        "sha256sum" : "edc8eaacdfd3522f2536b8443cf56645ecf523677fd21c4bb6512a2a9ecd06e6"
+      },
+      {
+        "name" : "He2017-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "15479",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "d194998766dc361d86234d8894b0823c",
+        "sha1sum" : "65bc8c7396737e7bcecbfa0801e5032a21277f0b",
+        "sha256sum" : "1422b73a71271b6c9e53c3f74fd1734de777891bc46f659c610b7e1d7753cd6e"
+      },
+      {
+        "name" : "He2017.cps",
+        "description" : "COPASI file of He2017 - A mathematical model of pancreatic cancer with two kinds of treatments",
+        "fileSize" : "184321",
+        "mimeType" : "application/xml",
+        "md5sum" : "ae4fe3cda5807ecc50df9d9bc973bb78",
+        "sha1sum" : "6213ab71fe7f36e63ba11008b28b5ed0a090ab07",
+        "sha256sum" : "b9288bf23d19cd442220dfddb225cccec14b33542e3c19ef3bbcab4ba35f035e"
+      },
+      {
+        "name" : "He2017.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "13290",
+        "mimeType" : "text/plain",
+        "md5sum" : "ab2158c30984394369058f548cf730e4",
+        "sha1sum" : "0a707d5d5ebe495b3d661564d9726bec4c70562a",
+        "sha256sum" : "90400633ed7a416cdfb408645e8f1771da2d0a66f9e57f8b51cab516b22b8261"
+      },
+      {
+        "name" : "He2017.sedml",
+        "description" : "SED-ML file of He2017 - A mathematical model of pancreatic cancer with two kinds of treatments (additionally CRBM-validated and adjusted).",
+        "fileSize" : "50995",
+        "mimeType" : "application/xml",
+        "md5sum" : "e3fd60000dbc73ddad8fd353cd1bbf76",
+        "sha1sum" : "d7d0b0a7a057b1922343ebcf288dbab33f110fd9",
+        "sha256sum" : "9d29636c84025251efd1c7a5f445c71634381df5b785627aaad3a1e914092c95"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "16762",
+        "mimeType" : "image/png",
+        "md5sum" : "a5ed7727a0dea05459303735fa423ad1",
+        "sha1sum" : "56d7a19fed0870af3b4525d282f69d3f82ccfea2",
+        "sha256sum" : "ad10385b11bc15a3ed970f21e417e77a80f179dcb940bfbf64b39ffa5ed4a898"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "183",
+        "mimeType" : "text/plain",
+        "md5sum" : "2d6f2eacdaca7dc7c3be94cabc44a675",
+        "sha1sum" : "7ff31cf800eaee7187aedf136db32bb28d1e6482",
+        "sha256sum" : "f06d4df3585c387ab207412b4366d55455b475369215a0c97659df5ab4dfdae8"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1379",
+        "mimeType" : "application/xml",
+        "md5sum" : "a30e0a82aef287a9161dc374e303f16d",
+        "sha1sum" : "7bcdaf7dca723df0631b9abd277c145ceb3519d0",
+        "sha256sum" : "c627dd3e1eab9a941a4658c18f3d055673d5bbdbf6381dacefc7516487749ab8"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2372",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "5b5dc3212d4d24bfa4c49989484db32b",
+        "sha1sum" : "859e95e0e49662236c7203332967ac9279c487bd",
+        "sha256sum" : "f11a0050311813a884e8606c2fad61da6b309a214dc0e517a0927c3166d75cb9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1568288967,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000811"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1633440678,
+        "submitter" : "Rahuman S Malik-Sheriff",
+        "comment" : "Automatically added model identifier BIOMD0000000811"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1724290150,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285505,
+  "submissionId" : "MODEL1909120001",
+  "publicationId" : "BIOMD0000000811",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Rahuman S Malik-Sheriff",
+        "email" : "sheriff@ebi.ac.uk",
+        "affiliation" : "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+        "orcid" : "0000-0003-0705-9809",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "8186756",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8186756"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1142/S021833901750005X",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1142/S021833901750005X"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909120001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909120001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000811",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000811"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C71757",
+      "name" : "Cytokine-Induced Killer Cells",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C71757"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C36294",
+      "name" : "Neoplastic Growth or Spread",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C36294"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C3305",
+      "name" : "Pancreatic Neoplasm",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C3305"
+    }
+  ]
+}

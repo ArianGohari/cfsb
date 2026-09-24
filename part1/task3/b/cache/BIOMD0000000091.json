@@ -1,0 +1,338 @@
+{
+  "name" : "Proctor2005 - Actions of chaperones and their role in ageing",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Proctor2005 - Actions of chaperones and theirrole in ageing</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/15610770\" title=\"Access to this publication\">Modelling the actions of    chaperones and their role in ageing.</a>  </div>  <div class=\"bibo:authorList\">Proctor CJ, Soti C, Boys RJ,  Gillespie CS, Shanley DP, Wilkinson DJ, Kirkwood TB.</div>  <div class=\"bibo:Journal\">Mech. Ageing Dev. 2005 Jan; 126(1):  119-131</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>Many molecular chaperones are also known as heat shock    proteins because they are synthesised in increased amounts    after brief exposure of cells to elevated temperatures. They    have many cellular functions and are involved in the folding of    nascent proteins, the re-folding of denatured proteins, the    prevention of protein aggregation, and assisting the targeting    of proteins for degradation by the proteasome and lysosomes.    They also have a role in apoptosis and are involved in    modulating signals for immune and inflammatory responses.    Stress-induced transcription of heat shock proteins requires    the activation of heat shock factor (HSF). Under normal    conditions, HSF is bound to heat shock proteins resulting in    feedback repression. During stress, cellular proteins undergo    denaturation and sequester heat shock proteins bound to HSF,    which is then able to become transcriptionally active. The    induction of heat shock proteins is impaired with age and there    is also a decline in chaperone function. Aberrant/damaged    proteins accumulate with age and are implicated in several    important age-related conditions (e.g. Alzheimer's disease,    Parkinson's disease, and cataract). Therefore, the balance    between damaged proteins and available free chaperones may be    greatly disturbed during ageing. We have developed a    mathematical model to describe the heat shock system. The aim    of the model is two-fold: to explore the heat shock system and    its implications in ageing; and to demonstrate how to build a    model of a biological system using our simulation system    (biology of ageing e-science integration and simulation    (BASIS)).</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000091\">BIOMD0000000091</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15610770",
+    "journal" : "Mechanisms of ageing and development",
+    "title" : "Modelling the actions of chaperones and their role in ageing.",
+    "affiliation" : "Henry Wellcome Laboratory for Biogerontology Research, School of Clinical and Medical Sciences-Gerontology, University of Newcastle, Newcastle upon Tyne NE4 6BE, UK. c.j.proctor@ncl.ac.uk",
+    "synopsis" : "Many molecular chaperones are also known as heat shock proteins because they are synthesised in increased amounts after brief exposure of cells to elevated temperatures. They have many cellular functions and are involved in the folding of nascent proteins, the re-folding of denatured proteins, the prevention of protein aggregation, and assisting the targeting of proteins for degradation by the proteasome and lysosomes. They also have a role in apoptosis and are involved in modulating signals for immune and inflammatory responses. Stress-induced transcription of heat shock proteins requires the activation of heat shock factor (HSF). Under normal conditions, HSF is bound to heat shock proteins resulting in feedback repression. During stress, cellular proteins undergo denaturation and sequester heat shock proteins bound to HSF, which is then able to become transcriptionally active. The induction of heat shock proteins is impaired with age and there is also a decline in chaperone function. Aberrant/damaged proteins accumulate with age and are implicated in several important age-related conditions (e.g. Alzheimer's disease, Parkinson's disease, and cataract). Therefore, the balance between damaged proteins and available free chaperones may be greatly disturbed during ageing. We have developed a mathematical model to describe the heat shock system. The aim of the model is two-fold: to explore the heat shock system and its implications in ageing; and to demonstrate how to build a model of a biological system using our simulation system (biology of ageing e-science integration and simulation (BASIS)).",
+    "year" : 2005,
+    "month" : "1",
+    "volume" : "126",
+    "issue" : "1",
+    "pages" : "119-131",
+    "link" : "http://identifiers.org/pubmed/15610770",
+    "authors" : [
+      {
+        "name" : "Carole J Proctor",
+        "institution" : "Institute of Cellular Medicine, Ageing Research Laboratories, Campus for Ageing and Vitality, Newcastle University, Newcastle upon Tyne, United Kingdom.MRC/Arthritis Research UK Centre for Musculoskeletal Ageing (CIMA), United Kingdom.",
+        "orcid" : "0000-0002-1366-1399"
+      },
+      {
+        "name" : "Csaba Soti",
+        "orcid" : "0000-0002-4057-7678"
+      },
+      {
+        "name" : "Richard J Boys"
+      },
+      {
+        "name" : "Colin S Gillespie",
+        "orcid" : "0000-0003-1787-0275"
+      },
+      {
+        "name" : "Daryl P Shanley",
+        "orcid" : "0000-0003-3096-6386"
+      },
+      {
+        "name" : "Darren J Wilkinson",
+        "orcid" : "0000-0003-0736-802X"
+      },
+      {
+        "name" : "Thomas B L Kirkwood"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000091_url.xml",
+        "description" : "SBML L2V1 representation of Proctor2005 - Actions of chaperones and their role in ageing",
+        "fileSize" : "41406",
+        "mimeType" : "application/xml",
+        "md5sum" : "cdbda4b01235370a741abaf772e55adb",
+        "sha1sum" : "7a3c8ecfe82e0b4e4530efa0e430cdbf46f69423",
+        "sha256sum" : "fa74662a10712d9ae7b66734ca8e5250e16a250fde2b7b61bafa7eddcf6aa6c7"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000091-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "43894",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "7dfd7bc0930568ca381b402b7fb48073",
+        "sha1sum" : "e611ef97cf1ce0a49bcea07314f5adc54d4be7a4",
+        "sha256sum" : "ba7a1fd8d7f12ff39797bc471eeea44241aebd6909b8b8dbaa2dc30596a245ca"
+      },
+      {
+        "name" : "BIOMD0000000091-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "71084",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "34ef79deb70034a5fdd94937194013b2",
+        "sha1sum" : "c327383d574cd1e1a0c673d73c62d9821c43cbd5",
+        "sha256sum" : "64f9476cab4eddfb37ff527ed5308bcdf7a8856073318d0e0381144cee83c569"
+      },
+      {
+        "name" : "BIOMD0000000091-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9692",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6f7ebf05522e4ff5dd238a01a2e4261e",
+        "sha1sum" : "eaf327bf71365e43cde12dd5dc29b8d7d81e252b",
+        "sha256sum" : "20d5b5c4eabe1fe41948c24b25ddbcc21870b441a69b06cf846eba54cb149cf8"
+      },
+      {
+        "name" : "BIOMD0000000091-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "9692",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0d764e5e43f95bccc7efa507d61f22fe",
+        "sha1sum" : "d73fe5ab05dcadf43ccb8d3083337c6e73c7ea77",
+        "sha256sum" : "35329acbc008e4f0460e9a0874e402dbd3292765d70354e950b78df56996458f"
+      },
+      {
+        "name" : "BIOMD0000000091.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9692",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0d764e5e43f95bccc7efa507d61f22fe",
+        "sha1sum" : "d73fe5ab05dcadf43ccb8d3083337c6e73c7ea77",
+        "sha256sum" : "35329acbc008e4f0460e9a0874e402dbd3292765d70354e950b78df56996458f"
+      },
+      {
+        "name" : "BIOMD0000000091.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "6664",
+        "mimeType" : "text/plain",
+        "md5sum" : "300725ee505f664630e8e6ae8dafd458",
+        "sha1sum" : "3862eaf8164ffb2daf6a129f8bab1e58795fb884",
+        "sha256sum" : "40dc4d015b42dd44ef814a2322277e35a6c84315f94a6af3d96ea430cd0fb1f1"
+      },
+      {
+        "name" : "BIOMD0000000091.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "231629",
+        "mimeType" : "application/pdf",
+        "md5sum" : "76b40d3108e739b0ba3654f351c29a72",
+        "sha1sum" : "9a2143e10a54ab737354d9fb3914ab449beb8b10",
+        "sha256sum" : "4f4987268abb3f82abb8b438bc30d30cfe0f0ce6fb36f3b8c8b9dd0a988855b1"
+      },
+      {
+        "name" : "BIOMD0000000091.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "193569",
+        "mimeType" : "image/png",
+        "md5sum" : "0ef352a716c51ca9a0a13ba715f044f0",
+        "sha1sum" : "fae757f71dcf3ce294958acc7e2b4f7f63573cf7",
+        "sha256sum" : "717a788401ded3928ddaf1bef29f3ef110175c3d12b0ef361cca838e7c9ed950"
+      },
+      {
+        "name" : "BIOMD0000000091.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "5101",
+        "mimeType" : "text/plain",
+        "md5sum" : "2d1ffcd6928c2dd4943d7b9b2ff3c4d6",
+        "sha1sum" : "85423feb813d5f83b923c6139bcef9ba0d9bbde9",
+        "sha256sum" : "749373755bf8149ecadce1684a13a792f7d344159439f09c8c83be549c5a12f5"
+      },
+      {
+        "name" : "BIOMD0000000091.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "53669",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "f051ff03b42e53f7441c81121530acfa",
+        "sha1sum" : "3d8b6d8b1cffdbad4eb02326601ea53cf7c6234c",
+        "sha256sum" : "8b4a13ce982f195f8376cb2a9519d8c1358ba1e3779667041ba0bed12ff69502"
+      },
+      {
+        "name" : "BIOMD0000000091.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "62458",
+        "mimeType" : "application/xml",
+        "md5sum" : "b778d60d8538ad8dcc3e863eca2ab0a0",
+        "sha1sum" : "3a8e85c656eaeca0bc555441339fbb2443b4868a",
+        "sha256sum" : "0fb0a41e03eb80723dcbdd1742a89d7fdbf56861c4c25eafe22e390d42980861"
+      },
+      {
+        "name" : "BIOMD0000000091_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "36296",
+        "mimeType" : "application/xml",
+        "md5sum" : "ff8f41cfcaa51572c95edf9f42ac1535",
+        "sha1sum" : "12a6398050b93e37b8f9b7abb0d53cf8bcb1e375",
+        "sha256sum" : "a13d8e1118484f2eb9b87657756df56c120572d97fe02796cb42e68058efd49a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "21314",
+        "mimeType" : "image/png",
+        "md5sum" : "59defc433c13cdede19604dbfde3ea6f",
+        "sha1sum" : "1ccc3a285fa22544d462b3923933a3b4bb1ec0a9",
+        "sha256sum" : "393fb6b34ef8308e25c1d6e907b534e33f1bc5bf16670aae507f236085939a0f"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "43",
+        "mimeType" : "text/plain",
+        "md5sum" : "ca3e1c52b94f32b3bbacadbdec968ac8",
+        "sha1sum" : "81d6f79c563855e4eb4ebc16e891bf7b897ea6b8",
+        "sha256sum" : "6b8c81fe4c82f8ac79006281c076b6ab2032cfbc243a9544ff7285da81487982"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "f9cee4850e9628f8c9fad65d7cd8df78",
+        "sha1sum" : "a43612d02edb70f1358883c3391b287d3f469748",
+        "sha256sum" : "053e53ffbb40d7195e483c580ee70c42cd5268b381482fe5805157400c8938e3"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5461",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "72fa3f46581b18413dc7930c60c6e919",
+        "sha1sum" : "b50747ea313d8e72903c303012ecfb4b7ec5e842",
+        "sha256sum" : "c1df6cf607537cf5602d13f852b4c26e9916c55ad9f920d479249901a29ece6e"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1173382151,
+        "submitter" : "Carole Proctor",
+        "comment" : "Original import of Hsp90model_basis510"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401831521,
+        "submitter" : "Carole Proctor",
+        "comment" : "Current version of Proctor2005 - Actions of chaperones and their role in ageing"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267169,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284874,
+  "submissionId" : "MODEL2223638385",
+  "publicationId" : "BIOMD0000000091",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Carole Proctor",
+        "email" : "c.j.proctor@ncl.ac.uk",
+        "affiliation" : "University of Newcastle",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL2223638385",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL2223638385"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000091",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000091"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15610770",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15610770"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007569",
+      "name" : "cell aging",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007569"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0051085",
+      "name" : "chaperone mediated protein folding requiring cofactor",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051085"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0009408",
+      "name" : "response to heat",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0009408"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:10652",
+      "name" : "Alzheimer's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:10652"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:83",
+      "name" : "cataract",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:83"
+    },
+    {
+      "qualifier" : "bqbiol:hasVersion",
+      "accession" : "DOID:14330",
+      "name" : "Parkinson's disease",
+      "resource" : "Human Disease Ontology",
+      "uri" : "http://identifiers.org/doid/DOID:14330"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

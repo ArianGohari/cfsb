@@ -1,0 +1,275 @@
+{
+  "name" : "Abell2011_CalciumSignaling_WithAdaptation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model is from the article:      <br />        <strong>Parallel adaptive feedback enhances reliability of the Ca2+ signaling system.</strong>        <br />          Abell E, Ahrends R, Bandara S, Park BO, Teruel MN.      <em>Proc Natl Acad Sci U S A.</em>          2011 Aug 15.      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/21844332\">21844332</a>          ,      <br />        <strong>Abstract:</strong>        <br />          Despite large cell-to-cell variations in the concentrations of individual signaling proteins, cells transmit signals correctly. This phenomenon raises the question of what signaling systems do to prevent a predicted high failure rate. Here we combine quantitative modeling, RNA interference, and targeted selective reaction monitoring (SRM) mass spectrometry, and we show for the ubiquitous and fundamental calcium signaling system that cells monitor cytosolic and endoplasmic reticulum (ER) Ca(2+) levels and adjust in parallel the concentrations of the store-operated Ca(2+) influx mediator stromal interaction molecule (STIM), the plasma membrane Ca(2+) pump plasma membrane Ca-ATPase (PMCA), and the ER Ca(2+) pump sarco/ER Ca(2+)-ATPase (SERCA). Model calculations show that this combined parallel regulation in protein expression levels effectively stabilizes basal cytosolic and ER Ca(2+) levels and preserves receptor signaling. Our results demonstrate that, rather than directly controlling the relative level of signaling proteins in a forward regulation strategy, cells prevent transmission failure by sensing the state of the signaling pathway and using multiple parallel adaptive feedbacks.      </p>      <p>        <b>Note:</b>      </p>      <p>There are two models described in the paper to simulate basal and receptor stimulated Ca      <sup>2+</sup>          signaling. 1) No adaptive feedback (MODEL1108050000) and 2) with three slow adaptive feedback loops (this model: MODEL1108050001).      </p>  </body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "21844332",
+    "journal" : "Proceedings of the National Academy of Sciences of the United States of America",
+    "title" : "Parallel adaptive feedback enhances reliability of the Ca2+ signaling system.",
+    "affiliation" : "Department of Chemical and Systems Biology, Stanford University, Stanford, CA 94305, USA.",
+    "synopsis" : "Despite large cell-to-cell variations in the concentrations of individual signaling proteins, cells transmit signals correctly. This phenomenon raises the question of what signaling systems do to prevent a predicted high failure rate. Here we combine quantitative modeling, RNA interference, and targeted selective reaction monitoring (SRM) mass spectrometry, and we show for the ubiquitous and fundamental calcium signaling system that cells monitor cytosolic and endoplasmic reticulum (ER) Ca(2+) levels and adjust in parallel the concentrations of the store-operated Ca(2+) influx mediator stromal interaction molecule (STIM), the plasma membrane Ca(2+) pump plasma membrane Ca-ATPase (PMCA), and the ER Ca(2+) pump sarco/ER Ca(2+)-ATPase (SERCA). Model calculations show that this combined parallel regulation in protein expression levels effectively stabilizes basal cytosolic and ER Ca(2+) levels and preserves receptor signaling. Our results demonstrate that, rather than directly controlling the relative level of signaling proteins in a forward regulation strategy, cells prevent transmission failure by sensing the state of the signaling pathway and using multiple parallel adaptive feedbacks.",
+    "year" : 2011,
+    "month" : "8",
+    "volume" : "108",
+    "issue" : "35",
+    "pages" : "14485-14490",
+    "link" : "http://identifiers.org/pubmed/21844332",
+    "authors" : [
+      {
+        "name" : "Ellen Abell",
+        "institution" : "Department of Chemical and Systems Biology, Stanford University, Stanford, CA 94305, USA."
+      },
+      {
+        "name" : "Robert Ahrends"
+      },
+      {
+        "name" : "Samuel Bandara"
+      },
+      {
+        "name" : "Byung Ouk Park"
+      },
+      {
+        "name" : "Mary N Teruel",
+        "orcid" : "0000-0002-2854-3598"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000355_url.xml",
+        "description" : "SBML L2V4 representation of Abell2011_CalciumSignaling_WithAdaptation",
+        "fileSize" : "47611",
+        "mimeType" : "application/xml",
+        "md5sum" : "3674b64cb761b15b7c1defba749e0b49",
+        "sha1sum" : "5ce7bf7beddc2ef47c3838807913f88cb081ae75",
+        "sha256sum" : "377630a5c70d520e1fe999ed1e94c2aa1b9fe1c42cf167799ed014808b7069ca"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000355-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "28438",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3c8f79a9a9ac2de06c14882769040d63",
+        "sha1sum" : "f23dac0a44d79519b59164ae61027e6dd756de90",
+        "sha256sum" : "33d62b34d5f0a5cd5d2ee0ad7639cc2f98926da2e2c2de3d873ba6a9ab67d341"
+      },
+      {
+        "name" : "BIOMD0000000355-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "41319",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "98b5a8197c8b3b4ca576e828518204d5",
+        "sha1sum" : "8956345ac184eac1a5d4f337e7e45672105957f3",
+        "sha256sum" : "b7a463f18603a2bc9fa9f8335701e5b4b4345a9ab1531da63b599d91686591fb"
+      },
+      {
+        "name" : "BIOMD0000000355-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "11314",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2f84672098cce600531d0a2edee88e97",
+        "sha1sum" : "05ed87a8bbbb75376916a1f96f8ef18a25194f62",
+        "sha256sum" : "98302184633e2975fad3d28222a678690a98b05fc7e601f9fae59f86eb1a6a79"
+      },
+      {
+        "name" : "BIOMD0000000355.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "11314",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "809e054b673c78d628bc6956466e7839",
+        "sha1sum" : "65e2b1da7cdd9746210343e6f1adfb4efbb63da9",
+        "sha256sum" : "d697f14a577a2fd4df2f726a139ba102fe380403e94aea35d2c905f4cc569f1e"
+      },
+      {
+        "name" : "BIOMD0000000355.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7063",
+        "mimeType" : "text/plain",
+        "md5sum" : "2d65bacf416548743c40bddebf0fe601",
+        "sha1sum" : "5c399932a507628df25086bbf0e7eaaf8aa280a9",
+        "sha256sum" : "140d7086230fd4d90bb130930fcc378b037e4d14a62b243f58927641d848d890"
+      },
+      {
+        "name" : "BIOMD0000000355.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "229855",
+        "mimeType" : "application/pdf",
+        "md5sum" : "7415224b4c959c0cdd5a7ee1ecb72a98",
+        "sha1sum" : "07ec731dad54057db94946b8f47a4386c6506162",
+        "sha256sum" : "699fd06c4bab6741dd28f3ce6a7a4de6c83428e4e70dd7f9d49bdd1691ca1d40"
+      },
+      {
+        "name" : "BIOMD0000000355.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "135662",
+        "mimeType" : "image/png",
+        "md5sum" : "cfdc4296fc2ce1c9fc8a94b66843e314",
+        "sha1sum" : "51792d7c34837cec22e1aa08d4f7a459ed1ff468",
+        "sha256sum" : "f6292c4a0e753e2dc53ed8dd529fecd4302abed004a48e5067cc66c82e9a6924"
+      },
+      {
+        "name" : "BIOMD0000000355.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "7966",
+        "mimeType" : "text/plain",
+        "md5sum" : "22b4a4d00da00b509240817f2391916a",
+        "sha1sum" : "ca783340074e4e6cb311ce55e62d5e0173d93675",
+        "sha256sum" : "9730fa3d9b91b2694b3c9b3c4106898a330b6844bff3700c39cba0d6a6afecf6"
+      },
+      {
+        "name" : "BIOMD0000000355.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "45621",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "00ee10dfc98727dd8da44a54c314bac9",
+        "sha1sum" : "87e895e32acac3fba9765a1acb1065fa19507cfc",
+        "sha256sum" : "18522d4c230eacc9b8573f37c9ff9c208724a23e2ccb3a2daa6cfaad6eeb7cee"
+      },
+      {
+        "name" : "BIOMD0000000355_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "36821",
+        "mimeType" : "application/xml",
+        "md5sum" : "39418323dbae501073e6cc983528ef7e",
+        "sha1sum" : "b758c1928c0b12443c57e17cac59c41e9d346c07",
+        "sha256sum" : "58276315303c7a54129e6dfca8d1207186dda7b0026a110749cefd422f4a62b7"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "59729",
+        "mimeType" : "image/png",
+        "md5sum" : "6e4d28c3d2d88fed1364a6ada1026a9c",
+        "sha1sum" : "189f099848a34160efcd34d2e5001fa4b7ab7106",
+        "sha256sum" : "0e284c9b03e97437c6b84b2dd7a50b85d3e8d2080260f91cabec89d4a1fdfe02"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "955",
+        "mimeType" : "text/plain",
+        "md5sum" : "4e010692ef9cf68a527b0e6aa9c305bb",
+        "sha1sum" : "2382f98b5df5e52a53d1879fb6273841a47a2af5",
+        "sha256sum" : "2217b1f7482f04e5734f879007bf98f84ae9395c600720fb5cfe838513cf28b4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1792",
+        "mimeType" : "application/xml",
+        "md5sum" : "697d61574fbd033b249195ce93828bbe",
+        "sha1sum" : "b7e6f05a18295b7fbc09ca8cacc808f6f5254864",
+        "sha256sum" : "3c28d461c3806e0c0dd29c776e60fa96e7a6ef2cd8a9e3918e82ec3330689354"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3884",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "76e493b7574139a9f3c7b0e040b727ae",
+        "sha1sum" : "914ba11aaa5c831096a543000ac14526cc05977e",
+        "sha256sum" : "73a4bb1d4b37ce9b93b54bef28e4806e9445008a1b57f2d5b9c9c71f2d0bc2a0"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1312510688,
+        "submitter" : "Samuel Bandara",
+        "comment" : "Original import of Abell2010_SOC_Calcium_With_Adaptation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1315487037,
+        "submitter" : "Samuel Bandara",
+        "comment" : "Current version of Abell2011_CalciumSignaling_WithAdaptation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274480,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285073,
+  "submissionId" : "MODEL1108050001",
+  "publicationId" : "BIOMD0000000355",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Samuel Bandara",
+        "email" : "sbandara@stanford.edu",
+        "affiliation" : "Stanford University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108050001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108050001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000355",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000355"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "21844332",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/21844332"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "7215",
+      "name" : "Drosophila",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/7215"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "name" : "Hanson2016 - Toxicity Management in CAR T cell therapy for B-ALL",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This model provides an in silico mathematical platform to explore the interactions between chimeric antigen receptor-modified T cells, inflammatory toxicitiy, and the tumour burdens of individual patients.</pre>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "DOI",
+    "accession" : "10.1101/049908",
+    "journal" : "Preprint",
+    "title" : "Toxicity Management in CAR T cell therapy for B-ALL: Mathematical modelling as a new avenue for improvement",
+    "affiliation" : "Department of Mathematics, Duke University, Durham, NC, USA",
+    "synopsis" : "Advances in genetic engineering have made it possible to reprogram individual immune cells to express receptors that recognise markers on tumour cell surfaces. The process of re-engineering T cell lymphocytes to express Chimeric Antigen Receptors (CARs), and then re-infusing the CAR-modified T cells into patients to treat various cancers is referred to as CAR T cell therapy. This therapy is being explored in clinical trials - most prominently for B Cell Acute Lymphoblastic Leukaemia (B-ALL), a common B cell malignancy, for which CAR T cell therapy has led to remission in up to 90% of patients. Despite this extraordinary response rate, however, potentially fatal inflammatory side effects occur in up to 10% of patients who have positive responses. Further, approximately 50% of patients who initially respond to the therapy relapse. Significant improvement is thus necessary before the therapy can be made widely available for use in the clinic.\r\n\r\nTo inform future development, we develop a mathematical model to explore interactions between CAR T cells, inflammatory toxicity, and individual patients’ tumour burdens in silico. This paper outlines the underlying system of coupled ordinary differential equations designed based on well-known immunological principles and widely accepted views on the mechanism of toxicity development in CAR T cell therapy for B-ALL - and reports in silico outcomes in relationship to standard and recently conjectured predictors of toxicity in a heterogeneous, randomly generated patient population. Our initial results and analyses are consistent with and connect immunological mechanisms to the clinically observed, counterintuitive hypothesis that initial tumour burden is a stronger predictor of toxicity than is the dose of CAR T cells administered to patients.\r\n\r\nWe outline how the mechanism of action in CAR T cell therapy can give rise to such non-standard trends in toxicity development, and demonstrate the utility of mathematical modelling in understanding the relationship between predictors of toxicity, mechanism of action, and patient outcomes.",
+    "year" : 2016,
+    "month" : "4",
+    "link" : "http://identifiers.org/doi/10.1101/049908",
+    "authors" : [
+      {
+        "name" : "Shalla Hanson"
+      },
+      {
+        "name" : "David Robert Grimes"
+      },
+      {
+        "name" : "Jake P. Taylor-King"
+      },
+      {
+        "name" : "Pravnam I. Warman"
+      },
+      {
+        "name" : "Ziv Frankenstein"
+      },
+      {
+        "name" : "Artem Kaznatcheev"
+      },
+      {
+        "name" : "Michael J. Bonassar"
+      },
+      {
+        "name" : "Vincent L. Cannataro"
+      },
+      {
+        "name" : "Zeinab Y. Motawe"
+      },
+      {
+        "name" : "Ernesto A. B. F. Lima"
+      },
+      {
+        "name" : "Sungjune Kim"
+      },
+      {
+        "name" : "Marco L. Davila"
+      },
+      {
+        "name" : "Arturo Araujo"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Hanson2016.xml",
+        "description" : "SBML L2V4 Representation of Hanson2016 - Toxicity Management in CAR T cell therapy for B-ALL",
+        "fileSize" : "79015",
+        "mimeType" : "application/xml",
+        "md5sum" : "53a99b927d119f25326913e3269c54d6",
+        "sha1sum" : "255b171efbda4bc7d0cf6675ab198f0acff97c77",
+        "sha256sum" : "795b9971206b1fb6b047468458da30e18174aac6891bc0b73d380234f92537d5"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Hanson2016-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "21082",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "3def71eb2cf792a3aef8b636b6fd4e74",
+        "sha1sum" : "ddb8a409d4a7fb6853c2de2cb72a56ffaf5ca895",
+        "sha256sum" : "00ef9261f4343aff22d52579a5f42941a3c356895be2b910619aa357605a519c"
+      },
+      {
+        "name" : "Hanson2016-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "30558",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c62b59496c2ae850b73144984834c352",
+        "sha1sum" : "6d9ce0b29bdb0b269eda933fa82edf8fb8185f00",
+        "sha256sum" : "2385155f204559c27861eb9b6b33cb6756d1fc72fc06e5c0fd47369fde1bde0a"
+      },
+      {
+        "name" : "Hanson2016-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10049",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1cdb54779c070d2c1db55eebf9227649",
+        "sha1sum" : "57be393e73198a456cf6727870eb8efd056e4f16",
+        "sha256sum" : "dcd0dfba665669186457316d8ec2d55191a9417b9b1598ed6618cb3136b02f7f"
+      },
+      {
+        "name" : "Hanson2016.cps",
+        "description" : "COPASI file of Hanson2016 - Toxicity Management in CAR T cell therapy for B-ALL",
+        "fileSize" : "117689",
+        "mimeType" : "application/xml",
+        "md5sum" : "29b1fa5eb605fcbe41f3432c7f78abfd",
+        "sha1sum" : "165331d61853b456229fba5115f8f12a4d724161",
+        "sha256sum" : "b43c05ab8a6e3d2bc54bc523896097b51de1551abf3f296ad7f311323ab83fc3"
+      },
+      {
+        "name" : "Hanson2016.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7903",
+        "mimeType" : "text/plain",
+        "md5sum" : "db65f4b7b031d86b65a27940385124d4",
+        "sha1sum" : "fc68abd80ba599e70044388d77ac24e6a890a4ee",
+        "sha256sum" : "41a7c680a918fafd260ffcf68c8039dee30edd729fd2a8792c3f0b1a65d90b82"
+      },
+      {
+        "name" : "Hanson2016.sedml",
+        "description" : "SED-ML file of Hanson2016 - Toxicity Management in CAR T cell therapy for B-ALL (additionally CRBM-validated and adjusted).",
+        "fileSize" : "29640",
+        "mimeType" : "application/xml",
+        "md5sum" : "3b3567dd4118f0bbabd1d83147184508",
+        "sha1sum" : "906f5cbbb9dec30d63abd38f8480fedf4f945cfc",
+        "sha256sum" : "20ac62d29d0d04e33191d7d5320ab6af2627239f53f43c31eca92b9fedc6c9f1"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "54425",
+        "mimeType" : "image/png",
+        "md5sum" : "4476d58fc6a395381f369d686ab66824",
+        "sha1sum" : "791d245cc74163832f7985350550afa8babbf957",
+        "sha256sum" : "54c8f661f33393abbde5b178fa4b80607cf3340b6ee563671fb6d7925a6aaabf"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "125",
+        "mimeType" : "text/plain",
+        "md5sum" : "fe13965f3ad9f74fd83a519815258a12",
+        "sha1sum" : "7d9ea2fae17e743297ba14aab23e77a1440be12e",
+        "sha256sum" : "ab07b436592ff315ac87d331557ec4d1e47559c3bb65bfe3841b4864a5a62c94"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1297",
+        "mimeType" : "application/xml",
+        "md5sum" : "726e20f12b09acafb9809a10c0c7d090",
+        "sha1sum" : "1c4e32e781a9bacae29708cf311cd8fb2cea099e",
+        "sha256sum" : "0e6cba28c03406f0b392db041ef3511bcf9856f680a393fe48502a8698f0d06c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "2069",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d6695820b2f462b03d96d173b802c89d",
+        "sha1sum" : "907ff2e7348ccf990570820cc931b24f47131b32",
+        "sha256sum" : "85246836e3f6105a25bca13886f8664a0d811d11d3aaadf25dccdf5a4b6d1be5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1571999989,
+        "submitter" : "Johannes Meyer",
+        "comment" : "Automatically added model identifier BIOMD0000000837"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724290908,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285509,
+  "submissionId" : "MODEL1910250001",
+  "publicationId" : "BIOMD0000000837",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "modelTags" : [
+    "Immuno-oncology"
+  ],
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Johannes Meyer",
+        "email" : "johannes.p.meyer@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "10.1101/049908",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1101/049908"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000837",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000837"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1910250001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1910250001"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C126102",
+      "name" : "Chimeric Antigen Receptor T-Cell Therapy",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C126102"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "NCIT:C8644",
+      "name" : "B Acute Lymphoblastic Leukemia",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C8644"
+    }
+  ]
+}

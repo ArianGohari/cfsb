@@ -1,0 +1,306 @@
+{
+  "name" : "Marhl2000_CaOscillations",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>In order to reproduce the model, the volume of all compartment is set to 1, and the stoichiometry of CaER and CaM has been set to 0.25, corresponding to betaER/rhoER and betaM/rhoM described in the paper.</p>        <br />        <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>      <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>      <br />      <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>  </p></body></notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "11004387",
+    "journal" : "Bio Systems",
+    "title" : "Complex calcium oscillations and the role of mitochondria and cytosolic proteins.",
+    "affiliation" : "Department of Physics, Faculty of Education, University of Maribor, Koroska cesta 160, SI-2000, Maribor, Slovenia. marko.marhl@uni-mb.si",
+    "synopsis" : "Intracellular calcium oscillations, which are oscillatory changes of cytosolic calcium concentration in response to agonist stimulation, are experimentally well observed in various living cells. Simple calcium oscillations represent the most common pattern and many mathematical models have been published to describe this type of oscillation. On the other hand, relatively few theoretical studies have been proposed to give an explanation of complex intracellular calcium oscillations, such as bursting and chaos. In this paper, we develop a new possible mechanism for complex calcium oscillations based on the interplay between three calcium stores in the cell: the endoplasmic reticulum (ER), mitochondria and cytosolic proteins. The majority ( approximately 80%) of calcium released from the ER is first very quickly sequestered by mitochondria. Afterwards, a much slower release of calcium from the mitochondria serves as the calcium supply for the intermediate calcium exchanges between the ER and the cytosolic proteins causing bursting calcium oscillations. Depending on the permeability of the ER channels and on the kinetic properties of calcium binding to the cytosolic proteins, different patterns of complex calcium oscillations appear. With our model, we are able to explain simple calcium oscillations, bursting and chaos. Chaos is also observed for calcium oscillations in the bursting mode.",
+    "year" : 2000,
+    "month" : "7",
+    "volume" : "57",
+    "issue" : "2",
+    "pages" : "75-86",
+    "link" : "http://identifiers.org/pubmed/11004387",
+    "authors" : [
+      {
+        "name" : "M Marhl",
+        "institution" : "Department of Physics, Faculty of Education, University of Maribor, Koroska cesta 160, SI-2000, Maribor, Slovenia. marko.marhl@uni-mb.si"
+      },
+      {
+        "name" : "T Haberichter"
+      },
+      {
+        "name" : "M Brumen"
+      },
+      {
+        "name" : "R Heinrich"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000039_url.xml",
+        "description" : "SBML L2V1 representation of Marhl2000_CaOscillations",
+        "fileSize" : "21681",
+        "mimeType" : "application/xml",
+        "md5sum" : "2679666208c6f8718cc0c80652e2b200",
+        "sha1sum" : "a631a54067d8f45d24c6b579dbbd441c6d938b15",
+        "sha256sum" : "6b221222be03747b11454cc4f2a6218697d9c6367d3578a170c7cc5c34ad3b12"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000039-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "17499",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "1830c2210fdeb8b252756852a2453881",
+        "sha1sum" : "50b0ebed3c454815977d17fb196c28359e154b57",
+        "sha256sum" : "51632b3c64289dc5bd620df746b3418f7aeb975fd085488796bbaf69abd646c5"
+      },
+      {
+        "name" : "BIOMD0000000039-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "24305",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c2db3a016a7621565d1256c07517a5b9",
+        "sha1sum" : "74e3157e4ec55d1a134ed4e4c28c9313684d44e1",
+        "sha256sum" : "272aa28eb5b7fabb9e27360d5368435d4e2735b18e17ce1294cd4c11eec8a9aa"
+      },
+      {
+        "name" : "BIOMD0000000039-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5161",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f8b534520454e6af31c2b36eb643051b",
+        "sha1sum" : "7cc998aa20451286e601add55d5c44282201f14e",
+        "sha256sum" : "fd511298ba74098b7f58e84d4e3edccfd23975b646b7bf8e54a09dc0a495fd09"
+      },
+      {
+        "name" : "BIOMD0000000039-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5161",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6161a9f7e53096ff796bcf3b4f7aa8e9",
+        "sha1sum" : "2925215b1d00585e36b09e3002b6f2d3c84ddd97",
+        "sha256sum" : "236f5993d488df3287a7832ef6a4d306465a9e7197f12731a8fb614b09754222"
+      },
+      {
+        "name" : "BIOMD0000000039.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5161",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "6161a9f7e53096ff796bcf3b4f7aa8e9",
+        "sha1sum" : "2925215b1d00585e36b09e3002b6f2d3c84ddd97",
+        "sha256sum" : "236f5993d488df3287a7832ef6a4d306465a9e7197f12731a8fb614b09754222"
+      },
+      {
+        "name" : "BIOMD0000000039.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "2948",
+        "mimeType" : "text/plain",
+        "md5sum" : "033ac0c4b2bb9c6687629cc1336fb58e",
+        "sha1sum" : "e031f93b48b5205c61c09132c814b813e57eda3c",
+        "sha256sum" : "d89cf13b6d814f3654b490cc54123f66e101d3420b600a0f45510400a748d83a"
+      },
+      {
+        "name" : "BIOMD0000000039.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "171352",
+        "mimeType" : "application/pdf",
+        "md5sum" : "da0c7fbafa9a2a9c7213676ebf2b9d9e",
+        "sha1sum" : "cc2ebd0f658fded8758d5a3916179d56397a50da",
+        "sha256sum" : "cc7c5e74ccdc8fe7206dc888bfde916855d473eb4d884219f5e36dc13ba8ee02"
+      },
+      {
+        "name" : "BIOMD0000000039.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "48867",
+        "mimeType" : "image/png",
+        "md5sum" : "2521cbc18fc1d0a81cefe676ced64f86",
+        "sha1sum" : "e589cd1806a64055d47d74cdaa225548a0ed6f29",
+        "sha256sum" : "a537fe8a69afaf3f1f07eb7ef96be7ecb652cb5179604bdc597b7377757be61e"
+      },
+      {
+        "name" : "BIOMD0000000039.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "3301",
+        "mimeType" : "text/plain",
+        "md5sum" : "d0c338c2d4ed2f6c2615903999ea471e",
+        "sha1sum" : "5210584dfa135946decf18de27a240d46383490a",
+        "sha256sum" : "07bc2006d83f84bd66c3da73ffb69cc174d56268def015bfb60ab5150468c371"
+      },
+      {
+        "name" : "BIOMD0000000039.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "15528",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "5db1a2c09b378f8aadcaea785ee591a7",
+        "sha1sum" : "75e3cae5d8d4604efc13535d8095f0a7e7b48c74",
+        "sha256sum" : "83f19c78f66c62174d49d30641c01588ac1908d6533cbba98d7480338209b266"
+      },
+      {
+        "name" : "BIOMD0000000039_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "10124",
+        "mimeType" : "application/xml",
+        "md5sum" : "b6ddb36bf287910ccd066fd8dcc6b4b7",
+        "sha1sum" : "fc55ef3cb4c26a93cdb6f44c0925a71dc9e67747",
+        "sha256sum" : "2b6e93975ddd8caa3b799bd62e4ef4fa5b562cf8a19047dd72147014778b5838"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "40137",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "26ce1cc496a3c47694a8df3f291be94f",
+        "sha1sum" : "df4dd7c3e73eb20b21d0398a64660146e6ea9a98",
+        "sha256sum" : "5df9ff393cc216fbdd0ec277c5e3aae0e18e889ac673fbd68542545e9a65375c"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "126",
+        "mimeType" : "text/plain",
+        "md5sum" : "01390e751e4ccd70a9bc93d4a88b92ba",
+        "sha1sum" : "39219d3b5a58ee5324c2c07820ab99a2e11940e0",
+        "sha256sum" : "25f914b1010af29633c262426c2b75adc4df169c63b922109598ead8793ed75c"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1913",
+        "mimeType" : "application/xml",
+        "md5sum" : "eecdef2aa20aaee2f4eeebde879d4005",
+        "sha1sum" : "f5f8b4b59980b5f6eccd65e339e39620de1e7b67",
+        "sha256sum" : "7bd5c16c490695a06997684774e09d666a444ac7e77b0ed9ef98914d781c641a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4029",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d3cee7954024e07979c52a2b5ff52f56",
+        "sha1sum" : "ac6881ac1fb47e50ff98cf8795e2a5506830a8b2",
+        "sha256sum" : "1e3e1a97be1db6fd0b729e7686d3767a33113c100c3b4b2e211376698ed645c9"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126625560,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Marhl_CaOscillations"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1392214637,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Marhl2000_CaOscillations"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265717,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284853,
+  "submissionId" : "MODEL6621933497",
+  "publicationId" : "BIOMD0000000039",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "8355",
+      "name" : "Xenopus laevis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/8355"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6621933497",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6621933497"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000039",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000039"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "11004387",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11004387"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "17029696",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17029696"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "12362939",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12362939"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0019722",
+      "name" : "calcium-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019722"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "hsa04020",
+      "name" : "Calcium signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04020"
+    },
+    {
+      "qualifier" : "bqbiol:is",
+      "accession" : "GO:0048016",
+      "name" : "inositol phosphate-mediated signaling",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0048016"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "name" : "Fassoni2019 - Oncogenesis encompassing mutations and genetic instability",
+  "description" : "This model describes the multistep process that transform a normal cell and its descendants into a malignant tumour by considering three populations: normal, premalignant and cancer cells. Created by COPASI 4.24(Build 197)Abstract:Tumorigenesis has been described as a multistep process, where each step is associated with a genetic alteration, in the direction to progressively transform a normal cell and its descendants into a malignant tumour. Into this work, we propose a mathematical model for cancer onset and development, considering three populations: normal, premalignant and cancer cells. The model takes into account three hallmarks of cancer: self-sufficiency on growth signals, insensibility to anti-growth signals and evading apoptosis. By using a nonlinear expression to describe the mutation from premalignant to cancer cells, the model includes genetic instability as an enabling characteristic of tumour progression. Mathematical analysis was performed in detail. Results indicate that apoptosis and tissue repair system are the first barriers against tumour progression. One of these mechanisms must be corrupted for cancer to develop from a single mutant cell. The results also show that the presence of aggressive cancer cells opens way to survival of less adapted premalignant cells. Numerical simulations were performed with parameter values based on experimental data of breast cancer, and the necessary time taken for cancer to reach a detectable size from a single mutant cell was estimated with respect to some parameters. We find that the rates of apoptosis and mutations have a large influence on the pace of tumour progression and on the time it takes to become clinically detectable.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L3V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "29947770",
+    "journal" : "Mathematical medicine and biology : a journal of the IMA",
+    "title" : "Modeling dynamics for oncogenesis encompassing mutations and genetic instability.",
+    "affiliation" : "Instituto de Matemática e Computação, UNIFEI, Itajubá, Minas Gerais, Brazil.",
+    "synopsis" : "Tumorigenesis has been described as a multistep process, where each step is associated with a genetic alteration, in the direction to progressively transform a normal cell and its descendants into a malignant tumour. Into this work, we propose a mathematical model for cancer onset and development, considering three populations: normal, premalignant and cancer cells. The model takes into account three hallmarks of cancer: self-sufficiency on growth signals, insensibility to anti-growth signals and evading apoptosis. By using a nonlinear expression to describe the mutation from premalignant to cancer cells, the model includes genetic instability as an enabling characteristic of tumour progression. Mathematical analysis was performed in detail. Results indicate that apoptosis and tissue repair system are the first barriers against tumour progression. One of these mechanisms must be corrupted for cancer to develop from a single mutant cell. The results also show that the presence of aggressive cancer cells opens way to survival of less adapted premalignant cells. Numerical simulations were performed with parameter values based on experimental data of breast cancer, and the necessary time taken for cancer to reach a detectable size from a single mutant cell was estimated with respect to some parameters. We find that the rates of apoptosis and mutations have a large influence on the pace of tumour progression and on the time it takes to become clinically detectable.",
+    "year" : 2019,
+    "month" : "6",
+    "volume" : "36",
+    "issue" : "2",
+    "pages" : "241-267",
+    "link" : "http://identifiers.org/pubmed/29947770",
+    "authors" : [
+      {
+        "name" : "Artur C Fassoni",
+        "institution" : "Institute for Mathematics and Computer Science, Universidade Federal de Itajubá, Itajubá 37500-903, Brazil.",
+        "orcid" : "0000-0002-3634-0061"
+      },
+      {
+        "name" : "Hyun M Yang",
+        "institution" : "Instituto de Matemática, Estatística e Computação Científica, UNICAMP, Campinas, São Paulo, Brazil."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "model.xml",
+        "description" : "SBML L3V1 file for the model",
+        "fileSize" : "99552",
+        "mimeType" : "application/xml",
+        "md5sum" : "83b438865e3d645c82852aeff24c9fbb",
+        "sha1sum" : "870179d9f2b08296aeac55fbd9dea4fe2a163bb1",
+        "sha256sum" : "7f868c7c2e508f23a47d8b33a9e82a0dcfc2a26b67e5dbbb74a9a0cdbc2d07de"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Fassoni2019 - 5A.sedml",
+        "description" : "Sedml L1V2 file producing figure 5A (additionally CRBM-validated and adjusted).",
+        "fileSize" : "30279",
+        "mimeType" : "application/xml",
+        "md5sum" : "b544065f76187870b61b2d782952ae08",
+        "sha1sum" : "0f51981adb86811b40917d7fdc00a3eff1813e90",
+        "sha256sum" : "cf54cf69b204427f8a67185fb3fca0494265fe9fa960616f7586f30d2d73542b"
+      },
+      {
+        "name" : "Fassoni2019 - Oncogenesis encompassing mutations and genetic instability.cps",
+        "description" : "COPASI 4.24 (Build 197) file for the model",
+        "fileSize" : "117253",
+        "mimeType" : "application/xml",
+        "md5sum" : "9277c1b30a342f549ea6cbbaff2a9e3a",
+        "sha1sum" : "db80c7d3d210cafb48499b24493804253df38cc4",
+        "sha256sum" : "8d004f1c8a14faf33ae9d4fc4a4269588311b73b460334725da7915f0aba724b"
+      },
+      {
+        "name" : "Figure 5.png",
+        "description" : "PNG plot of the model simulation Fig.5",
+        "fileSize" : "97990",
+        "mimeType" : "image/png",
+        "md5sum" : "6e64261e287cbf1d6d8a3136b688aec6",
+        "sha1sum" : "e065706ce4097dc3c6565d81cc1726f2fb06e6cc",
+        "sha256sum" : "0496d380b5c0425ffe8d44adbe6745d80c43af18a9f404431022a1fc0b39f6ac"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "97990",
+        "mimeType" : "image/png",
+        "md5sum" : "6e64261e287cbf1d6d8a3136b688aec6",
+        "sha1sum" : "e065706ce4097dc3c6565d81cc1726f2fb06e6cc",
+        "sha256sum" : "0496d380b5c0425ffe8d44adbe6745d80c43af18a9f404431022a1fc0b39f6ac"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "1180",
+        "mimeType" : "text/plain",
+        "md5sum" : "e17a31900044f4798db0baea646e764c",
+        "sha1sum" : "d9c591da80b76728a9cf0e61c1312f4e6ae7d500",
+        "sha256sum" : "7c2f1dcec742808e5bb6f961356c00a8710e05a66573891f3eda9c9b40ff55f1"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1552",
+        "mimeType" : "application/xml",
+        "md5sum" : "a812a7fdf0151658bbcfdcf45853c2a0",
+        "sha1sum" : "b7f82b15e3a14f19e7085e8361c451e1f6ab0b1e",
+        "sha256sum" : "2a315219fdf08df38d72411388231b3a20d11d8b0a7a3221a3b8582319830d29"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3511",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e8c44c942bbd47f5abc71ab2564935bc",
+        "sha1sum" : "a2246f6690be2c0ec03de7990b753aad100b0645",
+        "sha256sum" : "906dc92135811b46b49a98b2d1cafc9e0cc1f9af7a8ea0ae2f1eddd0790dbecb"
+      },
+      {
+        "name" : "model-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "18125",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ed80746217e97c9d4d0f14a76201e74b",
+        "sha1sum" : "b9b6b609ef208495f338ac95010ae542394b2229",
+        "sha256sum" : "0664bd81b4afa32440dedc8af863e7500da0bcfd440a2afc7b338de55c1a2450"
+      },
+      {
+        "name" : "model-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "28018",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c2f13f458c2d62baa1f6fad98298549c",
+        "sha1sum" : "8b9de3dec73c1c634afceff01fe5143ffc0204b2",
+        "sha256sum" : "b4baa3f6f695a77c9bfc8da8d339b4eba3d9257942b65f3c974a25addfc8531d"
+      },
+      {
+        "name" : "model-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10406",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b16c1ee512db6e77f87a37486bd4f471",
+        "sha1sum" : "7fbfa7326c4ef30413cff4dcddaea80613a4644f",
+        "sha256sum" : "f33e10e9f35a86d514fa6ba7df67fa4131debf5ac55c246415470ade26417f0a"
+      },
+      {
+        "name" : "model-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10406",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "df38907e78e68668fceb77e6114659a1",
+        "sha1sum" : "7aead97496e9a9b9b648d8e70c8afe4369371946",
+        "sha256sum" : "46548631dd50d5d87c9e11e18151e8106003b3a3a5463a2b2234d79e48051248"
+      },
+      {
+        "name" : "model.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "8244",
+        "mimeType" : "text/plain",
+        "md5sum" : "d19434a8989dd5923cc4d4acb655aa21",
+        "sha1sum" : "2d71e70c427f78f69cb8270abdcbcc27fcb14a7b",
+        "sha256sum" : "73df02e1ea85965aa7302cc2ab693077a89ec55b902c01658af20cce3ee13dc8"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1567693787,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 3,
+        "submitted" : 1567694682,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Automatically added model identifier BIOMD0000000807"
+      },
+      {
+        "version" : 5,
+        "submitted" : 1568213055,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 6,
+        "submitted" : 1570025947,
+        "submitter" : "Szeyi Ng",
+        "comment" : "Model revised without commit message"
+      },
+      {
+        "version" : 7,
+        "submitted" : 1724290050,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285505,
+  "submissionId" : "MODEL1909050003",
+  "publicationId" : "BIOMD0000000807",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Szeyi Ng",
+        "email" : "sng@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aai",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000807",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000807"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1909050003",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1909050003"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "29947770",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:29947770"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C18121",
+      "name" : "Tumorigenesis",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C18121"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C19320",
+      "name" : "Breast Cancer Model",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C19320"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C17938",
+      "name" : "Genetic",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C17938"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C45576",
+      "name" : "Mutation Abnormality",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C45576"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "C16870",
+      "name" : "Mathematical Model",
+      "resource" : "NCIt",
+      "uri" : "http://identifiers.org/ncit/C16870"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "29947770",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/29947770"
+    }
+  ]
+}

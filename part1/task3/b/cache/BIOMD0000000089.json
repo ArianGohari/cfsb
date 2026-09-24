@@ -1,0 +1,307 @@
+{
+  "name" : "Locke2006_CircClock_LL",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>      This a model from the article:      <br />        <strong>Experimental validation of a predicted feedback loop in the multi-oscillator clock of Arabidopsis thaliana. </strong>        <br />Locke JC, Kozma-Bognár L, Gould PD, Fehér B, Kevei E, Nagy F, Turner MS, Hall A, Millar AJ       <em>Mol. Syst. Biol.</em>2006;Volume:2;Page:59       <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17102804\">17102804</a>,      <br />        <strong>Abstract:</strong>        <br />Our computational model of the circadian clock comprised the feedback loop between LATE ELONGATED HYPOCOTYL (LHY), CIRCADIAN CLOCK ASSOCIATED 1 (CCA1) and TIMING OF CAB EXPRESSION 1 (TOC1), and a predicted, interlocking feedback loop involving TOC1 and a hypothetical component Y. Experiments based on model predictions suggested GIGANTEA (GI) as a candidate for Y. We now extend the model to include a recently demonstrated feedback loop between the TOC1 homologues PSEUDO-RESPONSE REGULATOR 7 (PRR7), PRR9 and LHY and CCA1. This three-loop network explains the rhythmic phenotype of toc1 mutant alleles. Model predictions fit closely to new data on the gi;lhy;cca1 mutant, which confirm that GI is a major contributor to Y function. Analysis of the three-loop network suggests that the plant clock consists of morning and evening oscillators, coupled intracellularly, which may be analogous to coupled, morning and evening clock cells in Drosophila and the mouse.   </p>        <br />        <p>The model describes a three loops model of the Arabidopsis circadian clock. It provides initial conditions, parameter values and reactions for the production rates of the following species: LHY mRNA (cLm), cytoplasmic LHY (cLc), nuclear LHY (cLn), TOC1 mRNA (cTm), cytoplasmic TOC1 (cTc), nuclear TOC1 (cTn),  X mRNA (cXm), cytoplasmic X (cXc), nuclear X (cXn), Y mRNA (cYm), cytoplasmic Y (cYc), nuclear Y (cYn), nuclear P (cPn), APRR7/9 mRNA, cytoplasmic APRR7/9, and nuclear APRR7/9. </p>        <p>The paper describes the behaviour of the model in constant light (LL) and day-night cycle (LD). However, the current model only contains the LL cycle. Some parameter values  should be changed from the wild-type (WT) ones in order to simulate the effect of mutations. These changes are listed in the notes of relevant parameters.</p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17102804",
+    "journal" : "Molecular systems biology",
+    "title" : "Experimental validation of a predicted feedback loop in the multi-oscillator clock of Arabidopsis thaliana.",
+    "affiliation" : "Department of Biological Sciences, University of Warwick, Coventry, UK.",
+    "synopsis" : "Our computational model of the circadian clock comprised the feedback loop between LATE ELONGATED HYPOCOTYL (LHY), CIRCADIAN CLOCK ASSOCIATED 1 (CCA1) and TIMING OF CAB EXPRESSION 1 (TOC1), and a predicted, interlocking feedback loop involving TOC1 and a hypothetical component Y. Experiments based on model predictions suggested GIGANTEA (GI) as a candidate for Y. We now extend the model to include a recently demonstrated feedback loop between the TOC1 homologues PSEUDO-RESPONSE REGULATOR 7 (PRR7), PRR9 and LHY and CCA1. This three-loop network explains the rhythmic phenotype of toc1 mutant alleles. Model predictions fit closely to new data on the gi;lhy;cca1 mutant, which confirm that GI is a major contributor to Y function. Analysis of the three-loop network suggests that the plant clock consists of morning and evening oscillators, coupled intracellularly, which may be analogous to coupled, morning and evening clock cells in Drosophila and the mouse.",
+    "year" : 2006,
+    "month" : "0",
+    "volume" : "2",
+    "pages" : "59",
+    "link" : "http://identifiers.org/pubmed/17102804",
+    "authors" : [
+      {
+        "name" : "James C W Locke",
+        "orcid" : "0000-0003-0670-1943"
+      },
+      {
+        "name" : "László Kozma-Bognár",
+        "orcid" : "0000-0002-8289-193X"
+      },
+      {
+        "name" : "Peter D Gould",
+        "orcid" : "0000-0002-0709-1190"
+      },
+      {
+        "name" : "Balázs Fehér"
+      },
+      {
+        "name" : "Eva Kevei",
+        "orcid" : "0000-0002-0560-9208"
+      },
+      {
+        "name" : "Ferenc Nagy",
+        "institution" : "Institute of Molecular Plant Sciences, The University of Edinburgh, Kings Buildings, Mayfield Road, Edinburgh EH9 3JH, UK.Institute of Plant Biology, Biological Research Center, Temesvari krt. 62, H-6726, Szeged, Hungary.",
+        "orcid" : "0000-0002-6157-9269"
+      },
+      {
+        "name" : "Matthew S Turner"
+      },
+      {
+        "name" : "Anthony Hall",
+        "orcid" : "0000-0002-1806-020X"
+      },
+      {
+        "name" : "Andrew J Millar",
+        "orcid" : "0000-0003-1756-3654"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000089_url.xml",
+        "description" : "SBML L2V3 representation of Locke2006_CircClock_LL",
+        "fileSize" : "77697",
+        "mimeType" : "application/xml",
+        "md5sum" : "28942c4391ea5e2addebe6f214c7b561",
+        "sha1sum" : "b4450dcf7d757b782b66dc272ef637d168873790",
+        "sha256sum" : "122fe52389252532426adf24a16cb9f6ee3a4174b1f1a2bd88d6e9c16fd25319"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000089-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "35836",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "584e69e20371ec4595f7f4757028ff16",
+        "sha1sum" : "70c29ba93492132751c987d9ff0d8396c66f5b6c",
+        "sha256sum" : "6a2530c9048f8400209ace6a173430b4cd7164d94b95718211c8980abf8c3a4e"
+      },
+      {
+        "name" : "BIOMD0000000089-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "56421",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "b3d8933b8f62625ad70450292afa9889",
+        "sha1sum" : "ba03e8aaa9086beedecb7d91dd16670714eaad28",
+        "sha256sum" : "7f29b6d2092b6bc2985ca6f564a3d56f1d48c783f5cec34a08260af5069488e4"
+      },
+      {
+        "name" : "BIOMD0000000089-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16597",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "e2004644ff5435455440a360505f09f1",
+        "sha1sum" : "ff3f29c50ea5958ddaf7879147e3d78163aa9352",
+        "sha256sum" : "0b1a9f75abf45d611cb6dca10a94391361abb99160574b5b2a062ba59c1a7de9"
+      },
+      {
+        "name" : "BIOMD0000000089-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16597",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "aab15d3f523c29a9add27fb3caa07a42",
+        "sha1sum" : "b9955e48c49ec983bf22de3e0a9893f30fa4a483",
+        "sha256sum" : "f9dff535706aab0f77ea6dd4faeb71c8fa62a1d5be37871e6f4830830d59afcb"
+      },
+      {
+        "name" : "BIOMD0000000089.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16597",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "aab15d3f523c29a9add27fb3caa07a42",
+        "sha1sum" : "b9955e48c49ec983bf22de3e0a9893f30fa4a483",
+        "sha256sum" : "f9dff535706aab0f77ea6dd4faeb71c8fa62a1d5be37871e6f4830830d59afcb"
+      },
+      {
+        "name" : "BIOMD0000000089.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12425",
+        "mimeType" : "text/plain",
+        "md5sum" : "c8c9bbc8a32aea7c8c34efa848b0d25f",
+        "sha1sum" : "4be6d0afa7a3e6a56fbe2103558f20e63852b819",
+        "sha256sum" : "82571f6cf5304bf0ae8d53f0f456543abbc752b2010b1bae8e65be9dba27519d"
+      },
+      {
+        "name" : "BIOMD0000000089.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "280868",
+        "mimeType" : "application/pdf",
+        "md5sum" : "b527fd2e3ae51945153e4563e2ba1417",
+        "sha1sum" : "fa6437b7e4ee021673e62a90cb17f427d4574722",
+        "sha256sum" : "88757527d6fc987c1c3a5f8307c286a26c087d155e86edbd3be58b94fd21fea2"
+      },
+      {
+        "name" : "BIOMD0000000089.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "204896",
+        "mimeType" : "image/png",
+        "md5sum" : "acfb4a4a57e9e576a9ee991fb35a1377",
+        "sha1sum" : "d684967780b20480ff037a927a170f713794c496",
+        "sha256sum" : "26144d7c2733644afbeaa94613763bc97b2051afc3b4955cf6ba2478e2435c78"
+      },
+      {
+        "name" : "BIOMD0000000089.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "73434",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "b3d2b561ad0e000aef153a98e3cdf55a",
+        "sha1sum" : "5abd6be315c02371ace658524c4c3aadd73ec062",
+        "sha256sum" : "81d26dbd6b4b37791c61deb543e0cca2610135d4ff5bacf173d82a9811776e6a"
+      },
+      {
+        "name" : "BIOMD0000000089.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "90632",
+        "mimeType" : "application/xml",
+        "md5sum" : "e31134562c398ec8b315efd400d835c8",
+        "sha1sum" : "b00005d351250224465a20d1ed9b8d7a9844fb75",
+        "sha256sum" : "847da6e39dc77b318f706864bd48202f057f281929a271b905db8fb22eb29c16"
+      },
+      {
+        "name" : "BIOMD0000000089_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "70313",
+        "mimeType" : "application/xml",
+        "md5sum" : "9e7eba2856d9d0fa7b3cda5c75d4a71c",
+        "sha1sum" : "c03f4a8bb608ce8f139cb6ebb2d200a46bf838bc",
+        "sha256sum" : "86b711317149e2c3ee0e974a850699f8f652e6cc899592df5964c82bf1e7dd64"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "57520",
+        "mimeType" : "image/png",
+        "md5sum" : "a9142f23c567dc9875748c08a4bfa387",
+        "sha1sum" : "33bb72c1cff36dd4bf711771b9ba053a1d961569",
+        "sha256sum" : "1f611aaa5ab9ec02a7de0d5c9ce7ea0617eb01789485244fc29a8f896009a020"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "471",
+        "mimeType" : "text/plain",
+        "md5sum" : "45691f191bffa97da618e6af6ae1dae0",
+        "sha1sum" : "ab2ae2aa4ba55592f183b18e7c4dc7fcac972653",
+        "sha256sum" : "76ea644d3b70518b9e9f51a80fa71068c4dbd5df4de620d807fe35e4a610a45a"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1912",
+        "mimeType" : "application/xml",
+        "md5sum" : "68db27a6f61c7b4c1fbe4220f8e02657",
+        "sha1sum" : "b3a5c56e58267969e7fd9552eaf7b05798b14730",
+        "sha256sum" : "6f78b58bf4745c4db99df614191a6255d19dcc34673f09ad1832b06670eed2c8"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5158",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9758fa342f0ad68e79e5f4ee70137b22",
+        "sha1sum" : "b291bb18b93c0bd73ba85b2e6803a2b89e5f5818",
+        "sha256sum" : "489e8073ef59607f11e29af07d7615df149e42e68adc18e48e889e727ba50f8b"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1171979849,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Original import of Locke_et_al_2006_3Loop"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1424871601,
+        "submitter" : "Molecular Systems Biology",
+        "comment" : "Current version of Locke2006_CircClock_LL"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724267113,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284873,
+  "submissionId" : "MODEL4025803561",
+  "publicationId" : "BIOMD0000000089",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Molecular Systems Biology",
+        "email" : "msbforum@embo.org",
+        "affiliation" : "Nature Publishing Group",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL4025803561",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL4025803561"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000089",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000089"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17102804",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17102804"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000055",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000055"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "3702",
+      "name" : "Arabidopsis thaliana",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/3702"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042752",
+      "name" : "regulation of circadian rhythm",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042752"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

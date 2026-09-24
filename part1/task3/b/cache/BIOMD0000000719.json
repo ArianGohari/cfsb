@@ -1,0 +1,255 @@
+{
+  "name" : "Tsai2014 - Cell cycle duration control by oscillatory Dynamics  in Early Xenopus laevis Embryos",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>During the early development of Xenopus laevis embryos, the first mitotic cell cycle is long (∼85 min) and the subsequent 11 cycles are short (∼30 min) and clock-like. Here we address the question of how the Cdk1 cell cycle oscillator changes between these two modes of operation. We found that the change can be attributed to an alteration in the balance between Wee1/Myt1 and Cdc25. The change in balance converts a circuit that acts like a positive-plus-negative feedback oscillator, with spikes of Cdk1 activation, to one that acts like a negative-feedback-only oscillator, with a shorter period and smoothly varying Cdk1 activity. Shortening the first cycle, by treating embryos with the Wee1A/Myt1 inhibitor PD0166285, resulted in a dramatic reduction in embryo viability, and restoring the length of the first cycle in inhibitor-treated embryos with low doses of cycloheximide partially rescued viability. Computations with an experimentally parameterized mathematical model show that modest changes in the Wee1/Cdc25 ratio can account for the observed qualitative changes in the cell cycle. The high ratio in the first cycle allows the period to be long and tunable, and decreasing the ratio in the subsequent cycles allows the oscillator to run at a maximal speed. Thus, the embryo rewires its feedback regulation to meet two different developmental requirements during early development.</p>      </body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "24523664",
+    "journal" : "PLoS biology",
+    "title" : "Changes in oscillatory dynamics in the cell cycle of early Xenopus laevis embryos.",
+    "affiliation" : "Department of Chemical and Systems Biology, Stanford University School of Medicine, Stanford, California, United States of America ; Department of Biochemistry, Stanford University School of Medicine, Stanford, California, United States of America ; Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, California, United States of America.",
+    "synopsis" : "During the early development of Xenopus laevis embryos, the first mitotic cell cycle is long (∼85 min) and the subsequent 11 cycles are short (∼30 min) and clock-like. Here we address the question of how the Cdk1 cell cycle oscillator changes between these two modes of operation. We found that the change can be attributed to an alteration in the balance between Wee1/Myt1 and Cdc25. The change in balance converts a circuit that acts like a positive-plus-negative feedback oscillator, with spikes of Cdk1 activation, to one that acts like a negative-feedback-only oscillator, with a shorter period and smoothly varying Cdk1 activity. Shortening the first cycle, by treating embryos with the Wee1A/Myt1 inhibitor PD0166285, resulted in a dramatic reduction in embryo viability, and restoring the length of the first cycle in inhibitor-treated embryos with low doses of cycloheximide partially rescued viability. Computations with an experimentally parameterized mathematical model show that modest changes in the Wee1/Cdc25 ratio can account for the observed qualitative changes in the cell cycle. The high ratio in the first cycle allows the period to be long and tunable, and decreasing the ratio in the subsequent cycles allows the oscillator to run at a maximal speed. Thus, the embryo rewires its feedback regulation to meet two different developmental requirements during early development.",
+    "year" : 2014,
+    "month" : "2",
+    "volume" : "12",
+    "issue" : "2",
+    "pages" : "e1001788",
+    "link" : "http://identifiers.org/pubmed/24523664",
+    "authors" : [
+      {
+        "name" : "Tsai TY",
+        "institution" : "Department of Chemical and Systems Biology, Stanford University School of Medicine, Stanford, CA 94305-5174, USA.",
+        "orcid" : "0000-0003-1121-9406"
+      },
+      {
+        "name" : "Julie A Theriot",
+        "institution" : "Department of Biochemistry, Stanford University School of Medicine, Stanford, California, United States of America ; Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, California, United States of America.",
+        "orcid" : "0000-0002-2334-2535"
+      },
+      {
+        "name" : "James E Ferrell",
+        "institution" : "Department of Chemical and Systems Biology, Stanford University School of Medicine, Stanford, California, United States of America ; Department of Biochemistry, Stanford University School of Medicine, Stanford, California, United States of America."
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "Tsai2014.xml",
+        "description" : "SBML L2V4 representation of Tsai2014 - Cell cycle duration control by oscillatory Dynamics  in Early Xenopus laevis Embryos",
+        "fileSize" : "63389",
+        "mimeType" : "application/xml",
+        "md5sum" : "51ec44d71a5db13342239e40ef23e3af",
+        "sha1sum" : "266fe323265e22482313a8be0aa695b6001bf866",
+        "sha256sum" : "4aa37144ccfb5f8caf944851ec4b53628733d469910f84dec78e24bf099308bc"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "Tsai2014-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2) file.",
+        "fileSize" : "17627",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "58b95f3f5ac63f3495736eaf03ea78dd",
+        "sha1sum" : "974f1c65b7244d8cb22bcd89a5b2f13cb38d77e7",
+        "sha256sum" : "945de56fb99b44d1f25505c40b2f958898c7f6f868a79c8d3089d7c61e90919d"
+      },
+      {
+        "name" : "Tsai2014-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3) file.",
+        "fileSize" : "26333",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "581a4b2a5844a50e4724e5ac89c9edc6",
+        "sha1sum" : "f8f3f15bcb958a6d961e870a082f33e25e66eada",
+        "sha256sum" : "f2af87febaa62a064cc1b40682e37ba7583db5645fa9e05368f3807a43aa4531"
+      },
+      {
+        "name" : "Tsai2014-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "9054",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "c410076a741979b5139c6e1155273f49",
+        "sha1sum" : "311be1bf083759d384576124b578f7304dae58e0",
+        "sha256sum" : "4722cff7809ebcc54ff15eb08cdd2b05b1da85b521ff74460a9bc7f87e637103"
+      },
+      {
+        "name" : "Tsai2014.cps",
+        "description" : "copasi file to generate figure 5F",
+        "fileSize" : "102433",
+        "mimeType" : "application/xml",
+        "md5sum" : "b2128ad9674a7fda5b94782d271bb1a2",
+        "sha1sum" : "425f26de4b606815483d0344e4c2665954e3ad51",
+        "sha256sum" : "981231289166faa043898e6e7e63f0d62b32ccef21f2f08af7173d0338869d6b"
+      },
+      {
+        "name" : "Tsai2014.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7006",
+        "mimeType" : "text/plain",
+        "md5sum" : "60d4243369f2b812732c72675a104489",
+        "sha1sum" : "3c10b223220536f2528a474deb7c14d89b8e1463",
+        "sha256sum" : "e8894f1c187133e1991ff067813625036a1deb97f8f01f368e42808b73c9e9c9"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "388118",
+        "mimeType" : "image/png",
+        "md5sum" : "a92718195af8f8d908740d57d738f822",
+        "sha1sum" : "77e300f29765ad3df5de9376fbe90c7c68839f5a",
+        "sha256sum" : "4ce1b8ef9410ada1c416c69244040b1f249778fd9367eeb8d35c27c80925594b"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "129",
+        "mimeType" : "text/plain",
+        "md5sum" : "9caaee26915d15e8e285acab32addb7e",
+        "sha1sum" : "5697d7ca62aef00914b166a49ea575af36805e56",
+        "sha256sum" : "974c322e98b7bfa1e12730e7f1c75baca41574cf975495cac28479064e1cf2e4"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1283",
+        "mimeType" : "application/xml",
+        "md5sum" : "02ae4dc0e5d1c3e5f8a5e266e7efbd41",
+        "sha1sum" : "0f2d8d33d9ce4172b49411e9c174f6f3918c2718",
+        "sha256sum" : "60327db0ba8e8f0ff69ad5ce3c01a2e77f81b27c4c2069c3d961414c4d53d998"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3554",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ed82d73aedac6dd8d97b9b0d3d62e0fe",
+        "sha1sum" : "47438500280f7864b8f754593d8ec07961fd07b6",
+        "sha256sum" : "9a01d255922811ac0736b275919249d154070dab4d5345f0ae443a091f1b72ae"
+      },
+      {
+        "name" : "tsai2014.sedml",
+        "description" : "SEDML file for reproducing figure 5F(iv) in the reference publication. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "28202",
+        "mimeType" : "application/xml",
+        "md5sum" : "a173ef42ac312d40e9319e78259cdb94",
+        "sha1sum" : "46dd5d1100ea50e41051c7d76be52b951b6426a9",
+        "sha256sum" : "4e302dc47756ddb724f3972909cb6a2006400081fae78ac940128f26ece35ba5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 2,
+        "submitted" : 1536244403,
+        "submitter" : "Matthieu MAIRE",
+        "comment" : "Edited model metadata online."
+      },
+      {
+        "version" : 5,
+        "submitted" : 1541604227,
+        "submitter" : "Ashley Xavier",
+        "comment" : "Automatically added model identifier BIOMD0000000719"
+      },
+      {
+        "version" : 6,
+        "submitted" : 1724287714,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285424,
+  "submissionId" : "MODEL1809060006",
+  "publicationId" : "BIOMD0000000719",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Matthieu MAIRE",
+        "email" : "matt.maire@free.fr",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      },
+      {
+        "name" : "Ashley Xavier",
+        "email" : "ashleythomasxavier@gmail.com",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0001-5372-3024",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aag",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "GO:0051726",
+      "name" : "regulation of cell cycle",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0051726"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000719",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000719"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1809060006",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1809060006"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "24523664",
+      "resource" : "PubMed",
+      "uri" : "https://identifiers.org/pubmed:24523664"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "8355",
+      "name" : "Xenopus laevis",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/8355"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1371/journal.pbio.1001788",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1371/journal.pbio.1001788"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "24523664",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/24523664"
+    }
+  ]
+}

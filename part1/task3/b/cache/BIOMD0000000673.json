@@ -1,0 +1,317 @@
+{
+  "name" : "Lockwood2006 - Alzheimer's Disease PBPK model",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Lockwood2006 - AlzheimersDisease PBPKmodel</div><div class=\"dc:description\">A mathematical model to predict theeffectiveness of CI-1017 (muscarinic agonist) for Alzheimer'sdisease by evaluating changes in ADAS-cog score.<br /></div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/16906456\" title=\"Access to this publication\">Application of clinical    trial simulation to compare proof-of-concept study designs for    drugs with a slow onset of effect; an example in Alzheimer's    disease.</a>  </div>  <div class=\"bibo:authorList\">Lockwood P, Ewy W, Hermann D,  Holford N.</div>  <div class=\"bibo:Journal\">Pharm. Res. 2006 Sep; 23(9):  2050-2059</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>OBJECTIVE: Clinical trial simulation (CTS) was used to    select a robust design to test the hypothesis that a new    treatment was effective for Alzheimer's disease (AD).    Typically, a parallel group, placebo controlled, 12-week trial    in 200-400 AD patients would be used to establish drug effect    relative to placebo (i.e., Ho: Drug Effect = 0). We evaluated    if a crossover design would allow smaller and shorter duration    trials. MATERIALS AND METHODS: A family of plausible drug and    disease models describing the time course of the AD assessment    scale (ADAS-Cog) was developed based on Phase I data and    literature reports of other treatments for AD. The models    included pharmacokinetic, pharmacodynamic, disease progression,    and placebo components. Eight alternative trial designs were    explored via simulation. One hundred replicates of each    combination of drug and disease model and trial design were    simulated. A 'positive trial' reflecting drug activity was    declared considering both a dose trend test (p &lt; 0.05) and    pair-wise comparisons to placebo (p &lt; 0.025). RESULTS: A 4 x    4 Latin Square design was predicted to have at least 80% power    to detect activity across a range of drug and disease models.    The trial design was subsequently implemented and the trial was    completed. Based on the results of the actual trial, a    conclusive decision about further development was taken. The    crossover design provided enhanced power over a parallel group    design due to the lower residual variability. CONCLUSION: CTS    aided the decision to use a more efficient proof of concept    trial design, leading to savings of up to US 4 M dollars in    direct costs and a firm decision 8-12 months earlier than a    12-week parallel group trial.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000673\">BIOMD0000000673</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/25414348\" target=\"_blank\">Chelliah V et al. BioModels: ten-year  anniversary. Nucl. Acids Res. 2015, 43(Database  issue):D542-8</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "16906456",
+    "journal" : "Pharmaceutical research",
+    "title" : "Application of clinical trial simulation to compare proof-of-concept study designs for drugs with a slow onset of effect; an example in Alzheimer's disease.",
+    "affiliation" : "Pfizer Global Research and Development, Ann Arbor, Michigan, USA. peter.lockwood@pfizer.com",
+    "synopsis" : "<h4>Objective</h4>Clinical trial simulation (CTS) was used to select a robust design to test the hypothesis that a new treatment was effective for Alzheimer's disease (AD). Typically, a parallel group, placebo controlled, 12-week trial in 200-400 AD patients would be used to establish drug effect relative to placebo (i.e., Ho: Drug Effect = 0). We evaluated if a crossover design would allow smaller and shorter duration trials.<h4>Materials and methods</h4>A family of plausible drug and disease models describing the time course of the AD assessment scale (ADAS-Cog) was developed based on Phase I data and literature reports of other treatments for AD. The models included pharmacokinetic, pharmacodynamic, disease progression, and placebo components. Eight alternative trial designs were explored via simulation. One hundred replicates of each combination of drug and disease model and trial design were simulated. A 'positive trial' reflecting drug activity was declared considering both a dose trend test (p < 0.05) and pair-wise comparisons to placebo (p < 0.025).<h4>Results</h4>A 4 x 4 Latin Square design was predicted to have at least 80% power to detect activity across a range of drug and disease models. The trial design was subsequently implemented and the trial was completed. Based on the results of the actual trial, a conclusive decision about further development was taken. The crossover design provided enhanced power over a parallel group design due to the lower residual variability.<h4>Conclusion</h4>CTS aided the decision to use a more efficient proof of concept trial design, leading to savings of up to US 4 M dollars in direct costs and a firm decision 8-12 months earlier than a 12-week parallel group trial.",
+    "year" : 2006,
+    "month" : "9",
+    "volume" : "23",
+    "issue" : "9",
+    "pages" : "2050-2059",
+    "link" : "http://identifiers.org/pubmed/16906456",
+    "authors" : [
+      {
+        "name" : "Peter Lockwood",
+        "institution" : "Pfizer Global Research and Development, Ann Arbor, Michigan, USA. peter.lockwood@pfizer.com"
+      },
+      {
+        "name" : "Wayne Ewy"
+      },
+      {
+        "name" : "David Hermann"
+      },
+      {
+        "name" : "Nick Holford",
+        "institution" : "University of Auckland",
+        "orcid" : "0000-0002-4031-2514"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000673_url.xml",
+        "description" : "SBML L2V4 representation of Lockwood2006 - Alzheimer\\s Disease PBPK model",
+        "fileSize" : "64944",
+        "mimeType" : "application/xml",
+        "md5sum" : "907c70303947bbef38a7b848c1f434a1",
+        "sha1sum" : "4327f10bc8b581f19cba5285180850936ec36dc2",
+        "sha256sum" : "2d7e1f429ba11eac5697f67d5b43e3f8ec6269da2a7fd75344bc238b5bdae51d"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000673-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "3825",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "d47e108eab96bef965b331841d5cd44d",
+        "sha1sum" : "3d568c33cdeb497d15f519074fcccc3379ad955b",
+        "sha256sum" : "3e789014a81140bf8b5d0b5b215dd5b2e712a854326819a16c2712a4ec106b77"
+      },
+      {
+        "name" : "BIOMD0000000673-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "3855",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "10c77b8b55102ebab4eec5e5639dd534",
+        "sha1sum" : "aeb528c988524ce1fd3c9405027191669894be58",
+        "sha256sum" : "7e7a1ccf0b959a23474f13885beb45999ca6e32fc8281131d6f88dd04917984f"
+      },
+      {
+        "name" : "BIOMD0000000673-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "6641",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "cdd0ce4f676c0a8787378433e3f02587",
+        "sha1sum" : "26ddef701720e1ab3f0cf05165d7054bf75710df",
+        "sha256sum" : "4608bfe50d2cdabd7d88041c599529f35188f73223adac30ade495838a214cca"
+      },
+      {
+        "name" : "BIOMD0000000673-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "6641",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b1cf06b59b000e3789e4787e797d4bbd",
+        "sha1sum" : "11c573b1644459cede8ba15c38004c5cf25d2fb9",
+        "sha256sum" : "ccfdb40e838af0c46eb9b4f4b7aaae0f604298f7e42b8a43dca718bd8536f409"
+      },
+      {
+        "name" : "BIOMD0000000673.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "6641",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "b1cf06b59b000e3789e4787e797d4bbd",
+        "sha1sum" : "11c573b1644459cede8ba15c38004c5cf25d2fb9",
+        "sha256sum" : "ccfdb40e838af0c46eb9b4f4b7aaae0f604298f7e42b8a43dca718bd8536f409"
+      },
+      {
+        "name" : "BIOMD0000000673.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5345",
+        "mimeType" : "text/plain",
+        "md5sum" : "4f63b738edb180244457397721c222f0",
+        "sha1sum" : "317e2b77233363910332eb1cfb917952c1b3fce9",
+        "sha256sum" : "6a2606588a90651a73f5fe3b89d3c41a79360f304fd28cdf4b15c49a2ff01171"
+      },
+      {
+        "name" : "BIOMD0000000673.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "149487",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f5474c960b7d46cf90b7389e6579e71c",
+        "sha1sum" : "b9ff2f996b743608b913046892c8d327318131b9",
+        "sha256sum" : "8359dcb3ed5cf0c449ba5d6a93f68f76c313ad7aa757535e6dac480a35dcac2a"
+      },
+      {
+        "name" : "BIOMD0000000673.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "4370",
+        "mimeType" : "image/png",
+        "md5sum" : "51a02aeed2d9b25335f3564484b8bb20",
+        "sha1sum" : "be6004b6e09f0df48128af03d07c541ebc1da0e9",
+        "sha256sum" : "2fc210bd801811e46547af171bb390ae3cc4ccc9794865e866bc9874201a9bd3"
+      },
+      {
+        "name" : "BIOMD0000000673.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "862",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "48b7bcfdf9b324fa2420125f14d79265",
+        "sha1sum" : "6724e0820c4d158cf2cad34dc41073cd396751b7",
+        "sha256sum" : "54cbd07a63e716452e0d412448cc5d89cc089b4b04b5876ed47e9fae30315b38"
+      },
+      {
+        "name" : "BIOMD0000000673.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "22827",
+        "mimeType" : "application/xml",
+        "md5sum" : "2986b6d3b14e54f88bdbe7a7b3699cfa",
+        "sha1sum" : "3d912fce0205b921d5f01e577099fe9604fea151",
+        "sha256sum" : "de99a6b637796ab410c1847bc6a1902d6cdb0a73b9decb49bca7246ec7b7d4b5"
+      },
+      {
+        "name" : "MODEL1006230054_edited.cps",
+        "description" : "A parameter scan will produce similar figures to figure 1 of the reference publication. Different response models can be implemented by changing the quantity 'MODEL_TYPE' from 0 to 4 with 0=Inactive, 1=Linear, 2=Hyperbolic, 3=Sigmoidal, 4=U-Shaped.",
+        "fileSize" : "58774",
+        "mimeType" : "application/xml",
+        "md5sum" : "b7b77683555eef240329de3538cbe5a4",
+        "sha1sum" : "652c7f983dd9c1101644185be930f1864e764d89",
+        "sha256sum" : "e697f9e04214213dda7297da149e11545db1d2883c627264cd7edea4c054db70"
+      },
+      {
+        "name" : "MODEL1006230054_edited.sedml",
+        "description" : "A parameter scan will produce a similar figure to figure 1 (Sigmoidal response model, bottom left) of the reference publication. Different response models can be implemented by changing the quantity 'MODEL_TYPE' from 0 to 4 with 0=Inactive, 1=Linear, 2=Hyperbolic, 3=Sigmoidal, 4=U-Shaped. (additionally CRBM-validated and adjusted).",
+        "fileSize" : "19086",
+        "mimeType" : "application/xml",
+        "md5sum" : "a43669abc1f7a698f51f8264498ca551",
+        "sha1sum" : "2e0c39d542ec7ae0ad17aa9ad0a88f3827bd4311",
+        "sha256sum" : "8595844a6b08b538a0428faa2b3efd7fc1539b2fef808aaabbf41c22a54b37cf"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "17373",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "7a8e2577d0499900d7046be85cfe3685",
+        "sha1sum" : "db5034b95800ff5294b4e9d2d1c4b7abf5b92447",
+        "sha256sum" : "3033307941b32feb2ff5dcb58da7545150fd988d1c1df2f35d2ffa05d6c25277"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "705",
+        "mimeType" : "text/plain",
+        "md5sum" : "5b17d04d7e01251cf23763cf659e24ac",
+        "sha1sum" : "d7b7aef3ca8937196d8a08e8396025b60efa32a1",
+        "sha256sum" : "33194c36355ca60a1b4eefa906aedc6bc547a02660f58a3afdd267fcf5e91407"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2045",
+        "mimeType" : "application/xml",
+        "md5sum" : "460b0322268b84a96a126b2e3ee037ae",
+        "sha1sum" : "dead85829dfcae739738be757c786340cfdaa48a",
+        "sha256sum" : "5d3e60b5ab74d49c90385b4c7931d61023e94a7f7e339fa06215a7597775baec"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6372",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "a55cc24ff2128386f1d2da8e53e579d7",
+        "sha1sum" : "16ddb864959b90cab3b07dbef3b9b5a42094054c",
+        "sha256sum" : "6f61dc03d598b4a6e960f799f2b7c4b35e78515ba5c65d499c90079afdba5f1c"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1277287935,
+        "submitter" : "Camille Laibe",
+        "comment" : "Original import of Lockwood2006_PKPD_AlzheimersDisease"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1277475474,
+        "submitter" : "Camille Laibe",
+        "comment" : "Current version of Lockwood2006_PKPD_AlzheimersDisease"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1518623696,
+        "submitter" : "administrator",
+        "comment" : "Current curated version of Lockwood2006_PKPD_AlzheimersDisease"
+      },
+      {
+        "version" : 4,
+        "submitted" : 1724286163,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285405,
+  "submissionId" : "MODEL1006230054",
+  "publicationId" : "BIOMD0000000673",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000020",
+    "name" : "pharmacodynamics model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000020"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "administrator",
+        "email" : "develop@biomodels.org",
+        "affiliation" : "EMBL - European Bioinformatics Institute (EBI)",
+        "external" : false
+      },
+      {
+        "name" : "Camille Laibe",
+        "email" : "laibe@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "orcid" : "0000-0002-4625-743X",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aab",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1006230054",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1006230054"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "16906456",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/16906456"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000673",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000673"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "CHEBI:38325",
+      "name" : "muscarinic agonist",
+      "resource" : "ChEBI",
+      "uri" : "http://identifiers.org/chebi/CHEBI:38325"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "MAMO:0000020",
+      "name" : "pharmacodynamic model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000020"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "HP:0002511",
+      "name" : "Alzheimer disease",
+      "resource" : "Human Phenotype Ontology",
+      "uri" : "http://identifiers.org/hp/HP:0002511"
+    },
+    {
+      "qualifier" : "bqbiol:isDescribedBy",
+      "accession" : "10.1007/s11095-006-9048-8",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1007/s11095-006-9048-8"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO:0000020",
+      "name" : "pharmacodynamic model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000020"
+    }
+  ]
+}

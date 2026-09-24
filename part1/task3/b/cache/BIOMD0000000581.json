@@ -1,0 +1,319 @@
+{
+  "name" : "DallePezze2012 - TSC-independent mTORC2 regulation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">DallePezze2012 - TSC-independent mTORC2regulation</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/22457331\" title=\"Access to this publication\">A dynamic network model of    mTOR signaling reveals TSC-independent mTORC2 regulation.</a>  </div>  <div class=\"bibo:authorList\">Dalle Pezze P, Sonntag AG, Thien A,  Prentzell MT, Gödel M, Fischer S, Neumann-Haefelin E, Huber  TB, Baumeister R, Shanley DP, Thedieck K.</div>  <div class=\"bibo:Journal\">Sci Signal 2012 Mar; 5(217): ra25</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>The kinase mammalian target of rapamycin (mTOR) exists in    two multiprotein complexes (mTORC1 and mTORC2) and is a central    regulator of growth and metabolism. Insulin activation of    mTORC1, mediated by phosphoinositide 3-kinase (PI3K), Akt, and    the inhibitory tuberous sclerosis complex 1/2 (TSC1-TSC2),    initiates a negative feedback loop that ultimately inhibits    PI3K. We present a data-driven dynamic insulin-mTOR network    model that integrates the entire core network and used this    model to investigate the less well understood mechanisms by    which insulin regulates mTORC2. By analyzing the effects of    perturbations targeting several levels within the network in    silico and experimentally, we found that, in contrast to    current hypotheses, the TSC1-TSC2 complex was not a direct or    indirect (acting through the negative feedback loop) regulator    of mTORC2. Although mTORC2 activation required active PI3K,    this was not affected by the negative feedback loop. Therefore,    we propose an mTORC2 activation pathway through a PI3K variant    that is insensitive to the negative feedback loop that    regulates mTORC1. This putative pathway predicts that mTORC2    would be refractory to Akt, which inhibits TSC1-TSC2, and,    indeed, we found that mTORC2 was insensitive to constitutive    Akt activation in several cell types. Our results suggest that    a previously unknown network structure connects mTORC2 to its    upstream cues and clarifies which molecular connectors    contribute to mTORC2 activation.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000581\">BIOMD0000000581</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "22457331",
+    "journal" : "Science signaling",
+    "title" : "A dynamic network model of mTOR signaling reveals TSC-independent mTORC2 regulation.",
+    "affiliation" : "Institute for Ageing and Health, Newcastle University, Campus for Ageing and Vitality, Newcastle upon Tyne, UK.",
+    "synopsis" : "The kinase mammalian target of rapamycin (mTOR) exists in two multiprotein complexes (mTORC1 and mTORC2) and is a central regulator of growth and metabolism. Insulin activation of mTORC1, mediated by phosphoinositide 3-kinase (PI3K), Akt, and the inhibitory tuberous sclerosis complex 1/2 (TSC1-TSC2), initiates a negative feedback loop that ultimately inhibits PI3K. We present a data-driven dynamic insulin-mTOR network model that integrates the entire core network and used this model to investigate the less well understood mechanisms by which insulin regulates mTORC2. By analyzing the effects of perturbations targeting several levels within the network in silico and experimentally, we found that, in contrast to current hypotheses, the TSC1-TSC2 complex was not a direct or indirect (acting through the negative feedback loop) regulator of mTORC2. Although mTORC2 activation required active PI3K, this was not affected by the negative feedback loop. Therefore, we propose an mTORC2 activation pathway through a PI3K variant that is insensitive to the negative feedback loop that regulates mTORC1. This putative pathway predicts that mTORC2 would be refractory to Akt, which inhibits TSC1-TSC2, and, indeed, we found that mTORC2 was insensitive to constitutive Akt activation in several cell types. Our results suggest that a previously unknown network structure connects mTORC2 to its upstream cues and clarifies which molecular connectors contribute to mTORC2 activation.",
+    "year" : 2012,
+    "month" : "3",
+    "volume" : "5",
+    "issue" : "217",
+    "pages" : "ra25",
+    "link" : "http://identifiers.org/pubmed/22457331",
+    "authors" : [
+      {
+        "name" : "Piero Dalle Pezze",
+        "institution" : "Institute for Cell and Molecular Biosciences (ICaMB), Newcastle University, Newcastle upon Tyne NE2 4HH, UK.Centre for Integrated Systems Biology of Ageing and Nutrition, Newcastle University Institute for Ageing, Newcastle upon Tyne NE4 5PL, UK.Babraham Institute, Babraham Research Campus, Cambridge CB22 3AT, UK.",
+        "orcid" : "0000-0003-1695-6763"
+      },
+      {
+        "name" : "Annika G Sonntag"
+      },
+      {
+        "name" : "Antje Thien"
+      },
+      {
+        "name" : "Mirja T Prentzell",
+        "orcid" : "0000-0002-9659-9825"
+      },
+      {
+        "name" : "Markus Gödel"
+      },
+      {
+        "name" : "Sven Fischer"
+      },
+      {
+        "name" : "Elke Neumann-Haefelin"
+      },
+      {
+        "name" : "Tobias B Huber",
+        "orcid" : "0000-0001-7175-5062"
+      },
+      {
+        "name" : "Ralf Baumeister"
+      },
+      {
+        "name" : "Daryl P Shanley",
+        "orcid" : "0000-0003-3096-6386"
+      },
+      {
+        "name" : "Kathrin Thedieck",
+        "institution" : "Laboratory of Pediatrics, Section Systems Medicine of Metabolism and Signaling, University of Groningen, University Medical Center Groningen, Groningen, The Netherlands kathrin.thedieck@uibk.ac.at.Department for Neuroscience, School of Medicine and Health Sciences, Carl von Ossietzky University Oldenburg, Oldenburg, Germany.Institute of Biochemistry and Center for Molecular Biosciences Innsbruck, University of Innsbruck, Innsbruck, Austria.",
+        "orcid" : "0000-0002-9069-2930"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000581_url.xml",
+        "description" : "SBML L2V4 representation of DallePezze2012 - TSC-independent mTORC2 regulation",
+        "fileSize" : "104171",
+        "mimeType" : "application/xml",
+        "md5sum" : "c3238b98083d101c23b535e007863883",
+        "sha1sum" : "5b51ee315b52e840220e620e41192983394852b8",
+        "sha256sum" : "28102a93d9d829939c522d8b885f85ebaa62706cd39acf617cb33debdc8b9172"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000581-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "64248",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "8e35cc7f7a849bace373ee7fc3a593d0",
+        "sha1sum" : "67c34d0ed9de43d4e56af12153fe3ebd7a1b8cc3",
+        "sha256sum" : "15e176b8dbbf77d11762189d5b24ac8ec1644a86011d1bb5a23bac129539936e"
+      },
+      {
+        "name" : "BIOMD0000000581-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "108283",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "95091d95f5ecc687c29fd3e9892d0e8f",
+        "sha1sum" : "753a8956128839b7aea6097b4aecb803e8904085",
+        "sha256sum" : "54c4d70705a042b4c8c0265c5d0546f2006391736944c7753a0e9f53de8467bb"
+      },
+      {
+        "name" : "BIOMD0000000581-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "16634",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "0c6ec019583065dc1f3716c0d318b321",
+        "sha1sum" : "c221405c7d2053826eab3f11833eb4aa249da339",
+        "sha256sum" : "a4c824fca0442b46b26242c02d98a4189c344b09e334a8ec5620662180427332"
+      },
+      {
+        "name" : "BIOMD0000000581-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "16634",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "223f1cb0ac04b00af5b856f60d0c3b0d",
+        "sha1sum" : "c4f89c1cee8cd685342754bcbdd2b58f87e106af",
+        "sha256sum" : "054d505597d4c0adbb6c92447d521ba6c884ba238d9641aa2e53319e9c06bb6d"
+      },
+      {
+        "name" : "BIOMD0000000581.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "16634",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "223f1cb0ac04b00af5b856f60d0c3b0d",
+        "sha1sum" : "c4f89c1cee8cd685342754bcbdd2b58f87e106af",
+        "sha256sum" : "054d505597d4c0adbb6c92447d521ba6c884ba238d9641aa2e53319e9c06bb6d"
+      },
+      {
+        "name" : "BIOMD0000000581.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "12745",
+        "mimeType" : "text/plain",
+        "md5sum" : "0e2a4ab6393294a227e3b59bd6cb50b7",
+        "sha1sum" : "bcd98b0b61718b11f96a78822ca639840a79d61a",
+        "sha256sum" : "5b24a246049be6521dd836012c1ef8cf3bb998f945ead2853617c5cfe7ab22e4"
+      },
+      {
+        "name" : "BIOMD0000000581.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "353616",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9e533b35b21b92ca0f639c5004f5e79b",
+        "sha1sum" : "cf448d78d51b0a1cf428303b47583464f8a663e1",
+        "sha256sum" : "ae07107a016fca6093742e058df83aefb401060f1b717bf91476351a01fc627e"
+      },
+      {
+        "name" : "BIOMD0000000581.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "728649",
+        "mimeType" : "image/png",
+        "md5sum" : "2889ddd475d3d1a59c037392444bfdb9",
+        "sha1sum" : "ab48e1b11d31c90fa63911476aed2e9d678d38e1",
+        "sha256sum" : "5e98d58a5e8c6024a96f429c89f62b3ba73bc13eac63a1ea1e0bde1a7c329663"
+      },
+      {
+        "name" : "BIOMD0000000581.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "112995",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "e71134f9cc2f936a93a4c603dd2205dd",
+        "sha1sum" : "957eae7bdfa445d05d7730ed389d43ba02387eca",
+        "sha256sum" : "3e886046c7d1f7b67915794292767be056747aa5903f9049bc3551ea71293050"
+      },
+      {
+        "name" : "BIOMD0000000581_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "40332",
+        "mimeType" : "application/xml",
+        "md5sum" : "11b40f549b45271aa34dd32dba04dac0",
+        "sha1sum" : "2878e6137e1fd08725baf78fcdfdbad79eefee2d",
+        "sha256sum" : "b1476f4e2e95fe009bf43f9d7e01f63623f0aa5b42dc54904ad5f6ffd2392dec"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "18573",
+        "mimeType" : "image/png",
+        "md5sum" : "ca88ea54c66656cbc0e79f17c107abae",
+        "sha1sum" : "4bd9f8d52edb91ba2a8495fb7dee7cca34a8bbe8",
+        "sha256sum" : "43f186283f57512a4ef9ad0400997ec11ebfa6c79d85a9d55e18e51ed2edf1b2"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "113",
+        "mimeType" : "text/plain",
+        "md5sum" : "661bdfaa788a97d2af882f152963e7cd",
+        "sha1sum" : "4283efdbed82abe9670d2a84a79de92ecb8303bd",
+        "sha256sum" : "cbc61983fd3053fa86f9cdd2fdfe9828f7211d4aeed1c78fb36e06e27ed81cda"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "9f1e058fa853cd0e2903b666dde9e865",
+        "sha1sum" : "1b55377c38a2f2c1874fd44e4186fa70c6438196",
+        "sha256sum" : "c8b772f1a71ff5f89217768fefa8417c46b50cd272067c40ccb3800115a381fa"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5438",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9a9dd26a6844a502d8aa1b0d73264543",
+        "sha1sum" : "8554f15f13e72c3fcab189251dde8e306bb48d32",
+        "sha256sum" : "10ae79e9569440e3c6eb2ef73276ea60455939f57247b628db0327ce4d2b5bf1"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1435055525,
+        "submitter" : "Piero Dalle Pezze",
+        "comment" : "Original import of mTOR model"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1441893135,
+        "submitter" : "Piero Dalle Pezze",
+        "comment" : "Current version of DallePezze2012 - TSC-independent mTORC2 regulation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724282361,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285363,
+  "submissionId" : "MODEL1506230001",
+  "publicationId" : "BIOMD0000000581",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Piero Dalle Pezze",
+        "email" : "piero.dallepezze@gmail.com",
+        "affiliation" : "Newcastle University",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "10090",
+      "name" : "Mus musculus",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/10090"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000165",
+      "name" : "C2C12 cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000165"
+    },
+    {
+      "qualifier" : "bqbiol:occursIn",
+      "accession" : "BTO:0000567",
+      "name" : "HeLa cell",
+      "resource" : "Brenda Tissue Ontology",
+      "uri" : "http://identifiers.org/bto/BTO:0000567"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0032869",
+      "name" : "cellular response to insulin stimulus",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0032869"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1506230001",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1506230001"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000581",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000581"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "22457331",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/22457331"
+    }
+  ]
+}

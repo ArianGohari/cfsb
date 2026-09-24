@@ -1,0 +1,9 @@
+{
+  "reason": "Requests 9 und 10: HTTP 200, hitCount 0 trotz Crossref-Identitäten. Unquotierte Klammern in DOI können die Query-Syntax stören. Nulltreffer werden nicht als Abwesenheit älterer Literatur interpretiert.",
+  "change": "Die zwei letzten Budgetplätze werden für genau eine quotierte gemeinsame Referenzsuche und höchstens einen darauf basierenden PMCID-Volltextabruf verwendet. Keine weiteren Suchen, keine Retry-Schleife.",
+  "id": "prior_quoted",
+  "parameters": {"format": "json", "resultType": "core", "pageSize": 20, "cursorMark": "*"},
+  "query": "DOI:\"10.1016/S0304-3835(99)00320-1\" OR DOI:\"10.1097/00001648-200101000-00013\" OR TITLE:\"Importance of cell kinetics rhythmicity for control of cell proliferation and carcinogenesis in rat liver\" OR DOI:\"10.1093/jnci/94.9.690\" OR DOI:\"10.1093/carcin/bgi075\" OR DOI:\"10.1016/S0002-9440(10)64135-1\" OR DOI:\"10.1016/S0002-9440(10)65306-0\" OR DOI:\"10.1016/0016-5085(91)90019-H\" OR DOI:\"10.1002/ar.1091200408\" OR DOI:\"10.1074/jbc.M107499200\" OR DOI:\"10.1073/pnas.0502610102\"",
+  "limits": "Eine Seite, maximal 20 Records, Standard-Relevanzsortierung; keine zusätzlichen Datums-, Sprach-, Species- oder OA-Filter. Weiterhin max. 12 neue HTTP-Abfragen insgesamt.",
+  "fulltext_selection": "Bevorzugt eine ältere, von Matsuo zitierte Originalarbeit zur Uhr-Zellzyklus-Beziehung mit vorhandener PMCID; andernfalls eine ältere Uhr-Tumor-Arbeit aus den Referenzen. Auswahl und URL vor Request 12 separat festhalten."
+}

@@ -1,0 +1,304 @@
+{
+  "name" : "Butenas2004_BloodCoagulation",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This model originates from BioModels Database: A Database of Annotated Published Models (http://www.ebi.ac.uk/biomodels/). It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "15039440",
+    "journal" : "The Journal of biological chemistry",
+    "title" : "The significance of circulating factor IXa in blood.",
+    "affiliation" : "Department of Biochemistry, University of Vermont, Burlington, Vermont 05405-0068, USA.",
+    "synopsis" : "The presence of activation peptides (AP) of the vitamin K-dependent proteins in the phlebotomy blood of human subjects suggests that active serine proteases may circulate in blood as well. The goal of the current study was to evaluate the influence of trace amounts of key coagulation proteases on tissue factor-independent thrombin generation using three models of coagulation. With procoagulants and select coagulation inhibitors at mean physiological concentrations, concentrations of factor IXa, factor Xa, and thrombin were set either equal to those of their AP or to values that would result based upon the rates of AP/enzyme generation and steady state enzyme inhibition. In the latter case, numerical simulation predicts that sufficient thrombin to produce a solid clot would be generated in approximately 2 min. Empirical data from the synthetic plasma suggest clotting times of 3-5 min, which are similar to that observed in contact pathway-inhibited whole blood (4.3 min) initiated with the same concentrations of factors IXa and Xa and thrombin. Numerical simulations performed with the concentrations of two of the enzymes held constant and one varied suggest that the presence of any pair of enzymes is sufficient to yield rapid clot formation. Modeling of states (numerical simulation and whole blood) where only one circulating protease is present at steady state concentration shows significant thrombin generation only for factor IXa. The addition of factor Xa and thrombin has little effect (if any) on thrombin generation induced by factor IXa alone. These data indicate that 1) concentrations of active coagulation enzymes circulating in vivo are significantly lower than can be predicted from the concentrations of their AP, and 2) expected trace amounts of factor IXa can trigger thrombin generation in the absence of tissue factor.",
+    "year" : 2004,
+    "month" : "5",
+    "volume" : "279",
+    "issue" : "22",
+    "pages" : "22875-22882",
+    "link" : "http://identifiers.org/pubmed/15039440",
+    "authors" : [
+      {
+        "name" : "Saulius Butenas",
+        "institution" : "Department of Biochemistry, University of Vermont, Burlington, Vermont 05405-0068, USA."
+      },
+      {
+        "name" : "Thomas Orfeo"
+      },
+      {
+        "name" : "Matthew T Gissel"
+      },
+      {
+        "name" : "Kathleen E Brummel"
+      },
+      {
+        "name" : "Kenneth G Mann"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000362_url.xml",
+        "description" : "SBML L2V4 representation of Butenas2004_BloodCoagulation",
+        "fileSize" : "63318",
+        "mimeType" : "application/xml",
+        "md5sum" : "f0710c8c430c3232b835540be4ccfbaa",
+        "sha1sum" : "aa97a31262340fe2545b1c9eac2d59930fadebb2",
+        "sha256sum" : "2ff79d5e4bf5d9c5190249534e37239b771db2317a9b8fb39dee0e7203bf9fbd"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000362-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "61043",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "052a5223dcbbd7b47fa4caa48bbc7f8d",
+        "sha1sum" : "6e9566eaa38c2c7529ceb4b325fd440f13ae17ae",
+        "sha256sum" : "97e5bc877d023002d37451203ad52e66265011e8eba5ea03fd0d97c1e6cd6e0a"
+      },
+      {
+        "name" : "BIOMD0000000362-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "105777",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "be4ce98ad2bacc34e3ecc941137b00b7",
+        "sha1sum" : "17468750ad0c25857224a42d4400cfb32fbf6fbf",
+        "sha256sum" : "53080fe8fc35cf924e4a29fe75a0230b6bd9a3f3d5317acda4090b9726429a79"
+      },
+      {
+        "name" : "BIOMD0000000362-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "15922",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "af8a29c175dba1d5e01fd1f9524ae921",
+        "sha1sum" : "71bf013831800508356faf117fec006dfe30d863",
+        "sha256sum" : "99138e71f1a6edd377f06ccd125af112c6047d01847f7153c0f09c7b8c2d9fe0"
+      },
+      {
+        "name" : "BIOMD0000000362-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "15922",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4809bd8d23478e6b68fe971a23d237a4",
+        "sha1sum" : "3deb8dbee88c76fd4a20b344be62b1452241a2f0",
+        "sha256sum" : "3e83481120f178e6611f395d5f56dc60835d7d34f69f02c5444250b39371097c"
+      },
+      {
+        "name" : "BIOMD0000000362.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "15922",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "4809bd8d23478e6b68fe971a23d237a4",
+        "sha1sum" : "3deb8dbee88c76fd4a20b344be62b1452241a2f0",
+        "sha256sum" : "3e83481120f178e6611f395d5f56dc60835d7d34f69f02c5444250b39371097c"
+      },
+      {
+        "name" : "BIOMD0000000362.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "11813",
+        "mimeType" : "text/plain",
+        "md5sum" : "57f4e04b20a2a26e03a8cdf177be8929",
+        "sha1sum" : "55d21a25c69fa54d04b10b6e5443c4f9fe78c3f3",
+        "sha256sum" : "29880c7246ef5b2cfc99ea1f0bde74b3859ff11e4d69173834abd9ada1d2abc6"
+      },
+      {
+        "name" : "BIOMD0000000362.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "316178",
+        "mimeType" : "application/pdf",
+        "md5sum" : "16f8a7a0ccfa01aca84e04ea0c7f51fe",
+        "sha1sum" : "bfc23e97fafe801a9e320fd5a7a3316d47a8404b",
+        "sha256sum" : "7d4b457d1d3a59edb47890e216cc1c502a65b2139f499df02fd303c42109c0d9"
+      },
+      {
+        "name" : "BIOMD0000000362.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "441337",
+        "mimeType" : "image/png",
+        "md5sum" : "089bca089e2201f475f3b97d95139974",
+        "sha1sum" : "a8a1ae347cf3a8c2cfca4a6492b115e6fdf2a301",
+        "sha256sum" : "120d6827df38de7d17b30e6564fab4158f4c65db93c76bea06d354a461694b83"
+      },
+      {
+        "name" : "BIOMD0000000362.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "14098",
+        "mimeType" : "text/plain",
+        "md5sum" : "bcdfb0b3dbcea1fd7a67697941c14e1f",
+        "sha1sum" : "36c3d52b3e8acb50629b7934f40deda8a48650cf",
+        "sha256sum" : "c36211d9b263bf6f3ed4bcd64afd29c352ed84dca11400fb1273fc0abc0589d2"
+      },
+      {
+        "name" : "BIOMD0000000362.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "96957",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c7bc7a5891e8d3a0abed2d2f287f4f38",
+        "sha1sum" : "c24db40ac950901a5f017fac5fb1d119a96fd84e",
+        "sha256sum" : "a33faab31ba71bf0c87f51f65b78a01ed632d26971e51a2b033f81ac07e51a8e"
+      },
+      {
+        "name" : "BIOMD0000000362.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "90074",
+        "mimeType" : "application/xml",
+        "md5sum" : "55cddc625bf84442672914ea5d35f27b",
+        "sha1sum" : "3f1df7bbaa11e0f0d7277c8cec319a4c3c364142",
+        "sha256sum" : "b983c9f193f2b0e918b5179cc3a02813865ea13e01eba9a2e4fdedc47c6dbe55"
+      },
+      {
+        "name" : "BIOMD0000000362_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "63759",
+        "mimeType" : "application/xml",
+        "md5sum" : "582fdaf1b2b21df2939178a07363470a",
+        "sha1sum" : "bcc5f30ab49d01aad2f4d856d8183e10f1045c7d",
+        "sha256sum" : "9274e25eb727b74c2ca8b5f90b3ffe95efd0a731b301144393c050c8cda49ff5"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "65533",
+        "mimeType" : "image/png",
+        "md5sum" : "41bfaf3647bf30cd2fb5fd4c8afe6369",
+        "sha1sum" : "8a43d90110a5f8bc290375b27be4a036b16ac0d1",
+        "sha256sum" : "6870603ea24937b47180d0d3000c86395dea3b97279f211d4f499f79a24881de"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "104",
+        "mimeType" : "text/plain",
+        "md5sum" : "49caa124bb215dc948bdf337aafb3eb2",
+        "sha1sum" : "12b13d9d127e1755738a165b57292c4184e04469",
+        "sha256sum" : "6f023af5928aff75a947b6a2186f1c5b50b334e9531acdc024b29a4b6e36cc08"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2033",
+        "mimeType" : "application/xml",
+        "md5sum" : "f529151bdad19e9adf8883a4dd567e5a",
+        "sha1sum" : "72e1cd18add914583e5fe5213ea51abf3c1f0127",
+        "sha256sum" : "ea0d2b363a0df20d6a8a1bf1d917c730cd289870874a64126efe30375c7ea793"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3624",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "687b9c9981c070442c4dea47cd9a6adf",
+        "sha1sum" : "9e8a835b4072fd3b68723603b3b97f863763f465",
+        "sha256sum" : "7196407ffc76324274ad83235ddda203655ce130e874d6d33189a3f5610349b5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1314378902,
+        "submitter" : "Michael Schubert",
+        "comment" : "Original import of Butenas2004_BloodCoagulation"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1412878113,
+        "submitter" : "Michael Schubert",
+        "comment" : "Current version of Butenas2004_BloodCoagulation"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724274673,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285081,
+  "submissionId" : "MODEL1108260005",
+  "publicationId" : "BIOMD0000000362",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Michael Schubert",
+        "email" : "schubert@ebi.ac.uk",
+        "affiliation" : "EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0007596",
+      "name" : "blood coagulation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0007596"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "2759",
+      "name" : "Eukaryota",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/2759"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1108260005",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1108260005"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000362",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000362"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "15039440",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15039440"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "9020158",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/9020158"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "8083241",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8083241"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

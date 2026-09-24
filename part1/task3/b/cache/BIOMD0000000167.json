@@ -1,0 +1,289 @@
+{
+  "name" : "Mayya2005_STATmodule",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>The model reproduces Fig 2B of the paper. Model successfully reproduced using MathSBML.</p>            <br />            <p>To the extent possible under law, all copyright and related or neighbouring rights to this encoded model have been dedicated to the public domain worldwide. Please refer to      <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Creative Commons CC0\">CC0 Public Domain Dedication</a>          for more information.      </p>            <p>In summary, you are entitled to use this encoded model in absolutely any manner you deem suitable, verbatim, or with modification, alone or embedded it in a larger context, redistribute it, commercially or not, in a restricted way or not.</p>            <br />            <p>To cite BioModels Database, please use:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "17091582",
+    "journal" : "Systems biology",
+    "title" : "STAT module can function as a biphasic amplitude filter.",
+    "affiliation" : "Department of Cell Biology and Center for Cell Analysis and Modeling, University of Connecticut Health Center, Farmington 06030, USA. les@volt.uchc.edu",
+    "synopsis" : "Signal transducer and actuator of transcription (STATs) are a family of transcription factors activated by various cytokines, growth factors and hormones. They are important mediators of immune responses and growth and differentiation of various cell types. The STAT signalling system represents a defined functional module with a pattern of signalling that is conserved from flies to mammals. In order to probe and gain insights into the signalling properties of the STAT module by computational means, we developed a simple non-linear ordinary differential equations model within the 'Virtual Cell' framework. Our results demonstrate that the STAT module can operate as a 'biphasic amplitude filter' with an ability to amplify input signals within a specific intermediate range. We show that dimerisation of phosphorylated STAT is crucial for signal amplification and the amplitude filtering function. We also demonstrate that maximal amplification at intermediate levels of STAT activation is a moderately robust property of STAT module. We propose that these observations can be extrapolated to the analogous SMAD signalling module.",
+    "year" : 2005,
+    "month" : "3",
+    "volume" : "2",
+    "issue" : "1",
+    "pages" : "43-52",
+    "link" : "http://identifiers.org/pubmed/17091582",
+    "authors" : [
+      {
+        "name" : "V Mayya",
+        "institution" : "Department of Cell Biology and Center for Cell Analysis and Modeling, University of Connecticut Health Center, Farmington 06030, USA. les@volt.uchc.edu",
+        "orcid" : "0000-0001-5668-9124"
+      },
+      {
+        "name" : "L M Loew",
+        "orcid" : "0000-0002-1851-4646"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000167_url.xml",
+        "description" : "SBML L2V1 representation of Mayya2005_STATmodule",
+        "fileSize" : "27388",
+        "mimeType" : "application/xml",
+        "md5sum" : "4e84830178d31221947e2eac262f2243",
+        "sha1sum" : "dab0d22a4af62e7ce1c7f9f703cb7ba986d2f5ab",
+        "sha256sum" : "0b2f0163cb57ef5750ce5afbae7eeeccda9fd83cd87575101ecb2b63e783347c"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000167-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "16893",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "6b908b34382364f14735ed1c76bf2fc3",
+        "sha1sum" : "8cc26708ff710f0728f081ecc2674dff7c1a32aa",
+        "sha256sum" : "f4d8b0bcda3446405ea309087a5915a6c5814e86b6174a46d07bfa867ac1f0f1"
+      },
+      {
+        "name" : "BIOMD0000000167-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "24633",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "de9306104204d62ec49f83afe3b3816d",
+        "sha1sum" : "3185b89c442b616c3c56e30a0d9a346d13b3c5ed",
+        "sha256sum" : "d02d11e2ece26ade11b671e1d04f7f82bb4f29987e3d860414ad8330e2be3112"
+      },
+      {
+        "name" : "BIOMD0000000167-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "7485",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "25eea0fda18f9aad81d0b01f45f1170f",
+        "sha1sum" : "556081c94a6b27fc349f2f56e63cfbe44a69ae73",
+        "sha256sum" : "4809f452c84d959738fcef59ce8e91361cb9add7bdea5eab2f63ce7a34bd0c61"
+      },
+      {
+        "name" : "BIOMD0000000167.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "7485",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "31ff10fd0d634b19b3e14308b21d99b3",
+        "sha1sum" : "196fa3818b022090b0541bbe374b92c70addb970",
+        "sha256sum" : "5384ddc669572a9f20b15d502d3c3fc46de4a0358e6908cac9ed49f93f4963f0"
+      },
+      {
+        "name" : "BIOMD0000000167.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "4863",
+        "mimeType" : "text/plain",
+        "md5sum" : "47cf8f396058bdbff5b33a38d83105e0",
+        "sha1sum" : "f16e1bad14c20dc935af8b1485b2f357f6088516",
+        "sha256sum" : "9daeb3e9ede7f1c2f5d82cdd35f64788563453c076b50892509d479c9864c2a0"
+      },
+      {
+        "name" : "BIOMD0000000167.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "182804",
+        "mimeType" : "application/pdf",
+        "md5sum" : "f98aade0eee239ab8e48bc01cc333a07",
+        "sha1sum" : "26293740cbaed5183650de1cc91b62babb31ea61",
+        "sha256sum" : "620bf3001ec94557425e18e55771aebde0f6a5e83eafda8d867c0e1343ae5c10"
+      },
+      {
+        "name" : "BIOMD0000000167.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "56904",
+        "mimeType" : "image/png",
+        "md5sum" : "45d81728ff644e5590afa4b1009e523d",
+        "sha1sum" : "d8038c80053d7aa93617face78f75b2e2774538f",
+        "sha256sum" : "ef44b92bcf37e6283f5272a9dc8c44a79cc775239b4a4f301eac62c0d5ce34b0"
+      },
+      {
+        "name" : "BIOMD0000000167.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "23200",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "7eb49f6da814d2614838a0b507749d2b",
+        "sha1sum" : "b8494a5c4780b337b0582c18505d3b2b0ab27a9e",
+        "sha256sum" : "d79c8a24f0f23b460ba40137f09ba4b9e5951cf17a831ab29a94c7e484e5a384"
+      },
+      {
+        "name" : "BIOMD0000000167_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "13959",
+        "mimeType" : "application/xml",
+        "md5sum" : "b0517fc3678a35fbf994e9fa1ae2b503",
+        "sha1sum" : "37700832c1eb4d84a0e3fc791c9faeb7eebaab00",
+        "sha256sum" : "9839dc82a27d94e0a12cccdfd9ba0466ae3a174cf2bd7150814bf405d7f903a7"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "32876",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "3c2bab4750ff48fa8bea60ac8b7d0a88",
+        "sha1sum" : "5ce7cff31b58f1906ee47feb10d935dd8b26c8eb",
+        "sha256sum" : "9d299ef7097a170b433ee76c70aa74b3eb060ef738163fb84c3d34bc0732641d"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "72",
+        "mimeType" : "text/plain",
+        "md5sum" : "fe0ce73e6a49cd2e7b03c9a8cde3ebb0",
+        "sha1sum" : "8612f8286069c59c6e2f455c6e33e037eb947c5d",
+        "sha256sum" : "d169b5fc46f29a2d8bc2861aa718d09e660e270054e36c0a7521149efe21907d"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1673",
+        "mimeType" : "application/xml",
+        "md5sum" : "59bfb872e38a3cc2f4305bb24dbc57ab",
+        "sha1sum" : "ad8777ba1249e1443874858913aa6ecc60d25030",
+        "sha256sum" : "947a11621c697986fdcdc904d0fd41f5f307b476d75c9959fd6a1295600efab4"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "3828",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c1443178788af52c0ba1e9a112101991",
+        "sha1sum" : "811fc76b3074cd425bbcfbd8e0520e581350812a",
+        "sha256sum" : "8a403e05e546e94bab0d221077da583e1a7b6e2f008a974a4adb51db09ff0f1f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1203898071,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Mayya2005_STATmodule"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401232623,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Mayya2005_STATmodule"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724269200,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284912,
+  "submissionId" : "MODEL6095659304",
+  "publicationId" : "BIOMD0000000167",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "131567",
+      "name" : "cellular organisms",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/131567"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000093",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000093"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "BIOMD0000000094",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000094"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6095659304",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6095659304"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000167",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000167"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "17091582",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/17091582"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "15240442",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/15240442"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "12552139",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12552139"
+    },
+    {
+      "qualifier" : "bqbiol:hasPart",
+      "accession" : "hsa04630",
+      "name" : "Jak-STAT signaling pathway - Homo sapiens (human)",
+      "resource" : "KEGG Pathway",
+      "uri" : "http://identifiers.org/kegg.pathway/hsa04630"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0042509",
+      "name" : "regulation of tyrosine phosphorylation of STAT protein",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042509"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

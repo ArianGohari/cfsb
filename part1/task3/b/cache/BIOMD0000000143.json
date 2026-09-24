@@ -1,0 +1,308 @@
+{
+  "name" : "Olsen2003_neutrophil_oscillatory_metabolism",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <div class=\"dc:title\">Olsen2003_neutrophil_oscillatory_metabolism</div><div class=\"dc:bibliographicCitation\">  <p>This model is described in the article:</p>  <div class=\"bibo:title\">    <a href=\"http://identifiers.org/pubmed/12524266\" title=\"Access to this publication\">A model of the oscillatory    metabolism of activated neutrophils.</a>  </div>  <div class=\"bibo:authorList\">Olsen LF, Kummer U, Kindzelskii AL,  Petty HR.</div>  <div class=\"bibo:Journal\">Biophys. J. 2003 Jan; 84(1):  69-81</div>  <p>Abstract:</p>  <div class=\"bibo:abstract\">    <p>We present a two-compartment model to explain the    oscillatory behavior observed experimentally in activated    neutrophils. Our model is based mainly on the    peroxidase-oxidase reaction catalyzed by myeloperoxidase with    melatonin as a cofactor and NADPH oxidase, a major protein in    the phagosome membrane of the leukocyte. The model predicts    that after activation of a neutrophil, an increase in the    activity of the hexose monophosphate shunt and the delivery of    myeloperoxidase into the phagosome results in oscillations in    oxygen and NAD(P)H concentration. The period of oscillation    changes from &gt;200 s to 10-30 s. The model is consistent with    previously reported oscillations in cell metabolism and oxidant    production. Key features and predictions of the model were    confirmed experimentally. The requirement of the hexose    monophosphate pathway for 10 s oscillations was verified using    6-aminonicotinamide and dexamethasone, which are inhibitors of    glucose-6-phosphate dehydrogenase. The role of the NADPH    oxidase in promoting oscillations was confirmed by    dose-response studies of the effect of diphenylene iodonium, an    inhibitor of the NADPH oxidase. Moreover, the model predicted    an increase in the amplitude of NADPH oscillations in the    presence of melatonin, which was confirmed experimentally.    Successful computer modeling of complex chemical dynamics    within cells and their chemical perturbation will enhance our    ability to identify new antiinflammatory compounds.</p>  </div></div><div class=\"dc:publisher\">  <p>This model is hosted on   <a href=\"http://www.ebi.ac.uk/biomodels/\">BioModels Database</a>  and identified by:   <a href=\"http://identifiers.org/biomodels.db/BIOMD0000000143\">BIOMD0000000143</a>.</p>  <p>To cite BioModels Database, please use:   <a href=\"http://identifiers.org/pubmed/20587024\" title=\"Latest BioModels Database publication\">BioModels Database:  An enhanced, curated and annotated resource for published  quantitative kinetic models</a>.</p></div><div class=\"dc:license\">  <p>To the extent possible under law, all copyright and related or  neighbouring rights to this encoded model have been dedicated to  the public domain worldwide. Please refer to   <a href=\"http://creativecommons.org/publicdomain/zero/1.0/\" title=\"Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication\">CC0  Public Domain Dedication</a> for more information.</p></div></body>    </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V1"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12524266",
+    "journal" : "Biophysical journal",
+    "title" : "A model of the oscillatory metabolism of activated neutrophils.",
+    "affiliation" : "European Media Laboratory, Schloss-Wolfsbrunnenweg 33, D-69118 Heidelberg, Germany. lfo@dou.dk",
+    "synopsis" : "We present a two-compartment model to explain the oscillatory behavior observed experimentally in activated neutrophils. Our model is based mainly on the peroxidase-oxidase reaction catalyzed by myeloperoxidase with melatonin as a cofactor and NADPH oxidase, a major protein in the phagosome membrane of the leukocyte. The model predicts that after activation of a neutrophil, an increase in the activity of the hexose monophosphate shunt and the delivery of myeloperoxidase into the phagosome results in oscillations in oxygen and NAD(P)H concentration. The period of oscillation changes from >200 s to 10-30 s. The model is consistent with previously reported oscillations in cell metabolism and oxidant production. Key features and predictions of the model were confirmed experimentally. The requirement of the hexose monophosphate pathway for 10 s oscillations was verified using 6-aminonicotinamide and dexamethasone, which are inhibitors of glucose-6-phosphate dehydrogenase. The role of the NADPH oxidase in promoting oscillations was confirmed by dose-response studies of the effect of diphenylene iodonium, an inhibitor of the NADPH oxidase. Moreover, the model predicted an increase in the amplitude of NADPH oscillations in the presence of melatonin, which was confirmed experimentally. Successful computer modeling of complex chemical dynamics within cells and their chemical perturbation will enhance our ability to identify new antiinflammatory compounds.",
+    "year" : 2003,
+    "month" : "1",
+    "volume" : "84",
+    "issue" : "1",
+    "pages" : "69-81",
+    "link" : "http://identifiers.org/pubmed/12524266",
+    "authors" : [
+      {
+        "name" : "L F Olsen",
+        "orcid" : "0000-0001-7391-2340"
+      },
+      {
+        "name" : "Ursula Kummer"
+      },
+      {
+        "name" : "Andrei L Kindzelskii"
+      },
+      {
+        "name" : "Howard R Petty"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000143_url.xml",
+        "description" : "SBML L2V1 representation of Olsen2003_neutrophil_oscillatory_metabolism",
+        "fileSize" : "41538",
+        "mimeType" : "application/xml",
+        "md5sum" : "409176dd3dded0a819c7e41158345324",
+        "sha1sum" : "f59c31175bc33db2c7ea4334226503683b41d6ab",
+        "sha256sum" : "3464cba253c5e89529cbdc179f947a5bbe00e5c29755994acc6d0757dfe65217"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000143-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "40106",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "9daf7458586b664af9df7111d4966cf8",
+        "sha1sum" : "9e56b5907bdbfb7c143786b1e52cf39135829177",
+        "sha256sum" : "fd50929ea56b42d9fbc03f1a3a57045d6425093a47ebfeee09748ccfb1e585bd"
+      },
+      {
+        "name" : "BIOMD0000000143-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "63782",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "c241b5866a9104c517bec76b05dc0646",
+        "sha1sum" : "095a7c3ed48c14f152101f863144f0cff3483661",
+        "sha256sum" : "cc2a67a0a4699ec57662150d283c71cf74dab7ef98897aa6f19b31e9a3af62c0"
+      },
+      {
+        "name" : "BIOMD0000000143-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "10461",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "2600faf44682d91540d668137ffec980",
+        "sha1sum" : "34d25991ed9b042a415c19c34262cce4a83ea210",
+        "sha256sum" : "4fe953f9a2bc082540250eccf37c0bb1112851d2ad4c630eae14f45600411174"
+      },
+      {
+        "name" : "BIOMD0000000143-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "10461",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "895e5b0e022876095c17dd5b26ff2869",
+        "sha1sum" : "80e590188991c6e564f15cdf1206157d001bdb5f",
+        "sha256sum" : "5d619cbeccd54e5c43f47ffb16f67168f5a31692ab6e2047c920ff54d39232c2"
+      },
+      {
+        "name" : "BIOMD0000000143.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "9636",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "21ab250559a8c93084b96f39be6c2761",
+        "sha1sum" : "297c6985c4258f1186b3dab371f77a02a301ef84",
+        "sha256sum" : "1badbcfacad3ff0fc71816f46b4781763a7945c6cd12e371b08be54a59aaee4f"
+      },
+      {
+        "name" : "BIOMD0000000143.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "7537",
+        "mimeType" : "text/plain",
+        "md5sum" : "1ed633c7dc3764dc25ab5c415f3becf5",
+        "sha1sum" : "e214c2c17d5dd3fe1e70dbf8ffdf94eafe4fd831",
+        "sha256sum" : "191e177558f1216f01e2f1515b4257b28fa000d1e018e57f2a5b64a697388777"
+      },
+      {
+        "name" : "BIOMD0000000143.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "234498",
+        "mimeType" : "application/pdf",
+        "md5sum" : "c381c14f09462fec122043cadb208e5e",
+        "sha1sum" : "84924ae3ecec8cfdda860e42614a64a0612e5cc9",
+        "sha256sum" : "0026a63556e1cf68a0297e7dc1e30efa89eb9f10d293166add2dd8bf95b0abd7"
+      },
+      {
+        "name" : "BIOMD0000000143.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "181403",
+        "mimeType" : "image/png",
+        "md5sum" : "6a60177b3fe5e46689fe37b35fba2f81",
+        "sha1sum" : "bb361313ad441d23cde21aa807ba93612c8427d2",
+        "sha256sum" : "ce8a16d9f352352cd91b36ad03d0b65fc1c4512a86662e2ce1ddb102339f608f"
+      },
+      {
+        "name" : "BIOMD0000000143.sci",
+        "description" : "Auto-generated Scilab file",
+        "fileSize" : "7806",
+        "mimeType" : "text/plain",
+        "md5sum" : "299d3125bda2c4e86daaeeae9a1bedf2",
+        "sha1sum" : "780199e2dc190b0b4c85d19dfd75b9ca32b8ab0a",
+        "sha256sum" : "2ac5217dd6cca89ea16197b960a5e19ef77b04943c2c080bbc0e9f4cf407039e"
+      },
+      {
+        "name" : "BIOMD0000000143.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "45296",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "c84fb378f2aec73bae39f28d6e89ec60",
+        "sha1sum" : "271970aa81b5e3eaf4ad7014dc0a13c64fb14c68",
+        "sha256sum" : "f1c853e4500f072f13324f006ffbd37561783a647be7556cbc6ab05449aed820"
+      },
+      {
+        "name" : "BIOMD0000000143.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "60084",
+        "mimeType" : "application/xml",
+        "md5sum" : "b4ebb2cf6f973ebadbfc4266fc629909",
+        "sha1sum" : "ce555ed82f3b3bf2bcbf6c7bf258693de4dbc4e2",
+        "sha256sum" : "81fcdb3e6e99c79382a8fae54b35f96a2cda0355c12120e28dcfcef234c2719b"
+      },
+      {
+        "name" : "BIOMD0000000143_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "37961",
+        "mimeType" : "application/xml",
+        "md5sum" : "cf6bdd9af385cfe9e32358a852caa3bc",
+        "sha1sum" : "2a7d5c5a963865f162906e7995332732bc85adc7",
+        "sha256sum" : "8d4c4b71e090b3f7eadc2a70a6368cf50a96c798e5a7496ed97551acf736319d"
+      },
+      {
+        "name" : "curation_image.jpeg",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "141329",
+        "mimeType" : "image/jpeg",
+        "md5sum" : "c4a8b136b5bf1944a48fdde4e2cc5cf6",
+        "sha1sum" : "d8e1e6eb7641a0e99c8f49163c7935052ae8bbfc",
+        "sha256sum" : "2a4260e04d789699a553c0fae240e02280de4dec6ba92f6107b092fed2e25466"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "81",
+        "mimeType" : "text/plain",
+        "md5sum" : "1390b426166641291b64c170f2b9c551",
+        "sha1sum" : "dc17985fae61d3dd18f21ca14d9303014b1c4c06",
+        "sha256sum" : "5429e71215e703bc89bfc15751a6deb5a03327446179cffd6da62881dd77649e"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "2035",
+        "mimeType" : "application/xml",
+        "md5sum" : "b893e153925293a8163fb8e3ac330eb9",
+        "sha1sum" : "152f2f8c189e129648e2f44ee7143d71625449be",
+        "sha256sum" : "0d389774b552298f8dc347261ae9eeb152d9708c2f3a18002c3e741e6c1ef658"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "6082",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ce6d02be160f0cd571246b217d787f68",
+        "sha1sum" : "8016532da2db26ff381e8ab161b35374dca705fd",
+        "sha256sum" : "85e1c46a9d549f9c127526ed624eb9f067accf11c89d4d85e7ca700bd8b18f2d"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1187218554,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Original import of Olsen2003_neutrophil_oscillatory_metabolism"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1401805646,
+        "submitter" : "Harish Dharuri",
+        "comment" : "Current version of Olsen2003_neutrophil_oscillatory_metabolism"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724268508,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284899,
+  "submissionId" : "MODEL5564211615",
+  "publicationId" : "BIOMD0000000143",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Harish Dharuri",
+        "email" : "hdharuri@cds.caltech.edu",
+        "affiliation" : "California Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "11901676",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/11901676"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0016692",
+      "name" : "NADH peroxidase activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0016692"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "40674",
+      "name" : "Mammalia",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/40674"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL5564211615",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL5564211615"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000143",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000143"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12524266",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12524266"
+    },
+    {
+      "qualifier" : "bqmodel:isDerivedFrom",
+      "accession" : "10.1021/j100023a001",
+      "resource" : "DOI",
+      "uri" : "http://identifiers.org/doi/10.1021/j100023a001"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0030186",
+      "name" : "melatonin metabolic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0030186"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

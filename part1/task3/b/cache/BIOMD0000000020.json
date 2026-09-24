@@ -1,0 +1,284 @@
+{
+  "name" : "hodgkin-huxley squid-axon 1952",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version3\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p>This is an implementation of the Hodgkin-Huxley model of the electrical behavior of the squid axon membrane from:      <br />                <b>A quantitative description of membrane current and its application to conduction and excitation in nerve.</b>                <br />          A. L. Hodgkin and A. F. Huxley. (1952 )      <em>Journal of Physiology</em>          119(4): pp 500-544; pmID:      <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/12991237\">12991237</a>          .      <br />                </p>            <p>      <b>Abstract:</b>                <br />          This article concludes a series of papers concerned with the flow of electric current through the surface membrane of a giant nerve fibre (Hodgkin,Huxley &amp; Katz, 1952; Hodgkin &amp; Huxley, 1952 a-c). Its general object is to discuss the results of the preceding papers (Part I), to put them into mathematical form (Part II) and to show that they will account for conduction and excitation in quantitative terms (Part III).      </p>            <p>This SBML model uses the same formalism as the one described in the paper, contrary to modern versions:      <br />          * V describes the the membrane depolarisation relative to the resting potential of the membrane      <br />          * opposing to modern practice, depolarization is      <em>negative</em>          , not      <em>positive</em>          , so the sign of V is different      <br />          * inward transmembrane currents are considered positive (inward current positive), contrary to modern use      <br />          The changeable parameters are the equilibrium potentials(      <em>E_R, E_K, E_L, E_Na</em>          ), the membrane depolarization (      <em>V</em>          ) and the initial sodium and potassium channel activation and inactivation coefficients (      <em>m,h,n</em>          ). The initial values of      <em>m,h,n</em>          for the model were calculated for      <em>V</em>          = 0 using the equations from the article:      <em>n        <sub>t=0</sub>            = α_n        <sub>V=0</sub>            /(α_n        <sub>V=0</sub>            + β_n        <sub>V=0</sub>            )        </em>          and equivalent expressions for      <em>h</em>          and      <em>m</em>          .      <br />          For single excitations apply a negative membrane depolarization (V &lt; 0). To achieve oscillatory behavior either change the resting potential to a more positive value or apply a constant negative ionic current (I &lt; 0).      <br />          Two assignments for parameters in the model, alpha_n and alpha_m, are not defined at V=-10 resp. -25 mV. We did not change this to keep the formulas similar to the original publication and as most integrators seem not to have any problem with it. The limits at V=-10 and -25 mV are 0.1 for alpha_n resp. 1 for alpha_m.      <br />          We thank Mark W. Johnson for finding a bug in the model and his helpful comments.      </p>            <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2009 The BioModels Team.      <br />          For more information see the      <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>          .      <br />          To cite BioModels Database, please use      <a href=\"http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&amp;pubmedid=16381960\" target=\"_blank\">Le Novère N., Bornstein B., Broicher A., Courtot M., Donizelli M., Dharuri H., Li L., Sauro H., Schilstra M., Shapiro B., Snoep J.L., Hucka M. (2006) BioModels Database: A Free, Centralized Database of Curated, Published, Quantitative Kinetic Models of Biochemical and Cellular Systems Nucleic Acids Res., 34: D689-D691.</a>                </p>            </body>          </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V3"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "12991237",
+    "journal" : "The Journal of physiology",
+    "title" : "A quantitative description of membrane current and its application to conduction and excitation in nerve.",
+    "year" : 1952,
+    "month" : "8",
+    "volume" : "117",
+    "issue" : "4",
+    "pages" : "500-544",
+    "link" : "http://identifiers.org/pubmed/12991237",
+    "authors" : [
+      {
+        "name" : "A L HODGKIN"
+      },
+      {
+        "name" : "A F HUXLEY"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000020_url.xml",
+        "description" : "SBML L2V3 representation of hodgkin-huxley squid-axon 1952",
+        "fileSize" : "30782",
+        "mimeType" : "application/xml",
+        "md5sum" : "d161778080aee9bcb7077959f2a4af22",
+        "sha1sum" : "46d35d22a0fcf6d98f469edbeadba4ef77db1aa6",
+        "sha256sum" : "5fbf09694a5fc3ec4ccec2bb8ba89909faeabb9ea709f44a555c994954f444cf"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000020-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "4398",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "0c72625ca280748b578bd043d1aadf2f",
+        "sha1sum" : "824b5115707284cfb8d09695d972f796de068f12",
+        "sha256sum" : "80fbfbbeea806aa3c5ebb992d4c460390756e22b170da380942b3b6ad75d6253"
+      },
+      {
+        "name" : "BIOMD0000000020-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "4494",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "ad67c802e8ab9c3ff4429adfddad4705",
+        "sha1sum" : "0e77bacdd60902f8469b1be65621876f8ac3c614",
+        "sha256sum" : "b9b63792ef9f57754f1efd486ebc25ff913d2c63ce9b174d593a5ed530bff91a"
+      },
+      {
+        "name" : "BIOMD0000000020-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5524",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "38f3c5c610003edcd282b8bc667f088e",
+        "sha1sum" : "4cebce2f16fe197d8cd191e64b3a26041df6ed81",
+        "sha256sum" : "6864e045dbbdb2df60f5a10bf8639e831e6925a2d964e02192d09c2d074175fb"
+      },
+      {
+        "name" : "BIOMD0000000020-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5524",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f61d7c0ec829b4bff6ecd6522369f04a",
+        "sha1sum" : "e9f916d35d975f203920004fbba6512c6b9d2752",
+        "sha256sum" : "add44e08efd0423d92fece840b56763e763039d8b75bc55ec94c9c69da843e32"
+      },
+      {
+        "name" : "BIOMD0000000020.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5524",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "f61d7c0ec829b4bff6ecd6522369f04a",
+        "sha1sum" : "e9f916d35d975f203920004fbba6512c6b9d2752",
+        "sha256sum" : "add44e08efd0423d92fece840b56763e763039d8b75bc55ec94c9c69da843e32"
+      },
+      {
+        "name" : "BIOMD0000000020.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3695",
+        "mimeType" : "text/plain",
+        "md5sum" : "7803f41eaf57f97a3fc06af52d961637",
+        "sha1sum" : "c142b0b343a5cc8a5e1bd021487143f95bbec45a",
+        "sha256sum" : "c70bdd36b7d0d636401e7c2dc5a8cb19d24ef95f2837baecc0376cc5eaea0a3b"
+      },
+      {
+        "name" : "BIOMD0000000020.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "152089",
+        "mimeType" : "application/pdf",
+        "md5sum" : "93fe3209e4da32881c9d8421583a7746",
+        "sha1sum" : "bdb6a40c2791c70ea1995704fba3a4aa413a25f1",
+        "sha256sum" : "dc5dbb0a0170147b6405b0ff0a20831ad33159a04e21ff8cc4e66ed4998ef9a3"
+      },
+      {
+        "name" : "BIOMD0000000020.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000020.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000020_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "20107",
+        "mimeType" : "application/xml",
+        "md5sum" : "adc26cfea6ac0f9dad880a38b0009a84",
+        "sha1sum" : "f2cdf3f4e5782fea0ad67b819f593aed18ed52f5",
+        "sha256sum" : "b9374c85ecb519df9663d259d60d9a0b322ade61b84d14e2a416e9769fb12aae"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "11986",
+        "mimeType" : "image/png",
+        "md5sum" : "3404453fa886ca6ce8a9b714b33634fc",
+        "sha1sum" : "548a9321a38ce47fc1ad150ce6357460dac16b30",
+        "sha256sum" : "b25c299bff68252541361c38d70dcf77963f37299d95b99406bef4e7a5f76647"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "166",
+        "mimeType" : "text/plain",
+        "md5sum" : "62aa752a54da46cb7d4e619711e2dc42",
+        "sha1sum" : "7acce9808009dc0b8909b396e82005a9a89ac4dc",
+        "sha256sum" : "ca96c199e8349490c271bc39e3203ff284647bb4d33224451e78523be3a8555f"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "16884150edd07cc69ac229924aad5803",
+        "sha1sum" : "c72d302f94ad223f8905999e0acbd99db949f79d",
+        "sha256sum" : "46c167f6102609793647894c61c57b8fe5758f86478777fa8377a1889ee6f2d2"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "5959",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e6ddd1589cd7c7ce752733e8901b6e4d",
+        "sha1sum" : "4e4a058247a867abe071011738fd85cf34df9399",
+        "sha256sum" : "0edfa38053faa29ce433f92b19e51c186911dff19b88535394f4b173acca40cb"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1126621360,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Original import of hodgkin-huxley squid-axon 1952"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1296687636,
+        "submitter" : "Nicolas Le Novère",
+        "comment" : "Current version of hodgkin-huxley squid-axon 1952"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724265218,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284846,
+  "submissionId" : "MODEL6617668482",
+  "publicationId" : "BIOMD0000000020",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Nicolas Le Novère",
+        "email" : "lenov@ebi.ac.uk",
+        "affiliation" : "EBML-EBI",
+        "orcid" : "0000-0002-6309-7327",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL6617668482",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL6617668482"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000020",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000020"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "12991237",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/12991237"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005249",
+      "name" : "voltage-gated potassium channel activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005249"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0019227",
+      "name" : "neuronal action potential propagation",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0019227"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0005248",
+      "name" : "voltage-gated sodium channel activity",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0005248"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "GO:0042757",
+      "name" : "giant axon",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0042757"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "6618",
+      "name" : "Loligo forbesii",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/6618"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

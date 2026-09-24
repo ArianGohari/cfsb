@@ -1,0 +1,278 @@
+{
+  "name" : "Shi1993_Caffeine_pressor_tolerance",
+  "description" : "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <p> \t  described in: <b>Pharmacokinetic-pharmacodynamic modeling of caffeine: Tolerance to pressor effects</b>        <br />       \t Shi J, Benowitz NL, Denaro CP and Sheiner LB. ;<em>Clin. Pharmacol. Ther.</em> 1993 Jan;53(1):6-14.  PMID:<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/8422743\">8422743</a>;         <br />        <b>Abstract:</b>        <br />\t We propose a parametric pharmacokinetic-pharmacodynamic model for caffeine that quantifies the development of tolerance to the pressor effect of the drug and characterizes the mean behavior and inter-individual variation of both pharmacokinetics and pressor effect. Our study in a small group of subjects indicates that acute tolerance develops to the pressor effect of caffeine and that both the pressor effect and tolerance occur after some time delay relative to changes in plasma caffeine concentration. The half-life of equilibration of effect with plasma caffeine concentration is about 20 minutes. The half-life of development and regression of tolerance is estimated to be about 1 hour, and the model suggests that tolerance, at its fullest, causes more than a 90 percent reduction of initial (nontolerant) effect. Whereas tolerance to the pressor effect of caffeine develops in habitual coffee drinkers, the pressor response is regained after relatively brief periods of abstinence. Because of the rapid development and regression of tolerance, the pressor response to caffeine depends on how much caffeine is consumed, the schedule of consumption, and the elimination half-life of caffeine.    \t</p>        <p>Caffeine intake in this version is modelled as cups of coffee drunk at regular intervals (parameter <em>t_interval</em>). The amount of caffeine per cup is determined by the parameter <em>cupsize</em>. The body weight of the person drinking is given by the parameter <em>bodyweight</em>.<br />The even <em>coffee cup</em> occures delayed to the drinking of each cup, as the availability of the caffeine in the digestive tract is assumed to be delayed to the ingestion by the time <em>t_lag</em>.   </p>        <p>This model originates from BioModels Database: A Database of Annotated Published Models. It is copyright (c) 2005-2011 The BioModels.net Team.<br />For more information see the <a href=\"http://www.ebi.ac.uk/biomodels/legal.html\" target=\"_blank\">terms of use</a>.<br />To cite BioModels Database, please use: <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20587024\" target=\"_blank\">Li C, Donizelli M, Rodriguez N, Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL, Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated and annotated resource for published quantitative kinetic models. BMC Syst Biol., 4:92.</a>      </p>    </body>  </notes>",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "8422743",
+    "journal" : "Clinical pharmacology and therapeutics",
+    "title" : "Pharmacokinetic-pharmacodynamic modeling of caffeine: tolerance to pressor effects.",
+    "affiliation" : "Division of Clinical Pharmacology and Experimental Therapeutics, San Francisco General Hospital Medical Center, California 94110.",
+    "synopsis" : "We propose a parametric pharmacokinetic-pharmacodynamic model for caffeine that quantifies the development of tolerance to the pressor effect of the drug and characterizes the mean behavior and inter-individual variation of both pharmacokinetics and pressor effect. Our study in a small group of subjects indicates that acute tolerance develops to the pressor effect of caffeine and that both the pressor effect and tolerance occur after some time delay relative to changes in plasma caffeine concentration. The half-life of equilibration of effect with plasma caffeine concentration is about 20 minutes. The half-life of development and regression of tolerance is estimated to be about 1 hour, and the model suggests that tolerance, at its fullest, causes more than a 90% reduction of initial (nontolerant) effect. Whereas tolerance to the pressor effect of caffeine develops in habitual coffee drinkers, the pressor response is regained after relatively brief periods of abstinence. Because of the rapid development and regression of tolerance, the pressor response to caffeine depends on how much caffeine is consumed, the schedule of consumption, and the elimination half-life of caffeine.",
+    "year" : 1993,
+    "month" : "1",
+    "volume" : "53",
+    "issue" : "1",
+    "pages" : "6-14",
+    "link" : "http://identifiers.org/pubmed/8422743",
+    "authors" : [
+      {
+        "name" : "J Shi",
+        "institution" : "Division of Clinical Pharmacology and Experimental Therapeutics, San Francisco General Hospital Medical Center, California 94110."
+      },
+      {
+        "name" : "N L Benowitz"
+      },
+      {
+        "name" : "C P Denaro"
+      },
+      {
+        "name" : "L B Sheiner"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000241_url.xml",
+        "description" : "SBML L2V4 representation of Shi1993_Caffeine_pressor_tolerance",
+        "fileSize" : "22185",
+        "mimeType" : "application/xml",
+        "md5sum" : "39ace2f0a505f39230042c7d9bd43384",
+        "sha1sum" : "15b700cce8a92ba61281403787273cd9eb28c1a9",
+        "sha256sum" : "3aac9ab18da08155150995e55122e3a85fcac579890457b24ffd443a5bd9e7fe"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000241-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "6771",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "51298f1f25433aec9f18b7fb78ee9632",
+        "sha1sum" : "2a73162849225232275dab9d4e2eafc024fdbd40",
+        "sha256sum" : "26ae7f42b40b5965bedfd3c6ec36ef2f41c93b35617ac2fb55ce6e4b10c7585a"
+      },
+      {
+        "name" : "BIOMD0000000241-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "7367",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "45482c421d1add77de32ea58f021ea2f",
+        "sha1sum" : "0e60225e9ab149da2345e7fadb417eff13e358b9",
+        "sha256sum" : "45bac2a3c52680b7dfc5736d2eff0936e78c6dce9085e7f8d64418b012a4cf87"
+      },
+      {
+        "name" : "BIOMD0000000241-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "5192",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "7c029ccce5ecc6d65f23df45e7b4f347",
+        "sha1sum" : "991f2b5c8c74c378c956e69a78cd7f7b7ec61cc4",
+        "sha256sum" : "385ddf4129e0005c0de0fffe5b850ea8df9303e4a93051d74560473970c792f8"
+      },
+      {
+        "name" : "BIOMD0000000241-octave.m",
+        "description" : "Auto-generated Octave file.",
+        "fileSize" : "5192",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3e466fa0a71e0bda1485978cccced094",
+        "sha1sum" : "68ce4dc1e0c4237c9e21fb829a0436be6fa42d90",
+        "sha256sum" : "37a47944853845db9cc0f304e3b64ffce53d0f0384679790fc03dfc216f8eb99"
+      },
+      {
+        "name" : "BIOMD0000000241.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "5192",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "3e466fa0a71e0bda1485978cccced094",
+        "sha1sum" : "68ce4dc1e0c4237c9e21fb829a0436be6fa42d90",
+        "sha256sum" : "37a47944853845db9cc0f304e3b64ffce53d0f0384679790fc03dfc216f8eb99"
+      },
+      {
+        "name" : "BIOMD0000000241.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "3065",
+        "mimeType" : "text/plain",
+        "md5sum" : "e6b05c1922b3bf33bededc0ba6bec185",
+        "sha1sum" : "74b6991942736639c2ff0860d260f4ece3f93912",
+        "sha256sum" : "14319757caf08d761836666d2146aab5c48a6bee214cbeede323e182541f95c1"
+      },
+      {
+        "name" : "BIOMD0000000241.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "157183",
+        "mimeType" : "application/pdf",
+        "md5sum" : "9cce79c0c446e73b3cff615e6c80521d",
+        "sha1sum" : "cafa9fb7f8855fd48f883aaf08d1843c177dea26",
+        "sha256sum" : "1ea9078add8c50113d508734f2dc3d36f418391f16f0b21382b721c05fd68502"
+      },
+      {
+        "name" : "BIOMD0000000241.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "5164",
+        "mimeType" : "image/png",
+        "md5sum" : "c30b7d56ea47c3843c82b135d7d61387",
+        "sha1sum" : "29aaa040058418305071301e82afe443bf2be038",
+        "sha256sum" : "5fda4a6ecf6f2bffcaae62525ab174b281c1fd8500d928e26c38e127a4bb8b70"
+      },
+      {
+        "name" : "BIOMD0000000241.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "868",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "24be42d8086ccb62699e8e5aa9319cf0",
+        "sha1sum" : "6edffc291715c4657200f33e72e8c453d616a6ed",
+        "sha256sum" : "3545c85a1ad33a0ce132486ba2cf1b3d42693f8c6ab22de9baaca3e2eef2e649"
+      },
+      {
+        "name" : "BIOMD0000000241_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "16959",
+        "mimeType" : "application/xml",
+        "md5sum" : "5f7ca1fa2c69ce832a46d8ecdfe0aeb5",
+        "sha1sum" : "a8263d3709319a85ce9978303e287c3afdd3a3c4",
+        "sha256sum" : "c32f86156055045e7b292e667714196d479cccb7781a7ac85b42adbb03c1fefe"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "5733",
+        "mimeType" : "image/png",
+        "md5sum" : "cebe5c9c271ca6e9b5f0a755e600ed45",
+        "sha1sum" : "e396b61a69662115ae70109c5305a84ca01220d8",
+        "sha256sum" : "001e54297e7ff1978b0b39b0dc6e6d9a4b8b19c381f93fe6abf20525664e2fbe"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "322",
+        "mimeType" : "text/plain",
+        "md5sum" : "ee5491a8d782fb65243b41ad817be096",
+        "sha1sum" : "4407b5509adf09fd368118bd003679792fe6602f",
+        "sha256sum" : "a31c3c43379ef47d5bc2ae065442d4a5086562a1a3baa682aefa71efe3344bf5"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1790",
+        "mimeType" : "application/xml",
+        "md5sum" : "c8dfc2335ce84f224caf4dd9f28e80ed",
+        "sha1sum" : "8401699d05e46d9b7fad6a459c05e29d915153b9",
+        "sha256sum" : "c24954a66c8121ca343c6542680c73199cdde4acac908eeb07600a433a50595a"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "4743",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "f5758438294575500be8109340f86b76",
+        "sha1sum" : "99ff81270cb1ffffcee540930899a463994b20b1",
+        "sha256sum" : "5a6ee6cc801470c77586e3fec4ea1219115085d195daaed57e817bd3dc811de5"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1262973184,
+        "submitter" : "Lukas Endler",
+        "comment" : "Original import of Shi2003_Caffeine_pressor_tolerance"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1460135248,
+        "submitter" : "Lukas Endler",
+        "comment" : "Current version of Shi1993_Caffeine_pressor_tolerance"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724271281,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725284964,
+  "submissionId" : "MODEL1001080000",
+  "publicationId" : "BIOMD0000000241",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Lukas Endler",
+        "email" : "lukas@ebi.ac.uk",
+        "affiliation" : "EMBL-EBI",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1001080000",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1001080000"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000241",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000241"
+    },
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "8422743",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/8422743"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0031000",
+      "name" : "response to caffeine",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0031000"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0008217",
+      "name" : "regulation of blood pressure",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0008217"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}

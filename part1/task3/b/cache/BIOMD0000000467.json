@@ -1,0 +1,296 @@
+{
+  "name" : "Koo2013 - Shear stress induced NO production - Model 4",
+  "description" : "Andrew Koo, David Nordsletten, Renato Umeton, Beracah Yankama, Shiva Ayyadurai, Guillermo García-Cardeña & C. Forbes Dewey. In silico modeling of shear-stress-induced nitric oxide production in endothelial cells through systems biology. Biophysical Journal 104, 10 (2013).<p></p><p></p>Nitric oxide (NO) produced by vascular endothelial cells is a potent vasodilator and an antiinflammatory mediator. Regulating production of endothelial-derived NO is a complex undertaking, involving multiple signaling and genetic pathways that are activated by diverse humoral and biomechanical stimuli. To gain a thorough understanding of the rich diversity of responses observed experimentally, it is necessary to account for an ensemble of these pathways acting simultaneously. In this article, we have assembled four quantitative molecular pathways previously proposed for shear-stress-induced NO production. In these pathways, endothelial NO synthase is activated 1), via calcium release, 2), via phosphorylation reactions, and 3), via enhanced protein expression. To these activation pathways, we have added a fourth, a pathway describing actual NO production from endothelial NO synthase and its various protein partners. These pathways were combined and simulated using CytoSolve, a computational environment for combining independent pathway calculations. The integrated model is able to describe the experimentally observed change in NO production with time after the application of fluid shear stress. This model can also be used to predict the specific effects on the system after interventional pharmacological or genetic changes. Importantly, this model reflects the up-to-date understanding of the NO system, providing a platform upon which information can be aggregated in an additive way.",
+  "format" : {
+    "name" : "SBML",
+    "identifier" : "SBML",
+    "version" : "L2V4"
+  },
+  "publication" : {
+    "type" : "PubMed ID",
+    "accession" : "23708369",
+    "journal" : "Biophysical journal",
+    "title" : "In silico modeling of shear-stress-induced nitric oxide production in endothelial cells through systems biology.",
+    "affiliation" : "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+    "synopsis" : "Nitric oxide (NO) produced by vascular endothelial cells is a potent vasodilator and an antiinflammatory mediator. Regulating production of endothelial-derived NO is a complex undertaking, involving multiple signaling and genetic pathways that are activated by diverse humoral and biomechanical stimuli. To gain a thorough understanding of the rich diversity of responses observed experimentally, it is necessary to account for an ensemble of these pathways acting simultaneously. In this article, we have assembled four quantitative molecular pathways previously proposed for shear-stress-induced NO production. In these pathways, endothelial NO synthase is activated 1), via calcium release, 2), via phosphorylation reactions, and 3), via enhanced protein expression. To these activation pathways, we have added a fourth, a pathway describing actual NO production from endothelial NO synthase and its various protein partners. These pathways were combined and simulated using CytoSolve, a computational environment for combining independent pathway calculations. The integrated model is able to describe the experimentally observed change in NO production with time after the application of fluid shear stress. This model can also be used to predict the specific effects on the system after interventional pharmacological or genetic changes. Importantly, this model reflects the up-to-date understanding of the NO system, providing a platform upon which information can be aggregated in an additive way.",
+    "year" : 2013,
+    "month" : "5",
+    "volume" : "104",
+    "issue" : "10",
+    "pages" : "2295-2306",
+    "link" : "http://identifiers.org/pubmed/23708369",
+    "authors" : [
+      {
+        "name" : "Andrew Koo",
+        "institution" : "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA."
+      },
+      {
+        "name" : "David Nordsletten",
+        "orcid" : "0000-0002-5363-4715"
+      },
+      {
+        "name" : "Renato Umeton",
+        "orcid" : "0000-0002-5561-6932"
+      },
+      {
+        "name" : "Beracah Yankama"
+      },
+      {
+        "name" : "Shiva Ayyadurai"
+      },
+      {
+        "name" : "Guillermo García-Cardeña"
+      },
+      {
+        "name" : "C Forbes Dewey"
+      }
+    ]
+  },
+  "files" : {
+    "main" : [
+      {
+        "name" : "BIOMD0000000467_url.xml",
+        "description" : "SBML L2V4 representation of Koo2013 - Shear stress induced NO production - Model 4",
+        "fileSize" : "144844",
+        "mimeType" : "application/xml",
+        "md5sum" : "095b021ef7b654d85f89e090c1b5c118",
+        "sha1sum" : "b84f4451283e3b5486d7291326ad40227998b03d",
+        "sha256sum" : "bf81df8dee514373c7ff70047acf6a7d3df483179cd6406f548eefcb9b0be243"
+      }
+    ],
+    "additional" : [
+      {
+        "name" : "BIOMD0000000467-biopax2.owl",
+        "description" : "Auto-generated BioPAX (Level 2)",
+        "fileSize" : "42572",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "e917f77057466c34b1a60f7b84ab1f94",
+        "sha1sum" : "e239a53caba2e9f2952ce8bd51ead0b0cced510a",
+        "sha256sum" : "9cc593db8e7846605b40243ab256b290c782f45e467a8205f237ab7a359647a6"
+      },
+      {
+        "name" : "BIOMD0000000467-biopax3.owl",
+        "description" : "Auto-generated BioPAX (Level 3)",
+        "fileSize" : "68742",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "11bc62af637a5d9ecbe3194b8d32327a",
+        "sha1sum" : "7f9a990bf06fdd84e3e1aa8e2435e82a0dcd267e",
+        "sha256sum" : "39f3957e4ee49ea069fd3959ce0ecb1d9ee828cf2cb0007555b5ad459febe8f4"
+      },
+      {
+        "name" : "BIOMD0000000467-matlab.m",
+        "description" : "Auto-generated Matlab file.",
+        "fileSize" : "8995",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "1d262bb311b3f270685ee4d5c62bd9ec",
+        "sha1sum" : "6f6c941df212127768b435ffbfe1638f17669182",
+        "sha256sum" : "9194cf5347e20a64d376b5e8715c3531c4af173f1d9abf6a6bd187fa32bc04f4"
+      },
+      {
+        "name" : "BIOMD0000000467.m",
+        "description" : "Auto-generated Octave file",
+        "fileSize" : "8995",
+        "mimeType" : "text/x-matlab",
+        "md5sum" : "dac91a9ff79c465484e1d71f2fcafd0c",
+        "sha1sum" : "808950dfa7616f3311bd53b72dfc886d4b3b5608",
+        "sha256sum" : "55fc32f0a885eaaf657d5400ddaf606d5db1d11baa2fc2dfca3397493f74fcdb"
+      },
+      {
+        "name" : "BIOMD0000000467.ode",
+        "description" : "Auto-generated ODE file for XPP.",
+        "fileSize" : "5966",
+        "mimeType" : "text/plain",
+        "md5sum" : "2c0978715855fdadf75a15db73e80f2b",
+        "sha1sum" : "1d2db7bbd9bd84816b69e647bb545807749f515e",
+        "sha256sum" : "d9bf6800eb4f1948b4cee12809a6d6039bb1a565c3ea79b99be4c7e7cb9144a8"
+      },
+      {
+        "name" : "BIOMD0000000467.pdf",
+        "description" : "Auto-generated PDF file",
+        "fileSize" : "268101",
+        "mimeType" : "application/pdf",
+        "md5sum" : "cb96d947b7fe78e4a1bc95b1f400fc52",
+        "sha1sum" : "f6b22cb8273d6725de328f06cf182df51caa6599",
+        "sha256sum" : "525c66dc585e6f57cecbd2beab0f4713fc733c60a49373c5ab33789a5158d385"
+      },
+      {
+        "name" : "BIOMD0000000467.png",
+        "description" : "Auto-generated Reaction graph (PNG)",
+        "fileSize" : "865768",
+        "mimeType" : "image/png",
+        "md5sum" : "126b1ccaafc09f9bb896ef958c8885ad",
+        "sha1sum" : "4f456882528f5423d3871337cefe3f40046f37fd",
+        "sha256sum" : "971640801cb9140380851e94ddbaf39b6f066154a98457d0d73dfb84e876da64"
+      },
+      {
+        "name" : "BIOMD0000000467.svg",
+        "description" : "Auto-generated Reaction graph (SVG)",
+        "fileSize" : "91543",
+        "mimeType" : "image/svg+xml",
+        "md5sum" : "1ac08761c7cf36353c1f4a062972be7f",
+        "sha1sum" : "3aaf7b711544a199ba07dc5305e55e0f4954eee7",
+        "sha256sum" : "165237d1a213400db4a96faf603289a9cdd38841a2c222c5d0da1a8c9f32b946"
+      },
+      {
+        "name" : "BIOMD0000000467.vcml",
+        "description" : "Auto-generated VCML file",
+        "fileSize" : "64311",
+        "mimeType" : "application/xml",
+        "md5sum" : "43c5f4f74e471707450b8c6ded6662b5",
+        "sha1sum" : "2cf2d8f4be02756a58fd56e307ff84a643803367",
+        "sha256sum" : "8f57183a5e2e167aa4bdcd3c306bf48519a2f25bf11f8fa45e2040ef9f54621d"
+      },
+      {
+        "name" : "BIOMD0000000467_url.sedml",
+        "description" : "CRBM auto-generated \"template\" SED-ML file.",
+        "fileSize" : "35120",
+        "mimeType" : "application/xml",
+        "md5sum" : "40ed0a2cbfa62a47c3be152e9d47bc54",
+        "sha1sum" : "2bac93f74cbc3b973adc9c4e1c57a4c15a7092e4",
+        "sha256sum" : "79266189d5a08b6c7300491abec4ccb818a55b771ffa51d9882f43452b8de29a"
+      },
+      {
+        "name" : "curation_image.png",
+        "description" : "Reproduced figure(s) from original curation.",
+        "fileSize" : "12753",
+        "mimeType" : "image/png",
+        "md5sum" : "f0824db21a06a5e9ea387ea14e07e95c",
+        "sha1sum" : "5814b6b2ce3023f03af13228a177fcd0a509fa8b",
+        "sha256sum" : "000cc27b81f8ce1e44882a37bbbd50af6bd57227ca7c796a8d8ea97f725c783a"
+      },
+      {
+        "name" : "curation_notes.txt",
+        "description" : "Notes from original curation (describes curation_image).",
+        "fileSize" : "271",
+        "mimeType" : "text/plain",
+        "md5sum" : "9a90d42d5117dc73d67bc4244402c9b7",
+        "sha1sum" : "2adbfe14a24ea84906b72193ecf7f5e27db04c10",
+        "sha256sum" : "d492e716c12629cbf22343d5965feb38b7e6d532cdf1710b8e0104d5eb34c807"
+      },
+      {
+        "name" : "manifest.xml",
+        "description" : "Auto-generated manifest file for OMEX archives.",
+        "fileSize" : "1793",
+        "mimeType" : "application/xml",
+        "md5sum" : "2e991fc497a3461177172cd6cb78ffba",
+        "sha1sum" : "0189abd4a41535f4cc0b58de3b1e30458bf338f0",
+        "sha256sum" : "9b80b5d1bddd0415b307c78a6ea84d8897b78f934d2ca49195dfc0146208793c"
+      },
+      {
+        "name" : "metadata.rdf",
+        "description" : "Auto-generated annotation metadata file.",
+        "fileSize" : "1754",
+        "mimeType" : "application/rdf+xml",
+        "md5sum" : "02b4d6fc57c4cbad3b0860d4ad166259",
+        "sha1sum" : "aa6538d33d37d3e7f5fe217e611968eebccae704",
+        "sha256sum" : "edb5dc95cecb8bfd987b53d43788c32ccb2f783ea7c3fd84bac7a16afe7dfb6f"
+      }
+    ]
+  },
+  "history" : {
+    "revisions" : [
+      {
+        "version" : 1,
+        "submitted" : 1361219404,
+        "submitter" : "Andrew Koo",
+        "comment" : "Original import of BIOMD0000000467.xml.origin"
+      },
+      {
+        "version" : 2,
+        "submitted" : 1396843510,
+        "submitter" : "Andrew Koo",
+        "comment" : "Current version of Koo2013 - Shear stress induced NO production - Model 4"
+      },
+      {
+        "version" : 3,
+        "submitted" : 1724277974,
+        "submitter" : "Lucian Smith",
+        "comment" : "CRBM-sponsored manual and automated updates."
+      }
+    ]
+  },
+  "firstPublished" : 1725285207,
+  "submissionId" : "MODEL1302180006",
+  "publicationId" : "BIOMD0000000467",
+  "modellingApproach" : {
+    "accession" : "MAMO_0000046",
+    "name" : "ordinary differential equation model",
+    "resource" : "http://identifiers.org/mamo/MAMO_0000046"
+  },
+  "curationStatus" : "CURATED",
+  "contributors" : {
+    "Curator" : [
+      {
+        "name" : "Lucian Smith",
+        "email" : "lpsmith@uw.edu",
+        "affiliation" : "University of Washington",
+        "orcid" : "0000-0001-7002-6386",
+        "external" : false
+      }
+    ],
+    "Modeller" : [
+      {
+        "name" : "Andrew Koo",
+        "email" : "kooj@mit.edu",
+        "affiliation" : "Massachusetts Institute of Technology",
+        "external" : false
+      }
+    ]
+  },
+  "vcsIdentifier" : "aaa",
+  "modelLevelAnnotations" : [
+    {
+      "qualifier" : "bqmodel:isDescribedBy",
+      "accession" : "23708369",
+      "resource" : "PubMed",
+      "uri" : "http://identifiers.org/pubmed/23708369"
+    },
+    {
+      "qualifier" : "bqbiol:hasTaxon",
+      "accession" : "9606",
+      "name" : "Homo sapiens",
+      "resource" : "Taxonomy",
+      "uri" : "http://identifiers.org/taxonomy/9606"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0002537",
+      "name" : "nitric oxide production involved in inflammatory response",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0002537"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "GO:0006809",
+      "name" : "nitric oxide biosynthetic process",
+      "resource" : "Gene Ontology",
+      "uri" : "http://identifiers.org/go/GO:0006809"
+    },
+    {
+      "qualifier" : "bqbiol:isVersionOf",
+      "accession" : "REACT_12443.3",
+      "name" : "eNOS synthesizes NO",
+      "resource" : "Reactome",
+      "uri" : "http://identifiers.org/reactome/REACT_12443.3"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "MODEL1302180006",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/MODEL1302180006"
+    },
+    {
+      "qualifier" : "bqmodel:is",
+      "accession" : "BIOMD0000000467",
+      "resource" : "BioModels Database",
+      "uri" : "http://identifiers.org/biomodels.db/BIOMD0000000467"
+    },
+    {
+      "qualifier" : "bqbiol:hasProperty",
+      "accession" : "MAMO_0000046",
+      "name" : "Ordinary differential equation model",
+      "resource" : "Mathematical Modelling Ontology",
+      "uri" : "http://identifiers.org/mamo/MAMO_0000046"
+    }
+  ]
+}
