@@ -1,0 +1,33 @@
+{
+  "accession": "GSE41571",
+  "retrieved_date": "2026-09-24",
+  "source": "NCBI Gene Expression Omnibus",
+  "files": [
+    {
+      "name": "GSE41571_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE41nnn/GSE41571/matrix/GSE41571_series_matrix.txt.gz",
+      "sha256": "1b48aaafaa16188eed06603fc3fc6267075ff9d1dec5889cf81bcb0e2aabca13"
+    },
+    {
+      "name": "GSE41571_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE41nnn/GSE41571/soft/GSE41571_family.soft.gz",
+      "sha256": "2c1316cceaa641020e252eaba005ca3b1c88a85fab01c86fc3bb20e0b1cbf746"
+    },
+    {
+      "name": "GSE41571_matrix_NORMALIZED_RAW_ABSCALL.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE41nnn/GSE41571/suppl/GSE41571_matrix_NORMALIZED_RAW_ABSCALL.txt.gz",
+      "sha256": "c4491a4ffe99ff5c4464a59aef4ba2b62e959cb4272fec56eb93c591ae55a561"
+    },
+    {
+      "name": "GPL570.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+      "sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394"
+    }
+  ],
+  "software": {
+    "R": "4.6.1",
+    "limma": "3.68.5",
+    "ggplot2": "4.0.3",
+    "jsonlite": "2.0.0"
+  }
+}

@@ -1,22 +1,32 @@
 # Abschlussaudit Aufgabe 5
 
-Stand: 23.09.2026. Die Arbeit enthält eine gezielte Literaturkuration und eine reale Metadaten-/Featureprüfung; sie enthält keine eigene differenzielle Expressionsanalyse.
+Stand: 24.09.2026. Die Arbeit enthält eine gezielte Literaturkuration, eine Metadaten-/Featureprüfung und eine eigene differentielle Expressionsanalyse von GSE41571.
 
 ## Quellen und Identitäten
 
-Sechs eingeschlossene Primärstudien, vier registrierte Alternativen beziehungsweise nicht übernommene Kandidaten. Entscheidungen mit DOI in `data/screening.tsv`. Kantenquellen und Fundstellen in `data/edges.tsv`; Vollzitate in `data/sources.tsv`.
+Sieben eingeschlossene Primärstudien, vier registrierte Alternativen beziehungsweise nicht übernommene Kandidaten. Entscheidungen mit DOI in `data/screening.tsv`. Kantenquellen und Fundstellen in `data/edges.tsv`; Vollzitate der Netzquellen in `data/sources.tsv`.
 
 Alle neun NCBI-Genanker wurden gegen die gespeicherte ESummary-Antwort geprüft: ABCA1 19, IL1B 3553, TNF 7124, TREM2 54209, CD14 929, FCGR3A 2214, TLR2 7097, CXCL8 3576 und ICAM1 3383. Alle Taxon 9606. Der miRNA-Arm ist hsa-miR-33a-5p, MIMAT0000091; die passende miRBase-Seite liegt lokal vor. TASK5-IDs kennzeichnen lokale Konzepte und werden nicht als externe Ontologie-IDs ausgegeben.
 
 GSE253904 enthält die SubSeries GSE253902/253903. GSM8029950 und GSM8029951 sind GEX-/ADT-Einträge derselben benannten Probe. Die dokumentierte Zahl von 12 CITE-seq-GSM-Einträgen wurde nicht als 12 Personen interpretiert. Die Differenz zwischen der Gesamtzahl in der Publikation (21 Läsionen) und den Personenangaben der beiden GEO-Serien (6 und 12) wird im Text offengelegt, ohne eine unbelegte Probenzuordnung zu erfinden.
 
+## Quantitative Analyse GSE41571
+
+GSE41571 enthält fünf rupturierte und sechs stabile humane Karotisplaques. Jede Array-Spalte ist laut SOFT-Metadaten eine biologische Patientenreplikation. Es wurden keine Zellen, Probesets oder technischen Kanäle als zusätzliche Replikate gezählt. Der Vergleich ist `rupturiert - stabil`; er ist kein Vergleich gegen gesundes Gewebe.
+
+Die hinterlegte Present/Absent-Regel wurde reproduziert: Von 54.675 Probesets bleiben 25.538 übrig. Probesets mit einem eindeutigen Gensymbol wurden auf der log2-Skala gemittelt. `limma` testet 12.113 Gene mit `trend=TRUE` und `robust=TRUE`. 852 Gene erfüllen BH-FDR < 0,05, 1.704 Gene BH-FDR < 0,10. FABP4 und LEP sind wie in der Primärpublikation in rupturierten Plaques erhöht. Die Zahl der FDR-Treffer stimmt wegen des abweichenden genweisen Modells nicht exakt mit den publizierten 914 Genen bei FDR 10 % überein.
+
+Acht Netz-Genknoten sind eindeutig messbar. Die vorab definierte Genmenge ist im kompetitiven `camera`-Test nach oben verschoben (`P = 0,0119`). Das Probeset für FCGR3A ist zugleich FCGR3B zugeordnet und wird nicht als FCGR3A-spezifischer Wert ausgegeben. Das mRNA-Array misst den reifen Arm hsa-miR-33a-5p nicht.
+
 ## Prüfungen
 
-- `python3 part1/task5/scripts/build_network.py`: PASS. 22 eindeutige Knoten, 18 referenziell gültige Kanten, gültige Quellen/Taxonomie/Vorzeichen.
+- `python3 part1/task5/scripts/build_network.py`: Exit 0. 22 eindeutige Knoten, 18 referenziell gültige Kanten, gültige Quellen/Taxonomie/Vorzeichen.
+- `Rscript part1/task5/scripts/analyse_gse41571.R`: Exit 0. 11 Patientenproben, exakter 25.538-Probeset-Filter, 12.113 eindeutige Gentests, drei SVG-Abbildungen und maschinenlesbare Tabellen.
+- `part1/task5/scripts/fetch_gse41571.sh`: Exit 0. Vier Downloads stimmen mit den festgelegten SHA-256-Werten überein.
 - 36.884 heruntergeladene Featurezeilen: 36.601 RNA und 283 Antikörpermerkmale. Alle neun Genknoten eindeutig über Symbole auf Ensembl-Features abgebildet. Dies ist kein Expressionsnachweis.
-- Download-Prüfsummen gegen `data/provenance.json`: PASS für acht kleine Originaleingaben.
-- `quarto render part1/task5/task5.qmd --no-execute`: PASS, selbstständiges HTML mit eingebetteter SVG.
-- SVG als PNG betrachtet: lesbare Knoten und H-IDs, keine überlappenden Beschriftungen. H18 nennt den Kristall-Co-Stimulus auch in der Zeichnung.
+- Download-Prüfsummen gegen `data/provenance.json`: PASS für acht kleine Originaleingaben. Die vier GSE41571-Dateien stimmen mit `data/GSE41571/provenance.json` überein.
+- `quarto render part1/task5/task5.qmd --no-execute`: Exit 0, HTML mit drei Analyseabbildungen und dem Evidenznetz.
+- Die vier SVGs wurden erzeugt; Netzwerk, PCA und Genknotenplot sind lesbar. H18 nennt den Kristall-Co-Stimulus auch in der Netzzeichnung.
 - Stilaudit: keine langen Gedankenstriche oder typografischen Anführungszeichen im QMD.
 
 ## Fachliche Schutzmaßnahmen gegen Fehlinterpretation

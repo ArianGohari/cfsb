@@ -1,6 +1,6 @@
 # Such- und Auswahlprotokoll, 23.09.2026
 
-Gezielte Recherche für eine begrenzte Netzwerkkuration. Keine vollständige systematische Review. Auswahlzählung: zehn registrierte Publikationskandidaten, sechs für Netz/Datenbeispiel verwendet, vier nicht in den Kern übernommen. Screening.tsv ist die Zähleinheit. Suchmaschinentreffer, PDF-Dubletten und Datenbankeinträge wurden nicht als unabhängige Studien gezählt. Ein Reviewer-System (LLM), keine menschliche Doppelsichtung.
+Gezielte Recherche für eine begrenzte Netzwerkkuration, am 24.09.2026 um einen Datensatz für die quantitative Analyse ergänzt. Keine vollständige systematische Review. Auswahlzählung: elf registrierte Publikationskandidaten, sieben für Netz oder Datenanalyse verwendet, vier nicht in den Kern übernommen. Screening.tsv ist die Zähleinheit. Suchmaschinentreffer, PDF-Dubletten und Datenbankeinträge wurden nicht als unabhängige Studien gezählt. Ein Reviewer-System (LLM), keine menschliche Doppelsichtung.
 
 ## Auswahlregeln
 
@@ -26,6 +26,8 @@ Keine Exportkante allein aufgrund einer Übersicht, einer Targetvorhersage oder 
 - `TargetScan human 8.0 predicted targets context`
 - `site.reactome.org Toll Like Receptor 2`
 - `site.ebi.ac.uk/gxa macrophage`
+- `human atherosclerotic plaque macrophages microarray GEO accession GSE`
+- `23122912 DOI Lee macrophages ruptured stable plaque FABP4 leptin`
 
 Warnatsch 2015 wurde durch die parallele Mausrecherche identifiziert und anschließend direkt im Volltext PMC4854322 geprüft. Die Studie bleibt eine Publikation, auch wenn mehrere Spezies enthalten sind.
 
@@ -39,4 +41,4 @@ Eine spekulative Einordnung der Taganov-Reporter als murin wurde nicht übernomm
 
 Einige Web-Abrufe von PMC und GEO zeigten CAPTCHA-Seiten; verfügbare primäre Volltexte beziehungsweise indexierte Primärseitenausschnitte wurden genutzt. GEO-Metadaten wurden zusätzlich direkt als SOFT über NCBI heruntergeladen und auf korrekte Serien-/Probenkopfzeilen geprüft. miRBase wurde direkt abgerufen. Drei ergänzend versuchte Europe-PMC-fullTextXML-Abrufe (PMC4458287, PMC3114628, PMC1567904) lieferten HTTP 500; daraus werden keine lokalen Volltextarchive behauptet.
 
-Die kleinen archivierten Originaleingaben, URLs, Größen und SHA-256-Werte stehen in data/provenance.json. Umfangreiche Countmatrizen, Rohreads und proprietäre SFB1123-Daten wurden nicht abgerufen. Datenbankseiten sind Ressourcennachweise, keine zusätzlichen Publikationen im Auswahlfluss.
+Die kleinen archivierten Originaleingaben, URLs, Größen und SHA-256-Werte stehen in data/provenance.json. Die vier Eingaben für GSE41571 samt Hashes stehen getrennt in `data/GSE41571/provenance.json`. Rohreads, CEL-Dateien und proprietäre SFB1123-Daten wurden nicht abgerufen. Datenbankseiten sind Ressourcennachweise, keine zusätzlichen Publikationen im Auswahlfluss.

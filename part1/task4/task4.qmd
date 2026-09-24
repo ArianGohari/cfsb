@@ -97,6 +97,42 @@ Die Zahlen stehen im publizierten Ergebnisteil zu Abbildung 3 und 4. Die Pathway
 
 **Interpretation:** Die Daten stützen eine Interferon-bezogene Wirtsantwort in dem untersuchten Caco-2-Kontext. Der größere Umfang veränderter Proteine in Calu-3 beweist weder eine allgemein stärkere Antwort dieser Zelllinie noch einen ausschließlich durch den Gewebeursprung verursachten Unterschied. Baseline-Proteom, Messabdeckung, Varianz und weitere Studienbedingungen sind mögliche Mitursachen. "Signifikant in Caco-2, nicht signifikant in einer anderen Linie" ist außerdem kein Ersatz für einen statistischen Interaktionstest.
 
+### 3.4 Eigene Sekundäranalyse von Table S11
+
+Die gelieferten Werte in `mmc9.xlsx` wurden nun auch rechnerisch geprüft. Das Blatt `Caco2_norm_file` enthält 8.768 eindeutige UniProt-Zugänge und sechs vollständig belegte Probenspalten. Die Überschriften bilden drei wiederkehrende U/T-Labels ab. Jede der sechs Zahlenreihen hat nach Sortierung exakt dieselben Werte; das passt zu einer Quantilnormalisierung. Die Zugänge wurden gegen die Proteintabelle S7 (`mmc5.xlsx`) abgeglichen: 8.759 von 8.768 besitzen dort eine exakte Annotation. Die neun nicht zuordenbaren Einträge bleiben in der Ergebnistabelle erhalten.
+
+Als Primärmodell wurde ein robustes, unpaariges `limma`-Modell auf den gelieferten normalisierten Werten gerechnet (T minus U, Benjamini-Hochberg-Korrektur). Die Blattüberschriften dokumentieren keine biologischen Probenpaare. Ein Modell mit dem wiederkehrenden Label als Block ist deshalb nur eine Sensitivitätsanalyse. Die Differenzen sind Werte auf der gelieferten normalisierten Skala und keine Fold Changes; die vollständige Vorverarbeitung der Publikation wird damit nicht rekonstruiert.
+
+| Modell | BH-FDR < 0,05 | BH-FDR < 0,10 | Einordnung |
+|---|---:|---:|---|
+| unpaarig, robust (primär) | 175 | 425 | Vorsichtige Wahl ohne belegte Probenpaarung |
+| mit U/T-Label als Block (Sensitivität) | 45 | 98 | Ergebnis hängt erkennbar von dieser nicht belegten Annahme ab |
+
+Im Primärmodell sind 77 Proteine mit positiven und 98 mit negativen Differenzen signifikant. Der veröffentlichte Wert von 177 ist damit nahe, aber nicht identisch. Das ist keine Widerlegung: Für eine exakte Reproduktion fehlen Angaben zur vollständigen Verarbeitung, Filterung und Modellierung.
+
+| Protein | Differenz T minus U | BH-FDR |
+|---|---:|---:|
+| IFIT1 | 2,136 | 0,000302 |
+| IFIT2 | 1,630 | 0,000860 |
+| IFIT3 | 1,910 | 0,000372 |
+| IFIT5 | 0,935 | 0,000099 |
+| OAS1 | 1,093 | 0,000230 |
+| USP18 | 0,909 | 0,000302 |
+| IFI35 | 0,438 | 0,011407 |
+
+Die ausgewählten Einträge entsprechen der bereits publiziert diskutierten IFN-bezogenen Gruppe. Sie erweitern das Netzwerk nicht um kausale Kanten: Eine unterschiedliche Gesamtproteinabundanz zeigt keine einzelne Signalübertragung.
+
+![Volcanoplot der eigenen Table-S11-Sekundäranalyse. Rot markiert sind Proteine mit BH-FDR kleiner 0,05; die x-Achse zeigt die Differenz der gelieferten normalisierten Werte zwischen T und U.](quantitative/table_s11_volcano.svg){fig-alt="Volcanoplot mit einer Verteilung um null und hervorgehobenen signifikanten positiven und negativen Differenzen."}
+
+Alle Resultate, die Probenzuordnung und die automatischen Prüfprotokolle liegen unter [`quantitative/`](quantitative/). Reproduzierbar ausführen lässt sich die Berechnung mit:
+
+```{.bash}
+Rscript quantitative/analyse_table_s11.R data/mmc9.xlsx data/mmc5.xlsx quantitative
+Rscript quantitative/validate_table_s11.R quantitative
+python3 quantitative/run_quantitative_qc.py data/mmc9.xlsx quantitative
+python3 quantitative/validate_outputs.py data/mmc9.xlsx quantitative
+```
+
 ## 4. Ein kleines Systemmodell zur Interpretation
 
 ### 4.1 Modellumfang und Darstellung
