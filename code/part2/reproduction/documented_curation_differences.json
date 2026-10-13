@@ -1,0 +1,206 @@
+{
+  "reviewed_on": "2026-10-11",
+  "policy": "Accept only these exact before/after file hashes. Any later difference requires separate review.",
+  "files": [
+    {
+      "path": "output/part2/milk_inventory/additional_candidates/target_pairs.tsv",
+      "status": "changed",
+      "baseline_sha256": "fc4851209d8ff2ecf7053409012cf3ead0fa329b2773a99fa4aead099e473025",
+      "replay_sha256": "1c811d26ab54758ad60807a421ce2aab19c452cd75b4de6e859e0283507ab832",
+      "reason": "Current editable source/curation notes postdate this historical table; preserve the old export.",
+      "changed_cells": [
+        {
+          "row": 7,
+          "column": "limits",
+          "before": "Studie nennt miR-2285o-3p; Abb. 2B zeigt eine längere 3′-Variante als unsere Inventarsequenz. Vollständige Mimic-/Supplementangabe noch offen. Abb. 3H zeigt artübergreifende Targetausrichtung, keine humane endogene Targetvalidierung.",
+          "after": "Studie nennt miR-2285o-3p; Abb. 2B zeigt eine längere 3′-Variante als unsere Inventarsequenz. Vollständige Mimic-/Supplementangabe noch offen. Abb. 3H zeigt artübergreifende Targetausrichtung. Reporter mit Yak-UTRs; unterschiedliche Yak-/Rinder-Vorläuferprozessierung in HeLa (Abb. 2h); keine humane Targetvalidierung."
+        },
+        {
+          "row": 8,
+          "column": "limits",
+          "before": "Studie nennt miR-2285o-3p; Abb. 2B zeigt eine längere 3′-Variante als unsere Inventarsequenz. Vollständige Mimic-/Supplementangabe noch offen. Abb. 3H zeigt artübergreifende Targetausrichtung, keine humane endogene Targetvalidierung.",
+          "after": "Studie nennt miR-2285o-3p; Abb. 2B zeigt eine längere 3′-Variante als unsere Inventarsequenz. Vollständige Mimic-/Supplementangabe noch offen. Abb. 3H zeigt artübergreifende Targetausrichtung. Reporter mit Yak-UTRs; unterschiedliche Yak-/Rinder-Vorläuferprozessierung in HeLa (Abb. 2h); keine humane Targetvalidierung."
+        },
+        {
+          "row": 9,
+          "column": "limits",
+          "before": "Studie nennt miR-2285o-3p; Abb. 2B zeigt eine längere 3′-Variante als unsere Inventarsequenz. Vollständige Mimic-/Supplementangabe noch offen. Abb. 3H zeigt artübergreifende Targetausrichtung, keine humane endogene Targetvalidierung.",
+          "after": "Studie nennt miR-2285o-3p; Abb. 2B zeigt eine längere 3′-Variante als unsere Inventarsequenz. Vollständige Mimic-/Supplementangabe noch offen. Abb. 3H zeigt artübergreifende Targetausrichtung. Reporter mit Yak-UTRs; unterschiedliche Yak-/Rinder-Vorläuferprozessierung in HeLa (Abb. 2h); keine humane Targetvalidierung."
+        }
+      ]
+    },
+    {
+      "path": "output/part2/milk_inventory/studies.tsv",
+      "status": "changed",
+      "baseline_sha256": "2da59b3458d0c516b86666e5263f80497c0fa8c4288cd6dc44d389f6f36fe920",
+      "replay_sha256": "c4d6e0bb5c98cd33f2d083241d53fc69547be363294dd4a5c55e64b3cf806a2f",
+      "reason": "Current editable source/curation notes postdate this historical table; preserve the old export.",
+      "changed_cells": [
+        {
+          "row": 2,
+          "column": "stand",
+          "before": "2026-10-08",
+          "after": "2026-10-09"
+        },
+        {
+          "row": 2,
+          "column": "Grenzen",
+          "before": "Molke zur RNA-Gewinnung lyophilisiert; kein Versuch zu handelsüblichem Milchpulver. Tabelle 5 ist eine Auswahl angereicherter miRNAs, kein vollständiges Inventar.",
+          "after": "Aus S2 abgeleitete CPM reproduzieren 210/200/249 und 188 gemeinsam. S2 ist bereits eine ausgewählte Autorenmatrix, kein neuer FASTQ-Replay. S5 als Rohzählwerte beschriftet, teilweise identisch mit Haupttabelle-CPM; bei neuen Vorhersagen Einheiten-/Probenzuordnung offen."
+        },
+        {
+          "row": 2,
+          "column": "Daten",
+          "before": "SRX1603675 laut Artikel; Vollständigkeit der zwölf Bibliotheken noch prüfen. S2/S4/S5 als XLSX identifiziert, Download fehlgeschlagen.",
+          "after": "S1/S2/S4/S5 am 09.10.2026 heruntergeladen; S2 enthält 255 bekannte Namen und 12 Proben. SRX1603675 bleibt als Rohsequenzzugang noch zu prüfen."
+        },
+        {
+          "row": 2,
+          "column": "Nächster Schritt",
+          "before": "S2-Rohzählwerte vollständig importieren; bekannte und neue Annotationen getrennt harmonisieren.",
+          "after": "Neue Kandidaten auf Annotation und tatsächliche Read-Sequenzen prüfen; S5-Einheiten und widersprüchliche S4-Sequenzzuordnung aufklären."
+        },
+        {
+          "row": 3,
+          "column": "Daten",
+          "before": "Supplementtabellen S2/S3 genannt; noch nicht importiert. Tabelle 1 mit positiven und Null-Read-Werten übernommen.",
+          "after": "S3: 245 Namen, 490 Read-Werte; positive Namen 213/230 und Readsummen 1.418.136/1.594.965 reproduziert. Kein Pulver-Inventar."
+        },
+        {
+          "row": 3,
+          "column": "Nächster Schritt",
+          "before": "Vollständige S2/S3 und produktspezifische Nachweisgrenzen beschaffen.",
+          "after": "Historische miRBase-13-Zuordnung und Readsequenzen klären; Produktarten weiterhin offen."
+        },
+        {
+          "row": 5,
+          "column": "Daten",
+          "before": "PRJNA656811 laut Artikel; Supplemente und FASTQ noch nicht neu importiert.",
+          "after": "S1–S8 geprüft. PRJNA656811: 28 zugeordnete bovine Runs, 9.733.700.428 Bytes komprimierte FASTQ. ENA-Analyseliste leer; keine Zählmatrix gefunden. Rohdaten nicht heruntergeladen."
+        },
+        {
+          "row": 5,
+          "column": "Nächster Schritt",
+          "before": "Probenmetadaten und miRNA-Zählmatrix prüfen; Sequenzidentitäten statt Artenpräfixe vergleichen.",
+          "after": "28 Archivproben mit Bos taurus bestätigt und den Supplementproben zugeordnet. Ursprüngliche UMI-Zählmatrix beschaffen oder Rohdatenanalyse vorbereiten; PAIRED-Metadaten bei einer FASTQ-Datei je Run zuerst klären."
+        },
+        {
+          "row": 6,
+          "column": "stand",
+          "before": "2026-10-08",
+          "after": "2026-10-09"
+        },
+        {
+          "row": 6,
+          "column": "Grenzen",
+          "before": "295 ist keine rein bovine Zahl. Bovine Annotation der Ziegen-Reads belegt keine bovine Herkunft. Top-36-Tabelle ersetzt keine vollständige Kuhmatrix.",
+          "after": "793 annotierte Zeilen sind kein Nachweis von 793 miRNAs. Bei Kühen 247 Namen mit positivem gerundetem TPM; 190 erfüllen unsere Regel >1 TPM in mindestens 2/5 Kühen. GEO enthält 296 Zeilen gegenüber 295 im Artikel; Artikelmittelwerte nicht reproduziert."
+        },
+        {
+          "row": 6,
+          "column": "Daten",
+          "before": "GSE227559 und Figshare 21997106 laut Artikel; noch nicht heruntergeladen.",
+          "after": "Figshare 21997106 und GSE227559 am 09.10.2026 heruntergeladen; sämtliche 2664 TPM-Werte der GEO-Teilmenge stimmen mit Figshare überein."
+        },
+        {
+          "row": 6,
+          "column": "Nächster Schritt",
+          "before": "Vollständige Kuh-Zählmatrix aus GEO/Figshare importieren.",
+          "after": "Artikel-/Datendiskrepanzen und 17 von der angegebenen miRBase-20-Referenz abweichende Namens-/Sequenzzuordnungen prüfen; bei Kandidaten Read-Sequenzen untersuchen."
+        },
+        {
+          "row": 7,
+          "column": "Nächster Schritt",
+          "before": "Vollständige Matrix und Annotationsdetails suchen; neu vorhergesagte Sequenzen separat prüfen.",
+          "after": "Haupttextbefunde verwenden; keine prozessspezifische Gesamtzahl aus 793 ableiten. Optional Datenanfrage nach Nutzerauftrag."
+        }
+      ]
+    },
+    {
+      "path": "output/part2/milk_inventory/target_screen/candidates.tsv",
+      "status": "changed",
+      "baseline_sha256": "35e51fa2bfa64c0a977015934d60fbc78a1b6917bf1cf57f0457b12ff5ec6b84",
+      "replay_sha256": "712b48dea576c578b1fd94098104ad4ebfb07f2cb2ce1ef57b3313aa43a92c4b",
+      "reason": "Current editable source/curation notes postdate this historical table; preserve the old export.",
+      "changed_cells": [
+        {
+          "row": 2,
+          "column": "Gefundener Ansatz",
+          "before": "Bovines RBBP6 als Vorhersage; lymphozytäres Expressionsprofil",
+          "after": "Bovines RBBP6 als Vorhersage; Expressionsprofil von Bullenspermien"
+        },
+        {
+          "row": 2,
+          "column": "Datenlage und offene Prüfung",
+          "before": "Bovines miRNA-/mRNA-Profil; genaue Kandidatenzuordnung in Supplements prüfen. [Quelle](https://doi.org/10.3389/fvets.2022.993561)",
+          "after": "Bovines Spermien-miRNA-/mRNA-Profil; genaue Kandidatenzuordnung in Supplements prüfen. [Quelle](https://doi.org/10.3389/fvets.2022.993561)"
+        },
+        {
+          "row": 3,
+          "column": "Datenlage und offene Prüfung",
+          "before": "Vorhandener Volltext zu Melaninbildung; Annotation, Reporter und Effektdosen offen. [Quelle](https://doi.org/10.3390/cells10112848)",
+          "after": "WT-Ausschnitt passt zu humanem RAP1A; miRNA-Zeichnung am 5′-Ende abweichend. Vollständiges Insert, Mimicsequenz/-dosis und Annotation offen. [Quelle](https://doi.org/10.3390/cells10112848)"
+        }
+      ]
+    },
+    {
+      "path": "output/part2/aldehoff_timecourse/ooxml_verification.json",
+      "status": "changed",
+      "baseline_sha256": "d1432a3184c169e8f1eef56a95be166bdb82c0e2bab51a7ae6e845650655aab6",
+      "replay_sha256": "12ada2ca82e23e79144431160d0f9264a4c0ba648b5fb2afaff262f4b185cc61",
+      "reviewed_on": "2026-10-12",
+      "reviewed_status": "metadata_changed",
+      "reason": "Only verification-script and upstream provenance-manifest hashes changed. All 177 checked cells, source-workbook hashes and verification results agree.",
+      "changed_fields": [
+        {
+          "field": "inputs.code/part2/analysis/omics/verify_aldehoff_cells.py",
+          "before": "3314069d1fe40e3cede3c23808f0d5ee2a256c9ca175aac7c18fa0862ae65e6b",
+          "after": "7558150cf5e0b640e4a53544b42859f9044ba1bb91a334a799d5bd5a144cc996"
+        },
+        {
+          "field": "inputs.output/part2/aldehoff_timecourse/manifest.json",
+          "before": "3025f1b9859dbe8427e14974a4c6fb19f4694eb2915d49e5aaa58256e9a31e47",
+          "after": "9e538b468445046938a04c60bdfb43d6b3d3e3b2c2e5e8db33198730d3423ffd"
+        }
+      ]
+    },
+    {
+      "path": "output/part2/milk_inventory/fulltext_review/sequence_audit.json",
+      "status": "changed",
+      "baseline_sha256": "5ae0a90c93bc943c8803fde5157415367a1a136738a33d74d7366468a4a9f74d",
+      "replay_sha256": "a8ffb93b66d8fdef1694cf72f2a8b3afc19278ed5addb45776175935de55679d",
+      "reviewed_on": "2026-10-12",
+      "reviewed_status": "metadata_changed",
+      "reason": "Formatting changed only the two source-code hashes; sequence audit findings are byte-for-byte equivalent after removing these fields.",
+      "changed_fields": [
+        {
+          "field": "code_sha256",
+          "before": "c452c4e6b8252fe32c9d75139438320eb826f2eaff07fd60076cf53f1858d2ff",
+          "after": "f3e870cf5af20cc30c653d1ca10f067fa55ed3e755add45048cfc807e123160a"
+        },
+        {
+          "field": "seed_code_sha256",
+          "before": "9ad7364a9f9b3537f337d077f7de5700ac1831aec14a45390c7635422c7b0c24",
+          "after": "ea3030f1999d8bc32d2442b21a96321a7398cd1cb3073fb3939584d9fd99f375"
+        }
+      ]
+    },
+    {
+      "path": "output/part2/sources/Quellen.tsv",
+      "status": "changed",
+      "baseline_sha256": "63ce175ba10f2fff05ca06805093efab827afd6867118a2c501dff18b78feb01",
+      "replay_sha256": "4cd6172e6883983fbb01fbe7e34bcf1ffbcf93ae3ce1197a3b31039ce2eccd24",
+      "reviewed_on": "2026-10-12",
+      "reviewed_status": "documented_curation_update",
+      "reason": "Previously updated Benmoussa 2020 source note records locally available full text. The older source export is preserved; no study or model result changed.",
+      "changed_fields": [
+        {
+          "row": 22,
+          "column": "Berichtszugang",
+          "before": "Zugangsstatus nicht gesondert geprüft; keine Volltextprüfung dokumentiert",
+          "after": "Volltext lokal vorhanden; gezielte Inventarprüfung vom 08.10.2026 dokumentiert; nicht im Zehnstudienvergleich"
+        }
+      ]
+    }
+  ]
+}

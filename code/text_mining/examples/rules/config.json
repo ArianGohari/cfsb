@@ -1,0 +1,30 @@
+{
+  "processing_mode": "rules",
+  "profile": "legacy_clock",
+  "synthetic_demo": true,
+  "offline": true,
+  "search": {
+    "queries": [],
+    "mode": "synthetic_demo"
+  },
+  "seeds": [
+    {
+      "doi": "10.9999/litmine.synthetic",
+      "title": "Circadian checkpoint synthetic test",
+      "abstract": "Synthetic test of PER2 and TP53.",
+      "fulltext_path": "fulltext.txt",
+      "license": "synthetic local test data, not an actual publication"
+    }
+  ],
+  "annotations": {
+    "DOI:10.9999/litmine.synthetic": "annotations.json"
+  },
+  "pubtator": false,
+  "chunking": {
+    "size": 6000,
+    "overlap": 500
+  },
+  "graph": {
+    "max_nodes": 500
+  }
+}
